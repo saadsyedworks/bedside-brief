@@ -21,19 +21,19 @@
 - [x] `validate.py`: regex-scan rendered card for numbers; every number must exist in a linked verified record; else block and log.
 - [x] `bayes.py`: deterministic pre/post-test calculator (optional view).
 - [x] `api.py` + single-page UI: input box, one button, ASK/EXAMINE/POCUS sections, evidence expands on demand. Copy: "Review. Pocket the phone. See the patient."
-- [ ] Tests: schema validation, retrieval determinism, ranker id-containment, validator blocking, render fidelity, perturbation/noise fixtures. code-reviewer pass.
+- [x] Tests (155 total incl. freeze guard): schema validation, retrieval determinism, ranker id-containment, validator blocking, render fidelity, perturbation/noise fixtures. code-reviewer pass.
 
 ## Phase 3 — Evaluation (Day 4–5). GATE: freeze #2, then judging queue.
 - [ ] Map free-text targets → record ids (`reference_targets_mapped`); unmapped targets counted for library coverage. Commit → **freeze #2**.
-- [ ] `eval/arms.py`: A (full), B (retrieval-only, fixed order, truncated), C (generic LLM prompt, same model, parsed by same item parser).
-- [ ] `eval/metrics.py`: every mechanical metric in `evaluation_rubric.md`; ECG sensitivity analysis; **must-have recall stratified quantified vs not_quantified (gate ruling 3); MAR-review-off-bedside sensitivity analysis (gate ruling 4)**.
-- [ ] `eval/judging_export.py`: shuffled, arm-blinded item list (CSV) for owner relevance/safety scoring; `judging_import.py`.
+- [x] `eval/arms.py`: A (full), B (retrieval-only, fixed order, truncated), C (generic LLM prompt, same model, parsed by same item parser).
+- [x] `eval/metrics.py`: every mechanical metric in `evaluation_rubric.md`; ECG sensitivity analysis; **must-have recall stratified quantified vs not_quantified (gate ruling 3); MAR-review-off-bedside sensitivity analysis (gate ruling 4)**.
+- [x] `eval/judging_export.py`: shuffled, arm-blinded item list (CSV) for owner relevance/safety scoring; `judging_import.py`.
 - [ ] Run all arms on frozen set; write `eval/runs/{timestamp}/`. Error analysis: top 5 failure modes of A with examples.
 - [ ] Owner gate: judging queue (default 12 cases × 3 arms; all cases if owner has time).
 
 ## Phase 4 — Fix + report (Day 6)
 - [ ] Fix high-impact failure modes in pipeline only. Re-run frozen set. Report both runs.
-- [ ] `eval/report.py`: tables + figure (bedside share A vs C; recall A vs B vs C).
+- [x] `eval/report.py`: tables + figure (bedside share A vs C; recall A vs B vs C).
 - [ ] Draft `abstract.md` (≤400 words: background, innovation, methods, results, limitations, conclusion). Every number annotated with its source file path in a comment. Owner gate.
 
 ## Phase 5 — Submit (Day 7)
