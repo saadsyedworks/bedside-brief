@@ -22,7 +22,7 @@
       "must_have": false
     },
     {
-      "item": "Focal consolidation signs: egophony, bronchial breath sounds, dullness, focal crackles",
+      "item": "Focal consolidation: egophony, bronchial breath sounds, dullness to percussion; Focal crackles",
       "rationale": "Asymmetric consolidation findings are the best bedside predictors of pneumonia (Metlay 1997 RCE); focal crackles folded in as the same construct",
       "must_have": true
     },
@@ -73,6 +73,6 @@
     "input_oneliner": "Seventy-one year old retired librarian, second day after knee replacement surgery, catheter still in, husband at bedside, spiked to 38.6 tonight, coughing a little, otherwise says she feels fine",
     "expected_change": "None. Card should be substantially identical to base."
   },
-  "authored_at": "",
+  "authored_at": "2026-09-10T02:23:44+00:00",
   "frozen_commit": ""
 }

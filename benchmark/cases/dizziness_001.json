@@ -66,6 +66,6 @@
     "input_oneliner": "77 year old retired accountant, hypertension and atrial fibrillation, blood thinner on hold for a GI bleed, son at bedside, constant spinning since about 2 AM with vomiting, unable to walk to the toilet, blood pressure 168/94",
     "expected_change": "None. Card should be substantially identical to base."
   },
-  "authored_at": "",
+  "authored_at": "2026-09-10T02:23:44+00:00",
   "frozen_commit": ""
 }

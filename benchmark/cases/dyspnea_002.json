@@ -28,8 +28,8 @@
     },
     {
       "item": "Wheeze and prolonged expiratory phase on auscultation",
-      "rationale": "Wheeze modestly raises likelihood of obstruction",
-      "must_have": true
+      "rationale": "Wheeze modestly raises likelihood of obstruction; already reported by nursing, so confirmatory",
+      "must_have": false
     },
     {
       "item": "Ask about change in sputum volume and purulence and increase in dyspnea over baseline (Anthonisen criteria)",
@@ -67,9 +67,9 @@
   "underspecified_flag_expected": false,
   "perturbation_pair": {
     "case_id": "dyspnea_002_p1",
-    "changed_feature": "presenting symptom: wheeze -> sudden right-sided pleuritic chest pain",
+    "changed_feature": "presenting symptom: wheeze -> sudden right-sided chest pain",
     "input_oneliner": "72F, 50 pack-year smoker, day 2 admit for pyelonephritis, sudden right-sided chest pain and short of breath since midnight, sat 90% on 2L",
-    "expected_change": "Compare breath sounds side to side; percuss for unilateral hyperresonance becomes must_have and pneumothorax rises to top of differential; COPD history remains must_have; Forced expiratory time and Wheeze drop to should-still-include; Anthonisen sputum question drops; Calf circumference asymmetry >3 cm (pulmonary embolism) is a new item."
+    "expected_change": "Compare breath sounds side to side; percuss for unilateral hyperresonance becomes must_have and pneumothorax rises to top of differential; COPD history remains must_have; Forced expiratory time drops to should-still-include; Wheeze remains should-still-include; Anthonisen sputum question drops; Calf circumference asymmetry >3 cm (pulmonary embolism) is a new item."
   },
   "noise_variant": {
     "case_id": "dyspnea_002_n1",
@@ -77,6 +77,6 @@
     "input_oneliner": "72 year old woman, former hairdresser, about fifty pack-years of smoking, admitted two days ago with pyelonephritis, daughter at bedside, nurse reports wheezing and dyspnea since roughly midnight, saturation 90 percent on 2 liters",
     "expected_change": "None. Card should be substantially identical to base."
   },
-  "authored_at": "",
+  "authored_at": "2026-09-10T02:23:44+00:00",
   "frozen_commit": ""
 }

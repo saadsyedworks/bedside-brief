@@ -32,7 +32,7 @@
       "must_have": true
     },
     {
-      "item": "Lung crackles (bibasilar)",
+      "item": "Bibasilar crackles",
       "rationale": "Persistent pulmonary congestion supports cardiorenal physiology",
       "must_have": false
     },
@@ -76,7 +76,7 @@
     "case_id": "aki_001_p1",
     "changed_feature": "comorbidity: HFrEF EF 25% -> cirrhosis with ascites",
     "input_oneliner": "66M cirrhosis with ascites, IV diuresis day 3, Cr 1.1 to 2.0 this AM, UOP down, BP 96/60",
-    "expected_change": "Hepatorenal syndrome and SBP enter the top differential; ascites exam (shifting dullness, fluid wave), abdominal tenderness with fever check, and asterixis/mental status become must-have; ask about recent large-volume paracentesis and lactulose or diuretic doses rises; JVP and abdominojugular reflux drop to should-still-include; lung crackles, S3 gallop, and peripheral edema drop."
+    "expected_change": "Hepatorenal syndrome and SBP enter the top differential; ascites exam (shifting dullness, fluid wave), abdominal tenderness with fever check, and asterixis/mental status become must-have; ask about recent large-volume paracentesis and lactulose or diuretic doses rises; JVP and abdominojugular reflux drop to should-still-include; Bibasilar crackles, S3 gallop, and peripheral edema drop."
   },
   "noise_variant": {
     "case_id": "aki_001_n1",
@@ -84,6 +84,6 @@
     "input_oneliner": "Sixty-six year old man, retired postal carrier, heart failure with EF twenty-five percent on day three of IV diuretics, creatinine jumped from 1.1 to 2.0 this morning, urine output tapering, BP 96 over 60, wife at bedside",
     "expected_change": "None. Card should be substantially identical to base."
   },
-  "authored_at": "",
+  "authored_at": "2026-09-10T02:23:44+00:00",
   "frozen_commit": ""
 }

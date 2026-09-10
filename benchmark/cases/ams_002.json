@@ -27,8 +27,13 @@
       "must_have": true
     },
     {
-      "item": "Ask about melena and Digital rectal examination (DRE) for melena",
-      "rationale": "GI bleeding (one construct: history plus exam) is a precipitant that must be found and treated",
+      "item": "Ask about melena or hematemesis",
+      "rationale": "Reported melena carries a high LR for upper GI bleeding, a treatable precipitant of encephalopathy",
+      "must_have": false
+    },
+    {
+      "item": "Digital rectal examination (DRE) for melena",
+      "rationale": "Melena on examination has a very high LR for upper GI bleeding and does not depend on a reliable history in a somnolent patient",
       "must_have": true
     },
     {
@@ -50,11 +55,6 @@
       "item": "Focal neurologic screen: Pronator drift, gaze deviation, pupils",
       "rationale": "Excludes a focal lesion such as subdural hematoma in a coagulopathic patient",
       "must_have": false
-    },
-    {
-      "item": "Ask about recent falls or head strike",
-      "rationale": "Raises the probability of subdural hematoma and the need for imaging",
-      "must_have": false
     }
   ],
   "reference_targets_mapped": [],
@@ -75,7 +75,7 @@
     "case_id": "ams_002_p1",
     "changed_feature": "last drink 3 weeks ago -> last drink the morning of admission (~36 h ago) (single swap: alcohol timing)",
     "input_oneliner": "58M alcohol cirrhosis admitted yesterday for ascites, last drink morning of admission, tonight somnolent, oriented to person only, HR 78, afebrile",
-    "expected_change": "Withdrawal and Wernicke encephalopathy rise: the time-of-last-drink/CIWA-Ar item and examination for ophthalmoplegia, nystagmus, and gait ataxia become must_have; Asterixis, Abdominal tenderness (SBP), and the melena/DRE item remain must_have; the constipation/lactulose question and Medication review (MAR) remain should-still-include."
+    "expected_change": "Withdrawal and Wernicke encephalopathy rise: the time-of-last-drink/CIWA-Ar item and examination for ophthalmoplegia, nystagmus, and gait ataxia become must_have; Asterixis, Abdominal tenderness (SBP), and Digital rectal examination (DRE) for melena remain must_have; the melena question, the constipation/lactulose question, and Medication review (MAR) remain should-still-include."
   },
   "noise_variant": {
     "case_id": "ams_002_n1",
@@ -83,6 +83,6 @@
     "input_oneliner": "58-year-old man, trucker, brother at bedside; cirrhosis from alcohol, came in yesterday with a belly full of fluid; family says he quit drinking three weeks ago; tonight very sleepy, only knows his name; pulse 78, no fever",
     "expected_change": "None. Card should be substantially identical to base."
   },
-  "authored_at": "",
+  "authored_at": "2026-09-10T02:23:44+00:00",
   "frozen_commit": ""
 }

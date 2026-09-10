@@ -78,6 +78,6 @@
     "input_oneliner": "58 year old diabetic man, long-haul trucker, admitted for DKA which has cleared, now febrile to 39.2 with a red swollen left shin; nurse feels his pain is more than the leg looks, wife asking questions",
     "expected_change": "None. Card should be substantially identical to base."
   },
-  "authored_at": "",
+  "authored_at": "2026-09-10T02:23:44+00:00",
   "frozen_commit": ""
 }

@@ -76,7 +76,7 @@
     "case_id": "hypotension_002_p1",
     "changed_feature": "anticoagulant exposure -> loop-diuretic exposure (mechanism of volume loss); AF, admission, vitals kept verbatim",
     "input_oneliner": "Cross-cover: 63M with AF, not anticoagulated, on IV furosemide BID, admitted with CAP, day 2, BP 88/54, HR 118, pale and lightheaded when he stood to void",
-    "expected_change": "Non-hemorrhagic hypovolemia rises: Dry axilla / mucous membranes and asking about oral intake, vomiting, or diarrhea become must_have; the melena question, Digital rectal examination (DRE), and the prior-GI-bleed history drop to should-still-include; the conditional Orthostatic vital signs item, Conjunctival pallor, and Medication review (MAR) remain."
+    "expected_change": "Non-hemorrhagic hypovolemia rises: Dry axilla / mucous membranes and asking about oral intake, vomiting, or diarrhea become must_have; the melena question and Digital rectal examination (DRE) drop to should-still-include; the prior-GI-bleed history, the conditional Orthostatic vital signs item, Conjunctival pallor, and Medication review (MAR) remain."
   },
   "noise_variant": {
     "case_id": "hypotension_002_n1",
@@ -84,6 +84,6 @@
     "input_oneliner": "63-year-old man, an accountant, daughter phoned the desk; takes apixaban for atrial fibrillation; second day in with pneumonia; blood pressure 88/54, pulse 118, looks pale and got lightheaded standing up to use the urinal",
     "expected_change": "None. Card should be substantially identical to base."
   },
-  "authored_at": "",
+  "authored_at": "2026-09-10T02:23:44+00:00",
   "frozen_commit": ""
 }

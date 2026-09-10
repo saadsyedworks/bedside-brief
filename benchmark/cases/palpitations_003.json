@@ -72,6 +72,6 @@
     "input_oneliner": "Thirty-one-year-old woman, elementary school teacher, in bed 14 for a leg cellulitis; says for a few weeks her heart has been racing and skipping and she has lost about 5 kg; pulse 108 and regular, no fever tonight",
     "expected_change": "None. Card should be substantially identical to base."
   },
-  "authored_at": "",
+  "authored_at": "2026-09-10T02:23:44+00:00",
   "frozen_commit": ""
 }

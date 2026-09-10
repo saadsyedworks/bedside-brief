@@ -73,7 +73,7 @@
     "case_id": "weakness_003_p1",
     "changed_feature": "no focal finding -> PT observed new right arm drift",
     "input_oneliner": "82F hospital day 6 for UTI, PT reports 'too weak to walk today', PT noted the right arm drifting down when she held both up",
-    "expected_change": "Underspecified flag should clear; stroke becomes the leading differential; pronator drift confirmation, facial symmetry, speech/language testing, and last-known-well time become must-have; proximal strength testing, medication review, and the refeeding question drop to should-still-include."
+    "expected_change": "Underspecified flag should clear; stroke becomes the leading differential; Pronator drift remains must-have; Facial symmetry, speech/language testing, and last-known-well time become must-have; proximal strength testing drops to should-still-include; medication review and the refeeding question remain should-still-include."
   },
   "noise_variant": {
     "case_id": "weakness_003_n1",
@@ -81,6 +81,6 @@
     "input_oneliner": "Rm 6-4, eighty-two year old woman, hospital day six for a urinary infection, granddaughter visiting, physical therapy came by and reports she was too weak to walk today, she has no other complaints",
     "expected_change": "None. Card should be substantially identical to base."
   },
-  "authored_at": "",
+  "authored_at": "2026-09-10T02:23:44+00:00",
   "frozen_commit": ""
 }

@@ -78,6 +78,6 @@
     "input_oneliner": "Sixty-two year old woman, diabetic, in for heart failure flare, daughter at bedside, developed right upper belly pain with repeated vomiting about six hours ago after her evening meal, temp 38.4, pulse 104",
     "expected_change": "None. Card should be substantially identical to base."
   },
-  "authored_at": "",
+  "authored_at": "2026-09-10T02:23:44+00:00",
   "frozen_commit": ""
 }

@@ -73,6 +73,6 @@
     "input_oneliner": "Sixty-eight year old gentleman, retired mechanic, room 427, known heart failure with EF around 30 percent, in for leg cellulitis, received three liters of IV fluid yesterday, wife reports he is breathless tonight, saturation 89 percent on room air",
     "expected_change": "None. Card should be substantially identical to base."
   },
-  "authored_at": "",
+  "authored_at": "2026-09-10T02:23:44+00:00",
   "frozen_commit": ""
 }

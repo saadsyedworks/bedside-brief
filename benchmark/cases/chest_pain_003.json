@@ -52,8 +52,8 @@
       "must_have": false
     },
     {
-      "item": "Compare breath sounds side to side; percuss for unilateral hyperresonance",
-      "rationale": "Screens for pneumothorax as an alternative cause of pleuritic pain",
+      "item": "Compare breath sounds side to side; percuss for unilateral hyperresonance; palpate for subcutaneous emphysema or Hamman crunch",
+      "rationale": "Screens for pneumothorax and post-emetic esophageal injury (extra-alveolar air signs) as alternative causes of pleuritic pain",
       "must_have": false
     }
   ],
@@ -83,6 +83,6 @@
     "input_oneliner": "38 year old man, high-school math teacher, admitted with acute kidney injury after gastroenteritis, bed 3 by the nursing station, sharp central chest pain since this evening that varies with breathing and position, pulse 96, no fever",
     "expected_change": "None. Card should be substantially identical to base."
   },
-  "authored_at": "",
+  "authored_at": "2026-09-10T02:23:44+00:00",
   "frozen_commit": ""
 }

@@ -84,6 +84,6 @@
     "input_oneliner": "Eighty-four-year-old woman, room 618, retired seamstress, daughter staying overnight; mild dementia at baseline; day two waiting for hip fracture surgery; tonight pulling at her IV, does not know where she is; temp 37.9, HR 98, sats 94%",
     "expected_change": "None. Card should be substantially identical to base."
   },
-  "authored_at": "",
+  "authored_at": "2026-09-10T02:23:44+00:00",
   "frozen_commit": ""
 }

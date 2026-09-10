@@ -77,6 +77,6 @@
     "input_oneliner": "45-year-old man, an electrician, wife at the bedside; had an anterior MI a few years ago (EF ~35%); in for a chest-pain rule-out; abrupt regular fast heartbeat started 20 minutes ago; HR 170, BP 104/68, lightheaded but talking normally",
     "expected_change": "None. Card should be substantially identical to base."
   },
-  "authored_at": "",
+  "authored_at": "2026-09-10T02:23:44+00:00",
   "frozen_commit": ""
 }

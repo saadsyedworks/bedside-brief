@@ -86,6 +86,6 @@
     "input_oneliner": "Seventy-two-year-old man, room 512, retired bus driver, third day after his hip fracture was fixed; has a long-term Foley; tonight temp 38.4, BP 86/50, pulse 112, and the nurse says he is confused, which is new for him",
     "expected_change": "None. Card should be substantially identical to base."
   },
-  "authored_at": "",
+  "authored_at": "2026-09-10T02:23:44+00:00",
   "frozen_commit": ""
 }

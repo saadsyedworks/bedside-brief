@@ -79,6 +79,6 @@
     "input_oneliner": "71 year old gentleman, retired machinist, wife present, history of heart attack and high blood pressure; both legs increasingly swollen over about five days, has been sleeping in his recliner, gained 4 kg, sat 93% on room air",
     "expected_change": "None. Card should be substantially identical to base."
   },
-  "authored_at": "",
+  "authored_at": "2026-09-10T02:23:44+00:00",
   "frozen_commit": ""
 }

@@ -78,6 +78,6 @@
     "input_oneliner": "79 year old lady, third day after hip fracture surgery, family in the room, abrupt shortness of breath with sharp right-sided pain on inspiration starting about twenty minutes ago, heart rate 112, RR 26, sat 91 percent room air",
     "expected_change": "None. Card should be substantially identical to base."
   },
-  "authored_at": "",
+  "authored_at": "2026-09-10T02:23:44+00:00",
   "frozen_commit": ""
 }

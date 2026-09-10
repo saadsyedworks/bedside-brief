@@ -84,6 +84,6 @@
     "input_oneliner": "Call from the 5-North charge nurse about an 80-year-old man in bed 22, retired farmer, wife went home an hour ago; he came in this afternoon and now 'isn't himself'; RN says vitals look fine, nothing else known",
     "expected_change": "None. Card should be substantially identical to base."
   },
-  "authored_at": "",
+  "authored_at": "2026-09-10T02:23:44+00:00",
   "frozen_commit": ""
 }

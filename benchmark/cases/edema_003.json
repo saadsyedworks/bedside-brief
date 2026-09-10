@@ -66,6 +66,6 @@
     "input_oneliner": "Forty-eight-year-old woman in 7-West bed 3 (nurse Maria calling), admitted four days ago with pneumonia; since this afternoon her right calf is swollen and sore; heart rate 96, no fever, saturating 96%",
     "expected_change": "None. Card should be substantially identical to base."
   },
-  "authored_at": "",
+  "authored_at": "2026-09-10T02:23:44+00:00",
   "frozen_commit": ""
 }

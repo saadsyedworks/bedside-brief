@@ -78,6 +78,6 @@
     "input_oneliner": "Rm 7-14: 79yo male retired machinist, afib no blood thinners, abrupt severe pain all over abdomen for the last hour, nurse thinks abdomen soft, pulse 118 and pressure 128/76",
     "expected_change": "None. Card should be substantially identical to base."
   },
-  "authored_at": "",
+  "authored_at": "2026-09-10T02:23:44+00:00",
   "frozen_commit": ""
 }

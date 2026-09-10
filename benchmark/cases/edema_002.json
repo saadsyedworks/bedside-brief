@@ -72,6 +72,6 @@
     "input_oneliner": "Fifty-four-year-old man, works as a line cook, brought in by his brother; drinks heavily; belly has been getting bigger and both legs swelling for two months; came in because he felt too weak to work; BP 106/62, no fever",
     "expected_change": "None. Card should be substantially identical to base."
   },
-  "authored_at": "",
+  "authored_at": "2026-09-10T02:23:44+00:00",
   "frozen_commit": ""
 }

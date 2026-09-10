@@ -77,6 +77,6 @@
     "input_oneliner": "Sixty-eight-year-old woman in room 731 (retired librarian, daughter at bedside), hypertension, sleep apnea, in for COPD flare; woke up with a fast, irregular heartbeat; tele HR 130s, BP 132/84, denies chest pain",
     "expected_change": "None. Card should be substantially identical to base."
   },
-  "authored_at": "",
+  "authored_at": "2026-09-10T02:23:44+00:00",
   "frozen_commit": ""
 }

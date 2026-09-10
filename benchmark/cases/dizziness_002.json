@@ -70,6 +70,6 @@
     "input_oneliner": "58 year old woman, primary school teacher, one day after laparoscopic gallbladder removal, husband present, describes about twenty seconds of the room spinning every time she turns over in bed, feels sick, no headache, vital signs within normal limits",
     "expected_change": "None. Card should be substantially identical to base."
   },
-  "authored_at": "",
+  "authored_at": "2026-09-10T02:23:44+00:00",
   "frozen_commit": ""
 }

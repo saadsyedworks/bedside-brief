@@ -5,7 +5,7 @@
   "optional_context": {
     "age": 24,
     "sex": "M",
-    "comorbidity": "smoker, tall thin habitus",
+    "comorbidity": "smoker",
     "timing": "sudden, 30 minutes ago",
     "objective": "HR 108, RR 24, SpO2 94% RA"
   },
@@ -17,8 +17,8 @@
   ],
   "reference_targets_freetext": [
     {
-      "item": "Unilateral absent/decreased breath sounds with hyperresonance to percussion on the affected side",
-      "rationale": "Unilateral loss of breath sounds with hyperresonance is the specific bedside sign of pneumothorax",
+      "item": "Compare breath sounds side to side; percuss for unilateral hyperresonance (pneumothorax)",
+      "rationale": "Unilateral diminished breath sounds with hyperresonance is the specific bedside sign of pneumothorax (trauma cohorts: Chen 1997, Bokhari 2002)",
       "must_have": true
     },
     {
@@ -69,14 +69,14 @@
     "case_id": "chest_pain_002_p1",
     "changed_feature": "added fever (T 38.8 C)",
     "input_oneliner": "24M smoker admitted for IV antibiotics for cellulitis, sudden left-sided pleuritic chest pain and dyspnea 30 min ago, T 38.8, HR 108, RR 24, sat 94% RA",
-    "expected_change": "Focal consolidation signs (egophony, bronchial breath sounds, dullness; Focal crackles) and ask about productive cough/rigors become must_have and pneumonia rises; Unilateral absent/decreased breath sounds with hyperresonance remains must_have; chest-wall palpation drops."
+    "expected_change": "Focal consolidation: egophony, bronchial breath sounds, dullness to percussion; Focal crackles and Ask about productive cough and rigors are new items and become must_have; pneumonia rises; Compare breath sounds side to side; percuss for unilateral hyperresonance remains must_have; chest-wall palpation drops."
   },
   "noise_variant": {
     "case_id": "chest_pain_002_n1",
     "changed_feature": "wording and non-contributory detail",
-    "input_oneliner": "Twenty-four year old man, smokes, lanky build, in for IV antibiotics for leg cellulitis, girlfriend present, abrupt sharp left-sided chest pain on breathing plus breathlessness starting half an hour ago, pulse 108, RR 24, sat 94 percent room air",
+    "input_oneliner": "Twenty-four year old man, smokes, in for IV antibiotics for leg cellulitis, girlfriend present, abrupt sharp left-sided chest pain on breathing plus breathlessness starting half an hour ago, pulse 108, RR 24, sat 94 percent room air",
     "expected_change": "None. Card should be substantially identical to base."
   },
-  "authored_at": "",
+  "authored_at": "2026-09-10T02:23:44+00:00",
   "frozen_commit": ""
 }

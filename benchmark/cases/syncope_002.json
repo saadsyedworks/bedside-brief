@@ -72,6 +72,6 @@
     "input_oneliner": "81 year old woman, widowed, on sotalol for atrial fibrillation, night nurse found her on the floor beside the bed, cannot recall the event, no warning, telemetry leads were disconnected at the time, potassium 3.1 this morning",
     "expected_change": "None. Card should be substantially identical to base."
   },
-  "authored_at": "",
+  "authored_at": "2026-09-10T02:23:44+00:00",
   "frozen_commit": ""
 }

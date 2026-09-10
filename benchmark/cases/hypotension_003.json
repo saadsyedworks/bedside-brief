@@ -83,6 +83,6 @@
     "input_oneliner": "Seventy-year-old woman, former nurse, in the oncology bed by the window, known metastatic breast cancer, came in for shortness of breath; tonight BP 84/56, pulse 122, sats 91% on 2 liters, and the RN thinks she looks worse",
     "expected_change": "None. Card should be substantially identical to base."
   },
-  "authored_at": "",
+  "authored_at": "2026-09-10T02:23:44+00:00",
   "frozen_commit": ""
 }

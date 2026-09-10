@@ -76,6 +76,6 @@
     "input_oneliner": "58 year old man, long-haul truck driver, admitted with a COPD exacerbation, murmur documented on the admission exam, passed out in the corridor during a physio walk with no warning, therapist witnessed it, pulse 88, blood pressure 128/70",
     "expected_change": "None. Card should be substantially identical to base."
   },
-  "authored_at": "",
+  "authored_at": "2026-09-10T02:23:44+00:00",
   "frozen_commit": ""
 }

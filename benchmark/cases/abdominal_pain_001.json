@@ -77,6 +77,6 @@
     "input_oneliner": "Bed 12-3, thirty-four year old male warehouse worker in for cellulitis of the leg, hospital day 2, belly pain around the navel since dinner now sitting right lower side, no appetite, temp 38.1",
     "expected_change": "None. Card should be substantially identical to base."
   },
-  "authored_at": "",
+  "authored_at": "2026-09-10T02:23:44+00:00",
   "frozen_commit": ""
 }

@@ -73,7 +73,7 @@
     "case_id": "aki_002_p1",
     "changed_feature": "medication: diphenhydramine qhs -> ketorolac scheduled x3 days for pleuritic pain",
     "input_oneliner": "78M BPH admitted for CAP, on scheduled ketorolac x3 days for pleuritic pain, no urine output x8h per RN, Cr up 0.5 overnight",
-    "expected_change": "NSAID-related prerenal AKI, ATN, and AIN rise; orthostatic vital signs and medication review become the top must-haves; bladder percussion/palpation remains must-have as a reversible cause; ask about new rash, fever timing, and arthralgia for AIN rises; voiding history and the anticholinergic focus of the medication review drop."
+    "expected_change": "NSAID-related prerenal AKI, ATN, and AIN rise; Orthostatic vital signs and Medication review (MAR) remain must-have and lead; Bladder percussion/palpation for retention remains must-have as a reversible cause; ask about new rash, fever timing, and arthralgia for AIN becomes must-have; the voiding history and the anticholinergic focus of the medication review drop."
   },
   "noise_variant": {
     "case_id": "aki_002_n1",
@@ -81,6 +81,6 @@
     "input_oneliner": "Rm 2-19: 78 y/o M, former bus driver, BPH, in w/ pneumonia, gets diphenhydramine at bedtime, nurse reports zero urine in 8 hrs, creatinine climbed 0.5 since yesterday",
     "expected_change": "None. Card should be substantially identical to base."
   },
-  "authored_at": "",
+  "authored_at": "2026-09-10T02:23:44+00:00",
   "frozen_commit": ""
 }

@@ -83,6 +83,6 @@
     "input_oneliner": "Forty-five year old man, works construction, found on the floor by his brother after about twelve hours, admitted for alcohol withdrawal, creatinine 3.4 on the admission chemistry, urine dark brown",
     "expected_change": "None. Card should be substantially identical to base."
   },
-  "authored_at": "",
+  "authored_at": "2026-09-10T02:23:44+00:00",
   "frozen_commit": ""
 }
