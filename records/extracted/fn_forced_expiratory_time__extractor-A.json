@@ -1,0 +1,129 @@
+{
+ "identity": {
+  "id": "fn_forced_expiratory_time",
+  "title": "Forced expiratory time >6-9 s (stethoscope over trachea, full forced exhalation)",
+  "type": "functional",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "asthma_exacerbation",
+   "copd_exacerbation"
+  ],
+  "indication_tags": [
+   "copd_known"
+  ]
+ },
+ "technique": {
+  "how": "Place the stethoscope diaphragm over the trachea in the suprasternal notch. Ask the patient to take a maximal breath in, then blow out as hard and as long as possible with the mouth open; time with a second hand from onset until audible airflow ceases. Take the best of two or three attempts.",
+  "prerequisites": "Cooperative patient able to perform a maximal forced exhalation; watch for glottic closure or coughing that truncates the effort.",
+  "contraindications": "Recent pneumothorax, hemoptysis, or unstable cardiac status where forced expiration is undesirable (relative)."
+ },
+ "interpretation": {
+  "positive_finding": "An FET longer than 8 s roughly quadruples the odds of spirometric airflow obstruction in patients aged 60 or older (LR 4.08); 6-8 s about doubles it.",
+  "negative_finding": "An FET of 4-6 s lowers the likelihood of obstruction in older patients (stratum LR 0.42); shorter times argue further against it, but a short FET does not exclude mild disease.",
+  "pitfalls": "Submaximal effort, early glottic closure, or cough shorten the time; performance is weaker in patients younger than 60; obesity and restrictive disease can alter results.",
+  "changes_what": "Prolonged FET: treat as probable COPD/asthma and obtain spirometry when stable; short FET: look for non-obstructive causes of dyspnea."
+ },
+ "estimates": [
+  {
+   "target_condition": "Obstructive airways disease on spirometry - FET >8 s (age >=60 years stratum)",
+   "population": "400 consecutive adults referred to a tertiary-hospital pulmonary function laboratory (preoperative, acute/chronic pulmonary, occupational); age >=60 subgroup",
+   "setting": "outpatient",
+   "prevalence": null,
+   "reference_standard": "Spirometry (criterion standard for obstructive airways disease)",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 4.08,
+    "ci_low": 2.54,
+    "ci_high": 6.79
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "of greater than 8 seconds, 4.08 (95% CI, 2.54 to 6.79)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Obstructive airways disease on spirometry - FET 6 to 8 s (age >=60 years stratum)",
+   "population": "Same cohort, age >=60 subgroup",
+   "setting": "outpatient",
+   "prevalence": null,
+   "reference_standard": "Spirometry",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 2.19,
+    "ci_low": 1.02,
+    "ci_high": 4.8
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "of 6 to 8 seconds, 2.19 (95% CI, 1.02 to 4.80)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Obstructive airways disease on spirometry - FET 4 to 6 s (age >=60 years stratum; multilevel LR for this stratum, not an LR-negative)",
+   "population": "Same cohort, age >=60 subgroup",
+   "setting": "outpatient",
+   "prevalence": null,
+   "reference_standard": "Spirometry",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 0.42,
+    "ci_low": 0.24,
+    "ci_high": 0.73
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "an FET of 4 to 6 seconds is 0.42 (95% confidence interval [CI], 0.24 to 0.73)",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Schapira RM, Schapira MM, Funahashi A, McAuliffe TL, Varkey B. The value of the forced expiratory time in the physical diagnosis of obstructive airways disease. JAMA. 1993;270(6):731-6.",
+   "doi": null,
+   "pmid": "8336375",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1993
+  },
+  {
+   "citation": "Holleman DR, Simel DL. Does the clinical examination predict airflow limitation? JAMA. 1995;273(4):313-9.",
+   "doi": null,
+   "pmid": "7815660",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1995
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use in patients who cannot perform a maximal forced exhalation (severe distress, altered mental status) or during an acute exacerbation to grade severity.",
+  "escalation_warning": "Inability to perform the maneuver because of dyspnea, or a silent chest, indicates severe obstruction requiring immediate bronchodilator therapy and monitoring rather than further bedside testing.",
+  "interobserver_note": "Interexaminer kappa 0.70 in a second sample of 100 subjects examined by physician pairs (Schapira 1993, Abstract: 'The kappa statistic for interexaminer agreement is 0.70.')."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Schapira 1993 reports stratum-specific (multilevel) likelihood ratios from a logistic model adjusted for age, given only for subjects aged >=60 in the abstract; the 0.42 value is the LR for an FET of 4-6 s (entered under lr_positive with the stratum named in target_condition, not as an LR-negative for the >8 s threshold). Sensitivity/specificity at each cutoff and the disease prevalence are in the JAMA tables, which are not accessible (no PMC), so they are null; the abstract states a 6 s cutoff 'will correctly diagnose the greatest number of subjects'. The Holleman & Simel 1995 RCE (PMID 7815660) is confirmed but has an empty PubMed abstract and no DOI in PubMed, so no pooled FET numbers could be extracted from it. Straus 2000 CARE-COAD1 (PMID 10770147) was fetched but does not evaluate FET. Status partially_quantified because no estimate carries a sens/spec pair or an LR+/LR- pair.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:21+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

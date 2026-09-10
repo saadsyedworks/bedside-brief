@@ -1,0 +1,66 @@
+{
+ "identity": {
+  "id": "hx_family_hx_sudden_death",
+  "title": "Family history of sudden cardiac death <50 y or inherited cardiomyopathy/channelopathy",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "chest_pain",
+   "syncope",
+   "palpitations"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "hcm",
+   "tachyarrhythmia",
+   "ventricular_tachycardia"
+  ],
+  "indication_tags": []
+ },
+ "technique": {
+  "how": "Ask specifically about first- and second-degree relatives who died suddenly or unexpectedly before age 50 (including drowning, unexplained car accidents, SIDS), and about known HCM, ARVC, long QT, Brugada, dilated cardiomyopathy, pacemakers/ICDs or familial early sudden death. Draw a three-generation pedigree if positive.",
+  "prerequisites": "Patient or relative able to give family history.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Family history of sudden cardiac death at a young age or of an inherited cardiomyopathy/channelopathy marks syncope or palpitations as high risk in the ESC 2018 syncope guideline and warrants inpatient evaluation and ECG scrutiny for HCM, long QT, Brugada, ARVC.",
+  "negative_finding": "A negative family history does not exclude arrhythmic syncope; most cardiac syncope occurs without a family history.",
+  "pitfalls": "Family history is often incomplete or misattributed (e.g. 'heart attack' in a 30-year-old); sudden death recall is unreliable without records. Not a validated accuracy discriminator.",
+  "changes_what": "Positive: classify syncope/palpitations as high risk, obtain 12-lead ECG, monitor, and refer for structural/genetic evaluation; negative: no change in probability."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Brignole M, Moya A, de Lange FJ, Deharo JC, Elliott PM, Fanciulli A, Fedorowski A, Furlan R, et al. 2018 ESC Guidelines for the diagnosis and management of syncope. Eur Heart J. 2018;39(21):1883-1948.",
+   "doi": "10.1093/eurheartj/ehy037",
+   "pmid": "29562304",
+   "url": null,
+   "kind": "guideline",
+   "year": 2018
+  },
+  {
+   "citation": "Albassam OT, Redelmeier RJ, Shadowitz S, Husain AM, Simel D, Etchells EE. Did This Patient Have Cardiac Syncope?: The Rational Clinical Examination Systematic Review. JAMA. 2019;321(24):2448-2457.",
+   "doi": "10.1001/jama.2019.8001",
+   "pmid": "31237649",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2019
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use a negative family history to downgrade exertional syncope, syncope with an abnormal ECG, or syncope with structural heart disease.",
+  "escalation_warning": "Syncope with a family history of sudden death <50 y is a high-risk feature: do not discharge without ECG review and monitored evaluation.",
+  "interobserver_note": "No interobserver data found."
+ },
+ "tier": "extracted",
+ "extraction_notes": "The Albassam 2019 RCE abstract reports LRs for age, atrial fibrillation, structural heart disease, prodromal symptoms and EGSYS but no likelihood ratio for family history of sudden death; the JAMA full text is not in PMC so no table could be inspected. The ESC 2018 syncope guideline lists family history of sudden cardiac death at young age as a high-risk feature (guideline/consensus; abstract not available via PubMed, year 2018 taken from the title). PubMed search 'family history sudden death syncope likelihood ratio' yielded no accuracy study; left not_quantified rather than manufacturing numbers.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:24+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

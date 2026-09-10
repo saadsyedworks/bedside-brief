@@ -1,0 +1,163 @@
+{
+ "identity": {
+  "id": "hx_ain_rash_fever_arthralgia",
+  "title": "Rash, fever, arthralgia after new drug (AIN triad)",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "aki",
+   "fever"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "ain",
+   "drug_fever"
+  ],
+  "indication_tags": [
+   "new_medication"
+  ]
+ },
+ "technique": {
+  "how": "Take a dated medication history for the preceding weeks to months (antibiotics, PPIs, NSAIDs, allopurinol, immune checkpoint inhibitors) and ask about fever, new rash, joint pains, and flank pain since starting; inspect the skin. Correlate the time course with the onset of creatinine rise.",
+  "prerequisites": "Complete drug list including over-the-counter and recently stopped agents.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Fever, rash, or arthralgia emerging after a new drug in a patient with unexplained AKI (often with sterile pyuria) supports drug-induced AIN and should prompt stopping the drug and nephrology input.",
+  "negative_finding": "Absence of the triad is the rule: in biopsy series each feature is present in fewer than half of cases and the full triad in roughly 10%, so absence does not lower the probability of AIN meaningfully.",
+  "pitfalls": "PPI- and NSAID-induced AIN are typically oligosymptomatic with long latency; fever and rash after a new drug also occur with drug fever, DRESS, and infection without AIN. Definitive diagnosis requires kidney biopsy.",
+  "changes_what": "Positive: stop the suspect drug, check urinalysis for pyuria/WBC casts and consider biopsy/steroids early; negative should not remove AIN from the differential of unexplained AKI on a new drug."
+ },
+ "estimates": [
+  {
+   "population": "60 adults with biopsy-proven AIN (92% drug-related) from 2598 native renal biopsies over 12 years, single center; retrospective",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Kidney biopsy showing AIN",
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "computed_from": "",
+   "interpretation_label": "minimal",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "The presenting symptoms included oliguria (51%), arthralgia (45%), fever (30%), rash (21%) and loin pain (21%).",
+   "location": "Abstract, Results",
+   "target_condition": "Biopsy-proven acute interstitial nephritis - arthralgia present (frequency among cases = sensitivity)",
+   "sensitivity": {
+    "value": 0.45,
+    "ci_low": null,
+    "ci_high": null
+   }
+  },
+  {
+   "population": "60 adults with biopsy-proven AIN (92% drug-related) from 2598 native renal biopsies over 12 years, single center; retrospective",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Kidney biopsy showing AIN",
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "computed_from": "",
+   "interpretation_label": "minimal",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "The presenting symptoms included oliguria (51%), arthralgia (45%), fever (30%), rash (21%) and loin pain (21%).",
+   "location": "Abstract, Results",
+   "target_condition": "Biopsy-proven acute interstitial nephritis - fever present (frequency among cases = sensitivity)",
+   "sensitivity": {
+    "value": 0.3,
+    "ci_low": null,
+    "ci_high": null
+   }
+  },
+  {
+   "population": "60 adults with biopsy-proven AIN (92% drug-related) from 2598 native renal biopsies over 12 years, single center; retrospective",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Kidney biopsy showing AIN",
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "computed_from": "",
+   "interpretation_label": "minimal",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "The presenting symptoms included oliguria (51%), arthralgia (45%), fever (30%), rash (21%) and loin pain (21%).",
+   "location": "Abstract, Results",
+   "target_condition": "Biopsy-proven acute interstitial nephritis - rash present (frequency among cases = sensitivity)",
+   "sensitivity": {
+    "value": 0.21,
+    "ci_low": null,
+    "ci_high": null
+   }
+  },
+  {
+   "target_condition": "COMPOSITE: biopsy-proven AIN - classic triad fever AND rash AND eosinophilia (frequency among cases = sensitivity)",
+   "population": "30 adults with biopsy-proven AIN (drugs 43%, autoimmune 33%) from 407 native biopsies, single center Morocco; retrospective",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Kidney biopsy showing AIN",
+   "sensitivity": {
+    "value": 0.1,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "computed_from": "",
+   "interpretation_label": "minimal",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "The classic triad of fever, skin rash, and eosinophilia occurred in three (10%) patients.",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Clarkson MR, Giblin L, O'Connell FP, O'Kelly P, Walshe JJ, Conlon P, O'Meara Y, Dormon A, et al. Acute interstitial nephritis: clinical features and response to corticosteroid therapy. Nephrol Dial Transplant. 2004.",
+   "doi": "10.1093/ndt/gfh485",
+   "pmid": "15340098",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2004
+  },
+  {
+   "citation": "Zajjari Y, Montasser D, Sobhi A, Aatif T. Acute interstitial nephritis in the military hospital of Morocco: Clinical features and renal outcomes. Saudi J Kidney Dis Transpl. 2020.",
+   "doi": null,
+   "pmid": "31929288",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2020
+  },
+  {
+   "citation": "Perazella MA, Markowitz GS. Drug-induced acute interstitial nephritis. Nat Rev Nephrol. 2010.",
+   "doi": "10.1038/nrneph.2010.71",
+   "pmid": "20517290",
+   "url": null,
+   "kind": "consensus",
+   "year": 2010
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use absence of fever/rash/arthralgia to exclude AIN, especially with PPIs or NSAIDs; do not attribute fever plus AKI to AIN without considering sepsis.",
+  "escalation_warning": "Rapidly rising creatinine, oliguria, or hyperkalemia on a suspect drug needs same-day nephrology review; biopsy decisions are time-sensitive because delayed drug withdrawal worsens recovery.",
+  "interobserver_note": "History items; no reliability data found."
+ },
+ "tier": "extracted",
+ "extraction_notes": "No case-control or cohort study reporting specificity or LRs of the triad for AIN among patients with AKI was found; only case-series frequencies (sensitivity without specificity) exist, hence partially_quantified. The Zajjari triad includes eosinophilia (a lab), so it is entered as COMPOSITE and is not the pure history triad. Muriithi 2015 AJKD series (PMID 24927897; 133 biopsy-proven AIN, 70% drug-induced, PPIs 'less symptomatic') has no triad percentages in its abstract and the full text is not open access. The anchor narrative review (Perazella & Markowitz, PMID 20517290) is cited as consensus-level context only; its abstract carries no triad number.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:35+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

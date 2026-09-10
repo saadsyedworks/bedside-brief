@@ -1,0 +1,102 @@
+{
+ "identity": {
+  "id": "exam_kussmaul_sign",
+  "title": "Kussmaul sign: JVP rises (or fails to fall) with inspiration",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "edema",
+   "hypotension"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "constrictive_pericarditis",
+   "pericardial_effusion_tamponade",
+   "rv_failure_pulmonary_hypertension",
+   "acs",
+   "cardiogenic_shock"
+  ],
+  "indication_tags": []
+ },
+ "technique": {
+  "how": "Position the patient so the top of the jugular venous column is visible (usually 30-45 degrees), identify the JVP and its meniscus, then ask for a slow deep inspiration through the mouth. Normally the column falls; Kussmaul sign is present when it fails to fall or rises with inspiration.",
+  "prerequisites": "Visible JVP (exclude hepatojugular pressure); patient able to breathe deeply on command.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "A positive sign indicates impaired right-heart filling with inspiration - RV infarction in the setting of inferior MI (LR+ about 6), constrictive pericarditis, severe RV failure/pulmonary hypertension, or massive PE; it is classically absent in pure tamponade.",
+  "negative_finding": "Absence lowers the probability of RV infarction in inferior MI (LR- about 0.2) but does not exclude constriction or RV failure; it says little about tamponade, where the sign is usually absent anyway.",
+  "pitfalls": "Requires a visible JVP - obesity, a very high JVP above the mandible, or shallow breathing hide it. Kussmaul sign with pulsus paradoxus suggests effusive-constrictive disease rather than simple tamponade.",
+  "changes_what": "Positive in inferior MI: obtain right-sided ECG leads/echo and avoid preload reduction (nitrates, diuretics); positive with oedema/ascites: pursue constriction or RV failure by echo."
+ },
+ "estimates": [
+  {
+   "target_condition": "Right ventricular myocardial infarction in patients admitted with acute inferior myocardial infarction",
+   "population": "469 consecutive patients with acute inferior MI, pooled from 8 diagnostic-accuracy studies (1965-2019 literature)",
+   "setting": "inpatient",
+   "prevalence": 0.36,
+   "reference_standard": "Combined reference standards across studies (echocardiography, haemodynamics, ECG/angiography as defined per study)",
+   "sensitivity": {
+    "value": 0.625,
+    "ci_low": 0.446,
+    "ci_high": 0.775
+   },
+   "specificity": {
+    "value": 0.9,
+    "ci_low": 0.73,
+    "ci_high": 0.968
+   },
+   "lr_positive": {
+    "value": 5.8,
+    "ci_low": 2.5,
+    "ci_high": 13.3
+   },
+   "lr_negative": {
+    "value": 0.2,
+    "ci_low": 0.1,
+    "ci_high": 0.8
+   },
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "Kussmaul's sign had a sensitivity of 62.5% (44.6, 77.5), specificity 90% (73.0, 96.8), negative likelihood ratio (LR) 0.2 (0.1-0.8) and positive LR 5.8 (2.5, 13.3)",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Dube E, Crozier M, Middleton A, Best B, Ohle R. Kussmaul's sign for the diagnosis of right ventricular myocardial infarction: a systematic review and meta-analysis of diagnostic test accuracy studies. CJEM. 2021.",
+   "doi": "10.1007/s43678-020-00012-8",
+   "pmid": "33709353",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2021
+  },
+  {
+   "citation": "Adler Y, Charron P, Imazio M, Badano L, Baron-Esquivias G, Bogaert J, Brucato A, Gueret P, et al. 2015 ESC Guidelines for the diagnosis and management of pericardial diseases. Eur Heart J. 2015.",
+   "doi": "10.1093/eurheartj/ehv318",
+   "pmid": "26320112",
+   "url": null,
+   "kind": "guideline",
+   "year": 2015
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use to diagnose or exclude tamponade, and do not rely on it when the JVP cannot be seen.",
+  "escalation_warning": "Kussmaul sign with hypotension and clear lungs in inferior MI = RV infarction: give fluids cautiously, avoid nitrates/diuretics, and expedite reperfusion; with muffled sounds and pulsus paradoxus consider effusive-constrictive disease and urgent echo.",
+  "interobserver_note": "No interobserver reliability estimate located; the pooled studies used unblinded bedside assessment in most cases (unverified recall)."
+ },
+ "extraction_notes": "The only diagnostic-accuracy evidence found is for RV infarction complicating inferior MI (Dube 2021, CJEM; not open access, so only abstract-level numbers are quoted; prevalence 'Prevalence of right ventricular myocardial infarction was 36% (confidence interval [CI] 95% 31.8-40.5)', Abstract). Differentials 'acs' and 'cardiogenic_shock' added from vocab to map this target. For constrictive pericarditis, tamponade and RV failure no diagnostic-accuracy study was found (searches 'Kussmaul sign constrictive pericarditis diagnostic accuracy' and 'Kussmaul sign'); the constrictive-pericarditis role rests on the 2015 ESC pericardial guideline (PMID 26320112), whose abstract is empty in e-utils so no page can be cited. Duvalyan 2024 (PMID 38708596) is a POCUS case description, not an accuracy study.",
+ "tier": "extracted",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:16+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

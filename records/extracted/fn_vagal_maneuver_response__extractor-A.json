@@ -1,0 +1,73 @@
+{
+ "identity": {
+  "id": "fn_vagal_maneuver_response",
+  "title": "Response of ongoing palpitations to Valsalva/modified Valsalva or carotid massage: abrupt termination vs transient slowing vs none",
+  "type": "functional",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "palpitations"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "atrial_fibrillation_flutter",
+   "sinus_tachycardia_secondary",
+   "svt",
+   "ventricular_tachycardia"
+  ],
+  "indication_tags": []
+ },
+ "technique": {
+  "how": "With a rhythm strip running, have the patient strain against a closed glottis (or blow into a 10 mL syringe/manometer to 40 mmHg) for 15 s semi-recumbent, then lie flat with passive leg raise for 15 s (modified Valsalva); or apply carotid sinus massage 5-10 s one side. Watch for abrupt termination, transient AV slowing unmasking flutter/P waves, gradual slowing, or no change.",
+  "prerequisites": "Continuous ECG recording during the maneuver; hemodynamically stable patient; IV access and adenosine/defibrillator available; auscultate carotids before massage.",
+  "contraindications": "Unstable tachycardia (synchronised cardioversion instead); carotid massage contraindicated with bruit, carotid disease, or TIA/stroke or MI within 3 months; Valsalva avoided in acute MI, severe aortic stenosis, recent eye/neurosurgery or retinal detachment."
+ },
+ "interpretation": {
+  "positive_finding": "Abrupt termination to sinus rhythm indicates an AV-node-dependent re-entrant SVT (AVNRT/AVRT); transient AV block with persisting atrial activity (flutter waves, P waves at unchanged rate) indicates atrial flutter, atrial tachycardia or AF.",
+  "negative_finding": "No response does not exclude SVT (Valsalva terminates only a minority); gradual slowing that resumes suggests sinus tachycardia; a wide-complex tachycardia unaffected by vagal maneuvers should be treated as VT.",
+  "pitfalls": "Termination requires an adequately performed strain (40 mmHg for 15 s), which patients often fail; without a running ECG the transient slowing that reveals flutter is missed. Vagal maneuvers can rarely provoke bradyarrhythmia or, with carotid massage, embolic stroke.",
+  "changes_what": "Termination: re-entrant SVT, arrange EP/ablation discussion; transient block unmasking atrial activity: flutter/AT/AF pathway; no response in wide QRS: manage as VT."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Brugada J, Katritsis DG, Arbelo E, Arribas F, et al. 2019 ESC Guidelines for the management of patients with supraventricular tachycardia. Eur Heart J. 2020.",
+   "doi": "10.1093/eurheartj/ehz467",
+   "pmid": "31504425",
+   "url": null,
+   "kind": "guideline",
+   "year": 2020
+  },
+  {
+   "citation": "Appelboam A, Reuben A, Mann C, Gagg J, Ewings P, Barton A, et al. Postural modification to the standard Valsalva manoeuvre for emergency treatment of supraventricular tachycardias (REVERT): a randomised controlled trial. Lancet. 2015.",
+   "doi": "10.1016/S0140-6736(15)61485-4",
+   "pmid": "26314489",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2015
+  },
+  {
+   "citation": "Brignole M, Moya A, de Lange FJ, Deharo JC, Elliott PM, Fanciulli A, Fedorowski A, Furlan R, et al. 2018 ESC Guidelines for the diagnosis and management of syncope. Eur Heart J. 2018.",
+   "doi": "10.1093/eurheartj/ehy037",
+   "pmid": "29562304",
+   "url": null,
+   "kind": "guideline",
+   "year": 2018
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Hemodynamic instability (hypotension, ischaemic chest pain, pulmonary edema, altered consciousness) - cardiovert instead; carotid massage contraindications as above.",
+  "escalation_warning": "Wide-complex tachycardia, pre-excited AF, or any deterioration during the maneuver requires immediate ACLS management; post-termination pauses/bradycardia need monitoring.",
+  "interobserver_note": "No inter-observer data; the response depends on strain adequacy and on whether an ECG was recording at the moment of the maneuver."
+ },
+ "tier": "extracted",
+ "extraction_notes": "No diagnostic-accuracy study (sensitivity/specificity of termination for AVNRT/AVRT versus other rhythms) was found; search 'vagal maneuvers supraventricular tachycardia diagnosis sensitivity specificity' returned only treatment/prediction papers. The classic diagnostic categories (termination = AV-node-dependent SVT; transient AV block unmasking atrial activity = flutter/AT) are guideline teaching (ESC 2019 SVT guideline, PubMed abstract empty; unverified recall of wording). REVERT (Appelboam 2015, ED RCT, 214 per arm) gives termination rates, which are treatment not diagnostic outcomes: '37 (17%) of 214 participants assigned to standard Valsalva manoeuvre achieved sinus rhythm compared with 93 (43%) of 214 in the modified Valsalva manoeuvre group' (Abstract, Findings), with 'no serious adverse events' (Abstract). The ESC 2018 syncope guideline is cited for carotid massage contraindications (bruit, TIA/stroke or MI within 3 months; unverified recall). Status not_quantified.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:30+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

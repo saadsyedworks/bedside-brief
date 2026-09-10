@@ -1,0 +1,106 @@
+{
+ "identity": {
+  "id": "fn_carotid_sinus_massage",
+  "title": "Carotid sinus massage 5-10 s each side, supine then upright, with continuous BP/pulse; contraindicated with bruit, TIA/stroke or MI within 3 months",
+  "type": "functional",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "syncope",
+   "dizziness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "bradyarrhythmia",
+   "carotid_sinus_hypersensitivity",
+   "reflex_vasovagal"
+  ],
+  "indication_tags": [
+   "elderly"
+  ]
+ },
+ "technique": {
+  "how": "With continuous ECG and beat-to-beat (or frequent) BP monitoring and IV access, firmly massage one carotid sinus (anterior to sternocleidomastoid at the cricoid level) for 5-10 s; repeat on the other side, then repeat both sides at 60-70 degrees upright (tilt table) if supine massage is negative. Record asystole duration, SBP fall and whether symptoms are reproduced.",
+  "prerequisites": "Auscultate both carotids first; monitor ECG and BP throughout; supine and upright positions; patient with syncope of unknown origin aged >40 years (ESC 2018).",
+  "contraindications": "Carotid bruit, known carotid stenosis or plaque, TIA or stroke within the previous 3 months, myocardial infarction within 3 months; never massage both sides simultaneously."
+ },
+ "interpretation": {
+  "positive_finding": "Carotid sinus hypersensitivity = ventricular pause >=3 s (cardioinhibitory) and/or SBP fall >=50 mmHg (vasodepressor); carotid sinus syndrome is diagnosed only when the response also reproduces spontaneous symptoms (syncope or presyncope).",
+  "negative_finding": "No pause >=3 s and no SBP fall >=50 mmHg in supine and upright positions on both sides; does not exclude arrhythmic or other cardiac syncope.",
+  "pitfalls": "Hypersensitive responses are common in asymptomatic older people, so an abnormal response without symptom reproduction is nonspecific; supine-only massage misses vasodepressor responses. Hemodynamic monitoring must be continuous to capture short pauses.",
+  "changes_what": "Positive with symptom reproduction supports carotid sinus syndrome (pacing consideration if cardioinhibitory); negative keeps arrhythmia, orthostatic and vasovagal causes open."
+ },
+ "estimates": [
+  {
+   "target_condition": "Carotid sinus syndrome as cause of syncope/falls (specificity proxy: hypersensitive CSM response in older persons without syncope, dizziness or falls)",
+   "population": "80 community-dwelling persons >65 years with no history of syncope, dizziness or falls, drawn from 272 randomly sampled UK general-practice registrants who underwent supine and upright CSM",
+   "setting": "outpatient",
+   "prevalence": null,
+   "reference_standard": "Absence of any history of syncope, dizziness or falls (asymptomatic community sample); CSH defined as asystole >=3 s and/or SBP fall >=50 mmHg with beat-to-beat monitoring",
+   "sensitivity": null,
+   "specificity": {
+    "value": 0.65,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": true,
+   "computed_from": "specificity = 1 - 28/80 = 0.65 (28 of 80 asymptomatic persons had a hypersensitive response); no sensitivity available because no symptomatic comparison group",
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "In 80 previously asymptomatic individuals, carotid sinus hypersensitivity was present in 28 (35%) and accompanied by symptoms in 10.",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Kerr SR, Pearce MS, Brayne C, Davis RJ, Kenny RA. Carotid sinus hypersensitivity in asymptomatic older persons: implications for diagnosis of syncope and falls. Arch Intern Med. 2006.",
+   "doi": "10.1001/archinte.166.5.515",
+   "pmid": "16534037",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2006
+  },
+  {
+   "citation": "Brignole M, Moya A, de Lange FJ, Deharo JC, Elliott PM, Fanciulli A, Fedorowski A, Furlan R, et al. 2018 ESC Guidelines for the diagnosis and management of syncope. Eur Heart J. 2018.",
+   "doi": "10.1093/eurheartj/ehy037",
+   "pmid": "29562304",
+   "url": null,
+   "kind": "guideline",
+   "year": 2018
+  },
+  {
+   "citation": "Ungar A, Rivasi G, Rafanelli M, Toffanello G, Mussi C, Ceccofiglio A, et al. Safety and tolerability of Tilt Testing and Carotid Sinus Massage in the octogenarians. Age Ageing. 2016.",
+   "doi": "10.1093/ageing/afw004",
+   "pmid": "26833302",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2016
+  },
+  {
+   "citation": "Puggioni E, Guiducci V, Brignole M, Menozzi C, Oddone D, Donateo P, et al. Results and complications of the carotid sinus massage performed according to the \"method of symptoms\". Am J Cardiol. 2002.",
+   "doi": "10.1016/s0002-9149(01)02303-7",
+   "pmid": "11867049",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2002
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Carotid bruit or known carotid disease; TIA/stroke or MI within 3 months; no ECG/BP monitoring available; patient unable to lie supine for monitoring.",
+  "escalation_warning": "Prolonged asystole or hypotension may require atropine, leg raise or resuscitation; new focal neurological symptoms during or after massage mandate immediate stroke assessment.",
+  "interobserver_note": "No inter-observer agreement data located; response classification depends on monitoring quality and massage technique (pressure, duration, upright repetition)."
+ },
+ "tier": "extracted",
+ "extraction_notes": "No sensitivity/specificity study against an independent reference standard exists because CSM is itself part of the reference standard for carotid sinus syndrome. The only entered estimate is a specificity proxy computed from Kerr 2006 (28/80 asymptomatic older persons positive), so status is partially_quantified. Same source: CSH 'was present in 107 individuals (39%); 24% had asystole of 3 seconds or greater' in the whole community sample of 272 (Abstract, Results), and the 95th percentile response was '7.3 seconds' asystole and a 77-mm Hg drop in systolic blood pressure' (Abstract, Results) - the authors argue the >=3 s / >=50 mmHg thresholds are too lax in the elderly. Safety: Ungar 2016 (1401 syncope-unit patients, 694 aged >=80) reported 'No complications occurred after CSM' (Abstract, Results). Puggioni 2002 (method of symptoms, complication rate) has no PubMed abstract and no PMC full text, so its numbers are not quoted. ESC 2018 procedure and criteria (5-10 s each side, supine and upright, pause >3 s and/or SBP fall >50 mmHg with symptom reproduction) taken from the guideline; contraindication list (bruit, TIA/stroke or MI within 3 months) per guideline text (unverified recall of exact wording).",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:30+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

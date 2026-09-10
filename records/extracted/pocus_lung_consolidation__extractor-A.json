@@ -1,0 +1,172 @@
+{
+ "identity": {
+  "id": "pocus_lung_consolidation",
+  "title": "POCUS lung: subpleural consolidation with air bronchograms / hepatization (+/- focal B-lines) for pneumonia",
+  "type": "pocus",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "chest_pain",
+   "fever"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "acute_decompensated_hf",
+   "pleural_effusion",
+   "pneumonia",
+   "pulmonary_embolism"
+  ],
+  "indication_tags": [
+   "febrile",
+   "unilateral"
+  ]
+ },
+ "technique": {
+  "how": "Curvilinear or micro-convex 3.5-5 MHz probe; scan anterior, lateral and posterior zones of both hemithoraces in longitudinal view (8-12 zones), patient sitting or supine. Look for a subpleural hypoechoic tissue-like area (hepatization) with hyperechoic air bronchograms, irregular shred sign at the deep border, and focal B-lines; note effusion. Takes up to ~13 min.",
+  "prerequisites": "Trained operator; posterior access for dependent consolidations.",
+  "contraindications": "None absolute; open chest wounds or dressings limit windows."
+ },
+ "interpretation": {
+  "positive_finding": "Subpleural consolidation with air bronchograms supports pneumonia (pooled LR+ 16.8); a positive scan in a febrile dyspneic patient makes pneumonia likely.",
+  "negative_finding": "A negative scan by a skilled operator substantially lowers pneumonia probability (pooled LR- 0.07, sensitivity 94%), but deep central consolidations not reaching the pleura are missed.",
+  "pitfalls": "Consolidation is not aetiology-specific: atelectasis, infarction from PE, contusion and tumour look similar; static (non-dynamic) air bronchograms suggest atelectasis. Accuracy is lower with briefly trained operators (spec 92%).",
+  "changes_what": "Positive scan supports starting pneumonia treatment without waiting for CXR; negative scan in a skilled operator's hands should redirect toward HF, PE or other causes."
+ },
+ "estimates": [
+  {
+   "target_condition": "Pneumonia (overall pooled, 10 studies, n=1172)",
+   "population": "Adults with suspected pneumonia: 6 studies ED/medical wards, 4 studies ICU; mostly expert sonographers",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Chest radiograph and/or chest CT, with or without clinical criteria (CT-only in 3 studies)",
+   "sensitivity": {
+    "value": 0.94,
+    "ci_low": 0.92,
+    "ci_high": 0.96
+   },
+   "specificity": {
+    "value": 0.96,
+    "ci_low": 0.94,
+    "ci_high": 0.97
+   },
+   "lr_positive": {
+    "value": 16.8,
+    "ci_low": 7.7,
+    "ci_high": 37.0
+   },
+   "lr_negative": {
+    "value": 0.07,
+    "ci_low": 0.05,
+    "ci_high": 0.1
+   },
+   "computed": false,
+   "interpretation_label": "both",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "Pooled sensitivity and specificity for the diagnosis of pneumonia using LUS were 94% (95% CI, 92%-96%) and 96% (94%-97%), respectively",
+   "location": "Abstract, Results; and Results 'Overall meta-analysis', Figure 2"
+  },
+  {
+   "target_condition": "Pneumonia - ICU subgroup (4 studies)",
+   "population": "Critically ill adults in ICU",
+   "setting": "ICU",
+   "prevalence": null,
+   "reference_standard": "Chest CT (3 studies) or imaging plus clinical criteria",
+   "sensitivity": {
+    "value": 0.93,
+    "ci_low": 0.89,
+    "ci_high": 0.95
+   },
+   "specificity": {
+    "value": 0.97,
+    "ci_low": 0.95,
+    "ci_high": 0.98
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "both",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "critically-ill patients in the ICU, LUS had a pooled sensitivity of 93% (95% CI, 89% to 95%) and pooled specificity of 97%",
+   "location": "Results, 'Subgroup analysis by patient type and physician training'"
+  },
+  {
+   "target_condition": "Pneumonia - ED / medical ward subgroup (6 studies)",
+   "population": "Adults presenting to ED or admitted to medical wards with suspected pneumonia",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Chest radiograph and/or chest CT, with or without clinical criteria (CT-only in 3 studies)",
+   "sensitivity": {
+    "value": 0.95,
+    "ci_low": 0.93,
+    "ci_high": 0.97
+   },
+   "specificity": {
+    "value": 0.94,
+    "ci_low": 0.91,
+    "ci_high": 0.97
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "both",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "patients admitted to EDs or medical wards, LUS had a pooled sensitivity of 95% (95% CI, 93% to 97%) and pooled specificity of 94%",
+   "location": "Results, 'Subgroup analysis by patient type and physician training'"
+  },
+  {
+   "target_condition": "Pneumonia - scans by ED physicians or general practitioners after brief training (2 studies)",
+   "population": "Adults with suspected pneumonia scanned by non-expert physicians",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Chest radiograph and/or chest CT, with or without clinical criteria (CT-only in 3 studies)",
+   "sensitivity": {
+    "value": 0.93,
+    "ci_low": 0.85,
+    "ci_high": 0.97
+   },
+   "specificity": {
+    "value": 0.92,
+    "ci_low": 0.84,
+    "ci_high": 0.96
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "both",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "ED physicians or general practitioners (n = 2), LUS had a pooled sensitivity of 93% (95% CI, 85% to 97%) and pooled specificity of 92%",
+   "location": "Results, 'Subgroup analysis by patient type and physician training'"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Chavez MA, Shams N, Ellington LE, Naithani N, Gilman RH, Steinhoff MC, Santosham M, Black RE, et al. Lung ultrasound for the diagnosis of pneumonia in adults: a systematic review and meta-analysis. Respir Res. 2014;15(1):50.",
+   "doi": "10.1186/1465-9921-15-50",
+   "pmid": "24758612",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2014
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not rely on a negative scan to exclude pneumonia when the operator is inexperienced or posterior zones could not be scanned.",
+  "escalation_warning": "Hypoxaemia, hypotension or altered mentation with consolidation indicates severe pneumonia/sepsis; escalate regardless of scan extent.",
+  "interobserver_note": "Interobserver agreement not pooled in this meta-analysis; only one study described training (3 h didactic + 3 h hands-on).",
+  "skill_assumption": "Pooled estimates reflect expert sonographers in 7/10 studies; two studies with briefly trained ED physicians/GPs showed lower specificity (92%). Assume a trained operator using an 8-12 zone protocol."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Full text read via PMC (PMC4005846). LR quote for the overall estimate: 'pooled positive and negative LRs were 16.8 (7.7-37.0) and 0.07 (0.05-0.10), respectively' (Abstract, Results; Figure 2). Subgroup LRs were not reported, only sens/spec. Prevalence not pooled in the paper, left null. Further subgroups reported: CT-only reference standard sens 94% (90-97) spec 99% (97-100); consolidation-only studies sens 94% (92-96) spec 98% (97-99) (Results, 'Subgroup analysis by diagnostic imaging criteria'). Threshold/protocol: pneumonia defined on LUS as consolidation (with air bronchograms) +/- focal B-lines per Table 3 'Diagnostic criteria' column; LUS took a maximum of 13 minutes (Abstract).",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:24+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

@@ -1,0 +1,69 @@
+{
+ "identity": {
+  "id": "hx_rhabdo_myalgia_dark_urine",
+  "title": "Muscle pain/weakness, prolonged immobilization or exertion, dark cola-colored urine",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "aki",
+   "weakness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "glomerulonephritis",
+   "myopathy",
+   "rhabdomyolysis"
+  ],
+  "indication_tags": [
+   "recent_immobilization",
+   "alcohol_use",
+   "trauma"
+  ]
+ },
+ "technique": {
+  "how": "Ask about muscle pain, swelling or weakness; a period found down, immobilization, seizure, crush or heavy exertion; alcohol, illicit drugs, statins, antipsychotics and heat exposure; and tea- or cola-colored urine. Examine for muscle tenderness, swelling, and compartment tension, and inspect the urine.",
+  "prerequisites": "Urine dipstick (heme-positive with few RBCs on microscopy) and serum CK to confirm.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Myalgia/weakness with a precipitating exposure and dark urine strongly suggests rhabdomyolysis; confirm with CK (typically >5x ULN) and treat AKI risk early.",
+  "negative_finding": "Absence of the classic triad does not exclude rhabdomyolysis: many patients (particularly with toxin or drug causes) lack muscle symptoms or visible pigmenturia, and qualitative urine myoglobin is often negative.",
+  "pitfalls": "Dark urine also occurs with hematuria, hemoglobinuria, bilirubinuria, and dehydration; dipstick heme cannot distinguish myoglobin from hemoglobin. Multiple etiologic factors coexist in most cases, so a single obvious cause should not stop the search for others.",
+  "changes_what": "Positive: send CK, potassium, creatinine, urinalysis and start aggressive isotonic fluids; negative history should not withhold CK in unexplained AKI with heme-positive dipstick."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Bosch X, Poch E, Grau JM. Rhabdomyolysis and acute kidney injury. N Engl J Med. 2009.",
+   "doi": "10.1056/NEJMra0801327",
+   "pmid": "19571284",
+   "url": null,
+   "kind": "consensus",
+   "year": 2009
+  },
+  {
+   "citation": "Melli G, Chaudhry V, Cornblath DR. Rhabdomyolysis: an evaluation of 475 hospitalized patients. Medicine (Baltimore). 2005.",
+   "doi": "10.1097/01.md.0000188565.48918.41",
+   "pmid": "16267412",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2005
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use absence of myalgia or dark urine to rule out rhabdomyolysis in a patient found down, post-seizure, or on statins/antipsychotics; do not attribute heme-positive urine to rhabdomyolysis without checking CK.",
+  "escalation_warning": "Tense, painful muscle compartment, hyperkalemia, or oliguria with suspected rhabdomyolysis requires immediate escalation (compartment pressures, potassium management, nephrology).",
+  "interobserver_note": "History items; no reliability data found."
+ },
+ "tier": "extracted",
+ "extraction_notes": "No diagnostic-accuracy study (sens/spec/LR) of myalgia, weakness, immobilization or dark urine for rhabdomyolysis was found; searches for series reporting symptom frequencies returned Gabow 1982 (PMID 7078398, Medicine 'The spectrum of rhabdomyolysis') whose abstract is empty in PubMed and whose full text is not open access, so its symptom frequencies could not be quoted. Melli 2005 (PMID 16267412; 475 inpatients with CK >5x ULN) gives cause distribution and, from the abstract: 'Urine myoglobin detected by dipstick/ultrafiltration was positive in only 19%' and 'ARF was present in 218 (46%) patients' (Abstract, Results) - lab and prognostic figures, not diagnostic accuracy of the history, so no estimate entered. Bosch 2009 NEJM is a narrative review cited as consensus-level support; its PubMed record has no abstract.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:35+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

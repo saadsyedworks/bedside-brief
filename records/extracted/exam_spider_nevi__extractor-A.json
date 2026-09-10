@@ -1,0 +1,87 @@
+{
+ "identity": {
+  "id": "exam_spider_nevi",
+  "title": "Spider angiomata (>=3, upper trunk/face/arms), with palmar erythema and gynecomastia as companions",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "edema",
+   "aki",
+   "ams",
+   "abdominal_pain"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "cirrhosis",
+   "hepatic_encephalopathy",
+   "hepatorenal",
+   "hypoalbuminemia",
+   "sbp"
+  ],
+  "indication_tags": [
+   "cirrhosis_known",
+   "alcohol_use"
+  ]
+ },
+ "technique": {
+  "how": "In good light inspect the face, neck, upper chest, back, and arms (superior vena cava territory) for a central red arteriole with radiating vessels. Press the centre with a glass slide or pen tip: the radiating vessels blanch and refill from the centre on release. Also inspect the thenar/hypothenar eminences for palmar erythema and the chest for gynecomastia.",
+  "prerequisites": "Adequate lighting; inspect skin not covered by clothing.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Spider nevi in a patient with known or suspected liver disease increase the likelihood of cirrhosis about fourfold (pooled LR 4.3).",
+  "negative_finding": "Absence of spider nevi does not usefully exclude cirrhosis; laboratory combinations (e.g. Lok index, platelet count) are needed to rule out.",
+  "pitfalls": "Isolated spiders (1-2) occur in healthy people, pregnancy, and oral contraceptive use; lesions below the umbilicus are atypical; poor lighting and dark skin reduce detection.",
+  "changes_what": "Positive: treat as probable cirrhosis - assess for portal hypertension and decompensation; negative: no change, rely on labs/imaging."
+ },
+ "estimates": [
+  {
+   "target_condition": "Cirrhosis (histologically proven) in adults with known or suspected liver disease",
+   "population": "Pooled 86 studies, 19,533 adults with known/suspected liver disease, 4725 with biopsy-proven cirrhosis",
+   "setting": "mixed",
+   "prevalence": 0.24,
+   "reference_standard": "Liver biopsy (histologically proven cirrhosis)",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 4.3,
+    "ci_low": 2.4,
+    "ci_high": 6.2
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "spider nevi (LR, 4.3; 95% CI 2.4-6.2)",
+   "location": "Abstract, Results (prevalence: 'prevalence rate, 24%; 95% CI, 20%-28%', Abstract)"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Udell JA, Wang CS, Tinmouth J, FitzGerald JM, Ayas NT, Simel DL, Schulzer M, Mak E, et al. Does this patient with liver disease have cirrhosis? JAMA. 2012;307(8):832-42.",
+   "doi": "10.1001/jama.2012.186",
+   "pmid": "22357834",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2012
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use as a screening sign in patients without suspected liver disease (spectrum differs from the pooled studies).",
+  "escalation_warning": "Spider nevi with confusion, GI bleeding, fever with abdominal pain, or AKI should prompt evaluation for hepatic encephalopathy, variceal bleeding, SBP, or hepatorenal syndrome.",
+  "interobserver_note": "The RCE abstract describes spider nevi as among the most 'reliable' findings but the abstract gives no kappa; not extracted."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Only the positive LR (4.3, 95% CI 2.4-6.2) and pooled prevalence (24%) are visible in the abstract; the negative LR, sensitivity, and specificity for spider nevi are in the JAMA tables which are not accessible (publisher blocked, no PMC), so they are left null. Palmar erythema and gynecomastia companions: no numbers visible in the abstract, none entered. Threshold (>=3 spiders) is from the record title, not from the source abstract, which does not state a count threshold.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:21+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

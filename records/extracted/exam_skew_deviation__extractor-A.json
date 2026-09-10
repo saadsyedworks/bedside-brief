@@ -1,0 +1,133 @@
+{
+ "identity": {
+  "id": "exam_skew_deviation",
+  "title": "Test of skew (alternate cover test; vertical ocular misalignment)",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dizziness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "posterior_circulation_stroke"
+  ],
+  "indication_tags": [
+   "acute_onset"
+  ]
+ },
+ "technique": {
+  "how": "Patient fixates a target straight ahead; alternately cover one eye then the other while watching the uncovered eye for a vertical corrective refixation (one eye moves up, the other down). Any vertical re-alignment movement is skew deviation; note it may be subtle (3-20 prism diopters) and asymptomatic.",
+  "prerequisites": "Acute vestibular syndrome (continuous vertigo, nystagmus, gait unsteadiness) with the patient able to fixate; performed as part of HINTS with head impulse and nystagmus assessment.",
+  "contraindications": "Not interpretable with pre-existing vertical strabismus, third/fourth nerve palsy, or when the patient cannot fixate."
+ },
+ "interpretation": {
+  "positive_finding": "Skew deviation in acute vestibular syndrome is a central sign, most associated with brainstem (especially lateral pontine/medullary) stroke, and can identify stroke even when the head impulse test misleadingly appears peripheral.",
+  "negative_finding": "Absent skew barely lowers the probability of stroke (LR- ~0.8; sensitivity ~25%); a negative test of skew is meaningful only as part of a fully benign HINTS (abnormal head impulse, direction-fixed nystagmus, no skew).",
+  "pitfalls": "Low sensitivity - most strokes lack skew; small deviations are easy to miss without careful alternate cover; congenital or peripheral (utricular) causes of skew occur rarely. Data are from a high-risk AVS cohort examined by neuro-ophthalmology experts.",
+  "changes_what": "Positive: treat as posterior-circulation stroke (MRI, stroke pathway) even if head impulse is abnormal; negative alone does not change management - rely on the full HINTS battery."
+ },
+ "estimates": [
+  {
+   "target_condition": "Central lesion (stroke or other central cause) in acute vestibular syndrome - skew deviation present or untestable",
+   "population": "101 consecutive high-risk AVS patients (>=1 stroke risk factor): 25 peripheral, 76 central; academic stroke center; prospective cross-sectional",
+   "setting": "ED",
+   "prevalence": 0.75,
+   "reference_standard": "MRI (or CT) neuroimaging plus clinical follow-up; peripheral = normal MRI and follow-up",
+   "sensitivity": {
+    "value": 0.25,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.96,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 6.3,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.78,
+    "ci_low": 0.67,
+    "ci_high": 0.91
+   },
+   "computed": true,
+   "computed_from": "Table 1 reports skew present/untestable in 4% of PAVS (n=25) and 25% of CAVS (n=76) with NLR 0.78 (0.67-0.91); specificity = 1-0.04 = 0.96; LR+ = 0.25/0.04 = 6.3; prevalence = 76/101",
+   "interpretation_label": "rule_in",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "skew deviation present or untestable 4% 25% 0.78 (0.67-0.91)",
+   "location": "Table 1 (Key clinical features in patients with peripheral versus central AVS)"
+  },
+  {
+   "target_condition": "Ischemic stroke in acute vestibular syndrome - skew deviation present (untestable excluded)",
+   "population": "94 high-risk AVS patients with testable skew: 25 no stroke, 69 stroke by final imaging (2 stroke patients untestable excluded); same cohort",
+   "setting": "ED",
+   "prevalence": 0.73,
+   "reference_standard": "Final neuroimaging (MRI/CT) and clinical follow-up",
+   "sensitivity": {
+    "value": 0.24,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.96,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 6.0,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.79,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "Table 3 2x2: skew present 16 stroke / 1 no stroke; skew absent 51 stroke / 24 no stroke. Sens = 16/67 = 0.24; spec = 24/25 = 0.96; LR+ = 0.24/0.04 = 6.0; LR- = 0.76/0.96 = 0.79; prevalence = 69/94",
+   "interpretation_label": "rule_in",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "Skew Deviation absent 24 51 6 ... Skew Deviation present 1 16 0",
+   "location": "Table 3 (Skew deviation relative to neuroimaging in AVS, stratified by h-HIT results)"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Kattah JC, Talkad AV, Wang DZ, Hsieh YH, Newman-Toker DE. HINTS to diagnose stroke in the acute vestibular syndrome: three-step bedside oculomotor examination more sensitive than early MRI diffusion-weighted imaging. Stroke. 2009.",
+   "doi": "10.1161/STROKEAHA.109.551234",
+   "pmid": "19762709",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2009
+  },
+  {
+   "citation": "Tarnutzer AA, Berkowitz AL, Robinson KA, Hsieh YH, Newman-Toker DE. Does my dizzy patient have a stroke? A systematic review of bedside diagnosis in acute vestibular syndrome. CMAJ. 2011.",
+   "doi": "10.1503/cmaj.100174",
+   "pmid": "21576300",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2011
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use skew alone to rule out stroke; do not apply HINTS outside acute vestibular syndrome (e.g., episodic or positional vertigo) or in patients who cannot fixate.",
+  "escalation_warning": "Any skew, direction-changing nystagmus, or normal head impulse in AVS is a stroke until proven otherwise; early MRI-DWI is falsely negative in ~12% in this cohort, so admit and repeat imaging if negative.",
+  "interobserver_note": "Kattah's examiners were neuro-ophthalmology-trained; no kappa reported. Accuracy of skew testing by non-expert emergency clinicians is not established in the sources reviewed."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Kattah 2009 full text obtained via PMC (PMC4593511). Estimate 1 uses Table 1 (skew 'present or untestable', includes 3 untestable central cases per footnote) with the reported NLR; estimate 2 is computed from the Table 3 2x2 restricted to ischemic stroke and testable patients - both from the same cohort, so they are not independent. Footnote: two peripheral patients developed skew >1 week after onset and were not counted. Table 4 in the same paper gives the full HINTS battery: 'Dangerous bedside H.I.N.T.S. 100% 96% 0.00 (0.00-0.12)' (Table 4) - composite, not entered here. Skew 'was present in 17% of our 101 subjects' and 'evident in 4% (n=1/25) with APV, 4% (n=1/24) with pure cerebellar lesions, and 30% (n=15/50) with demonstrated structural brainstem involvement' (Results text). Tarnutzer 2011 CMAJ systematic review (PMID 21576300) is cited as pooled context, but its PMC deposit is abstract-only and PubMed carries no abstract, so its pooled skew estimate could not be verified and is not entered.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:35+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

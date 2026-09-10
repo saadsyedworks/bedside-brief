@@ -1,0 +1,129 @@
+{
+ "identity": {
+  "id": "exam_hypotension_sbp_lt90",
+  "title": "Systolic BP <90 mmHg (or MAP <65) at the bedside",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "chest_pain",
+   "syncope",
+   "hypotension",
+   "aki"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "adrenal_insufficiency",
+   "anaphylaxis",
+   "aortic_dissection",
+   "cardiogenic_shock",
+   "hypovolemic_hemorrhagic_shock",
+   "pericardial_effusion_tamponade",
+   "prerenal_hypovolemia",
+   "pulmonary_embolism",
+   "septic_shock"
+  ],
+  "indication_tags": []
+ },
+ "technique": {
+  "how": "Measure BP with a correctly sized cuff on a supported arm at heart level (or an arterial line if present); repeat, and measure both arms if dissection is possible. Record SBP <90 mmHg or MAP <65 mmHg, and interpret against the patient's usual BP, heart rate, mentation, urine output and skin perfusion.",
+  "prerequisites": "Appropriate cuff size; awareness of antihypertensive doses and baseline BP.",
+  "contraindications": "None; avoid the cuff on an arm with a fistula, lymphoedema or injury."
+ },
+ "interpretation": {
+  "positive_finding": "SBP <90 or MAP <65 in an acutely ill patient signals shock until proven otherwise; in suspected aortic dissection it is specific (about 0.95) and roughly triples the odds (LR+ 2.9), and in tamponade it is a late, insensitive sign.",
+  "negative_finding": "A normal BP does not exclude shock, tamponade or dissection: compensated patients, hypertensives and beta-blocked patients may maintain SBP >90 despite hypoperfusion, and most tamponade patients are normotensive or hypertensive.",
+  "pitfalls": "Cuff too large under-reads and too small over-reads; arm-to-arm differences and severe vasoconstriction mislead. A 'normal' SBP of 100 may be profound hypotension for a chronic hypertensive.",
+  "changes_what": "Hypotension: treat as shock - lactate, access, targeted POCUS for tamponade/RV strain/IVC, and cause-specific therapy; normal BP: use lactate, mentation and perfusion to avoid false reassurance."
+ },
+ "estimates": [
+  {
+   "target_condition": "Acute aortic dissection",
+   "population": "Pooled from 4 studies of patients evaluated for suspected acute aortic dissection (systematic review of 9 studies, 2,400 participants)",
+   "setting": "mixed",
+   "prevalence": 0.391,
+   "reference_standard": "Imaging, surgical or autopsy confirmation of dissection as defined in the included studies",
+   "sensitivity": null,
+   "specificity": {
+    "value": 0.95,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 2.9,
+    "ci_low": 1.8,
+    "ci_high": 4.6
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "hypotension (n = 4, specificity = 95%, LR+ = 2.9 95% CI = 1.8-4.6, I2 = 42%)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Cardiac tamponade after cardiac surgery",
+   "population": "29 patients with cardiac tamponade after cardiac surgery, retrospective single-centre series (66% localized posterior effusions)",
+   "setting": "inpatient",
+   "prevalence": null,
+   "reference_standard": "Clinical/echocardiographic/haemodynamic diagnosis of postoperative tamponade (case series; controls not included)",
+   "sensitivity": {
+    "value": 0.24,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "minimal",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "In the whole group 24% of patients had hypotension",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Ohle R, Kareemi HK, Wells G, Perry JJ. Clinical Examination for Acute Aortic Dissection: A Systematic Review and Meta-analysis. Acad Emerg Med. 2018.",
+   "doi": "10.1111/acem.13360",
+   "pmid": "29265487",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2018
+  },
+  {
+   "citation": "Chuttani K, Tischler MD, Pandian NG, Lee RT, Mohanty PK. Diagnosis of cardiac tamponade after cardiac surgery: relative value of clinical, echocardiographic, and hemodynamic signs. Am Heart J. 1994.",
+   "doi": "10.1016/0002-8703(94)90561-4",
+   "pmid": "8154431",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1994
+  },
+  {
+   "citation": "Roy CL, Minor MA, Brookhart MA, Choudhry NK. Does this patient with a pericardial effusion have cardiac tamponade? JAMA. 2007.",
+   "doi": "10.1001/jama.297.16.1810",
+   "pmid": "17456823",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2007
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use a normal SBP to exclude shock, tamponade or dissection; do not attribute hypotension to medication until other causes are excluded.",
+  "escalation_warning": "SBP <90 with chest pain, pulse/BP differential or neurologic deficit = possible type A dissection or tamponade; hypotension with suspected PE = high-risk PE - both need immediate senior/ICU involvement.",
+  "interobserver_note": "Automated versus manual cuff readings can differ; no interobserver figure extracted."
+ },
+ "extraction_notes": "partially_quantified: Ohle 2018 gives specificity and LR+ (no sensitivity/LR-) for hypotension in suspected dissection; the 0.391 prevalence is the mean across all 9 included studies ('mean +/- SD = 39.1% +/- 17.1%', Abstract), not the 4 hypotension studies specifically. Chuttani 1994 is a case series so only sensitivity is available; subgroups: 'circumferential pericardial effusion and cardiac tamponade 40% patients were hypotensive' and 'regional pericardial effusion ... hypotension was present in 16%' (Abstract). Roy 2007 RCE abstract lists tamponade sensitivities for dyspnea, tachycardia, pulsus paradoxus, JVP and cardiomegaly but not hypotension, and JAMA full text is not open access, so its hypotension row could not be quoted. Wang 2005 (PMID 16234501) does not report hypotension in its abstract. Hypotension as a sepsis/PE severity criterion is prognostic/definitional rather than diagnostic accuracy and was not entered.",
+ "tier": "extracted",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:16+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

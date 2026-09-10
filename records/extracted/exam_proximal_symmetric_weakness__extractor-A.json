@@ -1,0 +1,61 @@
+{
+  "identity": {
+    "id": "exam_proximal_symmetric_weakness",
+    "title": "Proximal symmetric weakness (chair-rise/Gowers-type maneuver, arm abduction) without focal deficit",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "weakness"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "electrolyte_hypokalemia_hypophosphatemia",
+      "gbs",
+      "myopathy",
+      "sepsis_deconditioning"
+    ],
+    "indication_tags": [
+      "new_medication",
+      "alcohol_use",
+      "subacute"
+    ]
+  },
+  "technique": {
+    "how": "Ask the patient to rise from a chair with arms crossed, step onto a stool, and abduct the arms overhead against resistance; compare with distal power (grip, dorsiflexion) and grade MRC 0-5 bilaterally in shoulder abduction, elbow flexion, wrist extension, hip flexion, knee extension, ankle dorsiflexion (sum score 0-60). Check reflexes and sensation for focal or length-dependent deficit.",
+    "prerequisites": "Alert, cooperative patient able to follow commands; document pain that limits effort and recent drugs (statins, steroids, colchicine), alcohol and electrolytes.",
+    "contraindications": "Do not test chair-rise in patients at fall risk without assistance."
+  },
+  "interpretation": {
+    "positive_finding": "Symmetric proximal weakness with preserved sensation and reflexes suggests myopathy (inflammatory, toxic/statin, endocrine, hypokalemia/hypophosphatemia) or ICU-acquired/deconditioning weakness; MRC sum score <48 defines significant weakness in the ICU literature.",
+    "negative_finding": "Normal proximal power argues against a generalized myopathy or electrolyte myopathy; distal or asymmetric weakness or areflexia points instead to neuropathy, GBS, or focal CNS/cord lesions.",
+    "pitfalls": "Pain, delirium, sedation and poor effort mimic weakness; GBS may begin proximally and be areflexic, so always test reflexes. Neuromuscular junction disease (myasthenia) produces fatigable proximal and bulbar weakness.",
+    "changes_what": "Positive: check K, phosphate, CK, TSH, drug/alcohol review; consider EMG. Asymmetric, distal, areflexic or with sensory level: pursue GBS/cord/stroke pathways urgently."
+  },
+  "estimates": [],
+  "evidence_status": "not_quantified",
+  "sources": [
+    {
+      "citation": "Hermans G, Clerckx B, Vanhullebusch T, Segers J, Vanpee G, Robbeets C, Casaer MP, Wouters P, et al. Interobserver agreement of Medical Research Council sum-score and handgrip strength in the intensive care unit. Muscle Nerve. 2012.",
+      "doi": "10.1002/mus.22219",
+      "pmid": "22190301",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2012
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not attribute weakness to deconditioning when there is a sensory level, bladder dysfunction, bulbar symptoms, respiratory weakness or rapidly ascending course.",
+    "escalation_warning": "Ascending weakness, areflexia, dysphagia or falling vital capacity requires urgent GBS/neuromuscular respiratory assessment; severe hypokalemia can cause paralysis and arrhythmia.",
+    "interobserver_note": "In the ICU, MRC sum-score interobserver ICC was 0.95 (0.92-0.97); kappa for 'significant weakness' (MRC sum-score <48) was 0.68 +/- 0.09 and for 'severe weakness' (<36) 0.93 +/- 0.07 (Hermans 2012, Abstract)."
+  },
+  "tier": "extracted",
+  "extraction_notes": "No diagnostic-accuracy study of proximal symmetric weakness as a sign for myopathy, electrolyte weakness or GBS versus other causes was found; status not_quantified. Hermans 2012 is a reliability study only: 'The intraclass correlation coefficient (ICC) for MRC sum-score was 0.95 (0.92-0.97)' and kappa 'was 0.68 +/- 0.09, 0.88 +/- 0.07, and 0.93 +/- 0.07, respectively' for MRC <48, upper-limb subtotal <24, and MRC <36 (Abstract). PubMed search 'proximal muscle weakness myopathy diagnostic accuracy physical examination' returned only a small SMA fasciculation study (PMID 35879189), not relevant to this sign. The MRC <48 threshold for ICU-acquired weakness comes from the Hermans abstract.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T02:33:39+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

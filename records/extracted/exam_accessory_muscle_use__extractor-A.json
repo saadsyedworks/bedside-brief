@@ -1,0 +1,71 @@
+{
+ "identity": {
+  "id": "exam_accessory_muscle_use",
+  "title": "Work of breathing: accessory muscle use, tripoding, pursed-lip breathing, inability to speak full sentences",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "hypotension",
+   "ams"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "acute_decompensated_hf",
+   "asthma_exacerbation",
+   "copd_exacerbation",
+   "hypercapnia",
+   "pneumonia",
+   "upper_airway_obstruction"
+  ],
+  "indication_tags": [
+   "copd_known"
+  ]
+ },
+ "technique": {
+  "how": "Observe before touching: sternocleidomastoid/scalene contraction with inspiration, suprasternal or intercostal retractions, tripod posture, pursed-lip exhalation, and whether the patient can complete a full sentence in one breath. Count respiratory rate over 30-60 s at the same time.",
+  "prerequisites": "Patient visible from the front with neck and upper chest exposed; assess at rest, not immediately after exertion.",
+  "contraindications": "None (observation only)."
+ },
+ "interpretation": {
+  "positive_finding": "Visible accessory muscle recruitment, retractions, tripoding or speaking only in words/phrases marks severe respiratory distress and, in asthma/COPD, is a guideline severity marker of a severe or life-threatening exacerbation.",
+  "negative_finding": "Absence does not exclude airflow limitation, hypoxemia or hypercapnia; a tiring or obtunded patient may lose accessory muscle use as respiratory failure progresses.",
+  "pitfalls": "A 'quiet' chest with falling effort can signal exhaustion rather than improvement. Chronic sternocleidomastoid hypertrophy in COPD is not the same as acute recruitment.",
+  "changes_what": "Positive: treat as severe exacerbation/impending failure - escalate monitoring, bronchodilators/NIV, and check gas exchange now; negative: does not lower probability of the underlying diagnosis."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Holleman DR, Simel DL. Does the clinical examination predict airflow limitation? JAMA. 1995.",
+   "doi": null,
+   "pmid": "7815660",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1995
+  },
+  {
+   "citation": "Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024 update - assessment of exacerbation severity (talks in words, sitting hunched forward, use of accessory muscles).",
+   "doi": null,
+   "pmid": null,
+   "url": "https://ginasthma.org",
+   "kind": "guideline",
+   "year": 2024
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not rely on absence of effort to defer escalation in a somnolent, hypercapnic or exhausted patient.",
+  "escalation_warning": "Accessory muscle use with inability to speak, drowsiness, silent chest or SpO2 <90% = life-threatening exacerbation; prepare for NIV/intubation and call for help.",
+  "interobserver_note": "No reliability estimate located for adult accessory muscle use in this extraction; chest-sign agreement between examiners is generally described as variable (unverified recall)."
+ },
+ "extraction_notes": "No usable numeric estimate: the JAMA RCE (PMID 7815660) abstract is empty in PubMed e-utils and JAMA full text is not open access, so the sternomastoid/accessory-muscle rows of its table could not be seen and no quote/location can be given. Searches 'accessory muscle use sensitivity specificity airflow', 'sternomastoid contraction airflow obstruction', 'accessory muscle use hypercapnia respiratory failure sensitivity specificity' and 'accessory muscle use acute asthma severity FEV1 adults' returned only physiology/RCT/factor-analysis papers (e.g. Rodrigo & Rodrigo Chest 1993 PMID 8222781) without diagnostic-accuracy numbers in the abstract. Holleman 1993 JGIM (PMID 8441077) reports wheezing but not accessory muscle use in its abstract. Severity-marker role is supported by GINA 2024 (guideline, no PMID).",
+ "tier": "extracted",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:16+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

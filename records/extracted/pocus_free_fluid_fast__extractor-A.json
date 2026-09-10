@@ -1,0 +1,133 @@
+{
+ "identity": {
+  "id": "pocus_free_fluid_fast",
+  "title": "POCUS free intraperitoneal fluid (FAST views)",
+  "type": "pocus",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "hypotension",
+   "abdominal_pain",
+   "fever"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "aaa",
+   "cirrhosis",
+   "hypovolemic_hemorrhagic_shock",
+   "perforated_viscus",
+   "sbp"
+  ],
+  "indication_tags": [
+   "trauma",
+   "cirrhosis_known"
+  ]
+ },
+ "technique": {
+  "how": "Curvilinear/phased-array probe, patient supine: right upper quadrant (hepatorenal/Morison pouch, including the inferior liver tip and right paracolic gutter), left upper quadrant (splenorenal and subphrenic), and pelvis (retrovesical/pouch of Douglas, transverse and sagittal, ideally with bladder full). Look for anechoic stripes between organs; add subxiphoid cardiac view for the full FAST.",
+  "prerequisites": "Trained operator; patient supine (Trendelenburg increases RUQ yield); serial repeat scans if initial scan negative and suspicion persists.",
+  "contraindications": "None; must not delay resuscitation or transfer to laparotomy in the unstable trauma patient."
+ },
+ "interpretation": {
+  "positive_finding": "Free fluid in a blunt-trauma patient markedly raises the probability of intra-abdominal injury; with hypotension it usually indicates hemoperitoneum warranting laparotomy. In non-trauma patients free fluid is nonspecific (ascites, ruptured viscus, ruptured AAA, ectopic).",
+  "negative_finding": "A negative FAST lowers but does not exclude intra-abdominal injury (sensitivity ~0.7); retroperitoneal, solid-organ, and hollow-viscus injuries are missed and CT or serial exams are needed when suspicion persists.",
+  "pitfalls": "Sensitivity is worse in children and early after injury before fluid accumulates; pre-existing ascites, urine from bladder rupture, and pleural fluid or perinephric fat can be mistaken for hemoperitoneum. FAST detects fluid, not the source, and cannot diagnose SBP or AAA.",
+  "changes_what": "Positive in unstable blunt trauma: OR/laparotomy or embolization; negative with persisting concern: CT or serial FAST. In non-trauma, positive fluid prompts paracentesis/CT for cause."
+ },
+ "estimates": [
+  {
+   "target_condition": "COMPOSITE: intra-abdominal injury (positive bedside ultrasound = intraperitoneal free fluid OR organ injury)",
+   "population": "Adult ED patients with blunt abdominal trauma; 22 bedside ultrasound studies pooled (RCE)",
+   "setting": "ED",
+   "prevalence": 0.13,
+   "reference_standard": "Abdominal CT, diagnostic peritoneal lavage, laparotomy, autopsy and/or clinical course",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 30,
+    "ci_low": 20,
+    "ci_high": 46
+   },
+   "lr_negative": {
+    "value": 0.26,
+    "ci_low": 0.19,
+    "ci_high": 0.34
+   },
+   "computed": false,
+   "computed_from": "",
+   "interpretation_label": "both",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "(adjusted summary LR, 30; 95% CI, 20-46); conversely, a normal ultrasound result decreases the chance of injury detection (adjusted summary LR, 0.26; 95% CI, 0.19-0.34)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Abdominal injury (free fluid/organ injury) in blunt trauma, POCS/FAST, abdominal-trauma subgroup",
+   "population": "Blunt-trauma patients of any age, civilian; 34 studies, 8635 participants overall (abdominal subgroup estimate)",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "CT, MRI, laparoscopy/laparotomy, thoracoscopy/thoracotomy, autopsy, or combination",
+   "sensitivity": {
+    "value": 0.68,
+    "ci_low": 0.59,
+    "ci_high": 0.75
+   },
+   "specificity": {
+    "value": 0.95,
+    "ci_low": 0.92,
+    "ci_high": 0.97
+   },
+   "lr_positive": {
+    "value": 13.6,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.34,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "LR+ = 0.68/(1-0.95) = 13.6; LR- = (1-0.68)/0.95 = 0.34 from reported pooled sens/spec",
+   "interpretation_label": "both",
+   "evidence_level": "pooled",
+   "source_index": 1,
+   "quote": "For abdominal trauma, POCS had a sensitivity of 0.68 (95% CI 0.59 to 0.75) and a specificity of 0.95 (95% CI 0.92 to 0.97).",
+   "location": "Abstract, Main results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Nishijima DK, Simel DL, Wisner DH, Holmes JF. Does this adult patient have a blunt intra-abdominal injury? JAMA. 2012.",
+   "doi": "10.1001/jama.2012.422",
+   "pmid": "22496266",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2012
+  },
+  {
+   "citation": "Stengel D, Leisterer J, Ferrada P, Ekkernkamp A, Mutze S, Hoenning A. Point-of-care ultrasonography for diagnosing thoracoabdominal injuries in patients with blunt trauma. Cochrane Database Syst Rev. 2018.",
+   "doi": null,
+   "pmid": "30548249",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2018
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use a negative FAST to discharge or to stop the work-up of a blunt-trauma patient with ongoing concern, in children, or in penetrating trauma; do not use to diagnose SBP, AAA rupture, or the source of ascites.",
+  "escalation_warning": "Positive FAST with hypotension in trauma is a surgical emergency; free fluid with peritonitis or unexplained shock in non-trauma patients needs immediate surgical/imaging evaluation.",
+  "interobserver_note": "Accuracy varies markedly by operator, population and body region across the 34 Cochrane studies; no pooled kappa reported in the abstracts reviewed.",
+  "skill_assumption": "Emergency/critical-care clinician credentialed in FAST (e.g., ACEP-level training with supervised scans); estimates derive from trained trauma-center operators and do not transfer to novices."
+ },
+ "tier": "extracted",
+ "extraction_notes": "RCE (PMID 22496266) pools 'intraperitoneal fluid or organ injury on bedside ultrasound', hence COMPOSITE label; adult blunt-trauma prevalence 0.13 (95% CI 10%-17%) from the same abstract. Cochrane 2018 (PMID 30548249): overall thoracoabdominal pooled sens 0.74 (0.65-0.81), spec 0.96 (0.94-0.98), LR+ 18.5 (10.8-40.5), LR- 0.27 (0.19-0.37); children sens 0.63 (0.46-0.77) vs adult/mixed 0.78 (0.69-0.84), spec 0.91 vs 0.97; median pretest probability 28% (all Abstract, Main results) - not entered as separate rows because they include chest injuries. Cochrane DOI not returned by the tool; PMID confirmed. No diagnostic-accuracy data for free fluid in non-trauma differentials (cirrhosis/SBP/AAA/perforation) were sought within budget; these mappings rest on physiology, not on FAST accuracy studies. Operator level in pooled data is heterogeneous (emergency physicians, surgeons, radiologists).",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:35+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

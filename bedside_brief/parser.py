@@ -117,7 +117,17 @@ def parse_oneliner(text: str, llm: Any) -> dict[str, Any]:
     if not (text or "").strip():
         raise ParserError("empty one-liner")
     reply = llm.complete_json(system_prompt(), text.strip(), PARSER_SCHEMA)
-    _check_vocab(reply)
+    try:
+        _check_vocab(reply)
+    except ParserVocabError as first:
+        # One corrective re-parse with the violation fed back; still rejected if it repeats (never silently dropped).
+        log.warning("vocab violation, re-parsing once: %s", first)
+        feedback = (
+            f"{text.strip()}\n\n[CORRECTION] Your previous answer used strings that are NOT in the vocabulary: {first}. "
+            "Re-emit the full JSON using ONLY the listed strings; if no listed indication_tag applies, return an empty list."
+        )
+        reply = llm.complete_json(system_prompt(), feedback, PARSER_SCHEMA)
+        _check_vocab(reply)
     parsed = {
         "chief_complaint": strip_numbers(reply["chief_complaint"]),
         "presentation": reply["presentation"],

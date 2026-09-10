@@ -1,0 +1,114 @@
+{
+ "identity": {
+  "id": "exam_focal_neuro_deficit_with_chest_pain",
+  "title": "Focal neurologic deficit (limb weakness, aphasia, Horner) accompanying chest/back pain",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "chest_pain",
+   "syncope",
+   "weakness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "aortic_dissection",
+   "stroke"
+  ],
+  "indication_tags": [
+   "acute_onset"
+  ]
+ },
+ "technique": {
+  "how": "In any patient with acute chest, back or abdominal pain, screen for a focal deficit: speech, facial symmetry, limb strength and drift in all four limbs, sensation, and pupils/ptosis (Horner). Note paraplegia (spinal artery), hemiparesis/aphasia (carotid), and limb ischaemia. Compare with pulse and BP in both arms.",
+  "prerequisites": "Patient able to cooperate; otherwise use observed asymmetry.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "A focal neurological deficit in a patient with acute chest/back pain raises the probability of aortic dissection (pooled LR+ 4.4, specificity 95%); stroke-like presentation with pain should prompt aortic imaging before thrombolysis.",
+  "negative_finding": "Absence of a deficit does little to exclude dissection: only about 17% of confirmed dissections have focal deficits.",
+  "pitfalls": "Deficits may be transient or fluctuate and be attributed to primary stroke; pain may be absent in dissection presenting as stroke. Syncope with deficit can be misread as seizure.",
+  "changes_what": "Positive: treat as dissection until imaged (CT angiography), avoid anticoagulation/thrombolysis; negative: does not lower dissection probability meaningfully."
+ },
+ "estimates": [
+  {
+   "target_condition": "Acute aortic dissection (finding: neurologic deficit)",
+   "population": "Adults with suspected acute aortic dissection in 9 studies (n=2400); prevalence across studies 21.9%-76.1% (mean 39.1%)",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "Confirmed dissection by imaging/surgery/autopsy as defined in included studies (not detailed in abstract)",
+   "sensitivity": null,
+   "specificity": {
+    "value": 0.95,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 4.4,
+    "ci_low": 3.3,
+    "ci_high": 5.7
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "neurologic deficit (n = 3, specificity = 95%, positive likelihood ratio [LR+] = 4.4, 95% confidence interval [CI] = 3.3-5.7, I2 = 0%)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Acute thoracic aortic dissection (finding: focal neurological deficit) - pooled sensitivity from case series",
+   "population": "Consecutive patients with confirmed thoracic aortic dissection (21 studies, >=18 patients each)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Confirmed thoracic aortic dissection (imaging, surgery or autopsy)",
+   "sensitivity": {
+    "value": 0.17,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 1,
+   "quote": "31% have pulse deficits or blood pressure differentials, and 17% have focal neurological deficits",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Ohle R, Kareemi HK, Wells G, Perry JJ. Clinical Examination for Acute Aortic Dissection: A Systematic Review and Meta-analysis. Acad Emerg Med. 2018;25(4):397-412.",
+   "doi": "10.1111/acem.13360",
+   "pmid": "29265487",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2018
+  },
+  {
+   "citation": "Klompas M. Does this patient have an acute thoracic aortic dissection? JAMA. 2002;287(17):2262-2272.",
+   "doi": "10.1001/jama.287.17.2262",
+   "pmid": "11980527",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2002
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use absence of a deficit to lower suspicion; do not delay aortic imaging in a stroke-like presentation with chest/back pain.",
+  "escalation_warning": "Neurologic deficit with chest pain, pulse deficit, or hypotension is a time-critical emergency: immediate CT angiography and surgical/vascular consultation.",
+  "interobserver_note": "Not reported in either abstract."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Neither full text is open access (JAMA, Acad Emerg Med); locations are 'Abstract, Results'. Ohle reports specificity 95% and LR+ 4.4 (3.3-5.7) but no sensitivity or LR- for neurologic deficit, and sensitivity must not be derived from an LR -> partially_quantified. Klompas reports LR+ for neurological deficits as a between-study range 6.6-33.0 (Abstract) - not entered as a point value; only the pooled sensitivity 17% is entered (case-series design, so prevalence null). Ohle prevalence 'ranged from 21.9% to 76.1% (mean +/- SD = 39.1% +/- 17.1%)' (Abstract) is a mean across studies, not a cohort prevalence, so left null. PubMed lists Ohle as 2019; print issue is Acad Emerg Med 2018;25(4).",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:24+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

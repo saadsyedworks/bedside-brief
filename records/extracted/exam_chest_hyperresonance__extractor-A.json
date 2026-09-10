@@ -1,0 +1,127 @@
+{
+ "identity": {
+  "id": "exam_chest_hyperresonance",
+  "title": "Chest percussion hyperresonance (diffuse with barrel chest = COPD; unilateral = pneumothorax)",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "chest_pain"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "asthma_exacerbation",
+   "copd_exacerbation",
+   "pneumothorax"
+  ],
+  "indication_tags": [
+   "copd_known",
+   "unilateral"
+  ]
+ },
+ "technique": {
+  "how": "With the patient sitting, percuss symmetric points over both lung fields anteriorly and posteriorly, comparing side to side; hyperresonance is a louder, lower-pitched, more drum-like note than normal resonance. Note whether it is bilateral (hyperinflation) or unilateral (air in the pleural space), and combine with breath-sound asymmetry.",
+  "prerequisites": "Quiet room, chest exposed, examiner able to compare with normal resonance.",
+  "contraindications": "None; avoid delaying decompression for percussion in a hypotensive patient with suspected tension pneumothorax."
+ },
+ "interpretation": {
+  "positive_finding": "Bilateral hyperresonance in a smoker strongly raises the probability of COPD (LR+ about 9.5 in primary care); unilateral hyperresonance with reduced breath sounds points to pneumothorax on that side.",
+  "negative_finding": "Normal percussion note does not exclude COPD (sensitivity about 0.2) or a small pneumothorax; the sign is a rule-in, not a rule-out, finding.",
+  "pitfalls": "Obesity, a thick chest wall and examiner skill blunt the sign; interobserver agreement for percussion is poor. Large bullae or a contralateral effusion can mimic unilateral hyperresonance.",
+  "changes_what": "Bilateral: pursue spirometry/COPD; unilateral with breath-sound loss: obtain CXR or POCUS for pneumothorax now; normal: no change in probability."
+ },
+ "estimates": [
+  {
+   "target_condition": "COPD (post-bronchodilator FEV1/FVC <0.7)",
+   "population": "375 primary-care patients aged >=40 y with a previous diagnosis of asthma or COPD (cross-sectional, Norway)",
+   "setting": "outpatient",
+   "prevalence": 0.397,
+   "reference_standard": "Post-bronchodilator spirometry, FEV1/FVC <0.7",
+   "sensitivity": {
+    "value": 0.21,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.98,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 9.5,
+    "ci_low": 3.7,
+    "ci_high": 23.7
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "Hyperresonance to percussion  0.21  0.98  9.5  3.7-23.7  86.1",
+   "location": "Table 3 (PMC full text)"
+  },
+  {
+   "target_condition": "Severe COPD (post-bronchodilator spirometry threshold as defined in Table 4)",
+   "population": "Same 375 primary-care patients aged >=40 y with previous asthma/COPD diagnosis",
+   "setting": "outpatient",
+   "prevalence": 0.117,
+   "reference_standard": "Post-bronchodilator spirometry (severe COPD definition per Table 4)",
+   "sensitivity": {
+    "value": 0.39,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.94,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 6.7,
+    "ci_low": 3.8,
+    "ci_high": 12.0
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "Hyperresonance to percussion  0.39  0.94  6.7  3.8-12.0  47.2",
+   "location": "Table 4 (PMC full text)"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Oshaug K, Halvorsen PA, Melbye H. Should chest examination be reinstated in the early diagnosis of chronic obstructive pulmonary disease? Int J Chron Obstruct Pulmon Dis. 2013.",
+   "doi": "10.2147/COPD.S47992",
+   "pmid": "23983462",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2013
+  },
+  {
+   "citation": "Holleman DR, Simel DL. Does the clinical examination predict airflow limitation? JAMA. 1995.",
+   "doi": null,
+   "pmid": "7815660",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1995
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use percussion to exclude pneumothorax in trauma or after a procedure; image instead.",
+  "escalation_warning": "Unilateral hyperresonance with absent breath sounds, hypotension or tracheal deviation = tension pneumothorax; decompress before imaging.",
+  "interobserver_note": "Oshaug 2013 (Discussion) states previous studies showed considerable interobserver variation, particularly for hyperresonance to percussion and diminished breath sounds; no kappa is given in the accessible text."
+ },
+ "extraction_notes": "Estimates are from Oshaug 2013 Tables 3-4 (PMC3751499); table columns read sensitivity, specificity, LR+, 95% CI, and a final column (86.1/47.2) that appears to be PPV or post-test probability - not entered. LR- is not tabulated. Prevalence figures quoted from table notes: 'The overall prevalence of COPD was 39.7%' (Table 3 note) and 'The overall prevalence of severe COPD was 11.7%' (Table 4 note); the exact FEV1 threshold for 'severe COPD' sits in the Table 4 caption which was truncated in the retrieved text. The 1995 JAMA RCE (PMID 7815660) has an empty abstract in e-utils and no open-access text, so its pooled hyperresonance values could not be quoted. No diagnostic-accuracy study of percussion for pneumothorax was found ('hyperresonance percussion pneumothorax sensitivity' returned nothing; 'physical examination pneumothorax diagnostic accuracy emergency' returned ultrasound papers only), so the pneumothorax use is guideline/teaching-based only.",
+ "tier": "extracted",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:16+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

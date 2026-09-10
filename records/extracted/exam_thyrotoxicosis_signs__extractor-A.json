@@ -1,0 +1,59 @@
+{
+ "identity": {
+  "id": "exam_thyrotoxicosis_signs",
+  "title": "Signs of thyrotoxicosis: fine tremor, lid lag/retraction, warm moist skin, goiter, hyperreflexia",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "palpitations",
+   "edema",
+   "weakness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "atrial_fibrillation_flutter",
+   "hyperthyroidism",
+   "sinus_tachycardia_secondary"
+  ],
+  "indication_tags": []
+ },
+ "technique": {
+  "how": "Rest a sheet of paper on the outstretched fingers to reveal fine tremor; feel palms for warmth and moisture; observe the upper lid as the patient follows your finger downward (lid lag) and at rest for sclera visible above the iris (retraction); palpate the thyroid from behind during swallowing for goiter, bruit, or nodules; test ankle/biceps reflexes for brisk relaxation.",
+  "prerequisites": "Patient seated, arms unsupported for tremor; neck extended slightly for thyroid palpation.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "A cluster of tremor, warm moist skin, lid lag/retraction, goiter, and brisk reflexes in a patient with tachycardia, atrial fibrillation, weight loss, or unexplained dyspnea suggests thyrotoxicosis; ATA guidance recommends confirming with TSH and free T4/T3.",
+  "negative_finding": "Absence of these signs does not exclude hyperthyroidism, particularly in older adults (apathetic thyrotoxicosis) and in beta-blocked patients.",
+  "pitfalls": "Anxiety, caffeine, alcohol withdrawal, and beta-agonists cause tremor and tachycardia; lid retraction is specific to Graves orbitopathy rather than thyrotoxicosis per se; goiter is common in euthyroid people.",
+  "changes_what": "Positive: order TSH/free T4 and consider beta-blockade; negative: still check TSH in new AF or unexplained tachycardia/weight loss."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Ross DS, Burch HB, Cooper DS, Greenlee MC, Laurberg P, Maia AL, Rivkees SA, Samuels M, et al. 2016 American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis. Thyroid. 2016;26(10):1343-1421.",
+   "doi": "10.1089/thy.2016.0229",
+   "pmid": "27521067",
+   "url": null,
+   "kind": "guideline",
+   "year": 2016
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not rely on exam to diagnose or exclude thyrotoxicosis when TSH is readily available.",
+  "escalation_warning": "Thyrotoxic signs with fever, delirium, heart failure, or hemodynamic instability suggest thyroid storm - urgent endocrine and critical-care involvement.",
+  "interobserver_note": "No reliability data located for individual signs."
+ },
+ "tier": "extracted",
+ "extraction_notes": "No JAMA RCE exists for hyperthyroidism signs. Searches 'hyperthyroidism clinical diagnostic index signs sensitivity specificity', 'Wayne[Title] thyrotoxicosis index', 'Crooks J[Author] thyrotoxicosis', and 'thyrotoxicosis[Title] clinical index sensitivity specificity diagnosis' did not surface a retrievable accuracy study of bedside signs (hits were amiodarone-thyrotoxicosis imaging, neonatal, or unrelated). The historical Wayne/Crooks clinical index accuracy is (unverified recall) and was not entered. The ATA 2016 guideline is cited as the consensus basis for the maneuvers; record is not_quantified.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:21+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

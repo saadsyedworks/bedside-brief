@@ -1,0 +1,61 @@
+{
+ "identity": {
+  "id": "exam_dermatomal_vesicular_rash",
+  "title": "Unilateral dermatomal vesicular rash (or dermatomal allodynia preceding rash)",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "chest_pain",
+   "abdominal_pain",
+   "weakness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "herpes_zoster",
+   "musculoskeletal_chest_wall"
+  ],
+  "indication_tags": [
+   "unilateral",
+   "immunocompromised",
+   "elderly"
+  ]
+ },
+ "technique": {
+  "how": "Fully expose the painful region including back and flank. Look for grouped vesicles on an erythematous base confined to one or adjacent dermatomes, stopping sharply at the midline; in the pre-eruptive phase, test for dermatomal allodynia or hyperaesthesia with light touch. Re-examine in 1-3 days if pain is dermatomal but skin is clear.",
+  "prerequisites": "Good lighting; undress the patient.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "A unilateral dermatomal vesicular eruption is diagnostic of herpes zoster on clinical grounds and explains dermatomal chest, abdominal or limb pain; disseminated lesions suggest immunocompromise.",
+  "negative_finding": "Absence of rash does not exclude zoster early on, since pain and allodynia precede the eruption by days (zoster sine herpete exists); it does not address cardiac or intra-abdominal causes.",
+  "pitfalls": "Prodromal zoster mimics ACS, pleurisy, cholecystitis or renal colic; early erythematous papules can be missed. Contact dermatitis or HSV can mimic; PCR of a lesion swab confirms atypical cases.",
+  "changes_what": "Positive rash establishes zoster: start antivirals within 72 h and stop cardiac/abdominal work-up unless features are discordant; if no rash, keep zoster on the list and re-examine."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Dworkin RH, Johnson RW, Breuer J, Gnann JW, Levin MJ, Backonja M, Betts RF, Gershon AA, et al. Recommendations for the management of herpes zoster. Clin Infect Dis. 2007;44 Suppl 1:S1-26.",
+   "doi": "10.1086/510206",
+   "pmid": "17143845",
+   "url": null,
+   "kind": "guideline",
+   "year": 2007
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not attribute chest pain to zoster solely on the basis of pain when rash is absent and ACS/PE features are present.",
+  "escalation_warning": "Ophthalmic (V1) involvement, disseminated lesions, motor weakness, or immunocompromise require urgent specialist input and IV antivirals.",
+  "interobserver_note": "No interobserver data found."
+ },
+ "tier": "extracted",
+ "extraction_notes": "No Rational Clinical Examination or diagnostic-accuracy study of the dermatomal rash as a bedside discriminator for chest/abdominal pain was found (searches: 'herpes zoster diagnosis accuracy clinical prospective PCR' returned only a laboratory PCR assay paper, PMID 26711555, not used). Zoster is diagnosed clinically per the IDSA-endorsed 2007 consensus recommendations (Dworkin et al.), cited as the guideline source. Estimates left empty; no numbers claimed.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:24+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

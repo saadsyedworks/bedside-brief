@@ -1,0 +1,114 @@
+{
+ "identity": {
+  "id": "exam_thyroid_gland_palpation",
+  "title": "Thyroid palpation and auscultation: goiter, nodularity, bruit (distinct from thyrotoxicosis signs)",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "palpitations",
+   "edema"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "hyperthyroidism"
+  ],
+  "indication_tags": []
+ },
+ "technique": {
+  "how": "Inspect the neck from the front with the head slightly extended and during a swallow of water; then palpate with fingertips below the cricoid on each side of the trachea while the patient swallows, assessing size (lateral lobe larger than the distal thumb phalanx = goiter), consistency, nodules, tenderness and retrosternal extension. Auscultate each lobe with the bell for a bruit.",
+  "prerequisites": "Neck exposed, patient seated with neck relaxed; a glass of water for swallowing; quiet room for auscultation.",
+  "contraindications": "None; palpate gently in suspected thyroiditis (tenderness) or after neck surgery."
+ },
+ "interpretation": {
+  "positive_finding": "A visibly or palpably enlarged gland (lateral lobe larger than the distal phalanx of the patient's thumb, WHO grade 1-2), diffuse smooth enlargement with a bruit suggesting Graves disease, or a multinodular/solitary nodule pattern suggesting toxic nodular disease.",
+  "negative_finding": "A normal-sized, non-nodular, non-tender gland without bruit lowers but does not exclude thyroid disease; roughly half of ultrasound-enlarged glands are missed by palpation in endemic-goiter settings.",
+  "pitfalls": "Short thick necks, obesity, kyphosis and retrosternal goiters cause false negatives; prominent neck fat, high-riding glands and thin necks cause false positives. Inter-observer agreement for gland type is poor, and a venous hum or carotid bruit can mimic a thyroid bruit.",
+  "changes_what": "Goiter/nodules or bruit with palpitations or edema raise hyperthyroidism (Graves vs nodular) and prompt TSH/free T4 and ultrasound; a normal gland does not exclude thyrotoxicosis, so still check TSH."
+ },
+ "estimates": [
+  {
+   "target_condition": "Goiter (thyroid enlargement above the iodine-replete reference upper limit by ultrasound)",
+   "population": "195 subjects (adults and children) from 6 villages in an endemic iodine-deficiency region of Senegal, West Africa",
+   "setting": "outpatient",
+   "prevalence": null,
+   "reference_standard": "Sonographically measured thyroid volume above the recommended upper limit of the reference range for an iodine-replete area",
+   "sensitivity": {
+    "value": 0.517,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.915,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 6.1,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.53,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "LR+ = 0.517/(1-0.915) = 6.1; LR- = (1-0.517)/0.915 = 0.53, from reported sensitivity 51.7% and specificity 91.5%",
+   "interpretation_label": "rule_in",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "Overall sensitivity and specificity for palpation compared to sonographically demonstrated thyroid enlargement was 51.7% and 91.5%, respectively.",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Siminoski K. The rational clinical examination. Does this patient have a goiter? JAMA. 1995.",
+   "doi": null,
+   "pmid": "7861577",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1995
+  },
+  {
+   "citation": "Smyth PP, Darke C, Parkes AB, Smith DF, John R, Hetherton AM, et al. Assessment of goiter in an area of endemic iodine deficiency. Thyroid. 1999.",
+   "doi": "10.1089/thy.1999.9.895",
+   "pmid": "10524568",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1999
+  },
+  {
+   "citation": "Jarlov AE, Hegedus L, Gjorup T, Hansen JM. Observer variation in the clinical assessment of the thyroid gland. J Intern Med. 1991.",
+   "doi": "10.1111/j.1365-2796.1991.tb00324.x",
+   "pmid": "1997641",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1991
+  },
+  {
+   "citation": "Zimmermann M, Saad A, Hess S, Torresani T, Chaouki N. Thyroid ultrasound compared with World Health Organization 1960 and 1994 palpation criteria for determination of goiter prevalence in regions of mild and severe iodine deficiency. Eur J Endocrinol. 2001.",
+   "doi": "10.1530/eje.0.1430727",
+   "pmid": "11124854",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2001
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use gland size to decide whether to test thyroid function: thyrotoxicosis frequently occurs with a normal-feeling gland (especially in the elderly).",
+  "escalation_warning": "Stridor, dysphagia, fixed hard gland, rapid growth or tracheal deviation suggests obstruction or malignancy; thyroid tenderness with fever suggests thyroiditis; storm features need urgent treatment regardless of gland findings.",
+  "interobserver_note": "Jarlov 1991: four observers examining 53 patients twice agreed in only 30% and 'kappa values between -0.04 and 0.54 were found' for inter-observer variation (Abstract, Results). Zimmermann 2001 (children, WHO 1994 criteria): inter-examiner 'kappa=0.53' in mild and '0.67' in severe iodine deficiency (Abstract, Results)."
+ },
+ "tier": "extracted",
+ "extraction_notes": "The JAMA RCE (Siminoski 1995) is the anchor but has no PubMed abstract and is not in PMC, so its pooled numbers cannot be quoted with a location; from memory the RCE reported palpation sensitivity ~70% and specificity ~82% (LR+ ~3.8, LR- ~0.37) against ultrasound/scintigraphy (unverified recall) - the owner should verify against the printed article (JAMA 1995;273:813-817). The entered estimate is a single primary study (Smyth 1999, endemic iodine deficiency, mixed adults/children, prevalence of ultrasound enlargement very high - '83.1% of females, 52.3% of males' (Abstract, Results) - so left null as not a single cohort prevalence). Zimmermann 2001 (400 Moroccan children) reports palpation vs ultrasound agreement 'kappa=0.41-0.44' in mild and 'kappa=0.55-0.64' in severe iodine deficiency and that WHO 1994 vs 1960 criteria raised 'sensitivity 3-4%' and lowered 'specificity 4-5%' (Abstract, Results) but gives no absolute sens/spec, so no estimate. Nordmeyer 1998 (316 patients) reports palpated vs ultrasound volume correlation 'r2 = 0.872' (Abstract) - not entered. No accuracy data located for thyroid bruit or nodularity as signs of hyperthyroidism; the record therefore quantifies goiter detection only.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:30+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

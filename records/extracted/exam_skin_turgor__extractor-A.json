@@ -1,0 +1,70 @@
+{
+ "identity": {
+  "id": "exam_skin_turgor",
+  "title": "Skin turgor decreased (slow recoil of pinched skin, subclavicular or forearm)",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "hypotension",
+   "aki",
+   "dizziness",
+   "ams"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "hyponatremia",
+   "hypovolemic_hemorrhagic_shock",
+   "orthostatic_hypotension",
+   "prerenal_hypovolemia"
+  ],
+  "indication_tags": [
+   "elderly"
+  ]
+ },
+ "technique": {
+  "how": "Pinch a fold of skin between thumb and forefinger over the subclavicular area (preferred in adults) or the anterior forearm/sternum, hold 1-2 seconds, release, and time the return to baseline. Recoil that is visibly delayed (tenting persisting >2 seconds) is 'decreased turgor'.",
+  "prerequisites": "Compare with the patient's baseline if known; note age and recent weight change.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Delayed recoil suggests reduced interstitial volume, but in adults this has no proven diagnostic value for hypovolemia and cannot by itself establish volume depletion.",
+  "negative_finding": "Normal turgor does not exclude hypovolemia; in adults the finding is neither a validated rule-in nor rule-out.",
+  "pitfalls": "Loss of skin elastin with ageing, weight loss, and edema all alter turgor independent of volume status; the subclavicular site is less affected by ageing than the forearm or hand. Findings with better support in the same RCE are dry axilla, dry mucous membranes and tongue furrows.",
+  "changes_what": "Should not change the differential on its own; pursue postural vitals, dry axilla/mucous membranes and labs (BUN, creatinine, electrolytes) when hypovolemia is the question."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "McGee S, Abernethy WB, Simel DL. The rational clinical examination. Is this patient hypovolemic? JAMA. 1999.",
+   "doi": "10.1001/jama.281.11.1022",
+   "pmid": "10086438",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1999
+  },
+  {
+   "citation": "Gross CR, Lindquist RD, Woolley AC, Granieri R, Allard K, Webster B. Clinical indicators of dehydration severity in elderly patients. J Emerg Med. 1992.",
+   "doi": "10.1016/0736-4679(92)90331-m",
+   "pmid": "1624737",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1992
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use in the elderly, cachectic, or edematous patient as evidence for or against volume depletion.",
+  "escalation_warning": "Hypotension with suspected hypovolemia is managed on vitals, postural change, and labs, not on turgor.",
+  "interobserver_note": "No interobserver statistic for turgor found in the sources reviewed (unverified recall: reliability is reported as poor in older dehydration literature)."
+ },
+ "tier": "extracted",
+ "extraction_notes": "JAMA RCE (PMID 10086438) abstract states verbatim: 'In adults, the capillary refill time and poor skin turgor have no proven diagnostic value' (Abstract, Results). The RCE evidence table with the primary sens/spec for poor skin turgor is not open access (JAMA 1999; PMC fulltext unavailable), so no point estimate could be located with a table/page and none is entered. The RCE's ED primary study for elderly patients, Gross 1992 (PMID 1624737; 55 patients >=60 y, 38 indicators vs chart-review severity rating), reports correlations only; its abstract lists tongue dryness, tongue furrows, dry mucous membranes, weakness, confusion, speech difficulty and sunken eyes as the best indicators and does not report skin turgor accuracy numerically. Status therefore not_quantified rather than rce_backed; a verifier with access to the RCE table can add the turgor row.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:35+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

@@ -1,0 +1,76 @@
+{
+ "identity": {
+  "id": "hx_edema_causing_medications",
+  "title": "Medication review for edema: dihydropyridine CCB, NSAIDs, thiazolidinediones, pregabalin/gabapentin, steroids, minoxidil/hydralazine",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "edema",
+   "aki"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "acute_decompensated_hf",
+   "medication_effect",
+   "venous_insufficiency"
+  ],
+  "indication_tags": [
+   "new_medication",
+   "bilateral"
+  ]
+ },
+ "technique": {
+  "how": "Review the full list for dihydropyridine CCBs (amlodipine, nifedipine), NSAIDs/COX-2 inhibitors, thiazolidinediones, pregabalin/gabapentin, corticosteroids, direct vasodilators (minoxidil, hydralazine), estrogens/progestins, testosterone, docetaxel, and DPP-4 or insulin. Record start date and dose escalation relative to edema onset and whether edema is bilateral, dependent and non-tender.",
+  "prerequisites": "Reconciled medication list including over-the-counter NSAIDs; weight trend, orthopnea/PND and JVP assessment to distinguish drug edema from heart failure.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Bilateral dependent edema beginning weeks after starting or increasing a dihydropyridine CCB, NSAID, thiazolidinedione, gabapentinoid, steroid or vasodilator, without orthopnea, elevated JVP or weight gain out of proportion, supports drug-induced edema (and NSAIDs also cause AKI/sodium retention).",
+  "negative_finding": "No culprit drug makes medication effect unlikely and directs evaluation toward heart failure, venous insufficiency, renal/hepatic disease or DVT (if unilateral).",
+  "pitfalls": "Up to one-third of edema on amlodipine is not caused by it, and thiazolidinediones/NSAIDs can precipitate true heart failure rather than benign edema; drug edema is a diagnosis of exclusion when JVP, BNP or echo suggest cardiac disease. Unilateral or painful edema is never attributed to medication.",
+  "changes_what": "Positive: trial withdrawal/dose reduction and reassess, check creatinine; negative or non-resolving: pursue HF, venous, renal, hepatic and DVT causes."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Heidenreich PA, Bozkurt B, Aguilar D, Allen LA, et al. 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. Circulation. 2022.",
+   "doi": "10.1161/CIR.0000000000001063",
+   "pmid": "35363499",
+   "url": null,
+   "kind": "guideline",
+   "year": 2022
+  },
+  {
+   "citation": "Vukadinovic D, Scholz SS, Messerli FH, Weber MA, Williams B, Bohm M. Peripheral edema and headache associated with amlodipine treatment: a meta-analysis of randomized, placebo-controlled trials. J Hypertens. 2019.",
+   "doi": "10.1097/HJH.0000000000002145",
+   "pmid": "31107359",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2019
+  },
+  {
+   "citation": "Makarounas-Kirchmann K, Glover-Koudounas S, Ferrari P. Results of a meta-analysis comparing the tolerability of lercanidipine and other dihydropyridine calcium channel blockers. Clin Ther. 2009.",
+   "doi": "10.1016/j.clinthera.2009.08.010",
+   "pmid": "19808126",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2009
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not label edema as drug-induced when there is dyspnea, orthopnea, elevated JVP, unilateral swelling, hypoalbuminemia/proteinuria or rising creatinine until those causes are evaluated.",
+  "escalation_warning": "Thiazolidinedione- or NSAID-associated edema with weight gain and dyspnea may be new/worsened heart failure; NSAID edema with oliguria or rising creatinine indicates AKI - stop the drug and assess urgently.",
+  "interobserver_note": "No inter-observer data; attribution depends on temporal relationship and response to withdrawal."
+ },
+ "tier": "extracted",
+ "extraction_notes": "No diagnostic-accuracy study of a medication history for drug-induced edema exists; the evidence is incidence data from drug trials. Vukadinovic 2019 (22 placebo-controlled RCTs, 7226 patients): 'Rate of edema was higher on amlodipine vs. placebo (16.6 vs. 6.2%, risk ratio: 2.9, 95% CI: 2.50-3.36, P < 0.0001)' and 'The placebo-adjusted rate was 63%, indicating that 37% of edema cases were unrelated to amlodipine' (Abstract, Results); high dose (10 mg) RR 3.08 vs low/medium 2.01 (Abstract). Makarounas-Kirchmann 2009: peripheral edema '52/742 with lercanidipine vs 88/627 with first generation; RR = 0.44 [95% CI, 0.31-0.62]' (Abstract, Results). The 2022 AHA/ACC/HFSA HF guideline is cited for thiazolidinedione and NSAID cautions in heart failure (unverified recall of the specific recommendation text; abstract does not contain it). Status not_quantified; incidence rates are not entered as estimates because they are not diagnostic accuracy of the history.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:30+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

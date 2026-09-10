@@ -1,0 +1,193 @@
+{
+ "identity": {
+  "id": "exam_parasternal_heave_loud_p2",
+  "title": "Left parasternal (RV) heave and loud/palpable P2",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "syncope",
+   "edema",
+   "hypotension"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "acute_decompensated_hf",
+   "constrictive_pericarditis",
+   "pulmonary_embolism",
+   "rv_failure_pulmonary_hypertension"
+  ],
+  "indication_tags": []
+ },
+ "technique": {
+  "how": "Patient supine at 30-45 degrees. Place the heel of the hand over the lower left sternal border and feel for a sustained outward lift with each systole; palpate the 2nd left interspace for a tapping P2. Then auscultate the pulmonic area for S2 intensity (P2 louder than A2, or P2 audible at the apex) at rest and during slow inspiration.",
+  "prerequisites": "Quiet room; ideally compare with a documented baseline exam.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "A loud P2 on inspiration modestly raises the probability of pulmonary hypertension (LR+ about 2 overall, about 3 when elicited by specialists); an RV lift alone barely changes it.",
+  "negative_finding": "Absence of a heave or loud P2 does not exclude pulmonary hypertension or RV pressure overload (negative LRs 0.7-1.0).",
+  "pitfalls": "Sensitivity is low and interexaminer disagreement high; obesity, hyperinflation, and tachycardia obscure both signs; loud P2 also occurs with systemic hypertension of the pulmonary valve area (thin chest) and in the young.",
+  "changes_what": "Positive: pursue echocardiography for RV pressure/PE; negative: proceed with imaging anyway if PE or PH is clinically suspected."
+ },
+ "estimates": [
+  {
+   "target_condition": "Pulmonary hypertension (mPAP >=25 mmHg) - RV lift, all examiners",
+   "population": "52 adults undergoing right heart catheterisation for any indication (25 with PH), examined by 6 physicians blinded to hemodynamics",
+   "setting": "mixed",
+   "prevalence": 0.48,
+   "reference_standard": "Right heart catheterisation, mPAP >=25 mmHg",
+   "sensitivity": {
+    "value": 0.32,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.72,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 1.1,
+    "ci_low": 0.78,
+    "ci_high": 1.6
+   },
+   "lr_negative": {
+    "value": 1.0,
+    "ci_low": 0.81,
+    "ci_high": 1.1
+   },
+   "computed": false,
+   "interpretation_label": "minimal",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "RV Lift 32 72 1.1 [0.78,1.6] 1.0 [0.81,1.1]",
+   "location": "Table 3, row 'RV Lift', All Examiners columns (Sn, Sp, LR+, LR-)"
+  },
+  {
+   "target_condition": "Pulmonary hypertension (mPAP >=25 mmHg) - loud P2 at rest, all examiners",
+   "population": "Same 52 RHC patients, 6 examiners",
+   "setting": "mixed",
+   "prevalence": 0.48,
+   "reference_standard": "Right heart catheterisation, mPAP >=25 mmHg",
+   "sensitivity": {
+    "value": 0.43,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.74,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 1.6,
+    "ci_low": 1.2,
+    "ci_high": 2.4
+   },
+   "lr_negative": {
+    "value": 0.8,
+    "ci_low": 0.63,
+    "ci_high": 0.92
+   },
+   "computed": false,
+   "interpretation_label": "minimal",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "Loud P2 43 74 1.6 [1.2,2.4] 0.8 [0.63,0.92]",
+   "location": "Table 3, row 'Loud P2', All Examiners columns"
+  },
+  {
+   "target_condition": "Pulmonary hypertension (mPAP >=25 mmHg) - loud P2 on inspiration, all examiners",
+   "population": "Same 52 RHC patients, 6 examiners",
+   "setting": "mixed",
+   "prevalence": 0.48,
+   "reference_standard": "Right heart catheterisation, mPAP >=25 mmHg",
+   "sensitivity": {
+    "value": 0.29,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.85,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 1.9,
+    "ci_low": 1.2,
+    "ci_high": 3.1
+   },
+   "lr_negative": {
+    "value": 0.8,
+    "ci_low": 0.71,
+    "ci_high": 0.96
+   },
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "Loud P2 (insp) 29 85 1.9 [1.2,3.1] 0.8 [0.71,0.96]",
+   "location": "Table 3, row 'Loud P2 (insp)', All Examiners columns; also Results text"
+  },
+  {
+   "target_condition": "Pulmonary hypertension (mPAP >=25 mmHg) - loud P2 on inspiration, specialist examiners only",
+   "population": "Same 52 RHC patients; 3 specialist examiners",
+   "setting": "mixed",
+   "prevalence": 0.48,
+   "reference_standard": "Right heart catheterisation, mPAP >=25 mmHg",
+   "sensitivity": {
+    "value": 0.37,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.87,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 3.2,
+    "ci_low": 1.5,
+    "ci_high": 6.2
+   },
+   "lr_negative": {
+    "value": 0.7,
+    "ci_low": 0.51,
+    "ci_high": 0.9
+   },
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "a loud P2 on inspiration (specificity 87%, sensitivity 37%, positive LR 3.2, 95% CrI [1.5, 6.2])",
+   "location": "Results text after Table 3; LR- 0.7 [0.51,0.90] from Table 3 row 'Loud P2 (insp)', Specialists columns"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Colman R, Whittingham H, Tomlinson G, Granton J. Utility of the physical examination in detecting pulmonary hypertension. A mixed methods study. PLoS One. 2014;9(10):e108499.",
+   "doi": "10.1371/journal.pone.0108499",
+   "pmid": "25343585",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2014
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use absence of these signs to exclude pulmonary embolism or pulmonary hypertension.",
+  "escalation_warning": "RV heave with hypotension, syncope, or new hypoxemia suggests acute RV failure (massive PE) - immediate echocardiography and PE pathway.",
+  "interobserver_note": "Source reports that generalists' findings had no diagnostic value (loud P2 insp LR+ 1.2 [0.58,2.4], Table 3) versus specialists' LR+ 3.2; no kappa extracted."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Single prospective study (Colman 2014, PMC open access; PubMed year 2015 record, article dated 2014) is the only primary source with sign-level LRs; its embedded systematic review found 31 heterogeneous studies mostly without control data (Abstract), so no pooled estimate exists. Prevalence 25/52 computed from Abstract. Population was RHC referrals, not undiagnosed dyspnea, so spectrum differs from ED use. Values are proportions converted from table percentages. Palpable P2 and RV heave in acute PE were not found with accuracy data within budget.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:21+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

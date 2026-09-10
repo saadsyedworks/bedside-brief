@@ -1,0 +1,110 @@
+{
+  "identity": {
+    "id": "exam_llq_tenderness",
+    "title": "Localized LLQ tenderness (with prior diverticulitis episode history)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "abdominal_pain",
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "diverticulitis",
+      "intraabdominal_abscess",
+      "perforated_viscus"
+    ],
+    "indication_tags": [
+      "elderly"
+    ]
+  },
+  "technique": {
+    "how": "Palpate all four quadrants starting away from the pain; record whether direct tenderness is confined to the left lower quadrant, whether there is guarding, rebound or a palpable mass, and ask specifically about prior confirmed diverticulitis episodes and about vomiting.",
+    "prerequisites": "Supine, knees slightly flexed, abdomen exposed; analgesia does not need to be withheld.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Tenderness confined to the LLQ, especially with a prior episode, absence of vomiting and raised CRP, makes acute diverticulitis likely (97% PPV for the three-feature rule in Lameris' ED cohort).",
+    "negative_finding": "Diffuse or right-sided tenderness argues against uncomplicated sigmoid diverticulitis but not against right-sided diverticulitis (common in Asian patients) or complicated disease; clinical diagnosis alone misses a substantial share of cases.",
+    "pitfalls": "Clinical diagnosis of diverticulitis has a PPV of only 0.65 in unselected ED abdominal pain; redundant sigmoid, appendicitis, gynaecological disease and colon cancer mimic it. Peritonism, mass or systemic toxicity suggest abscess or perforation and need CT.",
+    "changes_what": "Positive: diverticulitis leads the differential; CT if fever, peritonism, mass, immunosuppression or first episode. Negative: widen differential and image."
+  },
+  "estimates": [
+    {
+      "target_condition": "COMPOSITE: direct tenderness only in LLQ AND no vomiting AND CRP >50 mg/L (acute diverticulitis)",
+      "population": "126 ED patients with clinically suspected diverticulitis (from 1,021 with acute abdominal pain); 80 had final diagnosis of diverticulitis",
+      "setting": "ED",
+      "prevalence": 0.635,
+      "reference_standard": "final diagnosis after imaging and follow-up (expert panel)",
+      "sensitivity": {
+        "value": 0.363,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.978,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 16.7,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.65,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "2x2 from abstract: 30 with all 3 features, 29 diverticulitis (TP=29, FP=1); of 96 without all 3 features, 45 did not have diverticulitis (TN=45, FN=51). Sens 29/80=0.363; spec 45/46=0.978; LR+ 16.7; LR- 0.65; prevalence 80/126=0.635",
+      "interpretation_label": "rule_in",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "30 patients had all 3 features (24%), of whom 29 had a final diagnosis of acute diverticulitis (97%; 95% CI: 83%-99%).",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "partially_quantified",
+  "sources": [
+    {
+      "citation": "Laméris W, van Randen A, van Gulik TM, Busch OR, Winkelhagen J, Bossuyt PM, Stoker J, Boermeester MA. A clinical decision rule to establish the diagnosis of acute diverticulitis at the emergency department. Dis Colon Rectum. 2010.",
+      "doi": "10.1007/DCR.0b013e3181d98d86",
+      "pmid": "20485003",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2010
+    },
+    {
+      "citation": "Andeweg CS, Knobben L, Hendriks JC, Bleichrodt RP, van Goor H. How to diagnose acute left-sided colonic diverticulitis: proposal for a clinical scoring system. Ann Surg. 2011.",
+      "doi": "10.1097/SLA.0b013e3182113614",
+      "pmid": "21346548",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2011
+    },
+    {
+      "citation": "Toorenvliet BR, Bakker RF, Breslau PJ, Merkus JW, Hamming JF. Colonic diverticulitis: a prospective analysis of diagnostic accuracy and clinical decision-making. Colorectal Dis. 2010.",
+      "doi": "10.1111/j.1463-1318.2009.01778.x",
+      "pmid": "19183330",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2010
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not rely on a clinical diagnosis without imaging in immunosuppressed, elderly frail, or first-episode patients, or when peritonism, mass or sepsis is present.",
+    "escalation_warning": "Generalized peritonitis, hemodynamic instability or a tender mass suggests perforation or abscess: urgent CT and surgical review.",
+    "interobserver_note": "Location-of-tenderness recording was by the treating ED clinician before imaging in Lameris; no kappa reported in abstracts seen."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Status set to partially_quantified deliberately: the only numeric estimate is a COMPOSITE rule (LLQ-only tenderness + no vomiting + CRP >50) computed from the abstract 2x2; LLQ tenderness alone has no accessible sens/spec (Lameris Table with univariate features not viewable; not in PMC). Andeweg 2011 (287 ED patients, ALCD prevalence 43%) identifies 'localization of abdominal tenderness in the lower left abdomen' and '1 or more previous episodes' as independent predictors but gives no per-feature accuracy in the abstract. Toorenvliet 2010: 'The positive and negative predictive values for the clinical diagnosis of colonic diverticulitis were 0.65 and 0.98 respectively' (Abstract) in 802 consecutive ED abdominal-pain patients (57 diverticulitis) - this is clinical gestalt, not the sign, so not entered as an estimate. Title mentions prior-episode history, but no diagnostic-accuracy number for that history element was found.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T02:33:39+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

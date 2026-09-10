@@ -1,0 +1,94 @@
+{
+ "identity": {
+  "id": "exam_diastolic_murmur_new",
+  "title": "New diastolic (aortic regurgitation) murmur",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "chest_pain",
+   "fever"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "aortic_dissection",
+   "endocarditis"
+  ],
+  "indication_tags": [
+   "prosthetic_valve",
+   "ivdu"
+  ]
+ },
+ "technique": {
+  "how": "With the patient sitting, leaning forward, in full expiration, listen with the diaphragm at the left lower sternal border and right upper sternal border for a high-pitched, blowing, decrescendo early-diastolic murmur. Compare with prior documented examinations and note associated wide pulse pressure or collapsing pulse.",
+  "prerequisites": "Quiet environment; knowledge of whether a murmur was previously documented (a 'new' murmur requires a baseline).",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "In suspected dissection a diastolic murmur is present in only about a quarter of cases and raises the probability only slightly (LR+ about 1.4); in fever/bacteraemia a new regurgitant murmur is a minor Duke criterion for endocarditis and should prompt blood cultures and echocardiography.",
+  "negative_finding": "Absence of a diastolic murmur does not lower the probability of aortic dissection meaningfully (about 72% of dissections have no murmur) and does not exclude endocarditis.",
+  "pitfalls": "Soft early-diastolic murmurs are easily missed in a noisy ED or tachycardic patient, and a chronic AR murmur in a patient without a baseline exam may be mislabelled as new. Interobserver agreement for soft murmurs is poor (unverified recall).",
+  "changes_what": "Present in chest pain: adds little on its own but with pulse deficit/neurologic deficit go straight to CT angiography; absent: does not lower dissection probability - image if the story fits."
+ },
+ "estimates": [
+  {
+   "target_condition": "Acute thoracic aortic dissection",
+   "population": "Pooled from 21 studies of >=18 consecutive patients with confirmed thoracic aortic dissection (1966-2000 literature); LR derived within the review from studies with controls",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Confirmed dissection by imaging, surgery or autopsy as defined in the included studies",
+   "sensitivity": {
+    "value": 0.28,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": null,
+   "lr_positive": {
+    "value": 1.4,
+    "ci_low": 1.0,
+    "ci_high": 2.0
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "minimal",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "Presence of a diastolic murmur does little to change the pretest probability of dissection (positive LR, 1.4; 95% CI, 1.0-2.0)",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Klompas M. Does this patient have an acute thoracic aortic dissection? JAMA. 2002.",
+   "doi": "10.1001/jama.287.17.2262",
+   "pmid": "11980527",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2002
+  },
+  {
+   "citation": "Ohle R, Kareemi HK, Wells G, Perry JJ. Clinical Examination for Acute Aortic Dissection: A Systematic Review and Meta-analysis. Acad Emerg Med. 2018.",
+   "doi": "10.1111/acem.13360",
+   "pmid": "29265487",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2018
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use absence of a murmur to exclude dissection or endocarditis; do not treat a murmur as 'new' without a documented baseline.",
+  "escalation_warning": "New AR murmur with tearing chest pain, pulse deficit or neurologic deficit = presumed type A dissection: emergent CT angiography and cardiothoracic surgery; with fever and bacteraemia = urgent echocardiography for endocarditis.",
+  "interobserver_note": "No interobserver reliability estimate located in the sources retrieved."
+ },
+ "extraction_notes": "Klompas 2002 abstract gives pooled sensitivity '28% have a diastolic murmur' (Abstract, Results) and LR+ 1.4 (1.0-2.0) but no specificity or LR-, so the record is partially_quantified (no sens/spec or LR pair). Ohle 2018 (PubMed lists 2018; journal issue 2019) abstract does not report a murmur estimate and the full text is not open access, so no second estimate could be quoted. Search 'diastolic murmur aortic dissection sensitivity specificity prospective' returned nothing. No diagnostic-accuracy study of a new regurgitant murmur for endocarditis was sought beyond its Duke-criterion role (unverified recall, no number entered).",
+ "tier": "extracted",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:16+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

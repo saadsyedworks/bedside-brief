@@ -1,0 +1,123 @@
+{
+ "identity": {
+  "id": "hx_anxiety_panic_features",
+  "title": "Panic/anxiety features: episodes at rest or with stress, dread, paresthesias, known panic disorder; not affected by sleep",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "chest_pain",
+   "palpitations",
+   "dizziness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "anxiety_hyperventilation",
+   "sinus_tachycardia_secondary",
+   "svt"
+  ],
+  "indication_tags": []
+ },
+ "technique": {
+  "how": "Ask whether the patient carries a diagnosis of panic disorder, whether episodes occur at rest or with emotional stress, are accompanied by dread, paresthesias or hyperventilation, whether they are affected by sleep (wake the patient / occur during sleep), and whether they occur at work. Record episode duration.",
+  "prerequisites": "Patient able to give a history; ideally corroborate with a witness or prior records.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "A known history of panic disorder makes a clinically significant arrhythmia somewhat less likely (LR 0.26, CI crosses 1). Panic features do not exclude arrhythmia; SVT is frequently misdiagnosed as panic.",
+  "negative_finding": "Palpitations that are affected by sleeping (LR 2.29) or occur at work (LR 2.17) modestly favour a cardiac arrhythmia over anxiety.",
+  "pitfalls": "Anxiety and arrhythmia coexist; paroxysmal SVT commonly produces panic-like symptoms and is mislabelled as panic disorder. History alone cannot exclude arrhythmia, so symptom-rhythm correlation is still required.",
+  "changes_what": "Panic features lower but do not remove arrhythmia probability; still obtain ECG and, if recurrent, ambulatory monitoring for symptom-rhythm correlation."
+ },
+ "estimates": [
+  {
+   "target_condition": "Clinically significant cardiac arrhythmia (finding: known history of panic disorder)",
+   "population": "Adults presenting with palpitations (RCE pooled 7 accuracy studies; this feature from single-study data)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Final diagnosis of cardiac arrhythmia after ambulatory ECG monitoring / clinical work-up",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 0.26,
+    "ci_low": 0.07,
+    "ci_high": 1.01
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "A known history of panic disorder (LR, 0.26; 95% CI, 0.07-1.01) or having palpitations lasting less than 5 minutes (LR, 0.38; 95% CI, 0.22-0.63)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Clinically significant cardiac arrhythmia (finding: palpitations affected by sleeping - the converse of this record's 'not affected by sleep')",
+   "population": "Adults presenting with palpitations (single-study data within RCE)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Final diagnosis of cardiac arrhythmia after ambulatory ECG monitoring / clinical work-up",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 2.29,
+    "ci_low": 1.33,
+    "ci_high": 3.94
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "having palpitations affected by sleeping (LR, 2.29; 95% CI, 1.33-3.94), or while the patient is at work (LR, 2.17; 95% CI, 1.19-3.96)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Clinically significant cardiac arrhythmia (finding: palpitations occurring while at work)",
+   "population": "Adults presenting with palpitations (single-study data within RCE)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Final diagnosis of cardiac arrhythmia after ambulatory ECG monitoring / clinical work-up",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 2.17,
+    "ci_low": 1.19,
+    "ci_high": 3.96
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "having palpitations affected by sleeping (LR, 2.29; 95% CI, 1.33-3.94), or while the patient is at work (LR, 2.17; 95% CI, 1.19-3.96)",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Thavendiranathan P, Bagai A, Khoo C, Dorian P, Choudhry NK. Does this patient with palpitations have a cardiac arrhythmia? JAMA. 2009;302(19):2135-2143.",
+   "doi": "10.1001/jama.2009.1673",
+   "pmid": "19920238",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2009
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use panic features to dismiss palpitations with syncope, exertional onset, structural heart disease, or an abnormal ECG.",
+  "escalation_warning": "Palpitations with syncope, chest pain, or haemodynamic compromise need ECG and monitoring regardless of anxiety history.",
+  "interobserver_note": "No interobserver data for panic-feature history reported in the RCE (per abstract)."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Only the JAMA abstract was accessible (not in PMC); locations are 'Abstract, Results'. The RCE states 'Most data were obtained from single studies with small sample sizes' so evidence_level is set to single_study. Only LRs for feature-present are reported; no LR for absence, no sens/spec pair -> partially_quantified. The panic-disorder LR 0.26 has CI 0.07-1.01 (crosses 1). 'Affected by sleeping' and 'at work' are entered as their own findings (LR when present); this record's 'not affected by sleep' is their absence, for which no LR was reported. The abstract also reports palpitations lasting <5 minutes LR 0.38 (0.22-0.63) (Abstract, Results); not entered because it is a separate finding.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:24+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

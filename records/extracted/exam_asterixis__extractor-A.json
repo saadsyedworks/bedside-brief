@@ -1,0 +1,71 @@
+{
+ "identity": {
+  "id": "exam_asterixis",
+  "title": "Asterixis (flapping tremor with wrists extended)",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "aki",
+   "ams"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "hepatic_encephalopathy",
+   "hypercapnia",
+   "uremia"
+  ],
+  "indication_tags": [
+   "cirrhosis_known",
+   "copd_known",
+   "ckd_known",
+   "dialysis"
+  ]
+ },
+ "technique": {
+  "how": "Ask the patient to hold both arms outstretched with wrists dorsiflexed and fingers spread for 30 s; watch for irregular, brief loss of postural tone producing a flapping drop of the hands. In a patient who cannot cooperate, dorsiflex the wrists yourself or look for flapping of the protruded tongue or hips.",
+  "prerequisites": "Patient awake enough to sustain a posture; compare with baseline if known cirrhosis.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Bilateral asterixis indicates a metabolic encephalopathy - hepatic (overt HE grade 2-3), hypercapnic, or uremic - and should prompt ammonia/blood gas/renal evaluation in context; it is not specific to liver disease.",
+  "negative_finding": "Absence does not exclude encephalopathy: it is typically absent in minimal/grade 1 HE and disappears in coma (grade 4), and cannot be elicited in an uncooperative patient.",
+  "pitfalls": "Unilateral asterixis suggests a structural (thalamic/frontal) lesion rather than metabolic cause. Drug causes (phenytoin, valproate, lithium) and severe hypokalemia/hypomagnesemia also produce it.",
+  "changes_what": "Positive: pursue metabolic encephalopathy (ammonia, ABG for CO2, BUN) and treat cause; negative: no change in probability, especially in mild or comatose patients."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Vilstrup H, Amodio P, Bajaj J, Cordoba J, Ferenci P, Mullen KD, Weissenborn K, Wong P. Hepatic encephalopathy in chronic liver disease: 2014 Practice Guideline by AASLD and EASL. Hepatology. 2014.",
+   "doi": "10.1002/hep.27210",
+   "pmid": "25042402",
+   "url": null,
+   "kind": "guideline",
+   "year": 2014
+  },
+  {
+   "citation": "Formentin C, Zarantonello L, Mangini C, Angeli P, Merkel C, Montagnese S. Clinical value of asterixis in 374 well-characterised patients with cirrhosis and varying degree of hepatic encephalopathy. Dig Liver Dis. 2020.",
+   "doi": "10.1016/j.dld.2019.09.003",
+   "pmid": "31582327",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2020
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use to grade or exclude encephalopathy in a stuporous/comatose patient or one who cannot hold the posture.",
+  "escalation_warning": "Asterixis with drowsiness in a COPD or opioid-exposed patient = suspect acute hypercapnia; obtain a blood gas and consider NIV rather than attributing to liver disease.",
+  "interobserver_note": "No interobserver reliability estimate located; West Haven grading of HE (of which asterixis is a component) is described by the AASLD/EASL guideline as having limited reliability at low grades (no number available)."
+ },
+ "extraction_notes": "No numeric estimate could be verified: the Formentin 2020 primary study (PMID 31582327) has no abstract in PubMed e-utils, is not in PMC, and the DOI lookup returns metadata only, so its sensitivity/specificity for HE grades could not be quoted with a location. Searches 'asterixis hepatic encephalopathy sensitivity specificity', 'asterixis cirrhosis hepatic encephalopathy clinical value' and 'flapping tremor hepatic encephalopathy grade diagnostic accuracy' yielded no other diagnostic-accuracy study. No accuracy data exist for asterixis in hypercapnia or uremia. Maneuver and its role in West Haven grading supported by AASLD/EASL 2014 guideline (PMID 25042402).",
+ "tier": "extracted",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:16+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

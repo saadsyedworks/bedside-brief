@@ -1,0 +1,65 @@
+{
+ "identity": {
+  "id": "exam_muffled_heart_sounds",
+  "title": "Muffled/diminished heart sounds (Beck triad component)",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "chest_pain",
+   "hypotension"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "copd_exacerbation",
+   "pericardial_effusion_tamponade"
+  ],
+  "indication_tags": []
+ },
+ "technique": {
+  "how": "Auscultate the apex and left sternal border in a quiet room with the patient supine and then leaning forward; judge whether S1/S2 are distant or muffled relative to what the chest-wall thickness would predict, and compare with prior exams if available. Look concurrently for JVP elevation, hypotension and pulsus paradoxus.",
+  "prerequisites": "Quiet environment; a baseline examination greatly improves the judgement of 'diminished'.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Distant heart sounds with hypotension and raised JVP (Beck triad) suggest tamponade, but the triad is present in only a minority of tamponade cases; diminished sounds alone are common in COPD/hyperinflation, obesity and pleural effusion.",
+  "negative_finding": "Normal heart sounds do not exclude a pericardial effusion or tamponade, particularly in rapidly accumulating (traumatic, post-procedural) effusions.",
+  "pitfalls": "Highly subjective and setting-dependent; noisy EDs, hyperinflated chests and large body habitus all diminish sounds. Do not wait for the full Beck triad before obtaining echocardiography.",
+  "changes_what": "Muffled sounds with hypotension/JVP elevation: immediate bedside echo for effusion; normal sounds: no reassurance - image if tamponade is otherwise plausible."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Roy CL, Minor MA, Brookhart MA, Choudhry NK. Does this patient with a pericardial effusion have cardiac tamponade? JAMA. 2007.",
+   "doi": "10.1001/jama.297.16.1810",
+   "pmid": "17456823",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2007
+  },
+  {
+   "citation": "Adler Y, Charron P, Imazio M, Badano L, Baron-Esquivias G, Bogaert J, Brucato A, Gueret P, et al. 2015 ESC Guidelines for the diagnosis and management of pericardial diseases. Eur Heart J. 2015.",
+   "doi": "10.1093/eurheartj/ehv318",
+   "pmid": "26320112",
+   "url": null,
+   "kind": "guideline",
+   "year": 2015
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use absence of muffled sounds to exclude tamponade, and do not use the sign alone to diagnose it.",
+  "escalation_warning": "Muffled sounds with hypotension, raised JVP or pulsus paradoxus >10 mmHg = suspected tamponade: emergent echocardiography and preparation for pericardiocentesis.",
+  "interobserver_note": "No interobserver reliability estimate found; the sign is generally regarded as subjective (unverified recall)."
+ },
+ "extraction_notes": "No numeric estimate could be verified. The Roy 2007 JAMA RCE abstract reports tamponade sensitivities for dyspnea, tachycardia, pulsus paradoxus, elevated JVP and cardiomegaly but not for diminished heart sounds, and JAMA full text is not open access, so any table row for diminished heart sounds cannot be quoted with a location. Chuttani 1994 (PMID 8154431, post-cardiac-surgery tamponade) reports hypotension and pulsus paradoxus frequencies but not heart sounds. Searches 'diminished heart sounds tamponade sensitivity Beck triad' and 'penetrating cardiac injury Beck triad sensitivity' returned no hits. Also relevant context from Roy 2007 for the co-signs: pulsus paradoxus >10 mmHg LR 3.3 (1.8-6.3) and <=10 mmHg LR 0.03 (0.01-0.24), elevated JVP pooled sensitivity 76% (62%-90%) (Abstract) - these belong to other records, not this sign.",
+ "tier": "extracted",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:16+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

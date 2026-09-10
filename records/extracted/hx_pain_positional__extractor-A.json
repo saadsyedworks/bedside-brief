@@ -1,0 +1,97 @@
+{
+ "identity": {
+  "id": "hx_pain_positional",
+  "title": "Pain that is positional (changes with posture; relieved leaning forward = pericarditis; ACS negative)",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "chest_pain"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "acs",
+   "esophageal_gerd",
+   "musculoskeletal_chest_wall",
+   "pericarditis"
+  ],
+  "indication_tags": [
+   "positional"
+  ]
+ },
+ "technique": {
+  "how": "Ask whether the pain changes with body position - worse lying flat or on inspiration, better sitting up and leaning forward (pericarditis pattern), or altered by twisting, arm movement or specific postures (chest wall). Distinguish from exertional and post-prandial/recumbent (reflux) patterns.",
+  "prerequisites": "Patient able to describe pain.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Positional chest pain lowers the probability of myocardial infarction (LR 0.3) and, if relieved by sitting forward with pleuritic quality, favours pericarditis (ESC 2015 clinical criterion).",
+  "negative_finding": "Non-positional pain does not raise MI probability meaningfully; the LR for absence was not reported in the RCE abstract.",
+  "pitfalls": "Positional pain alone cannot rule out ACS (LR 0.3 is modest); post-MI pericarditis and dissection can both be positional. Reflux pain is worse lying down and can mimic.",
+  "changes_what": "Positional pain shifts probability toward pericarditis/chest-wall/GERD and away from ACS, but ECG and troponin are still needed; look for rub and ECG changes."
+ },
+ "estimates": [
+  {
+   "target_condition": "Acute myocardial infarction (finding: positional chest pain)",
+   "population": "Adults presenting with acute chest pain (RCE summary of ED chest-pain cohorts)",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "Myocardial infarction by contemporary enzyme/ECG criteria in the included studies",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 0.3,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "sharp or stabbing chest pain (LR, 0.3), and positional chest pain (LR, 0.3)",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Panju AA, Hemmelgarn BR, Guyatt GH, Simel DL. The rational clinical examination. Is this patient having a myocardial infarction? JAMA. 1998;280(14):1256-1263.",
+   "doi": "10.1001/jama.280.14.1256",
+   "pmid": "9786377",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1998
+  },
+  {
+   "citation": "Swap CJ, Nagurney JT. Value and limitations of chest pain history in the evaluation of patients with suspected acute coronary syndromes. JAMA. 2005;294(20):2623-2629.",
+   "doi": "10.1001/jama.294.20.2623",
+   "pmid": "16304077",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2005
+  },
+  {
+   "citation": "Adler Y, Charron P, Imazio M, Badano L, Baron-Esquivias G, Bogaert J, Brucato A, Gueret P, et al. 2015 ESC Guidelines for the diagnosis and management of pericardial diseases. Eur Heart J. 2015;36(42):2921-2964.",
+   "doi": "10.1093/eurheartj/ehv318",
+   "pmid": "26320112",
+   "url": null,
+   "kind": "guideline",
+   "year": 2015
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use positional pain to withhold ECG/troponin or to exclude ACS in patients with risk factors or exertional components.",
+  "escalation_warning": "Positional pain with hypotension, muffled heart sounds or elevated JVP suggests tamponade; positional/tearing pain with pulse deficit suggests dissection.",
+  "interobserver_note": "Not reported in accessible abstracts."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Panju 1998 abstract reports positional chest pain LR 0.3 without CI or sens/spec (JAMA full text not in PMC), so only LR+ entered -> partially_quantified. Swap & Nagurney 2005 abstract gives a grouped range 'pain that is stabbing, pleuritic, positional, or reproducible by palpation (likelihood ratios [LRs] 0.2-0.3)' (Abstract) - a range across features, not entered. Relief by sitting forward for pericarditis is a diagnostic criterion in the 2015 ESC pericardial guideline without accuracy data. Fanaroff 2016 RCE (PMID 26547467) abstract does not report positional pain. Body 2010 (PMID 20036454) reports adjusted odds ratios, not LRs, and not positional pain in the abstract.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:24+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

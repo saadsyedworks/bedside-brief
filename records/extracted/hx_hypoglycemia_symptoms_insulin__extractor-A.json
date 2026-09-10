@@ -1,0 +1,72 @@
+{
+ "identity": {
+  "id": "hx_hypoglycemia_symptoms_insulin",
+  "title": "Hypoglycemia history: insulin/sulfonylurea use, missed meals, adrenergic or neuroglycopenic symptoms",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "syncope",
+   "dizziness",
+   "ams",
+   "weakness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "hypoglycemia",
+   "reflex_vasovagal",
+   "stroke"
+  ],
+  "indication_tags": [
+   "alcohol_use",
+   "cirrhosis_known",
+   "ckd_known",
+   "diabetes_insulin"
+  ]
+ },
+ "technique": {
+  "how": "Ask about insulin or sulfonylurea use (agent, dose, timing of last dose, recent change), missed meals, unusual exertion, alcohol, renal/hepatic impairment, and prior severe hypoglycemia or unawareness. Elicit adrenergic (sweating, tremor, palpitations, hunger) and neuroglycopenic (confusion, behaviour change, focal deficit, seizure) symptoms and their relief by carbohydrate.",
+  "prerequisites": "Obtain a fingerstick glucose at the time of symptoms whenever possible; collateral history from witnesses for confusion or loss of consciousness.",
+  "contraindications": "None; history-taking must never delay a bedside glucose measurement in any patient with altered mental state."
+ },
+ "interpretation": {
+  "positive_finding": "Insulin or secretagogue exposure plus a missed meal, alcohol, renal impairment or a dose change, with adrenergic/neuroglycopenic symptoms relieved by carbohydrate, makes hypoglycemia the leading explanation and warrants documented low glucose (Whipple's triad).",
+  "negative_finding": "No insulin/secretagogue exposure and no relation of symptoms to fasting or food makes drug-induced hypoglycemia unlikely, but a measured glucose is still required in altered mental status.",
+  "pitfalls": "Beta-blockers, autonomic neuropathy and recurrent hypoglycemia blunt adrenergic warning symptoms (hypoglycemia unawareness); sulfonylurea hypoglycemia recurs for 24-72 h and can present as focal deficit mimicking stroke. Symptoms alone are nonspecific and overlap with anxiety and arrhythmia.",
+  "changes_what": "Positive: measure/treat glucose now and observe for recurrence with secretagogues or long-acting insulin; negative: keep vasovagal, arrhythmic and neurological causes in play."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Cryer PE, Axelrod L, Grossman AB, Heller SR, et al. Evaluation and management of adult hypoglycemic disorders: an Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2009.",
+   "doi": "10.1210/jc.2008-1410",
+   "pmid": "19088155",
+   "url": null,
+   "kind": "guideline",
+   "year": 2009
+  },
+  {
+   "citation": "Hepburn DA, Deary IJ, Frier BM, Patrick AW, et al. Symptoms of acute insulin-induced hypoglycemia in humans with and without IDDM. Factor-analysis approach. Diabetes Care. 1991.",
+   "doi": "10.2337/diacare.14.11.949",
+   "pmid": "1797507",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1991
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Never rely on symptom history instead of a point-of-care glucose in any patient with altered mental status, seizure or focal deficit.",
+  "escalation_warning": "Sulfonylurea or long-acting insulin overdose, recurrent hypoglycemia despite feeding, or hypoglycemia in a non-diabetic patient needs admission and further evaluation (sepsis, adrenal or hepatic failure, insulinoma, factitious use).",
+  "interobserver_note": "No inter-observer data; symptom recall is unreliable in patients with hypoglycemia unawareness."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Searched 'hypoglycemia symptoms sensitivity specificity awareness prospective' (no diagnostic-accuracy study of the history for hypoglycemia as a cause of syncope/AMS was found; hits were unrelated). Hepburn 1991 characterises symptom clusters by factor analysis in 55 subjects during induced hypoglycemia (Abstract) but reports no sensitivity/specificity, so no estimate is entered. The Endocrine Society guideline (Cryer 2009) anchors the diagnostic approach (Whipple's triad, drug review, risk factors) as consensus. Status not_quantified; the record carries no numbers. Author names copied from tools/pubmed.py fetch output (first four listed, then et al.).",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:30+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

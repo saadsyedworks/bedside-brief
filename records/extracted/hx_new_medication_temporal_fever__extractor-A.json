@@ -1,0 +1,64 @@
+{
+  "identity": {
+    "id": "hx_new_medication_temporal_fever",
+    "title": "Fever onset temporally linked to a new drug (with rash/relative bradycardia)",
+    "type": "history",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "drug_fever"
+    ],
+    "indication_tags": [
+      "new_medication"
+    ]
+  },
+  "technique": {
+    "how": "Chart every drug started or dose-changed in the preceding weeks (antibiotics, anticonvulsants, allopurinol, heparin, and infusions) against the fever curve; note rash, eosinophilia, and whether the pulse is inappropriately slow for the temperature. Confirm by defervescence within about 72 h of stopping the suspect drug after infection is excluded.",
+    "prerequisites": "Medication administration record including PRNs; cultures and infection work-up already sent.",
+    "contraindications": "None; rechallenge is not recommended as a diagnostic step."
+  },
+  "interpretation": {
+    "positive_finding": "Fever beginning after a new drug in a patient who looks well, with no source found and rapid defervescence on withdrawal, supports drug fever; rash or eosinophilia strengthens but is present in only a minority.",
+    "negative_finding": "Absence of rash, eosinophilia or relative bradycardia does not argue against drug fever; Mackowiak's series found these features infrequent and lag time highly variable.",
+    "pitfalls": "Textbook features (relative bradycardia, characteristic pattern, rash, eosinophilia) were uncommon in the systematic case series; drug fever remains a diagnosis of exclusion after infection, thrombosis and malignancy are considered.",
+    "changes_what": "Positive: stop the most likely culprit and observe for defervescence within 72 h while continuing to exclude infection. Negative: keep hunting for a source."
+  },
+  "estimates": [],
+  "evidence_status": "not_quantified",
+  "sources": [
+    {
+      "citation": "Mackowiak PA, LeMaistre CF. Drug fever: a critical appraisal of conventional concepts. An analysis of 51 episodes in two Dallas hospitals and 97 episodes reported in the English literature. Ann Intern Med. 1987.",
+      "doi": "10.7326/0003-4819-106-5-728",
+      "pmid": "3565971",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1987
+    },
+    {
+      "citation": "Cunha BA. The diagnostic significance of relative bradycardia in infectious disease. Clin Microbiol Infect. 2001.",
+      "doi": "10.1046/j.1469-0691.2000.0194f.x",
+      "pmid": "11284920",
+      "url": null,
+      "kind": "consensus",
+      "year": 2001
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not attribute fever to a drug in a neutropenic, immunosuppressed, or hemodynamically unstable patient until infection is excluded.",
+    "escalation_warning": "Fever with rash plus mucosal involvement, facial edema, eosinophilia or organ dysfunction suggests DRESS/SJS - stop the drug immediately and escalate.",
+    "interobserver_note": "No reliability data; temporal attribution is a clinical judgment with no validated criteria found."
+  },
+  "tier": "extracted",
+  "extraction_notes": "No diagnostic-accuracy estimate exists for temporal drug-fever attribution; status not_quantified. Mackowiak 1987 abstract (full text not in PMC) reports only qualitative findings: 'we found relative bradycardia in a minority of cases reviewed', 'a highly variable lag time', and 'an infrequent association with either rash or eosinophilia' (Abstract); no percentages are visible in the abstract, so none are recorded. Cunha 2001 (PubMed record has no abstract) is cited only as the narrative source for the relative-bradycardia concept; it provides no accuracy data. The 72-hour defervescence figure in technique/changes_what is conventional teaching (unverified recall).",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T02:33:39+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

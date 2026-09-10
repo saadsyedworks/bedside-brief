@@ -1,0 +1,58 @@
+{
+ "identity": {
+  "id": "exam_stridor",
+  "title": "Inspiratory stridor at rest (audible without stethoscope)",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "hypotension"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "anaphylaxis",
+   "upper_airway_obstruction"
+  ],
+  "indication_tags": [
+   "acute_onset"
+  ]
+ },
+ "technique": {
+  "how": "Listen without a stethoscope, close to the mouth and over the neck, for a harsh high-pitched sound; note whether it is inspiratory (extrathoracic/laryngeal obstruction), expiratory (intrathoracic), or biphasic (fixed, severe). Assess simultaneously for voice change, drooling, tongue/lip swelling, urticaria, tripod posture, and accessory muscle use.",
+  "prerequisites": "Quiet environment; do not delay treatment to complete the exam.",
+  "contraindications": "Do not lay the patient flat or instrument the pharynx in suspected supraglottic obstruction."
+ },
+ "interpretation": {
+  "positive_finding": "Stridor at rest signals critical upper-airway narrowing; with urticaria, angioedema, or hypotension after an exposure it satisfies the airway criterion for anaphylaxis and mandates immediate intramuscular epinephrine and airway readiness.",
+  "negative_finding": "Absence of stridor does not exclude evolving airway compromise (angioedema, epiglottitis) or anaphylaxis with predominantly cutaneous, respiratory (wheeze), or circulatory features.",
+  "pitfalls": "Stridor can be mistaken for wheeze or transmitted upper-airway noise; it may disappear as obstruction becomes near-complete and airflow falls; vocal cord dysfunction mimics it.",
+  "changes_what": "Positive: treat as airway emergency (epinephrine if anaphylaxis, senior airway help, avoid sedation); negative: continue evaluation of other anaphylaxis criteria."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Cardona V, Ansotegui IJ, Ebisawa M, El-Gamal Y, Fernandez Rivas M, Fineman S, Geller M, Gonzalez-Estrada A, et al. World allergy organization anaphylaxis guidance 2020. World Allergy Organ J. 2020;13(10):100472.",
+   "doi": "10.1016/j.waojou.2020.100472",
+   "pmid": "33204386",
+   "url": null,
+   "kind": "guideline",
+   "year": 2020
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Never wait for stridor to appear before treating suspected anaphylaxis or angioedema.",
+  "escalation_warning": "Stridor at rest with drooling, voice change, cyanosis, or falling saturation is an impending-airway-loss scenario - call anesthesia/ENT immediately and prepare for surgical airway.",
+  "interobserver_note": "No reliability data located."
+ },
+ "tier": "extracted",
+ "extraction_notes": "No JAMA RCE, meta-analysis, or prospective diagnostic-accuracy study of adult resting stridor was found: searches 'stridor sensitivity specificity upper airway obstruction adults', 'stridor[Title] adult emergency department', and 'stridor[Title] sensitivity specificity' returned predominantly pediatric/croup or unrelated records; none were fetched as accuracy sources. The WAO 2020 anaphylaxis guidance (confirmed PMID 33204386; PubMed record lists year 2025 for the 2020 article) supports stridor as a respiratory-compromise criterion by consensus. Record is therefore not_quantified.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:21+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

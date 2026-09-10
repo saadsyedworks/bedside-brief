@@ -1,0 +1,110 @@
+{
+ "identity": {
+  "id": "exam_pupils_eye_movements_toxidrome",
+  "title": "Pupils and eye movements: miosis with hypoventilation (opioid), ophthalmoplegia/nystagmus with ataxia (Wernicke), gaze deviation",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "dizziness",
+   "ams"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "hypercapnia",
+   "intoxication_withdrawal",
+   "medication_effect",
+   "nonconvulsive_seizure",
+   "stroke",
+   "wernicke"
+  ],
+  "indication_tags": [
+   "alcohol_use",
+   "new_medication"
+  ]
+ },
+ "technique": {
+  "how": "Inspect pupil size and symmetry in ambient then dim light and test light reaction; count respiratory rate for a full minute. Ask the patient to follow a target through the six cardinal positions, watching for horizontal or vertical nystagmus, lateral rectus (VI) palsy, or gaze restriction, and note any sustained conjugate gaze deviation at rest.",
+  "prerequisites": "Adequate light; patient at least intermittently attentive for pursuit testing.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Pinpoint pupils with respirations of 12/min or fewer suggest opioid toxicity and justify naloxone; nystagmus or ophthalmoplegia with ataxia or confusion in an at-risk (alcohol, malnutrition, bariatric) patient meets Caine/EFNS criteria for Wernicke encephalopathy - give IV thiamine before glucose; forced gaze deviation suggests stroke or ongoing seizure.",
+  "negative_finding": "Normal pupils and eye movements do not exclude opioid toxicity (mixed ingestions), Wernicke encephalopathy (most necropsy-proven cases lack the full triad), or nonconvulsive seizure.",
+  "pitfalls": "Miosis also occurs with pontine lesions, cholinergic agents, and organophosphates; hypoxia and mixed overdoses can produce normal or dilated pupils; ocular signs of Wernicke may be subtle (nystagmus only) and are missed without deliberate testing.",
+  "changes_what": "Miosis+bradypnea: naloxone trial and airway support; eye-movement abnormality with ataxia/confusion: empiric IV thiamine; gaze deviation: stroke/seizure pathway (imaging, EEG)."
+ },
+ "estimates": [
+  {
+   "target_condition": "COMPOSITE: classic clinical triad (ocular abnormality + ataxia + confusion) for Wernicke-Korsakoff syndrome diagnosed at necropsy",
+   "population": "131 cases of Wernicke-Korsakoff syndrome identified at necropsy (retrospective review of hospital clinical records), Sydney, Australia",
+   "setting": "inpatient",
+   "prevalence": null,
+   "reference_standard": "Neuropathological diagnosis at necropsy",
+   "sensitivity": {
+    "value": 0.16,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "minimal",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "only 16% had the classical clinical triad and 19% had no documented clinical signs",
+   "location": "Abstract"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Harper CG, Giles M, Finlay-Jones R. Clinical signs in the Wernicke-Korsakoff complex: a retrospective analysis of 131 cases diagnosed at necropsy. J Neurol Neurosurg Psychiatry. 1986;49(4):341-5.",
+   "doi": "10.1136/jnnp.49.4.341",
+   "pmid": "3701343",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1986
+  },
+  {
+   "citation": "Caine D, Halliday GM, Kril JJ, Harper CG. Operational criteria for the classification of chronic alcoholics: identification of Wernicke's encephalopathy. J Neurol Neurosurg Psychiatry. 1997;62(1):51-60.",
+   "doi": "10.1136/jnnp.62.1.51",
+   "pmid": "9010400",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1997
+  },
+  {
+   "citation": "Galvin R, Bråthen G, Ivashynka A, Hillbom M, Tanasescu R, Leone MA. EFNS guidelines for diagnosis, therapy and prevention of Wernicke encephalopathy. Eur J Neurol. 2010;17(12):1408-18.",
+   "doi": "10.1111/j.1468-1331.2010.03153.x",
+   "pmid": "20642790",
+   "url": null,
+   "kind": "guideline",
+   "year": 2010
+  },
+  {
+   "citation": "Hoffman JR, Schriger DL, Luo JS. The empiric use of naloxone in patients with altered mental status: a reappraisal. Ann Emerg Med. 1991;20(3):246-52.",
+   "doi": null,
+   "pmid": "1996818",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1991
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not withhold thiamine or naloxone because eye signs are absent when the clinical context is suggestive; do not test eye movements in place of airway management in a hypoventilating patient.",
+  "escalation_warning": "Miosis with respiratory rate <=12 or SpO2 fall needs immediate naloxone and ventilatory support; new gaze deviation with hemiparesis is a stroke alert.",
+  "interobserver_note": "Caine 1997 notes rater variability for specific symptoms although between-rater agreement for diagnostic classification using the criteria was 100% on records (Abstract); no kappa for individual eye signs found."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Only one numeric estimate was defensible: the classic Wernicke triad had 16% sensitivity among 131 necropsy-proven cases (Harper 1986, Abstract; PMC deposit is abstract-only so per-sign frequencies in the paper's tables could not be verified and are not entered). Entered as COMPOSITE because the triad, not the eye sign alone, is what the abstract quantifies; no controls so no specificity/LR. Caine 1997 (Abstract) reports that the 2-of-4 operational criteria (which include eye signs) had 50% sensitivity when WE co-occurred with hepatic encephalopathy, i.e. criteria-level not sign-level, so not entered as an estimate; full text not open access. EFNS guideline adopts the Caine criteria (Level B). Hoffman 1991 (Abstract) states that respirations <=12 or any of three clinical findings (including miotic pupils) were 'highly sensitive' for naloxone response but reports no numeric sensitivity/specificity for miosis in the abstract, and the search 'opioid overdose[Title] miosis' yielded only a case report; opioid miosis therefore has no entered estimate. No source was found for gaze deviation accuracy within budget.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:21+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

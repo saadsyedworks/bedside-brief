@@ -1,0 +1,88 @@
+{
+  "identity": {
+    "id": "exam_subtle_motor_signs_ncse",
+    "title": "Subtle twitching (face/limbs), eye deviation, nystagmoid jerks, fluctuating responsiveness (NCSE screen)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "ams"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "nonconvulsive_seizure",
+      "stroke"
+    ],
+    "indication_tags": [
+      "acute_onset"
+    ]
+  },
+  "technique": {
+    "how": "With the patient uncovered and lids gently held open, watch for 1-2 minutes for rhythmic twitching of the face, eyelids, fingers or toes, sustained or intermittent eye deviation, nystagmoid jerks, or automatisms (chewing, lip smacking). Ask about any recent convulsion or prior epilepsy and document fluctuation in responsiveness across serial checks.",
+    "prerequisites": "Note sedatives/paralytics given; compare with baseline mental status from family or staff.",
+    "contraindications": "None; observation only."
+  },
+  "interpretation": {
+    "positive_finding": "Any subtle motor sign or ocular movement abnormality in an unexplained encephalopathy makes NCSE substantially more likely and justifies urgent EEG (or empiric benzodiazepine trial where EEG is delayed).",
+    "negative_finding": "Absence of motor signs does not exclude NCSE, but in Husain's series every NCSE patient had either ocular movement abnormalities or a remote seizure risk factor, so absence of both lowers suspicion.",
+    "pitfalls": "Twitching and eye deviation also occur with metabolic encephalopathy, drug toxicity and structural lesions; eye deviation with hemiparesis suggests stroke. Signs may be intermittent, so a single brief look can miss them.",
+    "changes_what": "Positive: obtain urgent EEG and treat presumptively if unavailable. Negative with no seizure risk factor: EEG less urgent; pursue metabolic/structural causes."
+  },
+  "estimates": [
+    {
+      "target_condition": "COMPOSITE: remote risk factors for seizures OR ocular movement abnormalities (nonconvulsive status epilepticus)",
+      "population": "48 patients with altered mental state referred for urgent EEG to identify NCSE over 6 months; 12 had NCSE",
+      "setting": "inpatient",
+      "prevalence": 0.25,
+      "reference_standard": "EEG-confirmed NCSE",
+      "sensitivity": {
+        "value": 1.0,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "computed_from": "",
+      "interpretation_label": "rule_out",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "The combined sensitivity of remote risk factors for seizures and ocular movement abnormalities was 100%.",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "partially_quantified",
+  "sources": [
+    {
+      "citation": "Husain AM, Horn GJ, Jacobson MP. Non-convulsive status epilepticus: usefulness of clinical features in selecting patients for urgent EEG. J Neurol Neurosurg Psychiatry. 2003.",
+      "doi": "10.1136/jnnp.74.2.189",
+      "pmid": "12531946",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2003
+    },
+    {
+      "citation": "Zehtabchi S, Abdel Baki SG, Omurtag A, Sinert R, Chari G, Malhotra S, Weedon J, Fenton AA. Prevalence of non-convulsive seizure and other electroencephalographic abnormalities in ED patients with altered mental status. Am J Emerg Med. 2013.",
+      "doi": "10.1016/j.ajem.2013.08.002",
+      "pmid": "24070982",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2013
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not rely on the absence of motor signs in a patient who has just had a convulsive seizure and is not waking within 20-30 minutes; that requires EEG regardless.",
+    "escalation_warning": "Suspected NCSE is a neurological emergency: urgent EEG and neurology involvement; prolonged NCSE carries substantial morbidity.",
+    "interobserver_note": "Husain's features were recorded by neurology residents blinded to EEG; no kappa reported in the abstract. Subtle signs are inherently low-reliability observations."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Husain 2003 full text is abstract-only in PMC (PMC1738268), so per-feature sens/spec for ocular movement abnormalities and subtle twitching (Table 2 in the paper) could not be verified; only the composite sensitivity (100%) is in the abstract and is entered as a COMPOSITE with prevalence 12/48 = 0.25 (quote: '48 patients were enrolled, 12 in NCSE and 36 not in NCSE', Abstract). The abstract states ocular movement abnormalities, remote seizure risk factors and severely impaired mental state were 'seen significantly more often in the NCSE group' but gives no per-feature numbers. Context prevalence: Zehtabchi 2013, ED patients with undifferentiated AMS, 'NCS (including non-convulsive status epilepticus [NCSE]) was detected in 5% (95% CI, 3-8%) of patients' (Abstract, Results). No pooled diagnostic-accuracy data for subtle motor signs found; a PubMed search for clinical predictors of NCSE returned no further accuracy studies.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T02:33:39+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

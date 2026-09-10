@@ -1,0 +1,68 @@
+{
+ "identity": {
+  "id": "hx_epigastric_pain_radiating_back",
+  "title": "Constant epigastric pain radiating to the back (with alcohol/gallstone history)",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "chest_pain",
+   "abdominal_pain"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "aaa",
+   "aortic_dissection",
+   "pancreatitis",
+   "peptic_ulcer"
+  ],
+  "indication_tags": [
+   "alcohol_use"
+  ]
+ },
+ "technique": {
+  "how": "Ask about location (epigastric/upper abdominal), character (constant, severe, boring), onset over minutes to an hour, radiation straight through to the back, relief on sitting forward, associated vomiting, and risk factors: alcohol quantity, known gallstones, recent ERCP, hypertriglyceridaemia, new drugs.",
+  "prerequisites": "Reliable history.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Constant severe epigastric pain radiating to the back with alcohol or gallstone history is the classic presentation of acute pancreatitis and fulfils the clinical criterion of the diagnosis when lipase/amylase >3x ULN.",
+  "negative_finding": "Absence of back radiation does not exclude pancreatitis; many patients have epigastric pain without radiation, and pain may be atypical in the elderly.",
+  "pitfalls": "Same pattern occurs with penetrating posterior peptic ulcer, ruptured/expanding AAA, aortic dissection and inferior MI; tearing pain with pulse deficit or hypotension should trigger aortic imaging first. Grey Turner/Cullen ecchymoses occur in only ~3% of pancreatitis.",
+  "changes_what": "Positive: order lipase and consider pancreatitis; if pain is abrupt, tearing, or with hypotension/pulsatile mass, image the aorta before accepting pancreatitis."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Tenner S, Baillie J, DeWitt J, Vege SS. American College of Gastroenterology guideline: management of acute pancreatitis. Am J Gastroenterol. 2013;108(9):1400-1415.",
+   "doi": "10.1038/ajg.2013.218",
+   "pmid": "23896955",
+   "url": null,
+   "kind": "guideline",
+   "year": 2013
+  },
+  {
+   "citation": "Dickson AP, Imrie CW. The incidence and prognosis of body wall ecchymosis in acute pancreatitis. Surg Gynecol Obstet. 1984;159(4):343-347.",
+   "doi": null,
+   "pmid": "6237447",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1984
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use a 'pancreatitis-type' history to defer aortic imaging in a patient with hypotension, pulse deficit, syncope, or a pulsatile mass.",
+  "escalation_warning": "Epigastric-to-back pain with shock, tearing onset, or a pulsatile abdominal mass: treat as AAA/dissection until excluded.",
+  "interobserver_note": "No interobserver data found."
+ },
+ "tier": "extracted",
+ "extraction_notes": "No diagnostic-accuracy data (sens/spec/LR) for the pain pattern itself were found; PubMed search 'acute pancreatitis pain radiating back sensitivity specificity' returned unrelated or case-report items (e.g. PMID 12094856, 25473197 - not used). The ACG 2013 guideline defines pancreatitis by 2 of 3 criteria including characteristic abdominal pain, cited as guideline source. Dickson & Imrie 1984 (abstract): 'The over-all incidence of 3 per cent is greater than generally appreciated' (Abstract) - frequency of body-wall ecchymosis in 770 pancreatitis patients; a prognostic/frequency figure, not a diagnostic estimate of pain radiation, so no estimate entered.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:24+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

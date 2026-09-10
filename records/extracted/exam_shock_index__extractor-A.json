@@ -1,0 +1,138 @@
+{
+ "identity": {
+  "id": "exam_shock_index",
+  "title": "Shock index (HR / SBP >= 0.9-1.0)",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "syncope",
+   "hypotension",
+   "abdominal_pain",
+   "fever"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "aaa",
+   "hypovolemic_hemorrhagic_shock",
+   "pulmonary_embolism",
+   "septic_shock"
+  ],
+  "indication_tags": [
+   "trauma",
+   "anticoagulated"
+  ]
+ },
+ "technique": {
+  "how": "Divide heart rate (beats/min) by systolic blood pressure (mmHg) from the first triage vital signs, and repeat with each set of vitals. Normal 0.5-0.7; commonly used cut-offs are >=0.9 or >=1.0 (HR numerically exceeds SBP). Trend the value: a rising index suggests ongoing haemorrhage.",
+  "prerequisites": "Accurate manual or automated HR and SBP; be aware of beta-blockers, pacemakers, and pain/anxiety tachycardia.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "An elevated shock index in trauma identifies patients more likely to need massive transfusion (pooled LR+ 4.2) despite individually 'normal' vitals; it is a triage flag for occult haemorrhage, PE, sepsis or ruptured ectopic.",
+  "negative_finding": "A normal shock index lowers but does not exclude the need for massive transfusion (pooled LR- 0.39, sensitivity 0.68); it is nearly useless for excluding mortality (LR- 0.87).",
+  "pitfalls": "Beta-blockers, elderly patients, pacemakers and spinal shock blunt tachycardia; pain, anxiety and fever raise HR without haemorrhage. Cut-offs vary between studies (optimal ~0.8 vs the simple >=1.0).",
+  "changes_what": "Shock index >=0.9-1.0 should escalate to early haemorrhage/sepsis/PE evaluation, blood product readiness and repeat vitals; a normal value does not stand down concern."
+ },
+ "estimates": [
+  {
+   "target_condition": "PROGNOSTIC: need for massive transfusion in adult trauma (SI at field or ED arrival; multiple-threshold model, optimal cut-off 0.796)",
+   "population": "Adult (>=14 y) trauma patients, 35 studies, n=670,728, pre-hospital or ED shock index",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "Massive transfusion as defined per study (most: >=10 RBC units within 24 h)",
+   "sensitivity": {
+    "value": 0.68,
+    "ci_low": 0.57,
+    "ci_high": 0.76
+   },
+   "specificity": {
+    "value": 0.84,
+    "ci_low": 0.79,
+    "ci_high": 0.88
+   },
+   "lr_positive": {
+    "value": 4.24,
+    "ci_low": 3.18,
+    "ci_high": 5.65
+   },
+   "lr_negative": {
+    "value": 0.39,
+    "ci_low": 0.29,
+    "ci_high": 0.52
+   },
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "For MT the overall sensibility was 0.68 [0.57; 0.76], the overall specificity was 0.84 [0.79; 0.88] and the AUC was 0.85",
+   "location": "Abstract, Results (also Results 'Primary outcome')"
+  },
+  {
+   "target_condition": "PROGNOSTIC: mortality (mostly in-hospital) in adult trauma",
+   "population": "Adult (>=14 y) trauma patients from the same systematic review (secondary outcome, 26 studies)",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "Mortality as defined per study (mostly in-hospital)",
+   "sensitivity": {
+    "value": 0.358,
+    "ci_low": 0.238,
+    "ci_high": 0.498
+   },
+   "specificity": {
+    "value": 0.742,
+    "ci_low": 0.656,
+    "ci_high": 0.813
+   },
+   "lr_positive": {
+    "value": 1.39,
+    "ci_low": 1.36,
+    "ci_high": 1.42
+   },
+   "lr_negative": {
+    "value": 0.87,
+    "ci_low": 0.85,
+    "ci_high": 0.89
+   },
+   "computed": false,
+   "interpretation_label": "minimal",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "For mortality the overall sensibility was 0.358 [0.238; 0.498] the overall specificity 0.742 [0.656; 0.813]",
+   "location": "Abstract, Results (also Results 'Secondary outcome')"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Carsetti A, Antolini R, Casarotta E, Damiani E, Gasparri F, Marini B, Adrario E, Donati A. Shock index as predictor of massive transfusion and mortality in patients with trauma: a systematic review and meta-analysis. Crit Care. 2023;27(1):85.",
+   "doi": "10.1186/s13054-023-04386-w",
+   "pmid": "36872322",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2023
+  },
+  {
+   "citation": "Rady MY, Smithline HA, Blake H, Nowak R, Rivers E. A comparison of the shock index and conventional vital signs to identify acute, critical illness in the emergency department. Ann Emerg Med. 1994;24(4):685-690.",
+   "doi": "10.1016/s0196-0644(94)70279-9",
+   "pmid": "8092595",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1994
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use a normal shock index to exclude haemorrhage in beta-blocked, elderly, paced, or spinal-injured patients, or in early compensated shock.",
+  "escalation_warning": "Shock index >=1.0 with a plausible bleeding source (trauma, anticoagulation, AAA, ectopic pregnancy) warrants immediate haemorrhage pathway activation.",
+  "interobserver_note": "Derived from measured vitals; variability comes from measurement timing and device, not observer judgement."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Both estimates are prognostic (massive transfusion, mortality), not diagnostic accuracy for a disease; target_condition prefixed PROGNOSTIC. Full text read via PMC (Crit Care 2023). LR quotes: MT 'Positive and Negative Likelihood Ratio (LR+; LR-) were 4.24 [3.18-5.65] and 0.39 [0.29-0.52], respectively' (Abstract); mortality 'LR+ and LR- were 1.39 [1.36-1.42] and 0.87 [0.85-0.89], respectively' (Abstract). Threshold: multiple-threshold model; 'We found an optimal cut-off value of 0.796 at hospital admission to discriminate between patients with low vs. high risk of MT' (Results, Primary outcome); hospital-SI subgroup LR+ 3.43 [3.07-3.83], LR- 0.30 [0.27-0.34] (Results). Prevalence of MT not pooled; null. Rady 1994 (ED, 275 consecutive adults): SI >0.9 in 41 patients was associated with immediate treatment, admission and ICU therapy but no sens/spec reported (Abstract) - cited for the >0.9 cut-off and ED context only. Koch 2020 review (PMID 31616192) used only as an index; not cited. Non-trauma cohorts (PE, sepsis, ectopic) not extracted within budget.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:24+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

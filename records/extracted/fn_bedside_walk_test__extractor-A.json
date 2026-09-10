@@ -1,0 +1,66 @@
+{
+ "identity": {
+  "id": "fn_bedside_walk_test",
+  "title": "Bedside walk / ambulatory desaturation and dyspnea reproduction test (hallway walk with pulse-ox, ability to complete)",
+  "type": "functional",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "chest_pain",
+   "syncope",
+   "palpitations"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "acs",
+   "acute_decompensated_hf",
+   "anxiety_hyperventilation",
+   "aortic_stenosis",
+   "copd_exacerbation",
+   "ild",
+   "pneumonia",
+   "pulmonary_embolism"
+  ],
+  "indication_tags": [
+   "exertional"
+  ]
+ },
+ "technique": {
+  "how": "Record resting SpO2 and pulse, then walk the patient on a flat corridor at their own pace with continuous pulse oximetry and an escort for 2-6 minutes (or until symptoms). Record lowest SpO2, heart-rate rise, distance, whether the presenting symptom is reproduced, and whether the patient can complete the walk.",
+  "prerequisites": "Hemodynamically stable, ambulatory patient; reliable oximeter trace; staff escort and chair available.",
+  "contraindications": "Unstable angina or MI within days, resting SpO2 below target on maximal supplemental oxygen, uncontrolled arrhythmia, resting HR >120 or SBP >180/DBP >100 (ERS/ATS absolute/relative contraindications)."
+ },
+ "interpretation": {
+  "positive_finding": "Exertional desaturation (a fall in SpO2, commonly by >=4% or below 88-90%) or inability to complete the walk indicates a physiologic cause of dyspnea (parenchymal disease, PE, heart failure, anemia) and argues against isolated anxiety.",
+  "negative_finding": "A normal walk with stable SpO2 and no symptom reproduction lowers concern for significant gas-exchange impairment but does not exclude ACS, PE, or aortic stenosis.",
+  "pitfalls": "Motion artefact and poor perfusion produce false desaturation; the test is unstandardised at the bedside (pace, duration) and cut-offs are borrowed from chronic lung disease; results vary between repeat walks.",
+  "changes_what": "Desaturation or failure to complete: pursue objective testing (CT/echo/ABG) and reconsider discharge; normal walk: supports safe ambulation but does not replace diagnostic work-up."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Holland AE, Spruit MA, Troosters T, Puhan MA, Pepin V, Saey D, McCormack MC, Carlin BW, et al. An official European Respiratory Society/American Thoracic Society technical standard: field walking tests in chronic respiratory disease. Eur Respir J. 2014;44(6):1428-46.",
+   "doi": "10.1183/09031936.00150314",
+   "pmid": "25359355",
+   "url": null,
+   "kind": "guideline",
+   "year": 2014
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not walk patients with suspected ACS, unstable arrhythmia, resting hypoxemia, or suspected severe aortic stenosis with exertional syncope.",
+  "escalation_warning": "Chest pain, presyncope, SpO2 <85%, or marked HR fall during the walk: stop immediately, seat the patient, apply oxygen, and reassess.",
+  "interobserver_note": "The ERS/ATS standard notes results are sensitive to small methodological changes and recommends two tests for the 6MWT (Abstract); no bedside-walk reliability data found."
+ },
+ "tier": "extracted",
+ "extraction_notes": "No RCE, meta-analysis, or diagnostic-accuracy study of an informal inpatient/ED hallway walk was found; searches 'walk test emergency department dyspnea oxygen desaturation diagnostic accuracy' returned nothing and 'exertional desaturation[Title] emergency' returned only an ILD oxygen-response study (PMID 40395016, not a diagnostic-accuracy study). The ERS/ATS 2014 technical standard (confirmed PMID 25359355) is cited for procedure and contraindications only; specific SpO2 thresholds in the interpretation (>=4% fall, <88-90%) are conventional cut-offs (unverified recall) and not evidence of diagnostic accuracy. Record is not_quantified.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:21+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

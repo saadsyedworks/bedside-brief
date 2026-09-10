@@ -1,0 +1,60 @@
+{
+ "identity": {
+  "id": "exam_pericardial_friction_rub",
+  "title": "Pericardial friction rub (triphasic scratchy sound, LSB, leaning forward, end-expiration)",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "chest_pain",
+   "fever"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "pericardial_effusion_tamponade",
+   "pericarditis"
+  ],
+  "indication_tags": [
+   "pleuritic",
+   "positional"
+  ]
+ },
+ "technique": {
+  "how": "With the diaphragm pressed firmly at the left lower sternal border, listen with the patient sitting, leaning forward, in held end-expiration. A rub is a superficial, scratchy, leathery sound with up to three components (atrial systole, ventricular systole, early diastole) that persists when breathing is held; re-listen at intervals because rubs are evanescent.",
+  "prerequisites": "Quiet room; patient able to sit forward and hold breath briefly.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "A pericardial rub is one of the four ESC diagnostic criteria for acute pericarditis (with typical chest pain, ECG changes, new/worsening effusion) and is essentially pathognomonic when clearly heard.",
+  "negative_finding": "Absence of a rub does not exclude pericarditis (most patients lack one at any given exam) and a rub may disappear as effusion accumulates.",
+  "pitfalls": "Confused with pleural rubs (stop with held breath), murmurs, or stethoscope-skin artefact; rubs are intermittent so a single negative auscultation is weak evidence.",
+  "changes_what": "Positive: satisfies a pericarditis criterion - get ECG and echo; negative: do not exclude pericarditis or tamponade."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Adler Y, Charron P, Imazio M, Badano L, Barón-Esquivias G, Bogaert J, Brucato A, Gueret P, et al. 2015 ESC Guidelines for the diagnosis and management of pericardial diseases. Eur Heart J. 2015.",
+   "doi": "10.1093/eurheartj/ehv318",
+   "pmid": "26320112",
+   "url": null,
+   "kind": "guideline",
+   "year": 2015
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not rely on presence or absence of a rub to judge hemodynamic significance of an effusion.",
+  "escalation_warning": "Rub plus hypotension, elevated JVP, or pulsus paradoxus suggests tamponade - urgent echocardiography.",
+  "interobserver_note": "No reliability data located; auscultatory detection is examiner- and timing-dependent."
+ },
+ "tier": "extracted",
+ "extraction_notes": "No JAMA RCE or diagnostic-accuracy meta-analysis for the pericardial rub was found; searches 'pericardial friction rub acute pericarditis prospective cohort' returned nothing usable and 'pericardial rub[Title]' returned only older case-series titles that were not fetched within budget. The 2015 ESC guideline lists the rub as one of four diagnostic criteria (2 of 4 required) but gives no sensitivity/specificity, so the record is not_quantified. The Imazio 2007 prognosis cohort (PMID 17502574, fetched) reports no rub frequency in its abstract. Frequency of rub in pericarditis cohorts (often cited as roughly one-third) is (unverified recall) and was not entered.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:21+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

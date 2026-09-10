@@ -1,0 +1,74 @@
+{
+  "identity": {
+    "id": "hx_recent_antibiotics_new_diarrhea",
+    "title": "Antibiotic exposure within 8-12 weeks plus new watery diarrhea (>=3/day) or ileus/distension",
+    "type": "history",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "abdominal_pain",
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "cdiff_colitis"
+    ],
+    "indication_tags": [
+      "new_medication",
+      "immunocompromised"
+    ]
+  },
+  "technique": {
+    "how": "Ask about any antibiotic course in the preceding 12 weeks (name, dates), recent hospitalization, proton-pump inhibitor use, and prior C. difficile infection. Establish stool frequency and consistency (>=3 unformed stools in 24 h) and, in a patient with distension and few stools, consider ileus/toxic megacolon; examine for abdominal distension, tenderness and fever.",
+    "prerequisites": "Review the medication administration record and outside records; exclude laxative use and tube-feed related diarrhea.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Recent antibiotics plus new unformed stools >=3/day meets the guideline case definition for testing and should prompt a C. difficile stool test and contact precautions; distension with ileus and leukocytosis suggests fulminant disease.",
+    "negative_finding": "No antibiotic exposure and neither significant diarrhea nor abdominal pain identified a low-risk group in Katz's cohort in whom cytotoxin assays were rarely positive, though community-acquired CDI without antibiotic exposure occurs.",
+    "pitfalls": "Laxatives, tube feeds and other drugs cause hospital diarrhea; testing formed stool yields colonization, not infection. Ileus can mask diarrhea entirely in the sickest patients.",
+    "changes_what": "Positive: send C. difficile testing, start contact isolation, review antibiotics/PPIs. Negative: pursue other causes of diarrhea; testing rarely positive."
+  },
+  "estimates": [],
+  "evidence_status": "not_quantified",
+  "sources": [
+    {
+      "citation": "McDonald LC, Gerding DN, Johnson S, Bakken JS, Carroll KC, Coffin SE, Dubberke ER, Garey KW, et al. Clinical Practice Guidelines for Clostridium difficile Infection in Adults and Children: 2017 Update by the Infectious Diseases Society of America (IDSA) and Society for Healthcare Epidemiology of America (SHEA). Clin Infect Dis. 2018.",
+      "doi": "10.1093/cid/cix1085",
+      "pmid": "29462280",
+      "url": null,
+      "kind": "guideline",
+      "year": 2018
+    },
+    {
+      "citation": "Katz DA, Bates DW, Rittenberg E, Onderdonk A, Sands K, Barefoot LA, Snydman D. Predicting Clostridium difficile stool cytotoxin results in hospitalized patients with diarrhea. J Gen Intern Med. 1997.",
+      "doi": "10.1046/j.1525-1497.1997.12108.x",
+      "pmid": "9034947",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1997
+    },
+    {
+      "citation": "Garey KW, Dao-Tran TK, Jiang ZD, Price MP, Gentry LO, Dupont HL. A clinical risk index for Clostridium difficile infection in hospitalised patients receiving broad-spectrum antibiotics. J Hosp Infect. 2008.",
+      "doi": "10.1016/j.jhin.2008.06.026",
+      "pmid": "18723249",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2008
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not require an antibiotic history before testing a patient with severe or bloody diarrhea, or one with ileus/distension and marked leukocytosis after recent hospitalization.",
+    "escalation_warning": "Hypotension, ileus, megacolon or WBC >15 with rising creatinine indicates severe/fulminant CDI needing urgent treatment and surgical awareness.",
+    "interobserver_note": "History elements are self-reported or chart-derived; no reliability data found."
+  },
+  "tier": "extracted",
+  "extraction_notes": "No diagnostic-accuracy (sens/spec/LR) estimate for the history element itself was found in accessible abstracts, so status is not_quantified. Katz 1997 (prospective cohort, 609 inpatients tested for cytotoxin): low-risk group defined as no prior antibiotic use and no symptom predictor had 'the misclassification rate was 2.8% (5/177) for assay results' and 'prevalence of positive cytotoxin assays was 8% in the validation set, compared with 14% in the derivation set' (Abstract); a 2x2 cannot be reconstructed from the abstract, so no estimate entered. Garey 2008 reports risk-index odds ratios (e.g. age >80 OR 2.5, non-surgical admission OR 2.2; Abstract) for developing CDI among antibiotic recipients - prognostic risk, not diagnostic accuracy. IDSA/SHEA 2017 guideline provides the case definition (>=3 unformed stools in 24 h; test only unformed stool). Stool-frequency threshold in the title is from that guideline (full text not consulted; case definition is unverified recall of exact wording).",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T02:33:39+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

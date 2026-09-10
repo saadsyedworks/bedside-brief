@@ -1,0 +1,90 @@
+{
+  "identity": {
+    "id": "hx_pain_out_of_proportion_exam",
+    "title": "Pain out of proportion to examination findings",
+    "type": "history",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "abdominal_pain",
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "mesenteric_ischemia",
+      "necrotizing_fasciitis"
+    ],
+    "indication_tags": [
+      "elderly",
+      "acute_onset"
+    ]
+  },
+  "technique": {
+    "how": "Ask the patient to rate pain severity and observe distress, analgesic requirement and inability to lie still, then compare with the examined area: abdomen soft with little tenderness (mesenteric ischemia) or skin with pain extending beyond visible erythema and exquisite tenderness disproportionate to a modest cellulitis (necrotizing infection).",
+    "prerequisites": "Examine before heavy opioid dosing if possible; document extent of erythema with a marker and time.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Severe pain with a benign abdomen in a patient with atrial fibrillation, vascular disease or low-flow state should be treated as mesenteric ischemia until CT angiography excludes it; in skin infection it raises the odds of necrotizing fasciitis about 4.5-fold versus cellulitis.",
+    "negative_finding": "Pain proportional to findings does not exclude either diagnosis; no single feature has adequate sensitivity to rule out necrotizing fasciitis, and mesenteric ischemia often presents with vague signs.",
+    "pitfalls": "Elderly, diabetic and obtunded patients underreport pain; late ischemia with peritonitis makes the exam 'proportionate' again. In necrotizing infection, anesthesia of the skin can replace pain late in the course.",
+    "changes_what": "Positive: CT angiography for suspected mesenteric ischemia, or urgent surgical exploration/consult for suspected necrotizing infection; do not wait for labs."
+  },
+  "estimates": [
+    {
+      "target_condition": "necrotizing fasciitis (versus cellulitis)",
+      "population": "necrotizing fasciitis cases admitted to a tertiary hospital 2004-2013, each matched to two cellulitis controls (retrospective case-control)",
+      "setting": "inpatient",
+      "prevalence": null,
+      "reference_standard": "surgical/histological diagnosis of necrotizing fasciitis versus clinically diagnosed cellulitis",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 4.5,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": null,
+      "computed": false,
+      "computed_from": "",
+      "interpretation_label": "rule_in",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "The clinical features that most significantly increased the odds of NF were recent surgery (LR+ 7.0) pain-out-of-proportion (LR+ 4.5)",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "partially_quantified",
+  "sources": [
+    {
+      "citation": "Alayed KA, Tan C, Daneman N. Red Flags for Necrotizing Fasciitis: A Case Control Study. Int J Infect Dis. 2016.",
+      "doi": "10.1016/j.ijid.2015.04.021",
+      "pmid": "25975653",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2016
+    },
+    {
+      "citation": "Cudnik MT, Darbha S, Jones J, Macedo J, Stockton SW, Hiestand BC. The diagnosis of acute mesenteric ischemia: A systematic review and meta-analysis. Acad Emerg Med. 2014.",
+      "doi": "10.1111/acem.12254",
+      "pmid": "24238311",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2014
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use a 'proportionate' exam to defer imaging in an elderly patient with atrial fibrillation, recent MI, heart failure or dialysis who has acute severe abdominal pain.",
+    "escalation_warning": "Suspected necrotizing fasciitis or mesenteric ischemia is a surgical emergency; mesenteric ischemia carries pooled operative mortality of 47%.",
+    "interobserver_note": "'Out of proportion' is a subjective judgment with no published reliability data found; Alayed's feature was abstracted retrospectively from charts."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Necrotizing fasciitis: Alayed 2016 is a retrospective matched case-control, so only LR+ (4.5) is entered; no CI or sensitivity given per feature in the abstract, and the abstract states 'no individual findings with sufficient sensitivity to rule out NF (sensitivity <= 85% and LR- >= 0.5 for all findings)' (Abstract). Prevalence not entered (case-control). Mesenteric ischemia: Cudnik 2014 meta-analysis pooled only lactate, D-dimer and CT; the abstract concludes 'Signs, symptoms, and laboratory testing are insufficiently diagnostic for the condition' and provides no pooled estimate for pain out of proportion, so no mesenteric-ischemia estimate is entered. Mortality figure in escalation_warning: 'pooled operative mortality rate for mesenteric ischemia was 47% (95% CI = 40% to 54%)' (Cudnik, Abstract).",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T02:33:39+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

@@ -1,0 +1,103 @@
+{
+ "identity": {
+  "id": "exam_new_regurgitant_murmur",
+  "title": "New or changed regurgitant murmur",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "fever"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "acute_decompensated_hf",
+   "endocarditis"
+  ],
+  "indication_tags": [
+   "ivdu",
+   "prosthetic_valve",
+   "dialysis"
+  ]
+ },
+ "technique": {
+  "how": "Auscultate all four valve areas with diaphragm and bell, patient supine then sitting forward in end-expiration; compare against any documented prior exam. Note any holosystolic (mitral/tricuspid) or early diastolic decrescendo (aortic) murmur not previously recorded.",
+  "prerequisites": "Quiet room; knowledge of prior murmur status (chart or patient report).",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "A new regurgitant murmur in a febrile or bacteremic patient raises the probability of infective endocarditis and is a minor Duke-ISCVID physical-examination criterion; in a dyspneic patient it suggests acute valvular regurgitation causing heart failure.",
+  "negative_finding": "Absence of a new murmur only modestly lowers the probability of endocarditis (most IE episodes have no new murmur) and never excludes it.",
+  "pitfalls": "Requires a reliable baseline exam; tachycardia, obesity, and noisy wards reduce detection; flow murmurs from fever or anemia mimic new pathology; auscultation skill varies between examiners.",
+  "changes_what": "Positive: obtain blood cultures and echocardiography urgently; negative: do not lower suspicion of IE in bacteremic patients."
+ },
+ "estimates": [
+  {
+   "target_condition": "Infective endocarditis (endocarditis-team/expert adjudicated) among episodes of suspected IE",
+   "population": "3127 adult episodes of suspected IE (blood cultures plus echocardiography obtained for IE) at two Swiss tertiary centres, 2014-2023; 1177 IE",
+   "setting": "inpatient",
+   "prevalence": 0.376,
+   "reference_standard": "Endocarditis team or expert-clinician final diagnosis using 2023 Duke-ISCVID criteria",
+   "sensitivity": {
+    "value": 0.37,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.87,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 2.74,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.73,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "Table 1: new murmur (minor physical examination criterion) in 430/1177 IE (37%) vs 260/1950 non-IE (13%). Sens=430/1177=0.365; spec=1-260/1950=0.867; LR+=0.365/0.133=2.74; LR-=0.635/0.867=0.73; prevalence=1177/3127. No CIs reported for the sign itself.",
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "revealed a new heart murmur in 690 (22%) episodes, which was more common in patients with IE than those without (37% vs 13%",
+   "location": "Results, first paragraph; Table 1 row 'Minor physical examination criterion' (260 (13) vs 430 (37))"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Papadimitriou-Olivgeris M, Monney P, Frank M, Tzimas G, Fourré N, Zimmermann V, Tozzi P, Kirsch M, et al. Role of the New Physical Examination Minor Criterion (New Heart Murmur) for the Diagnosis of Infective Endocarditis. Open Forum Infect Dis. 2025.",
+   "doi": "10.1093/ofid/ofae736",
+   "pmid": "39790639",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2025
+  },
+  {
+   "citation": "Servy A, Valeyrie-Allanore L, Alla F, Lechiche C, Nazeyrollas P, Chidiac C, Hoen B, Chosidow O, et al. Prognostic value of skin manifestations of infective endocarditis. JAMA Dermatol. 2014.",
+   "doi": "10.1001/jamadermatol.2013.8727",
+   "pmid": "24500311",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2014
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use absence of a murmur to withhold cultures or echocardiography in Staphylococcus aureus bacteremia, prosthetic valves, or IVDU.",
+  "escalation_warning": "New regurgitant murmur with heart failure, heart block, or embolic phenomena warrants urgent echocardiography and cardiac surgery discussion.",
+  "interobserver_note": "Source authors state murmur detection depends on the auscultation skill of the treating physician; no kappa reported in this cohort."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Primary estimate is a 2x2 computed from Table 1 counts of the Duke-ISCVID 'new murmur' minor criterion (defined as any new murmur in patients without preexisting murmur or without prior exam); the source reports the criterion's contribution to the full criteria rather than sign-level accuracy, so CIs for the sign are unavailable. Retrospective/prospective mixed cohort; reference standard incorporates clinical judgement (incorporation bias possible). The 2023 Duke-ISCVID physical-exam criterion is expert-opinion based and intended only where imaging is unavailable (Discussion). Companion peripheral stigmata (source 1): 'Of 487 cases, 58 (11.9%) had skin manifestations' (Abstract) among definite IE, i.e. sensitivity ~0.12 for any classic skin sign with no control group so no specificity/LR; not entered as an estimate because it is a different sign. No JAMA RCE for endocarditis exists.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:21+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

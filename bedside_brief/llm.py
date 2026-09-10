@@ -83,13 +83,26 @@ class LLMClient:
 
     def _call(self, messages: list[dict[str, str]], response_format: dict[str, Any]) -> str:
         t0 = time.perf_counter()
-        resp = self._sdk().chat.completions.create(
-            model=self.model,
-            messages=messages,
-            response_format=response_format,
-            temperature=self.temperature,
-            seed=self.seed,
-        )
+        resp = None
+        for attempt in range(6):  # 429 / transient 5xx: exponential backoff, deterministic request otherwise
+            try:
+                resp = self._sdk().chat.completions.create(
+                    model=self.model,
+                    messages=messages,
+                    response_format=response_format,
+                    temperature=self.temperature,
+                    seed=self.seed,
+                )
+                break
+            except Exception as exc:  # noqa: BLE001
+                name = type(exc).__name__
+                status = getattr(exc, "status_code", None)
+                retryable = name in ("RateLimitError", "APITimeoutError", "APIConnectionError", "InternalServerError") or status in (429, 500, 502, 503, 504)
+                if not retryable or attempt == 5:
+                    raise
+                wait = min(30.0, 1.5 * (2 ** attempt))
+                log.warning("%s on attempt %d; sleeping %.1fs", name, attempt + 1, wait)
+                time.sleep(wait)
         usage = getattr(resp, "usage", None)
         log.info(
             "complete model=%s prompt_tokens=%s completion_tokens=%s latency_ms=%d",

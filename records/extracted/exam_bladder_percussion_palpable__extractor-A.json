@@ -1,0 +1,72 @@
+{
+ "identity": {
+  "id": "exam_bladder_percussion_palpable",
+  "title": "Suprapubic palpation / percussion for distended bladder; LUTS and prostate history",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "aki",
+   "ams",
+   "abdominal_pain",
+   "weakness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "cauda_equina",
+   "delirium_infectious",
+   "obstruction_retention",
+   "urinary_retention"
+  ],
+  "indication_tags": [
+   "elderly",
+   "new_medication",
+   "post_operative"
+  ]
+ },
+ "technique": {
+  "how": "Supine: inspect for suprapubic fullness, percuss from umbilicus toward pubis for a change from tympany to dullness, and palpate for a smooth, tense midline mass that provokes urge to void. Ask about hesitancy, weak stream, incomplete emptying, prior retention, prostate disease, and new anticholinergic/opioid drugs; check perineal sensation and anal tone if a neurologic cause is possible.",
+  "prerequisites": "Bladder scanner or catheterization for confirmation of volume.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Suprapubic dullness and a palpable tense bladder suggest retention with a large volume, especially with LUTS, prostate history, new anticholinergic/opioid, or post-operative state.",
+  "negative_finding": "A non-palpable, non-dull suprapubic area argues against a very large retained volume but does not exclude clinically important retention (several hundred mL), particularly in obese patients.",
+  "pitfalls": "Bladder is generally palpable only above ~300-500 mL and obesity, ascites, pregnancy or pelvic masses obscure or mimic it; positive predictive value of clinical assessment is low, so verify with a bladder scan before catheterizing on exam alone.",
+  "changes_what": "Positive: bladder scan/catheterize, review drugs, and consider neurologic cause; negative does not remove retention from the AKI or delirium differential, so still scan."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Pedersen LM, Mantoni T, Lynggaard MD, Schousboe BM, Lauritzen JB, Pedersen BD, Jorgensen HL. [Postoperative urinary retention. Clinical assessment versus ultrasound examination]. Ugeskr Laeger. 2007.",
+   "doi": null,
+   "pmid": "17311756",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2007
+  },
+  {
+   "citation": "Selius BA, Subedi R. Urinary retention in adults: diagnosis and initial management. Am Fam Physician. 2008.",
+   "doi": null,
+   "pmid": "18350762",
+   "url": null,
+   "kind": "consensus",
+   "year": 2008
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not rely on percussion/palpation alone to decide against catheterization in AKI, delirium, or suspected cauda equina; a bladder scan is required.",
+  "escalation_warning": "Retention with new saddle anesthesia, leg weakness, or back pain is a cauda equina emergency requiring urgent MRI and surgical referral.",
+  "interobserver_note": "Pedersen 2007 used two trained doctors examining 25 patients each; no agreement statistic is given in the abstract."
+ },
+ "tier": "extracted",
+ "extraction_notes": "No study reporting sensitivity/specificity or LRs for suprapubic palpation/percussion against a scanner or catheter volume was found (searches: bladder palpation percussion urinary retention; physical examination bladder volume ultrasound scanner). The only clinical-assessment-versus-ultrasound study found, Pedersen 2007 (PMID 17311756; 50 post-operative recovery-room patients, BladderScan BVI 3000 reference), reports predictive values only: 'We found a high negative predictive value of 92% for a cut-off limit of 500 ml. The corresponding positive predictive value was a modest 38%' (Abstract, Results); predictive values cannot be entered as sens/spec/LR and prevalence is not given, so estimates are empty. The frequently cited '~300-500 mL palpable' threshold is textbook teaching (unverified recall). Selius & Subedi 2008 (AFP review) cited as the consensus source for the maneuver and history items; it is a narrative review, not a guideline body statement. Bladder-scanner accuracy studies retrieved (PMIDs 29952185, 24767639, 17115233, 16411009) evaluate the device, not the exam, and were not used.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:35+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

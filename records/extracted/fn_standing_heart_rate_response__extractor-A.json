@@ -1,0 +1,180 @@
+{
+ "identity": {
+  "id": "fn_standing_heart_rate_response",
+  "title": "Supine-to-standing heart rate increment (>=30 bpm sustained within 10 min, POTS-style) with symptom reproduction on standing",
+  "type": "functional",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "syncope",
+   "palpitations",
+   "dizziness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "sinus_tachycardia_secondary",
+   "orthostatic_hypotension",
+   "anemia"
+  ],
+  "indication_tags": [
+   "orthostatic",
+   "positional"
+  ]
+ },
+ "technique": {
+  "how": "After >=5 min supine rest record HR and BP, then have the patient stand still (unsupported, minimal movement) and record HR and BP at 1, 3, 5 and 10 min while asking about lightheadedness, palpitations, visual change and near-syncope. Note the maximum sustained HR rise above supine and whether SBP falls >=20 mmHg.",
+  "prerequisites": "Off obvious confounders where possible (recent caffeine, beta-blocker timing, acute illness); adequate hydration status noted; a chair or bed behind the patient and an assistant for near-syncope.",
+  "contraindications": "Inability to stand safely, symptomatic hypotension or active bleeding/sepsis where orthostatic stress is unsafe; stop if syncope is imminent."
+ },
+ "interpretation": {
+  "positive_finding": "Sustained HR increase >=30 bpm (>=40 bpm in patients aged 12-19) within 10 min of standing with reproduction of orthostatic symptoms and no orthostatic hypotension (SBP fall <20 mmHg), in a patient with >=3-6 months of symptoms, meets consensus POTS criteria.",
+  "negative_finding": "HR rise <30 bpm without symptoms makes POTS unlikely on that occasion; an accompanying SBP fall >=20 mmHg points instead to orthostatic hypotension.",
+  "pitfalls": "Deconditioning, anemia, dehydration, fever, anxiety, hyperthyroidism and drugs (vasodilators, stimulants) produce secondary orthostatic tachycardia and must be excluded; a single test is poorly reproducible and tilt gives larger HR rises than active standing. Thresholds derived in small case-control samples overstate accuracy.",
+  "changes_what": "Positive: pursue POTS work-up and exclude secondary causes (volume, thyroid, anemia, drugs); negative: redirect toward orthostatic hypotension, arrhythmia or vasovagal mechanisms."
+ },
+ "estimates": [
+  {
+   "target_condition": "Postural tachycardia syndrome (adults)",
+   "population": "15 adults with previously diagnosed POTS vs 15 healthy controls (case-control), autonomic dysfunction center",
+   "setting": "outpatient",
+   "prevalence": null,
+   "reference_standard": "Prior clinical diagnosis of POTS (sustained HR rise >=30 bpm with orthostatic symptoms, no orthostatic hypotension) vs healthy volunteer status",
+   "sensitivity": {
+    "value": 0.87,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.67,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 2.6,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.19,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "LR+ = 0.87/(1-0.67) = 2.6; LR- = (1-0.87)/0.67 = 0.19, from reported sensitivity 87% and specificity 67% for >=30 bpm at 10 min active stand (STAND10)",
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "Sn (sensitivity) of the 30 bpm criterion was similar for all tests (TILT10=93%, STAND10=87%, TILT30=100%, and STAND30=93%).",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Postural tachycardia syndrome (adults), 30-min active stand",
+   "population": "Same 15 POTS patients vs 15 healthy controls (case-control), 30 min of standing",
+   "setting": "outpatient",
+   "prevalence": null,
+   "reference_standard": "Prior clinical diagnosis of POTS vs healthy volunteer status",
+   "sensitivity": {
+    "value": 0.93,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.53,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 1.98,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.13,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "LR+ = 0.93/(1-0.53) = 1.98; LR- = (1-0.93)/0.53 = 0.13, from reported STAND30 sensitivity 93% and specificity 53% for >=30 bpm",
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "than stand (STAND10=67%, STAND30=53%)",
+   "location": "Abstract, Results (specificity sentence); sensitivity STAND30=93% in the preceding sentence"
+  },
+  {
+   "target_condition": "Postural tachycardia syndrome (adolescents <19 years), 5-min active stand at ROC-optimal threshold 26 bpm",
+   "population": "36 adolescents (12.2-18.8 y) with tilt-defined POTS vs 39 healthy volunteers (13.1-18.9 y), case-control",
+   "setting": "outpatient",
+   "prevalence": null,
+   "reference_standard": "POTS defined by orthostatic intolerance plus sustained excessive tachycardia without hypotension during 70-degree head-up tilt",
+   "sensitivity": {
+    "value": 0.706,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.682,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 2.22,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.43,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "LR+ = 0.706/(1-0.682) = 2.22; LR- = (1-0.706)/0.682 = 0.43, from reported sensitivity 70.6% and specificity 68.2% at the ROC threshold of 26 bpm",
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "For 5 min stand ROC threshold was 26 beats per min (bpm), sensitivity of 70.6%, and specificity of 68.2%",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Plash WB, Diedrich A, Biaggioni I, Garland EM, Paranjape SY, Black BK, et al. Diagnosing postural tachycardia syndrome: comparison of tilt testing compared with standing haemodynamics. Clin Sci (Lond). 2013.",
+   "doi": "10.1042/CS20120276",
+   "pmid": "22931296",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2013
+  },
+  {
+   "citation": "Stewart JM, Medow MS. Can standing replace upright tilt table testing in the diagnosis of postural tachycardia syndrome (POTS) in the young? Clin Auton Res. 2025.",
+   "doi": "10.1007/s10286-024-01080-x",
+   "pmid": "39592549",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2025
+  },
+  {
+   "citation": "Sheldon RS, Grubb BP, Olshansky B, Shen WK, Calkins H, Brignole M, Raj SR, Krahn AD, et al. 2015 Heart Rhythm Society expert consensus statement on the diagnosis and treatment of postural tachycardia syndrome, inappropriate sinus tachycardia, and vasovagal syncope. Heart Rhythm. 2015.",
+   "doi": "10.1016/j.hrthm.2015.03.029",
+   "pmid": "25980576",
+   "url": null,
+   "kind": "consensus",
+   "year": 2015
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Patient cannot stand safely or is acutely hypotensive, bleeding or septic; the test does not replace evaluation for arrhythmia or structural heart disease in exertional or unexplained syncope.",
+  "escalation_warning": "Standing-induced syncope with injury risk, or HR rise with hypotension in an acutely ill patient, indicates volume loss/sepsis/bleeding rather than POTS and needs urgent evaluation.",
+  "interobserver_note": "No inter-observer data located; Plash 2012 reported tilt produces larger HR rises than stand ('38+/-3 bpm compared with 33+/-3 bpm; P=0.03' at 5 min, Abstract), so the modality changes the result."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Both accuracy studies are small case-control designs (spectrum bias; prevalence not applicable, left null). Plash 2012: sensitivity quote is the STAND10 sentence; the specificity quote for STAND10=67% and STAND30=53% is 'Sp (specificity) of the 30 bpm criterion was less at both 10 and 30 min for tilt (TILT10=40%, TILT30=20%) than stand (STAND10=67%, STAND30=53%)' (Abstract, Results; >25 words so only a fragment is placed in the quote field). ROC-optimal stand thresholds in Plash were '29 bpm (STAND)' at 10 min and '34 bpm (STAND)' at 30 min (Abstract). Stewart 2025 (adolescents) used a data-derived 26 bpm threshold at 5 min, not the consensus 40 bpm paediatric threshold, and concluded the stand test 'is relatively non-specific and imprecise compared to tilt' (Abstract, Conclusions); tilt at 10 min gave '40 bpm, 94.1%, and 95.1%' (Abstract). The HRS 2015 consensus criteria (>=30 bpm sustained within 10 min, >=40 bpm for ages 12-19, absence of orthostatic hypotension, symptoms >=6 months) are consensus definitions, not accuracy data (unverified recall of exact wording; PubMed abstract empty). No LRs reported by either study; all LRs computed from the sens/spec pairs.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:30+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

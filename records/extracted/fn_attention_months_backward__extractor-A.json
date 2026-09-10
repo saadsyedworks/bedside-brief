@@ -1,0 +1,215 @@
+{
+  "identity": {
+    "id": "fn_attention_months_backward",
+    "title": "Attention test: months of the year backward / digit span",
+    "type": "functional",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "ams"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "delirium_infectious",
+      "hepatic_encephalopathy",
+      "hyponatremia",
+      "intoxication_withdrawal",
+      "medication_effect",
+      "uremia"
+    ],
+    "indication_tags": [
+      "elderly",
+      "post_operative"
+    ]
+  },
+  "technique": {
+    "how": "Ask: 'Please say the months of the year backwards, starting at December.' Give one prompt of 'What month comes before December?' if needed, then let the patient proceed unaided. Record how far they get in correct order and the number of errors; a common binary threshold is failure to reach July (4AT) or September (Hasemann). Digit span: repeat digit strings of increasing length.",
+    "prerequisites": "Patient awake, hearing and language adequate; know baseline cognition (dementia, education) from a collateral source.",
+    "contraindications": "None; not interpretable in aphasia, severe hearing loss or reduced arousal (which itself is a 4AT positive)."
+  },
+  "interpretation": {
+    "positive_finding": "Inability to recite months backward (or a high error count) indicates inattention, the core feature of delirium, and should trigger a full CAM/4AT assessment and search for precipitants.",
+    "negative_finding": "Fluent, correct recitation makes delirium less likely (LR- about 0.05-0.26 depending on cohort and threshold) but does not exclude hypoactive delirium or a fluctuating course.",
+    "pitfalls": "Dementia without delirium fails MOTYB frequently (specificity only 0.58 in older medical inpatients), so a failure needs interpretation against baseline and acute change. Digit span alone has limited utility per the JAMA Rational Clinical Examination review.",
+    "changes_what": "Failure: run CAM/4AT, review medications, infection, metabolic causes. Pass: delirium unlikely now; reassess if fluctuating or collateral reports acute change."
+  },
+  "estimates": [
+    {
+      "target_condition": "delirium (prevalent)",
+      "population": "470 older medical inpatients assessed within 36 h of admission; 184 with delirium; MOTYB scored binary",
+      "setting": "inpatient",
+      "prevalence": 0.391,
+      "reference_standard": "Revised Delirium Rating Scale (DRS-R98) assessment",
+      "sensitivity": {
+        "value": 0.846,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.584,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 2.03,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.26,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.846/(1-0.584) = 2.03; LR- = (1-0.846)/0.584 = 0.26; prevalence = 184/470 = 0.391; sens/spec reported in abstract",
+      "interpretation_label": "modest",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "The MOTYB, scored in a binary fashion, also performed well (sensitivity 84.6%, specificity 58.4%, NPV 87.4%, PPV 52.8).",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "delirium",
+      "population": "ED patients aged >=65, secondary analysis of mCAM-ED validation study; MBT scored as number of errors, threshold >=8 errors",
+      "setting": "ED",
+      "prevalence": null,
+      "reference_standard": "geriatrician delirium assessment within 1 h",
+      "sensitivity": {
+        "value": 0.95,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.94,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 15.8,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.053,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.95/(1-0.94) = 15.8; LR- = (1-0.95)/0.94 = 0.053; sens/spec reported in abstract",
+      "interpretation_label": "both",
+      "evidence_level": "single_study",
+      "source_index": 1,
+      "quote": "achieved when 8 or more errors were reached resulting in an overall sensitivity of 0.95 and overall specificity of 0.94",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "delirium",
+      "population": "ED patients aged >=65, same cohort; MBT scored as 'last month in correct order', threshold failure to reach September",
+      "setting": "ED",
+      "prevalence": null,
+      "reference_standard": "geriatrician delirium assessment within 1 h",
+      "sensitivity": {
+        "value": 0.9,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.89,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 8.2,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.11,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.90/(1-0.89) = 8.2; LR- = (1-0.90)/0.89 = 0.11; sens/spec reported in abstract",
+      "interpretation_label": "both",
+      "evidence_level": "single_study",
+      "source_index": 1,
+      "quote": "achieved with the month of September resulting in an overall sensitivity of 0.90 and an overall specificity of 0.89",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "COMPOSITE: 4AT (alertness, AMT4, months backward, acute change) for delirium",
+      "population": "17 studies, 3,702 observations, adults >=65 in acute medicine, surgery, care home and ED",
+      "setting": "mixed",
+      "prevalence": 0.242,
+      "reference_standard": "standard diagnostic criteria (DSM/ICD) or validated delirium tool",
+      "sensitivity": {
+        "value": 0.88,
+        "ci_low": 0.8,
+        "ci_high": 0.93
+      },
+      "specificity": {
+        "value": 0.88,
+        "ci_low": 0.82,
+        "ci_high": 0.92
+      },
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "computed_from": "",
+      "interpretation_label": "both",
+      "evidence_level": "pooled",
+      "source_index": 2,
+      "quote": "The pooled sensitivity was 0.88 (95% CI 0.80-0.93) and the pooled specificity was 0.88 (95% CI 0.82-0.92).",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "O'Regan NA, Maughan K, Liddy N, Fitzgerald J, Adamis D, Molloy DW, Meagher D, Timmons S. Five short screening tests in the detection of prevalent delirium: diagnostic accuracy and performance in different neurocognitive subgroups. Int J Geriatr Psychiatry. 2018.",
+      "doi": "10.1002/gps.4633",
+      "pmid": "27917538",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2018
+    },
+    {
+      "citation": "Hasemann W, Grossmann FF, Bingisser R, Hafner M, Breil D, Kressig RW, Nickel CH. Optimizing the month of the year backwards test for delirium screening of older patients in the emergency department. Am J Emerg Med. 2020.",
+      "doi": "10.1016/j.ajem.2019.06.035",
+      "pmid": "31262626",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2020
+    },
+    {
+      "citation": "Tieges Z, Maclullich AMJ, Anand A, Brookes C, Cassarino M, O'Connor M, Ryan D, Saller T, et al. Diagnostic accuracy of the 4AT for delirium detection in older adults: systematic review and meta-analysis. Age Ageing. 2021.",
+      "doi": "10.1093/ageing/afaa224",
+      "pmid": "33951145",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2021
+    },
+    {
+      "citation": "Wong CL, Holroyd-Leduc J, Simel DL, Straus SE. Does this patient have delirium?: value of bedside instruments. JAMA. 2010.",
+      "doi": "10.1001/jama.2010.1182",
+      "pmid": "20716741",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2010
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Not interpretable in aphasia, profound deafness, non-fluent speakers, or reduced arousal; do not use a single pass to dismiss a collateral history of acute fluctuating confusion.",
+    "escalation_warning": "New inattention with fever, focal deficit, meningism or reduced consciousness needs urgent evaluation for CNS infection, stroke or NCSE, not just a delirium label.",
+    "interobserver_note": "Hasemann's test was done by trained nurses versus geriatricians; the 'last month reached' scoring was proposed because error counting is complex. No kappa in abstracts seen."
+  },
+  "tier": "extracted",
+  "extraction_notes": "All numbers from abstracts; full texts not in PMC. O'Regan 2018 is an older-medical-inpatient cohort with high delirium prevalence (184/470); the low specificity reflects dementia patients failing MOTYB. Hasemann 2020 is a secondary analysis of an ED validation cohort with two scoring thresholds, entered separately; prevalence not in abstract. Tieges 2021 4AT pooled estimate entered as COMPOSITE because MOTYB is only one of its four items; overall delirium prevalence 24.2% (95% CI 17.8-32.1%) from abstract. Wong 2010 (RCE) states 'The Digit Span test and Vigilance A test in isolation have limited utility in diagnosing delirium' (Abstract) but gives no digit-span LR in the abstract, so no digit-span estimate is entered. Yevchak Sillner 2021 (PMID 32853147) reports a 3-item postoperative screen including MOTYB (sens 92%, spec 72%, Abstract) but no MOTYB-alone figure in the abstract, so not entered.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T02:33:39+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

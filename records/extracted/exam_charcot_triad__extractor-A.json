@@ -1,0 +1,136 @@
+{
+  "identity": {
+    "id": "exam_charcot_triad",
+    "title": "Charcot triad at the bedside (fever + RUQ pain/tenderness + jaundice)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "ams",
+      "abdominal_pain",
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "cholangitis",
+      "cholecystitis"
+    ],
+    "indication_tags": [
+      "febrile"
+    ]
+  },
+  "technique": {
+    "how": "Record documented fever or rigors, ask about and palpate for right-upper-quadrant pain/tenderness, and inspect sclerae and skin for jaundice in good light. The triad is positive only when all three are present; note that TG13/TG18 replaced the triad with fever/inflammation + cholestasis + imaging criteria.",
+    "prerequisites": "Temperature record and a reliable history; sclerae examined in daylight or bright white light.",
+    "contraindications": "None; it is an observational bedside assessment."
+  },
+  "interpretation": {
+    "positive_finding": "All three features present markedly raise the probability of acute cholangitis (specificity about 0.93-0.96) and should prompt blood cultures, antibiotics and early biliary imaging/drainage planning.",
+    "negative_finding": "Absence of the full triad does not exclude cholangitis; sensitivity is only about 0.26-0.36, so most cholangitis patients lack the complete triad.",
+    "pitfalls": "Older, immunosuppressed or encephalopathic patients may lack fever or pain; acute cholecystitis produced a false-positive triad in 11.9% of cases in the TG13 cohort. Jaundice is a late sign and is easily missed under artificial light.",
+    "changes_what": "Positive: treat as cholangitis pending imaging (cultures, antibiotics, plan drainage). Negative: still order LFTs and biliary ultrasound if fever with cholestatic labs."
+  },
+  "estimates": [
+    {
+      "target_condition": "acute cholangitis",
+      "population": "1,432 biliary disease cases with suspected acute cholangitis, multicenter Japan, retrospective",
+      "setting": "inpatient",
+      "prevalence": null,
+      "reference_standard": "purulent bile, or clinical remission after bile duct drainage, or remission on antibiotics alone with biliary tree the only infection site",
+      "sensitivity": {
+        "value": 0.264,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.956,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 6.0,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.77,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.264/(1-0.956) = 6.0; LR- = (1-0.264)/0.956 = 0.77; sens/spec reported directly in abstract",
+      "interpretation_label": "rule_in",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "The sensitivity of Charcot's triad was only 26.4 % but the specificity was 95.6 %.",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "acute cholangitis",
+      "population": "16 studies, 4,288 patients with suspected or confirmed acute cholangitis; heterogeneous designs (specificity from 3 studies only)",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "varied by study (clinical/TG criteria, bile culture, drainage response)",
+      "sensitivity": {
+        "value": 0.363,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.932,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "computed_from": "",
+      "interpretation_label": "rule_in",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "The overall sensitivity for Charcot's triad was calculated as 36.3%. The specificity was only analysed in three studies and had an overall value of 93.2%.",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Kiriyama S, Takada T, Strasberg SM, Solomkin JS, Mayumi T, Pitt HA, Gouma DJ, Garden OJ, et al. New diagnostic criteria and severity assessment of acute cholangitis in revised Tokyo Guidelines. J Hepatobiliary Pancreat Sci. 2013.",
+      "doi": "10.1007/s00534-012-0537-3",
+      "pmid": "22825491",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2013
+    },
+    {
+      "citation": "Rumsey S, Winders J, MacCormick AD. Diagnostic accuracy of Charcot's triad: a systematic review. ANZ J Surg. 2017.",
+      "doi": "10.1111/ans.13907",
+      "pmid": "28213923",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2017
+    },
+    {
+      "citation": "Kiriyama S, Kozaka K, Takada T, Strasberg SM, Pitt HA, Gabata T, Hata J, Liau KH, et al. Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholangitis (with videos). J Hepatobiliary Pancreat Sci. 2018.",
+      "doi": "10.1002/jhbp.512",
+      "pmid": "29032610",
+      "url": null,
+      "kind": "guideline",
+      "year": 2018
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use absence of the triad to withhold work-up in a febrile patient with cholestatic liver tests or known biliary obstruction/stent.",
+    "escalation_warning": "Triad plus hypotension or altered mental status (Reynolds pentad) indicates severe (Grade III) cholangitis needing urgent drainage and ICU-level care.",
+    "interobserver_note": "No interobserver data found for the triad as a whole; jaundice detection and RUQ tenderness are each examiner-dependent."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Full text of TG13/TG18 not accessible (not in PMC); both estimates come from abstracts. Kiriyama 2013 (TG13 derivation cohort) reports sens 26.4%/spec 95.6% in the abstract; LRs computed from these (computed=true). Prevalence of AC in the 1,432-case cohort not stated in the abstract, so left null. Rumsey 2017 pooled sensitivity (36.3%) uses all 16 studies but specificity (93.2%) only 3 studies, so no LR was computed from that pair. TG13 abstract also notes 'the false positive rate in cases of acute cholecystitis was 11.9 %' (Abstract). TG18 (PMID 29032610) is cited as the guideline recommending TG13 criteria over Charcot triad; its abstract carries no triad accuracy numbers.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T02:33:39+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

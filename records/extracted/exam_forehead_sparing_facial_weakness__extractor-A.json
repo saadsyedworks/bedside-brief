@@ -1,0 +1,57 @@
+{
+  "identity": {
+    "id": "exam_forehead_sparing_facial_weakness",
+    "title": "Forehead sparing (central) vs forehead involvement (peripheral) in facial weakness",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "weakness"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "bell_palsy",
+      "stroke"
+    ],
+    "indication_tags": [
+      "acute_onset"
+    ]
+  },
+  "technique": {
+    "how": "Ask the patient to raise the eyebrows/wrinkle the forehead, close the eyes tightly against resistance, show the teeth and puff the cheeks; compare sides. Forehead wrinkling and eye closure preserved with lower-face weakness = central (upper motor neuron) pattern; whole hemiface including forehead weak = peripheral (facial nerve) pattern. Screen for other cranial nerve, limb or speech deficits.",
+    "prerequisites": "Adequate arousal and cooperation; compare with old photographs if asymmetry may be longstanding.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Forehead sparing indicates a supranuclear lesion (stroke, tumor) and should trigger a stroke assessment, not a Bell's palsy diagnosis; lower-face-predominant weakness with limb or speech signs is stroke until proven otherwise.",
+    "negative_finding": "Forehead involvement is consistent with a peripheral facial nerve lesion (Bell's palsy, Ramsay Hunt, Lyme, otitis, parotid tumor), but a pontine stroke involving the facial nucleus can also produce a peripheral pattern.",
+    "pitfalls": "Mild central weakness can subtly involve the forehead and mild peripheral weakness can seem to spare it, especially with bilateral cortical innervation and eyebrow overaction; emotional (spontaneous smile) versus volitional dissociation is another clue. Bell's palsy is a diagnosis of exclusion per the AAO-HNS guideline.",
+    "changes_what": "Forehead sparing: activate stroke pathway/imaging. Forehead involved with no other deficits: likely Bell's palsy - steroids within 72 h, eye protection, check ear/parotid."
+  },
+  "estimates": [],
+  "evidence_status": "not_quantified",
+  "sources": [
+    {
+      "citation": "Baugh RF, Basura GJ, Ishii LE, Schwartz SR, Drumheller CM, Burkholder R, Deckard NA, Dawson C, et al. Clinical practice guideline: Bell's palsy. Otolaryngol Head Neck Surg. 2013.",
+      "doi": "10.1177/0194599813505967",
+      "pmid": "24189771",
+      "url": null,
+      "kind": "guideline",
+      "year": 2013
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not label facial weakness as Bell's palsy when there are other neurological deficits, gradual onset, bilateral involvement, vesicles, otorrhea, a parotid mass, or recurrent ipsilateral palsy.",
+    "escalation_warning": "Forehead-sparing facial weakness or any accompanying limb weakness, dysarthria or ataxia is a stroke alert; a peripheral pattern with other brainstem signs also needs urgent imaging.",
+    "interobserver_note": "No published interobserver reliability data for the forehead-sparing distinction were found."
+  },
+  "tier": "extracted",
+  "extraction_notes": "No diagnostic-accuracy study of forehead sparing versus involvement for central versus peripheral facial weakness was found (PubMed searches for 'forehead sparing central facial palsy stroke sensitivity' returned nothing relevant); status not_quantified. The AAO-HNS 2013 guideline (Baugh) is cited for the consensus recommendation that 'clinicians should assess the patient using history and physical examination to exclude identifiable causes of facial paresis or paralysis' (Abstract, Action Statements) and for steroids within 72 hours and eye protection. The pontine-stroke exception and emotional/volitional dissociation are standard neuroanatomy teaching (unverified recall).",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T02:33:39+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

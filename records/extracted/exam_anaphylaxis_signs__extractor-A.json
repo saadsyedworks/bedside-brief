@@ -1,0 +1,103 @@
+{
+ "identity": {
+  "id": "exam_anaphylaxis_signs",
+  "title": "Anaphylaxis signs: urticaria/flushing, angioedema, stridor, wheeze (NIAID/FAAN criteria)",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "hypotension"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "anaphylaxis",
+   "asthma_exacerbation",
+   "medication_effect",
+   "upper_airway_obstruction"
+  ],
+  "indication_tags": [
+   "new_medication",
+   "acute_onset"
+  ]
+ },
+ "technique": {
+  "how": "Inspect skin and mucosa (generalized urticaria, flushing, pruritus, lip/tongue/uvula swelling), listen for stridor and wheeze, note voice change or drooling, and check BP and GI symptoms. Apply NIAID/FAAN criteria: acute skin/mucosal involvement plus respiratory compromise or hypotension, or 2+ organ systems after a likely allergen, or hypotension after a known allergen.",
+  "prerequisites": "Timeline of exposure (drug, food, sting, contrast) within minutes to hours; baseline BP.",
+  "contraindications": "None; do not delay epinephrine to complete the examination."
+ },
+ "interpretation": {
+  "positive_finding": "Criteria met (e.g. urticaria/angioedema with wheeze, stridor or hypotension) is anaphylaxis until proven otherwise; hypotension after a known allergen qualifies even without skin findings.",
+  "negative_finding": "Absence of skin findings does not exclude anaphylaxis, since a minority present with isolated cardiovascular or respiratory collapse; isolated urticaria without a second system is not anaphylaxis.",
+  "pitfalls": "Skin signs can be missed in dark skin or under blankets, and may be absent or delayed; beta-blocked patients may lack tachycardia. Isolated ACE-inhibitor angioedema mimics the airway component without other features.",
+  "changes_what": "Criteria met: give IM epinephrine immediately and secure the airway; not met but exposure plausible: observe and re-examine, as criteria are sensitive but only moderately specific."
+ },
+ "estimates": [
+  {
+   "target_condition": "COMPOSITE: anaphylaxis diagnosed by NIAID/FAAN clinical criteria (allergist adjudication as reference)",
+   "population": "214 ED patients coded as allergic reaction/anaphylaxis or related diagnoses, retrospective chart cohort, Mayo Clinic, Apr-Oct 2008",
+   "setting": "ED",
+   "prevalence": 0.285,
+   "reference_standard": "Final diagnosis by two blinded attending allergists reviewing the record (kappa 0.77)",
+   "sensitivity": {
+    "value": 0.967,
+    "ci_low": 0.888,
+    "ci_high": 0.991
+   },
+   "specificity": {
+    "value": 0.824,
+    "ci_low": 0.755,
+    "ci_high": 0.876
+   },
+   "lr_positive": {
+    "value": 5.48,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.04,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": false,
+   "interpretation_label": "rule_out",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "sensitivity, 96.7% (95% CI, 88.8% to 99.1%); specificity, 82.4% (95% CI, 75.5% to 87.6%)",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Campbell RL, Hagan JB, Manivannan V, Decker WW, Kanthala AR, Bellolio MF, Smith VD, Li JT. Evaluation of NIAID/FAAN criteria for the diagnosis of anaphylaxis in emergency department patients. J Allergy Clin Immunol. 2012.",
+   "doi": "10.1016/j.jaci.2011.09.030",
+   "pmid": "22051698",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2012
+  },
+  {
+   "citation": "Sampson HA, Munoz-Furlong A, Campbell RL, Adkinson NF, Bock SA, Branum A, Brown SG, Camargo CA, et al. Second symposium on the definition and management of anaphylaxis: summary report (NIAID/FAAN). J Allergy Clin Immunol. 2006.",
+   "doi": "10.1016/j.jaci.2005.12.1303",
+   "pmid": "16461139",
+   "url": null,
+   "kind": "consensus",
+   "year": 2006
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not withhold epinephrine because the full criteria set is incomplete when the clinical picture is compelling (e.g. sudden hypotension after a known allergen).",
+  "escalation_warning": "Stridor, hoarseness, tongue/uvular swelling or hypotension = airway/circulatory anaphylaxis: IM epinephrine now, anesthesia/airway backup, and repeat dosing if no response.",
+  "interobserver_note": "Interrater agreement between the two allergists applying the reference diagnosis was substantial: quote 'The interrater agreement between allergists was substantial (kappa = 0.77)' (Campbell 2012, Abstract, Results)."
+ },
+ "extraction_notes": "The estimate is for the composite NIAID/FAAN criteria set, not for any single sign; no per-sign (urticaria, angioedema, stridor, wheeze) accuracy data were found. LR values are quoted from the same abstract: 'positive likelihood ratio, 5.48; and negative likelihood ratio, 0.04' (Abstract, Results); CIs for LRs not reported. Prevalence 0.285 computed from 'Allergists gave 61 (28.5%) patients diagnoses of anaphylaxis' (Abstract). Design is retrospective and the cohort was pre-selected by allergy-related discharge codes, so specificity is likely overestimated relative to an undifferentiated dyspnea/hypotension population.",
+ "tier": "extracted",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:16+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

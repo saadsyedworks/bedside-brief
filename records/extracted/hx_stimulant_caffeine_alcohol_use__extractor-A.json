@@ -1,0 +1,75 @@
+{
+ "identity": {
+  "id": "hx_stimulant_caffeine_alcohol_use",
+  "title": "Stimulant/substance exposure: caffeine, energy drinks, decongestants, beta-agonists, cocaine/amphetamines, alcohol binge (holiday heart), recent withdrawal",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "palpitations"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "sinus_tachycardia_secondary",
+   "atrial_fibrillation_flutter",
+   "pvcs_benign_ectopy"
+  ],
+  "indication_tags": [
+   "alcohol_use",
+   "new_medication"
+  ]
+ },
+ "technique": {
+  "how": "Ask non-judgementally about daily caffeine (coffee, energy drinks, pre-workout supplements), nicotine/vaping, OTC decongestants and diet pills, beta-agonists, thyroid hormone, cocaine, amphetamines/MDMA, cannabis, and alcohol pattern (binge in the past 24-48 h; abrupt cessation of alcohol, benzodiazepines or beta-blockers). Time each exposure against palpitation onset.",
+  "prerequisites": "Privacy; corroborate with medication list and, where indicated, urine toxicology and alcohol level; ECG at the time of symptoms if available.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Palpitations beginning within hours of a stimulant, sympathomimetic or binge-drinking exposure, or 1-3 days into alcohol/sedative/beta-blocker withdrawal, support secondary sinus tachycardia, ectopy or alcohol-associated AF ('holiday heart').",
+  "negative_finding": "No exposure makes a substance-triggered mechanism unlikely but says nothing about primary arrhythmia, thyroid disease or anxiety.",
+  "pitfalls": "Exposure is common and mostly coincidental, so a substance history cannot substitute for rhythm documentation; cocaine and amphetamines also cause ischemia, VT and aortic dissection, and alcohol AF often recurs without ongoing intake. Patients under-report illicit and alcohol use.",
+  "changes_what": "Positive: obtain ECG/rhythm capture, toxicology or alcohol level as indicated, counsel cessation and reassess; negative: focus on documented arrhythmia, thyroid, anemia and anxiety."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Weber BE, Kapoor WN. Evaluation and outcomes of patients with palpitations. Am J Med. 1996.",
+   "doi": "10.1016/s0002-9343(97)89451-x",
+   "pmid": "8629647",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1996
+  },
+  {
+   "citation": "Ettinger PO, Wu CF, De La Cruz C, Weisse AB, et al. Arrhythmias and the \"Holiday Heart\": alcohol-associated cardiac rhythm disorders. Am Heart J. 1978.",
+   "doi": "10.1016/0002-8703(78)90296-x",
+   "pmid": "636996",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1978
+  },
+  {
+   "citation": "Zimetbaum P, Josephson ME. Evaluation of patients with palpitations. N Engl J Med. 1998.",
+   "doi": "10.1056/NEJM199805073381907",
+   "pmid": "9571258",
+   "url": null,
+   "kind": "consensus",
+   "year": 1998
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not attribute palpitations to caffeine or alcohol when there is syncope, exertional onset, chest pain, structural heart disease, family history of sudden death or an abnormal ECG.",
+  "escalation_warning": "Sympathomimetic toxicity with chest pain, hyperthermia, hypertension or wide-complex tachycardia, and alcohol/benzodiazepine withdrawal with delirium or seizures, need emergency management.",
+  "interobserver_note": "No inter-observer data; self-reported substance use is systematically under-reported."
+ },
+ "tier": "extracted",
+ "extraction_notes": "No diagnostic-accuracy study of a stimulant/alcohol history for the cause of palpitations was found. Weber & Kapoor 1996 (190 consecutive patients, prospective cohort, university medical center) describe the etiologic spectrum: 'The etiology of palpitations was cardiac in 43%, psychiatric in 31%, miscellaneous in 10%, and unknown in 16%' and 'Forty percent of the etiologies could be determined with the history and physical examination, an electrocardiogram, and/or laboratory data' (Abstract, Results); they do not report the accuracy of the substance history. Ettinger 1978 (holiday heart) and Zimetbaum 1998 (NEJM review) have no PubMed abstract and are cited as descriptive/consensus context. Status not_quantified; no numeric estimate entered.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:30+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

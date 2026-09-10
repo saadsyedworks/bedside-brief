@@ -1,0 +1,130 @@
+{
+ "identity": {
+  "id": "exam_cool_extremities",
+  "title": "Cool vs warm extremities (cold/wet vs warm profile)",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "edema",
+   "hypotension",
+   "aki"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "acute_decompensated_hf",
+   "cardiogenic_shock",
+   "cardiorenal",
+   "hypovolemic_hemorrhagic_shock",
+   "septic_shock"
+  ],
+  "indication_tags": [
+   "hf_known"
+  ]
+ },
+ "technique": {
+  "how": "With the back of your hand, feel forearms/hands and shins/feet and note the level at which skin turns cool; check capillary refill at the fingertip or knee and look for mottling. Classify perfusion as 'cold' (cool extremities, narrow pulse pressure, mottling, drowsiness) or 'warm', and separately congestion as 'wet' or 'dry'.",
+  "prerequisites": "Room-temperature environment; note peripheral vascular disease, vasopressors and ambient cold.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Cool, mottled extremities with slow capillary refill suggest hypoperfusion/low cardiac index (cardiogenic or hypovolaemic shock) and, in admitted heart failure, the 'cold' profile carries roughly 2.5-fold higher risk of death or urgent transplant.",
+  "negative_finding": "Warm extremities do not exclude low cardiac output or shock: in ICU cohorts the hypoperfusion signs are highly specific but insensitive, and distributive (septic) shock is typically warm early.",
+  "pitfalls": "Peripheral arterial disease, cold rooms, vasopressors and anxiety cool the skin without low output; sedated or septic patients may be warm despite lactate elevation. Agreement between examiners is unreported here.",
+  "changes_what": "Cold profile: check lactate/mixed venous saturation, consider inotropes or fluids per congestion status and escalate; warm: does not exclude shock - use lactate and BP trend."
+ },
+ "estimates": [
+  {
+   "target_condition": "COMPOSITE: cardiac index <2.5 L/min/m2 (all three of capillary refill >2 s, knee mottling and cool extremities present)",
+   "population": "513 ICU patients with acute lung injury randomized to pulmonary artery catheter (FACTT), retrospective analysis",
+   "setting": "ICU",
+   "prevalence": 0.081,
+   "reference_standard": "Pulmonary artery catheter thermodilution cardiac index",
+   "sensitivity": {
+    "value": 0.12,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.98,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "Baseline presence of all three physical examination findings had low sensitivity (12% and 8%), high specificity (98% and 99%)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "COMPOSITE: mixed venous oxygen saturation <60% (all three of capillary refill >2 s, knee mottling and cool extremities present)",
+   "population": "Same 513 ICU acute lung injury patients (FACTT)",
+   "setting": "ICU",
+   "prevalence": 0.155,
+   "reference_standard": "Pulmonary artery catheter mixed venous oxygen saturation",
+   "sensitivity": {
+    "value": 0.08,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.99,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "Baseline presence of all three physical examination findings had low sensitivity (12% and 8%), high specificity (98% and 99%)",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Nohria A, Tsang SW, Fang JC, Lewis EF, Jarcho JA, Mudge GH, Stevenson LW. Clinical assessment identifies hemodynamic profiles that predict outcomes in patients admitted with heart failure. J Am Coll Cardiol. 2003.",
+   "doi": "10.1016/s0735-1097(03)00309-7",
+   "pmid": "12767667",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2003
+  },
+  {
+   "citation": "Grissom CK, Morris AH, Lanken PN, Ancukiewicz M, Orme JF, Schoenfeld DA, Thompson BT. Association of physical examination with pulmonary artery catheter parameters in acute lung injury. Crit Care Med. 2009.",
+   "doi": "10.1097/ccm.0b013e3181a59532",
+   "pmid": "19885995",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2009
+  },
+  {
+   "citation": "Kaplan LJ, McPartland K, Santora TA, Trooskin SZ. Start with a subjective assessment of skin temperature to identify hypoperfusion in intensive care unit patients. J Trauma. 2001.",
+   "doi": "10.1097/00005373-200104000-00005",
+   "pmid": "11303155",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2001
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use warm extremities to exclude shock in sepsis, or cool extremities to diagnose low output in a patient on vasopressors or with peripheral arterial disease.",
+  "escalation_warning": "Cool mottled extremities with hypotension, oliguria or rising lactate = shock; start resuscitation and involve ICU/cardiology without waiting for invasive haemodynamics.",
+  "interobserver_note": "No interobserver reliability figure for extremity temperature was found in the sources retrieved."
+ },
+ "extraction_notes": "Set partially_quantified because the only sensitivity/specificity pair is for a three-sign composite (Grissom 2009), not cool extremities alone; Grissom's abstract states low cardiac index 'correlated with cool extremities' but gives no single-sign accuracy. Nohria 2003 (the seeded anchor) is prognostic, not diagnostic: 'Profiles B and C increase the risk of death plus urgent transplantation by univariate (hazard ratio [HR] 1.83, p = 0.02) and multivariate analyses (HR 2.48, p = 0.003)' (Abstract) - hazard ratios are not schema fields, so no estimate entered; profile counts were dry-warm 123, wet-warm 222, wet-cold 91, dry-cold 16 of 452 (Abstract). Kaplan 2001 (surgical ICU, 264 patients, 767 observation-days) reports group means only: cardiac index '2.9 +/- 1.2 vs. 4.3 +/- 1.2 L/min/m2' and lactate '4.7 +/- 1.5 vs. 2.2 +/- 1.6 mmol/L' in cool vs warm extremities (Abstract), no sensitivity/specificity. Stevenson & Perloff 1989 (PMID 2913385) concerns proportional pulse pressure, not extremity temperature, and was not used. Searches 'cold extremities cardiac index heart failure physical signs hemodynamics', 'cool extremities low cardiac index sensitivity specificity' and 'cold extremities acute heart failure cardiac index diagnostic accuracy' yielded nothing further.",
+ "tier": "extracted",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:33:16+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}
