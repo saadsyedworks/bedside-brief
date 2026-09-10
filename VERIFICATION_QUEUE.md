@@ -1,0 +1,62 @@
+# Owner gate 2 — verification queue
+
+Phase 1 is complete: **153 discriminators × 2 independent extraction packets = 306 files**, every one
+schema- and vocab-valid. Four red-team waves reviewed all 153 ids. **No fabricated number was found in
+any wave.** Nothing renders and nothing enters the evaluation until you promote it here.
+
+## Start the app
+
+```bash
+git clone https://github.com/saadsyedworks/bedside-brief && cd bedside-brief
+git checkout claude/git-repo-setup-rvdx9z
+pip install -r requirements.txt
+python3 tools/verify_ui.py          # http://127.0.0.1:8765
+```
+
+Packets A and B sit side by side, differences highlighted, each estimate linked to PubMed or DOI, with
+the red-team flags for that id at the top. `p` promotes, `r` rejects with a reason, `n` skips. Promotion
+re-checks schema, vocabulary, units, and quote-plus-location before anything is written, and only ever
+writes `records/verified/`. Commit and push that folder whenever you stop.
+
+## Start here: six cheapest upgrades
+
+For each of these, one packet says `not_quantified` while the other carries a real, located, verified
+number. Promote from the packet that found it. Six records for a few minutes of work.
+
+| id | promote from | what the other packet missed |
+|---|---|---|
+| `exam_chest_hyperresonance` | A | Oshaug 2013 Table 3/4 (COPD LR+ 9.5) |
+| `exam_kussmaul_sign` | A | Dubé 2021 meta-analysis, RV infarction |
+| `exam_line_exit_site_erythema_purulence` | A | Cobo-Sánchez 2024 exit-site scale |
+| `hx_steroid_exposure_withdrawal` | B | Ross & Levitt 2013 hyperpigmentation |
+| `hx_recent_antibiotics_new_diarrhea` | B | Katz 1996 (note the 30-day vs 8–12-week window) |
+| `exam_tense_distended_abdomen_iah` | A | Sugrue 2002 (B mis-recalled the journal and gave up) |
+
+## Then work the queue in its own order
+
+`records/diff_report.md` orders it: fabrication suspects and numeric mismatches first, then RCE-backed
+agreements, then the rest. Current state across 153 ids: 26 agree, 93 partial, 34 disagree. "Partial"
+usually means the two extractors chose different populations or sources rather than conflicting numbers.
+
+## Four things only you can settle
+
+1. **Units.** Sensitivity and specificity are stored as proportions (0.82, never 82). The tooling enforces this.
+2. **Direction.** `lr_positive` means the finding is present, `lr_negative` means absent. A few packets
+   inverted this where the source reported the negative sign; fix it in the draft.
+3. **Composites.** An estimate for "JVD at rest or inducible" is not an estimate for JVP alone. Either drop
+   it or keep the `COMPOSITE:` prefix so the card says so.
+4. **Empty estimates.** Five rows carry no numeric field at all (kappa or prevalence only). Delete the row
+   and keep the text in the notes.
+
+## One question batched for you
+
+`exam_ascites_flank_dullness_fluid_wave` and `exam_shifting_dullness` share a single evidence base; both
+extractors flagged it independently. Proposal: fold into `exam_shifting_dullness` with fluid wave and flank
+dullness as separate `estimates[]` rows. The id list is gate-approved, so I have not touched it.
+
+## What 60 verified records buys
+
+The abstract's comparison numbers run on the verified subset only, reported as "N verified of M extracted".
+Below 60 by Sunday night, PLAN.md switches to the development abstract: architecture, store statistics and
+the frozen benchmark, with no comparison numbers. Everything else is already built and tested, so
+verification is the only thing on the critical path.
