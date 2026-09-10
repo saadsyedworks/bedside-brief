@@ -63,7 +63,7 @@
     "case_id": "weakness_003_p1",
     "changed_feature": "no focal finding -> PT observed new right arm drift",
     "input_oneliner": "82F hospital day 6 for UTI, PT reports 'too weak to walk today', PT noted the right arm drifting down when she held both up",
-    "expected_change": "Underspecified flag should clear; stroke becomes the leading differential; pronator drift confirmation, facial symmetry, language testing, and last-known-well time become must-have; proximal strength testing and refeeding/diuretic questions drop to should-still-include."
+    "expected_change": "Underspecified flag should clear; stroke becomes the leading differential; Pronator drift and facial symmetry remain must-have; language testing and last-known-well time become must-have; proximal strength testing and refeeding/diuretic questions drop to should-still-include."
   },
   "noise_variant": {
     "case_id": "weakness_003_n1",

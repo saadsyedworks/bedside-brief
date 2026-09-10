@@ -59,7 +59,7 @@
     "case_id": "palpitations_003_p1",
     "changed_feature": "afebrile -> T 39.1 with rigors (single swap; HR kept verbatim)",
     "input_oneliner": "31F admitted with leg cellulitis, reports weeks of heart racing and skipped beats plus 5 kg weight loss, HR 108 regular, T 39.1 with rigors tonight",
-    "expected_change": "Sinus tachycardia secondary to infection now dominates: Capillary refill time and the Orthostatic vital signs item, plus examination of the cellulitis margin for progression or abscess, rise to must_have; thyroid examination drops to should-still-include; the medication/stimulant question remains."
+    "expected_change": "Sinus tachycardia secondary to infection now dominates: Capillary refill time and examination of the cellulitis margin for progression or abscess rise to must_have; the Conjunctival pallor/Orthostatic vital signs item remains must_have; thyroid examination drops to should-still-include; the medication/stimulant question remains."
   },
   "noise_variant": {
     "case_id": "palpitations_003_n1",

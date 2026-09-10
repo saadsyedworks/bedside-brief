@@ -29,7 +29,7 @@
     {
       "item": "Ask about stool frequency and consistency; examine the abdomen for distension and tenderness",
       "rationale": "Antibiotic exposure makes C. difficile a leading nosocomial cause of fever; abdominal findings signal severity",
-      "must_have": true
+      "must_have": false
     },
     {
       "item": "Ask: timing of rigors relative to infusions or line access; any new injection since admission; new medications",

@@ -17,7 +17,7 @@
   ],
   "reference_targets_freetext": [
     {
-      "item": "Respiratory rate; focal crackles, egophony, dullness, and bronchial breath sounds on lung auscultation",
+      "item": "Respiratory rate; Focal consolidation: egophony, bronchial breath sounds, dullness to percussion; Focal crackles",
       "rationale": "Abnormal vital signs plus asymmetric lung findings are the best bedside predictors of pneumonia; normal vitals and exam lower probability",
       "must_have": true
     },
@@ -60,7 +60,7 @@
     "case_id": "fever_001_p1",
     "changed_feature": "operation: knee arthroplasty -> sigmoid colectomy",
     "input_oneliner": "71F POD2 sigmoid colectomy, Foley in, T 38.6 overnight, mild cough, no complaints otherwise",
-    "expected_change": "Intra-abdominal abscess or anastomotic leak enters the top differential; abdominal exam for distension, peritoneal signs, and wound inspection become must-have; lung exam stays but drops to should-still-include; ask about flatus, bowel function, and drain output rises."
+    "expected_change": "Intra-abdominal abscess or anastomotic leak enters the top differential; abdominal exam for distension and peritoneal signs becomes must-have; wound inspection remains must-have; lung exam stays but drops to should-still-include; ask about flatus, bowel function, and drain output rises."
   },
   "noise_variant": {
     "case_id": "fever_001_n1",

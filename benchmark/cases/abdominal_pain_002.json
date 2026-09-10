@@ -59,7 +59,7 @@
     "case_id": "abdominal_pain_002_p1",
     "changed_feature": "no jaundice -> nurse reports new scleral icterus",
     "input_oneliner": "Cross-cover: 62F T2DM admitted w/ HF exacerbation, RUQ pain and vomiting x6h after dinner, T 38.4, HR 104, nurse notes new scleral icterus",
-    "expected_change": "Cholangitis moves to the top; mental status and blood pressure check for Reynolds pentad becomes must-have; Murphy sign drops to should-still-include; ask about prior biliary stents or ERCP rises."
+    "expected_change": "Cholangitis moves to the top; the jaundice/mental status item remains must_have and a blood pressure check for Reynolds pentad is a new item; Murphy sign drops to should-still-include; ask about prior biliary stents, ERCP, or known stones becomes must_have."
   },
   "noise_variant": {
     "case_id": "abdominal_pain_002_n1",

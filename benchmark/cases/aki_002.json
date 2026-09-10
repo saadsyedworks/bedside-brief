@@ -63,7 +63,7 @@
     "case_id": "aki_002_p1",
     "changed_feature": "medication: diphenhydramine qhs -> ketorolac scheduled x3 days for pleuritic pain",
     "input_oneliner": "78M BPH admitted for CAP, on scheduled ketorolac x3 days for pleuritic pain, no urine output x8h per RN, Cr up 0.5 overnight",
-    "expected_change": "NSAID-related prerenal AKI, ATN, and AIN rise; volume exam and medication history become the top must-haves; bladder percussion/palpation remains must-have as a reversible cause; ask about new rash, fever timing, and arthralgia for AIN rises; anticholinergic question drops."
+    "expected_change": "NSAID-related prerenal AKI, ATN, and AIN rise; Orthostatic vital signs and Medication review (MAR) remain must-have and lead; the JVP and dry axilla / mucous membranes item rises; Bladder percussion/palpation for retention remains must-have as a reversible cause; ask about new rash, fever timing, and arthralgia for AIN becomes must-have; anticholinergic question drops."
   },
   "noise_variant": {
     "case_id": "aki_002_n1",

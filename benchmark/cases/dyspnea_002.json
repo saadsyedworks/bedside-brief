@@ -62,7 +62,7 @@
   "underspecified_flag_expected": false,
   "perturbation_pair": {
     "case_id": "dyspnea_002_p1",
-    "changed_feature": "presenting symptom: wheeze -> sudden right-sided pleuritic chest pain",
+    "changed_feature": "presenting symptom: wheeze -> sudden right-sided chest pain",
     "input_oneliner": "72F, 50 pack-year smoker, day 2 admit for pyelonephritis, sudden right-sided chest pain and short of breath since midnight, sat 90% on 2L",
     "expected_change": "Compare breath sounds side to side; percuss for unilateral hyperresonance becomes must_have and pneumothorax rises to top of differential; COPD history remains must_have; Anthonisen sputum question drops; Calf circumference asymmetry >3 cm (pulmonary embolism) is a new item."
   },
