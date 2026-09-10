@@ -1,0 +1,107 @@
+{
+  "identity": {
+    "id": "exam_cva_tenderness",
+    "title": "Costovertebral angle (flank) tenderness",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "aki",
+      "abdominal_pain",
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "obstruction_retention",
+      "pyelonephritis_nephrolithiasis",
+      "uti_pyelonephritis"
+    ],
+    "indication_tags": [
+      "febrile"
+    ]
+  },
+  "technique": {
+    "how": "With the patient seated or standing, place one palm flat over each costovertebral angle (below the 12th rib lateral to the spine) and strike it gently with the ulnar side of the closed fist, or press firmly with the fingertips. Compare sides and ask whether it reproduces deep, aching flank pain rather than surface tenderness.",
+    "prerequisites": "Warn the patient first; examine both sides.",
+    "contraindications": "Avoid percussion over known rib fractures or recent flank surgery."
+  },
+  "interpretation": {
+    "positive_finding": "CVA tenderness raises the probability of UTI only modestly (LR+ 1.7) in symptomatic women; with fever or rigors it points to pyelonephritis or an obstructed infected kidney.",
+    "negative_finding": "Absent CVA tenderness does not exclude pyelonephritis; absence of back pain lowers UTI probability only slightly (LR- 0.8).",
+    "pitfalls": "Musculoskeletal back pain and heavy-handed percussion give false positives; elderly and diabetic patients may have pyelonephritis without flank tenderness. Evidence is for uncomplicated UTI in women, not for AKI or obstruction.",
+    "changes_what": "Positive: send urinalysis/culture and, with fever, sepsis or AKI, image for obstruction; negative: does not change the decision to test if other UTI symptoms are present."
+  },
+  "estimates": [
+    {
+      "target_condition": "Acute uncomplicated urinary tract infection",
+      "population": "Women with one or more symptoms of UTI (pooled from 9 studies)",
+      "setting": "outpatient",
+      "prevalence": 0.5,
+      "reference_standard": "Urine culture (thresholds varied by study)",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 1.7,
+        "ci_low": 1.1,
+        "ci_high": 2.5
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "minimal",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "costovertebral angle tenderness (LR, 1.7; 95% CI, 1.1-2.5)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Acute uncomplicated urinary tract infection (history of back pain)",
+      "population": "Women with one or more symptoms of UTI (pooled)",
+      "setting": "outpatient",
+      "prevalence": 0.5,
+      "reference_standard": "Urine culture (thresholds varied by study)",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 1.6,
+        "ci_low": 1.2,
+        "ci_high": 2.1
+      },
+      "lr_negative": {
+        "value": 0.8,
+        "ci_low": 0.7,
+        "ci_high": 0.9
+      },
+      "computed": false,
+      "interpretation_label": "minimal",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "back pain (LR, 1.6; 95% CI, 1.2-2.1)... absence of back pain (LR, 0.8; 95% CI, 0.7-0.9)",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "partially_quantified",
+  "sources": [
+    {
+      "citation": "Bent S, Nallamothu BK, Simel DL, Fihn SD, Saint S. Does this woman have an acute uncomplicated urinary tract infection? JAMA 2002;287:2701-2710.",
+      "doi": "10.1001/jama.287.20.2701",
+      "pmid": "12020306",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2002
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Not validated in men, pregnant women, children, catheterized patients or for distinguishing pyelonephritis from cystitis; do not use to exclude obstruction.",
+    "escalation_warning": "Flank tenderness with fever, rigors, hypotension or AKI: treat as possible obstructed pyonephrosis and obtain urgent imaging.",
+    "interobserver_note": "Precision of CVA tenderness not reported in the RCE; the finding is examiner-force dependent."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Only LR+ for CVA tenderness is reported in the abstract (negative LR for the sign not given there and the table is paywalled), hence partially_quantified. Back pain LR+/LR- added as a related history item from the same abstract. Prevalence ~50% is the RCE's stated pretest probability in symptomatic women. No accuracy data located for CVA tenderness against a pyelonephritis or obstruction reference standard within the search budget.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:28:40+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

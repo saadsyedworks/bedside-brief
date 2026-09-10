@@ -1,0 +1,77 @@
+{
+ "identity": {
+  "id": "hx_palpitations_exertional_onset",
+  "title": "Palpitations beginning during exertion (vs at rest or after exertion)",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "chest_pain",
+   "syncope",
+   "palpitations"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "ventricular_tachycardia",
+   "hcm",
+   "svt",
+   "sinus_tachycardia_secondary"
+  ],
+  "indication_tags": [
+   "exertional"
+  ]
+ },
+ "technique": {
+  "how": "Ask what the patient was doing when the palpitations started: during physical exertion, at rest, on standing, after exertion or during emotional stress. Clarify whether onset was abrupt or gradual, whether syncope or chest pain accompanied it, and any family history of sudden death.",
+  "prerequisites": "Patient able to recall the episode; ideally a witness or wearable recording.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Palpitations that start during exertion, especially with syncope, chest pain, or a family history of sudden death, raise concern for VT, HCM, arrhythmogenic cardiomyopathy or catecholaminergic arrhythmia and warrant ECG, echocardiography and exercise testing.",
+  "negative_finding": "Onset at rest or after exertion is more typical of SVT (post-exertional vagal surge), AF or anxiety, but the RCE found no historical feature accurate enough to exclude a clinically significant arrhythmia.",
+  "pitfalls": "Gradual onset with exercise is often appropriate sinus tachycardia (anemia, thyrotoxicosis, deconditioning). No diagnostic-accuracy study has quantified exertional onset; the RCE quantified 'palpitations while at work' (LR 2.17) and 'affected by sleeping' (LR 2.29), which are different items.",
+  "changes_what": "Positive: obtain 12-lead ECG, echo and exercise ECG; consider ambulatory monitoring and cardiology referral before further exertion."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Thavendiranathan P, Bagai A, Khoo C, Dorian P, Choudhry NK. Does this patient with palpitations have a cardiac arrhythmia? JAMA 2009;302:2135-2143.",
+   "doi": "10.1001/jama.2009.1673",
+   "pmid": "19920238",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2009
+  },
+  {
+   "citation": "Zimetbaum P, Josephson ME. Evaluation of patients with palpitations. N Engl J Med 1998;338:1369-1373.",
+   "doi": "10.1056/NEJM199805073381907",
+   "pmid": "9571258",
+   "url": null,
+   "kind": "consensus",
+   "year": 1998
+  },
+  {
+   "citation": "Weber BE, Kapoor WN. Evaluation and outcomes of patients with palpitations. Am J Med 1996;100:138-148.",
+   "doi": "10.1016/s0002-9343(97)89451-x",
+   "pmid": "8629647",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1996
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use the absence of exertional onset to reassure a patient with syncope, structural heart disease or a family history of sudden death.",
+  "escalation_warning": "Exertional palpitations with syncope or chest pain, or in a patient with known cardiomyopathy or ion-channel disease, warrant urgent cardiology evaluation and exercise restriction.",
+  "interobserver_note": "Recall of circumstances of onset is unreliable; symptom-rhythm correlation on monitoring is required for diagnosis."
+ },
+ "tier": "extracted",
+ "extraction_notes": "The 2009 RCE (abstract) reports LRs for palpitations affected by sleeping (2.29) and while at work (2.17) but no item for exertional onset, and concludes no other features significantly alter probability; the full table was not accessible. A targeted PubMed search for exertional-onset palpitations and arrhythmia accuracy returned no studies. Weber & Kapoor 1996 abstract reports etiologies (cardiac 43%, psychiatric 31%) but no exertional-onset accuracy. Zimetbaum & Josephson 1998 is a narrative review cited as the consensus basis for the exertional-onset heuristic.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:29:51+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

@@ -1,0 +1,132 @@
+{
+  "identity": {
+    "id": "exam_joint_effusion_warmth_painful_rom",
+    "title": "Hot swollen joint with effusion and painful/limited range of motion (refusal to bear weight)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "fever",
+      "weakness"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "cellulitis_ssti",
+      "septic_arthritis"
+    ],
+    "indication_tags": [
+      "febrile",
+      "ivdu",
+      "immunocompromised"
+    ]
+  },
+  "technique": {
+    "how": "Expose and compare both joints: look for swelling and erythema, palpate for warmth and effusion (patellar tap or bulge sign at the knee; fullness at other joints), then move the joint passively through its range. Note pain with even small passive movements and, for lower-limb joints, willingness to bear weight.",
+    "prerequisites": "Compare with contralateral joint; check for overlying cellulitis, prosthesis and recent joint procedure.",
+    "contraindications": "Do not force range of motion in a suspected fracture or prosthetic dislocation."
+  },
+  "interpretation": {
+    "positive_finding": "A hot, swollen joint with effusion and painful limited motion in a patient with fever is septic arthritis until arthrocentesis proves otherwise; joint pain (sens 0.85) and swelling (sens 0.78) are present in most cases.",
+    "negative_finding": "Absence of fever (sens only 0.57), sweats or rigors does not exclude septic arthritis; only the synovial fluid WBC count meaningfully lowers the probability.",
+    "pitfalls": "Gout, pseudogout, reactive arthritis and hemarthrosis look identical at the bedside; immunosuppressed and elderly patients may lack fever. Specificities for exam findings are not reported because control groups were other acute arthritides.",
+    "changes_what": "Positive: aspirate the joint before antibiotics (synovial WBC, PMN%, Gram stain, culture, crystals); do not let normal serum WBC/ESR/CRP dissuade you."
+  },
+  "estimates": [
+    {
+      "target_condition": "Nongonococcal septic arthritis (joint pain present)",
+      "population": "Adults with acutely painful/swollen joint, pooled from 14 studies (6242 patients, 653 septic)",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Positive synovial fluid or blood culture, or purulent fluid with clinical course consistent with septic arthritis (per study)",
+      "sensitivity": {
+        "value": 0.85,
+        "ci_low": 0.78,
+        "ci_high": 0.9
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "Joint pain (sensitivity, 85%; 95% confidence interval [CI], 78%-90%)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Nongonococcal septic arthritis (history of joint swelling)",
+      "population": "Adults with acutely painful/swollen joint, pooled",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Synovial fluid or blood culture / purulent fluid (per study)",
+      "sensitivity": {
+        "value": 0.78,
+        "ci_low": 0.71,
+        "ci_high": 0.85
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "a history of joint swelling (sensitivity, 78%; 95% CI, 71%-85%)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Nongonococcal septic arthritis (fever present)",
+      "population": "Adults with acutely painful/swollen joint, pooled",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Synovial fluid or blood culture / purulent fluid (per study)",
+      "sensitivity": {
+        "value": 0.57,
+        "ci_low": 0.52,
+        "ci_high": 0.62
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "minimal",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "fever (sensitivity, 57%; 95% CI, 52%-62%)",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "partially_quantified",
+  "sources": [
+    {
+      "citation": "Margaretten ME, Kohlwes J, Moore D, Bent S. Does this adult patient have septic arthritis? JAMA 2007;297:1478-1488.",
+      "doi": "10.1001/jama.297.13.1478",
+      "pmid": "17405973",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2007
+    },
+    {
+      "citation": "Carpenter CR, Schuur JD, Everett WW, Pines JM. Evidence-based diagnostics: adult septic arthritis. Acad Emerg Med 2011;18:781-796.",
+      "doi": "10.1111/j.1553-2712.2011.01121.x",
+      "pmid": "21843213",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2011
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Never use a benign-appearing joint, absent fever or normal inflammatory markers to defer arthrocentesis when septic arthritis is plausible; prosthetic joints need orthopaedic-guided aspiration.",
+    "escalation_warning": "Fever plus a hot joint in an IVDU, immunosuppressed, diabetic or prosthetic-joint patient: urgent aspiration, cultures and orthopaedic consultation within hours.",
+    "interobserver_note": "Reliability of effusion, warmth and painful ROM was not reported in the RCE; findings are subjective and joint-dependent."
+  },
+  "tier": "extracted",
+  "extraction_notes": "The RCE abstract reports only sensitivities for history/exam items (joint pain, swelling, fever, sweats, rigors); specificities/LRs for effusion, warmth and painful range of motion are either absent or in the paywalled tables, so those fields are null. Carpenter 2011 (secondary systematic review) cited for the ED prevalence (27%) and the conclusion that exam findings do not materially shift probability except joint surgery (LR+ 6.9) and cellulitis over a prosthesis (LR+ 15.0). Full text of neither review was accessible.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:28:40+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

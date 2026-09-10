@@ -1,0 +1,90 @@
+{
+ "identity": {
+  "id": "exam_rlq_tenderness_mcburney",
+  "title": "RLQ (McBurney point) tenderness",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "abdominal_pain",
+   "fever"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "appendicitis",
+   "diverticulitis"
+  ],
+  "indication_tags": []
+ },
+ "technique": {
+  "how": "Palpate the right lower quadrant at McBurney point (one-third of the way from the anterior superior iliac spine to the umbilicus) with gentle then deeper pressure, watching the patient's face. Note maximal tenderness there compared with the other quadrants; check for Rovsing sign (RLQ pain on LLQ pressure), psoas and obturator signs.",
+  "prerequisites": "Supine, relaxed patient; examine painful area last; analgesia does not abolish localised tenderness.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Isolated, well-localised RIF/McBurney tenderness had the highest odds ratio for appendicitis (OR 3.29) among examination findings in an adult ED cohort; combined with guarding or rebound it strongly supports the diagnosis.",
+  "negative_finding": "Absence of RLQ tenderness makes appendicitis less likely (RCE 1996) but does not exclude retrocaecal, pelvic or early appendicitis, or appendicitis in pregnancy where the point of tenderness shifts.",
+  "pitfalls": "RLQ tenderness is common in many conditions (mesenteric adenitis, ovarian pathology, caecal diverticulitis, Crohn disease), so specificity is limited; the appendix position varies, so tenderness may be elsewhere.",
+  "changes_what": "Localised RLQ tenderness plus migration/rebound/fever: image (US/CT) or surgical review; absent tenderness in a well patient supports observation with re-examination."
+ },
+ "estimates": [
+  {
+   "target_condition": "Acute appendicitis (isolated right iliac fossa tenderness)",
+   "population": "Adults and children admitted with acute abdominal pain up to 7 days, Mora Hospital Sweden (n=2478; 274 appendicitis)",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "Final diagnosis after appendectomy/histology and 1-year medical record review",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "The highest odds ratios were found for isolated tenderness in the right iliac fossa (3.29), rebound tenderness (3.00), right-sided rectal tenderness (2.53)",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Wagner JM, McKinney WP, Carpenter JL. Does this patient have appendicitis? JAMA. 1996;276(19):1589-1594.",
+   "doi": null,
+   "pmid": "8918857",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1996
+  },
+  {
+   "citation": "Laurell H, Hansson LE, Gunnarsson U. Manifestations of acute appendicitis: a prospective study on acute abdominal pain. Dig Surg. 2014;30(4-6):283-289.",
+   "doi": "10.1159/000350043",
+   "pmid": "23838773",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2014
+  },
+  {
+   "citation": "Bundy DG, Byerley JS, Liles EA, Perrin EM, Katznelson J, Rice HE. Does this child have appendicitis? JAMA. 2007;298(4):438-451.",
+   "doi": "10.1001/jama.298.4.438",
+   "pmid": "17652298",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2007
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use absence of McBurney tenderness to exclude appendicitis in pregnancy, the elderly, or when symptoms are <12 h old.",
+  "escalation_warning": "RLQ tenderness with rigidity, fever and tachycardia suggests perforation: urgent surgical review and CT.",
+  "interobserver_note": "Localisation of tenderness has only fair-to-moderate agreement between examiners; pain-scale reporting and analgesia timing affect it."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Wagner 1996 RCE reports RLQ tenderness sens ~0.81, spec ~0.53, LR+ ~7.3-8.5 and LR- ~0-0.28, but neither abstract nor full text is reachable, so no numbers were entered from it. Bundy 2007 abstract gives summary LR 1.2 (1.0-1.5) for RLQ PAIN as a symptom in children, not for tenderness on palpation, so it was cited but not entered as an estimate. The only visible number for tenderness is the Laurell 2014 odds ratio 3.29, entered with sens/spec/LR null. Owner should transcribe Wagner 1996 Table 4.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:00:08+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

@@ -1,0 +1,127 @@
+{
+ "identity": {
+  "id": "hx_back_pain_cancer_history",
+  "title": "New or progressive back pain in a patient with known cancer (or age >50, night pain, weight loss)",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "weakness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "cauda_equina",
+   "spinal_cord_compression"
+  ],
+  "indication_tags": [
+   "malignancy",
+   "elderly"
+  ]
+ },
+ "technique": {
+  "how": "Ask directly about any prior cancer (type, stage, time since treatment), then about back pain onset, progression, night/rest pain, unexplained weight loss, age over 50 and failure to improve after a month. Pair with a screen for leg weakness, sensory level, saddle anesthesia and bladder/bowel change.",
+  "prerequisites": "Reliable history; access to oncology records if available.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "A history of cancer is the only red flag that meaningfully raises the probability of spinal malignancy: post-test probability ~7% in primary care and ~33% in the ED, versus a pre-test probability of 0.5-1.5%.",
+  "negative_finding": "Absence of a cancer history lowers but does not exclude spinal malignancy; age >50, weight loss and failure to improve each have post-test probabilities below 3% and mostly add false positives.",
+  "pitfalls": "Red flags were validated for spinal malignancy on imaging, not for cord compression; in a known-cancer patient, new back pain with any neurological symptom needs urgent MRI regardless of other flags. Data are single studies, no pooling was possible.",
+  "changes_what": "Positive: image the spine (MRI if any neurological symptom, urgently); negative with no other flags: conservative management and reassess at 4-6 weeks."
+ },
+ "estimates": [
+  {
+   "target_condition": "Spinal malignancy in low back pain",
+   "population": "Walk-in primary care patients with back pain (Deyo & Diehl 1988, n=1975); pre-test probability set at 0.5% by the review",
+   "setting": "outpatient",
+   "prevalence": 0.005,
+   "reference_standard": "Imaging (radiographs) and clinical follow-up",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 15.0,
+    "ci_low": 6.2,
+    "ci_high": 37.9
+   },
+   "lr_negative": null,
+   "computed": true,
+   "computed_from": "LR+ = post-test odds / pre-test odds using the review's post-test probability 7% (95% CI 3%-16%) and stated pre-test 0.5%: (0.07/0.93)/(0.005/0.995); CI bounds from 3% and 16%. Sens/spec not visible (Figure 4 image).",
+   "interpretation_label": "rule_in",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "When present, \"history of cancer\" suggests a post-test probability of 7% (95% confidence interval 3% to 16%) in primary care",
+   "location": "Results, 'Red flags for spinal malignancy' paragraph; Figure 4 (prevalence line 0.5% primary care)"
+  },
+  {
+   "target_condition": "Spinal malignancy in low back pain",
+   "population": "ED patients with low back pain having lumbosacral radiographs (Reinus et al, level II ED); pre-test probability set at 1.5% by the review",
+   "setting": "ED",
+   "prevalence": 0.015,
+   "reference_standard": "Lumbosacral spine radiographs",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 32.3,
+    "ci_low": 18.5,
+    "ci_high": 55.9
+   },
+   "lr_negative": null,
+   "computed": true,
+   "computed_from": "LR+ = post-test odds / pre-test odds using post-test probability 33% (95% CI 22%-46%) and stated pre-test 1.5%: (0.33/0.67)/(0.015/0.985); CI bounds from 22% and 46%. Sens/spec not visible (Figure 4 image).",
+   "interpretation_label": "rule_in",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "and 33% (22% to 46%) in the emergency setting",
+   "location": "Results, 'Red flags for spinal malignancy' paragraph; Figure 4 (prevalence line 1.5% secondary/tertiary care)"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Downie A, Williams CM, Henschke N, et al. Red flags to screen for malignancy and fracture in patients with low back pain: systematic review. BMJ 2013;347:f7095.",
+   "doi": "10.1136/bmj.f7095",
+   "pmid": "24335669",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2013
+  },
+  {
+   "citation": "Deyo RA, Diehl AK. Cancer as a cause of back pain: frequency, clinical presentation, and diagnostic strategies. J Gen Intern Med 1988;3:230-238.",
+   "doi": "10.1007/BF02596337",
+   "pmid": "2967893",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1988
+  },
+  {
+   "citation": "Henschke N, Maher CG, Ostelo RW, de Vet HC, Macaskill P, Irwig L. Red flags to screen for malignancy in patients with low-back pain. Cochrane Database Syst Rev 2013;2:CD008686.",
+   "doi": "10.1002/14651858.CD008686.pub2",
+   "pmid": "23450586",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2013
+  },
+  {
+   "citation": "Deyo RA, Rainville J, Kent DL. What can the history and physical examination tell us about low back pain? JAMA 1992;268:760-765.",
+   "doi": null,
+   "pmid": "1386391",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1992
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use absent red flags to defer evaluation when there are neurological deficits, sphincter symptoms or saddle anesthesia.",
+  "escalation_warning": "Known cancer plus new back pain with weakness, sensory level or sphincter change is possible cord compression: urgent whole-spine MRI and dexamethasone/oncology-neurosurgery contact the same day.",
+  "interobserver_note": "History item; reproducibility depends on the patient's recall of cancer history and on how 'failure to improve' and 'weight loss' are defined."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Downie 2013 (BMJ, PMC full text) presents LR/post-test probabilities graphically in Figure 4 (image); only the post-test probabilities were visible in the Results text, so LR+ values here are back-computed from post-test and stated pre-test probabilities and flagged computed=true. Sensitivity/specificity for cancer history (Deyo & Diehl 1988 abstract lists 'previous history of cancer' as significantly associated but gives no accuracy numbers) could not be seen, so they are null. Henschke Cochrane 2013 has no OA body text and reports no pooled values. Deyo 1992 RCE has no abstract on PubMed. The ED primary study (Reinus et al, AJR 1998, Downie ref 34) was not separately confirmed by PMID. Age >50, night pain and weight loss: Downie reports post-test probabilities below 3% (Results text) but no LR visible; not entered.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:29:51+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

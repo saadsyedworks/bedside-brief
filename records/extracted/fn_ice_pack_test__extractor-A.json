@@ -1,0 +1,113 @@
+{
+ "identity": {
+  "id": "fn_ice_pack_test",
+  "title": "Ice-pack test (ptosis improves >=2 mm after 2 min ice)",
+  "type": "functional",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "weakness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "myasthenia_gravis"
+  ],
+  "indication_tags": []
+ },
+ "technique": {
+  "how": "Measure the palpebral fissure of the ptotic eye, then hold an ice pack (in a glove or towel) firmly over the closed lid for 2 minutes and immediately re-measure. Positive if the fissure widens by 2 mm or more.",
+  "prerequisites": "Measurable ptosis; ruler; patient able to keep eye closed for 2 minutes.",
+  "contraindications": "Cold urticaria or facial cold injury; minimal or complete ptosis limits interpretation."
+ },
+ "interpretation": {
+  "positive_finding": "Improvement of >=2 mm strongly supports myasthenic ptosis (RCE summary LR+ 24; in the index study 16/20 MG vs 0/20 non-MG ptosis).",
+  "negative_finding": "No improvement lowers the probability (summary LR- 0.16) but does not exclude MG, especially with complete ptosis where 3 of 4 patients tested negative.",
+  "pitfalls": "Studies are small, case-control, and from neuro-ophthalmology clinics with high MG prevalence, so LRs may be inflated. Ice must be applied long enough and measurement done immediately.",
+  "changes_what": "Positive: treat as probable MG and send AChR antibodies/EMG; negative: still test if fatigable weakness or bulbar symptoms are present."
+ },
+ "estimates": [
+  {
+   "target_condition": "Myasthenia gravis in patients with ptosis",
+   "population": "Patients with ptosis in included studies (mostly neuro-ophthalmology clinic case series, high MG prevalence)",
+   "setting": "outpatient",
+   "prevalence": null,
+   "reference_standard": "Clinical/serologic/electrophysiologic diagnosis of MG per included studies",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 24.0,
+    "ci_low": 8.5,
+    "ci_high": 67.0
+   },
+   "lr_negative": {
+    "value": 0.16,
+    "ci_low": 0.09,
+    "ci_high": 0.27
+   },
+   "computed": false,
+   "interpretation_label": "both",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "The ice test is useful when the response is abnormal (summary positive LR, 24.0; 95% CI, 8.5-67.0) and diminishes the likelihood of myasthenia gravis when the response is normal (summary negative LR, 0.16; 95% CI, 0.09-0.27)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Myasthenic ptosis vs nonmyasthenic ptosis",
+   "population": "20 MG patients with ptosis and 20 control patients with nonmyasthenic ptosis, multicenter neuro-ophthalmology services (case-control)",
+   "setting": "outpatient",
+   "prevalence": 0.5,
+   "reference_standard": "Established diagnosis of MG vs other cause of ptosis",
+   "sensitivity": {
+    "value": 0.8,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 1.0,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "A positive ice test result was noted in 16 of the 20 (80%) patients with MG and in none of the 20 patients without MG (P < 0.001)",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Scherer K, Bedlack RS, Simel DL. Does this patient have myasthenia gravis? JAMA 2005;293:1906-1914.",
+   "doi": "10.1001/jama.293.15.1906",
+   "pmid": "15840866",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2005
+  },
+  {
+   "citation": "Golnik KC, Pena R, Lee AG, Eggenberger ER. An ice test for the diagnosis of myasthenia gravis. Ophthalmology 1999;106:1282-1286.",
+   "doi": "10.1016/S0161-6420(99)00709-5",
+   "pmid": "10406606",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1999
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Not useful without ptosis; do not use a negative test to dismiss MG in a patient with bulbar or respiratory symptoms.",
+  "escalation_warning": "Dysphagia, dyspnea or a falling single-breath count suggests impending myasthenic crisis; monitor respiratory function and escalate regardless of ice test result.",
+  "interobserver_note": "Measurement to 1 mm with a ruler; 2 mm threshold is arbitrary and no reproducibility data were found."
+ },
+ "tier": "extracted",
+ "extraction_notes": "RCE summary LRs from abstract (table not accessible). Golnik 1999 sens/spec from abstract counts; prevalence 0.5 reflects case-control design, not a clinical prevalence. Specificity 1.0 makes LR+ undefined so LRs not computed for that entry.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:29:51+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

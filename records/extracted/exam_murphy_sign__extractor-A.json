@@ -1,0 +1,109 @@
+{
+ "identity": {
+  "id": "exam_murphy_sign",
+  "title": "Murphy sign (inspiratory arrest on RUQ palpation)",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "abdominal_pain",
+   "fever"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "cholangitis",
+   "cholecystitis"
+  ],
+  "indication_tags": [
+   "febrile"
+  ]
+ },
+ "technique": {
+  "how": "With the patient supine, hook the fingers under the right costal margin at the mid-clavicular line (or press the RUQ) and ask the patient to take a deep breath. A positive sign is abrupt arrest of inspiration as the inflamed gallbladder descends onto the fingers; compare with the same manoeuvre on the left.",
+  "prerequisites": "Examine before opioid analgesia if feasible, but do not withhold analgesia; patient must be able to follow breathing instructions.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Inspiratory arrest with RUQ pain roughly triples the odds of acute cholecystitis (pooled LR+ 2.8) and in an ED cohort was present in 97% of positive hepatobiliary scans.",
+  "negative_finding": "A negative Murphy sign does not exclude cholecystitis; the pooled RCE could not identify any finding with a useful negative LR, so imaging is still needed when suspected.",
+  "pitfalls": "Sensitivity falls in the elderly and after analgesia; other RUQ pathology (hepatitis, perihepatitis) can produce a false positive. Documentation is frequently absent.",
+  "changes_what": "Positive: proceed to RUQ ultrasound and treat as probable cholecystitis; negative with ongoing suspicion: still image, do not discharge on exam alone."
+ },
+ "estimates": [
+  {
+   "target_condition": "Acute cholecystitis",
+   "population": "Adults with abdominal pain or suspected acute cholecystitis, pooled across included studies (RCE systematic review of 17 studies)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Surgery, pathology, HIDA scan or RUQ ultrasound, or consistent clinical course",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 2.8,
+    "ci_low": 0.8,
+    "ci_high": 8.6
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "Possible exceptions were the Murphy sign (positive LR, 2.8; 95% CI, 0.8-8.6) and right upper quadrant tenderness (negative LR, 0.4; 95% CI, 0.2-1.1)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Acute cholecystitis (positive hepatobiliary scintigraphy)",
+   "population": "100 consecutive ED patients referred for urgent HIDA scan, tertiary hospital, retrospective chart review; sign documented in 65",
+   "setting": "ED",
+   "prevalence": 0.53,
+   "reference_standard": "Positive hepatobiliary scintigraphy (HBS)",
+   "sensitivity": {
+    "value": 0.972,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "The presence of Murphy's sign was both sensitive (97.2%) and highly predictive (93.3%) of a positive HBS yet was not documented in 35 cases.",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Trowbridge RL, Rutkowski NK, Shojania KG. Does this patient have acute cholecystitis? JAMA. 2003;289(1):80-86.",
+   "doi": "10.1001/jama.289.1.80",
+   "pmid": "12503981",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2003
+  },
+  {
+   "citation": "Singer AJ, McCracken G, Henry MC, Thode HC Jr, Cabahug CJ. Correlation among clinical, laboratory, and hepatobiliary scanning findings in patients with suspected acute cholecystitis. Ann Emerg Med. 1996;28(3):267-272.",
+   "doi": "10.1016/s0196-0644(96)70024-0",
+   "pmid": "8780468",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1996
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use a negative sign to exclude cholecystitis in elderly, diabetic or obtunded patients, or after opioid analgesia.",
+  "escalation_warning": "RUQ pain with fever, jaundice or hypotension suggests cholangitis or gangrenous/perforated cholecystitis: urgent imaging, cultures, antibiotics and surgical/biliary consultation.",
+  "interobserver_note": "The 2003 RCE found no reliability data for Murphy sign; the Singer cohort noted the sign was undocumented in 35% of charts."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Pooled LR+ 2.8 (CI crosses 1.0) quoted from the RCE abstract; the RCE text/tables are not reachable, so pooled sensitivity/specificity and LR- are null. Singer 1996 sensitivity 97.2% is against HIDA (not pathology) in a retrospective ED cohort with the sign undocumented in 35/100; specificity is not in the abstract and was not entered. Prevalence 0.53 = 53/100 positive HBS from abstract.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:00:08+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

@@ -1,0 +1,97 @@
+{
+ "identity": {
+  "id": "exam_dry_axilla",
+  "title": "Dry axilla",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "hypotension",
+   "aki",
+   "ams"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "hypovolemic_hemorrhagic_shock",
+   "prerenal_hypovolemia"
+  ],
+  "indication_tags": [
+   "elderly"
+  ]
+ },
+ "technique": {
+  "how": "With the patient supine or seated and the arm relaxed, place a dry, ungloved finger or the back of the hand into the axillary vault and feel for moisture. Check both axillae; the sign is positive when neither axilla is moist to touch.",
+  "prerequisites": "Axilla not recently washed, dried or covered by antiperspirant; room not cold. Compare with the patient's baseline sweating if known.",
+  "contraindications": "None; avoid if axillary skin is broken or infected."
+ },
+ "interpretation": {
+  "positive_finding": "Both axillae dry to touch, supporting hypovolemia in a patient with vomiting, diarrhea or poor oral intake (LR+ about 2.8).",
+  "negative_finding": "Moist axillae argue only weakly against hypovolemia; the negative LR was not reported in the RCE abstract and the sign has low sensitivity.",
+  "pitfalls": "Anticholinergic drugs, autonomic neuropathy, cold environments and antiperspirants dry the axilla without hypovolemia; sweating from fever or anxiety can mask true volume depletion.",
+  "changes_what": "A dry axilla modestly raises the probability of hypovolemia and supports checking electrolytes, BUN/creatinine and giving a fluid trial; a moist axilla does not exclude it."
+ },
+ "estimates": [
+  {
+   "target_condition": "Hypovolemia (dehydration) in adults with vomiting, diarrhea or decreased oral intake",
+   "population": "Adults (largely elderly) presenting with suspected hypovolemia due to vomiting, diarrhea or decreased oral intake",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "Laboratory/clinical criteria for hypovolemia used by the included primary studies (e.g. serum osmolality, urea/creatinine); details not visible in abstract",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 2.8,
+    "ci_low": 1.4,
+    "ci_high": 5.4
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "the presence of a dry axilla supports the diagnosis of hypovolemia (positive likelihood ratio, 2.8; 95% CI, 1.4-5.4)",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "McGee S, Abernethy WB, Simel DL. The rational clinical examination. Is this patient hypovolemic? JAMA. 1999;281(11):1022-1029.",
+   "doi": "10.1001/jama.281.11.1022",
+   "pmid": "10086438",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1999
+  },
+  {
+   "citation": "Eaton D, Bannister P, Mulley GP, Connolly MJ. Axillary sweating in clinical assessment of dehydration in ill elderly patients. BMJ. 1994;308(6939):1271-1272.",
+   "doi": "10.1136/bmj.308.6939.1271",
+   "pmid": "8205020",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1994
+  },
+  {
+   "citation": "Levitt MA, Lopez B, Lieberman ME, Sutton M. Evaluation of the tilt test in an adult emergency medicine population. Ann Emerg Med. 1992;21(6):713-718.",
+   "doi": "10.1016/s0196-0644(05)82785-4",
+   "pmid": "1590613",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1992
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use to exclude hemorrhage or shock; the RCE data apply to vomiting/diarrhea/poor intake, not blood loss.",
+  "escalation_warning": "Hypotension, severe postural dizziness or a postural pulse rise of 30/min or more indicates significant volume loss regardless of axillary moisture.",
+  "interobserver_note": "Reproducibility not reported in the RCE abstract; the sign is a subjective tactile judgment."
+ },
+ "tier": "extracted",
+ "extraction_notes": "LR+ 2.8 (1.4-5.4) taken from the JAMA RCE abstract (PMID 10086438). Sensitivity, specificity and LR- for dry axilla are in the RCE tables, which are not accessible (JAMA not OA), so they are left null. Primary studies Eaton 1994 BMJ (PMID 8205020; PMC2540218 is abstract-only, no body text) and Levitt 1992 (PMID 1590613; abstract reports only that lack of axillary sweat was associated with greater dehydration, P=.026) are cited as sources without numeric estimates. Ids beyond the seeded mapping were not added.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T01:59:59+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

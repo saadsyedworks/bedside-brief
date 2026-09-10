@@ -1,0 +1,257 @@
+{
+ "identity": {
+  "id": "exam_meningeal_signs_nuchal_kernig_brudzinski",
+  "title": "Nuchal rigidity, Kernig and Brudzinski signs",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "ams",
+   "fever"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "meningitis_encephalitis"
+  ],
+  "indication_tags": [
+   "immunocompromised",
+   "febrile"
+  ]
+ },
+ "technique": {
+  "how": "Supine. Nuchal rigidity: passively flex the neck chin-to-chest; positive if resisted/painful with flexion but not rotation. Kernig: hip flexed 90 degrees, extend the knee; positive if pain/resistance in the hamstrings or back limits extension. Brudzinski: passive neck flexion; positive if hips and knees flex involuntarily.",
+  "prerequisites": "Cooperative or at least relaxed patient; exclude cervical spine injury before forced neck flexion.",
+  "contraindications": "Suspected cervical spine injury or instability; severe cervical spondylosis limits interpretation."
+ },
+ "interpretation": {
+  "positive_finding": "Kernig or Brudzinski sign is specific (~0.9) but insensitive (~0.2-0.3, pooled), giving LR+ around 2.5; positive signs support LP but rarely change management alone.",
+  "negative_finding": "Absent meningeal signs do not exclude meningitis: pooled LR- 0.76-0.84, and sensitivity was 2-5% in two prospective adult cohorts. Decide on LP from fever, headache, mental status and risk factors.",
+  "pitfalls": "Sensitivity is highest only with severe pleocytosis (>=1000 WBC); elderly, immunocompromised and obtunded patients often lack signs. Non-meningitic neck pain (spondylosis, parkinsonism) causes false positives.",
+  "changes_what": "Positive: proceed to LP/empiric antibiotics; negative: do not withhold LP when fever plus headache or altered mental status is present."
+ },
+ "estimates": [
+  {
+   "target_condition": "Kernig's sign for CSF pleocytosis (meningitis) in suspected meningitis",
+   "population": "Adults with suspected meningitis undergoing LP; 9 case-control datasets (599 with pleocytosis, 1216 without), mostly Japan/Iran",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "CSF pleocytosis on lumbar puncture",
+   "sensitivity": {
+    "value": 0.229,
+    "ci_low": 0.179,
+    "ci_high": 0.28
+   },
+   "specificity": {
+    "value": 0.912,
+    "ci_low": 0.888,
+    "ci_high": 0.936
+   },
+   "lr_positive": {
+    "value": 2.61,
+    "ci_low": 1.83,
+    "ci_high": 3.71
+   },
+   "lr_negative": {
+    "value": 0.84,
+    "ci_low": 0.79,
+    "ci_high": 0.91
+   },
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "Kernig's sign 9 1.20 78 22.9% (17.9-28.0) 91.2% (88.8-93.6) 2.61 (1.83-3.71) 0.84 (0.79-0.91)",
+   "location": "Table 2 (Calculated effect sizes); CIs are 99%"
+  },
+  {
+   "target_condition": "Brudzinski's sign for CSF pleocytosis (meningitis) in suspected meningitis",
+   "population": "Adults with suspected meningitis undergoing LP; 9 case-control datasets (599 with pleocytosis, 1216 without), mostly Japan/Iran",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "CSF pleocytosis on lumbar puncture",
+   "sensitivity": {
+    "value": 0.275,
+    "ci_low": 0.215,
+    "ci_high": 0.334
+   },
+   "specificity": {
+    "value": 0.888,
+    "ci_low": 0.858,
+    "ci_high": 0.917
+   },
+   "lr_positive": {
+    "value": 2.44,
+    "ci_low": 1.74,
+    "ci_high": 3.44
+   },
+   "lr_negative": {
+    "value": 0.82,
+    "ci_low": 0.75,
+    "ci_high": 0.89
+   },
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "Brudzinski's sign 7 0.42 58 27.5% (21.5-33.4) 88.8% (85.8-91.7) 2.44 (1.74-3.44) 0.82 (0.75-0.89)",
+   "location": "Table 2 (Calculated effect sizes); CIs are 99%"
+  },
+  {
+   "target_condition": "Nuchal rigidity for CSF pleocytosis (meningitis) in suspected meningitis",
+   "population": "Adults with suspected meningitis undergoing LP; 9 case-control datasets (599 with pleocytosis, 1216 without), mostly Japan/Iran",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "CSF pleocytosis on lumbar puncture",
+   "sensitivity": {
+    "value": 0.461,
+    "ci_low": 0.405,
+    "ci_high": 0.517
+   },
+   "specificity": {
+    "value": 0.713,
+    "ci_low": 0.676,
+    "ci_high": 0.749
+   },
+   "lr_positive": {
+    "value": 1.6,
+    "ci_low": 1.35,
+    "ci_high": 1.91
+   },
+   "lr_negative": {
+    "value": 0.76,
+    "ci_low": 0.67,
+    "ci_high": 0.85
+   },
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "Nuchal rigidity 9 0.51 77 46.1% (40.5-51.7) 71.3% (67.6-74.9) 1.60 (1.35-1.91) 0.76 (0.67-0.85)",
+   "location": "Table 2 (Calculated effect sizes); CIs are 99%"
+  },
+  {
+   "target_condition": "Kernig's and Brudzinski's signs (each) for meningitis (>=6 WBC/mL CSF)",
+   "population": "297 adults with suspected meningitis evaluated before LP, single US center",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "CSF WBC >=6/mL on lumbar puncture",
+   "sensitivity": {
+    "value": 0.05,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": null,
+   "lr_positive": {
+    "value": 0.97,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "minimal",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "Kernig's sign (sensitivity, 5%; likelihood ratio for a positive test result [LR(+)], 0.97), Brudzinski's sign (sensitivity, 5%; LR(+), 0.97)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Kernig sign for CSF pleocytosis (>=5 cells/hpf)",
+   "population": "230 neurologically intact ED adults undergoing LP, altered mental status excluded; 2 inner-city academic EDs",
+   "setting": "ED",
+   "prevalence": 0.2,
+   "reference_standard": "CSF pleocytosis >=5 cells/high-power field in 4th tube",
+   "sensitivity": {
+    "value": 0.02,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.97,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 2,
+   "quote": "the sensitivity of jolt accentuation was 21%, Kernig sign was 2% ... The specificity of jolt accentuation was 82%, Kernig sign was 97%",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Brudzinski sign for CSF pleocytosis (>=5 cells/hpf)",
+   "population": "230 neurologically intact ED adults undergoing LP, altered mental status excluded; 2 inner-city academic EDs",
+   "setting": "ED",
+   "prevalence": 0.2,
+   "reference_standard": "CSF pleocytosis >=5 cells/high-power field in 4th tube",
+   "sensitivity": {
+    "value": 0.02,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.98,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 2,
+   "quote": "Brudzinski sign was 2% ... nuchal rigidity was 13%. The specificity of jolt accentuation was 82%, Kernig sign was 97%, Brudzinski sign was 98%",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Akaishi T, Kobayashi J, Abe M, et al. Sensitivity and specificity of meningeal signs in patients with meningitis. J Gen Fam Med 2019;20:193-198.",
+   "doi": "10.1002/jgf2.268",
+   "pmid": "31516806",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2019
+  },
+  {
+   "citation": "Thomas KE, Hasbun R, Jekel J, Quagliarello VJ. The diagnostic accuracy of Kernig's sign, Brudzinski's sign, and nuchal rigidity in adults with suspected meningitis. Clin Infect Dis 2002;35:46-52.",
+   "doi": "10.1086/340979",
+   "pmid": "12060874",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2002
+  },
+  {
+   "citation": "Nakao JH, Jafri FN, Shah K, Newman DH. Jolt accentuation of headache and other clinical signs: poor predictors of meningitis in adults. Am J Emerg Med 2014;32:24-28.",
+   "doi": "10.1016/j.ajem.2013.09.012",
+   "pmid": "24139448",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2014
+  },
+  {
+   "citation": "Attia J, Hatala R, Cook DJ, Wong JG. The rational clinical examination. Does this adult patient have acute meningitis? JAMA 1999;282:175-181.",
+   "doi": "10.1001/jama.282.2.175",
+   "pmid": "10411200",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1999
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not rely on meningeal signs to defer LP or antibiotics in a febrile patient with headache or altered mental status; do not force neck flexion after trauma.",
+  "escalation_warning": "Suspected bacterial meningitis requires blood cultures and empiric antibiotics immediately; never delay for the examination or CT.",
+  "interobserver_note": "Akaishi 2019 reports high between-study heterogeneity attributed to differing positivity thresholds among clinicians; no kappa reported in the sources seen."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Pooled estimates are from Akaishi 2019 Table 2 (PMC full text; note they use 99% CIs and simple summation across case-control datasets, not a bivariate model). Thomas 2002 and Nakao 2014 numbers are from abstracts; Thomas specificity is not stated in the abstract so left null (LR+ 0.97 implies specificity ~0.95). Attia 1999 RCE (abstract) states Kernig was assessed in only one study and Brudzinski in none since the original report, so no RCE pooled value exists. Nakao quotes are two abstract fragments joined with an ellipsis. Nuchal rigidity detail is in exam_neck_stiffness.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:29:51+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

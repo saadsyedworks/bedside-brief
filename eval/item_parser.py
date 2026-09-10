@@ -50,7 +50,12 @@ class Item:
 
 def strip_formatting(text: str) -> str:
     """Bullets, numbering, markdown emphasis, collapsed whitespace."""
-    t = _BULLET.sub("", text or "")
+    t = text or ""
+    for _ in range(3):  # nested / doubled markers ("- • item", "1. - item")
+        stripped = _BULLET.sub("", t)
+        if stripped == t:
+            break
+        t = stripped
     t = _MD.sub("", t)
     return re.sub(r"\s+", " ", t).strip()
 
@@ -60,6 +65,8 @@ def detect_citations(text: str) -> list[str]:
     for _, rx in _CITE_PATTERNS:
         for m in rx.finditer(text or ""):
             s = m.group(0).strip()
+            if s.endswith(")") and "(" not in s:
+                s = s[:-1]
             if s not in found:
                 found.append(s)
     return found

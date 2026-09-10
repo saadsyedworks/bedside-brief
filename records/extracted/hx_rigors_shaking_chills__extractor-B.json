@@ -1,0 +1,147 @@
+{
+  "identity": {
+    "id": "hx_rigors_shaking_chills",
+    "title": "Rigors / shaking chills",
+    "type": "history",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "hypotension",
+      "aki",
+      "ams",
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "cholangitis",
+      "delirium_infectious",
+      "endocarditis",
+      "line_infection",
+      "pneumonia",
+      "septic_shock",
+      "uti_pyelonephritis"
+    ],
+    "indication_tags": [
+      "febrile",
+      "immunocompromised",
+      "ivdu"
+    ]
+  },
+  "technique": {
+    "how": "Ask the patient (or witness) to grade chills: none; mild = feeling cold, needed a jacket; moderate = needed a thick blanket; shaking chills = whole-body shaking even under a thick blanket. Record the most severe episode and its timing relative to fever.",
+    "prerequisites": "Patient or witness able to give history; note antipyretic and steroid use.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Shaking (whole-body) chills raise the probability of bacteremia about 4-5-fold (LR+ 4.7); moderate chills raise it less.",
+    "negative_finding": "Absence of any chills lowers the probability of bacteremia (LR- 0.24, sensitivity of any chills 0.88) but does not exclude it, especially in the elderly or immunosuppressed.",
+    "pitfalls": "Rigors also occur with viral illness, drug reactions, transfusions and malaria; steroids, antipyretics and cognitive impairment blunt or obscure the history. Estimates come from immunocompetent adults with fever.",
+    "changes_what": "Shaking chills: draw blood cultures before antibiotics and consider bacteremic sources (line, biliary, urinary, endocarditis); no chills with isolated low-grade fever lowers the yield of cultures."
+  },
+  "estimates": [
+    {
+      "target_condition": "Bacteremia (true-positive blood culture)",
+      "population": "Consecutive adults with acute febrile illness presenting to a Japanese ED (n=526)",
+      "setting": "ED",
+      "prevalence": 0.076,
+      "reference_standard": "Blood culture growth of a true pathogen",
+      "sensitivity": null,
+      "specificity": {
+        "value": 0.903,
+        "ci_low": 0.892,
+        "ci_high": 0.915
+      },
+      "lr_positive": {
+        "value": 4.65,
+        "ci_low": 2.95,
+        "ci_high": 6.86
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "single_study",
+      "source_index": 1,
+      "quote": "Shaking chills showed a specificity of 90.3% (95% CI 89.2-91.5) and positive likelihood ratio of 4.65 (95% CI 2.95-6.86).",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Bacteremia (true-positive blood culture) - any degree of chills vs none",
+      "population": "Consecutive adults with acute febrile illness presenting to a Japanese ED (n=526)",
+      "setting": "ED",
+      "prevalence": 0.076,
+      "reference_standard": "Blood culture growth of a true pathogen",
+      "sensitivity": {
+        "value": 0.875,
+        "ci_low": 0.744,
+        "ci_high": 0.945
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": {
+        "value": 0.24,
+        "ci_low": 0.11,
+        "ci_high": 0.51
+      },
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "single_study",
+      "source_index": 1,
+      "quote": "The absence of chills showed a sensitivity of 87.5% (95% CI 74.4-94.5) and negative likelihood ratio of 0.24 (95% CI 0.11-0.51).",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Bacteremia in adult immunocompetent patients with suspected bacteremia",
+      "population": "Pooled adult immunocompetent patients, 35 studies (4566 bacteremia and 25,946 negative episodes)",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Blood culture",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 4.7,
+        "ci_low": 3.0,
+        "ci_high": 7.2
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "The severity of chills graded on an ordinal scale (shaking chills, LR, 4.7; 95% CI, 3.0-7.2) may be more useful.",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Coburn B, Morris AM, Tomlinson G, Detsky AS. Does this adult patient with suspected bacteremia require blood cultures? JAMA 2012;308:502-511.",
+      "doi": "10.1001/jama.2012.8262",
+      "pmid": "22851117",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2012
+    },
+    {
+      "citation": "Tokuda Y, Miyasato H, Stein GH, Kishaba T. The degree of chills for risk of bacteremia in acute febrile illness. Am J Med 2005;118:1417.",
+      "doi": "10.1016/j.amjmed.2005.06.043",
+      "pmid": "16378800",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2005
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "RCE conclusions do not apply to immunocompromised patients or suspected endocarditis; do not use absence of chills to withhold cultures in those groups or in septic shock.",
+    "escalation_warning": "Rigors with hypotension or a central line should prompt immediate cultures, empiric antibiotics and line assessment.",
+    "interobserver_note": "Chill severity is self-reported on a three-level ordinal scale; reproducibility not reported."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Tokuda 2005 (single ED cohort) supplies specificity and LR+ for shaking chills and sensitivity/LR- for any chills, all from the abstract; sensitivity of shaking chills alone is in the paper's table (not viewed) so it is null. The RCE pooled LR 4.7 (abstract) is largely derived from the same study. Journal year on PubMed is 2006 (epub 2005).",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:28:40+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

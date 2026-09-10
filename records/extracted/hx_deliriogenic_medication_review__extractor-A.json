@@ -1,0 +1,70 @@
+{
+ "identity": {
+  "id": "hx_deliriogenic_medication_review",
+  "title": "Deliriogenic medication review: anticholinergics, benzodiazepines, opioids, new/changed drugs, thiazides",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dizziness",
+   "ams",
+   "weakness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "hyponatremia",
+   "intoxication_withdrawal",
+   "medication_effect"
+  ],
+  "indication_tags": [
+   "elderly",
+   "new_medication",
+   "post_operative"
+  ]
+ },
+ "technique": {
+  "how": "Reconcile every current drug (including OTC, PRN and recently stopped) against the admission list and the last 72 h MAR. Flag anticholinergics, benzodiazepines/Z-drugs, opioids, dihydropyridines, antihistamines, steroids, any drug added or dose-changed in the past week, and diuretics/thiazides (sodium).",
+  "prerequisites": "Reliable medication history from chart, pharmacy record or family; time of each new start or dose change.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "One or more deliriogenic drugs or a recent addition/dose change temporally preceding the mental-status change. More than three drugs added during admission roughly triples delirium risk in older inpatients.",
+  "negative_finding": "No culprit drug identified does not exclude delirium or medication effect; look for infection, metabolic and structural causes.",
+  "pitfalls": "Risk data are relative risks/odds ratios from cohort studies, not diagnostic sensitivity or specificity, so no LR can be assigned. Untreated severe pain also precipitates delirium, so opioids should be tapered rather than abruptly withdrawn.",
+  "changes_what": "Positive: stop or taper the culprit and check sodium; the review is additive to, not a replacement for, the infectious/metabolic delirium workup."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Inouye SK, Charpentier PA. Precipitating factors for delirium in hospitalized elderly persons. Predictive model and interrelationship with baseline vulnerability. JAMA 1996;275:852-857.",
+   "doi": null,
+   "pmid": "8596223",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1996
+  },
+  {
+   "citation": "Clegg A, Young JB. Which medications to avoid in people at risk of delirium: a systematic review. Age Ageing 2011;40:23-29.",
+   "doi": "10.1093/ageing/afq140",
+   "pmid": "21068014",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2011
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not delay sepsis, hypoglycemia or stroke evaluation while the medication list is being reconciled.",
+  "escalation_warning": "Abrupt benzodiazepine or opioid withdrawal can itself cause delirium, seizures or severe pain; taper rather than stop in chronic users.",
+  "interobserver_note": "Depends on completeness of the medication history; anticholinergic burden scales differ in which drugs they count."
+ },
+ "tier": "extracted",
+ "extraction_notes": "No diagnostic-accuracy (sens/spec/LR) data exist for a medication review as a bedside test for delirium; evidence is risk-association. Inouye 1996 (Abstract): >3 medications added, adjusted RR 2.9 (95% CI 1.6-5.4) in medical inpatients >=70 y. Clegg 2011 (Abstract): opioids OR 2.5 (1.2-5.2), benzodiazepines OR 3.0 (1.3-6.8), dihydropyridines 2.4 (1.0-5.8), antihistamines 1.8 (0.7-4.5). These are not entered as estimates because the schema stat fields are sens/spec/LR. Tune 1993 (PMID 8508041 confirmed) is a small SICU association study and was not cited.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:29:51+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

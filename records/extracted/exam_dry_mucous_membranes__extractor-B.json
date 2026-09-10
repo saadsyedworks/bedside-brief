@@ -1,0 +1,92 @@
+{
+  "identity": {
+    "id": "exam_dry_mucous_membranes",
+    "title": "Dry oral mucous membranes, tongue furrows, sunken eyes, dry axilla",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "hypotension",
+      "aki",
+      "dizziness",
+      "ams"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "hyponatremia",
+      "hypovolemic_hemorrhagic_shock",
+      "orthostatic_hypotension",
+      "prerenal_hypovolemia"
+    ],
+    "indication_tags": [
+      "elderly"
+    ]
+  },
+  "technique": {
+    "how": "Inspect the oral mucosa and tongue with the mouth open: note dryness of buccal mucosa, longitudinal tongue furrows, and sunken eyes; palpate both axillae for moisture. Ask about mouth breathing and recent oral intake.",
+    "prerequisites": "Adequate light; patient able to open mouth.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Dry mucosa with tongue furrows, sunken eyes or dry axilla supports hypovolemia, but positive LRs are modest.",
+    "negative_finding": "Moist mucous membranes and a tongue without furrows each argue against hypovolemia (LR- 0.3) in adults with vomiting, diarrhoea or poor intake.",
+    "pitfalls": "Mouth breathing, oxygen therapy, anticholinergics and age-related changes dry the mouth without volume depletion; the reference standards in the source studies were heterogeneous.",
+    "changes_what": "Moist mucosa and unfurrowed tongue make prerenal hypovolemia less likely; dry findings favor a fluid trial but should be confirmed with urea/creatinine and electrolytes."
+  },
+  "estimates": [
+    {
+      "target_condition": "Hypovolemia (dehydration) in patients with vomiting, diarrhoea or decreased oral intake",
+      "population": "Adults, predominantly elderly ED patients with suspected dehydration",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Chart-review dehydration severity rating or laboratory indices, per included study",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": {
+        "value": 0.3,
+        "ci_low": 0.1,
+        "ci_high": 0.6
+      },
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "moist mucous membranes and a tongue without furrows argue against it (negative likelihood ratio, 0.3; 95% CI, 0.1-0.6 for both findings)",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "partially_quantified",
+  "sources": [
+    {
+      "citation": "McGee S, Abernethy WB, Simel DL. The rational clinical examination. Is this patient hypovolemic? JAMA 1999;281:1022-1029.",
+      "doi": "10.1001/jama.281.11.1022",
+      "pmid": "10086438",
+      "url": null,
+      "kind": "rce_series",
+      "year": 1999
+    },
+    {
+      "citation": "Gross CR, Lindquist RD, Woolley AC, et al. Clinical indicators of dehydration severity in elderly patients. J Emerg Med 1992;10:267-274.",
+      "doi": "10.1016/0736-4679(92)90331-m",
+      "pmid": "1624737",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1992
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Not validated for hemorrhagic hypovolemia; unreliable in mouth-breathers and patients on supplemental oxygen.",
+    "escalation_warning": "Do not let moist mucosa delay resuscitation in a hypotensive or oliguric patient.",
+    "interobserver_note": "Gross 1992 used a standardized 38-item exam; agreement statistics for individual signs are not reported in the abstract."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Negative LR (0.3) for moist mucous membranes and unfurrowed tongue is from the RCE abstract; positive LRs and sens/spec for dry mucosa, sunken eyes and tongue furrows are in the RCE table (paywalled, not viewed) and left null. Gross 1992 abstract reports only P values (tongue dryness, furrows, dry mucosa, sunken eyes all correlate with severity, P<0.01), so no numbers extracted from it.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:28:40+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

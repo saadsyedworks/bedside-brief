@@ -1,0 +1,147 @@
+{
+ "identity": {
+  "id": "hx_rigors_shaking_chills",
+  "title": "Rigors / shaking chills",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "hypotension",
+   "aki",
+   "ams",
+   "fever"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "cholangitis",
+   "delirium_infectious",
+   "endocarditis",
+   "line_infection",
+   "pneumonia",
+   "septic_shock",
+   "uti_pyelonephritis"
+  ],
+  "indication_tags": [
+   "febrile",
+   "immunocompromised",
+   "ivdu"
+  ]
+ },
+ "technique": {
+  "how": "Ask the patient (or witnesses) whether they have had chills and grade the worst episode: mild = feeling cold, needing a jacket; moderate = needing a thick blanket; shaking chills = whole-body shaking even under a thick blanket. Record timing relative to fever and any line, procedure or infusion.",
+  "prerequisites": "Patient or witness able to describe the episode; ask before antipyretics blunt recall.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Shaking (rigor-grade) chills raise the probability of bacteremia about 4.7-fold (LR+ 4.7, 95% CI 3.0-7.2; specificity 0.90) and justify blood cultures before antibiotics.",
+  "negative_finding": "Absence of any chills lowers the probability of bacteremia (LR- 0.24) but does not exclude it, particularly in elderly or immunocompromised patients who may not mount rigors.",
+  "pitfalls": "Rigors also occur with malaria, transfusion or drug reactions, and after amphotericin or contaminated infusions; the grading relies on patient recall and the RCE data exclude immunocompromised patients and suspected endocarditis.",
+  "changes_what": "Shaking chills should prompt blood cultures and a search for a bacteremic source (line, biliary, urinary, endovascular); no chills supports withholding cultures when pretest probability is low."
+ },
+ "estimates": [
+  {
+   "target_condition": "Bacteremia (true-positive blood culture)",
+   "population": "Adult immunocompetent patients in whom bacteremia was suspected (35 studies; 4566 bacteremia and 25,946 negative episodes)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Blood cultures",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 4.7,
+    "ci_low": 3.0,
+    "ci_high": 7.2
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "The severity of chills graded on an ordinal scale (shaking chills, LR, 4.7; 95% CI, 3.0-7.2) may be more useful.",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Bacteremia - finding: shaking chills (whole-body shaking under a thick blanket)",
+   "population": "526 consecutive adults with acute febrile illness (40, 7.6%, bacteremic)",
+   "setting": "ED",
+   "prevalence": 0.076,
+   "reference_standard": "Blood cultures",
+   "sensitivity": null,
+   "specificity": {
+    "value": 0.903,
+    "ci_low": 0.892,
+    "ci_high": 0.915
+   },
+   "lr_positive": {
+    "value": 4.65,
+    "ci_low": 2.95,
+    "ci_high": 6.86
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "Shaking chills showed a specificity of 90.3% (95% CI 89.2-91.5) and positive likelihood ratio of 4.65 (95% CI 2.95-6.86).",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Bacteremia - finding: any chills (sensitivity and LR- refer to absence of chills)",
+   "population": "526 consecutive adults with acute febrile illness (40, 7.6%, bacteremic)",
+   "setting": "ED",
+   "prevalence": 0.076,
+   "reference_standard": "Blood cultures",
+   "sensitivity": {
+    "value": 0.875,
+    "ci_low": 0.744,
+    "ci_high": 0.945
+   },
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": {
+    "value": 0.24,
+    "ci_low": 0.11,
+    "ci_high": 0.51
+   },
+   "computed": false,
+   "interpretation_label": "rule_out",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "The absence of chills showed a sensitivity of 87.5% (95% CI 74.4-94.5) and negative likelihood ratio of 0.24 (95% CI 0.11-0.51).",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Coburn B, Morris AM, Tomlinson G, Detsky AS. Does this adult patient with suspected bacteremia require blood cultures? JAMA. 2012;308(5):502-511.",
+   "doi": "10.1001/jama.2012.8262",
+   "pmid": "22851117",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2012
+  },
+  {
+   "citation": "Tokuda Y, Miyasato H, Stein GH, Kishaba T. The degree of chills for risk of bacteremia in acute febrile illness. Am J Med. 2005;118(12):1417.",
+   "doi": "10.1016/j.amjmed.2005.06.043",
+   "pmid": "16378800",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2005
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "The RCE conclusions do not apply to immunocompromised patients or when endocarditis is suspected; in those groups obtain cultures regardless of chills.",
+  "escalation_warning": "Rigors with hypotension, altered mentation or a central line indicate probable bacteremia/sepsis: cultures, source control and antibiotics within the hour.",
+  "interobserver_note": "The three-level chill scale relies on patient self-report; reproducibility between interviewers is not reported in the abstracts."
+ },
+ "tier": "extracted",
+ "extraction_notes": "RCE LR 4.7 (3.0-7.2) for shaking chills from the Coburn 2012 abstract (PMID 22851117; JAMA not OA, table not seen). The RCE value coincides with Tokuda's 4.65, so the pooled entry likely rests on that single study; evidence_level kept as pooled for the RCE row and the caveat is noted here. Tokuda (PMID 16378800; PubMed lists journal year 2006, print citation Am J Med 2005;118:1417) abstract supplies specificity 0.903 and LR+ 4.65 for shaking chills and sensitivity 0.875/LR- 0.24 for any chills; sensitivity of shaking chills itself is not in the abstract. Prevalence 0.076 = 40/526.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T01:59:59+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

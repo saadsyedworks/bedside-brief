@@ -46,9 +46,16 @@ _TOKEN_RX = re.compile(r"[a-z0-9]+")
 
 
 def _stem(tok: str) -> str:
-    for suf in ("ies", "ing", "ed", "es", "s"):
+    """Light, symmetric stemming: plurals (-ies/-es/-s), then -ing / -ed."""
+    if len(tok) > 5 and tok.endswith("ies"):
+        tok = tok[:-3] + "y"
+    elif len(tok) > 5 and tok.endswith(("sses", "xes", "ches", "shes", "zes")):
+        tok = tok[:-2]
+    elif len(tok) > 4 and tok.endswith("s") and not tok.endswith("ss"):
+        tok = tok[:-1]
+    for suf in ("ing", "ed"):
         if len(tok) > len(suf) + 3 and tok.endswith(suf):
-            return tok[: -len(suf)] + ("y" if suf == "ies" else "")
+            return tok[: -len(suf)]
     return tok
 
 

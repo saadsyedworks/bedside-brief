@@ -1,0 +1,62 @@
+{
+ "identity": {
+  "id": "hx_nephrotoxin_contrast_exposure",
+  "title": "Nephrotoxin and contrast exposure history (NSAID, ACEi/ARB, diuretic, aminoglycoside, vancomycin, PPI, iodinated contrast; timing)",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "aki"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "ain",
+   "atn",
+   "contrast_nephropathy",
+   "medication_effect",
+   "prerenal_hypovolemia"
+  ],
+  "indication_tags": [
+   "new_medication",
+   "ckd_known",
+   "elderly"
+  ]
+ },
+ "technique": {
+  "how": "Reconcile all drugs against the chart and pharmacy record, including over-the-counter NSAIDs and herbal products: NSAIDs, ACEi/ARB, diuretics, aminoglycosides, vancomycin (with piperacillin-tazobactam), PPIs, and any iodinated contrast. For each, record start date, dose change and timing relative to the creatinine rise.",
+  "prerequisites": "Access to medication administration and imaging records; collateral history for patients who cannot report OTC use.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "A nephrotoxin started or dosed within days of the creatinine rise, or contrast within 48-72 h, makes drug-induced AKI (hemodynamic, ATN or AIN) a leading candidate and identifies an immediately reversible factor.",
+  "negative_finding": "No exposure lowers the likelihood of drug-related AKI and contrast nephropathy, redirecting attention to hypovolemia, sepsis, obstruction and intrinsic renal disease.",
+  "pitfalls": "Patients under-report OTC NSAIDs; PPI-associated AIN can begin weeks to months after the start; contrast-associated AKI is often confounded by the illness that prompted imaging, so timing alone does not prove causation.",
+  "changes_what": "A positive exposure history should lead to stopping or dose-adjusting the agent, avoiding further nephrotoxins and monitoring creatinine; still assess obstruction and volume status."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Khwaja A. KDIGO clinical practice guidelines for acute kidney injury. Nephron Clin Pract. 2012;120(4):c179-c184 (summary of the KDIGO 2012 AKI guideline).",
+   "doi": "10.1159/000339789",
+   "pmid": "22890468",
+   "url": null,
+   "kind": "guideline",
+   "year": 2012
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not attribute AKI solely to a drug or contrast when there is oliguria, sepsis, hypotension or possible obstruction; these still need evaluation.",
+  "escalation_warning": "AKI with hyperkalemia, acidosis, fluid overload or uremic symptoms needs urgent nephrology review regardless of the exposure history.",
+  "interobserver_note": "History accuracy depends on medication reconciliation quality; structured pharmacy review captures more exposures than patient recall."
+ },
+ "tier": "extracted",
+ "extraction_notes": "No diagnostic-accuracy study reports sensitivity/specificity/LR of a nephrotoxin or contrast exposure history for AKI etiology; the exposures are causal risk factors, so the record is not_quantified and cites the KDIGO 2012 AKI guideline (Khwaja summary, PMID 22890468; PubMed lists year 2015 for the record, print citation is 2012). The Kidney Int Suppl DOI 10.1038/kisup.2012.1 resolved via Crossref to a 'Notice' front-matter item, not the guideline, so it was not cited. Search budget spent on the seeded anchor; no additional PubMed searches were run for this id.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T01:59:59+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

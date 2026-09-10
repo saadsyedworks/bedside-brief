@@ -1,0 +1,183 @@
+{
+ "identity": {
+  "id": "pocus_hydronephrosis",
+  "title": "Hydronephrosis (bilateral or solitary kidney) on renal POCUS",
+  "type": "pocus",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "aki",
+   "abdominal_pain",
+   "fever"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "obstruction_retention",
+   "pyelonephritis_nephrolithiasis",
+   "urinary_retention"
+  ],
+  "indication_tags": [
+   "elderly",
+   "malignancy"
+  ]
+ },
+ "technique": {
+  "how": "Curvilinear probe in the posterior axillary line (right ~liver window, left more posterior/cephalad), long and short axis of each kidney; fan through the whole kidney. Hydronephrosis is anechoic dilatation of the renal pelvis/calyces: mild (pelvis only), moderate (calyceal ballooning), severe (cortical thinning). Always scan both kidneys and the bladder.",
+  "prerequisites": "Operator trained in renal POCUS; scan the bladder first (a full bladder or retention can cause bilateral mild hydronephrosis).",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Any hydronephrosis in flank pain raises the probability of a ureteric stone (pooled LR+ 2.85), and moderate-or-greater hydronephrosis is highly specific (0.94); bilateral hydronephrosis or hydronephrosis of a solitary kidney in AKI indicates obstructive uropathy needing decompression.",
+  "negative_finding": "Absent hydronephrosis lowers but does not exclude obstruction (LR- 0.39 for stones; sens 0.85-0.90 in AKI cohorts), especially early, with dehydration, or with retroperitoneal fibrosis/malignant encasement.",
+  "pitfalls": "Parapelvic cysts, prominent renal vasculature, extrarenal pelvis, pregnancy and a full bladder mimic hydronephrosis; volume depletion and early obstruction hide it. Unilateral hydronephrosis does not explain AKI unless the other kidney is absent or non-functioning.",
+  "changes_what": "Bilateral/solitary-kidney hydronephrosis in AKI: decompress and refer to urology; unilateral with flank pain: manage as ureteric stone, CT if septic; absent: pursue non-obstructive causes."
+ },
+ "estimates": [
+  {
+   "target_condition": "Nephrolithiasis (any hydronephrosis on POCUS)",
+   "population": "Adult ED patients with renal colic symptoms; 5 high-quality studies, n=1773",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "CT evidence of stone or hydronephrosis, direct stone visualisation, or surgical findings",
+   "sensitivity": {
+    "value": 0.702,
+    "ci_low": 0.671,
+    "ci_high": 0.732
+   },
+   "specificity": {
+    "value": 0.754,
+    "ci_low": 0.725,
+    "ci_high": 0.782
+   },
+   "lr_positive": {
+    "value": 2.85,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.39,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "70.2% (95% confidence interval [CI] = 67.1%-73.2%) and 75.4% (95% CI = 72.5%-78.2%), respectively. The calculated positive and negative likelihood ratios were 2.85 and 0.39.",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Nephrolithiasis (moderate or greater hydronephrosis on POCUS)",
+   "population": "Adult ED patients with renal colic symptoms; two of the meta-analysis studies",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "CT evidence of stone or hydronephrosis",
+   "sensitivity": null,
+   "specificity": {
+    "value": 0.944,
+    "ci_low": 0.927,
+    "ci_high": 0.958
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "the finding of moderate or greater hydronephrosis yielded a specificity of 94.4% (95% CI = 92.7%-95.8%)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Hydronephrosis in acute kidney injury",
+   "population": "Hospitalised adults with AKI, single Canadian centre; 65 patients with PoCUS and reference imaging, 124 kidneys",
+   "setting": "inpatient",
+   "prevalence": 0.33,
+   "reference_standard": "Radiology ultrasound or CT",
+   "sensitivity": {
+    "value": 0.85,
+    "ci_low": 0.71,
+    "ci_high": 0.94
+   },
+   "specificity": {
+    "value": 0.78,
+    "ci_low": 0.68,
+    "ci_high": 0.87
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "both",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "PoCUS had a sensitivity of 85% (95% CI 71-94%) and specificity of 78% (95% CI 68-87%) for the detection of hydronephrosis.",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Renal tract obstruction in acute kidney injury",
+   "population": "Adults admitted with AKI to an acute internal medicine unit, UK; protocolised POCUS vs departmental ultrasound (quality improvement project)",
+   "setting": "inpatient",
+   "prevalence": null,
+   "reference_standard": "Departmental (radiology) ultrasound",
+   "sensitivity": {
+    "value": 0.9,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 1.0,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "both",
+   "evidence_level": "single_study",
+   "source_index": 2,
+   "quote": "POCUS can rapidly and reliably diagnose renal tract obstruction, showing a sensitivity of 90% and a specificity of 100%.",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Wong C, Teitge B, Ross M, Young P, Robertson HL, Lang E. The Accuracy and Prognostic Value of Point-of-care Ultrasound for Nephrolithiasis in the Emergency Department: A Systematic Review and Meta-analysis. Acad Emerg Med. 2018;25(6):684-698.",
+   "doi": "10.1111/acem.13388",
+   "pmid": "29427476",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2018
+  },
+  {
+   "citation": "Gaudreau-Simard M, Saiyin T, McInnes MDF, et al. Test characteristics of point-of-care ultrasonography in patients with acute kidney injury. Ultrasound J. 2024;16(1):11.",
+   "doi": "10.1186/s13089-023-00352-3",
+   "pmid": "38388747",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2024
+  },
+  {
+   "citation": "Nepal S, Dachsel M, Smallwood N. Point-of-care ultrasound rapidly and reliably diagnoses renal tract obstruction in patients admitted with acute kidney injury. Clin Med (Lond). 2020;20(6):541-544.",
+   "doi": "10.7861/clinmed.2019-0417",
+   "pmid": "33199317",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2020
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use a negative scan to exclude obstruction in volume-depleted patients, early obstruction, or suspected malignant/retroperitoneal encasement; obtain formal imaging.",
+  "escalation_warning": "Obstructed kidney with fever or sepsis (infected obstructed system) needs emergent decompression (nephrostomy/stent) and urology; bilateral obstruction with hyperkalaemia needs immediate relief.",
+  "interobserver_note": "Grading of mild hydronephrosis is the least reproducible element; the meta-analysis found no threshold effect but studies used variable operator experience.",
+  "skill_assumption": "Emergency or internal-medicine physician with basic renal POCUS training (a short course plus supervised scans); AKI cohorts used protocolised scans by trained generalists, not sonographers."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Wong 2018 pooled estimates are for stone disease in renal colic (any hydronephrosis = positive), not for obstruction in AKI; LRs are those calculated by the authors. Two AKI cohorts added as separate estimates: Gaudreau-Simard 2024 (small, 65 patients, mixed reference) and Nepal 2020 (QI project, radiology US as reference, CIs not in abstract). Publication years taken from PubMed records (Wong e-pub 2018, journal issue 2018; Nepal issue Nov 2020, PubMed year 2021).",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:00:08+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

@@ -1,0 +1,94 @@
+{
+ "identity": {
+  "id": "exam_abdominal_rigidity_guarding",
+  "title": "Involuntary guarding / board-like rigidity",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "hypotension",
+   "abdominal_pain",
+   "fever"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "appendicitis",
+   "mesenteric_ischemia",
+   "pancreatitis",
+   "perforated_viscus",
+   "sbp"
+  ],
+  "indication_tags": []
+ },
+ "technique": {
+  "how": "Patient supine, knees flexed, arms at sides, breathing through the mouth. Palpate gently with the flat of warm fingers, starting away from the painful area; ask the patient to relax. Involuntary guarding is reflex abdominal-wall muscle contraction that persists despite distraction and relaxation; rigidity is diffuse, board-like, unyielding wall.",
+  "prerequisites": "Adequate analgesia does not abolish the sign and should be given first; expose the abdomen fully.",
+  "contraindications": "None; palpate lightly and avoid repeated deep palpation in a rigid abdomen."
+ },
+ "interpretation": {
+  "positive_finding": "Persistent, involuntary wall contraction (localised guarding) or diffuse board-like rigidity indicates parietal peritoneal irritation; diffuse rigidity suggests generalised peritonitis such as perforated viscus.",
+  "negative_finding": "A soft abdomen lowers but does not exclude serious intra-abdominal pathology, especially in the elderly, immunosuppressed, obese, or patients with mesenteric ischaemia (pain out of proportion to examination).",
+  "pitfalls": "Voluntary guarding from anxiety, cold hands or a tense patient mimics the sign; steroids, advanced age and altered mental status blunt it. Retroperitoneal processes (pancreatitis, retrocaecal appendix) may show little guarding.",
+  "changes_what": "Diffuse rigidity with pain or shock: treat as surgical peritonitis, urgent surgical review and CT/resuscitation; localised guarding raises appendicitis/localised peritonitis probability."
+ },
+ "estimates": [
+  {
+   "target_condition": "Acute appendicitis (local guarding)",
+   "population": "Adults and children admitted with acute abdominal pain up to 7 days, Mora Hospital Sweden (n=2478; 274 appendicitis)",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "Final diagnosis after appendectomy/histology and 1-year medical record review",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 2,
+   "quote": "The highest odds ratios were found for isolated tenderness in the right iliac fossa (3.29), rebound tenderness (3.00), ... and local guarding (2.11).",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Wagner JM, McKinney WP, Carpenter JL. Does this patient have appendicitis? JAMA. 1996;276(19):1589-1594.",
+   "doi": null,
+   "pmid": "8918857",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1996
+  },
+  {
+   "citation": "Andersson RE. Meta-analysis of the clinical and laboratory diagnosis of appendicitis. Br J Surg. 2004;91(1):28-37.",
+   "doi": "10.1002/bjs.4464",
+   "pmid": "14716790",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2004
+  },
+  {
+   "citation": "Laurell H, Hansson LE, Gunnarsson U. Manifestations of acute appendicitis: a prospective study on acute abdominal pain. Dig Surg. 2014;30(4-6):283-289.",
+   "doi": "10.1159/000350043",
+   "pmid": "23838773",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2014
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not rely on absence of rigidity to exclude peritonitis in elderly, immunosuppressed, obese, obtunded or steroid-treated patients.",
+  "escalation_warning": "Rigidity plus hypotension, fever or lactate rise is a surgical emergency; do not delay surgical consultation for imaging.",
+  "interobserver_note": "Guarding is examiner-dependent and confounded by voluntary guarding; the RCE series rates agreement as only fair to moderate."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Anchor RCE (Wagner 1996, PMID 8918857) reports rigidity LR+ ~3.8 and guarding LR+ ~2.5, but JAMA full text is not reachable and the abstract has no numbers, so no LR was entered from it. Andersson 2004 meta-analysis abstract reports only ROC areas (0.68-0.78) for guarding/rigidity, no LR. The only visible number is the Laurell 2014 odds ratio (2.11) for local guarding, entered with sens/spec/LR null because an OR is not a likelihood ratio and no 2x2 is visible. Status therefore partially_quantified; owner should pull Table 3 of Wagner 1996 to fill LRs.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:00:08+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

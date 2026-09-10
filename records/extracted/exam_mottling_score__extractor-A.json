@@ -1,0 +1,73 @@
+{
+ "identity": {
+  "id": "exam_mottling_score",
+  "title": "Skin mottling score (knee, 0-5)",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "hypotension",
+   "fever"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "cardiogenic_shock",
+   "hypovolemic_hemorrhagic_shock",
+   "septic_shock"
+  ],
+  "indication_tags": []
+ },
+ "technique": {
+  "how": "Inspect the skin around the knees in good light. Score 0 = no mottling; 1 = coin-sized area on the patella; 2 = does not exceed the superior edge of the kneecap; 3 = does not exceed the middle of the thigh; 4 = does not exceed the groin fold; 5 = beyond the groin fold. Score the worse leg and repeat after resuscitation (e.g. at 6 h).",
+  "prerequisites": "Legs uncovered and warm room; assess after initial resuscitation as in the source studies. Scoring is unreliable in dark skin and in local vascular disease of the leg.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Mottling score 2-3 or 4-5 after initial resuscitation in septic shock is strongly associated with 14-day death (OR 16 and 74 vs score 0-1); pooled sepsis data confirm association with 28-day mortality (OR 2.27).",
+  "negative_finding": "Absent or minimal mottling (score 0-1), or a score that falls during resuscitation, identifies a lower-risk group (14-day mortality 12% vs 77% when the score decreased vs not).",
+  "pitfalls": "This is a prognostic marker, not a diagnostic test for the cause of shock; it is not assessable in dark skin, and peripheral vascular disease, cold exposure or vasopressor-induced vasoconstriction can mottle the skin.",
+  "changes_what": "A high or rising mottling score should prompt escalation of perfusion-targeted resuscitation and senior/ICU review, independent of MAP or lactate."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Ait-Oufella H, Lemoinne S, Boelle PY, et al. Mottling score predicts survival in septic shock. Intensive Care Med. 2011;37(5):801-807.",
+   "doi": "10.1007/s00134-011-2163-y",
+   "pmid": "21373821",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2011
+  },
+  {
+   "citation": "Shi LJ, Ke SF, Fu LS, et al. Meta-analysis of the prognostic value of skin perfusion parameters in sepsis patients: evidence integration based on the mottling score, capillary refill time, and peripheral perfusion index. Shock. 2026.",
+   "doi": "10.1097/SHK.0000000000002885",
+   "pmid": "42258324",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2026
+  },
+  {
+   "citation": "Dumas G, Lavillegrand JR, Joffre J, et al. Mottling score is a strong predictor of 14-day mortality in septic patients whatever vasopressor doses and other tissue perfusion parameters. Crit Care. 2019;23(1):211.",
+   "doi": "10.1186/s13054-019-2496-4",
+   "pmid": "31182133",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2019
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Not assessable in dark skin (excluded from the source studies) or with severe peripheral arterial disease of the legs; does not identify the cause of shock.",
+  "escalation_warning": "Score 4-5, or a score that persists or rises after 6 h of resuscitation, carries very high short-term mortality and warrants immediate ICU-level escalation.",
+  "interobserver_note": "Excellent agreement between independent observers, kappa 0.87 (95% CI 0.72-0.97) in Ait-Oufella 2011."
+ },
+ "tier": "extracted",
+ "extraction_notes": "No sensitivity/specificity/LR for the mottling score were found, so estimates=[] and evidence_status is not_quantified; the evidence is prognostic odds ratios, recorded here with quotes. Ait-Oufella 2011 (PMID 21373821), 60 septic shock patients, ICU, 14-day mortality 45%, Abstract Results: 'mottling score [score 0-1 OR 1; score 2-3 OR 16, 95% CI (4-81); score 4-5 OR 74, 95% CI (11-1,568), p < 0.0001]'. Shi 2026 Shock meta-analysis (PMID 42258324), 22 studies n=2,727, Abstract Results: 'MS was significantly associated with 28-day mortality [odds ratio (OR) = 2.27, 95% confidence interval (CI): 1.79-2.87, P < 0.001]'. Dumas 2019 (PMID 31182133, PMC6558704 full text), 259 sepsis/septic shock patients, Table 2: 'Mottling score at H6, by point 2.26 [1.72-2.97]' (adjusted OR per point, 14-day mortality). The score is a prognostic marker in shock; the seeded differentials are retained but it does not discriminate between them.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T01:59:59+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

@@ -1,0 +1,171 @@
+{
+  "identity": {
+    "id": "exam_nec_fasc_hard_signs",
+    "title": "Necrotizing infection hard signs: hemorrhagic bullae, crepitus, skin anesthesia, spread beyond marked border",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "hypotension",
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "cellulitis_ssti",
+      "necrotizing_fasciitis",
+      "septic_shock"
+    ],
+    "indication_tags": [
+      "febrile",
+      "diabetes_insulin"
+    ]
+  },
+  "technique": {
+    "how": "Expose and inspect the whole limb/trunk: look for hemorrhagic or violaceous bullae, dusky/necrotic skin, and pain out of proportion to findings. Palpate for crepitus and woody induration, test light-touch sensation over the erythema, and mark the border with a pen to detect spread over 1-2 h.",
+    "prerequisites": "Full exposure including perineum in suspected Fournier gangrene; serial re-examination.",
+    "contraindications": "None; do not delay surgical consultation to complete the examination."
+  },
+  "interpretation": {
+    "positive_finding": "Hemorrhagic bullae (spec ~0.96), hypotension (spec ~0.98), crepitus, skin anesthesia or rapid spread beyond the marked border strongly favor necrotizing infection and mandate immediate surgical evaluation.",
+    "negative_finding": "Absence of any single hard sign does not rule out necrotizing soft tissue infection (pooled sensitivities 21-46%).",
+    "pitfalls": "Hard signs are late; early NSTI looks like cellulitis with disproportionate pain. Pooled estimates come from retrospective cohorts of patients already suspected of NSTI, so sensitivity is likely overestimated.",
+    "changes_what": "Any hard sign: call surgery now, start broad antibiotics, do not wait for CT or LRINEC; no hard signs but high suspicion still warrants surgical consultation or CT."
+  },
+  "estimates": [
+    {
+      "target_condition": "Necrotizing soft tissue infection (surgically or histologically confirmed)",
+      "population": "Adults with soft tissue infection clinically concerning for NSTI (23 studies, n=5982)",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Surgical exploration or histopathology",
+      "sensitivity": {
+        "value": 0.252,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.958,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 6.0,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.78,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.252/(1-0.958) = 6.0; LR- = (1-0.252)/0.958 = 0.78, from pooled sensitivity 25.2% and specificity 95.8% for hemorrhagic bullae",
+      "interpretation_label": "rule_in",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "for hemorrhagic bullae 25.2% and 95.8%",
+      "location": "Abstract, Results (pooled sensitivity and specificity)"
+    },
+    {
+      "target_condition": "Necrotizing soft tissue infection (surgically or histologically confirmed)",
+      "population": "Adults with soft tissue infection clinically concerning for NSTI",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Surgical exploration or histopathology",
+      "sensitivity": {
+        "value": 0.21,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.977,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 9.1,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.81,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.21/(1-0.977) = 9.1; LR- = (1-0.21)/0.977 = 0.81, from pooled sensitivity 21.0% and specificity 97.7% for hypotension",
+      "interpretation_label": "rule_in",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "for hypotension 21.0% and 97.7%",
+      "location": "Abstract, Results (pooled sensitivity and specificity)"
+    },
+    {
+      "target_condition": "Necrotizing soft tissue infection (surgically or histologically confirmed)",
+      "population": "Adults with soft tissue infection clinically concerning for NSTI",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Surgical exploration or histopathology",
+      "sensitivity": {
+        "value": 0.46,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.77,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 2.0,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.7,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.46/(1-0.77) = 2.0; LR- = (1-0.46)/0.77 = 0.70, from pooled sensitivity 46.0% and specificity 77.0% for fever",
+      "interpretation_label": "minimal",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "pooled sensitivity and specificity for fever was 46.0% and 77.0% respectively",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Fernando SM, Tran A, Cheng W, et al. Necrotizing soft tissue infection: diagnostic accuracy of physical examination, imaging, and LRINEC score: a systematic review and meta-analysis. Ann Surg 2019;269:58-65.",
+      "doi": "10.1097/SLA.0000000000002774",
+      "pmid": "29672405",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2019
+    },
+    {
+      "citation": "Johari F, Bove NJ, Saljoughi N. Diagnostic accuracy of physical examination, imaging, and LRINEC score for necrotizing soft tissue infections. Acad Emerg Med 2026. doi:10.1111/acem.70363",
+      "doi": "10.1111/acem.70363",
+      "pmid": "42286824",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2026
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Never use absence of hard signs to exclude NSTI; do not withhold surgical consultation pending LRINEC or imaging when a hard sign is present.",
+    "escalation_warning": "Hard signs plus hypotension indicate septic shock from NSTI; mortality rises with every hour of surgical delay.",
+    "interobserver_note": "Crepitus, skin anesthesia and border spread were not pooled in the meta-analysis; their reliability is unreported. Pooled CIs for bullae/hypotension are in the paper's tables (not viewed)."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Sens/spec for hemorrhagic bullae, hypotension and fever from the Fernando 2019 abstract; LRs computed by me (computed=true). 95% CIs are in the paper's tables/forest plots, which are paywalled, so ci fields are null. The 2026 Acad Emerg Med update (PMID 42286824, DOI confirmed via Crossref) has no retrievable abstract text, so it is cited without numbers. Crepitus, skin anesthesia and spread beyond the marked border have no pooled accuracy data in the visible sources.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:28:40+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

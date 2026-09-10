@@ -114,6 +114,8 @@ def report_markdown(metrics: dict[str, Any], manifest: dict[str, Any], src: str,
     L: list[str] = ["# Bedside Brief — evaluation report", ""]
     L.append(f"Run: model `{manifest.get('model')}`, git head `{manifest.get('git_head')}`, frozen commits {manifest.get('frozen_commits')}, "
              f"updated {manifest.get('updated_at')}.<!-- manifest.json -->")
+    L.append(f"Provenance: every number below is followed by an HTML comment `<!-- file#json.path -->`; relative files resolve inside "
+             f"`{manifest.get('run_dir', '<run dir>')}`.")
     if manifest.get("unfrozen_cases"):
         L.append(f"**WARNING: {len(manifest['unfrozen_cases'])} case file(s) were run UNFROZEN** (empty frozen_commit).<!-- manifest.json#unfrozen_cases -->")
     L += ["", "## Benchmark and store", "",
@@ -167,7 +169,8 @@ def write_report(run_dir: str | Path) -> Path:
     judged = json.loads(judged_p.read_text()) if judged_p.exists() else None
     write_figure(metrics, run_dir)
     p = run_dir / "report.md"
-    p.write_text(report_markdown(metrics, manifest, str(run_dir / "metrics.json"), judged))
+    manifest.setdefault("run_dir", str(run_dir))
+    p.write_text(report_markdown(metrics, manifest, "metrics.json", judged))
     return p
 
 

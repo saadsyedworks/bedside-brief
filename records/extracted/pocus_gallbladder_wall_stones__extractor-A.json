@@ -1,0 +1,143 @@
+{
+ "identity": {
+  "id": "pocus_gallbladder_wall_stones",
+  "title": "POCUS gallbladder: stones, wall thickening, sonographic Murphy sign",
+  "type": "pocus",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "abdominal_pain",
+   "fever"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "cholangitis",
+   "cholecystitis"
+  ],
+  "indication_tags": [
+   "febrile"
+  ]
+ },
+ "technique": {
+  "how": "Curvilinear probe, subcostal or intercostal RUQ window, patient supine then left lateral decubitus with deep inspiration. Image the gallbladder in long and short axis: look for echogenic, shadowing, mobile stones; measure anterior wall (>3 mm abnormal); look for pericholecystic fluid; test sonographic Murphy sign (maximal tenderness with probe over the gallbladder). Trace the common bile duct.",
+  "prerequisites": "Fasting improves distension; adequate window may need lateral decubitus; operator credentialed in RUQ POCUS.",
+  "contraindications": "None; do not delay resuscitation of an unstable patient to scan."
+ },
+ "interpretation": {
+  "positive_finding": "Stones with wall thickening, pericholecystic fluid or a sonographic Murphy sign indicate acute cholecystitis (ED POCUS sens 0.87, spec 0.82); stones alone with typical pain support biliary colic.",
+  "negative_finding": "No stones, normal wall and negative sonographic Murphy sign make calculous cholecystitis unlikely (LR- 0.16) but do not exclude acalculous cholecystitis, choledocholithiasis or cholangitis.",
+  "pitfalls": "Contracted post-prandial gallbladder, duodenal gas, polyps and sludge mimic or hide stones; wall thickening is non-specific (ascites, hepatitis, heart failure, hypoalbuminaemia). Analgesia blunts the sonographic Murphy sign.",
+  "changes_what": "Positive for cholecystitis: surgical consultation, antibiotics, consider admission; stones only: outpatient follow-up if pain resolves; negative with low pretest probability: pursue alternatives."
+ },
+ "estimates": [
+  {
+   "target_condition": "Cholelithiasis (gallstones)",
+   "population": "Symptomatic ED patients scanned by emergency physicians; 8 prospective studies, n=710",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "Radiology ultrasound, CT, MRI or surgical findings",
+   "sensitivity": {
+    "value": 0.898,
+    "ci_low": 0.864,
+    "ci_high": 0.925
+   },
+   "specificity": {
+    "value": 0.88,
+    "ci_low": 0.837,
+    "ci_high": 0.914
+   },
+   "lr_positive": {
+    "value": 7.48,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.12,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "LR+ = 0.898/(1-0.880) = 7.48; LR- = (1-0.898)/0.880 = 0.12; from pooled sensitivity 89.8% and specificity 88.0%",
+   "interpretation_label": "both",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "pooled estimates for sensitivity and specificity were 89.8% (95% confidence interval [CI] = 86.4% to 92.5%) and 88.0% (95% CI = 83.7% to 91.4%), respectively.",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Acute cholecystitis",
+   "population": "ED patients with suspected cholecystitis, academic centre, convenience sample n=189 scanned by 43 EM residents/attendings (median 2 scans each)",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "Surgical pathology or 2-week clinical follow-up",
+   "sensitivity": {
+    "value": 0.87,
+    "ci_low": 0.66,
+    "ci_high": 0.97
+   },
+   "specificity": {
+    "value": 0.82,
+    "ci_low": 0.74,
+    "ci_high": 0.88
+   },
+   "lr_positive": {
+    "value": 4.7,
+    "ci_low": 3.2,
+    "ci_high": 6.9
+   },
+   "lr_negative": {
+    "value": 0.16,
+    "ci_low": 0.06,
+    "ci_high": 0.46
+   },
+   "computed": false,
+   "interpretation_label": "both",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "bedside ultrasonography were sensitivity 87% (95% confidence interval [CI] 66% to 97%), specificity 82% (95% CI 74% to 88%), positive likelihood ratio 4.7",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Ross M, Brown M, McLaughlin K, et al. Emergency physician-performed ultrasound to diagnose cholelithiasis: a systematic review. Acad Emerg Med. 2011;18(3):227-235.",
+   "doi": "10.1111/j.1553-2712.2011.01012.x",
+   "pmid": "21401784",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2011
+  },
+  {
+   "citation": "Summers SM, Scruggs W, Menchine MD, et al. A prospective evaluation of emergency department bedside ultrasonography for the detection of acute cholecystitis. Ann Emerg Med. 2010;56(2):114-122.",
+   "doi": "10.1016/j.annemergmed.2010.01.014",
+   "pmid": "20138397",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2010
+  },
+  {
+   "citation": "Trowbridge RL, Rutkowski NK, Shojania KG. Does this patient have acute cholecystitis? JAMA. 2003;289(1):80-86.",
+   "doi": "10.1001/jama.289.1.80",
+   "pmid": "12503981",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2003
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use a negative POCUS to exclude acalculous cholecystitis in critically ill/ICU patients or cholangitis when jaundice or sepsis is present.",
+  "escalation_warning": "Gallbladder findings with fever, jaundice, hypotension or dilated CBD suggest cholangitis or gangrenous cholecystitis: urgent antibiotics, surgical and biliary (ERCP) consultation.",
+  "interobserver_note": "Accuracy reported for EM residents and attendings after brief training; the sonographic Murphy sign and wall measurement are the most operator-dependent elements.",
+  "skill_assumption": "Emergency physician credentialed in RUQ POCUS (typical ACEP-level training, ~25 supervised scans); pooled data are from EP operators, not sonographers."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Ross 2011 pooled estimate is for cholelithiasis, not cholecystitis; LRs computed by extractor from the pooled sens/spec (no pooled LR in abstract). Summers 2010 gives EP-performed POCUS for acute cholecystitis with a wide sensitivity CI (23 pathology-confirmed cases). Trowbridge 2003 RCE cited as index for the clinical context; its sonographic Murphy data are not visible. Component-level accuracy (wall thickness, sonographic Murphy alone) not entered because no reachable source reports it with a location.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:00:08+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}
