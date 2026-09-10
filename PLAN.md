@@ -8,8 +8,8 @@
 
 ## Phase 1 — Extraction (Days 1–3, runs in background)
 - [x] Build `agents/extractor.md` from `extraction_packet_spec.md`. Build `agents/redteam.md`. (Shipped in handoff; plus `tools/pubmed.py`, `tools/record_skeleton.py`, `tools/diff_report.py`.)
-- [ ] Run extractor-A and extractor-B over all ids, batched by presentation, cardiology first. Write to `records/extracted/`.
-- [ ] Red-team each batch. Produce `records/diff_report.md`: per id, agreement status, flagged issues, and a suggested verification order (disagreements first, then rce_backed agreements, then rest).
+- [x] Run extractor-A and extractor-B over all ids, batched by presentation, cardiology first. Write to `records/extracted/`. (306 packets / 153 ids in 4 waves.)
+- [~] Red-team each batch (waves 1–3 done, wave 4 running). Produce `records/diff_report.md`: per id, agreement status, flagged issues, and a suggested verification order (disagreements first, then rce_backed agreements, then rest).
 - [x] Build `tools/verify_ui.py` (done; 9 tests) — owner gate pending:: side-by-side packet view with quote + location + link, one-click promote/reject/edit → writes `records/verified/{id}.json` with `verified_by`, `verified_at`. Owner gate: hand over the queue.
 
 ## Phase 2 — Pipeline (Days 2–3, parallel with extraction)
@@ -34,11 +34,11 @@
 ## Phase 4 — Fix + report (Day 6)
 - [ ] Fix high-impact failure modes in pipeline only. Re-run frozen set. Report both runs.
 - [x] `eval/report.py`: tables + figure (bedside share A vs C; recall A vs B vs C).
-- [ ] Draft `abstract.md` (≤400 words: background, innovation, methods, results, limitations, conclusion). Every number annotated with its source file path in a comment. Owner gate.
+- [~] Draft `abstract.md` — skeleton done (2 variants, every number a traced placeholder; fill after the reportable run) (≤400 words: background, innovation, methods, results, limitations, conclusion). Every number annotated with its source file path in a comment. Owner gate.
 
 ## Phase 5 — Submit (Day 7)
-- [ ] Number audit: script cross-checks abstract numbers against run outputs.
-- [ ] README with reproducibility notes; tag release `abstract-v1`.
+- [x] Number audit: `tools/number_audit.py` cross-checks abstract numbers against run outputs (11 tests).
+- [~] README with reproducibility notes (done); tag release `abstract-v1` after owner abstract sign-off.
 
 ## Fallback (trigger Sunday night if verified < 60 or end-to-end fails)
 Development abstract: architecture, store statistics (N extracted, N verified, not-quantified share, presentations covered), frozen benchmark described, comparison "in progress." No comparison numbers.
