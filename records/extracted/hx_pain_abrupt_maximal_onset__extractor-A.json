@@ -1,0 +1,128 @@
+{
+  "identity": {
+    "id": "hx_pain_abrupt_maximal_onset",
+    "title": "Pain abrupt in onset and maximal at onset (thunderclap-type chest/back pain)",
+    "type": "history",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "chest_pain",
+      "syncope",
+      "abdominal_pain"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "aaa",
+      "aortic_dissection",
+      "pneumothorax",
+      "pulmonary_embolism"
+    ],
+    "indication_tags": [
+      "acute_onset"
+    ]
+  },
+  "technique": {
+    "how": "Ask open-ended how the pain started, then specifically whether it reached its worst intensity within seconds to a minute ('like a switch') versus building over minutes to hours. Record onset character separately from quality (tearing/ripping), location and migration; ask what the patient was doing at onset.",
+    "prerequisites": "Patient (or witness) able to describe onset; document before analgesia clouds recall.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Abrupt, maximal-at-onset pain is present in about 84-96% of confirmed aortic dissections and is a mandated high-risk feature in the AHA aortic dissection detection score; it also fits pneumothorax and PE.",
+    "negative_finding": "Gradual onset makes dissection less likely (RCE pooled LR- 0.3; case-control LR- 0.07) but is not sufficient alone to exclude it given the lethality of a miss.",
+    "pitfalls": "Sensitivity comes largely from case series of confirmed dissection (spectrum bias); patients with syncope, altered mentation or painless dissection cannot report onset. Abrupt onset is common in benign musculoskeletal and anxiety pain, so specificity is low.",
+    "changes_what": "Abrupt onset plus any other ADD-RS high-risk feature: image the aorta (CTA) now; gradual onset with no high-risk features and an alternative diagnosis lowers dissection priority."
+  },
+  "estimates": [
+    {
+      "target_condition": "Acute thoracic aortic dissection",
+      "population": "Pooled case series of consecutive patients with confirmed dissection (21 studies); finding = pain of sudden onset",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Imaging-, surgery- or autopsy-confirmed dissection",
+      "sensitivity": {
+        "value": 0.84,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": {
+        "value": 0.3,
+        "ci_low": 0.2,
+        "ci_high": 0.5
+      },
+      "computed": false,
+      "interpretation_label": "rule_out",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "of sudden onset (sensitivity, 84%). The absence of sudden pain onset lowers the likelihood of dissection (negative likelihood ratio [LR], 0.3",
+      "location": "Abstract, Results (abstract continues: 95% confidence interval [CI], 0.2-0.5)"
+    },
+    {
+      "target_condition": "Acute aortic dissection (non-traumatic, CT/echo confirmed)",
+      "population": "Matched case-control: 194 AAD cases vs 776 ED controls with truncal pain <14 days and no clear diagnosis; finding = abrupt-onset pain",
+      "setting": "ED",
+      "prevalence": null,
+      "reference_standard": "CT angiography or echocardiography",
+      "sensitivity": {
+        "value": 0.959,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": {
+        "value": 0.07,
+        "ci_low": 0.03,
+        "ci_high": 0.14
+      },
+      "computed": false,
+      "interpretation_label": "rule_out",
+      "evidence_level": "single_study",
+      "source_index": 1,
+      "quote": "Absence of abrupt-onset pain (sensitivity = 95.9%, negative likelihood ratio = 0.07 [0.03-0.14]) can help rule out AAD",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Klompas M. Does this patient have an acute thoracic aortic dissection? JAMA. 2002;287(17):2262-2272.",
+      "doi": "10.1001/jama.287.17.2262",
+      "pmid": "11980527",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2002
+    },
+    {
+      "citation": "Ohle R, Um J, Anjum O, et al. High Risk Clinical Features for Acute Aortic Dissection: A Case-Control Study. Acad Emerg Med. 2019;26(3):268-277.",
+      "doi": "10.1111/acem.13356",
+      "pmid": "29218798",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2019
+    },
+    {
+      "citation": "Ohle R, Kareemi HK, Wells G, Perry JJ. Clinical Examination for Acute Aortic Dissection: A Systematic Review and Meta-analysis. Acad Emerg Med. 2018;25(4):397-412.",
+      "doi": "10.1111/acem.13360",
+      "pmid": "29265487",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2018
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use gradual onset to exclude dissection in patients with syncope, neurologic deficit, pulse deficit, hypotension, Marfan/known aneurysm, or who cannot give a history.",
+    "escalation_warning": "Abrupt maximal pain with hypotension, focal neurologic deficit, pulse differential or new diastolic murmur is dissection until proven otherwise: CTA and surgical/vascular notification immediately.",
+    "interobserver_note": "Onset descriptors are recall-dependent and were abstracted retrospectively from charts in most source studies; no kappa reported for the finding itself."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Klompas 2002 RCE sensitivity and LR- come from the abstract (pooled from case series, so specificity/LR+ are not estimable); the CI 0.2-0.5 follows immediately in the abstract but was trimmed from the quote to meet the 25-word limit. Ohle 2019 case-control gives sensitivity and LR- with CI (specificity for abrupt onset not in abstract; case-control design inflates apparent accuracy). The Ohle 2018 meta-analysis abstract does not report abrupt-onset pain (full text not open access), so it is cited for context only, no estimate attached.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T01:47:44+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

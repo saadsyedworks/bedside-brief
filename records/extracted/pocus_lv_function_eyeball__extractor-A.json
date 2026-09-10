@@ -1,0 +1,151 @@
+{
+  "identity": {
+    "id": "pocus_lv_function_eyeball",
+    "title": "POCUS cardiac: qualitative LV systolic function (normal / reduced / severely reduced; EPSS as adjunct) in PLAX/A4C",
+    "type": "pocus",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "chest_pain",
+      "syncope",
+      "edema",
+      "hypotension",
+      "aki"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "acs",
+      "acute_decompensated_hf",
+      "aortic_stenosis",
+      "cardiogenic_shock",
+      "cardiorenal",
+      "septic_shock"
+    ],
+    "indication_tags": [
+      "hf_known"
+    ]
+  },
+  "technique": {
+    "how": "Phased-array probe; parasternal long axis, short axis and apical 4-chamber. Judge endocardial excursion and wall thickening and grade LV function as normal, reduced or severely reduced by eye. Adjunct: in PLAX M-mode through the mitral tip, measure E-point septal separation; >7 mm suggests reduced EF.",
+    "prerequisites": "Trained operator; at least two adequate views; interpret in the context of heart rate, preload and regional wall-motion.",
+    "contraindications": "None; do not delay resuscitation for imaging in an unstable patient."
+  },
+  "interpretation": {
+    "positive_finding": "A visually reduced or severely reduced LV in the hands of a trained emergency clinician agrees with expert assessment (pooled sensitivity 89%, LR+ 6) and shifts a hypotensive or dyspneic patient toward cardiogenic shock/ADHF; EPSS >7 mm is 100% sensitive for EF <=30% in one ED cohort.",
+    "negative_finding": "A visually normal LV makes severe systolic dysfunction unlikely (pooled LR- 0.13) but does not exclude diastolic HF, valvular disease, or a regional infarct; EPSS <=7 mm argues against severe systolic dysfunction (spec 52%).",
+    "pitfalls": "Sepsis, tachycardia and preload change alter apparent function; mitral stenosis, aortic regurgitation and LVH invalidate EPSS. Agreement is moderate for the intermediate 'reduced' category and poorer with limited training or poor windows (22% poor quality in Moore 2002).",
+    "changes_what": "Severely reduced LV with hypotension: treat as cardiogenic shock (inotrope, cardiology, limit fluids); a normal hyperdynamic LV points to hypovolemic/distributive causes and permits fluids."
+  },
+  "estimates": [
+    {
+      "target_condition": "Abnormal (reduced) LV systolic function, normal vs abnormal, by visual estimation",
+      "population": "ED patients; 7 studies, 786 scans; ED clinician sonographers vs expert sonographer",
+      "setting": "ED",
+      "prevalence": null,
+      "reference_standard": "Expert sonographer (cardiologist/comprehensive echo) assessment of LVSF",
+      "sensitivity": {
+        "value": 0.89,
+        "ci_low": 0.8,
+        "ci_high": 0.94
+      },
+      "specificity": {
+        "value": 0.85,
+        "ci_low": 0.8,
+        "ci_high": 0.89
+      },
+      "lr_positive": {
+        "value": 5.98,
+        "ci_low": 4.13,
+        "ci_high": 8.68
+      },
+      "lr_negative": {
+        "value": 0.13,
+        "ci_low": 0.06,
+        "ci_high": 0.24
+      },
+      "computed": false,
+      "interpretation_label": "both",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "sensitivity, specificity, positive and negative likelihood ratio of 89% (95% CI, 80-94%), 85% (95% CI, 80-89%), 5.98 (95% CI, 4.13-8.68) and 0.13 (95% CI, 0.06-0.24)",
+      "location": "Abstract, Results (visual estimation subgroup; kappa 0.68 [0.57-0.79])"
+    },
+    {
+      "target_condition": "Severe LV systolic dysfunction (LVEF <=30%) by EPSS >7 mm",
+      "population": "Convenience sample of ED patients receiving comprehensive TTE; scans by 3 ED ultrasound fellows",
+      "setting": "ED",
+      "prevalence": null,
+      "reference_standard": "Calculated LVEF from comprehensive transthoracic echocardiography",
+      "sensitivity": {
+        "value": 1.0,
+        "ci_low": 0.629,
+        "ci_high": 1.0
+      },
+      "specificity": {
+        "value": 0.516,
+        "ci_low": 0.386,
+        "ci_high": 0.645
+      },
+      "lr_positive": {
+        "value": 2.07,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.0,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 1.00/(1-0.516); LR- = (1-1.00)/0.516 from sens/spec in abstract",
+      "interpretation_label": "rule_out",
+      "evidence_level": "single_study",
+      "source_index": 1,
+      "quote": "EPSS measurement of greater than 7 mm for severe systolic dysfunction (LVEF<=30%) were 100.0% (95% confidence interval, 62.9-100.0) and 51.6% (95% confidence interval, 38.6-64.5)",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Albaroudi B, Haddad M, Albaroudi O, Abdel-Rahman ME, Jarman R, Harris T. Assessing left ventricular systolic function by emergency physician using point of care echocardiography compared to expert: systematic review and meta-analysis. Eur J Emerg Med. 2022;29(1):18-32.",
+      "doi": "10.1097/MEJ.0000000000000866",
+      "pmid": "34406134",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8691376/",
+      "kind": "meta_analysis",
+      "year": 2021
+    },
+    {
+      "citation": "McKaigney CJ, Krantz MJ, La Rocque CL, Hurst ND, Buchanan MS, Kendall JL. E-point septal separation: a bedside tool for emergency physician assessment of left ventricular ejection fraction. Am J Emerg Med. 2014;32(6):493-497.",
+      "doi": "10.1016/j.ajem.2014.01.045",
+      "pmid": "24630604",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2014
+    },
+    {
+      "citation": "Moore CL, Rose GA, Tayal VS, Sullivan DM, Arrowood JA, Kline JA. Determination of left ventricular function by emergency physician echocardiography of hypotensive patients. Acad Emerg Med. 2002;9(3):186-193.",
+      "doi": "10.1111/j.1553-2712.2002.tb00242.x",
+      "pmid": "11874773",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2002
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use eyeball EF to exclude ACS, valvular emergency or tamponade; do not apply EPSS with mitral stenosis, aortic regurgitation, or marked septal hypertrophy.",
+    "escalation_warning": "Severely reduced LV function with hypotension or pulmonary edema: treat as cardiogenic shock, obtain ECG/troponin immediately, and involve cardiology; consider mechanical support pathways.",
+    "interobserver_note": "Pooled kappa 0.68 (normal/abnormal) and weighted kappa 0.70 (three categories) vs experts (Albaroudi 2021); Moore 2002: EP-cardiologist weighted kappa 0.61, cardiologist-cardiologist r 0.84, with 22% of studies rated poor quality.",
+    "skill_assumption": "Emergency clinicians with focused echo training (as in included studies, often ultrasound fellows or credentialed EPs); the intermediate 'reduced' grade is least reliable and hypotensive patients yield more poor-quality windows."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Primary pooled estimate from Albaroudi 2021 abstract (visual-estimation subgroup, 7 studies; reference standard is expert sonographer agreement, not an outcome). EPSS estimate from McKaigney 2014 abstract; LRs computed (spec CI wide, n small). Moore 2002 (anchor) reports only correlation (r=0.86) and weighted kappa 0.61 in hypotensive patients, so no sens/spec estimate is attached; it is cited for the hypotensive-population reliability statement. Albaroudi full text is PMC OA but per-study tables were not needed for the pooled values.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T01:47:44+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

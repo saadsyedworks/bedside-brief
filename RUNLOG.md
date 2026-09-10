@@ -12,3 +12,5 @@
 - 02:20 Author revisions ×3 applied (commit 09cc20b). Critic re-check: 26 pass / 10 fix → 11 exact edits applied by coordinator; validator 0 errors.
 - 02:25 LLM modules (llm/parser/rank/pipeline/api) + 24 tests landed (54 total, all green); live startup_check → gpt-4.1. Commit 8bff84c.
 - 02:30 PHASE0_GATE.md generated; owner gate opened. Phase 1 cardiology extraction starting in background.
+- 03:40 Owner gate rulings received (DECISIONS #18); vocab cross-listings, 5 palpitations ids, compound splits, chest_pain_002 re-branch applied. Critic split re-check running.
+- 03:45 Wave 1 (24 ids) + wave 2 (34 ids) extraction complete: 116 packets, validator 0 errors; status 72 quantified / 38 partial / 6 not_quantified; diff: 2 agree, 42 partial, 14 disagree. Red-team wave 1 running. verify_ui.py built (9 tests). Wave 3 (37 ids: shock/renal/neuro/abdomen/AMS + 2 palpitations) launched.

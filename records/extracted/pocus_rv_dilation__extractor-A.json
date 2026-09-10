@@ -1,0 +1,141 @@
+{
+  "identity": {
+    "id": "pocus_rv_dilation",
+    "title": "POCUS cardiac: RV dilation (RV:LV >1), septal flattening, McConnell sign",
+    "type": "pocus",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "chest_pain",
+      "syncope",
+      "edema",
+      "hypotension"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "cardiogenic_shock",
+      "pulmonary_embolism",
+      "rv_failure_pulmonary_hypertension"
+    ],
+    "indication_tags": [
+      "acute_onset",
+      "malignancy",
+      "recent_immobilization"
+    ]
+  },
+  "technique": {
+    "how": "Phased-array probe; obtain apical 4-chamber (plus parasternal long/short axis and subcostal). Compare RV to LV end-diastolic basal diameter: RV:LV >1 = dilated. Look for interventricular septal flattening/paradoxical motion (D-shaped LV in short axis) and McConnell sign (RV free-wall akinesis with preserved apical motion).",
+    "prerequisites": "Trained operator with cardiac POCUS competence; adequate apical window (foreshortening exaggerates or hides RV size).",
+    "contraindications": "None; do not delay treatment of an unstable patient for image acquisition."
+  },
+  "interpretation": {
+    "positive_finding": "RV dilation (RV:LV >1) in a patient with moderate/high pretest probability is highly specific for PE (98% in Dresden 2014; LR+ 29) and, with shock, supports thrombolysis decisions; McConnell sign and septal flattening were seen only in PE patients in that cohort.",
+    "negative_finding": "Normal RV size does not exclude PE: sensitivity is ~50% (pooled 53% for 'right heart strain'), so a negative scan should not stop CTPA or D-dimer-based workup.",
+    "pitfalls": "Chronic pulmonary hypertension, COPD, RV infarct and ARDS also dilate the RV; RV dilation is a marker of large PE, not of PE in general. Foreshortened apical views and off-axis cuts misjudge RV:LV ratio.",
+    "changes_what": "Positive with shock: treat as massive PE (anticoagulate; consider lysis/embolectomy); positive without shock: proceed to CTPA and risk-stratify; negative: continue standard PE workup."
+  },
+  "estimates": [
+    {
+      "target_condition": "Pulmonary embolism; finding = right ventricular dilatation (RV:LV >1:1) on EP bedside echo",
+      "population": "146 ED patients with suspected (moderate-high pretest probability) or confirmed PE; 30 had PE",
+      "setting": "ED",
+      "prevalence": 0.205,
+      "reference_standard": "Final radiology reading of CT pulmonary angiography or V/Q scan (chart review)",
+      "sensitivity": {
+        "value": 0.5,
+        "ci_low": 0.32,
+        "ci_high": 0.68
+      },
+      "specificity": {
+        "value": 0.98,
+        "ci_low": 0.95,
+        "ci_high": 1.0
+      },
+      "lr_positive": {
+        "value": 29,
+        "ci_low": 6.1,
+        "ci_high": 64
+      },
+      "lr_negative": {
+        "value": 0.51,
+        "ci_low": 0.4,
+        "ci_high": 0.7
+      },
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "Positive and negative likelihood ratios were determined to be 29 (95% CI 6.1% to 64%) and 0.51 (95% CI 0.4% to 0.7%)",
+      "location": "Abstract, Results (sens 50% [32-68], spec 98% [95-100] in preceding sentence of the abstract)"
+    },
+    {
+      "target_condition": "Pulmonary embolism; finding = undefined 'right heart strain' on transthoracic echo",
+      "population": "Pooled systematic review of TTE diagnostic-accuracy studies for PE through 2016 (various operators, ED/ICU/inpatient)",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "CT pulmonary angiography or other confirmatory imaging per study",
+      "sensitivity": {
+        "value": 0.53,
+        "ci_low": 0.45,
+        "ci_high": 0.61
+      },
+      "specificity": {
+        "value": 0.83,
+        "ci_low": 0.74,
+        "ci_high": 0.9
+      },
+      "lr_positive": {
+        "value": 3.1,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.57,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.53/(1-0.83); LR- = (1-0.53)/0.83 from pooled sens/spec in abstract",
+      "interpretation_label": "modest",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "it had a sensitivity of 53% (95% CI, 45%-61%) and a specificity of 83% (95% CI, 74%-90%)",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Dresden S, Mitchell P, Rahimi L, et al. Right ventricular dilatation on bedside echocardiography performed by emergency physicians aids in the diagnosis of pulmonary embolism. Ann Emerg Med. 2014;63(1):16-24.",
+      "doi": "10.1016/j.annemergmed.2013.08.016",
+      "pmid": "24075286",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2014
+    },
+    {
+      "citation": "Fields JM, Davis J, Girson L, et al. Transthoracic Echocardiography for Diagnosing Pulmonary Embolism: A Systematic Review and Meta-Analysis. J Am Soc Echocardiogr. 2017;30(7):714-723.e4.",
+      "doi": "10.1016/j.echo.2017.03.004",
+      "pmid": "28495379",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2017
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use a normal RV to exclude PE; do not attribute RV dilation to PE without considering chronic pulmonary hypertension, COPD or RV infarction, especially when the RV wall is thickened.",
+    "escalation_warning": "RV dilation with hypotension or syncope in suspected PE indicates massive/high-risk PE: immediate anticoagulation and reperfusion decision (lysis or embolectomy) without waiting for CTPA if unstable.",
+    "interobserver_note": "Dresden 2014 reported 96% observed agreement between co-investigators and the principal investigator on recorded images; Fields 2017 found signs inconsistently defined across studies ('undefined right heart strain' most common).",
+    "skill_assumption": "Emergency physician credentialed in focused cardiac ultrasound with adequate apical 4-chamber acquisition; the Dresden cohort used trained EP investigators in a convenience sample enriched for moderate/high pretest probability."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Dresden 2014 provides the RV:LV >1 estimate with CIs directly from the abstract (the abstract prints LR CIs with stray '%' signs, transcribed as ratios). Fields 2017 abstract only quantifies the undefined 'right heart strain' sign (LRs computed here); per-sign pooled values for RV:LV ratio, septal motion and McConnell sign are in full-text tables that are not open access, so they are not extracted. McConnell/septal flattening in Dresden were 6/6 and 8/8 PE-positive: too few to give sens/spec, described in prose only.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T01:47:44+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

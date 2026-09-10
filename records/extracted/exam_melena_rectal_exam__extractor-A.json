@@ -1,0 +1,128 @@
+{
+  "identity": {
+    "id": "exam_melena_rectal_exam",
+    "title": "Melena on digital rectal exam, or reported black tarry stool / hematemesis",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "syncope",
+      "hypotension",
+      "dizziness",
+      "abdominal_pain",
+      "weakness"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "anemia",
+      "hypovolemic_hemorrhagic_shock",
+      "orthostatic_hypotension",
+      "peptic_ulcer"
+    ],
+    "indication_tags": [
+      "anticoagulated",
+      "cirrhosis_known"
+    ]
+  },
+  "technique": {
+    "how": "Ask about black, tarry, sticky, foul-smelling stool and any hematemesis or coffee-ground emesis, and about iron, bismuth or recent NSAID/anticoagulant use. Perform a digital rectal exam and inspect the glove: melena is black, tarry and glistening; distinguish from formed dark stool and from red blood or clots.",
+    "prerequisites": "Patient consent and privacy; gloves; adequate light to inspect stool colour.",
+    "contraindications": "Relative: severe neutropenia, recent anorectal surgery, or patient refusal; never delay resuscitation for the exam."
+  },
+  "interpretation": {
+    "positive_finding": "Melenic stool on examination strongly indicates an upper GI source (LR 25), and reported melena moderately so (LR 5.1-5.9); in a patient with syncope or hypotension it establishes hemorrhage as the likely cause.",
+    "negative_finding": "Absence of melena does not exclude UGIB (brisk bleeds present as hematochezia); blood clots in stool argue against an upper source (LR 0.05).",
+    "pitfalls": "Iron and bismuth cause black non-tarry stool; melena requires roughly 50 mL of blood and ~8 h of transit, so early or very brisk bleeds may not yet show it. Melena localizes the source but does not by itself grade severity.",
+    "changes_what": "Positive: treat as UGIB (IV access, type and screen, PPI, early endoscopy, Glasgow-Blatchford risk stratification); clots or bright red blood redirect to a lower source."
+  },
+  "estimates": [
+    {
+      "target_condition": "Upper GI bleeding (vs lower GI source); finding = melenic stool on examination",
+      "population": "Adults admitted or evaluated in ED with acute GI bleeding (8 studies of UGIB vs LGIB; N=1776)",
+      "setting": "mixed",
+      "prevalence": 0.63,
+      "reference_standard": "Endoscopic localization of bleeding source",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 25,
+        "ci_low": 4,
+        "ci_high": 174
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "melenic stool on examination (LR, 25; 95% CI, 4-174)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Upper GI bleeding (vs lower GI source); finding = patient-reported history of melena",
+      "population": "Adults with acute GI bleeding, studies of UGIB vs LGIB localization",
+      "setting": "mixed",
+      "prevalence": 0.63,
+      "reference_standard": "Endoscopic localization of bleeding source",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 5.1,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "a patient-reported history of melena (LR range, 5.1-5.9)",
+      "location": "Abstract, Results (reported as a range across studies, 5.1-5.9, not a CI; lower bound entered as value)"
+    },
+    {
+      "target_condition": "Upper GI bleeding (vs lower GI source); finding = blood clots in stool (present)",
+      "population": "Adults with acute GI bleeding, studies of UGIB vs LGIB localization",
+      "setting": "mixed",
+      "prevalence": 0.63,
+      "reference_standard": "Endoscopic localization of bleeding source",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 0.05,
+        "ci_low": 0.01,
+        "ci_high": 0.38
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_out",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "the presence of blood clots in stool (LR, 0.05; 95% CI, 0.01-0.38) decreases the likelihood of a UGIB",
+      "location": "Abstract, Results (LR for presence of clots, i.e. finding present argues against UGIB)"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Srygley FD, Gerardo CJ, Tran T, Fisher DA. Does this patient have a severe upper gastrointestinal bleed? JAMA. 2012;307(10):1072-1079.",
+      "doi": "10.1001/jama.2012.253",
+      "pmid": "22416103",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2012
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use absence of melena to exclude significant bleeding in a hypotensive or syncopal patient, or attribute black stool to bleeding without excluding iron/bismuth.",
+    "escalation_warning": "Melena with tachycardia, hypotension, hemoglobin <8 g/dL, cirrhosis or anticoagulation indicates severe UGIB: two large-bore IVs, blood products, urgent GI endoscopy and monitored bed.",
+    "interobserver_note": "RCE 2012 pooled LR for melena on exam has a very wide CI (4-174) reflecting few studies; reported melena varies with patient recall and stool inspection."
+  },
+  "tier": "extracted",
+  "extraction_notes": "All estimates from the Srygley 2012 JAMA RCE abstract; sensitivity/specificity for melena are not reported in the abstract and full text is not open access, so left null. Reported-melena LR is given as a range (5.1-5.9) across studies, entered as value 5.1 with no CI rather than averaged. Severity markers (tachycardia LR 4.9, Hb <8 LR 4.5-6.2, Blatchford 0 LR 0.02) belong to the severity question and are mentioned only in escalation_warning. NSAID-history RCE (PMID 16595759) was not fetched within budget and is not cited.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T01:47:44+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

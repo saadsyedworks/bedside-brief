@@ -1,0 +1,181 @@
+{
+  "identity": {
+    "id": "exam_pulsatile_abdominal_mass",
+    "title": "Palpable pulsatile abdominal mass (widened aortic pulsation)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "syncope",
+      "hypotension",
+      "abdominal_pain"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "aaa",
+      "hypovolemic_hemorrhagic_shock"
+    ],
+    "indication_tags": [
+      "elderly"
+    ]
+  },
+  "technique": {
+    "how": "Patient supine, knees flexed, abdomen relaxed. Palpate deeply just left of midline above the umbilicus to find the aortic pulse, then place both hands on either side of it to estimate width; an expansile pulsation >3 cm (or clearly widened) is positive. Focus on width, not simply feeling a pulse.",
+    "prerequisites": "Relaxed abdominal wall; thin to average habitus for reliable assessment.",
+    "contraindications": "None reported; palpation has not been shown to precipitate rupture."
+  },
+  "interpretation": {
+    "positive_finding": "A widened aortic pulsation substantially raises the probability of AAA (LR+ 12 for >=3.0 cm, 15.6 for >=4.0 cm) in screening populations, with PPV ~43%.",
+    "negative_finding": "Absence of a widened pulsation barely lowers probability (LR- 0.72 for >=3 cm; 0.51 for >=4 cm); sensitivity is only 29% for 3.0-3.9 cm and 76% for >=5.0 cm aneurysms.",
+    "pitfalls": "Sensitivity falls with abdominal obesity and small aneurysms; a normal but prominent aorta in thin patients is a common false positive. In ED patients with pain or shock, 50% lack the classic triad, and a tender abdomen limits deep palpation.",
+    "changes_what": "Positive: obtain aortic ultrasound/CT promptly (immediately if symptomatic); negative does not exclude AAA, so image any at-risk patient with unexplained abdominal/back pain, syncope or shock."
+  },
+  "estimates": [
+    {
+      "target_condition": "Abdominal aortic aneurysm >=3.0 cm",
+      "population": "Pooled 15 studies of patients not previously known to have AAA, screened with palpation and ultrasound",
+      "setting": "outpatient",
+      "prevalence": null,
+      "reference_standard": "Abdominal ultrasound",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 12.0,
+        "ci_low": 7.4,
+        "ci_high": 19.5
+      },
+      "lr_negative": {
+        "value": 0.72,
+        "ci_low": 0.65,
+        "ci_high": 0.81
+      },
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "using a cutoff point for AAAs of 3.0 cm or greater are 12.0 (95% CI, 7.4-19.5) and 0.72 (95% CI, 0.65-0.81)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Abdominal aortic aneurysm >=4.0 cm",
+      "population": "Pooled 15 screening studies, patients not previously known to have AAA",
+      "setting": "outpatient",
+      "prevalence": null,
+      "reference_standard": "Abdominal ultrasound",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 15.6,
+        "ci_low": 8.6,
+        "ci_high": 28.5
+      },
+      "lr_negative": {
+        "value": 0.51,
+        "ci_low": 0.38,
+        "ci_high": 0.67
+      },
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "for AAAs of 4.0 cm or greater are 15.6 (95% CI, 8.6-28.5) and 0.51 (95% CI, 0.38-0.67)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "AAA 3.0-3.9 cm (sensitivity by diameter)",
+      "population": "Pooled screening studies",
+      "setting": "outpatient",
+      "prevalence": null,
+      "reference_standard": "Abdominal ultrasound",
+      "sensitivity": {
+        "value": 0.29,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "minimal",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "ranging from 29% for AAAs of 3.0 to 3.9 cm",
+      "location": "Abstract, Results (3.0-3.9 cm stratum)"
+    },
+    {
+      "target_condition": "AAA 4.0-4.9 cm (sensitivity by diameter)",
+      "population": "Pooled screening studies",
+      "setting": "outpatient",
+      "prevalence": null,
+      "reference_standard": "Abdominal ultrasound",
+      "sensitivity": {
+        "value": 0.5,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "50% for AAAs of 4.0 to 4.9 cm",
+      "location": "Abstract, Results (4.0-4.9 cm stratum)"
+    },
+    {
+      "target_condition": "AAA >=5.0 cm (sensitivity by diameter)",
+      "population": "Pooled screening studies",
+      "setting": "outpatient",
+      "prevalence": null,
+      "reference_standard": "Abdominal ultrasound",
+      "sensitivity": {
+        "value": 0.76,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "76% for AAAs of 5.0 cm or greater",
+      "location": "Abstract, Results (>=5.0 cm stratum)"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Lederle FA, Simel DL. The rational clinical examination. Does this patient have abdominal aortic aneurysm? JAMA. 1999;281(1):77-82.",
+      "doi": "10.1001/jama.281.1.77",
+      "pmid": "9892455",
+      "url": null,
+      "kind": "rce_series",
+      "year": 1999
+    },
+    {
+      "citation": "Rubano E, Mehta N, Caputo W, Paladino L, Sinert R. Systematic review: emergency department bedside ultrasonography for diagnosing suspected abdominal aortic aneurysm. Acad Emerg Med. 2013;20(2):128-138.",
+      "doi": "10.1111/acem.12080",
+      "pmid": "23406071",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2013
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Never use a negative palpation to exclude AAA in a symptomatic or hypotensive patient, in obese patients, or when rupture is possible; sensitivity is too low.",
+    "escalation_warning": "Pulsatile mass with abdominal/back pain, syncope or hypotension = presumed ruptured AAA: immediate bedside ultrasound, vascular surgery, and no delay for CT if unstable.",
+    "interobserver_note": "Pooled estimates derive from screening cohorts with palpation directed specifically at aortic width; casual abdominal exam performs worse and reliability data are limited."
+  },
+  "tier": "extracted",
+  "extraction_notes": "All numbers from the Lederle & Simel 1999 RCE abstract; these are screening-population estimates (asymptomatic, not known AAA) and will overstate sensitivity in obese or tender-abdomen ED patients. Specificity is not in the abstract and full text is not open access, so left null. Rubano 2013 cited for the ED context statement that 50% of AAA patients lack the classic triad (no estimate attached).",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T01:47:44+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}
