@@ -1,0 +1,159 @@
+{
+ "identity": {
+  "id": "hx_recent_antibiotics_new_diarrhea",
+  "title": "Antibiotic exposure within 8-12 weeks plus new watery diarrhea (>=3/day) or ileus/distension",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "abdominal_pain",
+   "fever"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "cdiff_colitis"
+  ],
+  "indication_tags": [
+   "new_medication",
+   "immunocompromised"
+  ]
+ },
+ "technique": {
+  "how": "Ask about any systemic antibiotic in the preceding 8-12 weeks (name, dates), hospital or long-term-care exposure, and characterise the diarrhoea: new onset, number of unformed/watery stools per 24 h (>=3), duration, blood. In the ill patient without diarrhoea, look for abdominal distension, absent bowel sounds or radiographic ileus, which can represent fulminant CDI.",
+  "prerequisites": "Medication reconciliation including outpatient prescriptions; stool chart if inpatient.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Prior antibiotic use plus >=3 watery stools/24 h defines the population in whom C. difficile testing is indicated; in tested inpatients the combination had sensitivity about 0.80 but specificity only 0.45, so it selects for testing rather than diagnosing. Toxin/NAAT testing is required for diagnosis.",
+  "negative_finding": "No antibiotic exposure and no significant diarrhoea/abdominal pain makes a positive C. difficile assay unlikely (NPV about 94-97% in tested inpatients; misclassification 2.8% in validation); testing can usually be deferred and other causes (laxatives, feeds, medications) pursued.",
+  "pitfalls": "Community-acquired CDI occurs without recent antibiotics; ileus/megacolon presents without diarrhoea. Fever, abdominal pain and leukocytosis were not discriminating for toxin positivity in one prospective cohort, and laxative or tube-feed diarrhoea produces false positives on the history alone.",
+  "changes_what": "Positive: send stool for C. difficile testing and consider empirical therapy if severe; stop unnecessary antibiotics/PPIs. Negative: defer testing, look for other diarrhoea causes."
+ },
+ "estimates": [
+  {
+   "target_condition": "Positive C. difficile stool cytotoxin assay - rule positive if BOTH antibiotic use within 30 days AND significant diarrhoea (new onset of >3 partially formed or watery stools per 24 h); threshold differs from id (30 days, not 8-12 weeks)",
+   "population": "480 consecutive hospitalised adults undergoing diagnostic C. difficile cytotoxin testing at a university hospital and affiliated VA medical centre, USA (derivation cohort)",
+   "setting": "inpatient",
+   "prevalence": 0.14,
+   "reference_standard": "C. difficile stool cytotoxin assay",
+   "sensitivity": {
+    "value": 0.8,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.45,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 1.45,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.44,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "LR+ = 0.80/(1-0.45) = 1.45; LR- = (1-0.80)/0.45 = 0.44; sens/spec and prevalence ('overall prevalence of positive cytotoxin assays was 14%') from abstract",
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "both prior antibiotic use and history of significant diarrhea are present, demonstrated sensitivity, specificity, positive and negative predictive value of 80, 45, 18 and 94%",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "COMPOSITE: antibiotic use within 30 days AND (significant diarrhoea OR abdominal pain) for positive C. difficile cytotoxin assay",
+   "population": "Nested modelling subset: 68 cytotoxin-positive cases and 265 randomly selected test-negative controls within 480 consecutive tested inpatients, USA",
+   "setting": "inpatient",
+   "prevalence": null,
+   "reference_standard": "C. difficile stool cytotoxin assay",
+   "sensitivity": {
+    "value": 0.86,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.45,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 1.56,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.31,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "LR+ = 0.86/(1-0.45) = 1.56; LR- = (1-0.86)/0.45 = 0.31; sens/spec from abstract; prevalence not entered because this is the nested case-control subset",
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "defined as positive if prior antibiotic use and either significant diarrhea or abdominal pain are present) demonstrated sensitivity and specificity of 86 and 45%",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Katz DA, Lynch ME, Littenberg B. Clinical prediction rules to optimize cytotoxin testing for Clostridium difficile in hospitalized patients with diarrhea. The American journal of medicine. 1996.",
+   "doi": "10.1016/s0002-9343(95)00016-x",
+   "pmid": "8644759",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1996
+  },
+  {
+   "citation": "Katz DA, Bates DW, Rittenberg E et al. Predicting Clostridium difficile stool cytotoxin results in hospitalized patients with diarrhea. Journal of general internal medicine. 1997.",
+   "doi": "10.1046/j.1525-1497.1997.12108.x",
+   "pmid": "9034947",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1997
+  },
+  {
+   "citation": "Manabe YC, Vinetz JM, Moore RD et al. Clostridium difficile colitis: an efficient clinical approach to diagnosis. Annals of internal medicine. 1995.",
+   "doi": "10.7326/0003-4819-123-11-199512010-00004",
+   "pmid": "7486465",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1995
+  },
+  {
+   "citation": "McDonald LC, Gerding DN, Johnson S et al. Clinical Practice Guidelines for Clostridium difficile Infection in Adults and Children: 2017 Update by the Infectious Diseases Society of America (IDSA) and Society for Healthcare Epidemiology of America (SHEA). Clinical infectious diseases : an official publication of the Infectious Diseases Society of America. 2019.",
+   "doi": "10.1093/cid/cix1085",
+   "pmid": "29462280",
+   "url": null,
+   "kind": "guideline",
+   "year": 2019
+  },
+  {
+   "citation": "Garey KW, Dao-Tran TK, Jiang ZD et al. A clinical risk index for Clostridium difficile infection in hospitalised patients receiving broad-spectrum antibiotics. The Journal of hospital infection. 2008.",
+   "doi": "10.1016/j.jhin.2008.06.026",
+   "pmid": "18723249",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2008
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use absence of diarrhoea to dismiss CDI in a patient with antibiotic exposure who develops ileus, distension, leukocytosis or shock; do not use the history to withhold testing in immunocompromised or IBD patients.",
+  "escalation_warning": "Hypotension, ileus, megacolon, WBC >=15 or creatinine >1.5 mg/dL indicate severe/fulminant CDI: urgent treatment and surgical review per IDSA/SHEA.",
+  "interobserver_note": "Antibiotic exposure and stool counts were recorded prospectively before assay results in Katz 1996/1997; no kappa reported."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Anchor Garey 2008 (PMID 18723249) is a risk index for CDI among 54,226 patients receiving broad-spectrum antibiotics reporting odds ratios (age >80 OR 2.5, ICU stay OR 2.1; Abstract, Results) rather than diagnostic accuracy of the exposure-plus-diarrhoea history, so it is cited only for context and yields no estimate. Best diagnostic-accuracy data: Katz 1996 (PMID 8644759), derivation in 480 tested inpatients; the simplified a priori rule (antibiotics within 30 days AND >3 stools/24 h) is essentially this discriminator but with a 30-day rather than 8-12-week exposure window, so status is partially_quantified. Validation: Katz 1997 (PMID 9034947), 609 consecutive tested inpatients in two hospitals: 'The prevalence of positive cytotoxin assays was 8% in the validation set' and for the low-risk subgroup (no antibiotics and no symptom predictor) 'the misclassification rate was 2.8% (5/177)' (Abstract, Results); no sens/spec reported, so not entered. Manabe 1995 (PMID 7486465), 268 tested inpatients: onset of diarrhoea >=6 days after antibiotics OR 1.38 (CI 1.10-3.79), cephalosporin use OR 2.36 (1.10-5.09); 'Toxin-positive patients were no more likely than controls to have had fever, abdominal pain or cramps, leukocytosis' (Abstract, Results). IDSA/SHEA 2017 guideline (McDonald 2018, PMID 29462280) cited for the case definition; the 8-12 week window and the ileus criterion in the id title come from guideline/epidemiology rather than a diagnostic-accuracy study (unverified recall). All cohorts predate NAAT testing; performance against modern two-step algorithms may differ.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T02:41:13+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

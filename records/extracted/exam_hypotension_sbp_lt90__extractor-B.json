@@ -36,7 +36,7 @@
     "positive_finding": "SBP <90 (or MAP <65) is shock until proven otherwise and should trigger a search for the cause (septic, hypovolaemic/haemorrhagic, cardiogenic, obstructive: tamponade/PE/tension pneumothorax, anaphylaxis, adrenal). In suspected dissection, hypotension roughly triples the odds (LR+ 2.9, specificity 95%). It is not a discriminator between causes.",
     "negative_finding": "A normal SBP does not exclude shock (compensated haemorrhage, early sepsis, cardiogenic shock with vasoconstriction) or tamponade (about 60% of tamponade patients had SBP ≥100), nor low cardiac index in heart failure (SBP <90 sensitivity 12%).",
     "pitfalls": "Chronic hypertensives are hypoperfused at 'normal' pressures; beta-blockers, pacemakers and automated cuffs in AF mislead. Interarm difference >20 mmHg raises dissection concern. Cuff readings overestimate true pressure in profound vasoconstriction.",
-    "changes_what": "SBP <90/MAP <65: resuscitation, lactate, POCUS (RUSH) to classify shock type, and cause-directed therapy now. Normal BP: continue to look for compensated shock with HR, lactate, mentation, urine output."
+    "changes_what": "SBP <90/MAP <65: resuscitate, lactate, POCUS (RUSH) to classify shock type, cause-directed therapy now. Normal BP: keep looking for compensated shock (HR, lactate, mentation, urine output)."
   },
   "estimates": [
     {

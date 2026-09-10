@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "id": "exam_kussmaul_sign",
+    "title": "Kussmaul sign: JVP rises (or fails to fall) with inspiration",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "edema",
+      "hypotension"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "constrictive_pericarditis",
+      "pericardial_effusion_tamponade",
+      "rv_failure_pulmonary_hypertension"
+    ],
+    "indication_tags": []
+  },
+  "technique": {
+    "how": "Position the patient at 30-45 degrees so the top of the internal jugular column is visible, then ask for a slow deep inspiration through the mouth; normally the column falls. Kussmaul sign is present when the column rises or fails to fall during inspiration. Repeat over several breaths and confirm the column is venous (biphasic, non-palpable, changes with position).",
+    "prerequisites": "Visible JVP (raise the head of bed if the column is very high); patient breathing spontaneously without Valsalva or straining.",
+    "contraindications": "None; not assessable on positive-pressure ventilation."
+  },
+  "interpretation": {
+    "positive_finding": "A rising or non-falling JVP with inspiration indicates that the right heart cannot accept the inspiratory increase in venous return: classically constrictive pericarditis, but also right ventricular infarction, severe RV failure/pulmonary hypertension, restrictive cardiomyopathy, massive PE and tricuspid stenosis. It is uncommon in pure tamponade.",
+    "negative_finding": "Absence does not exclude constriction or RV failure; the sign is inconsistently present and depends on the examiner seeing the venous column clearly.",
+    "pitfalls": "Easily confused with straining or accessory-muscle use during inspiration; requires a visible JVP. In tamponade, the JVP usually still falls with inspiration (Kussmaul sign typically absent), so its presence with effusion suggests effusive-constrictive disease.",
+    "changes_what": "Present with elevated JVP and oedema: echocardiography for constriction/RV failure (respirophasic septal shift, IVC plethora) and consider RV infarct/PE. Absent: no change."
+  },
+  "estimates": [],
+  "evidence_status": "not_quantified",
+  "sources": [
+    {
+      "citation": "Adler Y, Charron P, Imazio M, Badano L, Barón-Esquivias G, Bogaert J, Brucato A, Gueret P, et al. 2015 ESC Guidelines for the diagnosis and management of pericardial diseases. Eur Heart J. 2015.",
+      "doi": "10.1093/eurheartj/ehv318",
+      "pmid": "26320112",
+      "url": null,
+      "kind": "guideline",
+      "year": 2015
+    },
+    {
+      "citation": "Roy CL, Minor MA, Brookhart MA, Choudhry NK. Does this patient with a pericardial effusion have cardiac tamponade? JAMA. 2007.",
+      "doi": "10.1001/jama.297.16.1810",
+      "pmid": "17456823",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2007
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not attempt to interpret in a patient on positive-pressure ventilation or who cannot take a controlled deep breath; do not use to exclude constriction.",
+    "escalation_warning": "Kussmaul sign with hypotension and clear lungs after inferior MI suggests RV infarction (avoid nitrates/diuretics, give fluids); with a large effusion suggests effusive-constrictive disease needing urgent echo.",
+    "interobserver_note": "No reliability data located."
+  },
+  "tier": "extracted",
+  "extraction_notes": "No diagnostic-accuracy study exists for Kussmaul sign in accessible literature: PubMed search 'Kussmaul sign constrictive pericarditis diagnostic' returned only case reports (e.g. PMID 27386135, 35063679) and 'Kussmaul' does not appear in the Roy 2007 RCE abstract on tamponade. The 2015 ESC pericardial guideline (PMID 26320112) is cited as the consensus source for the sign's use in suspected constriction; PubMed carries no abstract text and the document is not in PMC, so no page location is given. The differential statements (RV infarction, restrictive cardiomyopathy, tricuspid stenosis, massive PE) are standard teaching (unverified recall).",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:42:28+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

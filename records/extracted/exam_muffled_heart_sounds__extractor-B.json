@@ -1,0 +1,117 @@
+{
+  "identity": {
+    "id": "exam_muffled_heart_sounds",
+    "title": "Muffled/diminished heart sounds (Beck triad component)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "chest_pain",
+      "hypotension"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "copd_exacerbation",
+      "pericardial_effusion_tamponade"
+    ],
+    "indication_tags": []
+  },
+  "technique": {
+    "how": "Auscultate the apex and left sternal border in a quiet room, comparing the intensity of S1/S2 with what is expected for the patient's habitus and, if possible, with earlier examinations; note whether the apex beat is impalpable. Pair with JVP and blood pressure/pulsus paradoxus.",
+    "prerequisites": "Quiet environment; knowledge of habitus, chest-wall thickness and known COPD/hyperinflation.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Diminished heart sounds with a large effusion suggest tamponade physiology only in combination with elevated JVP, hypotension and pulsus paradoxus; alone they were present in roughly one-third of a medical tamponade series (sensitivity about 34%) and are common in COPD, obesity and pleural effusion.",
+    "negative_finding": "Normal heart sounds do not exclude tamponade: most patients in the largest medical series had audible heart sounds, and Beck triad is complete in only a minority.",
+    "pitfalls": "Hyperinflation (COPD), obesity, left pleural effusion and a noisy room all muffle heart sounds; conversely a small effusion can cause tamponade with normal sounds. Do not wait for the full Beck triad.",
+    "changes_what": "Muffled sounds + raised JVP + hypotension or pulsus >10 mmHg: immediate POCUS for effusion/tamponade. Muffled sounds alone: look for COPD/obesity/effusion; do not use to exclude tamponade."
+  },
+  "estimates": [
+    {
+      "target_condition": "Cardiac tamponade (sensitivity only; no non-tamponade comparator); finding = diminished heart sounds",
+      "population": "56 medical patients with cardiac tamponade, single-centre case series, University of Cincinnati (malignancy 18, idiopathic pericarditis 8, uraemia 5)",
+      "setting": "inpatient",
+      "prevalence": null,
+      "reference_standard": "Clinical/haemodynamic diagnosis of tamponade relieved by pericardiocentesis or pericardial resection",
+      "sensitivity": {
+        "value": 0.34,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": true,
+      "computed_from": "19 of 56 patients with diminished heart sounds: 19/56 = 0.339. Denominator assumed to be the whole series; the abstract does not state how many had heart sounds documented.",
+      "interpretation_label": "minimal",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "We reviewed the cases of 56 medical patients wih cardiac tamponade … heart sounds were diminished in 19 patients",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Cardiac tamponade (sensitivity only; mostly tuberculous, n = 15); finding = decreased intensity of heart sounds",
+      "population": "15 prospectively studied patients with cardiac tamponade, cardiology department, University Hospital of Dakar, Senegal, 1999; mean age 33",
+      "setting": "inpatient",
+      "prevalence": null,
+      "reference_standard": "Echocardiographic pericardial effusion with clinical tamponade treated by pericardiocentesis/drainage",
+      "sensitivity": {
+        "value": 1.0,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "minimal",
+      "evidence_level": "single_study",
+      "source_index": 1,
+      "quote": "The clinical findings are: class III or IV NYHA dyspnea (86.6 %), pulsus paradoxus (66.6 %), and decrease intensity of the heart sounds (100 %).",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "partially_quantified",
+  "sources": [
+    {
+      "citation": "Guberman BA, Fowler NO, Engel PJ, Gueron M, Allen JM. Cardiac tamponade in medical patients. Circulation. 1981.",
+      "doi": "10.1161/01.cir.64.3.633",
+      "pmid": "6455217",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1981
+    },
+    {
+      "citation": "Diao M, Ka TA, Kane A, Thiam O, Diop IB, Sarr M, Ba SA, Diouf SM. [Cardiac tamponade. Clinical, paraclinical, outcome, and therapeutic features. Report of 15 cases]. Dakar Med. 2005.",
+      "doi": null,
+      "pmid": "15773168",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2005
+    },
+    {
+      "citation": "Roy CL, Minor MA, Brookhart MA, Choudhry NK. Does this patient with a pericardial effusion have cardiac tamponade? JAMA. 2007.",
+      "doi": "10.1001/jama.297.16.1810",
+      "pmid": "17456823",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2007
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use audible heart sounds to exclude tamponade, and do not treat muffled sounds as tamponade in a COPD or obese patient without JVP/BP/pulsus or ultrasound corroboration.",
+    "escalation_warning": "Suspected tamponade (effusion with hypotension, raised JVP or pulsus paradoxus >10 mmHg) needs immediate echocardiography and cardiology for pericardiocentesis; do not delay for the complete Beck triad.",
+    "interobserver_note": "No interobserver data for heart-sound intensity located; the sign is subjective and habitus-dependent."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Both estimates are sensitivity-only from tamponade case series (no non-tamponade comparator), hence partially_quantified and no LR. Guberman 1981 sensitivity is computed from '19 patients' over the series total of 56 (denominator assumption stated in computed_from); the same abstract notes \"most patients did not have a small quiet heart, and blood pressure was often well maintained\" (Abstract). Diao 2005 is a small (n = 15), mostly tuberculous series in Senegal, so 100% is an upper bound with wide uncertainty and different case mix. Roy 2007 RCE (PMID 17456823) is cited as the pooled reference; it is not in PMC and its abstract does not list diminished heart sounds, so its pooled sensitivity (unverified recall: ~28%) is not entered. Search 'cardiac tamponade clinical signs heart sounds pulsus paradoxus prospective' returned only Diao 2005.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:42:28+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}
