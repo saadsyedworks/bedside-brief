@@ -29,26 +29,8 @@
   "pitfalls": "Patients forget or omit laparoscopic, gynaecological and childhood operations; scars may be hidden by skin folds. Prior surgery also raises the likelihood of post-operative abscess or ileus, which the history alone cannot separate from obstruction.",
   "changes_what": "Prior surgery plus pain/vomiting/distension: raise SBO probability and obtain CT; no prior surgery with obstruction: look for hernia, mass or volvulus and involve surgery early."
  },
- "estimates": [
-  {
-   "target_condition": "Acute small-bowel obstruction",
-   "population": "Adults with acute abdominal pain, OMGE prospective survey (n=1333)",
-   "setting": "ED",
-   "prevalence": null,
-   "reference_standard": "Final diagnosis per OMGE Research Committee criteria (operative/clinical follow-up)",
-   "sensitivity": null,
-   "specificity": null,
-   "lr_positive": null,
-   "lr_negative": null,
-   "computed": false,
-   "interpretation_label": "rule_in",
-   "evidence_level": "single_study",
-   "source_index": 1,
-   "quote": "The most efficient symptoms in the diagnosis of acute small-bowel obstruction were previous abdominal surgery (relative risk (RR) = 12.1)",
-   "location": "Abstract, Results"
-  }
- ],
- "evidence_status": "partially_quantified",
+ "estimates": [],
+ "evidence_status": "not_quantified",
  "sources": [
   {
    "citation": "Taylor MR, Lalani N. Adult small bowel obstruction. Acad Emerg Med. 2013;20(6):528-544.",
@@ -81,7 +63,7 @@
   "interobserver_note": "History items are reproducible when asked directly; recall of laparoscopic and remote surgery is incomplete."
  },
  "tier": "extracted",
- "extraction_notes": "Taylor & Lalani 2013 pool sens/spec/LR for history of abdominal surgery, but the paper is not open access and the abstract lists it only as a 'best predictor' without a number, so no pooled estimate could be quoted with location. Bohner 1998 abstract names previous abdominal surgery among the six most sensitive variables without numbers. Only visible number is the Eskelinen 1994 relative risk (12.1), entered with sens/spec/LR null. Owner should transcribe Taylor 2013 history table.",
+ "extraction_notes": "Taylor & Lalani 2013 pool sens/spec/LR for history of abdominal surgery, but the paper is not open access and the abstract lists it only as a 'best predictor' without a number, so no pooled estimate could be quoted with location. Bohner 1998 abstract names previous abdominal surgery among the six most sensitive variables without numbers. Only visible number is the Eskelinen 1994 relative risk (12.1), entered with sens/spec/LR null. Owner should transcribe Taylor 2013 history table. Eskelinen 1994 (PMID 7973431, Abstract) reports relative risk 12.1 for previous abdominal surgery; removed from estimates[] because RR is not a schema statistic, so status is not_quantified despite pooled data existing in the unreachable Taylor 2013 tables.",
  "agent_id": "extractor-A",
  "extracted_at": "2026-09-10T02:00:08+00:00",
  "verified_by": null,

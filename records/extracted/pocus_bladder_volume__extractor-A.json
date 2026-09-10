@@ -59,23 +59,6 @@
    "source_index": 0,
    "quote": "The sensitivity and specificity for the scanner, using the clinically desired value of a 400-ml threshold, are 0.76 and 0.96,respectively.",
    "location": "Abstract, Results"
-  },
-  {
-   "target_condition": "Post-void residual volume (agreement with catheter)",
-   "population": "70 women with stage II or greater pelvic organ prolapse undergoing urodynamics; portable bladder scanner vs catheter PVR",
-   "setting": "outpatient",
-   "prevalence": null,
-   "reference_standard": "Urethral catheterisation post-void residual",
-   "sensitivity": null,
-   "specificity": null,
-   "lr_positive": null,
-   "lr_negative": null,
-   "computed": false,
-   "interpretation_label": "minimal",
-   "evidence_level": "single_study",
-   "source_index": 1,
-   "quote": "no significant difference between catheter and bladder scanner PVR at the initial (mean difference, 5.94 mL; 95% confidence interval [CI], -3.8 to 15.7)",
-   "location": "Abstract, Results"
   }
  ],
  "evidence_status": "quantified",
@@ -112,7 +95,7 @@
   "skill_assumption": "Basic bladder POCUS (a few supervised scans) or trained use of an automated bladder scanner; estimates are from scanner devices, not manual formula."
  },
  "tier": "extracted",
- "extraction_notes": "No meta-analysis of bladder POCUS volume accuracy for retention was found in budget. Lukasse 2007 (PubMed year field shows 2012 e-pub but journal issue 2007) gives sens/spec at the 400 mL threshold in postpartum women using an automated scanner; generalisability to elderly/AKI/post-operative patients is uncertain. Theisen 2020 entered as an agreement estimate (mean difference) with sens/spec null. Dionne 2019 pooled CES red-flag accuracy is reported in the abstract only as ranges across signs (sens 0.19-0.43, spec 0.62-0.88) without a urinary-retention-specific value, so cited without an estimate.",
+ "extraction_notes": "No meta-analysis of bladder POCUS volume accuracy for retention was found in budget. Lukasse 2007 (PubMed year field shows 2012 e-pub but journal issue 2007) gives sens/spec at the 400 mL threshold in postpartum women using an automated scanner; generalisability to elderly/AKI/post-operative patients is uncertain. Theisen 2020 entered as an agreement estimate (mean difference) with sens/spec null. Dionne 2019 pooled CES red-flag accuracy is reported in the abstract only as ranges across signs (sens 0.19-0.43, spec 0.62-0.88) without a urinary-retention-specific value, so cited without an estimate. Theisen 2020 agreement entry (mean difference 5.94 mL, 95% CI -3.8 to 15.7, Abstract) removed from estimates[] because it has no sens/spec/LR; it remains cited.",
  "agent_id": "extractor-A",
  "extracted_at": "2026-09-10T02:00:08+00:00",
  "verified_by": null,

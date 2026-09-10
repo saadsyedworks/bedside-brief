@@ -49,7 +49,7 @@
    "interpretation_label": "both",
    "evidence_level": "pooled",
    "source_index": 0,
-   "quote": "The ice test is useful when the response is abnormal (summary positive LR, 24.0; 95% CI, 8.5-67.0) and diminishes the likelihood of myasthenia gravis when the response is normal (summary negative LR, 0.16; 95% CI, 0.09-0.27)",
+   "quote": "(summary positive LR, 24.0; 95% CI, 8.5-67.0) ... (summary negative LR, 0.16; 95% CI, 0.09-0.27)",
    "location": "Abstract, Results"
   },
   {
@@ -74,7 +74,7 @@
    "interpretation_label": "rule_in",
    "evidence_level": "single_study",
    "source_index": 1,
-   "quote": "A positive ice test result was noted in 16 of the 20 (80%) patients with MG and in none of the 20 patients without MG (P < 0.001)",
+   "quote": "noted in 16 of the 20 (80%) patients with MG and in none of the 20 patients without MG",
    "location": "Abstract, Results"
   }
  ],
@@ -103,7 +103,7 @@
   "interobserver_note": "Measurement to 1 mm with a ruler; 2 mm threshold is arbitrary and no reproducibility data were found."
  },
  "tier": "extracted",
- "extraction_notes": "RCE summary LRs from abstract (table not accessible). Golnik 1999 sens/spec from abstract counts; prevalence 0.5 reflects case-control design, not a clinical prevalence. Specificity 1.0 makes LR+ undefined so LRs not computed for that entry.",
+ "extraction_notes": "RCE summary LRs from abstract (table not accessible). Golnik 1999 sens/spec from abstract counts; prevalence 0.5 reflects case-control design, not a clinical prevalence. Specificity 1.0 makes LR+ undefined so LRs not computed for that entry. Quotes shortened to <=25 words; the RCE quote joins two clauses of one abstract sentence with an ellipsis.",
  "agent_id": "extractor-A",
  "extracted_at": "2026-09-10T02:29:51+00:00",
  "verified_by": null,

@@ -48,6 +48,23 @@
     "ci_low": 0.69,
     "ci_high": 0.75
    },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_out",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "Pooled sensitivity was 94% (95% confidence interval [CI], 84%-97%) and pooled specificity was 72% (95% CI, 69%-75%)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Atrial fibrillation (irregular pulse on palpation)",
+   "population": "3 studies, 2385 patients, predominantly elderly primary care/screening populations",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "12-lead ECG",
+   "sensitivity": null,
+   "specificity": null,
    "lr_positive": {
     "value": 3.39,
     "ci_low": null,
@@ -62,7 +79,7 @@
    "interpretation_label": "rule_out",
    "evidence_level": "pooled",
    "source_index": 0,
-   "quote": "Pooled sensitivity was 94% (95% confidence interval [CI], 84%-97%) and pooled specificity was 72% (95% CI, 69%-75%). The pooled positive likelihood ratio was 3.39, while the pooled negative likelihood ratio was 0.10.",
+   "quote": "The pooled positive likelihood ratio was 3.39, while the pooled negative likelihood ratio was 0.10.",
    "location": "Abstract, Results"
   }
  ],
@@ -91,7 +108,7 @@
   "interobserver_note": "Specificity 0.70-0.77 across studies reflects ectopy and sinus arrhythmia being called irregular; palpation accuracy for rate declines above ~150/min."
  },
  "tier": "extracted",
- "extraction_notes": "Quantified only for the irregularity-for-AF component (Cooke 2006 pooled, abstract; LR CIs not given in abstract). No diagnostic-accuracy data were found for pulse rate or abrupt termination assessed during an episode; the RCE 2009 quantifies neck pounding (AVNRT) but not palpated pulse characteristics. The RCE is cited for the requirement of symptom-rhythm correlation.",
+ "extraction_notes": "Quantified only for the irregularity-for-AF component (Cooke 2006 pooled, abstract; LR CIs not given in abstract). No diagnostic-accuracy data were found for pulse rate or abrupt termination assessed during an episode; the RCE 2009 quantifies neck pounding (AVNRT) but not palpated pulse characteristics. The RCE is cited for the requirement of symptom-rhythm correlation. Sens/spec and pooled LRs from the same Cooke 2006 pooled analysis are split into two entries only to keep each quote <=25 words; they describe one estimate.",
  "agent_id": "extractor-A",
  "extracted_at": "2026-09-10T02:29:51+00:00",
  "verified_by": null,

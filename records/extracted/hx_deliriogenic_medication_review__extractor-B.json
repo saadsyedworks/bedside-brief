@@ -1,0 +1,78 @@
+{
+ "identity": {
+  "id": "hx_deliriogenic_medication_review",
+  "title": "Deliriogenic medication review: anticholinergics, benzodiazepines, opioids, new/changed drugs, thiazides",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dizziness",
+   "ams",
+   "weakness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "hyponatremia",
+   "intoxication_withdrawal",
+   "medication_effect"
+  ],
+  "indication_tags": [
+   "elderly",
+   "new_medication",
+   "post_operative"
+  ]
+ },
+ "technique": {
+  "how": "Reconcile every drug against the MAR, pharmacy fill history and family/carer report, including OTC, herbal and PRN doses. Flag anticholinergics (antihistamines, TCAs, bladder antispasmodics), benzodiazepines/Z-drugs, opioids, dihydropyridines, steroids, and any drug started, stopped or dose-changed in the 72 h before the mental-status change; note thiazides/SSRIs as hyponatremia sources.",
+  "prerequisites": "Access to MAR/dispensing record and a collateral historian; the patient's own account is unreliable once delirious.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "One or more high-risk agents, or >3 medications added during admission, temporally preceding the confusion. Supports medication-induced delirium as a precipitant and identifies a reversible target.",
+  "negative_finding": "No high-risk or recently changed drugs. Does not exclude delirium; shifts attention to infection, metabolic, withdrawal and structural causes.",
+  "pitfalls": "Delirium is usually multifactorial, so a culprit drug does not end the search. Abrupt stopping of benzodiazepines or opioids can itself precipitate delirium or withdrawal.",
+  "changes_what": "Positive: hold or taper the offending drug(s) and reassess; negative: keep looking for infectious, metabolic, withdrawal or CNS causes."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Inouye SK, Charpentier PA. Precipitating factors for delirium in hospitalized elderly persons. Predictive model and interrelationship with baseline vulnerability. JAMA 1996;275:852-857.",
+   "doi": null,
+   "pmid": "8596223",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1996
+  },
+  {
+   "citation": "Clegg A, Young JB. Which medications to avoid in people at risk of delirium: a systematic review. Age Ageing 2011;40:23-29.",
+   "doi": "10.1093/ageing/afq140",
+   "pmid": "21068014",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2011
+  },
+  {
+   "citation": "Tune L, Carr S, Cooper T, Klug B, Golinger RC. Association of anticholinergic activity of prescribed medications with postoperative delirium. J Neuropsychiatry Clin Neurosci 1993;5:208-210.",
+   "doi": "10.1176/jnp.5.2.208",
+   "pmid": "8508041",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1993
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Not a stand-alone diagnostic test; never use a clean medication list to withhold sepsis, metabolic or CNS work-up in an acutely confused patient.",
+  "escalation_warning": "Focal deficits, fever with meningism, or a fall on anticoagulation need imaging/LP pathways regardless of drug list.",
+  "interobserver_note": "Completeness of the drug history depends on the historian and record access; anticholinergic burden scales differ between raters."
+ },
+ "tier": "extracted",
+ "extraction_notes": "No diagnostic-accuracy study (sens/spec/LR) exists for 'medication review' as an index test for delirium cause. Evidence is risk-association: Inouye 1996 abstract reports adjusted RR 2.9 (95% CI 1.6-5.4) for >3 medications added; Clegg 2011 abstract reports OR 2.5 (1.2-5.2) opioids, 3.0 (1.3-6.8) benzodiazepines, 2.4 (1.0-5.8) dihydropyridines. These are not LRs, so estimates left empty. All PMIDs confirmed via tools/pubmed.py fetch.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T02:00:31+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

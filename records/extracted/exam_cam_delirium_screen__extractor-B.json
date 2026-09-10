@@ -1,0 +1,124 @@
+{
+ "identity": {
+  "id": "exam_cam_delirium_screen",
+  "title": "Confusion Assessment Method (CAM) delirium screen",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "ams",
+   "fever",
+   "weakness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "delirium_infectious",
+   "hepatic_encephalopathy",
+   "hypercapnia",
+   "hyponatremia",
+   "intoxication_withdrawal",
+   "medication_effect",
+   "uremia"
+  ],
+  "indication_tags": [
+   "elderly",
+   "post_operative"
+  ]
+ },
+ "technique": {
+  "how": "After brief formal cognitive testing (orientation, digit span or months backwards) and collateral from nurse/family, score four features: (1) acute onset and fluctuating course, (2) inattention, (3) disorganized thinking, (4) altered level of consciousness. CAM positive = features 1 AND 2 plus either 3 or 4. Takes about 5 minutes.",
+  "prerequisites": "Collateral informant or nursing observations for the fluctuation item; the rater should be trained and score from observed cognitive testing rather than casual conversation.",
+  "contraindications": "None; use CAM-ICU in intubated/non-verbal patients."
+ },
+ "interpretation": {
+  "positive_finding": "Delirium present (pooled LR+ about 9.6). Treat as an acute medical problem and search for precipitants (infection, drugs, metabolic, withdrawal, CNS).",
+  "negative_finding": "Delirium unlikely (pooled LR- about 0.16), though a negative screen at one time point does not exclude a fluctuating course; repeat if suspicion persists.",
+  "pitfalls": "Sensitivity falls sharply when scored without formal cognitive testing or by untrained raters. Hypoactive delirium and pre-existing dementia are the commonest sources of missed or false-positive results.",
+  "changes_what": "Positive: launch a delirium precipitant work-up and non-drug management; negative: pursue non-delirium causes of the presentation, re-screen if course fluctuates."
+ },
+ "estimates": [
+  {
+   "target_condition": "Delirium (DSM-based diagnosis)",
+   "population": "Hospitalized adults, mostly older, across 25 prospective studies (N=3027)",
+   "setting": "inpatient",
+   "prevalence": null,
+   "reference_standard": "DSM-based diagnosis by geriatrician, psychiatrist or neurologist",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 9.6,
+    "ci_low": 5.8,
+    "ci_high": 16.0
+   },
+   "lr_negative": {
+    "value": 0.16,
+    "ci_low": 0.09,
+    "ci_high": 0.29
+   },
+   "computed": false,
+   "interpretation_label": "both",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "the CAM has the best available supportive data as a bedside delirium instrument (summary-positive LR, 9.6; 95% CI, 5.8-16.0; summary-negative LR, 0.16;",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Delirium",
+   "population": "Seven high-quality CAM validation studies (N=1071), mixed hospital populations",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Expert clinical diagnosis against DSM criteria",
+   "sensitivity": {
+    "value": 0.94,
+    "ci_low": 0.91,
+    "ci_high": 0.97
+   },
+   "specificity": {
+    "value": 0.89,
+    "ci_low": 0.85,
+    "ci_high": 0.94
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "both",
+   "evidence_level": "pooled",
+   "source_index": 1,
+   "quote": "demonstrating an overall sensitivity of 94% (95% confidence interval (CI)=91-97%) and specificity of 89% (95% CI=85-94%)",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Wong CL, Holroyd-Leduc J, Simel DL, Straus SE. Does this patient have delirium?: value of bedside instruments. JAMA 2010;304:779-786.",
+   "doi": "10.1001/jama.2010.1182",
+   "pmid": "20716741",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2010
+  },
+  {
+   "citation": "Wei LA, Fearing MA, Sternberg EJ, Inouye SK. The Confusion Assessment Method: a systematic review of current usage. J Am Geriatr Soc 2008;56:823-830.",
+   "doi": "10.1111/j.1532-5415.2008.01674.x",
+   "pmid": "18384586",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2008
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not rely on a single negative CAM to exclude delirium in a patient with fluctuating alertness; do not use in intubated patients without the ICU adaptation.",
+  "escalation_warning": "A positive CAM with fever, meningism, focal deficit or reduced consciousness needs urgent infection/CNS work-up, not just delirium precautions.",
+  "interobserver_note": "Wei 2008 notes performance depends on training and on scoring from formal cognitive testing; untrained ad hoc use lowers sensitivity."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Both estimates from abstracts (JAMA RCE not in PMC OA; JAGS not OA), so location is 'Abstract, Results'; RCE Table with per-study values not viewed. Pooled sens/spec (Wei 2008) and pooled LRs (Wong 2010) come from different study sets and are kept as separate entries. PMIDs confirmed.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T02:00:31+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}
