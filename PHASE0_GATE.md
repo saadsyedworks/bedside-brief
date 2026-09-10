@@ -1,14 +1,14 @@
 # Phase 0 owner gate — Bedside Brief
 
-Generated at commit `4ca7c62`. Everything below is a DRAFT until you sign off; after sign-off I commit **freeze #1** and write its hash into every case file.
+Generated at commit `39a698e`. Everything below is a DRAFT until you sign off; after sign-off I commit **freeze #1** and write its hash into every case file.
 
 ## What you are approving
 
-- `discriminator_ids.json`: **148 ids** — {'exam': 80, 'functional': 15, 'history': 39, 'pocus': 14}; evidence expectation {'rce_backed': 77, 'likely_not_quantified': 24, 'likely_quantified': 47}; priority {1: 93, 2: 50, 3: 5}. Every `anchor_source` PMID was confirmed against PubMed by title.
-- `benchmark/cases/`: **36 base cases = 108 inputs** (each file nests one perturbation pair + one noise variant), 204 free-text targets (101 must-have), 3 deliberately underspecified cases (ams_003, dizziness_003, weakness_003). Two critic passes + one re-check applied; `python3 tools/validate.py cases` = 0 errors.
+- `discriminator_ids.json`: **153 ids** — {'exam': 81, 'functional': 17, 'history': 41, 'pocus': 14}; evidence expectation {'rce_backed': 78, 'likely_not_quantified': 27, 'likely_quantified': 48}; priority {1: 95, 2: 53, 3: 5}. Every `anchor_source` PMID was confirmed against PubMed by title.
+- `benchmark/cases/`: **36 base cases = 108 inputs** (each file nests one perturbation pair + one noise variant), 258 free-text targets (101 must-have), 3 deliberately underspecified cases (ams_003, dizziness_003, weakness_003). Two critic passes + one re-check applied; `python3 tools/validate.py cases` = 0 errors.
 - `vocab.json`: **unchanged**. Wish-list from the drafters is listed under decision 2.
 
-Ids per presentation (an id can serve several): dyspnea 58, chest_pain 46, syncope 39, palpitations 14, edema 28, hypotension 46, aki 40, dizziness 28, ams 33, abdominal_pain 33, fever 46, weakness 29
+Ids per presentation (an id can serve several): dyspnea 58, chest_pain 47, syncope 42, palpitations 19, edema 29, hypotension 46, aki 40, dizziness 30, ams 33, abdominal_pain 33, fever 46, weakness 29
 
 ## Decisions I need from you (numbered; reply with the number and your call)
 
@@ -34,8 +34,8 @@ Ids per presentation (an id can serve several): dyspnea 58, chest_pain 46, synco
   _Orthopnea/PND point to elevated left-sided filling pressures_
 - should — Abdominojugular reflux  
   _Positive reflux supports elevated right atrial pressure_
-- should — Bibasilar crackles and wheeze on lung auscultation  
-  _Crackles support pulmonary edema; wheeze may be cardiac asthma_
+- should — Bibasilar crackles  
+  _Crackles support pulmonary edema_
 - should — Check for new bilateral pitting edema (and sacral edema)  
   _Fluid retention after 3L supports volume overload_
 
@@ -43,7 +43,7 @@ Ids per presentation (an id can serve several): dyspnea 58, chest_pain 46, synco
 - Should NOT: Empiric IV diuresis before volume examination (JVP, S3 gallop, crackles); Continuing maintenance IV fluids for the cellulitis without a volume examination; Rely on chest x-ray alone to decide fluid status
 - Underspecified flag: False
 - **Perturbation** (added fever (38.9 C)): 68M HFrEF EF 30%, admitted for cellulitis, got 3L IVF yesterday, febrile to 38.9 tonight, now short of breath overnight, sat 89% on room air  
-  → Focal consolidation exam (egophony, bronchial breath sounds, dullness; Focal crackles) becomes must_have and ask about cough/sputum/rigors rises; JVP and S3 gallop remain must_have; edema check drops to should-still-include.
+  → Focal consolidation signs (egophony, bronchial breath sounds, dullness; Focal crackles) become must_have and ask about cough/sputum/rigors rises; JVP and S3 gallop remain must_have; edema check drops to should-still-include.
 - **Noise:** Sixty-eight year old gentleman, retired mechanic, room 427, known heart failure with EF around 30 percent, in for leg cellulitis, received three liters of IV fluid yesterday, wife reports he is breathless tonight, saturation 89 percent on room air  
   → None. Card should be substantially identical to base.
 
@@ -58,8 +58,10 @@ Ids per presentation (an id can serve several): dyspnea 58, chest_pain 46, synco
   _Sotalol with hypokalemia is a torsades set-up; AV-nodal agents cause bradyarrhythmia; indispensable here, likely maps to a not_quantified record_
 - should — Orthostatic vital signs (supine to standing at 1 and 3 min)  
   _Excludes an orthostatic contribution in an elderly inpatient_
-- should — Examine for injury (head, hip) and perform a cardiac exam for bradycardia, irregular rhythm, or murmur  
-  _Injury from unheralded collapse suggests arrhythmia; exam detects rate and structural clues_
+- should — Examine for injury (scalp, face, hip) from an unheralded fall  
+  _Injury without protective response suggests abrupt arrhythmic loss of consciousness_
+- should — Cardiac exam: heart rate, rhythm regularity, and murmur  
+  _Detects bradycardia, irregular rhythm, or a structural clue_
 
 - Off-bedside OK: 12-lead ECG with QTc; continuous telemetry; potassium and magnesium; hold sotalol pending review
 - Should NOT: Carotid sinus massage in a patient on sotalol with suspected conduction disease; Attribute to dehydration and remove from telemetry; Tilt-table testing
@@ -75,43 +77,47 @@ Ids per presentation (an id can serve several): dyspnea 58, chest_pain 46, synco
 - **MUST** — Calf circumference asymmetry >3 cm (10 cm below tibial tuberosity)  
   _Objective asymmetry is the most reproducible Wells criterion for DVT_
 - **MUST** — Wells DVT items on history and exam: bedridden >3 days, active cancer, prior VTE, recent surgery, pitting edema confined to the symptomatic leg, collateral superficial veins  
-  _Structured pretest probability determines whether ultrasound can wait until morning_
-- should — Ask about pleuritic chest pain, dyspnea, or presyncope; check resting heart rate and respiratory rate  
+  _One structured pretest-probability instrument; determines whether ultrasound can wait until morning_
+- should — Ask about pleuritic chest pain, dyspnea, or presyncope  
   _Screens for concurrent pulmonary embolism, which changes urgency_
 - should — Inspect for well-demarcated erythema, warmth, lymphangitic streaking, and a portal of entry  
-  _Cellulitis is the main mimic of DVT in a unilateral swollen leg_
-- should — Palpate along the deep venous course for tenderness and a superficial cord; note whether edema is pitting and its proximal extent  
-  _Localizes the process and estimates proximal extension_
+  _Cellulitis signs (one construct) are the main mimic of DVT in a unilateral swollen leg_
+- should — Tenderness along the deep venous course and a palpable superficial cord  
+  _Localizes thrombus and supports proximal extension_
 
 - Off-bedside OK: Compression ultrasound of the leg; D-dimer (limited value in an inpatient); CBC; checking whether pharmacologic VTE prophylaxis was ordered and given
 - Should NOT: Homan's sign as a rule-in or rule-out test; Empiric therapeutic anticoagulation without examining the leg or estimating pretest probability; Withholding the leg examination because an ultrasound is ordered for the morning
 - Underspecified flag: False
 - **Perturbation** (unilateral right calf swelling and pain -> bilateral symmetric leg swelling and aching (single swap: laterality)): Page: 48F day 4 of pneumonia admission, new bilateral symmetric leg swelling and aching since this afternoon, HR 96, afebrile, SpO2 96%  
-  → DVT falls: Calf circumference asymmetry >3 cm and Wells items drop; JVP with Abdominojugular reflux and Medication review (MAR) for cumulative IV fluids, dihydropyridine, and steroids rise to must_have; cellulitis inspection drops.
+  → DVT falls: Calf circumference asymmetry >3 cm, Wells items, and deep-venous tenderness drop; JVP, Abdominojugular reflux, and Medication review (MAR) for cumulative IV fluids, dihydropyridine, and steroids rise to must_have; cellulitis inspection drops.
 - **Noise:** Forty-eight-year-old woman in 7-West bed 3 (nurse Maria calling), admitted four days ago with pneumonia; since this afternoon her right calf is swollen and sore; heart rate 96, no fever, saturating 96%  
   → None. Card should be substantially identical to base.
 
 ### hypotension_002  (hypotension; dx: hypovolemic_hemorrhagic_shock, septic_shock, medication_effect, atrial_fibrillation_flutter)
 **Input:** Cross-cover: 63M on apixaban for AF, admitted with CAP, day 2, BP 88/54, HR 118, pale and lightheaded when he stood to void
 
-- **MUST** — Ask about melena, hematemesis, and hematochezia; Digital rectal examination (DRE) for melena  
-  _Occult GI bleeding on an anticoagulant is the leading cause; melena on rectal exam has a very high LR for severe upper GI bleeding_
+- **MUST** — Ask about melena, hematemesis, and hematochezia  
+  _Reported melena carries a high LR for upper GI bleeding, the leading cause on an anticoagulant_
+- **MUST** — Digital rectal examination (DRE) for melena  
+  _Melena on examination has a very high LR for severe upper GI bleeding_
 - should — Orthostatic vital signs (supine to standing at 1 and 3 min) (postural pulse increment >=30/min), only if supine SBP >=90  
   _Postural pulse increment is the most accurate bedside sign of large-volume blood loss, but supine hypotension already meets the criterion and standing is unsafe below SBP 90_
-- **MUST** — Conjunctival pallor, Capillary refill time, skin temperature, and pulse regularity (rapid AF versus sinus tachycardia)  
-  _Conjunctival rim pallor has a high LR+ for anemia; perfusion and pulse regularity separate blood loss from a primary rate problem_
-- **MUST** — Ask about prior upper GI bleeding, NSAID or aspirin use, cirrhosis or known varices, and alcohol  
-  _A history of prior upper GI bleeding carries a high LR for a severe bleed and directs urgency of endoscopy_
+- **MUST** — Conjunctival pallor  
+  _Conjunctival rim pallor has a high LR+ for anemia from blood loss_
+- should — Pulse regularity (rapid AF versus sinus tachycardia)  
+  _Separates a primary rate problem from compensatory sinus tachycardia_
+- should — Ask about prior upper GI bleeding, NSAID or aspirin use, cirrhosis or known varices, and alcohol  
+  _One bleeding-risk history question; prior upper GI bleeding carries a high LR for a severe bleed_
 - should — Examine the abdomen for tenderness and the flanks and thighs for hematoma  
   _Identifies retroperitoneal or soft-tissue bleeding on an anticoagulant_
-- should — Medication review (MAR): antihypertensives, diuretics, and opioids given tonight; temperature and Focal crackles for progression of pneumonia  
-  _Medication effect and worsening sepsis are competing explanations_
+- should — Medication review (MAR): antihypertensives, diuretics, and opioids given tonight  
+  _Medication effect is a competing explanation for hypotension_
 
 - Off-bedside OK: CBC and type and screen; ECG; lactate; coagulation studies; GI consult; two large-bore IVs and crossmatch
 - Should NOT: Empiric anticoagulant reversal before bleeding is sought on history and exam; Nasogastric lavage to diagnose upper GI bleeding; Standing the patient for orthostatic vital signs while supine SBP remains <90
 - Underspecified flag: False
 - **Perturbation** (anticoagulant exposure -> loop-diuretic exposure (mechanism of volume loss); AF, admission, vitals kept verbatim): Cross-cover: 63M with AF, not anticoagulated, on IV furosemide BID, admitted with CAP, day 2, BP 88/54, HR 118, pale and lightheaded when he stood to void  
-  → Non-hemorrhagic hypovolemia rises: Dry axilla / mucous membranes and asking about oral intake, vomiting, or diarrhea become must_have; the melena question with DRE and the prior-GI-bleed history drop to should-still-include; the conditional Orthostatic vital signs item and conjunctival pallor/Capillary refill time remain.
+  → Non-hemorrhagic hypovolemia rises: Dry axilla / mucous membranes and asking about oral intake, vomiting, or diarrhea become must_have; the melena question and Digital rectal examination (DRE) drop to should-still-include; the prior-GI-bleed history, the conditional Orthostatic vital signs item, Conjunctival pallor, and Medication review (MAR) remain.
 - **Noise:** 63-year-old man, an accountant, daughter phoned the desk; takes apixaban for atrial fibrillation; second day in with pneumonia; blood pressure 88/54, pulse 118, looks pale and got lightheaded standing up to use the urinal  
   → None. Card should be substantially identical to base.
 
@@ -122,44 +128,50 @@ Ids per presentation (an id can serve several): dyspnea 58, chest_pain 46, synco
   _Severe pain with a soft, minimally tender abdomen in an embolic-risk patient is the classic signal for mesenteric ischemia_
 - **MUST** — Peritoneal signs (rigidity, percussion tenderness, rebound, cough test)  
   _Rigidity and percussion tenderness have the strongest likelihood ratios for peritonitis and perforation_
-- **MUST** — Palpate for a pulsatile, expansile abdominal mass and check femoral pulses bilaterally  
-  _Abdominal palpation detects most large AAAs; asymmetric femoral pulses raise concern for rupture or dissection_
-- should — Ask: prior abdominal surgery, vomiting, last flatus and bowel movement; inspect for distension and check hernia orifices  
-  _Adhesions and hernias cause most small bowel obstructions; obstipation and distension support it_
+- **MUST** — Palpate for a pulsatile, expansile abdominal mass  
+  _Abdominal palpation detects most AAAs of 5 cm or more; definite pulsatile mass has a high LR+ (Lederle 1999 RCE)_
+- should — Femoral pulses bilaterally  
+  _Asymmetric or absent femoral pulses raise concern for aortic rupture, dissection, or embolism_
+- should — Ask: prior abdominal surgery, vomiting, last flatus and bowel movement  
+  _Adhesions cause most small bowel obstructions; obstipation and vomiting support it_
+- should — Inspect for abdominal distension and check hernia orifices  
+  _Distension and an incarcerated hernia point to obstruction_
 - should — Digital rectal examination (DRE) - for blood  
   _Bloody stool supports bowel ischemia_
-- should — Repeat vital signs; Orthostatic vital signs (supine to standing at 1 and 3 min) only if hemodynamically stable  
-  _Tachycardia out of proportion and emerging hypotension mark a surgical abdomen_
 
 - Off-bedside OK: Lactate; CT angiography of the abdomen; Upright chest X-ray for free air; Surgical and vascular consult; Type and screen
 - Should NOT: Enema or laxative before peritoneal exam; Reassurance based on a soft abdomen without serial exam; Attributing the tachycardia to AF and rate-controlling without abdominal reassessment
 - Underspecified flag: False
 - **Perturbation** (comorbidity: AF not anticoagulated -> known 5.2 cm AAA under surveillance): 79M with known 5.2 cm AAA under surveillance, sudden severe diffuse abdominal pain 1h, RN says belly soft, HR 118, BP 128/76  
-  → AAA rupture becomes the leading differential; pulsatile mass palpation and bilateral femoral pulses remain must-have and lead the card; the back or flank pain question becomes must-have; pain-out-of-proportion assessment drops to should-still-include; rectal exam for blood drops.
+  → AAA rupture becomes the leading differential; pulsatile mass palpation stays must-have and femoral pulses and the back or flank pain question become must-have; pain-out-of-proportion assessment drops to should-still-include; rectal exam for blood drops.
 - **Noise:** Rm 7-14: 79yo male retired machinist, afib no blood thinners, abrupt severe pain all over abdomen for the last hour, nurse thinks abdomen soft, pulse 118 and pressure 128/76  
   → None. Card should be substantially identical to base.
 
 ### weakness_002  (weakness; dx: spinal_cord_compression, cauda_equina, gbs, electrolyte_hypokalemia_hypophosphatemia)
 **Input:** 54M metastatic prostate CA admitted for pain control, overnight says legs heavy, trouble standing, mid-back pain worse
 
-- **MUST** — Sensory level to pinprick and temperature on the trunk, and vibration sense in the legs  
+- **MUST** — Sensory level to pinprick and temperature on the trunk  
   _A sensory level localizes cord compression and is the single most useful bedside finding for a myelopathy_
-- **MUST** — Deep tendon reflexes in the legs, plantar responses (Babinski), and tone  
+- **MUST** — Deep tendon reflexes, plantar responses (Babinski), and tone in the legs  
   _Hyperreflexia and extensor plantars indicate cord compression; areflexia points to GBS or cauda equina_
-- **MUST** — Saddle sensation, digital rectal examination (DRE) - anal tone, and bladder percussion/palpation for retention  
-  _Saddle anesthesia, reduced anal tone, and painless retention are the red flags for cauda equina and lower cord involvement_
-- should — Spinal percussion tenderness and ask whether pain is worse lying flat or at night  
+- **MUST** — Saddle sensation and digital rectal examination (DRE) - anal tone  
+  _Saddle anesthesia and reduced anal tone are the red flags for cauda equina_
+- should — Bladder percussion/palpation for retention  
+  _Painless retention accompanies cauda equina and lower cord involvement_
+- should — Spinal percussion tenderness  
   _Localizes the vertebral level of metastatic involvement_
-- should — Ask: onset and progression, bowel or bladder change, and whether weakness is symmetric; test hip flexion strength and sit-to-stand  
-  _Defines pattern and speed of progression; bilateral symmetric leg weakness with back pain in cancer is cord compression until proven otherwise_
-- should — Medication review (MAR): steroid, opioid, and diuretic dose changes  
-  _Steroid myopathy and hypokalemia are treatable confounders in this population_
+- should — Ask whether back pain is worse lying flat or at night  
+  _Nocturnal or recumbent pain is characteristic of vertebral metastasis_
+- should — Ask: onset and progression, bowel or bladder change, and whether weakness is symmetric  
+  _Speed of progression and symmetry define urgency; bilateral leg weakness with back pain in cancer is cord compression until proven otherwise_
+- should — Hip flexion strength against resistance and sit-to-stand  
+  _Quantifies proximal leg weakness for serial comparison_
 
 - Off-bedside OK: Whole-spine MRI with contrast; Bladder scan for post-void residual; Basic metabolic panel, phosphate, magnesium; Dexamethasone and spine/oncology consult once compression suspected
 - Should NOT: Increasing opioids for back pain before a neurologic exam; Plain spine films as a substitute for neurologic examination; Waiting for a morning MRI slot before examining for a sensory level and retention
 - Underspecified flag: False
 - **Perturbation** (comorbidity: metastatic prostate cancer -> Campylobacter gastroenteritis 2 weeks ago): 54M with Campylobacter gastroenteritis 2 weeks ago, admitted for dehydration, overnight says legs heavy, trouble standing, mid-back pain worse  
-  → GBS becomes the leading differential; reflexes (areflexia) remain must-have; single breath count or forced vital capacity for respiratory muscle strength and ask about ascending pattern and paresthesias become must-have; sensory level and spinal percussion tenderness drop to should-still-include.
+  → GBS becomes the leading differential; deep tendon reflexes (areflexia) remain must-have; single breath count or forced vital capacity for respiratory muscle strength and the ascending-pattern and paresthesia question become must-have; sensory level, saddle sensation/anal tone, and spinal percussion tenderness drop to should-still-include.
 - **Noise:** Bed 3-8, fifty-four year old male, retired electrician, metastatic prostate cancer in for pain management, tonight reports his legs feel heavy and he struggles to stand up, and the mid-back pain has escalated  
   → None. Card should be substantially identical to base.
 

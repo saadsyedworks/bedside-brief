@@ -3,8 +3,8 @@
 ## Phase 0 — Taxonomy + benchmark (Day 1). GATE: owner sign-off.
 - [x] Review `vocab.json`; extend differentials/tags only if a case clearly needs it; note additions in DECISIONS.md. (No extension needed: 36/36 cases and 148/148 ids validate; wish-list → owner gate, DECISIONS #9.)
 - [x] Author `discriminator_ids.json` (148 ids: 80 exam / 39 history / 15 functional / 14 pocus; 77 rce_backed; anchors PubMed-confirmed; commit b419c32): ~150 ids across history/exam/functional/pocus, each with title, type, presentations[], differentials[], expected_evidence (rce_backed | likely_quantified | likely_not_quantified). Prioritize discriminators with known diagnostic-accuracy literature (JAMA Rational Clinical Examination series is the index). Cardiology and volume assessment deep.
-- [x] case-author + case-critic: 3 base cases per presentation (36) [36 files / 108 inputs; 2 critic passes + re-check; commit pending as freeze #1] each with 1 perturbation pair + 1 noise variant → 108 files in `benchmark/cases/`. Free-text targets only; `reference_targets_mapped` empty. Follow `benchmark_case_template.json`.
-- [ ] **OPEN** Owner gate (see PHASE0_GATE.md): present vocab, id list, and 6 sample cases (one per 2 presentations) for edit. Apply edits. Commit → **freeze #1**; write hash into every case file.
+- [x] case-author + case-critic: 3 base cases per presentation (36) [36 files / 108 inputs; 2 critic passes + 2 re-checks; frozen at 39a698e] each with 1 perturbation pair + 1 noise variant → 108 files in `benchmark/cases/`. Free-text targets only; `reference_targets_mapped` empty. Follow `benchmark_case_template.json`.
+- [x] Owner gate (PHASE0_GATE.md): rulings 1–8 received and applied (DECISIONS #18). Commit → **freeze #1 = 39a698e**; hash written into every case file; `tests/test_freeze.py` guards it.
 
 ## Phase 1 — Extraction (Days 1–3, runs in background)
 - [x] Build `agents/extractor.md` from `extraction_packet_spec.md`. Build `agents/redteam.md`. (Shipped in handoff; plus `tools/pubmed.py`, `tools/record_skeleton.py`, `tools/diff_report.py`.)

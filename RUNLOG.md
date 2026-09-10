@@ -14,3 +14,5 @@
 - 02:30 PHASE0_GATE.md generated; owner gate opened. Phase 1 cardiology extraction starting in background.
 - 03:40 Owner gate rulings received (DECISIONS #18); vocab cross-listings, 5 palpitations ids, compound splits, chest_pain_002 re-branch applied. Critic split re-check running.
 - 03:45 Wave 1 (24 ids) + wave 2 (34 ids) extraction complete: 116 packets, validator 0 errors; status 72 quantified / 38 partial / 6 not_quantified; diff: 2 agree, 42 partial, 14 disagree. Red-team wave 1 running. verify_ui.py built (9 tests). Wave 3 (37 ids: shock/renal/neuro/abdomen/AMS + 2 palpitations) launched.
+- 02:10 Rate limit killed 12 background agents (critic re-check, red-team ×2, eval builder, wave-3 extractors ×8). Critic's report had already been written to disk; agents resumed after reset (A-side extractors first to cap concurrency).
+- 02:24 **Freeze #1**: content commit 39a698e; hash stamped into all 36 case files; freeze guard test added (37 tests). Benchmark is read-only from here except `reference_targets_mapped` at freeze #2.
