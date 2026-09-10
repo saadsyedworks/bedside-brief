@@ -1,11 +1,11 @@
 {
   "case_id": "palpitations_002",
   "presentation": "palpitations",
-  "input_oneliner": "45M prior anterior MI, EF 35%, sudden-onset regular pounding heartbeat 20 min ago, HR 170, BP 104/68, lightheaded, mentating",
+  "input_oneliner": "45M prior anterior MI, EF 35%, admitted for chest pain rule-out, sudden-onset regular pounding heartbeat 20 min ago, HR 170, BP 104/68, lightheaded, mentating",
   "optional_context": {
     "age": 45,
     "sex": "M",
-    "comorbidity": "prior anterior myocardial infarction, LVEF 35%",
+    "comorbidity": "prior anterior myocardial infarction, LVEF 35%; admitted for chest pain rule-out",
     "timing": "sudden onset 20 minutes ago",
     "objective": "HR 170 regular, BP 104/68"
   },
@@ -16,22 +16,27 @@
   ],
   "reference_targets_freetext": [
     {
-      "item": "Bedside hemodynamic stability: mentation, chest pain, dyspnea, peripheral perfusion (capillary refill, skin temperature)",
-      "rationale": "Determines whether the next step is immediate cardioversion or diagnostic maneuvers",
+      "item": "Bedside hemodynamic stability: mentation, chest pain, dyspnea, Capillary refill time, skin temperature",
+      "rationale": "Determines whether the next step is immediate cardioversion or diagnostic maneuvers; indispensable first step with no literature-backed substitute",
       "must_have": true
     },
     {
-      "item": "Jugular venous pulse for intermittent cannon a waves and variable intensity of S1 (AV dissociation)",
-      "rationale": "Bedside signs of AV dissociation favor VT over SVT in a wide-complex tachycardia",
+      "item": "Cannon a waves in the jugular venous pulse and variable intensity of S1 (AV dissociation)",
+      "rationale": "Bedside signs of AV dissociation are near-100% specific for VT in a wide-complex tachycardia",
       "must_have": true
     },
     {
       "item": "Ask about prior similar episodes since youth and whether they stopped with breath-holding or straining",
-      "rationale": "Recurrent self-terminating episodes since young adulthood favor SVT; first event after MI favors VT",
+      "rationale": "Recurrent self-terminating episodes since young adulthood favor SVT; a first event after MI predicts VT",
       "must_have": true
     },
     {
-      "item": "Ask about angina or dyspnea in the preceding days and adherence to beta-blocker or antiarrhythmic",
+      "item": "Ask about rapid regular pounding in the neck / visible neck pulsations during this or prior episodes",
+      "rationale": "Neck pounding has a very high LR+ for AVNRT and argues against VT",
+      "must_have": false
+    },
+    {
+      "item": "Ask about angina or dyspnea in the preceding days; Medication review (MAR): missed or held beta-blocker or antiarrhythmic doses",
       "rationale": "Ischemia and missed antiarrhythmic therapy are common VT triggers in a scarred ventricle",
       "must_have": false
     },
@@ -57,14 +62,14 @@
   "underspecified_flag_expected": false,
   "perturbation_pair": {
     "case_id": "palpitations_002_p1",
-    "changed_feature": "prior anterior MI with EF 35% -> no cardiac history, structurally normal heart",
-    "input_oneliner": "45M no cardiac history, sudden-onset regular pounding heartbeat 20 min ago, HR 170, BP 104/68, lightheaded, mentating",
-    "expected_change": "Modified Valsalva maneuver rises to must_have (SVT now most likely); the prior-episodes-since-youth question rises; cannon a waves/variable S1 drop to should-still-include; bedside hemodynamic stability remains must_have."
+    "changed_feature": "prior anterior MI with EF 35% -> no cardiac history, structurally normal heart (single swap: comorbidity)",
+    "input_oneliner": "45M no cardiac history, admitted for chest pain rule-out, sudden-onset regular pounding heartbeat 20 min ago, HR 170, BP 104/68, lightheaded, mentating",
+    "expected_change": "Modified Valsalva maneuver rises to must_have (SVT now most likely); the prior-episodes-since-youth and neck-pounding questions rise; cannon a waves/variable S1 drop to should-still-include; bedside hemodynamic stability remains must_have."
   },
   "noise_variant": {
     "case_id": "palpitations_002_n1",
     "changed_feature": "wording and non-contributory demographic detail (occupation, family present)",
-    "input_oneliner": "45-year-old man, software engineer, wife at the bedside; had an anterior MI a few years ago (EF ~35%); abrupt regular fast heartbeat started about 20 minutes ago; HR 170, BP 104/68, feels lightheaded but is talking normally",
+    "input_oneliner": "45-year-old man, an electrician, wife at the bedside; had an anterior MI a few years ago (EF ~35%); in for a chest-pain rule-out; abrupt regular fast heartbeat started 20 minutes ago; HR 170, BP 104/68, lightheaded but talking normally",
     "expected_change": "None. Card should be substantially identical to base."
   },
   "authored_at": "",

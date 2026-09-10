@@ -32,7 +32,7 @@
       "must_have": true
     },
     {
-      "item": "Epigastric tenderness and any peritoneal signs (guarding, rigidity, percussion tenderness)",
+      "item": "Epigastric tenderness and peritoneal signs (rigidity, percussion tenderness, rebound, cough test)",
       "rationale": "Localizes pancreatic or ulcer pain and screens for perforation",
       "must_have": false
     },

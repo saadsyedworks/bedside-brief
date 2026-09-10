@@ -12,12 +12,11 @@
   "intended_bedside_differential": [
     "dvt",
     "cellulitis_ssti",
-    "venous_insufficiency",
     "pulmonary_embolism"
   ],
   "reference_targets_freetext": [
     {
-      "item": "Measure calf circumference 10 cm below the tibial tuberosity bilaterally (difference >3 cm)",
+      "item": "Calf circumference asymmetry >3 cm (10 cm below tibial tuberosity)",
       "rationale": "Objective asymmetry is the most reproducible Wells criterion for DVT",
       "must_have": true
     },
@@ -29,7 +28,7 @@
     {
       "item": "Ask about pleuritic chest pain, dyspnea, or presyncope; check resting heart rate and respiratory rate",
       "rationale": "Screens for concurrent pulmonary embolism, which changes urgency",
-      "must_have": true
+      "must_have": false
     },
     {
       "item": "Inspect for well-demarcated erythema, warmth, lymphangitic streaking, and a portal of entry",
@@ -57,9 +56,9 @@
   "underspecified_flag_expected": false,
   "perturbation_pair": {
     "case_id": "edema_003_p1",
-    "changed_feature": "unilateral right calf swelling -> bilateral symmetric leg swelling",
-    "input_oneliner": "Page: 48F day 4 of pneumonia admission, new bilateral symmetric leg swelling since this afternoon, HR 96, afebrile, SpO2 96%",
-    "expected_change": "DVT falls: calf circumference difference and Wells items drop; JVP with abdominojugular reflux and a review of cumulative IV fluid volume and new medications (dihydropyridine, steroids) rise to must_have; cellulitis inspection drops."
+    "changed_feature": "unilateral right calf swelling and pain -> bilateral symmetric leg swelling and aching (single swap: laterality)",
+    "input_oneliner": "Page: 48F day 4 of pneumonia admission, new bilateral symmetric leg swelling and aching since this afternoon, HR 96, afebrile, SpO2 96%",
+    "expected_change": "DVT falls: Calf circumference asymmetry >3 cm and Wells items drop; JVP with Abdominojugular reflux and Medication review (MAR) for cumulative IV fluids, dihydropyridine, and steroids rise to must_have; cellulitis inspection drops."
   },
   "noise_variant": {
     "case_id": "edema_003_n1",

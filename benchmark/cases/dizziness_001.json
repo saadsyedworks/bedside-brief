@@ -12,7 +12,7 @@
   "intended_bedside_differential": [
     "posterior_circulation_stroke",
     "vestibular_neuritis",
-    "medication_effect"
+    "anemia"
   ],
   "reference_targets_freetext": [
     {
@@ -21,7 +21,7 @@
       "must_have": true
     },
     {
-      "item": "Assess gait and truncal ataxia: can the patient sit unsupported and stand or walk unassisted",
+      "item": "Gait assessment: can the patient stand and walk unaided (sit unsupported; truncal ataxia)",
       "rationale": "Inability to stand or walk unaided strongly favors a central lesion",
       "must_have": true
     },
@@ -56,9 +56,9 @@
   "underspecified_flag_expected": false,
   "perturbation_pair": {
     "case_id": "dizziness_001_p1",
-    "changed_feature": "timing/trigger: continuous spontaneous vertigo -> brief episodes triggered by rolling over, well between",
-    "input_oneliner": "77M HTN, AF, anticoag held for GI bleed, spinning for seconds each time he rolls over since 2 AM, nauseated, walks fine, BP 168/94",
-    "expected_change": "Dix-Hallpike maneuver becomes must_have and bppv rises to top of differential; HINTS exam drops (not interpretable without continuous vertigo and spontaneous nystagmus); gait assessment remains included."
+    "changed_feature": "timing/trigger: continuous spontaneous vertigo -> brief episodes triggered by rolling over",
+    "input_oneliner": "77M HTN, AF, anticoag held for GI bleed, spinning for seconds each time he rolls over since 2 AM, with vomiting, BP 168/94",
+    "expected_change": "Dix-Hallpike maneuver becomes must_have and bppv rises to top of differential; HINTS exam drops (not interpretable without continuous vertigo and spontaneous nystagmus); Gait assessment remains included."
   },
   "noise_variant": {
     "case_id": "dizziness_001_n1",

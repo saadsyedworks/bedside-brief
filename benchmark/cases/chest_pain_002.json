@@ -17,7 +17,7 @@
   ],
   "reference_targets_freetext": [
     {
-      "item": "Examine both legs for unilateral calf or thigh swelling, tenderness, or asymmetry in circumference",
+      "item": "Calf circumference asymmetry >3 cm (10 cm below tibial tuberosity), unilateral thigh or calf swelling or tenderness",
       "rationale": "Clinical DVT is the strongest bedside predictor of PE",
       "must_have": true
     },
@@ -32,12 +32,12 @@
       "must_have": true
     },
     {
-      "item": "Auscultate for a pericardial friction rub with the patient leaning forward at end-expiration",
+      "item": "Pericardial friction rub (leaning forward, end-expiration)",
       "rationale": "Rub is specific for pericarditis",
       "must_have": false
     },
     {
-      "item": "Ask about cough, sputum, and rigors; auscultate for focal crackles or egophony",
+      "item": "Ask about cough, sputum, and rigors; Focal consolidation: egophony, bronchial breath sounds, dullness to percussion; Focal crackles",
       "rationale": "Screens for pneumonia as the alternative in a febrile admission",
       "must_have": false
     },
@@ -63,9 +63,9 @@
   "underspecified_flag_expected": false,
   "perturbation_pair": {
     "case_id": "chest_pain_002_p1",
-    "changed_feature": "pain quality: sudden right pleuritic -> sharp central pain worse lying flat, better sitting forward",
-    "input_oneliner": "29F on OCPs, day 2 pyelo, sharp central chest pain worse lying flat and better sitting forward, dyspnea, HR 118, sat 93% RA, afebrile now",
-    "expected_change": "Auscultation for a pericardial friction rub (leaning forward, end-expiration) becomes must_have and pericarditis rises to top of differential; pulsus paradoxus and JVP assessment is a new item; leg examination for DVT drops to should-still-include."
+    "changed_feature": "pain quality: right pleuritic -> sharp central, worse lying flat, better sitting forward",
+    "input_oneliner": "29F on OCPs, day 2 pyelo, sudden sharp central chest pain worse lying flat and better sitting forward, dyspnea, HR 118, sat 93% RA, afebrile now",
+    "expected_change": "Pericardial friction rub (leaning forward, end-expiration) becomes must_have and pericarditis rises to top of differential; Pulsus paradoxus and JVP is a new item; Calf circumference asymmetry >3 cm drops to should-still-include."
   },
   "noise_variant": {
     "case_id": "chest_pain_002_n1",

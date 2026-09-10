@@ -27,17 +27,17 @@
       "must_have": true
     },
     {
-      "item": "Orthostatic vitals at 1 and 3 minutes",
-      "rationale": "Cheapest objective test in a hospitalized patient with likely volume or medication contributors",
-      "must_have": true
+      "item": "Orthostatic vital signs (supine to standing at 1 and 3 min)",
+      "rationale": "Cheapest objective test in a hospitalized patient with likely volume or medication contributors; a maneuver, so not required under the ask-first rule",
+      "must_have": false
     },
     {
-      "item": "Review the medication administration record for new, sedating, or antihypertensive doses in the last 24 hours",
+      "item": "Medication review (MAR): new, sedating, or antihypertensive doses in the last 24 hours",
       "rationale": "Medication effect is the most common inpatient cause",
       "must_have": false
     },
     {
-      "item": "Watch the patient walk and screen for new focal neurologic symptoms (diplopia, dysarthria, weakness)",
+      "item": "Gait assessment: can the patient stand and walk unaided; screen for new focal neurologic symptoms (diplopia, dysarthria, weakness)",
       "rationale": "Gait failure or focal signs escalate to stroke evaluation",
       "must_have": false
     }
@@ -57,7 +57,7 @@
     "case_id": "dizziness_003_p1",
     "changed_feature": "timing/trigger specified: unspecified dizziness -> seconds of spinning each time she turns in bed",
     "input_oneliner": "Cross-cover page: 62F on the tele floor, nurse says she gets spinning for seconds each time she turns in bed tonight, asking if you want anything ordered",
-    "expected_change": "Underspecified flag should no longer fire; Dix-Hallpike maneuver becomes must_have and bppv rises to top of differential; the timing/trigger questions are answered and drop; orthostatic vitals drop to should-still-include."
+    "expected_change": "Underspecified flag should no longer fire; Dix-Hallpike maneuver becomes must_have and bppv rises to top of differential; the timing/trigger questions are answered and drop; Orthostatic vital signs remain should-still-include."
   },
   "noise_variant": {
     "case_id": "dizziness_003_n1",

@@ -31,12 +31,12 @@
       "must_have": true
     },
     {
-      "item": "Orthostatic vitals at 1 and 3 minutes",
+      "item": "Orthostatic vital signs (supine to standing at 1 and 3 min)",
       "rationale": "Excludes an orthostatic contribution",
       "must_have": false
     },
     {
-      "item": "Ask the witness (PT) about duration, color, pulse, jerking, and time to recovery",
+      "item": "Witness account: duration, color, jerking, tongue biting, incontinence, post-event confusion (from PT)",
       "rationale": "Witness account separates syncope from seizure and estimates duration",
       "must_have": false
     }

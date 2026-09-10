@@ -1,11 +1,11 @@
 {
   "case_id": "fever_001",
   "presentation": "fever",
-  "input_oneliner": "71F POD2 hip fracture repair, Foley in, T 38.6 overnight, mild cough, no complaints otherwise",
+  "input_oneliner": "71F POD2 knee arthroplasty, Foley in, T 38.6 overnight, mild cough, no complaints otherwise",
   "optional_context": {
     "age": 71,
     "sex": "F",
-    "comorbidity": "hip fracture, post-operative",
+    "comorbidity": "knee arthroplasty, post-operative",
     "timing": "post-operative day 2, overnight",
     "objective": "T 38.6"
   },
@@ -17,7 +17,7 @@
   ],
   "reference_targets_freetext": [
     {
-      "item": "Respiratory rate, oxygen saturation, and focused lung exam for crackles, bronchial breath sounds, egophony, dullness",
+      "item": "Respiratory rate; focal crackles, egophony, dullness, and bronchial breath sounds on lung auscultation",
       "rationale": "Abnormal vital signs plus asymmetric lung findings are the best bedside predictors of pneumonia; normal vitals and exam lower probability",
       "must_have": true
     },
@@ -27,12 +27,12 @@
       "must_have": true
     },
     {
-      "item": "Costovertebral angle tenderness and suprapubic tenderness; inspect Foley for turbidity and ask about dysuria or flank pain",
-      "rationale": "Catheter-associated UTI needs symptoms beyond bacteriuria; flank tenderness raises pyelonephritis",
+      "item": "Costovertebral angle (CVA) tenderness and suprapubic tenderness; inspect the catheter site; ask about flank pain or rigors",
+      "rationale": "Catheter-associated UTI needs symptoms beyond bacteriuria; flank tenderness or rigors raise pyelonephritis",
       "must_have": true
     },
     {
-      "item": "Calf exam for asymmetric swelling, tenderness, and warmth; measure calf circumference",
+      "item": "Calf circumference asymmetry >3 cm, calf tenderness, unilateral swelling",
       "rationale": "Post-operative immobility makes DVT a real cause of low-grade fever",
       "must_have": false
     },
@@ -44,6 +44,7 @@
   ],
   "reference_targets_mapped": [],
   "off_bedside_acceptable": [
+    "Pulse oximetry",
     "Chest X-ray",
     "Urinalysis and urine culture",
     "Blood cultures",
@@ -52,19 +53,19 @@
   ],
   "should_not_recommend": [
     "Empiric broad-spectrum antibiotics before source exam",
-    "CT chest before lung exam and vitals"
+    "Attributing the fever to atelectasis without a source examination"
   ],
   "underspecified_flag_expected": false,
   "perturbation_pair": {
     "case_id": "fever_001_p1",
-    "changed_feature": "operation: hip fracture repair -> sigmoid colectomy",
+    "changed_feature": "operation: knee arthroplasty -> sigmoid colectomy",
     "input_oneliner": "71F POD2 sigmoid colectomy, Foley in, T 38.6 overnight, mild cough, no complaints otherwise",
     "expected_change": "Intra-abdominal abscess or anastomotic leak enters the top differential; abdominal exam for distension, peritoneal signs, and wound inspection become must-have; lung exam stays but drops to should-still-include; ask about flatus, bowel function, and drain output rises."
   },
   "noise_variant": {
     "case_id": "fever_001_n1",
     "changed_feature": "sign-out rewording, occupation, family present",
-    "input_oneliner": "Seventy-one year old retired librarian, second day after hip fracture surgery, catheter still in, husband at bedside, spiked to 38.6 tonight, coughing a little, otherwise says she feels fine",
+    "input_oneliner": "Seventy-one year old retired librarian, second day after knee replacement surgery, catheter still in, husband at bedside, spiked to 38.6 tonight, coughing a little, otherwise says she feels fine",
     "expected_change": "None. Card should be substantially identical to base."
   },
   "authored_at": "",

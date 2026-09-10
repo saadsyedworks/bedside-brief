@@ -18,26 +18,26 @@
   "reference_targets_freetext": [
     {
       "item": "Pulsus paradoxus measured by sphygmomanometer (>10-12 mmHg)",
-      "rationale": "A large pulsus paradoxus is the single most useful bedside sign of tamponade in a patient with effusion",
+      "rationale": "When effusion is suspected, a large pulsus paradoxus is the single most useful bedside sign of tamponade and its absence argues strongly against it",
       "must_have": true
     },
     {
-      "item": "Jugular venous pressure (elevated in tamponade, RV failure/PE, and cardiogenic shock; low in sepsis or hypovolemia)",
+      "item": "JVP (jugular venous pressure): elevated in tamponade, RV failure/PE, and cardiogenic shock; low in sepsis or hypovolemia",
       "rationale": "Separates obstructive/cardiogenic shock from distributive or hypovolemic shock before fluids are given",
       "must_have": true
     },
     {
-      "item": "Peripheral perfusion: capillary refill, cool or mottled extremities, and mental status",
+      "item": "Capillary refill time, cool or mottled extremities, and mental status",
       "rationale": "Establishes shock physiology and urgency regardless of cause",
       "must_have": true
     },
     {
-      "item": "Heart sounds (muffled), pericardial rub, and lung examination for crackles versus clear fields",
+      "item": "Heart sounds (muffled), pericardial rub, and lung auscultation for Bibasilar crackles versus clear fields",
       "rationale": "Muffled sounds with clear lungs favor tamponade; crackles favor left-sided cardiogenic shock",
       "must_have": false
     },
     {
-      "item": "Ask about pleuritic chest pain and examine the legs for unilateral swelling",
+      "item": "Ask about pleuritic chest pain; Calf circumference asymmetry >3 cm or unilateral leg swelling",
       "rationale": "Malignancy-associated pulmonary embolism is a close competitor",
       "must_have": false
     },
@@ -58,14 +58,14 @@
   "should_not_recommend": [
     "Diuresis or positive-pressure ventilation before tamponade is excluded",
     "Large fluid bolus without JVP and lung assessment",
-    "Deferring bedside pulsus paradoxus because an echocardiogram is ordered for the morning"
+    "Deferring bedside Pulsus paradoxus because an echocardiogram is ordered for the morning"
   ],
   "underspecified_flag_expected": false,
   "perturbation_pair": {
     "case_id": "hypotension_003_p1",
-    "changed_feature": "metastatic breast cancer admitted for dyspnea -> anterior STEMI treated with PCI 2 days ago",
+    "changed_feature": "metastatic breast cancer admitted for dyspnea -> anterior STEMI treated with PCI 2 days ago (single swap: admission context)",
     "input_oneliner": "70F anterior STEMI s/p PCI 2 days ago, tonight BP 84/56, HR 122, SpO2 91% 2L, RN reports she 'looks worse'",
-    "expected_change": "Cardiogenic shock and mechanical complications lead: S3, lung crackles, and a new holosystolic murmur (VSD or papillary muscle rupture) rise to must_have; pulsus paradoxus drops to should-still-include (free-wall rupture remains possible); JVP and perfusion remain must_have."
+    "expected_change": "Cardiogenic shock and mechanical complications lead: S3 gallop, Bibasilar crackles, and a new holosystolic murmur (VSD or papillary muscle rupture) rise to must_have; Pulsus paradoxus drops to should-still-include (free-wall rupture remains possible); JVP and Capillary refill time remain must_have."
   },
   "noise_variant": {
     "case_id": "hypotension_003_n1",

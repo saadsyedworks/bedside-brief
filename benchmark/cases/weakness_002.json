@@ -27,7 +27,7 @@
       "must_have": true
     },
     {
-      "item": "Saddle sensation, anal tone on rectal exam, and bladder percussion/palpation for retention",
+      "item": "Saddle sensation, digital rectal examination (DRE) - anal tone, and bladder percussion/palpation for retention",
       "rationale": "Saddle anesthesia, reduced anal tone, and painless retention are the red flags for cauda equina and lower cord involvement",
       "must_have": true
     },
@@ -42,7 +42,7 @@
       "must_have": false
     },
     {
-      "item": "Ask about steroid or opioid dose changes and diuretic use",
+      "item": "Medication review (MAR): steroid, opioid, and diuretic dose changes",
       "rationale": "Steroid myopathy and hypokalemia are treatable confounders in this population",
       "must_have": false
     }

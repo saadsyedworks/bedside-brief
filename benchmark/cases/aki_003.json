@@ -17,13 +17,13 @@
   ],
   "reference_targets_freetext": [
     {
-      "item": "Palpate limb and gluteal compartments for tense, tender swelling and test pain with passive stretch; inspect pressure points for skin breakdown",
+      "item": "Compartment exam: palpate limb and gluteal compartments for tense, tender swelling; pain with passive stretch; distal pulses and sensation; inspect pressure points for skin breakdown",
       "rationale": "Compartment syndrome and pressure necrosis after prolonged immobility drive muscle injury and need surgical evaluation",
       "must_have": true
     },
     {
-      "item": "Volume exam: orthostatic vital signs, jugular venous pressure, mucous membranes, skin turgor",
-      "rationale": "Prolonged down time and alcohol withdrawal produce hypovolemia; the exam sets fluid targets",
+      "item": "Orthostatic vital signs (supine to standing at 1 and 3 min)",
+      "rationale": "Prolonged down time and alcohol withdrawal produce hypovolemia; postural pulse increment is the most specific bedside sign and sets fluid targets",
       "must_have": true
     },
     {
@@ -37,13 +37,13 @@
       "must_have": false
     },
     {
-      "item": "Ask about urine color and volume since admission, and about recent contrast, NSAIDs, statins, or new antibiotics",
-      "rationale": "Tea-colored urine supports myoglobinuria; drug exposures raise ATN or interstitial nephritis",
+      "item": "Medication review (MAR): NSAIDs, statins, contrast, and new antibiotics; ask about urine volume since admission",
+      "rationale": "Drug exposures raise ATN or interstitial nephritis; oliguria grades severity",
       "must_have": false
     },
     {
-      "item": "Distal pulses, sensation, and motor function in the affected limbs",
-      "rationale": "Neurovascular compromise marks an evolving compartment syndrome",
+      "item": "JVP and dry axilla / mucous membranes",
+      "rationale": "Completes the volume assessment; skin turgor omitted as it performs poorly in adults",
       "must_have": false
     }
   ],
@@ -63,9 +63,9 @@
   "underspecified_flag_expected": false,
   "perturbation_pair": {
     "case_id": "aki_003_p1",
-    "changed_feature": "history: found down at home ~12h -> started piperacillin-tazobactam 7 days ago, no fall",
-    "input_oneliner": "45M started piperacillin-tazobactam 7 days ago for diabetic foot infection, admitted for alcohol withdrawal, Cr 3.4 on admission labs, urine dark brown",
-    "expected_change": "Acute interstitial nephritis rises to the leading differential; skin exam for maculopapular rash and questions about fever timing and arthralgia become must-have; compartment exam and down-time questions drop; volume exam remains must-have."
+    "changed_feature": "found down ~12 h -> 7 days of high-dose NSAID, no fall",
+    "input_oneliner": "45M, no fall, taking ibuprofen 800 mg three times daily for a week for back pain, admitted for alcohol withdrawal, Cr 3.4 on admission labs, urine dark brown",
+    "expected_change": "NSAID nephropathy/AIN/ATN rise: rash, fever timing, and arthralgia questions and the volume exam become must-have; compartment exam and down-time questions drop. Dark urine is retained deliberately as a red herring (concentrated or bilirubin-tinged urine versus myoglobinuria), so the urine-volume question should persist."
   },
   "noise_variant": {
     "case_id": "aki_003_n1",

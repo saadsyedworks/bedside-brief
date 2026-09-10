@@ -17,18 +17,18 @@
   ],
   "reference_targets_freetext": [
     {
-      "item": "Jugular venous pressure estimation and hepatojugular reflux",
+      "item": "JVP",
       "rationale": "Elevated JVP separates persistent congestion (cardiorenal) from over-diuresis; the central question for this patient",
       "must_have": true
     },
     {
-      "item": "Orthostatic vital signs: postural pulse increment and symptomatic dizziness on standing",
+      "item": "Orthostatic vital signs (supine to standing at 1 and 3 min)",
       "rationale": "Postural tachycardia and dizziness are the most specific bedside findings for hypovolemia",
       "must_have": true
     },
     {
-      "item": "Reconcile daily weights, net fluid balance, and diuretic doses since admission; ask about thirst and oral intake",
-      "rationale": "Trajectory of weight and net balance frames the volume exam and shows whether the diuresis has overshot",
+      "item": "Abdominojugular reflux",
+      "rationale": "Positive abdominojugular reflux is a strong sign of elevated filling pressures when the JVP is equivocal",
       "must_have": true
     },
     {
@@ -49,6 +49,7 @@
   ],
   "reference_targets_mapped": [],
   "off_bedside_acceptable": [
+    "Daily weights, net fluid balance, and diuretic dose trend (chart review)",
     "Urine sodium and urine studies",
     "Bladder scan",
     "Basic metabolic panel trend",

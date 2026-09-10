@@ -16,12 +16,12 @@
   ],
   "reference_targets_freetext": [
     {
-      "item": "Forehead sparing: ask the patient to raise eyebrows and close eyes tightly; compare upper versus lower face weakness",
+      "item": "Forehead sparing (facial symmetry: raise eyebrows, close eyes tightly; compare upper versus lower face weakness)",
       "rationale": "Forehead sparing indicates an upper motor neuron (central) lesion; forehead involvement points to a peripheral facial nerve palsy",
       "must_have": true
     },
     {
-      "item": "Pronator drift and arm and leg strength, gaze deviation, visual fields, and language testing (naming, repetition, comprehension)",
+      "item": "Pronator drift, arm and leg strength, gaze deviation, visual fields, and language testing (naming, repetition, comprehension)",
       "rationale": "Limb, gaze, field, or language deficits alongside facial droop establish a central lesion and drive stroke-alert activation",
       "must_have": true
     },
@@ -56,7 +56,7 @@
   "underspecified_flag_expected": false,
   "perturbation_pair": {
     "case_id": "weakness_001_p1",
-    "changed_feature": "lower-face-only droop -> whole hemiface droop including forehead, eye will not close",
+    "changed_feature": "added: droop involves the forehead and the eye will not close",
     "input_oneliner": "Rapid page: 68F HTN, AF on apixaban, RN found L facial droop involving forehead and cannot close L eye, slurred speech, last seen normal 40 min ago",
     "expected_change": "Bell palsy rises to co-leading differential; forehead sparing check remains must-have; limb drift, gaze, and language testing remain but become confirmatory rather than the lead; otoscopy for ear canal vesicles and questions about ear pain, hyperacusis, and taste change rise."
   },

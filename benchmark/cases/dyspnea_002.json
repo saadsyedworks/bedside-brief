@@ -17,33 +17,33 @@
   ],
   "reference_targets_freetext": [
     {
-      "item": "Ask about change in sputum volume and purulence and increase in dyspnea over baseline (Anthonisen criteria)",
-      "rationale": "Defines an exacerbation and its severity",
-      "must_have": true
-    },
-    {
-      "item": "Observe work of breathing: accessory muscle use, pursed-lip breathing, ability to speak full sentences, respiratory rate",
-      "rationale": "Work of breathing grades severity and predicts need for escalation",
+      "item": "Ask about known COPD diagnosis or prior spirometry, home inhalers, and prior exacerbations needing steroids or intubation",
+      "rationale": "Self-reported COPD and heavy pack-year history are the best-validated bedside predictors of airflow obstruction",
       "must_have": true
     },
     {
       "item": "Auscultate for wheeze and prolonged expiratory phase; measure forced expiratory time",
-      "rationale": "Prolonged forced expiratory time supports airflow obstruction",
+      "rationale": "Prolonged forced expiratory time and wheeze support airflow obstruction",
       "must_have": true
     },
     {
-      "item": "Assess JVP and auscultate for S3 to look for concurrent heart failure",
+      "item": "Ask about change in sputum volume and purulence and increase in dyspnea over baseline (Anthonisen criteria)",
+      "rationale": "Defines an exacerbation and its severity",
+      "must_have": false
+    },
+    {
+      "item": "Observe work of breathing: accessory muscle use, pursed-lip breathing, ability to speak full sentences, respiratory rate",
+      "rationale": "Work of breathing grades severity and predicts need for escalation",
+      "must_have": false
+    },
+    {
+      "item": "JVP and S3 gallop to look for concurrent heart failure",
       "rationale": "Cardiac asthma mimics an obstructive exacerbation",
       "must_have": false
     },
     {
-      "item": "Compare breath sounds side to side and percuss for unilateral hyperresonance (pneumothorax)",
+      "item": "Compare breath sounds side to side; percuss for unilateral hyperresonance (pneumothorax)",
       "rationale": "Pneumothorax in emphysema presents as sudden dyspnea and must not be nebulized away",
-      "must_have": false
-    },
-    {
-      "item": "Ask about known COPD diagnosis or prior spirometry, home inhalers, and prior exacerbations needing steroids or intubation",
-      "rationale": "Prior severe exacerbations predict severe course",
       "must_have": false
     }
   ],
@@ -64,7 +64,7 @@
     "case_id": "dyspnea_002_p1",
     "changed_feature": "presenting symptom: wheeze -> sudden right-sided pleuritic chest pain",
     "input_oneliner": "72F, 50 pack-year smoker, day 2 admit for pyelonephritis, sudden right-sided chest pain and short of breath since midnight, sat 90% on 2L",
-    "expected_change": "Side-to-side breath sound comparison and percussion for unilateral hyperresonance becomes must_have and pneumothorax rises to top of differential; sputum/Anthonisen question drops to should-still-include; leg exam for DVT (pulmonary embolism) is a new item."
+    "expected_change": "Compare breath sounds side to side; percuss for unilateral hyperresonance becomes must_have and pneumothorax rises to top of differential; COPD history remains must_have; Anthonisen sputum question drops; Calf circumference asymmetry >3 cm (pulmonary embolism) is a new item."
   },
   "noise_variant": {
     "case_id": "dyspnea_002_n1",

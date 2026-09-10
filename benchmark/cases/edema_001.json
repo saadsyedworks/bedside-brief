@@ -17,12 +17,12 @@
   ],
   "reference_targets_freetext": [
     {
-      "item": "Jugular venous pressure with abdominojugular reflux",
+      "item": "JVP (jugular venous pressure); Abdominojugular reflux",
       "rationale": "Elevated JVP and positive abdominojugular reflux are the strongest bedside findings for elevated filling pressures",
       "must_have": true
     },
     {
-      "item": "Auscultate for a third heart sound (S3) at the apex in left lateral decubitus",
+      "item": "S3 gallop (third heart sound) at the apex in left lateral decubitus",
       "rationale": "S3 has a high positive likelihood ratio for decompensated heart failure",
       "must_have": true
     },
@@ -32,12 +32,12 @@
       "must_have": true
     },
     {
-      "item": "Ask about recently started or up-titrated amlodipine or other dihydropyridine, NSAIDs, thiazolidinediones, gabapentinoids",
+      "item": "Medication review (MAR): recently started or up-titrated amlodipine or other dihydropyridine, NSAIDs, thiazolidinediones, gabapentinoids",
       "rationale": "Drug-induced edema mimics HF and resolves with withdrawal",
       "must_have": false
     },
     {
-      "item": "Lung bases for crackles and dullness (effusion); pitting depth and whether edema extends to sacrum",
+      "item": "Bibasilar crackles and basal dullness (effusion); pitting depth and whether edema extends to the sacrum",
       "rationale": "Extent of congestion and dependent distribution support HF over venous insufficiency",
       "must_have": false
     }
@@ -52,21 +52,21 @@
     "daily weights and strict intake/output"
   ],
   "should_not_recommend": [
-    "Large IV fluid bolus before JVP and lung examination",
+    "Bilateral leg venous duplex as the first step for symmetric bilateral edema",
     "Empiric compression stockings or leg elevation as the plan without assessing filling pressures",
     "Ordering an echocardiogram as a substitute for JVP and cardiac auscultation"
   ],
   "underspecified_flag_expected": false,
   "perturbation_pair": {
     "case_id": "edema_001_p1",
-    "changed_feature": "orthopnea (sleeping in recliner) replaced by recent amlodipine up-titration (sleeps flat)",
-    "input_oneliner": "New admit: 71M prior MI and HTN, 5 days worsening bilateral leg swelling, amlodipine doubled 3 weeks ago, sleeps flat, weight up 4 kg, SpO2 93% RA",
-    "expected_change": "Ask about new or up-titrated dihydropyridine and other edema-causing drugs becomes must_have; JVP with abdominojugular reflux stays must_have as the discriminator (expected normal in drug edema); S3 drops to should-still-include; the orthopnea/PND question drops."
+    "changed_feature": "adds 'amlodipine doubled 3 weeks ago' (single addition; orthopnea and all vitals kept)",
+    "input_oneliner": "New admit: 71M prior MI and HTN, 5 days worsening bilateral leg swelling, amlodipine doubled 3 weeks ago, sleeping in recliner, weight up 4 kg, SpO2 93% RA",
+    "expected_change": "Medication review (MAR) for new/up-titrated dihydropyridine becomes must_have; JVP with Abdominojugular reflux and S3 gallop remain must_have as the discriminators; orthopnea/PND question remains."
   },
   "noise_variant": {
     "case_id": "edema_001_n1",
     "changed_feature": "wording and non-contributory demographic detail (occupation, family present)",
-    "input_oneliner": "71 year old gentleman, retired postal worker, wife present, history of heart attack and high blood pressure; both legs increasingly swollen over about five days, has been sleeping in his recliner, gained 4 kg, sat 93% on room air",
+    "input_oneliner": "71 year old gentleman, retired machinist, wife present, history of heart attack and high blood pressure; both legs increasingly swollen over about five days, has been sleeping in his recliner, gained 4 kg, sat 93% on room air",
     "expected_change": "None. Card should be substantially identical to base."
   },
   "authored_at": "",

@@ -32,7 +32,7 @@
       "must_have": true
     },
     {
-      "item": "Orthostatic vital signs and ask whether the problem is weakness, dizziness, or pain when standing",
+      "item": "Orthostatic vital signs (supine to standing at 1 and 3 min); ask whether the problem is weakness, dizziness, or pain when standing",
       "rationale": "Patients often report orthostatic lightheadedness or pain as weakness",
       "must_have": false
     },
@@ -42,7 +42,7 @@
       "must_have": false
     },
     {
-      "item": "Ask about diuretics, poor oral intake, and refeeding since admission",
+      "item": "Medication review (MAR): diuretics; ask about poor oral intake and refeeding since admission",
       "rationale": "Hypokalemia and hypophosphatemia are common, reversible causes of new generalized weakness in the elderly inpatient",
       "must_have": false
     }
@@ -62,7 +62,7 @@
   "perturbation_pair": {
     "case_id": "weakness_003_p1",
     "changed_feature": "no focal finding -> PT observed new right arm drift",
-    "input_oneliner": "82F hospital day 6 for UTI, PT reports 'too weak to walk today', PT also noted new right arm drift",
+    "input_oneliner": "82F hospital day 6 for UTI, PT reports 'too weak to walk today', PT noted the right arm drifting down when she held both up",
     "expected_change": "Underspecified flag should clear; stroke becomes the leading differential; pronator drift confirmation, facial symmetry, language testing, and last-known-well time become must-have; proximal strength testing and refeeding/diuretic questions drop to should-still-include."
   },
   "noise_variant": {

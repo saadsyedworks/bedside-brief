@@ -17,13 +17,13 @@
   ],
   "reference_targets_freetext": [
     {
-      "item": "Peripheral perfusion: capillary refill time (>3 s), skin mottling over the knees, cool extremities",
+      "item": "Capillary refill time (>3 s), skin mottling over the knees, cool extremities",
       "rationale": "Prolonged capillary refill and mottling identify hypoperfusion and track resuscitation response",
       "must_have": true
     },
     {
-      "item": "Source examination: suprapubic and costovertebral tenderness with catheter inspection, surgical wound, lungs, skin and pressure areas, IV and line sites",
-      "rationale": "Catheter-associated urinary infection, wound infection, and pneumonia are the likely septic sources post-operatively",
+      "item": "Source examination: suprapubic tenderness and Costovertebral angle (CVA) tenderness with catheter inspection, surgical wound, Focal crackles, skin and pressure areas, IV and line sites",
+      "rationale": "Catheter-associated urinary infection, wound infection, and pneumonia are the likely septic sources post-operatively; indispensable in febrile shock with no literature-backed substitute",
       "must_have": true
     },
     {
@@ -37,12 +37,12 @@
       "must_have": false
     },
     {
-      "item": "Review MAR for antihypertensives, opioids, or sedatives given in the last 6 h and the cumulative fluid balance and urine output",
-      "rationale": "Medication effect and unreplaced losses are common contributors on the surgical floor",
+      "item": "Medication review (MAR): antihypertensives, opioids, or sedatives given in the last 6 h",
+      "rationale": "Medication effect is a common contributor to hypotension on the surgical floor",
       "must_have": false
     },
     {
-      "item": "Ask about calf pain or leg swelling and pleuritic pain; check SpO2",
+      "item": "Ask about calf pain, unilateral leg swelling, or pleuritic chest pain; examine calves for Calf circumference asymmetry >3 cm",
       "rationale": "Post-operative pulmonary embolism can present as fever, hypotension, and confusion",
       "must_have": false
     }
@@ -54,6 +54,8 @@
     "CBC and BMP",
     "chest X-ray",
     "ECG",
+    "pulse oximetry",
+    "cumulative fluid balance and urine output",
     "catheter exchange after cultures",
     "empiric antibiotics after cultures"
   ],
@@ -64,14 +66,14 @@
   "underspecified_flag_expected": false,
   "perturbation_pair": {
     "case_id": "hypotension_001_p1",
-    "changed_feature": "T 38.4 -> T 36.2 (afebrile)",
+    "changed_feature": "T 38.4 -> T 36.2 (single swap: fever)",
     "input_oneliner": "72M POD3 hip fracture repair, chronic Foley, T 36.2, BP 86/50, HR 112, RN says newly confused",
-    "expected_change": "Source examination drops from must_have to should-still-include; hemorrhage assessment rises to must_have (surgical site, drain and thigh for hematoma, conjunctival pallor, postural pulse rise if safe) together with the MAR review for opioids and antihypertensives; perfusion and mental status remain must_have."
+    "expected_change": "Source examination drops from must_have to should-still-include; hemorrhage assessment rises to must_have (surgical site, drain and thigh for hematoma, conjunctival pallor, and Orthostatic vital signs (supine to standing at 1 and 3 min) only if supine SBP >=90) together with Medication review (MAR) for opioids and antihypertensives; Capillary refill time and mental status remain must_have."
   },
   "noise_variant": {
     "case_id": "hypotension_001_n1",
     "changed_feature": "wording and non-contributory demographic detail (room, occupation)",
-    "input_oneliner": "Seventy-two-year-old man, room 512, retired bus driver, third day after his hip fracture was fixed; has a long-term Foley; tonight temp 38.4, BP 86/50, pulse 112, and the nurse says he is more confused than usual",
+    "input_oneliner": "Seventy-two-year-old man, room 512, retired bus driver, third day after his hip fracture was fixed; has a long-term Foley; tonight temp 38.4, BP 86/50, pulse 112, and the nurse says he is confused, which is new for him",
     "expected_change": "None. Card should be substantially identical to base."
   },
   "authored_at": "",

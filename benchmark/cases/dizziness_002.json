@@ -26,17 +26,17 @@
       "must_have": true
     },
     {
-      "item": "Orthostatic vitals at 1 and 3 minutes after standing",
+      "item": "Orthostatic vital signs (supine to standing at 1 and 3 min)",
       "rationale": "Post-operative hypovolemia can mimic positional vertigo",
       "must_have": false
     },
     {
-      "item": "Review opioid, antiemetic, and anesthetic doses and timing as contributors",
+      "item": "Medication review (MAR): opioid, antiemetic, and anesthetic doses and timing",
       "rationale": "Sedatives and antiemetics commonly cause post-operative dizziness",
       "must_have": false
     },
     {
-      "item": "Observe gait; if unable to walk unaided, escalate to full neurologic exam",
+      "item": "Gait assessment: can the patient stand and walk unaided; if not, full neurologic exam",
       "rationale": "Gait failure is a red flag for a central cause",
       "must_have": false
     },
@@ -62,7 +62,7 @@
     "case_id": "dizziness_002_p1",
     "changed_feature": "trigger: rolling over in bed -> standing up from bed",
     "input_oneliner": "58F POD1 lap chole, spinning for ~20 seconds whenever she stands up from bed, nauseated, no headache, vitals normal",
-    "expected_change": "Orthostatic vitals at 1 and 3 minutes become must_have and orthostatic_hypotension rises to top of differential; ask about oral intake, blood loss, and fluid balance since surgery is a new item; Dix-Hallpike drops to should-still-include."
+    "expected_change": "Orthostatic vital signs (supine to standing at 1 and 3 min) become must_have and orthostatic_hypotension rises to top of differential; ask about oral intake, blood loss, and fluid balance since surgery is a new item; Dix-Hallpike maneuver drops to should-still-include."
   },
   "noise_variant": {
     "case_id": "dizziness_002_n1",

@@ -22,17 +22,17 @@
       "must_have": true
     },
     {
-      "item": "Obtain witness or nurse account: color, pulse, jerking, tongue biting, incontinence, post-event confusion",
+      "item": "Witness account: duration, color, jerking, tongue biting, incontinence, post-event confusion (from nurse)",
       "rationale": "Separates arrhythmic syncope from seizure",
       "must_have": true
     },
     {
-      "item": "Review the medication administration record: sotalol dose and timing, other QT-prolonging or AV-nodal agents, recent additions",
-      "rationale": "Sotalol with hypokalemia is a torsades set-up; AV-nodal agents cause bradyarrhythmia",
+      "item": "Medication review (MAR): sotalol dose and timing, other QT-prolonging or AV-nodal agents, recent additions",
+      "rationale": "Sotalol with hypokalemia is a torsades set-up; AV-nodal agents cause bradyarrhythmia; indispensable here, likely maps to a not_quantified record",
       "must_have": true
     },
     {
-      "item": "Orthostatic vitals at 1 and 3 minutes",
+      "item": "Orthostatic vital signs (supine to standing at 1 and 3 min)",
       "rationale": "Excludes an orthostatic contribution in an elderly inpatient",
       "must_have": false
     },
@@ -57,9 +57,9 @@
   "underspecified_flag_expected": false,
   "perturbation_pair": {
     "case_id": "syncope_002_p1",
-    "changed_feature": "position at onset: unwitnessed by bed -> on standing from bed",
-    "input_oneliner": "81F on sotalol for AF, collapsed on standing from bed to walk to bathroom, no memory of event, no prodrome, tele leads off, K 3.1 this AM",
-    "expected_change": "Orthostatic vitals at 1 and 3 minutes become must_have and orthostatic_hypotension rises; ask about oral intake, diuretics, and days in bed is a new item; arrhythmia history and medication review remain must_have."
+    "changed_feature": "position at onset: found on floor by bed -> collapsed on standing from bed",
+    "input_oneliner": "81F on sotalol for AF, collapsed on standing from bed, no memory of event, no prodrome, tele leads off at the time, K 3.1 this AM",
+    "expected_change": "Orthostatic vital signs (supine to standing at 1 and 3 min) become must_have and orthostatic_hypotension rises; ask about oral intake, diuretics, and days in bed is a new item; prodrome history and Medication review (MAR) remain must_have."
   },
   "noise_variant": {
     "case_id": "syncope_002_n1",

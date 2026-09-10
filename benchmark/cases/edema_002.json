@@ -27,7 +27,7 @@
       "must_have": true
     },
     {
-      "item": "Jugular venous pressure (low or normal favors cirrhosis or nephrotic syndrome; elevated favors heart failure or constriction)",
+      "item": "JVP (jugular venous pressure): low or normal favors cirrhosis or nephrotic syndrome; elevated favors heart failure or constriction",
       "rationale": "Separates hypo-oncotic/third-spacing edema from cardiac congestion",
       "must_have": true
     },
@@ -62,7 +62,7 @@
   "underspecified_flag_expected": false,
   "perturbation_pair": {
     "case_id": "edema_002_p1",
-    "changed_feature": "heavy alcohol use -> no alcohol, 20-year insulin-treated diabetes with retinopathy",
+    "changed_feature": "heavy alcohol use -> no alcohol, 20-year insulin-treated diabetes with retinopathy (single swap: risk factor)",
     "input_oneliner": "54M no alcohol, 20-year insulin-treated diabetes with retinopathy, 2 months of abdominal distension and bilateral leg swelling, admitted for generalized weakness, BP 106/62, afebrile",
     "expected_change": "Nephrotic syndrome moves to the top: the frothy urine/periorbital swelling question becomes must_have; stigmata of chronic liver disease and the alcohol quantity question drop to should-still-include or drop; ascites examination and JVP remain must_have."
   },

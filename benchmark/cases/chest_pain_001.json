@@ -22,14 +22,19 @@
       "must_have": true
     },
     {
-      "item": "Measure blood pressure in both arms and palpate radial and femoral pulses for a deficit; ask about abrupt tearing pain radiating to the back",
+      "item": "Blood pressure in both arms and radial/femoral pulse deficit (plus new diastolic murmur of aortic regurgitation)",
       "rationale": "Pulse deficit and inter-arm difference are the key bedside dissection findings",
       "must_have": true
     },
     {
-      "item": "Auscultate for a new diastolic murmur (aortic regurgitation), S3, and pulmonary crackles",
-      "rationale": "AR murmur suggests dissection; S3/crackles indicate heart failure complicating ischemia",
+      "item": "S3 gallop and Bibasilar crackles (heart failure complicating ischemia)",
+      "rationale": "S3 and crackles modestly raise likelihood of MI and mark high-risk ACS",
       "must_have": true
+    },
+    {
+      "item": "Ask about abrupt tearing pain radiating to the back",
+      "rationale": "Tearing/abrupt maximal pain is the history item for dissection",
+      "must_have": false
     },
     {
       "item": "Palpate the chest wall for fully reproducible tenderness",
@@ -57,14 +62,14 @@
   "underspecified_flag_expected": false,
   "perturbation_pair": {
     "case_id": "chest_pain_001_p1",
-    "changed_feature": "pain quality: substernal pressure -> abrupt maximal tearing pain radiating to the back",
-    "input_oneliner": "66M DM2 CKD3, in for cellulitis, 30 min abrupt tearing pain radiating to the back, diaphoretic, BP 150/90, HR 92, sat 96%",
-    "expected_change": "Bilateral arm blood pressures, pulse deficit check, and auscultation for aortic regurgitation become the leading must_have items; aortic dissection moves to top of differential; ask about focal neurologic symptoms or limb ischemia is a new item; ACS radiation question remains included."
+    "changed_feature": "pain quality: substernal pressure -> tearing pain radiating to the back",
+    "input_oneliner": "66M DM2 CKD3, in for cellulitis, 30 min tearing pain radiating to the back at rest, diaphoretic, BP 150/90, HR 92, sat 96%",
+    "expected_change": "Blood pressure in both arms and radial/femoral pulse deficit becomes the leading must_have and aortic dissection tops the differential; ask about tearing pain is answered by the one-liner and drops; ask about focal neurologic symptoms or limb ischemia is a new item; ACS radiation question remains included."
   },
   "noise_variant": {
     "case_id": "chest_pain_001_n1",
     "changed_feature": "wording and non-contributory detail",
-    "input_oneliner": "Sixty-six year old man, retired postal worker, diabetic with stage 3 kidney disease, admitted for cellulitis, room 508, half an hour of pressure-like pain in the middle of his chest while resting, sweaty, blood pressure 150/90, pulse 92, saturation 96",
+    "input_oneliner": "Sixty-six year old man, retired bus driver, diabetic with stage 3 kidney disease, admitted for cellulitis, room 508, half an hour of pressure-like pain in the middle of his chest while resting, sweaty, blood pressure 150/90, pulse 92, saturation 96",
     "expected_change": "None. Card should be substantially identical to base."
   },
   "authored_at": "",

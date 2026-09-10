@@ -27,9 +27,9 @@
       "must_have": true
     },
     {
-      "item": "Mark the erythema border with time and re-examine within 1-2 hours",
+      "item": "Mark the erythema margin (time-stamped) for serial comparison",
       "rationale": "Progression across the line separates necrotizing infection from ordinary cellulitis",
-      "must_have": true
+      "must_have": false
     },
     {
       "item": "Ask about portal of entry: foot ulcer, interdigital fissure, trauma, injection; inspect the feet and web spaces",
@@ -37,7 +37,7 @@
       "must_have": false
     },
     {
-      "item": "Calf tenderness, asymmetric swelling, and calf circumference difference",
+      "item": "Calf circumference asymmetry >3 cm, calf tenderness, unilateral swelling",
       "rationale": "DVT mimics and coexists with cellulitis in the immobile inpatient",
       "must_have": false
     },

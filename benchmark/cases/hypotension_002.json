@@ -17,27 +17,32 @@
   ],
   "reference_targets_freetext": [
     {
-      "item": "Ask about melena, hematemesis, and hematochezia, and perform a digital rectal examination for melena",
-      "rationale": "Occult GI bleeding on an anticoagulant is the leading cause; melena on rectal exam confirms it",
+      "item": "Ask about melena, hematemesis, and hematochezia; Digital rectal examination (DRE) for melena",
+      "rationale": "Occult GI bleeding on an anticoagulant is the leading cause; melena on rectal exam has a very high LR for severe upper GI bleeding",
       "must_have": true
     },
     {
-      "item": "Orthostatic vitals at 1 and 3 minutes (postural pulse increment >=30/min or standing dizziness), if safe to stand",
-      "rationale": "Postural pulse increment is the most accurate bedside sign of large-volume blood loss",
-      "must_have": true
-    },
-    {
-      "item": "Conjunctival pallor, capillary refill, skin temperature, and pulse regularity (rapid AF versus sinus tachycardia)",
-      "rationale": "Distinguishes hypoperfusion from blood loss versus a primary rate problem",
-      "must_have": true
-    },
-    {
-      "item": "Ask about NSAID or aspirin use, prior ulcer or varices, and alcohol; examine the abdomen for tenderness and the flanks and thighs for hematoma",
-      "rationale": "Identifies bleeding site and risk factors, including retroperitoneal or soft-tissue bleeding",
+      "item": "Orthostatic vital signs (supine to standing at 1 and 3 min) (postural pulse increment >=30/min), only if supine SBP >=90",
+      "rationale": "Postural pulse increment is the most accurate bedside sign of large-volume blood loss, but supine hypotension already meets the criterion and standing is unsafe below SBP 90",
       "must_have": false
     },
     {
-      "item": "Review MAR for antihypertensives, diuretics, and opioids given tonight; temperature and lung examination for progression of pneumonia",
+      "item": "Conjunctival pallor, Capillary refill time, skin temperature, and pulse regularity (rapid AF versus sinus tachycardia)",
+      "rationale": "Conjunctival rim pallor has a high LR+ for anemia; perfusion and pulse regularity separate blood loss from a primary rate problem",
+      "must_have": true
+    },
+    {
+      "item": "Ask about prior upper GI bleeding, NSAID or aspirin use, cirrhosis or known varices, and alcohol",
+      "rationale": "A history of prior upper GI bleeding carries a high LR for a severe bleed and directs urgency of endoscopy",
+      "must_have": true
+    },
+    {
+      "item": "Examine the abdomen for tenderness and the flanks and thighs for hematoma",
+      "rationale": "Identifies retroperitoneal or soft-tissue bleeding on an anticoagulant",
+      "must_have": false
+    },
+    {
+      "item": "Medication review (MAR): antihypertensives, diuretics, and opioids given tonight; temperature and Focal crackles for progression of pneumonia",
       "rationale": "Medication effect and worsening sepsis are competing explanations",
       "must_have": false
     }
@@ -54,14 +59,14 @@
   "should_not_recommend": [
     "Empiric anticoagulant reversal before bleeding is sought on history and exam",
     "Nasogastric lavage to diagnose upper GI bleeding",
-    "Standing the patient for orthostatics when he is presyncopal supine"
+    "Standing the patient for orthostatic vital signs while supine SBP remains <90"
   ],
   "underspecified_flag_expected": false,
   "perturbation_pair": {
     "case_id": "hypotension_002_p1",
-    "changed_feature": "on apixaban for AF -> no anticoagulant, on IV furosemide BID with poor oral intake",
-    "input_oneliner": "Cross-cover: 63M no anticoagulant, on IV furosemide BID with poor oral intake, admitted with CAP, day 2, BP 88/54, HR 118, pale and lightheaded when he stood to void",
-    "expected_change": "Non-hemorrhagic hypovolemia rises: dry axillae and mucous membranes, fluid balance and urine output review, and asking about oral intake, vomiting, or diarrhea become must_have; the melena question and rectal exam drop to should-still-include; orthostatic vitals remain must_have."
+    "changed_feature": "anticoagulant exposure -> loop-diuretic exposure (mechanism of volume loss); AF, admission, vitals kept verbatim",
+    "input_oneliner": "Cross-cover: 63M with AF, not anticoagulated, on IV furosemide BID, admitted with CAP, day 2, BP 88/54, HR 118, pale and lightheaded when he stood to void",
+    "expected_change": "Non-hemorrhagic hypovolemia rises: Dry axilla / mucous membranes and asking about oral intake, vomiting, or diarrhea become must_have; the melena question with DRE and the prior-GI-bleed history drop to should-still-include; the conditional Orthostatic vital signs item and conjunctival pallor/Capillary refill time remain."
   },
   "noise_variant": {
     "case_id": "hypotension_002_n1",

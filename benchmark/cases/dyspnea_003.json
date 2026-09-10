@@ -17,27 +17,27 @@
   ],
   "reference_targets_freetext": [
     {
-      "item": "Examine both legs for asymmetric calf swelling (>3 cm difference), tenderness, or superficial venous distension",
+      "item": "Calf circumference asymmetry >3 cm (10 cm below tibial tuberosity), tenderness, or superficial venous distension",
       "rationale": "Clinical DVT signs are the strongest bedside predictor of PE",
       "must_have": true
     },
     {
-      "item": "Ask about hemoptysis, prior VTE, and whether the pain is pleuritic; document immobility since surgery (Wells/Geneva history items)",
+      "item": "Ask about hemoptysis, prior VTE, and syncope or presyncope with the event; document immobility since surgery (Wells/Geneva history items)",
       "rationale": "Pretest probability components that can be obtained at bedside",
       "must_have": true
     },
     {
-      "item": "Compare breath sounds side to side and percuss for unilateral hyperresonance or dullness",
+      "item": "Compare breath sounds side to side; percuss for unilateral hyperresonance or dullness",
       "rationale": "Detects pneumothorax or effusion/consolidation as alternative causes",
       "must_have": true
     },
     {
-      "item": "Auscultate for focal crackles, bronchial breath sounds, or egophony and ask about fever and productive cough",
+      "item": "Focal consolidation: egophony, bronchial breath sounds, dullness to percussion; Focal crackles; ask about fever and productive cough",
       "rationale": "Post-operative pneumonia is the main alternative",
       "must_have": false
     },
     {
-      "item": "Assess JVP and listen for loud P2 or right ventricular heave",
+      "item": "JVP and loud P2 or right ventricular heave",
       "rationale": "Right heart strain signs suggest a large PE",
       "must_have": false
     },
@@ -65,7 +65,7 @@
     "case_id": "dyspnea_003_p1",
     "changed_feature": "added fever (T 38.9 C)",
     "input_oneliner": "POD3 hip fracture repair, 79F, sudden dyspnea and right-sided pleuritic pain 20 min ago, T 38.9, HR 112, RR 26, sat 91% RA",
-    "expected_change": "Auscultation for focal consolidation (crackles, bronchial breath sounds, egophony) and ask about cough/sputum become must_have; pneumonia rises alongside PE; leg examination remains must_have; ACS screening question drops."
+    "expected_change": "Focal consolidation exam (egophony, bronchial breath sounds, dullness; Focal crackles) and ask about cough/sputum become must_have; pneumonia rises alongside PE; Calf circumference asymmetry >3 cm remains must_have; ACS screening question drops."
   },
   "noise_variant": {
     "case_id": "dyspnea_003_n1",

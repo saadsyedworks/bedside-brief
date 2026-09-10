@@ -16,27 +16,32 @@
   ],
   "reference_targets_freetext": [
     {
-      "item": "Bladder percussion/palpation for retention: suprapubic dullness, palpable mass, tenderness",
+      "item": "Bladder percussion/palpation for retention (suprapubic dullness, palpable mass, tenderness)",
       "rationale": "Acute urinary retention is the first reversible cause of anuria in an elderly man with BPH on an anticholinergic",
       "must_have": true
     },
     {
-      "item": "Medication review for anticholinergics, opioids, and alpha-agonists; ask about last void, straining, and dribbling",
+      "item": "Medication review (MAR): anticholinergics, opioids, and alpha-agonists; ask about last void, straining, and dribbling",
       "rationale": "Diphenhydramine and opioids precipitate retention; the history of small frequent voids or dribbling supports overflow",
       "must_have": true
     },
     {
-      "item": "Volume exam: jugular venous pressure, mucous membranes, orthostatic vital signs",
-      "rationale": "Distinguishes prerenal AKI from obstruction in a febrile patient with poor intake",
+      "item": "Orthostatic vital signs (supine to standing at 1 and 3 min)",
+      "rationale": "Postural tachycardia and dizziness are the most specific bedside findings for hypovolemia in a febrile patient with poor intake",
       "must_have": true
     },
     {
-      "item": "Digital rectal exam for prostate size and tenderness",
+      "item": "JVP and dry axilla / mucous membranes",
+      "rationale": "Low JVP and dry axilla support prerenal physiology; high JVP argues against it",
+      "must_have": false
+    },
+    {
+      "item": "Digital rectal examination (DRE) - prostate size and tenderness",
       "rationale": "Prostate enlargement or prostatitis supports obstruction; tenderness raises prostatitis as the infection source",
       "must_have": false
     },
     {
-      "item": "Ask about flank pain, hematuria, and bilateral costovertebral angle tenderness",
+      "item": "Ask about flank pain and hematuria; costovertebral angle (CVA) tenderness bilaterally",
       "rationale": "Upper tract obstruction or pyelonephritis as alternative causes",
       "must_have": false
     }
