@@ -4,48 +4,48 @@
 
 ## Suggested verification order
 
-1. `exam_breath_sounds_unilateral_absent` — disagree — 2 flag(s)
+1. `exam_breath_sounds_unilateral_absent` — disagree — 3 flag(s)
 2. `exam_calf_asymmetry_gt3cm` — disagree — 2 flag(s)
-3. `exam_jvp_elevated` — disagree — 2 flag(s)
+3. `exam_jvp_elevated` — disagree — 6 flag(s)
 4. `exam_percussion_dullness` — disagree — 2 flag(s)
 5. `exam_s3_gallop` — disagree — 2 flag(s)
 6. `exam_tachypnea_rr_gt24` — disagree — 2 flag(s)
-7. `exam_wheezing` — disagree — 3 flag(s)
+7. `exam_wheezing` — disagree — 4 flag(s)
 8. `hx_alcohol_use_withdrawal_timing` — disagree — 3 flag(s)
 9. `hx_exertional_chest_pain` — disagree — 2 flag(s)
 10. `hx_pain_radiation_both_arms` — disagree — 2 flag(s)
-11. `hx_palpitations_before_syncope` — disagree — 2 flag(s)
-12. `hx_pleuritic_chest_pain` — disagree — 2 flag(s)
-13. `hx_pnd` — disagree — 2 flag(s)
-14. `hx_syncope_supine` — disagree — 2 flag(s)
-15. `exam_abdominojugular_reflux` — partial — 1 flag(s)
-16. `exam_ascites_flank_dullness_fluid_wave` — partial — 1 flag(s)
-17. `exam_bp_differential_arms` — partial — 1 flag(s)
+11. `hx_palpitations_before_syncope` — disagree — 3 flag(s)
+12. `hx_pleuritic_chest_pain` — disagree — 3 flag(s)
+13. `hx_pnd` — disagree — 6 flag(s)
+14. `hx_syncope_supine` — disagree — 3 flag(s)
+15. `exam_abdominojugular_reflux` — partial — 5 flag(s)
+16. `exam_ascites_flank_dullness_fluid_wave` — partial — 6 flag(s)
+17. `exam_bp_differential_arms` — partial — 3 flag(s)
 18. `exam_capillary_refill` — partial — 1 flag(s)
 19. `exam_carotid_upstroke_delayed` — partial — 1 flag(s)
-20. `exam_chest_wall_tenderness_reproducible` — partial — 1 flag(s)
+20. `exam_chest_wall_tenderness_reproducible` — partial — 2 flag(s)
 21. `exam_cirrhosis_stigmata` — partial — 1 flag(s)
 22. `exam_egophony` — partial — 1 flag(s)
 23. `exam_fatigable_ptosis_sustained_upgaze` — partial — 1 flag(s)
 24. `exam_melena_rectal_exam` — partial — 1 flag(s)
 25. `exam_murmur_late_peaking_systolic` — partial — 3 flag(s)
-26. `exam_orthostatic_vitals` — partial — 1 flag(s)
+26. `exam_orthostatic_vitals` — partial — 8 flag(s)
 27. `exam_peripheral_edema_pitting` — partial — 1 flag(s)
 28. `exam_pulmonary_crackles` — partial — 1 flag(s)
 29. `exam_pulsatile_abdominal_mass` — partial — 2 flag(s)
-30. `exam_pulse_deficit` — partial — 1 flag(s)
+30. `exam_pulse_deficit` — partial — 3 flag(s)
 31. `exam_pulsus_paradoxus` — partial — 2 flag(s)
-32. `exam_shifting_dullness` — partial — 1 flag(s)
+32. `exam_shifting_dullness` — partial — 6 flag(s)
 33. `fn_murmur_valsalva_standing_louder` — partial — 1 flag(s)
 34. `fn_tap_out_rhythm_regular` — agree — 0 flag(s)
-35. `hx_exertional_syncope` — partial — 1 flag(s)
+35. `hx_exertional_syncope` — partial — 2 flag(s)
 36. `hx_neck_pounding_frog_sign` — partial — 1 flag(s)
-37. `hx_orthopnea` — partial — 1 flag(s)
+37. `hx_orthopnea` — partial — 5 flag(s)
 38. `hx_pain_abrupt_maximal_onset` — partial — 1 flag(s)
 39. `hx_pain_tearing_ripping` — partial — 1 flag(s)
 40. `hx_palpitations_abrupt_onset_offset` — agree — 0 flag(s)
-41. `hx_postural_dizziness` — partial — 1 flag(s)
-42. `hx_syncope_prodrome` — partial — 1 flag(s)
+41. `hx_postural_dizziness` — partial — 8 flag(s)
+42. `hx_syncope_prodrome` — partial — 2 flag(s)
 43. `hx_vte_risk_factors` — partial — 1 flag(s)
 44. `exam_ascending_symmetric_weakness_areflexia` — partial — 1 flag(s)
 45. `exam_cellulitis_unilateral_warmth_border` — partial — 1 flag(s)
@@ -68,6 +68,7 @@
 ### exam_breath_sounds_unilateral_absent  (extractor-A, extractor-B) — **disagree**
 - STATUS MISMATCH: partially_quantified vs quantified
 - ESTIMATE SET DIFFERS: A=1 B=2 (population split or omission)
+- COMPOSITE DUPLICATE? sensitivity=0.26 from 32355210 also under ['exam_wheezing']
 
 ### exam_calf_asymmetry_gt3cm  (extractor-A, extractor-B) — **disagree**
 - STATUS MISMATCH: partially_quantified vs quantified
@@ -76,6 +77,10 @@
 ### exam_jvp_elevated  (extractor-A, extractor-B) — **disagree**
 - STATUS MISMATCH: partially_quantified vs quantified
 - ESTIMATE SET DIFFERS: A=1 B=3 (population split or omission)
+- COMPOSITE DUPLICATE? sensitivity=0.81 from 8409071 also under ['exam_abdominojugular_reflux']
+- COMPOSITE DUPLICATE? specificity=0.8 from 8409071 also under ['exam_abdominojugular_reflux']
+- COMPOSITE DUPLICATE? lr_positive=4.05 from 8409071 also under ['exam_abdominojugular_reflux']
+- COMPOSITE DUPLICATE? lr_negative=0.24 from 8409071 also under ['exam_abdominojugular_reflux']
 
 ### exam_percussion_dullness  (extractor-A, extractor-B) — **disagree**
 - STATUS MISMATCH: partially_quantified vs quantified
@@ -93,6 +98,7 @@
 - SILENT COMPUTATION? (extractor-B): estimates[2] LR+ equals sens/(1-spec) but computed=false
 - STATUS MISMATCH: partially_quantified vs quantified
 - ESTIMATE SET DIFFERS: A=1 B=3 (population split or omission)
+- COMPOSITE DUPLICATE? sensitivity=0.26 from 32355210 also under ['exam_breath_sounds_unilateral_absent']
 
 ### hx_alcohol_use_withdrawal_timing  (extractor-A, extractor-B) — **disagree**
 - SECONDARY SOURCE? (extractor-B): sources[4] kind=guideline on a quantified record
@@ -110,27 +116,45 @@
 ### hx_palpitations_before_syncope  (extractor-A, extractor-B) — **disagree**
 - STATUS MISMATCH: quantified vs not_quantified
 - ESTIMATE SET DIFFERS: A=1 B=0 (population split or omission)
+- COMPOSITE DUPLICATE? sensitivity=0.08 from 24223233 also under ['hx_syncope_prodrome']
 
 ### hx_pleuritic_chest_pain  (extractor-A, extractor-B) — **disagree**
 - STATUS MISMATCH: partially_quantified vs quantified
 - ESTIMATE SET DIFFERS: A=3 B=1 (population split or omission)
+- COMPOSITE DUPLICATE? lr_positive=0.2 from 9786377 also under ['exam_chest_wall_tenderness_reproducible']
 
 ### hx_pnd  (extractor-A, extractor-B) — **disagree**
 - STATUS MISMATCH: partially_quantified vs quantified
 - ESTIMATE SET DIFFERS: A=3 B=1 (population split or omission)
+- COMPOSITE DUPLICATE? sensitivity=0.52 from 19576357 also under ['hx_orthopnea']
+- COMPOSITE DUPLICATE? specificity=0.83 from 19576357 also under ['hx_orthopnea']
+- COMPOSITE DUPLICATE? lr_positive=3.06 from 19576357 also under ['hx_orthopnea']
+- COMPOSITE DUPLICATE? lr_negative=0.58 from 19576357 also under ['hx_orthopnea']
 
 ### hx_syncope_supine  (extractor-A, extractor-B) — **disagree**
 - STATUS MISMATCH: quantified vs not_quantified
 - ESTIMATE SET DIFFERS: A=1 B=0 (population split or omission)
+- COMPOSITE DUPLICATE? specificity=0.98 from 24223233 also under ['hx_exertional_syncope']
 
 ### exam_abdominojugular_reflux  (extractor-A, extractor-B) — **partial**
 - ESTIMATE SET DIFFERS: A=2 B=2 (population split or omission)
+- COMPOSITE DUPLICATE? sensitivity=0.81 from 8409071 also under ['exam_jvp_elevated']
+- COMPOSITE DUPLICATE? specificity=0.8 from 8409071 also under ['exam_jvp_elevated']
+- COMPOSITE DUPLICATE? lr_positive=4.05 from 8409071 also under ['exam_jvp_elevated']
+- COMPOSITE DUPLICATE? lr_negative=0.24 from 8409071 also under ['exam_jvp_elevated']
 
 ### exam_ascites_flank_dullness_fluid_wave  (extractor-A, extractor-B) — **partial**
 - ESTIMATE SET DIFFERS: A=4 B=1 (population split or omission)
+- COMPOSITE DUPLICATE? lr_positive=9.6 from 3049966 also under ['exam_shifting_dullness']
+- COMPOSITE DUPLICATE? lr_positive=5.76 from 3049966 also under ['exam_shifting_dullness']
+- COMPOSITE DUPLICATE? lr_negative=0.12 from 3049966 also under ['exam_shifting_dullness']
+- COMPOSITE DUPLICATE? lr_positive=37.7 from 3049966 also under ['exam_shifting_dullness']
+- COMPOSITE DUPLICATE? lr_negative=0.17 from 3049966 also under ['exam_shifting_dullness']
 
 ### exam_bp_differential_arms  (extractor-A, extractor-B) — **partial**
 - ESTIMATE SET DIFFERS: A=3 B=1 (population split or omission)
+- COMPOSITE DUPLICATE? sensitivity=0.31 from 11980527 also under ['exam_pulse_deficit']
+- COMPOSITE DUPLICATE? lr_positive=5.7 from 11980527 also under ['exam_pulse_deficit']
 
 ### exam_capillary_refill  (extractor-A, extractor-B) — **partial**
 - ESTIMATE SET DIFFERS: A=4 B=5 (population split or omission)
@@ -140,6 +164,7 @@
 
 ### exam_chest_wall_tenderness_reproducible  (extractor-A, extractor-B) — **partial**
 - ESTIMATE SET DIFFERS: A=3 B=3 (population split or omission)
+- COMPOSITE DUPLICATE? lr_positive=0.2 from 9786377 also under ['hx_pleuritic_chest_pain']
 
 ### exam_cirrhosis_stigmata  (extractor-A, extractor-B) — **partial**
 - ESTIMATE SET DIFFERS: A=3 B=1 (population split or omission)
@@ -160,6 +185,13 @@
 
 ### exam_orthostatic_vitals  (extractor-A, extractor-B) — **partial**
 - ESTIMATE SET DIFFERS: A=2 B=3 (population split or omission)
+- COMPOSITE DUPLICATE? sensitivity=0.97 from 10086438 also under ['hx_postural_dizziness']
+- COMPOSITE DUPLICATE? specificity=0.98 from 10086438 also under ['hx_postural_dizziness']
+- COMPOSITE DUPLICATE? lr_positive=48.5 from 10086438 also under ['hx_postural_dizziness']
+- COMPOSITE DUPLICATE? lr_negative=0.03 from 10086438 also under ['hx_postural_dizziness']
+- COMPOSITE DUPLICATE? sensitivity=0.22 from 10086438 also under ['hx_postural_dizziness']
+- COMPOSITE DUPLICATE? lr_positive=11 from 10086438 also under ['hx_postural_dizziness']
+- COMPOSITE DUPLICATE? lr_negative=0.8 from 10086438 also under ['hx_postural_dizziness']
 
 ### exam_peripheral_edema_pitting  (extractor-A, extractor-B) — **partial**
 - ESTIMATE SET DIFFERS: A=1 B=1 (population split or omission)
@@ -173,6 +205,8 @@
 
 ### exam_pulse_deficit  (extractor-A, extractor-B) — **partial**
 - ESTIMATE SET DIFFERS: A=4 B=3 (population split or omission)
+- COMPOSITE DUPLICATE? sensitivity=0.31 from 11980527 also under ['exam_bp_differential_arms']
+- COMPOSITE DUPLICATE? lr_positive=5.7 from 11980527 also under ['exam_bp_differential_arms']
 
 ### exam_pulsus_paradoxus  (extractor-A, extractor-B) — **partial**
 - SILENT COMPUTATION? (extractor-B): estimates[2] LR+ equals sens/(1-spec) but computed=false
@@ -180,6 +214,11 @@
 
 ### exam_shifting_dullness  (extractor-A, extractor-B) — **partial**
 - ESTIMATE SET DIFFERS: A=4 B=1 (population split or omission)
+- COMPOSITE DUPLICATE? lr_positive=9.6 from 3049966 also under ['exam_ascites_flank_dullness_fluid_wave']
+- COMPOSITE DUPLICATE? lr_positive=5.76 from 3049966 also under ['exam_ascites_flank_dullness_fluid_wave']
+- COMPOSITE DUPLICATE? lr_negative=0.12 from 3049966 also under ['exam_ascites_flank_dullness_fluid_wave']
+- COMPOSITE DUPLICATE? lr_positive=37.7 from 3049966 also under ['exam_ascites_flank_dullness_fluid_wave']
+- COMPOSITE DUPLICATE? lr_negative=0.17 from 3049966 also under ['exam_ascites_flank_dullness_fluid_wave']
 
 ### fn_murmur_valsalva_standing_louder  (extractor-A, extractor-B) — **partial**
 - ESTIMATE SET DIFFERS: A=4 B=1 (population split or omission)
@@ -189,12 +228,17 @@
 
 ### hx_exertional_syncope  (extractor-A, extractor-B) — **partial**
 - ESTIMATE SET DIFFERS: A=1 B=2 (population split or omission)
+- COMPOSITE DUPLICATE? specificity=0.98 from 24223233 also under ['hx_syncope_supine']
 
 ### hx_neck_pounding_frog_sign  (extractor-A, extractor-B) — **partial**
 - ESTIMATE SET DIFFERS: A=3 B=3 (population split or omission)
 
 ### hx_orthopnea  (extractor-A, extractor-B) — **partial**
 - ESTIMATE SET DIFFERS: A=2 B=1 (population split or omission)
+- COMPOSITE DUPLICATE? sensitivity=0.52 from 19576357 also under ['hx_pnd']
+- COMPOSITE DUPLICATE? specificity=0.83 from 19576357 also under ['hx_pnd']
+- COMPOSITE DUPLICATE? lr_positive=3.06 from 19576357 also under ['hx_pnd']
+- COMPOSITE DUPLICATE? lr_negative=0.58 from 19576357 also under ['hx_pnd']
 
 ### hx_pain_abrupt_maximal_onset  (extractor-A, extractor-B) — **partial**
 - ESTIMATE SET DIFFERS: A=2 B=2 (population split or omission)
@@ -207,9 +251,17 @@
 
 ### hx_postural_dizziness  (extractor-A, extractor-B) — **partial**
 - ESTIMATE SET DIFFERS: A=2 B=2 (population split or omission)
+- COMPOSITE DUPLICATE? sensitivity=0.97 from 10086438 also under ['exam_orthostatic_vitals']
+- COMPOSITE DUPLICATE? specificity=0.98 from 10086438 also under ['exam_orthostatic_vitals']
+- COMPOSITE DUPLICATE? lr_positive=48.5 from 10086438 also under ['exam_orthostatic_vitals']
+- COMPOSITE DUPLICATE? lr_negative=0.03 from 10086438 also under ['exam_orthostatic_vitals']
+- COMPOSITE DUPLICATE? sensitivity=0.22 from 10086438 also under ['exam_orthostatic_vitals']
+- COMPOSITE DUPLICATE? lr_positive=11 from 10086438 also under ['exam_orthostatic_vitals']
+- COMPOSITE DUPLICATE? lr_negative=0.8 from 10086438 also under ['exam_orthostatic_vitals']
 
 ### hx_syncope_prodrome  (extractor-A, extractor-B) — **partial**
 - ESTIMATE SET DIFFERS: A=6 B=3 (population split or omission)
+- COMPOSITE DUPLICATE? sensitivity=0.08 from 24223233 also under ['hx_palpitations_before_syncope']
 
 ### hx_vte_risk_factors  (extractor-A, extractor-B) — **partial**
 - ESTIMATE SET DIFFERS: A=3 B=7 (population split or omission)

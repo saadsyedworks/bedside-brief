@@ -165,11 +165,12 @@ def _id_tokens(entry: dict[str, Any]) -> set[str]:
 
 def propose_mapping(
     cases: list[CaseInput], ids_path: str | Path | None = None, out_path: str | Path | None = None,
-    restrict_to: set[str] | None = None, min_score: float = 0.34, max_ids: int = 3,
+    restrict_to: set[str] | None = None, min_score: float = 0.34, max_ids: int = 3, entries: list[dict[str, Any]] | None = None,
 ) -> dict[str, Any]:
     """Deterministic token-overlap proposal target -> ids. Writes a PROPOSED file for the
-    coordinator to review; never touches git and never writes benchmark/target_map.json itself."""
-    ids = json.loads(Path(ids_path or config.IDS_PATH).read_text())["ids"]
+    coordinator to review; never touches git and never writes benchmark/target_map.json itself.
+    `entries` ([{id, title}]) overrides the ids file (used to score against a store's own titles)."""
+    ids = entries if entries is not None else json.loads(Path(ids_path or config.IDS_PATH).read_text())["ids"]
     if restrict_to is not None:
         ids = [e for e in ids if e["id"] in restrict_to]
     id_toks = {e["id"]: _id_tokens(e) for e in ids}

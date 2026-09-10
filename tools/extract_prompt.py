@@ -33,6 +33,14 @@ For EACH id below, fill the provided skeleton and write it to `records/extracted
 - Separate `estimates[]` entries per population/setting/threshold when performance differs; never average.
 - evidence_status: quantified (≥1 numeric estimate with quote+location) / partially_quantified (some estimate fields null or only one direction reported) / not_quantified (estimates=[] and sources[] cites the guideline/consensus).
 - UNITS: sensitivity/specificity/prevalence values are PROPORTIONS 0–1 (write 0.82, not 82); LRs are ratios. Quotes keep the source's wording.
+- DIRECTION: `lr_positive` = likelihood ratio when the finding is PRESENT; `lr_negative` = when ABSENT. If the source reports the inverted sign (e.g. "absence of tenderness LR 0.23"), relabel explicitly, set computed=true and explain in computed_from.
+- RANGES: never enter a between-study range (e.g. "LR 8.0–101") as a point value. Leave the field null and put the range in extraction_notes; only pooled point estimates go in `value`.
+- COMPOSITES: if the source's finding is a composite (e.g. "JVD at rest OR inducible", "pulse deficit OR BP differential", "orthopnea OR PND"), you may enter it only with target_condition prefixed "COMPOSITE: …" and a note; never present a composite as this single sign's own estimate.
+- ONE NUMBER MINIMUM: an `estimates[]` entry must carry at least one numeric field; otherwise delete it and describe the gap in extraction_notes. `prevalence` only from cohort designs (never case-control ratios).
+- PROGNOSTIC vs DIAGNOSTIC: outcomes like mortality are not diagnostic accuracy; if you include them, target_condition must start "PROGNOSTIC: …".
+- AUTHORS: copy `sources[].citation` author names from `tools/pubmed.py fetch` output (it returns `authors`); never from memory.
+- NOTES DISCIPLINE: any number in extraction_notes/interobserver_note/pitfalls must also have a quote+location, or be tagged "(unverified recall)".
+- STATUS RULE: quantified = every estimate has ≥1 numeric field AND ≥1 estimate has both a sens/spec pair or an LR pair; partially_quantified = some numeric fields present but the above not met; not_quantified = no numeric estimate at all.
 - technique.how ≤400 chars; changes_what ≤200 chars; ≤2 sentences per prose field; POCUS records need safety_scope.skill_assumption.
 - After writing all files run `python3 tools/validate.py records records/extracted` and fix until your files show 0 errors (ignore other agents' files in the output).
 Reply with one line per id: id | evidence_status | n_estimates | primary PMID(s) | any problem.

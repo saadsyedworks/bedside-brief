@@ -77,6 +77,11 @@ def compare(rid: str, packs: dict[str, dict], resolve: bool) -> dict:
                     hit = fetch(str(s["pmid"])) if s.get("pmid") else doi_lookup(s["doi"])
                     if not hit.get("title"):
                         flags.append(f"FABRICATION SUSPECT ({a}): sources[{j}] resolves to nothing")
+                    elif hit.get("authors"):
+                        first = hit["authors"][0].split()[0].lower()
+                        cit = str(s.get("citation", "")).lower()
+                        if first and first not in cit:
+                            flags.append(f"AUTHOR MISMATCH ({a}): sources[{j}] cites '{s.get('citation','')[:40]}' but PubMed first author is {hit['authors'][0]}")
                 except Exception as ex:  # noqa: BLE001
                     flags.append(f"FABRICATION SUSPECT ({a}): sources[{j}] lookup failed: {str(ex)[:60]}")
         if p.get("identity", {}).get("type") == "pocus" and not p.get("safety_scope", {}).get("skill_assumption"):
@@ -108,13 +113,40 @@ def compare(rid: str, packs: dict[str, dict], resolve: bool) -> dict:
     return {"id": rid, "agents": agents, "status": status, "flags": flags}
 
 
+def cross_record_duplicates(packets: dict[str, dict[str, dict]]) -> dict[str, list[str]]:
+    """Same PMID + same LR/sens value appearing under two different ids → probable composite credited twice."""
+    seen: dict[tuple, set[str]] = defaultdict(set)
+    for rid, packs in packets.items():
+        for p in packs.values():
+            srcs = p.get("sources", [])
+            for e in p.get("estimates", []):
+                si = e.get("source_index")
+                if si is None or si >= len(srcs):
+                    continue
+                key_src = str(srcs[si].get("pmid") or srcs[si].get("doi") or "")
+                for st in STATS:
+                    v = _val(e, st)
+                    if v is not None and key_src:
+                        seen[(key_src, st, round(v, 3))].add(rid)
+    out: dict[str, list[str]] = defaultdict(list)
+    for (src, st, v), rids in seen.items():
+        if len(rids) > 1:
+            for r in rids:
+                out[r].append(f"COMPOSITE DUPLICATE? {st}={v} from {src} also under {sorted(rids - {r})}")
+    return out
+
+
 def main() -> None:
     resolve = "--resolve" in sys.argv
     ids_meta = {}
     p = ROOT / "discriminator_ids.json"
     if p.exists():
         ids_meta = {e["id"]: e for e in json.loads(p.read_text())["ids"]}
-    rows = [compare(rid, packs, resolve) for rid, packs in load_packets().items()]
+    packets = load_packets()
+    dups = cross_record_duplicates(packets)
+    rows = [compare(rid, packs, resolve) for rid, packs in packets.items()]
+    for r in rows:
+        r["flags"].extend(dups.get(r["id"], []))
 
     def order(r: dict) -> tuple:
         hard = any(f.startswith(("FABRICATION", "NUMERIC MISMATCH", "INVALID", "STATUS MISMATCH")) for f in r["flags"])
