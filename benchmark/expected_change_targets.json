@@ -1,0 +1,190 @@
+{
+  "_note": "Freeze-#1-compatible sidecar consumed by eval.cases.load_cases: {base_case_id: [entries]} where an int is a 0-based index into the BASE case's reference_targets_freetext and a str is a canonical record id from discriminator_ids.json. eval.metrics scores perturbation responsiveness as hits/len(entries) on the _p1 output (int -> target_present; str -> record id on the card, or its verified-record title matched in item text). Entries are the items expected_change says become must-have, rise, lead, or remain must-have AND are the discriminator of the differential that now leads; items that only drop, remain should-still-include, or plainly remain must-have are excluded. Record-id strings only score when the verified store carries that record (they never hit in --smoke, whose store is synthetic). Keys starting with '_' are ignored by the loader. Drops live in benchmark/expected_change_drops.json.",
+  "_unrepresentable": {
+    "abdominal_pain_002": [
+      "Ask about prior biliary stents or ERCP"
+    ],
+    "abdominal_pain_003": [
+      "Ask about back or flank pain"
+    ],
+    "aki_001": [
+      "Abdominal tenderness with fever check (SBP)",
+      "Ask about recent large-volume paracentesis and lactulose or diuretic doses"
+    ],
+    "dizziness_002": [
+      "Ask about oral intake, blood loss, and fluid balance since surgery"
+    ],
+    "fever_001": [
+      "Ask about flatus, bowel function, and drain output"
+    ],
+    "fever_002": [
+      "Arthrocentesis (moves to the off-bedside list; not a card item)"
+    ],
+    "fever_003": [
+      "Stool testing (off-bedside; not a card item)"
+    ],
+    "hypotension_001": [
+      "Surgical site, drain, and thigh inspection for hematoma"
+    ],
+    "hypotension_002": [
+      "Ask about oral intake, vomiting, or diarrhea"
+    ],
+    "syncope_002": [
+      "Ask about oral intake, diuretics, and days in bed"
+    ],
+    "weakness_001": [
+      "Otoscopy for ear canal vesicles",
+      "Ask about ear pain, hyperacusis, and taste change"
+    ],
+    "weakness_003": [
+      "Speech and language testing",
+      "Establish last-known-well time"
+    ]
+  },
+  "abdominal_pain_001": [
+    1,
+    "exam_llq_tenderness"
+  ],
+  "abdominal_pain_002": [
+    1,
+    2
+  ],
+  "abdominal_pain_003": [
+    2,
+    3
+  ],
+  "aki_001": [
+    "exam_ascites_flank_dullness_fluid_wave",
+    "exam_asterixis"
+  ],
+  "aki_002": [
+    1,
+    3,
+    "hx_ain_rash_fever_arthralgia"
+  ],
+  "aki_003": [
+    6,
+    "hx_ain_rash_fever_arthralgia"
+  ],
+  "ams_001": [
+    6
+  ],
+  "ams_002": [
+    6,
+    "exam_pupils_eye_movements_toxidrome"
+  ],
+  "ams_003": [
+    3,
+    6,
+    "exam_asterixis"
+  ],
+  "chest_pain_001": [
+    1,
+    2,
+    "exam_focal_neuro_deficit_with_chest_pain"
+  ],
+  "chest_pain_002": [
+    "exam_egophony",
+    "exam_pulmonary_crackles",
+    "hx_rigors_shaking_chills"
+  ],
+  "chest_pain_003": [
+    4,
+    5,
+    "pocus_pericardial_effusion"
+  ],
+  "dizziness_001": [
+    "fn_dix_hallpike"
+  ],
+  "dizziness_002": [
+    2
+  ],
+  "dizziness_003": [
+    "fn_dix_hallpike"
+  ],
+  "dyspnea_001": [
+    "exam_egophony",
+    "exam_pulmonary_crackles",
+    "hx_rigors_shaking_chills"
+  ],
+  "dyspnea_002": [
+    6,
+    "exam_calf_asymmetry_gt3cm"
+  ],
+  "dyspnea_003": [
+    3,
+    4
+  ],
+  "edema_001": [
+    4
+  ],
+  "edema_002": [
+    3
+  ],
+  "edema_003": [
+    "exam_jvp_elevated",
+    "exam_abdominojugular_reflux",
+    "hx_edema_causing_medications"
+  ],
+  "fever_001": [
+    "exam_abdominal_distension",
+    "exam_rebound_tenderness"
+  ],
+  "fever_002": [
+    1
+  ],
+  "fever_003": [
+    3,
+    4
+  ],
+  "hypotension_001": [
+    6,
+    "exam_conjunctival_pallor",
+    "exam_orthostatic_vitals"
+  ],
+  "hypotension_002": [
+    "exam_dry_axilla"
+  ],
+  "hypotension_003": [
+    5,
+    "exam_s3_gallop",
+    "exam_new_regurgitant_murmur"
+  ],
+  "palpitations_001": [
+    2,
+    "fn_vagal_maneuver_response"
+  ],
+  "palpitations_002": [
+    2,
+    3,
+    6
+  ],
+  "palpitations_003": [
+    5,
+    "exam_capillary_refill",
+    "exam_cellulitis_unilateral_warmth_border"
+  ],
+  "syncope_001": [
+    2,
+    "hx_syncope_prodrome"
+  ],
+  "syncope_002": [
+    3
+  ],
+  "syncope_003": [
+    5,
+    "exam_focal_neuro_deficit_screen"
+  ],
+  "weakness_001": [
+    0
+  ],
+  "weakness_002": [
+    1,
+    "fn_single_breath_count",
+    "exam_ascending_symmetric_weakness_areflexia"
+  ],
+  "weakness_003": [
+    1,
+    2
+  ]
+}
