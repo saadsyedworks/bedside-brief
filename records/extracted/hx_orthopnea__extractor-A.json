@@ -1,0 +1,143 @@
+{
+  "identity": {
+    "id": "hx_orthopnea",
+    "title": "Orthopnea: dyspnea lying flat relieved by sitting up / number of pillows",
+    "type": "history",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "chest_pain",
+      "edema"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "acute_decompensated_hf",
+      "cardiorenal",
+      "copd_exacerbation",
+      "pericardial_effusion_tamponade"
+    ],
+    "indication_tags": [
+      "nocturnal",
+      "positional",
+      "hf_known"
+    ]
+  },
+  "technique": {
+    "how": "Ask whether breathing worsens within minutes of lying flat and eases on sitting up, how many pillows (or what head-of-bed angle) are needed to sleep, and whether this is new or increased compared with baseline. Distinguish from positional dyspnoea due to abdominal distension, obesity, or nasal obstruction, and from cough-related waking.",
+    "prerequisites": "Patient (or collateral historian) able to describe sleep position and recent change.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "New or worsening need to sleep propped up, with dyspnoea on lying flat that resolves on sitting, points to raised left-sided filling pressure (heart failure) or, less often, tamponade, large effusion or bilateral diaphragm weakness.",
+    "negative_finding": "Absence of orthopnoea only modestly lowers the probability of heart failure; many heart failure patients, particularly with chronic disease, sleep flat.",
+    "pitfalls": "Orthopnoea also occurs with COPD, massive ascites, obesity, and bilateral diaphragm paralysis; pillow count is confounded by habit, reflux and sinus disease. In chronic HF orthopnoea correlates poorly with measured wedge pressure.",
+    "changes_what": "New orthopnoea raises probability of decompensated HF and supports BNP/echo and decongestion; absence should not be used to exclude HF."
+  },
+  "estimates": [
+    {
+      "target_condition": "Heart failure (cardiac dysfunction at rest on echocardiography)",
+      "population": "Portuguese primary care attendees screened by Boston questionnaire and referred for echocardiography (n=1058 assessed); orthopnoea sensitivity reported only as <36%",
+      "setting": "outpatient",
+      "prevalence": null,
+      "reference_standard": "Resting echocardiography with clinical assessment",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 39.1,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "a history of paroxysmal nocturnal dyspnoea (LR 35.5), orthopnea (LR 39.1) and breathlessness when walking on the flat (LR 25.8)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Prevalent definite heart failure (composite symptom: orthopnoea OR paroxysmal nocturnal dyspnoea)",
+      "population": "5,771 community-dwelling adults >=65 years in the Cardiovascular Health Study; 272 with adjudicated definite HF",
+      "setting": "outpatient",
+      "prevalence": 0.047,
+      "reference_standard": "Centrally adjudicated definite heart failure (CHS criteria)",
+      "sensitivity": {
+        "value": 0.52,
+        "ci_low": 0.46,
+        "ci_high": 0.58
+      },
+      "specificity": {
+        "value": 0.83,
+        "ci_low": 0.82,
+        "ci_high": 0.84
+      },
+      "lr_positive": {
+        "value": 3.06,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.58,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.52/(1-0.83) = 3.06; LR- = (1-0.52)/0.83 = 0.58 from abstract sensitivity 52% and specificity 83%; prevalence = 272/5771",
+      "interpretation_label": "modest",
+      "evidence_level": "single_study",
+      "source_index": 1,
+      "quote": "for either orthopnea or PND were 52% (95% confidence interval [CI] 46% to 58%), 83% (95% CI 82% to 84%)",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "partially_quantified",
+  "sources": [
+    {
+      "citation": "Fonseca C, Morais H, Mota T, et al. The diagnosis of heart failure in primary care: value of symptoms and signs. Eur J Heart Fail. 2004;6(6):795-800.",
+      "doi": "10.1016/j.ejheart.2004.08.002",
+      "pmid": "15542419",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2004
+    },
+    {
+      "citation": "Ekundayo OJ, Howard VJ, Safford MM, et al. Value of orthopnea, paroxysmal nocturnal dyspnea, and medications in prospective population studies of incident heart failure. Am J Cardiol. 2009;104(2):259-264.",
+      "doi": "10.1016/j.amjcard.2009.03.025",
+      "pmid": "19576357",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2009
+    },
+    {
+      "citation": "Wang CS, FitzGerald JM, Schulzer M, Mak E, Ayas NT. Does this dyspneic patient in the emergency department have congestive heart failure? JAMA. 2005;294(15):1944-1956.",
+      "doi": "10.1001/jama.294.15.1944",
+      "pmid": "16234501",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2005
+    },
+    {
+      "citation": "Chakko S, Woska D, Martinez H, et al. Clinical, radiographic, and hemodynamic correlations in chronic congestive heart failure: conflicting results may lead to inappropriate care. Am J Med. 1991;90(3):353-359.",
+      "doi": "10.1016/0002-9343(91)80016-f",
+      "pmid": "1825901",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1991
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not rely on the absence of orthopnoea to exclude heart failure, and do not attribute orthopnoea to heart failure without examining for tamponade, effusion or neuromuscular weakness when the picture does not fit.",
+    "escalation_warning": "Orthopnoea with hypotension, pulsus paradoxus or a raised JVP suggests tamponade or acute pump failure; obtain immediate echo.",
+    "interobserver_note": "Symptom reporting depends on patient recall and definition (pillow count vs positional dyspnoea); no formal inter-rater data found."
+  },
+  "tier": "extracted",
+  "extraction_notes": "The anchor RCE (Wang 2005, PMID 16234501) pools orthopnoea for ED heart failure, but the LR is not in the abstract and full text is not open access, so the pooled estimate could not be quoted and is omitted. Fonseca 2004 gives an LR of 39.1 without CI from a primary-care screening design with sensitivity <36%; Ekundayo 2009 reports a composite (orthopnoea OR PND) in a community elderly cohort with LRs computed by this extractor. Chakko 1991 (PMID 1825901) is cited for the pitfall that orthopnoea and other congestion findings had poor predictive value for PCWP >=30 mm Hg in chronic HF.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T01:37:13+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

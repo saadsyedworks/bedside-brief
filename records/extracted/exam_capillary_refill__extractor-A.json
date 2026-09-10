@@ -1,0 +1,196 @@
+{
+  "identity": {
+    "id": "exam_capillary_refill",
+    "title": "Capillary refill time prolonged (>2-3 s, fingertip at heart level, warm room)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "hypotension",
+      "aki",
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "anaphylaxis",
+      "cardiogenic_shock",
+      "hypovolemic_hemorrhagic_shock",
+      "prerenal_hypovolemia",
+      "septic_shock"
+    ],
+    "indication_tags": []
+  },
+  "technique": {
+    "how": "With the hand at heart level in a warm room, press the distal phalanx of the index finger with firm pressure for 10-15 s (until blanched), release, and time return of the original color with a stopwatch. Normal <=2-3 s in adults; also assessable at the knee. Standardize pressure and lighting and repeat once.",
+    "prerequisites": "Warm extremity and ambient temperature; remove nail polish; use a stopwatch or count aloud rather than estimating.",
+    "contraindications": "None; unreliable in peripheral vascular disease, Raynaud phenomenon, cold environment, or vasopressor-induced peripheral vasoconstriction."
+  },
+  "interpretation": {
+    "positive_finding": "Prolonged CRT (index >2.4-3 s) after initial resuscitation of septic shock marks persistent hypoperfusion and roughly doubles the probability of early death; it is a target for resuscitation rather than a diagnostic sign of a specific shock type.",
+    "negative_finding": "A normal CRT is reassuring for tissue perfusion but does not exclude mild-to-moderate hypovolemia (sensitivity 6-46% in adults) or shock; do not use it to rule out volume depletion.",
+    "pitfalls": "Cold, age, sex, ambient light, pressure applied and observer timing all change CRT; the 1999 RCE concluded CRT has no proven diagnostic value for hypovolemia in adults, and poorly measured CRT loses prognostic accuracy.",
+    "changes_what": "Persistently prolonged CRT in shock should prompt reassessment of perfusion (lactate, fluids/vasoactives) and escalation; normal CRT should not lower suspicion of hypovolemia."
+  },
+  "estimates": [
+    {
+      "target_condition": "Hypovolemia (clinical history plus frank hypotension)",
+      "population": "13 adult ED patients with history suggestive of hypovolemia and hypotension, vs 47 euvolemic blood-donor controls; CRT scored against age-sex-specific upper limits of normal",
+      "setting": "ED",
+      "prevalence": null,
+      "reference_standard": "Clinical classification (hypotension with suggestive history) before rehydration",
+      "sensitivity": {
+        "value": 0.46,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "minimal",
+      "evidence_level": "single_study",
+      "source_index": 1,
+      "quote": "sensitivity ... was 6% for the 450-mL blood loss group, 26% for the orthostatic group, and 46% for the hypotensive group",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Hypovolemia (clinical history plus abnormal orthostatic vital signs)",
+      "population": "19 adult ED patients with history suggestive of hypovolemia and abnormal orthostatic vital signs, vs 47 euvolemic blood-donor controls",
+      "setting": "ED",
+      "prevalence": null,
+      "reference_standard": "Clinical classification (abnormal orthostatic vital signs with suggestive history) before rehydration",
+      "sensitivity": {
+        "value": 0.26,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "minimal",
+      "evidence_level": "single_study",
+      "source_index": 1,
+      "quote": "sensitivity ... was 6% for the 450-mL blood loss group, 26% for the orthostatic group, and 46% for the hypotensive group",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "14-day mortality (prognostic) after 6 h of septic shock resuscitation; index-finger CRT >2.4 s",
+      "population": "59 consecutive adult septic shock patients in a tertiary ICU, measured at H6",
+      "setting": "ICU",
+      "prevalence": 0.36,
+      "reference_standard": "Death within 14 days",
+      "sensitivity": {
+        "value": 0.82,
+        "ci_low": 0.6,
+        "ci_high": 0.95
+      },
+      "specificity": {
+        "value": 0.73,
+        "ci_low": 0.56,
+        "ci_high": 0.86
+      },
+      "lr_positive": {
+        "value": 3.0,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.25,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.82/(1-0.73) = 3.04; LR- = (1-0.82)/0.73 = 0.25; from abstract sensitivity 82% and specificity 73%",
+      "interpretation_label": "modest",
+      "evidence_level": "single_study",
+      "source_index": 2,
+      "quote": "index CRT at 2.4 s predicted 14-day outcome with a sensitivity of 82% (95% CI [60-95]) and a specificity of 73% (95% CI [56-86])",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Death (prognostic) in adults with acute circulatory failure; abnormal CRT at study-specific threshold",
+      "population": "13 studies of adults with established acute circulatory failure (septic and other shock), ED and ICU",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Mortality (in-hospital or study-defined)",
+      "sensitivity": {
+        "value": 0.54,
+        "ci_low": 0.43,
+        "ci_high": 0.64
+      },
+      "specificity": {
+        "value": 0.72,
+        "ci_low": 0.55,
+        "ci_high": 0.84
+      },
+      "lr_positive": {
+        "value": 1.9,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.64,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.54/(1-0.72) = 1.93; LR- = (1-0.54)/0.72 = 0.64; from pooled sensitivity 54% and specificity 72% (pooled DOR 3.4 [1.4-8.3])",
+      "interpretation_label": "minimal",
+      "evidence_level": "pooled",
+      "source_index": 3,
+      "quote": "The pooled sensitivity was 54% (95%CI [43; 64]), and the pooled specificity was 72% (95%CI [55; 84])",
+      "location": "Results, Primary analysis paragraph and Table 2 (PMC10693708 full text)"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "McGee S, Abernethy WB 3rd, Simel DL. The rational clinical examination. Is this patient hypovolemic? JAMA. 1999;281(11):1022-1029.",
+      "doi": "10.1001/jama.281.11.1022",
+      "pmid": "10086438",
+      "url": null,
+      "kind": "rce_series",
+      "year": 1999
+    },
+    {
+      "citation": "Schriger DL, Baraff LJ. Capillary refill--is it a useful predictor of hypovolemic states? Ann Emerg Med. 1991;20(6):601-605.",
+      "doi": "10.1016/s0196-0644(05)82375-3",
+      "pmid": "2039096",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1991
+    },
+    {
+      "citation": "Ait-Oufella H, Bige N, Boelle PY, et al. Capillary refill time exploration during septic shock. Intensive Care Med. 2014;40(7):958-964.",
+      "doi": "10.1007/s00134-014-3326-4",
+      "pmid": "24811942",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2014
+    },
+    {
+      "citation": "Jacquet-Lagreze M, Wiart C, Schweizer R, et al. Prognostic value of capillary refill time in adult patients: a systematic review with meta-analysis. Crit Care. 2023;27(1):473.",
+      "doi": "10.1186/s13054-023-04751-9",
+      "pmid": "38042855",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10693708/",
+      "kind": "meta_analysis",
+      "year": 2023
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use CRT to rule out hypovolemia or hemorrhage, and do not interpret it in a cold, vasopressor-constricted, or peripherally ischemic limb.",
+    "escalation_warning": "CRT >3-4 s with hypotension, altered mentation, or mottling indicates shock with hypoperfusion; start resuscitation and escalate rather than repeating the sign.",
+    "interobserver_note": "Inter-rater concordance 80% (index) and 95% (knee) in Ait-Oufella 2014 with a standardized protocol; unstandardized estimation is poorly reproducible and the 2023 meta-analysis found accuracy higher only with high-quality measurement."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Sens/spec entered as percent. Two evidence streams are kept separate: (1) diagnostic accuracy for hypovolemia in adults, which is poor — Schriger 1991 reports sensitivity only (specificity not given in the abstract; full text not in PMC), and the 1999 RCE abstract states CRT has 'no proven diagnostic value' in adults without giving numbers; the 6% sensitivity for 450-mL blood donors is in the same quote but was not entered as a separate row. (2) Prognostic accuracy for death in shock (Ait-Oufella 2014 single-center ICU; Jacquet-Lagreze 2023 pooled, high heterogeneity, thresholds varied across studies). These are prognostic, not diagnostic, estimates and the target_condition fields say so. LRs were computed from reported sens/spec. The seeded differentials (anaphylaxis, cardiogenic shock, septic shock) are not discriminated from each other by CRT; it grades perfusion, not etiology. [units normalised to proportions by tools/normalize_units.py: estimates[0].sensitivity, estimates[1].sensitivity, estimates[2].sensitivity, estimates[2].specificity, estimates[3].sensitivity, estimates[3].specificity]",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T01:44:46+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

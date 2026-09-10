@@ -1,0 +1,169 @@
+{
+ "identity": {
+  "id": "exam_murmur_late_peaking_systolic",
+  "title": "Harsh crescendo-decrescendo systolic murmur, late-peaking, radiating to carotids, with soft/absent A2",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "chest_pain",
+   "syncope",
+   "dizziness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "aortic_stenosis",
+   "hcm"
+  ],
+  "indication_tags": [
+   "exertional",
+   "elderly"
+  ]
+ },
+ "technique": {
+  "how": "With the patient supine or sitting forward in end-expiration, listen with the diaphragm at the right 2nd intercostal space and along the left sternal border. Note the timing of peak intensity (early vs mid/late systole), radiation to the right carotid/clavicle, and whether A2 is soft or inaudible.",
+  "prerequisites": "Quiet room; palpate carotid simultaneously to time systole; examiner able to distinguish S1/S2.",
+  "contraindications": "None for auscultation."
+ },
+ "interpretation": {
+  "positive_finding": "Late-peaking ejection murmur with soft/absent A2 and carotid radiation strongly favours moderate-or-greater aortic stenosis (pooled LR ~11 for diminished S2).",
+  "negative_finding": "Absence of a murmur radiating to the neck makes moderate-or-greater AS unlikely (pooled LR- 0.11); an early-peaking murmur points away from severe AS.",
+  "pitfalls": "Loudness does not track severity; low-flow severe AS may give a soft murmur. Aortic sclerosis and HCM produce similar ejection murmurs, and murmur detection itself has only fair interobserver agreement.",
+  "changes_what": "Positive: obtain echocardiography and treat exertional syncope/angina as possible severe AS. Negative (no neck radiation): AS becomes an unlikely cause and workup shifts elsewhere."
+ },
+ "estimates": [
+  {
+   "target_condition": "Aortic stenosis, moderate or greater",
+   "population": "Adults with systolic murmur or suspected AS undergoing echocardiography/catheterization (7 observational studies, 1984-1998)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Echocardiography or left heart catheterization; AS of at least moderate severity",
+   "sensitivity": {
+    "value": 0.59,
+    "ci_low": 0.44,
+    "ci_high": 0.72
+   },
+   "specificity": {
+    "value": 0.95,
+    "ci_low": 0.85,
+    "ci_high": 0.98
+   },
+   "lr_positive": {
+    "value": 10.87,
+    "ci_low": 3.94,
+    "ci_high": 30.12
+   },
+   "lr_negative": {
+    "value": 0.44,
+    "ci_low": 0.31,
+    "ci_high": 0.61
+   },
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "Auscultating a diminished second heart sound (likelihood ratio [LR] = 10.87, 95% confidence interval [CI], 3.94-30.12",
+   "location": "Abstract, Results; Table 2 (diminished S2 row: sensitivity 0.59 [0.44-0.72], specificity 0.95 [0.85-0.98], LR- 0.44 [0.31-0.61])"
+  },
+  {
+   "target_condition": "Aortic stenosis, moderate or greater",
+   "population": "Adults with systolic murmur or suspected AS undergoing echocardiography/catheterization (7 observational studies, 1984-1998)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Echocardiography or left heart catheterization; AS of at least moderate severity",
+   "sensitivity": {
+    "value": 0.93,
+    "ci_low": 0.81,
+    "ci_high": 0.97
+   },
+   "specificity": {
+    "value": 0.66,
+    "ci_low": 0.41,
+    "ci_high": 0.84
+   },
+   "lr_positive": {
+    "value": 2.69,
+    "ci_low": 1.48,
+    "ci_high": 4.89
+   },
+   "lr_negative": {
+    "value": 0.11,
+    "ci_low": 0.06,
+    "ci_high": 0.23
+   },
+   "computed": false,
+   "interpretation_label": "rule_out",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "The absence of a systolic murmur radiating to the neck (LR = 0.11, 95% CI, 0.06-0.23, P < 0.05)",
+   "location": "Abstract, Results; Table 2 (systolic murmur radiating to the neck row: sensitivity 0.93 [0.81-0.97], specificity 0.66 [0.41-0.84], LR+ 2.69 [1.48-4.89])"
+  },
+  {
+   "target_condition": "Aortic stenosis (late-peaking systolic ejection murmur)",
+   "population": "Narrative aggregate of 4 small studies of patients with systolic murmurs (not bivariate meta-analysed)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Echocardiography or left heart catheterization; AS of at least moderate severity",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 3.7,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.2,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": false,
+   "interpretation_label": "both",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "Data from a small sample from 4 studies revealed modest positive predictive value when this sign is present (LR of 3.7)",
+   "location": "Discussion, paragraph on murmur characteristics (same paragraph: 'negative predictive value of its absence (LR = 0.2)')"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Shellenberger RA, Crass S, Jevicks J, Badhwar A, Albright J, Kumar A. Bedside Physical Examination for the Diagnosis of Aortic Stenosis: A Systematic Review and Meta-analysis. CJC Open. 2023;5(5):373-379.",
+   "doi": "10.1016/j.cjco.2023.02.007",
+   "pmid": "37377515",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2023
+  },
+  {
+   "citation": "Etchells E, Bell C, Robb K. Does this patient have an abnormal systolic murmur? JAMA. 1997;277(7):564-571.",
+   "doi": null,
+   "pmid": "9032164",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1997
+  },
+  {
+   "citation": "Etchells E, Glenns V, Shadowitz S, Bell C, Siu S. A bedside clinical prediction rule for detecting moderate or severe aortic stenosis. J Gen Intern Med. 1998;13(10):699-704.",
+   "doi": null,
+   "pmid": "9798818",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1998
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use the murmur alone to exclude AS in low-output states or when the exam is limited by obesity/COPD; image if the clinical picture (exertional syncope, angina, HF) suggests AS.",
+  "escalation_warning": "Suspected severe AS with syncope, angina or heart failure needs urgent echocardiography and cardiology input; avoid aggressive vasodilators or diuresis until severity is known.",
+  "interobserver_note": "Detection of systolic murmurs has only fair reliability (kappa 0.30-0.48, Etchells 1997); no reliability data for murmur peak timing were found."
+ },
+ "extraction_notes": "Pooled estimates for diminished S2 and neck radiation taken from CJC Open 2023 meta-analysis (PMC full text, Table 2). Late-peaking murmur was not meta-analysed (only 2 studies pooled-eligible); the LR 3.7 / 0.2 values are a narrative aggregate reported in the Discussion with no CIs, so evidence_level 'pooled' is approximate. Etchells 1997 RCE reports only LR ranges (mid-to-late peak LR+ 8.0-101; decreased S2 LR+ 3.1-50; absent right-carotid radiation LR- 0.05-0.10) and its tables were not viewable, so no point estimate was entered from it. Etchells 1998 cited for the combined prediction rule (3-4 associated findings LR 40, 95% CI 6.6-240; absent right-clavicle murmur LR 0.10) rather than as an individual-sign estimate.",
+ "tier": "extracted",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T01:37:34+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

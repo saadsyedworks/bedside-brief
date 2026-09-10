@@ -1,0 +1,111 @@
+{
+ "identity": {
+  "id": "exam_carotid_upstroke_delayed",
+  "title": "Delayed and diminished carotid upstroke (pulsus parvus et tardus)",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "chest_pain",
+   "syncope",
+   "dizziness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "aortic_stenosis",
+   "hcm"
+  ],
+  "indication_tags": [
+   "exertional",
+   "elderly"
+  ]
+ },
+ "technique": {
+  "how": "Palpate one carotid artery low in the neck with the fingertips while auscultating the heart or timing against S1. Judge whether the upstroke is slow to reach its peak (tardus) and whether the pulse volume is small (parvus); compare with the expected brisk upstroke. Palpate one side at a time.",
+  "prerequisites": "Patient relaxed, supine or semi-recumbent; examiner familiar with a normal brisk carotid upstroke.",
+  "contraindications": "Avoid firm carotid palpation in patients with carotid bruit, known carotid disease, or recent TIA/stroke; never palpate both sides simultaneously."
+ },
+ "interpretation": {
+  "positive_finding": "A delayed, small-volume carotid upstroke substantially increases the likelihood of moderate-or-greater aortic stenosis (pooled LR+ 9.0).",
+  "negative_finding": "A normal brisk upstroke only modestly lowers the probability (pooled LR- 0.46) and does not exclude AS.",
+  "pitfalls": "Stiff arteries in the elderly can normalise the upstroke despite severe AS; HCM classically gives a brisk (sometimes bisferiens) pulse. Interobserver agreement is poor (kappa 0.33).",
+  "changes_what": "Positive: pursue echocardiography for AS and treat exertional symptoms as possibly valvular. Negative: AS remains possible; rely on murmur radiation/S2 and imaging when suspicion persists."
+ },
+ "estimates": [
+  {
+   "target_condition": "Aortic stenosis, moderate or greater",
+   "population": "Adults with systolic murmur or suspected AS in 6 observational studies (n=815), 1984-1998",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Echocardiography or left heart catheterization; AS of at least moderate severity",
+   "sensitivity": {
+    "value": 0.57,
+    "ci_low": 0.37,
+    "ci_high": 0.75
+   },
+   "specificity": {
+    "value": 0.94,
+    "ci_low": 0.81,
+    "ci_high": 0.98
+   },
+   "lr_positive": {
+    "value": 9.04,
+    "ci_low": 3.12,
+    "ci_high": 25.44
+   },
+   "lr_negative": {
+    "value": 0.46,
+    "ci_low": 0.3,
+    "ci_high": 0.71
+   },
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "palpating a delayed carotid upstroke (LR = 9.04, 95% CI, 3.12-25.44, P < 0.05)",
+   "location": "Abstract, Results; Table 2 (delayed carotid upstroke row: sensitivity 0.57 [0.37-0.75], specificity 0.94 [0.81-0.98], LR- 0.46 [0.30-0.71]); Results text 'A total of 6 studies with 815 patients'"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Shellenberger RA, Crass S, Jevicks J, Badhwar A, Albright J, Kumar A. Bedside Physical Examination for the Diagnosis of Aortic Stenosis: A Systematic Review and Meta-analysis. CJC Open. 2023;5(5):373-379.",
+   "doi": "10.1016/j.cjco.2023.02.007",
+   "pmid": "37377515",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2023
+  },
+  {
+   "citation": "Etchells E, Bell C, Robb K. Does this patient have an abnormal systolic murmur? JAMA. 1997;277(7):564-571.",
+   "doi": null,
+   "pmid": "9032164",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1997
+  },
+  {
+   "citation": "Etchells E, Glenns V, Shadowitz S, Bell C, Siu S. A bedside clinical prediction rule for detecting moderate or severe aortic stenosis. J Gen Intern Med. 1998;13(10):699-704.",
+   "doi": null,
+   "pmid": "9798818",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1998
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not rely on the upstroke to rule out AS in elderly patients with stiff vessels or in low-output states; do not palpate carotids in patients with bruits or recent cerebrovascular events.",
+  "escalation_warning": "Delayed upstroke with syncope, angina or heart failure suggests severe AS: urgent echocardiography and cardiology review; caution with vasodilators.",
+  "interobserver_note": "Single study reported kappa 0.33 for delayed carotid upstroke (Etchells 1998, as cited in the CJC Open meta-analysis)."
+ },
+ "extraction_notes": "Pooled values taken from Table 2 of the CJC Open 2023 meta-analysis (PMC10290951 full text viewed). Etchells 1997 RCE gives only a range for slow carotid upstroke (LR+ 2.8-130) and its tables were not viewable, so no estimate was entered from it. The meta-analysis notes age as a possible confounder (faster carotid transmission in older subjects) and moderate heterogeneity.",
+ "tier": "extracted",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T01:37:34+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

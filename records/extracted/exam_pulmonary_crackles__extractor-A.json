@@ -1,0 +1,176 @@
+{
+  "identity": {
+    "id": "exam_pulmonary_crackles",
+    "title": "Pulmonary crackles: bibasilar (heart failure) vs focal/unilateral (pneumonia)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "chest_pain",
+      "edema",
+      "hypotension",
+      "aki",
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "acute_decompensated_hf",
+      "cardiogenic_shock",
+      "cardiorenal",
+      "copd_exacerbation",
+      "ild",
+      "pneumonia"
+    ],
+    "indication_tags": [
+      "febrile",
+      "hf_known",
+      "unilateral"
+    ]
+  },
+  "technique": {
+    "how": "Sit the patient up and auscultate the posterior bases and all lung zones with the diaphragm during slow deep breaths through an open mouth; compare sides. Note whether crackles are fine and end-inspiratory, whether they are bilateral and basal versus focal or unilateral, and whether they clear after several deep breaths or coughing (atelectatic crackles clear, HF and pneumonia crackles do not).",
+    "prerequisites": "Patient able to sit forward and take deep breaths; quiet room; chest exposed.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Bilateral basal, non-clearing inspiratory crackles favour pulmonary oedema from heart failure; focal or unilateral crackles with fever and cough favour pneumonia. Diffuse dry 'velcro' crackles suggest interstitial lung disease.",
+    "negative_finding": "Clear lungs modestly lower the probability of heart failure (pooled LR- about 0.5) and of pneumonia (pooled LR- about 0.75) but exclude neither; many patients with chronic HF and high wedge pressure have no rales.",
+    "pitfalls": "Crackles from atelectasis, obesity or shallow breathing clear with deep breaths; COPD and ILD produce chronic crackles; chronic HF patients often lack rales despite congestion. Inter-examiner agreement for crackles is only moderate.",
+    "changes_what": "Bibasilar crackles support HF and diuresis/echo; focal crackles with fever support pneumonia and a chest radiograph; clear lungs do not exclude either."
+  },
+  "estimates": [
+    {
+      "target_condition": "Radiographic community-acquired pneumonia",
+      "population": "Adults with suspected pneumonia or acute respiratory infection in primary care (6 studies, n=3,671)",
+      "setting": "outpatient",
+      "prevalence": null,
+      "reference_standard": "Chest radiograph",
+      "sensitivity": {
+        "value": 0.39,
+        "ci_low": 0.28,
+        "ci_high": 0.51
+      },
+      "specificity": {
+        "value": 0.83,
+        "ci_low": 0.65,
+        "ci_high": 0.92
+      },
+      "lr_positive": {
+        "value": 2.42,
+        "ci_low": 1.19,
+        "ci_high": 4.69
+      },
+      "lr_negative": {
+        "value": 0.75,
+        "ci_low": 0.61,
+        "ci_high": 0.91
+      },
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "Crackles 6 3,671 0.39 (0.28-0.51) 0.83 (0.65-0.92) 2.42 (1.19-4.69) 0.75 (0.61-0.91)",
+      "location": "Table 2 (row 'Crackles'; PMC6527561 full text)"
+    },
+    {
+      "target_condition": "Heart failure as cause of acute dyspnoea",
+      "population": "Adults presenting to the emergency department with dyspnoea (22 studies pooled)",
+      "setting": "ED",
+      "prevalence": null,
+      "reference_standard": "Clinical diagnosis of heart failure adjudicated in the primary studies (varied criteria)",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": {
+        "value": 0.51,
+        "ci_low": 0.37,
+        "ci_high": 0.7
+      },
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "rales (negative LR = 0.51; 95% CI, 0.37-0.70)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Heart failure (cardiac dysfunction at rest on echocardiography)",
+      "population": "Portuguese primary care attendees screened by Boston questionnaire and referred for echocardiography (n=1058 assessed)",
+      "setting": "outpatient",
+      "prevalence": null,
+      "reference_standard": "Resting echocardiography with clinical assessment",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 23.3,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "single_study",
+      "source_index": 2,
+      "quote": "a ventricular gallop (LR 30.0), a heart rate above 110 bpm (LR 26.7), and rales at pulmonary auscultation (LR 23.3)",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Htun TP, Sun Y, Chua HL, Pang J. Clinical features for diagnosis of pneumonia among adults in primary care setting: a systematic and meta-review. Sci Rep. 2019;9:7600.",
+      "doi": "10.1038/s41598-019-44145-y",
+      "pmid": "31110214",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2019
+    },
+    {
+      "citation": "Wang CS, FitzGerald JM, Schulzer M, Mak E, Ayas NT. Does this dyspneic patient in the emergency department have congestive heart failure? JAMA. 2005;294(15):1944-1956.",
+      "doi": "10.1001/jama.294.15.1944",
+      "pmid": "16234501",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2005
+    },
+    {
+      "citation": "Fonseca C, Morais H, Mota T, et al. The diagnosis of heart failure in primary care: value of symptoms and signs. Eur J Heart Fail. 2004;6(6):795-800.",
+      "doi": "10.1016/j.ejheart.2004.08.002",
+      "pmid": "15542419",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2004
+    },
+    {
+      "citation": "Metlay JP, Kapoor WN, Fine MJ. Does this patient have community-acquired pneumonia? Diagnosing pneumonia by history and physical examination. JAMA. 1997;278(17):1440-1445.",
+      "doi": null,
+      "pmid": "9356004",
+      "url": null,
+      "kind": "rce_series",
+      "year": 1997
+    },
+    {
+      "citation": "Stevenson LW, Perloff JK. The limited reliability of physical signs for estimating hemodynamics in chronic heart failure. JAMA. 1989;261(6):884-888.",
+      "doi": null,
+      "pmid": "2913385",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1989
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use clear lungs to exclude pneumonia in the elderly, immunocompromised or dehydrated, nor to exclude congestion in chronic heart failure.",
+    "escalation_warning": "Diffuse crackles with hypoxaemia and hypotension may be cardiogenic shock or ARDS; treat as time-critical and obtain chest imaging and echo.",
+    "interobserver_note": "Agreement between examiners on crackles is moderate at best; Stevenson & Perloff 1989 found rales, oedema and elevated JVP all absent in 18 of 43 chronic HF patients with PCWP >=22 mm Hg."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Pneumonia estimate is the pooled row from Table 2 of Htun 2019 (open-access PMC6527561, viewed directly). The HF estimate is the pooled negative LR for rales from the Wang 2005 abstract; the positive LR for rales is in a table that could not be viewed, so it is null. Metlay 1997 RCE (PMID 9356004) abstract reports no numbers and full text is not open access, so it is cited for the pneumonia framing only. No pooled data on focal versus bilateral distribution were found; that distinction rests on clinical convention. Fonseca 2004 rales LR 23.3 is a primary-care screening cohort with sensitivity <10%, kept as a separate entry.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T01:37:13+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

@@ -1,0 +1,151 @@
+{
+  "identity": {
+    "id": "exam_s3_gallop",
+    "title": "Third heart sound (S3 gallop) at apex with bell, left lateral decubitus",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "chest_pain",
+      "edema",
+      "hypotension",
+      "aki"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "acs",
+      "acute_decompensated_hf",
+      "cardiogenic_shock",
+      "cardiorenal"
+    ],
+    "indication_tags": [
+      "hf_known"
+    ]
+  },
+  "technique": {
+    "how": "Turn the patient to the left lateral decubitus position and listen at the apex with the bell applied lightly, in a quiet room, during held expiration. Listen for a low-pitched sound in early diastole (about 0.12-0.16 s after S2) producing a 'Ken-tuck-y' cadence; pressing harder with the bell abolishes it, which distinguishes it from a split S2 or opening snap.",
+    "prerequisites": "Quiet environment, patient able to roll to the left side, stethoscope with a bell or tunable diaphragm.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "An apical S3 in an adult over ~40 indicates rapid early filling into a volume-overloaded, non-compliant left ventricle: systolic heart failure with elevated filling pressure, or acute decompensation including post-MI.",
+    "negative_finding": "Absence of S3 is common in heart failure and only modestly lowers its probability; it should not be used to exclude heart failure in a dyspnoeic patient.",
+    "pitfalls": "Physiologic S3 in young adults, athletes and pregnancy; right-sided S3 (louder on inspiration, left sternal border) from RV failure; tachycardia, obesity, COPD and noisy settings hide it. Agreement between examiners is poor.",
+    "changes_what": "Present: strongly raises probability of decompensated HF; start HF work-up and treatment. Absent: little change, continue evaluation."
+  },
+  "estimates": [
+    {
+      "target_condition": "Heart failure as cause of acute dyspnoea",
+      "population": "Adults presenting to the emergency department with dyspnoea (22 studies pooled)",
+      "setting": "ED",
+      "prevalence": null,
+      "reference_standard": "Clinical diagnosis of heart failure adjudicated in the primary studies (varied criteria)",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 11,
+        "ci_low": 4.9,
+        "ci_high": 25.0
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "the sign of the third heart sound (S(3)) gallop (positive LR = 11; 95% CI, 4.9-25.0)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Acute heart failure as cause of dyspnoea",
+      "population": "Adult ED patients with undifferentiated dyspnoea; prevalence of AHF 29-79% across included studies",
+      "setting": "ED",
+      "prevalence": null,
+      "reference_standard": "Criterion-standard diagnosis of AHF from clinical data combined with objective test results",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 4.0,
+        "ci_low": 2.7,
+        "ci_high": 5.9
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "the auscultation of S3 on physical examination (4.0, 95% confidence interval [CI] = 2.7 to 5.9)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Heart failure (cardiac dysfunction at rest on echocardiography)",
+      "population": "Portuguese primary care attendees screened by Boston questionnaire and referred for echocardiography (n=1058 assessed)",
+      "setting": "outpatient",
+      "prevalence": null,
+      "reference_standard": "Resting echocardiography with clinical assessment",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 30.0,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "single_study",
+      "source_index": 2,
+      "quote": "a ventricular gallop (LR 30.0), a heart rate above 110 bpm (LR 26.7), and rales at pulmonary auscultation (LR 23.3)",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "partially_quantified",
+  "sources": [
+    {
+      "citation": "Wang CS, FitzGerald JM, Schulzer M, Mak E, Ayas NT. Does this dyspneic patient in the emergency department have congestive heart failure? JAMA. 2005;294(15):1944-1956.",
+      "doi": "10.1001/jama.294.15.1944",
+      "pmid": "16234501",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2005
+    },
+    {
+      "citation": "Martindale JL, Wakai A, Collins SP, et al. Diagnosing acute heart failure in the emergency department: a systematic review and meta-analysis. Acad Emerg Med. 2016;23(3):223-242.",
+      "doi": "10.1111/acem.12878",
+      "pmid": "26910112",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2016
+    },
+    {
+      "citation": "Fonseca C, Morais H, Mota T, et al. The diagnosis of heart failure in primary care: value of symptoms and signs. Eur J Heart Fail. 2004;6(6):795-800.",
+      "doi": "10.1016/j.ejheart.2004.08.002",
+      "pmid": "15542419",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2004
+    },
+    {
+      "citation": "Badgett RG, Lucey CR, Mulrow CD. Can the clinical examination diagnose left-sided heart failure in adults? JAMA. 1997;277(21):1712-1719.",
+      "doi": null,
+      "pmid": "9169900",
+      "url": null,
+      "kind": "rce_series",
+      "year": 1997
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use absence of S3 to rule out heart failure; do not interpret an S3 in a patient under 40 or in pregnancy as pathologic without other findings.",
+    "escalation_warning": "New S3 with chest pain or hypotension suggests acute MI with pump failure or cardiogenic shock; obtain ECG and echo immediately.",
+    "interobserver_note": "Detection of S3 is examiner-dependent with reported agreement only fair to moderate; Fonseca 2004 notes the sign was present in <10% of heart failure patients in primary care."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Pooled LR+ from the anchor RCE (Wang 2005) and the later Martindale 2016 meta-analysis are recorded from their abstracts; the negative LR and pooled sensitivity/specificity for S3 sit in tables that could not be viewed (no open-access full text), so those fields are null and status is partially_quantified. Badgett 1997 RCE abstract carries no numbers. Fonseca 2004 LR 30.0 is a single primary-care screening study without CI and with sensitivity <10%; kept as a separate population entry, not averaged.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T01:37:13+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

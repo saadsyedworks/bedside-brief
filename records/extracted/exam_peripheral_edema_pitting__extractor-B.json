@@ -1,0 +1,94 @@
+{
+  "identity": {
+    "id": "exam_peripheral_edema_pitting",
+    "title": "Lower-extremity edema: bilateral vs unilateral, pitting vs non-pitting (brawny), grade and level",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "edema",
+      "hypotension",
+      "aki"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "acute_decompensated_hf",
+      "cardiorenal",
+      "cirrhosis",
+      "constrictive_pericarditis",
+      "hypoalbuminemia",
+      "medication_effect",
+      "nephrotic_syndrome",
+      "rv_failure_pulmonary_hypertension",
+      "venous_insufficiency"
+    ],
+    "indication_tags": [
+      "bilateral",
+      "hf_known"
+    ]
+  },
+  "technique": {
+    "how": "Press firmly with the thumb for 5 s over the dorsum of the foot, behind the medial malleolus and over the tibia; record whether a pit persists, its depth (grade 1-4) and the highest level reached (ankle, shin, knee, thigh, sacrum). Compare both legs and note skin thickening or non-pitting (brawny) character.",
+    "prerequisites": "Patient supine or sitting with legs exposed to the knee; check the sacrum in bed-bound patients.",
+    "contraindications": "None; avoid pressing over cellulitis, ulcers or a painful, tense calf suspicious for DVT."
+  },
+  "interpretation": {
+    "positive_finding": "Bilateral pitting edema fits a systemic cause (heart failure, cirrhosis, nephrotic syndrome, calcium-channel blocker or NSAID effect); in dyspneic ED patients it only modestly raises the probability of heart failure. Unilateral edema points to DVT, venous insufficiency or local obstruction rather than a cardiac cause.",
+    "negative_finding": "Absence of edema does not exclude acute heart failure, since sensitivity in acute dyspnea is poor (roughly 0.3-0.8 across ED studies); it is more useful against chronic volume overload than against acute pulmonary edema.",
+    "pitfalls": "Non-pitting brawny edema suggests lymphedema or long-standing venous disease, not new heart failure. Edema is common in the elderly from venous insufficiency and medications, so bilateral edema alone should not drive a diuretic decision.",
+    "changes_what": "Bilateral pitting edema plus JVP/S3 supports HF; unilateral edema redirects to DVT workup; absent edema does not rule out HF."
+  },
+  "estimates": [
+    {
+      "target_condition": "Acute heart failure as cause of acute dyspnea",
+      "population": "Adults with a new episode of acute dyspnea; 8 ED studies, n=4737 (peripheral edema pooled from a subset)",
+      "setting": "ED",
+      "prevalence": null,
+      "reference_standard": "Final clinical diagnosis of heart failure per study (typically adjudicated with echo/BNP)",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "poor for ... peripheral edema (0.29-0.77) ... good for elevated jugular venous pressure (0.75-0.97) and peripheral edema (0.67-0.89)",
+      "location": "Abstract, Results (sensitivity range then specificity range; pooled point estimates are in the full text tables, not accessible)"
+    }
+  ],
+  "evidence_status": "partially_quantified",
+  "sources": [
+    {
+      "citation": "Wang CS, FitzGerald JM, Schulzer M, Mak E, Ayas NT. Does this dyspneic patient in the emergency department have congestive heart failure? JAMA. 2005;294(15):1944-1956.",
+      "doi": "10.1001/jama.294.15.1944",
+      "pmid": "16234501",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2005
+    },
+    {
+      "citation": "Signs and symptoms in adult patients with acute dyspnea: a systematic review and meta-analysis. Eur J Emerg Med. 2018;25(1):3-11. (authors not captured by the fetch tool; verify from PubMed)",
+      "doi": "10.1097/MEJ.0000000000000429",
+      "pmid": "29252938",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2018
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use bilateral edema to diagnose HF in isolation in patients on calcium-channel blockers, with venous insufficiency, or with hypoalbuminemia; check for asymmetry/tenderness suggesting DVT before attributing to a systemic cause.",
+    "escalation_warning": "Unilateral painful swelling or new edema with hypotension/dyspnea warrants DVT/PE evaluation rather than reassurance.",
+    "interobserver_note": "Grading (1-4+) is subjective and reproducibility data for grade/level were not found; presence/absence agreement is better than grade agreement."
+  },
+  "tier": "extracted",
+  "extraction_notes": "The JAMA RCE (Wang 2005, source 0) is the anchor, but its abstract does not report the edema LR and full text is not accessible through PMC, so its pooled LR+/LR- for edema could not be extracted with a location and are left null. The Eur J Emerg Med 2018 meta-analysis abstract gives only sensitivity (0.29-0.77) and specificity (0.67-0.89) RANGES across ED studies for peripheral edema; pooled point estimates live in the full text tables, which are not accessible, so numeric fields are null and the ranges are recorded in the quote. Evidence status set to partially_quantified. No data found on pitting vs non-pitting or edema level as discriminators; those parts of the title rest on clinical convention.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T01:37:32+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

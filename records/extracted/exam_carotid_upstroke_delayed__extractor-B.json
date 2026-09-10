@@ -1,0 +1,133 @@
+{
+ "identity": {
+  "id": "exam_carotid_upstroke_delayed",
+  "title": "Delayed and diminished carotid upstroke (pulsus parvus et tardus)",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "chest_pain",
+   "syncope",
+   "dizziness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "aortic_stenosis",
+   "hcm"
+  ],
+  "indication_tags": [
+   "exertional",
+   "elderly"
+  ]
+ },
+ "technique": {
+  "how": "Palpate one carotid artery at a time with the fingertips below the angle of the jaw while auscultating the apex or watching S1; judge whether the pulse rises slowly and peaks late in systole (tardus) and whether its volume is small (parvus). Compare with your expectation for a brisk, sharp upstroke; check both sides sequentially.",
+  "prerequisites": "Patient supine or semi-recumbent and relaxed; never compress both carotids simultaneously.",
+  "contraindications": "Known carotid bruit or carotid disease, recent TIA/stroke, or carotid sinus hypersensitivity - palpate gently or omit."
+ },
+ "interpretation": {
+  "positive_finding": "A slow-rising, low-volume carotid pulse substantially raises the probability of moderate-or-greater aortic stenosis (pooled LR+ ~9; RCE range 2.8-130).",
+  "negative_finding": "A normal brisk carotid upstroke only modestly lowers the probability (pooled LR- ~0.46, sensitivity ~57%); it does not exclude significant AS, especially in the elderly with stiff arteries.",
+  "pitfalls": "Arterial stiffness in the elderly and hypertension can normalize the upstroke despite severe AS, whereas a low-output state can produce a small pulse without AS; HCM typically gives a brisk, sometimes bisferiens, carotid pulse, which helps separate it from valvular AS.",
+  "changes_what": "Positive: request echocardiography and manage as probable significant AS pending results. Negative: does not exclude AS; rely on murmur radiation and A2 to decide on echo."
+ },
+ "estimates": [
+  {
+   "target_condition": "Aortic stenosis of at least moderate severity",
+   "population": "815 patients in 6 observational studies (mostly murmur/referral populations) examined before echo or left heart catheterization",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Echocardiography and/or left heart catheterization",
+   "sensitivity": {
+    "value": 0.57,
+    "ci_low": 0.37,
+    "ci_high": 0.75
+   },
+   "specificity": {
+    "value": 0.94,
+    "ci_low": 0.81,
+    "ci_high": 0.98
+   },
+   "lr_positive": {
+    "value": 9.04,
+    "ci_low": 3.12,
+    "ci_high": 25.44
+   },
+   "lr_negative": {
+    "value": 0.46,
+    "ci_low": 0.3,
+    "ci_high": 0.71
+   },
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "Delayed carotid upstroke 0.57 (0.37- 0.75) ... 0.94 (0.81- 0.98) ... 9.04 (3.12-25.44) ... 0.46 (0.30-0.71)",
+   "location": "Table 2 (PMC full text)"
+  },
+  {
+   "target_condition": "Aortic stenosis",
+   "population": "Adults with systolic murmurs examined mostly by cardiologists; pooled range across RCE-included studies",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Echocardiography or cardiac catheterization",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 2.8,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": null,
+   "computed": false,
+   "computed_from": "Not computed. RCE reports a between-study RANGE 2.8-130 with no pooled point estimate; value shown is the conservative low end of the range.",
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 1,
+   "quote": "a slow rate of rise of the carotid pulse (positive likelihood ratio, 2.8-130)",
+   "location": "Abstract, Results (PubMed abstract; full text not accessible)"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Bedside Physical Examination for the Diagnosis of Aortic Stenosis: A Systematic Review and Meta-analysis. CJC Open. 2024 (PMC10290951).",
+   "doi": "10.1016/j.cjco.2023.02.007",
+   "pmid": "37377515",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2024
+  },
+  {
+   "citation": "Etchells E, Bell C, Robb K. Does this patient have an abnormal systolic murmur? JAMA. 1997;277(7):564-571.",
+   "doi": null,
+   "pmid": "9032164",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1997
+  },
+  {
+   "citation": "Etchells E, Glenns V, Shadowitz S, Bell C, Siu S. A bedside clinical prediction rule for detecting moderate or severe aortic stenosis. J Gen Intern Med. 1998;13(10):699-704.",
+   "doi": "10.1046/j.1525-1497.1998.00207.x",
+   "pmid": "9798818",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1998
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use to exclude AS in elderly or hypertensive patients with stiff arteries, or to grade severity; do not palpate firmly in patients with carotid bruits or recent cerebrovascular events.",
+  "escalation_warning": "Delayed upstroke with exertional syncope, angina or heart failure suggests severe AS - urgent echocardiography, avoid vasodilators/nitrates and hypovolemia.",
+  "interobserver_note": "Poor reliability: kappa 0.26 for delayed carotid upstroke in the only study reporting it (Etchells 1998, as cited in CJC Open 2024)."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Primary estimate from the 2024 CJC Open meta-analysis (Table 2 seen in PMC full text, 6 studies/815 patients; pooled DOR 13.81 with random effects and possible publication bias from Aronow 1987 and Gamaza-Chulian). RCE 1997 range (2.8-130) added as a second entry with the low end as value and an explicit note - not averaged; RCE full text unavailable so per-study 2x2s not visible. Etchells 1998 (internists, inpatients) reports the upstroke only within a 3-4 finding rule (LR 40, 95% CI 6.6-240), so it is cited but not entered as an estimate for the isolated sign.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T01:37:35+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

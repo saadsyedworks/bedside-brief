@@ -103,8 +103,8 @@ def validate_cases(d: Path) -> tuple[list[str], list[str]]:
         if not 2 <= n <= 4:
             warns.append(f"{f.name}: {n} differentials (want 2-4)")
         tg = c.get("reference_targets_freetext", [])
-        if not 3 <= len(tg) <= 6:
-            errs.append(f"{f.name}: {len(tg)} targets (want 3-6)")
+        if not 3 <= len(tg) <= 8:
+            errs.append(f"{f.name}: {len(tg)} targets (want 3-8; >6 only after compound splits)")
         mh = sum(1 for t in tg if t.get("must_have"))
         if mh < 2:
             errs.append(f"{f.name}: only {mh} must_have targets")
@@ -175,6 +175,10 @@ def validate_records(d: Path) -> tuple[list[str], list[str]]:
                 warns.append(f"{f.name}: estimates[{i}] quote > 25 words")
             if est.get("computed") and not est.get("computed_from"):
                 errs.append(f"{f.name}: estimates[{i}] computed without computed_from")
+            for fld in ("sensitivity", "specificity"):
+                st = est.get(fld)
+                if isinstance(st, dict) and isinstance(st.get("value"), (int, float)) and st["value"] > 1:
+                    errs.append(f"{f.name}: estimates[{i}].{fld} must be a proportion 0-1 (got {st['value']}); run tools/normalize_units.py")
             si = est.get("source_index")
             if si is None or si >= len(r.get("sources", [])):
                 errs.append(f"{f.name}: estimates[{i}] bad source_index")

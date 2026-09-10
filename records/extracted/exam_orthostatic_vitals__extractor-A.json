@@ -1,0 +1,146 @@
+{
+  "identity": {
+    "id": "exam_orthostatic_vitals",
+    "title": "Orthostatic vitals: SBP drop >=20 / DBP >=10 mmHg or pulse increment >=30/min at 1-3 min standing",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "syncope",
+      "hypotension",
+      "aki",
+      "dizziness",
+      "ams",
+      "weakness"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "adrenal_insufficiency",
+      "bradyarrhythmia",
+      "hypovolemic_hemorrhagic_shock",
+      "medication_effect",
+      "orthostatic_hypotension",
+      "prerenal_hypovolemia",
+      "reflex_vasovagal"
+    ],
+    "indication_tags": [
+      "elderly",
+      "new_medication",
+      "orthostatic"
+    ]
+  },
+  "technique": {
+    "how": "Measure BP and pulse after >=2 min supine (or 5 min if possible), then stand the patient and repeat at 1 min and 3 min, asking about dizziness. Positive: SBP fall >=20 mmHg or DBP fall >=10 mmHg, pulse rise >=30/min, or inability to stand because of severe dizziness. Count the pulse for a full 30 s; supine-to-sitting is a weaker substitute.",
+    "prerequisites": "Patient able to stand with assistance; note beta-blockers, pacemaker, and autonomic disease which blunt the pulse response.",
+    "contraindications": "Do not stand a patient who is frankly hypotensive, syncopal, or at high fall risk without support."
+  },
+  "interpretation": {
+    "positive_finding": "A postural pulse increment >=30/min or severe postural dizziness is highly specific (98%) for large acute blood loss and supports hypovolemia; a postural SBP drop meeting criteria supports orthostatic hypotension as a cause of syncope or dizziness. In the elderly a positive test is common and may reflect drugs or autonomic failure rather than volume loss.",
+    "negative_finding": "A normal test does not exclude moderate hypovolemia (sensitivity only 22% after ~450-630 mL loss) and does not exclude cardiac syncope.",
+    "pitfalls": "Supine hypotension and tachycardia are insensitive even after >1 L blood loss; beta-blockade and pacing abolish the pulse rise; mild dizziness alone has no proven value; timing matters (measure at 1 and 3 min).",
+    "changes_what": "A large pulse increment or severe postural dizziness should raise hypovolemia/hemorrhage to the top and trigger volume resuscitation and source search; a normal test should not stop the workup."
+  },
+  "estimates": [
+    {
+      "target_condition": "Hypovolemia from large acute blood loss (630-1150 mL phlebotomy)",
+      "population": "Healthy adult volunteers undergoing controlled phlebotomy (pooled volunteer studies); finding = postural pulse increment >=30/min OR severe postural dizziness preventing upright vital signs",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Known phlebotomy volume (experimental blood loss)",
+      "sensitivity": {
+        "value": 0.97,
+        "ci_low": 0.91,
+        "ci_high": 1.0
+      },
+      "specificity": {
+        "value": 0.98,
+        "ci_low": 0.97,
+        "ci_high": 0.99
+      },
+      "lr_positive": {
+        "value": 48.5,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.03,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.97/(1-0.98) = 48.5; LR- = (1-0.97)/0.98 = 0.03; from abstract sensitivity 97% and specificity 98%",
+      "interpretation_label": "both",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "a much greater sensitivity for large blood loss of 97% (95% CI, 91%-100%); the corresponding specificity is 98% (95% CI, 97%-99%)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Hypovolemia from moderate acute blood loss (450-630 mL phlebotomy)",
+      "population": "Healthy adult volunteers undergoing controlled phlebotomy (pooled volunteer studies); finding = postural pulse increment >=30/min OR severe postural dizziness",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Known phlebotomy volume (experimental blood loss)",
+      "sensitivity": {
+        "value": 0.22,
+        "ci_low": 0.06,
+        "ci_high": 0.48
+      },
+      "specificity": {
+        "value": 0.98,
+        "ci_low": 0.97,
+        "ci_high": 0.99
+      },
+      "lr_positive": {
+        "value": 11,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.8,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.22/(1-0.98) = 11; LR- = (1-0.22)/0.98 = 0.80; from abstract sensitivity 22% and specificity 98%",
+      "interpretation_label": "rule_in",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "sensitivity for moderate blood loss of only 22% (95% confidence interval [CI], 6%-48%) ... the corresponding specificity is 98% (95% CI, 97%-99%)",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "McGee S, Abernethy WB 3rd, Simel DL. The rational clinical examination. Is this patient hypovolemic? JAMA. 1999;281(11):1022-1029.",
+      "doi": "10.1001/jama.281.11.1022",
+      "pmid": "10086438",
+      "url": null,
+      "kind": "rce_series",
+      "year": 1999
+    },
+    {
+      "citation": "Albassam OT, Redelmeier RJ, Shadowitz S, Husain AM, Simel D, Etchells EE. Did This Patient Have Cardiac Syncope?: The Rational Clinical Examination Systematic Review. JAMA. 2019;321(24):2448-2457.",
+      "doi": "10.1001/jama.2019.8001",
+      "pmid": "31237649",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2019
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not stand a patient with supine hypotension, active hemorrhage, or suspected acute cardiac event to obtain orthostatics; the information is not worth the fall/syncope risk.",
+    "escalation_warning": "Inability to stand because of dizziness, or a pulse increment >=30/min, in a patient with possible bleeding indicates large-volume loss and warrants immediate resuscitation and source control.",
+    "interobserver_note": "Reproducibility depends on standing duration and pulse-counting method; the RCE notes a supine period of at least 2 min and standing measurements at 1 min are needed for valid results."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Sens/spec entered as percent. Both estimates are the composite finding (pulse increment >=30/min or severe postural dizziness) in volunteer phlebotomy models, not ED patients; the RCE abstract also states supine hypotension has sensitivity 33% (21-47) after up to 1150 mL loss and that mild postural dizziness has no proven value, but gives no numbers for the postural SBP-drop criterion (>=20 mmHg) in the abstract and the JAMA full text is not accessible, so no BP-drop estimate is entered. For the syncope indication, the 2019 cardiac-syncope RCE (source 1) abstract contains no orthostatic-vital-sign estimate; it is cited as context that orthostatic hypotension is a non-cardiac cause and the test does not rule out cardiac syncope. No ED cohort with a reference standard for hypovolemia was found in the abstract-level search. [units normalised to proportions by tools/normalize_units.py: estimates[0].sensitivity, estimates[0].specificity, estimates[1].sensitivity, estimates[1].specificity]",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T01:44:46+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

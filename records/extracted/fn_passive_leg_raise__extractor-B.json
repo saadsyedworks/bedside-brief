@@ -1,0 +1,207 @@
+{
+  "identity": {
+    "id": "fn_passive_leg_raise",
+    "title": "Passive leg raise: hemodynamic response (BP/pulse pressure or POCUS VTI rise >=10-12%) within 60-90 s of raising legs 45 deg from semi-recumbent",
+    "type": "functional",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "hypotension",
+      "aki"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "acute_decompensated_hf",
+      "cardiogenic_shock",
+      "cardiorenal",
+      "hypovolemic_hemorrhagic_shock",
+      "prerenal_hypovolemia",
+      "septic_shock"
+    ],
+    "indication_tags": []
+  },
+  "technique": {
+    "how": "Start semi-recumbent (trunk 45 deg). Record baseline cardiac output surrogate (LVOT VTI, pulse-contour CO, bioreactance) or, less reliably, arterial pulse pressure. Using the bed controls, lower the trunk flat and raise the legs to 45 deg without touching the patient; re-measure within 60-90 s. Positive = CO/VTI rise >=10%. Return to baseline and confirm reversibility.",
+    "prerequisites": "A real-time flow measurement (echo VTI, pulse contour, bioreactance) gives the validated result; pulse pressure alone is a weak substitute. Use the bed, not manual lifting, to avoid pain/sympathetic stimulation.",
+    "contraindications": "Raised intracranial pressure, unstable pelvic/leg fractures, intra-abdominal hypertension, compression stockings/venous obstruction, and inability to lie flat."
+  },
+  "interpretation": {
+    "positive_finding": "A CO/VTI rise >=10% predicts that a fluid bolus will raise cardiac output (pooled sensitivity 85%, specificity 91%, AUC 0.95), supporting a fluid trial in shock or oliguria. A pulse-pressure rise is specific (83%) but insensitive (56-58%).",
+    "negative_finding": "No CO rise makes fluid responsiveness unlikely (LR- about 0.16 with flow measurement) and argues for vasopressors/inotropes or diuresis rather than more fluid. A negative pulse-pressure PLR is unreliable for excluding fluid responsiveness.",
+    "pitfalls": "BP or pulse-pressure based PLR misses about half of responders. Fluid responsiveness is not the same as needing fluid: a positive test in a patient without hypoperfusion is not a reason to give volume.",
+    "changes_what": "Positive PLR (CO-based): give a fluid challenge; negative: stop fluids and consider vasoactive support. PP-based positive is usable, PP-based negative is not."
+  },
+  "estimates": [
+    {
+      "target_condition": "Fluid responsiveness (CO rise after volume expansion), PLR assessed by cardiac output change (threshold ~10%)",
+      "population": "Adults with acute circulatory failure; 21 studies, 991 patients, 995 fluid challenges",
+      "setting": "ICU",
+      "prevalence": null,
+      "reference_standard": "Increase in cardiac output after a fluid challenge (study-specific threshold, usually >=15%)",
+      "sensitivity": {
+        "value": 0.85,
+        "ci_low": 0.81,
+        "ci_high": 0.88
+      },
+      "specificity": {
+        "value": 0.91,
+        "ci_low": 0.88,
+        "ci_high": 0.93
+      },
+      "lr_positive": {
+        "value": 9.4,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.16,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.85/(1-0.91) = 9.4; LR- = (1-0.85)/0.91 = 0.16, from pooled sensitivity 0.85 and specificity 0.91",
+      "interpretation_label": "both",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "For the PLR-induced changes in CO, the pooled sensitivity was 0.85 (0.81-0.88) and the pooled specificity was 0.91 (0.88-0.93)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Fluid responsiveness, PLR assessed by arterial pulse pressure change",
+      "population": "Adults with acute circulatory failure; 8 studies, 432 fluid challenges",
+      "setting": "ICU",
+      "prevalence": null,
+      "reference_standard": "Increase in cardiac output after a fluid challenge",
+      "sensitivity": {
+        "value": 0.56,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.83,
+        "ci_low": 0.77,
+        "ci_high": 0.88
+      },
+      "lr_positive": {
+        "value": 3.3,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.53,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.56/(1-0.83) = 3.3; LR- = (1-0.56)/0.83 = 0.53, from pooled sensitivity 0.56 and specificity 0.83",
+      "interpretation_label": "rule_in",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "the pooled sensitivity was 0.56 (0.49-0.53), the pooled specificity was 0.83 (0.77-0.88) and the pooled area under the ROC curve was 0.77",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Fluid responsiveness, PLR assessed by flow variables (cardiac output or derivatives)",
+      "population": "Adults (ICU/OR/ED studies); 23 studies, 1,013 patients, 1,034 fluid challenges",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Fluid challenge response (gold standard as defined per study)",
+      "sensitivity": {
+        "value": 0.85,
+        "ci_low": 0.78,
+        "ci_high": 0.9
+      },
+      "specificity": {
+        "value": 0.92,
+        "ci_low": 0.87,
+        "ci_high": 0.94
+      },
+      "lr_positive": {
+        "value": 10.6,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.16,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.85/(1-0.92) = 10.6; LR- = (1-0.85)/0.92 = 0.16, from reported sensitivity 85% and specificity 92% for flow variables",
+      "interpretation_label": "both",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "vs sensitivity of 85% [95% CI, 78-90] and specificity of 92% [95% CI, 87-94], respectively; p < 0.001",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Fluid responsiveness, PLR assessed by pulse pressure change",
+      "population": "Adults (ICU/OR/ED studies); subset of 23 studies using pulse pressure",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Fluid challenge response (gold standard as defined per study)",
+      "sensitivity": {
+        "value": 0.58,
+        "ci_low": 0.44,
+        "ci_high": 0.7
+      },
+      "specificity": {
+        "value": 0.83,
+        "ci_low": 0.68,
+        "ci_high": 0.92
+      },
+      "lr_positive": {
+        "value": 3.4,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.51,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.58/(1-0.83) = 3.4; LR- = (1-0.58)/0.83 = 0.51, from reported sensitivity 58% and specificity 83%",
+      "interpretation_label": "rule_in",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "sensitivity of 58% [95% CI, 44-70] and specificity of 83% [95% CI, 68-92] vs sensitivity of 85%",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Monnet X, Marik P, Teboul JL. Passive leg raising for predicting fluid responsiveness: a systematic review and meta-analysis. Intensive Care Med. 2016;42(12):1935-1947.",
+      "doi": "10.1007/s00134-015-4134-1",
+      "pmid": "26825952",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2016
+    },
+    {
+      "citation": "Cherpanath TG, Hirsch A, Geerts BF, et al. Predicting Fluid Responsiveness by Passive Leg Raising: A Systematic Review and Meta-Analysis of 23 Clinical Trials. Crit Care Med. 2016;44(5):981-991.",
+      "doi": "10.1097/CCM.0000000000001556",
+      "pmid": "26741579",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2016
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Raised intracranial pressure, unstable fractures, intra-abdominal hypertension, venous compression devices, or when no flow measurement is available and the question is ruling OUT fluid responsiveness.",
+    "escalation_warning": "A negative flow-based PLR in a hypotensive patient means more fluid is unlikely to help; escalate to vasopressor/inotrope decisions and look for obstructive or cardiogenic causes.",
+    "interobserver_note": "Reproducibility depends on the CO measurement (echo VTI is operator dependent); the manoeuvre itself must be done with the bed, semi-recumbent to legs-up, with measurement within 60-90 s.",
+    "skill_assumption": "For the VTI variant, operator must obtain a reproducible apical 5-chamber LVOT VTI before and within 90 s after the manoeuvre; the BP/PP variant requires no imaging skill but is insensitive."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Both meta-analyses are quantified from abstracts (full text not in PMC). Monnet 2016: the abstract prints the pulse-pressure sensitivity CI as '0.49-0.53', which cannot bracket 0.56 and is presumably a typographical error, so the CI is left null and the point estimate retained. Threshold quote for CO-based PLR: 'best threshold was a PLR-induced increase in CO >=10 +/- 2 %' (Monnet abstract). All LRs computed from pooled sens/spec. Estimates are separated by measurement method (flow vs pulse pressure), which is the dominant driver of performance; setting is ICU/mixed critically ill adults, not ward patients.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T01:37:32+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

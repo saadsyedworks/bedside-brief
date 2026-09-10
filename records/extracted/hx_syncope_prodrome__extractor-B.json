@@ -1,0 +1,218 @@
+{
+ "identity": {
+  "id": "hx_syncope_prodrome",
+  "title": "Prodrome before loss of consciousness (nausea, warmth, diaphoresis, visual graying) and situational trigger (micturition, cough, prolonged standing, pain, post-prandial) vs none",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "syncope",
+   "dizziness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "bradyarrhythmia",
+   "orthostatic_hypotension",
+   "reflex_vasovagal",
+   "situational_syncope",
+   "tachyarrhythmia"
+  ],
+  "indication_tags": [
+   "positional",
+   "post_prandial"
+  ]
+ },
+ "technique": {
+  "how": "Ask what the patient felt in the seconds to minutes before losing consciousness (nausea, warmth, sweating, vision graying or tunnelling, sounds fading) and how long it lasted; then ask about the setting (prolonged standing, heat, pain or emotion, micturition, defecation, cough, after a meal). Ask witnesses about pallor and sweating.",
+  "prerequisites": "Patient or witness able to recall the event; ask before suggesting symptom lists to reduce leading.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "A prolonged autonomic prodrome (nausea, diaphoresis, blurred vision) and a classic situational trigger point toward reflex (vasovagal/situational) or orthostatic syncope and make cardiac syncope less likely (nausea LR+ for cardiac ~0.4; long prodrome ~0.6).",
+  "negative_finding": "Absent or very brief prodrome modestly raises the likelihood of cardiac (arrhythmic) syncope (LR ~1.7 for absent long prodrome), especially with structural heart disease, exertion, or supine onset.",
+  "pitfalls": "Older patients frequently have amnesia for the prodrome and cardiac syncope can be preceded by lightheadedness, so prodrome presence is a modest discriminator; palpitations before syncope are inconsistent across studies. Individual RCE items with strong LRs (mood change, feeling cold, headache) are rarely present.",
+  "changes_what": "Typical prodrome plus trigger: favor reflex/orthostatic cause and consider discharge if ECG normal; absent prodrome pushes toward monitoring/cardiac evaluation."
+ },
+ "estimates": [
+  {
+   "target_condition": "Cardiac syncope (vs non-cardiac)",
+   "population": "Pooled derivation sample from 7 studies (n=2388) of adults with syncope; finding = presence/prolonged presence of prodromal symptoms or awareness of being about to faint",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Final adjudicated cause of syncope in each primary study (cardiac vs non-cardiac)",
+   "sensitivity": {
+    "value": 0.39,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.37,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 0.62,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 1.66,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "Cardiac: 182 with prodrome / 468 (39%); non-cardiac: 1117 / 1768 (63%). LR+ = 0.389/0.632 = 0.62; LR- = 0.611/0.368 = 1.66 (table reports LR 1.66 for absence). Spec = 1-0.63.",
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "(Long) prodrome† Yes 46 9 23 21 4 79 - 182 (39%) 172 21 96 160 57 611 - 1117 (63%) 89.7 1 <0.0001 1.66",
+   "location": "Table 2 (PMC3815402 full text)"
+  },
+  {
+   "target_condition": "Cardiac syncope (vs non-cardiac)",
+   "population": "Pooled derivation sample from 6 studies reporting nausea before syncope in adults with syncope",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Final adjudicated cause of syncope in each primary study",
+   "sensitivity": {
+    "value": 0.08,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.8,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 0.41,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 1.15,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "Cardiac: 34 nausea / 424 (8%); non-cardiac: 307 / 1552 (20%). LR+ = 0.080/0.198 = 0.41; LR- = 0.920/0.802 = 1.15 (table reports 1.15).",
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "Nausea Yes 4 2 7 - 2 19 - 34 (8%) 34 16 45 - 38 174 - 307 (20%) 32.3 1 <0.0001 1.15",
+   "location": "Table 2 (PMC3815402 full text)"
+  },
+  {
+   "target_condition": "Cardiac syncope (vs non-cardiac)",
+   "population": "Pooled derivation sample from 6 studies reporting diaphoresis before syncope in adults with syncope",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Final adjudicated cause of syncope in each primary study",
+   "sensitivity": {
+    "value": 0.18,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.57,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 0.43,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 1.42,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "Cardiac: 86 diaphoresis / 468 (18%); non-cardiac: 753 / 1768 (43%). LR+ = 0.184/0.426 = 0.43; LR- = 0.816/0.574 = 1.42 (table reports 1.42).",
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "86 (18%) 487 14 213 136 124 341 - 753 (43%) 92.6 1 <0.0001 1.42",
+   "location": "Table 2, Diaphoresis row (PMC3815402 full text)"
+  },
+  {
+   "target_condition": "Cardiac syncope",
+   "population": "Adults with syncope (n=412) from RCE-pooled studies; prodromal symptom of feeling cold",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Cardiac syncope by independent reference standard in included studies",
+   "sensitivity": {
+    "value": 0.02,
+    "ci_low": 0.0,
+    "ci_high": 0.05
+   },
+   "specificity": {
+    "value": 0.89,
+    "ci_low": 0.85,
+    "ci_high": 0.93
+   },
+   "lr_positive": {
+    "value": 0.16,
+    "ci_low": 0.06,
+    "ci_high": 0.64
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_out",
+   "evidence_level": "pooled",
+   "source_index": 1,
+   "quote": "feeling cold (n = 412; sensitivity, 2% [95% CI, 0%-5%]; specificity, 89% [95% CI, 85%-93%]; LR, 0.16 [95% CI, 0.06-0.64])",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Berecki-Gisolf J, Sheldon A, Wieling W, et al. Identifying cardiac syncope based on clinical history: a literature-based model tested in four independent datasets. PLoS One. 2013;8(10):e75255.",
+   "doi": "10.1371/journal.pone.0075255",
+   "pmid": "24223233",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3815402/",
+   "kind": "meta_analysis",
+   "year": 2013
+  },
+  {
+   "citation": "Albassam OT, Redelmeier RJ, Shadowitz S, Husain AM, Simel D, Etchells EE. Did This Patient Have Cardiac Syncope?: The Rational Clinical Examination Systematic Review. JAMA. 2019;321(24):2448-2457.",
+   "doi": "10.1001/jama.2019.8001",
+   "pmid": "31237649",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2019
+  },
+  {
+   "citation": "Sheldon R, Rose S, Connolly S, Ritchie D, Koshman ML, Frenneaux M. Diagnostic criteria for vasovagal syncope based on a quantitative history. Eur Heart J. 2006;27(3):344-350.",
+   "doi": "10.1093/eurheartj/ehi584",
+   "pmid": "16223744",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2006
+  },
+  {
+   "citation": "Del Rosso A, Ungar A, Maggi R, et al. Clinical predictors of cardiac syncope at initial evaluation in patients referred urgently to a general hospital: the EGSYS score. Heart. 2008;94(12):1620-1626.",
+   "doi": "10.1136/hrt.2008.143123",
+   "pmid": "18519550",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2008
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use a reassuring prodrome to skip an ECG, or in patients with known structural heart disease, exertional or supine syncope, or age >60 where history alone is unreliable.",
+  "escalation_warning": "Syncope without prodrome plus abnormal ECG, heart disease, exertion, or supine onset should be monitored and evaluated for arrhythmia.",
+  "interobserver_note": "Symptom recall varies with age and questioning; prodrome definitions differ across studies (Berecki-Gisolf pooled 'presence or prolonged presence' of prodrome)."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Estimates 0-2 computed from pooled 2x2 counts in Table 2 of Berecki-Gisolf 2013 (PMC3815402, open access; values read from the XML text dump - the 'Diaphoresis' row's per-study Yes/No sub-columns appear transposed in the dump but the totals 86 (18%) vs 753 (43%) are consistent with the reported LR 1.42). Table's LR column gives the LR for the cardiac-pointing state (absence), which I reproduced as lr_negative; lr_positive is computed. Quotes are verbatim contiguous spans of the table rows. Derivation sample only (not the four test datasets). Estimate 3: Albassam 2019 RCE abstract, prodromal 'feeling cold' (a Calgary-score item); the RCE also lists mood change/preoccupation LR 0.09 (0.02-0.38) and headache LR 0.17 (0.06-0.55) - not entered separately as they do not match this record's title symptoms. Sheldon 2006 (Calgary score) abstract gives only score-level accuracy (89% sens/91% spec) so no estimate; EGSYS abstract lists 'absence of autonomic prodromes' as a predictor without per-item numbers. Situational triggers (micturition, cough, post-prandial) were not separately quantified in accessible sources. Added indication_tags positional, post_prandial.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T01:37:38+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

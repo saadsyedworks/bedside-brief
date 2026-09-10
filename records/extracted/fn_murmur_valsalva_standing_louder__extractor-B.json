@@ -1,0 +1,205 @@
+{
+ "identity": {
+  "id": "fn_murmur_valsalva_standing_louder",
+  "title": "Dynamic auscultation: systolic murmur louder with Valsalva/standing, softer with squatting or handgrip",
+  "type": "functional",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "chest_pain",
+   "syncope",
+   "palpitations"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "aortic_stenosis",
+   "hcm"
+  ],
+  "indication_tags": [
+   "exertional"
+  ]
+ },
+ "technique": {
+  "how": "Listen at the left sternal border/apex, then have the patient strain (Valsalva) for 10-20 s and note whether the murmur gets louder; repeat while the patient rises from squatting to standing (louder = positive) and from standing to squatting (softer = positive). Sustained handgrip for 20-30 s should soften an HCM murmur.",
+  "prerequisites": "Patient able to stand and squat safely with assistance; baseline murmur already characterised.",
+  "contraindications": "Avoid Valsalva and squat-stand in patients with recent syncope, unstable angina, severe orthostasis, or fall risk without assistance."
+ },
+ "interpretation": {
+  "positive_finding": "A murmur that increases with Valsalva or on standing and decreases with squatting or handgrip identifies dynamic LVOT obstruction (HCM) with high specificity (Valsalva 96%, standing 84-85%); Valsalva-louder gives a computed LR+ of about 16.",
+  "negative_finding": "A murmur that does not increase with squat-to-stand or does not decrease with stand-to-squat makes HCM unlikely (sensitivity 95%, computed LR- ~0.06); murmurs of valvular AS soften or stay unchanged with Valsalva and are not identified by any single manoeuvre.",
+  "pitfalls": "Valsalva has low sensitivity for HCM (65%); poor technique (short strain, incomplete squat) blunts responses; mitral valve prolapse murmurs also become longer/louder on standing; data come from one 50-patient referral cohort with cardiologist examiners.",
+  "changes_what": "Positive: suspect HCM - order echocardiography, avoid dehydration, nitrates and inotropes; negative squat/stand response argues for fixed obstruction (AS) or regurgitant lesions."
+ },
+ "estimates": [
+  {
+   "target_condition": "Hypertrophic (obstructive) cardiomyopathy murmur vs all other systolic murmurs",
+   "population": "50 patients with documented systolic murmurs of defined cause (HCM, AS, MR, VSD, right-sided lesions, MVP), examined by cardiologists",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Echocardiography/Doppler and catheterization-confirmed etiology of the murmur (as described in study)",
+   "sensitivity": {
+    "value": 0.65,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.96,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 16.25,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.36,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "LR+ = 0.65/(1-0.96) = 16.25; LR- = (1-0.65)/0.96 = 0.36; from abstract-reported sensitivity 65% and specificity 96% (increase in intensity with Valsalva).",
+   "interpretation_label": "rule_in",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "an increase in intensity with the Valsalva maneuver (65 percent sensitivity, 96 percent specificity)",
+   "location": "Abstract, Results (PubMed abstract; NEJM full text not accessible)"
+  },
+  {
+   "target_condition": "Hypertrophic (obstructive) cardiomyopathy murmur vs all other systolic murmurs",
+   "population": "50 patients with documented systolic murmurs of defined cause (HCM, AS, MR, VSD, right-sided lesions, MVP), examined by cardiologists",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Echocardiography/Doppler and catheterization-confirmed etiology of the murmur (as described in study)",
+   "sensitivity": {
+    "value": 0.95,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.84,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 5.94,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.06,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "LR+ = 0.95/(1-0.84) = 5.94; LR- = (1-0.95)/0.84 = 0.06; from sensitivity 95% and specificity 84% (increase during squatting-to-standing).",
+   "interpretation_label": "both",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "during squatting-to-standing action (95 percent sensitivity, 84 percent specificity)",
+   "location": "Abstract, Results (PubMed abstract)"
+  },
+  {
+   "target_condition": "Hypertrophic (obstructive) cardiomyopathy murmur vs all other systolic murmurs",
+   "population": "50 patients with documented systolic murmurs of defined cause (HCM, AS, MR, VSD, right-sided lesions, MVP), examined by cardiologists",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Echocardiography/Doppler and catheterization-confirmed etiology of the murmur (as described in study)",
+   "sensitivity": {
+    "value": 0.95,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.85,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 6.33,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.06,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "LR+ = 0.95/(1-0.85) = 6.33; LR- = (1-0.95)/0.85 = 0.06; from sensitivity 95% and specificity 85% (decrease during standing-to-squatting).",
+   "interpretation_label": "both",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "a decrease in intensity during standing-to-squatting action (95 percent sensitivity, 85 percent specificity)",
+   "location": "Abstract, Results (PubMed abstract)"
+  },
+  {
+   "target_condition": "Hypertrophic (obstructive) cardiomyopathy murmur vs all other systolic murmurs",
+   "population": "50 patients with documented systolic murmurs of defined cause (HCM, AS, MR, VSD, right-sided lesions, MVP), examined by cardiologists",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Echocardiography/Doppler and catheterization-confirmed etiology of the murmur (as described in study)",
+   "sensitivity": {
+    "value": 0.85,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.75,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 3.4,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.2,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "LR+ = 0.85/(1-0.75) = 3.4; LR- = (1-0.85)/0.75 = 0.20; from sensitivity 85% and specificity 75% (decrease in intensity with handgrip).",
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "and handgrip (85 percent sensitivity, 75 percent specificity)",
+   "location": "Abstract, Results (PubMed abstract)"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Lembo NJ, Dell'Italia LJ, Crawford MH, O'Rourke RA. Bedside diagnosis of systolic murmurs. N Engl J Med. 1988;318(24):1572-1578.",
+   "doi": "10.1056/NEJM198806163182404",
+   "pmid": "2897627",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1988
+  },
+  {
+   "citation": "Etchells E, Bell C, Robb K. Does this patient have an abnormal systolic murmur? JAMA. 1997;277(7):564-571.",
+   "doi": null,
+   "pmid": "9032164",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1997
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not perform Valsalva/squat-stand manoeuvres in patients with recent syncope, hemodynamic instability, active ischaemia, or inability to stand safely; do not use to exclude non-obstructive HCM (no murmur to augment).",
+  "escalation_warning": "A Valsalva-augmented murmur in a patient with exertional syncope, chest pain or a family history of sudden death needs prompt echocardiography and cardiology referral; avoid dehydration, vasodilators and beta-agonists meanwhile.",
+  "interobserver_note": "Reliability of manoeuvre responses not reported by Lembo 1988; underlying murmur detection has fair reliability (kappa 0.30-0.48, RCE 1997). All estimates are from cardiologist examiners in a single 50-patient referral series."
+ },
+ "tier": "extracted",
+ "extraction_notes": "All numbers are from the Lembo 1988 NEJM abstract (n=50; no CIs reported in the abstract; full text not accessible, so the study's table numbers/2x2 cells were not seen). LRs computed by me from the abstract sensitivity/specificity and flagged computed=true. Setting recorded as 'mixed' because the abstract does not state inpatient vs outpatient. The 1997 RCE summarises HCM manoeuvre studies as 'smaller, lower-quality' but its abstract gives no HCM numbers, so it is cited as context only. Passive leg elevation (85%/91%) omitted as not part of this record's title. No pooled/meta-analytic estimate for dynamic auscultation was found in PubMed searches.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T01:37:35+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

@@ -1,0 +1,162 @@
+{
+ "identity": {
+  "id": "exam_chest_wall_tenderness_reproducible",
+  "title": "Chest pain fully reproduced by palpation of chest wall",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "chest_pain"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "acs",
+   "herpes_zoster",
+   "musculoskeletal_chest_wall",
+   "pulmonary_embolism"
+  ],
+  "indication_tags": []
+ },
+ "technique": {
+  "how": "Palpate the sternum, costochondral junctions, ribs and intercostal spaces systematically with firm fingertip pressure and ask whether this reproduces the presenting pain exactly. Count only pain identical to the index complaint, not generic tenderness. Inspect the skin for a dermatomal vesicular rash.",
+  "prerequisites": "Patient able to compare palpation pain with the index pain; examine before analgesia if possible.",
+  "contraindications": "Avoid forceful palpation over suspected rib fracture or sternal injury."
+ },
+ "interpretation": {
+  "positive_finding": "Pain fully reproduced by palpation lowers the probability of AMI/ACS (pooled LR ~0.23-0.3) and favours musculoskeletal or zoster causes.",
+  "negative_finding": "Absence of tenderness is the norm in AMI (92-94% of cases) and therefore does not discriminate; ACS remains fully in play.",
+  "pitfalls": "About 1 in 4 to 1 in 5 relative odds remain, so tenderness never excludes ACS or PE (PE can coexist with chest wall tenderness). Partial or non-identical tenderness is much less informative than exact reproduction.",
+  "changes_what": "Positive: modestly lowers ACS probability; still obtain ECG/troponin when pretest risk is anything but low. Negative: no change to the ACS workup."
+ },
+ "estimates": [
+  {
+   "target_condition": "Acute myocardial infarction / acute coronary syndrome (condition not separated for the LR in abstract)",
+   "population": "Non-selected patients with chest pain (16 of 28 studies; primary care and ED); sensitivity of absent tenderness 92% AMI, 94% ACS",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "AMI/ACS per included studies (diagnostic meta-analysis, random effects)",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 0.23,
+    "ci_low": 0.18,
+    "ci_high": 0.29
+   },
+   "lr_negative": null,
+   "computed": true,
+   "computed_from": "Source frames the sign as 'absence of chest-wall tenderness' and reports its LR- = 0.23 (0.18-0.29); LR- of absence is identical to the LR of tenderness being present (relabeling only, no arithmetic)",
+   "interpretation_label": "rule_out",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "Absence of chest-wall tenderness on palpation had a LR- of 0.23 (95% CI = 0.18 to 0.29)",
+   "location": "Abstract, Results (sensitivities: 'pooled sensitivity of 92% (95% confidence interval [CI] = 86 to 96) for acute myocardial infarction and 94% (95% CI = 91 to 96) for acute coronary syndrome')"
+  },
+  {
+   "target_condition": "Acute myocardial infarction",
+   "population": "Patients with acute chest pain (systematic review 1966-2003)",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "MI per included studies",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 0.3,
+    "ci_low": 0.2,
+    "ci_high": 0.4
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_out",
+   "evidence_level": "pooled",
+   "source_index": 1,
+   "quote": "chest wall tenderness (LR=0.3; 95% CI: 0.2 to 0.4)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Acute myocardial infarction (WHO criteria)",
+   "population": "893 ED chest pain unit patients with acute undifferentiated chest pain; 3.8% AMI",
+   "setting": "ED",
+   "prevalence": 0.038,
+   "reference_standard": "WHO criteria for AMI",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 0.3,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_out",
+   "evidence_level": "single_study",
+   "source_index": 2,
+   "quote": "and chest wall tenderness (LR = 0.3)",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Bruyninckx R, Aertgeerts B, Bruyninckx P, Buntinx F. Signs and symptoms in diagnosing acute myocardial infarction and acute coronary syndrome: a diagnostic meta-analysis. Br J Gen Pract. 2008;58(547):105-111.",
+   "doi": "10.3399/bjgp08X277014",
+   "pmid": "18307844",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2008
+  },
+  {
+   "citation": "Chun AA, McGee SR. Bedside diagnosis of coronary artery disease: a systematic review. Am J Med. 2004;117(5):334-343.",
+   "doi": "10.1016/j.amjmed.2004.03.021",
+   "pmid": "15336583",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2004
+  },
+  {
+   "citation": "Goodacre S, Locker T, Morris F, Campbell S. How useful are clinical features in the diagnosis of acute, undifferentiated chest pain? Acad Emerg Med. 2002;9(3):203-208.",
+   "doi": "10.1111/j.1553-2712.2002.tb00245.x",
+   "pmid": "11874776",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2002
+  },
+  {
+   "citation": "Panju AA, Hemmelgarn BR, Guyatt GH, Simel DL. The rational clinical examination. Is this patient having a myocardial infarction? JAMA. 1998;280(14):1256-1263.",
+   "doi": "10.1001/jama.280.14.1256",
+   "pmid": "9786377",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1998
+  },
+  {
+   "citation": "Swap CJ, Nagurney JT. Value and limitations of chest pain history in the evaluation of patients with suspected acute coronary syndromes. JAMA. 2005;294(20):2623-2629.",
+   "doi": "10.1001/jama.294.20.2623",
+   "pmid": "16304077",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2005
+  },
+  {
+   "citation": "Fanaroff AC, Rymer JA, Goldstein SA, Simel DL, Newby LK. Does This Patient With Chest Pain Have Acute Coronary Syndrome? The Rational Clinical Examination Systematic Review. JAMA. 2015;314(18):1955-1965.",
+   "doi": "10.1001/jama.2015.12735",
+   "pmid": "26547467",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2015
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use reproducible tenderness to discharge patients with intermediate/high pretest probability, an abnormal ECG, or features of PE or dissection; it is a probability modifier, not an exclusion test.",
+  "escalation_warning": "Chest wall tenderness with ischemic ECG changes, hemodynamic instability or ongoing pain must be treated as ACS until proven otherwise.",
+  "interobserver_note": "Reliability of the palpation finding not reported in the retrieved sources; definitions varied across pooled studies."
+ },
+ "extraction_notes": "Bruyninckx 2008 PMC record contains metadata only (no OA full text), so figures are from the abstract; the abstract does not state whether the LR- 0.23 refers to AMI or ACS, hence the combined target_condition. Chun & McGee 2004 and Goodacre 2002 LRs from abstracts (Goodacre without CI). Panju 1998 (LR range 0.2-0.4) and Swap 2005 (LR range 0.2-0.3) report only ranges in the abstract and their tables were not viewable, so cited without estimates. Fanaroff 2015 abstract does not report palpation; cited as the current RCE context only.",
+ "tier": "extracted",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T01:37:34+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

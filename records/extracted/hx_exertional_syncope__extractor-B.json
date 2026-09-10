@@ -1,0 +1,148 @@
+{
+ "identity": {
+  "id": "hx_exertional_syncope",
+  "title": "Syncope during (not after) exertion",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "syncope"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "aortic_stenosis",
+   "hcm",
+   "pulmonary_embolism",
+   "tachyarrhythmia",
+   "ventricular_tachycardia"
+  ],
+  "indication_tags": [
+   "exertional"
+  ]
+ },
+ "technique": {
+  "how": "Establish exactly when consciousness was lost relative to activity: during ongoing exertion (walking uphill, running, lifting) versus in the minutes after stopping. Ask what the patient was doing, whether there were palpitations or chest pain first, and whether a witness saw the collapse mid-activity.",
+  "prerequisites": "Patient or witness account; clarify timing precisely because post-exertional collapse is usually reflex.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Syncope during exertion is uncommon but highly specific for a cardiac cause (pooled LR+ ~7; specificity 98-99%) and should prompt evaluation for aortic stenosis, HCM, ischemia, or ventricular arrhythmia before any return to activity.",
+  "negative_finding": "Absence of exertional syncope barely changes the probability of cardiac syncope (LR- ~0.9) because only ~13% of cardiac syncope is exertional.",
+  "pitfalls": "Collapse immediately after stopping exercise is typically reflex (post-exertional vasovagal) and must be distinguished from mid-exertion syncope; patients may not recall the exact timing. Exertional syncope is rare, so its absence is not reassuring.",
+  "changes_what": "Positive: admit/monitor, ECG plus echocardiogram and cardiology review before discharge; negative: no change in workup."
+ },
+ "estimates": [
+  {
+   "target_condition": "Cardiac syncope (vs non-cardiac)",
+   "population": "Pooled derivation sample from 2 studies (Alboni 2001, Del Rosso 2008) reporting syncope during effort in adults with syncope",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Final adjudicated cause of syncope in each primary study (cardiac vs non-cardiac)",
+   "sensitivity": {
+    "value": 0.13,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.98,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 6.92,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.89,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "Cardiac: 16 effort syncope / 122 (13%); non-cardiac: 9 / 475 (2%). LR+ = 0.131/0.019 = 6.92 (table reports 6.92); LR- = 0.869/0.981 = 0.89.",
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "during effort Yes 10 - - 6 - - - 16 (13%) 7 - - 2 - - - 9 (2%) 30.5 1 <0.0001 6.92",
+   "location": "Table 2, 'Syncope during effort' row (PMC3815402 full text)"
+  },
+  {
+   "target_condition": "Cardiac syncope",
+   "population": "261 consecutive patients aged >=65 y with unexplained syncope referred to secondary/tertiary hospitals (34% cardiac)",
+   "setting": "mixed",
+   "prevalence": 0.34,
+   "reference_standard": "Pre-specified ESC-based diagnostic criteria for cause of syncope",
+   "sensitivity": null,
+   "specificity": {
+    "value": 0.99,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "Myoclonic movements, effort syncope, and supine position during loss of consciousness were the most specific (97%, 99%, and 99%, respectively) diagnostic criteria",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Berecki-Gisolf J, Sheldon A, Wieling W, et al. Identifying cardiac syncope based on clinical history: a literature-based model tested in four independent datasets. PLoS One. 2013;8(10):e75255.",
+   "doi": "10.1371/journal.pone.0075255",
+   "pmid": "24223233",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3815402/",
+   "kind": "meta_analysis",
+   "year": 2013
+  },
+  {
+   "citation": "Del Rosso A, Alboni P, Brignole M, Menozzi C, Raviele A. Relation of clinical presentation of syncope to the age of patients. Am J Cardiol. 2005;96(10):1431-1435.",
+   "doi": "10.1016/j.amjcard.2005.07.047",
+   "pmid": "16275193",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2005
+  },
+  {
+   "citation": "Albassam OT, Redelmeier RJ, Shadowitz S, Husain AM, Simel D, Etchells EE. Did This Patient Have Cardiac Syncope?: The Rational Clinical Examination Systematic Review. JAMA. 2019;321(24):2448-2457.",
+   "doi": "10.1001/jama.2019.8001",
+   "pmid": "31237649",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2019
+  },
+  {
+   "citation": "Del Rosso A, Ungar A, Maggi R, et al. Clinical predictors of cardiac syncope at initial evaluation in patients referred urgently to a general hospital: the EGSYS score. Heart. 2008;94(12):1620-1626.",
+   "doi": "10.1136/hrt.2008.143123",
+   "pmid": "18519550",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2008
+  },
+  {
+   "citation": "Alboni P, Brignole M, Menozzi C, et al. Diagnostic value of history in patients with syncope with or without heart disease. J Am Coll Cardiol. 2001;37(7):1921-1928.",
+   "doi": "10.1016/s0735-1097(01)01241-4",
+   "pmid": "11401133",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2001
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not classify as non-exertional (reassuring) when timing is uncertain; treat ambiguous timing as exertional until echo/ECG are reviewed.",
+  "escalation_warning": "Exertional syncope with a murmur, family history of sudden death, chest pain, or abnormal ECG is a red flag for AS/HCM/VT: no discharge without cardiology evaluation.",
+  "interobserver_note": "Depends on precise history of timing relative to activity; definitions of 'effort' differ between studies."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Estimate 0 computed from pooled 2x2 counts in Table 2 of Berecki-Gisolf 2013 (PMC3815402 open-access XML dump); the table's LR column (6.92) matches the computed LR+, LR- computed by me. Only two derivation studies contributed effort data (Alboni 2001 and Del Rosso 2008), so this is a small pooled sample. Estimate 1: Del Rosso 2005 (PubMed year 2006), older patients only: specificity 99% for effort syncope; sensitivity not in abstract (abstract notes all three specific features together accounted for only 14% of patients). Albassam 2019 RCE abstract does not report an exertion-specific LR (not visible without full text), cited as context. Alboni 2001 abstract names 'during effort' among the most specific predictors in patients with heart disease but gives no number; EGSYS abstract lists 'syncope during effort' as a score item without per-item accuracy. Quote 0 is a contiguous 25-word span of the table row.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T01:37:38+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

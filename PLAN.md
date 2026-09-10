@@ -26,7 +26,7 @@
 ## Phase 3 — Evaluation (Day 4–5). GATE: freeze #2, then judging queue.
 - [ ] Map free-text targets → record ids (`reference_targets_mapped`); unmapped targets counted for library coverage. Commit → **freeze #2**.
 - [ ] `eval/arms.py`: A (full), B (retrieval-only, fixed order, truncated), C (generic LLM prompt, same model, parsed by same item parser).
-- [ ] `eval/metrics.py`: every mechanical metric in `evaluation_rubric.md`; ECG sensitivity analysis.
+- [ ] `eval/metrics.py`: every mechanical metric in `evaluation_rubric.md`; ECG sensitivity analysis; **must-have recall stratified quantified vs not_quantified (gate ruling 3); MAR-review-off-bedside sensitivity analysis (gate ruling 4)**.
 - [ ] `eval/judging_export.py`: shuffled, arm-blinded item list (CSV) for owner relevance/safety scoring; `judging_import.py`.
 - [ ] Run all arms on frozen set; write `eval/runs/{timestamp}/`. Error analysis: top 5 failure modes of A with examples.
 - [ ] Owner gate: judging queue (default 12 cases × 3 arms; all cases if owner has time).

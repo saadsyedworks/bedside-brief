@@ -1,0 +1,184 @@
+{
+ "identity": {
+  "id": "hx_pain_radiation_both_arms",
+  "title": "Chest pain radiating to both arms (or right arm/shoulder), with diaphoresis",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "chest_pain"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "acs"
+  ],
+  "indication_tags": []
+ },
+ "technique": {
+  "how": "Ask where the pain travels and have the patient point: to the left arm only, the right arm/shoulder, or both arms. Separately ask about, and look for, sweating at the time of pain (observed diaphoresis carries more weight than reported).",
+  "prerequisites": "Reliable history; record radiation site before the ECG result biases the interviewer.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Radiation to both arms is specific for ACS (pooled specificity 96%, LR 2.6) and for MI (LR 7.1 in the 1998 RCE); observed sweating has pooled LR+ 2.9 for AMI.",
+  "negative_finding": "Absence of bilateral-arm radiation or sweating is common in ACS and barely lowers the probability.",
+  "pitfalls": "Left-arm-only radiation adds little. The high 7.1 estimate comes from older MI cohorts and is not reproduced in the 2015 pooled ACS analysis; do not treat as diagnostic.",
+  "changes_what": "Positive: raise pretest probability for ACS and proceed promptly to ECG/troponin pathway. Negative: no change; ACS remains in play."
+ },
+ "estimates": [
+  {
+   "target_condition": "Acute coronary syndrome",
+   "population": "ED patients with chest pain suggestive of ACS (prospective studies 1995-2015)",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "Final hospital diagnosis of ACS or cardiovascular event within 6 weeks",
+   "sensitivity": null,
+   "specificity": {
+    "value": 0.96,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 2.6,
+    "ci_low": 1.8,
+    "ci_high": 3.7
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "pain radiation to both arms (specificity, 96%; LR, 2.6 [95% CI, 1.8-3.7])",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Acute myocardial infarction",
+   "population": "Patients with acute chest pain (studies summarised in the 1998 RCE)",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "Clinical diagnosis of MI per included studies (ECG/enzymes)",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 7.1,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 1,
+   "quote": "chest pain radiating to both the left and right arm simultaneously (LR, 7.1)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Acute myocardial infarction (WHO criteria)",
+   "population": "893 ED chest pain unit patients with acute undifferentiated chest pain; 3.8% AMI",
+   "setting": "ED",
+   "prevalence": 0.038,
+   "reference_standard": "WHO criteria for AMI",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 4.07,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 2,
+   "quote": "pain radiating to the shoulder or both arms (LR = 4.07)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Acute myocardial infarction (sweating/diaphoresis)",
+   "population": "Non-selected patients with chest pain (16 of 28 studies; primary care and ED)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "AMI per included studies (diagnostic meta-analysis)",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 2.92,
+    "ci_low": 1.97,
+    "ci_high": 4.23
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 3,
+   "quote": "Sweating had the highest pooled positive likelihood ratio (LR+), namely 2.92 (95% CI = 1.97 to 4.23) for acute myocardial infarction",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Fanaroff AC, Rymer JA, Goldstein SA, Simel DL, Newby LK. Does This Patient With Chest Pain Have Acute Coronary Syndrome? The Rational Clinical Examination Systematic Review. JAMA. 2015;314(18):1955-1965.",
+   "doi": "10.1001/jama.2015.12735",
+   "pmid": "26547467",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2015
+  },
+  {
+   "citation": "Panju AA, Hemmelgarn BR, Guyatt GH, Simel DL. The rational clinical examination. Is this patient having a myocardial infarction? JAMA. 1998;280(14):1256-1263.",
+   "doi": "10.1001/jama.280.14.1256",
+   "pmid": "9786377",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1998
+  },
+  {
+   "citation": "Goodacre S, Locker T, Morris F, Campbell S. How useful are clinical features in the diagnosis of acute, undifferentiated chest pain? Acad Emerg Med. 2002;9(3):203-208.",
+   "doi": "10.1111/j.1553-2712.2002.tb00245.x",
+   "pmid": "11874776",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2002
+  },
+  {
+   "citation": "Bruyninckx R, Aertgeerts B, Bruyninckx P, Buntinx F. Signs and symptoms in diagnosing acute myocardial infarction and acute coronary syndrome: a diagnostic meta-analysis. Br J Gen Pract. 2008;58(547):105-111.",
+   "doi": "10.3399/bjgp08X277014",
+   "pmid": "18307844",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2008
+  },
+  {
+   "citation": "Swap CJ, Nagurney JT. Value and limitations of chest pain history in the evaluation of patients with suspected acute coronary syndromes. JAMA. 2005;294(20):2623-2629.",
+   "doi": "10.1001/jama.294.20.2623",
+   "pmid": "16304077",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2005
+  },
+  {
+   "citation": "Body R, Carley S, Wibberley C, McDowell G, Ferguson J, Mackway-Jones K. The value of symptoms and signs in the emergent diagnosis of acute coronary syndromes. Resuscitation. 2010;81(3):281-286.",
+   "doi": "10.1016/j.resuscitation.2009.11.014",
+   "pmid": "20036454",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2010
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use absence of radiation or sweating to lower suspicion; do not apply to patients with aortic dissection features (tearing pain, pulse deficit) where arm symptoms have a different meaning.",
+  "escalation_warning": "Bilateral-arm radiation with diaphoresis is a high-probability ACS pattern: immediate ECG, troponin, aspirin unless contraindicated, and monitored bed.",
+  "interobserver_note": "Reliability of radiation history not reported in retrieved sources; observed versus reported sweating differ (Body 2010 used observed sweating)."
+ },
+ "extraction_notes": "Fanaroff 2015 pooled ACS estimate and Bruyninckx 2008 pooled sweating estimate come from abstracts (no PMC full text). Panju 1998 LR 7.1 is given without CI in the abstract; number of underlying studies not visible. Right-arm/shoulder-specific LR (Swap 2005 Table, ~4.7) could not be viewed and is not entered; Goodacre's 'shoulder or both arms' LR 4.07 is entered instead. Body 2010 reports adjusted odds ratios (both arms 2.69; sweating observed 5.18), not LRs, so it is cited but no estimate entered.",
+ "tier": "extracted",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T01:37:34+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

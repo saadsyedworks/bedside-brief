@@ -1,0 +1,175 @@
+{
+  "identity": {
+    "id": "exam_orthostatic_vitals",
+    "title": "Orthostatic vitals: SBP drop >=20 / DBP >=10 mmHg or pulse increment >=30/min at 1-3 min standing",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "syncope",
+      "hypotension",
+      "aki",
+      "dizziness",
+      "ams",
+      "weakness"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "adrenal_insufficiency",
+      "bradyarrhythmia",
+      "hypovolemic_hemorrhagic_shock",
+      "medication_effect",
+      "orthostatic_hypotension",
+      "prerenal_hypovolemia",
+      "reflex_vasovagal"
+    ],
+    "indication_tags": [
+      "elderly",
+      "new_medication",
+      "orthostatic"
+    ]
+  },
+  "technique": {
+    "how": "Measure BP and pulse after >=2 min supine, then have the patient stand and repeat at 1 and 3 min (standing, not sitting). Record SBP fall >=20 or DBP fall >=10 mmHg, pulse rise >=30/min, and whether the patient is too dizzy to stand (count that as positive).",
+    "prerequisites": "Automated or manual cuff, an assistant to steady the patient, supine rest of at least 2 minutes first.",
+    "contraindications": "Do not stand a patient who is frankly hypotensive, has an unstable spine/pelvis, or cannot safely bear weight."
+  },
+  "interpretation": {
+    "positive_finding": "A postural pulse increment >=30/min or severe postural dizziness is highly specific (98%) for blood loss and is nearly always present after large (>1 L) hemorrhage. In an older patient with syncope, an SBP fall >=20 mmHg reproducing symptoms supports orthostatic hypotension, though asymptomatic falls are common with age and medications.",
+    "negative_finding": "A normal postural pulse response argues strongly against large blood loss (LR- about 0.03) but misses most moderate (450-630 mL) losses (sensitivity 22%). Normal orthostatics do not exclude hypovolemia from vomiting/diarrhea.",
+    "pitfalls": "Supine hypotension and tachycardia are frequently absent even after 1 L blood loss. Beta-blockers blunt the pulse response; sitting instead of standing lowers sensitivity; mild postural dizziness alone has no proven value.",
+    "changes_what": "Positive: treat as significant hypovolemia/bleeding or medication-related OH and act; negative: large blood loss unlikely, but moderate loss still possible."
+  },
+  "estimates": [
+    {
+      "target_condition": "Large acute blood loss (630-1150 mL) - postural pulse increment >=30/min or severe postural dizziness",
+      "population": "Healthy adult volunteers undergoing controlled phlebotomy (pooled from volunteer studies)",
+      "setting": "outpatient",
+      "prevalence": null,
+      "reference_standard": "Known volume of phlebotomy",
+      "sensitivity": {
+        "value": 0.97,
+        "ci_low": 0.91,
+        "ci_high": 1.0
+      },
+      "specificity": {
+        "value": 0.98,
+        "ci_low": 0.97,
+        "ci_high": 0.99
+      },
+      "lr_positive": {
+        "value": 48.5,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.03,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.97/(1-0.98) = 48.5; LR- = (1-0.97)/0.98 = 0.03, from the reported pooled sensitivity 97% and specificity 98%",
+      "interpretation_label": "both",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "a much greater sensitivity for large blood loss of 97% (95% CI, 91%-100%); the corresponding specificity is 98% (95% CI, 97%-99%)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Moderate acute blood loss (450-630 mL) - postural pulse increment >=30/min or severe postural dizziness",
+      "population": "Healthy adult volunteers undergoing controlled phlebotomy (pooled from volunteer studies)",
+      "setting": "outpatient",
+      "prevalence": null,
+      "reference_standard": "Known volume of phlebotomy",
+      "sensitivity": {
+        "value": 0.22,
+        "ci_low": 0.06,
+        "ci_high": 0.48
+      },
+      "specificity": {
+        "value": 0.98,
+        "ci_low": 0.97,
+        "ci_high": 0.99
+      },
+      "lr_positive": {
+        "value": 11.0,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.8,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.22/(1-0.98) = 11; LR- = (1-0.22)/0.98 = 0.80, from reported sensitivity 22% and specificity 98%",
+      "interpretation_label": "rule_in",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "has a sensitivity for moderate blood loss of only 22% (95% confidence interval [CI], 6%-48%)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Blood loss up to 1150 mL - supine hypotension (comparator finding, not postural)",
+      "population": "Healthy adult volunteers undergoing controlled phlebotomy",
+      "setting": "outpatient",
+      "prevalence": null,
+      "reference_standard": "Known volume of phlebotomy",
+      "sensitivity": {
+        "value": 0.33,
+        "ci_low": 0.21,
+        "ci_high": 0.47
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "minimal",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "Supine hypotension and tachycardia are frequently absent, even after up to 1150 mL of blood loss (sensitivity, 33%; 95% CI, 21%-47%, for supine hypotension)",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "McGee S, Abernethy WB 3rd, Simel DL. The rational clinical examination. Is this patient hypovolemic? JAMA. 1999;281(11):1022-1029.",
+      "doi": "10.1001/jama.281.11.1022",
+      "pmid": "10086438",
+      "url": null,
+      "kind": "rce_series",
+      "year": 1999
+    },
+    {
+      "citation": "Albassam OT, Redelmeier RJ, Shadowitz S, Husain AM, Simel D, Etchells EE. Did This Patient Have Cardiac Syncope?: The Rational Clinical Examination Systematic Review. JAMA. 2019;321(24):2448-2457.",
+      "doi": "10.1001/jama.2019.8001",
+      "pmid": "31237649",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2019
+    },
+    {
+      "citation": "Witting MD, Wears RL, Li S. Defining the positive tilt test: a study of healthy adults with moderate acute blood loss. Ann Emerg Med. 1994;23(6):1320-1323.",
+      "doi": "10.1016/s0196-0644(94)70358-2",
+      "pmid": "8198307",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1994
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not attempt standing measurements in a patient who is already hypotensive, too dizzy or weak to stand safely, or has an unstable spine or pelvis; a patient too dizzy to stand counts as a positive test.",
+    "escalation_warning": "A positive test in a patient with possible bleeding indicates large volume loss and should trigger resuscitation and source search, not observation.",
+    "interobserver_note": "Reproducibility depends on timing (1 vs 3 min) and position (standing vs sitting); volunteer data show pulse change alone performs as well as pulse-plus-BP combinations."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Quantified from the JAMA RCE abstract (McGee 1999), which pools healthy-volunteer phlebotomy studies; the SBP >=20 / DBP >=10 mmHg criteria in the title are NOT quantified here because those figures are in the RCE tables (full text not accessible via PMC) and were not in the abstract. LRs computed from reported sens/spec. The 2019 cardiac syncope RCE (source 1) abstract contains no orthostatic-vital-sign accuracy data, so it is cited for context only. Witting 1994 (source 2) is the largest primary volunteer study (n=345) but its abstract gives no numbers. No ED cohort of orthostatic vitals against a hypovolemia reference standard with extractable numbers was found within budget.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T01:37:32+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

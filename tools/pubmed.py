@@ -6,6 +6,7 @@ Usage (CLI):
   python tools/pubmed.py pmc 1573754              # PMC id + OA full-text availability
   python tools/pubmed.py doi 10.1001/jama.1992.03480190087038
   python tools/pubmed.py grep 1573754 "likelihood"   # abstract lines containing a term
+  python tools/pubmed.py fulltext 31110214 | grep -n "Table 2"   # PMC OA full text (PMID or PMCID); up to 200 kB
 All calls honour HTTPS_PROXY. Never pass secrets here.
 """
 from __future__ import annotations
@@ -67,17 +68,31 @@ def fetch(pmid: str) -> dict:
 
 
 def pmc(pmid: str) -> dict:
+    """PMID -> PMCID (if any). open_access is best-effort: True when efetch returns article body text."""
     d = json.loads(_get(f"https://www.ncbi.nlm.nih.gov/pmc/utils/idconv/v1.0/?ids={pmid}&format=json{TOOL}"))
     rec = (d.get("records") or [{}])[0]
-    out = {"pmid": pmid, "pmcid": rec.get("pmcid"), "doi": rec.get("doi")}
+    out = {"pmid": pmid, "pmcid": rec.get("pmcid"), "doi": rec.get("doi"), "open_access": False}
     if out["pmcid"]:
-        oa = _get(f"https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id={out['pmcid']}").decode("utf-8", "replace")
-        out["open_access"] = "<record" in oa and "error" not in oa.lower()
+        try:
+            out["open_access"] = len(pmc_fulltext(out["pmcid"])) > 5000
+        except Exception:  # noqa: BLE001
+            out["open_access"] = False
     return out
 
 
-def pmc_fulltext(pmcid: str) -> str:
-    x = _get(f"{EUTILS}efetch.fcgi?db=pmc&id={pmcid.replace('PMC', '')}&retmode=xml{TOOL}").decode("utf-8", "replace")
+def pmc_fulltext(ident: str) -> str:
+    """Full text (tags stripped) for a PMCID ('PMC123' or '123'); a bare PMID is converted first."""
+    ident = str(ident).strip()
+    if not ident.upper().startswith("PMC"):
+        # PMIDs are 7-8 digits; PMC numeric ids overlap, so treat bare digits as PMID and convert.
+        d = json.loads(_get(f"https://www.ncbi.nlm.nih.gov/pmc/utils/idconv/v1.0/?ids={ident}&format=json{TOOL}"))
+        rec = (d.get("records") or [{}])[0]
+        if not rec.get("pmcid"):
+            return f"NO PMC FULL TEXT for PMID {ident} (not in PMC)."
+        ident = rec["pmcid"]
+    x = _get(f"{EUTILS}efetch.fcgi?db=pmc&id={ident.replace('PMC', '')}&retmode=xml{TOOL}").decode("utf-8", "replace")
+    if "<body" not in x:
+        return f"PMC record {ident} exists but has no open-access body text (abstract-only deposit)."
     return unescape(re.sub(r"<[^>]+>", " ", x))
 
 
@@ -104,4 +119,4 @@ if __name__ == "__main__":
         print(__doc__)
         sys.exit(1)
     out = fn(*args)
-    print(json.dumps(out, indent=2) if not isinstance(out, str) else out[:20000])
+    print(json.dumps(out, indent=2) if not isinstance(out, str) else out[:200000])

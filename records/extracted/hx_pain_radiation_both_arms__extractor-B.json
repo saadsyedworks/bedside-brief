@@ -1,0 +1,176 @@
+{
+ "identity": {
+  "id": "hx_pain_radiation_both_arms",
+  "title": "Chest pain radiating to both arms (or right arm/shoulder), with diaphoresis",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "chest_pain"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "acs"
+  ],
+  "indication_tags": []
+ },
+ "technique": {
+  "how": "Ask the patient to point to where the pain goes and specifically whether it travels into the right arm, the left arm, both arms, or the shoulders; ask separately about sweating at onset (and look for it). Record radiation to each side, since right-arm and bilateral radiation carry more weight than left-arm radiation alone.",
+  "prerequisites": "Patient able to describe symptoms; observe for diaphoresis rather than relying solely on report.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Radiation to both arms is specific (96%) for ACS with LR ~2.6 in the 2015 RCE and up to 7.1 for MI in the 1998 RCE; right-arm/shoulder radiation and observed sweating also raise the probability (sweating pooled LR+ 2.9).",
+  "negative_finding": "Absence of arm radiation has little value - most ACS patients have no bilateral radiation (low sensitivity), and left-arm radiation alone is nearly uninformative.",
+  "pitfalls": "Left-arm radiation is the 'classic' feature yet barely changes probability; LRs are modest and never replace ECG and troponin; estimates vary with reference standard (MI vs any ACS) and era.",
+  "changes_what": "Positive: increases ACS probability - fast-track ECG/troponin and heighten suspicion even with a normal initial ECG. Negative: no change; proceed with the standard workup."
+ },
+ "estimates": [
+  {
+   "target_condition": "Acute coronary syndrome (final hospital diagnosis or cardiovascular event within 6 weeks)",
+   "population": "ED patients with symptoms suggesting ACS; prospective studies pooled in the RCE (58 studies)",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "Final hospital diagnosis of ACS or cardiovascular event within 6 weeks",
+   "sensitivity": null,
+   "specificity": {
+    "value": 0.96,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 2.6,
+    "ci_low": 1.8,
+    "ci_high": 3.7
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "pain radiation to both arms (specificity, 96%; LR, 2.6 [95% CI, 1.8-3.7])",
+   "location": "Abstract, Results (PubMed abstract; full text/tables not accessible)"
+  },
+  {
+   "target_condition": "Acute myocardial infarction",
+   "population": "Patients with acute chest pain in studies pooled by the 1998 RCE",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "Clinical diagnosis of MI (ECG/enzymes per included studies)",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 7.1,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 1,
+   "quote": "chest pain radiating to both the left and right arm simultaneously (LR, 7.1)",
+   "location": "Abstract, Results (PubMed abstract; full text not accessible)"
+  },
+  {
+   "target_condition": "Acute myocardial infarction (WHO criteria) - radiation to shoulder or both arms",
+   "population": "893 consecutive patients with acute, undifferentiated chest pain at a UK ED chest pain unit (AMI 3.8%)",
+   "setting": "ED",
+   "prevalence": 0.038,
+   "reference_standard": "WHO criteria for AMI with 6-month follow-up",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 4.07,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 2,
+   "quote": "pain radiating to the shoulder or both arms (LR = 4.07)",
+   "location": "Abstract, Results (PubMed abstract)"
+  },
+  {
+   "target_condition": "Acute myocardial infarction - component: sweating (diaphoresis)",
+   "population": "Non-selected patients (16 of 28 included studies; primary care and ED populations pooled)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "AMI per included studies (random-effects pooling)",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 2.92,
+    "ci_low": 1.97,
+    "ci_high": 4.23
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 3,
+   "quote": "Sweating had the highest pooled positive likelihood ratio (LR+), namely 2.92 (95% CI = 1.97 to 4.23) for acute myocardial infarction",
+   "location": "Abstract, Results (PubMed abstract)"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Fanaroff AC, Rymer JA, Goldstein SA, Simel DL, Newby LK. Does This Patient With Chest Pain Have Acute Coronary Syndrome? The Rational Clinical Examination Systematic Review. JAMA. 2015;314(18):1955-1965.",
+   "doi": "10.1001/jama.2015.12735",
+   "pmid": "26547467",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2015
+  },
+  {
+   "citation": "Panju AA, Hemmelgarn BR, Guyatt GH, Simel DL. The rational clinical examination. Is this patient having a myocardial infarction? JAMA. 1998;280(14):1256-1263.",
+   "doi": "10.1001/jama.280.14.1256",
+   "pmid": "9786377",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1998
+  },
+  {
+   "citation": "Goodacre S, Locker T, Morris F, Campbell S. How useful are clinical features in the diagnosis of acute, undifferentiated chest pain? Acad Emerg Med. 2002;9(3):203-208.",
+   "doi": "10.1111/j.1553-2712.2002.tb00245.x",
+   "pmid": "11874776",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2002
+  },
+  {
+   "citation": "Bruyninckx R, Aertgeerts B, Bruyninckx P, Buntinx F. Signs and symptoms in diagnosing acute myocardial infarction and acute coronary syndrome: a diagnostic meta-analysis. Br J Gen Pract. 2008;58(547):105-111.",
+   "doi": "10.3399/bjgp08X277014",
+   "pmid": "18307844",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2008
+  },
+  {
+   "citation": "Body R, Carley S, Wibberley C, McDowell G, Ferguson J, Mackway-Jones K. The value of symptoms and signs in the emergent diagnosis of acute coronary syndromes. Resuscitation. 2010;81(3):281-286.",
+   "doi": "10.1016/j.resuscitation.2009.11.014",
+   "pmid": "20036454",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2010
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use absence of arm radiation or of sweating to lower suspicion of ACS; do not apply the LRs to patients whose pain is clearly traumatic or reproducible on palpation without also completing the ECG/troponin pathway.",
+  "escalation_warning": "Bilateral arm radiation with diaphoresis in an acutely unwell patient is high-risk for MI - immediate 12-lead ECG, troponin, aspirin and ACS pathway; consider aortic dissection if pain is tearing or pulses/BP are asymmetric.",
+  "interobserver_note": "Reliability of eliciting radiation pattern not reported in the RCEs; wording of the question (both arms vs shoulders) changes the estimate, as shown by the spread of LRs (2.6-7.1)."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Fanaroff 2015 abstract supplies specificity and LR with CI but not sensitivity, and the full text/tables are not accessible (no PMC), so sensitivity is null and status is partially_quantified. Panju 1998 (LR 7.1, MI as target; older era) and Goodacre 2002 (LR 4.07, 'shoulder or both arms') are kept as separate entries because target condition, era and question wording differ - not averaged. Body 2010 (ED, n=796) reports adjusted ORs (right arm 2.23, both arms 2.69, sweating observed 5.18), not LRs, so it is cited without numeric entry. Diaphoresis entered as a separate component from Bruyninckx 2008 pooled LR+ 2.92; Goodacre 2002 found diaphoresis not predictive, illustrating heterogeneity.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T01:37:35+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

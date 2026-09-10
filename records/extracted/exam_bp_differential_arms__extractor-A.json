@@ -1,0 +1,157 @@
+{
+ "identity": {
+  "id": "exam_bp_differential_arms",
+  "title": "Inter-arm systolic BP difference >20 mmHg",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "chest_pain",
+   "syncope",
+   "hypotension"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "aortic_dissection"
+  ],
+  "indication_tags": []
+ },
+ "technique": {
+  "how": "Measure systolic BP in both arms with an appropriately sized cuff, ideally simultaneously or in rapid succession with the patient in the same position, and repeat once; record which arm is lower. A difference >20 mmHg systolic is the conventional positive threshold.",
+  "prerequisites": "Both arms accessible; no dialysis fistula, lymphedema or prior arm vascular surgery on the measured side.",
+  "contraindications": "Avoid cuff on an arm with AV fistula, recent surgery or lymphedema."
+ },
+ "interpretation": {
+  "positive_finding": "An inter-arm systolic difference >20 mmHg increases the likelihood of aortic dissection (pooled LR+ 5.7 for the composite pulse/BP differential; sensitivity 14% vs 4% in type A dissection vs non-dissection in one retrospective series). Left-lower-than-right patterns implicate brachiocephalic involvement.",
+  "negative_finding": "Equal arm pressures do not exclude dissection; only a minority of dissections (about 31% for the composite finding, 14% for >20 mmHg in type A) show a differential, and type B dissection rarely does.",
+  "pitfalls": "Inter-arm differences >10-20 mmHg are common in the general and hypertensive population from subclavian atherosclerosis, so specificity in low-prevalence settings is limited. Sequential rather than simultaneous measurement and cuff-size errors create false differences.",
+  "changes_what": "Positive: treat as high-risk exam feature, obtain emergent CT angiography and manage BP using the higher-reading arm. Negative: does not lower suspicion; proceed on history and risk score."
+ },
+ "estimates": [
+  {
+   "target_condition": "Acute thoracic aortic dissection (pulse deficit OR blood pressure differential, composite finding)",
+   "population": "Pooled consecutive patients with confirmed thoracic aortic dissection from 21 studies (1966-2000)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Confirmed dissection by imaging, surgery or autopsy in included studies",
+   "sensitivity": {
+    "value": 0.31,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "31% have pulse deficits or blood pressure differentials",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Acute thoracic aortic dissection (pulse deficit OR blood pressure differential, composite finding)",
+   "population": "Pooled patients with suspected/confirmed thoracic aortic dissection in the RCE review",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Confirmed dissection by imaging, surgery or autopsy in included studies",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 5.7,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "pulse or blood pressure differentials and neurological deficits increase the likelihood of disease (positive LRs, 5.7 and 6.6-33.0, respectively)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Stanford type A acute aortic dissection (left-minus-right systolic BP >20 mmHg)",
+   "population": "Consecutive patients with chest and/or back pain and suspected acute cardiovascular disease with BP measured in both arms: 58 type A AAD vs 122 non-AAD (single center, Japan, retrospective)",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "CT-confirmed aortic dissection; non-AAD controls",
+   "sensitivity": {
+    "value": 0.14,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.96,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 3.5,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.9,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "Abstract percentages: L-R >20 mmHg present in 14% of TAAD (n=58) vs 4% of non-AAD (n=122). Sens=0.14; spec=1-0.04=0.96; LR+=0.14/0.04=3.5; LR-=0.86/0.96=0.90. Raw counts and CIs not visible.",
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "L-R >20 mm Hg (14% vs. 4%, p=0.029) were higher in the TAAD group",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Klompas M. Does this patient have an acute thoracic aortic dissection? JAMA. 2002;287(17):2262-2272.",
+   "doi": "10.1001/jama.287.17.2262",
+   "pmid": "11980527",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2002
+  },
+  {
+   "citation": "Shibata T, et al. Characteristics of Inter-Arm Difference in Blood Pressure in Acute Aortic Dissection. J Nippon Med Sch. 2022;89(1).",
+   "doi": "10.1272/jnms.JNMS.2021_88-605",
+   "pmid": "33692296",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2022
+  },
+  {
+   "citation": "von Kodolitsch Y, Schwartz AG, Nienaber CA. Clinical prediction of acute aortic dissection. Arch Intern Med. 2000;160(19):2977-2982.",
+   "doi": "10.1001/archinte.160.19.2977",
+   "pmid": "11041906",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2000
+  },
+  {
+   "citation": "Ohle R, Kareemi HK, Wells G, Perry JJ. Clinical Examination for Acute Aortic Dissection: A Systematic Review and Meta-analysis. Acad Emerg Med. 2018;25(4):397-412.",
+   "doi": "10.1111/acem.13360",
+   "pmid": "29265487",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2019
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use equal arm pressures to exclude dissection; do not interpret a differential in a patient with known subclavian stenosis, AV fistula or prior arm vascular surgery.",
+  "escalation_warning": "Inter-arm difference >20 mmHg with acute chest/back pain, syncope or neurologic deficit: emergent CTA and surgical notification; treat hypotension as possible tamponade or rupture.",
+  "interobserver_note": "Sequential single measurements overestimate differences; simultaneous or repeated alternating measurements are recommended. Reliability data specific to dissection were not visible."
+ },
+ "tier": "extracted",
+ "extraction_notes": "No source reachable gives a pooled LR specific to an inter-arm difference >20 mmHg. Klompas 2002 abstract reports only the composite 'pulse deficits or blood pressure differentials' (sensitivity 31%, positive LR 5.7 without CI in the abstract), recorded as two entries with separate quotes; specificity was not derived from the LR. The Ohle 2018 meta-analysis abstract has no BP-differential number and no PMC full text. The >20 mmHg-specific estimate is computed from abstract percentages of a retrospective single-center Japanese series (type A only; the abstract states IADBP was not associated with type B), without counts or CIs, and the exact care setting is not stated in the abstract (recorded as ED because patients were consecutive suspected acute cardiovascular presentations). Status partially_quantified for these reasons. von Kodolitsch 2000 lists pulse/BP differentials as an independent predictor without an LR.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T01:37:36+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

@@ -1,0 +1,162 @@
+{
+  "identity": {
+    "id": "exam_pulsus_paradoxus",
+    "title": "Pulsus paradoxus >10-12 mmHg (inspiratory SBP fall by manual cuff)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "chest_pain",
+      "hypotension"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "asthma_exacerbation",
+      "constrictive_pericarditis",
+      "copd_exacerbation",
+      "pericardial_effusion_tamponade",
+      "pulmonary_embolism"
+    ],
+    "indication_tags": [
+      "malignancy"
+    ]
+  },
+  "technique": {
+    "how": "With the patient breathing normally, inflate a manual cuff above SBP and deflate slowly (2-3 mmHg/beat). Note the pressure at which Korotkoff sounds are first heard only in expiration, then the pressure at which they are heard throughout the respiratory cycle; the difference is the pulsus. >10 mmHg is abnormal.",
+    "prerequisites": "Manual sphygmomanometer and stethoscope; regular rhythm; quiet, unlaboured breathing (deep breathing exaggerates the fall). A pulse-oximeter plethysmograph or arterial line can substitute.",
+    "contraindications": "Unreliable in atrial fibrillation, marked tachypnea, or when the patient cannot breathe steadily."
+  },
+  "interpretation": {
+    "positive_finding": "In a patient with a known pericardial effusion, pulsus >10 mmHg raises the likelihood of tamponade (LR 3.3) and is present in about 82% of tamponade cases. In acute asthma a large pulsus tracks severity of airflow obstruction.",
+    "negative_finding": "Pulsus <=10 mmHg in a patient with a pericardial effusion makes tamponade much less likely (LR 0.03, single study). Absence of pulsus does not exclude severe asthma.",
+    "pitfalls": "Pulsus is also produced by severe asthma/COPD, massive PE, obesity and hypovolemia, and can be absent in tamponade with LV dysfunction, ASD, aortic regurgitation or positive-pressure ventilation. Studies were done in patients already known to have effusions, so LRs do not apply to undifferentiated dyspnea.",
+    "changes_what": "Pulsus >10 mmHg with known effusion: treat as probable tamponade, urgent echo/pericardiocentesis; <=10 mmHg argues strongly against it."
+  },
+  "estimates": [
+    {
+      "target_condition": "Cardiac tamponade in patients with pericardial effusion (pulsus paradoxus >10 mmHg)",
+      "population": "Patients with known pericardial effusion referred for pericardiocentesis or with suspected tamponade (single study)",
+      "setting": "inpatient",
+      "prevalence": null,
+      "reference_standard": "Tamponade diagnosed by echocardiography/hemodynamics at pericardiocentesis",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 3.3,
+        "ci_low": 1.8,
+        "ci_high": 6.3
+      },
+      "lr_negative": {
+        "value": 0.03,
+        "ci_low": 0.01,
+        "ci_high": 0.24
+      },
+      "computed": false,
+      "interpretation_label": "both",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "3.3; 95% CI, 1.8-6.3), while a pulsus paradoxus of 10 mm Hg or less greatly lowers the likelihood (likelihood ratio, 0.03; 95% CI, 0.01-0.24)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Cardiac tamponade (presence of pulsus paradoxus among patients with tamponade)",
+      "population": "Patients with known tamponade or referred for pericardiocentesis with known effusion; 8 studies",
+      "setting": "inpatient",
+      "prevalence": null,
+      "reference_standard": "Tamponade diagnosed by echocardiography/hemodynamics",
+      "sensitivity": {
+        "value": 0.82,
+        "ci_low": 0.72,
+        "ci_high": 0.92
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "pulsus paradoxus (pooled sensitivity, 82%; 95% CI, 72%-92%)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Severe acute asthma requiring admission or relapse (pulsus paradoxus >15 mmHg at 30 min, continuous non-invasive measurement)",
+      "population": "Children with acute asthma, urban pediatric ED (continuous non-invasive PP measurement, not manual cuff)",
+      "setting": "ED",
+      "prevalence": null,
+      "reference_standard": "Masked disposition decision (admission for further treatment) or relapse",
+      "sensitivity": {
+        "value": 0.42,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.89,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 3.86,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "single_study",
+      "source_index": 1,
+      "quote": "the sensitivity was 0.42, the specificity was 0.89, and the likelihood ratio was 3.86",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Roy CL, Minor MA, Brookhart MA, Choudhry NK. Does this patient with a pericardial effusion have cardiac tamponade? JAMA. 2007;297(16):1810-1818.",
+      "doi": "10.1001/jama.297.16.1810",
+      "pmid": "17456823",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2007
+    },
+    {
+      "citation": "Continuous, noninvasive measurement of pulsus paradoxus in patients with acute asthma. Arch Pediatr Adolesc Med. 1996;150(9):914-918. (authors not captured by the fetch tool; verify from PubMed)",
+      "doi": "10.1001/archpedi.1996.02170340028005",
+      "pmid": "8790120",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1996
+    },
+    {
+      "citation": "Holleman DR Jr, Simel DL. Does the clinical examination predict airflow limitation? JAMA. 1995;273(4):313-319.",
+      "doi": null,
+      "pmid": "7815660",
+      "url": null,
+      "kind": "rce_series",
+      "year": 1995
+    },
+    {
+      "citation": "Pearson MG, Spence DP, Ryland I, Harrison BD. Value of pulsus paradoxus in assessing acute severe asthma. British Thoracic Society Standards of Care Committee. BMJ. 1993;307(6905):659.",
+      "doi": "10.1136/bmj.307.6905.659",
+      "pmid": "8401053",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1993
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Atrial fibrillation or very irregular rhythm, severe tachypnea, or when the patient cannot breathe quietly; do not use to exclude tamponade in patients with LV dysfunction, ASD, aortic regurgitation, or on positive-pressure ventilation.",
+    "escalation_warning": "Pulsus >10 mmHg with hypotension, raised JVP and a known or suspected effusion is a tamponade emergency: immediate echo and preparation for pericardiocentesis.",
+    "interobserver_note": "Manual measurement requires slow cuff deflation and is operator dependent; the RCE data derive from patients already selected for effusion/pericardiocentesis, which inflates apparent accuracy."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Tamponade estimates from the JAMA RCE abstract (Roy 2007); the LR pair for >10 mmHg is from a single study within the review and the pooled sensitivity comes from 8 studies of patients already known to have tamponade (spectrum bias), so specificity is not available. The asthma RCE (Holleman & Simel 1995, source 2) has no abstract in PubMed and no PMC full text, so its pulsus figures could not be extracted; the BMJ 1993 adult asthma study (source 3) likewise has no abstract and PMC OA retrieval failed. The only quantified asthma estimate found is a pediatric ED study using continuous non-invasive measurement rather than a manual cuff; it is included with that caveat and should be weighted accordingly. Author names for source 1 were not returned by the fetch tool and are omitted; PMID/DOI confirmed.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T01:37:32+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

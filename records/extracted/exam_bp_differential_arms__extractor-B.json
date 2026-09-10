@@ -1,0 +1,100 @@
+{
+ "identity": {
+  "id": "exam_bp_differential_arms",
+  "title": "Inter-arm systolic BP difference >20 mmHg",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "chest_pain",
+   "syncope",
+   "hypotension"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "aortic_dissection"
+  ],
+  "indication_tags": [
+   "acute_onset"
+  ]
+ },
+ "technique": {
+  "how": "Measure systolic BP in both arms with the same correctly sized cuff, patient in the same position, ideally simultaneously or in immediate succession and repeated once. A difference >20 mmHg systolic is the conventional positive threshold; pair the reading with palpation of both radial pulses.",
+  "prerequisites": "Both arms accessible without fistula, lymphedema or arterial line; automated or manual cuff of correct size.",
+  "contraindications": "Avoid cuff on an arm with AV fistula, recent lymph node dissection, or PICC."
+ },
+ "interpretation": {
+  "positive_finding": "A new >20 mmHg inter-arm systolic difference in a patient with acute truncal pain increases the probability of aortic dissection (pooled LR+ 5.7 for pulse/BP differential; ED case-control OR 2.7), but alone it is a weak discriminator.",
+  "negative_finding": "Equal arm pressures do not exclude dissection; only about 31% of dissections show any pulse or BP differential.",
+  "pitfalls": "Inter-arm differences >10 mmHg are common in the general population from subclavian atherosclerosis, and sequential measurements vary with time and arm position; a BP differential without a pulse deficit has poor diagnostic accuracy (DOR 2.7 vs 28.9 for pulse deficit).",
+  "changes_what": "Positive >20 mmHg difference with suspicious pain: image the aorta; a normal result should not lower suspicion."
+ },
+ "estimates": [
+  {
+   "target_condition": "Acute thoracic aortic dissection",
+   "population": "Consecutive patients with confirmed thoracic aortic dissection across 21 studies (pooled; pulse deficit or BP differential combined)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Imaging/surgery/autopsy-confirmed dissection in the primary studies",
+   "sensitivity": {
+    "value": 0.31,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": null,
+   "lr_positive": {
+    "value": 5.7,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "31% have pulse deficits or blood pressure differentials … differentials and neurological deficits increase the likelihood of disease (positive LRs, 5.7 and 6.6-33.0, respectively)",
+   "location": "Abstract, Results (two contiguous fragments)"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Klompas M. Does this patient have an acute thoracic aortic dissection? JAMA. 2002;287(17):2262-2272.",
+   "doi": "10.1001/jama.287.17.2262",
+   "pmid": "11980527",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2002
+  },
+  {
+   "citation": "Um SW, Ohle R, Perry JJ. Bilateral blood pressure differential as a clinical marker for acute aortic dissection in the emergency department. Emerg Med J. 2018;35(9):556-558.",
+   "doi": "10.1136/emermed-2018-207499",
+   "pmid": "30021832",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2018
+  },
+  {
+   "citation": "Ohle R, Um J, Anjum O, et al. Clinical Examination for Acute Aortic Dissection: A Systematic Review and Meta-analysis. Acad Emerg Med. 2018;25(4):397-412.",
+   "doi": "10.1111/acem.13360",
+   "pmid": "29265487",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2018
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not rely on a single sequential measurement, or on measurements in an arm with fistula, PICC, or known subclavian stenosis.",
+  "escalation_warning": "BP differential together with pulse deficit, abrupt tearing pain, hypotension, or neuro deficit demands immediate aortic imaging.",
+  "interobserver_note": "Measurement variability between sequential readings is substantial; Um 2018 concluded that 'potential variability in measurement limits its clinical usefulness'."
+ },
+ "tier": "extracted",
+ "extraction_notes": "No source isolating inter-arm systolic BP >20 mmHg with sensitivity/specificity/LR was retrievable from abstracts. Estimate 0 is the Klompas 2002 RCE pooled figure for the combined finding 'pulse deficits or blood pressure differentials' (sens 31%, LR+ 5.7; two abstract fragments joined by ellipsis; CI and specificity not in abstract). Um 2018 (ED matched case-control, 111 AAD cases/111 controls) is the only study isolating systolic BP differential >20 mmHg: univariate OR 2.7 (95% CI 1.39-5.25) and diagnostic OR 2.71, vs pulse deficit DOR 28.9 (Abstract). Odds ratios are not LRs and sens/spec are not in the abstract, so no estimate entered; numbers are given in pitfalls for context. Ohle 2018 meta-analysis abstract does not report BP differential. Status partially_quantified: only a combined-finding, single-direction estimate.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T01:37:38+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

@@ -1,0 +1,205 @@
+{
+ "identity": {
+  "id": "fn_murmur_valsalva_standing_louder",
+  "title": "Dynamic auscultation: systolic murmur louder with Valsalva/standing, softer with squatting or handgrip",
+  "type": "functional",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "chest_pain",
+   "syncope",
+   "palpitations"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "aortic_stenosis",
+   "hcm"
+  ],
+  "indication_tags": [
+   "exertional"
+  ]
+ },
+ "technique": {
+  "how": "Auscultate the murmur at the left sternal border at baseline, then during a sustained Valsalva strain (10-15 s), on rapid squat-to-stand, on standing-to-squat, and during sustained handgrip. Record whether intensity increases or decreases with each maneuver compared with baseline.",
+  "prerequisites": "Patient able to strain, squat and stand safely; steady baseline auscultation first; allow the murmur to re-equilibrate between maneuvers.",
+  "contraindications": "Valsalva/standing unsafe in presyncopal, hemodynamically unstable or frail/fall-prone patients; squatting limited by orthopaedic disease."
+ },
+ "interpretation": {
+  "positive_finding": "A murmur that gets louder with Valsalva or standing and softer with squatting or handgrip indicates dynamic LVOT obstruction (HCM); Valsalva augmentation has 96% specificity.",
+  "negative_finding": "A murmur that fails to increase with squat-to-stand (95% sensitivity) argues against HCM; fixed AS murmurs typically soften with Valsalva and do not intensify on standing.",
+  "pitfalls": "Only 50 patients, cardiologist examiners, and no single maneuver is perfect; Valsalva is specific but only 65% sensitive. Mitral valve prolapse murmurs also lengthen/intensify on standing.",
+  "changes_what": "Positive: HCM moves to the top of the list (echo, avoid dehydration/vasodilators, arrhythmia review). Negative: fixed obstruction (AS) or other murmur cause more likely."
+ },
+ "estimates": [
+  {
+   "target_condition": "Hypertrophic cardiomyopathy murmur (increase with Valsalva)",
+   "population": "50 patients with documented systolic murmurs of varied cause (HCM vs all other murmurs); cardiology examiners",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Documented cause of murmur (echocardiography/catheterization per study; abstract states 'documented systolic murmurs')",
+   "sensitivity": {
+    "value": 0.65,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.96,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 16.25,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.36,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "LR+ = 0.65/(1-0.96); LR- = (1-0.65)/0.96; sens/spec as reported in abstract (no CIs)",
+   "interpretation_label": "rule_in",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "an increase in intensity with the Valsalva maneuver (65 percent sensitivity, 96 percent specificity)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Hypertrophic cardiomyopathy murmur (increase with squatting-to-standing)",
+   "population": "50 patients with documented systolic murmurs of varied cause (HCM vs all other murmurs); cardiology examiners",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Documented cause of murmur (echocardiography/catheterization per study; abstract states 'documented systolic murmurs')",
+   "sensitivity": {
+    "value": 0.95,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.84,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 5.94,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.06,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "LR+ = 0.95/(1-0.84); LR- = (1-0.95)/0.84; sens/spec as reported in abstract (no CIs)",
+   "interpretation_label": "both",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "during squatting-to-standing action (95 percent sensitivity, 84 percent specificity)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Hypertrophic cardiomyopathy murmur (decrease with standing-to-squatting)",
+   "population": "50 patients with documented systolic murmurs of varied cause (HCM vs all other murmurs); cardiology examiners",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Documented cause of murmur (echocardiography/catheterization per study; abstract states 'documented systolic murmurs')",
+   "sensitivity": {
+    "value": 0.95,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.85,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 6.33,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.06,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "LR+ = 0.95/(1-0.85); LR- = (1-0.95)/0.85; sens/spec as reported in abstract (no CIs)",
+   "interpretation_label": "both",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "a decrease in intensity during standing-to-squatting action (95 percent sensitivity, 85 percent specificity)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Hypertrophic cardiomyopathy murmur (decrease with handgrip)",
+   "population": "50 patients with documented systolic murmurs of varied cause (HCM vs all other murmurs); cardiology examiners",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Documented cause of murmur (echocardiography/catheterization per study; abstract states 'documented systolic murmurs')",
+   "sensitivity": {
+    "value": 0.85,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.75,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 3.4,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.2,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "LR+ = 0.85/(1-0.75); LR- = (1-0.85)/0.75; sens/spec as reported in abstract (no CIs)",
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "and handgrip (85 percent sensitivity, 75 percent specificity)",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Lembo NJ, Dell'Italia LJ, Crawford MH, O'Rourke RA. Bedside diagnosis of systolic murmurs. N Engl J Med. 1988;318(24):1572-1578.",
+   "doi": "10.1056/NEJM198806163182404",
+   "pmid": "2897627",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1988
+  },
+  {
+   "citation": "Etchells E, Bell C, Robb K. Does this patient have an abnormal systolic murmur? JAMA. 1997;277(7):564-571.",
+   "doi": null,
+   "pmid": "9032164",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1997
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not perform Valsalva or rapid postural maneuvers in patients who are hypotensive, presyncopal, or at high fall risk; do not use dynamic auscultation to exclude structural disease when an echo is indicated anyway.",
+  "escalation_warning": "Exertional syncope with a dynamic murmur suggests obstructive HCM: urgent echocardiography and arrhythmia assessment; avoid volume depletion and vasodilators.",
+  "interobserver_note": "No reliability data for maneuver responses found; general systolic murmur detection has only fair agreement (kappa 0.30-0.48, Etchells 1997)."
+ },
+ "extraction_notes": "All numbers from the Lembo 1988 NEJM abstract; LRs computed from reported sensitivity/specificity (no CIs available, full text not accessible). HCM comparisons are versus all other systolic murmurs, so specificity reflects a murmur-referral population rather than unselected patients. Etchells 1997 RCE summarises HCM maneuvers from smaller lower-quality studies but its tables were not viewable.",
+ "tier": "extracted",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T01:37:34+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

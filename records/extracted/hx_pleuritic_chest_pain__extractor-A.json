@@ -1,0 +1,143 @@
+{
+ "identity": {
+  "id": "hx_pleuritic_chest_pain",
+  "title": "Pleuritic chest pain (sharp, worse with inspiration/cough), +/- hemoptysis",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "chest_pain",
+   "fever"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "acs",
+   "pericarditis",
+   "pleural_effusion",
+   "pneumonia",
+   "pneumothorax",
+   "pulmonary_embolism"
+  ],
+  "indication_tags": [
+   "pleuritic"
+  ]
+ },
+ "technique": {
+  "how": "Ask whether the pain is sharp and clearly worse with a deep breath, cough or sneeze (not with exertion or palpation), and whether there has been any hemoptysis. Ask separately about onset, exertional relation and positional relief so the pleuritic quality is not conflated with other descriptors.",
+  "prerequisites": "Patient able to give a history; ask before analgesia if feasible.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Pleuritic pain lowers the probability of myocardial infarction (LR about 0.2) and shifts the differential toward pulmonary embolism, pneumonia, pneumothorax, pericarditis and pleural disease. In ED patients evaluated for PE it modestly raises VTE probability (adjusted OR 1.5).",
+  "negative_finding": "Absence of pleuritic quality does not exclude PE, pericarditis or pneumonia; PE frequently presents with isolated dyspnea or collapse without pleuritic pain.",
+  "pitfalls": "Pleuritic pain lowers but does not exclude ACS; no history element alone permits discharge without testing. Patients may label any sharp pain as breath-related unless asked specifically about inspiration.",
+  "changes_what": "Positive: de-emphasize ACS and work up PE/pneumonia/pneumothorax/pericarditis (exam, CXR, PE risk score). Negative: does not remove PE from the differential."
+ },
+ "estimates": [
+  {
+   "target_condition": "Acute myocardial infarction",
+   "population": "Adults with acute chest pain in studies pooled by the RCE review",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Confirmed MI by study criteria (enzymes/ECG) in included studies",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 0.2,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_out",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "pleuritic chest pain (LR, 0.2)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Acute coronary syndrome / acute MI",
+   "population": "Adults presenting with chest pain (systematic review 1970-2005)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "ACS/AMI diagnosis per included studies",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_out",
+   "evidence_level": "pooled",
+   "source_index": 1,
+   "quote": "pain that is stabbing, pleuritic, positional, or reproducible by palpation (likelihood ratios [LRs] 0.2-0.3)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Venous thromboembolism (PE or DVT) in ED patients evaluated for PE",
+   "population": "7,940 symptomatic US ED patients tested for PE (12 centers); mean age 49, 67% female",
+   "setting": "ED",
+   "prevalence": 0.072,
+   "reference_standard": "Imaging-confirmed PE or DVT within 45 days",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 2,
+   "quote": "those with an adjusted odds ratio (OR) greater than 1.5 included non-cancer-related thrombophilia (OR 1.99), pleuritic chest pain (OR 1.53)",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Panju AA, Hemmelgarn BR, Guyatt GH, Simel DL. The rational clinical examination. Is this patient having a myocardial infarction? JAMA. 1998;280(14):1256-1263.",
+   "doi": "10.1001/jama.280.14.1256",
+   "pmid": "9786377",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1998
+  },
+  {
+   "citation": "Swap CJ, Nagurney JT. Value and limitations of chest pain history in the evaluation of patients with suspected acute coronary syndromes. JAMA. 2005;294(20):2623-2629.",
+   "doi": "10.1001/jama.294.20.2623",
+   "pmid": "16304077",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2005
+  },
+  {
+   "citation": "Courtney DM, Kline JA, Kabrhel C, et al. Clinical features from the history and physical examination that predict the presence or absence of pulmonary embolism in symptomatic emergency department patients: results of a prospective, multicenter study. Ann Emerg Med. 2010;55(4):307-315.",
+   "doi": "10.1016/j.annemergmed.2009.11.010",
+   "pmid": "20045580",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2010
+  },
+  {
+   "citation": "Chunilal SD, Eikelboom JW, Attia J, et al. Does this patient have pulmonary embolism? JAMA. 2003;290(21):2849-2858.",
+   "doi": "10.1001/jama.290.21.2849",
+   "pmid": "14657070",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2003
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use pleuritic quality to discharge a patient with possible ACS without an ECG and troponin.",
+  "escalation_warning": "Pleuritic pain with hypoxemia, tachycardia, unilateral leg swelling or hemoptysis warrants immediate PE work-up; with sudden dyspnea consider pneumothorax.",
+  "interobserver_note": "Descriptor-based history items have modest reproducibility; agreement data for 'pleuritic' were not visible in the sources reviewed."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Only abstracts were reachable (no PMC full text for the JAMA reviews; Courtney 2010 PMC XML contains abstract only, tables not exposed). MI estimate: Panju 1998 abstract gives LR 0.2 for pleuritic pain without CI, so CI fields are null. Swap 2005 abstract reports a range of LRs 0.2-0.3 across four descriptors (stabbing, pleuritic, positional, palpation-reproducible); the pleuritic-specific value and CI are in the article table which I could not see, so all stat fields are null and the entry is retained for the quote only. PE: Courtney 2010 reports only an adjusted OR 1.53 (no sens/spec/LR), which the schema cannot hold, so stats are null; the Chunilal 2003 RCE abstract gives no pleuritic-specific number. No quantitative data located for pericarditis, pneumonia, pneumothorax or effusion. Evidence status set to partially_quantified because only an LR without CI is available and only one direction (finding present) is reported.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T01:37:36+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

@@ -1,0 +1,160 @@
+{
+  "identity": {
+    "id": "exam_abdominojugular_reflux",
+    "title": "Abdominojugular (hepatojugular) reflux: sustained JVP rise >3 cm with 10-30 s abdominal pressure",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "edema",
+      "hypotension",
+      "aki"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "acute_decompensated_hf",
+      "cardiogenic_shock",
+      "cardiorenal",
+      "constrictive_pericarditis",
+      "rv_failure_pulmonary_hypertension"
+    ],
+    "indication_tags": [
+      "hf_known"
+    ]
+  },
+  "technique": {
+    "how": "With the patient reclined so the top of the jugular column is visible and breathing normally through an open mouth, apply firm steady mid-abdominal pressure with the flat hand for 10-15 s (up to 30 s) while watching the neck. Positive if the column rises and stays up >=3-4 cm for the duration of compression and then drops abruptly on release.",
+    "prerequisites": "Visible internal jugular column at baseline (adjust bed angle first); patient must avoid Valsalva or breath-holding.",
+    "contraindications": "Painful or acute abdomen, recent abdominal surgery, or inability to breathe normally during compression."
+  },
+  "interpretation": {
+    "positive_finding": "Sustained rise (>=3-4 cm, >=10 s) indicates the right heart cannot accept the extra venous return: elevated right atrial pressure, and in left heart failure a wedge pressure of roughly >=15 mm Hg.",
+    "negative_finding": "A transient rise that falls back within a few heartbeats is normal and argues against elevated right-sided filling pressure and against congestion in a patient whose resting JVP is borderline.",
+    "pitfalls": "Valsalva, breath-holding, or abdominal guarding during compression gives a false positive; too little pressure or too short a compression gives a false negative. Isolated RV failure (e.g., RV infarct) can be positive without high wedge pressure.",
+    "changes_what": "Positive reflux confirms venous congestion and supports HF/RV failure and diuresis; negative with a normal resting JVP lowers probability of congestion."
+  },
+  "estimates": [
+    {
+      "target_condition": "Right atrial pressure >9 mm Hg",
+      "population": "65 adults considered free of heart failure undergoing routine cardiac catheterization; positive test = sustained jugular rise >=1 cm",
+      "setting": "inpatient",
+      "prevalence": null,
+      "reference_standard": "Right heart catheterization (mean right atrial pressure)",
+      "sensitivity": {
+        "value": 1.0,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.85,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 6.67,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": null,
+      "computed": true,
+      "computed_from": "LR+ = 1.0/(1-0.85) = 6.67 from abstract sensitivity 1.0 and specificity 0.85; LR- not computed because sensitivity of 1.0 gives an unstable 0 in n=65",
+      "interpretation_label": "both",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "A positive test had high sensitivity and specificity for predicting right atrial pressure greater than 9 mm Hg (1.0, 0.85)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Right ventricular end-diastolic pressure >12 mm Hg",
+      "population": "65 adults considered free of heart failure undergoing routine cardiac catheterization; positive test = sustained jugular rise >=1 cm",
+      "setting": "inpatient",
+      "prevalence": null,
+      "reference_standard": "Right heart catheterization (RVEDP)",
+      "sensitivity": {
+        "value": 0.9,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.89,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 8.18,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.11,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.90/(1-0.89) = 8.18; LR- = (1-0.90)/0.89 = 0.11, from abstract sensitivity 0.90 and specificity 0.89 (no CIs in abstract)",
+      "interpretation_label": "both",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "right ventricular end-diastolic pressure greater than 12 mm Hg (0.90, 0.89)",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "partially_quantified",
+  "sources": [
+    {
+      "citation": "Sochowski RA, Dubbin JD, Naqvi SZ. Clinical and hemodynamic assessment of the hepatojugular reflux. Am J Cardiol. 1990;66(12):1002-1006.",
+      "doi": "10.1016/0002-9149(90)90940-3",
+      "pmid": "2220606",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1990
+    },
+    {
+      "citation": "Ewy GA. The abdominojugular test: technique and hemodynamic correlates. Ann Intern Med. 1988;109(6):456-460.",
+      "doi": "10.7326/0003-4819-109-6-456",
+      "pmid": "3415106",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1988
+    },
+    {
+      "citation": "Wang CS, FitzGerald JM, Schulzer M, Mak E, Ayas NT. Does this dyspneic patient in the emergency department have congestive heart failure? JAMA. 2005;294(15):1944-1956.",
+      "doi": "10.1001/jama.294.15.1944",
+      "pmid": "16234501",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2005
+    },
+    {
+      "citation": "Cook DJ, Simel DL. The Rational Clinical Examination. Does this patient have abnormal central venous pressure? JAMA. 1996;275(8):630-634.",
+      "doi": null,
+      "pmid": "8594245",
+      "url": null,
+      "kind": "rce_series",
+      "year": 1996
+    },
+    {
+      "citation": "Butman SM, Ewy GA, Standen JR, Kern KB, Hahn E. Bedside cardiovascular examination in patients with severe chronic heart failure: importance of rest or inducible jugular venous distension. J Am Coll Cardiol. 1993;22(4):968-974.",
+      "doi": "10.1016/0735-1097(93)90405-p",
+      "pmid": "8409071",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1993
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not perform with an acute or tender abdomen, fresh laparotomy, or when the baseline jugular column cannot be seen (result is uninterpretable, not negative).",
+    "escalation_warning": "A positive reflux with hypotension or a new murmur suggests RV infarction, massive PE or tamponade; obtain ECG/echo urgently rather than diuresing empirically.",
+    "interobserver_note": "Bedside observation agreed well with the catheter-measured response in the same patients (kappa 0.74, Sochowski 1990); reproducibility across examiners in undifferentiated dyspnoea is not established."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Wang 2005 (PMID 16234501) pools hepatojugular reflux for ED heart failure but the LR is not in the abstract and no open-access full text exists, so the pooled estimate is not recorded. Sochowski 1990 estimates come from a non-heart-failure catheterization cohort using a >=1 cm threshold, not the >=3 cm threshold in this record's title; treat as evidence the sign tracks right-sided pressure, not as ED diagnostic accuracy. Ewy 1988 (PMID 3415106) defines the standard technique (10 s firm midabdominal pressure, >=3 mm Hg / 4 cm rise then abrupt fall) and reports mean PCWP 19 vs 10.5 mm Hg for positive vs negative tests but no sens/spec, so no estimate entered. Marantz 1990 (Am J Cardiol) could not be located in PubMed search.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T01:37:13+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

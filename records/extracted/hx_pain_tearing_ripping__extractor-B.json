@@ -1,0 +1,108 @@
+{
+ "identity": {
+  "id": "hx_pain_tearing_ripping",
+  "title": "Pain described as tearing or ripping, or migrating (chest to back/abdomen/legs)",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "chest_pain",
+   "abdominal_pain"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "aaa",
+   "aortic_dissection"
+  ],
+  "indication_tags": [
+   "acute_onset"
+  ]
+ },
+ "technique": {
+  "how": "Ask open-ended for the patient's own words for the pain, then specifically whether it felt tearing or ripping, whether it began abruptly at maximal intensity, and whether it moved (chest to back, to abdomen, or to the legs) over time. Record onset, quality and migration as three separate items.",
+  "prerequisites": "Patient able to describe the pain; corroborate with witnesses if altered.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Tearing/ripping quality is highly specific for acute aortic dissection (specificity 99.7%, LR+ 42) in ED patients with truncal pain and should be treated as a high-risk feature mandating aortic imaging.",
+  "negative_finding": "Absence of tearing/ripping quality does not lower dissection probability much, because only a minority of confirmed dissections are described this way; abrupt onset is the better negative discriminator (LR- 0.07).",
+  "pitfalls": "Most dissection patients describe sharp rather than tearing pain, so relying on this descriptor misses cases; the descriptor is uncommon in controls, which is why the LR+ is large but its CI is wide (9.9-177.5). Migration of pain was not separately quantified here.",
+  "changes_what": "Tearing/ripping pain = rule-in feature: obtain CT angiography (or TEE) now; absence should not reassure if onset was abrupt."
+ },
+ "estimates": [
+  {
+   "target_condition": "Acute aortic dissection",
+   "population": "Adults >18 y with nontraumatic truncal pain; matched case-control (194 confirmed AAD, 776 controls)",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "CT or echocardiography-confirmed AAD (cases) vs truncal pain without clear diagnosis (controls)",
+   "sensitivity": null,
+   "specificity": {
+    "value": 0.997,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 42.1,
+    "ci_low": 9.9,
+    "ci_high": 177.5
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "Presence of tearing/ripping pain (specificity = 99.7%, positive likelihood ratio [LR+] = 42.1 [9.9-177.5])",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Ohle R, Kareemi HK, Wells G, Perry JJ. High Risk Clinical Features for Acute Aortic Dissection: A Case-Control Study. Acad Emerg Med. 2018;25(4):378-387.",
+   "doi": "10.1111/acem.13356",
+   "pmid": "29218798",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2018
+  },
+  {
+   "citation": "Klompas M. Does this patient have an acute thoracic aortic dissection? JAMA. 2002;287(17):2262-2272.",
+   "doi": "10.1001/jama.287.17.2262",
+   "pmid": "11980527",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2002
+  },
+  {
+   "citation": "Ohle R, Um J, Anjum O, et al. Clinical Examination for Acute Aortic Dissection: A Systematic Review and Meta-analysis. Acad Emerg Med. 2018;25(4):397-412.",
+   "doi": "10.1111/acem.13360",
+   "pmid": "29265487",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2018
+  },
+  {
+   "citation": "Hagan PG, Nienaber CA, Isselbacher EM, et al. The International Registry of Acute Aortic Dissection (IRAD): new insights into an old disease. JAMA. 2000;283(7):897-903.",
+   "doi": "10.1001/jama.283.7.897",
+   "pmid": "10685714",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2000
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Never use absence of tearing quality to exclude dissection; use it only as a rule-in trigger.",
+  "escalation_warning": "Tearing/ripping or migrating pain with abrupt onset, pulse deficit, hypotension, new murmur or neuro deficit is a surgical emergency - image immediately and avoid anticoagulation until aorta cleared.",
+  "interobserver_note": "Descriptor depends on prompting; case-control design used chart-recorded descriptors, so ascertainment in controls may be incomplete."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Only estimate: Ohle 2018 case-control (ED, Canada) specificity 99.7%, LR+ 42.1 (9.9-177.5) from the abstract; sensitivity of tearing/ripping pain not reported in the abstract, so null. Klompas 2002 RCE abstract gives pooled numbers for severe pain (sens 90%) and sudden onset (sens 84%, LR- 0.3) but not for tearing/ripping; its full-text table (which reportedly gives a pooled sensitivity for tearing pain) was not accessible, so no RCE estimate entered. Ohle 2018 meta-analysis abstract does not report tearing pain. Hagan 2000 IRAD abstract states 'sudden onset of severe sharp pain was the single most common presenting complaint' without a tearing-pain percentage. Migration of pain: no quantitative estimate found in accessible abstracts. Status partially_quantified because sensitivity and LR- are null. Added indication_tag 'acute_onset' (abrupt onset is the paired negative discriminator).",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T01:37:38+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

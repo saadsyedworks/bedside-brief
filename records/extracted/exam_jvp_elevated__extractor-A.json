@@ -1,0 +1,135 @@
+{
+  "identity": {
+    "id": "exam_jvp_elevated",
+    "title": "Jugular venous pressure elevated (>8 cm H2O / >3 cm above sternal angle); low/flat JVP as the negative",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "chest_pain",
+      "edema",
+      "hypotension",
+      "aki"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "acute_decompensated_hf",
+      "cardiogenic_shock",
+      "cardiorenal",
+      "constrictive_pericarditis",
+      "hypovolemic_hemorrhagic_shock",
+      "pericardial_effusion_tamponade",
+      "prerenal_hypovolemia",
+      "pulmonary_embolism",
+      "rv_failure_pulmonary_hypertension"
+    ],
+    "indication_tags": [
+      "hf_known"
+    ]
+  },
+  "technique": {
+    "how": "Recline the patient 30-45 degrees with the head turned slightly left; use tangential light to find the top of the right internal jugular pulsation (biphasic, non-palpable, falls with inspiration and sitting up). Measure the vertical height of that meniscus above the sternal angle; add 5 cm for right atrial pressure. Raise or lower the trunk until the top of the column is visible.",
+    "prerequisites": "Adjustable bed or examining table; patient able to lie back; neck exposed and relaxed.",
+    "contraindications": "None absolute; avoid forcing a supine position in a patient who cannot tolerate lying flat."
+  },
+  "interpretation": {
+    "positive_finding": "Venous column >3 cm above the sternal angle (roughly >8 cm H2O right atrial pressure) indicates elevated right-sided filling pressure: heart failure, RV failure, tamponade, constriction, or volume overload.",
+    "negative_finding": "A flat or low column (only visible with the patient near supine) argues against elevated right atrial pressure and favours hypovolaemia or a non-cardiac cause of dyspnoea; it does not exclude isolated left-sided congestion.",
+    "pitfalls": "Confusing carotid with venous pulsation, using the external jugular alone, obesity or short neck, and severe tricuspid regurgitation (large V waves) mislead. In chronic heart failure a normal JVP does not exclude high wedge pressure.",
+    "changes_what": "Elevated JVP raises probability of HF/RV failure/tamponade and supports diuresis or echo; flat JVP shifts toward hypovolaemia or non-cardiac dyspnoea."
+  },
+  "estimates": [
+    {
+      "target_condition": "Pulmonary capillary wedge pressure >=18 mm Hg",
+      "population": "52 adults with severe chronic heart failure undergoing in-hospital evaluation for cardiac transplantation",
+      "setting": "inpatient",
+      "prevalence": null,
+      "reference_standard": "Right heart catheterization (PCWP >=18 mm Hg)",
+      "sensitivity": {
+        "value": 0.81,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.8,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 4.05,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.24,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.81/(1-0.80) = 4.05; LR- = (1-0.81)/0.80 = 0.24, from abstract sensitivity 81% and specificity 80% (no CIs reported in abstract)",
+      "interpretation_label": "both",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "The presence of jugular venous distension, at rest or inducible, had the best combination of sensitivity (81%), specificity (80%) and predictive accuracy (81%)",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "partially_quantified",
+  "sources": [
+    {
+      "citation": "Butman SM, Ewy GA, Standen JR, Kern KB, Hahn E. Bedside cardiovascular examination in patients with severe chronic heart failure: importance of rest or inducible jugular venous distension. J Am Coll Cardiol. 1993;22(4):968-974.",
+      "doi": "10.1016/0735-1097(93)90405-p",
+      "pmid": "8409071",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1993
+    },
+    {
+      "citation": "Cook DJ, Simel DL. The Rational Clinical Examination. Does this patient have abnormal central venous pressure? JAMA. 1996;275(8):630-634.",
+      "doi": null,
+      "pmid": "8594245",
+      "url": null,
+      "kind": "rce_series",
+      "year": 1996
+    },
+    {
+      "citation": "Wang CS, FitzGerald JM, Schulzer M, Mak E, Ayas NT. Does this dyspneic patient in the emergency department have congestive heart failure? JAMA. 2005;294(15):1944-1956.",
+      "doi": "10.1001/jama.294.15.1944",
+      "pmid": "16234501",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2005
+    },
+    {
+      "citation": "Badgett RG, Lucey CR, Mulrow CD. Can the clinical examination diagnose left-sided heart failure in adults? JAMA. 1997;277(21):1712-1719.",
+      "doi": null,
+      "pmid": "9169900",
+      "url": null,
+      "kind": "rce_series",
+      "year": 1997
+    },
+    {
+      "citation": "Stevenson LW, Perloff JK. The limited reliability of physical signs for estimating hemodynamics in chronic heart failure. JAMA. 1989;261(6):884-888.",
+      "doi": null,
+      "pmid": "2913385",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1989
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not rely on JVP alone to withhold fluids or diuretics in shock; an unreadable neck (obesity, neck collar, lines) yields no information rather than a negative.",
+    "escalation_warning": "Elevated JVP with hypotension, muffled heart sounds or pulsus paradoxus suggests tamponade or RV failure/massive PE and needs immediate echo.",
+    "interobserver_note": "Clinicians systematically underestimate CVP and agree poorly, especially in ventilated ICU patients (Cook 1990); agreement is better for identifying low than high pressure."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Anchor RCE (Cook & Simel 1996, PMID 8594245) has no PubMed abstract and no open-access full text, and Wang 2005 (PMID 16234501) does not report the JVD pooled LR in its abstract; those tables could not be viewed, so no pooled estimate is recorded. Butman 1993 estimate is for the composite 'JVD at rest OR inducible by abdominal pressure' in advanced chronic HF, not JVD alone, and LRs are computed from abstract sens/spec without CIs. Fonseca 2004 reports only a triad (JVP >6 cm + hepatomegaly + oedema, LR 130.3) so it was not entered. Stevenson & Perloff 1989 is cited for the pitfall that rales/oedema/elevated JVP were all absent in 18/43 patients with PCWP >=22 mm Hg.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T01:37:13+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

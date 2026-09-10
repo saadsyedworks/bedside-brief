@@ -1,0 +1,109 @@
+{
+ "identity": {
+  "id": "hx_pleuritic_chest_pain",
+  "title": "Pleuritic chest pain (sharp, worse with inspiration/cough), +/- hemoptysis",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "chest_pain",
+   "fever"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "acs",
+   "pericarditis",
+   "pleural_effusion",
+   "pneumonia",
+   "pneumothorax",
+   "pulmonary_embolism"
+  ],
+  "indication_tags": [
+   "pleuritic"
+  ]
+ },
+ "technique": {
+  "how": "Ask the patient to describe the pain quality and whether it changes with a deep breath, cough, or sneeze. Ask separately about hemoptysis and about positional change (leaning forward), which point toward pericarditis rather than ACS.",
+  "prerequisites": "Patient able to give a history; ask open-ended first, then closed questions.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Sharp pain reliably worsened by inspiration or cough. Lowers the probability of MI (pooled LR 0.2) and shifts the differential toward PE, pneumonia, pneumothorax, pericarditis, or pleural disease.",
+  "negative_finding": "Non-pleuritic pain does not exclude any of the listed causes; it modestly favors ACS over pleural/pericardial causes but does not rule out PE.",
+  "pitfalls": "Pleuritic quality is common in PE (present in most PIOPED patients) and in benign chest-wall pain, so it is a discriminator against MI, not a PE rule-in or rule-out. Patients often conflate 'pain with breathing' with dyspnea.",
+  "changes_what": "Pleuritic pain lowers MI probability (LR 0.2) and should trigger a PE/pneumonia/pericarditis-directed workup; it never by itself excludes ACS."
+ },
+ "estimates": [
+  {
+   "target_condition": "Acute myocardial infarction",
+   "population": "Adults presenting with acute chest pain (pooled studies in ED/CCU)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "MI by enzymes/ECG criteria of the primary studies (pooled by RCE review)",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": {
+    "value": 0.2,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": false,
+   "interpretation_label": "rule_out",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "pleuritic chest pain (LR, 0.2)",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Panju AA, Hemmelgarn BR, Guyatt GH, Simel DL. The rational clinical examination. Is this patient having a myocardial infarction? JAMA. 1998;280(14):1256-1263.",
+   "doi": "10.1001/jama.280.14.1256",
+   "pmid": "9786377",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1998
+  },
+  {
+   "citation": "Swap CJ, Nagurney JT. Value and limitations of chest pain history in the evaluation of patients with suspected acute coronary syndromes. JAMA. 2005;294(20):2623-2629.",
+   "doi": "10.1001/jama.294.20.2623",
+   "pmid": "16304077",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2005
+  },
+  {
+   "citation": "Courtney DM, Kline JA, Kabrhel C, et al. Clinical features from the history and physical examination that predict the presence or absence of pulmonary embolism in symptomatic emergency department patients: results of a prospective, multicenter study. Ann Emerg Med. 2010;55(4):307-315.e1.",
+   "doi": "10.1016/j.annemergmed.2009.11.010",
+   "pmid": "20045580",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2010
+  },
+  {
+   "citation": "Stein PD, Terrin ML, Hales CA, et al. Clinical, laboratory, roentgenographic, and electrocardiographic findings in patients with acute pulmonary embolism and no pre-existing cardiac or pulmonary disease. Chest. 1991;100(3):598-603.",
+   "doi": "10.1378/chest.100.3.598",
+   "pmid": "1909617",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1991
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use pleuritic quality to withhold an ECG/troponin in a patient with ACS risk factors; the LR of 0.2 lowers but does not eliminate MI probability.",
+  "escalation_warning": "Pleuritic pain with hypoxia, tachycardia, unilateral leg swelling, or hemoptysis should prompt immediate PE evaluation.",
+  "interobserver_note": "Pain-quality descriptors are patient-reported and depend on question wording; no kappa located."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Primary estimate: Panju 1998 RCE pooled LR 0.2 for pleuritic pain against MI (abstract; sens/spec and CI not in abstract; full text/table not accessible, so those fields are null). Swap 2005 (source 1) reports the same direction as a range for a feature group: 'pain that is stabbing, pleuritic, positional, or reproducible by palpation (likelihood ratios [LRs] 0.2-0.3)' (Abstract) - not entered as an estimate because no pleuritic-specific single value is given in the abstract. PE direction: Courtney 2010 (n=7940 ED patients, 7.2% VTE) reports pleuritic chest pain adjusted OR 1.53 (Abstract; PMC2847003 text) - an odds ratio, not an LR, so not entered as an estimate. Stein 1991 PIOPED abstract reports only composite frequencies (e.g. 'Dyspnea, hemoptysis, or pleuritic pain was present in 107 of 117 (91 percent)'), not pleuritic pain alone, so no PE sensitivity entered. Chunilal 2003 RCE (PMID 14657070) addresses gestalt/prediction rules and gives no pleuritic-pain LR in its abstract. Status rule I applied: quantified = at least one pooled estimate with LR, verbatim quote and location; CI fields null where not visible.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T01:37:38+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

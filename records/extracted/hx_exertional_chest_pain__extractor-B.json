@@ -1,0 +1,135 @@
+{
+ "identity": {
+  "id": "hx_exertional_chest_pain",
+  "title": "Chest pain provoked by exertion, relieved by rest (typical angina pattern)",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "chest_pain",
+   "syncope"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "acs",
+   "aortic_stenosis",
+   "hcm"
+  ],
+  "indication_tags": [
+   "exertional"
+  ]
+ },
+ "technique": {
+  "how": "Ask specifically what the patient was doing when the pain started, whether it reliably comes on with walking, stairs, or emotional stress, how long it takes to settle with rest, and whether it has occurred at rest or with progressively less exertion in recent days.",
+  "prerequisites": "Patient able to give a history; corroborate with witnesses if needed.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Pain precipitated by exertion roughly doubles the odds of acute MI or ACS in ED chest-pain patients (LR ~2.1-2.4); a crescendo or new-onset exertional pattern is unstable angina until proven otherwise.",
+  "negative_finding": "Absence of an exertional trigger does not exclude ACS - most infarcts present at rest, and rest pain itself does not lower the probability; the history alone never safely discharges the patient.",
+  "pitfalls": "Recall bias and vague phrasing inflate 'exertional' reports; exertional angina is also a cardinal symptom of severe aortic stenosis and HCM, so examine for an ejection murmur before attributing exertional pain to coronary disease.",
+  "changes_what": "Positive: raises ACS probability - obtain ECG/troponin and consider AS/HCM if a murmur is present. Negative: does not lower probability enough to omit ECG and troponin."
+ },
+ "estimates": [
+  {
+   "target_condition": "Acute myocardial infarction (WHO criteria)",
+   "population": "893 consecutive patients with acute, undifferentiated chest pain attending a UK ED chest pain unit (AMI 3.8%)",
+   "setting": "ED",
+   "prevalence": 0.038,
+   "reference_standard": "WHO criteria for AMI with 6-month follow-up",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 2.35,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "Features useful in the diagnosis of AMI were exertional pain [likelihood ratio (LR) = 2.35]",
+   "location": "Abstract, Results (PubMed abstract; full text not accessible)"
+  },
+  {
+   "target_condition": "Acute coronary syndrome (AMI, positive cardiac testing, arrhythmia, death or revascularisation within 6 months)",
+   "population": "893 consecutive patients with acute, undifferentiated chest pain attending a UK ED chest pain unit (ACS 9.1%)",
+   "setting": "ED",
+   "prevalence": 0.091,
+   "reference_standard": "Cardiac testing, AMI, arrhythmia, death or revascularisation within 6 months",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 2.06,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "Features useful in the diagnosis of ACS were exertional pain (LR = 2.06)",
+   "location": "Abstract, Results (PubMed abstract)"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Goodacre S, Locker T, Morris F, Campbell S. How useful are clinical features in the diagnosis of acute, undifferentiated chest pain? Acad Emerg Med. 2002;9(3):203-208.",
+   "doi": "10.1111/j.1553-2712.2002.tb00245.x",
+   "pmid": "11874776",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2002
+  },
+  {
+   "citation": "Swap CJ, Nagurney JT. Value and limitations of chest pain history in the evaluation of patients with suspected acute coronary syndromes. JAMA. 2005;294(20):2623-2629.",
+   "doi": "10.1001/jama.294.20.2623",
+   "pmid": "16304077",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2005
+  },
+  {
+   "citation": "Fanaroff AC, Rymer JA, Goldstein SA, Simel DL, Newby LK. Does This Patient With Chest Pain Have Acute Coronary Syndrome? The Rational Clinical Examination Systematic Review. JAMA. 2015;314(18):1955-1965.",
+   "doi": "10.1001/jama.2015.12735",
+   "pmid": "26547467",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2015
+  },
+  {
+   "citation": "Bösner S, Becker A, Abu Hani M, et al. Accuracy of symptoms and signs for coronary heart disease assessed in primary care. Br J Gen Pract. 2010;60(575):e246-e257.",
+   "doi": "10.3399/bjgp10X502137",
+   "pmid": "20529488",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2010
+  },
+  {
+   "citation": "Body R, Carley S, Wibberley C, McDowell G, Ferguson J, Mackway-Jones K. The value of symptoms and signs in the emergent diagnosis of acute coronary syndromes. Resuscitation. 2010;81(3):281-286.",
+   "doi": "10.1016/j.resuscitation.2009.11.014",
+   "pmid": "20036454",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2010
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Never use an absent exertional pattern to discharge a patient with possible ACS without ECG and troponin; do not apply to patients unable to exert (frail, bed-bound) where the pattern cannot manifest.",
+  "escalation_warning": "New, crescendo, or rest-onset exertional pain is unstable angina - immediate ECG, troponin and ACS pathway; exertional pain with a systolic ejection murmur or exertional syncope needs urgent echocardiography for AS/HCM.",
+  "interobserver_note": "Reliability of eliciting exertional provocation not reported in the cited sources; history elements are subject to recall and framing effects."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Point estimates come from Goodacre 2002 (ED chest pain unit; LRs reported without CIs in the abstract; sens/spec not in abstract, hence partially_quantified). Swap 2005 abstract gives only a combined range 'LRs (2.3-4.7)' covering both exertional precipitation and arm/shoulder radiation, so it is cited but not entered as a number; Fanaroff 2015 abstract does not report exertion (full text not accessible). Bosner 2010 (primary care) reports an odds ratio (4.27) for 'pain worse on exercise', not an LR, so not entered. Body 2010 (ED) found rest pain did not alter AMI probability (aOR 0.67, 0.41-1.10), supporting the negative_finding statement. No diagnostic-accuracy data exist for exertional pain as a discriminator of AS/HCM versus ACS; that mapping rests on guideline consensus.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T01:37:35+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

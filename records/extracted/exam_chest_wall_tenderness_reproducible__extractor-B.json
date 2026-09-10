@@ -1,0 +1,159 @@
+{
+ "identity": {
+  "id": "exam_chest_wall_tenderness_reproducible",
+  "title": "Chest pain fully reproduced by palpation of chest wall",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "chest_pain"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "acs",
+   "herpes_zoster",
+   "musculoskeletal_chest_wall",
+   "pulmonary_embolism"
+  ],
+  "indication_tags": []
+ },
+ "technique": {
+  "how": "Ask the patient to localise the pain, then press firmly over the sternum, costochondral junctions, ribs and parasternal muscles; ask whether the pressure reproduces the presenting pain exactly (not merely causes soreness). Inspect the tender area for a dermatomal vesicular rash (zoster) before attributing pain to the chest wall.",
+  "prerequisites": "Patient able to compare elicited pain with the presenting pain; ECG obtained regardless.",
+  "contraindications": "Recent chest trauma, sternotomy, or suspected rib fracture - palpate gently."
+ },
+ "interpretation": {
+  "positive_finding": "Pain fully reproduced by chest-wall palpation lowers the probability of MI/ACS about four-fold (LR ~0.2-0.3; pooled 0.23), supporting a musculoskeletal cause, but only 5-10% of infarcts have this feature and it does not exclude ACS.",
+  "negative_finding": "Absence of reproducible tenderness is the norm in MI (present in ~92-94% of AMI/ACS) but is non-specific and barely raises the probability of ACS (LR+ ~1.5 or less).",
+  "pitfalls": "Partial or vague tenderness is common in ACS and PE, so insist on exact reproduction; PE and pericarditis can coexist with wall tenderness; a low-prevalence (primary care) setting is where the finding is most useful, whereas in a high-risk ED patient it should not stop the workup.",
+  "changes_what": "Positive: shift toward musculoskeletal/zoster causes, but still obtain ECG (and troponin if any ACS risk). Negative: no meaningful change in ACS probability."
+ },
+ "estimates": [
+  {
+   "target_condition": "Acute myocardial infarction",
+   "population": "Non-selected patients with chest pain (16 of 28 studies; primary care and ED populations pooled)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "AMI per included studies (random-effects pooling)",
+   "sensitivity": {
+    "value": 0.08,
+    "ci_low": 0.04,
+    "ci_high": 0.14
+   },
+   "specificity": null,
+   "lr_positive": {
+    "value": 0.23,
+    "ci_low": 0.18,
+    "ci_high": 0.29
+   },
+   "lr_negative": null,
+   "computed": true,
+   "computed_from": "Source reports the finding inverted ('absence of chest-wall tenderness': pooled sensitivity 92% [86-96], LR- 0.23 [0.18-0.29]). For tenderness PRESENT: sensitivity = 1-0.92 = 0.08 (CI 1-0.96, 1-0.86); LR+ for AMI = LR- of absence = 0.23 (0.18-0.29). Specificity of presence not reported in abstract.",
+   "interpretation_label": "rule_out",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "Absence of chest-wall tenderness on palpation had a LR- of 0.23 (95% CI = 0.18 to 0.29).",
+   "location": "Abstract, Results (PubMed abstract; full text not accessible)"
+  },
+  {
+   "target_condition": "Acute myocardial infarction (WHO criteria)",
+   "population": "893 consecutive patients with acute, undifferentiated chest pain at a UK ED chest pain unit (AMI 3.8%)",
+   "setting": "ED",
+   "prevalence": 0.038,
+   "reference_standard": "WHO criteria for AMI with 6-month follow-up",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 0.3,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_out",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "pain radiating to the shoulder or both arms (LR = 4.07), and chest wall tenderness (LR = 0.3)",
+   "location": "Abstract, Results (PubMed abstract)"
+  },
+  {
+   "target_condition": "Acute myocardial infarction",
+   "population": "Patients with acute chest pain in studies pooled by the 1998 RCE",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "Clinical diagnosis of MI (ECG/enzymes per included studies)",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 0.2,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": null,
+   "computed": false,
+   "computed_from": "Not computed. RCE reports a between-study RANGE 0.2-0.4 with no pooled point estimate; value shown is the low end of the range, not a mean.",
+   "interpretation_label": "rule_out",
+   "evidence_level": "pooled",
+   "source_index": 2,
+   "quote": "chest pain reproduced by palpation (LR range, 0.2-0.4)",
+   "location": "Abstract, Results (PubMed abstract; full text not accessible)"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Bruyninckx R, Aertgeerts B, Bruyninckx P, Buntinx F. Signs and symptoms in diagnosing acute myocardial infarction and acute coronary syndrome: a diagnostic meta-analysis. Br J Gen Pract. 2008;58(547):105-111.",
+   "doi": "10.3399/bjgp08X277014",
+   "pmid": "18307844",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2008
+  },
+  {
+   "citation": "Goodacre S, Locker T, Morris F, Campbell S. How useful are clinical features in the diagnosis of acute, undifferentiated chest pain? Acad Emerg Med. 2002;9(3):203-208.",
+   "doi": "10.1111/j.1553-2712.2002.tb00245.x",
+   "pmid": "11874776",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2002
+  },
+  {
+   "citation": "Panju AA, Hemmelgarn BR, Guyatt GH, Simel DL. The rational clinical examination. Is this patient having a myocardial infarction? JAMA. 1998;280(14):1256-1263.",
+   "doi": "10.1001/jama.280.14.1256",
+   "pmid": "9786377",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1998
+  },
+  {
+   "citation": "Swap CJ, Nagurney JT. Value and limitations of chest pain history in the evaluation of patients with suspected acute coronary syndromes. JAMA. 2005;294(20):2623-2629.",
+   "doi": "10.1001/jama.294.20.2623",
+   "pmid": "16304077",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2005
+  },
+  {
+   "citation": "Bösner S, Becker A, Abu Hani M, et al. Accuracy of symptoms and signs for coronary heart disease assessed in primary care. Br J Gen Pract. 2010;60(575):e246-e257.",
+   "doi": "10.3399/bjgp10X502137",
+   "pmid": "20529488",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2010
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use reproducible tenderness to forgo ECG/troponin in patients with high pretest probability (known CAD, ECG changes, diaphoresis, arm radiation); do not use after trauma or in suspected PE, where wall tenderness is common and uninformative.",
+  "escalation_warning": "If the ECG is ischaemic or troponin is elevated, ignore the tenderness; a dermatomal rash or unilateral burning pain preceding a rash should prompt early antiviral treatment for zoster.",
+  "interobserver_note": "Reliability of chest-wall palpation not reported in the cited sources; the definition (fully vs partly reproduced) varies between studies and drives heterogeneity."
+ },
+ "tier": "extracted",
+ "extraction_notes": "The pooled figure comes from Bruyninckx 2008, whose abstract reports the sign inverted (absence of tenderness as a test for AMI); I converted to the 'tenderness present' direction (LR+ = 0.23; sensitivity = 0.08) and flagged computed=true with the arithmetic shown - no specificity is derivable from the abstract. ACS-target pooled sensitivity of absence (94%, 91-96) is in the same abstract but LR- for ACS is not separately quoted, so only the AMI entry was made. Panju 1998 gives a range (0.2-0.4) entered as low-end value with explicit note; Swap 2005 gives a combined range 0.2-0.3 across several 'atypical' features and is cited without a numeric entry. Bosner 2010 (primary care, n=1249) reports OR 0.27 (0.13-0.56) for CHD, not an LR, so cited only. No accuracy data located for tenderness as a discriminator of PE or zoster specifically.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T01:37:35+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

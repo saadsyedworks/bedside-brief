@@ -1,0 +1,117 @@
+{
+  "identity": {
+    "id": "exam_pulsus_paradoxus",
+    "title": "Pulsus paradoxus >10-12 mmHg (inspiratory SBP fall by manual cuff)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "chest_pain",
+      "hypotension"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "asthma_exacerbation",
+      "constrictive_pericarditis",
+      "copd_exacerbation",
+      "pericardial_effusion_tamponade",
+      "pulmonary_embolism"
+    ],
+    "indication_tags": [
+      "malignancy"
+    ]
+  },
+  "technique": {
+    "how": "With the patient breathing normally, inflate a manual cuff above systolic and deflate very slowly (about 2 mmHg per beat). Note the pressure at which Korotkoff sounds are first heard only in expiration, then the pressure at which they are heard throughout the respiratory cycle; the difference is the paradox. >10 mmHg is abnormal; inspiratory loss of the radial pulse means a large paradox.",
+    "prerequisites": "Regular rhythm, quiet regular breathing, and a manual sphygmomanometer; an arterial line makes the measurement easier and more accurate.",
+    "contraindications": "None; uninterpretable in atrial fibrillation, frequent ectopy, or labored irregular breathing."
+  },
+  "interpretation": {
+    "positive_finding": "In a patient with a known pericardial effusion, pulsus paradoxus >10 mmHg raises the likelihood of tamponade about threefold (LR 3.3) and is present in ~82% of tamponade cases. It also occurs in severe asthma/COPD exacerbation, massive PE, and constriction with effusion, so it indicates severity, not etiology, when no effusion is known.",
+    "negative_finding": "Among patients with a pericardial effusion, a paradox of <=10 mmHg makes tamponade much less likely (LR 0.03 in a single study), but ~18% of tamponade patients lack it, especially with LV dysfunction, ASD, aortic regurgitation, positive-pressure ventilation, or loculated effusion.",
+    "pitfalls": "Measurement requires very slow cuff deflation and regular rhythm; irregular breathing, obesity, and hypotension make it unreliable; it is a sensitivity marker in severe asthma but its absence does not exclude a severe attack.",
+    "changes_what": "In a patient with effusion, paradox >10 mmHg should prompt urgent echo and cardiology/pericardiocentesis planning; <=10 mmHg with normal JVP lowers tamponade well down the list."
+  },
+  "estimates": [
+    {
+      "target_condition": "Cardiac tamponade (pooled sensitivity of pulsus paradoxus among patients with tamponade)",
+      "population": "Patients with known tamponade or referred for pericardiocentesis with known effusion (8 studies, mostly retrospective referral series)",
+      "setting": "inpatient",
+      "prevalence": null,
+      "reference_standard": "Cardiac tamponade diagnosed by echocardiography and/or hemodynamics at pericardiocentesis",
+      "sensitivity": {
+        "value": 0.82,
+        "ci_low": 0.72,
+        "ci_high": 0.92
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "pulsus paradoxus (pooled sensitivity, 82%; 95% CI, 72%-92%)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Cardiac tamponade among patients with a pericardial effusion; threshold pulsus paradoxus >10 mmHg",
+      "population": "Single study of patients with pericardial effusion evaluated for tamponade",
+      "setting": "inpatient",
+      "prevalence": null,
+      "reference_standard": "Tamponade by echocardiographic/hemodynamic criteria",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 3.3,
+        "ci_low": 1.8,
+        "ci_high": 6.3
+      },
+      "lr_negative": {
+        "value": 0.03,
+        "ci_low": 0.01,
+        "ci_high": 0.24
+      },
+      "computed": false,
+      "interpretation_label": "both",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "(likelihood ratio, 3.3; 95% CI, 1.8-6.3) ... pulsus paradoxus of 10 mm Hg or less ... (likelihood ratio, 0.03; 95% CI, 0.01-0.24)",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Roy CL, Minor MA, Brookhart MA, Choudhry NK. Does this patient with a pericardial effusion have cardiac tamponade? JAMA. 2007;297(16):1810-1818.",
+      "doi": "10.1001/jama.297.16.1810",
+      "pmid": "17456823",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2007
+    },
+    {
+      "citation": "Holleman DR Jr, Simel DL. Does the clinical examination predict airflow limitation? JAMA. 1995;273(4):313-319.",
+      "doi": null,
+      "pmid": "7815660",
+      "url": null,
+      "kind": "rce_series",
+      "year": 1995
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use the absence of pulsus paradoxus to exclude tamponade in a hypotensive patient with effusion, or in AF, positive-pressure ventilation, severe LV dysfunction, or aortic regurgitation where it is unreliable.",
+    "escalation_warning": "Pulsus paradoxus with hypotension, tachycardia and elevated JVP is tamponade physiology until proven otherwise; obtain immediate echocardiography and prepare for pericardiocentesis.",
+    "interobserver_note": "Manual measurement is technique-dependent; small paradoxes (10-15 mmHg) are frequently missed or over-read by cuff, and agreement between observers is moderate at best."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Sens/spec entered as percent. Both estimates are from the 2007 RCE abstract; the pooled sensitivity comes from series of patients already known to have tamponade (spectrum bias, specificity not estimable), and the LRs come from one study using the >10 mmHg threshold. Ranges by threshold (e.g. >12 mmHg) are in the RCE tables, which were not accessible (JAMA, no PMC). For the asthma/COPD indication the 1995 airflow-limitation RCE (source 1) is cited, but its abstract is not available through PubMed and the full text is not in PMC, so no asthma estimate is entered; a 2020 Ann Allergy Asthma Immunol study on manual pulsus paradoxus in asthma (PMID 30928416) also had no retrievable abstract. Holleman 1995 DOI could not be confirmed via the tool and is left null; PMID confirmed. [units normalised to proportions by tools/normalize_units.py: estimates[0].sensitivity]",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T01:44:46+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

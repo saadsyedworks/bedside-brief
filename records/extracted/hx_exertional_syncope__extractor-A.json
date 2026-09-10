@@ -1,0 +1,119 @@
+{
+ "identity": {
+  "id": "hx_exertional_syncope",
+  "title": "Syncope during (not after) exertion",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "syncope"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "aortic_stenosis",
+   "hcm",
+   "pulmonary_embolism",
+   "tachyarrhythmia",
+   "ventricular_tachycardia"
+  ],
+  "indication_tags": [
+   "exertional"
+  ]
+ },
+ "technique": {
+  "how": "Ask exactly when the loss of consciousness occurred relative to activity: during ongoing exertion (walking uphill, running, lifting) versus in the minutes after stopping. Ask what the patient was doing, whether there was chest pain, palpitations or dyspnea at the time, and about prior similar events and family history of sudden death.",
+  "prerequisites": "Patient or witness able to describe the timing; clarify 'during' vs 'after'.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Syncope during effort is highly specific for cardiac syncope (about 98% specificity, LR+ about 7 in pooled derivation data) and is a scored predictor in the EGSYS rule; it should prompt evaluation for outflow obstruction (AS, HCM), ventricular arrhythmia and, when dyspneic, PE.",
+  "negative_finding": "Absence of exertional syncope changes probability little (sensitivity about 13%); most cardiac syncope occurs at rest.",
+  "pitfalls": "Syncope immediately after cessation of exercise is usually reflex (post-exertional vasodilation) and must not be coded as exertional. Older adults may not exert enough to provoke the event.",
+  "changes_what": "Positive: do not discharge without ECG, echocardiography and monitored evaluation; restrict exertion pending work-up. Negative: does not lower cardiac probability; rely on other features."
+ },
+ "estimates": [
+  {
+   "target_condition": "Cardiac syncope",
+   "population": "Pooled derivation sample from 2 Italian syncope cohorts reporting effort syncope (Alboni 2001, Del Rosso 2008): 122 cardiac vs 475 non-cardiac syncope",
+   "setting": "mixed",
+   "prevalence": 0.2,
+   "reference_standard": "Final diagnosis of cardiac vs non-cardiac syncope by standardized criteria in the source studies",
+   "sensitivity": {
+    "value": 0.13,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.98,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 6.92,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.89,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "Table 2 counts: effort syncope 16/122 cardiac (13%) vs 9/475 non-cardiac (2%). Sens=0.131, spec=466/475=0.981; LR+=0.131/0.019=6.92 (matches the table's reported likelihood-ratio column value 6.92); LR-=0.869/0.981=0.89.",
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "Syncope during effort Yes 10 - - 6 - - - 16 (13%) 7 - - 2 - - - 9 (2%)",
+   "location": "Table 2"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Berecki-Gisolf J, Sheldon A, Wieling W, et al. Identifying cardiac syncope based on clinical history: a literature-based model tested in four independent datasets. PLoS One. 2013;8(9):e75255.",
+   "doi": "10.1371/journal.pone.0075255",
+   "pmid": "24223233",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2014
+  },
+  {
+   "citation": "Albassam OT, Redelmeier RJ, Shadowitz S, Husain AM, Simel D, Etchells EE. Did This Patient Have Cardiac Syncope?: The Rational Clinical Examination Systematic Review. JAMA. 2019;321(24):2448-2457.",
+   "doi": "10.1001/jama.2019.8001",
+   "pmid": "31237649",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2019
+  },
+  {
+   "citation": "Del Rosso A, Ungar A, Maggi R, et al. Clinical predictors of cardiac syncope at initial evaluation in patients referred urgently to a general hospital: the EGSYS score. Heart. 2008;94(12):1620-1626.",
+   "doi": "10.1136/hrt.2008.143123",
+   "pmid": "18519550",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2009
+  },
+  {
+   "citation": "Alboni P, Brignole M, Menozzi C, et al. Diagnostic value of history in patients with syncope with or without heart disease. J Am Coll Cardiol. 2001;37(7):1921-1928.",
+   "doi": "10.1016/s0735-1097(01)01241-4",
+   "pmid": "11401133",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2001
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not reclassify as benign because the patient is young or the ECG is normal; exertional syncope in athletes and young patients still requires structural and arrhythmic evaluation.",
+  "escalation_warning": "Exertional syncope with murmur, chest pain, dyspnea, abnormal ECG, or family history of sudden death: admit for monitored evaluation and urgent echocardiography.",
+  "interobserver_note": "Timing relative to exertion depends on patient recall; witness accounts and specific questioning about 'during' versus 'after' improve reliability."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Albassam 2019 RCE abstract does not report an exertion-specific LR and the JAMA full text/tables are not reachable, so no RCE estimate is included; the RCE is cited as anchor context. The quantified estimate is from Berecki-Gisolf 2013 Table 2 (PMC open access), which pools raw frequencies from only two cohorts with effort-syncope data (references [5] Alboni 2001 and [6] Del Rosso 2008); it is a simple pooled 2x2, not a bivariate meta-analysis, and no CIs are given. The quote is the table row with whitespace collapsed. EGSYS 2008 abstract lists 'syncope during effort or in supine position' as a predictor and Alboni 2001 lists effort syncope among the most specific predictors of cardiac cause in patients with heart disease, but neither abstract gives an item-level LR, so they are cited without estimates. Post-exertional syncope was not separately quantified in any reachable source.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T01:37:36+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

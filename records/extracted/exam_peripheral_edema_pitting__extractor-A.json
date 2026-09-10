@@ -1,0 +1,119 @@
+{
+  "identity": {
+    "id": "exam_peripheral_edema_pitting",
+    "title": "Lower-extremity edema: bilateral vs unilateral, pitting vs non-pitting (brawny), grade and level",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "edema",
+      "hypotension",
+      "aki"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "acute_decompensated_hf",
+      "cardiorenal",
+      "cirrhosis",
+      "constrictive_pericarditis",
+      "hypoalbuminemia",
+      "medication_effect",
+      "nephrotic_syndrome",
+      "rv_failure_pulmonary_hypertension",
+      "venous_insufficiency"
+    ],
+    "indication_tags": [
+      "bilateral",
+      "hf_known"
+    ]
+  },
+  "technique": {
+    "how": "Press firmly with the thumb for at least 5 s over the dorsum of the foot, behind the medial malleolus and over the tibial shaft, then release. Note whether a pit persists (pitting), its depth and duration (grade 1-4), how high up the leg it extends, and whether it is symmetric. Non-pitting, firm (brawny) edema suggests lymphedema or chronic venous disease.",
+    "prerequisites": "Compare both legs at the same level; ask about duration, leg dependency, and new drugs (calcium-channel blockers, thiazolidinediones, NSAIDs).",
+    "contraindications": "None; avoid pressing over cellulitis, ulcers or a suspected DVT."
+  },
+  "interpretation": {
+    "positive_finding": "Bilateral pitting edema modestly raises the probability of heart failure in dyspneic patients but is nonspecific: venous insufficiency, drugs, hypoalbuminemia, nephrotic syndrome and cirrhosis produce the same sign. Unilateral edema points to a local cause (DVT, venous obstruction, cellulitis); brawny non-pitting edema suggests lymphedema.",
+    "negative_finding": "Absence of edema does not exclude heart failure (pooled sensitivity ~50%); acute HF and HFpEF often present without edema.",
+    "pitfalls": "Dependent edema in chronically seated or elderly patients is common without HF; edema lags behind volume changes by days, so it tracks chronic rather than acute volume status.",
+    "changes_what": "Bilateral pitting edema plus elevated JVP should shift dyspnea toward HF and prompt BNP/echo; unilateral edema should trigger DVT evaluation instead."
+  },
+  "estimates": [
+    {
+      "target_condition": "Heart failure (any) in patients with suspected heart failure",
+      "population": "Individual patient data from 9 studies of adults with suspected heart failure (predominantly primary care / open-access referral cohorts)",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Heart failure diagnosis by echocardiography-based criteria of each included study",
+      "sensitivity": {
+        "value": 0.53,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.72,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 1.9,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.65,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.53/(1-0.72) = 1.89; LR- = (1-0.53)/0.72 = 0.65; from abstract sensitivity 53% and specificity 72% (no CIs reported in abstract)",
+      "interpretation_label": "modest",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "oedema (72%) ... sensitivity of these features was low, ranging from 11% (added heart sounds) to 53% (oedema)",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "partially_quantified",
+  "sources": [
+    {
+      "citation": "Mant J, Doust J, Roalfe A, et al. Systematic review and individual patient data meta-analysis of diagnosis of heart failure, with modelling of implications of different diagnostic strategies in primary care. Health Technol Assess. 2009;13(32):1-207.",
+      "doi": "10.3310/hta13320",
+      "pmid": "19586584",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2009
+    },
+    {
+      "citation": "Signs and symptoms in adult patients with acute dyspnea: a systematic review and meta-analysis. Eur J Emerg Med. 2018;25(1):3-11.",
+      "doi": "10.1097/MEJ.0000000000000429",
+      "pmid": "29252938",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2018
+    },
+    {
+      "citation": "Wang CS, FitzGerald JM, Schulzer M, Mak E, Ayas NT. Does this dyspneic patient in the emergency department have congestive heart failure? JAMA. 2005;294(15):1944-1956.",
+      "doi": "10.1001/jama.294.15.1944",
+      "pmid": "16234501",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2005
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not rely on edema alone to diagnose or exclude HF, or to judge acute volume status in a hypotensive or oliguric patient.",
+    "escalation_warning": "Unilateral painful edema needs DVT evaluation; rapidly progressive bilateral edema with hypotension or rising creatinine suggests cardiorenal or cirrhotic decompensation and needs urgent assessment.",
+    "interobserver_note": "Grading of pitting depth and duration is subjective; presence/absence of edema is more reproducible than grade."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Sens/spec entered as percent. The anchor RCE (Wang 2005, source 2) reports ED-specific LRs for peripheral edema in its evidence tables, but the JAMA full text is not accessible through PubMed/PMC (no PMC record) and the abstract does not mention edema, so no Wang estimate is entered. The ED meta-analysis (source 1) reports only ranges for peripheral edema in its abstract (sensitivity 0.29-0.77, specificity 0.67-0.89, 8 ED studies, HF prevalence 25-59%); the pooled point estimates are in its tables, which were not visible, so no estimate entry was made. Mant 2009 abstract values have no CIs; LRs were computed from the abstract sensitivity/specificity. No study separates pitting from non-pitting or grades of edema for HF diagnosis; the pitting/brawny/unilateral distinctions in the title are consensus-based pattern recognition, not quantified. [units normalised to proportions by tools/normalize_units.py: estimates[0].sensitivity, estimates[0].specificity]",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T01:44:46+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

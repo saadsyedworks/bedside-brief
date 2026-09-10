@@ -1,0 +1,156 @@
+{
+ "identity": {
+  "id": "exam_pulse_deficit",
+  "title": "Pulse deficit / asymmetric radial, carotid or femoral pulses",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "chest_pain",
+   "syncope",
+   "abdominal_pain",
+   "weakness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "aaa",
+   "aortic_dissection"
+  ],
+  "indication_tags": [
+   "acute_onset"
+  ]
+ },
+ "technique": {
+  "how": "Palpate both radial pulses simultaneously, then both femoral (and carotid) pulses, comparing amplitude and timing side to side. A deficit is an absent or clearly weaker pulse on one side, or a radial-femoral lag; confirm with bilateral BP or Doppler if uncertain.",
+  "prerequisites": "Accessible limbs; note prior vascular surgery, arterial lines, or known peripheral arterial disease.",
+  "contraindications": "Avoid firm bilateral carotid palpation at the same time."
+ },
+ "interpretation": {
+  "positive_finding": "A new unilateral pulse deficit in a patient with acute chest/back/abdominal pain strongly increases the probability of aortic dissection (pooled LR+ 5.7; ED case-control LR+ 31, specificity 99.3%).",
+  "negative_finding": "Normal symmetric pulses do not exclude dissection: only 15-31% of confirmed dissections have a pulse deficit.",
+  "pitfalls": "Chronic peripheral arterial disease, prior catheterization, or subclavian stenosis cause asymmetric pulses without dissection; deficits can be intermittent as the false lumen shifts, so re-examine.",
+  "changes_what": "New pulse deficit with suspicious pain: treat as dissection until imaged (CTA/TEE); absence changes little and should not lower suspicion."
+ },
+ "estimates": [
+  {
+   "target_condition": "Acute thoracic aortic dissection",
+   "population": "Consecutive patients with confirmed thoracic aortic dissection across 21 studies (pooled; pulse deficit or BP differential combined)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Imaging/surgery/autopsy-confirmed dissection in the primary studies",
+   "sensitivity": {
+    "value": 0.31,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": null,
+   "lr_positive": {
+    "value": 5.7,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "31% have pulse deficits or blood pressure differentials … differentials and neurological deficits increase the likelihood of disease (positive LRs, 5.7 and 6.6-33.0, respectively)",
+   "location": "Abstract, Results (two contiguous fragments)"
+  },
+  {
+   "target_condition": "Acute aortic dissection",
+   "population": "Adults >18 y with nontraumatic truncal pain; matched case-control (194 AAD cases, 776 controls)",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "CT or echocardiography-confirmed AAD vs truncal-pain controls without clear diagnosis",
+   "sensitivity": null,
+   "specificity": {
+    "value": 0.993,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 31.1,
+    "ci_low": 11.2,
+    "ci_high": 86.6
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "pulse deficit (specificity = 99.3, LR+ = 31.1 [11.2-86.6])",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Acute aortic dissection (type A and B)",
+   "population": "464 patients with confirmed acute aortic dissection enrolled in IRAD registry, 12 referral centers",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Confirmed acute aortic dissection (registry case series; no controls)",
+   "sensitivity": {
+    "value": 0.151,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "single_study",
+   "source_index": 2,
+   "quote": "Classic physical findings such as aortic regurgitation and pulse deficit were noted in only 31.6% and 15.1% of patients, respectively",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Klompas M. Does this patient have an acute thoracic aortic dissection? JAMA. 2002;287(17):2262-2272.",
+   "doi": "10.1001/jama.287.17.2262",
+   "pmid": "11980527",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2002
+  },
+  {
+   "citation": "Ohle R, Kareemi HK, Wells G, Perry JJ. High Risk Clinical Features for Acute Aortic Dissection: A Case-Control Study. Acad Emerg Med. 2018;25(4):378-387.",
+   "doi": "10.1111/acem.13356",
+   "pmid": "29218798",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2018
+  },
+  {
+   "citation": "Hagan PG, Nienaber CA, Isselbacher EM, et al. The International Registry of Acute Aortic Dissection (IRAD): new insights into an old disease. JAMA. 2000;283(7):897-903.",
+   "doi": "10.1001/jama.283.7.897",
+   "pmid": "10685714",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2000
+  },
+  {
+   "citation": "Ohle R, Um J, Anjum O, et al. Clinical Examination for Acute Aortic Dissection: A Systematic Review and Meta-analysis. Acad Emerg Med. 2018;25(4):397-412.",
+   "doi": "10.1111/acem.13360",
+   "pmid": "29265487",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2018
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not interpret asymmetry in patients with known peripheral arterial disease, prior arterial access, or arm AV fistula without Doppler/BP confirmation.",
+  "escalation_warning": "New pulse deficit with acute pain, hypotension, or neuro deficit = immediate CTA/TEE and surgical consult; do not delay for further bedside tests.",
+  "interobserver_note": "Palpation-based; Klompas pooled sensitivity spans 10-40% across studies (heterogeneity noted in RCE), reflecting definition and examiner variability."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Estimate 0: Klompas 2002 RCE pooled sensitivity 31% and LR+ 5.7 for 'pulse deficits or blood pressure differentials' combined (abstract); the two numbers come from two separate abstract sentences, quoted as two fragments joined by an ellipsis; specificity and CI not in abstract (full-text table not accessible). Estimate 1: Ohle 2018 ED case-control, pulse deficit alone: specificity 99.3%, LR+ 31.1 (11.2-86.6); sensitivity not in abstract. Estimate 2: IRAD registry sensitivity 15.1% (case series, no controls, so no LR). Ohle 2018 meta-analysis (source 3) mentions pulse deficit qualitatively in its abstract without a pooled number, so cited as context only. Range in interobserver_note is descriptive of heterogeneity across RCE-included studies as summarized in my reading of the abstract-level data; no kappa found.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T01:37:38+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}
