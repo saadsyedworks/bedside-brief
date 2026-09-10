@@ -17,14 +17,24 @@
   ],
   "reference_targets_freetext": [
     {
-      "item": "Compartment exam: palpate limb and gluteal compartments for tense, tender swelling; pain with passive stretch; distal pulses and sensation; inspect pressure points for skin breakdown",
-      "rationale": "Compartment syndrome and pressure necrosis after prolonged immobility drive muscle injury and need surgical evaluation",
+      "item": "Compartment exam: palpate limb and gluteal compartments for tense, tender swelling; pain with passive stretch; distal pulses and sensation",
+      "rationale": "Compartment syndrome after prolonged immobility drives muscle injury and needs surgical evaluation",
       "must_have": true
     },
     {
+      "item": "Inspect pressure points (sacrum, hips, heels, shoulders) for skin breakdown",
+      "rationale": "Pressure necrosis marks the down-time and adds a source of muscle and skin injury",
+      "must_have": false
+    },
+    {
       "item": "Orthostatic vital signs (supine to standing at 1 and 3 min)",
-      "rationale": "Prolonged down time and alcohol withdrawal produce hypovolemia; postural pulse increment is the most specific bedside sign and sets fluid targets",
+      "rationale": "Prolonged down time and alcohol withdrawal produce hypovolemia; postural pulse increment is the most specific bedside sign and sets fluid targets (McGee 1999)",
       "must_have": true
+    },
+    {
+      "item": "Dry axilla / mucous membranes",
+      "rationale": "Completes the volume assessment; skin turgor omitted as it performs poorly in adults",
+      "must_have": false
     },
     {
       "item": "Ask: exact down time, seizure at onset, substances or medications taken, and muscle pain or weakness",
@@ -37,13 +47,13 @@
       "must_have": false
     },
     {
-      "item": "Medication review (MAR): NSAIDs, statins, contrast, and new antibiotics; ask about urine volume since admission",
-      "rationale": "Drug exposures raise ATN or interstitial nephritis; oliguria grades severity",
+      "item": "Medication review (MAR): NSAIDs, statins, contrast, new antibiotics",
+      "rationale": "Drug exposures raise ATN or interstitial nephritis",
       "must_have": false
     },
     {
-      "item": "JVP and dry axilla / mucous membranes",
-      "rationale": "Completes the volume assessment; skin turgor omitted as it performs poorly in adults",
+      "item": "Ask about urine volume since admission",
+      "rationale": "Oliguria grades severity and tracks response to fluids",
       "must_have": false
     }
   ],
@@ -65,7 +75,7 @@
     "case_id": "aki_003_p1",
     "changed_feature": "found down ~12 h -> 7 days of high-dose NSAID, no fall",
     "input_oneliner": "45M, no fall, taking ibuprofen 800 mg three times daily for a week for back pain, admitted for alcohol withdrawal, Cr 3.4 on admission labs, urine dark brown",
-    "expected_change": "NSAID nephropathy/AIN/ATN rise: rash, fever timing, and arthralgia questions and the volume exam become must-have; compartment exam and down-time questions drop. Dark urine is retained deliberately as a red herring (concentrated or bilirubin-tinged urine versus myoglobinuria), so the urine-volume question should persist."
+    "expected_change": "NSAID nephropathy/AIN/ATN rise: rash, fever timing, and arthralgia questions become must-have, orthostatic vital signs stay must-have, and the medication review (MAR) rises to must-have; compartment exam, pressure-point inspection, and the down-time question drop. Dark urine is retained deliberately as a red herring (concentrated or bilirubin-tinged urine versus myoglobinuria), so the urine-volume question should persist."
   },
   "noise_variant": {
     "case_id": "aki_003_n1",

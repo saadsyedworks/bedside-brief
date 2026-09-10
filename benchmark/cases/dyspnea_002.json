@@ -22,8 +22,13 @@
       "must_have": true
     },
     {
-      "item": "Auscultate for wheeze and prolonged expiratory phase; measure forced expiratory time",
-      "rationale": "Prolonged forced expiratory time and wheeze support airflow obstruction",
+      "item": "Forced expiratory time (timed forced exhalation, >=9 s)",
+      "rationale": "Prolonged forced expiratory time is the best-performing bedside sign of airflow obstruction",
+      "must_have": true
+    },
+    {
+      "item": "Wheeze and prolonged expiratory phase on auscultation",
+      "rationale": "Wheeze modestly raises likelihood of obstruction",
       "must_have": true
     },
     {
@@ -37,7 +42,7 @@
       "must_have": false
     },
     {
-      "item": "JVP and S3 gallop to look for concurrent heart failure",
+      "item": "JVP (jugular venous pressure) to look for concurrent heart failure",
       "rationale": "Cardiac asthma mimics an obstructive exacerbation",
       "must_have": false
     },
@@ -62,9 +67,9 @@
   "underspecified_flag_expected": false,
   "perturbation_pair": {
     "case_id": "dyspnea_002_p1",
-    "changed_feature": "presenting symptom: wheeze -> sudden right-sided chest pain",
+    "changed_feature": "presenting symptom: wheeze -> sudden right-sided pleuritic chest pain",
     "input_oneliner": "72F, 50 pack-year smoker, day 2 admit for pyelonephritis, sudden right-sided chest pain and short of breath since midnight, sat 90% on 2L",
-    "expected_change": "Compare breath sounds side to side; percuss for unilateral hyperresonance becomes must_have and pneumothorax rises to top of differential; COPD history remains must_have; Anthonisen sputum question drops; Calf circumference asymmetry >3 cm (pulmonary embolism) is a new item."
+    "expected_change": "Compare breath sounds side to side; percuss for unilateral hyperresonance becomes must_have and pneumothorax rises to top of differential; COPD history remains must_have; Forced expiratory time and Wheeze drop to should-still-include; Anthonisen sputum question drops; Calf circumference asymmetry >3 cm (pulmonary embolism) is a new item."
   },
   "noise_variant": {
     "case_id": "dyspnea_002_n1",

@@ -18,18 +18,28 @@
   "reference_targets_freetext": [
     {
       "item": "Ask about radiation to arm(s) or jaw, similarity to prior angina, exertional vs rest onset, and associated nausea or diaphoresis",
-      "rationale": "Radiation to both arms and similarity to prior ischemia raise likelihood of MI",
+      "rationale": "Ischemic pain-character history: radiation to both arms and similarity to prior ischemia raise likelihood of MI",
       "must_have": true
     },
     {
-      "item": "Blood pressure in both arms and radial/femoral pulse deficit (plus new diastolic murmur of aortic regurgitation)",
-      "rationale": "Pulse deficit and inter-arm difference are the key bedside dissection findings",
+      "item": "Radial/femoral pulse deficit",
+      "rationale": "Pulse deficit is the key bedside dissection finding",
       "must_have": true
     },
     {
-      "item": "S3 gallop and Bibasilar crackles (heart failure complicating ischemia)",
-      "rationale": "S3 and crackles modestly raise likelihood of MI and mark high-risk ACS",
+      "item": "Blood pressure differential between arms (>20 mmHg)",
+      "rationale": "Inter-arm difference supports dissection",
+      "must_have": false
+    },
+    {
+      "item": "S3 gallop",
+      "rationale": "S3 modestly raises likelihood of MI and marks high-risk ACS",
       "must_have": true
+    },
+    {
+      "item": "Bibasilar crackles",
+      "rationale": "Crackles mark heart failure complicating ischemia",
+      "must_have": false
     },
     {
       "item": "Ask about abrupt tearing pain radiating to the back",
@@ -64,7 +74,7 @@
     "case_id": "chest_pain_001_p1",
     "changed_feature": "pain quality: substernal pressure -> tearing pain radiating to the back",
     "input_oneliner": "66M DM2 CKD3, in for cellulitis, 30 min tearing pain radiating to the back at rest, diaphoretic, BP 150/90, HR 92, sat 96%",
-    "expected_change": "Blood pressure in both arms and radial/femoral pulse deficit becomes the leading must_have and aortic dissection tops the differential; ask about tearing pain is answered by the one-liner and drops; ask about focal neurologic symptoms or limb ischemia is a new item; ACS radiation question remains included."
+    "expected_change": "Radial/femoral pulse deficit remains must_have and Blood pressure differential between arms becomes must_have; aortic dissection tops the differential; Ask about abrupt tearing pain is answered by the one-liner and drops; ask about focal neurologic symptoms or limb ischemia is a new item; ischemic pain-character history remains included."
   },
   "noise_variant": {
     "case_id": "chest_pain_001_n1",

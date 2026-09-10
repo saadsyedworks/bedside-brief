@@ -17,8 +17,13 @@
   ],
   "reference_targets_freetext": [
     {
-      "item": "JVP (jugular venous pressure); Abdominojugular reflux",
-      "rationale": "Elevated JVP and positive abdominojugular reflux are the strongest bedside findings for elevated filling pressures",
+      "item": "JVP (jugular venous pressure)",
+      "rationale": "Elevated JVP is the strongest bedside finding for elevated filling pressures",
+      "must_have": true
+    },
+    {
+      "item": "Abdominojugular reflux",
+      "rationale": "Positive abdominojugular reflux has a high LR+ for elevated left-sided filling pressures",
       "must_have": true
     },
     {
@@ -29,7 +34,7 @@
     {
       "item": "Ask about orthopnea and paroxysmal nocturnal dyspnea (number of pillows, waking breathless)",
       "rationale": "Orthopnea/PND point to left-sided congestion rather than peripheral or drug edema",
-      "must_have": true
+      "must_have": false
     },
     {
       "item": "Medication review (MAR): recently started or up-titrated amlodipine or other dihydropyridine, NSAIDs, thiazolidinediones, gabapentinoids",
@@ -37,8 +42,13 @@
       "must_have": false
     },
     {
-      "item": "Bibasilar crackles and basal dullness (effusion); pitting depth and whether edema extends to the sacrum",
-      "rationale": "Extent of congestion and dependent distribution support HF over venous insufficiency",
+      "item": "Bibasilar crackles",
+      "rationale": "Pulmonary congestion supports HF over peripheral causes of edema",
+      "must_have": false
+    },
+    {
+      "item": "Pitting edema depth and extension to the sacrum",
+      "rationale": "Dependent, symmetric pitting distribution supports systemic congestion over venous insufficiency",
       "must_have": false
     }
   ],
@@ -61,7 +71,7 @@
     "case_id": "edema_001_p1",
     "changed_feature": "adds 'amlodipine doubled 3 weeks ago' (single addition; orthopnea and all vitals kept)",
     "input_oneliner": "New admit: 71M prior MI and HTN, 5 days worsening bilateral leg swelling, amlodipine doubled 3 weeks ago, sleeping in recliner, weight up 4 kg, SpO2 93% RA",
-    "expected_change": "Medication review (MAR) for new/up-titrated dihydropyridine becomes must_have; JVP with Abdominojugular reflux and S3 gallop remain must_have as the discriminators; orthopnea/PND question remains."
+    "expected_change": "Medication review (MAR) for new/up-titrated dihydropyridine becomes must_have; JVP, Abdominojugular reflux, and S3 gallop remain must_have as the discriminators; orthopnea/PND question, Bibasilar crackles, and pitting distribution remain."
   },
   "noise_variant": {
     "case_id": "edema_001_n1",

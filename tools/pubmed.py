@@ -57,8 +57,13 @@ def fetch(pmid: str) -> dict:
     m = re.search(r'<ArticleId IdType="doi">(.*?)</ArticleId>', x)
     if m:
         doi = m.group(1)
+    authors = [
+        (_tag(a, "LastName") + " " + _tag(a, "Initials")).strip()
+        for a in re.findall(r"<Author[ >].*?</Author>", x, re.S)
+    ]
     return {
         "pmid": pmid,
+        "authors": [a for a in authors if a][:8],
         "title": _tag(x, "ArticleTitle"),
         "journal": _tag(x, "Title"),
         "year": _tag(x, "Year"),

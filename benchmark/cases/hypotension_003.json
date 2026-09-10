@@ -27,17 +27,27 @@
       "must_have": true
     },
     {
-      "item": "Capillary refill time, cool or mottled extremities, and mental status",
-      "rationale": "Establishes shock physiology and urgency regardless of cause",
+      "item": "Capillary refill time and cool or mottled extremities",
+      "rationale": "Peripheral perfusion signs establish shock physiology and urgency regardless of cause",
       "must_have": true
     },
     {
-      "item": "Heart sounds (muffled), pericardial rub, and lung auscultation for Bibasilar crackles versus clear fields",
-      "rationale": "Muffled sounds with clear lungs favor tamponade; crackles favor left-sided cardiogenic shock",
+      "item": "Mental status",
+      "rationale": "Altered mentation marks end-organ hypoperfusion",
       "must_have": false
     },
     {
-      "item": "Ask about pleuritic chest pain; Calf circumference asymmetry >3 cm or unilateral leg swelling",
+      "item": "Muffled heart sounds or pericardial rub",
+      "rationale": "Supports pericardial effusion as the mechanism",
+      "must_have": false
+    },
+    {
+      "item": "Bibasilar crackles versus clear lung fields",
+      "rationale": "Clear lungs favor tamponade or PE; crackles favor left-sided cardiogenic shock",
+      "must_have": false
+    },
+    {
+      "item": "Calf circumference asymmetry >3 cm or unilateral leg swelling",
       "rationale": "Malignancy-associated pulmonary embolism is a close competitor",
       "must_have": false
     },
@@ -65,7 +75,7 @@
     "case_id": "hypotension_003_p1",
     "changed_feature": "metastatic breast cancer admitted for dyspnea -> anterior STEMI treated with PCI 2 days ago (single swap: admission context)",
     "input_oneliner": "70F anterior STEMI s/p PCI 2 days ago, tonight BP 84/56, HR 122, SpO2 91% 2L, RN reports she 'looks worse'",
-    "expected_change": "Cardiogenic shock and mechanical complications lead: S3 gallop, Bibasilar crackles, and a new holosystolic murmur (VSD or papillary muscle rupture) rise to must_have; Pulsus paradoxus drops to should-still-include (free-wall rupture remains possible); JVP and Capillary refill time remain must_have."
+    "expected_change": "Cardiogenic shock and mechanical complications lead: S3 gallop, Bibasilar crackles, and a new holosystolic murmur (VSD or papillary muscle rupture) rise to must_have; Pulsus paradoxus and muffled heart sounds drop to should-still-include (free-wall rupture remains possible); JVP and Capillary refill time remain must_have."
   },
   "noise_variant": {
     "case_id": "hypotension_003_n1",

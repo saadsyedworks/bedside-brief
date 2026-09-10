@@ -21,9 +21,14 @@
       "must_have": true
     },
     {
-      "item": "Medication review (MAR): anticholinergics, opioids, and alpha-agonists; ask about last void, straining, and dribbling",
-      "rationale": "Diphenhydramine and opioids precipitate retention; the history of small frequent voids or dribbling supports overflow",
+      "item": "Medication review (MAR): anticholinergics, opioids, alpha-agonists",
+      "rationale": "Diphenhydramine and opioids precipitate retention",
       "must_have": true
+    },
+    {
+      "item": "Ask about last void, straining, small frequent voids, and dribbling",
+      "rationale": "Voiding history of overflow supports retention",
+      "must_have": false
     },
     {
       "item": "Orthostatic vital signs (supine to standing at 1 and 3 min)",
@@ -31,17 +36,22 @@
       "must_have": true
     },
     {
-      "item": "JVP and dry axilla / mucous membranes",
-      "rationale": "Low JVP and dry axilla support prerenal physiology; high JVP argues against it",
+      "item": "JVP",
+      "rationale": "Low JVP supports prerenal physiology; high JVP argues against it",
+      "must_have": false
+    },
+    {
+      "item": "Dry axilla / mucous membranes",
+      "rationale": "Dry axilla has a useful LR+ for hypovolemia (McGee 1999)",
       "must_have": false
     },
     {
       "item": "Digital rectal examination (DRE) - prostate size and tenderness",
-      "rationale": "Prostate enlargement or prostatitis supports obstruction; tenderness raises prostatitis as the infection source",
+      "rationale": "Prostate enlargement supports obstruction; tenderness raises prostatitis as the infection source",
       "must_have": false
     },
     {
-      "item": "Ask about flank pain and hematuria; costovertebral angle (CVA) tenderness bilaterally",
+      "item": "Costovertebral angle (CVA) tenderness bilaterally",
       "rationale": "Upper tract obstruction or pyelonephritis as alternative causes",
       "must_have": false
     }
@@ -63,7 +73,7 @@
     "case_id": "aki_002_p1",
     "changed_feature": "medication: diphenhydramine qhs -> ketorolac scheduled x3 days for pleuritic pain",
     "input_oneliner": "78M BPH admitted for CAP, on scheduled ketorolac x3 days for pleuritic pain, no urine output x8h per RN, Cr up 0.5 overnight",
-    "expected_change": "NSAID-related prerenal AKI, ATN, and AIN rise; Orthostatic vital signs and Medication review (MAR) remain must-have and lead; the JVP and dry axilla / mucous membranes item rises; Bladder percussion/palpation for retention remains must-have as a reversible cause; ask about new rash, fever timing, and arthralgia for AIN becomes must-have; anticholinergic question drops."
+    "expected_change": "NSAID-related prerenal AKI, ATN, and AIN rise; orthostatic vital signs and medication review become the top must-haves; bladder percussion/palpation remains must-have as a reversible cause; ask about new rash, fever timing, and arthralgia for AIN rises; voiding history and the anticholinergic focus of the medication review drop."
   },
   "noise_variant": {
     "case_id": "aki_002_n1",

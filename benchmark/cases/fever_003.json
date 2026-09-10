@@ -18,32 +18,42 @@
   "reference_targets_freetext": [
     {
       "item": "Inspect and palpate the PICC insertion site and tract for erythema, tenderness, purulence, and a palpable cord along the vein",
-      "rationale": "Exit-site findings are specific but insensitive for line infection; rigors during or after infusion strengthen the diagnosis",
+      "rationale": "Exit-site findings are specific but insensitive for line infection",
       "must_have": true
     },
     {
-      "item": "Cardiac auscultation for a new or changed murmur, plus peripheral stigmata: splinter hemorrhages, Janeway lesions, Osler nodes, conjunctival petechiae",
-      "rationale": "IVDU with bacteremia risk is a high pretest population for endocarditis; a new regurgitant murmur is a major criterion",
+      "item": "Cardiac auscultation for a new or changed murmur",
+      "rationale": "A new regurgitant murmur is a major Duke criterion in a high-pretest IVDU population",
       "must_have": true
     },
     {
-      "item": "Ask about stool frequency and consistency; examine the abdomen for distension and tenderness",
-      "rationale": "Antibiotic exposure makes C. difficile a leading nosocomial cause of fever; abdominal findings signal severity",
+      "item": "Peripheral stigmata of endocarditis: splinter hemorrhages, Janeway lesions, Osler nodes, conjunctival petechiae",
+      "rationale": "Minor Duke criteria; insensitive but specific when present",
       "must_have": false
     },
     {
-      "item": "Ask: timing of rigors relative to infusions or line access; any new injection since admission; new medications",
+      "item": "Ask about stool frequency and consistency",
+      "rationale": "Antibiotic exposure makes C. difficile a leading nosocomial cause of fever",
+      "must_have": true
+    },
+    {
+      "item": "Abdominal exam for distension and tenderness",
+      "rationale": "Abdominal findings with diarrhea signal severe or fulminant colitis",
+      "must_have": false
+    },
+    {
+      "item": "Ask: timing of rigors relative to infusions or line access, and any injection since admission",
       "rationale": "Infusion-related rigors point to the line; in-hospital injection raises new bacteremia risk",
       "must_have": false
     },
     {
-      "item": "Skin exam for a new maculopapular rash and check for new joint pain",
-      "rationale": "Vancomycin-associated drug fever and DRESS present with rash and eosinophilia",
+      "item": "Skin exam for a new maculopapular rash",
+      "rationale": "Vancomycin-associated drug fever and DRESS present with rash",
       "must_have": false
     },
     {
-      "item": "Spinal percussion tenderness and focused neurologic exam of the legs",
-      "rationale": "Progression of vertebral osteomyelitis or epidural abscess can present as recurrent fever",
+      "item": "Spinal percussion tenderness and leg neurologic exam (epidural abscess screen)",
+      "rationale": "Progression of vertebral osteomyelitis to epidural abscess can present as recurrent fever",
       "must_have": false
     }
   ],
@@ -64,7 +74,7 @@
     "case_id": "fever_003_p1",
     "changed_feature": "rigors -> six watery stools since yesterday",
     "input_oneliner": "46M IVDU w/ PICC for vertebral osteo, day 10 vanc, T 38.9 tonight, six watery stools since yesterday, no other localizing sx per RN",
-    "expected_change": "C. difficile colitis becomes the leading differential; abdominal exam for distension, tenderness, and peritoneal signs becomes must-have and stool testing rises; rigors-timing question drops; line-site inspection and murmur exam remain but rank lower."
+    "expected_change": "C. difficile colitis becomes the leading differential; the stool frequency question stays must-have and abdominal exam for distension and tenderness becomes must-have with stool testing rising; the rigors-timing/injection question drops; PICC site inspection and murmur auscultation remain but rank lower; peripheral stigmata drop."
   },
   "noise_variant": {
     "case_id": "fever_003_n1",

@@ -18,7 +18,7 @@
   "reference_targets_freetext": [
     {
       "item": "Ascites examination: flank dullness, shifting dullness, fluid wave",
-      "rationale": "Ascites with edema points to cirrhosis or nephrotic syndrome; absence of flank dullness argues strongly against ascites",
+      "rationale": "Ascites signs (one construct) point to cirrhosis or nephrotic syndrome; absent flank dullness argues strongly against ascites",
       "must_have": true
     },
     {
@@ -32,7 +32,7 @@
       "must_have": true
     },
     {
-      "item": "Ask about frothy urine, periorbital or facial swelling on waking, diabetes, and NSAID use",
+      "item": "Ask about frothy urine and periorbital or facial swelling on waking",
       "rationale": "Nephrotic features that would redirect the workup to the kidney",
       "must_have": false
     },

@@ -27,9 +27,14 @@
       "must_have": true
     },
     {
-      "item": "Assess volume status: ask about oral intake, vomiting, and whether he has been passing urine; Dry axilla / mucous membranes; Capillary refill time",
+      "item": "Dry axillae / dry mucous membranes and prolonged capillary refill (hypovolemia signs)",
       "rationale": "Bedside hypovolemia signs quantify volume depletion in an NPO patient",
       "must_have": true
+    },
+    {
+      "item": "Ask about oral intake, vomiting, and urine output over the last 24 hours",
+      "rationale": "History of losses supports hypovolemia",
+      "must_have": false
     },
     {
       "item": "Witness account: duration, color, jerking, tongue biting, incontinence, post-event confusion; ask about injury",
@@ -37,7 +42,7 @@
       "must_have": false
     },
     {
-      "item": "Ask about pleuritic pain and dyspnea; Calf circumference asymmetry >3 cm (10 cm below tibial tuberosity)",
+      "item": "Calf circumference asymmetry >3 cm (10 cm below tibial tuberosity)",
       "rationale": "Three days immobile with pancreatitis carries VTE risk",
       "must_have": false
     },
@@ -64,7 +69,7 @@
     "case_id": "syncope_003_p1",
     "changed_feature": "recovery: back to baseline in a minute -> confused for 20 minutes with a bitten tongue",
     "input_oneliner": "44M day 3 of pancreatitis admit, NPO, passed out in bathroom right after urinating, pale and sweaty, confused for 20 minutes after with bitten tongue, HR 104",
-    "expected_change": "Witness account (tongue biting, incontinence, post-event confusion) becomes must_have and seizure_mimic enters the differential; focused neurologic exam for post-ictal deficit (Todd's paresis) is a new item; Orthostatic vital signs remain must_have."
+    "expected_change": "Witness account (tongue biting, incontinence, post-event confusion) becomes must_have and seizure_mimic enters the differential; focused neurologic exam for post-ictal deficit (Todd's paresis) is a new item; Orthostatic vital signs and hypovolemia signs remain must_have."
   },
   "noise_variant": {
     "case_id": "syncope_003_n1",

@@ -22,22 +22,22 @@
     },
     {
       "item": "Wells DVT items on history and exam: bedridden >3 days, active cancer, prior VTE, recent surgery, pitting edema confined to the symptomatic leg, collateral superficial veins",
-      "rationale": "Structured pretest probability determines whether ultrasound can wait until morning",
+      "rationale": "One structured pretest-probability instrument; determines whether ultrasound can wait until morning",
       "must_have": true
     },
     {
-      "item": "Ask about pleuritic chest pain, dyspnea, or presyncope; check resting heart rate and respiratory rate",
+      "item": "Ask about pleuritic chest pain, dyspnea, or presyncope",
       "rationale": "Screens for concurrent pulmonary embolism, which changes urgency",
       "must_have": false
     },
     {
       "item": "Inspect for well-demarcated erythema, warmth, lymphangitic streaking, and a portal of entry",
-      "rationale": "Cellulitis is the main mimic of DVT in a unilateral swollen leg",
+      "rationale": "Cellulitis signs (one construct) are the main mimic of DVT in a unilateral swollen leg",
       "must_have": false
     },
     {
-      "item": "Palpate along the deep venous course for tenderness and a superficial cord; note whether edema is pitting and its proximal extent",
-      "rationale": "Localizes the process and estimates proximal extension",
+      "item": "Tenderness along the deep venous course and a palpable superficial cord",
+      "rationale": "Localizes thrombus and supports proximal extension",
       "must_have": false
     }
   ],
@@ -58,7 +58,7 @@
     "case_id": "edema_003_p1",
     "changed_feature": "unilateral right calf swelling and pain -> bilateral symmetric leg swelling and aching (single swap: laterality)",
     "input_oneliner": "Page: 48F day 4 of pneumonia admission, new bilateral symmetric leg swelling and aching since this afternoon, HR 96, afebrile, SpO2 96%",
-    "expected_change": "DVT falls: Calf circumference asymmetry >3 cm and Wells items drop; JVP with Abdominojugular reflux and Medication review (MAR) for cumulative IV fluids, dihydropyridine, and steroids rise to must_have; cellulitis inspection drops."
+    "expected_change": "DVT falls: Calf circumference asymmetry >3 cm, Wells items, and deep-venous tenderness drop; JVP, Abdominojugular reflux, and Medication review (MAR) for cumulative IV fluids, dihydropyridine, and steroids rise to must_have; cellulitis inspection drops."
   },
   "noise_variant": {
     "case_id": "edema_003_n1",

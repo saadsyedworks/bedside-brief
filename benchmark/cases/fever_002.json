@@ -17,13 +17,13 @@
   ],
   "reference_targets_freetext": [
     {
-      "item": "Hard signs of necrotizing infection: pain out of proportion, tenderness extending beyond the erythema margin, crepitus, bullae, skin anesthesia, dusky or violaceous skin, rapid spread",
-      "rationale": "Presence of any hard sign mandates immediate surgical evaluation; absence does not exclude but lowers urgency",
+      "item": "Hard signs of necrotizing infection: pain out of proportion, tenderness beyond the erythema margin, crepitus, bullae, skin anesthesia, dusky or violaceous skin, rapid spread",
+      "rationale": "Any hard sign mandates immediate surgical evaluation (Fernando 2019 meta-analysis: high LR+, low sensitivity)",
       "must_have": true
     },
     {
       "item": "Knee and ankle joint exam: effusion, warmth, and pain with passive range of motion",
-      "rationale": "Septic arthritis presents with fever and a hot swollen joint; passive ROM pain is a key discriminator from periarticular cellulitis",
+      "rationale": "Septic arthritis presents with fever and a hot swollen joint; passive ROM pain discriminates from periarticular cellulitis",
       "must_have": true
     },
     {
@@ -32,8 +32,13 @@
       "must_have": false
     },
     {
-      "item": "Ask about portal of entry: foot ulcer, interdigital fissure, trauma, injection; inspect the feet and web spaces",
-      "rationale": "Diabetic foot lesions are the usual entry site and change source control",
+      "item": "Inspect the feet and interdigital web spaces for ulcer, fissure, or tinea",
+      "rationale": "Diabetic foot lesions are the usual portal of entry and change source control",
+      "must_have": false
+    },
+    {
+      "item": "Ask about trauma, injection, or a prior episode at the site",
+      "rationale": "Portal-of-entry history and recurrence pattern",
       "must_have": false
     },
     {
@@ -65,7 +70,7 @@
     "case_id": "fever_002_p1",
     "changed_feature": "pain out of proportion in the leg -> hot swollen knee with refusal of passive range of motion",
     "input_oneliner": "58M DM admitted for DKA now resolved, T 39.2, left lower leg red and swollen, left knee hot and swollen, will not allow passive movement",
-    "expected_change": "Septic arthritis becomes the leading differential; joint effusion and passive ROM exam becomes the top must-have and arthrocentesis moves to the off-bedside list; hard signs of necrotizing infection drop to should-still-include; erythema-border marking drops."
+    "expected_change": "Septic arthritis becomes the leading differential; knee and ankle joint exam becomes the top must-have and arthrocentesis moves to the off-bedside list; hard signs of necrotizing infection drop to should-still-include; erythema-margin marking drops."
   },
   "noise_variant": {
     "case_id": "fever_002_n1",

@@ -17,8 +17,13 @@
   ],
   "reference_targets_freetext": [
     {
-      "item": "Respiratory rate; Focal consolidation: egophony, bronchial breath sounds, dullness to percussion; Focal crackles",
-      "rationale": "Abnormal vital signs plus asymmetric lung findings are the best bedside predictors of pneumonia; normal vitals and exam lower probability",
+      "item": "Respiratory rate",
+      "rationale": "Tachypnea is the vital sign most predictive of pneumonia; entirely normal vitals lower probability (Metlay 1997 RCE)",
+      "must_have": false
+    },
+    {
+      "item": "Focal consolidation signs: egophony, bronchial breath sounds, dullness, focal crackles",
+      "rationale": "Asymmetric consolidation findings are the best bedside predictors of pneumonia (Metlay 1997 RCE); focal crackles folded in as the same construct",
       "must_have": true
     },
     {
@@ -27,18 +32,18 @@
       "must_have": true
     },
     {
-      "item": "Costovertebral angle (CVA) tenderness and suprapubic tenderness; inspect the catheter site; ask about flank pain or rigors",
-      "rationale": "Catheter-associated UTI needs symptoms beyond bacteriuria; flank tenderness or rigors raise pyelonephritis",
+      "item": "Costovertebral angle (CVA) tenderness and suprapubic tenderness",
+      "rationale": "Catheter-associated UTI needs findings beyond bacteriuria; flank tenderness raises pyelonephritis",
       "must_have": true
+    },
+    {
+      "item": "Ask: sputum, pleuritic chest pain, dysuria, flank pain, rigors, new medications, transfusion",
+      "rationale": "Localizing symptom review directs the differential and identifies drug or transfusion fever",
+      "must_have": false
     },
     {
       "item": "Calf circumference asymmetry >3 cm, calf tenderness, unilateral swelling",
       "rationale": "Post-operative immobility makes DVT a real cause of low-grade fever",
-      "must_have": false
-    },
-    {
-      "item": "Ask: sputum, pleuritic chest pain, chills, new medications, transfusion, and incentive spirometry use",
-      "rationale": "Directs the differential and identifies drug fever or atelectasis as alternative explanations",
       "must_have": false
     }
   ],
@@ -60,7 +65,7 @@
     "case_id": "fever_001_p1",
     "changed_feature": "operation: knee arthroplasty -> sigmoid colectomy",
     "input_oneliner": "71F POD2 sigmoid colectomy, Foley in, T 38.6 overnight, mild cough, no complaints otherwise",
-    "expected_change": "Intra-abdominal abscess or anastomotic leak enters the top differential; abdominal exam for distension and peritoneal signs becomes must-have; wound inspection remains must-have; lung exam stays but drops to should-still-include; ask about flatus, bowel function, and drain output rises."
+    "expected_change": "Intra-abdominal abscess or anastomotic leak enters the top differential; abdominal exam for distension and peritoneal signs becomes must-have and wound inspection stays must-have; focal consolidation signs and respiratory rate drop to should-still-include; ask about flatus, bowel function, and drain output rises."
   },
   "noise_variant": {
     "case_id": "fever_001_n1",

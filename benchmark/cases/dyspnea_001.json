@@ -36,8 +36,8 @@
       "must_have": false
     },
     {
-      "item": "Bibasilar crackles and wheeze on lung auscultation",
-      "rationale": "Crackles support pulmonary edema; wheeze may be cardiac asthma",
+      "item": "Bibasilar crackles",
+      "rationale": "Crackles support pulmonary edema",
       "must_have": false
     },
     {
@@ -65,7 +65,7 @@
     "case_id": "dyspnea_001_p1",
     "changed_feature": "added fever (38.9 C)",
     "input_oneliner": "68M HFrEF EF 30%, admitted for cellulitis, got 3L IVF yesterday, febrile to 38.9 tonight, now short of breath overnight, sat 89% on room air",
-    "expected_change": "Focal consolidation exam (egophony, bronchial breath sounds, dullness; Focal crackles) becomes must_have and ask about cough/sputum/rigors rises; JVP and S3 gallop remain must_have; edema check drops to should-still-include."
+    "expected_change": "Focal consolidation signs (egophony, bronchial breath sounds, dullness; Focal crackles) become must_have and ask about cough/sputum/rigors rises; JVP and S3 gallop remain must_have; edema check drops to should-still-include."
   },
   "noise_variant": {
     "case_id": "dyspnea_001_n1",

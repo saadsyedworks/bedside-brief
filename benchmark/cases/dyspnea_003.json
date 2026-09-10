@@ -32,13 +32,18 @@
       "must_have": true
     },
     {
-      "item": "Focal consolidation: egophony, bronchial breath sounds, dullness to percussion; Focal crackles; ask about fever and productive cough",
-      "rationale": "Post-operative pneumonia is the main alternative",
+      "item": "Focal consolidation: egophony, bronchial breath sounds, dullness to percussion; Focal crackles",
+      "rationale": "Consolidation signs support post-operative pneumonia",
       "must_have": false
     },
     {
-      "item": "JVP and loud P2 or right ventricular heave",
-      "rationale": "Right heart strain signs suggest a large PE",
+      "item": "Ask about fever, rigors, and productive cough",
+      "rationale": "Infective history supports pneumonia over PE",
+      "must_have": false
+    },
+    {
+      "item": "JVP (jugular venous pressure) elevated",
+      "rationale": "Elevated JVP suggests right heart strain from a large PE",
       "must_have": false
     },
     {
@@ -65,7 +70,7 @@
     "case_id": "dyspnea_003_p1",
     "changed_feature": "added fever (T 38.9 C)",
     "input_oneliner": "POD3 hip fracture repair, 79F, sudden dyspnea and right-sided pleuritic pain 20 min ago, T 38.9, HR 112, RR 26, sat 91% RA",
-    "expected_change": "Focal consolidation exam (egophony, bronchial breath sounds, dullness; Focal crackles) and ask about cough/sputum become must_have; pneumonia rises alongside PE; Calf circumference asymmetry >3 cm remains must_have; ACS screening question drops."
+    "expected_change": "Focal consolidation signs (egophony, bronchial breath sounds, dullness; Focal crackles) and Ask about rigors and productive cough become must_have; pneumonia rises alongside PE; Calf circumference asymmetry >3 cm remains must_have; ACS screening question drops."
   },
   "noise_variant": {
     "case_id": "dyspnea_003_n1",

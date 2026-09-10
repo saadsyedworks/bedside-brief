@@ -21,23 +21,38 @@
       "must_have": true
     },
     {
-      "item": "Pronator drift, arm and leg strength, gaze deviation, visual fields, and language testing (naming, repetition, comprehension)",
-      "rationale": "Limb, gaze, field, or language deficits alongside facial droop establish a central lesion and drive stroke-alert activation",
+      "item": "Pronator drift and side-to-side arm and leg strength",
+      "rationale": "Arm drift is a Cincinnati stroke item; with facial paresis or abnormal speech it establishes a central lesion (Goldstein 2005 RCE)",
       "must_have": true
     },
     {
-      "item": "Establish last-known-well time precisely and ask about apixaban adherence and last dose",
-      "rationale": "Time window and anticoagulant status determine eligibility for reperfusion therapy",
-      "must_have": true
-    },
-    {
-      "item": "Ask about headache, neck pain, vomiting, and check blood pressure",
-      "rationale": "Severe headache and hypertension with a focal deficit raise concern for hemorrhage",
+      "item": "Speech and language testing: dysarthria versus aphasia (read a sentence, name objects, repeat)",
+      "rationale": "Abnormal speech is a Cincinnati item; aphasia is cortical, dysarthria alone is compatible with either lesion",
       "must_have": false
     },
     {
-      "item": "Dysarthria versus aphasia: have the patient read a sentence and name objects",
-      "rationale": "Dysarthria alone is compatible with either central or peripheral lesion; aphasia is cortical",
+      "item": "Gaze deviation",
+      "rationale": "Gaze preference localizes a hemispheric lesion and is incompatible with Bell palsy",
+      "must_have": false
+    },
+    {
+      "item": "Visual fields to confrontation",
+      "rationale": "A field cut indicates a cortical lesion",
+      "must_have": false
+    },
+    {
+      "item": "Establish last-known-well time precisely",
+      "rationale": "Time window determines eligibility for reperfusion therapy",
+      "must_have": true
+    },
+    {
+      "item": "Ask about apixaban adherence and time of last dose",
+      "rationale": "Anticoagulant status determines thrombolysis eligibility and hemorrhage risk",
+      "must_have": false
+    },
+    {
+      "item": "Ask about headache, neck pain, and vomiting",
+      "rationale": "Severe headache or vomiting with a focal deficit raises concern for hemorrhage",
       "must_have": false
     }
   ],
@@ -58,7 +73,7 @@
     "case_id": "weakness_001_p1",
     "changed_feature": "added: droop involves the forehead and the eye will not close",
     "input_oneliner": "Rapid page: 68F HTN, AF on apixaban, RN found L facial droop involving forehead and cannot close L eye, slurred speech, last seen normal 40 min ago",
-    "expected_change": "Bell palsy rises to co-leading differential; forehead sparing check remains must-have; limb drift, gaze, and language testing remain but become confirmatory rather than the lead; otoscopy for ear canal vesicles and questions about ear pain, hyperacusis, and taste change rise."
+    "expected_change": "Bell palsy rises to co-leading differential; forehead sparing check remains must-have; pronator drift, gaze deviation, visual fields, and speech/language testing remain but become confirmatory rather than the lead; otoscopy for ear canal vesicles and questions about ear pain, hyperacusis, and taste change rise."
   },
   "noise_variant": {
     "case_id": "weakness_001_n1",

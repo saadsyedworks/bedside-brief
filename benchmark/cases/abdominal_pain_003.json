@@ -27,23 +27,28 @@
       "must_have": true
     },
     {
-      "item": "Palpate for a pulsatile, expansile abdominal mass and check femoral pulses bilaterally",
-      "rationale": "Abdominal palpation detects most large AAAs; asymmetric femoral pulses raise concern for rupture or dissection",
+      "item": "Palpate for a pulsatile, expansile abdominal mass",
+      "rationale": "Abdominal palpation detects most AAAs of 5 cm or more; definite pulsatile mass has a high LR+ (Lederle 1999 RCE)",
       "must_have": true
     },
     {
-      "item": "Ask: prior abdominal surgery, vomiting, last flatus and bowel movement; inspect for distension and check hernia orifices",
-      "rationale": "Adhesions and hernias cause most small bowel obstructions; obstipation and distension support it",
+      "item": "Femoral pulses bilaterally",
+      "rationale": "Asymmetric or absent femoral pulses raise concern for aortic rupture, dissection, or embolism",
+      "must_have": false
+    },
+    {
+      "item": "Ask: prior abdominal surgery, vomiting, last flatus and bowel movement",
+      "rationale": "Adhesions cause most small bowel obstructions; obstipation and vomiting support it",
+      "must_have": false
+    },
+    {
+      "item": "Inspect for abdominal distension and check hernia orifices",
+      "rationale": "Distension and an incarcerated hernia point to obstruction",
       "must_have": false
     },
     {
       "item": "Digital rectal examination (DRE) - for blood",
       "rationale": "Bloody stool supports bowel ischemia",
-      "must_have": false
-    },
-    {
-      "item": "Repeat vital signs; Orthostatic vital signs (supine to standing at 1 and 3 min) only if hemodynamically stable",
-      "rationale": "Tachycardia out of proportion and emerging hypotension mark a surgical abdomen",
       "must_have": false
     }
   ],
@@ -65,7 +70,7 @@
     "case_id": "abdominal_pain_003_p1",
     "changed_feature": "comorbidity: AF not anticoagulated -> known 5.2 cm AAA under surveillance",
     "input_oneliner": "79M with known 5.2 cm AAA under surveillance, sudden severe diffuse abdominal pain 1h, RN says belly soft, HR 118, BP 128/76",
-    "expected_change": "AAA rupture becomes the leading differential; pulsatile mass palpation and bilateral femoral pulses remain must-have and lead the card; the back or flank pain question becomes must-have; pain-out-of-proportion assessment drops to should-still-include; rectal exam for blood drops."
+    "expected_change": "AAA rupture becomes the leading differential; pulsatile mass palpation stays must-have and femoral pulses and the back or flank pain question become must-have; pain-out-of-proportion assessment drops to should-still-include; rectal exam for blood drops."
   },
   "noise_variant": {
     "case_id": "abdominal_pain_003_n1",

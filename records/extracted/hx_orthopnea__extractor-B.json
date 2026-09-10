@@ -1,0 +1,109 @@
+{
+ "identity": {
+  "id": "hx_orthopnea",
+  "title": "Orthopnea: dyspnea lying flat relieved by sitting up / number of pillows",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "chest_pain",
+   "edema"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "acute_decompensated_hf",
+   "cardiorenal",
+   "copd_exacerbation",
+   "pericardial_effusion_tamponade"
+  ],
+  "indication_tags": [
+   "nocturnal",
+   "positional",
+   "hf_known"
+  ]
+ },
+ "technique": {
+  "how": "Ask whether breathlessness starts or worsens within minutes of lying flat and is relieved by sitting up, and how many pillows or what head elevation is needed to sleep; distinguish from habitual pillow use for comfort or reflux. Ask about bendopnea (dyspnea within ~30 s of bending forward) as a related filling-pressure symptom.",
+  "prerequisites": "Reliable historian or collateral; clarify that the pillows are for breathing rather than comfort or GERD.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "True orthopnea reflects raised left-sided filling pressure on recumbency and is relatively specific for heart failure (specificity ~89% in primary care), though it also occurs in severe COPD, bilateral diaphragm weakness, massive ascites/obesity and large pericardial effusion.",
+  "negative_finding": "Absence of orthopnea is common in heart failure (sensitivity roughly 0.2-0.8 across ED studies) and does not exclude it.",
+  "pitfalls": "Patients often report pillow number without connecting it to dyspnea; chronic HF patients on diuretics may lose orthopnea despite elevated wedge pressure. Platypnea (worse upright) points to shunt or hepatopulmonary syndrome instead.",
+  "changes_what": "Orthopnea shifts undifferentiated dyspnea toward acute HF/volume overload and prompts JVP, S3, BNP or lung POCUS; absence should not remove HF from the differential."
+ },
+ "sources": [
+  {
+   "citation": "Mant J, Doust J, Roalfe A, et al. Systematic review and individual patient data meta-analysis of diagnosis of heart failure, with modelling of implications of different diagnostic strategies in primary care. Health Technol Assess 2009;13(32):1-207.",
+   "doi": "10.3310/hta13320",
+   "pmid": "19586584",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2009
+  },
+  {
+   "citation": "Signs and symptoms in adult patients with acute dyspnea: a systematic review and meta-analysis. Eur J Emerg Med 2018;25(1):3-11 (author list not retrievable via abstract tool; confirmed by PMID/DOI).",
+   "doi": "10.1097/MEJ.0000000000000429",
+   "pmid": "29252938",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2018
+  },
+  {
+   "citation": "Wang CS, FitzGerald JM, Schulzer M, Mak E, Ayas NT. Does this dyspneic patient in the emergency department have congestive heart failure? JAMA 2005;294(15):1944-56.",
+   "doi": "10.1001/jama.294.15.1944",
+   "pmid": "16234501",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2005
+  },
+  {
+   "citation": "Mueller C, Frana B, Scholer A, Laule-Kilian K, Perruchoud AP. Emergency diagnosis of congestive heart failure: impact of signs and symptoms. Can J Cardiol 2005;21(11):921-4.",
+   "doi": null,
+   "pmid": "16239975",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2005
+  }
+ ],
+ "estimates": [
+  {
+   "target_condition": "Heart failure (new diagnosis) in primary care",
+   "population": "Patients with suspected heart failure in primary care; IPD meta-analysis of 9 studies",
+   "setting": "outpatient",
+   "prevalence": null,
+   "reference_standard": "Echocardiography / expert panel per included studies",
+   "sensitivity": null,
+   "specificity": {
+    "value": 0.89,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "orthopnoea (89%), oedema (72%), elevated jugular venous pressure (70%), cardiomegaly (85%), added heart sounds (99%), lung crepitations (81%)",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "safety_scope": {
+  "do_not_use_when": "Do not use absence of orthopnea to exclude heart failure or tamponade, and do not attribute orthopnea to HF without examining for effusion, ascites or neuromuscular weakness.",
+  "escalation_warning": "Orthopnea with inability to lie flat at all plus hypotension or hypoxemia indicates flash pulmonary edema or tamponade and needs immediate assessment.",
+  "interobserver_note": "Symptom elicitation varies with how the question is phrased; pillow count alone is unreliable."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Wang 2005 RCE reports orthopnea LR+ ~2.2 (CI ~1.2-3.9) in its evidence table, but the JAMA table is not accessible through the abstract tool, so it is not entered as an estimate. The Eur J Emerg Med 2018 review gives only ranges for orthopnea (sensitivity 0.2-0.76, specificity 0.49-0.92) without a pooled point estimate, so no estimate is recorded from it. Mueller 2005 (ED, n=452) did not report an orthopnea OR in the abstract. Only Mant 2009 specificity (89%) is abstract-visible, hence partially_quantified; sensitivity is null. Searches for primary hemodynamic studies (Chakko 1991, Stevenson 1989) found no orthopnea-specific numbers in abstracts.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T01:37:17+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

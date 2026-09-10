@@ -17,33 +17,43 @@
   ],
   "reference_targets_freetext": [
     {
-      "item": "Sensory level to pinprick and temperature on the trunk, and vibration sense in the legs",
+      "item": "Sensory level to pinprick and temperature on the trunk",
       "rationale": "A sensory level localizes cord compression and is the single most useful bedside finding for a myelopathy",
       "must_have": true
     },
     {
-      "item": "Deep tendon reflexes in the legs, plantar responses (Babinski), and tone",
+      "item": "Deep tendon reflexes, plantar responses (Babinski), and tone in the legs",
       "rationale": "Hyperreflexia and extensor plantars indicate cord compression; areflexia points to GBS or cauda equina",
       "must_have": true
     },
     {
-      "item": "Saddle sensation, digital rectal examination (DRE) - anal tone, and bladder percussion/palpation for retention",
-      "rationale": "Saddle anesthesia, reduced anal tone, and painless retention are the red flags for cauda equina and lower cord involvement",
+      "item": "Saddle sensation and digital rectal examination (DRE) - anal tone",
+      "rationale": "Saddle anesthesia and reduced anal tone are the red flags for cauda equina",
       "must_have": true
     },
     {
-      "item": "Spinal percussion tenderness and ask whether pain is worse lying flat or at night",
+      "item": "Bladder percussion/palpation for retention",
+      "rationale": "Painless retention accompanies cauda equina and lower cord involvement",
+      "must_have": false
+    },
+    {
+      "item": "Spinal percussion tenderness",
       "rationale": "Localizes the vertebral level of metastatic involvement",
       "must_have": false
     },
     {
-      "item": "Ask: onset and progression, bowel or bladder change, and whether weakness is symmetric; test hip flexion strength and sit-to-stand",
-      "rationale": "Defines pattern and speed of progression; bilateral symmetric leg weakness with back pain in cancer is cord compression until proven otherwise",
+      "item": "Ask whether back pain is worse lying flat or at night",
+      "rationale": "Nocturnal or recumbent pain is characteristic of vertebral metastasis",
       "must_have": false
     },
     {
-      "item": "Medication review (MAR): steroid, opioid, and diuretic dose changes",
-      "rationale": "Steroid myopathy and hypokalemia are treatable confounders in this population",
+      "item": "Ask: onset and progression, bowel or bladder change, and whether weakness is symmetric",
+      "rationale": "Speed of progression and symmetry define urgency; bilateral leg weakness with back pain in cancer is cord compression until proven otherwise",
+      "must_have": false
+    },
+    {
+      "item": "Hip flexion strength against resistance and sit-to-stand",
+      "rationale": "Quantifies proximal leg weakness for serial comparison",
       "must_have": false
     }
   ],
@@ -64,7 +74,7 @@
     "case_id": "weakness_002_p1",
     "changed_feature": "comorbidity: metastatic prostate cancer -> Campylobacter gastroenteritis 2 weeks ago",
     "input_oneliner": "54M with Campylobacter gastroenteritis 2 weeks ago, admitted for dehydration, overnight says legs heavy, trouble standing, mid-back pain worse",
-    "expected_change": "GBS becomes the leading differential; reflexes (areflexia) remain must-have; single breath count or forced vital capacity for respiratory muscle strength and ask about ascending pattern and paresthesias become must-have; sensory level and spinal percussion tenderness drop to should-still-include."
+    "expected_change": "GBS becomes the leading differential; deep tendon reflexes (areflexia) remain must-have; single breath count or forced vital capacity for respiratory muscle strength and the ascending-pattern and paresthesia question become must-have; sensory level, saddle sensation/anal tone, and spinal percussion tenderness drop to should-still-include."
   },
   "noise_variant": {
     "case_id": "weakness_002_n1",

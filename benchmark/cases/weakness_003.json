@@ -17,14 +17,19 @@
   ],
   "reference_targets_freetext": [
     {
-      "item": "Ask: focal versus generalized, sudden versus gradual onset, and whether weakness is new today or progressive since admission",
+      "item": "Ask: focal versus generalized, sudden versus gradual onset, new today or progressive since admission, and whether the problem is weakness, dizziness, or pain on standing",
       "rationale": "The one-liner cannot be ranked until pattern and time course are known; sudden focal weakness is a stroke until proven otherwise",
       "must_have": true
     },
     {
-      "item": "Pronator drift, facial symmetry, and side-to-side comparison of arm and leg strength",
-      "rationale": "Detects an unrecognized focal deficit in an elderly inpatient whose weakness was attributed to illness",
+      "item": "Pronator drift and side-to-side arm and leg strength",
+      "rationale": "Detects an unrecognized focal deficit in an elderly inpatient whose weakness was attributed to illness (Goldstein 2005 RCE)",
       "must_have": true
+    },
+    {
+      "item": "Facial symmetry",
+      "rationale": "Facial paresis is a Cincinnati item for stroke",
+      "must_have": false
     },
     {
       "item": "Proximal strength: sit-to-stand without arms, hip flexion against resistance, arms held above head",
@@ -32,8 +37,8 @@
       "must_have": true
     },
     {
-      "item": "Orthostatic vital signs (supine to standing at 1 and 3 min); ask whether the problem is weakness, dizziness, or pain when standing",
-      "rationale": "Patients often report orthostatic lightheadedness or pain as weakness",
+      "item": "Orthostatic vital signs (supine to standing at 1 and 3 min)",
+      "rationale": "Patients often report orthostatic lightheadedness as weakness",
       "must_have": false
     },
     {
@@ -42,8 +47,13 @@
       "must_have": false
     },
     {
-      "item": "Medication review (MAR): diuretics; ask about poor oral intake and refeeding since admission",
-      "rationale": "Hypokalemia and hypophosphatemia are common, reversible causes of new generalized weakness in the elderly inpatient",
+      "item": "Medication review (MAR): diuretics, steroids, laxatives",
+      "rationale": "Diuretic and steroid exposure point to hypokalemia or steroid myopathy",
+      "must_have": false
+    },
+    {
+      "item": "Ask about poor oral intake and refeeding since admission",
+      "rationale": "Hypophosphatemia from refeeding is a reversible cause of new generalized weakness",
       "must_have": false
     }
   ],
@@ -63,7 +73,7 @@
     "case_id": "weakness_003_p1",
     "changed_feature": "no focal finding -> PT observed new right arm drift",
     "input_oneliner": "82F hospital day 6 for UTI, PT reports 'too weak to walk today', PT noted the right arm drifting down when she held both up",
-    "expected_change": "Underspecified flag should clear; stroke becomes the leading differential; Pronator drift and facial symmetry remain must-have; language testing and last-known-well time become must-have; proximal strength testing and refeeding/diuretic questions drop to should-still-include."
+    "expected_change": "Underspecified flag should clear; stroke becomes the leading differential; pronator drift confirmation, facial symmetry, speech/language testing, and last-known-well time become must-have; proximal strength testing, medication review, and the refeeding question drop to should-still-include."
   },
   "noise_variant": {
     "case_id": "weakness_003_n1",

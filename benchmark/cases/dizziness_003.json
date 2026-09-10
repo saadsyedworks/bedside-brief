@@ -22,9 +22,14 @@
       "must_have": true
     },
     {
-      "item": "Ask triggers: rolling in bed or head turning, standing up, or no trigger; and whether it is spinning, near-faint, or unsteadiness",
+      "item": "Ask triggers: rolling in bed or head turning, standing up, or no trigger",
       "rationale": "Trigger determines whether Dix-Hallpike, orthostatics, or HINTS is the right next step",
       "must_have": true
+    },
+    {
+      "item": "Ask symptom quality: spinning, near-faint, or unsteadiness",
+      "rationale": "Quality is less reliable than timing/triggers but still narrows the branch",
+      "must_have": false
     },
     {
       "item": "Orthostatic vital signs (supine to standing at 1 and 3 min)",
@@ -37,8 +42,13 @@
       "must_have": false
     },
     {
-      "item": "Gait assessment: can the patient stand and walk unaided; screen for new focal neurologic symptoms (diplopia, dysarthria, weakness)",
-      "rationale": "Gait failure or focal signs escalate to stroke evaluation",
+      "item": "Gait assessment: can the patient stand and walk unaided",
+      "rationale": "Gait failure escalates to stroke evaluation",
+      "must_have": false
+    },
+    {
+      "item": "Screen for new focal neurologic symptoms (diplopia, dysarthria, weakness, numbness)",
+      "rationale": "Focal symptoms escalate to stroke evaluation",
       "must_have": false
     }
   ],
@@ -57,7 +67,7 @@
     "case_id": "dizziness_003_p1",
     "changed_feature": "timing/trigger specified: unspecified dizziness -> seconds of spinning each time she turns in bed",
     "input_oneliner": "Cross-cover page: 62F on the tele floor, nurse says she gets spinning for seconds each time she turns in bed tonight, asking if you want anything ordered",
-    "expected_change": "Underspecified flag should no longer fire; Dix-Hallpike maneuver becomes must_have and bppv rises to top of differential; the timing/trigger questions are answered and drop; Orthostatic vital signs remain should-still-include."
+    "expected_change": "Underspecified flag should no longer fire; Dix-Hallpike maneuver becomes must_have and bppv rises to top of differential; Ask timing, Ask triggers, and Ask symptom quality are answered and drop; Orthostatic vital signs remain should-still-include."
   },
   "noise_variant": {
     "case_id": "dizziness_003_n1",

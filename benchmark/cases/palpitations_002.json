@@ -36,8 +36,13 @@
       "must_have": false
     },
     {
-      "item": "Ask about angina or dyspnea in the preceding days; Medication review (MAR): missed or held beta-blocker or antiarrhythmic doses",
-      "rationale": "Ischemia and missed antiarrhythmic therapy are common VT triggers in a scarred ventricle",
+      "item": "Ask about angina or dyspnea in the preceding days",
+      "rationale": "Recent ischemic symptoms point to ischemia-triggered VT in a scarred ventricle",
+      "must_have": false
+    },
+    {
+      "item": "Medication review (MAR): missed or held beta-blocker or antiarrhythmic doses",
+      "rationale": "Missed antiarrhythmic therapy is a common, reversible VT trigger",
       "must_have": false
     },
     {
@@ -64,7 +69,7 @@
     "case_id": "palpitations_002_p1",
     "changed_feature": "prior anterior MI with EF 35% -> no cardiac history, structurally normal heart (single swap: comorbidity)",
     "input_oneliner": "45M no cardiac history, admitted for chest pain rule-out, sudden-onset regular pounding heartbeat 20 min ago, HR 170, BP 104/68, lightheaded, mentating",
-    "expected_change": "Modified Valsalva maneuver rises to must_have (SVT now most likely); the prior-episodes-since-youth and neck-pounding questions rise; cannon a waves/variable S1 drop to should-still-include; bedside hemodynamic stability remains must_have."
+    "expected_change": "Modified Valsalva maneuver rises to must_have (SVT now most likely); the prior-episodes-since-youth and neck-pounding questions rise; cannon a waves/variable S1 drop to should-still-include; the angina question and Medication review (MAR) drop; bedside hemodynamic stability remains must_have."
   },
   "noise_variant": {
     "case_id": "palpitations_002_n1",

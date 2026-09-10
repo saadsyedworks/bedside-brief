@@ -1,0 +1,269 @@
+{
+ "identity": {
+  "id": "exam_s3_gallop",
+  "title": "Third heart sound (S3 gallop) at apex with bell, left lateral decubitus",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "chest_pain",
+   "edema",
+   "hypotension",
+   "aki"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "acs",
+   "acute_decompensated_hf",
+   "cardiogenic_shock",
+   "cardiorenal"
+  ],
+  "indication_tags": [
+   "hf_known"
+  ]
+ },
+ "technique": {
+  "how": "Place the bell lightly over the apex with the patient in left lateral decubitus, in a quiet room, at end-expiration. Listen for a low-pitched dull sound 0.12-0.18 s after S2 (early diastole) giving a 'Ken-tuck-y' cadence; a right-sided S3 is heard at the lower left sternal border and increases with inspiration.",
+  "prerequisites": "Quiet environment, bell with light pressure, patient rolled to the left; time the sound against the carotid pulse.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "In dyspneic ED adults an audible S3 gallop is the single most rule-in physical sign for heart failure (pooled LR+ 11 in the RCE, 4.0 in a later meta-analysis) and is highly specific for elevated LVEDP or reduced LVEF. In acute MI it marks LV dysfunction and worse prognosis.",
+  "negative_finding": "Absence of an S3 barely changes the probability of heart failure (sensitivity ~11-50%), so a negative examination must not be used to rule out HF.",
+  "pitfalls": "A physiologic S3 is normal in children, young adults, athletes and pregnancy. Easily missed with the diaphragm, in obesity, COPD, tachycardia (summation gallop) or a noisy ward; can be confused with split S2, opening snap or pericardial knock.",
+  "changes_what": "Present S3 strongly raises probability of acute HF/cardiogenic cause and supports diuresis and echo; absent S3 does not lower it."
+ },
+ "sources": [
+  {
+   "citation": "Wang CS, FitzGerald JM, Schulzer M, Mak E, Ayas NT. Does this dyspneic patient in the emergency department have congestive heart failure? JAMA 2005;294(15):1944-56.",
+   "doi": "10.1001/jama.294.15.1944",
+   "pmid": "16234501",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2005
+  },
+  {
+   "citation": "Martindale JL, Wakai A, Collins SP, et al. Diagnosing acute heart failure in the emergency department: a systematic review and meta-analysis. Acad Emerg Med 2016;23(3):223-42.",
+   "doi": "10.1111/acem.12878",
+   "pmid": "26910112",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2016
+  },
+  {
+   "citation": "Marcus GM, Gerber IL, McKeown BH, et al. Association between phonocardiographic third and fourth heart sounds and objective measures of left ventricular function. JAMA 2005;293(18):2238-44.",
+   "doi": "10.1001/jama.293.18.2238",
+   "pmid": "15886379",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2005
+  },
+  {
+   "citation": "Mant J, Doust J, Roalfe A, et al. Systematic review and individual patient data meta-analysis of diagnosis of heart failure, with modelling of implications of different diagnostic strategies in primary care. Health Technol Assess 2009;13(32):1-207.",
+   "doi": "10.3310/hta13320",
+   "pmid": "19586584",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2009
+  },
+  {
+   "citation": "Signs and symptoms in adult patients with acute dyspnea: a systematic review and meta-analysis. Eur J Emerg Med 2018;25(1):3-11 (author list not retrievable via abstract tool; confirmed by PMID/DOI).",
+   "doi": "10.1097/MEJ.0000000000000429",
+   "pmid": "29252938",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2018
+  },
+  {
+   "citation": "Badgett RG, Lucey CR, Mulrow CD. Can the clinical examination diagnose left-sided heart failure in adults? JAMA 1997;277(21):1712-9.",
+   "doi": null,
+   "pmid": "9169900",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1997
+  }
+ ],
+ "estimates": [
+  {
+   "target_condition": "Congestive heart failure as cause of dyspnea",
+   "population": "Adult ED patients presenting with dyspnea; 22 studies pooled in RCE",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "Clinical/echo-based HF diagnosis per included studies",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 11,
+    "ci_low": 4.9,
+    "ci_high": 25.0
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "the sign of the third heart sound (S(3)) gallop (positive LR = 11; 95% CI, 4.9-25.0)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Acute heart failure as cause of dyspnea",
+   "population": "Adult ED patients with undifferentiated dyspnea; AHF prevalence 29-79% across included studies",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "Criterion standard = clinical data plus objective test results",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 4.0,
+    "ci_low": 2.7,
+    "ci_high": 5.9
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 1,
+   "quote": "the auscultation of S3 on physical examination (4.0, 95% confidence interval [CI] = 2.7 to 5.9)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Elevated left ventricular end-diastolic pressure",
+   "population": "90 adults undergoing elective left heart catheterization at a US teaching hospital; S3 detected by computerized phonocardiography (not auscultation)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Invasive LVEDP at catheterization",
+   "sensitivity": {
+    "value": 0.41,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.92,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 5.1,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.64,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "LR+ = 0.41/(1-0.92) = 5.1; LR- = (1-0.41)/0.92 = 0.64; specificity from abstract: 'the specificities of the S3 were 92%, 87%, and 92%'",
+   "interpretation_label": "rule_in",
+   "evidence_level": "single_study",
+   "source_index": 2,
+   "quote": "The sensitivities of these heart sounds to detect an elevated LVEDP, reduced LVEF, or elevated BNP were 41%, 52%, and 32% for an S3",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Reduced left ventricular ejection fraction",
+   "population": "Same 90-patient elective catheterization cohort; phonocardiographic S3",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Transthoracic echocardiographic LVEF",
+   "sensitivity": {
+    "value": 0.52,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.87,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 4.0,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.55,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "LR+ = 0.52/(1-0.87) = 4.0; LR- = (1-0.52)/0.87 = 0.55; sensitivity from abstract: 'were 41%, 52%, and 32% for an S3'",
+   "interpretation_label": "rule_in",
+   "evidence_level": "single_study",
+   "source_index": 2,
+   "quote": "the specificities of the S3 were 92%, 87%, and 92%",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Heart failure (new diagnosis) in primary care; index finding 'added heart sounds'",
+   "population": "Patients with suspected heart failure in primary care; IPD meta-analysis of 9 studies",
+   "setting": "outpatient",
+   "prevalence": null,
+   "reference_standard": "Echocardiography / expert panel per included studies",
+   "sensitivity": {
+    "value": 0.11,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.99,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 11,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.9,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "LR+ = 0.11/(1-0.99) = 11 (imprecise: specificity rounded to 99%); LR- = (1-0.11)/0.99 = 0.90; sensitivity quote: 'ranging from 11% (added heart sounds) to 53% (oedema)'",
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 3,
+   "quote": "orthopnoea (89%), oedema (72%), elevated jugular venous pressure (70%), cardiomegaly (85%), added heart sounds (99%), lung crepitations (81%)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Heart failure as cause of acute dyspnea",
+   "population": "Adults with a new episode of acute dyspnea; 8 ED studies, 4737 patients",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "Clinical diagnosis of HF per included studies",
+   "sensitivity": null,
+   "specificity": {
+    "value": 0.97,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 4,
+   "quote": "Elevated jugular venous pressure (0.88, pooled odds ratio: 7), added third heart sound (0.97), and lung crepitations (0.77, pooled odds ratio: 11)",
+   "location": "Abstract, Conclusion"
+  }
+ ],
+ "evidence_status": "quantified",
+ "safety_scope": {
+  "do_not_use_when": "Do not rely on absence of S3 to exclude heart failure, or on presence of S3 in a young/pregnant patient to diagnose it.",
+  "escalation_warning": "New S3 with chest pain or hypotension indicates significant LV dysfunction (possible MI/cardiogenic shock) and warrants urgent ECG, troponin and echo.",
+  "interobserver_note": "Interobserver agreement for S3 is poor to fair among clinicians; experienced listeners detect it more often (Badgett RCE; Marcus 2005 used phonocardiography as criterion standard)."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Wang 2005 abstract LR+ 11 is the primary estimate; Martindale 2016 pooled a different study set with lower LR+ 4.0, so both are entered separately rather than averaged. Marcus 2005 uses computerized phonocardiographic S3, which is more sensitive than bedside auscultation; LRs computed from rounded sens/spec without CIs. Mant 2009 'added heart sounds' includes S3/S4; LR+ from 99% specificity is numerically unstable. Badgett 1997 abstract has no numbers; cited for interobserver context. Wang's LR- for S3 (~0.88) is in the table only and not entered.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T01:37:17+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

@@ -18,7 +18,7 @@
   "reference_targets_freetext": [
     {
       "item": "Ask nurse and family: baseline cognition and function, what specifically changed, and when it started (time last known well)",
-      "rationale": "Without baseline and time course the differential cannot be ranked; this is the first question",
+      "rationale": "One collateral-history question; without baseline and time course the differential cannot be ranked",
       "must_have": true
     },
     {
@@ -27,18 +27,33 @@
       "must_have": true
     },
     {
-      "item": "Focal neurologic screen: Pronator drift, facial symmetry, gaze deviation, speech and language, visual fields",
-      "rationale": "A focal deficit converts this from a delirium workup to a stroke pathway",
+      "item": "Focal neurologic screen: Pronator drift, facial symmetry, gaze deviation, speech and language, visual fields, pupils",
+      "rationale": "One stroke-screen instrument; a focal deficit converts this from a delirium workup to a stroke pathway",
       "must_have": true
     },
     {
-      "item": "Medication review (MAR): sedatives, opioids, anticholinergics, insulin or sulfonylurea given since admission; ask the admitting diagnosis and home alcohol use",
-      "rationale": "New drugs on admission and unrecognized alcohol dependence are the commonest causes of a first-night change",
+      "item": "Medication review (MAR): sedatives, opioids, anticholinergics, insulin or sulfonylurea given since admission",
+      "rationale": "New drugs on admission are the commonest cause of a first-night change",
       "must_have": false
     },
     {
-      "item": "Verify temperature and respiratory rate yourself, check pupils; Bladder percussion/palpation for retention",
-      "rationale": "'Unremarkable' vitals by report do not exclude fever, hypoventilation, or retention",
+      "item": "Ask the admitting diagnosis",
+      "rationale": "The admitting problem (infection, COPD, liver disease) reorders the differential",
+      "must_have": false
+    },
+    {
+      "item": "Ask about home alcohol use and time of last drink",
+      "rationale": "Unrecognized alcohol dependence presents as withdrawal on the first night",
+      "must_have": false
+    },
+    {
+      "item": "Verify temperature and respiratory rate yourself",
+      "rationale": "'Unremarkable' vitals by report do not exclude fever or hypoventilation",
+      "must_have": false
+    },
+    {
+      "item": "Bladder percussion/palpation for retention",
+      "rationale": "Urinary retention is a reversible precipitant of acute confusion in older men",
       "must_have": false
     }
   ],
@@ -61,7 +76,7 @@
     "case_id": "ams_003_p1",
     "changed_feature": "adds the admitting diagnosis: COPD exacerbation, now on 5 L nasal cannula (single addition; replaces 'no further details')",
     "input_oneliner": "Page from 5-North: 80M admitted this afternoon for COPD exacerbation, now on 5 L nasal cannula, nurse says he is 'not himself' tonight, vitals per RN unremarkable",
-    "expected_change": "Underspecified flag should clear enough to rank: hypercapnia rises to the top; respiratory rate and pattern with arousability, asterixis, and Medication review (MAR) for oxygen titration and sedative/opioid doses become must_have; CAM delirium screen remains; focal neurologic screen drops to should-still-include."
+    "expected_change": "Underspecified flag should clear enough to rank: hypercapnia rises to the top; the respiratory rate/temperature item with arousability, asterixis, and Medication review (MAR) for oxygen titration and sedative/opioid doses become must_have; CAM delirium screen remains; the admitting-diagnosis question is answered; focal neurologic screen drops to should-still-include."
   },
   "noise_variant": {
     "case_id": "ams_003_n1",

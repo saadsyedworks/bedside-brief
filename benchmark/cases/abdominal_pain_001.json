@@ -28,7 +28,7 @@
     },
     {
       "item": "Psoas sign and obturator sign",
-      "rationale": "Retrocecal or pelvic appendix irritation; modest LR+ but cheap to elicit",
+      "rationale": "Same construct (appendix-position irritation signs): retrocecal or pelvic appendix; modest LR+ but cheap to elicit",
       "must_have": false
     },
     {
@@ -42,8 +42,13 @@
       "must_have": false
     },
     {
-      "item": "Costovertebral angle (CVA) tenderness; ask about dysuria or hematuria",
-      "rationale": "Separates pyelonephritis or stone from an intra-abdominal source",
+      "item": "Costovertebral angle (CVA) tenderness",
+      "rationale": "Flank tenderness points to pyelonephritis or stone rather than an intra-abdominal source",
+      "must_have": false
+    },
+    {
+      "item": "Ask about dysuria or hematuria",
+      "rationale": "Urinary symptoms shift probability toward a urinary source",
       "must_have": false
     }
   ],
@@ -64,7 +69,7 @@
     "case_id": "abdominal_pain_001_p1",
     "changed_feature": "pain location RLQ -> LLQ",
     "input_oneliner": "34M admitted for leg cellulitis, day 2, new periumbilical pain since evening now settling in LLQ, anorexic, T 38.1",
-    "expected_change": "Diverticulitis and colitis rise; RLQ-specific signs (psoas/obturator, Rovsing) drop; LLQ tenderness and localized peritoneal signs rise."
+    "expected_change": "Diverticulitis and colitis rise; RLQ tenderness, psoas/obturator, and Rovsing drop; LLQ tenderness and peritoneal signs rise."
   },
   "noise_variant": {
     "case_id": "abdominal_pain_001_n1",

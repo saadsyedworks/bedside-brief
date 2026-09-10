@@ -32,13 +32,18 @@
     },
     {
       "item": "Medication review (MAR): nebulized beta-agonist and steroid doses, missed beta-blocker; ask about alcohol and caffeine in the last 24 h",
-      "rationale": "Identifies reversible precipitants of secondary sinus tachycardia and new-onset AF",
+      "rationale": "One precipitant-history question: reversible drivers of secondary sinus tachycardia and new-onset AF",
       "must_have": false
     },
     {
-      "item": "JVP (jugular venous pressure) and Bibasilar crackles for heart failure as cause or consequence of the tachycardia",
-      "rationale": "Elevated JVP and crackles identify decompensated HF, which changes the rate-control agent and urgency",
+      "item": "JVP (jugular venous pressure)",
+      "rationale": "Elevated JVP identifies decompensated HF as cause or consequence, changing the rate-control agent and urgency",
       "must_have": true
+    },
+    {
+      "item": "Bibasilar crackles",
+      "rationale": "Pulmonary congestion from rapid AF or underlying HF; supports urgency of rate control",
+      "must_have": false
     },
     {
       "item": "Thyroid examination and signs of thyrotoxicosis: fine tremor, warm moist skin, lid lag",
@@ -64,7 +69,7 @@
     "case_id": "palpitations_001_p1",
     "changed_feature": "irregular HR 130s -> regular fixed rate of 150 on telemetry (single swap: rhythm)",
     "input_oneliner": "68F HTN and OSA, admitted for COPD exacerbation, woke with racing heartbeat, HR fixed at 150 regular on tele, BP 132/84, no chest pain",
-    "expected_change": "Pulse regularity/pulse deficit drops from must_have to should-still-include (regular rhythm expected); modified Valsalva maneuver (REVERT technique) rises to must_have to unmask flutter waves or terminate SVT; the neck-pounding question rises to must_have (AVNRT); the abrupt-onset question remains must_have."
+    "expected_change": "Pulse regularity/pulse deficit drops from must_have to should-still-include (regular rhythm expected); modified Valsalva maneuver (REVERT technique) rises to must_have to unmask flutter waves or terminate SVT; the neck-pounding question rises to must_have (AVNRT); the abrupt-onset question and JVP remain must_have; Bibasilar crackles unchanged."
   },
   "noise_variant": {
     "case_id": "palpitations_001_n1",

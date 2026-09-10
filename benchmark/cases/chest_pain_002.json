@@ -1,76 +1,80 @@
 {
   "case_id": "chest_pain_002",
   "presentation": "chest_pain",
-  "input_oneliner": "29F on OCPs, day 2 pyelo, sudden right pleuritic chest pain and dyspnea, HR 118, sat 93% RA, afebrile now",
+  "input_oneliner": "24M smoker admitted for IV antibiotics for cellulitis, sudden left-sided pleuritic chest pain and dyspnea 30 min ago, HR 108, RR 24, sat 94% RA",
   "optional_context": {
-    "age": 29,
-    "sex": "F",
-    "comorbidity": "oral contraceptive use",
-    "timing": "sudden, hospital day 2",
-    "objective": "HR 118, SpO2 93% RA"
+    "age": 24,
+    "sex": "M",
+    "comorbidity": "smoker, tall thin habitus",
+    "timing": "sudden, 30 minutes ago",
+    "objective": "HR 108, RR 24, SpO2 94% RA"
   },
   "intended_bedside_differential": [
-    "pulmonary_embolism",
     "pneumothorax",
+    "pulmonary_embolism",
     "pneumonia",
-    "pericarditis"
+    "musculoskeletal_chest_wall"
   ],
   "reference_targets_freetext": [
     {
-      "item": "Calf circumference asymmetry >3 cm (10 cm below tibial tuberosity), unilateral thigh or calf swelling or tenderness",
-      "rationale": "Clinical DVT is the strongest bedside predictor of PE",
+      "item": "Unilateral absent/decreased breath sounds with hyperresonance to percussion on the affected side",
+      "rationale": "Unilateral loss of breath sounds with hyperresonance is the specific bedside sign of pneumothorax",
       "must_have": true
     },
     {
-      "item": "Ask about hemoptysis, prior VTE, family history of VTE, and days of immobility during admission",
-      "rationale": "Pretest probability items obtainable at bedside",
+      "item": "Tracheal deviation / subcutaneous emphysema (palpate neck and chest wall)",
+      "rationale": "Tension physiology and air leak must be found at the bedside, not on imaging",
       "must_have": true
     },
     {
-      "item": "Compare breath sounds side to side; percuss for unilateral hyperresonance (pneumothorax) or dullness (effusion/consolidation)",
-      "rationale": "Detects the main alternative causes of sudden pleuritic pain",
+      "item": "Ask about onset (abrupt at rest vs after cough or strain), prior pneumothorax, and whether the pain is strictly unilateral",
+      "rationale": "Abrupt unilateral onset and prior pneumothorax strongly favor recurrence",
       "must_have": true
     },
     {
-      "item": "Pericardial friction rub (leaning forward, end-expiration)",
-      "rationale": "Rub is specific for pericarditis",
+      "item": "Calf circumference asymmetry >3 cm (10 cm below tibial tuberosity)",
+      "rationale": "Clinical DVT signs are the strongest bedside predictor of PE, the main dangerous alternative",
       "must_have": false
     },
     {
-      "item": "Ask about cough, sputum, and rigors; Focal consolidation: egophony, bronchial breath sounds, dullness to percussion; Focal crackles",
-      "rationale": "Screens for pneumonia as the alternative in a febrile admission",
+      "item": "Ask about hemoptysis, prior VTE, and days of immobility during admission",
+      "rationale": "PE pretest probability history",
       "must_have": false
     },
     {
-      "item": "Focused cardiac POCUS for right ventricular dilation or pericardial effusion",
-      "rationale": "RV dilation supports large PE; effusion supports pericarditis",
+      "item": "Palpate the chest wall for fully reproducible tenderness",
+      "rationale": "Reproducible tenderness supports chest-wall pain but does not exclude pneumothorax or PE",
+      "must_have": false
+    },
+    {
+      "item": "Lung POCUS for absent lung sliding on the painful side",
+      "rationale": "Absent lung sliding is highly sensitive for pneumothorax at the bedside",
       "must_have": false
     }
   ],
   "reference_targets_mapped": [],
   "off_bedside_acceptable": [
-    "CT pulmonary angiogram",
+    "upright chest x-ray",
     "ECG",
-    "chest x-ray",
-    "troponin",
-    "D-dimer"
+    "CT pulmonary angiogram if examination unrevealing",
+    "troponin"
   ],
   "should_not_recommend": [
-    "Homan's sign as a rule-out for DVT",
-    "Attribute symptoms to anxiety without leg and lung examination",
-    "Defer bedside examination until CT result"
+    "Positive-pressure ventilation or NIV before pneumothorax is excluded",
+    "Homan's sign as a DVT rule-out",
+    "Wait for the chest x-ray before examining for tension signs (tracheal deviation, hypotension)"
   ],
   "underspecified_flag_expected": false,
   "perturbation_pair": {
     "case_id": "chest_pain_002_p1",
-    "changed_feature": "pain quality: right pleuritic -> sharp central, worse lying flat, better sitting forward",
-    "input_oneliner": "29F on OCPs, day 2 pyelo, sudden sharp central chest pain worse lying flat and better sitting forward, dyspnea, HR 118, sat 93% RA, afebrile now",
-    "expected_change": "Pericardial friction rub (leaning forward, end-expiration) becomes must_have and pericarditis rises to top of differential; Pulsus paradoxus and JVP is a new item; Calf circumference asymmetry >3 cm drops to should-still-include."
+    "changed_feature": "added fever (T 38.8 C)",
+    "input_oneliner": "24M smoker admitted for IV antibiotics for cellulitis, sudden left-sided pleuritic chest pain and dyspnea 30 min ago, T 38.8, HR 108, RR 24, sat 94% RA",
+    "expected_change": "Focal consolidation signs (egophony, bronchial breath sounds, dullness; Focal crackles) and ask about productive cough/rigors become must_have and pneumonia rises; Unilateral absent/decreased breath sounds with hyperresonance remains must_have; chest-wall palpation drops."
   },
   "noise_variant": {
     "case_id": "chest_pain_002_n1",
     "changed_feature": "wording and non-contributory detail",
-    "input_oneliner": "29 year old woman, graduate student, on an oral contraceptive, hospital day 2 for pyelonephritis, partner at bedside, abrupt sharp right-sided chest pain worse on inspiration plus breathlessness, pulse 118, sat 93 percent room air, afebrile now",
+    "input_oneliner": "Twenty-four year old man, smokes, lanky build, in for IV antibiotics for leg cellulitis, girlfriend present, abrupt sharp left-sided chest pain on breathing plus breathlessness starting half an hour ago, pulse 108, RR 24, sat 94 percent room air",
     "expected_change": "None. Card should be substantially identical to base."
   },
   "authored_at": "",

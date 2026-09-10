@@ -18,18 +18,28 @@
   "reference_targets_freetext": [
     {
       "item": "Capillary refill time (>3 s), skin mottling over the knees, cool extremities",
-      "rationale": "Prolonged capillary refill and mottling identify hypoperfusion and track resuscitation response",
+      "rationale": "Peripheral perfusion signs (one construct) identify hypoperfusion and track resuscitation response",
       "must_have": true
     },
     {
-      "item": "Source examination: suprapubic tenderness and Costovertebral angle (CVA) tenderness with catheter inspection, surgical wound, Focal crackles, skin and pressure areas, IV and line sites",
-      "rationale": "Catheter-associated urinary infection, wound infection, and pneumonia are the likely septic sources post-operatively; indispensable in febrile shock with no literature-backed substitute",
+      "item": "Suprapubic tenderness and Costovertebral angle (CVA) tenderness with catheter inspection (urinary source)",
+      "rationale": "Catheter-associated urinary infection is the most likely septic source; indispensable in febrile shock with no literature-backed substitute",
       "must_have": true
     },
     {
       "item": "Mental status and respiratory rate at the bedside (qSOFA elements)",
-      "rationale": "Altered mentation and tachypnea with hypotension complete the qSOFA and mark organ dysfunction",
+      "rationale": "One instrument: altered mentation and tachypnea with hypotension complete the qSOFA",
       "must_have": true
+    },
+    {
+      "item": "Surgical wound and IV/line site inspection for erythema, purulence, or dehiscence",
+      "rationale": "Wound and line infections are the other likely post-operative sources",
+      "must_have": false
+    },
+    {
+      "item": "Focal crackles",
+      "rationale": "Post-operative pneumonia as a septic source",
+      "must_have": false
     },
     {
       "item": "Passive leg raise with blood pressure/pulse pressure response to gauge fluid responsiveness",
@@ -42,8 +52,8 @@
       "must_have": false
     },
     {
-      "item": "Ask about calf pain, unilateral leg swelling, or pleuritic chest pain; examine calves for Calf circumference asymmetry >3 cm",
-      "rationale": "Post-operative pulmonary embolism can present as fever, hypotension, and confusion",
+      "item": "Calf circumference asymmetry >3 cm",
+      "rationale": "Post-operative DVT/pulmonary embolism can present as fever, hypotension, and confusion",
       "must_have": false
     }
   ],
@@ -68,7 +78,7 @@
     "case_id": "hypotension_001_p1",
     "changed_feature": "T 38.4 -> T 36.2 (single swap: fever)",
     "input_oneliner": "72M POD3 hip fracture repair, chronic Foley, T 36.2, BP 86/50, HR 112, RN says newly confused",
-    "expected_change": "Source examination drops from must_have to should-still-include; hemorrhage assessment rises to must_have (surgical site, drain and thigh for hematoma, conjunctival pallor, and Orthostatic vital signs (supine to standing at 1 and 3 min) only if supine SBP >=90) together with Medication review (MAR) for opioids and antihypertensives; Capillary refill time and mental status remain must_have."
+    "expected_change": "Urinary source examination, wound/line inspection, and Focal crackles drop from must_have/should to should-still-include; hemorrhage assessment rises to must_have (surgical site, drain and thigh for hematoma, Conjunctival pallor, and Orthostatic vital signs (supine to standing at 1 and 3 min) only if supine SBP >=90) together with Medication review (MAR) for opioids and antihypertensives; Capillary refill time and qSOFA mental status remain must_have."
   },
   "noise_variant": {
     "case_id": "hypotension_001_n1",

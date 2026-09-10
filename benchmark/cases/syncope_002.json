@@ -37,8 +37,13 @@
       "must_have": false
     },
     {
-      "item": "Examine for injury (head, hip) and perform a cardiac exam for bradycardia, irregular rhythm, or murmur",
-      "rationale": "Injury from unheralded collapse suggests arrhythmia; exam detects rate and structural clues",
+      "item": "Examine for injury (scalp, face, hip) from an unheralded fall",
+      "rationale": "Injury without protective response suggests abrupt arrhythmic loss of consciousness",
+      "must_have": false
+    },
+    {
+      "item": "Cardiac exam: heart rate, rhythm regularity, and murmur",
+      "rationale": "Detects bradycardia, irregular rhythm, or a structural clue",
       "must_have": false
     }
   ],

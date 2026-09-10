@@ -18,12 +18,12 @@
   "reference_targets_freetext": [
     {
       "item": "JVP",
-      "rationale": "Elevated JVP separates persistent congestion (cardiorenal) from over-diuresis; the central question for this patient",
+      "rationale": "Elevated JVP separates persistent congestion (cardiorenal) from over-diuresis; the central question for this patient (Wang 2005 RCE)",
       "must_have": true
     },
     {
       "item": "Orthostatic vital signs (supine to standing at 1 and 3 min)",
-      "rationale": "Postural tachycardia and dizziness are the most specific bedside findings for hypovolemia",
+      "rationale": "Postural tachycardia and dizziness are the most specific bedside findings for hypovolemia (McGee 1999)",
       "must_have": true
     },
     {
@@ -32,8 +32,18 @@
       "must_have": true
     },
     {
-      "item": "Bibasilar crackles, S3 gallop, and peripheral edema",
-      "rationale": "Persistent congestion signs support cardiorenal physiology and continued decongestion rather than fluid",
+      "item": "Lung crackles (bibasilar)",
+      "rationale": "Persistent pulmonary congestion supports cardiorenal physiology",
+      "must_have": false
+    },
+    {
+      "item": "S3 gallop",
+      "rationale": "S3 is specific for elevated left-sided filling pressure",
+      "must_have": false
+    },
+    {
+      "item": "Peripheral edema",
+      "rationale": "Residual edema argues against over-diuresis",
       "must_have": false
     },
     {
@@ -66,7 +76,7 @@
     "case_id": "aki_001_p1",
     "changed_feature": "comorbidity: HFrEF EF 25% -> cirrhosis with ascites",
     "input_oneliner": "66M cirrhosis with ascites, IV diuresis day 3, Cr 1.1 to 2.0 this AM, UOP down, BP 96/60",
-    "expected_change": "Hepatorenal syndrome and SBP enter the top differential; ascites exam (shifting dullness, fluid wave), abdominal tenderness with fever check, and asterixis/mental status become must-have; ask about recent large-volume paracentesis and lactulose or diuretic doses rises; JVP drops to should-still-include; lung crackles and S3 drop."
+    "expected_change": "Hepatorenal syndrome and SBP enter the top differential; ascites exam (shifting dullness, fluid wave), abdominal tenderness with fever check, and asterixis/mental status become must-have; ask about recent large-volume paracentesis and lactulose or diuretic doses rises; JVP and abdominojugular reflux drop to should-still-include; lung crackles, S3 gallop, and peripheral edema drop."
   },
   "noise_variant": {
     "case_id": "aki_001_n1",

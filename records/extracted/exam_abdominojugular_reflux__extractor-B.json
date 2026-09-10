@@ -1,0 +1,160 @@
+{
+ "identity": {
+  "id": "exam_abdominojugular_reflux",
+  "title": "Abdominojugular (hepatojugular) reflux: sustained JVP rise >3 cm with 10-30 s abdominal pressure",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "edema",
+   "hypotension",
+   "aki"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "acute_decompensated_hf",
+   "cardiogenic_shock",
+   "cardiorenal",
+   "constrictive_pericarditis",
+   "rv_failure_pulmonary_hypertension"
+  ],
+  "indication_tags": [
+   "hf_known"
+  ]
+ },
+ "technique": {
+  "how": "With the top of the JVP column visible and the patient breathing quietly through an open mouth (no Valsalva), apply firm steady mid-abdominal pressure with the flat hand for 10 s (Ewy) up to 30 s while watching the neck veins. Positive = a sustained rise >3 cm (or >=4 cm / 3 mmHg) lasting through compression, dropping abruptly on release.",
+  "prerequisites": "Visible JVP baseline; patient able to breathe quietly through an open mouth; no acute abdominal pain.",
+  "contraindications": "Painful or surgical abdomen, recent abdominal surgery, known AAA; do not perform during a Valsalva."
+ },
+ "interpretation": {
+  "positive_finding": "A sustained rise indicates the right heart cannot accommodate the increased venous return, which in the absence of isolated RV failure reflects elevated left-sided filling pressure (PCWP >=15 mmHg). In chronic HF patients a positive test corresponds to a mean wedge pressure near 19 mmHg vs 10.5 mmHg when negative.",
+  "negative_finding": "A transient rise that falls within a few seconds is normal (column rises <3 cm). A negative test lowers but does not exclude elevated filling pressures, particularly in acute dyspnea where sensitivity is limited.",
+  "pitfalls": "Straining or breath-holding produces a false-positive rise; too little pressure or too short a compression produces a false negative. Isolated RV failure (RV infarction), tricuspid regurgitation and constriction give a positive test without left-sided congestion.",
+  "changes_what": "Positive AJR supports a cardiac (elevated filling pressure) cause of dyspnea/edema and favors diuresis; negative AJR with flat JVP argues against congestion."
+ },
+ "sources": [
+  {
+   "citation": "Butman SM, Ewy GA, Standen JR, Kern KB, Hahn E. Bedside cardiovascular examination in patients with severe chronic heart failure: importance of rest or inducible jugular venous distension. J Am Coll Cardiol 1993;22(4):968-74.",
+   "doi": "10.1016/0735-1097(93)90405-p",
+   "pmid": "8409071",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1993
+  },
+  {
+   "citation": "Ducas J, Magder S, McGregor M. Validity of the hepatojugular reflux as a clinical test for congestive heart failure. Am J Cardiol 1983;52(10):1299-303.",
+   "doi": "10.1016/0002-9149(83)90592-1",
+   "pmid": "6650420",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1983
+  },
+  {
+   "citation": "Ewy GA. The abdominojugular test: technique and hemodynamic correlates. Ann Intern Med 1988;109(6):456-60.",
+   "doi": "10.7326/0003-4819-109-6-456",
+   "pmid": "3415106",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1988
+  },
+  {
+   "citation": "Wang CS, FitzGerald JM, Schulzer M, Mak E, Ayas NT. Does this dyspneic patient in the emergency department have congestive heart failure? JAMA 2005;294(15):1944-56.",
+   "doi": "10.1001/jama.294.15.1944",
+   "pmid": "16234501",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2005
+  },
+  {
+   "citation": "Cook DJ, Simel DL. The Rational Clinical Examination. Does this patient have abnormal central venous pressure? JAMA 1996;275(8):630-4.",
+   "doi": null,
+   "pmid": "8594245",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1996
+  },
+  {
+   "citation": "Mueller C, Frana B, Scholer A, Laule-Kilian K, Perruchoud AP. Emergency diagnosis of congestive heart failure: impact of signs and symptoms. Can J Cardiol 2005;21(11):921-4.",
+   "doi": null,
+   "pmid": "16239975",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2005
+  }
+ ],
+ "estimates": [
+  {
+   "target_condition": "Elevated pulmonary capillary wedge pressure (>=18 mmHg)",
+   "population": "52 patients with severe chronic heart failure undergoing in-hospital transplant evaluation; index finding = jugular venous distension at rest OR inducible by the abdominojugular test",
+   "setting": "inpatient",
+   "prevalence": null,
+   "reference_standard": "Right heart catheterization (PCWP >= 18 mmHg)",
+   "sensitivity": {
+    "value": 0.81,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.8,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 4.05,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.24,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "LR+ = 0.81/(1-0.80) = 4.05; LR- = (1-0.81)/0.80 = 0.24 from reported sensitivity 81% and specificity 80% (CIs not reported in abstract)",
+   "interpretation_label": "both",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "had the best combination of sensitivity (81%), specificity (80%) and predictive accuracy (81%) for elevation of the pulmonary capillary wedge pressure",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Impaired resting cardiac function / congestive heart failure (CVP rise >=3 mmHg with abdominal compression)",
+   "population": "Catheterized patients with impaired (n=19) vs normal resting cardiac function; CVP measured directly during standardized abdominal compression",
+   "setting": "inpatient",
+   "prevalence": null,
+   "reference_standard": "Direct central venous pressure measurement during abdominal compression, with cardiac function classified clinically/hemodynamically",
+   "sensitivity": {
+    "value": 0.84,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": true,
+   "computed_from": "Sensitivity = 16/19 = 0.84; specificity not computable because the abstract states no normal-function patient rose >2 mmHg but does not give that group's n",
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "In 16 of 19 patients with impaired function, CVP increased by greater than or equal to 3 mm Hg.",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "safety_scope": {
+  "do_not_use_when": "Do not perform on a tender or surgical abdomen or when the baseline JVP top cannot be seen (the test requires a visible column to judge the change).",
+  "escalation_warning": "Positive AJR with hypotension and clear lungs should prompt urgent evaluation for RV infarction, tamponade or PE rather than empiric diuresis.",
+  "interobserver_note": "Reproducibility depends on standardized pressure and timing (Ewy 1988); untrained examiners often press too briefly or let the patient Valsalva."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Wang 2005 RCE lists AJR LR+ ~6.4 with a wide CI in its table; JAMA full text not accessible via tool so not entered. Ewy 1988 (Ann Intern Med) gives hemodynamic correlates (mean PCWP 19 vs 10.5 mmHg; positive test suggests PCWP >=15) but no sens/spec in the abstract, so it is cited for technique/threshold only. Butman 1993's index finding is JVD at rest OR AJR-inducible, entered with that label. Ducas 1983 sensitivity computed from 16/19; specificity left null (denominator for normal-function group not in abstract). Mueller 2005 reports OR 2.7 for HJR in ED dyspnea (not an LR); cited without estimate. Status partially_quantified because no estimate isolates the AJR alone with both sens and spec.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T01:37:17+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

@@ -26,9 +26,19 @@
       "must_have": true
     },
     {
-      "item": "Ask about prodrome, palpitations before the event, exertional chest pain or dyspnea, and family history of sudden death",
+      "item": "Ask about prodrome and palpitations before the event",
       "rationale": "Absent prodrome with exertion favors structural or arrhythmic cause",
       "must_have": true
+    },
+    {
+      "item": "Ask about exertional chest pain or dyspnea in recent weeks",
+      "rationale": "Exertional symptoms with a murmur point to severe AS or HCM",
+      "must_have": false
+    },
+    {
+      "item": "Ask about family history of sudden cardiac death",
+      "rationale": "Family history screens for HCM",
+      "must_have": false
     },
     {
       "item": "Orthostatic vital signs (supine to standing at 1 and 3 min)",
@@ -58,7 +68,7 @@
     "case_id": "syncope_001_p1",
     "changed_feature": "circumstance: exertional (walking with PT) -> situational (straining on the commode)",
     "input_oneliner": "58M admitted for COPD flare, systolic murmur noted on admission, collapsed while straining on the commode, no warning, HR 88, BP 128/70",
-    "expected_change": "Ask about micturition/defecation context, straining, and prodrome becomes must_have and situational_syncope rises to top of differential; dynamic auscultation (Valsalva/squat-to-stand) drops to should-still-include; murmur characterization remains must_have."
+    "expected_change": "Ask about micturition/defecation context, straining, and prodrome becomes must_have and situational_syncope rises to top of differential; Dynamic auscultation (Valsalva/squat-to-stand) and Ask about exertional chest pain or dyspnea drop to should-still-include; murmur characterization remains must_have."
   },
   "noise_variant": {
     "case_id": "syncope_001_n1",

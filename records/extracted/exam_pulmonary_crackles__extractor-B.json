@@ -1,0 +1,226 @@
+{
+ "identity": {
+  "id": "exam_pulmonary_crackles",
+  "title": "Pulmonary crackles: bibasilar (heart failure) vs focal/unilateral (pneumonia)",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "chest_pain",
+   "edema",
+   "hypotension",
+   "aki",
+   "fever"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "acute_decompensated_hf",
+   "cardiogenic_shock",
+   "cardiorenal",
+   "copd_exacerbation",
+   "ild",
+   "pneumonia"
+  ],
+  "indication_tags": [
+   "febrile",
+   "hf_known",
+   "unilateral"
+  ]
+ },
+ "technique": {
+  "how": "With the patient sitting, auscultate posterior bases and all fields during slow deep breaths through an open mouth, comparing sides. Have the patient cough before calling crackles persistent; note timing (late-inspiratory fine = edema/fibrosis; coarse = secretions), distribution (bibasilar symmetric vs focal), and whether they clear with position change.",
+  "prerequisites": "Quiet room, diaphragm on skin, patient able to take deep breaths; re-listen after several deep breaths because dependent atelectasis crackles clear.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Bibasilar symmetric late-inspiratory crackles in an acutely dyspneic adult raise the probability of heart failure (pooled specificity ~0.77-0.81); focal/unilateral crackles with fever or cough raise the probability of pneumonia (pooled LR+ ~2.4). Crackles are non-specific and also occur in ILD, atelectasis, COPD and bronchiectasis.",
+  "negative_finding": "Absence of crackles lowers the probability of heart failure only moderately (LR- 0.35-0.51) and does not exclude pneumonia; normal vital signs plus a normal lung examination together make CAP unlikely (LR- 0.10).",
+  "pitfalls": "Dependent-atelectasis crackles clear with deep breaths or cough; chronic 'velcro' crackles of fibrosis mimic edema; in chronic HF crackles are often absent despite high wedge pressure, and obese or shallow-breathing patients give false negatives.",
+  "changes_what": "Bibasilar crackles favor HF (add JVP, S3, BNP/POCUS); focal crackles with fever favor pneumonia (CXR); clear lungs do not rule out either but lower HF probability modestly."
+ },
+ "sources": [
+  {
+   "citation": "Wang CS, FitzGerald JM, Schulzer M, Mak E, Ayas NT. Does this dyspneic patient in the emergency department have congestive heart failure? JAMA 2005;294(15):1944-56.",
+   "doi": "10.1001/jama.294.15.1944",
+   "pmid": "16234501",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2005
+  },
+  {
+   "citation": "Signs and symptoms in adult patients with acute dyspnea: a systematic review and meta-analysis. Eur J Emerg Med 2018;25(1):3-11 (author list not retrievable via abstract tool; confirmed by PMID/DOI).",
+   "doi": "10.1097/MEJ.0000000000000429",
+   "pmid": "29252938",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2018
+  },
+  {
+   "citation": "Mant J, Doust J, Roalfe A, et al. Systematic review and individual patient data meta-analysis of diagnosis of heart failure, with modelling of implications of different diagnostic strategies in primary care. Health Technol Assess 2009;13(32):1-207.",
+   "doi": "10.3310/hta13320",
+   "pmid": "19586584",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2009
+  },
+  {
+   "citation": "Htun TP, Sun Y, Chua HL, Pang J. Clinical features for diagnosis of pneumonia among adults in primary care setting: a systematic and meta-review. Sci Rep 2019;9:7600.",
+   "doi": "10.1038/s41598-019-44145-y",
+   "pmid": "31110214",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2019
+  },
+  {
+   "citation": "Marchello CS, Ebell MH, Dale AP, Harvill ET, Shen Y, Whalen CC. Signs and symptoms that rule out community-acquired pneumonia in outpatient adults: a systematic review and meta-analysis. J Am Board Fam Med 2019;32(2):234-47.",
+   "doi": "10.3122/jabfm.2019.02.180219",
+   "pmid": "30850460",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2019
+  },
+  {
+   "citation": "Metlay JP, Kapoor WN, Fine MJ. Does this patient have community-acquired pneumonia? Diagnosing pneumonia by history and physical examination. JAMA 1997;278(17):1440-5.",
+   "doi": null,
+   "pmid": "9356004",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1997
+  },
+  {
+   "citation": "Ebell MH, Chupp H, Cai X, Bentivegna M, Kearney M. Accuracy of signs and symptoms for the diagnosis of community-acquired pneumonia: a meta-analysis. Acad Emerg Med 2020;27(7):541-53.",
+   "doi": "10.1111/acem.13965",
+   "pmid": "32329557",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2020
+  }
+ ],
+ "estimates": [
+  {
+   "target_condition": "Congestive heart failure as cause of dyspnea (absence of rales)",
+   "population": "Adult ED patients presenting with dyspnea; RCE pooled analysis",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "Clinical/echo-based HF diagnosis per included studies",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": {
+    "value": 0.51,
+    "ci_low": 0.37,
+    "ci_high": 0.7
+   },
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "rales (negative LR = 0.51; 95% CI, 0.37-0.70)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Heart failure as cause of acute dyspnea (lung crepitations/rales)",
+   "population": "Adults with a new episode of acute dyspnea; 8 ED studies, 4737 patients; HF prevalence 25-59%",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "Clinical diagnosis of HF per included studies",
+   "sensitivity": null,
+   "specificity": {
+    "value": 0.77,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": null,
+   "lr_negative": {
+    "value": 0.35,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 1,
+   "quote": "NLR was between 0.59 and 1.29 with one outlier: rales (pooled NLR=0.35)",
+   "location": "Abstract, Results (specificity 0.77 in Abstract, Conclusion: 'lung crepitations (0.77, pooled odds ratio: 11)')"
+  },
+  {
+   "target_condition": "Heart failure (new diagnosis) in primary care (lung crepitations)",
+   "population": "Patients with suspected heart failure in primary care; IPD meta-analysis of 9 studies",
+   "setting": "outpatient",
+   "prevalence": null,
+   "reference_standard": "Echocardiography / expert panel per included studies",
+   "sensitivity": null,
+   "specificity": {
+    "value": 0.81,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 2,
+   "quote": "orthopnoea (89%), oedema (72%), elevated jugular venous pressure (70%), cardiomegaly (85%), added heart sounds (99%), lung crepitations (81%)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Radiographic community-acquired pneumonia (crackles present)",
+   "population": "Adults >=18 without serious illness or immunosuppression presenting to primary care/outpatient/emergency clinics with respiratory symptoms; 13 studies, 11,144 participants; pneumonia prevalence 5-50%",
+   "setting": "outpatient",
+   "prevalence": null,
+   "reference_standard": "Chest radiograph",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 2.42,
+    "ci_low": 1.19,
+    "ci_high": 4.69
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 3,
+   "quote": "pulse rate >100 min-1 (2.79; 1.71-4.33), and crackles (2.42; 1.19-4.69)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Community-acquired pneumonia; COMPOSITE rule-out = normal vital signs AND normal pulmonary examination (no crackles or other auscultatory abnormality)",
+   "population": "Outpatient adults/adolescents with acute respiratory infection; 3 studies; baseline CAP risk ~4%",
+   "setting": "outpatient",
+   "prevalence": 0.04,
+   "reference_standard": "Chest radiograph",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": {
+    "value": 0.1,
+    "ci_low": 0.07,
+    "ci_high": 0.13
+   },
+   "computed": false,
+   "interpretation_label": "rule_out",
+   "evidence_level": "pooled",
+   "source_index": 4,
+   "quote": "had a summary estimate of LR- of 0.10 (95% CI, 0.07 to 0.13) with an area under the receiver operating characteristic curve of 0.92",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "safety_scope": {
+  "do_not_use_when": "Do not use clear lungs to exclude heart failure in chronic HF patients (crackles are often absent with high filling pressures) or to exclude pneumonia in the elderly/immunocompromised, where auscultation is insensitive.",
+  "escalation_warning": "Diffuse crackles with hypoxemia and hypotension suggest pulmonary edema from cardiogenic shock or ARDS and require immediate escalation regardless of etiology.",
+  "interobserver_note": "Agreement on crackles is only fair to moderate between examiners (Metlay RCE); distribution and persistence after cough are more reliable than presence alone."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Wang 2005 table LR+ for rales (~2.8) is not visible in the abstract; only the abstract LR- 0.51 is entered. The Eur J Emerg Med 2018 pooled NLR 0.35 and specificity 0.77 come from different abstract sentences; sensitivity is given only as a range (0.32-0.88) and left null. Htun 2019 PMC full text is truncated by the tool at ~20 kB so its results table could not be read; the abstract LR+ (2.42) is used. Marchello 2019 LR- 0.10 is a composite (normal vitals plus normal lung exam), clearly labeled, not crackles alone. Metlay 1997 and Ebell 2020 abstracts carry no crackles-specific numbers; cited for context (Ebell reports egophony LR+ 6.17 and dullness 2.62, which belong to other records). No abstract-level estimate found for focal vs bibasilar distribution.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T01:37:17+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

@@ -28,7 +28,7 @@
     },
     {
       "item": "Medication review (MAR) and stimulant history: beta-agonist inhalers, steroid doses, decongestants, caffeine, thyroid supplements, cocaine or amphetamines",
-      "rationale": "Exogenous drivers of sinus tachycardia and ectopy are common and reversible",
+      "rationale": "One history question ('what have you taken?'): exogenous drivers of sinus tachycardia and ectopy are common and reversible",
       "must_have": false
     },
     {
@@ -37,9 +37,14 @@
       "must_have": false
     },
     {
-      "item": "Conjunctival pallor; Orthostatic vital signs (supine to standing at 1 and 3 min)",
-      "rationale": "Conjunctival rim pallor has a high LR+ for anemia; orthostatic change identifies volume depletion driving sinus tachycardia",
+      "item": "Conjunctival pallor",
+      "rationale": "Conjunctival rim pallor has a high LR+ for anemia as a driver of sinus tachycardia",
       "must_have": true
+    },
+    {
+      "item": "Orthostatic vital signs (supine to standing at 1 and 3 min)",
+      "rationale": "Orthostatic change identifies volume depletion driving sinus tachycardia",
+      "must_have": false
     }
   ],
   "reference_targets_mapped": [],
@@ -59,7 +64,7 @@
     "case_id": "palpitations_003_p1",
     "changed_feature": "afebrile -> T 39.1 with rigors (single swap; HR kept verbatim)",
     "input_oneliner": "31F admitted with leg cellulitis, reports weeks of heart racing and skipped beats plus 5 kg weight loss, HR 108 regular, T 39.1 with rigors tonight",
-    "expected_change": "Sinus tachycardia secondary to infection now dominates: Capillary refill time and examination of the cellulitis margin for progression or abscess rise to must_have; the Conjunctival pallor/Orthostatic vital signs item remains must_have; thyroid examination drops to should-still-include; the medication/stimulant question remains."
+    "expected_change": "Sinus tachycardia secondary to infection now dominates: Capillary refill time, the Orthostatic vital signs item, and examination of the cellulitis margin for progression or abscess rise to must_have; thyroid examination drops to should-still-include; Conjunctival pallor and the medication/stimulant question remain."
   },
   "noise_variant": {
     "case_id": "palpitations_003_n1",

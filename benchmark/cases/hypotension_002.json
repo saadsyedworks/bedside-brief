@@ -17,8 +17,13 @@
   ],
   "reference_targets_freetext": [
     {
-      "item": "Ask about melena, hematemesis, and hematochezia; Digital rectal examination (DRE) for melena",
-      "rationale": "Occult GI bleeding on an anticoagulant is the leading cause; melena on rectal exam has a very high LR for severe upper GI bleeding",
+      "item": "Ask about melena, hematemesis, and hematochezia",
+      "rationale": "Reported melena carries a high LR for upper GI bleeding, the leading cause on an anticoagulant",
+      "must_have": true
+    },
+    {
+      "item": "Digital rectal examination (DRE) for melena",
+      "rationale": "Melena on examination has a very high LR for severe upper GI bleeding",
       "must_have": true
     },
     {
@@ -27,14 +32,19 @@
       "must_have": false
     },
     {
-      "item": "Conjunctival pallor, Capillary refill time, skin temperature, and pulse regularity (rapid AF versus sinus tachycardia)",
-      "rationale": "Conjunctival rim pallor has a high LR+ for anemia; perfusion and pulse regularity separate blood loss from a primary rate problem",
+      "item": "Conjunctival pallor",
+      "rationale": "Conjunctival rim pallor has a high LR+ for anemia from blood loss",
       "must_have": true
     },
     {
+      "item": "Pulse regularity (rapid AF versus sinus tachycardia)",
+      "rationale": "Separates a primary rate problem from compensatory sinus tachycardia",
+      "must_have": false
+    },
+    {
       "item": "Ask about prior upper GI bleeding, NSAID or aspirin use, cirrhosis or known varices, and alcohol",
-      "rationale": "A history of prior upper GI bleeding carries a high LR for a severe bleed and directs urgency of endoscopy",
-      "must_have": true
+      "rationale": "One bleeding-risk history question; prior upper GI bleeding carries a high LR for a severe bleed",
+      "must_have": false
     },
     {
       "item": "Examine the abdomen for tenderness and the flanks and thighs for hematoma",
@@ -42,8 +52,8 @@
       "must_have": false
     },
     {
-      "item": "Medication review (MAR): antihypertensives, diuretics, and opioids given tonight; temperature and Focal crackles for progression of pneumonia",
-      "rationale": "Medication effect and worsening sepsis are competing explanations",
+      "item": "Medication review (MAR): antihypertensives, diuretics, and opioids given tonight",
+      "rationale": "Medication effect is a competing explanation for hypotension",
       "must_have": false
     }
   ],
@@ -66,7 +76,7 @@
     "case_id": "hypotension_002_p1",
     "changed_feature": "anticoagulant exposure -> loop-diuretic exposure (mechanism of volume loss); AF, admission, vitals kept verbatim",
     "input_oneliner": "Cross-cover: 63M with AF, not anticoagulated, on IV furosemide BID, admitted with CAP, day 2, BP 88/54, HR 118, pale and lightheaded when he stood to void",
-    "expected_change": "Non-hemorrhagic hypovolemia rises: Dry axilla / mucous membranes and asking about oral intake, vomiting, or diarrhea become must_have; the melena question with DRE and the prior-GI-bleed history drop to should-still-include; the conditional Orthostatic vital signs item and conjunctival pallor/Capillary refill time remain."
+    "expected_change": "Non-hemorrhagic hypovolemia rises: Dry axilla / mucous membranes and asking about oral intake, vomiting, or diarrhea become must_have; the melena question, Digital rectal examination (DRE), and the prior-GI-bleed history drop to should-still-include; the conditional Orthostatic vital signs item, Conjunctival pallor, and Medication review (MAR) remain."
   },
   "noise_variant": {
     "case_id": "hypotension_002_n1",

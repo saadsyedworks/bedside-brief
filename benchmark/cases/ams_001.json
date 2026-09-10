@@ -17,27 +17,37 @@
   "reference_targets_freetext": [
     {
       "item": "CAM delirium screen (attention: months backward): acute change, inattention, disorganized thinking, altered arousal",
-      "rationale": "Validated bedside diagnosis of delirium versus baseline dementia",
+      "rationale": "One validated instrument for delirium versus baseline dementia",
       "must_have": true
     },
     {
-      "item": "Medication review (MAR): opioids, benzodiazepines, anticholinergics, and any new drug in the last 24 h; ask about uncontrolled pain",
-      "rationale": "Medications and untreated pain are the most common reversible precipitants in a fracture patient; indispensable with no literature-backed substitute",
+      "item": "Medication review (MAR): opioids, benzodiazepines, anticholinergics, and any new drug in the last 24 h",
+      "rationale": "Medications are the most common reversible precipitant in a fracture patient; indispensable with no literature-backed substitute",
       "must_have": true
     },
     {
-      "item": "Infection source examination: Focal crackles, suprapubic tenderness and Costovertebral angle (CVA) tenderness, skin and pressure areas, IV sites",
-      "rationale": "Low-grade fever with delirium demands a bedside source search before empiric treatment",
+      "item": "Ask about uncontrolled pain (pain score)",
+      "rationale": "Untreated fracture pain precipitates delirium and is easily missed",
+      "must_have": false
+    },
+    {
+      "item": "Suprapubic tenderness and Costovertebral angle (CVA) tenderness (urinary source)",
+      "rationale": "Urinary infection is the most likely source of low-grade fever with delirium; indispensable source search",
       "must_have": true
     },
     {
-      "item": "Bladder percussion/palpation for retention and date of last bowel movement",
-      "rationale": "Urinary retention and constipation are frequently missed precipitants of delirium",
+      "item": "Focal crackles",
+      "rationale": "Pneumonia as the alternative infectious precipitant",
+      "must_have": false
+    },
+    {
+      "item": "Bladder percussion/palpation for retention",
+      "rationale": "Urinary retention is a frequently missed precipitant of delirium",
       "must_have": false
     },
     {
       "item": "Focal neurologic screen: Pronator drift, facial symmetry, gaze deviation, speech",
-      "rationale": "Excludes a focal deficit that would reframe this as stroke rather than delirium",
+      "rationale": "One stroke-screen instrument; excludes a focal deficit that would reframe this as stroke rather than delirium",
       "must_have": false
     },
     {
@@ -66,7 +76,7 @@
     "case_id": "ams_001_p1",
     "changed_feature": "adds a new right facial droop noted by RN (single addition; all vitals kept)",
     "input_oneliner": "84F mild dementia, hospital day 2 for hip fracture awaiting surgery, overnight pulling at lines, disoriented, new right facial droop, T 37.9, HR 98, SpO2 94%",
-    "expected_change": "Focal neurologic screen (Pronator drift, facial symmetry, gaze deviation, speech/language, visual fields, and time last known well) becomes must_have; infection source examination drops to should-still-include; CAM delirium screen and Medication review (MAR) remain must_have."
+    "expected_change": "Focal neurologic screen (Pronator drift, facial symmetry, gaze deviation, speech/language, visual fields, and time last known well) becomes must_have; urinary source examination and Focal crackles drop to should-still-include; CAM delirium screen and Medication review (MAR) remain must_have."
   },
   "noise_variant": {
     "case_id": "ams_001_n1",

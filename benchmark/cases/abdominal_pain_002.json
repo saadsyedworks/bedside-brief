@@ -18,27 +18,37 @@
   "reference_targets_freetext": [
     {
       "item": "Murphy sign (inspiratory arrest on RUQ palpation)",
-      "rationale": "Best-studied bedside finding for acute cholecystitis, though less sensitive in elderly patients",
+      "rationale": "Best-studied bedside finding for acute cholecystitis, though less sensitive in elderly patients (Trowbridge 2003 RCE)",
       "must_have": true
     },
     {
-      "item": "Scleral icterus and skin jaundice, plus mental status check",
-      "rationale": "Jaundice with fever and RUQ pain points to cholangitis; confusion or hypotension escalates to urgent decompression",
+      "item": "Scleral icterus and skin jaundice",
+      "rationale": "Jaundice with fever and RUQ pain points to cholangitis (Charcot triad)",
       "must_have": true
     },
     {
-      "item": "Ask: pain character and radiation to the back, prior biliary colic, alcohol use, recent gallstones",
-      "rationale": "Band-like radiation to the back and alcohol history shift probability toward pancreatitis; prior colic toward biliary disease",
-      "must_have": true
-    },
-    {
-      "item": "Epigastric tenderness and peritoneal signs (rigidity, percussion tenderness, rebound, cough test)",
-      "rationale": "Localizes pancreatic or ulcer pain and screens for perforation",
+      "item": "Mental status check and blood pressure for Reynolds pentad",
+      "rationale": "Confusion or hypotension with cholangitis escalates to urgent biliary decompression",
       "must_have": false
     },
     {
-      "item": "Point-of-care ultrasound of the gallbladder for stones, wall thickening, and sonographic Murphy sign",
-      "rationale": "Bedside confirmation when available; sonographic Murphy adds to the physical Murphy sign",
+      "item": "Ask: prior biliary colic, known gallstones, and alcohol use",
+      "rationale": "Etiologic risk-factor history: prior colic and stones favor biliary disease; alcohol favors pancreatitis",
+      "must_have": true
+    },
+    {
+      "item": "Ask: band-like pain radiating to the back",
+      "rationale": "Radiation to the back shifts probability toward pancreatitis",
+      "must_have": false
+    },
+    {
+      "item": "Epigastric tenderness",
+      "rationale": "Localizes pancreatic or ulcer pain",
+      "must_have": false
+    },
+    {
+      "item": "Peritoneal signs (rigidity, percussion tenderness, rebound, cough test)",
+      "rationale": "Screens for perforation of a peptic ulcer or gangrenous gallbladder",
       "must_have": false
     }
   ],
@@ -48,7 +58,8 @@
     "Liver panel and bilirubin",
     "Blood cultures",
     "Right upper quadrant ultrasound",
-    "Lactate"
+    "Lactate",
+    "Point-of-care ultrasound of the gallbladder"
   ],
   "should_not_recommend": [
     "HIDA scan or CT before Murphy sign and jaundice assessment",
@@ -59,7 +70,7 @@
     "case_id": "abdominal_pain_002_p1",
     "changed_feature": "no jaundice -> nurse reports new scleral icterus",
     "input_oneliner": "Cross-cover: 62F T2DM admitted w/ HF exacerbation, RUQ pain and vomiting x6h after dinner, T 38.4, HR 104, nurse notes new scleral icterus",
-    "expected_change": "Cholangitis moves to the top; the jaundice/mental status item remains must_have and a blood pressure check for Reynolds pentad is a new item; Murphy sign drops to should-still-include; ask about prior biliary stents, ERCP, or known stones becomes must_have."
+    "expected_change": "Cholangitis moves to the top; scleral icterus/jaundice stays must-have and the mental status and blood pressure check for Reynolds pentad becomes must-have; Murphy sign drops to should-still-include; ask about prior biliary stents or ERCP rises."
   },
   "noise_variant": {
     "case_id": "abdominal_pain_002_n1",
