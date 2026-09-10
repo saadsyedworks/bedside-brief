@@ -87,7 +87,7 @@ def test_rationale_digits_stripped(records_by_id, parsed):
 def test_ask_first_present_only_when_missing_features(records_by_id, parsed):
     card = render.render_card(chosen_for(records_by_id, pocus=False), records_by_id, parsed)
     assert "ask_first" not in card
-    parsed2 = dict(parsed, missing_features=["exertional vs positional onset", "BP < 90 at onset?"], chief_complaint="65M syncope")
+    parsed2 = dict(parsed, missing_features=["exertional vs positional onset", "BP < 90 at onset?"], underspecified=True, chief_complaint="65M syncope")
     card2 = render.render_card(chosen_for(records_by_id, pocus=False), records_by_id, parsed2)
     assert card2["ask_first"] == ["exertional vs positional onset", "BP < [n] at onset?"]
     assert card2["chief_complaint"] == "[n]M syncope"
@@ -121,6 +121,6 @@ def test_html_has_sections_copy_line_and_digit_free_chrome(records_by_id, parsed
     assert not re.search(r"\d", visible), visible
     assert render.COPY_LINE in html and "ASK" in html and "EXAMINE" in html and "POCUS" not in html
     limits = SimpleNamespace(MAX_ASK=4, MAX_EXAMINE=4, MAX_POCUS=3, POCUS_ENABLED=True)
-    full = render.render_html(render.render_card(chosen_for(records_by_id), records_by_id, dict(parsed, missing_features=["onset"]), limits), oneliner="x")
+    full = render.render_html(render.render_card(chosen_for(records_by_id), records_by_id, dict(parsed, missing_features=["onset"], underspecified=True), limits), oneliner="x")
     assert "<details>" in full and "Late-peaking systolic murmur" in full and "Ask first" in full and "POCUS" in full
     assert "0.83" in full and "CI 0.75–0.89" in full and "/record/exam_late_peaking_murmur" in full

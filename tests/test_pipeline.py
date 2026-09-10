@@ -18,7 +18,7 @@ PARSE = {
         {"dx": "hypovolemic_hemorrhagic_shock", "weight": 0.5},
     ],
     "indication_tags": ["exertional"],
-    "missing_features": [],
+    "missing_features": [], "underspecified": False,
 }
 RANK = {
     "ask": [{"id": "hx_exertional_syncope", "rationale": "Exertional onset."}],
@@ -53,7 +53,7 @@ def test_llm_number_in_rationale_is_stripped_and_card_still_validates(index_db, 
 
 
 def test_missing_features_surface_as_ask_first(index_db):
-    parse = dict(PARSE, missing_features=["exertional vs positional", "BP at 3 min?"])
+    parse = dict(PARSE, missing_features=["exertional vs positional", "BP at 3 min?"], underspecified=True)
     out = pipeline.brief("syncope", FakeLLM([parse, RANK]), index_db)
     assert out["card"]["ask_first"] == ["exertional vs positional", "BP at [n] min?"]
     assert out["validation"]["ok"] is True

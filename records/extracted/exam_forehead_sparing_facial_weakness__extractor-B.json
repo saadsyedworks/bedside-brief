@@ -1,0 +1,73 @@
+{
+ "identity": {
+  "id": "exam_forehead_sparing_facial_weakness",
+  "title": "Forehead sparing (central) vs forehead involvement (peripheral) in facial weakness",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "weakness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "bell_palsy",
+   "stroke"
+  ],
+  "indication_tags": [
+   "acute_onset"
+  ]
+ },
+ "technique": {
+  "how": "Ask the patient to raise the eyebrows, close the eyes tightly against resistance, show the teeth and puff the cheeks; compare sides. Forehead and eye closure preserved with lower-face weakness = upper motor neuron (central) pattern; forehead, eye closure and lower face all weak on one side = lower motor neuron (peripheral) pattern. Also check ear canal, other cranial nerves and limbs.",
+  "prerequisites": "Adequate cooperation; note pre-existing asymmetry, ptosis or previous palsy.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Forehead sparing with lower facial weakness indicates a central (supranuclear) lesion and should be treated as a possible stroke until proven otherwise; accompanying limb weakness, dysarthria, gaze palsy or diplopia strongly favours stroke.",
+  "negative_finding": "Involvement of the forehead and eye closure indicates a peripheral (facial nerve) lesion, consistent with Bell palsy when isolated and rapid in onset; it does not exclude a pontine stroke (nucleus/fascicle lesion gives a peripheral pattern), Ramsay Hunt, Lyme disease, otitis or tumour.",
+  "pitfalls": "Bilateral cortical innervation of the forehead makes sparing incomplete in some central lesions, and mild peripheral palsies can look forehead-sparing early. Pontine infarcts and facial-nucleus lesions produce a 'peripheral' pattern with a central cause; look for crossed signs, gaze palsy or other cranial nerve deficits.",
+  "changes_what": "Forehead spared: stroke pathway/imaging. Forehead involved and isolated: Bell palsy work-up and early steroids; any additional neurological sign redirects to central causes."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Baugh RF, Basura GJ, Ishii LE et al. Clinical practice guideline: Bell's palsy. Otolaryngology--head and neck surgery : official journal of American Academy of Otolaryngology-Head and Neck Surgery. 2014.",
+   "doi": "10.1177/0194599813505967",
+   "pmid": "24189771",
+   "url": null,
+   "kind": "guideline",
+   "year": 2014
+  },
+  {
+   "citation": "Gronseth GS, Paduga R. Evidence-based guideline update: steroids and antivirals for Bell palsy: report of the Guideline Development Subcommittee of the American Academy of Neurology. Neurology. 2013.",
+   "doi": "10.1212/WNL.0b013e318275978c",
+   "pmid": "23136264",
+   "url": null,
+   "kind": "guideline",
+   "year": 2013
+  },
+  {
+   "citation": "Fahimi J, Navi BB, Kamel H. Potential misdiagnoses of Bell's palsy in the emergency department. Annals of emergency medicine. 2014.",
+   "doi": "10.1016/j.annemergmed.2013.06.022",
+   "pmid": "23891413",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2014
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use forehead involvement alone to exclude stroke in patients with vascular risk factors, vertigo, diplopia, ataxia, limb or gaze findings, or bilateral/recurrent palsy.",
+  "escalation_warning": "Any additional neurological deficit, sudden onset with headache, or forehead-sparing pattern warrants urgent stroke assessment.",
+  "interobserver_note": "No interobserver data for forehead sparing located; facial-nerve grading scales (House-Brackmann) have known variability (unverified recall)."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Searches ('forehead sparing facial weakness stroke Bell palsy diagnostic accuracy', 'central versus peripheral facial palsy differentiation forehead', 'isolated facial palsy ischemic stroke pontine lower motor neuron pattern', 'Bell palsy misdiagnosis stroke emergency department') found no study measuring sensitivity/specificity or LR of forehead sparing for central versus peripheral facial weakness; the distinction rests on neuroanatomy and guideline consensus. AAO-HNS guideline (Baugh 2013, PMID 24189771) and AAN guideline (Gronseth 2012, PMID 23136264) cited as consensus for the bedside distinction and Bell palsy diagnosis. Outcome context only: Fahimi 2014 (PMID 23891413; 43,979 ED discharges with Bell palsy) 'On 90-day follow-up, 356 patients (0.8%) received an alternative diagnosis' and 'Stroke, herpes zoster, Guillain-Barre, and otitis media accounted for 85.4% of all alternative diagnoses' (Abstract, Results); this is a misdiagnosis rate, not diagnostic accuracy of the sign. Status not_quantified.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T02:41:13+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

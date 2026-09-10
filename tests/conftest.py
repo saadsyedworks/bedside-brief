@@ -158,5 +158,5 @@ def parsed() -> dict[str, Any]:
             {"dx": "hypovolemic_hemorrhagic_shock", "weight": 0.5},
         ],
         "indication_tags": ["exertional"],
-        "missing_features": [],
+        "missing_features": [], "underspecified": False,
     }

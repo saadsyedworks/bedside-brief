@@ -106,8 +106,10 @@ def render_card(
         "chief_complaint": strip_numbers(parsed.get("chief_complaint")),
         "sections": {},
     }
+    # Ask-first renders only when the parser declared the input underspecified (DECISIONS #29);
+    # a non-empty missing_features list alone is not enough (legacy parses without the flag still work).
     missing = [strip_numbers(m) for m in parsed.get("missing_features") or [] if m]
-    if missing:
+    if missing and parsed.get("underspecified", True):
         card["ask_first"] = missing
     caps = {"ask": limits.MAX_ASK, "examine": limits.MAX_EXAMINE, "pocus": limits.MAX_POCUS}
     for section, types in SECTION_TYPES.items():

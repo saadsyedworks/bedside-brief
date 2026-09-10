@@ -16,6 +16,7 @@ GOOD = {
     "differentials": [{"dx": "aortic_stenosis", "weight": 0.8}, {"dx": "orthostatic_hypotension", "weight": 0.4}],
     "indication_tags": ["exertional", "elderly"],
     "missing_features": ["was BP < 90 at onset?"],
+    "underspecified": True,
 }
 
 

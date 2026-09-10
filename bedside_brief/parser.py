@@ -31,7 +31,7 @@ PARSER_SCHEMA: dict[str, Any] = {
     "title": "oneliner_parse",
     "type": "object",
     "additionalProperties": False,
-    "required": ["chief_complaint", "presentation", "time_course", "modifiers", "differentials", "indication_tags", "missing_features"],
+    "required": ["chief_complaint", "presentation", "time_course", "modifiers", "differentials", "indication_tags", "missing_features", "underspecified"],
     "properties": {
         "chief_complaint": {"type": "string"},
         "presentation": {"type": "string"},
@@ -48,6 +48,7 @@ PARSER_SCHEMA: dict[str, Any] = {
         },
         "indication_tags": _STRING_ARRAY,
         "missing_features": _STRING_ARRAY,
+        "underspecified": {"type": "boolean"},
     },
 }
 
@@ -78,8 +79,12 @@ def system_prompt() -> str:
         "- modifiers: short qualifying phrases from the one-liner (no numbers).",
         f"- differentials: one to {config.MAX_DIFFERENTIALS} entries, each {{dx, weight}} with weight in [0, 1], most likely first, weights descending.",
         "- indication_tags: zero or more INDICATION_TAGS that apply.",
-        "- missing_features: if the one-liner is too sparse to rank confidently, list the history or exam features you would need "
-        "(the ones that would change the ranking); otherwise an empty list.",
+        "- underspecified: true ONLY when the one-liner lacks the basic facts needed to rank the differentials at all "
+        "(no timing/onset, no trigger or context, no localisation — a clinician would have to ask before deciding what to examine). "
+        "A typical triage one-liner with a complaint, a time course and one or two context facts is NOT underspecified, "
+        "even though many things remain unknown. Expect false for most inputs.",
+        "- missing_features: ONLY when underspecified is true, list the 1-3 HISTORY facts (one question each) that would resolve the ambiguity. "
+        "Never list exam findings, labs, or imaging here; when underspecified is false this must be an empty list.",
         "Reply with the JSON object only.",
     ]
     return "\n".join(lines)
@@ -135,10 +140,11 @@ def parse_oneliner(text: str, llm: Any) -> dict[str, Any]:
         "modifiers": [strip_numbers(m) for m in reply["modifiers"] if m],
         "differentials": _normalise_differentials(reply["differentials"]),
         "indication_tags": list(dict.fromkeys(reply["indication_tags"])),
-        "missing_features": [strip_numbers(m) for m in reply["missing_features"] if m],
+        "underspecified": bool(reply.get("underspecified", False)),
+        "missing_features": [strip_numbers(m) for m in reply["missing_features"] if m] if reply.get("underspecified") else [],
     }
     log.info(
-        "parsed presentation=%s differentials=%d tags=%d missing_features=%d",
-        parsed["presentation"], len(parsed["differentials"]), len(parsed["indication_tags"]), len(parsed["missing_features"]),
+        "parsed presentation=%s differentials=%d tags=%d underspecified=%s missing_features=%d",
+        parsed["presentation"], len(parsed["differentials"]), len(parsed["indication_tags"]), parsed["underspecified"], len(parsed["missing_features"]),
     )
     return parsed

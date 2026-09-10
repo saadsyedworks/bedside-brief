@@ -57,7 +57,7 @@ def test_items_from_card_uses_rendered_numbers(index_db, records_by_id):
     from bedside_brief.render import render_card
 
     chosen = {"ask": [{"id": "hx_exertional_syncope", "rationale": "x"}], "examine": [{"id": "exam_late_peaking_murmur", "rationale": ""}]}
-    card = render_card(chosen, records_by_id, {"presentation": "syncope", "chief_complaint": "s", "missing_features": []})
+    card = render_card(chosen, records_by_id, {"presentation": "syncope", "chief_complaint": "s", "missing_features": [], "underspecified": False})
     items = items_from_card(card)
     assert [i.record_id for i in items] == ["hx_exertional_syncope", "exam_late_peaking_murmur"]
     assert all(i.bedside for i in items) and items[0].section == "ask" and items[1].section == "examine"
