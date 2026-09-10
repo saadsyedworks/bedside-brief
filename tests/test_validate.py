@@ -63,6 +63,20 @@ def test_card_level_number_must_come_from_a_linked_record(records_by_id, parsed)
     assert not result.ok and result.bad_item_ids == [] and "card:" in result.violations[0]
 
 
+def test_block_strips_violating_card_level_fields(records_by_id, parsed):
+    """DECISIONS #32: block() must remove a violating card-level field (e.g. ask_first), not just
+    violating items, so the blocked card always re-validates clean."""
+    card = good_card(records_by_id, parsed)
+    card["ask_first"] = ["ask about 123456"]
+    result = validate.validate_card(card, records_by_id)
+    assert not result.ok
+    assert result.bad_card_fields == ["ask_first"]
+    blocked = validate.block(card, result)
+    assert "ask_first" not in blocked
+    assert blocked["blocked"]["removed_fields"] == ["ask_first"]
+    assert validate.validate_card(blocked, records_by_id).ok  # re-validates clean, nothing re-generated
+
+
 def test_item_id_not_verified_is_violation(records_by_id, parsed):
     card = good_card(records_by_id, parsed)
     extracted = copy.deepcopy(records_by_id["hx_exertional_syncope"])

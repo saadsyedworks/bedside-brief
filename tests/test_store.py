@@ -68,3 +68,17 @@ def test_numbers_in_record_contains_estimate_values():
         assert expected in nums, expected
     assert "1" not in nums  # record_version / source_index are bookkeeping, not evidence
     assert "2026" not in nums  # timestamps are not evidence
+
+
+def test_notes_fields_never_widen_the_number_allow_list():
+    """DECISIONS #32: extraction_notes / verification_notes routinely quote numbers (ORs, RRs,
+    other cohorts) that were deliberately NOT entered as estimates; they must never let a card
+    claim those numbers as verified."""
+    rec = copy.deepcopy(EXAM)
+    rec["extraction_notes"] = "OR 42.7 was deliberately not entered as an estimate; RR 3.14 also excluded."
+    rec["verification_notes"] = "Unrelated OR 99.9 mentioned in discussion, not used as an estimate."
+    nums = store.numbers_in_record(rec)
+    for leaked in ("42.7", "3.14", "99.9"):
+        assert leaked not in nums, f"{leaked} leaked into the allow-list via a notes field"
+    # the notes fields themselves are excluded from the digit walk entirely
+    assert "extraction_notes" in store._SKIP_KEYS and "verification_notes" in store._SKIP_KEYS

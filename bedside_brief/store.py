@@ -20,7 +20,13 @@ log = logging.getLogger("bedside_brief.store")
 
 try:  # canonical vocab sets live in tools/validate.py
     from tools.validate import DIFFERENTIALS, PRESENTATIONS, TAGS
-except Exception:  # pragma: no cover - fallback if tools/ is mid-edit by another agent
+except Exception as _exc:  # pragma: no cover - fallback if tools/ is unimportable
+    # Never silent: the fallback recomputes the same sets from vocab.json, but a failure here can
+    # also mean tools/validate.py is genuinely broken, and that must be visible.
+    logging.getLogger("bedside_brief.store").warning(
+        "tools.validate unavailable (%s: %s); recomputing vocab sets from %s",
+        type(_exc).__name__, _exc, config.VOCAB_PATH,
+    )
     _vocab = json.loads(Path(config.VOCAB_PATH).read_text())
     PRESENTATIONS = set(_vocab["presentations"])
     DIFFERENTIALS = {d for lst in _vocab["presentations"].values() for d in lst}
