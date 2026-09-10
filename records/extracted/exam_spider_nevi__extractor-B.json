@@ -1,0 +1,87 @@
+{
+ "identity": {
+  "id": "exam_spider_nevi",
+  "title": "Spider angiomata (>=3, upper trunk/face/arms), with palmar erythema and gynecomastia as companions",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "edema",
+   "aki",
+   "ams",
+   "abdominal_pain"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "cirrhosis",
+   "hepatic_encephalopathy",
+   "hepatorenal",
+   "hypoalbuminemia",
+   "sbp"
+  ],
+  "indication_tags": [
+   "cirrhosis_known",
+   "alcohol_use"
+  ]
+ },
+ "technique": {
+  "how": "Inspect the face, neck, upper chest, back and arms (superior vena cava territory) in good light for a central red arteriole with radiating vessels. Press the centre with a glass slide or pen tip: the lesion blanches and refills from the centre outward on release. Count lesions; also look at the palms (thenar/hypothenar erythema) and for gynecomastia.",
+  "prerequisites": "Good lighting; exposure of upper trunk.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "In adults with known or suspected liver disease, spider nevi raise the likelihood of biopsy-proven cirrhosis about four-fold (pooled LR 4.3, 95% CI 2.4-6.2).",
+  "negative_finding": "Absence of spider nevi does not usefully exclude cirrhosis; the pooled negative LR is not reported in the abstract, and the RCE identifies laboratory indices (Lok index, platelets) as the useful rule-out tools rather than skin signs.",
+  "pitfalls": "Isolated spider nevi occur in pregnancy, oestrogen therapy and healthy young people, so a count threshold (commonly >=3) matters but was not specified in the pooled estimate. Lesions fade with hypotension or anaemia and are harder to see on dark skin.",
+  "changes_what": "Spider nevi in a patient with liver disease: raise cirrhosis probability and look for portal hypertension/ascites; absent spiders should not lower suspicion."
+ },
+ "estimates": [
+  {
+   "target_condition": "Cirrhosis (histologically proven); finding = presence of spider nevi (count threshold not specified in the pooled estimate; id title's '>=3' threshold not verified)",
+   "population": "Adults with known or suspected liver disease in 86 studies (19,533 patients; 4725 with biopsy-proven cirrhosis), random-effects meta-analysis",
+   "setting": "mixed",
+   "prevalence": 0.24,
+   "reference_standard": "Liver biopsy (histologically proven cirrhosis)",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 4.3,
+    "ci_low": 2.4,
+    "ci_high": 6.2
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "spider nevi (LR, 4.3; 95% CI 2.4-6.2)",
+   "location": "Abstract, Results (summary LR from random-effects meta-analysis); prevalence quote 'prevalence rate, 24%; 95% CI, 20%-28%' same location"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Udell JA, Wang CS, Tinmouth J, FitzGerald JM, Ayas NT, Simel DL, Schulzer M, Mak E, et al. Does this patient with liver disease have cirrhosis? JAMA. 2012;307(8):832-842.",
+   "doi": "10.1001/jama.2012.186",
+   "pmid": "22357834",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2012
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use the sign to diagnose cirrhosis in patients without liver disease risk; the pooled estimate applies to patients already known or suspected to have liver disease.",
+  "escalation_warning": "Spider nevi with confusion, GI bleeding, fever with abdominal pain, or rising creatinine should trigger evaluation for hepatic encephalopathy, variceal bleeding, SBP or hepatorenal syndrome rather than further skin inspection.",
+  "interobserver_note": "Not reported in the abstract; the RCE table on interobserver agreement is not accessible (JAMA full text not in PMC)."
+ },
+ "tier": "extracted",
+ "extraction_notes": "PMID 22357834 confirmed; no PMC full text ('NO PMC FULL TEXT'), so only abstract-level numbers are entered. The RCE tables with pooled sensitivity/specificity and negative LR for spider nevi, and the LRs for palmar erythema and gynecomastia (companion signs in the id title), could not be seen and are therefore left null. Threshold '>=3' from the id title is not stated in the abstract. Status partially_quantified: LR+ only, no sens/spec pair, no LR-.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T02:41:04+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

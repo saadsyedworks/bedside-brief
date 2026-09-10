@@ -1,0 +1,72 @@
+{
+ "identity": {
+  "id": "hx_hypotensive_medication_review",
+  "title": "Antihypertensive / sedative / new-medication review (timing of last doses)",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "syncope",
+   "hypotension",
+   "aki",
+   "dizziness",
+   "ams"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "bradyarrhythmia",
+   "medication_effect",
+   "orthostatic_hypotension",
+   "prerenal_hypovolemia"
+  ],
+  "indication_tags": [
+   "new_medication",
+   "elderly"
+  ]
+ },
+ "technique": {
+  "how": "Reconcile every prescribed, over-the-counter and recreational drug against the pharmacy list or containers; for each ask when the last dose was taken, any dose change or new agent in the past 2-4 weeks, and relation of doses to the event. Flag antihypertensives, diuretics, nitrates, alpha-blockers, rate-slowing agents, sedatives/opioids, PDE5 inhibitors, ACEi/ARB with NSAIDs, and hypoglycaemics.",
+  "prerequisites": "Access to an accurate list (pharmacy, carer, brown-bag); knowledge of renal function since accumulation of renally cleared drugs changes the interpretation.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "A new or recently up-titrated vasoactive, rate-slowing or sedative drug, or a dose taken shortly before an orthostatic event, supports medication-related hypotension/syncope or bradyarrhythmia and, with ACEi/ARB/diuretic/NSAID, prerenal AKI.",
+  "negative_finding": "No culprit drugs and no recent changes make medication effect unlikely and push toward arrhythmic, structural, reflex or volume causes; it does not exclude them because drug effects are often multifactorial.",
+  "pitfalls": "Patients under-report OTC, herbal and recreational agents; interactions (e.g. CYP3A4 inhibitors with calcium-channel blockers, renal decline with beta-blockers or digoxin) cause toxicity without a dose change; cause-and-effect is confirmed only by improvement after withdrawal.",
+  "changes_what": "Positive: hold/reduce the culprit and reassess orthostatic BP before adding tests; negative: prioritize ECG/monitoring, orthostatic vitals and volume assessment."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Brignole M, Moya A, de Lange FJ, Deharo JC, Elliott PM, Fanciulli A, Fedorowski A, Furlan R, et al. 2018 ESC Guidelines for the diagnosis and management of syncope. Eur Heart J 2018;39:1883-1948.",
+   "doi": "10.1093/eurheartj/ehy037",
+   "pmid": "29562304",
+   "url": null,
+   "kind": "guideline",
+   "year": 2018
+  },
+  {
+   "citation": "Sheldon RS, Grubb BP, Olshansky B, Shen WK, Calkins H, Brignole M, Raj SR, Krahn AD, et al. 2015 Heart Rhythm Society expert consensus statement on the diagnosis and treatment of postural tachycardia syndrome, inappropriate sinus tachycardia, and vasovagal syncope. Heart Rhythm 2015;12:e41-e63.",
+   "doi": "10.1016/j.hrthm.2015.03.029",
+   "pmid": "25980576",
+   "url": null,
+   "kind": "consensus",
+   "year": 2015
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not attribute syncope or hypotension to medications alone when the ECG is abnormal, there is exertional or supine syncope, or there is evidence of bleeding or sepsis.",
+  "escalation_warning": "Hypotension plus bradycardia on beta-blocker/calcium-channel blocker/digoxin with renal impairment is potential drug toxicity - monitor and treat, do not simply hold the dose.",
+  "interobserver_note": "Medication histories taken without a pharmacy list or containers are frequently incomplete; no accuracy data for the review itself."
+ },
+ "tier": "extracted",
+ "extraction_notes": "No diagnostic-accuracy study evaluates medication review as a test for a specific cause of syncope, hypotension or AKI; PubMed searches ('drug-induced orthostatic hypotension older adults systematic review antihypertensive'; 'orthostatic hypotension antihypertensive drugs older adults prevalence prospective cohort syncope') returned no usable hits via the e-utils tool. The ESC 2018 syncope guideline (PMID 29562304) lists drug-induced orthostatic hypotension as the most frequent cause of orthostatic hypotension and mandates a medication history in initial evaluation (guideline text; unverified recall of page). No prevalence numbers entered.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T02:42:48+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

@@ -1,0 +1,65 @@
+{
+ "identity": {
+  "id": "fn_vagal_maneuver_response",
+  "title": "Response of ongoing palpitations to Valsalva/modified Valsalva or carotid massage: abrupt termination vs transient slowing vs none",
+  "type": "functional",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "palpitations"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "atrial_fibrillation_flutter",
+   "sinus_tachycardia_secondary",
+   "svt",
+   "ventricular_tachycardia"
+  ],
+  "indication_tags": []
+ },
+ "technique": {
+  "how": "With a running rhythm strip, the semi-recumbent patient strains into a 10 mL syringe or manometer at ~40 mmHg for 15 s, then lies flat with passive leg raise for 15 s (modified Valsalva); or 5-10 s unilateral carotid massage. Watch during and for 1 min after: abrupt termination, transient AV block unmasking atrial waves, gradual slowing, or no change.",
+  "prerequisites": "Continuous ECG recording, IV access and adenosine/defibrillator available, patient haemodynamically stable with a regular narrow-complex tachycardia; carotids auscultated if massage is used.",
+  "contraindications": "Haemodynamic instability (cardiovert instead); for carotid massage: carotid bruit, TIA/stroke or MI within 3 months; avoid Valsalva strain in recent retinal surgery or aortic stenosis with symptoms."
+ },
+ "interpretation": {
+  "positive_finding": "Abrupt termination implies a re-entrant SVT using the AV node (AVNRT/AVRT); transient AV block with persisting atrial activity unmasks atrial flutter, atrial tachycardia or AF; gradual slowing then re-acceleration suggests sinus tachycardia.",
+  "negative_finding": "No response does not exclude AV-node-dependent SVT (standard Valsalva cardioverts only 17% in REVERT) and a wide-complex tachycardia that does not respond should be treated as VT.",
+  "pitfalls": "Ineffective strain (no manometer, too short) is the usual reason for no response; misreading transiently slowed AF as termination; asystole/hypotension in elderly patients; carotid massage complications.",
+  "changes_what": "Termination -> SVT pathway and teaching; AV block unmasking flutter/AF -> rate/anticoagulation pathway; no response -> adenosine, or VT pathway if wide complex."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Brugada J, Katritsis DG, Arbelo E, Arribas F, Bax JJ, Blomström-Lundqvist C, Calkins H, Corrado D, et al. 2019 ESC Guidelines for the management of patients with supraventricular tachycardia. Eur Heart J 2020;41:655-720.",
+   "doi": "10.1093/eurheartj/ehz467",
+   "pmid": "31504425",
+   "url": null,
+   "kind": "guideline",
+   "year": 2020
+  },
+  {
+   "citation": "Appelboam A, Reuben A, Mann C, Gagg J, Ewings P, Barton A, Lobban T, Dayer M, et al. Postural modification to the standard Valsalva manoeuvre for emergency treatment of supraventricular tachycardias (REVERT): a randomised controlled trial. Lancet 2015;386:1747-1753.",
+   "doi": "10.1016/S0140-6736(15)61485-4",
+   "pmid": "26314489",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2015
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Unstable tachycardia (hypotension, ischaemia, pulmonary oedema, altered mentation) - synchronised cardioversion instead; carotid massage with bruit or recent stroke/TIA/MI.",
+  "escalation_warning": "Wide-complex tachycardia unresponsive to vagal manoeuvres is VT until proven otherwise; prolonged pause or hypotension after the manoeuvre needs supine positioning and monitoring.",
+  "interobserver_note": "Response classification depends on a recorded rhythm strip; no interobserver data. Cardioversion rate is technique-dependent (17% standard vs 43% modified Valsalva, REVERT Abstract)."
+ },
+ "tier": "extracted",
+ "extraction_notes": "No diagnostic-accuracy study reports sensitivity/specificity/LR of the pattern of response (termination vs AV block vs slowing) for AVNRT/AVRT vs flutter/AT vs sinus tachycardia; evidence is guideline consensus (ESC 2019 SVT, PMID 31504425; abstract not available via e-utils, so the diagnostic-pattern statements are unverified recall of guideline text) and treatment trials. REVERT (PMID 26314489, Abstract): 'standard Valsalva manoeuvre achieved sinus rhythm compared with 93 (43%) of 214 in the modified Valsalva manoeuvre group' - 37 (17%) of 214 standard; these are termination rates in ECG-confirmed SVT (AF/flutter excluded), not diagnostic accuracy, so no estimate entered. Search 'vagal maneuver diagnostic response tachycardia' was not attempted beyond the REVERT query; budget kept to the ESC/REVERT confirmations.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T02:42:48+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

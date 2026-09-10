@@ -1,0 +1,178 @@
+{
+ "identity": {
+  "id": "exam_thyroid_gland_palpation",
+  "title": "Thyroid palpation and auscultation: goiter, nodularity, bruit (distinct from thyrotoxicosis signs)",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "palpitations",
+   "edema"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "hyperthyroidism"
+  ],
+  "indication_tags": []
+ },
+ "technique": {
+  "how": "Inspect the neck from the front with the patient swallowing water, then stand behind and palpate each lobe with the fingertips while the patient swallows; note size (each lobe larger than the terminal phalanx of the patient's thumb = goiter), consistency, nodules and tenderness. Auscultate over each lobe for a bruit with the patient holding their breath.",
+  "prerequisites": "Neck extended slightly, a cup of water for swallowing, good lighting for inspection; know the patient's habitus (short thick necks and obesity hide the gland).",
+  "contraindications": "None; palpate gently if the gland is acutely tender (thyroiditis)."
+ },
+ "interpretation": {
+  "positive_finding": "Diffuse smooth enlargement with a bruit suggests Graves' disease; a nodular gland raises toxic nodular goiter; either supports thyroid disease as a cause of palpitations, AF or edema but does not establish thyrotoxicosis without TSH.",
+  "negative_finding": "A normal-sized gland on palpation lowers the likelihood of a large goiter but does not exclude hyperthyroidism or nodular disease (palpation found only 21% of ultrasound nodules).",
+  "pitfalls": "Interobserver agreement on gland type is poor (kappa -0.04 to 0.54), palpation misses nodules <1 cm and upper-pole nodules, and the WHO 1994 'visible/palpable' criterion trades specificity (29%) for sensitivity (80%) against ultrasound volume.",
+  "changes_what": "Positive: order TSH/free T4 and ultrasound for nodularity; negative: does not change the decision to check TSH in unexplained palpitations, AF or weight loss."
+ },
+ "estimates": [
+  {
+   "target_condition": "Goiter by ultrasound volume, palpation using WHO 1960 criterion ('lobes larger than the terminal phalanxes of thumbs')",
+   "population": "225 Tanzanian schoolchildren aged 7-14 y in an iodine-deficient highland village (field survey); three examiners",
+   "setting": "outpatient",
+   "prevalence": null,
+   "reference_standard": "Thyroid ultrasonography volume (duplicate examinations)",
+   "sensitivity": {
+    "value": 0.56,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.76,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 2.33,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.58,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "LR+ = 0.56/(1-0.76) = 2.33; LR- = (1-0.56)/0.76 = 0.58; from reported sensitivity 56% and specificity 76%",
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "The new goitre criterion decreased specificity from 76% to 29%, whereas sensitivity rose from 56% to 80%.",
+   "location": "Abstract, Findings"
+  },
+  {
+   "target_condition": "Goiter by ultrasound volume, palpation using WHO 1994 criterion (palpable and/or visible thyroid)",
+   "population": "225 Tanzanian schoolchildren aged 7-14 y in an iodine-deficient highland village (field survey); three examiners",
+   "setting": "outpatient",
+   "prevalence": null,
+   "reference_standard": "Thyroid ultrasonography volume (duplicate examinations)",
+   "sensitivity": {
+    "value": 0.8,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.29,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 1.13,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.69,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "LR+ = 0.80/(1-0.29) = 1.13; LR- = (1-0.80)/0.29 = 0.69; from reported sensitivity 80% and specificity 29%",
+   "interpretation_label": "minimal",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "The new goitre criterion decreased specificity from 76% to 29%, whereas sensitivity rose from 56% to 80%.",
+   "location": "Abstract, Findings"
+  },
+  {
+   "target_condition": "Thyroid nodule (any size) detected by high-resolution ultrasonography - palpation sensitivity per subject",
+   "population": "2441 adults, mostly Chernobyl clean-up workers, Estonia; blinded experienced physician examiners",
+   "setting": "outpatient",
+   "prevalence": 0.102,
+   "reference_standard": "High-resolution thyroid ultrasonography",
+   "sensitivity": {
+    "value": 0.21,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "computed_from": "",
+   "interpretation_label": "minimal",
+   "evidence_level": "single_study",
+   "source_index": 2,
+   "quote": "Physical examination found only 53 (21%) of the 249 nodules found by high-resolution ultrasonography.",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Siminoski K. The rational clinical examination. Does this patient have a goiter? JAMA 1995;273:813-817.",
+   "doi": null,
+   "pmid": "7861577",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1995
+  },
+  {
+   "citation": "Peterson S, Sanga A, Eklöf H, Bunga B, Taube A, Gebre-Medhin M, Rosling H. Classification of thyroid size by palpation and ultrasonography in field surveys. Lancet 2000;355:106-110.",
+   "doi": "10.1016/S0140-6736(99)07221-9",
+   "pmid": "10675168",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2000
+  },
+  {
+   "citation": "Wiest PW, Hartshorne MF, Inskip PD, Crooks LA, Vela BS, Telepak RJ, Williamson MR, Blumhardt R. Thyroid palpation versus high-resolution thyroid ultrasonography in the detection of nodules. J Ultrasound Med 1998;17:487-496.",
+   "doi": "10.7863/jum.1998.17.8.487",
+   "pmid": "9697951",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1998
+  },
+  {
+   "citation": "Jarløv AE, Hegedüs L, Gjørup T, Hansen JM. Observer variation in the clinical assessment of the thyroid gland. J Intern Med 1991;229:159-161.",
+   "doi": "10.1111/j.1365-2796.1991.tb00324.x",
+   "pmid": "1997641",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1991
+  },
+  {
+   "citation": "Zimmermann M, Saad A, Hess S, Torresani T, Chaouki N. Thyroid ultrasound compared with World Health Organization 1960 and 1994 palpation criteria for determination of goiter prevalence in regions of mild and severe iodine deficiency. Eur J Endocrinol 2000;143:727-731.",
+   "doi": "10.1530/eje.0.1430727",
+   "pmid": "11124854",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2000
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use a normal palpation to withhold thyroid function testing in palpitations, new AF, unexplained weight loss or edema.",
+  "escalation_warning": "A rapidly enlarging, hard or fixed gland, stridor or a fixed nodule with hoarseness needs urgent imaging/ENT referral irrespective of function tests.",
+  "interobserver_note": "Four observers agreed on gland type (diffuse, multinodular, solitary nodule, normal) in only 30% of 53 patients; inter-observer kappa -0.04 to 0.54, intra-observer 0.44 to 1.00 (Jarløv 1991, Abstract)."
+ },
+ "tier": "extracted",
+ "extraction_notes": "The JAMA RCE (Siminoski 1995, PMID 7861577) has no abstract on PubMed and no PMC text, so its pooled LRs could not be quoted; primary studies with visible abstracts are used instead. All goiter accuracy data are from iodine-deficiency field surveys in children, not adults with palpitations/edema - external validity is limited. Peterson 2000: prevalence of ultrasound goiter not stated in abstract (prevalence null). Wiest 1998: specificity not entered because the abstract mixes per-subject and per-nodule counts ('115 (68%) of the 169 nodules found by physical examination' not confirmed by ultrasound), so a clean 2x2 cannot be built; per-subject nodule prevalence by ultrasound 10.2% entered from 'in 249 (10.2%) subjects by high-resolution ultrasonography' (Abstract). Zimmermann 2000 (Morocco, 400 children) reported only kappa vs ultrasound (0.41-0.64) and relative changes, no absolute sens/spec, so no estimate entered. No study quantifies a thyroid bruit for Graves' disease.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T02:42:48+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

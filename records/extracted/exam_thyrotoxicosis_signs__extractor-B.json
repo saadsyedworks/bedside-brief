@@ -1,0 +1,110 @@
+{
+ "identity": {
+  "id": "exam_thyrotoxicosis_signs",
+  "title": "Signs of thyrotoxicosis: fine tremor, lid lag/retraction, warm moist skin, goiter, hyperreflexia",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "palpitations",
+   "edema",
+   "weakness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "atrial_fibrillation_flutter",
+   "hyperthyroidism",
+   "sinus_tachycardia_secondary"
+  ],
+  "indication_tags": []
+ },
+ "technique": {
+  "how": "Lay a sheet of paper on the outstretched hands to reveal fine tremor. Ask the patient to follow your finger downward and watch for the upper lid lagging behind the globe (lid lag) or sclera visible above the iris at rest (lid retraction). Feel the palms for warmth and moisture, palpate the thyroid from behind while the patient swallows, listen for a bruit, and test reflexes for brisk relaxation.",
+  "prerequisites": "Resting patient; note beta-blocker use, which blunts tremor and tachycardia.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Goiter is present in most younger hyperthyroid patients (94% of those aged <=50) but only half of older ones; tremor, hyperreflexia, sweating and heat intolerance are significantly less common in patients >=70. A cluster of these signs with tachycardia or new atrial fibrillation supports thyrotoxicosis and should prompt TSH/free T4.",
+  "negative_finding": "Absence of classical signs does not exclude thyrotoxicosis, particularly in older adults, who average fewer signs (6 vs 10.8) and may present with apathy, weight loss and atrial fibrillation alone.",
+  "pitfalls": "Fine tremor and warm skin are also produced by anxiety, alcohol withdrawal, beta-agonists and sepsis; lid lag can be seen in anxiety with sympathetic overactivity. Beta-blockers mask most adrenergic signs; only exophthalmos/orbitopathy is specific for Graves' rather than thyrotoxicosis in general.",
+  "changes_what": "Signs present: check TSH/free T4 and treat AF or HF with thyrotoxicosis in mind. Signs absent in an older patient with AF, weight loss or apathy: still check TSH."
+ },
+ "estimates": [
+  {
+   "target_condition": "Overt hyperthyroidism (biochemically confirmed); finding = goiter on examination, in YOUNGER patients (age <=50 years)",
+   "population": "50 younger patients (<=50 y, mean 37.4) among 84 consecutive new patients with overt hyperthyroidism, French university hospital, 1992-1993, prospective cohort",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Biochemical confirmation of overt hyperthyroidism",
+   "sensitivity": {
+    "value": 0.94,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "A goiter was present in 94% of the younger and in 50% of the older patients (P < .001)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Overt hyperthyroidism (biochemically confirmed); finding = goiter on examination, in OLDER patients (age >=70 years)",
+   "population": "34 older patients (>=70 y, mean 80.2) among 84 consecutive new patients with overt hyperthyroidism, French university hospital, 1992-1993, prospective cohort",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Biochemical confirmation of overt hyperthyroidism",
+   "sensitivity": {
+    "value": 0.5,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "minimal",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "A goiter was present in 94% of the younger and in 50% of the older patients (P < .001)",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Ross DS, Burch HB, Cooper DS, Greenlee MC, Laurberg P, Maia AL, Rivkees SA, Samuels M, et al. 2016 American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis. Thyroid. 2016;26(10):1343-1421.",
+   "doi": "10.1089/thy.2016.0229",
+   "pmid": "27521067",
+   "url": null,
+   "kind": "guideline",
+   "year": 2016
+  },
+  {
+   "citation": "Trivalle C, Doucet J, Chassagne P, Landrin I, Kadri N, Menard JF, Bercoff E. Differences in the signs and symptoms of hyperthyroidism in older and younger patients. J Am Geriatr Soc. 1996;44(1):50-53.",
+   "doi": "10.1111/j.1532-5415.1996.tb05637.x",
+   "pmid": "8537590",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1996
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use absence of tremor, lid lag or goiter to dismiss thyrotoxicosis in older adults or beta-blocked patients.",
+  "escalation_warning": "Thyrotoxic signs with fever, agitation or delirium, tachyarrhythmia and heart failure suggest thyroid storm; treat urgently and do not wait for confirmatory labs.",
+  "interobserver_note": "No interobserver data found for these signs."
+ },
+ "tier": "extracted",
+ "extraction_notes": "No JAMA RCE for hyperthyroidism. Searches: 'hyperthyroidism clinical signs diagnostic accuracy lid lag tremor' (0 hits), 'Wayne index thyrotoxicosis clinical diagnosis' (no accuracy study), 'hyperthyroidism signs symptoms older younger patients differences', 'Trivalle hyperthyroidism older younger' -> PMID 8537590 confirmed. Trivalle 1996 gives sign frequencies in confirmed hyperthyroidism (sensitivity only, no specificity except versus 68 matched older euthyroid controls, for which only odds ratios are given: quote 'apathy (Odd ratio (OR): 14.8), tachycardia (OR: 11.2), and weight loss (OR: 8.7)' (Abstract, Results); ORs are not LRs and are not entered). Frequencies of tremor, hyperreflexia and sweating are stated only as 'significantly less frequent' in older patients without numbers in the abstract; full text not in PMC. Setting recorded as mixed because the abstract does not state inpatient vs outpatient. ATA 2016 guideline (PMID 27521067) cited as consensus for the clinical evaluation; it contains no accuracy numbers for individual signs.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T02:41:04+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

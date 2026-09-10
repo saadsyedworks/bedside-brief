@@ -1,0 +1,85 @@
+{
+ "identity": {
+  "id": "exam_infection_source_survey",
+  "title": "Focused infection-source exam (line/exit sites, skin, abdomen, joints, sacrum, urine catheter)",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "hypotension",
+   "aki",
+   "ams",
+   "fever"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "cellulitis_ssti",
+   "delirium_infectious",
+   "intraabdominal_abscess",
+   "line_infection",
+   "necrotizing_fasciitis",
+   "septic_arthritis",
+   "septic_shock",
+   "uti_pyelonephritis"
+  ],
+  "indication_tags": [
+   "immunocompromised",
+   "post_operative",
+   "ivdu",
+   "dialysis"
+  ]
+ },
+ "technique": {
+  "how": "Undress fully and systematically inspect and palpate: every vascular access, dialysis and drain site (erythema, tenderness, pus, tunnel), skin folds, sacrum/heels for ulcers, surgical wounds, large joints for effusion, abdomen with flank/CVA tenderness, urinary catheter and perineum, oropharynx, ears, calves; in IVDU also injection sites and heart sounds.",
+  "prerequisites": "Adequate exposure and lighting, a chaperone, help to log-roll immobile patients, knowledge of all indwelling devices and recent procedures.",
+  "contraindications": "None; do not delay cultures and antimicrobials in suspected sepsis to complete the exam."
+ },
+ "interpretation": {
+  "positive_finding": "Purulence, erythema or tenderness at a line/exit site, a pressure ulcer with surrounding cellulitis, a hot swollen joint, peritoneal signs or CVA tenderness identifies a likely source and directs cultures, imaging and source control.",
+  "negative_finding": "A normal exam does not exclude a device source: local inflammation had a sensitivity of only 0-3% for catheter-related bloodstream infection with short-term CVCs, so remove or culture lines on suspicion rather than appearance.",
+  "pitfalls": "Coagulase-negative staphylococcal line infections and infections in neutropenic or elderly patients incite little local inflammation; pain out of proportion, crepitus or rapidly spreading erythema is necrotizing infection even without fever.",
+  "changes_what": "Positive: targeted cultures/imaging and source control (line removal, drainage, debridement); negative: broaden the search (chest, urine, blood cultures, CT) and still consider the line."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Mermel LA, Allon M, Bouza E, Craven DE, Flynn P, O'Grady NP, Raad II, Rijnders BJ, et al. Clinical practice guidelines for the diagnosis and management of intravascular catheter-related infection: 2009 Update by the Infectious Diseases Society of America. Clin Infect Dis 2009;49:1-45.",
+   "doi": "10.1086/599376",
+   "pmid": "19489710",
+   "url": null,
+   "kind": "guideline",
+   "year": 2009
+  },
+  {
+   "citation": "Safdar N, Maki DG. Inflammation at the insertion site is not predictive of catheter-related bloodstream infection with short-term, noncuffed central venous catheters. Crit Care Med 2002;30:2632-2635.",
+   "doi": "10.1097/00003246-200212000-00003",
+   "pmid": "12483050",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2002
+  },
+  {
+   "citation": "Seymour CW, Liu VX, Iwashyna TJ, Brunkhorst FM, Rea TD, Scherag A, Rubenfeld G, Kahn JM, et al. Assessment of Clinical Criteria for Sepsis: For the Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3). JAMA 2016;315:762-774.",
+   "doi": "10.1001/jama.2016.0288",
+   "pmid": "26903335",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2016
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Never let a negative source survey argue against sepsis in a hypotensive or encephalopathic patient with qSOFA >=2 or lactate elevation.",
+  "escalation_warning": "Pain out of proportion, crepitus, bullae or rapidly progressive erythema is necrotizing fasciitis - surgical consultation immediately; a tender prosthetic or native joint in a febrile patient needs aspiration the same day.",
+  "interobserver_note": "No agreement data for the survey as a whole; site inflammation was scored by research nurses in Safdar 2002 with minimal difference between infected and uninfected catheters (mean scores 0.2 vs 0.1)."
+ },
+ "tier": "extracted",
+ "extraction_notes": "No diagnostic-accuracy study of the composite 'infection-source survey'; components have sparse data. Safdar & Maki 2002 (PMID 12483050, Abstract; not in PMC): 1263 short-term noncuffed CVCs, 35 (2.7%) caused BSI (5.9 per 1000 CVC days); 'The sensitivity of local inflammation for diagnosis of CVC-related BSI was dismal (0-3%)' - reported as a range across inflammation variables, so per RANGES rule no point estimate is entered and the record stays not_quantified. IDSA 2009 (PMID 19489710) guideline abstract has no numbers; it is the consensus basis for not relying on site appearance. Guembe 2014 (PMID 23850957) concerns superficial cultures, not exam, and was not entered. Seymour 2016 qSOFA cited only for the escalation context (AUROC 0.81 non-ICU, Abstract), not as a diagnostic estimate for source.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T02:42:48+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

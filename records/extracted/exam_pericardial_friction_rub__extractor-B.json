@@ -1,0 +1,68 @@
+{
+ "identity": {
+  "id": "exam_pericardial_friction_rub",
+  "title": "Pericardial friction rub (triphasic scratchy sound, LSB, leaning forward, end-expiration)",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "chest_pain",
+   "fever"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "pericardial_effusion_tamponade",
+   "pericarditis"
+  ],
+  "indication_tags": [
+   "pleuritic",
+   "positional"
+  ]
+ },
+ "technique": {
+  "how": "Sit the patient forward, ask for full exhalation and a breath-hold, and listen with the diaphragm firmly at the left lower sternal border. A rub is a superficial scratchy or leathery sound, classically with up to three components (atrial systole, ventricular systole, early diastole); it may come and go, so re-auscultate several times over hours.",
+  "prerequisites": "Quiet room; patient able to sit forward and hold expiration.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "A rub is one of the four ESC diagnostic criteria for acute pericarditis (chest pain, rub, ECG changes, new/worsening effusion; 2 of 4 required) and is regarded as highly specific, but no sensitivity/specificity against an independent reference standard was found.",
+  "negative_finding": "Absence of a rub does not exclude pericarditis; rubs are intermittent and were not present in most patients in prospective pericarditis cohorts. Absence of a rub with a large effusion says nothing about tamponade.",
+  "pitfalls": "Pleural rubs (disappear with breath-hold) and crunching artefact from skin or hair mimic a pericardial rub. The rub often vanishes as effusion accumulates, so its disappearance may signal worsening rather than improvement.",
+  "changes_what": "Rub present: treat as pericarditis criterion; get ECG, troponin, echo. Rub absent: still apply the other three criteria; do not use to discount pericarditis or tamponade."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Adler Y, Charron P, Imazio M, Badano L, Barón-Esquivias G, Bogaert J, Brucato A, Gueret P, et al. 2015 ESC Guidelines for the diagnosis and management of pericardial diseases. Eur Heart J. 2015;36(42):2921-2964.",
+   "doi": "10.1093/eurheartj/ehv318",
+   "pmid": "26320112",
+   "url": null,
+   "kind": "guideline",
+   "year": 2015
+  },
+  {
+   "citation": "Imazio M, Brucato A, Barbieri A, Ferroni F, Maestroni S, Ligabue G, Chinaglia A, Cumetti D, et al. Good prognosis for pericarditis with and without myocardial involvement: results from a multicenter, prospective cohort study. Circulation. 2013;128(1):42-49.",
+   "doi": "10.1161/CIRCULATIONAHA.113.001531",
+   "pmid": "23709669",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2013
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use presence or absence of a rub to decide about tamponade; that decision rests on hemodynamics, pulsus paradoxus, JVP and echo.",
+  "escalation_warning": "Rub with hypotension, rising JVP, or pulsus paradoxus >10 mmHg means possible tamponade: urgent echo and cardiology.",
+  "interobserver_note": "No interobserver data found; rub is intermittent and examiner-dependent."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Searches: 'pericardial friction rub acute pericarditis' (10 recent hits, none diagnostic-accuracy), 'Imazio pericarditis ... prognosis' and 'acute pericarditis day-hospital' (PMIDs 23709669, 15028364 fetched). No study reporting sensitivity/specificity or LR of a rub against an independent reference standard was found; the rub is itself one of the four ESC diagnostic criteria (quote from PMID 23709669 abstract: 'The diagnosis of acute pericarditis was based on the presence of 2 of 4 clinical criteria (chest pain, pericardial rubs, widespread ST-segment elevation or PR depression, and new or worsening pericardial effusion)'), so any accuracy estimate would be circular (incorporation bias). Rub frequency in pericarditis cohorts is reported in full texts I could not access (Circulation 2013 and JACC 2004 not in PMC), so no prevalence-of-sign number is entered. ESC 2015 guideline (PMID 26320112) has no PubMed abstract; its criteria are cited from the guideline document itself as consensus. Status not_quantified as expected for this priority-2 id.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T02:41:04+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

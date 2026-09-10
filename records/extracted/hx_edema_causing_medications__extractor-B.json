@@ -1,0 +1,68 @@
+{
+ "identity": {
+  "id": "hx_edema_causing_medications",
+  "title": "Medication review for edema: dihydropyridine CCB, NSAIDs, thiazolidinediones, pregabalin/gabapentin, steroids, minoxidil/hydralazine",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "edema",
+   "aki"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "acute_decompensated_hf",
+   "medication_effect",
+   "venous_insufficiency"
+  ],
+  "indication_tags": [
+   "new_medication",
+   "bilateral"
+  ]
+ },
+ "technique": {
+  "how": "Review the list for agents started or up-titrated in the weeks before swelling: dihydropyridine CCBs (amlodipine, nifedipine), NSAIDs/COX-2 inhibitors, thiazolidinediones, pregabalin/gabapentin, corticosteroids, minoxidil/hydralazine, oestrogens, dopamine agonists. Ask dose, timing relative to onset, and whether swelling is bilateral, dependent and painless.",
+  "prerequisites": "Accurate medication list including OTC NSAIDs; baseline renal function and any history of heart failure.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Bilateral, dependent, non-tender ankle edema beginning weeks after a dihydropyridine CCB, NSAID, thiazolidinedione, gabapentinoid or vasodilator supports drug-induced edema; NSAIDs with ACEi/ARB or diuretics additionally raise AKI and sodium retention.",
+  "negative_finding": "No culprit drug makes medication effect unlikely and shifts attention to heart failure, venous insufficiency, cirrhosis, nephrotic syndrome or hypoalbuminaemia.",
+  "pitfalls": "CCB edema is not diuretic-responsive and is often misdiagnosed as heart failure; thiazolidinediones and NSAIDs can precipitate true heart failure decompensation, so the presence of a drug does not exclude cardiac cause; unilateral or painful swelling is never 'drug edema'.",
+  "changes_what": "Positive: stop/switch the agent (or add ACEi/ARB for CCB edema) and reassess in 2-4 weeks before echocardiography; negative: proceed with HF/venous/renal/hepatic workup."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Makani H, Bangalore S, Romero J, Htyte N, Berrios RS, Makwana H, Messerli FH. Peripheral edema associated with calcium channel blockers: incidence and withdrawal rate--a meta-analysis of randomized trials. J Hypertens 2011;29:1270-1280.",
+   "doi": "10.1097/HJH.0b013e3283472643",
+   "pmid": "21558959",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2011
+  },
+  {
+   "citation": "Heidenreich PA, Bozkurt B, Aguilar D, Allen LA, Byun JJ, Colvin MM, Deswal A, Drazner MH, et al. 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure. Circulation 2022;145:e895-e1032.",
+   "doi": "10.1161/CIR.0000000000001063",
+   "pmid": "35363499",
+   "url": null,
+   "kind": "guideline",
+   "year": 2022
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Unilateral, painful or acute-onset swelling; edema with dyspnoea, orthopnoea, elevated JVP or weight gain >2 kg - evaluate for DVT or heart failure regardless of medication history.",
+  "escalation_warning": "Thiazolidinedione or NSAID use with new edema plus dyspnoea may be drug-precipitated heart failure; NSAIDs with ACEi/ARB and diuretic ('triple whammy') with rising creatinine is AKI until proven otherwise.",
+  "interobserver_note": "No accuracy or agreement data; attribution rests on temporal relation and resolution after withdrawal."
+ },
+ "tier": "extracted",
+ "extraction_notes": "No diagnostic-accuracy study evaluates medication history as a test for drug-induced versus other edema; evidence is incidence data from RCT meta-analysis and guideline cautions. Makani 2011 (PMID 21558959, Abstract): 'The weighted incidence of peripheral edema was significantly higher in the CCBs group when compared with controls/placebo (10.7 vs. 3.2%, P < 0.0001)'; incidence 'reaching 24 and 5%, respectively, after 6 months'; 'Incidence of peripheral edema in patients on DHPs was 12.3% compared with 3.1% with non-DHPs'; high-dose vs low-dose CCB 16.1 vs 5.7%. These are adverse-event incidences in hypertension trials, not sensitivity/specificity, so no estimate entered. AHA/ACC/HFSA 2022 HF guideline (PMID 35363499) cautions against thiazolidinediones and NSAIDs in HF (guideline text; unverified recall of section). No study found for gabapentinoid, steroid or minoxidil edema incidence within the search budget.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T02:42:48+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

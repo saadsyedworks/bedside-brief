@@ -1,0 +1,156 @@
+{
+ "identity": {
+  "id": "exam_tachycardia_resting",
+  "title": "Resting heart rate >100/min (and postural pulse increment)",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "chest_pain",
+   "syncope",
+   "palpitations",
+   "hypotension",
+   "aki",
+   "fever"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "acute_decompensated_hf",
+   "anemia",
+   "hyperthyroidism",
+   "hypovolemic_hemorrhagic_shock",
+   "pericardial_effusion_tamponade",
+   "prerenal_hypovolemia",
+   "pulmonary_embolism",
+   "septic_shock",
+   "sinus_tachycardia_secondary"
+  ],
+  "indication_tags": []
+ },
+ "technique": {
+  "how": "Count the radial or apical pulse for a full 60 seconds with the patient resting supine for at least 2 minutes; confirm rhythm on the monitor or ECG. For the postural increment, re-count after 1 minute of standing (not sitting) and record the change in beats/min, noting any dizziness severe enough to prevent standing.",
+  "prerequisites": "Patient at rest, afebrile-state noted, no pain or anxiety stimulus at the time of counting; monitor rhythm strip available if irregular.",
+  "contraindications": "Do not stand a patient who is hypotensive, syncopal or at fall risk to obtain postural vitals."
+ },
+ "interpretation": {
+  "positive_finding": "Resting tachycardia is non-specific but sensitive for several emergencies: in tamponade it is present in about 77% of cases. A postural pulse rise >=30/min or inability to stand from dizziness is highly specific (98%) for large acute blood loss and present in 97% after 630-1150 mL phlebotomy.",
+  "negative_finding": "A normal resting heart rate does not exclude blood loss, PE or tamponade; supine tachycardia is frequently absent after up to 1150 mL blood loss, and a postural pulse increment misses most moderate (450-630 mL) losses (sensitivity 22%).",
+  "pitfalls": "Beta-blockers, pacemakers, athletes and conduction disease blunt tachycardia; fever, pain, anxiety, anaemia and hyperthyroidism cause it without hypovolaemia. The postural increment requires standing for a minute; sitting vitals are insensitive.",
+  "changes_what": "Unexplained resting HR >100: search for bleeding, sepsis, PE, tamponade, thyrotoxicosis; postural rise >=30 or severe postural dizziness: treat as large-volume loss and resuscitate."
+ },
+ "estimates": [
+  {
+   "target_condition": "COMPOSITE: postural pulse increment >=30 beats/min OR severe postural dizziness (unable to stand for vitals), for LARGE acute blood loss (630-1150 mL phlebotomy)",
+   "population": "Healthy volunteers undergoing phlebotomy of up to 1150 mL in pooled studies (RCE review of 10 volunteer studies, MEDLINE 1966-1997)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Known volume of blood removed by phlebotomy (large = 630-1150 mL)",
+   "sensitivity": {
+    "value": 0.97,
+    "ci_low": 0.91,
+    "ci_high": 1.0
+   },
+   "specificity": {
+    "value": 0.98,
+    "ci_low": 0.97,
+    "ci_high": 0.99
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "both",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "a much greater sensitivity for large blood loss of 97% (95% CI, 91%-100%); the corresponding specificity is 98% (95% CI, 97%-99%)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "COMPOSITE: postural pulse increment >=30 beats/min OR severe postural dizziness, for MODERATE acute blood loss (450-630 mL phlebotomy)",
+   "population": "Healthy volunteers undergoing phlebotomy (pooled volunteer studies in RCE review)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Known volume of blood removed by phlebotomy (moderate = 450-630 mL)",
+   "sensitivity": {
+    "value": 0.22,
+    "ci_low": 0.06,
+    "ci_high": 0.48
+   },
+   "specificity": {
+    "value": 0.98,
+    "ci_low": 0.97,
+    "ci_high": 0.99
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "The presence of either finding has a sensitivity for moderate blood loss of only 22% (95% confidence interval [CI], 6%-48%)",
+   "location": "Abstract, Results (specificity 98% from the same sentence: 'the corresponding specificity is 98% (95% CI, 97%-99%)')"
+  },
+  {
+   "target_condition": "Cardiac tamponade (echocardiographic/clinical tamponade among patients with pericardial effusion); finding = tachycardia (resting heart rate above normal, threshold not specified in abstract)",
+   "population": "Patients with known tamponade or referred for pericardiocentesis with known effusion, 8 studies (RCE systematic review, MEDLINE 1966-2006)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Tamponade diagnosed by echocardiography and/or hemodynamic response to pericardiocentesis",
+   "sensitivity": {
+    "value": 0.77,
+    "ci_low": 0.69,
+    "ci_high": 0.85
+   },
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 1,
+   "quote": "tachycardia (pooled sensitivity, 77%; 95% confidence interval [CI], 69%-85%)",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "McGee S, Abernethy WB, Simel DL. The rational clinical examination. Is this patient hypovolemic? JAMA. 1999;281(11):1022-1029.",
+   "doi": "10.1001/jama.281.11.1022",
+   "pmid": "10086438",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1999
+  },
+  {
+   "citation": "Roy CL, Minor MA, Brookhart MA, Choudhry NK. Does this patient with a pericardial effusion have cardiac tamponade? JAMA. 2007;297(16):1810-1818.",
+   "doi": "10.1001/jama.297.16.1810",
+   "pmid": "17456823",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2007
+  },
+  {
+   "citation": "Chunilal SD, Eikelboom JW, Attia J, Miniati M, Panju AA, Simel DL, Ginsberg JS. Does this patient have pulmonary embolism? JAMA. 2003;290(21):2849-2858.",
+   "doi": "10.1001/jama.290.21.2849",
+   "pmid": "14657070",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2003
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use a normal heart rate to exclude haemorrhage, PE or tamponade, especially in beta-blocked or elderly patients; do not perform standing vitals in a patient who is hypotensive or has already had syncope.",
+  "escalation_warning": "Resting HR >100 with hypotension, rising lactate, new confusion or a pulsus paradoxus >10 mmHg is shock until proven otherwise; escalate and resuscitate rather than observe.",
+  "interobserver_note": "Pulse counting is reliable when done for 60 s; postural measurements are technique-sensitive (standing, not sitting; wait 1 minute). No kappa reported in the RCE abstracts."
+ },
+ "tier": "extracted",
+ "extraction_notes": "All three PMIDs confirmed; JAMA full texts not in PMC, so estimates come from abstracts ('Abstract, Results'). The hypovolaemia RCE gives only a COMPOSITE (postural pulse increment >=30/min OR severe postural dizziness), entered with the COMPOSITE prefix; the sensitivity of supine tachycardia alone for blood loss is described as 'frequently absent' but the number is not in the abstract (only supine hypotension sensitivity 33% is), so it is not entered. Volunteer phlebotomy is not a clinical cohort, hence no prevalence. Tamponade RCE (PMID 17456823) reports pooled sensitivity of tachycardia only (case-series-type studies), no specificity or LR; threshold for tachycardia not given in abstract. PE RCE (PMID 14657070) evaluates gestalt and prediction rules only and provides no tachycardia-specific accuracy; cited as context only. No estimate has this single sign's own sens/spec or LR pair, so status is partially_quantified.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T02:41:04+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

@@ -1,0 +1,103 @@
+{
+ "identity": {
+  "id": "exam_new_regurgitant_murmur",
+  "title": "New or changed regurgitant murmur",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "fever"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "acute_decompensated_hf",
+   "endocarditis"
+  ],
+  "indication_tags": [
+   "ivdu",
+   "prosthetic_valve",
+   "dialysis"
+  ]
+ },
+ "technique": {
+  "how": "Auscultate all four valve areas with diaphragm and bell, patient supine then in left lateral decubitus and sitting forward in end-expiration. Grade any systolic or diastolic murmur, note timing and radiation, and compare against any documented prior examination or echo report to decide whether it is new or changed.",
+  "prerequisites": "Quiet room; access to prior exam notes or echo reports to establish baseline. Blood cultures should be drawn before antibiotics whenever endocarditis is being considered.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "In suspected infective endocarditis, a new murmur roughly triples the odds of IE (computed LR+ about 2.7) but is present in only about one-third of true IE episodes. In a febrile bacteraemic patient it should prompt echocardiography rather than confirm the diagnosis.",
+  "negative_finding": "Absence of a new murmur barely lowers the probability of IE (computed LR- about 0.7); most IE episodes in the Swiss cohort had no new murmur.",
+  "pitfalls": "Whether a murmur is 'new' depends on a prior documented exam, which is often missing; flow murmurs from fever or anaemia mimic new regurgitant murmurs. Murmur detection varies with examiner skill, and prosthetic or device-related IE frequently produces no murmur.",
+  "changes_what": "New murmur with fever or bacteraemia: obtain blood cultures and echocardiography (TTE then TEE). No murmur does not exclude IE; keep imaging if pretest probability is meaningful."
+ },
+ "estimates": [
+  {
+   "target_condition": "Infective endocarditis (endocarditis-team / expert adjudication); finding = ANY new heart murmur in a patient without pre-existing murmur or without prior exam (not restricted to regurgitant, 'changed' murmurs not captured)",
+   "population": "3127 episodes of suspected IE (blood cultures drawn and echo performed for IE) at two Swiss tertiary centres 2014-2023, mostly retrospective; 1177 (38%) IE, of which 64% native valve, 27% prosthetic, 15% CIED lead",
+   "setting": "inpatient",
+   "prevalence": 0.376,
+   "reference_standard": "Endocarditis-team or expert-clinician final classification (definite IE), incorporating imaging, microbiology and surgery",
+   "sensitivity": {
+    "value": 0.365,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.867,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 2.74,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.73,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "Table 1 row 'Minor physical examination criterion': 430/1177 IE vs 260/1950 non-IE. Sens=430/1177=0.365; spec=1690/1950=0.867; LR+=0.365/0.133=2.74; LR-=0.635/0.867=0.73. CIs not computed.",
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "Physical examination revealed a new heart murmur in 690 (22%) episodes, which was more common in patients with IE than those without (37% vs 13%",
+   "location": "Results, first paragraph; Table 1, row 'Minor physical examination criterion' (No IE 260 (13); IE 430 (37))"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Papadimitriou-Olivgeris M, Monney P, Frank M, Tzimas G, Fourré N, Zimmermann V, Tozzi P, Kirsch M, et al. Role of the New Physical Examination Minor Criterion (New Heart Murmur) for the Diagnosis of Infective Endocarditis. Open Forum Infect Dis. 2025.",
+   "doi": "10.1093/ofid/ofae736",
+   "pmid": "39790639",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2025
+  },
+  {
+   "citation": "Servy A, Valeyrie-Allanore L, Alla F, Lechiche C, Nazeyrollas P, Chidiac C, Hoen B, Chosidow O. Prognostic value of skin manifestations of infective endocarditis. JAMA Dermatol. 2014.",
+   "doi": "10.1001/jamadermatol.2013.8727",
+   "pmid": "24500311",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2014
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use absence of a murmur to withhold blood cultures or echo in a bacteraemic, febrile, or IVDU/prosthetic-valve/dialysis patient.",
+  "escalation_warning": "A new regurgitant murmur with heart failure, heart block, or embolic signs is a surgical emergency conversation, not a watch-and-wait finding.",
+  "interobserver_note": "No kappa reported for the murmur finding in the Swiss cohort; the authors state detection 'may be influenced by the auscultation skills of the treating physician' (Discussion)."
+ },
+ "tier": "extracted",
+ "extraction_notes": "PMC OA full text of PMID 39790639 read (Results, Table 1, Table 2). Definition used by the study is 'any new heart murmur', broader than the id title 'new or changed regurgitant murmur', so status held at partially_quantified despite a full computed 2x2. Table 2 reports criteria-set performance, not the murmur alone: adding the murmur criterion to imaging-free Duke-ISCVID raised sensitivity from 31 to 45% (quote: 'Without imaging/surgical criterion with the physical examination criterion 45 (42-48) 97 (96-98)', Table 2). Companion peripheral stigmata (not entered as estimates because they are different signs): in 487 definite IE cases, quote 'Of 487 cases, 58 (11.9%) had skin manifestations, including 39 (8.0%) with purpura, 13 (2.7%) with Osler nodes, 8 (1.6%) with Janeway lesions' (PMID 24500311, Abstract, Results) - i.e. classic skin signs are present in about 12% of definite IE. No JAMA RCE for endocarditis exam; no pooled LR for new murmur found in 2 searches.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T02:41:04+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}
