@@ -7,11 +7,24 @@ any wave.** Nothing renders and nothing enters the evaluation until you promote 
 ## Start the app
 
 ```bash
-git clone https://github.com/saadsyedworks/bedside-brief && cd bedside-brief
+git clone https://github.com/saadsyedworks/bedside-brief
+cd bedside-brief
 git checkout claude/git-repo-setup-rvdx9z
-pip install -r requirements.txt
-python3 tools/verify_ui.py          # http://127.0.0.1:8765
+./start_verify.sh                   # opens http://127.0.0.1:8765
 ```
+
+`start_verify.sh` creates a local virtualenv on first run, installs the dependencies, starts the app and
+opens it in your browser. Pass a port if 8765 is taken: `./start_verify.sh 8899`.
+
+If something goes wrong:
+
+| Symptom | Fix |
+|---|---|
+| `externally-managed-environment` from pip | You ran `pip install` directly. Use `./start_verify.sh`, which installs inside `.venv`. |
+| `permission denied: ./start_verify.sh` | `chmod +x start_verify.sh`, or run `bash start_verify.sh`. |
+| `No module named venv` (Debian/Ubuntu) | `sudo apt install python3-venv`, then rerun. |
+| Nothing opens, no error | The server is running; open <http://127.0.0.1:8765> yourself. The script never opens a browser on Windows. |
+| Windows | Use Git Bash or WSL, or run the four steps by hand with `py -m venv .venv` and `.venv\Scripts\python tools/verify_ui.py`. |
 
 Packets A and B sit side by side, differences highlighted, each estimate linked to PubMed or DOI, with
 the red-team flags for that id at the top. `p` promotes, `r` rejects with a reason, `n` skips. Promotion

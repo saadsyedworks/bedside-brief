@@ -59,7 +59,7 @@ uvicorn bedside_brief.api:app --reload                                  # http:/
 ## Verify records (owner only)
 
 ```bash
-python3 tools/verify_ui.py        # http://127.0.0.1:8765
+./start_verify.sh                 # venv + deps + app, on http://127.0.0.1:8765
 ```
 
 Queue order comes from `records/diff_report.md` (disagreements and fabrication suspects first). Each
