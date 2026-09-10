@@ -17,3 +17,4 @@
 - 02:10 Rate limit killed 12 background agents (critic re-check, red-team ×2, eval builder, wave-3 extractors ×8). Critic's report had already been written to disk; agents resumed after reset (A-side extractors first to cap concurrency).
 - 02:24 **Freeze #1**: content commit 39a698e; hash stamped into all 36 case files; freeze guard test added (37 tests). Benchmark is read-only from here except `reference_targets_mapped` at freeze #2.
 - 02:55 Wave 3 complete: 190 packets over all 95 priority-1 ids. Red-team wave 1 committed (no fabricated numbers; direction/range/author/composite issues → prompt hardened, DECISIONS #23). Verification queue handed to owner (gate 2). Eval harness landed (155 tests). Wave 4 A-side (58 P2/P3 ids) + red-team wave 3 launched.
+- 03:10 Red-team wave 2 committed (0 fabrication, 110/110 quotes verified). Sidecar + target map landed. **Freeze #2** = 28a5f2617dcd474602491e71823338316f18bc2d.

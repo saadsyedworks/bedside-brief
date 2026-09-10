@@ -24,7 +24,7 @@
 - [x] Tests (155 total incl. freeze guard): schema validation, retrieval determinism, ranker id-containment, validator blocking, render fidelity, perturbation/noise fixtures. code-reviewer pass.
 
 ## Phase 3 — Evaluation (Day 4–5). GATE: freeze #2, then judging queue.
-- [ ] Map free-text targets → record ids (`reference_targets_mapped`); unmapped targets counted for library coverage. Commit → **freeze #2**.
+- [x] Map free-text targets → record ids (`reference_targets_mapped`; `benchmark/target_map.json`, 216/258 mapped, 42 gaps counted for library coverage). Commit → **freeze #2** (hash in DECISIONS #26).
 - [x] `eval/arms.py`: A (full), B (retrieval-only, fixed order, truncated), C (generic LLM prompt, same model, parsed by same item parser).
 - [x] `eval/metrics.py`: every mechanical metric in `evaluation_rubric.md`; ECG sensitivity analysis; **must-have recall stratified quantified vs not_quantified (gate ruling 3); MAR-review-off-bedside sensitivity analysis (gate ruling 4)**.
 - [x] `eval/judging_export.py`: shuffled, arm-blinded item list (CSV) for owner relevance/safety scoring; `judging_import.py`.
