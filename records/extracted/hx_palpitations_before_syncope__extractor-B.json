@@ -1,0 +1,83 @@
+{
+ "identity": {
+  "id": "hx_palpitations_before_syncope",
+  "title": "Palpitations immediately preceding syncope",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "syncope",
+   "palpitations"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "atrial_fibrillation_flutter",
+   "reflex_vasovagal",
+   "svt",
+   "tachyarrhythmia",
+   "ventricular_tachycardia"
+  ],
+  "indication_tags": []
+ },
+ "technique": {
+  "how": "Ask the patient (and any witness) whether a sensation of a racing, pounding or fluttering heartbeat began in the seconds to minutes before losing consciousness. Distinguish this from palpitations noticed only after waking, and ask whether they were rapid/regular, irregular, or 'skipped beats'.",
+  "prerequisites": "Patient able to recall the prodrome; a witness account helps when amnesia is present.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Palpitations immediately before syncope are a recognised predictor of cardiac (arrhythmic) syncope in the EGSYS derivation cohort and were the only historical predictor of a cardiac cause in patients without heart disease in Alboni 2001.",
+  "negative_finding": "Absence does not exclude arrhythmic syncope; many arrhythmic events produce no perceived palpitations, particularly bradyarrhythmias.",
+  "pitfalls": "Sinus tachycardia during a vasovagal prodrome or panic can be reported as palpitations; recall bias is common after loss of consciousness.",
+  "changes_what": "Positive: treat as possible arrhythmic syncope - obtain ECG, consider monitoring/admission rather than discharge as vasovagal. Negative: does not lower cardiac probability."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Albassam OT, Redelmeier RJ, Shadowitz S, Husain AM, Simel D, Etchells EE. Did This Patient Have Cardiac Syncope?: The Rational Clinical Examination Systematic Review. JAMA. 2019;321(24):2448-2457.",
+   "doi": "10.1001/jama.2019.8001",
+   "pmid": "31237649",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2019
+  },
+  {
+   "citation": "Del Rosso A, Ungar A, Maggi R, et al. Clinical predictors of cardiac syncope at initial evaluation in patients referred urgently to a general hospital: the EGSYS score. Heart. 2008;94(12):1620-1626.",
+   "doi": null,
+   "pmid": "18519550",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2008
+  },
+  {
+   "citation": "Alboni P, Brignole M, Menozzi C, et al. Diagnostic value of history in patients with syncope with or without heart disease. J Am Coll Cardiol. 2001;37(7):1921-1928.",
+   "doi": "10.1016/s0735-1097(01)01241-4",
+   "pmid": "11401133",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2001
+  },
+  {
+   "citation": "Thavendiranathan P, Bagai A, Khoo C, Dorian P, Choudhry NK. Does this patient with palpitations have a cardiac arrhythmia? JAMA. 2009;302(19):2135-2143.",
+   "doi": "10.1001/jama.2009.1673",
+   "pmid": "19920238",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2009
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use a negative answer to downgrade a patient with structural heart disease, abnormal ECG, or exertional/supine syncope.",
+  "escalation_warning": "Palpitations followed by syncope in a patient with known heart disease, a family history of sudden death, or an abnormal ECG warrants monitored observation and cardiology input.",
+  "interobserver_note": "Self-reported prodrome; reproducibility not reported in the sources."
+ },
+ "tier": "extracted",
+ "extraction_notes": "No numeric LR/sens/spec visible in accessible text. The 2019 RCE abstract (PMID 31237649) reports no palpitation estimate and the article is not PMC open-access, so its evidence table could not be read; the EGSYS abstract (PMID 18519550) names 'palpitations before syncope' as a multivariable predictor of cardiac syncope but gives no univariate accuracy; Alboni 2001 abstract (PMID 11401133) states 'in the patients without heart disease, palpitation was the only significant predictor of a cardiac cause' without a number. Estimates therefore left empty; a verifier with journal access should extract the palpitations row from RCE 2019 Table (likely LR ~2-3) and from EGSYS Table 2. All PMIDs confirmed by fetch; EGSYS DOI not returned by fetch so left null.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T01:47:57+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

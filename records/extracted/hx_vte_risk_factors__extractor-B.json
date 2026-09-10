@@ -1,0 +1,236 @@
+{
+ "identity": {
+  "id": "hx_vte_risk_factors",
+  "title": "VTE risk history (Wells items): immobilization >=3 days or surgery within 4-12 weeks, prior objectively confirmed VTE, active malignancy",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "chest_pain",
+   "syncope",
+   "edema",
+   "fever"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "dvt",
+   "pulmonary_embolism"
+  ],
+  "indication_tags": [
+   "recent_immobilization",
+   "post_operative",
+   "malignancy",
+   "anticoagulated"
+  ]
+ },
+ "technique": {
+  "how": "Ask directly for each Wells item: bed rest >=3 days or major surgery within the past 4 weeks (12 weeks for PE rules); prior DVT/PE confirmed by imaging; cancer under active treatment, treated within 6 months, or palliative. Record each item as present/absent rather than a global impression.",
+  "prerequisites": "Patient or collateral informant able to give a history; access to prior records improves accuracy for confirmed VTE.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Any single item roughly doubles the odds of DVT (pooled LR+ 1.8-2.7) and modestly raises the odds of PE (LR+ 1.6-2.1); items are meant to be summed within the Wells score, where high probability carries LR ~5 and DVT prevalence ~53%.",
+  "negative_finding": "Absence of individual risk factors does not exclude VTE (item-level LR- near 1); only a low overall Wells score (LR ~0.25, DVT prevalence ~5%) plus a negative D-dimer safely excludes DVT.",
+  "pitfalls": "Pooled item LRs have substantial heterogeneity; patients often under-report remote surgery or immobilization, and 'prior DVT' should be objectively confirmed rather than self-diagnosed. Do not treat any single item as a rule-in.",
+  "changes_what": "Positive items move the Wells score toward moderate/high: order compression US (DVT) or CTPA/imaging (PE); no items plus low score allows D-dimer-based exclusion."
+ },
+ "estimates": [
+  {
+   "target_condition": "DVT (finding: active malignancy)",
+   "population": "Patients with clinically suspected DVT (cohort studies comparing clinical assessment with a reference standard; pooled random-effects)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Venography or compression/duplex ultrasound (study-specific reference standard)",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 2.71,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "Only malignancy (likelihood ratio [LR], 2.71), previous DVT (LR, 2.25), recent immobilization (LR, 1.98), difference in calf diameter (LR, 1.80)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "DVT (finding: previous DVT)",
+   "population": "Patients with clinically suspected DVT (cohort studies comparing clinical assessment with a reference standard; pooled random-effects)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Venography or compression/duplex ultrasound (study-specific reference standard)",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 2.25,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "Only malignancy (likelihood ratio [LR], 2.71), previous DVT (LR, 2.25), recent immobilization (LR, 1.98), difference in calf diameter (LR, 1.80)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "DVT (finding: recent immobilization)",
+   "population": "Patients with clinically suspected DVT (cohort studies comparing clinical assessment with a reference standard; pooled random-effects)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Venography or compression/duplex ultrasound (study-specific reference standard)",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 1.98,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "Only malignancy (likelihood ratio [LR], 2.71), previous DVT (LR, 2.25), recent immobilization (LR, 1.98), difference in calf diameter (LR, 1.80)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "DVT (finding: recent surgery)",
+   "population": "Patients with clinically suspected DVT (cohort studies comparing clinical assessment with a reference standard; pooled random-effects)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Venography or compression/duplex ultrasound (study-specific reference standard)",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 1.76,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "and recent surgery (LR, 1.76) were useful for ruling in DVT",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Pulmonary embolism (finding: active cancer)",
+   "population": "Patients with suspected acute PE; 18 studies, 5997 patients, pooled random-effects",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Study-specific reference standard (CTPA, V/Q scan, angiography, or follow-up)",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 1.74,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "minimal",
+   "evidence_level": "pooled",
+   "source_index": 1,
+   "quote": "current DVT (2.05), leg swelling (2.11), sudden dyspnoea (1.83), active cancer (1.74), recent surgery (1.63)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Pulmonary embolism (finding: recent surgery)",
+   "population": "Patients with suspected acute PE; 18 studies, 5997 patients, pooled random-effects",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Study-specific reference standard (CTPA, V/Q scan, angiography, or follow-up)",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 1.63,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "minimal",
+   "evidence_level": "pooled",
+   "source_index": 1,
+   "quote": "current DVT (2.05), leg swelling (2.11), sudden dyspnoea (1.83), active cancer (1.74), recent surgery (1.63)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Pulmonary embolism (finding: current DVT)",
+   "population": "Patients with suspected acute PE; 18 studies, 5997 patients, pooled random-effects",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Study-specific reference standard (CTPA, V/Q scan, angiography, or follow-up)",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 2.05,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 1,
+   "quote": "current DVT (2.05), leg swelling (2.11), sudden dyspnoea (1.83), active cancer (1.74), recent surgery (1.63)",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Goodacre S, Sutton AJ, Sampson FC. Meta-analysis: the value of clinical assessment in the diagnosis of deep venous thrombosis. Ann Intern Med. 2005;143(2):129-139.",
+   "doi": "10.7326/0003-4819-143-2-200507190-00012",
+   "pmid": "16027455",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2005
+  },
+  {
+   "citation": "West J, Goodacre S, Sampson F. The value of clinical features in the diagnosis of acute pulmonary embolism: systematic review and meta-analysis. QJM. 2007;100(12):763-769.",
+   "doi": "10.1093/qjmed/hcm113",
+   "pmid": "18089542",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2007
+  },
+  {
+   "citation": "Wells PS, Owen C, Doucette S, Fergusson D, Tran H. Does this patient have deep vein thrombosis? JAMA. 2006;295(2):199-207.",
+   "doi": "10.1001/jama.295.2.199",
+   "pmid": "16403932",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2006
+  },
+  {
+   "citation": "Chunilal SD, Eikelboom JW, Attia J, et al. Does this patient have pulmonary embolism? JAMA. 2003;290(21):2849-2858.",
+   "doi": "10.1001/jama.290.21.2849",
+   "pmid": "14657070",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2003
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Never use absence of risk factors alone to stop a VTE work-up in a patient with unexplained dyspnea, hypoxia, or syncope; ~30% of PE occurs without identifiable provoking factors.",
+  "escalation_warning": "Hemodynamic instability with any VTE risk factor warrants immediate bedside echo/CTPA and consideration of empiric anticoagulation.",
+  "interobserver_note": "Item-level pooled LRs showed substantial statistical heterogeneity across cohorts (Goodacre 2005; West 2008); definitions of 'recent' surgery/immobilization vary between studies."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Item-level LRs taken from abstracts of the Goodacre 2005 (DVT) and West 2008 (PE) meta-analyses; full text/tables were not accessible so 95% CIs and LR- values for individual items are null (partially_quantified). Only rule-in direction is reported for these items. The 2003 PE RCE (Chunilal) and 2006 DVT RCE (Wells) abstracts report performance of gestalt/prediction rules, not individual items; the 2006 RCE gives DVT prevalence 5% low vs 53% high Wells probability, cited here as context. Anand 1998 RCE abstract contains no item-level numbers. Verifier: check Goodacre 2005 Table 2 for CIs and LR- per item.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T01:47:48+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

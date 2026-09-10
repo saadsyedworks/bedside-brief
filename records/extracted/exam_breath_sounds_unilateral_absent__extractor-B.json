@@ -1,0 +1,155 @@
+{
+ "identity": {
+  "id": "exam_breath_sounds_unilateral_absent",
+  "title": "Unilaterally absent or markedly reduced breath sounds (+/- tracheal deviation as late tension sign)",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "chest_pain",
+   "hypotension"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "pleural_effusion",
+   "pneumonia",
+   "pneumothorax",
+   "upper_airway_obstruction"
+  ],
+  "indication_tags": [
+   "unilateral",
+   "trauma"
+  ]
+ },
+ "technique": {
+  "how": "Auscultate both hemithoraces at matched anterior, lateral and posterior points during quiet then deep breathing, comparing each site directly with its mirror-image contralateral site. Note whether breath sounds are absent, markedly reduced or merely asymmetric, and check tracheal position in the suprasternal notch.",
+  "prerequisites": "Quiet room, skin contact (not through clothing), patient able to breathe on request; in trauma, examine during primary survey with the patient supine.",
+  "contraindications": "None; do not delay decompression of a clinically obvious tension pneumothorax to complete the exam."
+ },
+ "interpretation": {
+  "positive_finding": "Breath sounds clearly absent or much reduced on one side compared with the other, with or without hyperresonance (pneumothorax) or dullness (effusion/consolidation).",
+  "negative_finding": "Symmetric, normal-intensity vesicular breath sounds bilaterally; this lowers but does not exclude small pneumothorax, effusion or pneumonia.",
+  "pitfalls": "Sounds transmit across the mediastinum and the finding is insensitive (pooled sensitivity around 0.5-0.7), so a normal exam cannot rule out pneumothorax. Obesity, COPD hyperinflation, shallow breathing and noisy resuscitation bays reduce reliability.",
+  "changes_what": "Unilateral absence after chest trauma or with hypotension: treat as pneumothorax/hemothorax until imaged (POCUS/CXR); with dullness, evaluate for effusion or consolidation."
+ },
+ "estimates": [
+  {
+   "target_condition": "Hemothorax, pneumothorax or hematopneumothorax",
+   "population": "Adults with blunt or penetrating chest trauma (5 studies; abnormal, decreased or absent breath sounds)",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "Chest radiograph",
+   "sensitivity": {
+    "value": 0.71,
+    "ci_low": 0.55,
+    "ci_high": 0.83
+   },
+   "specificity": {
+    "value": 0.99,
+    "ci_low": 0.98,
+    "ci_high": 1.0
+   },
+   "lr_positive": {
+    "value": 113.5,
+    "ci_low": 30.3,
+    "ci_high": 425
+   },
+   "lr_negative": {
+    "value": 0.29,
+    "ci_low": 0.18,
+    "ci_high": 0.47
+   },
+   "computed": false,
+   "computed_from": "",
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "(Hemato) pneumathorax 5 0.71 (0.55, 0.83) 0.99 (0.98, 1.00) 113.5 (30.3, 425) 0.29 (0.18, 0.47)",
+   "location": "Table 3, row 'Abnormal, decreased or absent breath sounds - (Hemato) pneumothorax'"
+  },
+  {
+   "target_condition": "Pneumonia",
+   "population": "Adults with acute respiratory symptoms or suspected pneumonia (6 studies; abnormal, decreased or absent breath sounds)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Chest radiograph",
+   "sensitivity": {
+    "value": 0.26,
+    "ci_low": 0.14,
+    "ci_high": 0.42
+   },
+   "specificity": {
+    "value": 0.91,
+    "ci_low": 0.84,
+    "ci_high": 0.95
+   },
+   "lr_positive": {
+    "value": 2.8,
+    "ci_low": 1.9,
+    "ci_high": 4.1
+   },
+   "lr_negative": {
+    "value": 0.82,
+    "ci_low": 0.7,
+    "ci_high": 0.95
+   },
+   "computed": false,
+   "computed_from": "",
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "Pneumonia 6 0.26 (0.14, 0.42) 0.91 (0.84, 0.95) 2.8 (1.9, 4.1) 0.82 (0.70, 0.95)",
+   "location": "Table 3, row 'Abnormal, decreased or absent breath sounds - Pneumonia'"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Arts L, Lim EHT, van de Ven PM, Heunks L, Tuinman PR. The diagnostic accuracy of lung auscultation in adult patients with acute pulmonary pathologies: a meta-analysis. Sci Rep. 2020;10:7347.",
+   "doi": "10.1038/s41598-020-64405-6",
+   "pmid": "32355210",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2020
+  },
+  {
+   "citation": "Wong CL, Holroyd-Leduc J, Straus SE. Does this patient have a pleural effusion? JAMA. 2009;301(3):309-317.",
+   "doi": "10.1001/jama.2008.937",
+   "pmid": "19155458",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2009
+  },
+  {
+   "citation": "Kalantri S, Joshi R, Lokhande T, et al. Accuracy and reliability of physical signs in the diagnosis of pleural effusion. Respir Med. 2007;101(3):431-438.",
+   "doi": "10.1016/j.rmed.2006.07.014",
+   "pmid": "16965906",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2007
+  },
+  {
+   "citation": "Metlay JP, Kapoor WN, Fine MJ. Does this patient have community-acquired pneumonia? Diagnosing pneumonia by history and physical examination. JAMA. 1997;278(17):1440-1445.",
+   "doi": null,
+   "pmid": "9356004",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1997
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not rely on auscultation alone to exclude pneumothorax in an unstable trauma patient or before positive-pressure ventilation; use POCUS or CXR.",
+  "escalation_warning": "Unilateral absent breath sounds with hypotension, distended neck veins or tracheal deviation is tension physiology: decompress immediately, do not wait for imaging.",
+  "interobserver_note": "Kalantri 2007 reported excellent inter-observer agreement for breath sounds (kappa 0.84-0.89) among two blinded physicians (Abstract)."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Trauma estimate is Arts 2020 Table 3 pooled row for 'abnormal, decreased or absent breath sounds' vs CXR in chest-trauma cohorts (Sci Rep, PMC7192898); note reference standard is CXR, not CT, so occult pneumothoraces count as negatives and sensitivity is overestimated. Pneumonia row from the same table (mixed primary care/ED/inpatient). Pleural effusion: the JAMA RCE (Wong 2009, PMID 19155458) abstract reports only percussion and fremitus LRs and full text is not open access; Kalantri 2007 abstract gives only LR ranges (1.48-8.14 positive; 0.13-0.71 negative) without a breath-sound-specific number, so no pleural-effusion estimate is entered. Tracheal deviation has no diagnostic-accuracy data located; it is described as a late tension sign on consensus grounds only.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T01:47:39+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

@@ -1,0 +1,118 @@
+{
+ "identity": {
+  "id": "hx_palpitations_before_syncope",
+  "title": "Palpitations immediately preceding syncope",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "syncope",
+   "palpitations"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "atrial_fibrillation_flutter",
+   "reflex_vasovagal",
+   "svt",
+   "tachyarrhythmia",
+   "ventricular_tachycardia"
+  ],
+  "indication_tags": []
+ },
+ "technique": {
+  "how": "Ask the patient (and any witness) whether they felt a racing, pounding or fluttering heartbeat in the seconds to minutes before losing consciousness, and whether it was rapid and regular or irregular. Distinguish it from the generic 'heart pounding' of a vasovagal prodrome that comes with warmth, nausea and sweating.",
+  "prerequisites": "Patient able to recall the prodrome; corroborate with a witness where possible.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Palpitations immediately before syncope, especially without autonomic prodrome and in a patient with structural heart disease, raise concern for arrhythmic syncope (EGSYS assigns it +4 points).",
+  "negative_finding": "Absence of palpitations does not exclude cardiac syncope; pooled literature LR for absence is about 1.0, so it changes little.",
+  "pitfalls": "In pooled derivation data palpitations were reported as often by non-cardiac (11%) as cardiac (8%) syncope patients, because vasovagal prodromes also include a pounding heart; the item behaves differently in patients with vs without heart disease (Alboni 2001).",
+  "changes_what": "Positive: obtain ECG, telemetry and consider admission/monitoring for arrhythmia; negative: no change in cardiac-syncope probability."
+ },
+ "estimates": [
+  {
+   "target_condition": "Cardiac (arrhythmic or structural) syncope vs non-cardiac syncope",
+   "population": "Pooled derivation sample from 7 published syncope cohorts (Italy, Switzerland, Canada, USA); 468 cardiac and 1768 non-cardiac syncope patients with palpitation data",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Final cause of syncope by each study's standardized diagnostic criteria (ESC-based work-up, EP study/tilt where used)",
+   "sensitivity": {
+    "value": 0.08,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.89,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 0.74,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 1.03,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "Table 2 counts: palpitations present in 39/468 (8%) cardiac vs 200/1768 (11%) non-cardiac. Sens=39/468=0.083; spec=1568/1768=0.887; LR+=0.083/0.113=0.74 (computed). LR 1.03 for absence is the value printed in Table 2's LR column; chi-square 3.4, p=0.06.",
+   "interpretation_label": "minimal",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "Palpitations Yes 11 1 13 4 1 9 - 39 (8%) 26 8 38 2 7 119 - 200 (11%) 3.4 1 0.06 1.03",
+   "location": "Table 2 (Palpitations row), PMC3815402 open-access full text"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Berecki-Gisolf J, Sheldon A, Wieling W, et al. Identifying cardiac syncope based on clinical history: a literature-based model tested in four independent datasets. PLoS One. 2013;8(11):e75255.",
+   "doi": "10.1371/journal.pone.0075255",
+   "pmid": "24223233",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3815402/",
+   "kind": "meta_analysis",
+   "year": 2013
+  },
+  {
+   "citation": "Albassam OT, Redelmeier RJ, Shadowitz S, Husain AM, Simel D, Etchells EE. Did This Patient Have Cardiac Syncope? The Rational Clinical Examination Systematic Review. JAMA. 2019;321(24):2448-2457.",
+   "doi": "10.1001/jama.2019.8001",
+   "pmid": "31237649",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2019
+  },
+  {
+   "citation": "Del Rosso A, Ungar A, Maggi R, et al. Clinical predictors of cardiac syncope at initial evaluation in patients referred urgently to a general hospital: the EGSYS score. Heart. 2008;94(12):1620-1626.",
+   "doi": "10.1136/hrt.2008.143123",
+   "pmid": "18519550",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2008
+  },
+  {
+   "citation": "Alboni P, Brignole M, Menozzi C, et al. Diagnostic value of history in patients with syncope with or without heart disease. J Am Coll Cardiol. 2001;37(7):1921-1928.",
+   "doi": "10.1016/s0735-1097(01)01241-4",
+   "pmid": "11401133",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2001
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use absence of palpitations to de-escalate a syncope work-up in patients with structural heart disease, abnormal ECG, exertional or supine syncope.",
+  "escalation_warning": "Palpitations followed by syncope in a patient with known heart disease, family history of sudden death or an abnormal ECG warrants monitored observation and cardiology input.",
+  "interobserver_note": "Patient-reported palpitations are poorly specific for arrhythmia; the RCE on palpitations found most history items non-discriminating."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Anchor RCE (Albassam 2019, PMID 31237649) is not open access and its abstract reports no palpitation estimate, so no RCE number is entered. Numeric estimate comes from the open-access Berecki-Gisolf 2013 literature-based model (Table 2), which pooled 7 derivation cohorts and found palpitations NOT significantly associated with cardiac syncope (p=0.06; direction toward non-cardiac); sens/spec/LR+ are computed from the printed counts, LR 1.03 (for absence) is as printed. Quote is the Table 2 row verbatim (per-study columns then totals, chi-square, df, p, LR). EGSYS (Del Rosso 2008) identified 'palpitations before syncope' as a predictor (+4 points) but item-level sensitivity/specificity are not in the abstract and full text is not accessible; only the composite score accuracy (>=3: sens 95%/92%, spec 61%/69%) is reported there. Alboni 2001 abstract states palpitation was the only significant predictor of cardiac cause in patients WITHOUT heart disease, but gives no number - a population split the owner should weigh. Evidence is conflicting across cohorts; treat as context-dependent.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T01:47:54+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

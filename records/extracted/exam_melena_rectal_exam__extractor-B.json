@@ -1,0 +1,128 @@
+{
+ "identity": {
+  "id": "exam_melena_rectal_exam",
+  "title": "Melena on digital rectal exam, or reported black tarry stool / hematemesis",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "syncope",
+   "hypotension",
+   "dizziness",
+   "abdominal_pain",
+   "weakness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "anemia",
+   "hypovolemic_hemorrhagic_shock",
+   "orthostatic_hypotension",
+   "peptic_ulcer"
+  ],
+  "indication_tags": [
+   "anticoagulated",
+   "cirrhosis_known"
+  ]
+ },
+ "technique": {
+  "how": "Ask specifically about black, tarry, sticky, foul-smelling stool and about vomiting blood or coffee-ground material, including timing and iron/bismuth use. Perform a digital rectal examination with the patient in left lateral position and inspect the stool on the glove: melena is black, tarry, and glistening (distinct from dark formed stool); note red blood or clots.",
+  "prerequisites": "Patient consent and privacy; a chaperone per local policy.",
+  "contraindications": "Relative: severe neutropenia, recent anorectal surgery, or anal fissure/pain (obtain stool sample by other means)."
+ },
+ "interpretation": {
+  "positive_finding": "Melenic stool on examination strongly favours an upper GI source (LR 25); a patient-reported history of melena raises the likelihood of UGIB about 5-fold.",
+  "negative_finding": "Absence of melena or hematemesis does not exclude UGIB (brisk bleeds may present with hematochezia); blood clots in the stool make UGIB much less likely (LR 0.05).",
+  "pitfalls": "Iron, bismuth, charcoal, and some foods blacken stool without the tarry sheen; melena requires roughly 50-100 mL of blood and may lag hours behind bleeding onset, and occult-blood testing of dark stool is not a substitute for inspection. Melena reflects source, not severity - use tachycardia, hemoglobin, and the Blatchford score for severity.",
+  "changes_what": "Positive: treat as UGIB (IV access, type and screen, PPI, GI consult, Blatchford score for urgency); clots or bright red blood shift work-up toward a lower GI source."
+ },
+ "estimates": [
+  {
+   "target_condition": "Upper GI bleeding vs lower GI bleeding (finding: melenic stool on examination)",
+   "population": "Adults admitted or evaluated in EDs with acute gastrointestinal bleeding (8 studies distinguishing UGIB from LGIB; N = 1776)",
+   "setting": "mixed",
+   "prevalence": 0.63,
+   "reference_standard": "Endoscopic localization of bleeding source",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 25,
+    "ci_low": 4,
+    "ci_high": 174
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "melenic stool on examination (LR, 25; 95% CI, 4-174)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Upper GI bleeding vs lower GI bleeding (finding: patient-reported history of melena; LR range 5.1-5.9 across studies, lower bound entered)",
+   "population": "Adults admitted or evaluated in EDs with acute gastrointestinal bleeding (8 studies distinguishing UGIB from LGIB; N = 1776)",
+   "setting": "mixed",
+   "prevalence": 0.63,
+   "reference_standard": "Endoscopic localization of bleeding source",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 5.1,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "a patient-reported history of melena (LR range, 5.1-5.9)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Upper GI bleeding vs lower GI bleeding (finding: blood clots in stool, presence; LR of the finding's presence)",
+   "population": "Adults admitted or evaluated in EDs with acute gastrointestinal bleeding (8 studies distinguishing UGIB from LGIB; N = 1776)",
+   "setting": "mixed",
+   "prevalence": 0.63,
+   "reference_standard": "Endoscopic localization of bleeding source",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 0.05,
+    "ci_low": 0.01,
+    "ci_high": 0.38
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_out",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "the presence of blood clots in stool (LR, 0.05; 95% CI, 0.01-0.38) decreases the likelihood of a UGIB",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Srygley FD, Gerardo CJ, Tran T, Fisher DA. Does this patient have a severe upper gastrointestinal bleed? JAMA. 2012;307(10):1072-1079.",
+   "doi": "10.1001/jama.2012.253",
+   "pmid": "22416103",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2012
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use absence of melena to dismiss GI bleeding in a syncopal, hypotensive, or anemic patient on anticoagulants or with cirrhosis; do not use melena to judge severity.",
+  "escalation_warning": "Melena or hematemesis with tachycardia, hypotension, hemoglobin <8 g/dL, or cirrhosis (possible variceal bleed) needs urgent resuscitation, transfusion planning, and emergent endoscopy.",
+  "interobserver_note": "The LR for melenic stool on examination comes from a small number of patients (95% CI 4-174); history of melena is reported as a range across studies rather than a pooled value."
+ },
+ "tier": "extracted",
+ "extraction_notes": "All numbers are from the Srygley 2012 JAMA RCE abstract (JAMA, no PMC full text); sensitivities and specificities for melena are in the article tables, which were not accessible, so only LRs are entered. History of melena is reported as an LR range (5.1-5.9) not a pooled point estimate; the lower bound 5.1 is entered as the value with no CI, and the range is stated in target_condition. Blood clots in stool is entered with the LR of the finding's presence (0.05) in lr_positive, since it is a rule-out for UGIB when present. Hematemesis-specific LRs were not in the abstract. Verifier: check Srygley Table 2 for melena sensitivity/specificity and hematemesis LR.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T01:47:48+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

@@ -1,0 +1,201 @@
+{
+ "identity": {
+  "id": "exam_pulsatile_abdominal_mass",
+  "title": "Palpable pulsatile abdominal mass (widened aortic pulsation)",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "syncope",
+   "hypotension",
+   "abdominal_pain"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "aaa",
+   "hypovolemic_hemorrhagic_shock"
+  ],
+  "indication_tags": [
+   "elderly"
+  ]
+ },
+ "technique": {
+  "how": "Patient supine with knees flexed and abdomen relaxed. Palpate deeply in the epigastrium just left of midline to locate the aortic pulse, then place both hands on either side of the pulsating aorta and estimate its width (excluding the abdominal wall); a width >3 cm, or an expansile mass pushing the fingers apart, is positive.",
+  "prerequisites": "Relaxed abdomen; measure abdominal girth (accuracy falls markedly when girth >=100 cm).",
+  "contraindications": "None; palpation has not been reported to precipitate rupture, but in a patient with suspected rupture do not delay imaging or resuscitation to examine."
+ },
+ "interpretation": {
+  "positive_finding": "A widened aortic pulsation raises the likelihood of AAA substantially (pooled LR+ 12 for AAA >=3.0 cm, 15.6 for >=4.0 cm); positive predictive value in screening cohorts was only ~43%, so confirm with ultrasound.",
+  "negative_finding": "A normal-width or unpalpable aorta lowers AAA probability only modestly (LR- 0.72 for >=3.0 cm; 0.51 for >=4.0 cm); sensitivity is 29% for 3.0-3.9 cm aneurysms and 76% for >=5.0 cm, so a negative exam cannot exclude AAA, especially if rupture is possible.",
+  "pitfalls": "Sensitivity drops from ~91% to ~53% when abdominal girth is >=100 cm; tortuous aortas in thin elderly patients and transmitted pulsation from an overlying mass can mimic AAA. Half of symptomatic AAA patients lack the triad of hypotension, back/abdominal pain, and pulsatile mass.",
+  "changes_what": "Positive: obtain bedside aortic ultrasound now (CT if stable and rupture suspected); negative does not exclude AAA in a symptomatic elderly patient and should not stop imaging."
+ },
+ "estimates": [
+  {
+   "target_condition": "AAA >=3.0 cm (finding: abnormal widening of aortic pulsation)",
+   "population": "Patients not previously known to have AAA, screened with both abdominal palpation and ultrasound (15 pooled studies)",
+   "setting": "outpatient",
+   "prevalence": null,
+   "reference_standard": "Abdominal ultrasound",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 12.0,
+    "ci_low": 7.4,
+    "ci_high": 19.5
+   },
+   "lr_negative": {
+    "value": 0.72,
+    "ci_low": 0.65,
+    "ci_high": 0.81
+   },
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "using a cutoff point for AAAs of 3.0 cm or greater are 12.0 (95% CI, 7.4-19.5) and 0.72 (95% CI, 0.65-0.81), respectively",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "AAA >=4.0 cm (finding: abnormal widening of aortic pulsation)",
+   "population": "Patients not previously known to have AAA, screened with both abdominal palpation and ultrasound (15 pooled studies)",
+   "setting": "outpatient",
+   "prevalence": null,
+   "reference_standard": "Abdominal ultrasound",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 15.6,
+    "ci_low": 8.6,
+    "ci_high": 28.5
+   },
+   "lr_negative": {
+    "value": 0.51,
+    "ci_low": 0.38,
+    "ci_high": 0.67
+   },
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "and for AAAs of 4.0 cm or greater are 15.6 (95% CI, 8.6-28.5) and 0.51 (95% CI, 0.38-0.67)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "AAA by diameter stratum: 3.0-3.9 cm (sensitivity only)",
+   "population": "Patients not previously known to have AAA, screened with both abdominal palpation and ultrasound (15 pooled studies)",
+   "setting": "outpatient",
+   "prevalence": null,
+   "reference_standard": "Abdominal ultrasound",
+   "sensitivity": {
+    "value": 0.29,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "minimal",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "ranging from 29% for AAAs of 3.0 to 3.9 cm to 50% for AAAs of 4.0 to 4.9 cm",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "AAA by diameter stratum: >=5.0 cm (sensitivity only)",
+   "population": "Patients not previously known to have AAA, screened with both abdominal palpation and ultrasound (15 pooled studies)",
+   "setting": "outpatient",
+   "prevalence": null,
+   "reference_standard": "Abdominal ultrasound",
+   "sensitivity": {
+    "value": 0.76,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "to 50% for AAAs of 4.0 to 4.9 cm and 76% for AAAs of 5.0 cm or greater",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "AAA (any, ultrasound-defined) by blinded internist palpation",
+   "population": "200 subjects aged 51-88 years (99 with and 101 without ultrasound-proven AAA), each examined by 2 blinded internists",
+   "setting": "outpatient",
+   "prevalence": 0.495,
+   "reference_standard": "Prior abdominal ultrasound",
+   "sensitivity": {
+    "value": 0.68,
+    "ci_low": 0.6,
+    "ci_high": 0.76
+   },
+   "specificity": {
+    "value": 0.75,
+    "ci_low": 0.68,
+    "ci_high": 0.82
+   },
+   "lr_positive": {
+    "value": 2.7,
+    "ci_low": 2.0,
+    "ci_high": 3.6
+   },
+   "lr_negative": {
+    "value": 0.43,
+    "ci_low": 0.33,
+    "ci_high": 0.56
+   },
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "68% (95% confidence interval [CI], 60%-76%); specificity, 75% (95% CI, 68%-82%); positive likelihood ratio, 2.7 (95% CI, 2.0-3.6); negative likelihood ratio 0.43 (95% CI, 0.33-0.56)",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Lederle FA, Simel DL. The rational clinical examination. Does this patient have abdominal aortic aneurysm? JAMA. 1999;281(1):77-82.",
+   "doi": "10.1001/jama.281.1.77",
+   "pmid": "9892455",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1999
+  },
+  {
+   "citation": "Fink HA, Lederle FA, Roth CS, Bowles CA, Nelson DB, Haas MA. The accuracy of physical examination to detect abdominal aortic aneurysm. Arch Intern Med. 2000;160(6):833-836.",
+   "doi": "10.1001/archinte.160.6.833",
+   "pmid": "10737283",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2000
+  },
+  {
+   "citation": "Rubano E, Mehta N, Caputo W, Paladino L, Sinert R. Systematic review: emergency department bedside ultrasonography for diagnosing suspected abdominal aortic aneurysm. Acad Emerg Med. 2013;20(2):128-138.",
+   "doi": "10.1111/acem.12080",
+   "pmid": "23406071",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2013
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Never use a negative palpation to exclude ruptured AAA in a hypotensive or syncopal older patient with abdominal, flank, or back pain; go straight to bedside ultrasound.",
+  "escalation_warning": "Pulsatile mass with pain, hypotension, or syncope indicates possible rupture: activate vascular surgery, large-bore access, and CT only if stable.",
+  "interobserver_note": "Interobserver agreement for AAA vs no AAA between two blinded internists was 77% (kappa 0.53) in Fink 2000; sensitivity fell from 91% to 53% with girth >=100 cm."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Lederle 1999 RCE abstract supplies pooled LRs (>=3.0 and >=4.0 cm cut-offs) and size-stratified sensitivities from asymptomatic screening populations; specificities are in the article tables (not accessible) and are null. Fink 2000 is a case-control design (enriched 50% AAA prevalence) with lower LR+ than the pooled RCE figure, likely because examiners were told to palpate for AAA specifically and many AAAs were small; entered separately, not averaged. No accuracy data exist for pulsatile mass in symptomatic/ruptured AAA; Rubano 2013 is cited for the observation that 50% of symptomatic AAA patients lack the classic triad.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T01:47:48+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

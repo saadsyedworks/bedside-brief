@@ -1,0 +1,207 @@
+{
+  "identity": {
+    "id": "hx_vte_risk_factors",
+    "title": "VTE risk history (Wells items): immobilization >=3 days or surgery within 4-12 weeks, prior objectively confirmed VTE, active malignancy",
+    "type": "history",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "chest_pain",
+      "syncope",
+      "edema",
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "dvt",
+      "pulmonary_embolism"
+    ],
+    "indication_tags": [
+      "recent_immobilization",
+      "post_operative",
+      "malignancy",
+      "anticoagulated"
+    ]
+  },
+  "technique": {
+    "how": "Ask directly: bed rest >=3 days or major surgery within the past 4-12 weeks; any previous DVT or PE confirmed by imaging; cancer treated within 6 months or palliative. Record each item separately for the Wells DVT or PE score rather than as a global impression.",
+    "prerequisites": "Patient or collateral historian able to give a reliable history; check the chart for prior imaging-confirmed VTE and oncology history.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Any single risk factor raises the probability of DVT only modestly (pooled LR+ about 1.8-2.7); the value comes from combining items in a Wells score, where a high score carries LR ~5.",
+    "negative_finding": "Absence of individual risk factors does not exclude VTE; a low Wells score (LR ~0.25) plus a negative D-dimer is what allows exclusion without imaging.",
+    "pitfalls": "Risk-factor LRs were pooled from heterogeneous cohorts and are weaker in patients with prior VTE. Malignancy and prior VTE also raise D-dimer, so they do not license D-dimer-only exclusion in high-probability patients.",
+    "changes_what": "Positive items push the Wells score toward moderate/high: order compression ultrasound (or CTPA) rather than relying on D-dimer alone; negative items lower the score and enable D-dimer exclusion."
+  },
+  "estimates": [
+    {
+      "target_condition": "Deep vein thrombosis (imaging-confirmed)",
+      "population": "Adults with clinically suspected DVT in cohort studies (mostly outpatient/ED referrals)",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Compression ultrasound or contrast venography",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 2.71,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "Only malignancy (likelihood ratio [LR], 2.71), previous DVT (LR, 2.25), recent immobilization (LR, 1.98)",
+      "location": "Abstract, Data Synthesis (finding: malignancy)"
+    },
+    {
+      "target_condition": "Deep vein thrombosis (imaging-confirmed)",
+      "population": "Adults with clinically suspected DVT in cohort studies",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Compression ultrasound or contrast venography",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 2.25,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "malignancy (likelihood ratio [LR], 2.71), previous DVT (LR, 2.25), recent immobilization (LR, 1.98)",
+      "location": "Abstract, Data Synthesis (finding: previous DVT)"
+    },
+    {
+      "target_condition": "Deep vein thrombosis (imaging-confirmed)",
+      "population": "Adults with clinically suspected DVT in cohort studies",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Compression ultrasound or contrast venography",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 1.98,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "minimal",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "previous DVT (LR, 2.25), recent immobilization (LR, 1.98), difference in calf diameter (LR, 1.80)",
+      "location": "Abstract, Data Synthesis (finding: recent immobilization)"
+    },
+    {
+      "target_condition": "Deep vein thrombosis (imaging-confirmed)",
+      "population": "Adults with clinically suspected DVT in cohort studies",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Compression ultrasound or contrast venography",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 1.76,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "minimal",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "difference in calf diameter (LR, 1.80), and recent surgery (LR, 1.76) were useful for ruling in DVT",
+      "location": "Abstract, Data Synthesis (finding: recent surgery)"
+    },
+    {
+      "target_condition": "Deep vein thrombosis (imaging-confirmed), Wells score high vs low category",
+      "population": "Adults with clinically suspected DVT in cohort studies",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Compression ultrasound or contrast venography",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 5.2,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.25,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": false,
+      "interpretation_label": "both",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "it stratified patients into groups with high (LR, 5.2), intermediate, and low (LR, 0.25) probability of DVT",
+      "location": "Abstract, Data Synthesis (Wells clinical score)"
+    },
+    {
+      "target_condition": "Deep vein thrombosis, prevalence by Wells clinical probability category",
+      "population": "Consecutive unselected outpatients with suspected DVT, 14 studies (>8000 patients)",
+      "setting": "outpatient",
+      "prevalence": 0.19,
+      "reference_standard": "Imaging plus 3-month clinical follow-up",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "both",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "prevalence of DVT in the low, moderate, and high clinical probability groups was 5.0% (95% CI, 4.0%-8.0%), 17% (95% CI, 13%-23%), and 53%",
+      "location": "Abstract, Results (post-test prevalence by Wells category; no sens/spec/LR)"
+    }
+  ],
+  "evidence_status": "partially_quantified",
+  "sources": [
+    {
+      "citation": "Goodacre S, Sutton AJ, Sampson FC. Meta-analysis: The value of clinical assessment in the diagnosis of deep venous thrombosis. Ann Intern Med. 2005;143(2):129-139.",
+      "doi": "10.7326/0003-4819-143-2-200507190-00012",
+      "pmid": "16027455",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2005
+    },
+    {
+      "citation": "Wells PS, Owen C, Doucette S, Fergusson D, Tran H. Does this patient have deep vein thrombosis? JAMA. 2006;295(2):199-207.",
+      "doi": "10.1001/jama.295.2.199",
+      "pmid": "16403932",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2006
+    },
+    {
+      "citation": "Chunilal SD, Eikelboom JW, Attia J, et al. Does this patient have pulmonary embolism? JAMA. 2003;290(21):2849-2858.",
+      "doi": "10.1001/jama.290.21.2849",
+      "pmid": "14657070",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2003
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use individual risk factors alone to exclude VTE; do not apply Wells-based D-dimer exclusion to inpatients, pregnant patients, or those already anticoagulated, where the derivation cohorts do not apply.",
+    "escalation_warning": "Hypotension, syncope or hypoxia with any VTE risk factor mandates immediate imaging or empiric anticoagulation, not D-dimer triage.",
+    "interobserver_note": "Wells items are defined explicitly to reduce interobserver variation, but Goodacre 2005 reports substantial heterogeneity across cohorts for individual features."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Individual-item LRs come from the Goodacre 2005 Ann Intern Med meta-analysis abstract (no CIs, no sens/spec reported in abstract; full text not open access, so CIs left null). JAMA RCE 2006 (Wells) and 2003 (Chunilal) abstracts report only category-level prevalence, not per-item LRs; RCE 2006 entered as a prevalence-only estimate. PE-specific per-item LRs could not be located in an accessible abstract; PE-side accuracy is inferred from the same Wells items and is not separately quantified here.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T01:47:44+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

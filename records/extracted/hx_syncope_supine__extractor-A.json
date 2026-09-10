@@ -1,0 +1,115 @@
+{
+ "identity": {
+  "id": "hx_syncope_supine",
+  "title": "Syncope while supine or seated without warning",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "syncope"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "bradyarrhythmia",
+   "reflex_vasovagal",
+   "tachyarrhythmia"
+  ],
+  "indication_tags": []
+ },
+ "technique": {
+  "how": "Ask exactly what the patient was doing and their body position when consciousness was lost: lying flat, sitting, standing, or during exertion. Ask specifically whether there was any warning (nausea, warmth, sweating, tunnel vision) or whether it was sudden with no prodrome.",
+  "prerequisites": "Patient or witness recall of the circumstances of the event.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Syncope occurring while supine is uncommon (about 10% of cardiac syncope) but has a pooled LR of about 4 for a cardiac (arrhythmic) cause because reflex syncope needs an upright position.",
+  "negative_finding": "Most cardiac syncope occurs upright, so absence of supine syncope (LR- ~0.9) does not lower the probability of a cardiac cause.",
+  "pitfalls": "Seated syncope is less specific than truly supine syncope and was not separately quantified; supine events with a typical vasovagal prodrome (e.g., during venepuncture) can still be reflex. Confirm the patient was not simply found lying down after falling.",
+  "changes_what": "Positive: treat as high-risk syncope - ECG, telemetry/monitoring, echo and cardiology review; negative: no change."
+ },
+ "estimates": [
+  {
+   "target_condition": "Cardiac (arrhythmic or structural) syncope vs non-cardiac syncope (finding: syncope in the supine position)",
+   "population": "Pooled derivation sample from published syncope cohorts reporting supine syncope (3 studies; 170 cardiac and 507 non-cardiac syncope patients)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Final cause of syncope by each study's standardized diagnostic criteria (ESC-based work-up, EP study/tilt where used)",
+   "sensitivity": {
+    "value": 0.1,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.98,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 4.23,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.92,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "Table 2 counts: supine syncope in 17/170 (10%) cardiac vs 12/507 (2%) non-cardiac. Sens=17/170=0.10; spec=495/507=0.976; LR+ 4.23 as printed in Table 2 LR column (=0.10/0.0237); LR-=0.90/0.976=0.92 (computed). Chi-square 18.1, p<0.0001.",
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "Supine syncope Yes 9 2 - 6 - - - 17 (10%) 6 0 - 6 - - - 12 (2%) 18.1 1 <0.0001 4.23",
+   "location": "Table 2 (Supine syncope row), PMC3815402 open-access full text"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Berecki-Gisolf J, Sheldon A, Wieling W, et al. Identifying cardiac syncope based on clinical history: a literature-based model tested in four independent datasets. PLoS One. 2013;8(11):e75255.",
+   "doi": "10.1371/journal.pone.0075255",
+   "pmid": "24223233",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3815402/",
+   "kind": "meta_analysis",
+   "year": 2013
+  },
+  {
+   "citation": "Albassam OT, Redelmeier RJ, Shadowitz S, Husain AM, Simel D, Etchells EE. Did This Patient Have Cardiac Syncope? The Rational Clinical Examination Systematic Review. JAMA. 2019;321(24):2448-2457.",
+   "doi": "10.1001/jama.2019.8001",
+   "pmid": "31237649",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2019
+  },
+  {
+   "citation": "Alboni P, Brignole M, Menozzi C, et al. Diagnostic value of history in patients with syncope with or without heart disease. J Am Coll Cardiol. 2001;37(7):1921-1928.",
+   "doi": "10.1016/s0735-1097(01)01241-4",
+   "pmid": "11401133",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2001
+  },
+  {
+   "citation": "Del Rosso A, Ungar A, Maggi R, et al. Clinical predictors of cardiac syncope at initial evaluation in patients referred urgently to a general hospital: the EGSYS score. Heart. 2008;94(12):1620-1626.",
+   "doi": "10.1136/hrt.2008.143123",
+   "pmid": "18519550",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2008
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use the absence of supine syncope to classify an event as benign; upright syncope is the norm for both reflex and cardiac causes.",
+  "escalation_warning": "Supine or exertional syncope without prodrome, particularly with heart disease, abnormal ECG or family history of sudden death, warrants monitored observation and urgent cardiology assessment.",
+  "interobserver_note": "Body position at onset is usually reported consistently, but 'no warning' is subjective and depends on recall (retrograde amnesia is common after syncope)."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Anchor RCE (Albassam 2019) is not open access and its abstract does not report a supine-syncope estimate; the number here comes from the open-access Berecki-Gisolf 2013 literature-based model (Table 2), which pooled counts from the 3 derivation studies that reported supine syncope (Table 2 shows non-blank columns for 3 studies). Quote is the verbatim Table 2 row (per-study columns, totals, chi-square, df, p, LR). Sens/spec and LR- are computed from the printed counts; LR+ 4.23 is as printed. Alboni 2001 (abstract) names supine syncope among the most specific predictors of cardiac cause in patients with heart disease and EGSYS (Del Rosso 2008) includes 'syncope in supine position' as a score item, but neither abstract gives item-level numbers and full texts are not accessible. 'Seated' syncope and 'without warning' (absent prodrome) were not separately quantified here; brief/absent prodrome is a distinct Berecki-Gisolf variable (long prodrome LR for absence 1.66) not entered because it is a different discriminator.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T01:47:54+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

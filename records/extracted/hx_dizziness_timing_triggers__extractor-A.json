@@ -1,0 +1,134 @@
+{
+ "identity": {
+  "id": "hx_dizziness_timing_triggers",
+  "title": "Timing and triggers (TiTrATE: episodic vs continuous, triggered vs spontaneous) rather than symptom quality; associated diplopia/dysarthria/dysphagia/hearing loss",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "syncope",
+   "dizziness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "arrhythmia",
+   "bppv",
+   "medication_effect",
+   "meniere",
+   "orthostatic_hypotension",
+   "posterior_circulation_stroke",
+   "vestibular_neuritis"
+  ],
+  "indication_tags": [
+   "positional",
+   "orthostatic",
+   "acute_onset"
+  ]
+ },
+ "technique": {
+  "how": "Instead of asking 'what kind of dizziness', ask: Is it there now continuously or does it come in discrete episodes? How long do episodes last (seconds, minutes, hours)? Is it brought on only by a trigger (head/position change, standing) or does it arise spontaneously? Then ask about diplopia, dysarthria, dysphagia, new hearing loss, headache or neck pain.",
+  "prerequisites": "Patient able to give a history; screen for red-flag neurologic symptoms before deciding on examination pathway.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Continuous acute vestibular syndrome demands HINTS-type eye examination for stroke; triggered brief episodes point to BPPV or orthostatic hypotension (test with Dix-Hallpike or orthostatic vitals); spontaneous episodes lasting minutes-hours suggest TIA, Meniere or arrhythmia. Any associated brainstem symptom raises stroke probability.",
+  "negative_finding": "A clear positional trigger with seconds-long episodes and no neurologic symptoms makes central causes unlikely, but isolated dizziness can still be a vertebrobasilar stroke.",
+  "pitfalls": "Symptom-quality descriptors (vertigo vs lightheadedness) are unreliable: 52% of ED patients changed their descriptor on retest after ~6 minutes, so do not triage on 'type'. Do not confuse 'worse with movement' (most vestibular causes) with 'only occurs with movement' (true trigger).",
+  "changes_what": "Determines which bedside exam follows: HINTS for continuous spontaneous, Dix-Hallpike for triggered episodic, orthostatic vitals for standing-triggered, ECG/monitoring for spontaneous episodic."
+ },
+ "estimates": [
+  {
+   "target_condition": "Not a diagnostic-accuracy estimate: test-retest reliability of the patient's dizziness-quality descriptor (supports using timing/triggers instead of type)",
+   "population": "872 adult ED patients dizzy, light-headed or off-balance within 7 days or previously bothered by dizziness (2 urban academic EDs)",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "None (repeat questioning ~6 minutes later; duration and trigger reports were consistent whereas quality descriptors were not)",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "computed_from": "",
+   "interpretation_label": "minimal",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "Asked to choose the single best descriptor, 52% picked a different response on retest approximately 6 minutes later.",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "'Serious' cause of dizziness (stroke/TIA, arrhythmia, medication, seizure, other requiring admission) - composite predictor: older age OR lack of vertigo OR neurologic deficit",
+   "population": "125 ED patients with dizziness evaluated with a standardized 66-item history/exam/lab protocol",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "Emergency physician diagnosis modified by 1-month follow-up using predefined diagnostic criteria",
+   "sensitivity": {
+    "value": 0.86,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.42,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "computed_from": "",
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 2,
+   "quote": "The best predictors, either older age, lack of vertigo, or neurologic deficit, could identify 86% of \"serious\" dizziness with 42% specificity.",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Newman-Toker DE, Cannon LM, Stofferahn ME, Rothman RE, Hsieh YH, Zee DS. Imprecision in patient reports of dizziness symptom quality: a cross-sectional study conducted in an acute care setting. Mayo Clin Proc. 2007;82(11):1329-1340.",
+   "doi": "10.4065/82.11.1329",
+   "pmid": "17976352",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2007
+  },
+  {
+   "citation": "Newman-Toker DE, Edlow JA. TiTrATE: A Novel, Evidence-Based Approach to Diagnosing Acute Dizziness and Vertigo. Neurol Clin. 2015;33(3):577-599.",
+   "doi": "10.1016/j.ncl.2015.04.011",
+   "pmid": "26231273",
+   "url": null,
+   "kind": "consensus",
+   "year": 2015
+  },
+  {
+   "citation": "Herr RD, Zun L, Mathews JJ. A directed approach to the dizzy patient. Ann Emerg Med. 1989;18(6):664-672.",
+   "doi": "10.1016/s0196-0644(89)80524-4",
+   "pmid": "2729692",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1989
+  },
+  {
+   "citation": "Kerber KA, Meurer WJ, Brown DL, et al. Stroke risk stratification in acute dizziness presentations: A prospective imaging-based study. Neurology. 2015;85(21):1869-1878.",
+   "doi": "10.1212/WNL.0000000000002141",
+   "pmid": "26511453",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2015
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use a reassuring timing/trigger pattern alone to exclude stroke in patients with vascular risk factors, new headache/neck pain, or any brainstem symptom; obtain the targeted examination.",
+  "escalation_warning": "Acute continuous dizziness with any of diplopia, dysarthria, dysphagia, limb ataxia, new deafness or inability to walk unaided is a stroke pathway until proven otherwise; up to 20% of early DWI-MRI are false negative.",
+  "interobserver_note": "Duration and trigger reports were 'clear, consistent, and reliable' on retest whereas quality descriptors were not (Newman-Toker 2007); associated-symptom screening depends on directed questioning."
+ },
+ "tier": "extracted",
+ "extraction_notes": "TiTrATE (PMID 26231273) is a narrative/consensus framework with no accuracy numbers; entered as kind 'consensus'. The quantified support for preferring timing/triggers over quality is the reliability study (Newman-Toker 2007): 52% changed descriptor on retest, 62% selected >1 type; entered as an estimate with all accuracy fields null, hence partially_quantified. Herr 1989 composite (older age OR lack of vertigo OR neurologic deficit; sens 0.86, spec 0.42) is included because it is the only accessible ED accuracy figure involving associated neurologic deficit, but it mixes in a symptom-quality item ('lack of vertigo') that TiTrATE argues against - owner should weigh whether to keep it. No dedicated accuracy study of the episodic/continuous x triggered/spontaneous classification was found within budget. Tarnutzer 2011 CMAJ systematic review (PMID 21576300, PMC3114934) would supply history-feature accuracy for stroke in acute vestibular syndrome but the PMC deposit is abstract-only, so no numbers could be verified. Kerber 2015/2016 reports OR 2.54 (95% CI 1.06-6.08) for 'any other CNS features' - an odds ratio, not an LR, so cited but not entered as an estimate.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T01:47:54+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Bedside Brief — verification queue</title>
+<style>
+  body { font-family: system-ui, sans-serif; margin: 1.5rem; color: #222; }
+  h1 { font-size: 1.3rem; margin: 0 0 .25rem; }
+  .meta { color: #666; font-size: .9rem; margin-bottom: 1rem; }
+  table { border-collapse: collapse; width: 100%; font-size: .9rem; }
+  th, td { border-bottom: 1px solid #ddd; padding: .4rem .5rem; text-align: left; vertical-align: top; }
+  th { background: #f4f4f4; position: sticky; top: 0; }
+  .badge { display: inline-block; padding: .1rem .45rem; border-radius: .6rem; font-size: .8rem; }
+  .agree { background: #dff5e1; } .partial { background: #fff3cd; } .disagree { background: #f8d7da; } .single_packet { background: #e2e3e5; }
+  .verified { background: #cfe8ff; } .rejected { background: #eee; color: #555; } .draft { background: #efe0ff; }
+  .rt { color: #a33; font-size: .8rem; white-space: pre-wrap; }
+  .mono { font-family: ui-monospace, monospace; }
+</style>
+</head>
+<body>
+<h1>Verification queue</h1>
+<div class="meta">
+  {{ counts.total }} ids · {{ counts.disagree }} disagree · {{ counts.partial }} partial · {{ counts.agree }} agree ·
+  {{ counts.verified }} verified · {{ counts.rejected }} rejected · records dir <span class="mono">{{ records_dir }}</span>
+  {% if only %}· filter: <span class="mono">{{ only|join(', ') }}</span>{% endif %}
+  <br>Order: fabrication suspects / disagreements first, then rce_backed agreements, then the rest (tools/diff_report.py).
+  Only the owner promotes. Verification = you have read the source location and confirmed the number.
+</div>
+<table>
+  <thead><tr><th>#</th><th>id</th><th>title</th><th>type</th><th>status</th><th>flags</th><th>expected</th><th>red-team</th><th>verified?</th></tr></thead>
+  <tbody>
+  {% for r in rows %}
+    <tr>
+      <td>{{ loop.index }}</td>
+      <td class="mono"><a href="/r/{{ r.id }}">{{ r.id }}</a></td>
+      <td>{{ r.title }}</td>
+      <td>{{ r.type }}</td>
+      <td><span class="badge {{ r.status }}">{{ r.status }}</span></td>
+      <td title="{{ r.flags|join('&#10;') }}">{{ r.flags|length }}</td>
+      <td>{{ r.expected_evidence }}</td>
+      <td>{% for h in r.redteam %}<div class="rt">{{ h.file }}:{{ h.line }} {{ h.text }}</div>{% endfor %}</td>
+      <td>
+        {% if r.verified %}<span class="badge verified">verified</span>{% endif %}
+        {% if r.rejected %}<span class="badge rejected">rejected</span>{% endif %}
+        {% if r.draft %}<span class="badge draft">draft</span>{% endif %}
+        {% if not (r.verified or r.rejected or r.draft) %}—{% endif %}
+      </td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</body>
+</html>

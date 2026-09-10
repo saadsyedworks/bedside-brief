@@ -1,0 +1,103 @@
+{
+  "identity": {
+    "id": "exam_wheezing",
+    "title": "Wheezing on auscultation (diffuse expiratory vs focal/monophonic)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "chest_pain",
+      "hypotension",
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "acute_decompensated_hf",
+      "anaphylaxis",
+      "asthma_exacerbation",
+      "copd_exacerbation",
+      "pneumonia",
+      "pulmonary_embolism",
+      "upper_airway_obstruction"
+    ],
+    "indication_tags": [
+      "copd_known"
+    ]
+  },
+  "technique": {
+    "how": "Auscultate all lung fields during quiet and forced expiration and note timing (expiratory vs inspiratory), distribution (diffuse polyphonic vs focal monophonic) and pitch. Listen over the neck/trachea to distinguish stridor or upper-airway wheeze from lower-airway wheeze.",
+    "prerequisites": "Patient able to breathe deeply; quiet environment.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Diffuse polyphonic expiratory wheeze modestly raises the probability of obstructive airway disease (LR 2.7) and supports asthma/COPD exacerbation, but also occurs in heart failure ('cardiac asthma') and anaphylaxis.",
+    "negative_finding": "Absent wheeze does not exclude airflow limitation; a 'silent chest' in severe asthma indicates near-total obstruction and is an emergency.",
+    "pitfalls": "Focal or monophonic wheeze suggests a fixed obstruction (tumor, foreign body, mucus plug) rather than diffuse bronchospasm. Inspiratory stridor transmitted from the upper airway is often mislabeled as wheeze.",
+    "changes_what": "Diffuse wheeze: trial bronchodilator and confirm with spirometry/peak flow. Focal/monophonic or stridor: image the airway. Silent chest + distress: escalate to critical care."
+  },
+  "estimates": [
+    {
+      "target_condition": "Obstructive airway disease (FEV1 and FEV1/FVC below 5th percentile)",
+      "population": "309 consecutive patients (25% known, 37% suspected, 39% neither) at 25 primary care and referral sites in 14 countries",
+      "setting": "outpatient",
+      "prevalence": 0.52,
+      "reference_standard": "Spirometry: FEV1 and FEV1/FVC ratio below the 5th percentile adjusted for height, age, sex",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 2.7,
+        "ci_low": 1.7,
+        "ci_high": 4.2
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "The LR for wheezing was 2.7 (95% confidence interval [CI], 1.7-4.2) and was not statistically significant in the multivariate model.",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "partially_quantified",
+  "sources": [
+    {
+      "citation": "Straus SE, McAlister FA, Sackett DL, Deeks JJ; CARE-COAD1 Group. The accuracy of patient history, wheezing, and laryngeal measurements in diagnosing obstructive airway disease. JAMA. 2000;283(14):1853-1857.",
+      "doi": "10.1001/jama.283.14.1853",
+      "pmid": "10770147",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2000
+    },
+    {
+      "citation": "Holleman DR Jr, Simel DL. Does the clinical examination predict airflow limitation? JAMA. 1995;273(4):313-319.",
+      "doi": null,
+      "pmid": "7815660",
+      "url": null,
+      "kind": "rce_series",
+      "year": 1995
+    },
+    {
+      "citation": "Broekhuizen BD, Sachs AP, Oostvogels R, Hoes AW, Verheij TJ, Moons KG. The diagnostic value of history and physical examination for COPD in suspected or known cases: a systematic review. Fam Pract. 2009;26(4):260-268.",
+      "doi": "10.1093/fampra/cmp026",
+      "pmid": "19423699",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2009
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use presence of wheeze alone to diagnose COPD/asthma or to exclude heart failure or PE.",
+    "escalation_warning": "Wheeze with stridor, hypotension, urticaria or angioedema = anaphylaxis: give IM epinephrine immediately. Silent chest with exhaustion or hypercapnia = impending respiratory arrest.",
+    "interobserver_note": "Broekhuizen 2009 found wheezing on examination studied in at most three heterogeneous studies; reliability data not reported in abstract."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Holleman 1995 RCE (PMID 7815660) has no abstract in PubMed and is not OA, so its wheezing LRs cannot be quoted. Straus 2000 CARE-COAD1 abstract gives the wheezing LR 2.7 (1.7-4.2); sens/spec are in the article table (not OA) and left null. Broekhuizen 2009 systematic review found wheezing has diagnostic value but reports no pooled number in the abstract. No quotable estimate for wheeze in heart failure, anaphylaxis or PE within budget.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T01:47:36+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

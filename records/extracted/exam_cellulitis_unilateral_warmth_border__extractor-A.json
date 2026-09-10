@@ -1,0 +1,91 @@
+{
+  "identity": {
+    "id": "exam_cellulitis_unilateral_warmth_border",
+    "title": "Unilateral warm erythema with defined border (vs bilateral / stasis change)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "edema",
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "cellulitis_ssti",
+      "dvt",
+      "necrotizing_fasciitis",
+      "venous_insufficiency"
+    ],
+    "indication_tags": [
+      "unilateral",
+      "bilateral"
+    ]
+  },
+  "technique": {
+    "how": "Expose and compare both legs. Note whether erythema, warmth (back of hand) and edema are unilateral, whether the border is sharp, and mark it. Check for pain out of proportion, crepitus, bullae or dusky change. Score ALT-70: Asymmetry 3, Leukocytosis >=10,000 1, Tachycardia >=90 1, age >=70 2.",
+    "prerequisites": "Both legs exposed; heart rate and, ideally, a white cell count for the full score.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Unilateral (asymmetric) warm erythema is the strongest predictor of true cellulitis in the ALT-70 model (3 of 7 points); ALT-70 >=5 gave >=82.2% likelihood of true cellulitis in derivation.",
+    "negative_finding": "Bilateral, symmetric erythema strongly favors pseudocellulitis (stasis dermatitis, lipodermatosclerosis, acute inflammatory edema); ALT-70 0-2 gave >=83.3% likelihood of pseudocellulitis.",
+    "pitfalls": "ALT-70 is sensitive but poorly specific (22%) in ED validation, so a 'positive' score overcalls cellulitis; derivation used discharge diagnosis as reference. Unilateral erythema also occurs with DVT, gout and necrotizing infection.",
+    "changes_what": "Bilateral/symmetric: withhold antibiotics and treat stasis/edema. Unilateral with red flags (severe pain, crepitus, rapid spread, shock): surgical evaluation for necrotizing infection."
+  },
+  "estimates": [
+    {
+      "target_condition": "Cellulitis vs pseudocellulitis of the lower extremity; ALT-70 prediction model (asymmetry-weighted score)",
+      "population": "204 ED patients with acute dermatologic lower-extremity symptoms; 92 (45.1%) had consensus-diagnosed cellulitis",
+      "setting": "ED",
+      "prevalence": 0.451,
+      "reference_standard": "Independent 6-physician consensus diagnosis",
+      "sensitivity": null,
+      "specificity": {
+        "value": 0.22,
+        "ci_low": 0.158,
+        "ci_high": 0.281
+      },
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_out",
+      "evidence_level": "validation_cohort",
+      "source_index": 1,
+      "quote": "specificity varied considerably (ALT-70, 22.0% [95% CI, 15.8%-28.1%]",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "partially_quantified",
+  "sources": [
+    {
+      "citation": "Raff AB, Weng QY, Cohen JM, et al. A predictive model for diagnosis of lower extremity cellulitis: a cross-sectional study. J Am Acad Dermatol. 2017;76(4):618-625.e2.",
+      "doi": "10.1016/j.jaad.2016.12.044",
+      "pmid": "28215446",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2017
+    },
+    {
+      "citation": "Pulia MS, Schwei RJ, Alexandridis R, et al. Validation of Thermal Imaging and the ALT-70 Prediction Model to Differentiate Cellulitis From Pseudocellulitis. JAMA Dermatol. 2024;160(5):511-517.",
+      "doi": "10.1001/jamadermatol.2024.0091",
+      "pmid": "38536160",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2024
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not apply ALT-70 or the asymmetry rule to upper-extremity, facial or post-surgical infections, or when necrotizing fasciitis is suspected.",
+    "escalation_warning": "Pain out of proportion, rapid progression, crepitus, bullae, skin necrosis or hemodynamic instability indicate possible necrotizing infection: urgent surgical consultation regardless of score.",
+    "interobserver_note": "Asymmetry is a binary observation with expected good agreement, but no kappa is reported in the accessible abstracts."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Neither paper is in PMC (JAMA Dermatol PMC10974680 returned no body text), so only abstracts were used. Raff 2017 reports predictive values by score band (0-2 points >=83.3% likelihood of pseudocellulitis; >=5 points >=82.2% likelihood of true cellulitis; 79/259 = 30.5% misdiagnosed) and identifies asymmetry as the heaviest item (3 points), but gives no sensitivity/specificity for the asymmetry item alone, so no item-level estimate is entered. Pulia 2024 abstract gives ALT-70 specificity 22.0% (15.8-28.1) with sensitivity described only as 'above 90%' (exact value and score threshold not visible), so sensitivity is null. Note that the derivation reference standard was discharge diagnosis (incorporation risk). Status partially_quantified.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T01:48:01+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

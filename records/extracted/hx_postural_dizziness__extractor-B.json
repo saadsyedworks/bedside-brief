@@ -1,0 +1,139 @@
+{
+ "identity": {
+  "id": "hx_postural_dizziness",
+  "title": "Severe postural dizziness / inability to stand for vitals",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "syncope",
+   "hypotension",
+   "aki",
+   "dizziness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "hypovolemic_hemorrhagic_shock",
+   "orthostatic_hypotension",
+   "prerenal_hypovolemia"
+  ],
+  "indication_tags": [
+   "orthostatic",
+   "elderly"
+  ]
+ },
+ "technique": {
+  "how": "After 2 minutes supine, have the patient stand (with assistance) and ask about dizziness while measuring pulse and BP at about 1 minute. Record 'severe postural dizziness' when the patient cannot stand long enough for upright vitals because of lightheadedness or near-syncope; also record the supine-to-standing pulse increment.",
+  "prerequisites": "Patient can safely attempt standing with an assistant; supine baseline vitals obtained first.",
+  "contraindications": "Do not attempt standing in patients who are hypotensive supine, acutely bleeding with instability, or at high fall risk without assistance."
+ },
+ "interpretation": {
+  "positive_finding": "Severe postural dizziness (or a postural pulse increment of 30/min or more) has sensitivity 0.97 and specificity 0.98 for large acute blood loss, so its presence strongly supports significant hypovolemia.",
+  "negative_finding": "Absence does not exclude moderate blood loss (sensitivity only 0.22 after ~450-630 mL); supine hypotension and tachycardia are also frequently absent.",
+  "pitfalls": "Mild postural dizziness has no proven diagnostic value. Data come from phlebotomised healthy volunteers, not ED patients with vomiting/diarrhoea, where few findings have proven utility; beta-blockers, autonomic neuropathy, and deconditioning confound.",
+  "changes_what": "Positive: treat as significant volume/blood loss - IV access, fluids or blood, search for bleeding. Negative: does not rule out moderate loss; check haemoglobin, BUN/creatinine, electrolytes."
+ },
+ "estimates": [
+  {
+   "target_condition": "Large acute blood loss (phlebotomy of larger volumes, up to 1150 mL) - finding: severe postural dizziness (unable to stand for upright vitals) OR postural pulse increment >=30/min",
+   "population": "Healthy adult volunteers undergoing phlebotomy (pooled from studies of postural vital signs)",
+   "setting": "outpatient",
+   "prevalence": null,
+   "reference_standard": "Known volume of blood removed by phlebotomy",
+   "sensitivity": {
+    "value": 0.97,
+    "ci_low": 0.91,
+    "ci_high": 1.0
+   },
+   "specificity": {
+    "value": 0.98,
+    "ci_low": 0.97,
+    "ci_high": 0.99
+   },
+   "lr_positive": {
+    "value": 48.5,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.03,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "LR+ = 0.97/(1-0.98) = 48.5; LR- = (1-0.97)/0.98 = 0.03; from abstract sensitivity 97% and specificity 98%",
+   "interpretation_label": "both",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "a much greater sensitivity for large blood loss of 97% (95% CI, 91%-100%); the corresponding specificity is 98% (95% CI, 97%-99%)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Moderate acute blood loss (e.g. 450 mL phlebotomy) - finding: severe postural dizziness OR postural pulse increment >=30/min",
+   "population": "Healthy adult volunteers undergoing phlebotomy (pooled; includes Witting 1994, 345 blood donors, 450 mL)",
+   "setting": "outpatient",
+   "prevalence": null,
+   "reference_standard": "Known volume of blood removed by phlebotomy",
+   "sensitivity": {
+    "value": 0.22,
+    "ci_low": 0.06,
+    "ci_high": 0.48
+   },
+   "specificity": {
+    "value": 0.98,
+    "ci_low": 0.97,
+    "ci_high": 0.99
+   },
+   "lr_positive": {
+    "value": 11.0,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.8,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "LR+ = 0.22/(1-0.98) = 11.0; LR- = (1-0.22)/0.98 = 0.80; from abstract sensitivity 22% and specificity 98%",
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "The presence of either finding has a sensitivity for moderate blood loss of only 22% (95% confidence interval [CI], 6%-48%)",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "McGee S, Abernethy WB 3rd, Simel DL. The rational clinical examination. Is this patient hypovolemic? JAMA. 1999;281(11):1022-1029.",
+   "doi": "10.1001/jama.281.11.1022",
+   "pmid": "10086438",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1999
+  },
+  {
+   "citation": "Witting MD, Wears RL, Li S. Defining the positive tilt test: a study of healthy adults with moderate acute blood loss. Ann Emerg Med. 1994;23(6):1320-1323.",
+   "doi": "10.1016/s0196-0644(94)70358-2",
+   "pmid": "8198307",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1994
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not stand a patient who is already hypotensive or unstable; do not apply the volunteer-derived numbers directly to elderly patients with vomiting/diarrhoea, autonomic failure, or on rate-limiting drugs.",
+  "escalation_warning": "Inability to stand from dizziness after suspected bleeding signals large-volume loss - activate haemorrhage management rather than waiting for supine hypotension.",
+  "interobserver_note": "Defined operationally as inability to stand for vitals, which is more reproducible than graded dizziness; the RCE notes mild postural dizziness has no proven value."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Both estimates are verbatim from the 1999 RCE abstract (PMID 10086438, confirmed) and refer to the COMBINED finding 'severe postural dizziness (preventing upright vitals) OR postural pulse increment >=30/min', not severe dizziness alone; the abstract does not report severe dizziness in isolation and the JAMA table is not open-access. LRs are computed from the abstract sens/spec (no CIs). Blood-loss volume categories (moderate vs large) are the review's own; exact mL cut-offs are not stated in the abstract, so they are described approximately (included studies phlebotomised up to 1150 mL; Witting 1994 used 450 mL). Witting 1994 (PMID 8198307, confirmed) abstract reports no sens/spec figures, so it is cited as the primary cohort only. Setting coded 'outpatient' because subjects were volunteer blood donors, not patients.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T01:47:57+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

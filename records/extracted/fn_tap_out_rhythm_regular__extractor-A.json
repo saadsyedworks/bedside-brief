@@ -1,0 +1,68 @@
+{
+ "identity": {
+  "id": "fn_tap_out_rhythm_regular",
+  "title": "Patient taps out the palpitation rhythm: regular vs irregular; rapid regular vs 'skipped beats'",
+  "type": "functional",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "syncope",
+   "palpitations",
+   "dizziness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "atrial_fibrillation_flutter",
+   "pvcs_benign_ectopy",
+   "sinus_tachycardia_secondary",
+   "svt",
+   "ventricular_tachycardia"
+  ],
+  "indication_tags": []
+ },
+ "technique": {
+  "how": "Ask the patient to tap the rhythm of their palpitations on the table with a finger, then classify it: fast and perfectly regular, fast and chaotically irregular, or a normal rhythm with isolated 'skipped' or 'thumping' beats followed by a pause. Estimate the tapped rate if regular.",
+  "prerequisites": "Patient must recall a typical episode; works best soon after symptoms.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "A rapid, perfectly regular tap suggests SVT, flutter or VT; an irregularly irregular tap suggests AF; isolated pauses/thumps suggest premature beats.",
+  "negative_finding": "A slow-to-moderate regular tap with gradual onset suggests sinus tachycardia or awareness of normal heartbeat; it does not exclude paroxysmal arrhythmia.",
+  "pitfalls": "No diagnostic-accuracy study of the tapped rhythm was found; patients frequently misjudge regularity and rate, and the palpitations RCE found the clinical examination cannot exclude significant arrhythmia. Symptom-rhythm correlation on a monitor remains the reference.",
+  "changes_what": "Irregular rapid tap: obtain ECG/ambulatory monitor for AF; regular rapid tap: monitor for SVT/VT; skipped beats: 12-lead ECG, reassure if ectopy and structurally normal heart."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Thavendiranathan P, Bagai A, Khoo C, Dorian P, Choudhry NK. Does this patient with palpitations have a cardiac arrhythmia? JAMA. 2009;302(19):2135-2143.",
+   "doi": "10.1001/jama.2009.1673",
+   "pmid": "19920238",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2009
+  },
+  {
+   "citation": "Weber BE, Kapoor WN. Evaluation and outcomes of patients with palpitations. Am J Med. 1996;100(2):138-148.",
+   "doi": "10.1016/s0002-9343(97)89451-x",
+   "pmid": "8629647",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1996
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use a 'benign' tapped pattern to stop the work-up in patients with syncope, structural heart disease, or an abnormal ECG.",
+  "escalation_warning": "A rapid regular or irregular pattern with syncope, chest pain or dyspnoea requires immediate ECG and monitoring.",
+  "interobserver_note": "Unvalidated; interpretation of the tapped rhythm is clinician-dependent and no reliability data were found."
+ },
+ "tier": "extracted",
+ "extraction_notes": "No diagnostic-accuracy data located. The anchor RCE (Thavendiranathan 2009, PMID 19920238; not open access) abstract lists the only history items with significant LRs (none concern patient-reported regularity) and states 'No other features significantly alter the probability of clinically significant arrhythmia'. PubMed search 'palpitations irregular regular patient description atrial fibrillation diagnostic accuracy' returned nothing. Weber & Kapoor 1996 (structured-interview cohort, 190 patients) is cited as the principal primary cohort behind the RCE; its abstract contains no rhythm-description accuracy. Record left not_quantified; the manoeuvre is supported by pattern-recognition teaching only.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T01:47:54+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

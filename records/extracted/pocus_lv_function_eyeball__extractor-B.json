@@ -1,0 +1,213 @@
+{
+ "identity": {
+  "id": "pocus_lv_function_eyeball",
+  "title": "POCUS cardiac: qualitative LV systolic function (normal / reduced / severely reduced; EPSS as adjunct) in PLAX/A4C",
+  "type": "pocus",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "chest_pain",
+   "syncope",
+   "edema",
+   "hypotension",
+   "aki"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "acs",
+   "acute_decompensated_hf",
+   "aortic_stenosis",
+   "cardiogenic_shock",
+   "cardiorenal",
+   "septic_shock"
+  ],
+  "indication_tags": [
+   "hf_known"
+  ]
+ },
+ "technique": {
+  "how": "Phased-array probe; obtain parasternal long-axis, short-axis, apical 4-chamber, and subcostal views. Grade LV function visually by endocardial excursion and wall thickening as normal, reduced, or severely reduced. Adjunct: in PLAX M-mode through the anterior mitral leaflet tip, measure E-point septal separation (EPSS); >7 mm suggests reduced EF, >10 mm markedly reduced.",
+  "prerequisites": "Adequate window in at least one view; awareness of regional wall-motion abnormalities, mitral stenosis, or aortic regurgitation that invalidate EPSS.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Visually 'reduced' LV function by trained emergency physicians agrees with cardiology categorization (weighted kappa 0.61, 84-86% agreement) and identifies severe dysfunction with sensitivity 85-93%; EPSS >7 mm was 100% sensitive for LVEF <=30%.",
+  "negative_finding": "A visually normal, vigorously contracting LV makes cardiogenic shock and systolic heart failure unlikely (sensitivity ~100% for LVEF <50% in a decompensated-HF cohort) but does not exclude diastolic dysfunction, valvular disease, or ACS without wall-motion analysis.",
+  "pitfalls": "Tachycardia, hypovolemia, and sepsis cause hyperdynamic function that masks underlying cardiomyopathy; EPSS is unreliable with mitral stenosis, aortic regurgitation, septal hypertrophy, or regional infarcts (sensitivity for severe dysfunction as low as 11-18% in one real-world study). Agreement is poorest in the moderately reduced category (48%).",
+  "changes_what": "Severely reduced: treat as cardiogenic/mixed shock (inotropes, avoid large fluid boluses, cardiology); normal function in hypotension shifts toward distributive/hypovolemic/obstructive causes."
+ },
+ "estimates": [
+  {
+   "target_condition": "LV systolic function category (normal/depressed/severely depressed) by emergency physician vs blinded cardiologist (agreement, not sensitivity/specificity)",
+   "population": "Convenience sample of 51 adult ED patients with symptomatic hypotension (trauma, CPR, and STEMI excluded); 4 EPs with focused echo training",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "Blinded cardiologist review of the same 5-view EP echocardiogram",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "the weighted agreement between EPs and the primary cardiologist was 84%, with a weighted kappa of 0.61 (p < 0.001)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Severe LV systolic dysfunction (LVEF <=30%) (finding: EPSS >7 mm measured by ED ultrasound fellows)",
+   "population": "Sequential convenience sample of ED patients undergoing comprehensive transthoracic echocardiography (n reported in full text)",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "Calculated LVEF on comprehensive cardiology TTE",
+   "sensitivity": {
+    "value": 1.0,
+    "ci_low": 0.629,
+    "ci_high": 1.0
+   },
+   "specificity": {
+    "value": 0.516,
+    "ci_low": 0.386,
+    "ci_high": 0.645
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_out",
+   "evidence_level": "single_study",
+   "source_index": 2,
+   "quote": "EPSS measurement of greater than 7 mm for severe systolic dysfunction (LVEF<=30%) were 100.0% (95% confidence interval, 62.9-100.0) and 51.6% (95% confidence interval, 38.6-64.5)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "LVEF <50% on comprehensive echo (finding: EP visually estimated reduced LVEF)",
+   "population": "61 ED patients with possible decompensated heart failure receiving FOCUS; 24 (39%) had LVEF <50%",
+   "setting": "ED",
+   "prevalence": 0.39,
+   "reference_standard": "Comprehensive cardiology echocardiogram",
+   "sensitivity": {
+    "value": 1.0,
+    "ci_low": 0.86,
+    "ci_high": 1.0
+   },
+   "specificity": {
+    "value": 0.59,
+    "ci_low": 0.42,
+    "ci_high": 0.75
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_out",
+   "evidence_level": "single_study",
+   "source_index": 4,
+   "quote": "higher specificity than estimated LVEF (100% sensitivity [95% CI 86-100], 59% specificity [95% CI 42-75])",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "LVEF <50% on comprehensive echo (finding: EPSS >10 mm measured by emergency physician)",
+   "population": "61 ED patients with possible decompensated heart failure receiving FOCUS; 24 (39%) had LVEF <50%",
+   "setting": "ED",
+   "prevalence": 0.39,
+   "reference_standard": "Comprehensive cardiology echocardiogram",
+   "sensitivity": {
+    "value": 0.79,
+    "ci_low": 0.58,
+    "ci_high": 0.93
+   },
+   "specificity": {
+    "value": 0.76,
+    "ci_low": 0.59,
+    "ci_high": 0.88
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 4,
+   "quote": "MAPSE demonstrated lower sensitivity than EPSS (79% sensitivity [95% CI 58-93], and 76% specificity [95% CI 59-88])",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Severe LV dysfunction on cardiology TTE (finding: visual estimation by blinded ultrasound-fellowship-trained EP, reader 1; reader 2 sensitivity 93%)",
+   "population": "113 adult ED patients with both EP point-of-care echo and comprehensive cardiology TTE (Simpson's method)",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "Simpson's biplane LVEF on comprehensive cardiology-performed TTE",
+   "sensitivity": {
+    "value": 0.85,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 3,
+   "quote": "Sensitivity of severe dysfunction was moderate to high in VE (EP1 85% and EP2 93%)",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Moore CL, Rose GA, Tayal VS, Sullivan DM, Arrowood JA, Kline JA. Determination of left ventricular function by emergency physician echocardiography of hypotensive patients. Acad Emerg Med. 2002;9(3):186-193.",
+   "doi": "10.1111/j.1553-2712.2002.tb00242.x",
+   "pmid": "11874773",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2002
+  },
+  {
+   "citation": "Randazzo MR, Snoey ER, Levitt MA, Binder K. Accuracy of emergency physician assessment of left ventricular ejection fraction and central venous pressure using echocardiography. Acad Emerg Med. 2003;10(9):973-977.",
+   "doi": "10.1111/j.1553-2712.2003.tb00654.x",
+   "pmid": "12957982",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2003
+  },
+  {
+   "citation": "McKaigney CJ, Krantz MJ, La Rocque CL, Hurst ND, Buchanan MS, Kendall JL. E-point septal separation: a bedside tool for emergency physician assessment of left ventricular ejection fraction. Am J Emerg Med. 2014;32(6):493-497.",
+   "doi": "10.1016/j.ajem.2014.01.045",
+   "pmid": "24630604",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2014
+  },
+  {
+   "citation": "Bahl A, Johnson S, Altwail M, et al. Left ventricular ejection fraction assessment by emergency physician-performed bedside echocardiography: a prospective comparative evaluation of multiple modalities. J Emerg Med. 2022;62(3):335-341.",
+   "doi": "10.1016/j.jemermed.2021.09.009",
+   "pmid": "34654586",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2022
+  },
+  {
+   "citation": "Schick AL, Kaine JC, Al-Sadhan NA, et al. Focused cardiac ultrasound with mitral annular plane systolic excursion (MAPSE) detection of left ventricular dysfunction. Am J Emerg Med. 2023;68:52-58.",
+   "doi": "10.1016/j.ajem.2023.03.018",
+   "pmid": "36933334",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2023
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use qualitative LV assessment to exclude ACS (regional wall motion requires more views and expertise) or to grade function precisely for medication decisions; do not rely on EPSS with mitral/aortic valve disease or septal hypertrophy.",
+  "escalation_warning": "Severely reduced LV function with hypotension or pulmonary edema is cardiogenic shock until proven otherwise: early cardiology/ICU involvement and avoid empiric large-volume fluids.",
+  "interobserver_note": "EP-cardiologist weighted kappa 0.61 (Moore 2002) and kappa 0.58 for visual global function (McKaigney 2014); agreement is high for normal (92%) and poor for moderately reduced (48%) categories (Randazzo 2003). Two fellowship-trained EPs had kappa 0.94-0.97 vs gold standard for visual estimation (Bahl 2022).",
+  "skill_assumption": "Emergency physician or hospitalist with focused cardiac ultrasound training (published cohorts: credentialed EP sonographers after 3-hour to fellowship-level training); accuracy assumes at least one adequate window and visual grading into three categories rather than a numeric EF."
+ },
+ "tier": "extracted",
+ "extraction_notes": "The anchor (Moore 2002) reports agreement (r 0.86, weighted kappa 0.61), not sensitivity/specificity; it is entered as an estimate with null accuracy fields so the quote and location are preserved. Randazzo 2003 similarly reports agreement (86.1% overall) and is cited without a numeric estimate. Sensitivity/specificity estimates come from three single-centre ED studies with different thresholds (EPSS >7 mm for LVEF <=30%, McKaigney; EPSS >10 mm and visual estimate for LVEF <50%, Schick; visual estimate for severe dysfunction, Bahl) and are kept as separate entries. Bahl 2022 reports per-reader sensitivities only (85%/93%); specificity was not in the abstract. No pooled meta-analysis of EP qualitative LV assessment was found in PubMed searches. All locations are abstracts (none of these journals in PMC).",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T01:47:48+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

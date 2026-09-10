@@ -1,0 +1,176 @@
+{
+ "identity": {
+  "id": "exam_shifting_dullness",
+  "title": "Ascites signs: shifting dullness, flank dullness, fluid wave, bulging flanks",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "edema",
+   "aki",
+   "ams",
+   "abdominal_pain",
+   "fever"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "acute_decompensated_hf",
+   "cirrhosis",
+   "constrictive_pericarditis",
+   "hepatic_encephalopathy",
+   "hepatorenal",
+   "hypoalbuminemia",
+   "nephrotic_syndrome",
+   "sbp"
+  ],
+  "indication_tags": [
+   "cirrhosis_known"
+  ]
+ },
+ "technique": {
+  "how": "Supine: inspect for bulging flanks, then percuss from umbilicus laterally to map the flank dullness border. Roll the patient onto one side, wait ~30 s and re-percuss: the dull border shifting toward the dependent side (>2-3 cm) is positive. Fluid wave: assistant's hand edge on midline; tap one flank sharply and feel for an impulse at the other flank.",
+  "prerequisites": "Supine patient able to roll laterally; empty bladder; quiet room for percussion.",
+  "contraindications": "Avoid rolling patients with unstable spine or fresh abdominal wounds; otherwise none."
+ },
+ "interpretation": {
+  "positive_finding": "A fluid wave (LR+ about 9.6) or shifting dullness (LR+ about 5.8) makes ascites substantially more likely in hospitalized patients with suspected ascites. Positive signs in a patient with liver disease and prolonged PT are very likely true.",
+  "negative_finding": "Absence of bulging flanks (LR- 0.12) or of flank dullness argues strongly against clinically significant ascites; absent shifting dullness with a normal PT makes ascites rare.",
+  "pitfalls": "Examination misses small volumes (<1 L) and is unreliable in obesity; fluid wave is often falsely positive in obesity and falsely negative with small volumes; interobserver agreement is only moderate.",
+  "changes_what": "Positive: confirm with POCUS and consider diagnostic paracentesis (SBP, SAAG); negative flank dullness: ascites unlikely, look elsewhere for edema/AKI cause."
+ },
+ "estimates": [
+  {
+   "target_condition": "Ascites",
+   "population": "Hospitalized adults with suspected ascites, broad spectrum (Durham VA); n not stated in abstract",
+   "setting": "inpatient",
+   "prevalence": null,
+   "reference_standard": "Not stated in abstract (the 1992 RCE summarises this study as ultrasound-referenced; full text not viewable here)",
+   "computed": false,
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "location": "Abstract, Results",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 9.6,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": null,
+   "interpretation_label": "rule_in",
+   "quote": "The positive likelihood ratios for a fluid wave = 9.6 and shifting dullness = 5.76 favored ascites"
+  },
+  {
+   "target_condition": "Ascites",
+   "population": "Hospitalized adults with suspected ascites, broad spectrum (Durham VA); n not stated in abstract",
+   "setting": "inpatient",
+   "prevalence": null,
+   "reference_standard": "Not stated in abstract (the 1992 RCE summarises this study as ultrasound-referenced; full text not viewable here)",
+   "computed": false,
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "location": "Abstract, Results",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 5.76,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": null,
+   "interpretation_label": "rule_in",
+   "quote": "The positive likelihood ratios for a fluid wave = 9.6 and shifting dullness = 5.76 favored ascites"
+  },
+  {
+   "target_condition": "Ascites",
+   "population": "Hospitalized adults with suspected ascites, broad spectrum (Durham VA); n not stated in abstract",
+   "setting": "inpatient",
+   "prevalence": null,
+   "reference_standard": "Not stated in abstract (the 1992 RCE summarises this study as ultrasound-referenced; full text not viewable here)",
+   "computed": false,
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "location": "Abstract, Results",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": {
+    "value": 0.12,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "interpretation_label": "rule_out",
+   "quote": "the absence of bulging flanks (negative likelihood ratio = 0.12) or peripheral edema (negative likelihood ratio = 0.17) favored ascites the least"
+  },
+  {
+   "target_condition": "Ascites",
+   "population": "Hospitalized adults with suspected ascites, broad spectrum (Durham VA); n not stated in abstract",
+   "setting": "inpatient",
+   "prevalence": null,
+   "reference_standard": "Not stated in abstract (the 1992 RCE summarises this study as ultrasound-referenced; full text not viewable here)",
+   "computed": false,
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "location": "Abstract, Results",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": {
+    "value": 0.17,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "interpretation_label": "rule_out",
+   "quote": "the absence of bulging flanks (negative likelihood ratio = 0.12) or peripheral edema (negative likelihood ratio = 0.17) favored ascites the least"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Williams JW Jr, Simel DL. The rational clinical examination. Does this patient have ascites? How to divine fluid in the abdomen. JAMA. 1992;267(19):2645-2648.",
+   "doi": "10.1001/jama.267.19.2645",
+   "pmid": "1573754",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1992
+  },
+  {
+   "citation": "Simel DL, Halvorsen RA Jr, Feussner JR. Quantitating bedside diagnosis: clinical evaluation of ascites. J Gen Intern Med. 1988;3(5):423-428.",
+   "doi": "10.1007/BF02595917",
+   "pmid": "3049966",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1988
+  },
+  {
+   "citation": "Cattau EL Jr, Benjamin SB, Knuff TE, Castell DO. The accuracy of the physical examination in the diagnosis of suspected ascites. JAMA. 1982;247(8):1164-1166.",
+   "doi": null,
+   "pmid": "7057606",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1982
+  },
+  {
+   "citation": "Cummings S, Papadakis M, Melnick J, Gooding GA, Tierney LM Jr. The predictive value of physical examinations for ascites. West J Med. 1985;142(5):633-636.",
+   "doi": null,
+   "pmid": "3892916",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1985
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not rely on percussion to exclude small-volume ascites when SBP or hepatorenal syndrome is suspected; use ultrasound.",
+  "escalation_warning": "Ascites with fever, abdominal pain, encephalopathy or rising creatinine needs urgent diagnostic paracentesis for SBP.",
+  "interobserver_note": "Agreement between examiners for shifting dullness and fluid wave is moderate at best (kappa values reported in the RCE tables, not viewable here); Cattau 1982 found only 58% overall accuracy across three examiners."
+ },
+ "tier": "extracted",
+ "extraction_notes": "All numeric estimates come from the abstract of Simel 1988 (PMID 3049966): fluid wave LR+ 9.6, shifting dullness LR+ 5.76, absent bulging flanks LR- 0.12, absent peripheral edema LR- 0.17 (order of estimates: fluid wave, shifting dullness, bulging flanks absent, peripheral edema absent). No CIs, sensitivities or specificities are given in the abstract and the JGIM full text is not accessible, so those fields are null; reference standard is not stated in the abstract. The 1992 RCE (PMID 1573754) pooled table is not viewable (no abstract, publisher blocked), so its pooled LRs are not reported. Cattau 1982 (PMID 7057606, 21 patients, ultrasound reference) reports only ranges (sensitivity 50-94%, specificity 29-82%) and that absence of flank dullness is the one finding with >90% accuracy for excluding ascites; no per-manoeuvre numbers in the abstract. Cummings 1985 (PMID 3892916, 90 men with liver disease, sonography reference) reports positive predictive values only (shifting dullness 51%, fluid wave 73%; 96% for fluid wave when PT prolonged; 2% ascites when PT normal and no shifting dullness) - PPVs cannot be entered as sens/spec/LR so are noted here only. Records exam_shifting_dullness and exam_ascites_flank_dullness_fluid_wave cover the same manoeuvres and share this evidence base.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T01:48:04+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

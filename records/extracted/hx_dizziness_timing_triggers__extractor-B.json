@@ -1,0 +1,124 @@
+{
+ "identity": {
+  "id": "hx_dizziness_timing_triggers",
+  "title": "Timing and triggers (TiTrATE: episodic vs continuous, triggered vs spontaneous) rather than symptom quality; associated diplopia/dysarthria/dysphagia/hearing loss",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "syncope",
+   "dizziness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "arrhythmia",
+   "bppv",
+   "medication_effect",
+   "meniere",
+   "orthostatic_hypotension",
+   "posterior_circulation_stroke",
+   "vestibular_neuritis"
+  ],
+  "indication_tags": [
+   "positional",
+   "orthostatic",
+   "acute_onset"
+  ]
+ },
+ "technique": {
+  "how": "Instead of asking 'what kind of dizzy', ask: Is it continuous right now or does it come in discrete episodes? How long do episodes last (seconds, minutes, hours)? Is it triggered only by head/body position change or standing, or does it arise spontaneously? Then ask for accompanying diplopia, dysarthria, dysphagia, limb weakness/numbness, new hearing loss, or headache/neck pain.",
+  "prerequisites": "Patient able to give a history; for episodic symptoms, clarify whether symptoms are present at rest between triggers.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Triggered brief episodes point to BPPV or orthostatic hypotension; spontaneous episodes lasting minutes-hours to TIA, Meniere or vestibular migraine (or arrhythmia when presyncopal); continuous acute dizziness to vestibular neuritis vs stroke, where HINTS is the next step. Any accompanying diplopia/dysarthria/dysphagia/focal deficit raises stroke probability.",
+  "negative_finding": "Dizziness that is truly isolated (no other neurologic symptom or sign) carried a stroke/TIA rate of 0.7% in a population-based ED cohort (Kerber 2006), versus 3.2% overall.",
+  "pitfalls": "Patients' descriptions of dizziness quality are unreliable (52% changed their single best descriptor on retest within minutes), but duration and triggers were reported consistently. Absence of focal symptoms does not exclude posterior-circulation stroke.",
+  "changes_what": "Classify the syndrome (triggered-episodic / spontaneous-episodic / acute vestibular) to choose the next test: Dix-Hallpike/orthostatics, TIA work-up or ECG, or HINTS plus imaging."
+ },
+ "estimates": [
+  {
+   "target_condition": "Stroke or TIA in ED patients with dizziness, vertigo or imbalance - finding: NON-isolated dizziness (any accompanying stroke screening symptom or neurologic sign) vs isolated dizziness",
+   "population": "Population-based cohort, 1666 patients aged >44 years presenting to ED or directly admitted with dizziness symptoms (BASIC project)",
+   "setting": "ED",
+   "prevalence": 0.032,
+   "reference_standard": "Adjudicated new stroke/TIA diagnosis (population-based surveillance)",
+   "sensitivity": {
+    "value": 0.83,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.798,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 4.12,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.21,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "2x2 from abstract counts: stroke/TIA 53/1666; isolated DS 1297 with 9 stroke/TIA -> non-isolated DS 369 with 44 stroke/TIA. Sens 44/53=0.830; spec 1288/1613=0.798; LR+ 0.830/0.202=4.12; LR- 0.170/0.798=0.21. CIs not computed.",
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "3.2% (53 of 1666) of all patients with DS. Only 0.7% (9 of 1297) of those with isolated DS had a stroke/TIA.",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Kerber KA, Brown DL, Lisabeth LD, Smith MA, Morgenstern LB. Stroke among patients with dizziness, vertigo, and imbalance in the emergency department: a population-based study. Stroke. 2006;37(10):2484-2487.",
+   "doi": "10.1161/01.STR.0000240329.48263.0d",
+   "pmid": "16946161",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2006
+  },
+  {
+   "citation": "Newman-Toker DE, Cannon LM, Stofferahn ME, Rothman RE, Hsieh YH, Zee DS. Imprecision in patient reports of dizziness symptom quality: a cross-sectional study conducted in an acute care setting. Mayo Clin Proc. 2007;82(11):1329-1340.",
+   "doi": "10.4065/82.11.1329",
+   "pmid": "17976352",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2007
+  },
+  {
+   "citation": "Newman-Toker DE, Edlow JA. TiTrATE: A Novel, Evidence-Based Approach to Diagnosing Acute Dizziness and Vertigo. Neurol Clin. 2015;33(3):577-599.",
+   "doi": "10.1016/j.ncl.2015.04.011",
+   "pmid": "26231273",
+   "url": null,
+   "kind": "consensus",
+   "year": 2015
+  },
+  {
+   "citation": "Navi BB, Kamel H, Shah MP, et al. Rate and predictors of serious neurologic causes of dizziness in the emergency department. Mayo Clin Proc. 2012;87(11):1080-1088.",
+   "doi": "10.1016/j.mayocp.2012.05.023",
+   "pmid": "23063099",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2012
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use 'isolated dizziness' to exclude stroke in the acute vestibular syndrome (continuous dizziness with nystagmus) - use HINTS/imaging; isolated dizziness still had a 0.7% stroke rate.",
+  "escalation_warning": "New dizziness with diplopia, dysarthria, dysphagia, ataxia, focal weakness, or vascular risk factors and age over 60 needs urgent stroke evaluation regardless of symptom quality.",
+  "interobserver_note": "Symptom quality descriptors are unreliable (52% test-retest discordance); timing and trigger reports were consistent and reliable in the same study (Newman-Toker 2007)."
+ },
+ "tier": "extracted",
+ "extraction_notes": "The timing/trigger paradigm itself has reliability data but no direct sensitivity/specificity: Newman-Toker 2007 abstract (PMID 17976352) reports '52% picked a different response on retest' for symptom quality and that 'reports of dizziness duration and triggers were clear, consistent, and reliable' (no accuracy figures), so no estimate entry was made for it. The single numeric estimate is for the associated-neurologic-symptom component and is COMPUTED from the 2x2 implied by the Kerber 2006 abstract counts (not reported as sens/spec by the authors; CIs not derived). Navi 2012 abstract reports only odds ratios (isolated dizziness OR 0.2, 95% CI 0.0-0.7; any focal examination abnormality OR 5.9, 95% CI 3.1-11.2) so it is cited without an estimate. TiTrATE (PMC4522574 author manuscript) contains no primary accuracy table for timing/triggers; the CMAJ 2011 systematic review (PMID 21576300) is abstract-only in PMC. Hence partially_quantified.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T01:47:57+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

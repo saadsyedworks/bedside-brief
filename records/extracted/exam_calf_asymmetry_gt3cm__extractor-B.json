@@ -1,0 +1,145 @@
+{
+ "identity": {
+  "id": "exam_calf_asymmetry_gt3cm",
+  "title": "Unilateral leg swelling: calf circumference difference >3 cm (10 cm below tibial tuberosity), with calf tenderness",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "chest_pain",
+   "edema",
+   "fever"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "cellulitis_ssti",
+   "dvt",
+   "lymphedema",
+   "pulmonary_embolism",
+   "venous_insufficiency"
+  ],
+  "indication_tags": [
+   "malignancy",
+   "recent_immobilization",
+   "unilateral"
+  ]
+ },
+ "technique": {
+  "how": "With the patient supine and legs relaxed, mark a point 10 cm below the tibial tuberosity on each leg and measure calf circumference with a tape at the same level bilaterally. A difference >3 cm (symptomatic side larger) is positive; also note localized tenderness along the deep venous system and pitting edema confined to the symptomatic leg.",
+  "prerequisites": "Both legs accessible and comparable (no prior amputation, cast, or chronic unilateral disease that already explains asymmetry).",
+  "contraindications": "None; avoid firm calf compression if DVT is strongly suspected and pain is severe."
+ },
+ "interpretation": {
+  "positive_finding": "Calf-diameter difference roughly doubles the odds of DVT (pooled LR+ 1.8); it is the only physical sign with useful rule-in value but is far weaker than the overall Wells score (high probability LR 5.2).",
+  "negative_finding": "No calf-diameter difference (LR- 0.57) or no calf swelling (LR- 0.67) lowers the probability of DVT only modestly; it cannot exclude DVT on its own.",
+  "pitfalls": "Chronic venous insufficiency, lymphedema, cellulitis, Baker cyst, and prior DVT produce asymmetry without acute thrombosis; measuring at different levels or in a dependent leg creates spurious differences. Calf tenderness alone has LR near 1.",
+  "changes_what": "Positive: adds 1 Wells point and pushes toward compression ultrasound; negative does not stop work-up if other Wells items or D-dimer are positive."
+ },
+ "estimates": [
+  {
+   "target_condition": "DVT (finding: difference in calf diameter, present)",
+   "population": "Patients with clinically suspected DVT (cohort studies comparing clinical assessment with a reference standard; pooled random-effects)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Venography or compression/duplex ultrasound (study-specific reference standard)",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 1.8,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "malignancy (likelihood ratio [LR], 2.71), previous DVT (LR, 2.25), recent immobilization (LR, 1.98), difference in calf diameter (LR, 1.80)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "DVT (finding: difference in calf diameter, absent)",
+   "population": "Patients with clinically suspected DVT (cohort studies comparing clinical assessment with a reference standard; pooled random-effects)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Venography or compression/duplex ultrasound (study-specific reference standard)",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": {
+    "value": 0.57,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "absence of calf swelling (LR, 0.67) or difference in calf diameter (LR, 0.57) was useful for ruling out DVT",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "DVT (finding: calf swelling, absent)",
+   "population": "Patients with clinically suspected DVT (cohort studies comparing clinical assessment with a reference standard; pooled random-effects)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Venography or compression/duplex ultrasound (study-specific reference standard)",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": {
+    "value": 0.67,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": false,
+   "interpretation_label": "minimal",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "absence of calf swelling (LR, 0.67) or difference in calf diameter (LR, 0.57) was useful for ruling out DVT",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Goodacre S, Sutton AJ, Sampson FC. Meta-analysis: the value of clinical assessment in the diagnosis of deep venous thrombosis. Ann Intern Med. 2005;143(2):129-139.",
+   "doi": "10.7326/0003-4819-143-2-200507190-00012",
+   "pmid": "16027455",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2005
+  },
+  {
+   "citation": "Anand SS, Wells PS, Hunt D, Brill-Edwards P, Cook D, Ginsberg JS. Does this patient have deep vein thrombosis? JAMA. 1998;279(14):1094-1099.",
+   "doi": "10.1001/jama.279.14.1094",
+   "pmid": "9546569",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1998
+  },
+  {
+   "citation": "Wells PS, Owen C, Doucette S, Fergusson D, Tran H. Does this patient have deep vein thrombosis? JAMA. 2006;295(2):199-207.",
+   "doi": "10.1001/jama.295.2.199",
+   "pmid": "16403932",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2006
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not rely on a negative calf measurement to withhold imaging in a patient with moderate/high Wells probability or with symptoms suggesting PE.",
+  "escalation_warning": "Massive swelling with cyanosis or pallor and pain (phlegmasia) or a cold pulseless limb requires immediate vascular imaging and consultation.",
+  "interobserver_note": "Pooled estimates had substantial heterogeneity across cohorts; the 1998 RCE reports clinical examination sensitivity ranging 60-96% and specificity 20-72% across studies, reflecting poor reproducibility of unaided exam."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Numbers are from the Goodacre 2005 abstract (Ann Intern Med, no PMC full text); 95% CIs for item LRs are not in the abstract and are null. The abstract reports 'difference in calf diameter' without stating the 3 cm threshold; the >3 cm cut-off comes from the Wells score definition used by the included studies (verifier: confirm in Goodacre Table 2). Anand 1998 RCE abstract reports only ranges (sensitivity 60-96%, specificity 20-72%) for the overall clinical examination, so no estimate is entered from it. Wells 2006 RCE is cited as the index for score-level stratification (DVT prevalence 5%/17%/53% low/moderate/high).",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T01:47:48+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

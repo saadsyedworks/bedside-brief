@@ -1,0 +1,89 @@
+{
+  "identity": {
+    "id": "exam_egophony",
+    "title": "Egophony (E-to-A change) or bronchial breath sounds over a focal area",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "chest_pain",
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "pleural_effusion",
+      "pneumonia"
+    ],
+    "indication_tags": [
+      "febrile"
+    ]
+  },
+  "technique": {
+    "how": "Auscultate the posterior and lateral chest while the patient repeatedly says a long 'eee'; over a consolidated zone the transmitted sound is heard as a nasal 'A' (bleating). Also listen for bronchial (tubular, loud expiratory) breath sounds and whispered pectoriloquy in the same area, comparing with the contralateral side.",
+    "prerequisites": "Cooperative patient able to phonate; quiet room.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Focal egophony substantially raises the probability of radiographic pneumonia (pooled LR+ 6.2) and localizes consolidation; it can also occur at the upper border of a compressive effusion.",
+    "negative_finding": "Absence is common in pneumonia (low sensitivity), so a negative test does not rule out CAP.",
+    "pitfalls": "Requires an open airway to the consolidated lung; mucus-plugged or small/early consolidations are silent. Wide CI (1.3-18) reflects few studies and rare positives.",
+    "changes_what": "Present: obtain CXR/POCUS and treat as consolidation-range CAP. Absent: no change; rely on vital signs and overall impression to lower probability."
+  },
+  "estimates": [
+    {
+      "target_condition": "Community-acquired pneumonia (egophony)",
+      "population": "Adults with suspected pneumonia or acute cough; 17 prospective cohorts (9 primary care, 7 ED)",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Chest imaging",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 6.17,
+        "ci_low": 1.34,
+        "ci_high": 18.0
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "egophony (LR+ = 6.17, 95% CI = 1.34 to 18.0)",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "partially_quantified",
+  "sources": [
+    {
+      "citation": "Ebell MH, Chupp H, Cai X, Bentivegna M, Kearney M. Accuracy of Signs and Symptoms for the Diagnosis of Community-acquired Pneumonia: A Meta-analysis. Acad Emerg Med. 2020;27(7):541-553.",
+      "doi": "10.1111/acem.13965",
+      "pmid": "32329557",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2020
+    },
+    {
+      "citation": "Metlay JP, Kapoor WN, Fine MJ. Does this patient have community-acquired pneumonia? Diagnosing pneumonia by history and physical examination. JAMA. 1997;278(17):1440-1445.",
+      "doi": null,
+      "pmid": "9356004",
+      "url": null,
+      "kind": "rce_series",
+      "year": 1997
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use absence of egophony to withhold imaging or antibiotics in a febrile hypoxic patient.",
+    "escalation_warning": "Egophony with hypotension, RR >30 or confusion suggests severe CAP; escalate per CURB-65/sepsis pathway.",
+    "interobserver_note": "Metlay 1997 notes generally poor-to-fair agreement for auscultatory findings; egophony-specific kappa not visible in abstract."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Only the pooled LR+ from the Ebell 2020 abstract is quotable; sensitivity, specificity and LR- are in the article tables (not PMC OA) and are left null. Metlay 1997 RCE cited as the series anchor (abstract has no numbers). Bronchial breath sounds have no separate quotable pooled estimate within budget.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T01:47:36+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

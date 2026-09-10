@@ -1,0 +1,129 @@
+{
+ "identity": {
+  "id": "hx_neck_pounding_frog_sign",
+  "title": "Regular rapid pounding in the neck / visible neck pulsations during episodes (frog sign)",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "syncope",
+   "palpitations"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "atrial_fibrillation_flutter",
+   "sinus_tachycardia_secondary",
+   "svt"
+  ],
+  "indication_tags": []
+ },
+ "technique": {
+  "how": "Ask whether, during attacks, the patient feels a rapid regular pounding or 'shirt-collar flutter' in the neck, and whether others have seen the neck pulsating. If the patient is in tachycardia now, inspect the neck for rapid regular jugular pulsations (frog sign) caused by atrial contraction against closed AV valves.",
+  "prerequisites": "History of recurrent palpitations; direct observation requires an ongoing episode.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "A regular rapid-pounding sensation in the neck strongly favours AV nodal re-entrant tachycardia (LR 177, 95% CI 25-1251); visible neck pulsations are a weaker pointer (LR 2.68).",
+  "negative_finding": "Absence of the neck-pounding sensation makes AVNRT unlikely (LR 0.07, 95% CI 0.03-0.19) but says nothing about other arrhythmias such as AF or VT.",
+  "pitfalls": "The estimate derives from a single electrophysiology-lab study with very wide confidence intervals; cannon A waves also occur in VT with AV dissociation and complete heart block.",
+  "changes_what": "Positive: diagnose probable AVNRT - teach vagal manoeuvres, refer for EP study/ablation. Negative: look for other arrhythmia or non-arrhythmic causes; prolonged monitoring still needed."
+ },
+ "estimates": [
+  {
+   "target_condition": "AV nodal reentrant tachycardia (vs other causes of palpitations/other SVT) - regular rapid-pounding sensation in the neck present",
+   "population": "Patients with documented paroxysmal SVT undergoing electrophysiologic study (single study within RCE)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Electrophysiologic study defining AVNRT vs other tachycardia mechanisms",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 177,
+    "ci_low": 25,
+    "ci_high": 1251
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "The presence of a regular rapid-pounding sensation in the neck (LR, 177; 95% CI, 25-1251)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "AV nodal reentrant tachycardia - regular rapid-pounding sensation in the neck absent",
+   "population": "Patients with documented paroxysmal SVT undergoing electrophysiologic study (single study within RCE)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Electrophysiologic study defining AVNRT vs other tachycardia mechanisms",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": {
+    "value": 0.07,
+    "ci_low": 0.03,
+    "ci_high": 0.19
+   },
+   "computed": false,
+   "interpretation_label": "rule_out",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "The absence of a regular rapid-pounding sensation in the neck makes detecting the same arrhythmia less likely (LR, 0.07; 95% CI, 0.03-0.19)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "AV nodal reentrant tachycardia - visible neck pulsations during palpitations",
+   "population": "Patients with documented paroxysmal SVT undergoing electrophysiologic study (single study within RCE)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Electrophysiologic study defining AVNRT vs other tachycardia mechanisms",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 2.68,
+    "ci_low": 1.25,
+    "ci_high": 5.78
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "visible neck pulsations (LR, 2.68; 95% CI, 1.25-5.78) in association with palpitations increases the likelihood of a specific type of arrhythmia",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Thavendiranathan P, Bagai A, Khoo C, Dorian P, Choudhry NK. Does this patient with palpitations have a cardiac arrhythmia? JAMA. 2009;302(19):2135-2143.",
+   "doi": "10.1001/jama.2009.1673",
+   "pmid": "19920238",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2009
+  },
+  {
+   "citation": "Gursoy S, Steurer G, Brugada J, Andries E, Brugada P. Brief report: the hemodynamic mechanism of pounding in the neck in atrioventricular nodal reentrant tachycardia. N Engl J Med. 1992;327(11):772-774.",
+   "doi": "10.1056/NEJM199209103271105",
+   "pmid": "1501653",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1992
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use to reassure a patient with wide-complex tachycardia, syncope, or structural heart disease - the sign does not distinguish VT with cannon waves.",
+  "escalation_warning": "Neck pounding with haemodynamic compromise, syncope, or a wide-complex rhythm needs immediate ECG and acute arrhythmia management.",
+  "interobserver_note": "Symptom is self-reported; the LR rests on one EP-lab cohort, hence the very wide CI (25-1251)."
+ },
+ "tier": "extracted",
+ "extraction_notes": "All three LRs (with CIs) are verbatim from the 2009 RCE abstract (PMID 19920238, confirmed); sens/spec were not in the abstract and the JAMA table is not open-access, so they are null and the LR+ and LR- are recorded as separate entries so each has its own containing quote. The RCE attributes the neck-pounding data to a single EP study (Gursoy 1992 NEJM, PMID 1501653 confirmed by fetch; no abstract available), so population/reference standard are stated as EP-lab AVNRT vs other SVT per the RCE abstract wording ('atrioventricular nodal reentry tachycardia'). Prevalence not reported in accessible text.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T01:47:57+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

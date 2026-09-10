@@ -1,0 +1,128 @@
+{
+ "identity": {
+  "id": "hx_pain_abrupt_maximal_onset",
+  "title": "Pain abrupt in onset and maximal at onset (thunderclap-type chest/back pain)",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "chest_pain",
+   "syncope",
+   "abdominal_pain"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "aaa",
+   "aortic_dissection",
+   "pneumothorax",
+   "pulmonary_embolism"
+  ],
+  "indication_tags": [
+   "acute_onset"
+  ]
+ },
+ "technique": {
+  "how": "Ask an open question about how the pain began, then specifically: 'Did it reach its worst within seconds, or build up over minutes?' Document time-to-peak intensity and whether the patient can pinpoint the moment of onset (what they were doing). Also ask about tearing/ripping quality and migration.",
+  "prerequisites": "Patient able to give history; otherwise ask witnesses or EMS about onset.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Abrupt-onset pain is present in ~84-96% of aortic dissections but is common in other conditions, so it raises suspicion for dissection only modestly (specificity not established in unselected cohorts); it is a high-risk feature in the ADD risk score.",
+  "negative_finding": "Absence of sudden onset lowers the likelihood of dissection (LR- 0.3 in the RCE pooled series; 0.07 in an ED case-control study), but the clinical examination is insufficiently sensitive to rule out dissection on its own.",
+  "pitfalls": "Patients recall onset imprecisely, particularly after analgesia or when pain was preceded by exertion; gradual-onset presentations still occur in ~5-16% of dissections, especially in elderly patients or with painless neurologic presentations.",
+  "changes_what": "Positive: escalate to ADD-RS assessment, CXR/D-dimer and CT angiography as appropriate; negative onset lowers but does not eliminate dissection probability."
+ },
+ "estimates": [
+  {
+   "target_condition": "Acute thoracic aortic dissection (finding: sudden-onset pain)",
+   "population": "Consecutive patients with confirmed thoracic aortic dissection from 21 studies (case series; sensitivity pooled; LR- derived from comparison cohorts)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Dissection confirmed by imaging, surgery, or autopsy",
+   "sensitivity": {
+    "value": 0.84,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": {
+    "value": 0.3,
+    "ci_low": 0.2,
+    "ci_high": 0.5
+   },
+   "computed": false,
+   "interpretation_label": "rule_out",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "sudden onset (sensitivity, 84%). The absence of sudden pain onset lowers the likelihood of dissection (negative likelihood ratio [LR], 0.3; 95% confidence interval [CI], 0.2-0.5)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Acute aortic dissection (finding: abrupt-onset pain)",
+   "population": "Matched case-control: 194 ED/in-hospital CT- or echo-confirmed AAD cases vs 776 ED controls with truncal pain <14 days and no clear diagnosis",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "CT angiography or echocardiography confirmed dissection",
+   "sensitivity": {
+    "value": 0.959,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": {
+    "value": 0.07,
+    "ci_low": 0.03,
+    "ci_high": 0.14
+   },
+   "computed": false,
+   "interpretation_label": "rule_out",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "Absence of abrupt-onset pain (sensitivity = 95.9%, negative likelihood ratio = 0.07 [0.03-0.14]) can help rule out AAD.",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Klompas M. Does this patient have an acute thoracic aortic dissection? JAMA. 2002;287(17):2262-2272.",
+   "doi": "10.1001/jama.287.17.2262",
+   "pmid": "11980527",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2002
+  },
+  {
+   "citation": "Ohle R, Um J, Anjum O, et al. High risk clinical features for acute aortic dissection: a case-control study. Acad Emerg Med. 2018;25(4):378-384.",
+   "doi": "10.1111/acem.13356",
+   "pmid": "29218798",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2018
+  },
+  {
+   "citation": "Ohle R, Kareemi HK, Wells G, Perry JJ. Clinical examination for acute aortic dissection: a systematic review and meta-analysis. Acad Emerg Med. 2018;25(4):397-412.",
+   "doi": "10.1111/acem.13360",
+   "pmid": "29265487",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2018
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use gradual onset alone to exclude dissection in patients with other high-risk features (Marfan/aortic disease, pulse deficit, neurologic deficit, new murmur, hypotension).",
+  "escalation_warning": "Abrupt severe chest/back pain with hypotension, pulse deficit, or neurologic deficit is a dissection or ruptured AAA until proven otherwise: immediate CT angiography and surgical notification.",
+  "interobserver_note": "Onset characterization depends on patient recall; the RCE pooled sensitivities from retrospective case series, and the case-control design (selected low-risk controls) likely inflates the LR- of 0.07."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Klompas 2002 abstract gives pooled sensitivity 84% and LR- 0.3 (0.2-0.5) for sudden-onset pain; the LR+ and specificity are in the article tables, which were not accessible (JAMA, not open access), so they are null. Ohle 2018 case-control gives sensitivity 95.9% and LR- 0.07 but specificity was not in the abstract; case-control spectrum bias is flagged. The Ohle 2018 systematic review abstract does not report onset-related pooled values and is cited for context only. Verifier: check Klompas Table 2 for LR+ of sudden onset and Ohle 2018 case-control Table 2 for specificity.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T01:47:48+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

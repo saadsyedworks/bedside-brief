@@ -1,0 +1,70 @@
+{
+ "identity": {
+  "id": "hx_palpitations_abrupt_onset_offset",
+  "title": "Abrupt onset and abrupt termination of palpitations (vs gradual)",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "syncope",
+   "palpitations",
+   "dizziness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "anxiety_hyperventilation",
+   "atrial_fibrillation_flutter",
+   "sinus_tachycardia_secondary",
+   "svt",
+   "ventricular_tachycardia"
+  ],
+  "indication_tags": [
+   "acute_onset"
+  ]
+ },
+ "technique": {
+  "how": "Ask how the palpitations start and stop: 'like a switch' (instantaneous onset, sudden stop within one beat) versus building up and fading over minutes. Ask whether vagal manoeuvres (breath-holding, straining) terminate them, and what the patient was doing at onset (rest, exertion, anxiety).",
+  "prerequisites": "Patient must have experienced and be able to recall discrete episodes.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Abrupt on/off palpitations, particularly if terminated by vagal manoeuvres, suggest a re-entrant tachycardia (AVNRT/AVRT, atrial flutter) rather than sinus tachycardia; this is a pattern-recognition prior without a measured LR.",
+  "negative_finding": "Gradual onset and offset favour sinus tachycardia from anxiety, exertion, fever, anaemia or thyrotoxicosis, but does not exclude arrhythmia.",
+  "pitfalls": "The 2009 JAMA RCE found no significant accuracy for onset characteristics; patients often cannot time onset precisely and panic attacks may also feel abrupt. Duration <5 minutes slightly lowers arrhythmia likelihood (LR 0.38) in the same review.",
+  "changes_what": "Positive: obtain ECG during symptoms or ambulatory/event monitoring for SVT; negative: does not exclude arrhythmia, still needs symptom-rhythm correlation if recurrent."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Thavendiranathan P, Bagai A, Khoo C, Dorian P, Choudhry NK. Does this patient with palpitations have a cardiac arrhythmia? JAMA. 2009;302(19):2135-2143.",
+   "doi": "10.1001/jama.2009.1673",
+   "pmid": "19920238",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2009
+  },
+  {
+   "citation": "Weber BE, Kapoor WN. Evaluation and outcomes of patients with palpitations. Am J Med. 1996;100(2):138-148.",
+   "doi": "10.1016/s0002-9343(97)89451-x",
+   "pmid": "8629647",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1996
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use onset/offset character to exclude arrhythmia in patients with structural heart disease, syncope with palpitations, or an abnormal resting ECG.",
+  "escalation_warning": "Palpitations with syncope, chest pain, or haemodynamic compromise need immediate ECG and monitoring irrespective of onset pattern.",
+  "interobserver_note": "Subjective; the RCE notes most palpitation history items were studied in single small cohorts with wide confidence intervals."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Anchor RCE (Thavendiranathan 2009, PMID 19920238) is not open access; its abstract lists the only significant history items (known cardiac disease, palpitations affected by sleep or at work, duration <5 min, panic disorder history, neck pounding) and states 'No other features significantly alter the probability of clinically significant arrhythmia', so no defensible LR for abrupt onset/offset exists from the accessible text and the record is not_quantified. Weber & Kapoor 1996 (the RCE's main primary cohort, 190 patients) is cited for the clinical-evaluation context; its abstract gives no onset-pattern accuracy. Searches 'palpitations sensitivity specificity arrhythmia history sudden onset termination' returned no primary accuracy study. Clinical use rests on textbook/guideline pattern recognition.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T01:47:54+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

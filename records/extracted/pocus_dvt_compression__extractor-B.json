@@ -1,0 +1,190 @@
+{
+ "identity": {
+  "id": "pocus_dvt_compression",
+  "title": "POCUS 2-point/3-point compression ultrasound of femoral and popliteal veins",
+  "type": "pocus",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "chest_pain",
+   "syncope",
+   "edema",
+   "fever"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "cellulitis_ssti",
+   "dvt",
+   "pulmonary_embolism"
+  ],
+  "indication_tags": [
+   "malignancy",
+   "recent_immobilization",
+   "unilateral"
+  ]
+ },
+ "technique": {
+  "how": "High-frequency linear probe, patient supine with hip externally rotated. Image the common femoral vein at the saphenofemoral junction (and femoral vein at the adductor canal for 3-point), then the popliteal vein with the knee flexed; at each site apply firm transverse compression every 1-2 cm until the vein walls coapt fully. Non-compressibility or visible echogenic thrombus is positive.",
+  "prerequisites": "Trained operator; ultrasound with linear probe; patient able to expose the groin and popliteal fossa.",
+  "contraindications": "Avoid compressing over open wounds, recent groin catheter sites, or a visibly free-floating thrombus."
+ },
+ "interpretation": {
+  "positive_finding": "A non-compressible proximal vein has pooled specificity ~97-98% for DVT (LR+ roughly 30), sufficient to start anticoagulation in most patients pending formal duplex.",
+  "negative_finding": "Full compressibility at all points has pooled sensitivity ~90-96% (false-negative rate ~4%); with a low/moderate pretest probability plus negative D-dimer this excludes proximal DVT, otherwise repeat imaging in 5-7 days or formal whole-leg duplex.",
+  "pitfalls": "Isolated femoral-vein (adductor canal) and calf DVT are missed by 2-point protocols; lymph nodes, Baker cysts, and superficial thrombophlebitis mimic thrombus; inadequate compression in obese or edematous legs and chronic residual thrombus cause errors.",
+  "changes_what": "Positive: anticoagulate and confirm; negative with low/moderate probability and negative D-dimer: stop; negative with high probability: formal duplex or repeat POCUS in 5-7 days."
+ },
+ "estimates": [
+  {
+   "target_condition": "Lower-limb DVT (emergency physician-performed compression ultrasound, any protocol)",
+   "population": "ED patients with suspected DVT; 16 studies, 2379 patients; operators emergency physicians with variable training",
+   "setting": "ED",
+   "prevalence": 0.231,
+   "reference_standard": "Radiology/vascular-laboratory colour-flow duplex ultrasound or angiography",
+   "sensitivity": {
+    "value": 0.961,
+    "ci_low": 0.906,
+    "ci_high": 0.985
+   },
+   "specificity": {
+    "value": 0.968,
+    "ci_low": 0.946,
+    "ci_high": 0.981
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "both",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "weighted mean sensitivity of EPPU compared to the reference imaging test was 96.1% (95%CI 90.6-98.5%), and with a weighted mean specificity of 96.8% (95%CI:94.6-98.1%)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Lower-limb DVT (2-point POCUS: common femoral + popliteal)",
+   "population": "ED patients with suspected DVT; 9 studies, 1337 patients; emergency physicians (attending or resident)",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "Radiology-performed duplex ultrasound (study-specific)",
+   "sensitivity": {
+    "value": 0.91,
+    "ci_low": 0.68,
+    "ci_high": 0.98
+   },
+   "specificity": {
+    "value": 0.98,
+    "ci_low": 0.96,
+    "ci_high": 0.99
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "both",
+   "evidence_level": "pooled",
+   "source_index": 1,
+   "quote": "2-point POCUS had similar pooled sensitivity [0.91; 95% confidence interval (95% CI), 0.68-0.98; P = .86) and specificity (0.98; 95% CI, 0.96-0.99; P = .60)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Lower-limb DVT (3-point POCUS: common femoral, femoral, popliteal)",
+   "population": "ED patients with suspected DVT; 8 studies, 1035 patients; emergency physicians",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "Radiology-performed duplex ultrasound (study-specific)",
+   "sensitivity": {
+    "value": 0.9,
+    "ci_low": 0.83,
+    "ci_high": 0.95
+   },
+   "specificity": {
+    "value": 0.95,
+    "ci_low": 0.83,
+    "ci_high": 0.99
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "both",
+   "evidence_level": "pooled",
+   "source_index": 1,
+   "quote": "as 3-point POCUS (sensitivity, 0.90; 95% CI, 0.83-0.95 and specificity, 0.95; 95% CI, 0.83-0.99). The false-negative rates of 2-point (4.0%) and 3-point POCUS (4.1%)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Lower-limb DVT (2-point POCUS protocol, updated pooled estimate)",
+   "population": "ED patients with suspected DVT; 26 studies pooled through February 2023; emergency physician operators",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "Reference standard imaging (radiology duplex/whole-leg ultrasound or venography)",
+   "sensitivity": {
+    "value": 0.9232,
+    "ci_low": 0.8758,
+    "ci_high": 0.9706
+   },
+   "specificity": {
+    "value": 0.9686,
+    "ci_low": 0.9509,
+    "ci_high": 0.9864
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "both",
+   "evidence_level": "pooled",
+   "source_index": 2,
+   "quote": "pooled sensitivity, specificity, PPV, and NPV for the 2-point POCUS protocol were 92.32% (95% CI: 87.58-97.06), 96.86% (95% CI: 95.09-98.64)",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Pomero F, Dentali F, Borretta V, et al. Accuracy of emergency physician-performed ultrasonography in the diagnosis of deep-vein thrombosis: a systematic review and meta-analysis. Thromb Haemost. 2013;109(1):137-145.",
+   "doi": "10.1160/TH12-07-0473",
+   "pmid": "23138420",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2013
+  },
+  {
+   "citation": "Lee JH, Lee SH, Yun SJ. Comparison of 2-point and 3-point point-of-care ultrasound techniques for deep vein thrombosis at the emergency department: a meta-analysis. Medicine (Baltimore). 2019;98(22):e15791.",
+   "doi": "10.1097/MD.0000000000015791",
+   "pmid": "31145304",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6709014/",
+   "kind": "meta_analysis",
+   "year": 2019
+  },
+  {
+   "citation": "Zaki HA, Albaroudi B, Shaban EE, et al. Deep venous thrombosis (DVT) diagnostics: gleaning insights from point-of-care ultrasound (PoCUS) techniques in emergencies: a systematic review and meta-analysis. Ultrasound J. 2024;16(1):37.",
+   "doi": "10.1186/s13089-024-00378-1",
+   "pmid": "39080184",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2024
+  },
+  {
+   "citation": "Wells PS, Owen C, Doucette S, Fergusson D, Tran H. Does this patient have deep vein thrombosis? JAMA. 2006;295(2):199-207.",
+   "doi": "10.1001/jama.295.2.199",
+   "pmid": "16403932",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2006
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use a single negative POCUS to exclude DVT in high pretest probability or when symptoms are confined to the calf; do not use to exclude PE (a negative leg scan does not lower PE probability meaningfully).",
+  "escalation_warning": "Phlegmasia, suspected iliac/IVC thrombosis, or hemodynamic instability suggesting PE require formal imaging and urgent management regardless of POCUS result.",
+  "interobserver_note": "Meta-regression shows higher accuracy when the initial scan is by an attending emergency physician with dedicated DVT POCUS training rather than a resident (Lee 2019); false-negative rate ~4% in both protocols.",
+  "skill_assumption": "Emergency physician or hospitalist with focused compression-ultrasound training (published cohorts used brief dedicated courses plus supervised scans); accuracy assumes ability to obtain full venous coaptation at each landmark."
+ },
+ "tier": "extracted",
+ "extraction_notes": "All estimates come from meta-analysis abstracts (Pomero 2013 not open access; Lee 2019 is PMC6709014 but abstract numbers were sufficient). LRs are not reported in abstracts and were not computed to avoid pooling on non-bivariate inputs. Pomero pools mixed 2-/3-point protocols; Lee 2019 separates protocols and is preferred for protocol-specific counselling; Zaki 2024 (26 studies) gives an updated 2-point estimate (3-point: sensitivity 89.15%, specificity 92.71%). Wells 2006 RCE cited as index for pretest-probability stratification.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T01:47:48+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

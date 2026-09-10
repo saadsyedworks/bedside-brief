@@ -1,0 +1,76 @@
+{
+ "identity": {
+  "id": "fn_tap_out_rhythm_regular",
+  "title": "Patient taps out the palpitation rhythm: regular vs irregular; rapid regular vs 'skipped beats'",
+  "type": "functional",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "syncope",
+   "palpitations",
+   "dizziness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "atrial_fibrillation_flutter",
+   "pvcs_benign_ectopy",
+   "sinus_tachycardia_secondary",
+   "svt",
+   "ventricular_tachycardia"
+  ],
+  "indication_tags": []
+ },
+ "technique": {
+  "how": "Ask the patient to tap the rhythm of an episode on the table or their chest with a finger. Note whether it is fast and perfectly regular, fast and chaotic/irregular, or normal-rate with an occasional pause followed by a heavy beat ('skipped beat'). Compare with the rhythm you palpate or see on ECG if symptoms are present.",
+  "prerequisites": "Patient able to recall and reproduce the rhythm; works best soon after an episode.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "A rapid, metronome-regular tap pattern is the classic description of SVT or sinus tachycardia; a chaotic irregular pattern suggests atrial fibrillation; isolated pauses with a forceful beat suggest premature beats.",
+  "negative_finding": "An unremarkable or unreproducible tap pattern does not exclude arrhythmia; the 2009 RCE concluded the clinical examination cannot exclude significant arrhythmia in most patients.",
+  "pitfalls": "Patients' perception of regularity is unreliable, and rapid AF can feel regular; symptom-rhythm correlation on a monitor remains the reference standard.",
+  "changes_what": "Chaotic irregular pattern: obtain ECG/monitoring for AF and assess stroke risk. Regular rapid pattern: pursue SVT/VT work-up. Skipped beats with normal ECG: likely benign ectopy."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Thavendiranathan P, Bagai A, Khoo C, Dorian P, Choudhry NK. Does this patient with palpitations have a cardiac arrhythmia? JAMA. 2009;302(19):2135-2143.",
+   "doi": "10.1001/jama.2009.1673",
+   "pmid": "19920238",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2009
+  },
+  {
+   "citation": "Zwietering P, Knottnerus A, Gorgels T, Rinkens P. Arrhythmias in general practice: diagnostic value of patient characteristics, medical history and symptoms. Fam Pract. 1998;15(4):343-353.",
+   "doi": null,
+   "pmid": "9792350",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1998
+  },
+  {
+   "citation": "Hoefman E, Boer KR, van Weert HC, Reitsma JB, Koster RW, Bindels PJ. Predictive value of history taking and physical examination in diagnosing arrhythmias in general practice. Fam Pract. 2007;24(6):636-641.",
+   "doi": null,
+   "pmid": "17986627",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2007
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use the tapped rhythm to withhold ECG or monitoring in patients with syncope, chest pain, dyspnoea, or known heart disease.",
+  "escalation_warning": "A rapid irregular pattern in a patient with stroke risk factors, or any pattern with syncope, warrants same-day ECG and rhythm documentation.",
+  "interobserver_note": "No reproducibility data; the manoeuvre is a bedside teaching convention rather than a validated test."
+ },
+ "tier": "extracted",
+ "extraction_notes": "No study reporting the accuracy of a patient-tapped rhythm (regular vs irregular vs skipped beats) against ECG-documented arrhythmia was found. The 2009 RCE abstract (PMID 19920238) states that apart from neck pounding, cardiac-disease history, sleep/work context, panic disorder and duration <5 min, 'No other features significantly alter the probability of clinically significant arrhythmia'; its Table (paywalled) may contain a 'regular vs irregular' row that could not be checked. Zwietering 1998 (762 GP patients, transtelephonic ECG) and Hoefman 2007 (127 GP patients, 30-day event recorder) abstracts give only regression associations, not per-symptom accuracy. Searches: 'irregular palpitations atrial fibrillation symptoms diagnostic accuracy history' and 'palpitations history physical examination predictive value arrhythmia general practice'.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T01:47:57+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

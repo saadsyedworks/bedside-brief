@@ -1,0 +1,197 @@
+{
+  "identity": {
+    "id": "fn_single_breath_count",
+    "title": "Single breath count (count aloud on one full inspiration; <20 signals weak respiratory muscles)",
+    "type": "functional",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "weakness"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "gbs",
+      "myasthenia_gravis"
+    ],
+    "indication_tags": [
+      "acute_onset"
+    ]
+  },
+  "technique": {
+    "how": "Patient sits upright, takes a maximal inspiration and counts aloud from 1 at about 2 counts per second (metronome or audio app at 2 Hz) in a normal speaking voice until the breath runs out. Record the highest number reached; take the best of 2-3 attempts. Repeat serially (e.g. every 4-6 h) in neuromuscular patients.",
+    "prerequisites": "Alert patient who can phonate and follow commands; count in the patient's own language.",
+    "contraindications": "Not interpretable with severe bulbar weakness, aphonia, or in intubated patients."
+  },
+  "interpretation": {
+    "positive_finding": "A low count signals reduced vital capacity: in GBS, SBC <=5 predicted need for mechanical ventilation (sens 0.906, spec 0.952); SBC <=25 by telephone flagged MG exacerbation (sens 0.80); SBC <=21 predicted VC <20 mL/kg (sens 0.944, spec 0.766).",
+    "negative_finding": "SBC >19 had 95% sensitivity for ruling out need for mechanical ventilation in GBS; healthy young adults count 31-49. A single normal count does not exclude later decline - trend it.",
+    "pitfalls": "Counting speed, language, posture and vocal effort change the number, and cutoffs (5 to 32) vary across studies; bulbar weakness and dyspnea from another cause lower the count without respiratory-muscle weakness.",
+    "changes_what": "SBC <20 or falling trend: measure FVC/NIF, ABG, and move toward ICU-level monitoring; SBC <=5 in GBS: prepare for intubation. High stable count: continue ward monitoring."
+  },
+  "estimates": [
+    {
+      "target_condition": "Need for intubation/mechanical ventilation in Guillain-Barre syndrome; SBC <=5 (2 Hz paced)",
+      "population": "94 GBS patients with serial SBC and ABG-based modified intubation criteria (tertiary neurology unit, India)",
+      "setting": "inpatient",
+      "prevalence": null,
+      "reference_standard": "ABG-defined intubation criteria (PaO2 <60 with PaCO2 >50, or pH <7.3)",
+      "sensitivity": {
+        "value": 0.906,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.952,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 18.9,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.1,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.906/(1-0.952) = 18.9; LR- = (1-0.906)/0.952 = 0.10; from reported sensitivity 90.6% and specificity 95.2%",
+      "interpretation_label": "both",
+      "evidence_level": "single_study",
+      "source_index": 1,
+      "quote": "At SBC 5, need for MV could be predicted with a sensitivity of 90.6% and specificity of 95.2%.",
+      "location": "Abstract, Results (also systematic review Table 3)"
+    },
+    {
+      "target_condition": "Need for mechanical ventilation in Guillain-Barre syndrome; SBC >19 as rule-out",
+      "population": "68 GBS patients (Kanikannan 2014, as summarized in the systematic review)",
+      "setting": "inpatient",
+      "prevalence": null,
+      "reference_standard": "Clinical need for mechanical ventilation during admission",
+      "sensitivity": {
+        "value": 0.95,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_out",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "SBCT>19 had sensitivity of 95% in ruling out the need for mechanical ventilation",
+      "location": "Table 3"
+    },
+    {
+      "target_condition": "Myasthenia gravis exacerbation; nurse-administered telephonic SBC <=25",
+      "population": "45 telephone calls from MG patients reporting worsening symptoms (single-center retrospective pilot)",
+      "setting": "outpatient",
+      "prevalence": null,
+      "reference_standard": "Clinical diagnosis of MG exacerbation after evaluation",
+      "sensitivity": {
+        "value": 0.8,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.6,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 2.0,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.33,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.80/(1-0.60) = 2.0; LR- = (1-0.80)/0.60 = 0.33; from reported sensitivity 80% and specificity 60%",
+      "interpretation_label": "modest",
+      "evidence_level": "single_study",
+      "source_index": 2,
+      "quote": "the nurse-administered telephonic SBCT had a positive predictive value of 71%, sensitivity of 80%, and specificity of 60%",
+      "location": "Abstract, Results (also systematic review Table 3)"
+    },
+    {
+      "target_condition": "Vital capacity <20 mL/kg; SBC <=21",
+      "population": "Patients with a variety of diseases (Escossio 2019, as summarized in the systematic review)",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Spirometric vital capacity <20 mL/kg",
+      "sensitivity": {
+        "value": 0.944,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.766,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "both",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "SBCT of 21 or less had a sensitivity and specificity of 94.4% and 76.62% for VC <20 ml/kg",
+      "location": "Table 3"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Bhandari SK, Bist A, Ghimire A. Single breath count test and its applications in clinical practice: a systematic review. Ann Med Surg (Lond). 2024;86(4):2096-2101.",
+      "doi": "10.1097/MS9.0000000000001853",
+      "pmid": "38576972",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10990392/",
+      "kind": "meta_analysis",
+      "year": 2024
+    },
+    {
+      "citation": "Kalita J, Kumar M, Misra UK. Serial single breath count is a reliable tool for monitoring respiratory functions in Guillain-Barre Syndrome. J Clin Neurosci. 2020;72:50-56.",
+      "doi": "10.1016/j.jocn.2020.01.032",
+      "pmid": "31982274",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2020
+    },
+    {
+      "citation": "Kukulka K, Gummi RR, Govindarajan R. A telephonic single breath count test for screening of exacerbations of myasthenia gravis: a pilot study. Muscle Nerve. 2020;62(2):258-261.",
+      "doi": "10.1002/mus.26987",
+      "pmid": "32447763",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2020
+    },
+    {
+      "citation": "Elsheikh B, Arnold WD, Gharibshahi S, Reynolds J, Freimer M, Kissel JT. Correlation of single-breath count test and neck flexor muscle strength with spirometry in myasthenia gravis. Muscle Nerve. 2016;53(1):134-136.",
+      "doi": "10.1002/mus.24929",
+      "pmid": "26437790",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2016
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not substitute for spirometry (FVC/NIF) when it is available, and do not interpret in patients with severe bulbar weakness, aphonia or non-neuromuscular dyspnea.",
+    "escalation_warning": "SBC <20, a fall of >20% over 24 h, or SBC <=5 in GBS/MG indicates impending respiratory failure: obtain FVC/NIF and ABG and involve ICU before hypoxemia appears (SpO2 lags).",
+    "interobserver_note": "Reproducibility depends on paced counting (2 Hz) and standardized voice/posture; the systematic review notes cutoffs varied 5-32 across studies because methods differed, and no healthy reference range is established beyond 31-49 in young adults."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Systematic review PMC10990392 full text was read (Results text and Table 3); it is a narrative systematic review without pooling, so each entry is a single-study estimate. Kalita 2020 and Kukulka 2020 numbers were confirmed against their own PubMed abstracts; Kanikannan 2014 (J Crit Care, PMID 24378177 found by search but not fetched) and Escossio 2019 estimates are taken from the review's Table 3 and cite the review. Elsheikh 2016 (correlation with FVC/NIF, no cutoff) is cited for the MG technique validity without an estimate. The '<20' threshold in the title is a common clinical convention supported by the Kanikannan >19 rule-out cutoff, not by a pooled estimate.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T01:48:01+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

@@ -1,0 +1,128 @@
+{
+  "identity": {
+    "id": "exam_calf_asymmetry_gt3cm",
+    "title": "Unilateral leg swelling: calf circumference difference >3 cm (10 cm below tibial tuberosity), with calf tenderness",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "chest_pain",
+      "edema",
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "cellulitis_ssti",
+      "dvt",
+      "lymphedema",
+      "pulmonary_embolism",
+      "venous_insufficiency"
+    ],
+    "indication_tags": [
+      "malignancy",
+      "recent_immobilization",
+      "unilateral"
+    ]
+  },
+  "technique": {
+    "how": "With the patient supine and legs relaxed, mark a point 10 cm below the tibial tuberosity on both legs and measure calf circumference with a tape at that level. A difference >3 cm is positive (Wells item); also note whether the swollen calf is tender along the deep venous system and whether swelling is unilateral.",
+    "prerequisites": "Tape measure; both legs exposed and compared at the same landmark.",
+    "contraindications": "None; avoid forceful manipulation of a suspected thrombosed limb."
+  },
+  "interpretation": {
+    "positive_finding": "Asymmetric calf diameter modestly raises the probability of DVT (pooled LR+ 1.80) and contributes one point to the Wells score; it is not diagnostic on its own.",
+    "negative_finding": "Absence of calf asymmetry (LR 0.57) or of calf swelling (LR 0.67) lowers probability slightly; neither excludes DVT, especially proximal or bilateral disease.",
+    "pitfalls": "Cellulitis, ruptured Baker cyst, muscle injury and chronic venous insufficiency also produce asymmetry; prior DVT or lymphedema causes baseline asymmetry. Measurements vary with landmark placement and tape tension.",
+    "changes_what": "Positive: add a Wells point and proceed to compression ultrasound if score moderate/high; negative: lowers score and, with a negative D-dimer, supports exclusion without imaging."
+  },
+  "estimates": [
+    {
+      "target_condition": "Deep vein thrombosis (imaging-confirmed)",
+      "population": "Adults with clinically suspected DVT in cohort studies",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Compression ultrasound or contrast venography",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 1.8,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.57,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": false,
+      "interpretation_label": "minimal",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "difference in calf diameter (LR, 1.80) ... difference in calf diameter (LR, 0.57) was useful for ruling out DVT",
+      "location": "Abstract, Data Synthesis (finding: difference in calf diameter; positive and absent)"
+    },
+    {
+      "target_condition": "Deep vein thrombosis (imaging-confirmed); finding = calf swelling (any)",
+      "population": "Adults with clinically suspected DVT in cohort studies",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Compression ultrasound or contrast venography",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": {
+        "value": 0.67,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": false,
+      "interpretation_label": "minimal",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "only absence of calf swelling (LR, 0.67) or difference in calf diameter (LR, 0.57) was useful for ruling out DVT",
+      "location": "Abstract, Data Synthesis (finding: absence of calf swelling)"
+    }
+  ],
+  "evidence_status": "partially_quantified",
+  "sources": [
+    {
+      "citation": "Goodacre S, Sutton AJ, Sampson FC. Meta-analysis: The value of clinical assessment in the diagnosis of deep venous thrombosis. Ann Intern Med. 2005;143(2):129-139.",
+      "doi": "10.7326/0003-4819-143-2-200507190-00012",
+      "pmid": "16027455",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2005
+    },
+    {
+      "citation": "Wells PS, Owen C, Doucette S, Fergusson D, Tran H. Does this patient have deep vein thrombosis? JAMA. 2006;295(2):199-207.",
+      "doi": "10.1001/jama.295.2.199",
+      "pmid": "16403932",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2006
+    },
+    {
+      "citation": "Anand SS, Wells PS, Hunt D, Brill-Edwards P, Cook D, Ginsberg JS. Does this patient have deep vein thrombosis? JAMA. 1998;279(14):1094-1099.",
+      "doi": "10.1001/jama.279.14.1094",
+      "pmid": "9546569",
+      "url": null,
+      "kind": "rce_series",
+      "year": 1998
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not rely on calf measurement to exclude DVT in patients with bilateral swelling, prior DVT, lymphedema, or chronic venous disease where baseline asymmetry is expected.",
+    "escalation_warning": "A tense, painful, cyanotic swollen leg (phlegmasia) or any DVT signs with dyspnea/hypoxia require urgent imaging and anticoagulation decisions the same day.",
+    "interobserver_note": "Anand 1998 RCE: individual DVT signs have poor reliability and accuracy (clinical exam sensitivity 60-96%, specificity 20-72%); the value lies in the structured Wells score."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Numbers are pooled LRs from the Goodacre 2005 abstract; CIs and sens/spec are not in the abstract and the full text is not open access, so they are null. The Goodacre finding is 'difference in calf diameter' without the exact >3 cm threshold stated in the abstract; the >3 cm cut-off is the Wells operational definition. JAMA RCE 1998/2006 abstracts do not give per-sign LRs and are cited for context and reliability statements only.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T01:47:44+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

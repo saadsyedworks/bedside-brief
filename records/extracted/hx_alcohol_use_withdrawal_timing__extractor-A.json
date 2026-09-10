@@ -1,0 +1,168 @@
+{
+  "identity": {
+    "id": "hx_alcohol_use_withdrawal_timing",
+    "title": "Alcohol use (CAGE) and time since last drink; tremor, diaphoresis, agitation (CIWA items)",
+    "type": "history",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "palpitations",
+      "dizziness",
+      "ams",
+      "weakness"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "hepatic_encephalopathy",
+      "hypoglycemia",
+      "intoxication_withdrawal",
+      "seizure_mimic",
+      "wernicke"
+    ],
+    "indication_tags": [
+      "alcohol_use"
+    ]
+  },
+  "technique": {
+    "how": "Ask the four CAGE questions (Cut down, Annoyed, Guilty, Eye-opener), quantity/frequency, and the exact time of the last drink. Score CIWA-Ar items at the bedside: nausea, tremor (arms extended), sweats, anxiety, agitation, tactile/auditory/visual disturbances, headache, orientation (0-67).",
+    "prerequisites": "Patient able to answer or a collateral historian; CIWA-Ar requires a communicative patient.",
+    "contraindications": "CIWA-Ar is unreliable in patients who cannot communicate (intubated, delirious from another cause, severe dementia)."
+  },
+  "interpretation": {
+    "positive_finding": "CAGE >=2 raises the probability of DSM alcohol abuse/dependence (pooled LR+ 3.44; sensitivity 0.87 in inpatients). Last drink 6-24 h ago with tremor/sweats/agitation fits early withdrawal; 48-96 h fits delirium tremens.",
+    "negative_finding": "CAGE <2 lowers but does not exclude an alcohol use disorder (pooled LR- 0.18; sensitivity only 0.60 in ambulatory patients). A drink within the last few hours makes withdrawal an unlikely cause of current symptoms.",
+    "pitfalls": "CAGE detects abuse/dependence, not hazardous drinking, and performs poorly in women, prenatal and primary-care populations. CIWA-Ar is a severity scale, not a diagnostic test, and is inflated by pain, sepsis, hypoglycemia and anxiety.",
+    "changes_what": "Positive: give thiamine before glucose, start symptom-triggered benzodiazepines, check glucose/ammonia. Negative: pursue other AMS causes; still consider Wernicke if malnourished."
+  },
+  "estimates": [
+    {
+      "target_condition": "DSM-defined alcohol abuse or dependence; CAGE score >=2 (inpatients)",
+      "population": "Hospital inpatients from studies pooled in a diagnostic meta-analysis (10 studies overall)",
+      "setting": "inpatient",
+      "prevalence": null,
+      "reference_standard": "DSM criteria for alcohol abuse/dependence (structured interview)",
+      "sensitivity": {
+        "value": 0.87,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "the pooled sensitivity is far better in inpatients (0.87) than in primary care patients (0.71) or ambulatory patients (0.60)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "DSM-defined alcohol abuse or dependence; CAGE score >=2 (primary care)",
+      "population": "Primary care patients from pooled studies",
+      "setting": "outpatient",
+      "prevalence": null,
+      "reference_standard": "DSM criteria for alcohol abuse/dependence",
+      "sensitivity": {
+        "value": 0.71,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "the pooled sensitivity is far better in inpatients (0.87) than in primary care patients (0.71) or ambulatory patients (0.60)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "DSM-defined alcohol abuse or dependence; CAGE score >=2 (ambulatory/hospital outpatients)",
+      "population": "Ambulatory (non-primary-care) patients from pooled studies",
+      "setting": "outpatient",
+      "prevalence": null,
+      "reference_standard": "DSM criteria for alcohol abuse/dependence",
+      "sensitivity": {
+        "value": 0.6,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "the pooled sensitivity is far better in inpatients (0.87) than in primary care patients (0.71) or ambulatory patients (0.60)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "DSM-defined alcohol abuse or dependence; CAGE score >=2 (all populations)",
+      "population": "General clinical populations, 10 pooled studies (inpatient, primary care, ambulatory)",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "DSM criteria for alcohol abuse/dependence",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 3.44,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.18,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "The likelihood ratios seem to be relatively constant over the populations (overall LR+:3.44;LR-:0.18)",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "partially_quantified",
+  "sources": [
+    {
+      "citation": "Kitchens JM. Does this patient have an alcohol problem? JAMA. 1994;272(22):1782-1787.",
+      "doi": null,
+      "pmid": "7966928",
+      "url": null,
+      "kind": "rce_series",
+      "year": 1994
+    },
+    {
+      "citation": "Aertgeerts B, Buntinx F, Kester A. The value of the CAGE in screening for alcohol abuse and alcohol dependence in general clinical populations: a diagnostic meta-analysis. J Clin Epidemiol. 2004;57(1):30-39.",
+      "doi": "10.1016/S0895-4356(03)00254-3",
+      "pmid": "15019008",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2004
+    },
+    {
+      "citation": "Sullivan JT, Sykora K, Schneiderman J, Naranjo CA, Sellers EM. Assessment of alcohol withdrawal: the revised Clinical Institute Withdrawal Assessment for Alcohol scale (CIWA-Ar). Br J Addict. 1989;84(11):1353-1357.",
+      "doi": "10.1111/j.1360-0443.1989.tb00737.x",
+      "pmid": "2597811",
+      "url": null,
+      "kind": "consensus",
+      "year": 1989
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use CIWA-Ar to drive sedation in patients who cannot communicate or whose agitation may be from another cause (sepsis, hypoxia, head injury, hypoglycemia).",
+    "escalation_warning": "Seizure, fever, marked autonomic instability or hallucinations with confusion 48-96 h after the last drink suggest delirium tremens or Wernicke; give IV thiamine and escalate care.",
+    "interobserver_note": "CIWA-Ar was designed for reliability and validity in monitored withdrawal (Sullivan 1989); CAGE test-retest reliability 0.80-0.95 (Dhalla 2007, PMID 17716538)."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Kitchens 1994 RCE has no abstract on PubMed and no PMC text, so its tables could not be viewed; it is cited as the anchor without numbers. CAGE numbers are from the Aertgeerts 2004 meta-analysis abstract (cutoff >=2): pooled sensitivity by setting and overall LR+/LR-; pooled specificities are stated to differ by group but are not given in the abstract, so specificity is null. No diagnostic-accuracy data were found for 'time since last drink' or for CIWA-Ar items as discriminators of withdrawal versus other AMS causes; CIWA-Ar (PMID 2597811) is a severity/monitoring scale, cited as consensus. Status partially_quantified.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T01:48:01+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

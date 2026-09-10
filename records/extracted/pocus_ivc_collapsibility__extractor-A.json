@@ -1,0 +1,125 @@
+{
+  "identity": {
+    "id": "pocus_ivc_collapsibility",
+    "title": "POCUS IVC: diameter and respiratory collapsibility (subxiphoid long axis, 2-3 cm from RA junction)",
+    "type": "pocus",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "syncope",
+      "edema",
+      "hypotension",
+      "aki"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "acute_decompensated_hf",
+      "cardiogenic_shock",
+      "cardiorenal",
+      "hypovolemic_hemorrhagic_shock",
+      "pericardial_effusion_tamponade",
+      "prerenal_hypovolemia",
+      "rv_failure_pulmonary_hypertension",
+      "septic_shock"
+    ],
+    "indication_tags": []
+  },
+  "technique": {
+    "how": "Supine patient; phased-array or curvilinear probe subxiphoid, sagittal, following the IVC into the right atrium. Measure maximal and minimal diameter 2-3 cm caudal to the RA junction (just distal to the hepatic vein) over a respiratory cycle, in B-mode or M-mode. Collapsibility index = (max-min)/max in spontaneous breathing; distensibility index in mechanically ventilated patients.",
+    "prerequisites": "Confirm the vessel is the IVC (enters RA, hepatic vein inflow) not the aorta; standardized breathing.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Small IVC (<2.1 cm) collapsing >50% suggests low right atrial pressure and, in shock, possible fluid responsiveness (pooled sensitivity 0.63-0.71, specificity 0.73-0.75).",
+    "negative_finding": "A dilated, non-collapsing IVC (>2.1 cm, <50% collapse) indicates elevated RA pressure (RV failure, tamponade, volume overload, tension pneumothorax) and argues against further fluid; it does not exclude fluid responsiveness.",
+    "pitfalls": "Measurement is unreliable with irregular breathing, abdominal pressure, mechanical ventilation at low tidal volumes, athletes, and when the sample is taken at the wrong level or off-axis (cylinder effect). It predicts fluid responsiveness only modestly and worst in spontaneously breathing patients.",
+    "changes_what": "Plethoric IVC: stop empiric fluids and look at RV, pericardium and lungs. Collapsing IVC in shock: give fluid bolus and reassess. Intermediate: use dynamic tests instead."
+  },
+  "estimates": [
+    {
+      "target_condition": "Fluid responsiveness (positive IVC respiratory variation, study-specific thresholds)",
+      "population": "533 patients with acute circulatory failure, all ages, spontaneously and mechanically ventilated; 17 prospective studies; 253 (47%) responders",
+      "setting": "mixed",
+      "prevalence": 0.47,
+      "reference_standard": "Increase in stroke volume/cardiac output after fluid challenge (recognized reference standard per study)",
+      "sensitivity": {
+        "value": 0.63,
+        "ci_low": 0.56,
+        "ci_high": 0.69
+      },
+      "specificity": {
+        "value": 0.73,
+        "ci_low": 0.67,
+        "ci_high": 0.78
+      },
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "predictor of fluid responsiveness were 0.63 (95% confidence interval [CI]: 0.56-0.69) and 0.73 (95% CI: 0.67-0.78), respectively",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Fluid responsiveness (caval index: IVC collapsibility or distensibility)",
+      "population": "Critically ill adults and children, ventilated or not; 20 studies in meta-analysis (26 caval-index studies included)",
+      "setting": "ICU",
+      "prevalence": null,
+      "reference_standard": "Increase in cardiac output after fluid challenge or passive leg raise (study-specific)",
+      "sensitivity": {
+        "value": 0.71,
+        "ci_low": 0.62,
+        "ci_high": 0.8
+      },
+      "specificity": {
+        "value": 0.75,
+        "ci_low": 0.64,
+        "ci_high": 0.85
+      },
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "2.02 (95% CI: 1.29-2.89), 0.71 (95% CI: 0.62-0.80), and 0.75 (95% CI: 0.64-0.85), respectively",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Long E, Oakley E, Duke T, Babl FE. Does Respiratory Variation in Inferior Vena Cava Diameter Predict Fluid Responsiveness: A Systematic Review and Meta-Analysis. Shock. 2017;47(5):550-559.",
+      "doi": "10.1097/SHK.0000000000000801",
+      "pmid": "28410544",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2017
+    },
+    {
+      "citation": "Orso D, Paoli I, Piani T, Cilenti FL, Cristiani L, Guglielmo N. Accuracy of Ultrasonographic Measurements of Inferior Vena Cava to Determine Fluid Responsiveness: A Systematic Review and Meta-Analysis. J Intensive Care Med. 2020;35(4):354-363.",
+      "doi": "10.1177/0885066617752308",
+      "pmid": "29343170",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2020
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use IVC collapsibility as the sole guide to fluids in spontaneously breathing patients, in raised intra-abdominal pressure, or on ventilator settings outside those studied; a negative test cannot rule out fluid responsiveness.",
+    "escalation_warning": "Plethoric IVC with hypotension: evaluate immediately for tamponade, RV failure/massive PE or tension pneumothorax rather than giving fluid.",
+    "interobserver_note": "Both meta-analyses note extreme heterogeneity in thresholds (12-50% variation), measurement site and ventilation mode; Long 2017 subgroup shows better performance in mechanically ventilated patients.",
+    "skill_assumption": "Operator can obtain a true long-axis subxiphoid IVC view, distinguish IVC from aorta, and measure at a fixed distance from the RA junction with M-mode; understands ventilation-mode dependence."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Both pooled estimates are quoted from abstracts (Shock and J Intensive Care Med are not PMC OA). Orso quote lists AUC 0.71, log DOR 2.02, then sensitivity 0.71 and specificity 0.75 in order; values assigned per abstract sentence order. The estimates address fluid responsiveness, not RA-pressure estimation; the ASE 2010/2015 IVC-based RAP cut-offs (2.1 cm, 50%) used in interpretation are guideline consensus and were not fetched/cited numerically within budget.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T01:47:36+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

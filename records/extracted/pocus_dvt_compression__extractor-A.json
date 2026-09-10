@@ -1,0 +1,220 @@
+{
+  "identity": {
+    "id": "pocus_dvt_compression",
+    "title": "POCUS 2-point/3-point compression ultrasound of femoral and popliteal veins",
+    "type": "pocus",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "chest_pain",
+      "syncope",
+      "edema",
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "cellulitis_ssti",
+      "dvt",
+      "pulmonary_embolism"
+    ],
+    "indication_tags": [
+      "malignancy",
+      "recent_immobilization",
+      "unilateral"
+    ]
+  },
+  "technique": {
+    "how": "Linear probe, patient supine with hip externally rotated. Compress the common femoral vein at the saphenofemoral junction (and, for 3-point, the femoral vein in the proximal thigh) and the popliteal vein in transverse view every 1-2 cm; full wall apposition = no thrombus. Non-compressibility or visible echogenic clot = DVT.",
+    "prerequisites": "Trained operator (formal POCUS DVT training); adequate exposure; ability to compare with contralateral limb if uncertain.",
+    "contraindications": "None absolute; avoid forceful compression over an obvious large clot; limited by casts, wounds, or severe obesity."
+  },
+  "interpretation": {
+    "positive_finding": "Non-compressible common femoral, femoral or popliteal vein is highly specific for proximal DVT (pooled specificity 95-97%; LR+ ~19-30) and justifies anticoagulation pending confirmatory study.",
+    "negative_finding": "A fully compressible 2- or 3-point exam by a trained emergency physician lowers DVT probability substantially (pooled sensitivity 90-96%, LR- ~0.04-0.10) but does not detect isolated calf DVT and misses some isolated femoral-vein clots on 2-point exams.",
+    "pitfalls": "Trainee operators are much less sensitive (77%). Lymph nodes, Baker cysts and superficial veins mimic clot; chronic residual thrombus is non-compressible; 2-point exams miss ~5-8% of isolated femoral vein DVT.",
+    "changes_what": "Positive: start anticoagulation and treat as DVT/possible PE source; negative in moderate/high-risk patients: obtain formal duplex or repeat scan in 5-7 days rather than stopping."
+  },
+  "estimates": [
+    {
+      "target_condition": "Lower-extremity DVT (proximal)",
+      "population": "Adults with suspected DVT, 16 studies, 2,379 patients; emergency physician-performed compression US",
+      "setting": "ED",
+      "prevalence": 0.231,
+      "reference_standard": "Colour-flow duplex by radiology/vascular lab or venography",
+      "sensitivity": {
+        "value": 0.961,
+        "ci_low": 0.906,
+        "ci_high": 0.985
+      },
+      "specificity": {
+        "value": 0.968,
+        "ci_low": 0.946,
+        "ci_high": 0.981
+      },
+      "lr_positive": {
+        "value": 30.0,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.04,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.961/(1-0.968); LR- = (1-0.961)/0.968 from pooled sens/spec in abstract",
+      "interpretation_label": "both",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "weighted mean sensitivity of EPPU compared to the reference imaging test was 96.1% (95%CI 90.6-98.5%), and with a weighted mean specificity of 96.8% (95%CI:94.6-98.1%)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Lower-extremity DVT",
+      "population": "Adults with suspected DVT, 15 studies 2012-2021, 2,511 examinations; EP-performed 2- or 3-point CUS, all operator levels",
+      "setting": "ED",
+      "prevalence": null,
+      "reference_standard": "Radiology-department duplex ultrasound (or venography)",
+      "sensitivity": {
+        "value": 0.9,
+        "ci_low": 0.82,
+        "ci_high": 0.95
+      },
+      "specificity": {
+        "value": 0.95,
+        "ci_low": 0.91,
+        "ci_high": 0.97
+      },
+      "lr_positive": {
+        "value": 19.1,
+        "ci_low": 10.2,
+        "ci_high": 35.8
+      },
+      "lr_negative": {
+        "value": 0.1,
+        "ci_low": 0.06,
+        "ci_high": 0.19
+      },
+      "computed": false,
+      "interpretation_label": "both",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "pooled positive and negative likelihood ratio for the same comparisons were, respectively, 19.1 (95%, CI 10.2-35.8) and 0.10 (95%, CI 0.06-0.19)",
+      "location": "Results, Primary Outcomes paragraph and Figure 2 (PMC full text); sens/spec also in Abstract"
+    },
+    {
+      "target_condition": "Lower-extremity DVT",
+      "population": "Subgroup: exams performed by EP specialists (attendings) vs trainees",
+      "setting": "ED",
+      "prevalence": null,
+      "reference_standard": "Radiology-department duplex ultrasound",
+      "sensitivity": {
+        "value": 0.93,
+        "ci_low": 0.88,
+        "ci_high": 0.97
+      },
+      "specificity": {
+        "value": 0.97,
+        "ci_low": 0.94,
+        "ci_high": 0.99
+      },
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "both",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "exams performed by EP specialists (93%, CI 88%-97%) vs trainees (77%, CI 60%-94%). Specificity for EP specialists (97%, CI 94%-99%)",
+      "location": "Abstract, Results (specialist subgroup); Figure 3"
+    },
+    {
+      "target_condition": "Lower-extremity DVT",
+      "population": "Subgroup: exams performed by EM trainees/residents",
+      "setting": "ED",
+      "prevalence": null,
+      "reference_standard": "Radiology-department duplex ultrasound",
+      "sensitivity": {
+        "value": 0.77,
+        "ci_low": 0.6,
+        "ci_high": 0.94
+      },
+      "specificity": {
+        "value": 0.87,
+        "ci_low": 0.76,
+        "ci_high": 0.99
+      },
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "vs trainees (77%, CI 60%-94%). Specificity for EP specialists (97%, CI 94%-99%) was higher than for trainees (87%, CI 76%-99%",
+      "location": "Abstract, Results (trainee subgroup); Figure 3"
+    },
+    {
+      "target_condition": "Lower-extremity DVT; 3-point vs 2-point protocol, EP specialists only",
+      "population": "Subgroup of specialist-performed studies; sensitivity 2-point 0.88 vs 3-point 0.95 (P=0.02)",
+      "setting": "ED",
+      "prevalence": null,
+      "reference_standard": "Radiology-department duplex ultrasound",
+      "sensitivity": {
+        "value": 0.95,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_out",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "Two-point CUS studies performed by specialist EPs had a pooled sensitivity of 88% compared to the 95% found for three-point CUS",
+      "location": "Results, Subgroup Analyses and Meta-Regression (PMC full text); value given is 3-point"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Pomero F, Dentali F, Borretta V, et al. Accuracy of emergency physician-performed ultrasonography in the diagnosis of deep-vein thrombosis: a systematic review and meta-analysis. Thromb Haemost. 2013;109(1):137-145.",
+      "doi": "10.1160/TH12-07-0473",
+      "pmid": "23138420",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2013
+    },
+    {
+      "citation": "Hercz D, Mechanic OJ, Varella M, Fajardo F, Levine RL. Ultrasound Performed by Emergency Physicians for Deep Vein Thrombosis: A Systematic Review. West J Emerg Med. 2024;25(2):282-290.",
+      "doi": "10.5811/westjem.18125",
+      "pmid": "38596931",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11000565/",
+      "kind": "meta_analysis",
+      "year": 2024
+    },
+    {
+      "citation": "Wells PS, Owen C, Doucette S, Fergusson D, Tran H. Does this patient have deep vein thrombosis? JAMA. 2006;295(2):199-207.",
+      "doi": "10.1001/jama.295.2.199",
+      "pmid": "16403932",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2006
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use a negative POCUS to stop workup in high pretest-probability patients, suspected calf or iliac DVT, or when the operator is a trainee without supervision.",
+    "escalation_warning": "Positive POCUS in a patient with dyspnea, hypoxia or hypotension should prompt immediate PE pathway and anticoagulation, not a wait for formal duplex.",
+    "interobserver_note": "Hercz 2024: sensitivity 77% (trainees) vs 93% (specialists); heterogeneity fell markedly when restricted to specialist-performed studies. Pomero 2013 pooled 16 heterogeneous studies with prevalence 7-47%.",
+    "skill_assumption": "Emergency physician with formal POCUS training (didactics plus supervised scans) performing a 2- or 3-point compression protocol; estimates for specialists do not transfer to untrained users."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Pomero 2013 figures are from the abstract (pooled bivariate); LRs computed from pooled sens/spec, so their CIs are omitted. Hercz 2024 (PMC OA) provides pooled LRs with CIs directly in Results text; subgroup sens/spec by operator experience and 2- vs 3-point from Abstract/Results. Reference standards were mostly radiology duplex, not venography, so 'misses' relative to radiology duplex, not true DVT, are what these numbers capture.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T01:47:44+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

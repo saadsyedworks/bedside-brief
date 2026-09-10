@@ -1,0 +1,150 @@
+{
+  "identity": {
+    "id": "exam_percussion_dullness",
+    "title": "Dullness to percussion with decreased tactile fremitus (focal; conventional vs auscultatory percussion)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "chest_pain",
+      "edema",
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "acute_decompensated_hf",
+      "pleural_effusion",
+      "pneumonia"
+    ],
+    "indication_tags": [
+      "febrile",
+      "unilateral"
+    ]
+  },
+  "technique": {
+    "how": "Patient sitting; percuss the posterior and lateral chest from apex to base, comparing sides at each level, and mark where resonance changes to dull. Then ask the patient to say 'ninety-nine' while palpating the same sites with the ulnar hand edge to grade tactile fremitus. Auscultatory percussion: tap the manubrium while listening over the posterior chest.",
+    "prerequisites": "Bare skin, patient able to sit or lie lateral, quiet room.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Stony dullness with reduced fremitus over a base strongly favors pleural effusion (pooled LR+ 8.7); dullness with increased fremitus and bronchial breathing favors consolidation (LR+ 2.6 for CAP).",
+    "negative_finding": "Normal (non-reduced) tactile fremitus lowers the probability of effusion (LR- 0.21) and may make radiography unnecessary when pretest probability is low.",
+    "pitfalls": "Small effusions (<300-500 mL) are missed; obesity, raised hemidiaphragm, and dense consolidation all produce dullness. Conventional percussion outperforms auscultatory percussion in pooled data.",
+    "changes_what": "Dullness + reduced fremitus: order CXR/POCUS for effusion. Dullness + increased fremitus/egophony: treat as consolidation. Normal fremitus at low pretest probability: may skip imaging."
+  },
+  "estimates": [
+    {
+      "target_condition": "Pleural effusion (dullness to conventional percussion)",
+      "population": "Adults with respiratory symptoms; 5 prospective studies, N=934",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Chest radiograph (radiographic confirmation)",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 8.7,
+        "ci_low": 2.2,
+        "ci_high": 33.8
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "dullness to conventional percussion was most accurate for diagnosing pleural effusion (summary positive likelihood ratio, 8.7; 95% confidence interval, 2.2-33.8)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Pleural effusion (absence of reduced tactile vocal fremitus)",
+      "population": "Adults with respiratory symptoms; 5 prospective studies, N=934",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Chest radiograph (radiographic confirmation)",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": {
+        "value": 0.21,
+        "ci_low": 0.12,
+        "ci_high": 0.37
+      },
+      "computed": false,
+      "interpretation_label": "rule_out",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "the absence of reduced tactile vocal fremitus made pleural effusion less likely (negative likelihood ratio, 0.21; 95% confidence interval, 0.12-0.37)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Community-acquired pneumonia (dullness to percussion)",
+      "population": "Adults with suspected pneumonia or acute cough; 17 prospective cohorts (9 primary care, 7 ED)",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Chest imaging",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 2.62,
+        "ci_low": 1.14,
+        "ci_high": 5.3
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "dullness to percussion (LR+ = 2.62, 95% CI = 1.14 to 5.30)",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "partially_quantified",
+  "sources": [
+    {
+      "citation": "Wong CL, Holroyd-Leduc J, Straus SE. Does this patient have a pleural effusion? JAMA. 2009;301(3):309-317.",
+      "doi": "10.1001/jama.2008.937",
+      "pmid": "19155458",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2009
+    },
+    {
+      "citation": "Ebell MH, Chupp H, Cai X, Bentivegna M, Kearney M. Accuracy of Signs and Symptoms for the Diagnosis of Community-acquired Pneumonia: A Meta-analysis. Acad Emerg Med. 2020;27(7):541-553.",
+      "doi": "10.1111/acem.13965",
+      "pmid": "32329557",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2020
+    },
+    {
+      "citation": "Kalantri S, Joshi R, Lokhande T, et al. Accuracy and reliability of physical signs in the diagnosis of pleural effusion. Respir Med. 2007;101(3):431-438.",
+      "doi": "10.1016/j.rmed.2006.07.014",
+      "pmid": "16965906",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2007
+    },
+    {
+      "citation": "Metlay JP, Kapoor WN, Fine MJ. Does this patient have community-acquired pneumonia? Diagnosing pneumonia by history and physical examination. JAMA. 1997;278(17):1440-1445.",
+      "doi": null,
+      "pmid": "9356004",
+      "url": null,
+      "kind": "rce_series",
+      "year": 1997
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Not a substitute for imaging when effusion or empyema would change management (e.g., febrile patient with suspected parapneumonic effusion).",
+    "escalation_warning": "Dullness with fever and hypoxia or with unilateral absent breath sounds and hemodynamic compromise warrants urgent imaging and drainage assessment.",
+    "interobserver_note": "Kalantri 2007 reported kappa 0.84-0.89 for percussion note and vocal fremitus and 0.68-0.78 for auscultatory percussion between two blinded physicians."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Pooled LRs quoted from Wong 2009 RCE and Ebell 2020 meta-analysis abstracts (full texts not PMC OA, so sensitivity/specificity cells and the auscultatory-percussion row are not visible and left null). Prevalence for Ebell: 10% primary care, 20% ED (reported separately in abstract; not averaged, so left null). Kalantri 2007 cited for reliability only.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T01:47:36+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

@@ -1,0 +1,120 @@
+{
+  "identity": {
+    "id": "exam_breath_sounds_unilateral_absent",
+    "title": "Unilaterally absent or markedly reduced breath sounds (+/- tracheal deviation as late tension sign)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "chest_pain",
+      "hypotension"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "pleural_effusion",
+      "pneumonia",
+      "pneumothorax",
+      "upper_airway_obstruction"
+    ],
+    "indication_tags": [
+      "unilateral",
+      "trauma"
+    ]
+  },
+  "technique": {
+    "how": "Patient upright if possible; auscultate with the diaphragm over symmetric anterior, lateral and posterior sites, comparing each side at the same level during quiet then deep breathing. Note whether sounds are absent or reduced on one whole hemithorax versus a focal zone, and check tracheal position at the suprasternal notch.",
+    "prerequisites": "Quiet room, direct skin contact, patient able to take deep breaths.",
+    "contraindications": "None; do not delay decompression in a crashing patient to complete auscultation."
+  },
+  "interpretation": {
+    "positive_finding": "Breath sounds absent or clearly reduced on one side compared with the other, with or without contralateral tracheal deviation. In a hypotensive trauma or ventilated patient this is treated as tension pneumothorax until proven otherwise.",
+    "negative_finding": "Symmetric breath sounds do not exclude a small or moderate effusion, pneumothorax or pneumonia; pooled sensitivity of decreased breath sounds for radiographic pneumonia is only 0.28.",
+    "pitfalls": "Obesity, shallow breathing, noise, and endobronchial intubation (right mainstem) mimic unilateral reduction. Effusion, pneumothorax, consolidation and mucus plugging all reduce sounds; percussion (dull vs hyperresonant) and POCUS separate them.",
+    "changes_what": "Unilateral absence + shock: immediate needle/finger decompression or chest tube. Otherwise: prompts lung POCUS/CXR and percussion to split effusion vs pneumothorax vs consolidation."
+  },
+  "estimates": [
+    {
+      "target_condition": "Radiographic community-acquired pneumonia (decreased breath sounds, any laterality)",
+      "population": "Adults with respiratory symptoms in primary care, no serious illness; 4 studies, n=3,394",
+      "setting": "outpatient",
+      "prevalence": null,
+      "reference_standard": "Chest radiograph",
+      "sensitivity": {
+        "value": 0.28,
+        "ci_low": 0.16,
+        "ci_high": 0.45
+      },
+      "specificity": {
+        "value": 0.87,
+        "ci_low": 0.81,
+        "ci_high": 0.92
+      },
+      "lr_positive": {
+        "value": 2.43,
+        "ci_low": 0.98,
+        "ci_high": 4.87
+      },
+      "lr_negative": {
+        "value": 0.82,
+        "ci_low": 0.61,
+        "ci_high": 1.0
+      },
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "Decreased breath sounds 4 3,394 0.28 (0.16–0.45) 0.87 (0.81–0.92) 2.43 (0.98–4.87) 0.82 (0.61–1.00)",
+      "location": "Table 2 (PMC6527561 full text)"
+    }
+  ],
+  "evidence_status": "partially_quantified",
+  "sources": [
+    {
+      "citation": "Wong CL, Holroyd-Leduc J, Straus SE. Does this patient have a pleural effusion? JAMA. 2009;301(3):309-317.",
+      "doi": "10.1001/jama.2008.937",
+      "pmid": "19155458",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2009
+    },
+    {
+      "citation": "Htun TP, Sun Y, Chua HL, Pang J. Clinical features for diagnosis of pneumonia among adults in primary care setting: A systematic and meta-review. Sci Rep. 2019;9:7600.",
+      "doi": "10.1038/s41598-019-44145-y",
+      "pmid": "31110214",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2019
+    },
+    {
+      "citation": "Kalantri S, Joshi R, Lokhande T, et al. Accuracy and reliability of physical signs in the diagnosis of pleural effusion. Respir Med. 2007;101(3):431-438.",
+      "doi": "10.1016/j.rmed.2006.07.014",
+      "pmid": "16965906",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2007
+    },
+    {
+      "citation": "Metlay JP, Kapoor WN, Fine MJ. Does this patient have community-acquired pneumonia? Diagnosing pneumonia by history and physical examination. JAMA. 1997;278(17):1440-1445.",
+      "doi": null,
+      "pmid": "9356004",
+      "url": null,
+      "kind": "rce_series",
+      "year": 1997
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not rely on auscultation alone to exclude pneumothorax or effusion in a dyspneic or hypotensive patient; use POCUS or radiograph.",
+    "escalation_warning": "Unilateral absent breath sounds with hypotension, distended neck veins or rising airway pressures = suspected tension pneumothorax; decompress immediately, do not wait for imaging.",
+    "interobserver_note": "Kalantri 2007 (n=278) reported excellent interobserver agreement for breath sounds (kappa 0.84-0.89 across chest expansion, fremitus, percussion and breath sounds)."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Wong 2009 RCE (pleural effusion) is the anchor but its breath-sound row (Table) is not visible via abstract and the article is not PMC open access, so no pleural-effusion estimate is entered. The only quoted number is pooled decreased breath sounds for CAP from Htun 2019 Table 2 (PMC OA). Kalantri 2007 abstract gives only LR ranges (positive 1.48-8.14, negative 0.13-0.71) without a breath-sound-specific value, so it is cited for reliability only. No diagnostic-accuracy study of auscultation for pneumothorax was located within budget. Status partially_quantified because the pneumothorax/effusion targets remain unquantified.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T01:47:36+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

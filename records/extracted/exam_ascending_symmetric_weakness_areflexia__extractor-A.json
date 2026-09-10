@@ -1,0 +1,112 @@
+{
+  "identity": {
+    "id": "exam_ascending_symmetric_weakness_areflexia",
+    "title": "Ascending symmetric limb weakness with absent/reduced reflexes (after recent GI/URI illness)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "weakness"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "electrolyte_hypokalemia_hypophosphatemia",
+      "gbs",
+      "myopathy",
+      "spinal_cord_compression"
+    ],
+    "indication_tags": [
+      "subacute",
+      "bilateral"
+    ]
+  },
+  "technique": {
+    "how": "Test proximal and distal strength in all four limbs (MRC grading), compare sides, and elicit biceps, triceps, knee and ankle reflexes with reinforcement. Ask about onset and progression (hours to days, distal to proximal), preceding diarrhea or respiratory illness within 4 weeks, sensory symptoms, facial or bulbar weakness, and back pain or sphincter change.",
+    "prerequisites": "Cooperative patient; reflex hammer; document time course and check bedside respiratory measures (single breath count / FVC) at the same visit.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Bilateral, relatively symmetric, progressive flaccid weakness with reduced or absent reflexes in the weak limbs, reaching nadir within 4 weeks, is the Brighton level-1 to 3 clinical core of GBS; 91% of GBS patients have decreased reflexes at presentation.",
+    "negative_finding": "Preserved brisk reflexes, a sensory level, early sphincter dysfunction, marked asymmetry or fever at onset point toward myelopathy, cord compression or other mimics; however 2% of GBS patients keep normal reflexes in paretic arms.",
+    "pitfalls": "Reflexes may be normal on day 1 and lost later, so re-examine; hypokalemia/hypophosphatemia and myopathy produce symmetric weakness with preserved reflexes. Weakness stayed leg-restricted in 6% and arm-restricted in 1%.",
+    "changes_what": "Positive: admit, serial FVC/single breath count, cardiac monitoring, LP and NCS, start IVIG/PLEX. Negative: check electrolytes and CK; image the spine if a sensory level or sphincter signs."
+  },
+  "estimates": [
+    {
+      "target_condition": "Guillain-Barre syndrome; finding = decreased reflexes in paretic limbs at initial examination",
+      "population": "494 adults with GBS previously enrolled in therapeutic and observational studies (Dutch cohorts); no non-GBS comparison group",
+      "setting": "inpatient",
+      "prevalence": null,
+      "reference_standard": "Clinical diagnosis of GBS by treating neurologists (trial/observational study inclusion)",
+      "sensitivity": {
+        "value": 0.91,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "validation_cohort",
+      "source_index": 0,
+      "quote": "Decreased reflexes in paretic arms or legs were found initially in 91% of patients and in all patients during follow-up.",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Guillain-Barre syndrome; finding = bilateral limb weakness reaching nadir within 4 weeks",
+      "population": "Same cohort of 494 adults with GBS",
+      "setting": "inpatient",
+      "prevalence": null,
+      "reference_standard": "Clinical diagnosis of GBS (trial/observational study inclusion)",
+      "sensitivity": {
+        "value": 0.97,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "validation_cohort",
+      "source_index": 0,
+      "quote": "Disease nadir was reached within 2 weeks in 80%, within 4 weeks in 97% and within 6 weeks in all patients.",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "partially_quantified",
+  "sources": [
+    {
+      "citation": "Fokke C, van den Berg B, Drenthen J, Walgaard C, van Doorn PA, Jacobs BC. Diagnosis of Guillain-Barre syndrome and validation of Brighton criteria. Brain. 2014;137(1):33-43.",
+      "doi": "10.1093/brain/awt285",
+      "pmid": "24163275",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2014
+    },
+    {
+      "citation": "Sejvar JJ, Kohl KS, Gidudu J, et al. Guillain-Barre syndrome and Fisher syndrome: case definitions and guidelines for collection, analysis, and presentation of immunization safety data. Vaccine. 2011;29(3):599-612.",
+      "doi": "10.1016/j.vaccine.2010.06.003",
+      "pmid": "20600491",
+      "url": null,
+      "kind": "consensus",
+      "year": 2011
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use preserved reflexes alone to dismiss GBS early in the course; do not use this pattern to exclude cord compression when back pain, a sensory level or sphincter change is present.",
+    "escalation_warning": "Dyspnea, weak cough, single breath count <20 or FVC <20 mL/kg, bulbar weakness or autonomic instability indicate impending respiratory failure: ICU-level monitoring.",
+    "interobserver_note": "Reflex grading and MRC strength testing have moderate agreement; the Brighton criteria were designed for case classification, and Fokke 2014 reports feature frequencies, not inter-rater reliability."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Fokke 2014 (Brain; not in PMC) describes feature frequencies within a GBS cohort without a non-GBS comparator, so only sensitivity-type proportions are available (decreased reflexes initially 91%; nadir within 4 weeks 97%; bilateral limb weakness in all patients); specificity and LRs are not estimable and are null. The Brighton case definition (Sejvar 2011) is cited as the consensus basis for the finding; no diagnostic-accuracy study of the clinical triad versus mimics was found (search 'areflexia sensitivity specificity misdiagnosis' returned nothing). Status partially_quantified rather than not_quantified because a quoted proportion with location exists.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T01:48:01+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

@@ -1,0 +1,163 @@
+{
+ "identity": {
+  "id": "hx_alcohol_use_withdrawal_timing",
+  "title": "Alcohol use (CAGE) and time since last drink; tremor, diaphoresis, agitation (CIWA items)",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "palpitations",
+   "dizziness",
+   "ams",
+   "weakness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "hepatic_encephalopathy",
+   "hypoglycemia",
+   "intoxication_withdrawal",
+   "seizure_mimic",
+   "wernicke"
+  ],
+  "indication_tags": [
+   "alcohol_use"
+  ]
+ },
+ "technique": {
+  "how": "Ask the four CAGE items (Cut down, Annoyed, Guilty, Eye-opener); >=2 yes is positive. Ask quantity/frequency and the exact time of the last drink and prior withdrawal seizures or DTs. Then score CIWA-Ar items at the bedside: observe tremor with arms extended, sweating, agitation, and ask about nausea, anxiety, headache, and perceptual disturbances.",
+  "prerequisites": "Patient able to give history or collateral available; ask non-judgmentally; obtain blood glucose and consider thiamine before glucose.",
+  "contraindications": "CIWA-Ar symptom items are unreliable in patients who cannot communicate (delirium, intubated, language barrier); use objective items or an alternative scale."
+ },
+ "interpretation": {
+  "positive_finding": "CAGE >=2 raises the odds of alcohol abuse/dependence about 3.4-fold (pooled LR+ 3.44; sensitivity 0.87 in inpatients). Last drink 6-24 h ago with tremor, sweating and agitation points to alcohol withdrawal; seizures cluster at 12-48 h and delirium tremens at 48-96 h.",
+  "negative_finding": "CAGE <2 lowers but does not exclude an alcohol use disorder (pooled LR- 0.18; sensitivity only 0.60-0.71 in ambulatory patients). A last drink more than 5-7 days ago makes new-onset withdrawal unlikely.",
+  "pitfalls": "CAGE misses hazardous drinking that is not yet dependence and performs worse in women and ambulatory patients; withdrawal can begin while blood alcohol is still detectable; sedatives, sepsis, thyrotoxicosis and hypoglycemia mimic withdrawal.",
+  "changes_what": "Positive: start CIWA-driven or fixed benzodiazepine protocol and thiamine, monitor for seizures/DT; negative: look for other causes of tremor, agitation or AMS."
+ },
+ "estimates": [
+  {
+   "target_condition": "Alcohol abuse or dependence (CAGE >=2)",
+   "population": "Pooled inpatients from diagnostic meta-analysis of 10 studies in general clinical populations",
+   "setting": "inpatient",
+   "prevalence": null,
+   "reference_standard": "DSM criteria for alcohol abuse or dependence (structured interview)",
+   "sensitivity": {
+    "value": 0.87,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "both",
+   "evidence_level": "pooled",
+   "source_index": 1,
+   "quote": "the pooled sensitivity is far better in inpatients (0.87) than in primary care patients (0.71) or ambulatory patients (0.60)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Alcohol abuse or dependence (CAGE >=2)",
+   "population": "Pooled primary care patients (same meta-analysis)",
+   "setting": "outpatient",
+   "prevalence": null,
+   "reference_standard": "DSM criteria for alcohol abuse or dependence (structured interview)",
+   "sensitivity": {
+    "value": 0.71,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 1,
+   "quote": "the pooled sensitivity is far better in inpatients (0.87) than in primary care patients (0.71) or ambulatory patients (0.60)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Alcohol abuse or dependence (CAGE >=2)",
+   "population": "All pooled general clinical populations (inpatient, primary care, ambulatory)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "DSM criteria for alcohol abuse or dependence (structured interview)",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 3.44,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.18,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": false,
+   "interpretation_label": "both",
+   "evidence_level": "pooled",
+   "source_index": 1,
+   "quote": "The likelihood ratios seem to be relatively constant over the populations (overall LR+:3.44;LR-:0.18)",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Kitchens JM. Does this patient have an alcohol problem? JAMA. 1994;272(22):1782-1787.",
+   "doi": null,
+   "pmid": "7966928",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1994
+  },
+  {
+   "citation": "Aertgeerts B, Buntinx F, Kester A. The value of the CAGE in screening for alcohol abuse and alcohol dependence in general clinical populations: a diagnostic meta-analysis. J Clin Epidemiol. 2004;57(1):30-39.",
+   "doi": "10.1016/S0895-4356(03)00254-3",
+   "pmid": "15019008",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2004
+  },
+  {
+   "citation": "Fiellin DA, Reid MC, O'Connor PG. Screening for alcohol problems in primary care: a systematic review. Arch Intern Med. 2000;160(13):1977-1989.",
+   "doi": "10.1001/archinte.160.13.1977",
+   "pmid": "10888972",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2000
+  },
+  {
+   "citation": "Sullivan JT, Sykora K, Schneiderman J, Naranjo CA, Sellers EM. Assessment of alcohol withdrawal: the revised Clinical Institute Withdrawal Assessment for Alcohol scale (CIWA-Ar). Br J Addict. 1989;84(11):1353-1357.",
+   "doi": "10.1111/j.1360-0443.1989.tb00737.x",
+   "pmid": "2597811",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1989
+  },
+  {
+   "citation": "The ASAM Clinical Practice Guideline on Alcohol Withdrawal Management. J Addict Med. 2020;14(3S Suppl 1):1-72.",
+   "doi": "10.1097/ADM.0000000000000668",
+   "pmid": "32511109",
+   "url": null,
+   "kind": "guideline",
+   "year": 2020
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not attribute AMS, seizures or agitation to withdrawal on history alone; exclude hypoglycemia, head injury, infection, Wernicke and hepatic encephalopathy in parallel.",
+  "escalation_warning": "Prior withdrawal seizures/DTs, CIWA-Ar >=15-20, fever, autonomic instability or persistent confusion despite benzodiazepines warrant ICU-level monitoring.",
+  "interobserver_note": "CIWA-Ar has good inter-rater reliability in the derivation work but depends on patient report for 7 of 10 items; CAGE test-retest reliability 0.80-0.95 (Dhalla 2007)."
+ },
+ "tier": "extracted",
+ "extraction_notes": "CAGE pooled estimates are from the abstract of Aertgeerts 2004 diagnostic meta-analysis (PMID 15019008, cut-off >=2, DSM reference): sensitivity 0.87 inpatients / 0.71 primary care / 0.60 ambulatory; overall LR+ 3.44, LR- 0.18; specificities were stated to differ by group but numbers are not in the abstract and the full text is not accessible, so specificity is null. Fiellin 2000 (PMID 10888972) gives only ranges (CAGE sensitivity 43-94%, specificity 70-97%) and is cited for context. The 1994 RCE (PMID 7966928) has no abstract and its tables are not viewable, so it is cited as the series anchor without numbers. Withdrawal timing (tremor 6-24 h, seizures 12-48 h, DTs 48-96 h) and CIWA-Ar item use are consensus from the ASAM 2020 guideline (PMID 32511109) and the CIWA-Ar derivation paper (PMID 2597811); no diagnostic-accuracy estimate exists for time-since-last-drink as a discriminator. Dhalla & Kopec 2007 (PMID 17716538) narrative review noted only for reliability data.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T01:48:04+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

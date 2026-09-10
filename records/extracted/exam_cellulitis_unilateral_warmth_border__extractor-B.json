@@ -1,0 +1,108 @@
+{
+ "identity": {
+  "id": "exam_cellulitis_unilateral_warmth_border",
+  "title": "Unilateral warm erythema with defined border (vs bilateral / stasis change)",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "edema",
+   "fever"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "cellulitis_ssti",
+   "dvt",
+   "necrotizing_fasciitis",
+   "venous_insufficiency"
+  ],
+  "indication_tags": [
+   "unilateral",
+   "bilateral"
+  ]
+ },
+ "technique": {
+  "how": "Expose and compare both legs. Note whether erythema is unilateral (asymmetric) or bilateral, feel for warmth with the back of the hand against the contralateral limb, and trace the border (marking it with pen for follow-up). Check for a portal of entry (tinea, ulcer), tenderness, and disproportionate pain, crepitus or bullae.",
+  "prerequisites": "Both legs exposed; heart rate, temperature and WBC available if scoring ALT-70.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Unilateral warm, tender erythema, especially with leukocytosis, tachycardia or age >=70 (ALT-70 >=5 points), gives >=82% likelihood of true cellulitis in the derivation cohort. Asymmetry is the heaviest-weighted item (3 points).",
+  "negative_finding": "Bilateral symmetric erythema without fever, leukocytosis or tachycardia favors stasis dermatitis or other pseudocellulitis (ALT-70 0-2 points: >=83% pseudocellulitis); bilateral cellulitis is rare.",
+  "pitfalls": "ALT-70 is sensitive but only 22% specific in a prospective ED validation, so a 'positive' asymmetric leg still includes many DVT, gout, contact dermatitis and stasis cases; warmth is subjective; do not miss necrotizing infection (pain out of proportion, rapid spread, crepitus).",
+  "changes_what": "Unilateral warm erythema: treat as cellulitis but rule out DVT/necrotizing infection; bilateral: seek pseudocellulitis (stasis, dermatitis) before antibiotics."
+ },
+ "estimates": [
+  {
+   "target_condition": "Lower-extremity cellulitis vs pseudocellulitis (ALT-70 model; asymmetry item weighted 3 points)",
+   "population": "Adults presenting to ED with acute lower-extremity dermatologic symptoms, n=204, 92 with cellulitis",
+   "setting": "ED",
+   "prevalence": 0.451,
+   "reference_standard": "Independent 6-physician consensus review of the case",
+   "sensitivity": null,
+   "specificity": {
+    "value": 0.22,
+    "ci_low": 0.158,
+    "ci_high": 0.281
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "validation_cohort",
+   "source_index": 1,
+   "quote": "specificity varied considerably (ALT-70, 22.0% [95% CI, 15.8%-28.1%]",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Lower-extremity cellulitis vs pseudocellulitis (ALT-70 derivation)",
+   "population": "Patients admitted via ED with a diagnosis of lower-extremity cellulitis, n=259, 2010-2012",
+   "setting": "ED",
+   "prevalence": 0.695,
+   "reference_standard": "Discharge diagnosis (cellulitis vs alternative diagnosis) after inpatient evaluation",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "both",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "In total, 79 (30.5%) of 259 patients were misdiagnosed with lower extremity cellulitis",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Raff AB, Weng QY, Cohen JM, et al. A predictive model for diagnosis of lower extremity cellulitis: A cross-sectional study. J Am Acad Dermatol. 2017;76(4):618-625.e2.",
+   "doi": "10.1016/j.jaad.2016.12.044",
+   "pmid": "28215446",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2017
+  },
+  {
+   "citation": "Pulia MS, Schwei RJ, Alexandridis R, et al. Validation of Thermal Imaging and the ALT-70 Prediction Model to Differentiate Cellulitis From Pseudocellulitis. JAMA Dermatol. 2024;160(5):511-517.",
+   "doi": "10.1001/jamadermatol.2024.0091",
+   "pmid": "38536160",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2024
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use asymmetry/border to reassure when there is severe pain, rapid progression, bullae, crepitus, hypotension or immunocompromise; necrotizing infection needs surgical evaluation regardless of score.",
+  "escalation_warning": "Unilateral swollen warm leg also fits DVT: obtain compression ultrasound if no clear portal of entry or if edema dominates over erythema.",
+  "interobserver_note": "Warmth and border definition are subjective; ALT-70 items (asymmetry, HR, WBC, age) were chosen partly for objectivity, but validation specificity was only 22%, implying frequent over-calling of asymmetric legs as cellulitis."
+ },
+ "tier": "extracted",
+ "extraction_notes": "The isolated finding 'unilateral warm erythema with defined border' has no stand-alone diagnostic-accuracy estimate accessible: its evidence is the asymmetry item of the ALT-70 model. Raff 2017 (PMID 28215446) abstract gives the score structure (asymmetry 3 points; 0-2 points >=83.3% pseudocellulitis; >=5 points >=82.2% cellulitis) and misdiagnosis rate 30.5% (used as prevalence 1-0.305=0.695; computed from abstract numbers) but no sens/spec/LR; the bivariate odds ratio for asymmetry is in the JAAD tables, which are not accessible (no PMC). Pulia 2024 (PMID 38536160) abstract gives ALT-70 specificity 22.0% (95% CI 15.8-28.1) and states sensitivity 'remained above 90%' without an exact value, so sensitivity is null; the ALT-70 positivity threshold used is not stated in the abstract (PMC10974680 exists but full text is not open access here). Hence partially_quantified.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T01:48:04+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

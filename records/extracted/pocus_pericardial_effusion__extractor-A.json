@@ -1,0 +1,141 @@
+{
+  "identity": {
+    "id": "pocus_pericardial_effusion",
+    "title": "POCUS cardiac: pericardial effusion (subxiphoid/PLAX), with RA/RV diastolic collapse for tamponade",
+    "type": "pocus",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "chest_pain",
+      "syncope",
+      "edema",
+      "hypotension"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "cardiogenic_shock",
+      "constrictive_pericarditis",
+      "pericardial_effusion_tamponade",
+      "pericarditis"
+    ],
+    "indication_tags": [
+      "dialysis",
+      "malignancy"
+    ]
+  },
+  "technique": {
+    "how": "Phased-array probe: subxiphoid four-chamber (liver as window, probe flat) and parasternal long axis (3rd-4th left ICS). Look for an anechoic stripe between epicardium and bright pericardium, circumferential vs dependent; grade thickness in diastole. For tamponade look for RA collapse in late diastole/early systole, RV free-wall diastolic collapse, swinging heart and plethoric IVC.",
+    "prerequisites": "Supine or left lateral position; adjust depth to include the posterior pericardium.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Any anechoic pericardial stripe = effusion; ED physician detection has sensitivity 0.96 and specificity 0.98 versus cardiology review. Effusion plus RA/RV diastolic collapse and a dilated non-collapsing IVC in a hypotensive patient indicates tamponade physiology.",
+    "negative_finding": "No pericardial fluid on adequate subxiphoid and parasternal windows effectively excludes tamponade as the cause of shock; it does not exclude pericarditis.",
+    "pitfalls": "Epicardial fat pad (anterior, hypoechoic, moves with heart) and left pleural effusion (posterior to descending aorta on PLAX) mimic effusion. Loculated post-surgical or clotted hemopericardium can be missed; tamponade is a clinical diagnosis and chamber collapse can be absent with elevated right-sided pressures.",
+    "changes_what": "Effusion + collapse/plethoric IVC + shock: emergent pericardiocentesis or surgery. Effusion without collapse: formal echo and etiology workup. No effusion: drop tamponade from the shock differential."
+  },
+  "estimates": [
+    {
+      "target_condition": "Pericardial effusion (presence/absence) on ED bedside echocardiography",
+      "population": "515 ED patients with high-risk criteria for pericardial effusion; 103 with effusion; operators: emergency physicians trained in ultrasonography",
+      "setting": "ED",
+      "prevalence": 0.2,
+      "reference_standard": "Review of all captured images by the Department of Cardiology",
+      "sensitivity": {
+        "value": 0.96,
+        "ci_low": 0.904,
+        "ci_high": 0.989
+      },
+      "specificity": {
+        "value": 0.98,
+        "ci_low": 0.958,
+        "ci_high": 0.991
+      },
+      "lr_positive": {
+        "value": 48.0,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.041,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.96/(1-0.98); LR- = (1-0.96)/0.98 from sensitivity 96%, specificity 98% (Mandavia 2001 abstract); prevalence = 103/515; CIs not computed",
+      "interpretation_label": "both",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "Emergency physicians detected pericardial effusion with a sensitivity of 96% (95% confidence interval [CI] 90.4% to 98.9%), specificity of 98% (95% CI 95.8% to 99.1%)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Pericardial effusion in trauma (eFAST cardiac component)",
+      "population": "Trauma patients undergoing eFAST; 75 studies, 24,350 patients (all components); mostly emergency-physician operators",
+      "setting": "ED",
+      "prevalence": null,
+      "reference_standard": "CT, formal echocardiography, surgery or pericardial window (varies by study)",
+      "sensitivity": {
+        "value": 0.91,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.94,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "pericardial effusion (91% and 94% respectively)",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Mandavia DP, Hoffner RJ, Mahaney K, Henderson SO. Bedside echocardiography by emergency physicians. Ann Emerg Med. 2001;38(4):377-382.",
+      "doi": "10.1067/mem.2001.118224",
+      "pmid": "11574793",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2001
+    },
+    {
+      "citation": "Netherton S, Milenkovic V, Taylor M, Davis PJ. Diagnostic accuracy of eFAST in the trauma patient: a systematic review and meta-analysis. CJEM. 2019;21(6):727-738.",
+      "doi": "10.1017/cem.2019.381",
+      "pmid": "31317856",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2019
+    },
+    {
+      "citation": "Roy CL, Minor MA, Brookhart MA, Choudhry NK. Does this patient with a pericardial effusion have cardiac tamponade? JAMA. 2007;297(16):1810-1818.",
+      "doi": "10.1001/jama.297.16.1810",
+      "pmid": "17456823",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2007
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use a single poor-quality window to exclude effusion; do not diagnose tamponade from effusion size alone, and do not rely on absence of chamber collapse when pulmonary hypertension or RV hypertrophy is present.",
+    "escalation_warning": "Effusion with hypotension, tachycardia, pulsus paradoxus >10 mm Hg or RV diastolic collapse: emergent cardiology/cardiothoracic involvement and pericardiocentesis; in penetrating trauma with hemopericardium, thoracotomy pathway.",
+    "interobserver_note": "Mandavia 2001 reference standard was cardiology over-read of the same images (not an independent echo), which may overestimate agreement; eFAST pooled sensitivity 0.91 comes from heterogeneous operators and reference standards.",
+    "skill_assumption": "Operator trained in focused cardiac ultrasound (subxiphoid and PLAX windows, fat-pad vs effusion, pleural vs pericardial fluid) and in recognizing RA/RV diastolic collapse and IVC plethora; tamponade findings require confirmation by a credentialed echocardiographer when time allows."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Mandavia 2001 PMID confirmed as 11574793 (anchor listed it as unconfirmed). Effusion-detection sens/spec quoted from abstract; LRs computed. eFAST meta-analysis added as trauma-population estimate. Roy 2007 RCE cited for tamponade clinical context (pulsus paradoxus LR 3.3 / 0.03) but not entered as an estimate because it is not a POCUS finding; POCUS accuracy for RA/RV collapse in diagnosing tamponade was not located as a quotable pooled estimate within budget.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T01:47:36+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

@@ -1,0 +1,251 @@
+{
+ "identity": {
+  "id": "fn_single_breath_count",
+  "title": "Single breath count (count aloud on one full inspiration; <20 signals weak respiratory muscles)",
+  "type": "functional",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "weakness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "gbs",
+   "myasthenia_gravis"
+  ],
+  "indication_tags": [
+   "acute_onset"
+  ]
+ },
+ "technique": {
+  "how": "Patient sits upright, takes a maximal inspiration, then counts aloud from 1 upward in a normal voice at about two numbers per second (2 Hz; use a metronome/app if available) without taking another breath. Record the highest number reached; take the best of 3 attempts. Repeat serially (e.g. every 4-6 h) in evolving neuromuscular weakness.",
+  "prerequisites": "Patient can speak and follow commands; note dysarthria or facial weakness that slows counting.",
+  "contraindications": "Unreliable in severe dysarthria/aphasia, uncooperative or delirious patients, and after recent airway/oral surgery."
+ },
+ "interpretation": {
+  "positive_finding": "A low count signals reduced vital capacity: SBC <=5 predicted need for mechanical ventilation in GBS with sensitivity 0.91 and specificity 0.95; SBC <=21 identified VC <20 mL/kg in hospitalized patients (sens 0.94, spec 0.77); SBC <25 detected MG exacerbation with sensitivity 0.80.",
+  "negative_finding": "A count >=20-25 makes severe respiratory muscle weakness (VC <20 mL/kg) unlikely; in GBS a count >19 had 95% sensitivity for ruling out need for ventilation, and in ALS a count above the cut-off had 100% sensitivity for FVC <50% predicted.",
+  "pitfalls": "Counting speed and voice loudness change the number (unpaced counts run higher); bulbar weakness, pain, COPD and anxiety lower counts without diaphragm weakness; thresholds differ by disease and study (5-41), so trend serial counts rather than fixing on one number.",
+  "changes_what": "Count <20 (or falling >20% in 24 h): obtain FVC/NIF and ABG, escalate monitoring, prepare for airway support; count comfortably >25 and stable: continue serial checks."
+ },
+ "estimates": [
+  {
+   "target_condition": "Need for intubation/mechanical ventilation in GBS (SBC <=5)",
+   "population": "94 GBS patients (age 6-70) with serial SBC at 2 Hz, India, neurology inpatients",
+   "setting": "inpatient",
+   "prevalence": null,
+   "reference_standard": "Intubation per modified ABG criteria (PaO2 <60 with PaCO2 >50, or pH <7.3)",
+   "sensitivity": {
+    "value": 0.906,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.952,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 18.9,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.1,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "LR+ = 0.906/(1-0.952) = 18.9; LR- = (1-0.906)/0.952 = 0.10; sens/spec from abstract",
+   "interpretation_label": "both",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "At SBC 5, need for MV could be predicted with a sensitivity of 90.6% and specificity of 95.2%",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Need for mechanical ventilation in GBS (SBC >19 rules out)",
+   "population": "GBS patients (Kalita 2020 cohort as tabulated by systematic review)",
+   "setting": "inpatient",
+   "prevalence": null,
+   "reference_standard": "Intubation per modified ABG criteria",
+   "sensitivity": {
+    "value": 0.95,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_out",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "SBCT>19 had sensitivity of 95% in ruling out the need for mechanical ventilation",
+   "location": "Table 3"
+  },
+  {
+   "target_condition": "Myasthenia gravis exacerbation (SBCT <25)",
+   "population": "MG patients (cohort as tabulated in systematic review; attribution ambiguous between refs 17 and 21)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Clinical MG exacerbation (as defined in primary study; not viewable)",
+   "sensitivity": {
+    "value": 0.8,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "SBCT < 25 had sensitivity of 80% in diagnosing myasthenia exacerbation",
+   "location": "Table 3"
+  },
+  {
+   "target_condition": "Vital capacity <20 mL/kg (SBCT <=21)",
+   "population": "Hospitalized patients with a variety of diseases (Bartfield 1994 cohort as tabulated in systematic review)",
+   "setting": "inpatient",
+   "prevalence": null,
+   "reference_standard": "Spirometric vital capacity",
+   "sensitivity": {
+    "value": 0.944,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.7662,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 4.04,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.073,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "LR+ = 0.944/(1-0.7662) = 4.04; LR- = (1-0.944)/0.7662 = 0.073; sens/spec from Table 3",
+   "interpretation_label": "both",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "SBCT of 21 or less had a sensitivity and specificity of 94.4% and 76.62% for VC <20 ml/kg",
+   "location": "Table 3"
+  },
+  {
+   "target_condition": "Vital capacity <80% predicted (count <41) in neuromuscular dystrophy",
+   "population": "Patients with neuromuscular dystrophy (single study within meta-analysis)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Spirometric vital capacity, % predicted",
+   "sensitivity": {
+    "value": 0.89,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.62,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 3,
+   "quote": "a count lower than 41 for a VC below 80% of predicted in patients with neuromuscular dystrophy (Sensitivity = 89% and Specificity = 62%)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "FVC <50% predicted in ALS (patient-paced SBC)",
+   "population": "30 ALS clinic patients",
+   "setting": "outpatient",
+   "prevalence": null,
+   "reference_standard": "Spirometric FVC % predicted",
+   "sensitivity": {
+    "value": 1.0,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.6,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_out",
+   "evidence_level": "single_study",
+   "source_index": 4,
+   "quote": "SBCpp had 100% sensitivity and 60% specificity (area under curve (AUC) = 0.696) for predicting FVCpred <50%",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Bhandari SK, Bist A, Ghimire A. Single breath count test and its applications in clinical practice: a systematic review. Ann Med Surg (Lond). 2024;86(4):2113-2118.",
+   "doi": "10.1097/MS9.0000000000001853",
+   "pmid": "38576972",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2024
+  },
+  {
+   "citation": "Kalita J, Kumar M, Misra UK. Serial single breath count is a reliable tool for monitoring respiratory functions in Guillain-Barre Syndrome. J Clin Neurosci. 2020;72:50-56.",
+   "doi": "10.1016/j.jocn.2020.01.032",
+   "pmid": "31982274",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2020
+  },
+  {
+   "citation": "Elsheikh B, Arnold WD, Gharibshahi S, Reynolds J, Freimer M, Kissel JT. Correlation of single-breath count test and neck flexor muscle strength with spirometry in myasthenia gravis. Muscle Nerve. 2016;53(1):134-136.",
+   "doi": "10.1002/mus.24929",
+   "pmid": "26437790",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2016
+  },
+  {
+   "citation": "Delmondes GMB, Couto NFS, Correia Junior MGA, et al. Single breath counting technique to assess pulmonary function: a systematic review and meta-analysis. J Breath Res. 2023;18(1).",
+   "doi": "10.1088/1752-7163/ad0647",
+   "pmid": "37875103",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2023
+  },
+  {
+   "citation": "Quinn C, McMillan CT, Owegi MA, et al. Single breath counting is an effective screening tool for forced vital capacity in ALS. Amyotroph Lateral Scler Frontotemporal Degener. 2021;22(7-8):528-534.",
+   "doi": "10.1080/21678421.2021.1915337",
+   "pmid": "34348533",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2021
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not substitute SBC for spirometry/NIF when a decision to intubate is imminent, or in patients with bulbar dysarthria, aphasia or delirium where counting is unreliable.",
+  "escalation_warning": "SBC <=10, a fall >20% over 24 h, inability to complete a sentence, paradoxical breathing or rising PaCO2 indicate impending respiratory failure - ICU and airway readiness now.",
+  "interobserver_note": "Paced (2 Hz) counting has good intra- and inter-examiner reproducibility (Delmondes 2023 review); unpaced counts vary with speaking speed and voice, so use the same method serially."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Primary GBS estimate is verbatim from the abstract of Kalita 2020 (PMID 31982274); LRs computed by extractor. Three estimates are taken from Table 3 of the open-access 2024 systematic review (PMID 38576972, PMC10990392) because the primary papers (Bartfield 1994 Ann Emerg Med; the MG-exacerbation study) are not accessible: the review's Table 3 attributes the MG '<25, sensitivity 80%' row to Kannan Kanikannan 2014 (a GBS paper) while its text cites ref 21 (Kukulka 2020, telephonic SBCT in MG) - attribution is inconsistent, flagged for the verifier. The neuromuscular-dystrophy and mixed-hospitalized numbers are corroborated by the abstract of Delmondes 2023 meta-analysis (PMID 37875103: count 21 for VC 20 mL/kg sens 94% spec 77%). The '<20' threshold in the title is a common clinical convention; the literature cut-offs range 5-41 depending on outcome. Elsheikh 2016 (PMID 26437790) shows correlation with FVC only (no cut-off accuracy in abstract; PMC copy contains header only), cited for MG context. No CIs were available for any estimate.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T01:48:04+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

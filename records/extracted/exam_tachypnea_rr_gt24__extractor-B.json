@@ -1,0 +1,146 @@
+{
+ "identity": {
+  "id": "exam_tachypnea_rr_gt24",
+  "title": "Respiratory rate >24-25/min counted for 60 s",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "chest_pain",
+   "hypotension",
+   "aki",
+   "ams",
+   "fever"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "acute_decompensated_hf",
+   "anxiety_hyperventilation",
+   "metabolic_acidosis",
+   "pneumonia",
+   "pulmonary_embolism",
+   "septic_shock",
+   "uremia"
+  ],
+  "indication_tags": []
+ },
+ "technique": {
+  "how": "With the patient at rest and unaware of being observed (for example while appearing to take the pulse), count chest or abdominal excursions for a full 60 seconds; do not extrapolate from 15 seconds. Record the rate, and note pattern (Kussmaul, Cheyne-Stokes) and use of accessory muscles.",
+  "prerequisites": "Patient at rest for several minutes; not talking; not immediately after exertion or pain.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Respiratory rate above 24-25/min sustained at rest; indicates cardiopulmonary, metabolic or septic stress and is a component of qSOFA/CURB-65.",
+  "negative_finding": "Normal rate (12-20/min) together with normal temperature and heart rate substantially lowers probability of pneumonia (pooled LR- about 0.24); normal rate does not exclude pulmonary embolism.",
+  "pitfalls": "Monitor-derived and 15-second counts are inaccurate; anxiety, pain, fever and acidosis all raise the rate. In the elderly and immunocompromised, tachypnea may be the only sign of pneumonia or sepsis.",
+  "changes_what": "RR >24 with fever/cough: obtain CXR and assess severity; normal vital signs plus normal lung exam make CAP unlikely enough to defer imaging in low-risk outpatients."
+ },
+ "estimates": [
+  {
+   "target_condition": "Community-acquired pneumonia (any abnormal vital sign: temperature, heart rate or respiratory rate)",
+   "population": "Outpatient adults and adolescents with acute respiratory infection or cough; 4 studies",
+   "setting": "outpatient",
+   "prevalence": null,
+   "reference_standard": "Chest radiograph",
+   "sensitivity": {
+    "value": 0.89,
+    "ci_low": 0.79,
+    "ci_high": 0.94
+   },
+   "specificity": {
+    "value": 0.49,
+    "ci_low": 0.25,
+    "ci_high": 0.73
+   },
+   "lr_positive": {
+    "value": 1.84,
+    "ci_low": 1.25,
+    "ci_high": 3.03
+   },
+   "lr_negative": {
+    "value": 0.24,
+    "ci_low": 0.17,
+    "ci_high": 0.34
+   },
+   "computed": false,
+   "computed_from": "",
+   "interpretation_label": "rule_out",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "Any abnormal vital signs 0.89 (0.79 to 0.94) 0.49 (0.25 to 0.73) 1.84 (1.25 to 3.03) 0.24 (0.17 to 0.34)",
+   "location": "Table 3, row 'Any abnormal vital signs'"
+  },
+  {
+   "target_condition": "Community-acquired pneumonia (absence of abnormal vital signs)",
+   "population": "Adults with clinically suspected pneumonia or acute cough; 17 prospective cohorts (9 primary care, 7 ED)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Chest imaging",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": {
+    "value": 0.25,
+    "ci_low": 0.11,
+    "ci_high": 0.48
+   },
+   "computed": false,
+   "computed_from": "",
+   "interpretation_label": "rule_out",
+   "evidence_level": "pooled",
+   "source_index": 1,
+   "quote": "decreased most by the absence of abnormal vital signs (LR- = 0.25, 95% CI = 0.11 to 0.48)",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Marchello CS, Ebell MH, Dale AP, Harvill ET, Shen Y, Whalen CC. Signs and symptoms that rule out community-acquired pneumonia in outpatient adults: a systematic review and meta-analysis. J Am Board Fam Med. 2019;32(2):234-247.",
+   "doi": "10.3122/jabfm.2019.02.180219",
+   "pmid": "30850460",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2019
+  },
+  {
+   "citation": "Ebell MH, Chupp H, Cai X, Bentivegna M, Kearney M. Accuracy of signs and symptoms for the diagnosis of community-acquired pneumonia: a meta-analysis. Acad Emerg Med. 2020;27(7):541-553.",
+   "doi": "10.1111/acem.13965",
+   "pmid": "32329557",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2020
+  },
+  {
+   "citation": "Metlay JP, Kapoor WN, Fine MJ. Does this patient have community-acquired pneumonia? Diagnosing pneumonia by history and physical examination. JAMA. 1997;278(17):1440-1445.",
+   "doi": null,
+   "pmid": "9356004",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1997
+  },
+  {
+   "citation": "Chunilal SD, Eikelboom JW, Attia J, et al. Does this patient have pulmonary embolism? JAMA. 2003;290(21):2849-2858.",
+   "doi": "10.1001/jama.290.21.2849",
+   "pmid": "14657070",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2003
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use a normal respiratory rate to exclude pulmonary embolism, sepsis or metabolic acidosis; do not rely on nurse-charted or monitor rates for decisions.",
+  "escalation_warning": "RR >30/min, or tachypnea with hypotension, hypoxemia or altered mental status, indicates severe illness (sepsis, severe CAP, PE); escalate and obtain blood gas.",
+  "interobserver_note": "No reliability statistic for a 60-second count located in the sources viewed; Marchello 2020 notes individual studies used different thresholds (>20, >25/min)."
+ },
+ "tier": "extracted",
+ "extraction_notes": "No accessible source gave an isolated LR for RR >24-25/min: the Metlay 1997 JAMA RCE (which tabulates RR >25 from Diehr 1984/Gennis 1989) and the Ebell 2020 meta-analysis are not open access, and their abstracts report only composite vital-sign results. Both entered estimates are therefore for the COMPOSITE 'any abnormal vital sign (temperature, heart rate, respiratory rate)' from Marchello 2020 Table 3 (PMC7422644; RR thresholds >20 or >25 by study, see Appendix B2) and Ebell 2020 abstract; status set to partially_quantified. Chunilal 2003 PE RCE is cited for context only (abstract gives no tachypnea accuracy).",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T01:47:39+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

@@ -1,0 +1,108 @@
+{
+ "identity": {
+  "id": "exam_fatigable_ptosis_sustained_upgaze",
+  "title": "Fatigable ptosis on sustained upgaze (60 s)",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "weakness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "myasthenia_gravis"
+  ],
+  "indication_tags": [
+   "subacute"
+  ]
+ },
+ "technique": {
+  "how": "Seated, measure or note the baseline lid position (margin-reflex distance). Ask the patient to fix on a target held above eye level and hold upgaze for 60 s (some protocols 2 min) without blinking hard. Positive if one or both lids progressively droop during upgaze and recover after a period of eye closure/rest.",
+  "prerequisites": "Adequate light, patient able to cooperate and hold gaze; note asymmetry and compensatory brow elevation.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Progressive drooping of the eyelid during sustained upgaze that improves with rest supports ocular myasthenia (sensitivity about 0.80 in a referral clinic). Combine with Cogan lid twitch, orbicularis weakness, diplopia history, or an ice-pack test for stronger rule-in.",
+  "negative_finding": "A stable lid over 60 s lowers but does not exclude MG (about 20% of OMG patients had no fatigability); antibody testing and single-fiber EMG remain necessary when suspicion persists.",
+  "pitfalls": "Specificity is modest (0.63): aponeurotic ptosis and tired patients can show apparent fatigue; mild ptosis in eyes with low lid folds may not fatigue visibly; the reference study included this sign in its diagnostic definition (incorporation bias).",
+  "changes_what": "Positive: check for bulbar/respiratory weakness and send AChR antibodies, consider ice-pack test and neurology; negative with normal motility and pupils: MG unlikely, consider aponeurotic ptosis."
+ },
+ "estimates": [
+  {
+   "target_condition": "Ocular myasthenia gravis",
+   "population": "138 patients referred to an academic neuro-ophthalmology clinic for suspected MG (101 with MG, 95 ocular); retrospective",
+   "setting": "outpatient",
+   "prevalence": 0.73,
+   "reference_standard": "Clinical OMG (isolated ptosis/diplopia) supported by >=1 abnormal test (edrophonium, ice, lid twitch, upgaze fatigability, AChR antibody, RNS or SFEMG); composite that includes the index sign",
+   "sensitivity": {
+    "value": 0.8,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.63,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 2.16,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.32,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "LR+ = 0.80/(1-0.63) = 2.16; LR- = (1-0.80)/0.63 = 0.32; prevalence = 101/138 = 0.73; all inputs from abstract",
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "Test sensitivity/specificity in OMG was fatigability on sustained upgaze 0.80/0.63",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Scherer K, Bedlack RS, Simel DL. Does this patient have myasthenia gravis? JAMA. 2005;293(15):1906-1914.",
+   "doi": "10.1001/jama.293.15.1906",
+   "pmid": "15840866",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2005
+  },
+  {
+   "citation": "Mittal MK, Barohn RJ, Pasnoor M, et al. Ocular myasthenia gravis in an academic neuro-ophthalmology clinic: clinical features and therapeutic response. J Clin Neuromuscul Dis. 2012;13(1):46-52.",
+   "doi": "10.1097/CND.0b013e31821c5634",
+   "pmid": "22361625",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2012
+  },
+  {
+   "citation": "Kee HJ, Yang HK, Hwang JM, Park KS. Evaluation and validation of sustained upgaze combined with the ice-pack test for ocular myasthenia gravis in Asians. Neuromuscul Disord. 2019;29(4):296-301.",
+   "doi": "10.1016/j.nmd.2018.12.011",
+   "pmid": "30704861",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2019
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use to triage a patient with dyspnea, dysphagia or neck weakness: suspected myasthenic crisis needs vital capacity/SBC and monitoring irrespective of lid findings.",
+  "escalation_warning": "Ptosis with new diplopia, dysarthria, dysphagia or breathlessness: assess respiratory function immediately (FVC, NIF, single breath count) and involve neurology.",
+  "interobserver_note": "Lid position change is judged visually; measured MRD change (>=2 mm) improves reproducibility. Estimate derives from a retrospective referral cohort with incorporation bias, so real-world accuracy is probably lower."
+ },
+ "tier": "extracted",
+ "extraction_notes": "The 2005 JAMA RCE (PMID 15840866) did not identify studies of sustained-upgaze fatigability, so it is cited as series anchor only. The single accuracy estimate is from the abstract of Mittal 2012 (PMID 22361625): sensitivity 0.80 / specificity 0.63 in a retrospective neuro-ophthalmology referral cohort; LRs and prevalence computed by extractor from abstract numbers (computed=true). Incorporation bias: upgaze fatigability was one of the tests allowed to define OMG. Kee 2019 (PMID 30704861) evaluates the ice-pack test performed after 2 min sustained upgaze (sensitivity 73.3%, specificity 96.7% vs 43.3%/100% conventional) - a different index test, so not entered as an estimate for this record. Sustained-upgaze duration in the source cohort is not stated in the abstract; the 60 s in the title is convention.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T01:48:04+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

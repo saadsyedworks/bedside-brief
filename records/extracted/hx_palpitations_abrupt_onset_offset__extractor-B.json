@@ -1,0 +1,78 @@
+{
+ "identity": {
+  "id": "hx_palpitations_abrupt_onset_offset",
+  "title": "Abrupt onset and abrupt termination of palpitations (vs gradual)",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "syncope",
+   "palpitations",
+   "dizziness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "anxiety_hyperventilation",
+   "atrial_fibrillation_flutter",
+   "sinus_tachycardia_secondary",
+   "svt",
+   "ventricular_tachycardia"
+  ],
+  "indication_tags": [
+   "acute_onset"
+  ]
+ },
+ "technique": {
+  "how": "Ask whether episodes start 'like a switch' within one beat and stop just as suddenly, versus building up and fading over minutes. Ask what the patient was doing at onset, whether vagal manoeuvres (breath-hold, straining, cold water) stop it, and how long episodes last.",
+  "prerequisites": "Patient has had at least one episode they can describe; a recorded rhythm during symptoms remains the reference.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Sudden-onset, sudden-offset rapid regular palpitations, especially if terminated by vagal manoeuvres, are the classic description of re-entrant SVT and are widely used to prioritise rhythm monitoring.",
+  "negative_finding": "Gradual onset and offset suggests sinus tachycardia (anxiety, exertion, secondary causes); the 2009 RCE found no historical feature other than neck pounding that reliably excludes a significant arrhythmia.",
+  "pitfalls": "Patients often cannot judge onset speed; AF may also start abruptly. The RCE found episodes lasting under 5 minutes made arrhythmia slightly less likely (LR 0.38), so duration and onset pattern should be weighed together.",
+  "changes_what": "Positive: prioritise symptom-rhythm correlation (event/loop recorder) and teach vagal manoeuvres. Negative: does not exclude arrhythmia; monitor if symptoms are recurrent or concerning."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Thavendiranathan P, Bagai A, Khoo C, Dorian P, Choudhry NK. Does this patient with palpitations have a cardiac arrhythmia? JAMA. 2009;302(19):2135-2143.",
+   "doi": "10.1001/jama.2009.1673",
+   "pmid": "19920238",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2009
+  },
+  {
+   "citation": "Weber BE, Kapoor WN. Evaluation and outcomes of patients with palpitations. Am J Med. 1996;100(2):138-148.",
+   "doi": "10.1016/s0002-9343(97)89451-x",
+   "pmid": "8629647",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1996
+  },
+  {
+   "citation": "Hoefman E, Boer KR, van Weert HC, Reitsma JB, Koster RW, Bindels PJ. Predictive value of history taking and physical examination in diagnosing arrhythmias in general practice. Fam Pract. 2007;24(6):636-641.",
+   "doi": null,
+   "pmid": "17986627",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2007
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use a 'gradual' description to dismiss palpitations accompanied by syncope, chest pain, or known structural heart disease.",
+  "escalation_warning": "Abrupt palpitations with syncope, exertional onset, or a family history of sudden death need ECG and cardiology assessment for VT/pre-excitation, not reassurance.",
+  "interobserver_note": "The 2009 RCE notes most data come from single small studies; reproducibility of onset/offset descriptions is unreported."
+ },
+ "tier": "extracted",
+ "extraction_notes": "No diagnostic-accuracy estimate for abrupt onset/termination could be located. The 2009 RCE abstract (PMID 19920238) lists the features with significant LRs (cardiac disease history, sleep/work triggers, panic disorder, duration <5 min LR 0.38 [0.22-0.63], neck pounding) and states 'No other features significantly alter the probability of clinically significant arrhythmia'; the article's Table 2 (not PMC open access) could not be inspected to confirm whether onset pattern was analysed. Weber & Kapoor 1996 (structured interview cohort, 190 patients) is the main primary cohort but its abstract gives no per-feature accuracy. Hoefman 2007 (127 GP patients, 30-day event recorder) found GP prediction inaccurate and reports only ORs for vasovagal symptoms and bradycardia. Abstracts of narrative reviews (e.g. MJA 2009) assert sudden-onset regular palpitations characterise SVT but are not accuracy studies and were not cited.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T01:47:57+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{{ rid }} — verify</title>
+<style>
+  body { font-family: system-ui, sans-serif; margin: 1rem 1.5rem; color: #222; font-size: .88rem; }
+  h1 { font-size: 1.2rem; margin: 0; } h2 { font-size: 1rem; margin: 1.2rem 0 .4rem; }
+  .bar { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; margin-bottom: .6rem; }
+  .flags { background: #fff3cd; border: 1px solid #e5d18a; padding: .5rem .8rem; margin: .5rem 0; }
+  .flags.err { background: #f8d7da; border-color: #d9a0a6; }
+  .rt { color: #a33; }
+  .notice { background: #dff5e1; padding: .4rem .8rem; }
+  table.diff { border-collapse: collapse; width: 100%; table-layout: fixed; }
+  table.diff th, table.diff td { border: 1px solid #ddd; padding: .3rem .45rem; vertical-align: top; word-wrap: break-word; }
+  table.diff th { background: #f4f4f4; }
+  td.field { width: 11%; color: #555; font-family: ui-monospace, monospace; font-size: .8rem; }
+  td.a, td.b { width: 29.5%; white-space: pre-wrap; }
+  td.draft { width: 30%; }
+  td.diff { background: #ffe9c7; }
+  td.missing { background: #f8d7da; }
+  .est { border: 1px solid #ccc; margin: .4rem 0; padding: .3rem .5rem; }
+  .est .k { color: #555; font-family: ui-monospace, monospace; font-size: .78rem; }
+  .est .hl { background: #ffe9c7; }
+  input[type=text], textarea, select { width: 100%; box-sizing: border-box; font: inherit; }
+  textarea { min-height: 3.2rem; } textarea.json { font-family: ui-monospace, monospace; font-size: .8rem; min-height: 12rem; }
+  .jsonstatus { font-size: .8rem; } .jsonstatus.ok { color: #2a7; } .jsonstatus.bad { color: #c22; }
+  .actions { position: sticky; bottom: 0; background: #fff; border-top: 2px solid #ccc; padding: .6rem 0; display: flex; gap: .6rem; align-items: center; }
+  button { font: inherit; padding: .4rem .9rem; cursor: pointer; }
+  button.promote { background: #2a7; color: #fff; border: 0; } button.reject { background: #c33; color: #fff; border: 0; }
+  kbd { background: #eee; border: 1px solid #bbb; border-radius: 3px; padding: 0 .3rem; font-size: .8rem; }
+  a.src { word-break: break-all; }
+  .mono { font-family: ui-monospace, monospace; }
+</style>
+</head>
+<body>
+<div class="bar">
+  <a href="/">← queue</a>
+  <h1><span class="mono">{{ rid }}</span> — {{ form.title }}</h1>
+  <span>status: <b>{{ cmp.status }}</b></span>
+  {% if existing %}<span>already verified v{{ existing.record_version }} ({{ existing.verified_at }}) — promoting writes v{{ existing.record_version + 1 }}</span>{% endif %}
+  <span>draft from: <b>{{ from_agent }}</b> ·
+    <a href="/r/{{ rid }}?from=A">start from A</a> · <a href="/r/{{ rid }}?from=B">start from B</a>
+    {% if has_draft %}· <a href="/r/{{ rid }}?from=draft">saved draft</a>{% endif %}</span>
+</div>
+
+{% if problems %}
+<div class="flags err"><b>Not written.</b> Fix these and retry:<ul>{% for p in problems %}<li>{{ p }}</li>{% endfor %}</ul></div>
+{% endif %}
+{% if notice %}<div class="notice">{{ notice }}</div>{% endif %}
+
+<div class="flags">
+  <b>diff_report flags ({{ cmp.flags|length }})</b>
+  {% if cmp.flags %}<ul>{% for f in cmp.flags %}<li>{{ f }}</li>{% endfor %}</ul>{% else %} — none{% endif %}
+  {% for a, msg in invalid.items() %}<div class="rt">INVALID JSON ({{ a }}): {{ msg }}</div>{% endfor %}
+  {% if redteam %}<b>red-team mentions</b><ul>{% for h in redteam %}<li class="rt">{{ h.file }}:{{ h.line }} {{ h.text }}</li>{% endfor %}</ul>{% endif %}
+</div>
+
+<form method="post" action="/r/{{ rid }}/promote" id="draftform">
+<input type="hidden" name="from_agent" value="{{ from_agent }}">
+<input type="hidden" name="base_agent" value="{{ form.base_agent }}">
+<input type="hidden" name="extracted_at" value="{{ form.extracted_at }}">
+
+<h2>Fields</h2>
+<table class="diff">
+  <thead><tr><th>field</th><th>A — {{ agent_a }}</th><th>B — {{ agent_b }}</th><th>verified draft (editable)</th></tr></thead>
+  <tbody>
+  {% for r in rows %}
+    <tr>
+      <td class="field">{{ r.section }}.{{ r.field }}</td>
+      <td class="a{% if r.diff %} diff{% endif %}">{{ r.a }}</td>
+      <td class="b{% if r.diff %} diff{% endif %}">{{ r.b }}</td>
+      <td class="draft">
+        {% if r.field == 'id' %}<span class="mono">{{ rid }}</span>
+        {% elif r.field == 'type' %}
+          <select name="type">
+            {% for t in type_options %}<option value="{{ t }}"{% if form.type == t %} selected{% endif %}>{{ t }}</option>{% endfor %}
+          </select>
+        {% elif r.field == 'evidence_status' %}
+          <select name="evidence_status">
+            {% for s in evidence_status_options %}<option value="{{ s }}"{% if form.evidence_status == s %} selected{% endif %}>{{ s }}</option>{% endfor %}
+          </select>
+        {% elif r.field in ('title',) or r.section == 'clinical_mapping' %}
+          <input type="text" name="{{ r.field }}" value="{{ form[r.field] }}"{% if r.section == 'clinical_mapping' %} placeholder="comma-separated vocab strings"{% endif %}>
+        {% else %}
+          <textarea name="{{ r.field }}">{{ form[r.field] }}</textarea>
+        {% endif %}
+      </td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+<h2>Estimates ({{ estimates|length }} aligned by target | population | setting)</h2>
+<table class="diff">
+  <thead><tr><th style="width:35%">A — {{ agent_a }}</th><th style="width:35%">B — {{ agent_b }}</th><th>verified draft estimates (JSON)</th></tr></thead>
+  <tbody>
+  {% for p in estimates %}
+    <tr>
+      {% for side in ('a', 'b') %}
+      {% set e = p[side] %}
+      <td class="{{ side }}{% if p.missing %} missing{% endif %}">
+        {% if e %}
+          <div class="est">
+          {% for k, v in e.fields %}{% if v %}<div{% if k in p.diffs or '*' in p.diffs %} class="hl"{% endif %}><span class="k">{{ k }}</span> {{ v }}</div>{% endif %}{% endfor %}
+          <div><span class="k">source[{{ e.source_index }}]</span> {{ e.citation }}
+            {% if e.url %}<br><a class="src" href="{{ e.url }}" target="_blank" rel="noopener">{{ e.url }}</a>{% else %}<br><i>no PMID/DOI — no link</i>{% endif %}</div>
+          </div>
+        {% else %}<i>absent in {{ side|upper }}</i>{% endif %}
+      </td>
+      {% endfor %}
+      {% if loop.first %}
+      <td class="draft" rowspan="{{ estimates|length }}">
+        <textarea class="json" name="estimates_json" id="estimates_json">{{ form.estimates_json }}</textarea>
+        <div class="jsonstatus" id="estimates_status"></div>
+      </td>
+      {% endif %}
+    </tr>
+  {% else %}
+    <tr><td class="a"><i>no estimates</i></td><td class="b"><i>no estimates</i></td>
+      <td class="draft"><textarea class="json" name="estimates_json" id="estimates_json">{{ form.estimates_json }}</textarea>
+        <div class="jsonstatus" id="estimates_status"></div></td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+<h2>Sources</h2>
+<table class="diff">
+  <thead><tr><th style="width:35%">A — {{ agent_a }}</th><th style="width:35%">B — {{ agent_b }}</th><th>verified draft sources (JSON)</th></tr></thead>
+  <tbody><tr>
+    {% for side, srcs in (('a', sources_a), ('b', sources_b)) %}
+    <td class="{{ side }}">
+      {% for s in srcs %}<div class="est"><span class="k">[{{ s.index }}] {{ s.kind }} {{ s.year }}</span> {{ s.citation }}
+        {% if s.url %}<br><a class="src" href="{{ s.url }}" target="_blank" rel="noopener">{{ s.url }}</a>{% else %}<br><i>no PMID/DOI</i>{% endif %}</div>{% endfor %}
+    </td>
+    {% endfor %}
+    <td class="draft"><textarea class="json" name="sources_json" id="sources_json">{{ form.sources_json }}</textarea>
+      <div class="jsonstatus" id="sources_status"></div></td>
+  </tr></tbody>
+</table>
+
+<h2>Verification notes <small>(reason on Reject)</small></h2>
+<textarea name="verification_notes" id="verification_notes" placeholder="What you read, where, and what you confirmed or changed.">{{ form.verification_notes }}</textarea>
+
+<div class="actions">
+  <button type="submit" class="promote" formaction="/r/{{ rid }}/promote" id="btn_promote">Promote <kbd>p</kbd></button>
+  <button type="submit" class="reject" formaction="/r/{{ rid }}/reject" formnovalidate id="btn_reject">Reject <kbd>r</kbd></button>
+  <button type="submit" formaction="/r/{{ rid }}/draft" id="btn_draft">Edit later (save draft)</button>
+  {% if next_id %}<a href="/r/{{ next_id }}" id="lnk_next">Skip → {{ next_id }} <kbd>n</kbd></a>{% else %}<a href="/" id="lnk_next">Skip → queue <kbd>n</kbd></a>{% endif %}
+  <span style="color:#666">Writes only to records/verified, records/rejected, records/drafts.</span>
+</div>
+</form>
+
+<script>
+(function () {
+  var REQ = ["target_condition", "population", "setting", "reference_standard", "source_index"];
+  function check(id, statusId, isEst) {
+    var ta = document.getElementById(id), st = document.getElementById(statusId);
+    if (!ta || !st) return true;
+    try {
+      var v = JSON.parse(ta.value || "[]");
+      if (!Array.isArray(v)) throw new Error("must be a JSON array");
+      var probs = [];
+      v.forEach(function (e, i) {
+        if (typeof e !== "object" || e === null) { probs.push("[" + i + "] not an object"); return; }
+        if (isEst) REQ.forEach(function (k) { if (!(k in e)) probs.push("[" + i + "] missing " + k); });
+        if (isEst) ["sensitivity", "specificity", "lr_positive", "lr_negative"].forEach(function (k) {
+          if (e[k] != null && (typeof e[k] !== "object" || typeof e[k].value !== "number")) probs.push("[" + i + "]." + k + " must be {value, ci_low, ci_high} or null");
+        });
+        if (isEst && e.quote && e.quote.split(/\s+/).length > 25) probs.push("[" + i + "] quote > 25 words");
+      });
+      st.className = "jsonstatus " + (probs.length ? "bad" : "ok");
+      st.textContent = probs.length ? probs.join("; ") : ("valid JSON, " + v.length + " item(s)");
+      return probs.length === 0;
+    } catch (err) { st.className = "jsonstatus bad"; st.textContent = "invalid JSON: " + err.message; return false; }
+  }
+  ["estimates_json", "sources_json"].forEach(function (id) {
+    var ta = document.getElementById(id); if (!ta) return;
+    var run = function () { check(id, id.replace("_json", "_status"), id === "estimates_json"); };
+    ta.addEventListener("input", run); run();
+  });
+  document.addEventListener("keydown", function (ev) {
+    var t = ev.target && ev.target.tagName;
+    if (t === "INPUT" || t === "TEXTAREA" || t === "SELECT" || ev.ctrlKey || ev.metaKey || ev.altKey) return;
+    if (ev.key === "p") { ev.preventDefault(); document.getElementById("btn_promote").click(); }
+    else if (ev.key === "r") {
+      ev.preventDefault();
+      var notes = document.getElementById("verification_notes");
+      if (!notes.value.trim()) { notes.focus(); notes.placeholder = "Give a reason, then press Reject."; return; }
+      document.getElementById("btn_reject").click();
+    }
+    else if (ev.key === "n") { ev.preventDefault(); window.location = document.getElementById("lnk_next").href; }
+  });
+})();
+</script>
+</body>
+</html>
