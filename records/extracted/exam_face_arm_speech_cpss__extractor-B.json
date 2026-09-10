@@ -1,0 +1,150 @@
+{
+ "identity": {
+  "id": "exam_face_arm_speech_cpss",
+  "title": "Facial droop, arm drift, abnormal speech (Cincinnati/FAST screen)",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dizziness",
+   "ams",
+   "weakness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "bell_palsy",
+   "hypoglycemia",
+   "posterior_circulation_stroke",
+   "stroke"
+  ],
+  "indication_tags": [
+   "acute_onset"
+  ]
+ },
+ "technique": {
+  "how": "Ask the patient to smile or show teeth (look for asymmetric facial movement); hold both arms out palms-up with eyes closed for 10 s (look for one arm drifting down); repeat a simple sentence (listen for slurred or wrong words or inability to speak). Any one abnormal item is a positive screen.",
+  "prerequisites": "Patient awake enough to follow commands; check a fingerstick glucose alongside the screen.",
+  "contraindications": "None; do not delay stroke activation to complete the screen if a deficit is already obvious."
+ },
+ "interpretation": {
+  "positive_finding": "Any of new facial paresis, arm drift, or abnormal speech: pooled LR about 5.5 for stroke, higher for anterior-circulation events.",
+  "negative_finding": "All three items normal lowers but does not exclude stroke (pooled LR about 0.4); posterior-circulation strokes presenting with dizziness or ataxia are frequently missed by this screen.",
+  "pitfalls": "Isolated lower-facial weakness with forehead sparing suggests central lesion, whereas whole-face weakness suggests Bell palsy; hypoglycemia and post-ictal (Todd) paresis mimic all three items. Pre-existing deficits and dysarthria from intoxication produce false positives.",
+  "changes_what": "Positive: activate stroke pathway and get immediate neuroimaging plus glucose. Negative in a dizzy or ataxic patient: do NOT stop; proceed to gait and HINTS-type assessment."
+ },
+ "estimates": [
+  {
+   "target_condition": "Acute stroke (ischemic or hemorrhagic), final diagnosis after neuroimaging",
+   "population": "Adults with neurologically relevant symptoms evaluated for possible stroke (pooled from studies using modern neuroimaging)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Final clinical diagnosis after neuroimaging and relevant laboratory tests",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 5.5,
+    "ci_low": 3.3,
+    "ci_high": 9.1
+   },
+   "lr_negative": {
+    "value": 0.39,
+    "ci_low": 0.25,
+    "ci_high": 0.61
+   },
+   "computed": false,
+   "interpretation_label": "both",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "LR of > or =1 finding = 5.5; 95% CI, 3.3-9.1 ... LR of 0 findings = 0.39; 95% CI, 0.25-0.61",
+   "location": "Abstract, Results (LR for >=1 of facial paresis, arm drift, abnormal speech vs 0 findings)"
+  },
+  {
+   "target_condition": "Stroke or TIA (physician-scored CPSS, any 1 of 3 items abnormal)",
+   "population": "Convenience sample of 171 ED and neurology inpatients, 49 with stroke/TIA",
+   "setting": "mixed",
+   "prevalence": 0.287,
+   "reference_standard": "Final diagnosis of stroke or TIA (physician certified in NIH Stroke Scale scored the CPSS)",
+   "sensitivity": {
+    "value": 0.66,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.87,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 5.08,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.39,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "LRs computed from abstract sens 0.66 and spec 0.87: LR+ = 0.66/(1-0.87) = 5.08; LR- = (1-0.66)/0.87 = 0.39. Prevalence = 49/171.",
+   "interpretation_label": "both",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "Observation by the physician of an abnormality in any 1 of the 3 stroke scale items had a sensitivity of 66% and specificity of 87%",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Anterior-circulation stroke (physician-scored CPSS)",
+   "population": "Same 171-patient ED/neurology-inpatient sample, anterior-circulation stroke subgroup",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Final diagnosis of stroke with anterior-circulation localization",
+   "sensitivity": {
+    "value": 0.88,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_out",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "The sensitivity was 88% for identification of patients with anterior circulation strokes.",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Goldstein LB, Simel DL. Is this patient having a stroke? JAMA. 2005;293(19):2391-2402.",
+   "doi": "10.1001/jama.293.19.2391",
+   "pmid": "15900010",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2005
+  },
+  {
+   "citation": "Kothari RU, Pancioli A, Liu T, Brott T, Broderick J. Cincinnati Prehospital Stroke Scale: reproducibility and validity. Ann Emerg Med. 1999;33(4):373-378.",
+   "doi": "10.1016/s0196-0644(99)70299-4",
+   "pmid": "10092713",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1999
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use a negative screen to exclude posterior-circulation stroke in acute dizziness, ataxia, or isolated visual loss; sensitivity for those presentations is low.",
+  "escalation_warning": "Any positive item with acute onset is a time-critical stroke until proven otherwise; check glucose but do not wait for other workup before imaging and stroke-team activation.",
+  "interobserver_note": "Kothari 1999: prehospital-provider reproducibility ICC 0.89 for total score (arm weakness 0.91, speech 0.84, facial droop 0.75); Goldstein 2005: reliability of individual neurological findings ranges slight to almost perfect, improved by NIHSS-style standardization."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Pooled LRs taken verbatim from the JAMA RCE abstract (PMID 15900010); the two LR fragments are joined with an ellipsis because the full sentence exceeds 25 words. Kothari 1999 numbers are from the abstract; the RCE prior probability of stroke (10%) is a pretest estimate, not a study prevalence, so prevalence is left null for the pooled entry. Full RCE table not accessible (JAMA not in PMC), so location is the abstract.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T02:00:23+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

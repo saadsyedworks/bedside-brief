@@ -1,0 +1,77 @@
+{
+ "identity": {
+  "id": "exam_sensory_level_upper_motor_neuron_signs",
+  "title": "Sensory level with hyperreflexia / extensor plantar (Babinski) below the level",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "aki",
+   "weakness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "gbs",
+   "obstruction_retention",
+   "spinal_cord_compression",
+   "stroke"
+  ],
+  "indication_tags": [
+   "malignancy",
+   "bilateral"
+  ]
+ },
+ "technique": {
+  "how": "Test pinprick and light touch moving upward from the feet on the trunk to find a dermatome above which sensation becomes normal; confirm with temperature (cold tuning fork). Test knee and ankle reflexes, clonus, and the plantar response by stroking the lateral sole from heel toward the toes with a blunt object; check bladder with a post-void residual.",
+  "prerequisites": "Cooperative patient able to report sensation; know dermatome landmarks (T4 nipple, T10 umbilicus, L1 inguinal); compare bilaterally.",
+  "contraindications": "None; in acute spinal shock reflexes may be absent below the level for days, so hyporeflexia does not exclude cord compression."
+ },
+ "interpretation": {
+  "positive_finding": "A bilateral sensory level on the trunk with hyperreflexia, clonus, or extensor plantars below it localizes to the spinal cord and, with back pain in a patient with cancer, indicates metastatic cord compression until MRI proves otherwise.",
+  "negative_finding": "Absence of a sensory level or of upper motor neuron signs does not exclude early cord compression, because acute lesions can present with flaccidity and areflexia (spinal shock) and sensory levels are often imprecise; in GBS reflexes are lost and no level is found.",
+  "pitfalls": "The Babinski sign has only fair inter-rater reliability (kappa 0.30) and agreed with known upper motor neuron weakness in just 56% of examinations; withdrawal from a ticklish sole mimics an extensor response. The clinical level often lies several segments below the true lesion, so image the whole spine.",
+  "changes_what": "Positive: emergency whole-spine MRI, dexamethasone if malignancy suspected, spinal/oncology referral. Negative in suspected GBS: pursue neuromuscular workup; retained UMN signs argue against GBS."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Miller TM, Johnston SC. Should the Babinski sign be part of the routine neurologic examination? Neurology. 2005;65(8):1165-1168.",
+   "doi": "10.1212/01.wnl.0000180608.76190.10",
+   "pmid": "16247040",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2005
+  },
+  {
+   "citation": "O'Phelan KH, Bunney EB, Weingart SD, Smith WS. Emergency neurological life support: spinal cord compression (SCC). Neurocrit Care. 2012;17 Suppl 1:S96-S101.",
+   "doi": "10.1007/s12028-012-9756-3",
+   "pmid": "22956117",
+   "url": null,
+   "kind": "consensus",
+   "year": 2012
+  },
+  {
+   "citation": "National Institute for Health and Care Excellence. Spinal metastases and metastatic spinal cord compression. NICE guideline NG234. 2023.",
+   "doi": null,
+   "pmid": null,
+   "url": "https://www.nice.org.uk/guidance/ng234",
+   "kind": "guideline",
+   "year": 2023
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not rely on absent hyperreflexia or a normal plantar response to exclude acute cord compression, and do not delay imaging to complete a detailed sensory map.",
+  "escalation_warning": "New bilateral leg weakness, a sensory level, or new bladder dysfunction in a patient with known cancer is metastatic spinal cord compression until MRI proves otherwise; outcome depends on ambulatory status at treatment, so image within hours.",
+  "interobserver_note": "Babinski sign inter-rater reliability was fair (kappa 0.30) among 10 physicians, with no difference between neurologists and non-specialists; sensory level determination is examiner- and patient-dependent and no reliability data were located."
+ },
+ "tier": "extracted",
+ "extraction_notes": "No diagnostic-accuracy study of a bedside sensory level or UMN signs against MRI for cord compression was located (searches: 'metastatic spinal cord compression sensory level sensitivity clinical signs' returned only the ENLS consensus protocol). Miller 2006 provides reliability (kappa 0.30) and 56% agreement of the Babinski sign with known UMN weakness in 10 subjects; this is agreement, not sensitivity/specificity against a reference standard, so it is recorded in notes rather than as an estimate. NICE NG234 (2023) has no PMID; cited by URL as the guideline supporting the maneuver. Note PubMed lists Miller as 2006 (epub 2005 print).",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T02:00:23+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

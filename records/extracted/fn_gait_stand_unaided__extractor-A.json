@@ -1,0 +1,254 @@
+{
+ "identity": {
+  "id": "fn_gait_stand_unaided",
+  "title": "Ability to stand and walk unaided (truncal ataxia grade; inability = central marker)",
+  "type": "functional",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dizziness",
+   "ams",
+   "weakness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "intoxication_withdrawal",
+   "posterior_circulation_stroke",
+   "stroke",
+   "vestibular_neuritis",
+   "wernicke"
+  ],
+  "indication_tags": [
+   "acute_onset",
+   "elderly"
+  ]
+ },
+ "technique": {
+  "how": "With an assistant ready, ask the patient to sit unsupported, then stand, then walk a few metres. Grade truncal/gait instability: 0 = normal; 1 = mild sway but walks unaided; 2 = walks only with support/one-sided assistance; 3 = cannot stand or walk even with support (or cannot sit without arm support). If the patient cannot get up, note whether they can sit still unassisted.",
+  "prerequisites": "Adequate blood pressure and no orthostatic symptoms; assistant present for fall prevention. Compare with baseline mobility in elderly or frail patients.",
+  "contraindications": "Do not attempt to stand a hypotensive, actively vomiting or obtunded patient; use the sitting test instead."
+ },
+ "interpretation": {
+  "positive_finding": "Grade 3 instability (cannot stand or walk unaided) in acute vertigo is almost exclusively central - pooled specificity about 99% (LR+ high), and 0/25 peripheral patients in Kattah 2009. Grade 2-3 instability is more sensitive (71-81% pooled) but less specific (83%).",
+  "negative_finding": "Walking unaided does not exclude posterior-circulation stroke: grade 3 instability is present in only about 36-44% of central AVS, so a patient who can walk still needs HINTS and imaging assessment when indicated.",
+  "pitfalls": "Peripheral vestibular neuritis causes unsteadiness (grade 1-2) that is easily over-called, especially in the elderly, the intoxicated or those with prior neuropathy; sedatives, Wernicke encephalopathy and alcohol withdrawal also produce ataxia. Grading systems differ (Lee 2006 vs Moon 2009), which changes sensitivity.",
+  "changes_what": "Cannot stand/walk unaided (grade 3): treat as central; stroke work-up regardless of HINTS. Walks unaided: lowers but does not remove need for HINTS; still image if other red flags."
+ },
+ "estimates": [
+  {
+   "target_condition": "Central acute vestibular syndrome (stroke or other central lesion) - severe (grade 3) gait/truncal instability",
+   "population": "Pooled AVS cohorts (10 study cohorts, n=800; stroke and vestibular neuritis)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Delayed MRI-DWI for peripheral cases; confirmatory neuroimaging for stroke",
+   "sensitivity": {
+    "value": 0.358,
+    "ci_low": 0.052,
+    "ci_high": 0.665
+   },
+   "specificity": {
+    "value": 0.992,
+    "ci_low": 0.978,
+    "ci_high": 1.0
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "Severe (grade 3) gait/truncal instability had high specificity 99.2% (95% CI = 97.8-100.0) but low sensitivity 35.8% (95% CI = 5.2-66.5).",
+   "location": "Abstract, Results (Ann Neurol 2023;94:295; PMC10524166)"
+  },
+  {
+   "target_condition": "Central acute vestibular syndrome - grade 2 or 3 gait/truncal instability",
+   "population": "Pooled AVS cohorts (Ann Neurol 2023 meta-analysis)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Delayed MRI-DWI for peripheral cases; confirmatory neuroimaging for stroke",
+   "sensitivity": {
+    "value": 0.808,
+    "ci_low": 0.451,
+    "ci_high": 1.0
+   },
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "highest for a normal hHIT (79.9% [95% CI 72.2-87.5]), grade 2 or 3 gait/truncal instability (80.8% [45.1-100.0])",
+   "location": "Results, 'Diagnostic accuracy of bedside examination findings' (Ann Neurol 2023;94:295; PMC10524166); supplementary Table 2"
+  },
+  {
+   "target_condition": "Central cause of acute prolonged vertigo/imbalance - grade 2/3 graded gait/truncal instability (GTI)",
+   "population": "18 studies, 1025 patients with acute vestibular syndrome (665 ischemic strokes, 306 acute unilateral vestibulopathy)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Neuroimaging-based final diagnosis",
+   "sensitivity": {
+    "value": 0.708,
+    "ci_low": 0.593,
+    "ci_high": 0.823
+   },
+   "specificity": {
+    "value": 0.827,
+    "ci_low": 0.716,
+    "ci_high": 0.938
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 1,
+   "quote": "Grade 2/3 GTI had moderate sensitivity (70.8% [95% confidence-interval (CI) = 59.3-82.3%]) and specificity (82.7 [71.6-93.8%]) for predicting a central cause",
+   "location": "Abstract, Results (Cerebellum 2024; PMC11585515)"
+  },
+  {
+   "target_condition": "Central cause of acute prolonged vertigo/imbalance - grade 3 GTI (cannot stand/walk unaided)",
+   "population": "Same 18-study, 1025-patient AVS pool",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Neuroimaging-based final diagnosis",
+   "sensitivity": {
+    "value": 0.44,
+    "ci_low": 0.343,
+    "ci_high": 0.537
+   },
+   "specificity": {
+    "value": 0.991,
+    "ci_low": 0.98,
+    "ci_high": 1.0
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 1,
+   "quote": "grade 3 GTI had a lower sensitivity (44.0% [34.3-53.7%] and higher specificity (99.1% [98.0-100.0%]).",
+   "location": "Abstract, Results (Cerebellum 2024; PMC11585515)"
+  },
+  {
+   "target_condition": "AICA/PICA-territory stroke vs vestibular neuritis - grade 2-3 truncal ataxia (including inability to sit still as substitute)",
+   "population": "52 prospectively studied AVS patients (stroke and vestibular neuritis)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Brain MRI",
+   "sensitivity": {
+    "value": 0.92,
+    "ci_low": 0.79,
+    "ci_high": 1.0
+   },
+   "specificity": {
+    "value": 0.67,
+    "ci_low": 0.47,
+    "ci_high": 0.86
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_out",
+   "evidence_level": "single_study",
+   "source_index": 2,
+   "quote": "grade 2-3 ataxia to differentiate patients with vestibular neuritis from patients with stroke resulted in a 92% sensitivity (95% CI 79-100%), a 67% specificity",
+   "location": "Abstract, Results (J Neurol Sci 2022;441:120374)"
+  },
+  {
+   "target_condition": "Ischemic stroke in AVS - severe truncal ataxia (cannot sit unassisted)",
+   "population": "101 consecutive high-risk AVS patients (69 ischemic strokes vs 25 peripheral) at a stroke referral center",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "MRI (or CT) for stroke; normal MRI plus clinical follow-up for peripheral",
+   "sensitivity": {
+    "value": 0.33,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 1.0,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": null,
+   "lr_negative": {
+    "value": 0.67,
+    "ci_low": 0.56,
+    "ci_high": 0.79
+   },
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "single_study",
+   "source_index": 3,
+   "quote": "Severe truncal ataxia 33% 100% 0.67 (0.56-0.79)",
+   "location": "Table 4 (Sensitivity n=69, Specificity n=25), Stroke 2009;40:3504 (PMC4593511)"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Tarnutzer AA, Gold D, Wang Z, et al. Impact of clinician training background and stroke location on bedside diagnostic test accuracy in the acute vestibular syndrome - a meta-analysis. Ann Neurol. 2023;94(2):295-308.",
+   "doi": "10.1002/ana.26661",
+   "pmid": "37038843",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2023
+  },
+  {
+   "citation": "Systematic review and meta-analysis of the diagnostic accuracy of a graded gait and truncal instability rating in acutely dizzy and ataxic patients. Cerebellum. 2024.",
+   "doi": "10.1007/s12311-024-01718-6",
+   "pmid": "38990511",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2024
+  },
+  {
+   "citation": "Kattah JC, Martinez C, Zalazar G, Batuecas A, Lemos J, Carmona S. Role of incubitus truncal ataxia, and equivalent standing grade 3 ataxia in the diagnosis of central acute vestibular syndrome. J Neurol Sci. 2022;441:120374.",
+   "doi": "10.1016/j.jns.2022.120374",
+   "pmid": "36063733",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2022
+  },
+  {
+   "citation": "Kattah JC, Talkad AV, Wang DZ, Hsieh YH, Newman-Toker DE. HINTS to diagnose stroke in the acute vestibular syndrome: three-step bedside oculomotor examination more sensitive than early MRI diffusion-weighted imaging. Stroke. 2009;40(11):3504-3510.",
+   "doi": "10.1161/STROKEAHA.109.551234",
+   "pmid": "19762709",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2009
+  },
+  {
+   "citation": "Carmona S, Martinez C, Zalazar G, Koohi N, Kaski D. Acute truncal ataxia without nystagmus in patients with acute vertigo. Eur J Neurol. 2023;30(6):1785-1790.",
+   "doi": "10.1111/ene.15729",
+   "pmid": "36752029",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2023
+  },
+  {
+   "citation": "Tarnutzer AA, Berkowitz AL, Robinson KA, Hsieh YH, Newman-Toker DE. Does my dizzy patient have a stroke? A systematic review of bedside diagnosis in acute vestibular syndrome. CMAJ. 2011;183(9):E571-E592.",
+   "doi": "10.1503/cmaj.100174",
+   "pmid": "21576300",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2011
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not stand hypotensive, vomiting or obtunded patients; interpret with caution in patients with baseline gait impairment (neuropathy, parkinsonism, prior stroke, intoxication) where inability to walk is not new.",
+  "escalation_warning": "New inability to stand or walk unaided with acute vertigo is a central sign until proven otherwise, even with a normal CT and a peripheral-appearing HINTS; Carmona 2023 found truncal ataxia without nystagmus in 15% of acute-vertigo patients, mostly strokes.",
+  "interobserver_note": "Sensitivity differs by grading scheme used (Lee 2006 grade 2/3: 73.8% vs Moon 2009: 57.4%, p=0.001, Cerebellum 2024); no kappa data identified. Grade 3 (cannot stand) is the most reproducible cut-off."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Two pooled sources (Ann Neurol 2023 via PMC full text; Cerebellum 2024 via abstract) give grade-3 and grade-2/3 estimates separately; they overlap in included studies but use different pools and are reported separately, not averaged. Ann Neurol 2023 grade-2/3 specificity is in its supplementary Table 2, which I could not view, so it is null. Kattah 2022 (abstract) reports grade 2-3 ataxia sens/spec for stroke vs neuritis with MRI standard. Kattah 2009 Table 4 values read from PMC full text (severe truncal ataxia = inability to sit without arm support). Tarnutzer 2011 CMAJ (anchor) has abstract-only PMC deposit, so cited without numbers; Carmona 2023 cited for the ataxia-without-nystagmus caveat (15% of cohort, abstract).",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:00:17+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

@@ -1,0 +1,82 @@
+{
+ "identity": {
+  "id": "hx_back_pain_cancer_history",
+  "title": "New or progressive back pain in a patient with known cancer (or age >50, night pain, weight loss)",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "weakness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "cauda_equina",
+   "spinal_cord_compression"
+  ],
+  "indication_tags": [
+   "malignancy",
+   "elderly"
+  ]
+ },
+ "technique": {
+  "how": "Ask specifically about any prior cancer diagnosis (including remote and 'cured'), and characterize the pain: onset, progression, night or rest pain, thoracic location, unexplained weight loss, and duration over one month. Then screen for cord/cauda equina symptoms: leg weakness, gait change, saddle numbness, urinary retention or incontinence.",
+  "prerequisites": "Reliable history or collateral; access to oncology records if the patient is unsure.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "A prior cancer history is the only red flag shown to substantially raise the probability of spinal malignancy: post-test probability 7% in primary care and 33% in an ED cohort. With new neurological symptoms treat as possible metastatic cord compression.",
+  "negative_finding": "No cancer history makes spinal malignancy unlikely in primary care (prevalence <1%), but minor red flags (age >50, weight loss, failure to improve) are weakly informative and cannot exclude it.",
+  "pitfalls": "Age >50, night pain and weight loss have high false-positive rates when used alone. Sensitivity of 'history of cancer' is modest, so its absence does not clear a patient with progressive or thoracic pain.",
+  "changes_what": "Positive: same-day whole-spine MRI (urgent if any neurological deficit) and dexamethasone per local pathway; negative: routine care unless other red flags accumulate."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Downie A, Williams CM, Henschke N, et al. Red flags to screen for malignancy and fracture in patients with low back pain: systematic review. BMJ 2013;347:f7095.",
+   "doi": "10.1136/bmj.f7095",
+   "pmid": "24335669",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2013
+  },
+  {
+   "citation": "Henschke N, Maher CG, Ostelo RW, de Vet HC, Macaskill P, Irwig L. Red flags to screen for malignancy in patients with low-back pain. Cochrane Database Syst Rev 2013;2:CD008686.",
+   "doi": "10.1002/14651858.CD008686.pub2",
+   "pmid": "23450586",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2013
+  },
+  {
+   "citation": "Deyo RA, Diehl AK. Cancer as a cause of back pain: frequency, clinical presentation, and diagnostic strategies. J Gen Intern Med 1988;3:230-238.",
+   "doi": "10.1007/BF02596337",
+   "pmid": "2967893",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1988
+  },
+  {
+   "citation": "Deyo RA, Rainville J, Kent DL. What can the history and physical examination tell us about low back pain? JAMA 1992;268:760-765.",
+   "doi": null,
+   "pmid": "1386391",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1992
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Not a substitute for a neurological examination; do not let an absent cancer history delay imaging when there are motor, sensory or sphincter symptoms.",
+  "escalation_warning": "Back pain plus leg weakness, saddle anaesthesia or urinary retention in a cancer patient is metastatic cord compression until proven otherwise: emergency MRI and steroids.",
+  "interobserver_note": "Red-flag questions are reproducible but their reported accuracy varies with how 'history of cancer' is defined (any vs. active) and with setting prevalence."
+ },
+ "tier": "extracted",
+ "extraction_notes": "No sens/spec/LR could be verified for 'history of cancer': they appear only in Downie 2013 Fig 4 (image) and in the non-OA Cochrane (Henschke 2013) and JAMA RCE (Deyo 1992) tables, so estimates are empty. Post-test probabilities visible in the OA BMJ text (PMC3898572, Results, 'Red flags for spinal malignancy' paragraph): 'When present, \"history of cancer\" suggests a post-test probability of 7% (95% confidence interval 3% to 16%) in primary care' (Deyo & Diehl 1988, 1975 walk-in patients, prevalence 0.66%) 'and 33% (22% to 46%) in the emergency setting' (Reinus 1998, ED radiograph cohort). Did not convert these to an LR because the figure's pre-test line (0.5%) is a nominal setting prevalence, not the study prevalence. Deyo 1988 abstract lists prior cancer as significantly associated with malignancy but gives no accuracy numbers; Deyo 1992 RCE abstract is empty in PubMed (title/authors confirmed). All PMIDs confirmed via tools/pubmed.py fetch.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T02:00:31+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

@@ -1,0 +1,128 @@
+{
+  "identity": {
+    "id": "exam_abdominal_rigidity_guarding",
+    "title": "Involuntary guarding / board-like rigidity",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "hypotension",
+      "abdominal_pain",
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "appendicitis",
+      "mesenteric_ischemia",
+      "pancreatitis",
+      "perforated_viscus",
+      "sbp"
+    ],
+    "indication_tags": []
+  },
+  "technique": {
+    "how": "With the patient supine, knees flexed and distracted by conversation, palpate each quadrant gently with a flat hand. Involuntary guarding is reflex contraction of the abdominal wall that persists despite relaxation and distraction; rigidity is a board-like wall that does not soften on expiration.",
+    "prerequisites": "Patient able to lie supine and relax; warm hands; examine tender areas last.",
+    "contraindications": "None; avoid deep or repeated palpation once peritonitis is evident."
+  },
+  "interpretation": {
+    "positive_finding": "Involuntary guarding or rigidity indicates parietal peritoneal irritation (localized or generalized peritonitis) and raises the probability of appendicitis, perforation or other surgical pathology.",
+    "negative_finding": "Absence of guarding lowers but does not exclude appendicitis (pediatric LR- ~0.6); early, retrocaecal or perforated disease in the elderly or immunosuppressed may show no guarding.",
+    "pitfalls": "Voluntary guarding from anxiety, cold hands or ticklishness mimics the sign; obesity, steroids, opioids and advanced age blunt it. Distinguishing voluntary from involuntary guarding is examiner dependent.",
+    "changes_what": "Present: treat as peritonitis, obtain surgical review and CT urgently. Absent: modest reassurance only; do not use to withhold imaging."
+  },
+  "estimates": [
+    {
+      "target_condition": "Acute appendicitis (absence of guarding as negative predictor)",
+      "population": "755 children and adolescents (median age 11.9 y) evaluated for suspected appendicitis; 36% had appendicitis",
+      "setting": "ED",
+      "prevalence": 0.36,
+      "reference_standard": "Surgical pathology or telephone follow-up",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": {
+        "value": 0.63,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "lack of guarding (LR, 0.63)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Acute appendicitis",
+      "population": "Children and adolescents with proven appendicitis in the same cohort (n=755 enrolled)",
+      "setting": "ED",
+      "prevalence": 0.36,
+      "reference_standard": "Surgical pathology or telephone follow-up",
+      "sensitivity": {
+        "value": 0.53,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": true,
+      "computed_from": "sensitivity = 1 - 0.47 (proportion of proven appendicitis cases lacking guarding, reported in abstract)",
+      "interpretation_label": "modest",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "lack of guarding (47%)",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "partially_quantified",
+  "sources": [
+    {
+      "citation": "Kharbanda AB, Taylor GA, Fishman SJ, Bachur RG. Atypical clinical features of pediatric appendicitis. Acad Emerg Med. 2007;14(2):124-129.",
+      "doi": null,
+      "pmid": "17192449",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2007
+    },
+    {
+      "citation": "Andersson RE. Meta-analysis of the clinical and laboratory diagnosis of appendicitis. Br J Surg. 2004;91(1):28-37.",
+      "doi": "10.1002/bjs.4464",
+      "pmid": "14716790",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2004
+    },
+    {
+      "citation": "Dixon JM, Elton RA, Rainey JB, Macleod DA. Rectal examination in patients with pain in the right lower quadrant of the abdomen. BMJ. 1991;302(6773):386-388.",
+      "doi": null,
+      "pmid": "2004144",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1991
+    },
+    {
+      "citation": "Wagner JM, McKinney WP, Carpenter JL. Does this patient have appendicitis? JAMA. 1996;276(19):1589-1594.",
+      "doi": null,
+      "pmid": "8918857",
+      "url": null,
+      "kind": "rce_series",
+      "year": 1996
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not rely on absence of guarding to exclude surgical pathology in the elderly, immunosuppressed, obese, pregnant or opioid-treated patient.",
+    "escalation_warning": "Diffuse rigidity with hypotension or fever is generalized peritonitis until proven otherwise: resuscitate, antibiotics, immediate surgical consultation.",
+    "interobserver_note": "Separating voluntary from involuntary guarding is subjective; agreement between examiners is only fair-to-moderate in most series."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Adult pooled LRs for guarding/rigidity (Wagner 1996 RCE; Andersson 2004 BJS) sit in tables not visible via PubMed/PMC, so they are cited qualitatively only (Andersson abstract: guarding/rigidity among strongest discriminators, ROC 0.68-0.78; Dixon 1991 abstract: OR 3.07 guarding, 5.03 rigidity - odds ratios, not entered as estimates). The only numbers with a visible location are pediatric (Kharbanda 2007): LR- 0.63 for lack of guarding and 47% of proven cases lacking guarding (sensitivity 0.53 computed). Status partially_quantified; a verifier with JAMA/BJS access should add the adult pooled LR+/LR- (expected LR+ ~3-4 for rigidity).",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:00:12+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

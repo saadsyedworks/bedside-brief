@@ -1,0 +1,87 @@
+{
+ "identity": {
+  "id": "exam_saddle_anesthesia_anal_tone",
+  "title": "Saddle (perineal) sensory loss and reduced anal tone",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "aki",
+   "weakness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "cauda_equina",
+   "obstruction_retention",
+   "spinal_cord_compression",
+   "urinary_retention"
+  ],
+  "indication_tags": [
+   "bilateral",
+   "acute_onset"
+  ]
+ },
+ "technique": {
+  "how": "With a chaperone and consent, test light touch and pinprick over the perineum, perianal skin, buttocks and inner thighs (S2-S5) comparing sides and asking about numbness when wiping; then digital rectal examination assessing resting anal tone, voluntary squeeze, and perianal sensation/anal wink. Pair with a bladder scan for post-void residual.",
+  "prerequisites": "Chaperone, explanation and consent; document time of onset of bladder/bowel symptoms and bilateral leg symptoms.",
+  "contraindications": "Patient refusal; rectal exam may be deferred if imaging is already being obtained emergently, but perineal sensation should still be tested."
+ },
+ "interpretation": {
+  "positive_finding": "New saddle sensory loss or reduced anal tone in a patient with back pain and bilateral leg or sphincter symptoms is a red flag that mandates emergency MRI; pooled red flags for MRI-confirmed cauda equina are more specific (0.62-0.88) than sensitive.",
+  "negative_finding": "Normal perineal sensation and anal tone do not exclude cauda equina compression - pooled sensitivities of individual red flags are only 0.19-0.43, and the diagnosis is often early or incomplete when sphincter signs are absent.",
+  "pitfalls": "Subjective perineal numbness is more sensitive than objective testing; anal tone is unreliable with prior anorectal surgery, chronic constipation or in the elderly. A large post-void residual (>500 mL) is the single most predictive bedside finding and should be checked with the exam.",
+  "changes_what": "Positive: emergency MRI whole lumbosacral spine/urgent spinal surgical referral. Negative: does not exclude cauda equina; if suspicion persists (bilateral sciatica, retention) still image."
+ },
+ "estimates": [
+  {
+   "target_condition": "MRI-confirmed cauda equina syndrome - individual red flags (reduced anal tone, saddle anaesthesia, urinary retention, incontinence, leg/back pain), pooled",
+   "population": "Adults with suspected cauda equina syndrome; 7 studies, 569 participants",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "MRI",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "The pooled sensitivity for the signs and symptoms ranged from 0.19 (95% CI 0.09 to 0.33) to 0.43 (95% CI 0.30 to 0.56)",
+   "location": "Abstract, Results (Musculoskelet Sci Pract 2019;42:125); per-sign values in the paper's pooled-analysis table, not viewable"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Dionne N, Adefolarin A, Kunzelman D, et al. What is the diagnostic accuracy of red flags related to cauda equina syndrome (CES), when compared to Magnetic Resonance Imaging (MRI)? A systematic review. Musculoskelet Sci Pract. 2019;42:125-133.",
+   "doi": "10.1016/j.msksp.2019.05.004",
+   "pmid": "31132655",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2019
+  },
+  {
+   "citation": "Domen PM, Hofman PA, van Santbrink H, Weber WE. Predictive value of clinical characteristics in patients with suspected cauda equina syndrome. Eur J Neurol. 2009;16(3):416-419.",
+   "doi": "10.1111/j.1468-1331.2008.02510.x",
+   "pmid": "19490073",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2009
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use normal anal tone or perineal sensation to defer imaging when bilateral sciatica, new urinary retention or incontinence is present; the exam is insensitive for early cauda equina.",
+  "escalation_warning": "Any new saddle sensory change, sphincter disturbance or retention with back pain is a surgical emergency: emergent MRI and spinal referral without waiting for full deficit.",
+  "interobserver_note": "No reliability data identified; anal tone assessment is subjective and examiner-dependent. Dionne 2019 rated included studies as generally low quality with two published corrigenda (PMIDs 31300389, 33722511) correcting pooled figures."
+ },
+ "tier": "extracted",
+ "extraction_notes": "The Dionne 2019 systematic review pooled saddle anaesthesia and reduced anal tone separately, but only the range across all red flags (sensitivity 0.19-0.43, specificity 0.62-0.88) is visible in the abstract; the per-sign table is behind a paywall and two corrigenda exist, so sign-specific sensitivity/specificity are set to null and the estimate is recorded as a range in the quote. Domen 2009 (abstract) found that individual signs including saddle/rectal findings did not differ significantly between MRI-positive and negative patients (n=58, 8 positive) and that >500 mL retention or >=2 of bilateral sciatica/subjective retention/rectal incontinence predicted compression (OR 48); no per-sign sens/spec in abstract. No open-access alternative with sign-specific numbers was found in 4 searches. NICE NG234 could not be retrieved and is not cited.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:00:17+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

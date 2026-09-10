@@ -1,0 +1,183 @@
+{
+ "identity": {
+  "id": "fn_jolt_accentuation",
+  "title": "Jolt accentuation of headache (2-3 Hz horizontal head rotation)",
+  "type": "functional",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "ams",
+   "fever"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "meningitis_encephalitis"
+  ],
+  "indication_tags": [
+   "febrile"
+  ]
+ },
+ "technique": {
+  "how": "Ask the patient with a current headache to rotate the head horizontally ('no' gesture) at 2-3 cycles per second for a few seconds, or rotate it passively. Positive when the headache is clearly accentuated by the movement. Requires an awake, cooperative patient who has a headache at the time of testing.",
+  "prerequisites": "Headache present at the time of the test; normal mental status and no focal deficit (the sign was derived in this subgroup).",
+  "contraindications": "Suspected cervical spine injury; severe vertigo."
+ },
+ "interpretation": {
+  "positive_finding": "In febrile patients with recent-onset headache and normal mental status, raises the probability of CSF pleocytosis (LR+ about 2.2-2.4) and supports proceeding to LP.",
+  "negative_finding": "In the original selected cohort a negative test nearly excluded pleocytosis (sens 0.97), but in unselected ED patients sensitivity was 21%, so absence should not deter LP when other features suggest meningitis.",
+  "pitfalls": "Performance collapses in patients with altered mental status, neurological deficits, or no headache; the ED validation showed poor sensitivity. Pleocytosis is not the same as bacterial meningitis.",
+  "changes_what": "Positive in a febrile, alert patient with new headache: proceed to LP; negative: do not use to withhold LP in ED or in patients with AMS/deficits."
+ },
+ "estimates": [
+  {
+   "target_condition": "CSF pleocytosis in febrile patients with recent-onset headache",
+   "population": "54 febrile adults with recent-onset headache undergoing LP for suspected meningitis (Japan)",
+   "setting": "mixed",
+   "prevalence": 0.63,
+   "reference_standard": "CSF cell count at lumbar puncture",
+   "sensitivity": {
+    "value": 0.971,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.6,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 2.43,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.049,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "33/34 with pleocytosis positive (sens 0.971); 12/20 without pleocytosis negative (spec 0.60); LR+ = 0.971/0.40, LR- = 0.029/0.60; prevalence 34/54",
+   "interpretation_label": "rule_out",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "Among 34 patients with pleocytosis, 33 had jolt accentuation (sensitivity: 97.1%), while only 5 of them had neck stiffness or Kernig's sign.",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Meningitis among patients with fever and headache",
+   "population": "Adults with fever and headache (RCE reanalysis of the Uchihara cohort)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Lumbar puncture",
+   "sensitivity": {
+    "value": 1.0,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.54,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 2.2,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.0,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": false,
+   "interpretation_label": "rule_out",
+   "evidence_level": "pooled",
+   "source_index": 1,
+   "quote": "jolt accentuation of headache is a useful adjunctive maneuver, with a sensitivity of 100%, specificity of 54%, positive likelihood ratio of 2.2",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "CSF pleocytosis (>=5 cells/hpf)",
+   "population": "197 neurologically intact adult ED patients with headache undergoing LP, AMS excluded",
+   "setting": "ED",
+   "prevalence": 0.2,
+   "reference_standard": "CSF WBC >=5 cells in tube 4",
+   "sensitivity": {
+    "value": 0.21,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.82,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 1.17,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.96,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "LR+ = 0.21/(1-0.82); LR- = (1-0.21)/0.82 from rounded abstract sens/spec; prevalence 47/230 whole cohort",
+   "interpretation_label": "minimal",
+   "evidence_level": "single_study",
+   "source_index": 2,
+   "quote": "the sensitivity of jolt accentuation was 21%, Kernig sign was 2%, Brudzinski sign was 2%, and nuchal rigidity was 13%",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Uchihara T, Tsukagoshi H. Jolt accentuation of headache: the most sensitive sign of CSF pleocytosis. Headache 1991;31:167-171.",
+   "doi": "10.1111/j.1526-4610.1991.hed3103167.x",
+   "pmid": "2071396",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1991
+  },
+  {
+   "citation": "Attia J, Hatala R, Cook DJ, Wong JG. The rational clinical examination. Does this adult patient have acute meningitis? JAMA 1999;282:175-181.",
+   "doi": "10.1001/jama.282.2.175",
+   "pmid": "10411200",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1999
+  },
+  {
+   "citation": "Nakao JH, Jafri FN, Shah K, Newman DH. Jolt accentuation of headache and other clinical signs: poor predictors of meningitis in adults. Am J Emerg Med 2014;32:24-28.",
+   "doi": "10.1016/j.ajem.2013.09.012",
+   "pmid": "24139448",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2014
+  },
+  {
+   "citation": "Iguchi M, Noguchi Y, Yamamoto S, Tanaka Y, Tsujimoto H. Does This Adult Patient With Jolt Accentuation of Headache Have Acute Meningitis? Headache 2019;59:159-163.",
+   "doi": "10.1111/head.13376",
+   "pmid": "30178879",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2019
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Patients with altered mental status, focal deficits, no current headache, or possible cervical injury; not for ruling out meningitis in the ED.",
+  "escalation_warning": "AMS or focal deficit implies intracranial pathology and should route to imaging/LP irrespective of jolt result.",
+  "interobserver_note": "Nakao 2014 used a physician questionnaire; the 2019 review attributes the divergence between cohorts mainly to inclusion of patients with AMS and non-meningitic causes of pleocytosis."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Uchihara sens/spec computed from the abstract counts (33/34, 12/20); the Nakao specificity is the separate abstract sentence 'The specificity of jolt accentuation was 82%'. The RCE abstract values (sens 100%, spec 54%, LR- 0 in the same sentence) differ from Uchihara's own (97.1%, 60%) because the RCE reanalysed for meningitis rather than pleocytosis; kept as separate entries, not averaged. The 2019 Headache review (Iguchi et al) is not OA and gives no pooled numbers in its abstract, so it is cited for context only; author list taken from the PubMed record.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T02:00:31+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

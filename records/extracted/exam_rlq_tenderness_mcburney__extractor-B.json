@@ -1,0 +1,103 @@
+{
+  "identity": {
+    "id": "exam_rlq_tenderness_mcburney",
+    "title": "RLQ (McBurney point) tenderness",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "abdominal_pain",
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "appendicitis",
+      "diverticulitis"
+    ],
+    "indication_tags": []
+  },
+  "technique": {
+    "how": "Palpate the right lower quadrant, centring on McBurney point (two-thirds of the way from umbilicus to the anterior superior iliac spine). Note whether tenderness is maximal there and whether it is localized rather than diffuse; also check for pain in the RLQ on left-sided pressure (Rovsing) as a related sign.",
+    "prerequisites": "Supine, relaxed patient; palpate non-tender areas first.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Localized, maximal tenderness at McBurney point substantially raises the odds of appendicitis (OR ~5 in 1,204 patients with RLQ pain); about two-thirds of children with appendicitis have maximal RLQ pain.",
+    "negative_finding": "Absence of RLQ tenderness lowers the probability of appendicitis but roughly one-third of proven cases (especially retrocaecal, pelvic or early) lack maximal RLQ pain.",
+    "pitfalls": "Cecal diverticulitis, terminal ileitis, ovarian pathology, ectopic pregnancy and mesenteric adenitis all produce RLQ tenderness; the appendix position varies, so pain may be flank, suprapubic or RUQ in pregnancy.",
+    "changes_what": "Present with migration/fever: appendicitis pathway (imaging or surgical review). Absent: lowers suspicion; look for alternative diagnoses but do not stop the work-up if history is typical."
+  },
+  "estimates": [
+    {
+      "target_condition": "Acute appendicitis (maximal pain in RLQ, pediatric)",
+      "population": "755 children and adolescents with suspected appendicitis, 36% with appendicitis",
+      "setting": "ED",
+      "prevalence": 0.36,
+      "reference_standard": "Surgical pathology or telephone follow-up",
+      "sensitivity": {
+        "value": 0.68,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": true,
+      "computed_from": "sensitivity = 1 - 0.32 (proportion of proven appendicitis cases without maximal pain in the RLQ)",
+      "interpretation_label": "modest",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "absence of maximal pain in the right lower quadrant (32%)",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "partially_quantified",
+  "sources": [
+    {
+      "citation": "Kharbanda AB, Taylor GA, Fishman SJ, Bachur RG. Atypical clinical features of pediatric appendicitis. Acad Emerg Med. 2007;14(2):124-129.",
+      "doi": null,
+      "pmid": "17192449",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2007
+    },
+    {
+      "citation": "Dixon JM, Elton RA, Rainey JB, Macleod DA. Rectal examination in patients with pain in the right lower quadrant of the abdomen. BMJ. 1991;302(6773):386-388.",
+      "doi": null,
+      "pmid": "2004144",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1991
+    },
+    {
+      "citation": "Laurell H, Hansson LE, Gunnarsson U. Manifestations of acute appendicitis: a prospective study on acute abdominal pain. Dig Surg. 2013;30(3):198-206.",
+      "doi": null,
+      "pmid": "23838773",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2013
+    },
+    {
+      "citation": "Wagner JM, McKinney WP, Carpenter JL. Does this patient have appendicitis? JAMA. 1996;276(19):1589-1594.",
+      "doi": null,
+      "pmid": "8918857",
+      "url": null,
+      "kind": "rce_series",
+      "year": 1996
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use absence of McBurney tenderness to exclude appendicitis in pregnancy, the elderly, or patients with atypical appendix position; do not use in isolation to diagnose in women of reproductive age without pelvic/pregnancy assessment.",
+    "escalation_warning": "RLQ tenderness with guarding, rigidity, fever or hypotension suggests perforation/abscess: antibiotics, imaging, urgent surgical review.",
+    "interobserver_note": "Localizing tenderness is more reproducible than rebound, but 'maximal' tenderness and its exact site vary between examiners; the OR in Dixon 1991 is unadjusted."
+  },
+  "tier": "extracted",
+  "extraction_notes": "The Wagner 1996 RCE table (RLQ tenderness pooled sens/spec, LR+ ~7.3-8.5 from memory) is not visible via PubMed/PMC, so it is cited without numbers. Visible numbers: Kharbanda 2007 (pediatric) 32% of proven cases lacked maximal RLQ pain, giving a computed sensitivity of 0.68; Dixon 1991 unadjusted OR 5.09 (odds ratio, stat fields left null); Laurell 2013 OR 3.29 for isolated RIF tenderness (abstract, not entered as a stat). Status partially_quantified; verifier with JAMA access should add the RCE pooled LRs.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:00:12+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

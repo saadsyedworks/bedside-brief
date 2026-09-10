@@ -1,0 +1,140 @@
+{
+  "identity": {
+    "id": "exam_rebound_tenderness",
+    "title": "Rebound tenderness (peritoneal irritation)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "abdominal_pain",
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "appendicitis",
+      "diverticulitis",
+      "intraabdominal_abscess",
+      "perforated_viscus",
+      "sbp"
+    ],
+    "indication_tags": []
+  },
+  "technique": {
+    "how": "Press slowly and deeply over the area of concern (or an adjacent quadrant), hold, then release abruptly while watching the face. Pain that is worse on release than on pressure is rebound tenderness. Gentler equivalents (percussion tenderness, cough test, heel-drop) test the same peritoneal irritation with less distress.",
+    "prerequisites": "Explain the maneuver; perform once only and after light palpation.",
+    "contraindications": "Avoid repeated testing when peritonitis is already obvious; prefer percussion tenderness in children and frail patients."
+  },
+  "interpretation": {
+    "positive_finding": "Rebound tenderness indicates parietal peritoneal inflammation; in patients with RIF pain it had sensitivity 0.82 and specificity 0.89 for appendicitis (computed LR+ ~7.5, LR- ~0.2).",
+    "negative_finding": "Absence reduces the likelihood of appendicitis and peritonitis but about half of children with proven appendicitis lack rebound; elderly and immunosuppressed patients may have none.",
+    "pitfalls": "Anxious patients may report pain on release without peritonitis; the test is painful and its reproducibility is only moderate. Retrocaecal or pelvic appendicitis may not produce anterior peritoneal signs.",
+    "changes_what": "Present: raise suspicion of surgical abdomen, obtain imaging and surgical review. Absent: lowers but does not exclude appendicitis; combine with WBC/CRP and history."
+  },
+  "estimates": [
+    {
+      "target_condition": "Acute appendicitis",
+      "population": "100 consecutive patients (median age 25 y, 61% female) presenting with right iliac fossa pain; 44 had histologically confirmed appendicitis",
+      "setting": "mixed",
+      "prevalence": 0.44,
+      "reference_standard": "Histology of removed appendix; non-operated patients followed clinically",
+      "sensitivity": {
+        "value": 0.82,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.89,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 7.5,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.2,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.82/(1-0.89) = 7.45; LR- = (1-0.82)/0.89 = 0.20, from reported sensitivity 0.82 and specificity 0.89",
+      "interpretation_label": "both",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "Rebound tenderness proved to be sensitive (sensitivity 0.82), specific (specificity 0.89) and accurate (accuracy 86%)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Acute appendicitis (pediatric)",
+      "population": "755 children and adolescents with suspected appendicitis, 36% with appendicitis",
+      "setting": "ED",
+      "prevalence": 0.36,
+      "reference_standard": "Surgical pathology or telephone follow-up",
+      "sensitivity": {
+        "value": 0.48,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": true,
+      "computed_from": "sensitivity = 1 - 0.52 (proportion of proven appendicitis cases without rebound pain)",
+      "interpretation_label": "modest",
+      "evidence_level": "single_study",
+      "source_index": 1,
+      "quote": "absence of rebound pain (52%)",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Golledge J, Toms AP, Franklin IJ, Scriven MW, Galland RB. Assessment of peritonism in appendicitis. Ann R Coll Surg Engl. 1996;78(1):11-14.",
+      "doi": null,
+      "pmid": "8659965",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1996
+    },
+    {
+      "citation": "Kharbanda AB, Taylor GA, Fishman SJ, Bachur RG. Atypical clinical features of pediatric appendicitis. Acad Emerg Med. 2007;14(2):124-129.",
+      "doi": null,
+      "pmid": "17192449",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2007
+    },
+    {
+      "citation": "Andersson RE. Meta-analysis of the clinical and laboratory diagnosis of appendicitis. Br J Surg. 2004;91(1):28-37.",
+      "doi": "10.1002/bjs.4464",
+      "pmid": "14716790",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2004
+    },
+    {
+      "citation": "Wagner JM, McKinney WP, Carpenter JL. Does this patient have appendicitis? JAMA. 1996;276(19):1589-1594.",
+      "doi": null,
+      "pmid": "8918857",
+      "url": null,
+      "kind": "rce_series",
+      "year": 1996
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not rely on absent rebound to exclude peritonitis in elderly, immunosuppressed, cirrhotic (SBP) or obese patients; do not repeatedly elicit in a patient with obvious peritonitis.",
+    "escalation_warning": "Generalized rebound or rigidity with fever or hypotension = generalized peritonitis: resuscitate, antibiotics, immediate surgical consultation.",
+    "interobserver_note": "Andersson 2004 ranks rebound among the strongest single discriminators (ROC 0.68-0.78) but inter-examiner reproducibility is moderate; Golledge's sensitivity/specificity come from a single surgical unit with a 44% prevalence."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Golledge 1996 sensitivity/specificity are in the abstract; LRs computed by me from those values (no CIs available). Pooled adult LRs from Wagner 1996 RCE and Andersson 2004 are not visible via PubMed/PMC, so those sources are cited qualitatively only. Kharbanda pediatric sensitivity is computed from the reported 52% of proven cases lacking rebound. Setting for Golledge coded 'mixed' (consecutive RIF-pain presentations assessed by the surgical team).",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:00:12+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

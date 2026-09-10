@@ -1,0 +1,142 @@
+{
+ "identity": {
+  "id": "fn_dix_hallpike",
+  "title": "Dix-Hallpike maneuver (posterior-canal BPPV)",
+  "type": "functional",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dizziness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "bppv",
+   "posterior_circulation_stroke",
+   "vestibular_neuritis"
+  ],
+  "indication_tags": [
+   "positional"
+  ]
+ },
+ "technique": {
+  "how": "Patient sits upright on the bed; turn the head 45 degrees toward the test ear, then briskly lie them back so the head hangs about 20 degrees below horizontal (over the bed end or a pillow under the shoulders). Keep eyes open and watch for 30-60 s for latency, nystagmus direction and duration; sit up and repeat on the other side.",
+  "prerequisites": "Best applied to episodic, brief, positionally triggered vertigo with no spontaneous nystagmus; explain the vertigo may be provoked. Neck must tolerate extension and rotation.",
+  "contraindications": "Relative: cervical spine instability or severe cervical disease, recent neck surgery, vertebrobasilar insufficiency, carotid stenosis; use the side-lying test as an alternative."
+ },
+ "interpretation": {
+  "positive_finding": "After a latency of a few seconds, a burst of torsional up-beating nystagmus with vertigo lasting under 60 s that fatigues on repetition indicates posterior-canal BPPV of the tested (down) ear; the AAO-HNS guideline diagnoses BPPV on this finding alone.",
+  "negative_finding": "A negative maneuver reduces but does not exclude BPPV (single-study LR- about 0.28); if the history is typical, repeat or perform the supine roll test for horizontal-canal BPPV.",
+  "pitfalls": "Downbeat, purely vertical or persistent (non-fatiguing) positional nystagmus without latency suggests a central cause, not BPPV; canalith repositioning should not be done reflexively. Sensitivity falls if the patient has already been treated, closes their eyes, or the head hang is inadequate.",
+  "changes_what": "Positive with typical nystagmus: diagnose posterior-canal BPPV and perform Epley; no imaging. Atypical (downbeat/persistent) nystagmus: evaluate for central positional vertigo."
+ },
+ "estimates": [
+  {
+   "target_condition": "Posterior canal BPPV",
+   "population": "Single primary study comparing Dix-Hallpike and side-lying tests in patients with positional vertigo (critically appraised topic)",
+   "setting": "outpatient",
+   "prevalence": null,
+   "reference_standard": "Clinical diagnosis of BPPV (study methodology rated very weak by the appraisers)",
+   "sensitivity": {
+    "value": 0.79,
+    "ci_low": 0.65,
+    "ci_high": 0.94
+   },
+   "specificity": {
+    "value": 0.75,
+    "ci_low": 0.33,
+    "ci_high": 1.0
+   },
+   "lr_positive": {
+    "value": 3.17,
+    "ci_low": 0.58,
+    "ci_high": 17.5
+   },
+   "lr_negative": {
+    "value": 0.28,
+    "ci_low": 0.11,
+    "ci_high": 0.69
+   },
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "For the Dix-Hallpike test, the estimated sensitivity was 79% [95% confidence interval (CI) 65-94], specificity was 75% (33-100)",
+   "location": "Abstract, Results (Neurologist 2008;14:201)"
+  },
+  {
+   "target_condition": "BPPV (all canals) among outpatients with dizziness",
+   "population": "100 consecutive outpatients with dizziness or imbalance, 13 with BPPV",
+   "setting": "outpatient",
+   "prevalence": 0.13,
+   "reference_standard": "Concordant diagnosis by three blinded investigators reviewing a structured history (no imaging or vestibular-lab standard)",
+   "sensitivity": {
+    "value": 0.82,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.71,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 2.83,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.25,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "LR+ = 0.82/(1-0.71) = 2.83; LR- = (1-0.82)/0.71 = 0.25; prevalence 13/100",
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "positional nystagmus (sensitivity [SE] 90%, SP 63%), and the Dix-Hallpike test (SE 82%, SP 71%).",
+   "location": "Abstract, Results (Acta Otorrinolaringol Esp 2000;51:25)"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Halker RB, Barrs DM, Wellik KE, Wingerchuk DM, Demaerschalk BM. Establishing a diagnosis of benign paroxysmal positional vertigo through the Dix-Hallpike and side-lying maneuvers: a critically appraised topic. Neurologist. 2008;14(3):201-204.",
+   "doi": "10.1097/NRL.0b013e31816f2820",
+   "pmid": "18469678",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2008
+  },
+  {
+   "citation": "Lopez-Escamez JA, et al. [Diagnosis of common causes of vertigo using a structured clinical history]. Acta Otorrinolaringol Esp. 2000;51(1):25-30.",
+   "doi": null,
+   "pmid": "10799928",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2000
+  },
+  {
+   "citation": "Bhattacharyya N, Gubbels SP, Schwartz SR, et al. Clinical Practice Guideline: Benign Paroxysmal Positional Vertigo (Update). Otolaryngol Head Neck Surg. 2017;156(3_suppl):S1-S47.",
+   "doi": "10.1177/0194599816689667",
+   "pmid": "28248609",
+   "url": null,
+   "kind": "guideline",
+   "year": 2017
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use to evaluate continuous vertigo with spontaneous nystagmus (acute vestibular syndrome) - a positional test cannot rule out stroke there. Avoid in unstable cervical spine.",
+  "escalation_warning": "Positional nystagmus that is downbeat, purely vertical, non-fatiguing, without latency, or accompanied by other neurologic signs warrants MRI for central positional vertigo (posterior fossa lesion).",
+  "interobserver_note": "No reliability data identified; the only accuracy study was rated methodologically very weak (Halker 2008). The Dix-Hallpike is itself the reference standard for posterior-canal BPPV in guidelines, so independent accuracy estimates are inherently limited."
+ },
+ "tier": "extracted",
+ "extraction_notes": "The Dix-Hallpike is the reference standard for posterior-canal BPPV (AAO-HNS 2017, strong recommendation), so quantified accuracy exists only against weak clinical reference standards. Estimate 1 is from the Halker 2008 critically appraised topic abstract (numbers derived by the CAT from a single primary study whose PMID I could not confirm, so the CAT is cited); the CAT is classed as meta_analysis for lack of a better 'kind'. Estimate 2 is a Spanish-language primary study (Lopez-Escamez 2000, abstract) whose reference standard is a blinded structured-history consensus, so it is weak; LRs computed from reported sens/spec. Froehling 1994 RCE anchor has no accessible abstract or text and was not cited. Estimates kept separate; not averaged.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:00:17+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

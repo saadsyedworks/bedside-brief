@@ -1,0 +1,96 @@
+{
+ "identity": {
+  "id": "fn_head_impulse_test",
+  "title": "Head impulse test (corrective saccade = peripheral)",
+  "type": "functional",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dizziness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "posterior_circulation_stroke",
+   "vestibular_neuritis"
+  ],
+  "indication_tags": [
+   "acute_onset"
+  ]
+ },
+ "technique": {
+  "how": "Hold the patient's head with both hands, ask them to fix on your nose, then deliver a small (10-20 degree) rapid, unpredictable head turn toward one side and watch the eyes at the end of the movement; repeat several times each side. A catch-up (corrective) saccade back to your nose after rotation toward one side indicates a deficient vestibulo-ocular reflex on that side.",
+  "prerequisites": "Only meaningful in acute vestibular syndrome (continuous vertigo with spontaneous nystagmus); patient alert, able to fixate, with adequate vision and neck mobility.",
+  "contraindications": "Cervical spine injury or instability, severe cervical stenosis, vertebral artery dissection concern; do not force a painful neck."
+ },
+ "interpretation": {
+  "positive_finding": "A visible corrective saccade (abnormal HIT) points to a peripheral lesion (vestibular neuritis) on the side of head rotation and was present in all 25 peripheral AVS cases in the HINTS cohort.",
+  "negative_finding": "A normal head impulse (no corrective saccade) in a patient with acute spontaneous nystagmus is the single most worrying sign for stroke; it was found in 93% of central AVS and no peripheral cases.",
+  "pitfalls": "AICA-territory strokes can produce an abnormal HIT by infarcting the labyrinth or vestibular nerve entry zone, so a corrective saccade does not by itself exclude stroke. Small or slow impulses, covert saccades, and poor fixation make the test falsely normal; do not apply to patients without nystagmus.",
+  "changes_what": "Normal HIT in AVS: MRI and stroke pathway regardless of other findings. Abnormal HIT: supports neuritis only if nystagmus is unidirectional, no skew, and patient can walk."
+ },
+ "estimates": [
+  {
+   "target_condition": "Central cause of acute vestibular syndrome; finding = normal (or untestable) horizontal head impulse test",
+   "population": "101 consecutive AVS patients with >=1 stroke risk factor (25 peripheral, 76 central), examined by neurologists/neuro-ophthalmologist",
+   "setting": "mixed",
+   "prevalence": 0.752,
+   "reference_standard": "MRI (DWI) or CT plus clinical follow-up; peripheral lesions required normal MRI",
+   "sensitivity": {
+    "value": 0.93,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 1.0,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": null,
+   "lr_negative": {
+    "value": 0.07,
+    "ci_low": 0.03,
+    "ci_high": 0.15
+   },
+   "computed": true,
+   "computed_from": "Table 1 proportions: h-HIT normal or untestable in 0% of 25 peripheral and 93% of 76 central AVS (includes 4 untestable); sensitivity 0.93, specificity 1.00; NLR 0.07 (0.03-0.15) as reported. LR+ undefined (no peripheral case had a normal HIT). Prevalence 76/101.",
+   "interpretation_label": "both",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "h-HIT normal or untestable 0% 93% 0.07 (0.03-0.15)",
+   "location": "Table 1 (Key clinical features in patients with peripheral versus central AVS), PMC4593511"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Kattah JC, Talkad AV, Wang DZ, Hsieh YH, Newman-Toker DE. HINTS to diagnose stroke in the acute vestibular syndrome: three-step bedside oculomotor examination more sensitive than early MRI diffusion-weighted imaging. Stroke. 2009;40(11):3504-3510.",
+   "doi": "10.1161/STROKEAHA.109.551234",
+   "pmid": "19762709",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4593511/",
+   "kind": "primary_study",
+   "year": 2009
+  },
+  {
+   "citation": "Tarnutzer AA, Berkowitz AL, Robinson KA, Hsieh YH, Newman-Toker DE. Does my dizzy patient have a stroke? A systematic review of bedside diagnosis in acute vestibular syndrome. CMAJ. 2011;183(9):E571-E592.",
+   "doi": "10.1503/cmaj.100174",
+   "pmid": "21576300",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2011
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Not valid outside acute vestibular syndrome (no spontaneous nystagmus, episodic or positional vertigo) or in patients who cannot fixate; results by non-expert examiners are substantially less accurate.",
+  "escalation_warning": "A normal head impulse in a patient with continuous vertigo and nystagmus is a stroke sign; do not discharge on a peripheral diagnosis, obtain MRI (early DWI can be falsely negative in 12%).",
+  "interobserver_note": "Estimates derive from expert bedside examination in a single high-risk cohort; HINTS meta-analysis of frontline clinicians (Ohle 2020, PMID 32167642) shows much lower specificity outside expert hands, and the 2009 cohort included 4 untestable HITs counted as dangerous."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Sensitivity/specificity derived from the Table 1 row for 'h-HIT normal or untestable' in Kattah 2009 PMC full text (0% peripheral vs 93% central); Table 2 gives 62/69 ischemic strokes with normal HIT excluding untestable cases. LR+ left null because no peripheral patient had a normal HIT. Tarnutzer 2011 CMAJ pooled HIT figures not accessible (PMC abstract-only deposit), cited as context only.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T02:00:23+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

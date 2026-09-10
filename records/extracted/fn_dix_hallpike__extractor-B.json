@@ -1,0 +1,158 @@
+{
+ "identity": {
+  "id": "fn_dix_hallpike",
+  "title": "Dix-Hallpike maneuver (posterior-canal BPPV)",
+  "type": "functional",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dizziness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "bppv",
+   "posterior_circulation_stroke",
+   "vestibular_neuritis"
+  ],
+  "indication_tags": [
+   "positional"
+  ]
+ },
+ "technique": {
+  "how": "Seat the patient so that lying back will leave the head hanging ~20 degrees below the table edge; turn the head 45 degrees toward the tested ear, then move briskly to supine with head extended and eyes open. Observe for 30-60 s for latency, nystagmus direction, duration, and vertigo; sit up and test the other side.",
+  "prerequisites": "Positional history (brief vertigo on rolling over, lying down, looking up); patient able to lie flat with neck extension; explain that vertigo may be provoked.",
+  "contraindications": "Cervical spine instability or severe cervical stenosis, recent neck surgery, carotid dissection concern, or inability to tolerate the position; use the side-lying test instead."
+ },
+ "interpretation": {
+  "positive_finding": "After a latency of seconds, upbeating torsional nystagmus toward the lower ear with vertigo, lasting under 60 s and fatiguing on repetition, is diagnostic of posterior-canal BPPV on that side.",
+  "negative_finding": "A negative test does not exclude BPPV (single-study sensitivity about 79%); repeat the maneuver, check for horizontal canal BPPV with the supine roll test, or re-test another day.",
+  "pitfalls": "Persistent, non-fatiguing, purely vertical (downbeat) or direction-changing positional nystagmus without latency suggests a central positional lesion, not BPPV. Nystagmus is easy to miss without removing fixation or with tentative positioning.",
+  "changes_what": "Positive: treat with Epley repositioning at the bedside, no imaging needed if otherwise typical. Atypical nystagmus or persistent symptoms: pursue central causes."
+ },
+ "estimates": [
+  {
+   "target_condition": "Posterior-canal BPPV",
+   "population": "61 patients referred with positional vertigo to a tertiary vestibular diagnostic laboratory (Cohen 2004), appraised in a structured critically appraised topic",
+   "setting": "outpatient",
+   "prevalence": null,
+   "reference_standard": "No independent standard; Dix-Hallpike compared with side-lying test response (nystagmus slow-phase velocity) in the same patients",
+   "sensitivity": {
+    "value": 0.79,
+    "ci_low": 0.65,
+    "ci_high": 0.94
+   },
+   "specificity": {
+    "value": 0.75,
+    "ci_low": 0.33,
+    "ci_high": 1.0
+   },
+   "lr_positive": {
+    "value": 3.17,
+    "ci_low": 0.58,
+    "ci_high": 17.5
+   },
+   "lr_negative": {
+    "value": 0.28,
+    "ci_low": 0.11,
+    "ci_high": 0.69
+   },
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "sensitivity was 79% [95% confidence interval (CI) 65-94], specificity was 75% (33-100), positive likelihood ratio (LR) was 3.17 (95% CI 0.58-17.50), negative LR was 0.28",
+   "location": "Abstract, Results (CAT estimates derived from Cohen 2004)"
+  },
+  {
+   "target_condition": "BPPV of any canal (traditional bedside Dix-Hallpike plus supine roll testing)",
+   "population": "201 participants aged >=60 with suspected BPPV, randomized crossover",
+   "setting": "outpatient",
+   "prevalence": 0.338,
+   "reference_standard": "Mechanical rotation chair diagnostics (Dix-Hallpike and supine roll tests in the chair)",
+   "sensitivity": {
+    "value": 0.79,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.95,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 15.8,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.22,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "LRs computed from abstract sens 0.79 and spec 0.95: LR+ = 0.79/0.05 = 15.8; LR- = 0.21/0.95 = 0.22. Prevalence = 68/201 (chair diagnosis). Sensitivity for non-posterior BPPV was 0.63 and fell to 0.60 with impaired cooperation.",
+   "interpretation_label": "both",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "TB diagnostics demonstrated a sensitivity of 79%, specificity of 95%, PPV of 89%, and NPV of 90%",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Halker RB, Barrs DM, Wellik KE, Wingerchuk DM, Demaerschalk BM. Establishing a diagnosis of benign paroxysmal positional vertigo through the Dix-Hallpike and side-lying maneuvers: a critically appraised topic. Neurologist. 2008;14(3):201-204.",
+   "doi": "10.1097/NRL.0b013e31816f2820",
+   "pmid": "18469678",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2008
+  },
+  {
+   "citation": "Hougaard DD, Vorm B, Skals RG, Holm J, Thrane JF, Luscher M. A mechanical rotation chair provides superior diagnostics of benign paroxysmal positional vertigo amongst elderly. Front Neurol. 2026.",
+   "doi": "10.3389/fneur.2026.1873559",
+   "pmid": "42529276",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2026
+  },
+  {
+   "citation": "Cohen HS. Side-lying as an alternative to the Dix-Hallpike test of the posterior canal. Otol Neurotol. 2004;25(2):130-134.",
+   "doi": "10.1097/00129492-200403000-00008",
+   "pmid": "15021771",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2004
+  },
+  {
+   "citation": "Bhattacharyya N, Gubbels SP, Schwartz SR, et al. Clinical Practice Guideline: Benign Paroxysmal Positional Vertigo (Update). Otolaryngol Head Neck Surg. 2017;156(3 Suppl):S1-S47.",
+   "doi": "10.1177/0194599816689667",
+   "pmid": "28248609",
+   "url": null,
+   "kind": "guideline",
+   "year": 2017
+  },
+  {
+   "citation": "Froehling DA, Silverstein MD, Mohr DN, Beatty CW. The rational clinical examination. Does this dizzy patient have a serious form of vertigo? JAMA. 1994;271(5):385-388.",
+   "doi": null,
+   "pmid": "8283588",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1994
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not perform in patients with spontaneous nystagmus at rest (acute vestibular syndrome) as a substitute for HINTS/gait assessment, or when neck extension is unsafe.",
+  "escalation_warning": "Positional nystagmus that is downbeating, direction-changing, non-fatiguing, or without latency, or any positional vertigo with other neurological signs, needs MRI for a central positional lesion.",
+  "interobserver_note": "Bedside versus mechanical-chair diagnosis agreed with kappa 0.76 in elderly patients (Hougaard 2026); sensitivity falls with poor patient cooperation or hesitant positioning."
+ },
+ "tier": "extracted",
+ "extraction_notes": "The classic Dix-Hallpike accuracy figures (79%/75%) come from a critically appraised topic (Halker 2008, kind recorded as meta_analysis because it is a structured evidence appraisal) that identified a single weak primary study (Cohen 2004, PMID 15021771, cited separately; its abstract reports no sens/spec). Wide CIs and absence of an independent reference standard limit these numbers. The 2026 Danish study measures bedside DH plus supine roll against a rotation-chair standard in the elderly, so it is entered as a separate estimate. AAO-HNS 2017 guideline defines the positive test (torsional upbeating nystagmus with the affected ear down).",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T02:00:23+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

@@ -1,0 +1,151 @@
+{
+ "identity": {
+  "id": "fn_gait_stand_unaided",
+  "title": "Ability to stand and walk unaided (truncal ataxia grade; inability = central marker)",
+  "type": "functional",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dizziness",
+   "ams",
+   "weakness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "intoxication_withdrawal",
+   "posterior_circulation_stroke",
+   "stroke",
+   "vestibular_neuritis",
+   "wernicke"
+  ],
+  "indication_tags": [
+   "acute_onset",
+   "elderly"
+  ]
+ },
+ "technique": {
+  "how": "Ask the patient to sit unsupported on the bed edge, then stand and walk a few metres unaided, then tandem walk if able. Grade truncal ataxia: 0 none; 1 mild imbalance walking; 2 cannot walk without support; 3 cannot stand or sit unsupported (falls to one side). Have an assistant close by.",
+  "prerequisites": "Patient not sedated, hemodynamically stable, no acute orthopaedic injury; use a gait belt or two assistants for frail patients.",
+  "contraindications": "Unstable spine or fracture, severe hypotension, or inability to protect the patient from a fall."
+ },
+ "interpretation": {
+  "positive_finding": "Inability to stand or sit unsupported (grade 3) or to walk unaided (grade 2) in acute vertigo strongly favours a central cause; grade 3 was seen only in central AVS in the HINTS cohort and grade 2-3 ataxia had 92% sensitivity for stroke vs vestibular neuritis.",
+  "negative_finding": "Walking unaided, even if veering, is typical of vestibular neuritis but does not exclude stroke; roughly two thirds of strokes in AVS lacked severe truncal ataxia.",
+  "pitfalls": "Intoxication, sedatives, Wernicke encephalopathy, and deconditioning in the elderly also impair standing; interpret in context and check glucose and thiamine risk. Truncal ataxia can occur without nystagmus in central vertigo, so absent nystagmus does not remove the need to test gait.",
+  "changes_what": "Cannot stand or walk unaided: manage as posterior-circulation stroke (MRI, stroke pathway) regardless of oculomotor findings. Walks unaided with peripheral HINTS: supports vestibular neuritis."
+ },
+ "estimates": [
+  {
+   "target_condition": "Central AVS (stroke in AICA/PICA territory) vs vestibular neuritis",
+   "population": "52 prospectively studied patients with acute vestibular syndrome (central stroke or vestibular neuritis); finding = grade 2-3 truncal ataxia",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Brain MRI",
+   "sensitivity": {
+    "value": 0.92,
+    "ci_low": 0.79,
+    "ci_high": 1.0
+   },
+   "specificity": {
+    "value": 0.67,
+    "ci_low": 0.47,
+    "ci_high": 0.86
+   },
+   "lr_positive": {
+    "value": 2.79,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.12,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "LRs computed from abstract sens 0.92 and spec 0.67: LR+ = 0.92/0.33 = 2.79; LR- = 0.08/0.67 = 0.12.",
+   "interpretation_label": "rule_out",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "ataxia to differentiate patients with vestibular neuritis from patients with stroke resulted in a 92% sensitivity (95% CI 79-100%), a 67% specificity (95% CI 47-86%)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Ischemic stroke in acute vestibular syndrome; finding = severe truncal ataxia (cannot sit unassisted)",
+   "population": "101 consecutive AVS patients with >=1 stroke risk factor (69 ischemic strokes, 25 peripheral)",
+   "setting": "mixed",
+   "prevalence": 0.734,
+   "reference_standard": "MRI (DWI) or CT plus clinical follow-up",
+   "sensitivity": {
+    "value": 0.33,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 1.0,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": null,
+   "lr_negative": {
+    "value": 0.67,
+    "ci_low": 0.56,
+    "ci_high": 0.79
+   },
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "Severe truncal ataxia 33% 100% 0.67 (0.56-0.79)",
+   "location": "Table 4 (Bedside signs and initial MRI with DWI test properties for ischemic stroke in AVS), PMC4593511"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Kattah JC, Martinez C, Zalazar G, Batuecas A, Lemos J, Carmona S. Role of incubitus truncal ataxia, and equivalent standing grade 3 ataxia in the diagnosis of central acute vestibular syndrome. J Neurol Sci. 2022;441:120374.",
+   "doi": "10.1016/j.jns.2022.120374",
+   "pmid": "36063733",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2022
+  },
+  {
+   "citation": "Kattah JC, Talkad AV, Wang DZ, Hsieh YH, Newman-Toker DE. HINTS to diagnose stroke in the acute vestibular syndrome: three-step bedside oculomotor examination more sensitive than early MRI diffusion-weighted imaging. Stroke. 2009;40(11):3504-3510.",
+   "doi": "10.1161/STROKEAHA.109.551234",
+   "pmid": "19762709",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4593511/",
+   "kind": "primary_study",
+   "year": 2009
+  },
+  {
+   "citation": "Carmona S, Martinez C, Zalazar G, Koohi N, Kaski D. Acute truncal ataxia without nystagmus in patients with acute vertigo. Eur J Neurol. 2023;30(6):1785-1790.",
+   "doi": "10.1111/ene.15729",
+   "pmid": "36752029",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2023
+  },
+  {
+   "citation": "Tarnutzer AA, Berkowitz AL, Robinson KA, Hsieh YH, Newman-Toker DE. Does my dizzy patient have a stroke? A systematic review of bedside diagnosis in acute vestibular syndrome. CMAJ. 2011;183(9):E571-E592.",
+   "doi": "10.1503/cmaj.100174",
+   "pmid": "21576300",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2011
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not attempt unsupervised in frail, hypotensive, or sedated patients; do not attribute inability to stand to intoxication or age without excluding stroke.",
+  "escalation_warning": "A dizzy patient who cannot stand or sit unsupported has a central lesion until MRI proves otherwise; CT is insufficient for the posterior fossa.",
+  "interobserver_note": "Grading is semi-quantitative and examiner-dependent; the 2022 study found inability to sit still correlated well with formal truncal ataxia grade and can substitute when standing is unsafe."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Primary numbers from the Kattah 2022 abstract (grade 2-3 ataxia, n=52; prevalence of stroke not stated in abstract so left null; LRs computed) and from Kattah 2009 Table 4 in PMC full text (severe truncal ataxia = cannot sit unassisted; Table 1 gives the same finding at 0% peripheral vs 34% central with NLR 0.66). Carmona 2023 (15% of acute vertigo had truncal ataxia without nystagmus) cited as context, not an accuracy estimate. Tarnutzer 2011 pooled gait data not accessible (PMC abstract-only).",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T02:00:23+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

@@ -1,0 +1,69 @@
+{
+ "identity": {
+  "id": "exam_sensory_level_upper_motor_neuron_signs",
+  "title": "Sensory level with hyperreflexia / extensor plantar (Babinski) below the level",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "aki",
+   "weakness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "gbs",
+   "obstruction_retention",
+   "spinal_cord_compression",
+   "stroke"
+  ],
+  "indication_tags": [
+   "malignancy",
+   "bilateral"
+  ]
+ },
+ "technique": {
+  "how": "Test pinprick and light touch moving upward from the feet on both sides (front and back) to find the dermatome where sensation becomes normal; confirm with temperature. Then test deep tendon reflexes in arms and legs, clonus, and the plantar response by stroking the lateral sole from heel toward the toes with a blunt object; the great toe extending upward (Babinski) is abnormal.",
+  "prerequisites": "Cooperative patient; interpret the plantar response only when the patient is relaxed and the stimulus is firm but not painful. Ask about bowel/bladder function and check a post-void residual.",
+  "contraindications": "None; avoid moving an unstable spine (trauma) beyond log-roll."
+ },
+ "interpretation": {
+  "positive_finding": "A dermatomal sensory level with bilateral hyperreflexia, clonus or extensor plantars below it localizes a myelopathy and, with back pain or known cancer, suggests cord compression requiring emergency MRI and dexamethasone/oncology-spine referral.",
+  "negative_finding": "Absence of a sensory level or UMN signs does not exclude cord compression: reflexes may be absent early (spinal shock) and the Babinski sign has fair reliability (kappa 0.30) and only 56% agreement with known UMN weakness.",
+  "pitfalls": "Areflexia with ascending weakness favours GBS, but acute cord lesions can also be areflexic initially; a bilateral or cervical sensory level with hemibody signs may be misread as stroke. Withdrawal responses mimic Babinski; foot-tapping speed may be a more reliable UMN sign.",
+  "changes_what": "Positive: emergency whole-spine MRI, steroids if malignancy suspected, spinal/oncology referral. Negative: does not exclude compression in cancer patients with new back pain - still image."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Emergency neurological life support: spinal cord compression (SCC). Neurocrit Care. 2012;17 Suppl 1:S96-S101.",
+   "doi": null,
+   "pmid": "22956117",
+   "url": null,
+   "kind": "guideline",
+   "year": 2012
+  },
+  {
+   "citation": "Miller TM, Johnston SC. Should the Babinski sign be part of the routine neurologic examination? Neurology. 2005;65(8):1165-1168.",
+   "doi": "10.1212/01.wnl.0000180608.76190.10",
+   "pmid": "16247040",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2005
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use a normal exam to withhold urgent MRI in a patient with known malignancy and new/progressive back pain or bladder symptoms; the sensory level and Babinski are insensitive early signs.",
+  "escalation_warning": "Suspected cord compression is time-critical - neurological outcome depends on ambulatory status at treatment; image and treat within hours, not days.",
+  "interobserver_note": "Babinski sign inter-rater reliability was fair (kappa 0.30) and accuracy 56% among 10 physicians examining 10 subjects, with no difference between neurologists and non-specialists; foot tapping had kappa 0.73 and 85% agreement (Miller & Johnston 2005). No reliability data for sensory level identified."
+ },
+ "tier": "extracted",
+ "extraction_notes": "No diagnostic-accuracy study reporting sensitivity/specificity of a sensory level or of UMN signs for spinal cord compression was found (searches: RCE title search, 'metastatic spinal cord compression clinical signs sensitivity sensory level'). The sign is supported by consensus protocols (ENLS spinal cord compression, PMID 22956117, cited as guideline). Miller & Johnston 2005 provides reliability/accuracy data for the Babinski sign (kappa 0.30; 56% agreement with known UMN weakness) from the abstract, which are not sens/spec against a reference standard and are therefore recorded in interobserver_note rather than as an estimate. NICE NG234 could not be retrieved and is not cited.",
+ "agent_id": "extractor-A",
+ "extracted_at": "2026-09-10T02:00:17+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

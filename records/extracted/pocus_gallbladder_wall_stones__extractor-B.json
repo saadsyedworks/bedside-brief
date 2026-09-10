@@ -1,0 +1,143 @@
+{
+  "identity": {
+    "id": "pocus_gallbladder_wall_stones",
+    "title": "POCUS gallbladder: stones, wall thickening, sonographic Murphy sign",
+    "type": "pocus",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "abdominal_pain",
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "cholangitis",
+      "cholecystitis"
+    ],
+    "indication_tags": [
+      "febrile"
+    ]
+  },
+  "technique": {
+    "how": "Curvilinear probe, subcostal or intercostal window (deep inspiration or left lateral decubitus helps). Image the gallbladder in long and short axis: look for mobile echogenic foci with posterior shadowing (stones), measure the anterior wall (>3 mm thick), look for pericholecystic fluid, and press the probe directly over the gallbladder for sonographic Murphy sign.",
+    "prerequisites": "Ideally fasting; sweep the entire gallbladder including the neck to avoid missing impacted stones; identify the main lobar fissure to confirm the structure.",
+    "contraindications": "None; limited by bowel gas, obesity and contracted post-prandial gallbladder."
+  },
+  "interpretation": {
+    "positive_finding": "Gallstones plus wall thickening, pericholecystic fluid or a sonographic Murphy sign supports acute cholecystitis (EP POCUS sensitivity 0.87, specificity 0.82, LR+ 4.7). Stones alone confirm cholelithiasis (pooled sensitivity 0.90, specificity 0.88).",
+    "negative_finding": "No stones and a thin-walled, non-tender gallbladder makes calculous cholecystitis unlikely (LR- 0.16 for cholecystitis) but does not exclude acalculous cholecystitis, choledocholithiasis or cholangitis.",
+    "pitfalls": "Wall thickening is non-specific (hepatitis, heart failure, hypoalbuminemia, ascites, post-prandial state); duodenal gas, polyps and sludge mimic stones; neck stones are easily missed. Sonographic Murphy sign is unreliable after analgesia.",
+    "changes_what": "Positive: start cholecystitis pathway (antibiotics, surgical consult), confirm with formal US if needed. Negative: seek other causes; if fever/jaundice persist, image the ducts (US/MRCP)."
+  },
+  "estimates": [
+    {
+      "target_condition": "Cholelithiasis",
+      "population": "710 symptomatic ED patients across 8 prospective studies of emergency physician-performed ultrasound",
+      "setting": "ED",
+      "prevalence": null,
+      "reference_standard": "Radiology ultrasound, CT, MRI or surgical findings",
+      "sensitivity": {
+        "value": 0.898,
+        "ci_low": 0.864,
+        "ci_high": 0.925
+      },
+      "specificity": {
+        "value": 0.88,
+        "ci_low": 0.837,
+        "ci_high": 0.914
+      },
+      "lr_positive": {
+        "value": 7.5,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.12,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.898/(1-0.880) = 7.48; LR- = (1-0.898)/0.880 = 0.116, from pooled sensitivity and specificity",
+      "interpretation_label": "both",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "pooled estimates for sensitivity and specificity were 89.8% (95% confidence interval [CI] = 86.4% to 92.5%) and 88.0% (95% CI = 83.7% to 91.4%)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Acute cholecystitis",
+      "population": "189 ED patients with suspected cholecystitis scanned by 43 EM residents/attendings (median 2 scans each); 23 pathology-confirmed",
+      "setting": "ED",
+      "prevalence": 0.14,
+      "reference_standard": "Surgical pathology or clinical follow-up at 2 weeks",
+      "sensitivity": {
+        "value": 0.87,
+        "ci_low": 0.66,
+        "ci_high": 0.97
+      },
+      "specificity": {
+        "value": 0.82,
+        "ci_low": 0.74,
+        "ci_high": 0.88
+      },
+      "lr_positive": {
+        "value": 4.7,
+        "ci_low": 3.2,
+        "ci_high": 6.9
+      },
+      "lr_negative": {
+        "value": 0.16,
+        "ci_low": 0.06,
+        "ci_high": 0.46
+      },
+      "computed": false,
+      "interpretation_label": "both",
+      "evidence_level": "single_study",
+      "source_index": 1,
+      "quote": "sensitivity 87% (95% confidence interval [CI] 66% to 97%), specificity 82% (95% CI 74% to 88%), positive likelihood ratio 4.7",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Ross M, Brown M, McLaughlin K, et al. Emergency physician-performed ultrasound to diagnose cholelithiasis: a systematic review. Acad Emerg Med. 2011;18(3):227-235.",
+      "doi": "10.1111/j.1553-2712.2011.01012.x",
+      "pmid": "21401784",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2011
+    },
+    {
+      "citation": "Summers SM, Scruggs W, Menchine MD, et al. A prospective evaluation of emergency department bedside ultrasonography for the detection of acute cholecystitis. Ann Emerg Med. 2010;56(2):114-122.",
+      "doi": "10.1016/j.annemergmed.2010.01.014",
+      "pmid": "20138397",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2010
+    },
+    {
+      "citation": "Trowbridge RL, Rutkowski NK, Shojania KG. Does this patient have acute cholecystitis? JAMA. 2003;289(1):80-86.",
+      "doi": "10.1001/jama.289.1.80",
+      "pmid": "12503981",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2003
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use a negative POCUS to exclude cholangitis, choledocholithiasis or acalculous cholecystitis in critically ill, septic or jaundiced patients; do not rely on wall thickness alone in cirrhosis, heart failure or hypoalbuminemia.",
+    "escalation_warning": "Fever with jaundice, hypotension or dilated bile duct suggests cholangitis: cultures, IV antibiotics, urgent GI/surgical review for drainage irrespective of gallbladder findings.",
+    "interobserver_note": "Summers 2010 included 43 operators with a median of 2 scans each, so results reflect typical rather than expert EPs; stone detection is more reproducible than wall/Murphy assessment.",
+    "skill_assumption": "Emergency physician with basic biliary POCUS credentialing (typically 25-50 supervised scans); Summers 2010 operators were EM residents and attendings at an academic ED, Ross 2011 pooled EP-performed scans."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Both estimates come from abstracts. Ross 2011 pooled sens/spec are for cholelithiasis (not cholecystitis); LRs computed by me from pooled values without CIs. Summers 2010 prevalence computed as 23 confirmed/164 analysed (189 scanned minus 25 excluded) = 0.14. Trowbridge RCE cited as index for the clinical context; no RCE table numbers were accessible. Radiology US in Summers performed similarly (sens 83%, spec 86%).",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:00:12+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

@@ -1,0 +1,101 @@
+{
+ "identity": {
+  "id": "fn_pulse_palpation_during_symptoms",
+  "title": "Palpate/auscultate the pulse (or have the patient count/record it) DURING an episode: rate, regularity, abrupt termination",
+  "type": "functional",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "syncope",
+   "palpitations",
+   "dizziness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "atrial_fibrillation_flutter",
+   "svt",
+   "pvcs_benign_ectopy",
+   "sinus_tachycardia_secondary"
+  ],
+  "indication_tags": []
+ },
+ "technique": {
+  "how": "If symptoms are present, palpate the radial pulse (or auscultate the apex) for 30-60 s: count the rate, judge regularity (regular, regularly irregular, irregularly irregular) and note whether it stops abruptly or slows gradually. Teach the patient to count or record the pulse (wearable/smartphone) at symptom onset and offset if no episode is witnessed.",
+  "prerequisites": "Symptoms must be present at the time of palpation; obtain a 12-lead ECG or rhythm strip as soon as possible during the episode.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "An irregularly irregular pulse suggests atrial fibrillation (pooled LR+ 3.4 vs ECG); a regular tachycardia >150/min with abrupt termination suggests SVT or flutter; skipped beats with a regular baseline suggest ectopy.",
+  "negative_finding": "A regular pulse during symptoms makes AF unlikely (pooled LR- 0.10); a rate proportional to activity or anxiety that slows gradually suggests sinus tachycardia.",
+  "pitfalls": "Frequent ectopy and heart block also feel irregular; rapid AF may feel regular; pulse deficit means the radial count underestimates the ventricular rate. Palpation between episodes is uninformative.",
+  "changes_what": "Irregular pulse during symptoms: obtain ECG for AF and start stroke-risk assessment; regular fast pulse with abrupt offset: SVT pathway; regular rate-appropriate pulse: look for secondary causes."
+ },
+ "estimates": [
+  {
+   "target_condition": "Atrial fibrillation (irregular pulse vs ECG)",
+   "population": "2385 patients across 3 studies comparing pulse palpation with ECG, mainly older primary care/screening populations",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "12-lead ECG",
+   "sensitivity": {
+    "value": 0.94,
+    "ci_low": 0.84,
+    "ci_high": 0.97
+   },
+   "specificity": {
+    "value": 0.72,
+    "ci_low": 0.69,
+    "ci_high": 0.75
+   },
+   "lr_positive": {
+    "value": 3.39,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.1,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": false,
+   "interpretation_label": "rule_out",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "Pooled sensitivity was 94% (95% confidence interval [CI], 84%-97%) and pooled specificity was 72% (95% CI, 69%-75%).",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Cooke G, Doust J, Sanders S. Is pulse palpation helpful in detecting atrial fibrillation? A systematic review. J Fam Pract 2006;55:130-134.",
+   "doi": null,
+   "pmid": "16451780",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2006
+  },
+  {
+   "citation": "Thavendiranathan P, Bagai A, Khoo C, Dorian P, Choudhry NK. Does this patient with palpitations have a cardiac arrhythmia? JAMA 2009;302:2135-2143.",
+   "doi": "10.1001/jama.2009.1673",
+   "pmid": "19920238",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2009
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not substitute pulse palpation for an ECG during symptoms; do not interpret palpation performed between episodes.",
+  "escalation_warning": "Tachycardia with hypotension, chest pain, syncope or altered mentation needs immediate ECG/monitoring and ACLS-directed management, not further bedside characterization.",
+  "interobserver_note": "Cooke 2006 pooled studies used nurses and GPs; agreement on 'irregularly irregular' is reasonable but ectopy is a common source of false positives."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Only the AF/irregular-pulse component is quantified (Cooke 2006 pooled sens/spec and LRs from abstract: 'The pooled positive likelihood ratio was 3.39, while the pooled negative likelihood ratio was 0.10'; LR CIs not reported). Rate thresholds and abrupt termination during an episode have no diagnostic-accuracy data; the JAMA RCE (not OA) quantifies neck pounding for AVNRT but not pulse characteristics, and is cited as context. Cooke studies were screening populations, not symptomatic episodes, so applicability to during-episode palpation is an extrapolation.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T02:00:31+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

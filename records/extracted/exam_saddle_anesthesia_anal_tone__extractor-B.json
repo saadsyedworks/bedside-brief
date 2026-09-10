@@ -1,0 +1,85 @@
+{
+ "identity": {
+  "id": "exam_saddle_anesthesia_anal_tone",
+  "title": "Saddle (perineal) sensory loss and reduced anal tone",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "aki",
+   "weakness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "cauda_equina",
+   "obstruction_retention",
+   "spinal_cord_compression",
+   "urinary_retention"
+  ],
+  "indication_tags": [
+   "bilateral",
+   "acute_onset"
+  ]
+ },
+ "technique": {
+  "how": "With consent and a chaperone, test light touch and pinprick over the perineum, perianal skin, and inner thighs (S2-S5) comparing sides and asking about altered sensation on wiping. Then digital rectal examination assessing resting tone and voluntary squeeze, and the anal wink reflex; check a post-void residual bladder volume at the same time.",
+  "prerequisites": "Explain the examination, chaperone, privacy; document baseline bladder and bowel function and time of onset.",
+  "contraindications": "Patient refusal; anal pathology making examination intolerable (perform sensory testing and bladder scan regardless)."
+ },
+ "interpretation": {
+  "positive_finding": "Reduced perianal/saddle sensation or reduced anal tone in a patient with back pain, bilateral sciatica, or new urinary symptoms is a red flag for cauda equina compression and warrants emergency MRI; pooled red flags are more specific than sensitive.",
+  "negative_finding": "Normal saddle sensation and anal tone do not exclude cauda equina syndrome (pooled red-flag sensitivities only 0.19-0.43); digital rectal examination alone did not discriminate MRI-confirmed CES.",
+  "pitfalls": "Subjective altered sensation is often missed unless asked about wiping; anal tone is unreliable and examiner-dependent. Painless retention with overflow incontinence is the most ominous late sign and is often misattributed to prostatism.",
+  "changes_what": "Positive: emergency whole-lumbar MRI and spinal surgery referral, bladder scan/catheter. Negative: do not de-escalate if urinary retention or bilateral leg symptoms are present."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Dionne N, Adefolarin A, Kunzelman D, et al. What is the diagnostic accuracy of red flags related to cauda equina syndrome (CES), when compared to Magnetic Resonance Imaging (MRI)? A systematic review. Musculoskelet Sci Pract. 2019;42:125-133.",
+   "doi": "10.1016/j.msksp.2019.05.004",
+   "pmid": "31132655",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2019
+  },
+  {
+   "citation": "Gooding BW, Higgins MA, Calthorpe DA. Does rectal examination have any value in the clinical diagnosis of cauda equina syndrome? Br J Neurosurg. 2013;27(2):156-159.",
+   "doi": "10.3109/02688697.2012.732715",
+   "pmid": "23113877",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2013
+  },
+  {
+   "citation": "Bell DA, Collie D, Statham PF. Cauda equina syndrome: what is the correlation between clinical assessment and MRI scanning? Br J Neurosurg. 2007;21(2):201-203.",
+   "doi": "10.1080/02688690701317144",
+   "pmid": "17453789",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2007
+  },
+  {
+   "citation": "Domen PM, Hofman PA, van Santbrink H, Weber WE. Predictive value of clinical characteristics in patients with suspected cauda equina syndrome. Eur J Neurol. 2009;16(3):416-419.",
+   "doi": "10.1111/j.1468-1331.2008.02510.x",
+   "pmid": "19490073",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2009
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Never use a normal rectal examination or normal saddle sensation to withhold emergency MRI when there is new urinary retention, incontinence, or bilateral sciatica.",
+  "escalation_warning": "Suspected cauda equina syndrome is a surgical emergency; MRI should be obtained within hours because neurological deterioration is unpredictable and often irreversible.",
+  "interobserver_note": "Anal tone assessment is subjective and, in one series of 57 suspected CES, DRE had test accuracy 51% (diagnostic odds ratio 1.42) against MRI; perceived saddle numbness is reported by patients more reliably than it is elicited by pinprick."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Dionne 2019 (corrected 2019/2021, PMIDs 31300389/33722511) pools saddle anaesthesia and reduced anal tone against MRI in 6 studies (N=569): abstract gives only the range across seven red flags, pooled sensitivity 0.19 (0.09-0.33) to 0.43 (0.30-0.56) and specificity 0.62 (0.59-0.73) to 0.88 (0.85-0.92); the per-finding table is not visible (no PMC full text) so no finding-specific estimate can be entered and evidence_status is not_quantified. Primary studies retrieved (Gooding 2013 DRE accuracy 51%, Bell 2007 'altered perineal sensation' diagnostic accuracy 0.60, Domen 2009) report accuracy or ORs without extractable sens/spec in their abstracts. A verifier with access to Dionne Table 3 should fill the saddle-anaesthesia and anal-tone rows.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T02:00:23+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

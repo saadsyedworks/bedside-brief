@@ -1,0 +1,130 @@
+{
+ "identity": {
+  "id": "exam_focal_neuro_deficit_screen",
+  "title": "Focal deficit screen: facial droop, arm drift, speech (Cincinnati/NIHSS-lite)",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dizziness",
+   "ams",
+   "weakness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "hypoglycemia",
+   "nonconvulsive_seizure",
+   "posterior_circulation_stroke",
+   "stroke"
+  ],
+  "indication_tags": [
+   "acute_onset",
+   "anticoagulated"
+  ]
+ },
+ "technique": {
+  "how": "Rapid structured screen borrowed from the NIHSS: facial symmetry on smile, arm drift over 10 s with eyes closed, speech/language on repeating a sentence and naming, plus a quick check of gaze, visual fields, leg drift, and sensation to each side. Score each item present/absent; any new focal item is positive.",
+  "prerequisites": "Patient able to attend to commands; fingerstick glucose; note baseline deficits and handedness.",
+  "contraindications": "None; in an obtunded patient substitute observation of spontaneous movement, gaze deviation, and response to pain."
+ },
+ "interpretation": {
+  "positive_finding": "One or more new focal items (facial paresis, arm drift, abnormal speech) raises stroke probability roughly five-fold; gaze deviation or hemianopia adds lateralizing value.",
+  "negative_finding": "No focal item present lowers stroke probability (pooled LR about 0.4) but cannot exclude posterior-circulation stroke, small lacunes, or non-convulsive seizure presenting as confusion.",
+  "pitfalls": "Hypoglycemia, Todd paresis after unwitnessed seizure, and hepatic encephalopathy can produce transient focal signs; fluctuating deficits with altered awareness should prompt EEG consideration. In anticoagulated patients any new focal sign mandates urgent imaging for hemorrhage.",
+  "changes_what": "Positive: stroke pathway, urgent CT/CTA, reverse anticoagulation if hemorrhage. Negative with persistent AMS or dizziness: pursue metabolic, seizure, and posterior-fossa causes rather than stopping."
+ },
+ "estimates": [
+  {
+   "target_condition": "Acute stroke, final diagnosis after neuroimaging",
+   "population": "Adults with neurologically relevant symptoms evaluated for possible stroke (pooled from studies using modern neuroimaging)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Final clinical diagnosis after neuroimaging and relevant laboratory tests",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 5.5,
+    "ci_low": 3.3,
+    "ci_high": 9.1
+   },
+   "lr_negative": {
+    "value": 0.39,
+    "ci_low": 0.25,
+    "ci_high": 0.61
+   },
+   "computed": false,
+   "interpretation_label": "both",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "LR of > or =1 finding = 5.5; 95% CI, 3.3-9.1 ... LR of 0 findings = 0.39; 95% CI, 0.25-0.61",
+   "location": "Abstract, Results (LR for >=1 of facial paresis, arm drift, abnormal speech vs 0 findings)"
+  },
+  {
+   "target_condition": "Stroke or TIA (physician-scored 3-item screen)",
+   "population": "Convenience sample of 171 ED and neurology inpatients, 49 with stroke/TIA",
+   "setting": "mixed",
+   "prevalence": 0.287,
+   "reference_standard": "Final diagnosis of stroke or TIA (physician certified in NIH Stroke Scale scored the screen)",
+   "sensitivity": {
+    "value": 0.66,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.87,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 5.08,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.39,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "LRs computed from abstract sens 0.66 and spec 0.87: LR+ = 0.66/(1-0.87) = 5.08; LR- = (1-0.66)/0.87 = 0.39. Prevalence = 49/171.",
+   "interpretation_label": "both",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "Observation by the physician of an abnormality in any 1 of the 3 stroke scale items had a sensitivity of 66% and specificity of 87%",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Goldstein LB, Simel DL. Is this patient having a stroke? JAMA. 2005;293(19):2391-2402.",
+   "doi": "10.1001/jama.293.19.2391",
+   "pmid": "15900010",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2005
+  },
+  {
+   "citation": "Kothari RU, Pancioli A, Liu T, Brott T, Broderick J. Cincinnati Prehospital Stroke Scale: reproducibility and validity. Ann Emerg Med. 1999;33(4):373-378.",
+   "doi": "10.1016/s0196-0644(99)70299-4",
+   "pmid": "10092713",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1999
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Not a rule-out for posterior-circulation stroke in acute vestibular syndrome or for stroke presenting as isolated confusion; a normal screen in those settings needs gait/HINTS or imaging.",
+  "escalation_warning": "New focal deficit in an anticoagulated patient is intracranial hemorrhage until imaged; activate stroke pathway immediately.",
+  "interobserver_note": "Reliability of individual neurological findings ranges slight to almost perfect and improves with standardized scoring (NIHSS); the 3-item CPSS has ICC 0.89-0.92 between prehospital providers and physicians (Kothari 1999)."
+ },
+ "tier": "extracted",
+ "extraction_notes": "This id overlaps substantially with exam_face_arm_speech_cpss; the quantitative base is the same JAMA RCE pooled LR (PMID 15900010) and Kothari 1999 (PMID 10092713). No separate accuracy data exist for an 'NIHSS-lite' bundle with gaze/visual-field items, so the estimates apply to the 3-item core only. LRs for Kothari are computed from abstract sens/spec. Ellipsis in the pooled quote joins two verbatim fragments of one abstract sentence.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T02:00:23+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}
