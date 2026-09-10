@@ -560,6 +560,9 @@ def _merge_form(form: dict[str, str], draft: dict) -> dict[str, Any]:
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--port", type=int, default=8765)
+    ap.add_argument("--host", default="127.0.0.1",
+                    help="bind address; use 0.0.0.0 to reach it from another device on the same Wi-Fi "
+                         "(the queue has no login, so only do this on a network you trust)")
     ap.add_argument("--records-dir", default=str(ROOT / "records"))
     ap.add_argument("--only", default="", help="comma-separated ids to restrict the queue to")
     ap.add_argument("--open", action="store_true", help="print the URL (no browser is launched)")
@@ -572,7 +575,7 @@ def main(argv: list[str] | None = None) -> int:
     import uvicorn
 
     print(f"Bedside Brief verification queue: {url}  (records: {args.records_dir})", flush=True)
-    uvicorn.run(app, host="127.0.0.1", port=args.port, log_level="warning")
+    uvicorn.run(app, host=args.host, port=args.port, log_level="warning")
     return 0
 
 
