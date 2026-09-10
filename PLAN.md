@@ -1,0 +1,47 @@
+# PLAN — work top to bottom, check off, keep current
+
+## Phase 0 — Taxonomy + benchmark (Day 1). GATE: owner sign-off.
+- [ ] Review `vocab.json`; extend differentials/tags only if a case clearly needs it; note additions in DECISIONS.md.
+- [ ] Author `discriminator_ids.json`: ~150 ids across history/exam/functional/pocus, each with title, type, presentations[], differentials[], expected_evidence (rce_backed | likely_quantified | likely_not_quantified). Prioritize discriminators with known diagnostic-accuracy literature (JAMA Rational Clinical Examination series is the index). Cardiology and volume assessment deep.
+- [ ] case-author + case-critic: 3 base cases per presentation (36) each with 1 perturbation pair + 1 noise variant → 108 files in `benchmark/cases/`. Free-text targets only; `reference_targets_mapped` empty. Follow `benchmark_case_template.json`.
+- [ ] Owner gate: present vocab, id list, and 6 sample cases (one per 2 presentations) for edit. Apply edits. Commit → **freeze #1**; write hash into every case file.
+
+## Phase 1 — Extraction (Days 1–3, runs in background)
+- [ ] Build `agents/extractor.md` from `extraction_packet_spec.md`. Build `agents/redteam.md`.
+- [ ] Run extractor-A and extractor-B over all ids, batched by presentation, cardiology first. Write to `records/extracted/`.
+- [ ] Red-team each batch. Produce `records/diff_report.md`: per id, agreement status, flagged issues, and a suggested verification order (disagreements first, then rce_backed agreements, then rest).
+- [ ] Build `tools/verify_ui.py`: side-by-side packet view with quote + location + link, one-click promote/reject/edit → writes `records/verified/{id}.json` with `verified_by`, `verified_at`. Owner gate: hand over the queue.
+
+## Phase 2 — Pipeline (Days 2–3, parallel with extraction)
+- [ ] `store.py`: load/validate records against schema; SQLite index on differentials, indication_tags, presentations, type, tier.
+- [ ] `parser.py`: LLM → strict JSON (chief complaint, time course, modifiers, weighted differentials ≤6 from vocab, indication_tags from vocab, missing_features[]). Reject any token not in vocab.
+- [ ] `retrieve.py`: deterministic; candidates = verified records whose differentials ∩ parsed differentials ≠ ∅, boosted by tag overlap, filtered by presentation; pocus excluded unless enabled.
+- [ ] `rank.py`: LLM chooses ≤4 Ask / ≤4 Examine / ≤3 POCUS from candidate ids only; returns ids + one-line rationale per id; hard-fail on any id not in candidates.
+- [ ] `render.py`: card assembled from stored fields only; evidence drawer; badge from evidence_status; audit link per item; "ask first" line if missing_features non-empty and would change ranking.
+- [ ] `validate.py`: regex-scan rendered card for numbers; every number must exist in a linked verified record; else block and log.
+- [ ] `bayes.py`: deterministic pre/post-test calculator (optional view).
+- [ ] `api.py` + single-page UI: input box, one button, ASK/EXAMINE/POCUS sections, evidence expands on demand. Copy: "Review. Pocket the phone. See the patient."
+- [ ] Tests: schema validation, retrieval determinism, ranker id-containment, validator blocking, render fidelity, perturbation/noise fixtures. code-reviewer pass.
+
+## Phase 3 — Evaluation (Day 4–5). GATE: freeze #2, then judging queue.
+- [ ] Map free-text targets → record ids (`reference_targets_mapped`); unmapped targets counted for library coverage. Commit → **freeze #2**.
+- [ ] `eval/arms.py`: A (full), B (retrieval-only, fixed order, truncated), C (generic LLM prompt, same model, parsed by same item parser).
+- [ ] `eval/metrics.py`: every mechanical metric in `evaluation_rubric.md`; ECG sensitivity analysis.
+- [ ] `eval/judging_export.py`: shuffled, arm-blinded item list (CSV) for owner relevance/safety scoring; `judging_import.py`.
+- [ ] Run all arms on frozen set; write `eval/runs/{timestamp}/`. Error analysis: top 5 failure modes of A with examples.
+- [ ] Owner gate: judging queue (default 12 cases × 3 arms; all cases if owner has time).
+
+## Phase 4 — Fix + report (Day 6)
+- [ ] Fix high-impact failure modes in pipeline only. Re-run frozen set. Report both runs.
+- [ ] `eval/report.py`: tables + figure (bedside share A vs C; recall A vs B vs C).
+- [ ] Draft `abstract.md` (≤400 words: background, innovation, methods, results, limitations, conclusion). Every number annotated with its source file path in a comment. Owner gate.
+
+## Phase 5 — Submit (Day 7)
+- [ ] Number audit: script cross-checks abstract numbers against run outputs.
+- [ ] README with reproducibility notes; tag release `abstract-v1`.
+
+## Fallback (trigger Sunday night if verified < 60 or end-to-end fails)
+Development abstract: architecture, store statistics (N extracted, N verified, not-quantified share, presentations covered), frozen benchmark described, comparison "in progress." No comparison numbers.
+
+## Post-abstract (Oct)
+Verify remaining records; 5 cases/presentation; UI polish; optional small human study design (residents plan exam with vs without brief); poster.

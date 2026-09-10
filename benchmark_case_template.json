@@ -1,0 +1,31 @@
+{
+  "_instructions": "Author ALL cases and reference targets BEFORE querying the library. Write targets in free text; map to record ids afterward. Commit the file before the first eval run. Cases per presentation: 3-5 base cases, each with one perturbation pair and one noise variant.",
+  "case_id": "syncope_003",
+  "presentation": "syncope",
+  "input_oneliner": "74M with AS on last echo 2 years ago, syncope while climbing stairs, no prodrome",
+  "optional_context": {"age": 74, "sex": "M", "comorbidity": "aortic stenosis", "timing": "exertional", "objective": null},
+  "intended_bedside_differential": ["severe AS", "arrhythmia", "orthostatic hypotension"],
+  "reference_targets_freetext": [
+    {"item": "Character of murmur: late-peaking, soft/absent S2, slow carotid upstroke", "rationale": "Discriminates severe AS; high LR+ findings", "must_have": true},
+    {"item": "Ask: any prodrome, palpitations, or chest pain before event", "rationale": "Arrhythmic vs structural vs reflex", "must_have": true},
+    {"item": "Orthostatic vitals", "rationale": "Rules in/out orthostatic component", "must_have": false}
+  ],
+  "reference_targets_mapped": [],
+  "off_bedside_acceptable": ["ECG"],
+  "should_not_recommend": ["Carotid sinus massage before AS severity assessed", "Any imaging or lab as a substitute for exam"],
+  "underspecified_flag_expected": false,
+  "perturbation_pair": {
+    "case_id": "syncope_003_p1",
+    "changed_feature": "exertional -> positional (on standing from bed)",
+    "input_oneliner": "74M with AS on last echo 2 years ago, syncope on standing from bed, brief lightheaded prodrome",
+    "expected_change": "Orthostatic vitals becomes must_have; AS murmur characterization drops to should-still-include; ask about volume loss / new meds rises"
+  },
+  "noise_variant": {
+    "case_id": "syncope_003_n1",
+    "changed_feature": "wording and non-contributory demographic detail",
+    "input_oneliner": "Seventy-four year old man, retired teacher, known aortic stenosis (echo ~2 yrs ago), passed out going up a flight of stairs, no warning",
+    "expected_change": "None. Card should be substantially identical to base."
+  },
+  "authored_at": "",
+  "frozen_commit": ""
+}

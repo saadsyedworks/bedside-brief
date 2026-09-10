@@ -1,0 +1,19 @@
+{
+  "_note": "Controlled vocabulary. Parser emits ONLY these strings; records map ONLY to these strings. Owner-editable; edits require re-running validator.",
+  "presentations": {
+    "dyspnea": ["acute_decompensated_hf", "copd_exacerbation", "asthma_exacerbation", "pneumonia", "pulmonary_embolism", "pneumothorax", "pleural_effusion", "acs", "pericardial_effusion_tamponade", "anemia", "metabolic_acidosis", "anxiety_hyperventilation", "upper_airway_obstruction", "ild"],
+    "chest_pain": ["acs", "pulmonary_embolism", "aortic_dissection", "pericarditis", "pneumothorax", "pneumonia", "esophageal_gerd", "musculoskeletal_chest_wall", "herpes_zoster", "pericardial_effusion_tamponade", "aortic_stenosis"],
+    "dizziness": ["vestibular_neuritis", "bppv", "posterior_circulation_stroke", "orthostatic_hypotension", "medication_effect", "arrhythmia", "hypoglycemia", "anemia", "meniere"],
+    "syncope": ["reflex_vasovagal", "orthostatic_hypotension", "bradyarrhythmia", "tachyarrhythmia", "aortic_stenosis", "hcm", "pulmonary_embolism", "seizure_mimic", "carotid_sinus_hypersensitivity", "situational_syncope"],
+    "palpitations": ["atrial_fibrillation_flutter", "svt", "ventricular_tachycardia", "pvcs_benign_ectopy", "sinus_tachycardia_secondary", "hyperthyroidism", "acute_decompensated_hf", "anemia"],
+    "edema": ["acute_decompensated_hf", "cirrhosis", "nephrotic_syndrome", "venous_insufficiency", "dvt", "medication_effect", "hypoalbuminemia", "lymphedema", "constrictive_pericarditis", "rv_failure_pulmonary_hypertension"],
+    "hypotension": ["septic_shock", "hypovolemic_hemorrhagic_shock", "cardiogenic_shock", "pericardial_effusion_tamponade", "pulmonary_embolism", "anaphylaxis", "adrenal_insufficiency", "medication_effect"],
+    "ams": ["delirium_infectious", "hepatic_encephalopathy", "hypoglycemia", "hypercapnia", "stroke", "nonconvulsive_seizure", "intoxication_withdrawal", "uremia", "wernicke", "meningitis_encephalitis", "hyponatremia", "medication_effect"],
+    "abdominal_pain": ["appendicitis", "cholecystitis", "cholangitis", "pancreatitis", "small_bowel_obstruction", "perforated_viscus", "mesenteric_ischemia", "diverticulitis", "aaa", "pyelonephritis_nephrolithiasis", "peptic_ulcer", "sbp", "urinary_retention"],
+    "fever": ["pneumonia", "uti_pyelonephritis", "cellulitis_ssti", "necrotizing_fasciitis", "endocarditis", "meningitis_encephalitis", "cdiff_colitis", "line_infection", "intraabdominal_abscess", "drug_fever", "dvt", "pulmonary_embolism", "septic_arthritis"],
+    "weakness": ["stroke", "gbs", "myasthenia_gravis", "spinal_cord_compression", "cauda_equina", "electrolyte_hypokalemia_hypophosphatemia", "myopathy", "bell_palsy", "sepsis_deconditioning", "hypoglycemia"],
+    "aki": ["prerenal_hypovolemia", "cardiorenal", "hepatorenal", "atn", "obstruction_retention", "ain", "glomerulonephritis", "contrast_nephropathy", "rhabdomyolysis", "abdominal_compartment"]
+  },
+  "indication_tags": ["exertional", "positional", "orthostatic", "post_prandial", "nocturnal", "pleuritic", "febrile", "post_operative", "immunocompromised", "anticoagulated", "cirrhosis_known", "ckd_known", "hf_known", "copd_known", "elderly", "pregnant", "recent_travel", "new_medication", "ivdu", "prosthetic_valve", "malignancy", "dialysis", "unilateral", "bilateral", "acute_onset", "subacute", "recent_immobilization", "trauma", "alcohol_use", "diabetes_insulin"],
+  "off_bedside_categories": ["lab", "imaging", "ecg", "consult", "monitoring", "disposition", "treatment"]
+}

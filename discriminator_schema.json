@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BedsideDiscriminator",
+  "type": "object",
+  "required": ["identity", "clinical_mapping", "technique", "interpretation", "estimates", "evidence_status", "sources", "safety_scope", "tier", "record_version"],
+  "properties": {
+    "identity": {
+      "type": "object",
+      "required": ["id", "title", "type"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^[a-z]+_[a-z0-9_]+$", "description": "e.g. exam_jvp_elevated, hx_exertional_syncope"},
+        "title": {"type": "string"},
+        "type": {"enum": ["history", "exam", "functional", "pocus"]},
+        "bedside": {"type": "boolean", "const": true, "description": "All records in this store are bedside by definition; used by the bedside/off-bedside classifier."}
+      }
+    },
+    "clinical_mapping": {
+      "type": "object",
+      "required": ["presentations", "differentials"],
+      "properties": {
+        "presentations": {"type": "array", "items": {"enum": ["dyspnea", "chest_pain", "dizziness", "syncope", "palpitations", "edema", "hypotension", "ams", "abdominal_pain", "fever", "weakness", "aki"]}, "minItems": 1},
+        "syndromes": {"type": "array", "items": {"type": "string"}},
+        "differentials": {"type": "array", "items": {"type": "string"}, "minItems": 1, "description": "Diagnoses this discriminator helps rule in/out"},
+        "indication_tags": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "technique": {
+      "type": "object",
+      "required": ["how"],
+      "properties": {
+        "how": {"type": "string", "maxLength": 400},
+        "prerequisites": {"type": "string"},
+        "contraindications": {"type": "string"}
+      }
+    },
+    "interpretation": {
+      "type": "object",
+      "required": ["positive_finding", "negative_finding", "changes_what"],
+      "properties": {
+        "positive_finding": {"type": "string"},
+        "negative_finding": {"type": "string"},
+        "pitfalls": {"type": "string"},
+        "changes_what": {"type": "string", "maxLength": 200, "description": "One sentence: what a +/- result should change in differential or next action"}
+      }
+    },
+    "estimates": {
+      "type": "array",
+      "description": "Zero or more. Multiple entries when performance differs by population. Empty array only if evidence_status = not_quantified.",
+      "items": {
+        "type": "object",
+        "required": ["target_condition", "population", "setting", "reference_standard", "source_index"],
+        "properties": {
+          "target_condition": {"type": "string"},
+          "population": {"type": "string"},
+          "setting": {"enum": ["ED", "inpatient", "outpatient", "ICU", "mixed"]},
+          "prevalence": {"type": ["number", "null"]},
+          "reference_standard": {"type": "string"},
+          "sensitivity": {"$ref": "#/$defs/stat"},
+          "specificity": {"$ref": "#/$defs/stat"},
+          "lr_positive": {"$ref": "#/$defs/stat"},
+          "lr_negative": {"$ref": "#/$defs/stat"},
+          "computed": {"type": "boolean", "default": false},
+          "computed_from": {"type": "string", "description": "If computed, the 2x2 or inputs used"},
+          "interpretation_label": {"enum": ["rule_in", "rule_out", "both", "modest", "minimal"]},
+          "evidence_level": {"enum": ["pooled", "validation_cohort", "single_study", "guideline_expert"]},
+          "source_index": {"type": "integer", "description": "Index into sources[]"},
+          "quote": {"type": "string", "maxLength": 200, "description": "Verbatim ≤25 words containing the number"},
+          "location": {"type": "string", "description": "Table/page/figure in the source"}
+        }
+      }
+    },
+    "evidence_status": {"enum": ["quantified", "partially_quantified", "not_quantified"]},
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["citation", "kind"],
+        "properties": {
+          "citation": {"type": "string"},
+          "doi": {"type": ["string", "null"]},
+          "pmid": {"type": ["string", "null"]},
+          "url": {"type": ["string", "null"]},
+          "kind": {"enum": ["rce_series", "meta_analysis", "primary_study", "guideline", "consensus"]},
+          "year": {"type": "integer"}
+        }
+      }
+    },
+    "safety_scope": {
+      "type": "object",
+      "properties": {
+        "do_not_use_when": {"type": "string"},
+        "skill_assumption": {"type": "string", "description": "Required for pocus"},
+        "escalation_warning": {"type": "string"},
+        "interobserver_note": {"type": "string"}
+      }
+    },
+    "tier": {"enum": ["extracted", "verified"]},
+    "extraction_notes": {"type": "string"},
+    "agent_id": {"type": "string"},
+    "extracted_at": {"type": "string", "format": "date-time"},
+    "verified_by": {"type": ["string", "null"]},
+    "verified_at": {"type": ["string", "null"], "format": "date-time"},
+    "verification_notes": {"type": "string"},
+    "record_version": {"type": "integer", "minimum": 1}
+  },
+  "$defs": {
+    "stat": {
+      "type": ["object", "null"],
+      "required": ["value"],
+      "properties": {
+        "value": {"type": "number"},
+        "ci_low": {"type": ["number", "null"]},
+        "ci_high": {"type": ["number", "null"]}
+      }
+    }
+  },
+  "allOf": [
+    {"if": {"properties": {"evidence_status": {"const": "not_quantified"}}}, "then": {"properties": {"estimates": {"maxItems": 0}}}},
+    {"if": {"properties": {"evidence_status": {"const": "quantified"}}}, "then": {"properties": {"estimates": {"minItems": 1}}}},
+    {"if": {"properties": {"tier": {"const": "verified"}}}, "then": {"required": ["verified_by", "verified_at"]}},
+    {"if": {"properties": {"identity": {"properties": {"type": {"const": "pocus"}}}}}, "then": {"properties": {"safety_scope": {"required": ["skill_assumption"]}}}}
+  ]
+}
