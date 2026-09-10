@@ -1,0 +1,3270 @@
+{
+  "_note": "Discriminator id list for Bedside Brief. Owner-editable until freeze #1. Sorted by priority, then first presentation in cardiology-first order. See DECISIONS.md #3/#4.",
+  "_collisions_merged": [
+    "exam_bladder_percussion_palpable",
+    "exam_calf_asymmetry_gt3cm",
+    "exam_capillary_refill",
+    "exam_dry_mucous_membranes",
+    "exam_jvp_elevated",
+    "exam_melena_rectal_exam",
+    "exam_orthostatic_vitals",
+    "exam_pulmonary_crackles",
+    "exam_pulsus_paradoxus",
+    "exam_shifting_dullness",
+    "fn_jolt_accentuation",
+    "fn_passive_leg_raise",
+    "hx_hypoglycemia_symptoms_insulin",
+    "hx_rigors_shaking_chills",
+    "pocus_aaa_aorta_diameter",
+    "pocus_bladder_volume",
+    "pocus_dvt_compression",
+    "pocus_hydronephrosis",
+    "pocus_ivc_collapsibility",
+    "pocus_lung_b_lines",
+    "pocus_lv_function_eyeball",
+    "pocus_pericardial_effusion",
+    "pocus_rv_dilation"
+  ],
+  "ids": [
+    {
+      "id": "exam_abdominojugular_reflux",
+      "title": "Abdominojugular (hepatojugular) reflux: sustained JVP rise >3 cm with 10-30 s abdominal pressure",
+      "type": "exam",
+      "presentations": [
+        "dyspnea",
+        "edema",
+        "hypotension",
+        "aki"
+      ],
+      "differentials": [
+        "acute_decompensated_hf",
+        "cardiogenic_shock",
+        "cardiorenal",
+        "constrictive_pericarditis",
+        "rv_failure_pulmonary_hypertension"
+      ],
+      "indication_tags": [
+        "hf_known"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2005 'Does this dyspneic patient in the emergency department have congestive heart failure?' Wang CS et al; PMID 16234501 ; also JAMA RCE 1996 'Does this patient have abnormal central venous pressure?' Cook DJ, Simel DL; PMID 8594245",
+      "priority": 1
+    },
+    {
+      "id": "exam_ascending_symmetric_weakness_areflexia",
+      "title": "Ascending symmetric limb weakness with absent/reduced reflexes (after recent GI/URI illness)",
+      "type": "exam",
+      "presentations": [
+        "dyspnea",
+        "weakness"
+      ],
+      "differentials": [
+        "electrolyte_hypokalemia_hypophosphatemia",
+        "gbs",
+        "myopathy",
+        "spinal_cord_compression"
+      ],
+      "indication_tags": [
+        "subacute",
+        "bilateral"
+      ],
+      "expected_evidence": "likely_not_quantified",
+      "anchor_source": "Fokke C et al 2014 'Diagnosis of Guillain-Barre syndrome and validation of Brighton criteria' Brain; PMID 24163275; Brighton Collaboration case definition (consensus)",
+      "priority": 1
+    },
+    {
+      "id": "exam_breath_sounds_unilateral_absent",
+      "title": "Unilaterally absent or markedly reduced breath sounds (+/- tracheal deviation as late tension sign)",
+      "type": "exam",
+      "presentations": [
+        "dyspnea",
+        "chest_pain",
+        "hypotension"
+      ],
+      "differentials": [
+        "pleural_effusion",
+        "pneumonia",
+        "pneumothorax",
+        "upper_airway_obstruction"
+      ],
+      "indication_tags": [
+        "unilateral",
+        "trauma"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2009 'Does this patient have a pleural effusion?' Wong CL, Holroyd-Leduc J, Straus SE; PMID 19155458 ; pneumonia: JAMA RCE 1997 'Does this patient have community-acquired pneumonia?' Metlay JP, Kapoor WN, Fine MJ; PMID 9356004",
+      "priority": 1
+    },
+    {
+      "id": "exam_calf_asymmetry_gt3cm",
+      "title": "Unilateral leg swelling: calf circumference difference >3 cm (10 cm below tibial tuberosity), with calf tenderness",
+      "type": "exam",
+      "presentations": [
+        "dyspnea",
+        "chest_pain",
+        "edema",
+        "fever"
+      ],
+      "differentials": [
+        "cellulitis_ssti",
+        "dvt",
+        "lymphedema",
+        "pulmonary_embolism",
+        "venous_insufficiency"
+      ],
+      "indication_tags": [
+        "malignancy",
+        "recent_immobilization",
+        "unilateral"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2006 'Does this patient have deep vein thrombosis?' Wells PS, Owen C, Doucette S, Fergusson D, Tran H; PMID 16403932 ; also JAMA RCE 1998 'Does this patient have deep vein thrombosis?' Anand SS et al; PMID 9546569",
+      "priority": 1
+    },
+    {
+      "id": "exam_capillary_refill",
+      "title": "Capillary refill time prolonged (>2-3 s, fingertip at heart level, warm room)",
+      "type": "exam",
+      "presentations": [
+        "dyspnea",
+        "hypotension",
+        "aki",
+        "fever"
+      ],
+      "differentials": [
+        "anaphylaxis",
+        "cardiogenic_shock",
+        "hypovolemic_hemorrhagic_shock",
+        "prerenal_hypovolemia",
+        "septic_shock"
+      ],
+      "indication_tags": [],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 1999 'Is this patient hypovolemic?' McGee S, Abernethy WB, Simel DL; PMID 10086438 (CRT not useful for hypovolemia); prognostic in septic shock: Ait-Oufella H et al, Intensive Care Med 2014 PMID 24811942; meta-analysis Jacquet-Lagreze M et al, Crit Care 2023 PMID 38042855",
+      "priority": 1
+    },
+    {
+      "id": "exam_carotid_upstroke_delayed",
+      "title": "Delayed and diminished carotid upstroke (pulsus parvus et tardus)",
+      "type": "exam",
+      "presentations": [
+        "dyspnea",
+        "chest_pain",
+        "syncope",
+        "dizziness"
+      ],
+      "differentials": [
+        "aortic_stenosis",
+        "hcm"
+      ],
+      "indication_tags": [
+        "exertional",
+        "elderly"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 1997 'Does this patient have an abnormal systolic murmur?' Etchells E et al; PMID 9032164",
+      "priority": 1
+    },
+    {
+      "id": "exam_egophony",
+      "title": "Egophony (E-to-A change) or bronchial breath sounds over a focal area",
+      "type": "exam",
+      "presentations": [
+        "dyspnea",
+        "chest_pain",
+        "fever"
+      ],
+      "differentials": [
+        "pleural_effusion",
+        "pneumonia"
+      ],
+      "indication_tags": [
+        "febrile"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 1997 'Does this patient have community-acquired pneumonia?' Metlay JP, Kapoor WN, Fine MJ; PMID 9356004 ; also Acad Emerg Med 2020 'Accuracy of signs and symptoms for the diagnosis of community-acquired pneumonia: a meta-analysis' Ebell MH et al; PMID 32329557",
+      "priority": 1
+    },
+    {
+      "id": "exam_fatigable_ptosis_sustained_upgaze",
+      "title": "Fatigable ptosis on sustained upgaze (60 s)",
+      "type": "exam",
+      "presentations": [
+        "dyspnea",
+        "weakness"
+      ],
+      "differentials": [
+        "myasthenia_gravis"
+      ],
+      "indication_tags": [
+        "subacute"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2005 'Does this patient have myasthenia gravis?' Scherer K, Bedlack RS, Simel DL; PMID 15840866",
+      "priority": 1
+    },
+    {
+      "id": "exam_jvp_elevated",
+      "title": "Jugular venous pressure elevated (>8 cm H2O / >3 cm above sternal angle); low/flat JVP as the negative",
+      "type": "exam",
+      "presentations": [
+        "dyspnea",
+        "chest_pain",
+        "edema",
+        "hypotension",
+        "aki"
+      ],
+      "differentials": [
+        "acute_decompensated_hf",
+        "cardiogenic_shock",
+        "cardiorenal",
+        "constrictive_pericarditis",
+        "hypovolemic_hemorrhagic_shock",
+        "pericardial_effusion_tamponade",
+        "prerenal_hypovolemia",
+        "pulmonary_embolism",
+        "rv_failure_pulmonary_hypertension"
+      ],
+      "indication_tags": [
+        "hf_known"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 1996 'Does this patient have abnormal central venous pressure?' Cook DJ, Simel DL; PMID 8594245 ; also JAMA RCE 2005 'Does this dyspneic patient in the emergency department have congestive heart failure?' Wang CS et al; PMID 16234501",
+      "priority": 1
+    },
+    {
+      "id": "exam_murmur_late_peaking_systolic",
+      "title": "Harsh crescendo-decrescendo systolic murmur, late-peaking, radiating to carotids, with soft/absent A2",
+      "type": "exam",
+      "presentations": [
+        "dyspnea",
+        "chest_pain",
+        "syncope",
+        "dizziness"
+      ],
+      "differentials": [
+        "aortic_stenosis",
+        "hcm"
+      ],
+      "indication_tags": [
+        "exertional",
+        "elderly"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 1997 'Does this patient have an abnormal systolic murmur?' Etchells E et al; PMID 9032164",
+      "priority": 1
+    },
+    {
+      "id": "exam_percussion_dullness",
+      "title": "Dullness to percussion with decreased tactile fremitus (focal; conventional vs auscultatory percussion)",
+      "type": "exam",
+      "presentations": [
+        "dyspnea",
+        "chest_pain",
+        "edema",
+        "fever"
+      ],
+      "differentials": [
+        "acute_decompensated_hf",
+        "pleural_effusion",
+        "pneumonia"
+      ],
+      "indication_tags": [
+        "febrile",
+        "unilateral"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2009 'Does this patient have a pleural effusion?' Wong CL, Holroyd-Leduc J, Straus SE; PMID 19155458 ; pneumonia: JAMA RCE 1997 'Does this patient have community-acquired pneumonia?' Metlay JP, Kapoor WN, Fine MJ; PMID 9356004",
+      "priority": 1
+    },
+    {
+      "id": "exam_peripheral_edema_pitting",
+      "title": "Lower-extremity edema: bilateral vs unilateral, pitting vs non-pitting (brawny), grade and level",
+      "type": "exam",
+      "presentations": [
+        "dyspnea",
+        "edema",
+        "hypotension",
+        "aki"
+      ],
+      "differentials": [
+        "acute_decompensated_hf",
+        "cardiorenal",
+        "cirrhosis",
+        "constrictive_pericarditis",
+        "hypoalbuminemia",
+        "medication_effect",
+        "nephrotic_syndrome",
+        "rv_failure_pulmonary_hypertension",
+        "venous_insufficiency"
+      ],
+      "indication_tags": [
+        "bilateral",
+        "hf_known"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2005 'Does this dyspneic patient in the emergency department have congestive heart failure?' Wang CS et al; PMID 16234501",
+      "priority": 1
+    },
+    {
+      "id": "exam_pulmonary_crackles",
+      "title": "Pulmonary crackles: bibasilar (heart failure) vs focal/unilateral (pneumonia)",
+      "type": "exam",
+      "presentations": [
+        "dyspnea",
+        "chest_pain",
+        "edema",
+        "hypotension",
+        "aki",
+        "fever"
+      ],
+      "differentials": [
+        "acute_decompensated_hf",
+        "cardiogenic_shock",
+        "cardiorenal",
+        "copd_exacerbation",
+        "ild",
+        "pneumonia"
+      ],
+      "indication_tags": [
+        "febrile",
+        "hf_known",
+        "unilateral"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2005 'Does this dyspneic patient in the emergency department have congestive heart failure?' Wang CS et al; PMID 16234501 ; pneumonia: JAMA RCE 1997 'Does this patient have community-acquired pneumonia?' Metlay JP, Kapoor WN, Fine MJ; PMID 9356004 || JAMA RCE 1997 'Does this patient have community-acquired pneumonia? Diagnosing pneumonia by history and physical examination' Metlay JP, Kapoor WN, Fine MJ; PMID 9356004",
+      "priority": 1
+    },
+    {
+      "id": "exam_pulse_irregularly_irregular",
+      "title": "Radial pulse irregularly irregular on palpation (>=20-30 s)",
+      "type": "exam",
+      "presentations": [
+        "dyspnea",
+        "syncope",
+        "palpitations",
+        "dizziness",
+        "weakness"
+      ],
+      "differentials": [
+        "acute_decompensated_hf",
+        "atrial_fibrillation_flutter",
+        "pvcs_benign_ectopy",
+        "stroke",
+        "svt"
+      ],
+      "indication_tags": [
+        "elderly",
+        "anticoagulated"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "J Fam Pract 2006 'Is pulse palpation helpful in detecting atrial fibrillation? A systematic review' Cooke G, Doust J, Sanders S; PMID 16451780",
+      "priority": 1
+    },
+    {
+      "id": "exam_pulsus_paradoxus",
+      "title": "Pulsus paradoxus >10-12 mmHg (inspiratory SBP fall by manual cuff)",
+      "type": "exam",
+      "presentations": [
+        "dyspnea",
+        "chest_pain",
+        "hypotension"
+      ],
+      "differentials": [
+        "asthma_exacerbation",
+        "constrictive_pericarditis",
+        "copd_exacerbation",
+        "pericardial_effusion_tamponade",
+        "pulmonary_embolism"
+      ],
+      "indication_tags": [
+        "malignancy"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2007 'Does this patient with a pericardial effusion have cardiac tamponade?' Roy CL et al; PMID 17456823 ; asthma context: JAMA RCE 1995 'Does the clinical examination predict airflow limitation?' Holleman DR, Simel DL; PMID 7815660",
+      "priority": 1
+    },
+    {
+      "id": "exam_s3_gallop",
+      "title": "Third heart sound (S3 gallop) at apex with bell, left lateral decubitus",
+      "type": "exam",
+      "presentations": [
+        "dyspnea",
+        "chest_pain",
+        "edema",
+        "hypotension",
+        "aki"
+      ],
+      "differentials": [
+        "acs",
+        "acute_decompensated_hf",
+        "cardiogenic_shock",
+        "cardiorenal"
+      ],
+      "indication_tags": [
+        "hf_known"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2005 'Does this dyspneic patient in the emergency department have congestive heart failure?' Wang CS et al; PMID 16234501 ; also JAMA RCE 1997 'Can the clinical examination diagnose left-sided heart failure in adults?' Badgett RG et al; PMID 9169900",
+      "priority": 1
+    },
+    {
+      "id": "exam_tachypnea_rr_gt24",
+      "title": "Respiratory rate >24-25/min counted for 60 s",
+      "type": "exam",
+      "presentations": [
+        "dyspnea",
+        "chest_pain",
+        "hypotension",
+        "aki",
+        "ams",
+        "fever"
+      ],
+      "differentials": [
+        "acute_decompensated_hf",
+        "anxiety_hyperventilation",
+        "metabolic_acidosis",
+        "pneumonia",
+        "pulmonary_embolism",
+        "septic_shock",
+        "uremia"
+      ],
+      "indication_tags": [],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 1997 'Does this patient have community-acquired pneumonia?' Metlay JP, Kapoor WN, Fine MJ; PMID 9356004 ; PE context: JAMA RCE 2003 'Does this patient have pulmonary embolism?' Chunilal SD et al; PMID 14657070",
+      "priority": 1
+    },
+    {
+      "id": "exam_wheezing",
+      "title": "Wheezing on auscultation (diffuse expiratory vs focal/monophonic)",
+      "type": "exam",
+      "presentations": [
+        "dyspnea",
+        "chest_pain",
+        "hypotension",
+        "fever"
+      ],
+      "differentials": [
+        "acute_decompensated_hf",
+        "anaphylaxis",
+        "asthma_exacerbation",
+        "copd_exacerbation",
+        "pneumonia",
+        "pulmonary_embolism",
+        "upper_airway_obstruction"
+      ],
+      "indication_tags": [
+        "copd_known"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 1995 'Does the clinical examination predict airflow limitation?' Holleman DR, Simel DL; PMID 7815660 ; also JAMA RCE 2000 'The accuracy of patient history, wheezing, and laryngeal measurements in diagnosing obstructive airway disease' (CARE-COAD1) Straus SE et al; PMID 10770147",
+      "priority": 1
+    },
+    {
+      "id": "fn_murmur_valsalva_standing_louder",
+      "title": "Dynamic auscultation: systolic murmur louder with Valsalva/standing, softer with squatting or handgrip",
+      "type": "functional",
+      "presentations": [
+        "dyspnea",
+        "chest_pain",
+        "syncope",
+        "palpitations"
+      ],
+      "differentials": [
+        "aortic_stenosis",
+        "hcm"
+      ],
+      "indication_tags": [
+        "exertional"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 1997 'Does this patient have an abnormal systolic murmur?' Etchells E et al; PMID 9032164 ; primary: NEJM 1988 'Bedside diagnosis of systolic murmurs' Lembo NJ et al; PMID 2897627",
+      "priority": 1
+    },
+    {
+      "id": "fn_passive_leg_raise",
+      "title": "Passive leg raise: hemodynamic response (BP/pulse pressure or POCUS VTI rise >=10-12%) within 60-90 s of raising legs 45 deg from semi-recumbent",
+      "type": "functional",
+      "presentations": [
+        "dyspnea",
+        "hypotension",
+        "aki"
+      ],
+      "differentials": [
+        "acute_decompensated_hf",
+        "cardiogenic_shock",
+        "cardiorenal",
+        "hypovolemic_hemorrhagic_shock",
+        "prerenal_hypovolemia",
+        "septic_shock"
+      ],
+      "indication_tags": [],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "Monnet X et al, Intensive Care Med 2016 'Passive leg raising for predicting fluid responsiveness: a systematic review and meta-analysis'; PMID 26825952. Pitfall: pulse-pressure/BP-based PLR is much less accurate than CO-based.",
+      "priority": 1
+    },
+    {
+      "id": "fn_single_breath_count",
+      "title": "Single breath count (count aloud on one full inspiration; <20 signals weak respiratory muscles)",
+      "type": "functional",
+      "presentations": [
+        "dyspnea",
+        "weakness"
+      ],
+      "differentials": [
+        "gbs",
+        "myasthenia_gravis"
+      ],
+      "indication_tags": [
+        "acute_onset"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "'Single breath count test and its applications in clinical practice: a systematic review' Ann Med Surg (Lond) 2024; PMID 38576972 (correlation with FVC in neuromuscular disease)",
+      "priority": 1
+    },
+    {
+      "id": "hx_exertional_chest_pain",
+      "title": "Chest pain provoked by exertion, relieved by rest (typical angina pattern)",
+      "type": "history",
+      "presentations": [
+        "dyspnea",
+        "chest_pain",
+        "syncope"
+      ],
+      "differentials": [
+        "acs",
+        "aortic_stenosis",
+        "hcm"
+      ],
+      "indication_tags": [
+        "exertional"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA 2005 'Value and limitations of chest pain history in the evaluation of patients with suspected acute coronary syndromes' Swap CJ, Nagurney JT; PMID 16304077 ; also JAMA RCE 2015 'Does this patient with chest pain have acute coronary syndrome?' Fanaroff AC et al; PMID 26547467",
+      "priority": 1
+    },
+    {
+      "id": "hx_orthopnea",
+      "title": "Orthopnea: dyspnea lying flat relieved by sitting up / number of pillows",
+      "type": "history",
+      "presentations": [
+        "dyspnea",
+        "chest_pain",
+        "edema"
+      ],
+      "differentials": [
+        "acute_decompensated_hf",
+        "cardiorenal",
+        "copd_exacerbation",
+        "pericardial_effusion_tamponade"
+      ],
+      "indication_tags": [
+        "nocturnal",
+        "positional",
+        "hf_known"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2005 'Does this dyspneic patient in the emergency department have congestive heart failure?' Wang CS et al; PMID 16234501",
+      "priority": 1
+    },
+    {
+      "id": "hx_pain_radiation_both_arms",
+      "title": "Chest pain radiating to both arms (or right arm/shoulder), with diaphoresis",
+      "type": "history",
+      "presentations": [
+        "dyspnea",
+        "chest_pain"
+      ],
+      "differentials": [
+        "acs"
+      ],
+      "indication_tags": [],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2015 'Does this patient with chest pain have acute coronary syndrome?' Fanaroff AC et al; PMID 26547467 ; also JAMA 2005 'Value and limitations of chest pain history in the evaluation of patients with suspected acute coronary syndromes' Swap CJ, Nagurney JT; PMID 16304077 ; JAMA RCE 1998 'Is this patient having a myocardial infarction?' Panju AA et al; PMID 9786377",
+      "priority": 1
+    },
+    {
+      "id": "hx_pleuritic_chest_pain",
+      "title": "Pleuritic chest pain (sharp, worse with inspiration/cough), +/- hemoptysis",
+      "type": "history",
+      "presentations": [
+        "dyspnea",
+        "chest_pain",
+        "fever"
+      ],
+      "differentials": [
+        "acs",
+        "pericarditis",
+        "pleural_effusion",
+        "pneumonia",
+        "pneumothorax",
+        "pulmonary_embolism"
+      ],
+      "indication_tags": [
+        "pleuritic"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2003 'Does this patient have pulmonary embolism?' Chunilal SD et al; PMID 14657070 ; MI negative: JAMA 2005 'Value and limitations of chest pain history in the evaluation of patients with suspected acute coronary syndromes' Swap CJ, Nagurney JT; PMID 16304077 ; JAMA RCE 1998 'Is this patient having a myocardial infarction?' Panju AA et al; PMID 9786377",
+      "priority": 1
+    },
+    {
+      "id": "hx_pnd",
+      "title": "Paroxysmal nocturnal dyspnea: waking 1-3 h after sleep with dyspnea relieved by sitting/standing",
+      "type": "history",
+      "presentations": [
+        "dyspnea",
+        "edema"
+      ],
+      "differentials": [
+        "acute_decompensated_hf",
+        "asthma_exacerbation",
+        "cardiorenal"
+      ],
+      "indication_tags": [
+        "nocturnal",
+        "hf_known"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2005 'Does this dyspneic patient in the emergency department have congestive heart failure?' Wang CS et al; PMID 16234501",
+      "priority": 1
+    },
+    {
+      "id": "hx_vte_risk_factors",
+      "title": "VTE risk history (Wells items): immobilization >=3 days or surgery within 4-12 weeks, prior objectively confirmed VTE, active malignancy",
+      "type": "history",
+      "presentations": [
+        "dyspnea",
+        "chest_pain",
+        "syncope",
+        "edema",
+        "fever"
+      ],
+      "differentials": [
+        "dvt",
+        "pulmonary_embolism"
+      ],
+      "indication_tags": [
+        "recent_immobilization",
+        "post_operative",
+        "malignancy",
+        "anticoagulated"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2003 'Does this patient have pulmonary embolism?' Chunilal SD et al; PMID 14657070 ; DVT: JAMA RCE 2006 'Does this patient have deep vein thrombosis?' Wells PS, Owen C, Doucette S, Fergusson D, Tran H; PMID 16403932",
+      "priority": 1
+    },
+    {
+      "id": "pocus_dvt_compression",
+      "title": "POCUS 2-point/3-point compression ultrasound of femoral and popliteal veins",
+      "type": "pocus",
+      "presentations": [
+        "dyspnea",
+        "chest_pain",
+        "syncope",
+        "edema",
+        "fever"
+      ],
+      "differentials": [
+        "cellulitis_ssti",
+        "dvt",
+        "pulmonary_embolism"
+      ],
+      "indication_tags": [
+        "malignancy",
+        "recent_immobilization",
+        "unilateral"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "Pomero F et al 2013 'Accuracy of emergency physician-performed ultrasonography in the diagnosis of deep-vein thrombosis: a systematic review and meta-analysis' Thromb Haemost; PMID 23138420; index: JAMA RCE 2006 Wells PS PMID 16403932",
+      "priority": 1
+    },
+    {
+      "id": "pocus_ivc_collapsibility",
+      "title": "POCUS IVC: diameter and respiratory collapsibility (subxiphoid long axis, 2-3 cm from RA junction)",
+      "type": "pocus",
+      "presentations": [
+        "dyspnea",
+        "syncope",
+        "edema",
+        "hypotension",
+        "aki"
+      ],
+      "differentials": [
+        "acute_decompensated_hf",
+        "cardiogenic_shock",
+        "cardiorenal",
+        "hypovolemic_hemorrhagic_shock",
+        "pericardial_effusion_tamponade",
+        "prerenal_hypovolemia",
+        "rv_failure_pulmonary_hypertension",
+        "septic_shock"
+      ],
+      "indication_tags": [],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "Shock 2017 'Does respiratory variation in inferior vena cava diameter predict fluid responsiveness: a systematic review and meta-analysis' Long E et al; PMID 28410544 (also Orso D et al, J Intensive Care Med 2020; PMID 29343170)",
+      "priority": 1
+    },
+    {
+      "id": "pocus_lung_b_lines",
+      "title": "POCUS lung: >=3 B-lines per intercostal space in >=2 bilateral zones (interstitial syndrome)",
+      "type": "pocus",
+      "presentations": [
+        "dyspnea",
+        "chest_pain",
+        "edema",
+        "hypotension",
+        "aki"
+      ],
+      "differentials": [
+        "acute_decompensated_hf",
+        "cardiogenic_shock",
+        "cardiorenal",
+        "copd_exacerbation",
+        "ild",
+        "pneumonia"
+      ],
+      "indication_tags": [
+        "dialysis",
+        "hf_known"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "JAMA Netw Open 2019 'Diagnostic accuracy of point-of-care lung ultrasonography and chest radiography in adults with symptoms suggestive of acute decompensated heart failure' Maw AM et al; PMID 30874784 ; protocol: Chest 2008 'Relevance of lung ultrasound in the diagnosis of acute respiratory failure: the BLUE protocol' Lichtenstein DA, Meziere GA; PMID 18403664",
+      "priority": 1
+    },
+    {
+      "id": "pocus_lung_sliding_absent",
+      "title": "POCUS lung: absent lung sliding (+/- lung point, absent B-lines) for pneumothorax",
+      "type": "pocus",
+      "presentations": [
+        "dyspnea",
+        "chest_pain",
+        "hypotension"
+      ],
+      "differentials": [
+        "pneumothorax"
+      ],
+      "indication_tags": [
+        "trauma",
+        "unilateral",
+        "acute_onset"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "Chest 2012 'Test characteristics of ultrasonography for the detection of pneumothorax: a systematic review and meta-analysis' Alrajhi K, Woo MY, Vaillancourt C; PMID 21868468",
+      "priority": 1
+    },
+    {
+      "id": "pocus_lv_function_eyeball",
+      "title": "POCUS cardiac: qualitative LV systolic function (normal / reduced / severely reduced; EPSS as adjunct) in PLAX/A4C",
+      "type": "pocus",
+      "presentations": [
+        "dyspnea",
+        "chest_pain",
+        "syncope",
+        "edema",
+        "hypotension",
+        "aki"
+      ],
+      "differentials": [
+        "acs",
+        "acute_decompensated_hf",
+        "aortic_stenosis",
+        "cardiogenic_shock",
+        "cardiorenal",
+        "septic_shock"
+      ],
+      "indication_tags": [
+        "hf_known"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "Acad Emerg Med 2002 'Determination of left ventricular function by emergency physician echocardiography of hypotensive patients' Moore CL et al; PMID 11874773",
+      "priority": 1
+    },
+    {
+      "id": "pocus_pericardial_effusion",
+      "title": "POCUS cardiac: pericardial effusion (subxiphoid/PLAX), with RA/RV diastolic collapse for tamponade",
+      "type": "pocus",
+      "presentations": [
+        "dyspnea",
+        "chest_pain",
+        "syncope",
+        "edema",
+        "hypotension"
+      ],
+      "differentials": [
+        "cardiogenic_shock",
+        "constrictive_pericarditis",
+        "pericardial_effusion_tamponade",
+        "pericarditis"
+      ],
+      "indication_tags": [
+        "dialysis",
+        "malignancy"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "JAMA RCE 2007 'Does this patient with a pericardial effusion have cardiac tamponade?' Roy CL et al; PMID 17456823 (clinical context; echo is the reference standard). POCUS accuracy primary: Mandavia DP et al, Ann Emerg Med 2001 'Bedside echocardiography by emergency physicians' (PMID not confirmed)",
+      "priority": 1
+    },
+    {
+      "id": "pocus_rv_dilation",
+      "title": "POCUS cardiac: RV dilation (RV:LV >1), septal flattening, McConnell sign",
+      "type": "pocus",
+      "presentations": [
+        "dyspnea",
+        "chest_pain",
+        "syncope",
+        "edema",
+        "hypotension"
+      ],
+      "differentials": [
+        "cardiogenic_shock",
+        "pulmonary_embolism",
+        "rv_failure_pulmonary_hypertension"
+      ],
+      "indication_tags": [
+        "acute_onset",
+        "malignancy",
+        "recent_immobilization"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "J Am Soc Echocardiogr 2017 'Transthoracic echocardiography for diagnosing pulmonary embolism: a systematic review and meta-analysis' Fields JM et al; PMID 28495379",
+      "priority": 1
+    },
+    {
+      "id": "exam_bp_differential_arms",
+      "title": "Inter-arm systolic BP difference >20 mmHg",
+      "type": "exam",
+      "presentations": [
+        "chest_pain",
+        "syncope",
+        "hypotension"
+      ],
+      "differentials": [
+        "aortic_dissection"
+      ],
+      "indication_tags": [],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2002 'Does this patient have an acute thoracic aortic dissection?' Klompas M; PMID 11980527 ; also Acad Emerg Med 2018 'Clinical examination for acute aortic dissection: a systematic review and meta-analysis' Ohle R et al; PMID 29265487",
+      "priority": 1
+    },
+    {
+      "id": "exam_chest_wall_tenderness_reproducible",
+      "title": "Chest pain fully reproduced by palpation of chest wall",
+      "type": "exam",
+      "presentations": [
+        "chest_pain"
+      ],
+      "differentials": [
+        "acs",
+        "herpes_zoster",
+        "musculoskeletal_chest_wall",
+        "pulmonary_embolism"
+      ],
+      "indication_tags": [],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA 2005 'Value and limitations of chest pain history in the evaluation of patients with suspected acute coronary syndromes' Swap CJ, Nagurney JT; PMID 16304077 ; also JAMA RCE 2015 'Does this patient with chest pain have acute coronary syndrome?' Fanaroff AC et al; PMID 26547467 ; JAMA RCE 1998 'Is this patient having a myocardial infarction?' Panju AA et al; PMID 9786377",
+      "priority": 1
+    },
+    {
+      "id": "exam_pulse_deficit",
+      "title": "Pulse deficit / asymmetric radial, carotid or femoral pulses",
+      "type": "exam",
+      "presentations": [
+        "chest_pain",
+        "syncope",
+        "abdominal_pain",
+        "weakness"
+      ],
+      "differentials": [
+        "aaa",
+        "aortic_dissection"
+      ],
+      "indication_tags": [],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2002 'Does this patient have an acute thoracic aortic dissection?' Klompas M; PMID 11980527 ; also Acad Emerg Med 2018 'Clinical examination for acute aortic dissection: a systematic review and meta-analysis' Ohle R et al; PMID 29265487",
+      "priority": 1
+    },
+    {
+      "id": "hx_pain_abrupt_maximal_onset",
+      "title": "Pain abrupt in onset and maximal at onset (thunderclap-type chest/back pain)",
+      "type": "history",
+      "presentations": [
+        "chest_pain",
+        "syncope",
+        "abdominal_pain"
+      ],
+      "differentials": [
+        "aaa",
+        "aortic_dissection",
+        "pneumothorax",
+        "pulmonary_embolism"
+      ],
+      "indication_tags": [
+        "acute_onset"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2002 'Does this patient have an acute thoracic aortic dissection?' Klompas M; PMID 11980527 ; also Acad Emerg Med 2018 'Clinical examination for acute aortic dissection: a systematic review and meta-analysis' Ohle R et al; PMID 29265487",
+      "priority": 1
+    },
+    {
+      "id": "hx_pain_tearing_ripping",
+      "title": "Pain described as tearing or ripping, or migrating (chest to back/abdomen/legs)",
+      "type": "history",
+      "presentations": [
+        "chest_pain",
+        "abdominal_pain"
+      ],
+      "differentials": [
+        "aaa",
+        "aortic_dissection"
+      ],
+      "indication_tags": [],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2002 'Does this patient have an acute thoracic aortic dissection?' Klompas M; PMID 11980527 ; also Acad Emerg Med 2018 'Clinical examination for acute aortic dissection: a systematic review and meta-analysis' Ohle R et al; PMID 29265487",
+      "priority": 1
+    },
+    {
+      "id": "exam_melena_rectal_exam",
+      "title": "Melena on digital rectal exam, or reported black tarry stool / hematemesis",
+      "type": "exam",
+      "presentations": [
+        "syncope",
+        "hypotension",
+        "dizziness",
+        "abdominal_pain",
+        "weakness"
+      ],
+      "differentials": [
+        "anemia",
+        "hypovolemic_hemorrhagic_shock",
+        "orthostatic_hypotension",
+        "peptic_ulcer"
+      ],
+      "indication_tags": [
+        "anticoagulated",
+        "cirrhosis_known"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2012 'Does this patient have a severe upper gastrointestinal bleed?' Srygley FD, Gerardo CJ, Tran T, Fisher DA; PMID 22416103 (melena on exam LR+ ~25); NSAID-use history: JAMA RCE 2006 dyspepsia Moayyedi P et al PMID 16595759 || JAMA RCE 2012 'Does this patient have a severe upper gastrointestinal bleed?' Srygley FD et al; PMID 22416103",
+      "priority": 1
+    },
+    {
+      "id": "exam_orthostatic_vitals",
+      "title": "Orthostatic vitals: SBP drop >=20 / DBP >=10 mmHg or pulse increment >=30/min at 1-3 min standing",
+      "type": "exam",
+      "presentations": [
+        "syncope",
+        "hypotension",
+        "aki",
+        "dizziness",
+        "ams",
+        "weakness"
+      ],
+      "differentials": [
+        "adrenal_insufficiency",
+        "bradyarrhythmia",
+        "hypovolemic_hemorrhagic_shock",
+        "medication_effect",
+        "orthostatic_hypotension",
+        "prerenal_hypovolemia",
+        "reflex_vasovagal"
+      ],
+      "indication_tags": [
+        "elderly",
+        "new_medication",
+        "orthostatic"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 1999 'Is this patient hypovolemic?' McGee S, Abernethy WB, Simel DL; PMID 10086438 ; also JAMA RCE 2019 'Did this patient have cardiac syncope?' Albassam OT et al; PMID 31237649",
+      "priority": 1
+    },
+    {
+      "id": "exam_pulsatile_abdominal_mass",
+      "title": "Palpable pulsatile abdominal mass (widened aortic pulsation)",
+      "type": "exam",
+      "presentations": [
+        "syncope",
+        "hypotension",
+        "abdominal_pain"
+      ],
+      "differentials": [
+        "aaa",
+        "hypovolemic_hemorrhagic_shock"
+      ],
+      "indication_tags": [
+        "elderly"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 1999 'Does this patient have abdominal aortic aneurysm?' Lederle FA, Simel DL; PMID 9892455 (sensitivity falls with abdominal girth and small AAA)",
+      "priority": 1
+    },
+    {
+      "id": "fn_tap_out_rhythm_regular",
+      "title": "Patient taps out the palpitation rhythm: regular vs irregular; rapid regular vs 'skipped beats'",
+      "type": "functional",
+      "presentations": [
+        "syncope",
+        "palpitations",
+        "dizziness"
+      ],
+      "differentials": [
+        "atrial_fibrillation_flutter",
+        "pvcs_benign_ectopy",
+        "sinus_tachycardia_secondary",
+        "svt",
+        "ventricular_tachycardia"
+      ],
+      "indication_tags": [],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2009 'Does this patient with palpitations have a cardiac arrhythmia?' Thavendiranathan P et al; PMID 19920238",
+      "priority": 1
+    },
+    {
+      "id": "hx_dizziness_timing_triggers",
+      "title": "Timing and triggers (TiTrATE: episodic vs continuous, triggered vs spontaneous) rather than symptom quality; associated diplopia/dysarthria/dysphagia/hearing loss",
+      "type": "history",
+      "presentations": [
+        "syncope",
+        "dizziness"
+      ],
+      "differentials": [
+        "arrhythmia",
+        "bppv",
+        "medication_effect",
+        "meniere",
+        "orthostatic_hypotension",
+        "posterior_circulation_stroke",
+        "vestibular_neuritis"
+      ],
+      "indication_tags": [
+        "positional",
+        "orthostatic",
+        "acute_onset"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "Newman-Toker DE, Edlow JA, Neurol Clin 2015 'TiTrATE' PMID 26231273; Newman-Toker DE et al, Mayo Clin Proc 2007 'Imprecision in patient reports of dizziness symptom quality' PMID 17976352",
+      "priority": 1
+    },
+    {
+      "id": "hx_exertional_syncope",
+      "title": "Syncope during (not after) exertion",
+      "type": "history",
+      "presentations": [
+        "syncope"
+      ],
+      "differentials": [
+        "aortic_stenosis",
+        "hcm",
+        "pulmonary_embolism",
+        "tachyarrhythmia",
+        "ventricular_tachycardia"
+      ],
+      "indication_tags": [
+        "exertional"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2019 'Did this patient have cardiac syncope?' Albassam OT et al; PMID 31237649",
+      "priority": 1
+    },
+    {
+      "id": "hx_neck_pounding_frog_sign",
+      "title": "Regular rapid pounding in the neck / visible neck pulsations during episodes (frog sign)",
+      "type": "history",
+      "presentations": [
+        "syncope",
+        "palpitations"
+      ],
+      "differentials": [
+        "atrial_fibrillation_flutter",
+        "sinus_tachycardia_secondary",
+        "svt"
+      ],
+      "indication_tags": [],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2009 'Does this patient with palpitations have a cardiac arrhythmia?' Thavendiranathan P et al; PMID 19920238 ; mechanism: NEJM 1992 'The hemodynamic mechanism of pounding in the neck in atrioventricular nodal reentrant tachycardia' Gursoy S et al; PMID 1501653",
+      "priority": 1
+    },
+    {
+      "id": "hx_palpitations_abrupt_onset_offset",
+      "title": "Abrupt onset and abrupt termination of palpitations (vs gradual)",
+      "type": "history",
+      "presentations": [
+        "syncope",
+        "palpitations",
+        "dizziness"
+      ],
+      "differentials": [
+        "anxiety_hyperventilation",
+        "atrial_fibrillation_flutter",
+        "sinus_tachycardia_secondary",
+        "svt",
+        "ventricular_tachycardia"
+      ],
+      "indication_tags": [
+        "acute_onset"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2009 'Does this patient with palpitations have a cardiac arrhythmia?' Thavendiranathan P et al; PMID 19920238",
+      "priority": 1
+    },
+    {
+      "id": "hx_palpitations_before_syncope",
+      "title": "Palpitations immediately preceding syncope",
+      "type": "history",
+      "presentations": [
+        "syncope",
+        "palpitations"
+      ],
+      "differentials": [
+        "atrial_fibrillation_flutter",
+        "reflex_vasovagal",
+        "svt",
+        "tachyarrhythmia",
+        "ventricular_tachycardia"
+      ],
+      "indication_tags": [],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2019 'Did this patient have cardiac syncope?' Albassam OT et al; PMID 31237649 ; also JAMA RCE 2009 'Does this patient with palpitations have a cardiac arrhythmia?' Thavendiranathan P et al; PMID 19920238",
+      "priority": 1
+    },
+    {
+      "id": "hx_post_event_confusion",
+      "title": "Seizure-vs-syncope features: prolonged (>1-5 min) post-event confusion, lateral tongue biting, head turning, incontinence",
+      "type": "history",
+      "presentations": [
+        "syncope",
+        "ams"
+      ],
+      "differentials": [
+        "bradyarrhythmia",
+        "nonconvulsive_seizure",
+        "reflex_vasovagal",
+        "seizure_mimic"
+      ],
+      "indication_tags": [],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "JACC 2002 'Historical criteria that distinguish syncope from seizures' Sheldon R et al; PMID 12103268",
+      "priority": 1
+    },
+    {
+      "id": "hx_postural_dizziness",
+      "title": "Severe postural dizziness / inability to stand for vitals",
+      "type": "history",
+      "presentations": [
+        "syncope",
+        "hypotension",
+        "aki",
+        "dizziness"
+      ],
+      "differentials": [
+        "hypovolemic_hemorrhagic_shock",
+        "orthostatic_hypotension",
+        "prerenal_hypovolemia"
+      ],
+      "indication_tags": [
+        "orthostatic",
+        "elderly"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 1999 'Is this patient hypovolemic?' McGee S, Abernethy WB, Simel DL; PMID 10086438; primary: Witting MD et al, Ann Emerg Med 1994 'Defining the positive tilt test' PMID 8198307",
+      "priority": 1
+    },
+    {
+      "id": "hx_syncope_prodrome",
+      "title": "Prodrome before loss of consciousness (nausea, warmth, diaphoresis, visual graying) and situational trigger (micturition, cough, prolonged standing, pain, post-prandial) vs none",
+      "type": "history",
+      "presentations": [
+        "syncope",
+        "dizziness"
+      ],
+      "differentials": [
+        "bradyarrhythmia",
+        "orthostatic_hypotension",
+        "reflex_vasovagal",
+        "situational_syncope",
+        "tachyarrhythmia"
+      ],
+      "indication_tags": [],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2019 'Did this patient have cardiac syncope?' Albassam OT et al; PMID 31237649 ; also Eur Heart J 2006 'Diagnostic criteria for vasovagal syncope based on a quantitative history' (Calgary Syncope Symptom Score) Sheldon R et al; PMID 16223744",
+      "priority": 1
+    },
+    {
+      "id": "hx_syncope_supine",
+      "title": "Syncope while supine or seated without warning",
+      "type": "history",
+      "presentations": [
+        "syncope"
+      ],
+      "differentials": [
+        "bradyarrhythmia",
+        "reflex_vasovagal",
+        "tachyarrhythmia"
+      ],
+      "indication_tags": [],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2019 'Did this patient have cardiac syncope?' Albassam OT et al; PMID 31237649 ; also Eur Heart J 2006 'Diagnostic criteria for vasovagal syncope based on a quantitative history' (Calgary Syncope Symptom Score) Sheldon R et al; PMID 16223744",
+      "priority": 1
+    },
+    {
+      "id": "pocus_aaa_aorta_diameter",
+      "title": "POCUS abdominal aorta diameter (>3 cm)",
+      "type": "pocus",
+      "presentations": [
+        "syncope",
+        "hypotension",
+        "abdominal_pain"
+      ],
+      "differentials": [
+        "aaa",
+        "hypovolemic_hemorrhagic_shock"
+      ],
+      "indication_tags": [
+        "elderly"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "Rubano E, Mehta N, Caputo W, Paladino L, Sinert R 2013 'Systematic review: emergency department bedside ultrasonography for diagnosing suspected abdominal aortic aneurysm' Acad Emerg Med; PMID 23406071; index: JAMA RCE 1999 Lederle FA PMID 9892455 || Rubano E et al, Acad Emerg Med 2013 'Systematic review: ED bedside ultrasonography for diagnosing suspected abdominal aortic aneurysm'; PMID 23406071",
+      "priority": 1
+    },
+    {
+      "id": "hx_alcohol_use_withdrawal_timing",
+      "title": "Alcohol use (CAGE) and time since last drink; tremor, diaphoresis, agitation (CIWA items)",
+      "type": "history",
+      "presentations": [
+        "palpitations",
+        "dizziness",
+        "ams",
+        "weakness"
+      ],
+      "differentials": [
+        "hepatic_encephalopathy",
+        "hypoglycemia",
+        "intoxication_withdrawal",
+        "seizure_mimic",
+        "wernicke"
+      ],
+      "indication_tags": [
+        "alcohol_use"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 1994 'Does this patient have an alcohol problem?' Kitchens JM; PMID 7966928; CIWA-Ar: Sullivan JT et al, Br J Addict 1989 PMID 2597811",
+      "priority": 1
+    },
+    {
+      "id": "exam_ascites_flank_dullness_fluid_wave",
+      "title": "Ascites exam: flank dullness, shifting dullness, fluid wave",
+      "type": "exam",
+      "presentations": [
+        "edema",
+        "aki",
+        "ams",
+        "abdominal_pain"
+      ],
+      "differentials": [
+        "abdominal_compartment",
+        "cirrhosis",
+        "hepatorenal",
+        "nephrotic_syndrome",
+        "sbp"
+      ],
+      "indication_tags": [
+        "cirrhosis_known",
+        "alcohol_use"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 1992 'Does this patient have ascites?' Williams JW Jr, Simel DL; PMID 1573754",
+      "priority": 1
+    },
+    {
+      "id": "exam_cellulitis_unilateral_warmth_border",
+      "title": "Unilateral warm erythema with defined border (vs bilateral / stasis change)",
+      "type": "exam",
+      "presentations": [
+        "edema",
+        "fever"
+      ],
+      "differentials": [
+        "cellulitis_ssti",
+        "dvt",
+        "necrotizing_fasciitis",
+        "venous_insufficiency"
+      ],
+      "indication_tags": [
+        "unilateral",
+        "bilateral"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "ALT-70 model (asymmetry item): derivation Raff AB et al 2017 'A predictive model for diagnosis of lower extremity cellulitis: a cross-sectional study' J Am Acad Dermatol PMID 28215446; validation 'Validation of Thermal Imaging and the ALT-70 Prediction Model to Differentiate Cellulitis From Pseudocellulitis' JAMA Dermatol 2024 PMID 38536160",
+      "priority": 1
+    },
+    {
+      "id": "exam_cirrhosis_stigmata",
+      "title": "Cirrhosis stigmata: spider angiomata, palmar erythema, gynecomastia, caput medusae, jaundice",
+      "type": "exam",
+      "presentations": [
+        "edema",
+        "aki",
+        "ams",
+        "abdominal_pain"
+      ],
+      "differentials": [
+        "cirrhosis",
+        "hepatic_encephalopathy",
+        "hepatorenal",
+        "sbp"
+      ],
+      "indication_tags": [
+        "alcohol_use",
+        "cirrhosis_known"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2012 'Does this patient with liver disease have cirrhosis?' Udell JA et al; PMID 22357834",
+      "priority": 1
+    },
+    {
+      "id": "exam_shifting_dullness",
+      "title": "Ascites signs: shifting dullness, flank dullness, fluid wave, bulging flanks",
+      "type": "exam",
+      "presentations": [
+        "edema",
+        "aki",
+        "ams",
+        "abdominal_pain",
+        "fever"
+      ],
+      "differentials": [
+        "acute_decompensated_hf",
+        "cirrhosis",
+        "constrictive_pericarditis",
+        "hepatic_encephalopathy",
+        "hepatorenal",
+        "hypoalbuminemia",
+        "nephrotic_syndrome",
+        "sbp"
+      ],
+      "indication_tags": [
+        "cirrhosis_known"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 1992 'Does this patient have ascites? How to divine fluid in the abdomen' Williams JW Jr, Simel DL; PMID 1573754",
+      "priority": 1
+    },
+    {
+      "id": "exam_abdominal_rigidity_guarding",
+      "title": "Involuntary guarding / board-like rigidity",
+      "type": "exam",
+      "presentations": [
+        "hypotension",
+        "abdominal_pain",
+        "fever"
+      ],
+      "differentials": [
+        "appendicitis",
+        "mesenteric_ischemia",
+        "pancreatitis",
+        "perforated_viscus",
+        "sbp"
+      ],
+      "indication_tags": [],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 1996 'Does this patient have appendicitis?' Wagner JM et al; PMID 8918857 (rigidity LR+ ~3.8)",
+      "priority": 1
+    },
+    {
+      "id": "exam_dry_axilla",
+      "title": "Dry axilla",
+      "type": "exam",
+      "presentations": [
+        "hypotension",
+        "aki",
+        "ams"
+      ],
+      "differentials": [
+        "hypovolemic_hemorrhagic_shock",
+        "prerenal_hypovolemia"
+      ],
+      "indication_tags": [
+        "elderly"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 1999 'Is this patient hypovolemic?' McGee S, Abernethy WB, Simel DL; PMID 10086438",
+      "priority": 1
+    },
+    {
+      "id": "exam_dry_mucous_membranes",
+      "title": "Dry oral mucous membranes, tongue furrows, sunken eyes, dry axilla",
+      "type": "exam",
+      "presentations": [
+        "hypotension",
+        "aki",
+        "dizziness",
+        "ams"
+      ],
+      "differentials": [
+        "hyponatremia",
+        "hypovolemic_hemorrhagic_shock",
+        "orthostatic_hypotension",
+        "prerenal_hypovolemia"
+      ],
+      "indication_tags": [
+        "elderly"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 1999 'Is this patient hypovolemic?' McGee S, Abernethy WB, Simel DL; PMID 10086438; primary: Gross CR et al, J Emerg Med 1992 'Clinical indicators of dehydration severity in elderly patients' PMID 1624737",
+      "priority": 1
+    },
+    {
+      "id": "exam_mottling_score",
+      "title": "Skin mottling score (knee, 0-5)",
+      "type": "exam",
+      "presentations": [
+        "hypotension",
+        "fever"
+      ],
+      "differentials": [
+        "cardiogenic_shock",
+        "hypovolemic_hemorrhagic_shock",
+        "septic_shock"
+      ],
+      "indication_tags": [],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "Ait-Oufella H et al, Intensive Care Med 2011 'Mottling score predicts survival in septic shock'; PMID 21373821",
+      "priority": 1
+    },
+    {
+      "id": "exam_nec_fasc_hard_signs",
+      "title": "Necrotizing infection hard signs: hemorrhagic bullae, crepitus, skin anesthesia, spread beyond marked border",
+      "type": "exam",
+      "presentations": [
+        "hypotension",
+        "fever"
+      ],
+      "differentials": [
+        "cellulitis_ssti",
+        "necrotizing_fasciitis",
+        "septic_shock"
+      ],
+      "indication_tags": [
+        "febrile",
+        "diabetes_insulin"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "Fernando SM et al 2019 'Necrotizing soft tissue infection: diagnostic accuracy of physical examination, imaging, and LRINEC score: a systematic review and meta-analysis' Ann Surg; PMID 29672405 (pooled sensitivity of fever, bullae, hypotension); 2026 update Acad Emerg Med PMID 42286824",
+      "priority": 1
+    },
+    {
+      "id": "hx_rigors_shaking_chills",
+      "title": "Rigors / shaking chills",
+      "type": "history",
+      "presentations": [
+        "hypotension",
+        "aki",
+        "ams",
+        "fever"
+      ],
+      "differentials": [
+        "cholangitis",
+        "delirium_infectious",
+        "endocarditis",
+        "line_infection",
+        "pneumonia",
+        "septic_shock",
+        "uti_pyelonephritis"
+      ],
+      "indication_tags": [
+        "febrile",
+        "immunocompromised",
+        "ivdu"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2012 'Does this adult patient with suspected bacteremia require blood cultures?' Coburn B, Morris AM, Tomlinson G, Detsky AS; PMID 22851117 (shaking chills LR+ ~4.7); primary: Tokuda Y 2005 Am J Med PMID 16378800",
+      "priority": 1
+    },
+    {
+      "id": "exam_abdominal_distension",
+      "title": "Abdominal distension on inspection/percussion",
+      "type": "exam",
+      "presentations": [
+        "aki",
+        "abdominal_pain"
+      ],
+      "differentials": [
+        "abdominal_compartment",
+        "perforated_viscus",
+        "small_bowel_obstruction",
+        "urinary_retention"
+      ],
+      "indication_tags": [
+        "post_operative"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "Taylor MR, Lalani N 2013 'Adult small bowel obstruction' Acad Emerg Med (systematic review/meta-analysis of history, exam, imaging); PMID 23758299; primary: Bohner H et al 1998 Eur J Surg PMID 9840308",
+      "priority": 1
+    },
+    {
+      "id": "exam_cva_tenderness",
+      "title": "Costovertebral angle (flank) tenderness",
+      "type": "exam",
+      "presentations": [
+        "aki",
+        "abdominal_pain",
+        "fever"
+      ],
+      "differentials": [
+        "obstruction_retention",
+        "pyelonephritis_nephrolithiasis",
+        "uti_pyelonephritis"
+      ],
+      "indication_tags": [
+        "febrile"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2002 'Does this woman have an acute uncomplicated urinary tract infection?' Bent S, Nallamothu BK, Simel DL, Fihn SD, Saint S; PMID 12020306 (back/flank pain, CVA tenderness LRs)",
+      "priority": 1
+    },
+    {
+      "id": "exam_saddle_anesthesia_anal_tone",
+      "title": "Saddle (perineal) sensory loss and reduced anal tone",
+      "type": "exam",
+      "presentations": [
+        "aki",
+        "weakness"
+      ],
+      "differentials": [
+        "cauda_equina",
+        "obstruction_retention",
+        "spinal_cord_compression",
+        "urinary_retention"
+      ],
+      "indication_tags": [
+        "bilateral",
+        "acute_onset"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "Dionne N et al 2019 'What is the diagnostic accuracy of red flags related to cauda equina syndrome (CES), when compared to MRI? A systematic review' Musculoskelet Sci Pract; PMID 31132655 (saddle anesthesia, anal tone, retention pooled sens/spec)",
+      "priority": 1
+    },
+    {
+      "id": "exam_sensory_level_upper_motor_neuron_signs",
+      "title": "Sensory level with hyperreflexia / extensor plantar (Babinski) below the level",
+      "type": "exam",
+      "presentations": [
+        "aki",
+        "weakness"
+      ],
+      "differentials": [
+        "gbs",
+        "obstruction_retention",
+        "spinal_cord_compression",
+        "stroke"
+      ],
+      "indication_tags": [
+        "malignancy",
+        "bilateral"
+      ],
+      "expected_evidence": "likely_not_quantified",
+      "anchor_source": "Miller TM, Johnston SC 2005 'Should the Babinski sign be part of the routine neurologic examination?' Neurology; PMID 16247040 (reliability/accuracy of Babinski); sensory level in MSCC: guideline/consensus (NICE NG234 2023)",
+      "priority": 1
+    },
+    {
+      "id": "hx_dysuria_frequency",
+      "title": "Dysuria and urinary frequency/urgency (new)",
+      "type": "history",
+      "presentations": [
+        "aki",
+        "ams",
+        "abdominal_pain",
+        "fever"
+      ],
+      "differentials": [
+        "delirium_infectious",
+        "pyelonephritis_nephrolithiasis",
+        "uti_pyelonephritis"
+      ],
+      "indication_tags": [
+        "febrile",
+        "elderly"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2002 'Does this woman have an acute uncomplicated urinary tract infection?' Bent S et al; PMID 12020306",
+      "priority": 1
+    },
+    {
+      "id": "hx_nephrotoxin_contrast_exposure",
+      "title": "Nephrotoxin and contrast exposure history (NSAID, ACEi/ARB, diuretic, aminoglycoside, vancomycin, PPI, iodinated contrast; timing)",
+      "type": "history",
+      "presentations": [
+        "aki"
+      ],
+      "differentials": [
+        "ain",
+        "atn",
+        "contrast_nephropathy",
+        "medication_effect",
+        "prerenal_hypovolemia"
+      ],
+      "indication_tags": [
+        "new_medication",
+        "ckd_known",
+        "elderly"
+      ],
+      "expected_evidence": "likely_not_quantified",
+      "anchor_source": "KDIGO 2012 Clinical Practice Guideline for Acute Kidney Injury (Khwaja A, Nephron Clin Pract 2012 PMID 22890468)",
+      "priority": 1
+    },
+    {
+      "id": "pocus_bladder_volume",
+      "title": "Bladder volume estimate (transverse x sagittal, retention threshold)",
+      "type": "pocus",
+      "presentations": [
+        "aki",
+        "ams",
+        "abdominal_pain",
+        "weakness"
+      ],
+      "differentials": [
+        "cauda_equina",
+        "obstruction_retention",
+        "urinary_retention"
+      ],
+      "indication_tags": [
+        "elderly",
+        "post_operative"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "Dionne N et al 2019 'What is the diagnostic accuracy of red flags related to cauda equina syndrome (CES), when compared to MRI? A systematic review' Musculoskelet Sci Pract; PMID 31132655 (urinary retention/PVR); bladder-scanner vs catheter volume accuracy: multiple primary studies (e.g. PMID 29424755, 2019)",
+      "priority": 1
+    },
+    {
+      "id": "pocus_hydronephrosis",
+      "title": "Hydronephrosis (bilateral or solitary kidney) on renal POCUS",
+      "type": "pocus",
+      "presentations": [
+        "aki",
+        "abdominal_pain",
+        "fever"
+      ],
+      "differentials": [
+        "obstruction_retention",
+        "pyelonephritis_nephrolithiasis",
+        "urinary_retention"
+      ],
+      "indication_tags": [
+        "elderly",
+        "malignancy"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "Wong C, Teitge B, Ross M et al 2018 'The accuracy and prognostic value of point-of-care ultrasound for nephrolithiasis in the emergency department: a systematic review and meta-analysis' Acad Emerg Med; PMID 29427476",
+      "priority": 1
+    },
+    {
+      "id": "exam_face_arm_speech_cpss",
+      "title": "Facial droop, arm drift, abnormal speech (Cincinnati/FAST screen)",
+      "type": "exam",
+      "presentations": [
+        "dizziness",
+        "ams",
+        "weakness"
+      ],
+      "differentials": [
+        "bell_palsy",
+        "hypoglycemia",
+        "posterior_circulation_stroke",
+        "stroke"
+      ],
+      "indication_tags": [
+        "acute_onset"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2005 'Is this patient having a stroke?' Goldstein LB, Simel DL; PMID 15900010; primary: Kothari RU 1999 'Cincinnati Prehospital Stroke Scale: reproducibility and validity' Ann Emerg Med PMID 10092713",
+      "priority": 1
+    },
+    {
+      "id": "exam_focal_neuro_deficit_screen",
+      "title": "Focal deficit screen: facial droop, arm drift, speech (Cincinnati/NIHSS-lite)",
+      "type": "exam",
+      "presentations": [
+        "dizziness",
+        "ams",
+        "weakness"
+      ],
+      "differentials": [
+        "hypoglycemia",
+        "nonconvulsive_seizure",
+        "posterior_circulation_stroke",
+        "stroke"
+      ],
+      "indication_tags": [
+        "acute_onset",
+        "anticoagulated"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2005 'Is this patient having a stroke?' Goldstein LB, Simel DL; PMID 15900010; Kothari RU et al, Ann Emerg Med 1999 Cincinnati Prehospital Stroke Scale PMID 10092713",
+      "priority": 1
+    },
+    {
+      "id": "exam_nystagmus_direction_changing",
+      "title": "Nystagmus: direction-changing / vertical / pure torsional (central) vs unidirectional horizontal (peripheral)",
+      "type": "exam",
+      "presentations": [
+        "dizziness"
+      ],
+      "differentials": [
+        "bppv",
+        "posterior_circulation_stroke",
+        "vestibular_neuritis"
+      ],
+      "indication_tags": [
+        "acute_onset"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 1994 'Does this dizzy patient have a serious form of vertigo?' Froehling DA et al; PMID 8283588; Kattah JC et al, Stroke 2009 'HINTS to diagnose stroke in the acute vestibular syndrome'; PMID 19762709",
+      "priority": 1
+    },
+    {
+      "id": "fn_dix_hallpike",
+      "title": "Dix-Hallpike maneuver (posterior-canal BPPV)",
+      "type": "functional",
+      "presentations": [
+        "dizziness"
+      ],
+      "differentials": [
+        "bppv",
+        "posterior_circulation_stroke",
+        "vestibular_neuritis"
+      ],
+      "indication_tags": [
+        "positional"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 1994 'Does this dizzy patient have a serious form of vertigo?' Froehling DA et al; PMID 8283588; Halker RB et al, Neurologist 2008 PMID 18469678; AAO-HNS BPPV guideline 2017 Bhattacharyya N et al PMID 28248609",
+      "priority": 1
+    },
+    {
+      "id": "fn_gait_stand_unaided",
+      "title": "Ability to stand and walk unaided (truncal ataxia grade; inability = central marker)",
+      "type": "functional",
+      "presentations": [
+        "dizziness",
+        "ams",
+        "weakness"
+      ],
+      "differentials": [
+        "intoxication_withdrawal",
+        "posterior_circulation_stroke",
+        "stroke",
+        "vestibular_neuritis",
+        "wernicke"
+      ],
+      "indication_tags": [
+        "acute_onset",
+        "elderly"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "Kattah JC et al, J Neurol Sci 2022 'Role of incubitus truncal ataxia and equivalent standing grade 3 ataxia in the diagnosis of central acute vestibular syndrome' PMID 36063733; Carmona S et al, Eur J Neurol 2023 PMID 36752029; Tarnutzer AA et al, CMAJ 2011 'Does my dizzy patient have a stroke? A systematic review of bedside diagnosis in acute vestibular syndrome'; PMID 21576300",
+      "priority": 1
+    },
+    {
+      "id": "fn_head_impulse_test",
+      "title": "Head impulse test (corrective saccade = peripheral)",
+      "type": "functional",
+      "presentations": [
+        "dizziness"
+      ],
+      "differentials": [
+        "posterior_circulation_stroke",
+        "vestibular_neuritis"
+      ],
+      "indication_tags": [
+        "acute_onset"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "Kattah JC et al, Stroke 2009 'HINTS to diagnose stroke in the acute vestibular syndrome'; PMID 19762709; Tarnutzer AA et al, CMAJ 2011 'Does my dizzy patient have a stroke? A systematic review of bedside diagnosis in acute vestibular syndrome'; PMID 21576300",
+      "priority": 1
+    },
+    {
+      "id": "fn_hints_exam",
+      "title": "HINTS (head impulse, nystagmus, test of skew) \u2014 ACUTE VESTIBULAR SYNDROME ONLY; validated by neuro-ophthalmologists",
+      "type": "functional",
+      "presentations": [
+        "dizziness"
+      ],
+      "differentials": [
+        "posterior_circulation_stroke",
+        "vestibular_neuritis"
+      ],
+      "indication_tags": [
+        "acute_onset"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "Kattah JC et al, Stroke 2009 'HINTS to diagnose stroke in the acute vestibular syndrome'; PMID 19762709; meta-analyses: Ohle R et al, Acad Emerg Med 2020 PMID 32167642 (non-expert performance); Krishnan K et al, Eur Stroke J 2019 PMID 31984230; Tarnutzer AA et al, CMAJ 2011 'Does my dizzy patient have a stroke? A systematic review of bedside diagnosis in acute vestibular syndrome'; PMID 21576300",
+      "priority": 1
+    },
+    {
+      "id": "hx_deliriogenic_medication_review",
+      "title": "Deliriogenic medication review: anticholinergics, benzodiazepines, opioids, new/changed drugs, thiazides",
+      "type": "history",
+      "presentations": [
+        "dizziness",
+        "ams",
+        "weakness"
+      ],
+      "differentials": [
+        "hyponatremia",
+        "intoxication_withdrawal",
+        "medication_effect"
+      ],
+      "indication_tags": [
+        "elderly",
+        "new_medication",
+        "post_operative"
+      ],
+      "expected_evidence": "likely_not_quantified",
+      "anchor_source": "Inouye SK, Charpentier PA, JAMA 1996 'Precipitating factors for delirium in hospitalized elderly persons' PMID 8596223; Tune L et al 1993 anticholinergic activity and postoperative delirium PMID 8508041",
+      "priority": 1
+    },
+    {
+      "id": "exam_cam_delirium_screen",
+      "title": "Confusion Assessment Method (CAM) delirium screen",
+      "type": "exam",
+      "presentations": [
+        "ams",
+        "fever",
+        "weakness"
+      ],
+      "differentials": [
+        "delirium_infectious",
+        "hepatic_encephalopathy",
+        "hypercapnia",
+        "hyponatremia",
+        "intoxication_withdrawal",
+        "medication_effect",
+        "uremia"
+      ],
+      "indication_tags": [
+        "elderly",
+        "post_operative"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2010 'Does this patient have delirium? Value of bedside instruments' Wong CL et al; PMID 20716741",
+      "priority": 1
+    },
+    {
+      "id": "exam_meningeal_signs_nuchal_kernig_brudzinski",
+      "title": "Nuchal rigidity, Kernig and Brudzinski signs",
+      "type": "exam",
+      "presentations": [
+        "ams",
+        "fever"
+      ],
+      "differentials": [
+        "meningitis_encephalitis"
+      ],
+      "indication_tags": [
+        "immunocompromised",
+        "febrile"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 1999 'Does this adult patient have acute meningitis?' Attia J et al; PMID 10411200; primary: Thomas KE et al, Clin Infect Dis 2002 PMID 12060874",
+      "priority": 1
+    },
+    {
+      "id": "exam_neck_stiffness",
+      "title": "Nuchal rigidity (neck stiffness on passive flexion)",
+      "type": "exam",
+      "presentations": [
+        "ams",
+        "fever"
+      ],
+      "differentials": [
+        "meningitis_encephalitis"
+      ],
+      "indication_tags": [
+        "febrile",
+        "immunocompromised"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 1999 'Does this adult patient have acute meningitis?' Attia J, Hatala R, Cook DJ, Wong JG; PMID 10411200; primary: Thomas KE et al 2002 Clin Infect Dis PMID 12060874",
+      "priority": 1
+    },
+    {
+      "id": "fn_jolt_accentuation",
+      "title": "Jolt accentuation of headache (2-3 Hz horizontal head rotation)",
+      "type": "functional",
+      "presentations": [
+        "ams",
+        "fever"
+      ],
+      "differentials": [
+        "meningitis_encephalitis"
+      ],
+      "indication_tags": [
+        "febrile"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "Meta-analysis: 'Does This Adult Patient With Jolt Accentuation of Headache Have Acute Meningitis?' Headache 2018; PMID 30178879; primary: Uchihara T 1991 PMID 2071396 (high sens), Nakao JH 2014 Am J Emerg Med PMID 24139448 (poor sens in ED)",
+      "priority": 1
+    },
+    {
+      "id": "exam_murphy_sign",
+      "title": "Murphy sign (inspiratory arrest on RUQ palpation)",
+      "type": "exam",
+      "presentations": [
+        "abdominal_pain",
+        "fever"
+      ],
+      "differentials": [
+        "cholangitis",
+        "cholecystitis"
+      ],
+      "indication_tags": [
+        "febrile"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2003 'Does this patient have acute cholecystitis?' Trowbridge RL, Rutkowski NK, Shojania KG; PMID 12503981",
+      "priority": 1
+    },
+    {
+      "id": "exam_rebound_tenderness",
+      "title": "Rebound tenderness (peritoneal irritation)",
+      "type": "exam",
+      "presentations": [
+        "abdominal_pain",
+        "fever"
+      ],
+      "differentials": [
+        "appendicitis",
+        "diverticulitis",
+        "intraabdominal_abscess",
+        "perforated_viscus",
+        "sbp"
+      ],
+      "indication_tags": [],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 1996 'Does this patient have appendicitis?' Wagner JM et al; PMID 8918857 (rebound LR); see also Golledge J 1996 'Assessment of peritonism in appendicitis' PMID 8659965",
+      "priority": 1
+    },
+    {
+      "id": "exam_rlq_tenderness_mcburney",
+      "title": "RLQ (McBurney point) tenderness",
+      "type": "exam",
+      "presentations": [
+        "abdominal_pain",
+        "fever"
+      ],
+      "differentials": [
+        "appendicitis",
+        "diverticulitis"
+      ],
+      "indication_tags": [],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 1996 'Does this patient have appendicitis?' Wagner JM et al; PMID 8918857",
+      "priority": 1
+    },
+    {
+      "id": "hx_prior_abdominal_surgery",
+      "title": "History of prior abdominal surgery (adhesion risk)",
+      "type": "history",
+      "presentations": [
+        "abdominal_pain"
+      ],
+      "differentials": [
+        "intraabdominal_abscess",
+        "small_bowel_obstruction"
+      ],
+      "indication_tags": [
+        "post_operative"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "Taylor MR, Lalani N 2013 'Adult small bowel obstruction' Acad Emerg Med; PMID 23758299; Bohner H et al 1998 PMID 9840308",
+      "priority": 1
+    },
+    {
+      "id": "hx_rlq_pain_migration",
+      "title": "Right lower quadrant pain with periumbilical-to-RLQ migration",
+      "type": "history",
+      "presentations": [
+        "abdominal_pain",
+        "fever"
+      ],
+      "differentials": [
+        "appendicitis",
+        "diverticulitis"
+      ],
+      "indication_tags": [
+        "acute_onset"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 1996 'Does this patient have appendicitis?' Wagner JM, McKinney WP, Carpenter JL; PMID 8918857",
+      "priority": 1
+    },
+    {
+      "id": "pocus_gallbladder_wall_stones",
+      "title": "POCUS gallbladder: stones, wall thickening, sonographic Murphy sign",
+      "type": "pocus",
+      "presentations": [
+        "abdominal_pain",
+        "fever"
+      ],
+      "differentials": [
+        "cholangitis",
+        "cholecystitis"
+      ],
+      "indication_tags": [
+        "febrile"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "Ross M et al 2011 'Emergency physician-performed ultrasound to diagnose cholelithiasis: a systematic review' Acad Emerg Med; PMID 21401784; index: JAMA RCE 2003 Trowbridge RL PMID 12503981",
+      "priority": 1
+    },
+    {
+      "id": "exam_joint_effusion_warmth_painful_rom",
+      "title": "Hot swollen joint with effusion and painful/limited range of motion (refusal to bear weight)",
+      "type": "exam",
+      "presentations": [
+        "fever",
+        "weakness"
+      ],
+      "differentials": [
+        "cellulitis_ssti",
+        "septic_arthritis"
+      ],
+      "indication_tags": [
+        "febrile",
+        "ivdu",
+        "immunocompromised"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2007 'Does this adult patient have septic arthritis?' Margaretten ME, Kohlwes J, Moore D, Bent S; PMID 17405973",
+      "priority": 1
+    },
+    {
+      "id": "fn_ice_pack_test",
+      "title": "Ice-pack test (ptosis improves >=2 mm after 2 min ice)",
+      "type": "functional",
+      "presentations": [
+        "weakness"
+      ],
+      "differentials": [
+        "myasthenia_gravis"
+      ],
+      "indication_tags": [],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2005 'Does this patient have myasthenia gravis?' Scherer K, Bedlack RS, Simel DL; PMID 15840866 (ice test LR+ ~24)",
+      "priority": 1
+    },
+    {
+      "id": "hx_back_pain_cancer_history",
+      "title": "New or progressive back pain in a patient with known cancer (or age >50, night pain, weight loss)",
+      "type": "history",
+      "presentations": [
+        "weakness"
+      ],
+      "differentials": [
+        "cauda_equina",
+        "spinal_cord_compression"
+      ],
+      "indication_tags": [
+        "malignancy",
+        "elderly"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 1992 'What can the history and physical examination tell us about low back pain?' Deyo RA, Rainville J, Kent DL; PMID 1386391; Cochrane 2013 'Red flags to screen for malignancy in patients with low-back pain' Henschke N et al PMID 23450586; Deyo RA, Diehl AK 1988 J Gen Intern Med PMID 2967893",
+      "priority": 1
+    },
+    {
+      "id": "exam_accessory_muscle_use",
+      "title": "Work of breathing: accessory muscle use, tripoding, pursed-lip breathing, inability to speak full sentences",
+      "type": "exam",
+      "presentations": [
+        "dyspnea",
+        "hypotension",
+        "ams"
+      ],
+      "differentials": [
+        "acute_decompensated_hf",
+        "asthma_exacerbation",
+        "copd_exacerbation",
+        "hypercapnia",
+        "pneumonia",
+        "upper_airway_obstruction"
+      ],
+      "indication_tags": [
+        "copd_known"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "JAMA RCE 1995 'Does the clinical examination predict airflow limitation?' Holleman DR, Simel DL; PMID 7815660 (accessory muscle use / sternomastoid contraction reported); severity anchor: Global Initiative for Asthma (GINA) report, 2024 update \u2014 severity assessment table (guideline; no PMID)",
+      "priority": 2
+    },
+    {
+      "id": "exam_anaphylaxis_signs",
+      "title": "Anaphylaxis signs: urticaria/flushing, angioedema, stridor, wheeze (NIAID/FAAN criteria)",
+      "type": "exam",
+      "presentations": [
+        "dyspnea",
+        "hypotension"
+      ],
+      "differentials": [
+        "anaphylaxis",
+        "asthma_exacerbation",
+        "medication_effect",
+        "upper_airway_obstruction"
+      ],
+      "indication_tags": [
+        "new_medication",
+        "acute_onset"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "Sampson HA et al 2006 NIAID/FAAN criteria, J Allergy Clin Immunol PMID 16461139; validation: Campbell RL et al, J Allergy Clin Immunol 2012 PMID 22051698",
+      "priority": 2
+    },
+    {
+      "id": "exam_asterixis",
+      "title": "Asterixis (flapping tremor with wrists extended)",
+      "type": "exam",
+      "presentations": [
+        "dyspnea",
+        "aki",
+        "ams"
+      ],
+      "differentials": [
+        "hepatic_encephalopathy",
+        "hypercapnia",
+        "uremia"
+      ],
+      "indication_tags": [
+        "cirrhosis_known",
+        "copd_known",
+        "ckd_known",
+        "dialysis"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "Formentin C et al, Dig Liver Dis 2020 'Clinical value of asterixis in 374 well-characterised patients with cirrhosis and varying degree of hepatic encephalopathy' PMID 31582327; AASLD/EASL HE guideline 2014 Vilstrup H et al PMID 25042402",
+      "priority": 2
+    },
+    {
+      "id": "exam_chest_hyperresonance",
+      "title": "Chest percussion hyperresonance (diffuse with barrel chest = COPD; unilateral = pneumothorax)",
+      "type": "exam",
+      "presentations": [
+        "dyspnea",
+        "chest_pain"
+      ],
+      "differentials": [
+        "asthma_exacerbation",
+        "copd_exacerbation",
+        "pneumothorax"
+      ],
+      "indication_tags": [
+        "copd_known",
+        "unilateral"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 1995 'Does the clinical examination predict airflow limitation?' Holleman DR, Simel DL; PMID 7815660",
+      "priority": 2
+    },
+    {
+      "id": "exam_conjunctival_pallor",
+      "title": "Conjunctival rim pallor (and palmar crease / nail-bed pallor)",
+      "type": "exam",
+      "presentations": [
+        "dyspnea",
+        "chest_pain",
+        "syncope",
+        "palpitations",
+        "hypotension",
+        "dizziness",
+        "weakness"
+      ],
+      "differentials": [
+        "anemia",
+        "hypovolemic_hemorrhagic_shock"
+      ],
+      "indication_tags": [],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "J Gen Intern Med 1997 'The relation of conjunctival pallor to the presence of anemia' Sheth TN et al; PMID 9051559 ; also Arch Intern Med 1990 'Usefulness of physical examination in detecting the presence or absence of anemia' Nardone DA et al; PMID 2297289",
+      "priority": 2
+    },
+    {
+      "id": "exam_cool_extremities",
+      "title": "Cool vs warm extremities (cold/wet vs warm profile)",
+      "type": "exam",
+      "presentations": [
+        "dyspnea",
+        "edema",
+        "hypotension",
+        "aki"
+      ],
+      "differentials": [
+        "acute_decompensated_hf",
+        "cardiogenic_shock",
+        "cardiorenal",
+        "hypovolemic_hemorrhagic_shock",
+        "septic_shock"
+      ],
+      "indication_tags": [
+        "hf_known"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "Nohria A et al, J Am Coll Cardiol 2003 'Clinical assessment identifies hemodynamic profiles that predict outcomes in patients admitted with heart failure'; PMID 12767667",
+      "priority": 2
+    },
+    {
+      "id": "exam_diastolic_murmur_new",
+      "title": "New diastolic (aortic regurgitation) murmur",
+      "type": "exam",
+      "presentations": [
+        "dyspnea",
+        "chest_pain",
+        "fever"
+      ],
+      "differentials": [
+        "aortic_dissection",
+        "endocarditis"
+      ],
+      "indication_tags": [
+        "prosthetic_valve",
+        "ivdu"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2002 'Does this patient have an acute thoracic aortic dissection?' Klompas M; PMID 11980527 ; also Acad Emerg Med 2018 'Clinical examination for acute aortic dissection: a systematic review and meta-analysis' Ohle R et al; PMID 29265487",
+      "priority": 2
+    },
+    {
+      "id": "exam_hypotension_sbp_lt90",
+      "title": "Systolic BP <90 mmHg (or MAP <65) at the bedside",
+      "type": "exam",
+      "presentations": [
+        "dyspnea",
+        "chest_pain",
+        "syncope",
+        "hypotension",
+        "aki"
+      ],
+      "differentials": [
+        "adrenal_insufficiency",
+        "anaphylaxis",
+        "aortic_dissection",
+        "cardiogenic_shock",
+        "hypovolemic_hemorrhagic_shock",
+        "pericardial_effusion_tamponade",
+        "prerenal_hypovolemia",
+        "pulmonary_embolism",
+        "septic_shock"
+      ],
+      "indication_tags": [],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2007 'Does this patient with a pericardial effusion have cardiac tamponade?' Roy CL et al; PMID 17456823 ; HF context: JAMA RCE 2005 'Does this dyspneic patient in the emergency department have congestive heart failure?' Wang CS et al; PMID 16234501",
+      "priority": 2
+    },
+    {
+      "id": "exam_muffled_heart_sounds",
+      "title": "Muffled/diminished heart sounds (Beck triad component)",
+      "type": "exam",
+      "presentations": [
+        "dyspnea",
+        "chest_pain",
+        "hypotension"
+      ],
+      "differentials": [
+        "copd_exacerbation",
+        "pericardial_effusion_tamponade"
+      ],
+      "indication_tags": [],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2007 'Does this patient with a pericardial effusion have cardiac tamponade?' Roy CL et al; PMID 17456823",
+      "priority": 2
+    },
+    {
+      "id": "exam_new_regurgitant_murmur",
+      "title": "New or changed regurgitant murmur",
+      "type": "exam",
+      "presentations": [
+        "dyspnea",
+        "fever"
+      ],
+      "differentials": [
+        "acute_decompensated_hf",
+        "endocarditis"
+      ],
+      "indication_tags": [
+        "ivdu",
+        "prosthetic_valve",
+        "dialysis"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "'Role of the New Physical Examination Minor Criterion (New Heart Murmur) for the Diagnosis of Infective Endocarditis' Open Forum Infect Dis 2025; PMID 39790639; peripheral stigmata frequency: JAMA Dermatol 2014 PMID 24500311",
+      "priority": 2
+    },
+    {
+      "id": "exam_parasternal_heave_loud_p2",
+      "title": "Left parasternal (RV) heave and loud/palpable P2",
+      "type": "exam",
+      "presentations": [
+        "dyspnea",
+        "syncope",
+        "edema",
+        "hypotension"
+      ],
+      "differentials": [
+        "acute_decompensated_hf",
+        "constrictive_pericarditis",
+        "pulmonary_embolism",
+        "rv_failure_pulmonary_hypertension"
+      ],
+      "indication_tags": [],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "PLoS One 2014 'Utility of the physical examination in detecting pulmonary hypertension. A mixed methods study' Colman R et al; PMID 25343585",
+      "priority": 2
+    },
+    {
+      "id": "exam_pericardial_friction_rub",
+      "title": "Pericardial friction rub (triphasic scratchy sound, LSB, leaning forward, end-expiration)",
+      "type": "exam",
+      "presentations": [
+        "dyspnea",
+        "chest_pain",
+        "fever"
+      ],
+      "differentials": [
+        "pericardial_effusion_tamponade",
+        "pericarditis"
+      ],
+      "indication_tags": [
+        "pleuritic",
+        "positional"
+      ],
+      "expected_evidence": "likely_not_quantified",
+      "anchor_source": "Eur Heart J 2015 '2015 ESC Guidelines for the diagnosis and management of pericardial diseases' Adler Y et al; PMID 26320112 (diagnostic criteria: rub is 1 of 4)",
+      "priority": 2
+    },
+    {
+      "id": "exam_pupils_eye_movements_toxidrome",
+      "title": "Pupils and eye movements: miosis with hypoventilation (opioid), ophthalmoplegia/nystagmus with ataxia (Wernicke), gaze deviation",
+      "type": "exam",
+      "presentations": [
+        "dyspnea",
+        "dizziness",
+        "ams"
+      ],
+      "differentials": [
+        "hypercapnia",
+        "intoxication_withdrawal",
+        "medication_effect",
+        "nonconvulsive_seizure",
+        "stroke",
+        "wernicke"
+      ],
+      "indication_tags": [
+        "alcohol_use",
+        "new_medication"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "Caine D et al, J Neurol Neurosurg Psychiatry 1997 'Operational criteria for the classification of chronic alcoholics: identification of Wernicke's encephalopathy' PMID 9010400; EFNS Wernicke guideline Galvin R et al 2010 PMID 20642790",
+      "priority": 2
+    },
+    {
+      "id": "exam_spider_nevi",
+      "title": "Spider angiomata (>=3, upper trunk/face/arms), with palmar erythema and gynecomastia as companions",
+      "type": "exam",
+      "presentations": [
+        "dyspnea",
+        "edema",
+        "aki",
+        "ams",
+        "abdominal_pain"
+      ],
+      "differentials": [
+        "cirrhosis",
+        "hepatic_encephalopathy",
+        "hepatorenal",
+        "hypoalbuminemia",
+        "sbp"
+      ],
+      "indication_tags": [
+        "cirrhosis_known",
+        "alcohol_use"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2012 'Does this patient with liver disease have cirrhosis?' Udell JA et al; PMID 22357834",
+      "priority": 2
+    },
+    {
+      "id": "exam_stridor",
+      "title": "Inspiratory stridor at rest (audible without stethoscope)",
+      "type": "exam",
+      "presentations": [
+        "dyspnea",
+        "hypotension"
+      ],
+      "differentials": [
+        "anaphylaxis",
+        "upper_airway_obstruction"
+      ],
+      "indication_tags": [
+        "acute_onset"
+      ],
+      "expected_evidence": "likely_not_quantified",
+      "anchor_source": "No RCE; anaphylaxis/airway consensus (World Allergy Organization Anaphylaxis Guidance 2020, Cardona V et al, World Allergy Organ J; PMID 33204386 \u2014 unconfirmed)",
+      "priority": 2
+    },
+    {
+      "id": "exam_tachycardia_resting",
+      "title": "Resting heart rate >100/min (and postural pulse increment)",
+      "type": "exam",
+      "presentations": [
+        "dyspnea",
+        "chest_pain",
+        "syncope",
+        "palpitations",
+        "hypotension",
+        "aki",
+        "fever"
+      ],
+      "differentials": [
+        "acute_decompensated_hf",
+        "anemia",
+        "hyperthyroidism",
+        "hypovolemic_hemorrhagic_shock",
+        "pericardial_effusion_tamponade",
+        "prerenal_hypovolemia",
+        "pulmonary_embolism",
+        "septic_shock",
+        "sinus_tachycardia_secondary"
+      ],
+      "indication_tags": [],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 1999 'Is this patient hypovolemic?' McGee S, Abernethy WB, Simel DL; PMID 10086438 ; PE context: JAMA RCE 2003 'Does this patient have pulmonary embolism?' Chunilal SD et al; PMID 14657070 ; tamponade: JAMA RCE 2007 'Does this patient with a pericardial effusion have cardiac tamponade?' Roy CL et al; PMID 17456823",
+      "priority": 2
+    },
+    {
+      "id": "exam_thyrotoxicosis_signs",
+      "title": "Signs of thyrotoxicosis: fine tremor, lid lag/retraction, warm moist skin, goiter, hyperreflexia",
+      "type": "exam",
+      "presentations": [
+        "dyspnea",
+        "palpitations",
+        "edema",
+        "weakness"
+      ],
+      "differentials": [
+        "atrial_fibrillation_flutter",
+        "hyperthyroidism",
+        "sinus_tachycardia_secondary"
+      ],
+      "indication_tags": [],
+      "expected_evidence": "likely_not_quantified",
+      "anchor_source": "Thyroid 2016 '2016 American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism' Ross DS et al; PMID 27521067 ; no RCE for hyperthyroidism signs",
+      "priority": 2
+    },
+    {
+      "id": "fn_bedside_walk_test",
+      "title": "Bedside walk / ambulatory desaturation and dyspnea reproduction test (hallway walk with pulse-ox, ability to complete)",
+      "type": "functional",
+      "presentations": [
+        "dyspnea",
+        "chest_pain",
+        "syncope",
+        "palpitations"
+      ],
+      "differentials": [
+        "acs",
+        "acute_decompensated_hf",
+        "anxiety_hyperventilation",
+        "aortic_stenosis",
+        "copd_exacerbation",
+        "ild",
+        "pneumonia",
+        "pulmonary_embolism"
+      ],
+      "indication_tags": [
+        "exertional"
+      ],
+      "expected_evidence": "likely_not_quantified",
+      "anchor_source": "No RCE or diagnostic-accuracy meta-analysis for inpatient hallway walk; ATS/ERS 6-minute walk technical standard (Holland AE et al, Eur Respir J 2014; PMID 25359355 \u2014 unconfirmed) as procedural anchor",
+      "priority": 2
+    },
+    {
+      "id": "fn_forced_expiratory_time",
+      "title": "Forced expiratory time >6-9 s (stethoscope over trachea, full forced exhalation)",
+      "type": "functional",
+      "presentations": [
+        "dyspnea"
+      ],
+      "differentials": [
+        "asthma_exacerbation",
+        "copd_exacerbation"
+      ],
+      "indication_tags": [
+        "copd_known"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 1995 'Does the clinical examination predict airflow limitation?' Holleman DR, Simel DL; PMID 7815660",
+      "priority": 2
+    },
+    {
+      "id": "hx_anxiety_panic_features",
+      "title": "Panic/anxiety features: episodes at rest or with stress, dread, paresthesias, known panic disorder; not affected by sleep",
+      "type": "history",
+      "presentations": [
+        "dyspnea",
+        "chest_pain",
+        "palpitations",
+        "dizziness"
+      ],
+      "differentials": [
+        "anxiety_hyperventilation",
+        "sinus_tachycardia_secondary",
+        "svt"
+      ],
+      "indication_tags": [],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2009 'Does this patient with palpitations have a cardiac arrhythmia?' Thavendiranathan P et al; PMID 19920238 (history of panic disorder, 'affected by sleeping', palpitations at work)",
+      "priority": 2
+    },
+    {
+      "id": "hx_smoking_pack_years",
+      "title": "Smoking history: >40 (or >=70) pack-years, current smoker",
+      "type": "history",
+      "presentations": [
+        "dyspnea",
+        "chest_pain",
+        "fever"
+      ],
+      "differentials": [
+        "acs",
+        "copd_exacerbation",
+        "ild",
+        "pneumonia"
+      ],
+      "indication_tags": [
+        "copd_known"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2000 'The accuracy of patient history, wheezing, and laryngeal measurements in diagnosing obstructive airway disease' (CARE-COAD1) Straus SE et al; PMID 10770147",
+      "priority": 2
+    },
+    {
+      "id": "pocus_lung_consolidation",
+      "title": "POCUS lung: subpleural consolidation with air bronchograms / hepatization (+/- focal B-lines) for pneumonia",
+      "type": "pocus",
+      "presentations": [
+        "dyspnea",
+        "chest_pain",
+        "fever"
+      ],
+      "differentials": [
+        "acute_decompensated_hf",
+        "pleural_effusion",
+        "pneumonia",
+        "pulmonary_embolism"
+      ],
+      "indication_tags": [
+        "febrile",
+        "unilateral"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "Respir Res 2014 'Lung ultrasound for the diagnosis of pneumonia in adults: a systematic review and meta-analysis' Chavez MA et al; PMID 24758612",
+      "priority": 2
+    },
+    {
+      "id": "pocus_pleural_effusion",
+      "title": "POCUS: anechoic dependent pleural collection with spine sign / lung flapping",
+      "type": "pocus",
+      "presentations": [
+        "dyspnea",
+        "chest_pain",
+        "edema",
+        "fever"
+      ],
+      "differentials": [
+        "acute_decompensated_hf",
+        "cirrhosis",
+        "nephrotic_syndrome",
+        "pleural_effusion",
+        "pneumonia"
+      ],
+      "indication_tags": [
+        "unilateral",
+        "bilateral"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "Emerg (Tehran) 2016 'Screening performance characteristic of ultrasonography and radiography in detection of pleural effusion; a meta-analysis' Yousefifard M et al; PMID 26862542",
+      "priority": 2
+    },
+    {
+      "id": "exam_focal_neuro_deficit_with_chest_pain",
+      "title": "Focal neurologic deficit (limb weakness, aphasia, Horner) accompanying chest/back pain",
+      "type": "exam",
+      "presentations": [
+        "chest_pain",
+        "syncope",
+        "weakness"
+      ],
+      "differentials": [
+        "aortic_dissection",
+        "stroke"
+      ],
+      "indication_tags": [
+        "acute_onset"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2002 'Does this patient have an acute thoracic aortic dissection?' Klompas M; PMID 11980527 ; also Acad Emerg Med 2018 'Clinical examination for acute aortic dissection: a systematic review and meta-analysis' Ohle R et al; PMID 29265487",
+      "priority": 2
+    },
+    {
+      "id": "hx_family_hx_sudden_death",
+      "title": "Family history of sudden cardiac death <50 y or inherited cardiomyopathy/channelopathy",
+      "type": "history",
+      "presentations": [
+        "chest_pain",
+        "syncope",
+        "palpitations"
+      ],
+      "differentials": [
+        "hcm",
+        "tachyarrhythmia",
+        "ventricular_tachycardia"
+      ],
+      "indication_tags": [],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2019 'Did this patient have cardiac syncope?' Albassam OT et al; PMID 31237649 ; guideline: Eur Heart J 2018 '2018 ESC Guidelines for the diagnosis and management of syncope' Brignole M et al; PMID 29562304",
+      "priority": 2
+    },
+    {
+      "id": "hx_pain_positional",
+      "title": "Pain that is positional (changes with posture; relieved leaning forward = pericarditis; ACS negative)",
+      "type": "history",
+      "presentations": [
+        "chest_pain"
+      ],
+      "differentials": [
+        "acs",
+        "esophageal_gerd",
+        "musculoskeletal_chest_wall",
+        "pericarditis"
+      ],
+      "indication_tags": [
+        "positional"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA 2005 'Value and limitations of chest pain history in the evaluation of patients with suspected acute coronary syndromes' Swap CJ, Nagurney JT; PMID 16304077 ; pericarditis relief leaning forward: Eur Heart J 2015 '2015 ESC Guidelines for the diagnosis and management of pericardial diseases' Adler Y et al; PMID 26320112",
+      "priority": 2
+    },
+    {
+      "id": "exam_shock_index",
+      "title": "Shock index (HR / SBP >= 0.9-1.0)",
+      "type": "exam",
+      "presentations": [
+        "syncope",
+        "hypotension",
+        "abdominal_pain",
+        "fever"
+      ],
+      "differentials": [
+        "aaa",
+        "hypovolemic_hemorrhagic_shock",
+        "pulmonary_embolism",
+        "septic_shock"
+      ],
+      "indication_tags": [
+        "trauma",
+        "anticoagulated"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "Koch E et al, Open Access Emerg Med 2019 'Shock index in the emergency department: utility and limitations' (review); PMID 31616192. Extractor should trace to primary cohorts cited therein.",
+      "priority": 2
+    },
+    {
+      "id": "fn_carotid_sinus_massage",
+      "title": "Carotid sinus massage 5-10 s each side, supine then upright, with continuous BP/pulse; contraindicated with bruit, TIA/stroke or MI within 3 months",
+      "type": "functional",
+      "presentations": [
+        "syncope",
+        "dizziness"
+      ],
+      "differentials": [
+        "bradyarrhythmia",
+        "carotid_sinus_hypersensitivity",
+        "reflex_vasovagal"
+      ],
+      "indication_tags": [
+        "elderly"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "Arch Intern Med 2006 'Carotid sinus hypersensitivity in asymptomatic older persons: implications for diagnosis of syncope and falls' Kerr SR et al; PMID 16534037 ; procedure/criteria: Eur Heart J 2018 '2018 ESC Guidelines for the diagnosis and management of syncope' Brignole M et al; PMID 29562304",
+      "priority": 2
+    },
+    {
+      "id": "hx_hypoglycemia_symptoms_insulin",
+      "title": "Hypoglycemia history: insulin/sulfonylurea use, missed meals, adrenergic or neuroglycopenic symptoms",
+      "type": "history",
+      "presentations": [
+        "syncope",
+        "dizziness",
+        "ams",
+        "weakness"
+      ],
+      "differentials": [
+        "hypoglycemia",
+        "reflex_vasovagal",
+        "stroke"
+      ],
+      "indication_tags": [
+        "alcohol_use",
+        "cirrhosis_known",
+        "ckd_known",
+        "diabetes_insulin"
+      ],
+      "expected_evidence": "likely_not_quantified",
+      "anchor_source": "Cryer PE et al, J Clin Endocrinol Metab 2009 Endocrine Society hypoglycemic disorders guideline PMID 19088155 || Hepburn DA et al 1991 'Symptoms of acute insulin-induced hypoglycemia in humans with and without IDDM. Factor-analysis approach' Diabetes Care; PMID 1797507 (symptom clusters, not diagnostic accuracy)",
+      "priority": 2
+    },
+    {
+      "id": "hx_hypotensive_medication_review",
+      "title": "Antihypertensive / sedative / new-medication review (timing of last doses)",
+      "type": "history",
+      "presentations": [
+        "syncope",
+        "hypotension",
+        "aki",
+        "dizziness",
+        "ams"
+      ],
+      "differentials": [
+        "bradyarrhythmia",
+        "medication_effect",
+        "orthostatic_hypotension",
+        "prerenal_hypovolemia"
+      ],
+      "indication_tags": [
+        "new_medication",
+        "elderly"
+      ],
+      "expected_evidence": "likely_not_quantified",
+      "anchor_source": "",
+      "priority": 2
+    },
+    {
+      "id": "fn_vagal_maneuver_response",
+      "title": "Response of ongoing palpitations to Valsalva/modified Valsalva or carotid massage: abrupt termination vs transient slowing vs none",
+      "type": "functional",
+      "presentations": [
+        "palpitations"
+      ],
+      "differentials": [
+        "atrial_fibrillation_flutter",
+        "sinus_tachycardia_secondary",
+        "svt",
+        "ventricular_tachycardia"
+      ],
+      "indication_tags": [],
+      "expected_evidence": "likely_not_quantified",
+      "anchor_source": "No diagnostic-accuracy study; ESC 2019 SVT Guideline (Brugada J et al, Eur Heart J 2020; PMID 31504425 \u2014 unconfirmed) and REVERT trial (Appelboam A, Lancet 2015) address termination, not diagnosis",
+      "priority": 2
+    },
+    {
+      "id": "exam_stemmer_sign",
+      "title": "Stemmer sign: inability to pinch a skin fold at the base of the 2nd toe",
+      "type": "exam",
+      "presentations": [
+        "edema"
+      ],
+      "differentials": [
+        "dvt",
+        "lymphedema",
+        "venous_insufficiency"
+      ],
+      "indication_tags": [
+        "unilateral",
+        "malignancy"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "Plast Reconstr Surg Glob Open 2019 'Sensitivity and specificity of the Stemmer sign for lymphedema: a clinical lymphoscintigraphic study' Goss JA, Greene AK; PMID 31624689",
+      "priority": 2
+    },
+    {
+      "id": "hx_edema_causing_medications",
+      "title": "Medication review for edema: dihydropyridine CCB, NSAIDs, thiazolidinediones, pregabalin/gabapentin, steroids, minoxidil/hydralazine",
+      "type": "history",
+      "presentations": [
+        "edema",
+        "aki"
+      ],
+      "differentials": [
+        "acute_decompensated_hf",
+        "medication_effect",
+        "venous_insufficiency"
+      ],
+      "indication_tags": [
+        "new_medication",
+        "bilateral"
+      ],
+      "expected_evidence": "likely_not_quantified",
+      "anchor_source": "No RCE; drug-induced edema narrative/consensus reviews only; anchor to product labelling and AHA HF guideline 2022 (Heidenreich PA et al, Circulation 2022; PMID 35363499 \u2014 unconfirmed) for TZD/NSAID cautions",
+      "priority": 2
+    },
+    {
+      "id": "exam_infection_source_survey",
+      "title": "Focused infection-source exam (line/exit sites, skin, abdomen, joints, sacrum, urine catheter)",
+      "type": "exam",
+      "presentations": [
+        "hypotension",
+        "aki",
+        "ams",
+        "fever"
+      ],
+      "differentials": [
+        "cellulitis_ssti",
+        "delirium_infectious",
+        "intraabdominal_abscess",
+        "line_infection",
+        "necrotizing_fasciitis",
+        "septic_arthritis",
+        "septic_shock",
+        "uti_pyelonephritis"
+      ],
+      "indication_tags": [
+        "immunocompromised",
+        "post_operative",
+        "ivdu",
+        "dialysis"
+      ],
+      "expected_evidence": "likely_not_quantified",
+      "anchor_source": "Mermel LA et al, Clin Infect Dis 2009 IDSA catheter-related infection guideline PMID 19489710 (line site signs are insensitive); Seymour CW et al, JAMA 2016 qSOFA PMID 26903335 for context",
+      "priority": 2
+    },
+    {
+      "id": "exam_line_exit_site_erythema_purulence",
+      "title": "Central line exit-site erythema, tenderness, or purulence (with line-day count)",
+      "type": "exam",
+      "presentations": [
+        "hypotension",
+        "fever"
+      ],
+      "differentials": [
+        "line_infection",
+        "septic_shock"
+      ],
+      "indication_tags": [
+        "dialysis",
+        "immunocompromised"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "Safdar N, Maki DG 2002 'Inflammation at the insertion site is not predictive of catheter-related bloodstream infection with short-term, noncuffed central venous catheters' Crit Care Med; PMID 12483050",
+      "priority": 2
+    },
+    {
+      "id": "exam_skin_turgor",
+      "title": "Skin turgor decreased (slow recoil of pinched skin, subclavicular or forearm)",
+      "type": "exam",
+      "presentations": [
+        "hypotension",
+        "aki",
+        "dizziness",
+        "ams"
+      ],
+      "differentials": [
+        "hyponatremia",
+        "hypovolemic_hemorrhagic_shock",
+        "orthostatic_hypotension",
+        "prerenal_hypovolemia"
+      ],
+      "indication_tags": [
+        "elderly"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 1999 'Is this patient hypovolemic?' McGee S, Abernethy WB, Simel DL; PMID 10086438",
+      "priority": 2
+    },
+    {
+      "id": "hx_steroid_exposure_withdrawal",
+      "title": "Glucocorticoid exposure / abrupt withdrawal, known adrenal disease, hyperpigmentation",
+      "type": "history",
+      "presentations": [
+        "hypotension",
+        "ams",
+        "abdominal_pain",
+        "weakness"
+      ],
+      "differentials": [
+        "adrenal_insufficiency"
+      ],
+      "indication_tags": [
+        "new_medication",
+        "malignancy",
+        "immunocompromised"
+      ],
+      "expected_evidence": "likely_not_quantified",
+      "anchor_source": "Bornstein SR et al, J Clin Endocrinol Metab 2016 Endocrine Society primary adrenal insufficiency guideline; PMID 26760044",
+      "priority": 2
+    },
+    {
+      "id": "pocus_free_fluid_fast",
+      "title": "POCUS free intraperitoneal fluid (FAST views)",
+      "type": "pocus",
+      "presentations": [
+        "hypotension",
+        "abdominal_pain",
+        "fever"
+      ],
+      "differentials": [
+        "aaa",
+        "cirrhosis",
+        "hypovolemic_hemorrhagic_shock",
+        "perforated_viscus",
+        "sbp"
+      ],
+      "indication_tags": [
+        "trauma",
+        "cirrhosis_known"
+      ],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 2012 'Does this adult patient have a blunt intra-abdominal injury?' Nishijima DK, Simel DL, Wisner DH, Holmes JF; PMID 22496266 (FAST LRs; trauma population only)",
+      "priority": 2
+    },
+    {
+      "id": "exam_bladder_percussion_palpable",
+      "title": "Suprapubic palpation / percussion for distended bladder; LUTS and prostate history",
+      "type": "exam",
+      "presentations": [
+        "aki",
+        "ams",
+        "abdominal_pain",
+        "weakness"
+      ],
+      "differentials": [
+        "cauda_equina",
+        "delirium_infectious",
+        "obstruction_retention",
+        "urinary_retention"
+      ],
+      "indication_tags": [
+        "elderly",
+        "new_medication",
+        "post_operative"
+      ],
+      "expected_evidence": "likely_not_quantified",
+      "anchor_source": "",
+      "priority": 2
+    },
+    {
+      "id": "exam_tense_distended_abdomen_iah",
+      "title": "Tense, distended abdomen (suspected intra-abdominal hypertension)",
+      "type": "exam",
+      "presentations": [
+        "aki",
+        "abdominal_pain"
+      ],
+      "differentials": [
+        "abdominal_compartment",
+        "cirrhosis",
+        "small_bowel_obstruction"
+      ],
+      "indication_tags": [
+        "post_operative",
+        "trauma",
+        "cirrhosis_known"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "Kirkpatrick AW et al, Can J Surg 2000 'Is clinical examination an accurate indicator of raised intra-abdominal pressure in critically injured patients?' PMID 10851415; WSACS 2013 consensus Intensive Care Med PMID 23673399",
+      "priority": 2
+    },
+    {
+      "id": "hx_rhabdo_myalgia_dark_urine",
+      "title": "Muscle pain/weakness, prolonged immobilization or exertion, dark cola-colored urine",
+      "type": "history",
+      "presentations": [
+        "aki",
+        "weakness"
+      ],
+      "differentials": [
+        "glomerulonephritis",
+        "myopathy",
+        "rhabdomyolysis"
+      ],
+      "indication_tags": [
+        "recent_immobilization",
+        "alcohol_use",
+        "trauma"
+      ],
+      "expected_evidence": "likely_not_quantified",
+      "anchor_source": "Bosch X et al, N Engl J Med 2009 'Rhabdomyolysis and acute kidney injury' PMID 19571284",
+      "priority": 2
+    },
+    {
+      "id": "exam_skew_deviation",
+      "title": "Test of skew (alternate cover test; vertical ocular misalignment)",
+      "type": "exam",
+      "presentations": [
+        "dizziness"
+      ],
+      "differentials": [
+        "posterior_circulation_stroke"
+      ],
+      "indication_tags": [
+        "acute_onset"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "Kattah JC et al, Stroke 2009 'HINTS to diagnose stroke in the acute vestibular syndrome'; PMID 19762709; Tarnutzer AA et al, CMAJ 2011 'Does my dizzy patient have a stroke? A systematic review of bedside diagnosis in acute vestibular syndrome'; PMID 21576300",
+      "priority": 2
+    },
+    {
+      "id": "exam_charcot_triad",
+      "title": "Charcot triad at the bedside (fever + RUQ pain/tenderness + jaundice)",
+      "type": "exam",
+      "presentations": [
+        "ams",
+        "abdominal_pain",
+        "fever"
+      ],
+      "differentials": [
+        "cholangitis",
+        "cholecystitis"
+      ],
+      "indication_tags": [
+        "febrile"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "Tokyo Guidelines 2018 'Diagnostic criteria and severity grading of acute cholangitis' Kiriyama S et al, J Hepatobiliary Pancreat Sci 2018; PMID 29032610 (reports Charcot triad sensitivity/specificity vs TG criteria)",
+      "priority": 2
+    },
+    {
+      "id": "exam_subtle_motor_signs_ncse",
+      "title": "Subtle twitching (face/limbs), eye deviation, nystagmoid jerks, fluctuating responsiveness (NCSE screen)",
+      "type": "exam",
+      "presentations": [
+        "ams"
+      ],
+      "differentials": [
+        "nonconvulsive_seizure",
+        "stroke"
+      ],
+      "indication_tags": [
+        "acute_onset"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "Husain AM et al, J Neurol Neurosurg Psychiatry 2003 'Non-convulsive status epilepticus: usefulness of clinical features in selecting patients for urgent EEG' PMID 12531946",
+      "priority": 2
+    },
+    {
+      "id": "fn_attention_months_backward",
+      "title": "Attention test: months of the year backward / digit span",
+      "type": "functional",
+      "presentations": [
+        "ams"
+      ],
+      "differentials": [
+        "delirium_infectious",
+        "hepatic_encephalopathy",
+        "hyponatremia",
+        "intoxication_withdrawal",
+        "medication_effect",
+        "uremia"
+      ],
+      "indication_tags": [
+        "elderly",
+        "post_operative"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "JAMA RCE 2010 'Does this patient have delirium? Value of bedside instruments' Wong CL et al; PMID 20716741; O'Regan NA et al, Int J Geriatr Psychiatry 2017 'Five short screening tests in the detection of prevalent delirium' PMID 27917538; 4AT meta-analysis Tieges Z et al, Age Ageing 2021 PMID 33951145",
+      "priority": 2
+    },
+    {
+      "id": "exam_llq_tenderness",
+      "title": "Localized LLQ tenderness (with prior diverticulitis episode history)",
+      "type": "exam",
+      "presentations": [
+        "abdominal_pain",
+        "fever"
+      ],
+      "differentials": [
+        "diverticulitis",
+        "intraabdominal_abscess",
+        "perforated_viscus"
+      ],
+      "indication_tags": [
+        "elderly"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "Lameris W et al 2010 'A clinical decision rule to establish the diagnosis of acute diverticulitis at the emergency department' Dis Colon Rectum; PMID 20485003",
+      "priority": 2
+    },
+    {
+      "id": "hx_pain_out_of_proportion_exam",
+      "title": "Pain out of proportion to examination findings",
+      "type": "history",
+      "presentations": [
+        "abdominal_pain",
+        "fever"
+      ],
+      "differentials": [
+        "mesenteric_ischemia",
+        "necrotizing_fasciitis"
+      ],
+      "indication_tags": [
+        "elderly",
+        "acute_onset"
+      ],
+      "expected_evidence": "likely_not_quantified",
+      "anchor_source": "Cudnik MT et al 2013 'The diagnosis of acute mesenteric ischemia: a systematic review and meta-analysis' Acad Emerg Med; PMID 24238311 (clinical features largely not pooled; use for AF/vascular-risk context)",
+      "priority": 2
+    },
+    {
+      "id": "hx_recent_antibiotics_new_diarrhea",
+      "title": "Antibiotic exposure within 8-12 weeks plus new watery diarrhea (>=3/day) or ileus/distension",
+      "type": "history",
+      "presentations": [
+        "abdominal_pain",
+        "fever"
+      ],
+      "differentials": [
+        "cdiff_colitis"
+      ],
+      "indication_tags": [
+        "new_medication",
+        "immunocompromised"
+      ],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "Garey KW et al 2008 'A clinical risk index for Clostridium difficile infection in hospitalised patients receiving broad-spectrum antibiotics' J Hosp Infect; PMID 18723249; IDSA/SHEA 2017 CDI guideline for case definition",
+      "priority": 2
+    },
+    {
+      "id": "exam_forehead_sparing_facial_weakness",
+      "title": "Forehead sparing (central) vs forehead involvement (peripheral) in facial weakness",
+      "type": "exam",
+      "presentations": [
+        "weakness"
+      ],
+      "differentials": [
+        "bell_palsy",
+        "stroke"
+      ],
+      "indication_tags": [
+        "acute_onset"
+      ],
+      "expected_evidence": "likely_not_quantified",
+      "anchor_source": "AAN evidence-based guideline / AAO-HNS Bell's palsy clinical practice guideline 2013 (consensus); no diagnostic-accuracy pooled data identified",
+      "priority": 2
+    },
+    {
+      "id": "exam_proximal_symmetric_weakness",
+      "title": "Proximal symmetric weakness (chair-rise/Gowers-type maneuver, arm abduction) without focal deficit",
+      "type": "exam",
+      "presentations": [
+        "weakness"
+      ],
+      "differentials": [
+        "electrolyte_hypokalemia_hypophosphatemia",
+        "gbs",
+        "myopathy",
+        "sepsis_deconditioning"
+      ],
+      "indication_tags": [
+        "new_medication",
+        "alcohol_use",
+        "subacute"
+      ],
+      "expected_evidence": "likely_not_quantified",
+      "anchor_source": "Hermans G et al 2012 'Interobserver agreement of Medical Research Council sum-score and handgrip strength in the intensive care unit' Muscle Nerve; PMID 22190301 (MRC grading reliability; ICU-acquired weakness)",
+      "priority": 2
+    },
+    {
+      "id": "exam_kussmaul_sign",
+      "title": "Kussmaul sign: JVP rises (or fails to fall) with inspiration",
+      "type": "exam",
+      "presentations": [
+        "dyspnea",
+        "edema",
+        "hypotension"
+      ],
+      "differentials": [
+        "constrictive_pericarditis",
+        "pericardial_effusion_tamponade",
+        "rv_failure_pulmonary_hypertension"
+      ],
+      "indication_tags": [],
+      "expected_evidence": "likely_not_quantified",
+      "anchor_source": "Eur Heart J 2015 '2015 ESC Guidelines for the diagnosis and management of pericardial diseases' Adler Y et al; PMID 26320112 (constrictive pericarditis section); no diagnostic-accuracy study",
+      "priority": 3
+    },
+    {
+      "id": "exam_dermatomal_vesicular_rash",
+      "title": "Unilateral dermatomal vesicular rash (or dermatomal allodynia preceding rash)",
+      "type": "exam",
+      "presentations": [
+        "chest_pain",
+        "abdominal_pain",
+        "weakness"
+      ],
+      "differentials": [
+        "herpes_zoster",
+        "musculoskeletal_chest_wall"
+      ],
+      "indication_tags": [
+        "unilateral",
+        "immunocompromised",
+        "elderly"
+      ],
+      "expected_evidence": "likely_not_quantified",
+      "anchor_source": "No RCE; clinical diagnosis per IDSA/CDC zoster guidance; case-based literature only",
+      "priority": 3
+    },
+    {
+      "id": "hx_epigastric_pain_radiating_back",
+      "title": "Constant epigastric pain radiating to the back (with alcohol/gallstone history)",
+      "type": "history",
+      "presentations": [
+        "chest_pain",
+        "abdominal_pain"
+      ],
+      "differentials": [
+        "aaa",
+        "aortic_dissection",
+        "pancreatitis",
+        "peptic_ulcer"
+      ],
+      "indication_tags": [
+        "alcohol_use"
+      ],
+      "expected_evidence": "likely_not_quantified",
+      "anchor_source": "Dickson AP, Imrie CW 1984 'The incidence and prognosis of body wall ecchymosis in acute pancreatitis' Surg Gynecol Obstet; PMID 6237447 (Cullen/Grey Turner frequency only); pain character itself guideline/consensus",
+      "priority": 3
+    },
+    {
+      "id": "hx_ain_rash_fever_arthralgia",
+      "title": "Rash, fever, arthralgia after new drug (AIN triad)",
+      "type": "history",
+      "presentations": [
+        "aki",
+        "fever"
+      ],
+      "differentials": [
+        "ain",
+        "drug_fever"
+      ],
+      "indication_tags": [
+        "new_medication"
+      ],
+      "expected_evidence": "likely_not_quantified",
+      "anchor_source": "Perazella MA, Markowitz GS, Nat Rev Nephrol 2010 'Drug-induced acute interstitial nephritis' PMID 20517290 (classic triad present in ~10%)",
+      "priority": 3
+    },
+    {
+      "id": "hx_new_medication_temporal_fever",
+      "title": "Fever onset temporally linked to a new drug (with rash/relative bradycardia)",
+      "type": "history",
+      "presentations": [
+        "fever"
+      ],
+      "differentials": [
+        "drug_fever"
+      ],
+      "indication_tags": [
+        "new_medication"
+      ],
+      "expected_evidence": "likely_not_quantified",
+      "anchor_source": "Mackowiak PA, LeMaistre CF 1987 'Drug fever: a critical appraisal of conventional concepts. An analysis of 51 episodes in two Dallas hospitals and 97 episodes reported in the English literature' Ann Intern Med; PMID 3565971; relative bradycardia: Cunha BA 2000 Clin Microbiol Infect PMID 11284920",
+      "priority": 3
+    }
+  ]
+}
