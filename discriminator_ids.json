@@ -923,6 +923,28 @@
       "priority": 1
     },
     {
+      "id": "hx_palpitations_exertional_onset",
+      "title": "Palpitations beginning during exertion (vs at rest or after exertion)",
+      "type": "history",
+      "presentations": [
+        "chest_pain",
+        "syncope",
+        "palpitations"
+      ],
+      "differentials": [
+        "ventricular_tachycardia",
+        "hcm",
+        "svt",
+        "sinus_tachycardia_secondary"
+      ],
+      "indication_tags": [
+        "exertional"
+      ],
+      "expected_evidence": "likely_not_quantified",
+      "anchor_source": "JAMA RCE 2009 'Does this patient with palpitations have a cardiac arrhythmia?' Thavendiranathan P et al; PMID 19920238 (exertional onset not reported as a quantified LR) ; primary cohort: Am J Med 1996 'Evaluation and outcomes of patients with palpitations' Weber BE, Kapoor WN; PMID 8629647 ; review: NEJM 1998 'Evaluation of patients with palpitations' Zimetbaum P, Josephson ME; PMID 9571258",
+      "priority": 1
+    },
+    {
       "id": "exam_melena_rectal_exam",
       "title": "Melena on digital rectal exam, or reported black tarry stool / hematemesis",
       "type": "exam",
@@ -995,6 +1017,26 @@
       ],
       "expected_evidence": "rce_backed",
       "anchor_source": "JAMA RCE 1999 'Does this patient have abdominal aortic aneurysm?' Lederle FA, Simel DL; PMID 9892455 (sensitivity falls with abdominal girth and small AAA)",
+      "priority": 1
+    },
+    {
+      "id": "fn_pulse_palpation_during_symptoms",
+      "title": "Palpate/auscultate the pulse (or have the patient count/record it) DURING an episode: rate, regularity, abrupt termination",
+      "type": "functional",
+      "presentations": [
+        "syncope",
+        "palpitations",
+        "dizziness"
+      ],
+      "differentials": [
+        "atrial_fibrillation_flutter",
+        "svt",
+        "pvcs_benign_ectopy",
+        "sinus_tachycardia_secondary"
+      ],
+      "indication_tags": [],
+      "expected_evidence": "likely_quantified",
+      "anchor_source": "JAMA RCE 2009 'Does this patient with palpitations have a cardiac arrhythmia?' Thavendiranathan P et al; PMID 19920238 ; pulse irregularity for AF: J Fam Pract 2006 'Is pulse palpation helpful in detecting atrial fibrillation? A systematic review' Cooke G, Doust J, Sanders S; PMID 16451780 (rate/termination during an episode not quantified)",
       "priority": 1
     },
     {
@@ -2695,6 +2737,28 @@
       "priority": 2
     },
     {
+      "id": "fn_standing_heart_rate_response",
+      "title": "Supine-to-standing heart rate increment (>=30 bpm sustained within 10 min, POTS-style) with symptom reproduction on standing",
+      "type": "functional",
+      "presentations": [
+        "syncope",
+        "palpitations",
+        "dizziness"
+      ],
+      "differentials": [
+        "sinus_tachycardia_secondary",
+        "orthostatic_hypotension",
+        "anemia"
+      ],
+      "indication_tags": [
+        "orthostatic",
+        "positional"
+      ],
+      "expected_evidence": "likely_not_quantified",
+      "anchor_source": "Heart Rhythm 2015 '2015 Heart Rhythm Society expert consensus statement on the diagnosis and treatment of postural tachycardia syndrome, inappropriate sinus tachycardia, and vasovagal syncope' Sheldon RS et al; PMID 25980576 (consensus diagnostic criteria, not a diagnostic-accuracy study)",
+      "priority": 2
+    },
+    {
       "id": "hx_hypoglycemia_symptoms_insulin",
       "title": "Hypoglycemia history: insulin/sulfonylurea use, missed meals, adrenergic or neuroglycopenic symptoms",
       "type": "history",
@@ -2745,6 +2809,22 @@
       "priority": 2
     },
     {
+      "id": "exam_thyroid_gland_palpation",
+      "title": "Thyroid palpation and auscultation: goiter, nodularity, bruit (distinct from thyrotoxicosis signs)",
+      "type": "exam",
+      "presentations": [
+        "palpitations",
+        "edema"
+      ],
+      "differentials": [
+        "hyperthyroidism"
+      ],
+      "indication_tags": [],
+      "expected_evidence": "rce_backed",
+      "anchor_source": "JAMA RCE 1995 'The rational clinical examination. Does this patient have a goiter?' Siminoski K; PMID 7861577",
+      "priority": 2
+    },
+    {
       "id": "fn_vagal_maneuver_response",
       "title": "Response of ongoing palpitations to Valsalva/modified Valsalva or carotid massage: abrupt termination vs transient slowing vs none",
       "type": "functional",
@@ -2760,6 +2840,26 @@
       "indication_tags": [],
       "expected_evidence": "likely_not_quantified",
       "anchor_source": "No diagnostic-accuracy study; ESC 2019 SVT Guideline (Brugada J et al, Eur Heart J 2020; PMID 31504425 \u2014 unconfirmed) and REVERT trial (Appelboam A, Lancet 2015) address termination, not diagnosis",
+      "priority": 2
+    },
+    {
+      "id": "hx_stimulant_caffeine_alcohol_use",
+      "title": "Stimulant/substance exposure: caffeine, energy drinks, decongestants, beta-agonists, cocaine/amphetamines, alcohol binge (holiday heart), recent withdrawal",
+      "type": "history",
+      "presentations": [
+        "palpitations"
+      ],
+      "differentials": [
+        "sinus_tachycardia_secondary",
+        "atrial_fibrillation_flutter",
+        "pvcs_benign_ectopy"
+      ],
+      "indication_tags": [
+        "alcohol_use",
+        "new_medication"
+      ],
+      "expected_evidence": "likely_not_quantified",
+      "anchor_source": "Am J Med 1996 'Evaluation and outcomes of patients with palpitations' Weber BE, Kapoor WN; PMID 8629647 ; holiday heart: Am Heart J 1978 'Arrhythmias and the \"Holiday Heart\": alcohol-associated cardiac rhythm disorders' Ettinger PO et al; PMID 636996 ; review: NEJM 1998 'Evaluation of patients with palpitations' Zimetbaum P, Josephson ME; PMID 9571258 ; no diagnostic-accuracy data for stimulant history",
       "priority": 2
     },
     {
