@@ -1,0 +1,94 @@
+{
+  "identity": {
+    "id": "exam_diastolic_murmur_new",
+    "title": "New diastolic (aortic regurgitation) murmur",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "chest_pain",
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "aortic_dissection",
+      "endocarditis"
+    ],
+    "indication_tags": [
+      "prosthetic_valve",
+      "ivdu"
+    ]
+  },
+  "technique": {
+    "how": "With the patient sitting, leaning forward, in held end-expiration, listen with the diaphragm at the left sternal border (3rd-4th interspace) and right upper sternal border for a high-pitched, blowing, decrescendo early-diastolic murmur; check for a wide pulse pressure and collapsing pulse. Compare with prior documented examinations to establish that it is new.",
+    "prerequisites": "Quiet room; prior notes or echo to judge 'new'; note any prosthetic valve.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "A diastolic murmur is heard in only about 28% of acute aortic dissections and barely changes the odds (LR+ 1.4), but a NEW aortic regurgitation murmur in acute chest/back pain (with pulse deficit or neurological deficit) or in fever/bacteraemia (endocarditis, especially prosthetic valve or IVDU) is a high-consequence finding that demands imaging.",
+    "negative_finding": "Absence of a diastolic murmur does not lower the probability of dissection or endocarditis meaningfully; most dissections and many endocarditis cases have no regurgitant murmur at presentation.",
+    "pitfalls": "Early diastolic AR murmurs are soft and easily missed in a noisy ED or tachycardic patient; a chronic AR murmur is common in the elderly and is not 'new'. Pulmonary regurgitation and mitral stenosis murmurs can be confused.",
+    "changes_what": "New AR murmur + acute pain: immediate CT angiography/TEE for dissection. New murmur + fever: blood cultures x3 and echocardiography for endocarditis. Absent: no reassurance."
+  },
+  "estimates": [
+    {
+      "target_condition": "Acute thoracic aortic dissection; finding = diastolic murmur (any; primary studies did not require the murmur to be new)",
+      "population": "Pooled from 21 studies of ≥18 consecutive patients with confirmed thoracic aortic dissection, English literature 1966-2000",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Confirmed thoracic aortic dissection (imaging, surgery or autopsy per the included studies)",
+      "sensitivity": {
+        "value": 0.28,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": null,
+      "lr_positive": {
+        "value": 1.4,
+        "ci_low": 1.0,
+        "ci_high": 2.0
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "minimal",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "28% have a diastolic murmur … Presence of a diastolic murmur does little to change the pretest probability (positive LR, 1.4; 95% CI, 1.0-2.0)",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "partially_quantified",
+  "sources": [
+    {
+      "citation": "Klompas M. Does this patient have an acute thoracic aortic dissection? JAMA. 2002.",
+      "doi": "10.1001/jama.287.17.2262",
+      "pmid": "11980527",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2002
+    },
+    {
+      "citation": "Ohle R, Kareemi HK, Wells G, Perry JJ. Clinical examination for acute aortic dissection: a systematic review and meta-analysis. Acad Emerg Med. 2019.",
+      "doi": "10.1111/acem.13360",
+      "pmid": "29265487",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2019
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use the absence of a murmur to exclude dissection or endocarditis; do not attribute a murmur to 'chronic' disease without a prior record.",
+    "escalation_warning": "New AR murmur with tearing chest/back pain, pulse deficit, hypotension or neurological deficit: activate the dissection pathway (CTA/TEE, cardiothoracic surgery) immediately.",
+    "interobserver_note": "No interobserver data for diastolic murmurs in the dissection or endocarditis literature reviewed."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Status partially_quantified: Klompas 2002 abstract gives pooled sensitivity (28%) and LR+ (1.4, 95% CI 1.0-2.0) but no specificity or LR-, and the finding was 'diastolic murmur' rather than the id's 'new' murmur. Ohle 2019 (PMID 29265487) abstract reports pooled findings for neurological deficit and hypotension only; the murmur row was not accessible (not in PMC), so no second estimate. No diagnostic-accuracy study of 'new murmur' for infective endocarditis was found ('infective endocarditis new murmur sensitivity diagnosis clinical features prospective' returned 0 hits); the Duke criteria treat new valvular regurgitation as a major criterion (guideline knowledge, unverified recall) and this is reflected in the interpretation text without a number.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:42:28+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

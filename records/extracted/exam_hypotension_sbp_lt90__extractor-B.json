@@ -1,0 +1,172 @@
+{
+  "identity": {
+    "id": "exam_hypotension_sbp_lt90",
+    "title": "Systolic BP <90 mmHg (or MAP <65) at the bedside",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "chest_pain",
+      "syncope",
+      "hypotension",
+      "aki"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "adrenal_insufficiency",
+      "anaphylaxis",
+      "aortic_dissection",
+      "cardiogenic_shock",
+      "hypovolemic_hemorrhagic_shock",
+      "pericardial_effusion_tamponade",
+      "prerenal_hypovolemia",
+      "pulmonary_embolism",
+      "septic_shock"
+    ],
+    "indication_tags": []
+  },
+  "technique": {
+    "how": "Measure with a correctly sized cuff on a supported arm (manual if the automated reading is doubtful or the pulse is irregular), repeat, and measure both arms when dissection is possible; calculate MAP = (SBP + 2 x DBP)/3. Interpret against the patient's usual pressure and drug list.",
+    "prerequisites": "Appropriate cuff size; awareness of baseline BP, beta-blockers/antihypertensives and pacing.",
+    "contraindications": "Avoid the arm with a dialysis fistula, lymphoedema or recent axillary surgery; none otherwise."
+  },
+  "interpretation": {
+    "positive_finding": "SBP <90 (or MAP <65) is shock until proven otherwise and should trigger a search for the cause (septic, hypovolaemic/haemorrhagic, cardiogenic, obstructive: tamponade/PE/tension pneumothorax, anaphylaxis, adrenal). In suspected dissection, hypotension roughly triples the odds (LR+ 2.9, specificity 95%). It is not a discriminator between causes.",
+    "negative_finding": "A normal SBP does not exclude shock (compensated haemorrhage, early sepsis, cardiogenic shock with vasoconstriction) or tamponade (about 60% of tamponade patients had SBP ≥100), nor low cardiac index in heart failure (SBP <90 sensitivity 12%).",
+    "pitfalls": "Chronic hypertensives are hypoperfused at 'normal' pressures; beta-blockers, pacemakers and automated cuffs in AF mislead. Interarm difference >20 mmHg raises dissection concern. Cuff readings overestimate true pressure in profound vasoconstriction.",
+    "changes_what": "SBP <90/MAP <65: resuscitation, lactate, POCUS (RUSH) to classify shock type, and cause-directed therapy now. Normal BP: continue to look for compensated shock with HR, lactate, mentation, urine output."
+  },
+  "estimates": [
+    {
+      "target_condition": "Acute aortic dissection; finding = hypotension as defined by each primary study (thresholds varied; not uniformly SBP <90 mmHg)",
+      "population": "Pooled 4 studies of ED patients evaluated for suspected acute aortic dissection (review total 9 studies, 2,400 participants; prevalence range 21.9-76.1%)",
+      "setting": "ED",
+      "prevalence": null,
+      "reference_standard": "Acute aortic dissection confirmed by imaging, surgery or autopsy per primary studies",
+      "sensitivity": null,
+      "specificity": {
+        "value": 0.95,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 2.9,
+        "ci_low": 1.8,
+        "ci_high": 4.6
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "hypotension (n = 4, specificity = 95%, LR+ = 2.9 95% CI = 1.8-4.6, I2 = 42%)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Low cardiac index <2.3 L/min/m2 in advanced heart failure; finding = SBP <90 mmHg on baseline examination",
+      "population": "188 patients hospitalised with advanced decompensated HF in the ESCAPE trial with pulmonary artery catheter measurements",
+      "setting": "inpatient",
+      "prevalence": null,
+      "reference_standard": "Invasively measured cardiac index <2.3 L/min/m2 by pulmonary artery catheter",
+      "sensitivity": {
+        "value": 0.12,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.84,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 0.77,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 1.05,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "Table 5 prints sensitivity 12%, specificity 84%, LR+ 0.77 and 'negative LR 0.96' (reciprocal form: 0.84/0.88 = 0.955). Conventional LR- = (1-0.12)/0.84 = 1.05 entered. LR+ <1 means SBP <90 did not identify low cardiac index in this population.",
+      "interpretation_label": "minimal",
+      "evidence_level": "single_study",
+      "source_index": 1,
+      "quote": "SBP < 90 25/188 12 84 68 26 0.77 0.96 0.74 (0.30, 1.83) 0.5",
+      "location": "Table 5 (Utility of history and physical examination in detecting an invasively measured cardiac index <2.3 L/min/m2); columns frequency, sensitivity, specificity, PPV, NPV, LR+, LR-, OR, P"
+    },
+    {
+      "target_condition": "Cardiac tamponade (sensitivity only); finding = systolic BP <100 mmHg (threshold differs from id title's <90)",
+      "population": "56 medical patients with cardiac tamponade, single-centre case series, University of Cincinnati",
+      "setting": "inpatient",
+      "prevalence": null,
+      "reference_standard": "Clinical/haemodynamic diagnosis of tamponade with relief by pericardiocentesis or pericardial resection",
+      "sensitivity": {
+        "value": 0.375,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": true,
+      "computed_from": "SBP ≥100 mmHg in 35 patients; assuming the full series denominator of 56, SBP <100 in 21/56 = 0.375. The abstract does not state how many had BP recorded, so the denominator is an assumption.",
+      "interpretation_label": "minimal",
+      "evidence_level": "single_study",
+      "source_index": 2,
+      "quote": "heart sounds were diminished in 19 patients; arterial systolic pressure was greater than or equal to 100 mm Hg in 35",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Ohle R, Kareemi HK, Wells G, Perry JJ. Clinical examination for acute aortic dissection: a systematic review and meta-analysis. Acad Emerg Med. 2019.",
+      "doi": "10.1111/acem.13360",
+      "pmid": "29265487",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2019
+    },
+    {
+      "citation": "Drazner MH, Hellkamp AS, Leier CV, Shah MR, Miller LW, Russell SD, Young JB, Califf RM, et al. Value of clinician assessment of hemodynamics in advanced heart failure: the ESCAPE trial. Circ Heart Fail. 2009.",
+      "doi": "10.1161/CIRCHEARTFAILURE.108.769778",
+      "pmid": "19675681",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2009
+    },
+    {
+      "citation": "Guberman BA, Fowler NO, Engel PJ, Gueron M, Allen JM. Cardiac tamponade in medical patients. Circulation. 1981.",
+      "doi": "10.1161/01.cir.64.3.633",
+      "pmid": "6455217",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1981
+    },
+    {
+      "citation": "Roy CL, Minor MA, Brookhart MA, Choudhry NK. Does this patient with a pericardial effusion have cardiac tamponade? JAMA. 2007.",
+      "doi": "10.1001/jama.297.16.1810",
+      "pmid": "17456823",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2007
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use a single normal cuff reading to exclude shock or tamponade; do not interpret SBP <90 as 'baseline' without documented prior values.",
+    "escalation_warning": "SBP <90 or MAP <65 with altered mentation, lactate >2, oliguria or cool skin is shock: immediate resuscitation and senior/ICU review; in suspected dissection or tamponade, hypotension signals imminent collapse.",
+    "interobserver_note": "Automated versus manual cuff readings differ, particularly in arrhythmia and vasoconstriction; no kappa located."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Hypotension is a severity marker across many diagnoses, so only accuracy data anchored to a specific target were entered, each with its own threshold stated. (1) Ohle 2019: pooled specificity 95% and LR+ 2.9 (1.8-4.6) for dissection; the abstract does not give the hypotension threshold or sensitivity, and prevalence is a range (21.9-76.1%), so left null. (2) ESCAPE Table 5 (PMC full text) gives an SBP <90 row for cardiac index <2.3: sens 12%, spec 84%, LR+ 0.77 — note direction: in advanced HF inpatients hypotension did NOT identify low output (OR 0.74, 95% CI 0.30-1.83, P = 0.5); Table 5's LR- column is in reciprocal form, so LR- was recomputed (computed=true). SBP <100 in the same table: sens 42%, spec 66%, LR+ 1.24 (Table 5). (3) Guberman 1981 tamponade series: sensitivity only, threshold <100, denominator assumed. Roy 2007 RCE (PMID 17456823) is not in PMC and its abstract does not report hypotension, so its pooled tamponade hypotension sensitivity could not be quoted (unverified recall: ~26%). No source for MAP <65 as a diagnostic discriminator was located; it is a sepsis/shock definitional threshold (Sepsis-3, unverified recall).",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:42:28+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

@@ -1,0 +1,156 @@
+{
+  "identity": {
+    "id": "exam_cool_extremities",
+    "title": "Cool vs warm extremities (cold/wet vs warm profile)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "edema",
+      "hypotension",
+      "aki"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "acute_decompensated_hf",
+      "cardiogenic_shock",
+      "cardiorenal",
+      "hypovolemic_hemorrhagic_shock",
+      "septic_shock"
+    ],
+    "indication_tags": [
+      "hf_known"
+    ]
+  },
+  "technique": {
+    "how": "With the back of your hand, feel the temperature of the forearms, hands, shins and feet and note the level at which they become cool; add capillary refill, mottling of the knees and pulse pressure. Combine with congestion signs (JVP, orthopnea, oedema) to assign a profile: warm/cold x wet/dry.",
+    "prerequisites": "Room-temperature environment; note ambient cold, peripheral vascular disease and vasopressor use, which cool the skin independently of cardiac output.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Cool extremities in a patient with heart failure suggest low cardiac index but are insensitive (about 20%) with only modest specificity (about 88%); the clinician's global 'cold' profile performs somewhat better and a 'cold' or 'wet' profile at discharge predicts higher 6-month event rates.",
+    "negative_finding": "Warm extremities do not exclude a low cardiac index (LR- about 0.9); most patients with cardiac index <2.3 L/min/m2 in ESCAPE had warm extremities.",
+    "pitfalls": "Cool skin is common with sepsis-related vasoconstriction, hypovolaemia, cold rooms, peripheral arterial disease and vasopressors; warm extremities in vasodilated septic shock coexist with hypoperfusion. Do not equate 'cold' with a specific cause of shock.",
+    "changes_what": "Cold + wet: consider low-output state; check lactate, urine output, consider inotrope/ICU. Warm: does not exclude low output; use pulse pressure, lactate and echo/POCUS."
+  },
+  "estimates": [
+    {
+      "target_condition": "Low cardiac index <2.3 L/min/m2 in advanced heart failure; finding = cool extremities on baseline H&P",
+      "population": "189 patients hospitalised with advanced decompensated HF randomised in the ESCAPE trial who had pulmonary artery catheter measurements; examiners were HF specialists",
+      "setting": "inpatient",
+      "prevalence": null,
+      "reference_standard": "Invasively measured cardiac index <2.3 L/min/m2 by pulmonary artery catheter",
+      "sensitivity": {
+        "value": 0.2,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.88,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 1.68,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.91,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "Table 5 prints sensitivity 20%, specificity 88%, positive LR 1.68 and 'negative LR 1.1'; the printed negative LR is the reciprocal (spec/(1-sens) = 0.88/0.80 = 1.10). Conventional LR- = (1-0.20)/0.88 = 0.91 entered.",
+      "interpretation_label": "minimal",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "Cool extremities 34/189 20 88 82 28 1.68 1.1 1.85 (0.72, 4.78) 0.2",
+      "location": "Table 5 (Utility of history and physical examination in detecting an invasively measured cardiac index <2.3 L/min/m2); columns frequency, sensitivity, specificity, PPV, NPV, LR+, LR-, OR, P"
+    },
+    {
+      "target_condition": "COMPOSITE: low cardiac index <2.3 L/min/m2 in advanced heart failure; finding = clinician's global 'cold' profile (inadequate perfusion judged from the whole H&P)",
+      "population": "188 ESCAPE trial patients with pulmonary artery catheter measurements; profile assigned by HF-specialist investigators at investigator discretion",
+      "setting": "inpatient",
+      "prevalence": null,
+      "reference_standard": "Invasively measured cardiac index <2.3 L/min/m2 by pulmonary artery catheter",
+      "sensitivity": {
+        "value": 0.33,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.86,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 2.33,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.78,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "Table 5 prints sensitivity 33%, specificity 86%, LR+ 2.33 and 'negative LR 1.28' (reciprocal form: 0.86/0.67 = 1.28). Conventional LR- = (1-0.33)/0.86 = 0.78 entered.",
+      "interpretation_label": "modest",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "“Cold” profile 52/188 33 86 86.5 32 2.33 1.28 2.97 (1.24, 7.13) 0.02",
+      "location": "Table 5, last row; OR 2.97 (95% CI 1.24-7.13), P = 0.02 in text/Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Drazner MH, Hellkamp AS, Leier CV, Shah MR, Miller LW, Russell SD, Young JB, Califf RM, et al. Value of clinician assessment of hemodynamics in advanced heart failure: the ESCAPE trial. Circ Heart Fail. 2009.",
+      "doi": "10.1161/CIRCHEARTFAILURE.108.769778",
+      "pmid": "19675681",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2009
+    },
+    {
+      "citation": "Nohria A, Tsang SW, Fang JC, Lewis EF, Jarcho JA, Mudge GH, Stevenson LW. Clinical assessment identifies hemodynamic profiles that predict outcomes in patients admitted with heart failure. J Am Coll Cardiol. 2003.",
+      "doi": "10.1016/s0735-1097(03)00309-7",
+      "pmid": "12767667",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2003
+    },
+    {
+      "citation": "Kaplan LJ, McPartland K, Santora TA, Trooskin SZ. Start with a subjective assessment of skin temperature to identify hypoperfusion in intensive care unit patients. J Trauma. 2001.",
+      "doi": "10.1097/00005373-200104000-00005",
+      "pmid": "11303155",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2001
+    },
+    {
+      "citation": "Stevenson LW, Perloff JK. The limited reliability of physical signs for estimating hemodynamics in chronic heart failure. JAMA. 1989.",
+      "doi": null,
+      "pmid": "2913385",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1989
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use warm extremities to rule out low cardiac output, and do not interpret cool extremities as cardiogenic in a septic, hypovolaemic, hypothermic or vasopressor-treated patient without other evidence.",
+    "escalation_warning": "Cool, mottled extremities with hypotension, rising lactate or oliguria = shock physiology: ICU-level review and definition of the shock type (POCUS) immediately.",
+    "interobserver_note": "ESCAPE left the criteria for 'cold' to investigator discretion (Methods); no kappa reported. Kaplan 2001 used two intensivists' subjective skin-temperature judgement without agreement statistics (Abstract)."
+  },
+  "tier": "extracted",
+  "extraction_notes": "Direction/units: ESCAPE Table 5 reports LR- in reciprocal form for every row (checked against printed sens/spec for PPP <25%, SBP <90 and cool extremities), so conventional LR- values were recomputed and computed=true set; the printed LR+ values reproduce sens/(1-spec). Text (Results) states cool extremities \"were relatively infrequent findings and were not significantly associated with reduced cardiac index\" (OR 1.85, 95% CI 0.72-4.78, P = 0.2, Table 5). Nohria 2003 (PMID 12767667) is PROGNOSTIC, not diagnostic, so no estimate was entered: \"Profiles B and C increase the risk of death plus urgent transplantation by univariate (hazard ratio [HR] 1.83, p = 0.02) and multivariate analyses (HR 2.48, p = 0.003)\" (Abstract); wet-cold profile C was 91/452 = 20% of admissions (Abstract). Kaplan 2001 (surgical ICU, 264 patients) reports group means only: cardiac index \"2.9 +/- 1.2 vs. 4.3 +/- 1.2 L/min/m2\" cool vs warm and lactate \"4.7 +/- 1.5 vs. 2.2 +/- 1.6 mmol/L\" (Abstract) — no 2x2, no estimate. Stevenson & Perloff 1989 give accuracy for proportional pulse pressure <25% (\"91% sensitivity and 83% specificity for a cardiac index less than 2.2\", Abstract), a different sign, cited for context. Searches 'cold extremities[Title] heart failure', 'cool extremities cardiac index', 'Thibodeau Drazner cold profile' returned nothing further.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:42:28+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}

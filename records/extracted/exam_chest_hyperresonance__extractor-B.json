@@ -1,0 +1,76 @@
+{
+  "identity": {
+    "id": "exam_chest_hyperresonance",
+    "title": "Chest percussion hyperresonance (diffuse with barrel chest = COPD; unilateral = pneumothorax)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "chest_pain"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "asthma_exacerbation",
+      "copd_exacerbation",
+      "pneumothorax"
+    ],
+    "indication_tags": [
+      "copd_known",
+      "unilateral"
+    ]
+  },
+  "technique": {
+    "how": "Percuss symmetric points over both hemithoraces (anterior, lateral, posterior), comparing side to side; hyperresonance is a louder, lower-pitched, more drum-like note than the patient's contralateral or expected normal note. Note whether it is diffuse (with barrel chest, low diaphragms) or confined to one side.",
+    "prerequisites": "Quiet room, patient sitting if possible, chest exposed; compare like with like.",
+    "contraindications": "None; avoid percussing over chest-wall trauma or fresh surgical sites."
+  },
+  "interpretation": {
+    "positive_finding": "Diffuse hyperresonance with a barrel chest and reduced breath sounds supports chronic airflow limitation/emphysema; unilateral hyperresonance with absent breath sounds in an acutely dyspnoeic patient suggests pneumothorax (tension if with tracheal shift and hypotension).",
+    "negative_finding": "A normal percussion note does not exclude COPD or a small pneumothorax; physical signs are insensitive for both.",
+    "pitfalls": "Percussion is unreliable in obese or muscular chests and in noisy environments; a large bulla or a hyperinflated contralateral lung can mimic pneumothorax. Subcutaneous emphysema alters the note.",
+    "changes_what": "Unilateral hyperresonance + absent breath sounds + instability: treat as tension pneumothorax (needle/finger thoracostomy) before imaging. Diffuse: supports COPD, confirm with spirometry."
+  },
+  "estimates": [],
+  "evidence_status": "not_quantified",
+  "sources": [
+    {
+      "citation": "Holleman DR, Simel DL. Does the clinical examination predict airflow limitation? JAMA. 1995.",
+      "doi": null,
+      "pmid": "7815660",
+      "url": null,
+      "kind": "rce_series",
+      "year": 1995
+    },
+    {
+      "citation": "Badgett RG, Tanaka DJ, Hunt DK, Jelley MJ, Feinberg LE, Steiner JF, Petty TL. Can moderate chronic obstructive pulmonary disease be diagnosed by historical and physical findings alone? Am J Med. 1993.",
+      "doi": "10.1016/0002-9343(93)90182-o",
+      "pmid": "8430714",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1993
+    },
+    {
+      "citation": "Chen SC, Markmann JF, Kauder DR, Schwab CW. Hemopneumothorax missed by auscultation in penetrating chest injury. J Trauma. 1997.",
+      "doi": "10.1097/00005373-199701000-00015",
+      "pmid": "9003263",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1997
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not wait for percussion findings (or a chest film) in a haemodynamically unstable patient with suspected tension pneumothorax; decompress on clinical suspicion.",
+    "escalation_warning": "Unilateral hyperresonance with hypotension, tracheal deviation or rising airway pressures on a ventilator = tension pneumothorax until proven otherwise.",
+    "interobserver_note": "Badgett 1993 had 4 blinded internists examine 12 physical signs but the per-sign agreement for hyperresonance is not in the abstract; no kappa quotable."
+  },
+  "tier": "extracted",
+  "extraction_notes": "No quotable accuracy estimate. Holleman & Simel 1995 RCE (PMID 7815660) has no PubMed abstract and no PMC text; its hyperresonance LR (drawn from Badgett 1993 among others) is therefore not quoted (unverified recall). Badgett 1993 (PMID 8430714) abstract reports only that 'diminished breath sounds' was the sole physical sign adding to the historical model: \"Only the physical sign of diminished breath sounds significantly added to the historical model to yield a mean sensitivity of 67% and a mean specificity of 98%\" (Abstract, Results) — hyperresonance itself is not given. For pneumothorax no percussion-accuracy study was found ('pneumothorax physical examination diagnostic accuracy hyperresonance' and 'hyperresonance[Title]' returned 0 hits); the nearest primary is auscultation, not percussion: Chen 1997 (PMID 9003263), \"Auscultation to detect hemothorax, pneumothorax, or hemopneumothorax had a sensitivity of 58%, a specificity of 98%\" (Abstract, Results), penetrating trauma, chest radiograph reference — cited for context only, not entered as this sign's estimate.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:42:28+00:00",
+  "verified_by": null,
+  "verified_at": null,
+  "verification_notes": "",
+  "record_version": 1
+}
