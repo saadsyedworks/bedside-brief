@@ -57,7 +57,57 @@
       "must_have": false
     }
   ],
-  "reference_targets_mapped": [],
+  "reference_targets_mapped": [
+    {
+      "target_index": 0,
+      "record_ids": [
+        "exam_jvp_elevated"
+      ]
+    },
+    {
+      "target_index": 1,
+      "record_ids": [
+        "exam_orthostatic_vitals"
+      ]
+    },
+    {
+      "target_index": 2,
+      "record_ids": [
+        "exam_abdominojugular_reflux"
+      ]
+    },
+    {
+      "target_index": 3,
+      "record_ids": [
+        "exam_pulmonary_crackles"
+      ]
+    },
+    {
+      "target_index": 4,
+      "record_ids": [
+        "exam_s3_gallop"
+      ]
+    },
+    {
+      "target_index": 5,
+      "record_ids": [
+        "exam_peripheral_edema_pitting"
+      ]
+    },
+    {
+      "target_index": 6,
+      "record_ids": [
+        "exam_bladder_percussion_palpable"
+      ]
+    },
+    {
+      "target_index": 7,
+      "record_ids": [
+        "pocus_ivc_collapsibility",
+        "pocus_lung_b_lines"
+      ]
+    }
+  ],
   "off_bedside_acceptable": [
     "Daily weights, net fluid balance, and diuretic dose trend (chart review)",
     "Urine sodium and urine studies",

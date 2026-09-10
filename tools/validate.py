@@ -115,8 +115,9 @@ def validate_cases(d: Path) -> tuple[list[str], list[str]]:
         w = _words(c.get("input_oneliner", ""))
         if not 12 <= w <= 30:
             warns.append(f"{f.name}: one-liner {w} words")
-        if c.get("reference_targets_mapped") != []:
-            errs.append(f"{f.name}: reference_targets_mapped must be [] before freeze #2")
+        rtm = c.get("reference_targets_mapped", [])
+        if rtm and len(rtm) != len(c.get("reference_targets_freetext", [])):
+            errs.append(f"{f.name}: reference_targets_mapped length != targets")
         if c.get("underspecified_flag_expected"):
             under.append(cid)
         for key, suf in (("perturbation_pair", "_p1"), ("noise_variant", "_n1")):

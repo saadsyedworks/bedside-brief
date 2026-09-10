@@ -1,0 +1,2441 @@
+{
+ "_status": "FINAL target map (freeze #2 input). Hand-reviewed by the coordinator against discriminator_ids.json (153 ids) and the 36 frozen cases; supersedes benchmark/target_map.PROPOSED.json.",
+ "_rule": "DECISIONS #13 / #18(5): each target maps to a SET of record ids and is present if ANY mapped id is on the card. Ids were kept only when the record's maneuver/question IS the target or a same-construct component of it; merely related ids were excluded. record_ids == [] means no record in the id list satisfies the target (library-coverage gap; listed under _unmapped).",
+ "_unmapped": [
+  {
+   "case_id": "abdominal_pain_001",
+   "presentation": "abdominal_pain",
+   "target_index": 2,
+   "item": "Psoas sign and obturator sign",
+   "must_have": false
+  },
+  {
+   "case_id": "abdominal_pain_001",
+   "presentation": "abdominal_pain",
+   "target_index": 3,
+   "item": "Rovsing sign",
+   "must_have": false
+  },
+  {
+   "case_id": "abdominal_pain_001",
+   "presentation": "abdominal_pain",
+   "target_index": 4,
+   "item": "Ask whether nausea or vomiting began before or after the pain",
+   "must_have": false
+  },
+  {
+   "case_id": "abdominal_pain_002",
+   "presentation": "abdominal_pain",
+   "target_index": 5,
+   "item": "Epigastric tenderness",
+   "must_have": false
+  },
+  {
+   "case_id": "aki_002",
+   "presentation": "aki",
+   "target_index": 6,
+   "item": "Digital rectal examination (DRE) - prostate size and tenderness",
+   "must_have": false
+  },
+  {
+   "case_id": "aki_003",
+   "presentation": "aki",
+   "target_index": 0,
+   "item": "Compartment exam: palpate limb and gluteal compartments for tense, tender swelling; pain with passive stretch; distal pulses and sensation",
+   "must_have": true
+  },
+  {
+   "case_id": "aki_003",
+   "presentation": "aki",
+   "target_index": 1,
+   "item": "Inspect pressure points (sacrum, hips, heels, shoulders) for skin breakdown",
+   "must_have": false
+  },
+  {
+   "case_id": "aki_003",
+   "presentation": "aki",
+   "target_index": 7,
+   "item": "Ask about urine volume since admission",
+   "must_have": false
+  },
+  {
+   "case_id": "ams_001",
+   "presentation": "ams",
+   "target_index": 2,
+   "item": "Ask about uncontrolled pain (pain score)",
+   "must_have": false
+  },
+  {
+   "case_id": "ams_001",
+   "presentation": "ams",
+   "target_index": 7,
+   "item": "Ask family or nurse for baseline cognition and time course",
+   "must_have": false
+  },
+  {
+   "case_id": "ams_002",
+   "presentation": "ams",
+   "target_index": 4,
+   "item": "Ask about constipation, last bowel movement, and lactulose doses",
+   "must_have": false
+  },
+  {
+   "case_id": "ams_003",
+   "presentation": "ams",
+   "target_index": 0,
+   "item": "Ask nurse and family: baseline cognition and function, what specifically changed, and when it started (time last known well)",
+   "must_have": true
+  },
+  {
+   "case_id": "ams_003",
+   "presentation": "ams",
+   "target_index": 4,
+   "item": "Ask the admitting diagnosis",
+   "must_have": false
+  },
+  {
+   "case_id": "chest_pain_002",
+   "presentation": "chest_pain",
+   "target_index": 2,
+   "item": "Ask about onset (abrupt at rest vs after cough or strain), prior pneumothorax, and whether the pain is strictly unilateral",
+   "must_have": true
+  },
+  {
+   "case_id": "chest_pain_003",
+   "presentation": "chest_pain",
+   "target_index": 3,
+   "item": "Ask about recent viral illness or fever",
+   "must_have": false
+  },
+  {
+   "case_id": "dizziness_001",
+   "presentation": "dizziness",
+   "target_index": 3,
+   "item": "Focused cranial nerve and cerebellar exam: dysarthria, diplopia, dysphagia, limb dysmetria, facial numbness",
+   "must_have": false
+  },
+  {
+   "case_id": "dizziness_001",
+   "presentation": "dizziness",
+   "target_index": 4,
+   "item": "Bedside hearing check (finger rub) for new unilateral hearing loss (HINTS-plus)",
+   "must_have": false
+  },
+  {
+   "case_id": "dizziness_002",
+   "presentation": "dizziness",
+   "target_index": 5,
+   "item": "Supine roll test if Dix-Hallpike is negative (horizontal canal variant)",
+   "must_have": false
+  },
+  {
+   "case_id": "dizziness_003",
+   "presentation": "dizziness",
+   "target_index": 2,
+   "item": "Ask symptom quality: spinning, near-faint, or unsteadiness",
+   "must_have": false
+  },
+  {
+   "case_id": "dyspnea_002",
+   "presentation": "dyspnea",
+   "target_index": 0,
+   "item": "Ask about known COPD diagnosis or prior spirometry, home inhalers, and prior exacerbations needing steroids or intubation",
+   "must_have": true
+  },
+  {
+   "case_id": "dyspnea_002",
+   "presentation": "dyspnea",
+   "target_index": 3,
+   "item": "Ask about change in sputum volume and purulence and increase in dyspnea over baseline (Anthonisen criteria)",
+   "must_have": false
+  },
+  {
+   "case_id": "edema_002",
+   "presentation": "edema",
+   "target_index": 3,
+   "item": "Ask about frothy urine and periorbital or facial swelling on waking",
+   "must_have": false
+  },
+  {
+   "case_id": "fever_001",
+   "presentation": "fever",
+   "target_index": 2,
+   "item": "Inspect surgical wound for erythema, warmth, drainage, dehiscence, and tenderness beyond the incision",
+   "must_have": true
+  },
+  {
+   "case_id": "fever_002",
+   "presentation": "fever",
+   "target_index": 2,
+   "item": "Mark the erythema margin (time-stamped) for serial comparison",
+   "must_have": false
+  },
+  {
+   "case_id": "fever_002",
+   "presentation": "fever",
+   "target_index": 3,
+   "item": "Inspect the feet and interdigital web spaces for ulcer, fissure, or tinea",
+   "must_have": false
+  },
+  {
+   "case_id": "fever_002",
+   "presentation": "fever",
+   "target_index": 4,
+   "item": "Ask about trauma, injection, or a prior episode at the site",
+   "must_have": false
+  },
+  {
+   "case_id": "fever_003",
+   "presentation": "fever",
+   "target_index": 2,
+   "item": "Peripheral stigmata of endocarditis: splinter hemorrhages, Janeway lesions, Osler nodes, conjunctival petechiae",
+   "must_have": false
+  },
+  {
+   "case_id": "hypotension_002",
+   "presentation": "hypotension",
+   "target_index": 6,
+   "item": "Examine the abdomen for tenderness and the flanks and thighs for hematoma",
+   "must_have": false
+  },
+  {
+   "case_id": "hypotension_003",
+   "presentation": "hypotension",
+   "target_index": 3,
+   "item": "Mental status",
+   "must_have": false
+  },
+  {
+   "case_id": "palpitations_002",
+   "presentation": "palpitations",
+   "target_index": 1,
+   "item": "Cannon a waves in the jugular venous pulse and variable intensity of S1 (AV dissociation)",
+   "must_have": true
+  },
+  {
+   "case_id": "palpitations_002",
+   "presentation": "palpitations",
+   "target_index": 2,
+   "item": "Ask about prior similar episodes since youth and whether they stopped with breath-holding or straining",
+   "must_have": true
+  },
+  {
+   "case_id": "palpitations_003",
+   "presentation": "palpitations",
+   "target_index": 3,
+   "item": "Ask about heat intolerance, sweating, diarrhea, anxiety, and menstrual change accompanying the weight loss",
+   "must_have": false
+  },
+  {
+   "case_id": "syncope_002",
+   "presentation": "syncope",
+   "target_index": 4,
+   "item": "Examine for injury (scalp, face, hip) from an unheralded fall",
+   "must_have": false
+  },
+  {
+   "case_id": "syncope_003",
+   "presentation": "syncope",
+   "target_index": 4,
+   "item": "Ask about oral intake, vomiting, and whether he has been passing urine over the last 24 hours",
+   "must_have": false
+  },
+  {
+   "case_id": "weakness_001",
+   "presentation": "weakness",
+   "target_index": 4,
+   "item": "Visual fields to confrontation",
+   "must_have": false
+  },
+  {
+   "case_id": "weakness_001",
+   "presentation": "weakness",
+   "target_index": 5,
+   "item": "Establish last-known-well time precisely",
+   "must_have": true
+  },
+  {
+   "case_id": "weakness_001",
+   "presentation": "weakness",
+   "target_index": 6,
+   "item": "Ask about apixaban adherence and time of last dose",
+   "must_have": false
+  },
+  {
+   "case_id": "weakness_001",
+   "presentation": "weakness",
+   "target_index": 7,
+   "item": "Ask about headache, neck pain, and vomiting",
+   "must_have": false
+  },
+  {
+   "case_id": "weakness_002",
+   "presentation": "weakness",
+   "target_index": 4,
+   "item": "Spinal percussion tenderness",
+   "must_have": false
+  },
+  {
+   "case_id": "weakness_002",
+   "presentation": "weakness",
+   "target_index": 6,
+   "item": "Ask: onset and progression, bowel or bladder change, and whether weakness is symmetric",
+   "must_have": false
+  },
+  {
+   "case_id": "weakness_003",
+   "presentation": "weakness",
+   "target_index": 0,
+   "item": "Ask: focal versus generalized, sudden versus gradual onset, new today or progressive since admission, and whether the problem is weakness, dizziness, or pain on standing",
+   "must_have": true
+  },
+  {
+   "case_id": "weakness_003",
+   "presentation": "weakness",
+   "target_index": 7,
+   "item": "Ask about poor oral intake and refeeding since admission",
+   "must_have": false
+  }
+ ],
+ "abdominal_pain_001": [
+  {
+   "target_index": 0,
+   "item": "RLQ tenderness (McBurney point)",
+   "must_have": true,
+   "record_ids": [
+    "exam_rlq_tenderness_mcburney"
+   ]
+  },
+  {
+   "target_index": 1,
+   "item": "Peritoneal signs (rigidity, percussion tenderness, rebound, cough test)",
+   "must_have": true,
+   "record_ids": [
+    "exam_rebound_tenderness",
+    "exam_abdominal_rigidity_guarding"
+   ]
+  },
+  {
+   "target_index": 2,
+   "item": "Psoas sign and obturator sign",
+   "must_have": false,
+   "record_ids": []
+  },
+  {
+   "target_index": 3,
+   "item": "Rovsing sign",
+   "must_have": false,
+   "record_ids": []
+  },
+  {
+   "target_index": 4,
+   "item": "Ask whether nausea or vomiting began before or after the pain",
+   "must_have": false,
+   "record_ids": []
+  },
+  {
+   "target_index": 5,
+   "item": "Costovertebral angle (CVA) tenderness",
+   "must_have": false,
+   "record_ids": [
+    "exam_cva_tenderness"
+   ]
+  },
+  {
+   "target_index": 6,
+   "item": "Ask about dysuria or hematuria",
+   "must_have": false,
+   "record_ids": [
+    "hx_dysuria_frequency"
+   ]
+  }
+ ],
+ "abdominal_pain_002": [
+  {
+   "target_index": 0,
+   "item": "Murphy sign (inspiratory arrest on RUQ palpation)",
+   "must_have": true,
+   "record_ids": [
+    "exam_murphy_sign"
+   ]
+  },
+  {
+   "target_index": 1,
+   "item": "Scleral icterus and skin jaundice",
+   "must_have": true,
+   "record_ids": [
+    "exam_charcot_triad"
+   ]
+  },
+  {
+   "target_index": 2,
+   "item": "Mental status check and blood pressure for Reynolds pentad",
+   "must_have": false,
+   "record_ids": [
+    "exam_hypotension_sbp_lt90"
+   ]
+  },
+  {
+   "target_index": 3,
+   "item": "Ask: prior biliary colic, known gallstones, and alcohol use",
+   "must_have": true,
+   "record_ids": [
+    "hx_alcohol_use_withdrawal_timing",
+    "hx_epigastric_pain_radiating_back"
+   ]
+  },
+  {
+   "target_index": 4,
+   "item": "Ask: band-like pain radiating to the back",
+   "must_have": false,
+   "record_ids": [
+    "hx_epigastric_pain_radiating_back"
+   ]
+  },
+  {
+   "target_index": 5,
+   "item": "Epigastric tenderness",
+   "must_have": false,
+   "record_ids": []
+  },
+  {
+   "target_index": 6,
+   "item": "Peritoneal signs (rigidity, percussion tenderness, rebound, cough test)",
+   "must_have": false,
+   "record_ids": [
+    "exam_rebound_tenderness",
+    "exam_abdominal_rigidity_guarding"
+   ]
+  }
+ ],
+ "abdominal_pain_003": [
+  {
+   "target_index": 0,
+   "item": "Compare reported pain severity with abdominal tenderness on palpation (pain out of proportion to exam)",
+   "must_have": true,
+   "record_ids": [
+    "hx_pain_out_of_proportion_exam"
+   ]
+  },
+  {
+   "target_index": 1,
+   "item": "Peritoneal signs (rigidity, percussion tenderness, rebound, cough test)",
+   "must_have": true,
+   "record_ids": [
+    "exam_rebound_tenderness",
+    "exam_abdominal_rigidity_guarding"
+   ]
+  },
+  {
+   "target_index": 2,
+   "item": "Palpate for a pulsatile, expansile abdominal mass",
+   "must_have": true,
+   "record_ids": [
+    "exam_pulsatile_abdominal_mass"
+   ]
+  },
+  {
+   "target_index": 3,
+   "item": "Femoral pulses bilaterally",
+   "must_have": false,
+   "record_ids": [
+    "exam_pulse_deficit"
+   ]
+  },
+  {
+   "target_index": 4,
+   "item": "Ask: prior abdominal surgery, vomiting, last flatus and bowel movement",
+   "must_have": false,
+   "record_ids": [
+    "hx_prior_abdominal_surgery"
+   ]
+  },
+  {
+   "target_index": 5,
+   "item": "Inspect for abdominal distension and check hernia orifices",
+   "must_have": false,
+   "record_ids": [
+    "exam_abdominal_distension"
+   ]
+  },
+  {
+   "target_index": 6,
+   "item": "Digital rectal examination (DRE) - for blood",
+   "must_have": false,
+   "record_ids": [
+    "exam_melena_rectal_exam"
+   ]
+  }
+ ],
+ "aki_001": [
+  {
+   "target_index": 0,
+   "item": "JVP",
+   "must_have": true,
+   "record_ids": [
+    "exam_jvp_elevated"
+   ]
+  },
+  {
+   "target_index": 1,
+   "item": "Orthostatic vital signs (supine to standing at 1 and 3 min)",
+   "must_have": true,
+   "record_ids": [
+    "exam_orthostatic_vitals"
+   ]
+  },
+  {
+   "target_index": 2,
+   "item": "Abdominojugular reflux",
+   "must_have": true,
+   "record_ids": [
+    "exam_abdominojugular_reflux"
+   ]
+  },
+  {
+   "target_index": 3,
+   "item": "Bibasilar crackles",
+   "must_have": false,
+   "record_ids": [
+    "exam_pulmonary_crackles"
+   ]
+  },
+  {
+   "target_index": 4,
+   "item": "S3 gallop",
+   "must_have": false,
+   "record_ids": [
+    "exam_s3_gallop"
+   ]
+  },
+  {
+   "target_index": 5,
+   "item": "Peripheral edema",
+   "must_have": false,
+   "record_ids": [
+    "exam_peripheral_edema_pitting"
+   ]
+  },
+  {
+   "target_index": 6,
+   "item": "Bladder percussion/palpation for retention",
+   "must_have": false,
+   "record_ids": [
+    "exam_bladder_percussion_palpable"
+   ]
+  },
+  {
+   "target_index": 7,
+   "item": "Point-of-care ultrasound of the inferior vena cava and lung B-lines",
+   "must_have": false,
+   "record_ids": [
+    "pocus_ivc_collapsibility",
+    "pocus_lung_b_lines"
+   ]
+  }
+ ],
+ "aki_002": [
+  {
+   "target_index": 0,
+   "item": "Bladder percussion/palpation for retention (suprapubic dullness, palpable mass, tenderness)",
+   "must_have": true,
+   "record_ids": [
+    "exam_bladder_percussion_palpable"
+   ]
+  },
+  {
+   "target_index": 1,
+   "item": "Medication review (MAR): anticholinergics, opioids, alpha-agonists",
+   "must_have": true,
+   "record_ids": [
+    "hx_deliriogenic_medication_review"
+   ]
+  },
+  {
+   "target_index": 2,
+   "item": "Ask about last void, straining, small frequent voids, and dribbling",
+   "must_have": false,
+   "record_ids": [
+    "exam_bladder_percussion_palpable"
+   ]
+  },
+  {
+   "target_index": 3,
+   "item": "Orthostatic vital signs (supine to standing at 1 and 3 min)",
+   "must_have": true,
+   "record_ids": [
+    "exam_orthostatic_vitals"
+   ]
+  },
+  {
+   "target_index": 4,
+   "item": "JVP",
+   "must_have": false,
+   "record_ids": [
+    "exam_jvp_elevated"
+   ]
+  },
+  {
+   "target_index": 5,
+   "item": "Dry axilla / mucous membranes",
+   "must_have": false,
+   "record_ids": [
+    "exam_dry_axilla",
+    "exam_dry_mucous_membranes"
+   ]
+  },
+  {
+   "target_index": 6,
+   "item": "Digital rectal examination (DRE) - prostate size and tenderness",
+   "must_have": false,
+   "record_ids": []
+  },
+  {
+   "target_index": 7,
+   "item": "Costovertebral angle (CVA) tenderness bilaterally",
+   "must_have": false,
+   "record_ids": [
+    "exam_cva_tenderness"
+   ]
+  }
+ ],
+ "aki_003": [
+  {
+   "target_index": 0,
+   "item": "Compartment exam: palpate limb and gluteal compartments for tense, tender swelling; pain with passive stretch; distal pulses and sensation",
+   "must_have": true,
+   "record_ids": []
+  },
+  {
+   "target_index": 1,
+   "item": "Inspect pressure points (sacrum, hips, heels, shoulders) for skin breakdown",
+   "must_have": false,
+   "record_ids": []
+  },
+  {
+   "target_index": 2,
+   "item": "Orthostatic vital signs (supine to standing at 1 and 3 min)",
+   "must_have": true,
+   "record_ids": [
+    "exam_orthostatic_vitals"
+   ]
+  },
+  {
+   "target_index": 3,
+   "item": "Dry axilla / mucous membranes",
+   "must_have": false,
+   "record_ids": [
+    "exam_dry_axilla",
+    "exam_dry_mucous_membranes"
+   ]
+  },
+  {
+   "target_index": 4,
+   "item": "Ask: exact down time, seizure at onset, substances or medications taken, and muscle pain or weakness",
+   "must_have": true,
+   "record_ids": [
+    "hx_rhabdo_myalgia_dark_urine"
+   ]
+  },
+  {
+   "target_index": 5,
+   "item": "Bladder percussion/palpation for retention",
+   "must_have": false,
+   "record_ids": [
+    "exam_bladder_percussion_palpable"
+   ]
+  },
+  {
+   "target_index": 6,
+   "item": "Medication review (MAR): NSAIDs, statins, contrast, new antibiotics",
+   "must_have": false,
+   "record_ids": [
+    "hx_nephrotoxin_contrast_exposure"
+   ]
+  },
+  {
+   "target_index": 7,
+   "item": "Ask about urine volume since admission",
+   "must_have": false,
+   "record_ids": []
+  }
+ ],
+ "ams_001": [
+  {
+   "target_index": 0,
+   "item": "CAM delirium screen (attention: months backward): acute change, inattention, disorganized thinking, altered arousal",
+   "must_have": true,
+   "record_ids": [
+    "exam_cam_delirium_screen",
+    "fn_attention_months_backward"
+   ]
+  },
+  {
+   "target_index": 1,
+   "item": "Medication review (MAR): opioids, benzodiazepines, anticholinergics, and any new drug in the last 24 h",
+   "must_have": true,
+   "record_ids": [
+    "hx_deliriogenic_medication_review"
+   ]
+  },
+  {
+   "target_index": 2,
+   "item": "Ask about uncontrolled pain (pain score)",
+   "must_have": false,
+   "record_ids": []
+  },
+  {
+   "target_index": 3,
+   "item": "Suprapubic tenderness and Costovertebral angle (CVA) tenderness (urinary source)",
+   "must_have": true,
+   "record_ids": [
+    "exam_cva_tenderness"
+   ]
+  },
+  {
+   "target_index": 4,
+   "item": "Focal crackles",
+   "must_have": false,
+   "record_ids": [
+    "exam_pulmonary_crackles"
+   ]
+  },
+  {
+   "target_index": 5,
+   "item": "Bladder percussion/palpation for retention",
+   "must_have": false,
+   "record_ids": [
+    "exam_bladder_percussion_palpable"
+   ]
+  },
+  {
+   "target_index": 6,
+   "item": "Focal neurologic screen: Pronator drift, facial symmetry, gaze deviation, speech",
+   "must_have": false,
+   "record_ids": [
+    "exam_focal_neuro_deficit_screen",
+    "exam_face_arm_speech_cpss",
+    "exam_pupils_eye_movements_toxidrome"
+   ]
+  },
+  {
+   "target_index": 7,
+   "item": "Ask family or nurse for baseline cognition and time course",
+   "must_have": false,
+   "record_ids": []
+  }
+ ],
+ "ams_002": [
+  {
+   "target_index": 0,
+   "item": "Asterixis (sustained wrist extension)",
+   "must_have": true,
+   "record_ids": [
+    "exam_asterixis"
+   ]
+  },
+  {
+   "target_index": 1,
+   "item": "Abdominal tenderness (SBP)",
+   "must_have": true,
+   "record_ids": [
+    "exam_rebound_tenderness",
+    "exam_abdominal_rigidity_guarding"
+   ]
+  },
+  {
+   "target_index": 2,
+   "item": "Ask about melena or hematemesis",
+   "must_have": false,
+   "record_ids": [
+    "exam_melena_rectal_exam"
+   ]
+  },
+  {
+   "target_index": 3,
+   "item": "Digital rectal examination (DRE) for melena",
+   "must_have": true,
+   "record_ids": [
+    "exam_melena_rectal_exam"
+   ]
+  },
+  {
+   "target_index": 4,
+   "item": "Ask about constipation, last bowel movement, and lactulose doses",
+   "must_have": false,
+   "record_ids": []
+  },
+  {
+   "target_index": 5,
+   "item": "Medication review (MAR): benzodiazepines, opioids, zolpidem, and antihistamines given since admission",
+   "must_have": false,
+   "record_ids": [
+    "hx_deliriogenic_medication_review"
+   ]
+  },
+  {
+   "target_index": 6,
+   "item": "Ask the exact time of the last drink and examine for withdrawal signs: tremor, diaphoresis, tachycardia (CIWA-Ar)",
+   "must_have": false,
+   "record_ids": [
+    "hx_alcohol_use_withdrawal_timing"
+   ]
+  },
+  {
+   "target_index": 7,
+   "item": "Focal neurologic screen: Pronator drift, gaze deviation, pupils",
+   "must_have": false,
+   "record_ids": [
+    "exam_focal_neuro_deficit_screen",
+    "exam_face_arm_speech_cpss",
+    "exam_pupils_eye_movements_toxidrome"
+   ]
+  }
+ ],
+ "ams_003": [
+  {
+   "target_index": 0,
+   "item": "Ask nurse and family: baseline cognition and function, what specifically changed, and when it started (time last known well)",
+   "must_have": true,
+   "record_ids": []
+  },
+  {
+   "target_index": 1,
+   "item": "CAM delirium screen (attention: months backward) to establish delirium versus a focal or psychiatric change",
+   "must_have": true,
+   "record_ids": [
+    "exam_cam_delirium_screen",
+    "fn_attention_months_backward"
+   ]
+  },
+  {
+   "target_index": 2,
+   "item": "Focal neurologic screen: Pronator drift, facial symmetry, gaze deviation, speech and language, visual fields, pupils",
+   "must_have": true,
+   "record_ids": [
+    "exam_focal_neuro_deficit_screen",
+    "exam_face_arm_speech_cpss",
+    "exam_pupils_eye_movements_toxidrome"
+   ]
+  },
+  {
+   "target_index": 3,
+   "item": "Medication review (MAR): sedatives, opioids, anticholinergics, insulin or sulfonylurea given since admission",
+   "must_have": false,
+   "record_ids": [
+    "hx_deliriogenic_medication_review",
+    "hx_hypoglycemia_symptoms_insulin"
+   ]
+  },
+  {
+   "target_index": 4,
+   "item": "Ask the admitting diagnosis",
+   "must_have": false,
+   "record_ids": []
+  },
+  {
+   "target_index": 5,
+   "item": "Ask about home alcohol use and time of last drink",
+   "must_have": false,
+   "record_ids": [
+    "hx_alcohol_use_withdrawal_timing"
+   ]
+  },
+  {
+   "target_index": 6,
+   "item": "Verify temperature and respiratory rate yourself",
+   "must_have": false,
+   "record_ids": [
+    "exam_tachypnea_rr_gt24"
+   ]
+  },
+  {
+   "target_index": 7,
+   "item": "Bladder percussion/palpation for retention",
+   "must_have": false,
+   "record_ids": [
+    "exam_bladder_percussion_palpable"
+   ]
+  }
+ ],
+ "chest_pain_001": [
+  {
+   "target_index": 0,
+   "item": "Ask about radiation to arm(s) or jaw, similarity to prior angina, exertional vs rest onset, and associated nausea or diaphoresis",
+   "must_have": true,
+   "record_ids": [
+    "hx_pain_radiation_both_arms",
+    "hx_exertional_chest_pain"
+   ]
+  },
+  {
+   "target_index": 1,
+   "item": "Radial/femoral pulse deficit",
+   "must_have": true,
+   "record_ids": [
+    "exam_pulse_deficit"
+   ]
+  },
+  {
+   "target_index": 2,
+   "item": "Blood pressure differential between arms (>20 mmHg)",
+   "must_have": false,
+   "record_ids": [
+    "exam_bp_differential_arms"
+   ]
+  },
+  {
+   "target_index": 3,
+   "item": "S3 gallop",
+   "must_have": true,
+   "record_ids": [
+    "exam_s3_gallop"
+   ]
+  },
+  {
+   "target_index": 4,
+   "item": "Bibasilar crackles",
+   "must_have": false,
+   "record_ids": [
+    "exam_pulmonary_crackles"
+   ]
+  },
+  {
+   "target_index": 5,
+   "item": "Ask about abrupt tearing pain radiating to the back",
+   "must_have": false,
+   "record_ids": [
+    "hx_pain_abrupt_maximal_onset",
+    "hx_pain_tearing_ripping"
+   ]
+  },
+  {
+   "target_index": 6,
+   "item": "Palpate the chest wall for fully reproducible tenderness",
+   "must_have": false,
+   "record_ids": [
+    "exam_chest_wall_tenderness_reproducible"
+   ]
+  },
+  {
+   "target_index": 7,
+   "item": "Ask about pleuritic or positional quality and relation to meals or swallowing",
+   "must_have": false,
+   "record_ids": [
+    "hx_pleuritic_chest_pain",
+    "hx_pain_positional"
+   ]
+  }
+ ],
+ "chest_pain_002": [
+  {
+   "target_index": 0,
+   "item": "Compare breath sounds side to side; percuss for unilateral hyperresonance (pneumothorax)",
+   "must_have": true,
+   "record_ids": [
+    "exam_breath_sounds_unilateral_absent",
+    "exam_chest_hyperresonance"
+   ]
+  },
+  {
+   "target_index": 1,
+   "item": "Tracheal deviation / subcutaneous emphysema (palpate neck and chest wall)",
+   "must_have": true,
+   "record_ids": [
+    "exam_breath_sounds_unilateral_absent"
+   ]
+  },
+  {
+   "target_index": 2,
+   "item": "Ask about onset (abrupt at rest vs after cough or strain), prior pneumothorax, and whether the pain is strictly unilateral",
+   "must_have": true,
+   "record_ids": []
+  },
+  {
+   "target_index": 3,
+   "item": "Calf circumference asymmetry >3 cm (10 cm below tibial tuberosity)",
+   "must_have": false,
+   "record_ids": [
+    "exam_calf_asymmetry_gt3cm"
+   ]
+  },
+  {
+   "target_index": 4,
+   "item": "Ask about hemoptysis, prior VTE, and days of immobility during admission",
+   "must_have": false,
+   "record_ids": [
+    "hx_vte_risk_factors",
+    "hx_pleuritic_chest_pain"
+   ]
+  },
+  {
+   "target_index": 5,
+   "item": "Palpate the chest wall for fully reproducible tenderness",
+   "must_have": false,
+   "record_ids": [
+    "exam_chest_wall_tenderness_reproducible"
+   ]
+  },
+  {
+   "target_index": 6,
+   "item": "Lung POCUS for absent lung sliding on the painful side",
+   "must_have": false,
+   "record_ids": [
+    "pocus_lung_sliding_absent"
+   ]
+  }
+ ],
+ "chest_pain_003": [
+  {
+   "target_index": 0,
+   "item": "Pericardial friction rub (leaning forward, end-expiration) at the left sternal border",
+   "must_have": true,
+   "record_ids": [
+    "exam_pericardial_friction_rub"
+   ]
+  },
+  {
+   "target_index": 1,
+   "item": "Ask whether pain eases sitting forward and worsens supine or with inspiration",
+   "must_have": true,
+   "record_ids": [
+    "hx_pain_positional",
+    "hx_pleuritic_chest_pain"
+   ]
+  },
+  {
+   "target_index": 2,
+   "item": "Palpate the chest wall and costochondral junctions for fully reproducible tenderness",
+   "must_have": true,
+   "record_ids": [
+    "exam_chest_wall_tenderness_reproducible"
+   ]
+  },
+  {
+   "target_index": 3,
+   "item": "Ask about recent viral illness or fever",
+   "must_have": false,
+   "record_ids": []
+  },
+  {
+   "target_index": 4,
+   "item": "Pulsus paradoxus",
+   "must_have": false,
+   "record_ids": [
+    "exam_pulsus_paradoxus"
+   ]
+  },
+  {
+   "target_index": 5,
+   "item": "JVP (jugular venous pressure) elevated",
+   "must_have": false,
+   "record_ids": [
+    "exam_jvp_elevated"
+   ]
+  },
+  {
+   "target_index": 6,
+   "item": "Calf circumference asymmetry >3 cm (10 cm below tibial tuberosity)",
+   "must_have": false,
+   "record_ids": [
+    "exam_calf_asymmetry_gt3cm"
+   ]
+  },
+  {
+   "target_index": 7,
+   "item": "Compare breath sounds side to side; percuss for unilateral hyperresonance; palpate for subcutaneous emphysema or Hamman crunch",
+   "must_have": false,
+   "record_ids": [
+    "exam_breath_sounds_unilateral_absent",
+    "exam_chest_hyperresonance"
+   ]
+  }
+ ],
+ "dizziness_001": [
+  {
+   "target_index": 0,
+   "item": "HINTS exam (head impulse, nystagmus, test of skew)",
+   "must_have": true,
+   "record_ids": [
+    "fn_hints_exam",
+    "fn_head_impulse_test",
+    "exam_nystagmus_direction_changing",
+    "exam_skew_deviation"
+   ]
+  },
+  {
+   "target_index": 1,
+   "item": "Gait assessment: can the patient stand and walk unaided (sit unsupported; truncal ataxia)",
+   "must_have": true,
+   "record_ids": [
+    "fn_gait_stand_unaided"
+   ]
+  },
+  {
+   "target_index": 2,
+   "item": "Confirm timing and triggers: continuous vs episodic, and whether head movement provokes the vertigo or merely worsens it",
+   "must_have": true,
+   "record_ids": [
+    "hx_dizziness_timing_triggers"
+   ]
+  },
+  {
+   "target_index": 3,
+   "item": "Focused cranial nerve and cerebellar exam: dysarthria, diplopia, dysphagia, limb dysmetria, facial numbness",
+   "must_have": false,
+   "record_ids": []
+  },
+  {
+   "target_index": 4,
+   "item": "Bedside hearing check (finger rub) for new unilateral hearing loss (HINTS-plus)",
+   "must_have": false,
+   "record_ids": []
+  }
+ ],
+ "dizziness_002": [
+  {
+   "target_index": 0,
+   "item": "Dix-Hallpike maneuver on each side, observing latency, duration, and direction of nystagmus",
+   "must_have": true,
+   "record_ids": [
+    "fn_dix_hallpike"
+   ]
+  },
+  {
+   "target_index": 1,
+   "item": "Ask about episode duration (seconds vs minutes), trigger (rolling or looking up vs standing), and symptoms between episodes",
+   "must_have": true,
+   "record_ids": [
+    "hx_dizziness_timing_triggers"
+   ]
+  },
+  {
+   "target_index": 2,
+   "item": "Orthostatic vital signs (supine to standing at 1 and 3 min)",
+   "must_have": false,
+   "record_ids": [
+    "exam_orthostatic_vitals"
+   ]
+  },
+  {
+   "target_index": 3,
+   "item": "Medication review (MAR): opioid, antiemetic, and anesthetic doses and timing",
+   "must_have": false,
+   "record_ids": [
+    "hx_deliriogenic_medication_review",
+    "hx_hypotensive_medication_review"
+   ]
+  },
+  {
+   "target_index": 4,
+   "item": "Gait assessment: can the patient stand and walk unaided; if not, full neurologic exam",
+   "must_have": false,
+   "record_ids": [
+    "fn_gait_stand_unaided"
+   ]
+  },
+  {
+   "target_index": 5,
+   "item": "Supine roll test if Dix-Hallpike is negative (horizontal canal variant)",
+   "must_have": false,
+   "record_ids": []
+  }
+ ],
+ "dizziness_003": [
+  {
+   "target_index": 0,
+   "item": "Ask timing: continuous vs episodic, how long each episode lasts, and when it started",
+   "must_have": true,
+   "record_ids": [
+    "hx_dizziness_timing_triggers"
+   ]
+  },
+  {
+   "target_index": 1,
+   "item": "Ask triggers: rolling in bed or head turning, standing up, or no trigger",
+   "must_have": true,
+   "record_ids": [
+    "hx_dizziness_timing_triggers",
+    "hx_postural_dizziness"
+   ]
+  },
+  {
+   "target_index": 2,
+   "item": "Ask symptom quality: spinning, near-faint, or unsteadiness",
+   "must_have": false,
+   "record_ids": []
+  },
+  {
+   "target_index": 3,
+   "item": "Orthostatic vital signs (supine to standing at 1 and 3 min)",
+   "must_have": false,
+   "record_ids": [
+    "exam_orthostatic_vitals"
+   ]
+  },
+  {
+   "target_index": 4,
+   "item": "Medication review (MAR): new, sedating, or antihypertensive doses in the last 24 hours",
+   "must_have": false,
+   "record_ids": [
+    "hx_hypotensive_medication_review",
+    "hx_deliriogenic_medication_review"
+   ]
+  },
+  {
+   "target_index": 5,
+   "item": "Gait assessment: can the patient stand and walk unaided",
+   "must_have": false,
+   "record_ids": [
+    "fn_gait_stand_unaided"
+   ]
+  },
+  {
+   "target_index": 6,
+   "item": "Screen for new focal neurologic symptoms (diplopia, dysarthria, weakness, numbness)",
+   "must_have": false,
+   "record_ids": [
+    "hx_dizziness_timing_triggers",
+    "exam_focal_neuro_deficit_screen",
+    "exam_face_arm_speech_cpss"
+   ]
+  }
+ ],
+ "dyspnea_001": [
+  {
+   "target_index": 0,
+   "item": "JVP (jugular venous pressure) at 45 degrees, elevated",
+   "must_have": true,
+   "record_ids": [
+    "exam_jvp_elevated"
+   ]
+  },
+  {
+   "target_index": 1,
+   "item": "S3 gallop (third heart sound) at the apex in left lateral decubitus",
+   "must_have": true,
+   "record_ids": [
+    "exam_s3_gallop"
+   ]
+  },
+  {
+   "target_index": 2,
+   "item": "Ask about orthopnea and paroxysmal nocturnal dyspnea since the fluid bolus",
+   "must_have": true,
+   "record_ids": [
+    "hx_orthopnea",
+    "hx_pnd"
+   ]
+  },
+  {
+   "target_index": 3,
+   "item": "Abdominojugular reflux",
+   "must_have": false,
+   "record_ids": [
+    "exam_abdominojugular_reflux"
+   ]
+  },
+  {
+   "target_index": 4,
+   "item": "Bibasilar crackles",
+   "must_have": false,
+   "record_ids": [
+    "exam_pulmonary_crackles"
+   ]
+  },
+  {
+   "target_index": 5,
+   "item": "Check for new bilateral pitting edema (and sacral edema)",
+   "must_have": false,
+   "record_ids": [
+    "exam_peripheral_edema_pitting"
+   ]
+  }
+ ],
+ "dyspnea_002": [
+  {
+   "target_index": 0,
+   "item": "Ask about known COPD diagnosis or prior spirometry, home inhalers, and prior exacerbations needing steroids or intubation",
+   "must_have": true,
+   "record_ids": []
+  },
+  {
+   "target_index": 1,
+   "item": "Forced expiratory time (timed forced exhalation, >=9 s)",
+   "must_have": true,
+   "record_ids": [
+    "fn_forced_expiratory_time"
+   ]
+  },
+  {
+   "target_index": 2,
+   "item": "Wheeze and prolonged expiratory phase on auscultation",
+   "must_have": false,
+   "record_ids": [
+    "exam_wheezing"
+   ]
+  },
+  {
+   "target_index": 3,
+   "item": "Ask about change in sputum volume and purulence and increase in dyspnea over baseline (Anthonisen criteria)",
+   "must_have": false,
+   "record_ids": []
+  },
+  {
+   "target_index": 4,
+   "item": "Observe work of breathing: accessory muscle use, pursed-lip breathing, ability to speak full sentences, respiratory rate",
+   "must_have": false,
+   "record_ids": [
+    "exam_accessory_muscle_use",
+    "exam_tachypnea_rr_gt24"
+   ]
+  },
+  {
+   "target_index": 5,
+   "item": "JVP (jugular venous pressure) to look for concurrent heart failure",
+   "must_have": false,
+   "record_ids": [
+    "exam_jvp_elevated"
+   ]
+  },
+  {
+   "target_index": 6,
+   "item": "Compare breath sounds side to side; percuss for unilateral hyperresonance (pneumothorax)",
+   "must_have": false,
+   "record_ids": [
+    "exam_breath_sounds_unilateral_absent",
+    "exam_chest_hyperresonance"
+   ]
+  }
+ ],
+ "dyspnea_003": [
+  {
+   "target_index": 0,
+   "item": "Calf circumference asymmetry >3 cm (10 cm below tibial tuberosity), tenderness, or superficial venous distension",
+   "must_have": true,
+   "record_ids": [
+    "exam_calf_asymmetry_gt3cm"
+   ]
+  },
+  {
+   "target_index": 1,
+   "item": "Ask about hemoptysis, prior VTE, and syncope or presyncope with the event; document immobility since surgery (Wells/Geneva history items)",
+   "must_have": true,
+   "record_ids": [
+    "hx_vte_risk_factors",
+    "hx_pleuritic_chest_pain"
+   ]
+  },
+  {
+   "target_index": 2,
+   "item": "Compare breath sounds side to side; percuss for unilateral hyperresonance or dullness",
+   "must_have": true,
+   "record_ids": [
+    "exam_breath_sounds_unilateral_absent",
+    "exam_chest_hyperresonance",
+    "exam_percussion_dullness"
+   ]
+  },
+  {
+   "target_index": 3,
+   "item": "Focal consolidation: egophony, bronchial breath sounds, dullness to percussion; Focal crackles",
+   "must_have": false,
+   "record_ids": [
+    "exam_egophony",
+    "exam_percussion_dullness",
+    "exam_pulmonary_crackles"
+   ]
+  },
+  {
+   "target_index": 4,
+   "item": "Ask about fever, rigors, and productive cough",
+   "must_have": false,
+   "record_ids": [
+    "hx_rigors_shaking_chills"
+   ]
+  },
+  {
+   "target_index": 5,
+   "item": "JVP (jugular venous pressure) elevated",
+   "must_have": false,
+   "record_ids": [
+    "exam_jvp_elevated"
+   ]
+  },
+  {
+   "target_index": 6,
+   "item": "Ask about chest pressure character, exertional pattern, and diaphoresis",
+   "must_have": false,
+   "record_ids": [
+    "hx_exertional_chest_pain",
+    "hx_pain_radiation_both_arms"
+   ]
+  }
+ ],
+ "edema_001": [
+  {
+   "target_index": 0,
+   "item": "JVP (jugular venous pressure)",
+   "must_have": true,
+   "record_ids": [
+    "exam_jvp_elevated"
+   ]
+  },
+  {
+   "target_index": 1,
+   "item": "Abdominojugular reflux",
+   "must_have": true,
+   "record_ids": [
+    "exam_abdominojugular_reflux"
+   ]
+  },
+  {
+   "target_index": 2,
+   "item": "S3 gallop (third heart sound) at the apex in left lateral decubitus",
+   "must_have": true,
+   "record_ids": [
+    "exam_s3_gallop"
+   ]
+  },
+  {
+   "target_index": 3,
+   "item": "Ask about orthopnea and paroxysmal nocturnal dyspnea (number of pillows, waking breathless)",
+   "must_have": false,
+   "record_ids": [
+    "hx_orthopnea",
+    "hx_pnd"
+   ]
+  },
+  {
+   "target_index": 4,
+   "item": "Medication review (MAR): recently started or up-titrated amlodipine or other dihydropyridine, NSAIDs, thiazolidinediones, gabapentinoids",
+   "must_have": false,
+   "record_ids": [
+    "hx_edema_causing_medications"
+   ]
+  },
+  {
+   "target_index": 5,
+   "item": "Bibasilar crackles",
+   "must_have": false,
+   "record_ids": [
+    "exam_pulmonary_crackles"
+   ]
+  },
+  {
+   "target_index": 6,
+   "item": "Pitting edema depth and extension to the sacrum",
+   "must_have": false,
+   "record_ids": [
+    "exam_peripheral_edema_pitting"
+   ]
+  }
+ ],
+ "edema_002": [
+  {
+   "target_index": 0,
+   "item": "Ascites examination: flank dullness, shifting dullness, fluid wave",
+   "must_have": true,
+   "record_ids": [
+    "exam_ascites_flank_dullness_fluid_wave",
+    "exam_shifting_dullness"
+   ]
+  },
+  {
+   "target_index": 1,
+   "item": "Stigmata of chronic liver disease: spider angiomata, palmar erythema, gynecomastia, caput medusae, Dupuytren contracture, splenomegaly",
+   "must_have": true,
+   "record_ids": [
+    "exam_cirrhosis_stigmata",
+    "exam_spider_nevi"
+   ]
+  },
+  {
+   "target_index": 2,
+   "item": "JVP (jugular venous pressure): low or normal favors cirrhosis or nephrotic syndrome; elevated favors heart failure or constriction",
+   "must_have": true,
+   "record_ids": [
+    "exam_jvp_elevated"
+   ]
+  },
+  {
+   "target_index": 3,
+   "item": "Ask about frothy urine and periorbital or facial swelling on waking",
+   "must_have": false,
+   "record_ids": []
+  },
+  {
+   "target_index": 4,
+   "item": "Ask quantity and timing of alcohol (AUDIT-C) and date of last drink",
+   "must_have": false,
+   "record_ids": [
+    "hx_alcohol_use_withdrawal_timing"
+   ]
+  },
+  {
+   "target_index": 5,
+   "item": "Asterixis and orientation for hepatic encephalopathy",
+   "must_have": false,
+   "record_ids": [
+    "exam_asterixis"
+   ]
+  }
+ ],
+ "edema_003": [
+  {
+   "target_index": 0,
+   "item": "Calf circumference asymmetry >3 cm (10 cm below tibial tuberosity)",
+   "must_have": true,
+   "record_ids": [
+    "exam_calf_asymmetry_gt3cm"
+   ]
+  },
+  {
+   "target_index": 1,
+   "item": "Wells DVT items on history and exam: bedridden >3 days, active cancer, prior VTE, recent surgery, pitting edema confined to the symptomatic leg, collateral superficial veins",
+   "must_have": true,
+   "record_ids": [
+    "hx_vte_risk_factors"
+   ]
+  },
+  {
+   "target_index": 2,
+   "item": "Ask about pleuritic chest pain, dyspnea, or presyncope",
+   "must_have": false,
+   "record_ids": [
+    "hx_pleuritic_chest_pain"
+   ]
+  },
+  {
+   "target_index": 3,
+   "item": "Inspect for well-demarcated erythema, warmth, lymphangitic streaking, and a portal of entry",
+   "must_have": false,
+   "record_ids": [
+    "exam_cellulitis_unilateral_warmth_border"
+   ]
+  },
+  {
+   "target_index": 4,
+   "item": "Tenderness along the deep venous course and a palpable superficial cord",
+   "must_have": false,
+   "record_ids": [
+    "exam_calf_asymmetry_gt3cm"
+   ]
+  }
+ ],
+ "fever_001": [
+  {
+   "target_index": 0,
+   "item": "Respiratory rate",
+   "must_have": false,
+   "record_ids": [
+    "exam_tachypnea_rr_gt24"
+   ]
+  },
+  {
+   "target_index": 1,
+   "item": "Focal consolidation: egophony, bronchial breath sounds, dullness to percussion; Focal crackles",
+   "must_have": true,
+   "record_ids": [
+    "exam_egophony",
+    "exam_percussion_dullness",
+    "exam_pulmonary_crackles"
+   ]
+  },
+  {
+   "target_index": 2,
+   "item": "Inspect surgical wound for erythema, warmth, drainage, dehiscence, and tenderness beyond the incision",
+   "must_have": true,
+   "record_ids": []
+  },
+  {
+   "target_index": 3,
+   "item": "Costovertebral angle (CVA) tenderness and suprapubic tenderness",
+   "must_have": true,
+   "record_ids": [
+    "exam_cva_tenderness"
+   ]
+  },
+  {
+   "target_index": 4,
+   "item": "Ask: sputum, pleuritic chest pain, dysuria, flank pain, rigors, new medications, transfusion",
+   "must_have": false,
+   "record_ids": [
+    "hx_pleuritic_chest_pain",
+    "hx_dysuria_frequency",
+    "hx_rigors_shaking_chills",
+    "hx_new_medication_temporal_fever"
+   ]
+  },
+  {
+   "target_index": 5,
+   "item": "Calf circumference asymmetry >3 cm, calf tenderness, unilateral swelling",
+   "must_have": false,
+   "record_ids": [
+    "exam_calf_asymmetry_gt3cm"
+   ]
+  }
+ ],
+ "fever_002": [
+  {
+   "target_index": 0,
+   "item": "Hard signs of necrotizing infection: pain out of proportion, tenderness beyond the erythema margin, crepitus, bullae, skin anesthesia, dusky or violaceous skin, rapid spread",
+   "must_have": true,
+   "record_ids": [
+    "exam_nec_fasc_hard_signs",
+    "hx_pain_out_of_proportion_exam"
+   ]
+  },
+  {
+   "target_index": 1,
+   "item": "Knee and ankle joint exam: effusion, warmth, and pain with passive range of motion",
+   "must_have": true,
+   "record_ids": [
+    "exam_joint_effusion_warmth_painful_rom"
+   ]
+  },
+  {
+   "target_index": 2,
+   "item": "Mark the erythema margin (time-stamped) for serial comparison",
+   "must_have": false,
+   "record_ids": []
+  },
+  {
+   "target_index": 3,
+   "item": "Inspect the feet and interdigital web spaces for ulcer, fissure, or tinea",
+   "must_have": false,
+   "record_ids": []
+  },
+  {
+   "target_index": 4,
+   "item": "Ask about trauma, injection, or a prior episode at the site",
+   "must_have": false,
+   "record_ids": []
+  },
+  {
+   "target_index": 5,
+   "item": "Calf circumference asymmetry >3 cm, calf tenderness, unilateral swelling",
+   "must_have": false,
+   "record_ids": [
+    "exam_calf_asymmetry_gt3cm"
+   ]
+  },
+  {
+   "target_index": 6,
+   "item": "Heart rate, blood pressure, and mental status for sepsis physiology",
+   "must_have": false,
+   "record_ids": [
+    "exam_tachycardia_resting",
+    "exam_hypotension_sbp_lt90",
+    "exam_shock_index"
+   ]
+  }
+ ],
+ "fever_003": [
+  {
+   "target_index": 0,
+   "item": "Inspect and palpate the PICC insertion site and tract for erythema, tenderness, purulence, and a palpable cord along the vein",
+   "must_have": true,
+   "record_ids": [
+    "exam_line_exit_site_erythema_purulence"
+   ]
+  },
+  {
+   "target_index": 1,
+   "item": "Cardiac auscultation for a new or changed murmur",
+   "must_have": true,
+   "record_ids": [
+    "exam_new_regurgitant_murmur",
+    "exam_diastolic_murmur_new"
+   ]
+  },
+  {
+   "target_index": 2,
+   "item": "Peripheral stigmata of endocarditis: splinter hemorrhages, Janeway lesions, Osler nodes, conjunctival petechiae",
+   "must_have": false,
+   "record_ids": []
+  },
+  {
+   "target_index": 3,
+   "item": "Ask about stool frequency and consistency",
+   "must_have": false,
+   "record_ids": [
+    "hx_recent_antibiotics_new_diarrhea"
+   ]
+  },
+  {
+   "target_index": 4,
+   "item": "Abdominal exam for distension and tenderness",
+   "must_have": false,
+   "record_ids": [
+    "exam_abdominal_distension"
+   ]
+  },
+  {
+   "target_index": 5,
+   "item": "Ask: timing of rigors relative to infusions or line access, and any injection since admission",
+   "must_have": false,
+   "record_ids": [
+    "hx_rigors_shaking_chills"
+   ]
+  },
+  {
+   "target_index": 6,
+   "item": "Skin exam for a new maculopapular rash",
+   "must_have": false,
+   "record_ids": [
+    "hx_new_medication_temporal_fever",
+    "hx_ain_rash_fever_arthralgia"
+   ]
+  },
+  {
+   "target_index": 7,
+   "item": "Spinal percussion tenderness and leg neurologic exam (epidural abscess screen)",
+   "must_have": false,
+   "record_ids": [
+    "exam_sensory_level_upper_motor_neuron_signs"
+   ]
+  }
+ ],
+ "hypotension_001": [
+  {
+   "target_index": 0,
+   "item": "Capillary refill time (>3 s), skin mottling over the knees, cool extremities",
+   "must_have": true,
+   "record_ids": [
+    "exam_capillary_refill",
+    "exam_mottling_score",
+    "exam_cool_extremities"
+   ]
+  },
+  {
+   "target_index": 1,
+   "item": "Suprapubic tenderness and Costovertebral angle (CVA) tenderness with catheter inspection (urinary source)",
+   "must_have": true,
+   "record_ids": [
+    "exam_cva_tenderness",
+    "exam_infection_source_survey"
+   ]
+  },
+  {
+   "target_index": 2,
+   "item": "Mental status and respiratory rate at the bedside (qSOFA elements)",
+   "must_have": true,
+   "record_ids": [
+    "exam_tachypnea_rr_gt24"
+   ]
+  },
+  {
+   "target_index": 3,
+   "item": "Surgical wound and IV/line site inspection for erythema, purulence, or dehiscence",
+   "must_have": false,
+   "record_ids": [
+    "exam_line_exit_site_erythema_purulence",
+    "exam_infection_source_survey"
+   ]
+  },
+  {
+   "target_index": 4,
+   "item": "Focal crackles",
+   "must_have": false,
+   "record_ids": [
+    "exam_pulmonary_crackles"
+   ]
+  },
+  {
+   "target_index": 5,
+   "item": "Passive leg raise with blood pressure/pulse pressure response to gauge fluid responsiveness",
+   "must_have": false,
+   "record_ids": [
+    "fn_passive_leg_raise"
+   ]
+  },
+  {
+   "target_index": 6,
+   "item": "Medication review (MAR): antihypertensives, opioids, or sedatives given in the last 6 h",
+   "must_have": false,
+   "record_ids": [
+    "hx_hypotensive_medication_review"
+   ]
+  },
+  {
+   "target_index": 7,
+   "item": "Calf circumference asymmetry >3 cm",
+   "must_have": false,
+   "record_ids": [
+    "exam_calf_asymmetry_gt3cm"
+   ]
+  }
+ ],
+ "hypotension_002": [
+  {
+   "target_index": 0,
+   "item": "Ask about melena, hematemesis, and hematochezia",
+   "must_have": true,
+   "record_ids": [
+    "exam_melena_rectal_exam"
+   ]
+  },
+  {
+   "target_index": 1,
+   "item": "Digital rectal examination (DRE) for melena",
+   "must_have": true,
+   "record_ids": [
+    "exam_melena_rectal_exam"
+   ]
+  },
+  {
+   "target_index": 2,
+   "item": "Orthostatic vital signs (supine to standing at 1 and 3 min) (postural pulse increment >=30/min), only if supine SBP >=90",
+   "must_have": false,
+   "record_ids": [
+    "exam_orthostatic_vitals"
+   ]
+  },
+  {
+   "target_index": 3,
+   "item": "Conjunctival pallor",
+   "must_have": true,
+   "record_ids": [
+    "exam_conjunctival_pallor"
+   ]
+  },
+  {
+   "target_index": 4,
+   "item": "Pulse regularity (rapid AF versus sinus tachycardia)",
+   "must_have": false,
+   "record_ids": [
+    "exam_pulse_irregularly_irregular"
+   ]
+  },
+  {
+   "target_index": 5,
+   "item": "Ask about prior upper GI bleeding, NSAID or aspirin use, cirrhosis or known varices, and alcohol",
+   "must_have": false,
+   "record_ids": [
+    "hx_alcohol_use_withdrawal_timing"
+   ]
+  },
+  {
+   "target_index": 6,
+   "item": "Examine the abdomen for tenderness and the flanks and thighs for hematoma",
+   "must_have": false,
+   "record_ids": []
+  },
+  {
+   "target_index": 7,
+   "item": "Medication review (MAR): antihypertensives, diuretics, and opioids given tonight",
+   "must_have": false,
+   "record_ids": [
+    "hx_hypotensive_medication_review"
+   ]
+  }
+ ],
+ "hypotension_003": [
+  {
+   "target_index": 0,
+   "item": "Pulsus paradoxus measured by sphygmomanometer (>10-12 mmHg)",
+   "must_have": true,
+   "record_ids": [
+    "exam_pulsus_paradoxus"
+   ]
+  },
+  {
+   "target_index": 1,
+   "item": "JVP (jugular venous pressure): elevated in tamponade, RV failure/PE, and cardiogenic shock; low in sepsis or hypovolemia",
+   "must_have": true,
+   "record_ids": [
+    "exam_jvp_elevated"
+   ]
+  },
+  {
+   "target_index": 2,
+   "item": "Capillary refill time and cool or mottled extremities",
+   "must_have": true,
+   "record_ids": [
+    "exam_capillary_refill",
+    "exam_cool_extremities",
+    "exam_mottling_score"
+   ]
+  },
+  {
+   "target_index": 3,
+   "item": "Mental status",
+   "must_have": false,
+   "record_ids": []
+  },
+  {
+   "target_index": 4,
+   "item": "Muffled heart sounds or pericardial rub",
+   "must_have": false,
+   "record_ids": [
+    "exam_muffled_heart_sounds",
+    "exam_pericardial_friction_rub"
+   ]
+  },
+  {
+   "target_index": 5,
+   "item": "Bibasilar crackles versus clear lung fields",
+   "must_have": false,
+   "record_ids": [
+    "exam_pulmonary_crackles"
+   ]
+  },
+  {
+   "target_index": 6,
+   "item": "Calf circumference asymmetry >3 cm or unilateral leg swelling",
+   "must_have": false,
+   "record_ids": [
+    "exam_calf_asymmetry_gt3cm"
+   ]
+  },
+  {
+   "target_index": 7,
+   "item": "POCUS subxiphoid view for pericardial effusion with right ventricular diastolic collapse and IVC plethora",
+   "must_have": false,
+   "record_ids": [
+    "pocus_pericardial_effusion",
+    "pocus_ivc_collapsibility"
+   ]
+  }
+ ],
+ "palpitations_001": [
+  {
+   "target_index": 0,
+   "item": "Radial pulse regularity and apical-radial pulse deficit (irregularly irregular rhythm)",
+   "must_have": true,
+   "record_ids": [
+    "exam_pulse_irregularly_irregular",
+    "fn_pulse_palpation_during_symptoms"
+   ]
+  },
+  {
+   "target_index": 1,
+   "item": "Ask about abrupt versus gradual onset and whether the rate is fixed or fluctuates with activity",
+   "must_have": true,
+   "record_ids": [
+    "hx_palpitations_abrupt_onset_offset"
+   ]
+  },
+  {
+   "target_index": 2,
+   "item": "Ask about rapid regular pounding in the neck / visible neck pulsations during episodes",
+   "must_have": false,
+   "record_ids": [
+    "hx_neck_pounding_frog_sign"
+   ]
+  },
+  {
+   "target_index": 3,
+   "item": "Medication review (MAR): nebulized beta-agonist and steroid doses, missed beta-blocker; ask about alcohol and caffeine in the last 24 h",
+   "must_have": false,
+   "record_ids": [
+    "hx_stimulant_caffeine_alcohol_use"
+   ]
+  },
+  {
+   "target_index": 4,
+   "item": "JVP (jugular venous pressure)",
+   "must_have": true,
+   "record_ids": [
+    "exam_jvp_elevated"
+   ]
+  },
+  {
+   "target_index": 5,
+   "item": "Bibasilar crackles",
+   "must_have": false,
+   "record_ids": [
+    "exam_pulmonary_crackles"
+   ]
+  },
+  {
+   "target_index": 6,
+   "item": "Thyroid examination and signs of thyrotoxicosis: fine tremor, warm moist skin, lid lag",
+   "must_have": false,
+   "record_ids": [
+    "exam_thyrotoxicosis_signs",
+    "exam_thyroid_gland_palpation"
+   ]
+  }
+ ],
+ "palpitations_002": [
+  {
+   "target_index": 0,
+   "item": "Bedside hemodynamic stability: mentation, chest pain, dyspnea, Capillary refill time, skin temperature",
+   "must_have": true,
+   "record_ids": [
+    "exam_capillary_refill",
+    "exam_cool_extremities",
+    "exam_hypotension_sbp_lt90"
+   ]
+  },
+  {
+   "target_index": 1,
+   "item": "Cannon a waves in the jugular venous pulse and variable intensity of S1 (AV dissociation)",
+   "must_have": true,
+   "record_ids": []
+  },
+  {
+   "target_index": 2,
+   "item": "Ask about prior similar episodes since youth and whether they stopped with breath-holding or straining",
+   "must_have": true,
+   "record_ids": []
+  },
+  {
+   "target_index": 3,
+   "item": "Ask about rapid regular pounding in the neck / visible neck pulsations during this or prior episodes",
+   "must_have": false,
+   "record_ids": [
+    "hx_neck_pounding_frog_sign"
+   ]
+  },
+  {
+   "target_index": 4,
+   "item": "Ask about angina or dyspnea in the preceding days",
+   "must_have": false,
+   "record_ids": [
+    "hx_exertional_chest_pain"
+   ]
+  },
+  {
+   "target_index": 5,
+   "item": "Medication review (MAR): missed or held beta-blocker or antiarrhythmic doses",
+   "must_have": false,
+   "record_ids": [
+    "hx_hypotensive_medication_review"
+   ]
+  },
+  {
+   "target_index": 6,
+   "item": "Modified Valsalva maneuver (REVERT: 15 s strain then supine with passive leg raise), only if stable and regular",
+   "must_have": false,
+   "record_ids": [
+    "fn_vagal_maneuver_response"
+   ]
+  }
+ ],
+ "palpitations_003": [
+  {
+   "target_index": 0,
+   "item": "Ask the character: sustained racing versus isolated 'skipped beat' or 'flip-flop' sensations, and relation to rest, sleep, and exertion",
+   "must_have": true,
+   "record_ids": [
+    "fn_tap_out_rhythm_regular",
+    "hx_palpitations_exertional_onset"
+   ]
+  },
+  {
+   "target_index": 1,
+   "item": "Thyroid examination and signs of thyrotoxicosis: goiter or bruit, fine tremor, lid lag, warm moist skin, resting tachycardia (Wayne index items)",
+   "must_have": true,
+   "record_ids": [
+    "exam_thyrotoxicosis_signs",
+    "exam_thyroid_gland_palpation",
+    "exam_tachycardia_resting"
+   ]
+  },
+  {
+   "target_index": 2,
+   "item": "Medication review (MAR) and stimulant history: beta-agonist inhalers, steroid doses, decongestants, caffeine, thyroid supplements, cocaine or amphetamines",
+   "must_have": false,
+   "record_ids": [
+    "hx_stimulant_caffeine_alcohol_use"
+   ]
+  },
+  {
+   "target_index": 3,
+   "item": "Ask about heat intolerance, sweating, diarrhea, anxiety, and menstrual change accompanying the weight loss",
+   "must_have": false,
+   "record_ids": []
+  },
+  {
+   "target_index": 4,
+   "item": "Conjunctival pallor",
+   "must_have": true,
+   "record_ids": [
+    "exam_conjunctival_pallor"
+   ]
+  },
+  {
+   "target_index": 5,
+   "item": "Orthostatic vital signs (supine to standing at 1 and 3 min)",
+   "must_have": false,
+   "record_ids": [
+    "exam_orthostatic_vitals"
+   ]
+  }
+ ],
+ "syncope_001": [
+  {
+   "target_index": 0,
+   "item": "Characterize the murmur: late-peaking, radiation to carotids, soft or absent S2, slow or delayed carotid upstroke",
+   "must_have": true,
+   "record_ids": [
+    "exam_murmur_late_peaking_systolic",
+    "exam_carotid_upstroke_delayed"
+   ]
+  },
+  {
+   "target_index": 1,
+   "item": "Dynamic auscultation: murmur intensity with Valsalva and squat-to-stand (louder with Valsalva or standing suggests HCM, softer suggests AS)",
+   "must_have": true,
+   "record_ids": [
+    "fn_murmur_valsalva_standing_louder"
+   ]
+  },
+  {
+   "target_index": 2,
+   "item": "Ask about prodrome and palpitations before the event",
+   "must_have": true,
+   "record_ids": [
+    "hx_syncope_prodrome",
+    "hx_palpitations_before_syncope"
+   ]
+  },
+  {
+   "target_index": 3,
+   "item": "Ask about exertional chest pain or dyspnea in recent weeks",
+   "must_have": false,
+   "record_ids": [
+    "hx_exertional_chest_pain"
+   ]
+  },
+  {
+   "target_index": 4,
+   "item": "Ask about family history of sudden cardiac death",
+   "must_have": false,
+   "record_ids": [
+    "hx_family_hx_sudden_death"
+   ]
+  },
+  {
+   "target_index": 5,
+   "item": "Orthostatic vital signs (supine to standing at 1 and 3 min)",
+   "must_have": false,
+   "record_ids": [
+    "exam_orthostatic_vitals"
+   ]
+  },
+  {
+   "target_index": 6,
+   "item": "Witness account: duration, color, jerking, tongue biting, incontinence, post-event confusion (from PT)",
+   "must_have": false,
+   "record_ids": [
+    "hx_post_event_confusion"
+   ]
+  }
+ ],
+ "syncope_002": [
+  {
+   "target_index": 0,
+   "item": "Ask about prodrome (none vs palpitations vs lightheadedness), what she was doing (lying vs standing), and duration of unconsciousness",
+   "must_have": true,
+   "record_ids": [
+    "hx_syncope_prodrome",
+    "hx_syncope_supine"
+   ]
+  },
+  {
+   "target_index": 1,
+   "item": "Witness account: duration, color, jerking, tongue biting, incontinence, post-event confusion (from nurse)",
+   "must_have": true,
+   "record_ids": [
+    "hx_post_event_confusion"
+   ]
+  },
+  {
+   "target_index": 2,
+   "item": "Medication review (MAR): sotalol dose and timing, other QT-prolonging or AV-nodal agents, recent additions",
+   "must_have": true,
+   "record_ids": [
+    "hx_hypotensive_medication_review"
+   ]
+  },
+  {
+   "target_index": 3,
+   "item": "Orthostatic vital signs (supine to standing at 1 and 3 min)",
+   "must_have": false,
+   "record_ids": [
+    "exam_orthostatic_vitals"
+   ]
+  },
+  {
+   "target_index": 4,
+   "item": "Examine for injury (scalp, face, hip) from an unheralded fall",
+   "must_have": false,
+   "record_ids": []
+  },
+  {
+   "target_index": 5,
+   "item": "Cardiac exam: heart rate, rhythm regularity, and murmur",
+   "must_have": false,
+   "record_ids": [
+    "exam_pulse_irregularly_irregular",
+    "exam_tachycardia_resting",
+    "exam_murmur_late_peaking_systolic"
+   ]
+  }
+ ],
+ "syncope_003": [
+  {
+   "target_index": 0,
+   "item": "Orthostatic vital signs (supine to standing at 1 and 3 min)",
+   "must_have": true,
+   "record_ids": [
+    "exam_orthostatic_vitals"
+   ]
+  },
+  {
+   "target_index": 1,
+   "item": "Ask about prodrome (nausea, warmth, sweating, tunnel vision) and the sequence relative to micturition and standing",
+   "must_have": true,
+   "record_ids": [
+    "hx_syncope_prodrome"
+   ]
+  },
+  {
+   "target_index": 2,
+   "item": "Dry axilla / mucous membranes",
+   "must_have": true,
+   "record_ids": [
+    "exam_dry_axilla",
+    "exam_dry_mucous_membranes"
+   ]
+  },
+  {
+   "target_index": 3,
+   "item": "Capillary refill time",
+   "must_have": false,
+   "record_ids": [
+    "exam_capillary_refill"
+   ]
+  },
+  {
+   "target_index": 4,
+   "item": "Ask about oral intake, vomiting, and whether he has been passing urine over the last 24 hours",
+   "must_have": false,
+   "record_ids": []
+  },
+  {
+   "target_index": 5,
+   "item": "Witness account: duration, color, jerking, tongue biting, incontinence, post-event confusion; ask about injury",
+   "must_have": false,
+   "record_ids": [
+    "hx_post_event_confusion"
+   ]
+  },
+  {
+   "target_index": 6,
+   "item": "Calf circumference asymmetry >3 cm (10 cm below tibial tuberosity)",
+   "must_have": false,
+   "record_ids": [
+    "exam_calf_asymmetry_gt3cm"
+   ]
+  },
+  {
+   "target_index": 7,
+   "item": "Cardiac auscultation for murmur",
+   "must_have": false,
+   "record_ids": [
+    "exam_murmur_late_peaking_systolic"
+   ]
+  }
+ ],
+ "weakness_001": [
+  {
+   "target_index": 0,
+   "item": "Forehead sparing (facial symmetry: raise eyebrows, close eyes tightly; compare upper versus lower face weakness)",
+   "must_have": true,
+   "record_ids": [
+    "exam_forehead_sparing_facial_weakness"
+   ]
+  },
+  {
+   "target_index": 1,
+   "item": "Pronator drift and side-to-side arm and leg strength",
+   "must_have": true,
+   "record_ids": [
+    "exam_face_arm_speech_cpss",
+    "exam_focal_neuro_deficit_screen"
+   ]
+  },
+  {
+   "target_index": 2,
+   "item": "Speech and language testing: dysarthria versus aphasia (read a sentence, name objects, repeat)",
+   "must_have": false,
+   "record_ids": [
+    "exam_face_arm_speech_cpss",
+    "exam_focal_neuro_deficit_screen"
+   ]
+  },
+  {
+   "target_index": 3,
+   "item": "Gaze deviation",
+   "must_have": false,
+   "record_ids": [
+    "exam_pupils_eye_movements_toxidrome"
+   ]
+  },
+  {
+   "target_index": 4,
+   "item": "Visual fields to confrontation",
+   "must_have": false,
+   "record_ids": []
+  },
+  {
+   "target_index": 5,
+   "item": "Establish last-known-well time precisely",
+   "must_have": true,
+   "record_ids": []
+  },
+  {
+   "target_index": 6,
+   "item": "Ask about apixaban adherence and time of last dose",
+   "must_have": false,
+   "record_ids": []
+  },
+  {
+   "target_index": 7,
+   "item": "Ask about headache, neck pain, and vomiting",
+   "must_have": false,
+   "record_ids": []
+  }
+ ],
+ "weakness_002": [
+  {
+   "target_index": 0,
+   "item": "Sensory level to pinprick and temperature on the trunk",
+   "must_have": true,
+   "record_ids": [
+    "exam_sensory_level_upper_motor_neuron_signs"
+   ]
+  },
+  {
+   "target_index": 1,
+   "item": "Deep tendon reflexes, plantar responses (Babinski), and tone in the legs",
+   "must_have": true,
+   "record_ids": [
+    "exam_sensory_level_upper_motor_neuron_signs",
+    "exam_ascending_symmetric_weakness_areflexia"
+   ]
+  },
+  {
+   "target_index": 2,
+   "item": "Saddle sensation and digital rectal examination (DRE) - anal tone",
+   "must_have": true,
+   "record_ids": [
+    "exam_saddle_anesthesia_anal_tone"
+   ]
+  },
+  {
+   "target_index": 3,
+   "item": "Bladder percussion/palpation for retention",
+   "must_have": false,
+   "record_ids": [
+    "exam_bladder_percussion_palpable"
+   ]
+  },
+  {
+   "target_index": 4,
+   "item": "Spinal percussion tenderness",
+   "must_have": false,
+   "record_ids": []
+  },
+  {
+   "target_index": 5,
+   "item": "Ask whether back pain is worse lying flat or at night",
+   "must_have": false,
+   "record_ids": [
+    "hx_back_pain_cancer_history"
+   ]
+  },
+  {
+   "target_index": 6,
+   "item": "Ask: onset and progression, bowel or bladder change, and whether weakness is symmetric",
+   "must_have": false,
+   "record_ids": []
+  },
+  {
+   "target_index": 7,
+   "item": "Hip flexion strength against resistance and sit-to-stand",
+   "must_have": false,
+   "record_ids": [
+    "exam_proximal_symmetric_weakness"
+   ]
+  }
+ ],
+ "weakness_003": [
+  {
+   "target_index": 0,
+   "item": "Ask: focal versus generalized, sudden versus gradual onset, new today or progressive since admission, and whether the problem is weakness, dizziness, or pain on standing",
+   "must_have": true,
+   "record_ids": []
+  },
+  {
+   "target_index": 1,
+   "item": "Pronator drift and side-to-side arm and leg strength",
+   "must_have": true,
+   "record_ids": [
+    "exam_face_arm_speech_cpss",
+    "exam_focal_neuro_deficit_screen"
+   ]
+  },
+  {
+   "target_index": 2,
+   "item": "Facial symmetry",
+   "must_have": false,
+   "record_ids": [
+    "exam_face_arm_speech_cpss",
+    "exam_focal_neuro_deficit_screen"
+   ]
+  },
+  {
+   "target_index": 3,
+   "item": "Proximal strength: sit-to-stand without arms, hip flexion against resistance, arms held above head",
+   "must_have": true,
+   "record_ids": [
+    "exam_proximal_symmetric_weakness"
+   ]
+  },
+  {
+   "target_index": 4,
+   "item": "Orthostatic vital signs (supine to standing at 1 and 3 min)",
+   "must_have": false,
+   "record_ids": [
+    "exam_orthostatic_vitals"
+   ]
+  },
+  {
+   "target_index": 5,
+   "item": "Deep tendon reflexes",
+   "must_have": false,
+   "record_ids": [
+    "exam_ascending_symmetric_weakness_areflexia",
+    "exam_sensory_level_upper_motor_neuron_signs"
+   ]
+  },
+  {
+   "target_index": 6,
+   "item": "Medication review (MAR): diuretics, steroids, laxatives",
+   "must_have": false,
+   "record_ids": [
+    "hx_steroid_exposure_withdrawal"
+   ]
+  },
+  {
+   "target_index": 7,
+   "item": "Ask about poor oral intake and refeeding since admission",
+   "must_have": false,
+   "record_ids": []
+  }
+ ],
+ "_counts": {
+  "targets": 258,
+  "mapped": 216,
+  "unmapped": 42,
+  "must_have_targets": 101,
+  "must_have_mapped": 92,
+  "must_have_unmapped": 9
+ }
+}

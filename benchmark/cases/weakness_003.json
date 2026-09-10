@@ -57,7 +57,55 @@
       "must_have": false
     }
   ],
-  "reference_targets_mapped": [],
+  "reference_targets_mapped": [
+    {
+      "target_index": 0,
+      "record_ids": []
+    },
+    {
+      "target_index": 1,
+      "record_ids": [
+        "exam_face_arm_speech_cpss",
+        "exam_focal_neuro_deficit_screen"
+      ]
+    },
+    {
+      "target_index": 2,
+      "record_ids": [
+        "exam_face_arm_speech_cpss",
+        "exam_focal_neuro_deficit_screen"
+      ]
+    },
+    {
+      "target_index": 3,
+      "record_ids": [
+        "exam_proximal_symmetric_weakness"
+      ]
+    },
+    {
+      "target_index": 4,
+      "record_ids": [
+        "exam_orthostatic_vitals"
+      ]
+    },
+    {
+      "target_index": 5,
+      "record_ids": [
+        "exam_ascending_symmetric_weakness_areflexia",
+        "exam_sensory_level_upper_motor_neuron_signs"
+      ]
+    },
+    {
+      "target_index": 6,
+      "record_ids": [
+        "hx_steroid_exposure_withdrawal"
+      ]
+    },
+    {
+      "target_index": 7,
+      "record_ids": []
+    }
+  ],
   "off_bedside_acceptable": [
     "Basic metabolic panel, phosphate, magnesium",
     "Point-of-care glucose",

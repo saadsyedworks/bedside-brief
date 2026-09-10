@@ -52,7 +52,50 @@
       "must_have": false
     }
   ],
-  "reference_targets_mapped": [],
+  "reference_targets_mapped": [
+    {
+      "target_index": 0,
+      "record_ids": [
+        "exam_breath_sounds_unilateral_absent",
+        "exam_chest_hyperresonance"
+      ]
+    },
+    {
+      "target_index": 1,
+      "record_ids": [
+        "exam_breath_sounds_unilateral_absent"
+      ]
+    },
+    {
+      "target_index": 2,
+      "record_ids": []
+    },
+    {
+      "target_index": 3,
+      "record_ids": [
+        "exam_calf_asymmetry_gt3cm"
+      ]
+    },
+    {
+      "target_index": 4,
+      "record_ids": [
+        "hx_vte_risk_factors",
+        "hx_pleuritic_chest_pain"
+      ]
+    },
+    {
+      "target_index": 5,
+      "record_ids": [
+        "exam_chest_wall_tenderness_reproducible"
+      ]
+    },
+    {
+      "target_index": 6,
+      "record_ids": [
+        "pocus_lung_sliding_absent"
+      ]
+    }
+  ],
   "off_bedside_acceptable": [
     "upright chest x-ray",
     "ECG",

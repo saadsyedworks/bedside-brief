@@ -57,7 +57,60 @@
       "must_have": false
     }
   ],
-  "reference_targets_mapped": [],
+  "reference_targets_mapped": [
+    {
+      "target_index": 0,
+      "record_ids": [
+        "exam_capillary_refill",
+        "exam_mottling_score",
+        "exam_cool_extremities"
+      ]
+    },
+    {
+      "target_index": 1,
+      "record_ids": [
+        "exam_cva_tenderness",
+        "exam_infection_source_survey"
+      ]
+    },
+    {
+      "target_index": 2,
+      "record_ids": [
+        "exam_tachypnea_rr_gt24"
+      ]
+    },
+    {
+      "target_index": 3,
+      "record_ids": [
+        "exam_line_exit_site_erythema_purulence",
+        "exam_infection_source_survey"
+      ]
+    },
+    {
+      "target_index": 4,
+      "record_ids": [
+        "exam_pulmonary_crackles"
+      ]
+    },
+    {
+      "target_index": 5,
+      "record_ids": [
+        "fn_passive_leg_raise"
+      ]
+    },
+    {
+      "target_index": 6,
+      "record_ids": [
+        "hx_hypotensive_medication_review"
+      ]
+    },
+    {
+      "target_index": 7,
+      "record_ids": [
+        "exam_calf_asymmetry_gt3cm"
+      ]
+    }
+  ],
   "off_bedside_acceptable": [
     "Lactate",
     "blood and urine cultures",

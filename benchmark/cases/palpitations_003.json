@@ -47,7 +47,45 @@
       "must_have": false
     }
   ],
-  "reference_targets_mapped": [],
+  "reference_targets_mapped": [
+    {
+      "target_index": 0,
+      "record_ids": [
+        "fn_tap_out_rhythm_regular",
+        "hx_palpitations_exertional_onset"
+      ]
+    },
+    {
+      "target_index": 1,
+      "record_ids": [
+        "exam_thyrotoxicosis_signs",
+        "exam_thyroid_gland_palpation",
+        "exam_tachycardia_resting"
+      ]
+    },
+    {
+      "target_index": 2,
+      "record_ids": [
+        "hx_stimulant_caffeine_alcohol_use"
+      ]
+    },
+    {
+      "target_index": 3,
+      "record_ids": []
+    },
+    {
+      "target_index": 4,
+      "record_ids": [
+        "exam_conjunctival_pallor"
+      ]
+    },
+    {
+      "target_index": 5,
+      "record_ids": [
+        "exam_orthostatic_vitals"
+      ]
+    }
+  ],
   "off_bedside_acceptable": [
     "12-lead ECG",
     "TSH and free T4",
