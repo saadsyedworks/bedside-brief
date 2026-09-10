@@ -1,0 +1,78 @@
+{
+  "case_id": "fever_002",
+  "presentation": "fever",
+  "input_oneliner": "58M DM admitted for DKA now resolved, T 39.2, left lower leg red and swollen, RN says pain seems out of proportion",
+  "optional_context": {
+    "age": 58,
+    "sex": "M",
+    "comorbidity": "diabetes, recent DKA",
+    "timing": "acute, hospital day 2",
+    "objective": "T 39.2"
+  },
+  "intended_bedside_differential": [
+    "cellulitis_ssti",
+    "necrotizing_fasciitis",
+    "septic_arthritis",
+    "dvt"
+  ],
+  "reference_targets_freetext": [
+    {
+      "item": "Hard signs of necrotizing infection: pain out of proportion, tenderness extending beyond the erythema margin, crepitus, bullae, skin anesthesia, dusky or violaceous skin, rapid spread",
+      "rationale": "Presence of any hard sign mandates immediate surgical evaluation; absence does not exclude but lowers urgency",
+      "must_have": true
+    },
+    {
+      "item": "Knee and ankle joint exam: effusion, warmth, and pain with passive range of motion",
+      "rationale": "Septic arthritis presents with fever and a hot swollen joint; passive ROM pain is a key discriminator from periarticular cellulitis",
+      "must_have": true
+    },
+    {
+      "item": "Mark the erythema border with time and re-examine within 1-2 hours",
+      "rationale": "Progression across the line separates necrotizing infection from ordinary cellulitis",
+      "must_have": true
+    },
+    {
+      "item": "Ask about portal of entry: foot ulcer, interdigital fissure, trauma, injection; inspect the feet and web spaces",
+      "rationale": "Diabetic foot lesions are the usual entry site and change source control",
+      "must_have": false
+    },
+    {
+      "item": "Calf tenderness, asymmetric swelling, and calf circumference difference",
+      "rationale": "DVT mimics and coexists with cellulitis in the immobile inpatient",
+      "must_have": false
+    },
+    {
+      "item": "Heart rate, blood pressure, and mental status for sepsis physiology",
+      "rationale": "Hemodynamic compromise with a soft-tissue infection escalates to emergent surgical consult",
+      "must_have": false
+    }
+  ],
+  "reference_targets_mapped": [],
+  "off_bedside_acceptable": [
+    "Blood cultures",
+    "CBC, lactate, CK, CRP",
+    "Lower extremity venous duplex",
+    "Arthrocentesis if effusion present",
+    "Surgical consult"
+  ],
+  "should_not_recommend": [
+    "MRI or CT before examining for hard signs of necrotizing infection",
+    "Delaying surgical consult to await imaging when hard signs are present",
+    "Empiric anticoagulation for DVT without exam"
+  ],
+  "underspecified_flag_expected": false,
+  "perturbation_pair": {
+    "case_id": "fever_002_p1",
+    "changed_feature": "pain out of proportion in the leg -> hot swollen knee with refusal of passive range of motion",
+    "input_oneliner": "58M DM admitted for DKA now resolved, T 39.2, left lower leg red and swollen, left knee hot and swollen, will not allow passive movement",
+    "expected_change": "Septic arthritis becomes the leading differential; joint effusion and passive ROM exam becomes the top must-have and arthrocentesis moves to the off-bedside list; hard signs of necrotizing infection drop to should-still-include; erythema-border marking drops."
+  },
+  "noise_variant": {
+    "case_id": "fever_002_n1",
+    "changed_feature": "wording, occupation, and non-contributory family detail",
+    "input_oneliner": "58 year old diabetic man, long-haul trucker, admitted for DKA which has cleared, now febrile to 39.2 with a red swollen left shin; nurse feels his pain is more than the leg looks, wife asking questions",
+    "expected_change": "None. Card should be substantially identical to base."
+  },
+  "authored_at": "",
+  "frozen_commit": ""
+}

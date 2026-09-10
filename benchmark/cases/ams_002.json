@@ -1,0 +1,73 @@
+{
+  "case_id": "ams_002",
+  "presentation": "ams",
+  "input_oneliner": "58M alcohol cirrhosis admitted yesterday for ascites, last drink 3 weeks ago per family, tonight somnolent, oriented to person only, HR 78, afebrile",
+  "optional_context": {
+    "age": 58,
+    "sex": "M",
+    "comorbidity": "alcohol-related cirrhosis with ascites",
+    "timing": "acute overnight, hospital day 1",
+    "objective": "HR 78, afebrile, somnolent"
+  },
+  "intended_bedside_differential": [
+    "hepatic_encephalopathy",
+    "sbp",
+    "medication_effect",
+    "intoxication_withdrawal"
+  ],
+  "reference_targets_freetext": [
+    {
+      "item": "Asterixis (sustained wrist extension) and West Haven grading of orientation and arousal",
+      "rationale": "Asterixis with depressed arousal in cirrhosis supports hepatic encephalopathy and grades severity",
+      "must_have": true
+    },
+    {
+      "item": "Precipitant search: abdominal tenderness for spontaneous bacterial peritonitis, rectal examination and ask about melena, ask about constipation, last bowel movement, and lactulose doses",
+      "rationale": "Infection, GI bleeding, and constipation are the precipitants that must be found and treated",
+      "must_have": true
+    },
+    {
+      "item": "Review MAR for benzodiazepines, opioids, zolpidem, and antihistamines given since admission",
+      "rationale": "Sedatives are a common iatrogenic cause of new somnolence in cirrhosis",
+      "must_have": true
+    },
+    {
+      "item": "Ask the exact time of the last drink and examine for withdrawal signs: tremor, diaphoresis, tachycardia (CIWA-Ar)",
+      "rationale": "Withdrawal can coexist and changes treatment; the reported abstinence should be verified",
+      "must_have": false
+    },
+    {
+      "item": "Focal neurologic screen and pupils; ask about recent falls",
+      "rationale": "Coagulopathic patients are at risk of subdural hematoma presenting as somnolence",
+      "must_have": false
+    }
+  ],
+  "reference_targets_mapped": [],
+  "off_bedside_acceptable": [
+    "Fingerstick glucose",
+    "diagnostic paracentesis",
+    "BMP (sodium), CBC, INR",
+    "serum ammonia (does not change management)",
+    "head CT if fall or focal deficit"
+  ],
+  "should_not_recommend": [
+    "Lorazepam for agitation without assessing withdrawal versus encephalopathy",
+    "Sedation before the mental status examination",
+    "Withholding the abdominal examination and paracentesis because he is 'just encephalopathic'"
+  ],
+  "underspecified_flag_expected": false,
+  "perturbation_pair": {
+    "case_id": "ams_002_p1",
+    "changed_feature": "last drink 3 weeks ago -> last drink the morning of admission (~36 h ago)",
+    "input_oneliner": "58M alcohol cirrhosis admitted yesterday for ascites, last drink morning of admission, tonight somnolent, oriented to person only, HR 78, afebrile",
+    "expected_change": "Withdrawal and Wernicke encephalopathy rise: the time-of-last-drink question with CIWA-Ar signs (tremor, diaphoresis, tachycardia) and examination for ophthalmoplegia, nystagmus, and gait ataxia become must_have; asterixis and the precipitant search remain must_have; MAR review drops to should-still-include."
+  },
+  "noise_variant": {
+    "case_id": "ams_002_n1",
+    "changed_feature": "wording and non-contributory demographic detail (occupation, family present)",
+    "input_oneliner": "58-year-old man, trucker, brother at bedside; cirrhosis from alcohol, came in yesterday with a belly full of fluid; family says he quit drinking three weeks ago; tonight very sleepy, only knows his name; pulse 78, no fever",
+    "expected_change": "None. Card should be substantially identical to base."
+  },
+  "authored_at": "",
+  "frozen_commit": ""
+}

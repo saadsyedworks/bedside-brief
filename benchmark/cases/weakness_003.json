@@ -1,0 +1,76 @@
+{
+  "case_id": "weakness_003",
+  "presentation": "weakness",
+  "input_oneliner": "82F hospital day 6 for UTI, PT reports 'too weak to walk today', no other complaints",
+  "optional_context": {
+    "age": 82,
+    "sex": "F",
+    "comorbidity": "UTI under treatment",
+    "timing": "hospital day 6, onset unclear",
+    "objective": null
+  },
+  "intended_bedside_differential": [
+    "sepsis_deconditioning",
+    "electrolyte_hypokalemia_hypophosphatemia",
+    "stroke",
+    "myopathy"
+  ],
+  "reference_targets_freetext": [
+    {
+      "item": "Ask: focal versus generalized, sudden versus gradual onset, and whether weakness is new today or progressive since admission",
+      "rationale": "The one-liner cannot be ranked until pattern and time course are known; sudden focal weakness is a stroke until proven otherwise",
+      "must_have": true
+    },
+    {
+      "item": "Pronator drift, facial symmetry, and side-to-side comparison of arm and leg strength",
+      "rationale": "Detects an unrecognized focal deficit in an elderly inpatient whose weakness was attributed to illness",
+      "must_have": true
+    },
+    {
+      "item": "Proximal strength: sit-to-stand without arms, hip flexion against resistance, arms held above head",
+      "rationale": "Proximal symmetric weakness suggests electrolyte or steroid myopathy rather than deconditioning",
+      "must_have": true
+    },
+    {
+      "item": "Orthostatic vital signs and ask whether the problem is weakness, dizziness, or pain when standing",
+      "rationale": "Patients often report orthostatic lightheadedness or pain as weakness",
+      "must_have": false
+    },
+    {
+      "item": "Deep tendon reflexes",
+      "rationale": "Areflexia raises a neuromuscular cause; asymmetry raises a central one",
+      "must_have": false
+    },
+    {
+      "item": "Ask about diuretics, poor oral intake, and refeeding since admission",
+      "rationale": "Hypokalemia and hypophosphatemia are common, reversible causes of new generalized weakness in the elderly inpatient",
+      "must_have": false
+    }
+  ],
+  "reference_targets_mapped": [],
+  "off_bedside_acceptable": [
+    "Basic metabolic panel, phosphate, magnesium",
+    "Point-of-care glucose",
+    "CT head if a focal deficit is found",
+    "Physical therapy reassessment"
+  ],
+  "should_not_recommend": [
+    "Attributing to deconditioning without examining for a focal deficit",
+    "MRI spine or CT head before establishing focal versus generalized pattern"
+  ],
+  "underspecified_flag_expected": true,
+  "perturbation_pair": {
+    "case_id": "weakness_003_p1",
+    "changed_feature": "no focal finding -> PT observed new right arm drift",
+    "input_oneliner": "82F hospital day 6 for UTI, PT reports 'too weak to walk today', PT also noted new right arm drift",
+    "expected_change": "Underspecified flag should clear; stroke becomes the leading differential; pronator drift confirmation, facial symmetry, language testing, and last-known-well time become must-have; proximal strength testing and refeeding/diuretic questions drop to should-still-include."
+  },
+  "noise_variant": {
+    "case_id": "weakness_003_n1",
+    "changed_feature": "rewording, room number, family present",
+    "input_oneliner": "Rm 6-4, eighty-two year old woman, hospital day six for a urinary infection, granddaughter visiting, physical therapy came by and reports she was too weak to walk today, she has no other complaints",
+    "expected_change": "None. Card should be substantially identical to base."
+  },
+  "authored_at": "",
+  "frozen_commit": ""
+}

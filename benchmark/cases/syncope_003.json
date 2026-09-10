@@ -1,0 +1,77 @@
+{
+  "case_id": "syncope_003",
+  "presentation": "syncope",
+  "input_oneliner": "44M day 3 of pancreatitis admit, NPO, passed out in bathroom right after urinating, pale and sweaty, back to baseline in a minute, HR 104",
+  "optional_context": {
+    "age": 44,
+    "sex": "M",
+    "comorbidity": "acute pancreatitis, NPO",
+    "timing": "post-micturition",
+    "objective": "HR 104"
+  },
+  "intended_bedside_differential": [
+    "situational_syncope",
+    "orthostatic_hypotension",
+    "reflex_vasovagal",
+    "pulmonary_embolism"
+  ],
+  "reference_targets_freetext": [
+    {
+      "item": "Orthostatic vitals at 1 and 3 minutes after standing",
+      "rationale": "NPO with third-spacing makes volume depletion likely",
+      "must_have": true
+    },
+    {
+      "item": "Ask about prodrome (nausea, warmth, sweating, tunnel vision) and the sequence relative to micturition and standing",
+      "rationale": "Prodrome plus a micturition trigger supports reflex or situational syncope",
+      "must_have": true
+    },
+    {
+      "item": "Ask about tongue biting, incontinence, injury, and post-event confusion; obtain a witness account",
+      "rationale": "Excludes seizure mimic and estimates severity",
+      "must_have": true
+    },
+    {
+      "item": "Assess volume status: oral intake, vomiting, urine output, mucous membranes, capillary refill",
+      "rationale": "Quantifies hypovolemia in an NPO patient",
+      "must_have": false
+    },
+    {
+      "item": "Ask about pleuritic pain and dyspnea; examine calves for asymmetry",
+      "rationale": "Three days immobile with pancreatitis carries VTE risk",
+      "must_have": false
+    },
+    {
+      "item": "Cardiac auscultation for murmur",
+      "rationale": "Excludes a structural cause before attributing to a benign mechanism",
+      "must_have": false
+    }
+  ],
+  "reference_targets_mapped": [],
+  "off_bedside_acceptable": [
+    "ECG",
+    "hemoglobin",
+    "electrolytes and glucose",
+    "telemetry"
+  ],
+  "should_not_recommend": [
+    "Carotid sinus massage in a 44-year-old with a clear situational trigger",
+    "Head CT as a substitute for a witnessed-event history in a patient with no focal deficits",
+    "Tilt-table testing"
+  ],
+  "underspecified_flag_expected": false,
+  "perturbation_pair": {
+    "case_id": "syncope_003_p1",
+    "changed_feature": "recovery: back to baseline in a minute -> confused for 20 minutes with a bitten tongue",
+    "input_oneliner": "44M day 3 of pancreatitis admit, NPO, passed out in bathroom right after urinating, pale and sweaty, confused for 20 minutes after with bitten tongue, HR 104",
+    "expected_change": "Ask about tongue biting, incontinence, and post-event confusion becomes the leading must_have and seizure_mimic enters the differential; focused neurologic exam for post-ictal deficit (Todd's paresis) is a new item; orthostatic vitals remain must_have."
+  },
+  "noise_variant": {
+    "case_id": "syncope_003_n1",
+    "changed_feature": "wording and non-contributory detail",
+    "input_oneliner": "44 year old man, chef, third hospital day for pancreatitis, nothing by mouth, roommate heard him fall in the bathroom just after he had passed urine, looked pale and clammy, was himself again within about a minute, heart rate 104",
+    "expected_change": "None. Card should be substantially identical to base."
+  },
+  "authored_at": "",
+  "frozen_commit": ""
+}

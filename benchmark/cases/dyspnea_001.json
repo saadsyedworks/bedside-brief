@@ -1,0 +1,77 @@
+{
+  "case_id": "dyspnea_001",
+  "presentation": "dyspnea",
+  "input_oneliner": "68M HFrEF EF 30%, admitted for cellulitis, got 3L IVF yesterday, now short of breath overnight, sat 89% on room air",
+  "optional_context": {
+    "age": 68,
+    "sex": "M",
+    "comorbidity": "HFrEF (EF 30%)",
+    "timing": "overnight, after IV fluids",
+    "objective": "SpO2 89% RA"
+  },
+  "intended_bedside_differential": [
+    "acute_decompensated_hf",
+    "pneumonia",
+    "pulmonary_embolism"
+  ],
+  "reference_targets_freetext": [
+    {
+      "item": "Assess jugular venous pressure at 45 degrees (elevated JVP)",
+      "rationale": "Elevated JVP is the strongest bedside sign of elevated filling pressures",
+      "must_have": true
+    },
+    {
+      "item": "Auscultate for a third heart sound (S3) at the apex in left lateral decubitus",
+      "rationale": "S3 is highly specific for decompensated heart failure",
+      "must_have": true
+    },
+    {
+      "item": "Ask about orthopnea and paroxysmal nocturnal dyspnea since the fluid bolus",
+      "rationale": "Orthopnea/PND point to elevated left-sided filling pressures",
+      "must_have": true
+    },
+    {
+      "item": "Abdominojugular (hepatojugular) reflux test",
+      "rationale": "Positive reflux supports elevated right atrial pressure",
+      "must_have": false
+    },
+    {
+      "item": "Lung auscultation for bilateral basal crackles and wheeze",
+      "rationale": "Crackles support pulmonary edema; wheeze may be cardiac asthma",
+      "must_have": false
+    },
+    {
+      "item": "Check for new bilateral pitting edema and compare today's weight to admission",
+      "rationale": "Fluid retention after 3L supports volume overload",
+      "must_have": false
+    }
+  ],
+  "reference_targets_mapped": [],
+  "off_bedside_acceptable": [
+    "BNP",
+    "chest x-ray",
+    "ECG",
+    "troponin",
+    "basic metabolic panel"
+  ],
+  "should_not_recommend": [
+    "Empiric IV diuresis before volume examination (JVP, S3, crackles)",
+    "Further IV fluid bolus for tachycardia without volume assessment",
+    "Rely on chest x-ray alone to decide fluid status"
+  ],
+  "underspecified_flag_expected": false,
+  "perturbation_pair": {
+    "case_id": "dyspnea_001_p1",
+    "changed_feature": "fluid exposure (3L IVF) -> new fever (38.9 C)",
+    "input_oneliner": "68M HFrEF EF 30%, admitted for cellulitis, febrile to 38.9 tonight, now short of breath overnight, sat 89% on room air",
+    "expected_change": "Lung auscultation for focal consolidation (egophony, bronchial breath sounds, dullness) becomes must_have and ask about cough/sputum/rigors rises; JVP and S3 remain must_have; weight/edema check drops to should-still-include."
+  },
+  "noise_variant": {
+    "case_id": "dyspnea_001_n1",
+    "changed_feature": "wording and non-contributory detail",
+    "input_oneliner": "Sixty-eight year old gentleman, retired mechanic, room 412, known heart failure with EF around 30 percent, in for leg cellulitis, received three liters of IV fluid yesterday, wife reports he is breathless tonight, saturation 89 percent on room air",
+    "expected_change": "None. Card should be substantially identical to base."
+  },
+  "authored_at": "",
+  "frozen_commit": ""
+}

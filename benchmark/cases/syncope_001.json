@@ -1,0 +1,71 @@
+{
+  "case_id": "syncope_001",
+  "presentation": "syncope",
+  "input_oneliner": "58M admitted for COPD flare, systolic murmur noted on admission, collapsed walking the hall with PT, no warning, HR 88, BP 128/70",
+  "optional_context": {
+    "age": 58,
+    "sex": "M",
+    "comorbidity": "COPD, systolic murmur of unknown significance",
+    "timing": "exertional",
+    "objective": "HR 88, BP 128/70"
+  },
+  "intended_bedside_differential": [
+    "aortic_stenosis",
+    "hcm",
+    "tachyarrhythmia"
+  ],
+  "reference_targets_freetext": [
+    {
+      "item": "Characterize the murmur: late-peaking, radiation to carotids, soft or absent S2, slow or delayed carotid upstroke",
+      "rationale": "These features discriminate severe aortic stenosis",
+      "must_have": true
+    },
+    {
+      "item": "Dynamic auscultation: murmur intensity with Valsalva and squat-to-stand (louder with Valsalva or standing suggests HCM, softer suggests AS)",
+      "rationale": "Separates obstructive HCM from valvular AS at the bedside",
+      "must_have": true
+    },
+    {
+      "item": "Ask about prodrome, palpitations before the event, exertional chest pain or dyspnea, and family history of sudden death",
+      "rationale": "Absent prodrome with exertion favors structural or arrhythmic cause",
+      "must_have": true
+    },
+    {
+      "item": "Orthostatic vitals at 1 and 3 minutes",
+      "rationale": "Excludes an orthostatic contribution",
+      "must_have": false
+    },
+    {
+      "item": "Ask the witness (PT) about duration, color, pulse, jerking, and time to recovery",
+      "rationale": "Witness account separates syncope from seizure and estimates duration",
+      "must_have": false
+    }
+  ],
+  "reference_targets_mapped": [],
+  "off_bedside_acceptable": [
+    "ECG",
+    "telemetry",
+    "echocardiogram",
+    "troponin"
+  ],
+  "should_not_recommend": [
+    "Carotid sinus massage before aortic stenosis severity is assessed",
+    "Repeat ambulation or exercise challenge before the murmur is evaluated",
+    "Attribute to dehydration and give IV fluids without auscultating"
+  ],
+  "underspecified_flag_expected": false,
+  "perturbation_pair": {
+    "case_id": "syncope_001_p1",
+    "changed_feature": "circumstance: exertional (walking with PT) -> situational (straining on the commode)",
+    "input_oneliner": "58M admitted for COPD flare, systolic murmur noted on admission, collapsed while straining on the commode, no warning, HR 88, BP 128/70",
+    "expected_change": "Ask about micturition/defecation context, straining, and prodrome becomes must_have and situational_syncope rises to top of differential; dynamic auscultation (Valsalva/squat-to-stand) drops to should-still-include; murmur characterization remains must_have."
+  },
+  "noise_variant": {
+    "case_id": "syncope_001_n1",
+    "changed_feature": "wording and non-contributory detail",
+    "input_oneliner": "58 year old man, long-haul truck driver, admitted with a COPD exacerbation, murmur documented on the admission exam, passed out in the corridor during a physio walk with no warning, therapist witnessed it, pulse 88, blood pressure 128/70",
+    "expected_change": "None. Card should be substantially identical to base."
+  },
+  "authored_at": "",
+  "frozen_commit": ""
+}

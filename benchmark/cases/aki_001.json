@@ -1,0 +1,78 @@
+{
+  "case_id": "aki_001",
+  "presentation": "aki",
+  "input_oneliner": "66M HFrEF EF 25%, IV diuresis day 3, Cr 1.1 to 2.0 this AM, UOP down, BP 96/60",
+  "optional_context": {
+    "age": 66,
+    "sex": "M",
+    "comorbidity": "heart failure with reduced ejection fraction",
+    "timing": "subacute, over 3 days of diuresis",
+    "objective": "BP 96/60, creatinine 1.1 to 2.0"
+  },
+  "intended_bedside_differential": [
+    "cardiorenal",
+    "prerenal_hypovolemia",
+    "atn",
+    "obstruction_retention"
+  ],
+  "reference_targets_freetext": [
+    {
+      "item": "Jugular venous pressure estimation and hepatojugular reflux",
+      "rationale": "Elevated JVP separates persistent congestion (cardiorenal) from over-diuresis; the central question for this patient",
+      "must_have": true
+    },
+    {
+      "item": "Orthostatic vital signs: postural pulse increment and symptomatic dizziness on standing",
+      "rationale": "Postural tachycardia and dizziness are the most specific bedside findings for hypovolemia",
+      "must_have": true
+    },
+    {
+      "item": "Reconcile daily weights, net fluid balance, and diuretic doses since admission; ask about thirst and oral intake",
+      "rationale": "Trajectory of weight and net balance frames the volume exam and shows whether the diuresis has overshot",
+      "must_have": true
+    },
+    {
+      "item": "Lung crackles, S3 gallop, and peripheral edema",
+      "rationale": "Persistent congestion signs support cardiorenal physiology and continued decongestion rather than fluid",
+      "must_have": false
+    },
+    {
+      "item": "Bladder percussion/palpation for retention",
+      "rationale": "Retention is a reversible cause of falling urine output in a diuresed elderly man",
+      "must_have": false
+    },
+    {
+      "item": "Point-of-care ultrasound of the inferior vena cava and lung B-lines",
+      "rationale": "Adds objective volume assessment when the JVP is hard to see",
+      "must_have": false
+    }
+  ],
+  "reference_targets_mapped": [],
+  "off_bedside_acceptable": [
+    "Urine sodium and urine studies",
+    "Bladder scan",
+    "Basic metabolic panel trend",
+    "Urinalysis with microscopy",
+    "Renal ultrasound if no reversible cause found"
+  ],
+  "should_not_recommend": [
+    "Fluid bolus before volume and bladder exam",
+    "Reflexively holding all diuretics without a volume exam",
+    "Renal ultrasound before bedside volume assessment"
+  ],
+  "underspecified_flag_expected": false,
+  "perturbation_pair": {
+    "case_id": "aki_001_p1",
+    "changed_feature": "comorbidity: HFrEF EF 25% -> cirrhosis with ascites",
+    "input_oneliner": "66M cirrhosis with ascites, IV diuresis day 3, Cr 1.1 to 2.0 this AM, UOP down, BP 96/60",
+    "expected_change": "Hepatorenal syndrome and SBP enter the top differential; ascites exam (shifting dullness, fluid wave), abdominal tenderness with fever check, and asterixis/mental status become must-have; ask about recent large-volume paracentesis and lactulose or diuretic doses rises; JVP drops to should-still-include; lung crackles and S3 drop."
+  },
+  "noise_variant": {
+    "case_id": "aki_001_n1",
+    "changed_feature": "sign-out rewording, occupation, family present",
+    "input_oneliner": "Sixty-six year old man, retired postal carrier, heart failure with EF twenty-five percent on day three of IV diuretics, creatinine jumped from 1.1 to 2.0 this morning, urine output tapering, BP 96 over 60, wife at bedside",
+    "expected_change": "None. Card should be substantially identical to base."
+  },
+  "authored_at": "",
+  "frozen_commit": ""
+}

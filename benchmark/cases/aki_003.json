@@ -1,0 +1,78 @@
+{
+  "case_id": "aki_003",
+  "presentation": "aki",
+  "input_oneliner": "45M found down at home ~12h, admitted for alcohol withdrawal, Cr 3.4 on admission labs, urine dark brown",
+  "optional_context": {
+    "age": 45,
+    "sex": "M",
+    "comorbidity": "alcohol use disorder",
+    "timing": "acute, found down approximately 12 hours",
+    "objective": "creatinine 3.4, dark brown urine"
+  },
+  "intended_bedside_differential": [
+    "rhabdomyolysis",
+    "atn",
+    "prerenal_hypovolemia",
+    "obstruction_retention"
+  ],
+  "reference_targets_freetext": [
+    {
+      "item": "Palpate limb and gluteal compartments for tense, tender swelling and test pain with passive stretch; inspect pressure points for skin breakdown",
+      "rationale": "Compartment syndrome and pressure necrosis after prolonged immobility drive muscle injury and need surgical evaluation",
+      "must_have": true
+    },
+    {
+      "item": "Volume exam: orthostatic vital signs, jugular venous pressure, mucous membranes, skin turgor",
+      "rationale": "Prolonged down time and alcohol withdrawal produce hypovolemia; the exam sets fluid targets",
+      "must_have": true
+    },
+    {
+      "item": "Ask: exact down time, seizure at onset, substances or medications taken, and muscle pain or weakness",
+      "rationale": "Duration of immobility and seizure activity predict the magnitude of muscle injury",
+      "must_have": true
+    },
+    {
+      "item": "Bladder percussion/palpation for retention",
+      "rationale": "Retention is a cheap reversible contributor to oliguric AKI in an encephalopathic patient",
+      "must_have": false
+    },
+    {
+      "item": "Ask about urine color and volume since admission, and about recent contrast, NSAIDs, statins, or new antibiotics",
+      "rationale": "Tea-colored urine supports myoglobinuria; drug exposures raise ATN or interstitial nephritis",
+      "must_have": false
+    },
+    {
+      "item": "Distal pulses, sensation, and motor function in the affected limbs",
+      "rationale": "Neurovascular compromise marks an evolving compartment syndrome",
+      "must_have": false
+    }
+  ],
+  "reference_targets_mapped": [],
+  "off_bedside_acceptable": [
+    "Creatine kinase",
+    "Urinalysis with microscopy and urine myoglobin",
+    "Basic metabolic panel, potassium, phosphate, calcium",
+    "Renal ultrasound",
+    "Surgical consult if compartment syndrome suspected"
+  ],
+  "should_not_recommend": [
+    "Deferring the compartment exam until CK results",
+    "NSAIDs for muscle pain",
+    "Contrast CT before volume assessment"
+  ],
+  "underspecified_flag_expected": false,
+  "perturbation_pair": {
+    "case_id": "aki_003_p1",
+    "changed_feature": "history: found down at home ~12h -> started piperacillin-tazobactam 7 days ago, no fall",
+    "input_oneliner": "45M started piperacillin-tazobactam 7 days ago for diabetic foot infection, admitted for alcohol withdrawal, Cr 3.4 on admission labs, urine dark brown",
+    "expected_change": "Acute interstitial nephritis rises to the leading differential; skin exam for maculopapular rash and questions about fever timing and arthralgia become must-have; compartment exam and down-time questions drop; volume exam remains must-have."
+  },
+  "noise_variant": {
+    "case_id": "aki_003_n1",
+    "changed_feature": "rewording, occupation, and family detail",
+    "input_oneliner": "Forty-five year old man, works construction, found on the floor by his brother after about twelve hours, admitted for alcohol withdrawal, creatinine 3.4 on the admission chemistry, urine dark brown",
+    "expected_change": "None. Card should be substantially identical to base."
+  },
+  "authored_at": "",
+  "frozen_commit": ""
+}

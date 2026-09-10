@@ -1,0 +1,72 @@
+{
+  "case_id": "palpitations_003",
+  "presentation": "palpitations",
+  "input_oneliner": "31F admitted with leg cellulitis, reports weeks of heart racing and skipped beats plus 5 kg weight loss, HR 108 regular, afebrile tonight",
+  "optional_context": {
+    "age": 31,
+    "sex": "F",
+    "comorbidity": "leg cellulitis (inpatient), otherwise healthy",
+    "timing": "subacute, several weeks",
+    "objective": "HR 108 regular, afebrile"
+  },
+  "intended_bedside_differential": [
+    "hyperthyroidism",
+    "sinus_tachycardia_secondary",
+    "pvcs_benign_ectopy",
+    "anemia"
+  ],
+  "reference_targets_freetext": [
+    {
+      "item": "Ask the character: sustained racing versus isolated 'skipped beat' or 'flip-flop' sensations, and relation to rest, sleep, and exertion",
+      "rationale": "Isolated skips favor benign ectopy; sustained rate elevation favors sinus tachycardia or thyrotoxicosis",
+      "must_have": true
+    },
+    {
+      "item": "Thyroid examination and signs of thyrotoxicosis: goiter or bruit, fine tremor, lid lag, warm moist skin, resting tachycardia (Wayne index items)",
+      "rationale": "Weight loss with tachycardia makes hyperthyroidism the leading treatable cause; exam findings carry useful LRs",
+      "must_have": true
+    },
+    {
+      "item": "Ask about stimulants and drugs: caffeine, decongestants, beta-agonist inhalers, thyroid supplements, cocaine or amphetamines, recent steroid doses",
+      "rationale": "Exogenous drivers of sinus tachycardia and ectopy are common and reversible",
+      "must_have": true
+    },
+    {
+      "item": "Ask about heat intolerance, sweating, diarrhea, anxiety, and menstrual change accompanying the weight loss",
+      "rationale": "Symptom cluster raises or lowers pretest probability of thyrotoxicosis",
+      "must_have": false
+    },
+    {
+      "item": "Conjunctival pallor and orthostatic vitals at 1 and 3 minutes",
+      "rationale": "Anemia or volume depletion as drivers of secondary sinus tachycardia",
+      "must_have": false
+    }
+  ],
+  "reference_targets_mapped": [],
+  "off_bedside_acceptable": [
+    "12-lead ECG",
+    "TSH and free T4",
+    "CBC",
+    "telemetry",
+    "pregnancy test"
+  ],
+  "should_not_recommend": [
+    "Beta-blocker for rate control before a cause is sought on history and exam",
+    "Holter or event monitor ordered as a substitute for characterizing the symptom at the bedside"
+  ],
+  "underspecified_flag_expected": false,
+  "perturbation_pair": {
+    "case_id": "palpitations_003_p1",
+    "changed_feature": "afebrile, HR 108 -> T 39.1 with rigors, HR 128",
+    "input_oneliner": "31F admitted with leg cellulitis, reports weeks of heart racing and skipped beats plus 5 kg weight loss, HR 128, T 39.1 with rigors tonight",
+    "expected_change": "Sinus tachycardia secondary to infection now dominates: perfusion and volume assessment (capillary refill, orthostatics) and examination of the cellulitis margin for progression or abscess rise to must_have; thyroid examination drops to should-still-include; the stimulant question remains."
+  },
+  "noise_variant": {
+    "case_id": "palpitations_003_n1",
+    "changed_feature": "wording and non-contributory demographic detail (occupation, bed number)",
+    "input_oneliner": "Thirty-one-year-old woman, elementary school teacher, in bed 14 for a leg cellulitis; says for a few weeks her heart has been racing and skipping and she has lost about 5 kg; pulse 108 and regular, no fever tonight",
+    "expected_change": "None. Card should be substantially identical to base."
+  },
+  "authored_at": "",
+  "frozen_commit": ""
+}

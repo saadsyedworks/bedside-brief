@@ -1,0 +1,75 @@
+{
+  "case_id": "dizziness_002",
+  "presentation": "dizziness",
+  "input_oneliner": "58F POD1 lap chole, spinning for ~20 seconds whenever she rolls over in bed, nauseated, no headache, vitals normal",
+  "optional_context": {
+    "age": 58,
+    "sex": "F",
+    "comorbidity": "post-operative day 1, laparoscopic cholecystectomy",
+    "timing": "brief episodes, positional",
+    "objective": "vitals normal"
+  },
+  "intended_bedside_differential": [
+    "bppv",
+    "orthostatic_hypotension",
+    "medication_effect"
+  ],
+  "reference_targets_freetext": [
+    {
+      "item": "Dix-Hallpike maneuver on each side, observing latency, duration, and direction of nystagmus",
+      "rationale": "Diagnostic for posterior canal BPPV and directly leads to Epley",
+      "must_have": true
+    },
+    {
+      "item": "Ask about episode duration (seconds vs minutes), trigger (rolling or looking up vs standing), and symptoms between episodes",
+      "rationale": "Brief, triggered, symptom-free between episodes defines triggered episodic vertigo",
+      "must_have": true
+    },
+    {
+      "item": "Orthostatic vitals at 1 and 3 minutes after standing",
+      "rationale": "Post-operative hypovolemia can mimic positional vertigo",
+      "must_have": false
+    },
+    {
+      "item": "Review opioid, antiemetic, and anesthetic doses and timing as contributors",
+      "rationale": "Sedatives and antiemetics commonly cause post-operative dizziness",
+      "must_have": false
+    },
+    {
+      "item": "Observe gait; if unable to walk unaided, escalate to full neurologic exam",
+      "rationale": "Gait failure is a red flag for a central cause",
+      "must_have": false
+    },
+    {
+      "item": "Supine roll test if Dix-Hallpike is negative (horizontal canal variant)",
+      "rationale": "Horizontal canal BPPV is missed by Dix-Hallpike alone",
+      "must_have": false
+    }
+  ],
+  "reference_targets_mapped": [],
+  "off_bedside_acceptable": [
+    "MRI only if central features emerge",
+    "hemoglobin",
+    "ECG"
+  ],
+  "should_not_recommend": [
+    "HINTS exam in a patient without continuous vertigo (not interpretable)",
+    "Meclizine as primary therapy in place of canalith repositioning",
+    "Head CT as first step in brief triggered positional vertigo with a normal exam"
+  ],
+  "underspecified_flag_expected": false,
+  "perturbation_pair": {
+    "case_id": "dizziness_002_p1",
+    "changed_feature": "trigger: rolling over in bed -> standing up from bed",
+    "input_oneliner": "58F POD1 lap chole, spinning for ~20 seconds whenever she stands up from bed, nauseated, no headache, vitals normal",
+    "expected_change": "Orthostatic vitals at 1 and 3 minutes become must_have and orthostatic_hypotension rises to top of differential; ask about oral intake, blood loss, and fluid balance since surgery is a new item; Dix-Hallpike drops to should-still-include."
+  },
+  "noise_variant": {
+    "case_id": "dizziness_002_n1",
+    "changed_feature": "wording and non-contributory detail",
+    "input_oneliner": "58 year old woman, primary school teacher, one day after laparoscopic gallbladder removal, husband present, describes about twenty seconds of the room spinning every time she turns over in bed, feels sick, no headache, vital signs within normal limits",
+    "expected_change": "None. Card should be substantially identical to base."
+  },
+  "authored_at": "",
+  "frozen_commit": ""
+}

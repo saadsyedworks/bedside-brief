@@ -1,0 +1,71 @@
+{
+  "case_id": "dizziness_001",
+  "presentation": "dizziness",
+  "input_oneliner": "77M HTN, AF, anticoag held for GI bleed, continuous room-spinning since 2 AM with vomiting, cannot walk to bathroom, BP 168/94",
+  "optional_context": {
+    "age": 77,
+    "sex": "M",
+    "comorbidity": "hypertension, atrial fibrillation with anticoagulation held",
+    "timing": "continuous since 2 AM",
+    "objective": "BP 168/94, unable to walk"
+  },
+  "intended_bedside_differential": [
+    "posterior_circulation_stroke",
+    "vestibular_neuritis",
+    "medication_effect"
+  ],
+  "reference_targets_freetext": [
+    {
+      "item": "HINTS exam (head impulse, nystagmus, test of skew)",
+      "rationale": "Normal head impulse, direction-changing nystagmus, or skew indicates central cause in acute vestibular syndrome",
+      "must_have": true
+    },
+    {
+      "item": "Assess gait and truncal ataxia: can the patient sit unsupported and stand or walk unassisted",
+      "rationale": "Inability to stand or walk unaided strongly favors a central lesion",
+      "must_have": true
+    },
+    {
+      "item": "Confirm timing and triggers: continuous vs episodic, and whether head movement provokes the vertigo or merely worsens it",
+      "rationale": "Determines that HINTS (not Dix-Hallpike) is the right test",
+      "must_have": true
+    },
+    {
+      "item": "Focused cranial nerve and cerebellar exam: dysarthria, diplopia, dysphagia, limb dysmetria, facial numbness",
+      "rationale": "Additional posterior circulation signs; absence does not exclude stroke",
+      "must_have": false
+    },
+    {
+      "item": "Bedside hearing check (finger rub) for new unilateral hearing loss (HINTS-plus)",
+      "rationale": "New hearing loss with vertigo favors AICA territory stroke over neuritis",
+      "must_have": false
+    }
+  ],
+  "reference_targets_mapped": [],
+  "off_bedside_acceptable": [
+    "MRI brain with diffusion-weighted imaging (CT is insensitive for posterior fossa)",
+    "ECG and telemetry",
+    "hemoglobin",
+    "stroke team consult"
+  ],
+  "should_not_recommend": [
+    "Dix-Hallpike or Epley maneuver in continuous spontaneous vertigo",
+    "Meclizine and reassess in the morning without a neurologic examination",
+    "Rely on a normal non-contrast head CT to exclude posterior circulation stroke"
+  ],
+  "underspecified_flag_expected": false,
+  "perturbation_pair": {
+    "case_id": "dizziness_001_p1",
+    "changed_feature": "timing/trigger: continuous spontaneous vertigo -> brief episodes triggered by rolling over, well between",
+    "input_oneliner": "77M HTN, AF, anticoag held for GI bleed, spinning for seconds each time he rolls over since 2 AM, nauseated, walks fine, BP 168/94",
+    "expected_change": "Dix-Hallpike maneuver becomes must_have and bppv rises to top of differential; HINTS exam drops (not interpretable without continuous vertigo and spontaneous nystagmus); gait assessment remains included."
+  },
+  "noise_variant": {
+    "case_id": "dizziness_001_n1",
+    "changed_feature": "wording and non-contributory detail",
+    "input_oneliner": "77 year old retired accountant, hypertension and atrial fibrillation, blood thinner on hold for a GI bleed, son at bedside, constant spinning since about 2 AM with vomiting, unable to walk to the toilet, blood pressure 168/94",
+    "expected_change": "None. Card should be substantially identical to base."
+  },
+  "authored_at": "",
+  "frozen_commit": ""
+}

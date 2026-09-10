@@ -1,0 +1,78 @@
+{
+  "case_id": "abdominal_pain_001",
+  "presentation": "abdominal_pain",
+  "input_oneliner": "34M admitted for leg cellulitis, day 2, new periumbilical pain since evening now settling in RLQ, anorexic, T 38.1",
+  "optional_context": {
+    "age": 34,
+    "sex": "M",
+    "comorbidity": "cellulitis under treatment",
+    "timing": "acute, hours, migratory",
+    "objective": "T 38.1"
+  },
+  "intended_bedside_differential": [
+    "appendicitis",
+    "pyelonephritis_nephrolithiasis",
+    "diverticulitis",
+    "perforated_viscus"
+  ],
+  "reference_targets_freetext": [
+    {
+      "item": "Ask: did the pain start periumbilical and migrate to the right lower quadrant; anorexia and nausea",
+      "rationale": "Migration of pain is among the most useful historical features for appendicitis",
+      "must_have": true
+    },
+    {
+      "item": "RLQ tenderness with rebound and percussion tenderness; cough test",
+      "rationale": "RLQ tenderness and peritoneal signs carry the highest likelihood ratios for appendicitis",
+      "must_have": true
+    },
+    {
+      "item": "Psoas sign and obturator sign",
+      "rationale": "Retrocecal or pelvic appendix irritation; modest LR+ but cheap to elicit",
+      "must_have": true
+    },
+    {
+      "item": "Rovsing sign",
+      "rationale": "Referred RLQ pain with LLQ palpation supports localized peritoneal irritation",
+      "must_have": false
+    },
+    {
+      "item": "Costovertebral angle tenderness and ask about dysuria or hematuria",
+      "rationale": "Separates pyelonephritis or stone from an intra-abdominal source",
+      "must_have": false
+    },
+    {
+      "item": "Abdominal rigidity and generalized peritonitis check",
+      "rationale": "Rigidity raises concern for perforation and changes urgency",
+      "must_have": false
+    }
+  ],
+  "reference_targets_mapped": [],
+  "off_bedside_acceptable": [
+    "Lipase",
+    "Urinalysis",
+    "CBC and CRP",
+    "CT abdomen and pelvis with contrast",
+    "Surgical consult"
+  ],
+  "should_not_recommend": [
+    "CT abdomen before abdominal exam and vitals",
+    "Withholding analgesia to preserve the abdominal exam",
+    "Enema or laxative for presumed constipation"
+  ],
+  "underspecified_flag_expected": false,
+  "perturbation_pair": {
+    "case_id": "abdominal_pain_001_p1",
+    "changed_feature": "pain location RLQ -> LLQ, and age 34 -> 68",
+    "input_oneliner": "68M admitted for leg cellulitis, day 2, new lower abdominal pain since evening now settling in LLQ, anorexic, T 38.1",
+    "expected_change": "Diverticulitis becomes the leading differential; LLQ tenderness and localized peritoneal signs become must-have; psoas/obturator and Rovsing drop; pain-migration question becomes lower priority; ask about prior diverticulitis and change in bowel habit rises."
+  },
+  "noise_variant": {
+    "case_id": "abdominal_pain_001_n1",
+    "changed_feature": "wording, occupation, and room number",
+    "input_oneliner": "Bed 12-3, thirty-four year old male warehouse worker in for cellulitis of the leg, hospital day 2, belly pain around the navel since dinner now sitting right lower side, no appetite, temp 38.1",
+    "expected_change": "None. Card should be substantially identical to base."
+  },
+  "authored_at": "",
+  "frozen_commit": ""
+}

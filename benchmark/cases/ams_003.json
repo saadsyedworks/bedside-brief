@@ -1,0 +1,73 @@
+{
+  "case_id": "ams_003",
+  "presentation": "ams",
+  "input_oneliner": "Page from 5-North: 80M, admitted this afternoon, nurse says he is 'not himself' tonight, vitals per RN unremarkable, no further details",
+  "optional_context": {
+    "age": 80,
+    "sex": "M",
+    "comorbidity": null,
+    "timing": "acute, evening of admission",
+    "objective": "vitals reported 'unremarkable' by RN (values not given)"
+  },
+  "intended_bedside_differential": [
+    "delirium_infectious",
+    "medication_effect",
+    "stroke",
+    "hypoglycemia"
+  ],
+  "reference_targets_freetext": [
+    {
+      "item": "Ask nurse and family: baseline cognition and function, what specifically changed, and when it started (time last known well)",
+      "rationale": "Without baseline and time course the differential cannot be ranked; this is the first question",
+      "must_have": true
+    },
+    {
+      "item": "Confusion Assessment Method (attention: months backward) to establish delirium versus a focal or psychiatric change",
+      "rationale": "Confirms or refutes delirium as the syndrome before searching for a cause",
+      "must_have": true
+    },
+    {
+      "item": "Focal neurologic screen: gaze, facial symmetry, arm drift, speech and language, visual fields",
+      "rationale": "A focal deficit converts this from a delirium workup to a stroke pathway",
+      "must_have": true
+    },
+    {
+      "item": "Review MAR for sedatives, opioids, anticholinergics, insulin or sulfonylurea given since admission; ask the admitting diagnosis and home alcohol use",
+      "rationale": "New drugs on admission and unrecognized alcohol dependence are the commonest causes of a first-night change",
+      "must_have": false
+    },
+    {
+      "item": "Verify the vitals yourself: temperature, respiratory rate, SpO2, and pupils; palpate the bladder for retention",
+      "rationale": "'Unremarkable' vitals by report do not exclude fever, hypoxemia, hypoventilation, or retention",
+      "must_have": false
+    }
+  ],
+  "reference_targets_mapped": [],
+  "off_bedside_acceptable": [
+    "Fingerstick glucose",
+    "chart review of admission diagnosis and labs",
+    "BMP, CBC, urinalysis",
+    "ECG",
+    "head CT if focal deficit or anticoagulated fall"
+  ],
+  "should_not_recommend": [
+    "Ordering a head CT or a 'delirium labs' bundle before anyone has examined the patient",
+    "PRN haloperidol or lorazepam given over the phone",
+    "Ranking a differential without first clarifying baseline and time course"
+  ],
+  "underspecified_flag_expected": true,
+  "perturbation_pair": {
+    "case_id": "ams_003_p1",
+    "changed_feature": "adds the admitting diagnosis: COPD exacerbation, now on 5 L nasal cannula",
+    "input_oneliner": "Page from 5-North: 80M admitted this afternoon for COPD exacerbation, now on 5 L nasal cannula, nurse says he is 'not himself' tonight, vitals per RN unremarkable",
+    "expected_change": "Underspecified flag should clear enough to rank: hypercapnia rises to the top; respiratory rate and pattern with arousability, asterixis, and review of oxygen titration and sedative/opioid doses become must_have; CAM remains; focal neurologic screen drops to should-still-include."
+  },
+  "noise_variant": {
+    "case_id": "ams_003_n1",
+    "changed_feature": "wording and non-contributory detail (bed number, occupation, family visit)",
+    "input_oneliner": "Call from the 5-North charge nurse about an 80-year-old man in bed 22, retired farmer, wife went home an hour ago; he came in this afternoon and now 'isn't himself'; RN says vitals look fine, nothing else known",
+    "expected_change": "None. Card should be substantially identical to base."
+  },
+  "authored_at": "",
+  "frozen_commit": ""
+}

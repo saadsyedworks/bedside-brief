@@ -1,0 +1,78 @@
+{
+  "case_id": "chest_pain_002",
+  "presentation": "chest_pain",
+  "input_oneliner": "29F on OCPs, day 2 pyelo, sudden right pleuritic chest pain and dyspnea, HR 118, sat 93% RA, afebrile now",
+  "optional_context": {
+    "age": 29,
+    "sex": "F",
+    "comorbidity": "oral contraceptive use",
+    "timing": "sudden, hospital day 2",
+    "objective": "HR 118, SpO2 93% RA"
+  },
+  "intended_bedside_differential": [
+    "pulmonary_embolism",
+    "pneumothorax",
+    "pneumonia",
+    "pericarditis"
+  ],
+  "reference_targets_freetext": [
+    {
+      "item": "Examine both legs for unilateral calf or thigh swelling, tenderness, or asymmetry in circumference",
+      "rationale": "Clinical DVT is the strongest bedside predictor of PE",
+      "must_have": true
+    },
+    {
+      "item": "Ask about hemoptysis, prior VTE, family history of VTE, and days of immobility during admission",
+      "rationale": "Pretest probability items obtainable at bedside",
+      "must_have": true
+    },
+    {
+      "item": "Compare breath sounds side to side; percuss for unilateral hyperresonance (pneumothorax) or dullness (effusion/consolidation)",
+      "rationale": "Detects the main alternative causes of sudden pleuritic pain",
+      "must_have": true
+    },
+    {
+      "item": "Auscultate for a pericardial friction rub with the patient leaning forward at end-expiration",
+      "rationale": "Rub is specific for pericarditis",
+      "must_have": false
+    },
+    {
+      "item": "Ask about cough, sputum, and rigors; auscultate for focal crackles or egophony",
+      "rationale": "Screens for pneumonia as the alternative in a febrile admission",
+      "must_have": false
+    },
+    {
+      "item": "Focused cardiac POCUS for right ventricular dilation or pericardial effusion",
+      "rationale": "RV dilation supports large PE; effusion supports pericarditis",
+      "must_have": false
+    }
+  ],
+  "reference_targets_mapped": [],
+  "off_bedside_acceptable": [
+    "CT pulmonary angiogram",
+    "ECG",
+    "chest x-ray",
+    "troponin",
+    "D-dimer"
+  ],
+  "should_not_recommend": [
+    "Homan's sign as a rule-out for DVT",
+    "Attribute symptoms to anxiety without leg and lung examination",
+    "Defer bedside examination until CT result"
+  ],
+  "underspecified_flag_expected": false,
+  "perturbation_pair": {
+    "case_id": "chest_pain_002_p1",
+    "changed_feature": "pain quality: sudden right pleuritic -> sharp central pain worse lying flat, better sitting forward",
+    "input_oneliner": "29F on OCPs, day 2 pyelo, sharp central chest pain worse lying flat and better sitting forward, dyspnea, HR 118, sat 93% RA, afebrile now",
+    "expected_change": "Auscultation for a pericardial friction rub (leaning forward, end-expiration) becomes must_have and pericarditis rises to top of differential; pulsus paradoxus and JVP assessment is a new item; leg examination for DVT drops to should-still-include."
+  },
+  "noise_variant": {
+    "case_id": "chest_pain_002_n1",
+    "changed_feature": "wording and non-contributory detail",
+    "input_oneliner": "29 year old woman, graduate student, on an oral contraceptive, hospital day 2 for pyelonephritis, partner at bedside, abrupt sharp right-sided chest pain worse on inspiration plus breathlessness, pulse 118, sat 93 percent room air, afebrile now",
+    "expected_change": "None. Card should be substantially identical to base."
+  },
+  "authored_at": "",
+  "frozen_commit": ""
+}

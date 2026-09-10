@@ -1,0 +1,77 @@
+{
+  "case_id": "edema_002",
+  "presentation": "edema",
+  "input_oneliner": "54M heavy alcohol use, 2 months of abdominal distension and bilateral leg swelling, admitted for generalized weakness, BP 106/62, afebrile",
+  "optional_context": {
+    "age": 54,
+    "sex": "M",
+    "comorbidity": "heavy alcohol use",
+    "timing": "subacute, 2 months",
+    "objective": "BP 106/62, afebrile"
+  },
+  "intended_bedside_differential": [
+    "cirrhosis",
+    "nephrotic_syndrome",
+    "acute_decompensated_hf",
+    "hypoalbuminemia"
+  ],
+  "reference_targets_freetext": [
+    {
+      "item": "Ascites examination: flank dullness, shifting dullness, fluid wave",
+      "rationale": "Ascites with edema points to cirrhosis or nephrotic syndrome; absence of flank dullness argues strongly against ascites",
+      "must_have": true
+    },
+    {
+      "item": "Stigmata of chronic liver disease: spider angiomata, palmar erythema, gynecomastia, caput medusae, Dupuytren contracture, splenomegaly",
+      "rationale": "Multiple stigmata substantially raise the probability of cirrhosis",
+      "must_have": true
+    },
+    {
+      "item": "Jugular venous pressure (low or normal favors cirrhosis or nephrotic syndrome; elevated favors heart failure or constriction)",
+      "rationale": "Separates hypo-oncotic/third-spacing edema from cardiac congestion",
+      "must_have": true
+    },
+    {
+      "item": "Ask about frothy urine, periorbital or facial swelling on waking, diabetes, and NSAID use",
+      "rationale": "Nephrotic features that would redirect the workup to the kidney",
+      "must_have": false
+    },
+    {
+      "item": "Ask quantity and timing of alcohol (AUDIT-C) and date of last drink",
+      "rationale": "Quantifies liver risk and anticipates withdrawal during admission",
+      "must_have": false
+    },
+    {
+      "item": "Asterixis and orientation for hepatic encephalopathy",
+      "rationale": "Encephalopathy confirms decompensated liver disease and changes management",
+      "must_have": false
+    }
+  ],
+  "reference_targets_mapped": [],
+  "off_bedside_acceptable": [
+    "Liver panel, INR, and albumin",
+    "urinalysis with urine protein/creatinine ratio",
+    "abdominal ultrasound",
+    "diagnostic paracentesis if ascites confirmed",
+    "echocardiogram"
+  ],
+  "should_not_recommend": [
+    "Aggressive diuresis before ascites and JVP are examined",
+    "Skipping the abdominal examination because an ultrasound has been ordered"
+  ],
+  "underspecified_flag_expected": false,
+  "perturbation_pair": {
+    "case_id": "edema_002_p1",
+    "changed_feature": "heavy alcohol use -> no alcohol, 20-year insulin-treated diabetes with retinopathy",
+    "input_oneliner": "54M no alcohol, 20-year insulin-treated diabetes with retinopathy, 2 months of abdominal distension and bilateral leg swelling, admitted for generalized weakness, BP 106/62, afebrile",
+    "expected_change": "Nephrotic syndrome moves to the top: the frothy urine/periorbital swelling question becomes must_have; stigmata of chronic liver disease and the alcohol quantity question drop to should-still-include or drop; ascites examination and JVP remain must_have."
+  },
+  "noise_variant": {
+    "case_id": "edema_002_n1",
+    "changed_feature": "wording and non-contributory demographic detail (occupation, family present)",
+    "input_oneliner": "Fifty-four-year-old man, works as a line cook, brought in by his brother; drinks heavily; belly has been getting bigger and both legs swelling for two months; came in because he felt too weak to work; BP 106/62, no fever",
+    "expected_change": "None. Card should be substantially identical to base."
+  },
+  "authored_at": "",
+  "frozen_commit": ""
+}

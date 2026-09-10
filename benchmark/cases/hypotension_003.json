@@ -1,0 +1,78 @@
+{
+  "case_id": "hypotension_003",
+  "presentation": "hypotension",
+  "input_oneliner": "70F metastatic breast cancer admitted for dyspnea, tonight BP 84/56, HR 122, SpO2 91% 2L, RN reports she 'looks worse'",
+  "optional_context": {
+    "age": 70,
+    "sex": "F",
+    "comorbidity": "metastatic breast cancer; admitted with dyspnea",
+    "timing": "acute overnight",
+    "objective": "BP 84/56, HR 122, SpO2 91% on 2 L"
+  },
+  "intended_bedside_differential": [
+    "pericardial_effusion_tamponade",
+    "cardiogenic_shock",
+    "pulmonary_embolism",
+    "septic_shock"
+  ],
+  "reference_targets_freetext": [
+    {
+      "item": "Pulsus paradoxus measured by sphygmomanometer (>10-12 mmHg)",
+      "rationale": "A large pulsus paradoxus is the single most useful bedside sign of tamponade in a patient with effusion",
+      "must_have": true
+    },
+    {
+      "item": "Jugular venous pressure (elevated in tamponade, RV failure/PE, and cardiogenic shock; low in sepsis or hypovolemia)",
+      "rationale": "Separates obstructive/cardiogenic shock from distributive or hypovolemic shock before fluids are given",
+      "must_have": true
+    },
+    {
+      "item": "Peripheral perfusion: capillary refill, cool or mottled extremities, and mental status",
+      "rationale": "Establishes shock physiology and urgency regardless of cause",
+      "must_have": true
+    },
+    {
+      "item": "Heart sounds (muffled), pericardial rub, and lung examination for crackles versus clear fields",
+      "rationale": "Muffled sounds with clear lungs favor tamponade; crackles favor left-sided cardiogenic shock",
+      "must_have": false
+    },
+    {
+      "item": "Ask about pleuritic chest pain and examine the legs for unilateral swelling",
+      "rationale": "Malignancy-associated pulmonary embolism is a close competitor",
+      "must_have": false
+    },
+    {
+      "item": "POCUS subxiphoid view for pericardial effusion with right ventricular diastolic collapse and IVC plethora",
+      "rationale": "Confirms effusion and tamponade physiology at the bedside",
+      "must_have": false
+    }
+  ],
+  "reference_targets_mapped": [],
+  "off_bedside_acceptable": [
+    "ECG (low voltage, electrical alternans)",
+    "chest X-ray",
+    "formal echocardiogram",
+    "troponin and lactate",
+    "CT pulmonary angiogram if PE suspected"
+  ],
+  "should_not_recommend": [
+    "Diuresis or positive-pressure ventilation before tamponade is excluded",
+    "Large fluid bolus without JVP and lung assessment",
+    "Deferring bedside pulsus paradoxus because an echocardiogram is ordered for the morning"
+  ],
+  "underspecified_flag_expected": false,
+  "perturbation_pair": {
+    "case_id": "hypotension_003_p1",
+    "changed_feature": "metastatic breast cancer admitted for dyspnea -> anterior STEMI treated with PCI 2 days ago",
+    "input_oneliner": "70F anterior STEMI s/p PCI 2 days ago, tonight BP 84/56, HR 122, SpO2 91% 2L, RN reports she 'looks worse'",
+    "expected_change": "Cardiogenic shock and mechanical complications lead: S3, lung crackles, and a new holosystolic murmur (VSD or papillary muscle rupture) rise to must_have; pulsus paradoxus drops to should-still-include (free-wall rupture remains possible); JVP and perfusion remain must_have."
+  },
+  "noise_variant": {
+    "case_id": "hypotension_003_n1",
+    "changed_feature": "wording and non-contributory detail (former occupation, bed location)",
+    "input_oneliner": "Seventy-year-old woman, former nurse, in the oncology bed by the window, known metastatic breast cancer, came in for shortness of breath; tonight BP 84/56, pulse 122, sats 91% on 2 liters, and the RN thinks she looks worse",
+    "expected_change": "None. Card should be substantially identical to base."
+  },
+  "authored_at": "",
+  "frozen_commit": ""
+}

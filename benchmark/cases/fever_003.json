@@ -1,0 +1,77 @@
+{
+  "case_id": "fever_003",
+  "presentation": "fever",
+  "input_oneliner": "46M IVDU w/ PICC for vertebral osteo, day 10 vanc, T 38.9 with rigors tonight, no localizing sx per RN",
+  "optional_context": {
+    "age": 46,
+    "sex": "M",
+    "comorbidity": "injection drug use, vertebral osteomyelitis, PICC line",
+    "timing": "acute, hospital day 10",
+    "objective": "T 38.9"
+  },
+  "intended_bedside_differential": [
+    "line_infection",
+    "endocarditis",
+    "drug_fever",
+    "cdiff_colitis"
+  ],
+  "reference_targets_freetext": [
+    {
+      "item": "Inspect and palpate the PICC insertion site and tract for erythema, tenderness, purulence, and a palpable cord along the vein",
+      "rationale": "Exit-site findings are specific but insensitive for line infection; rigors during or after infusion strengthen the diagnosis",
+      "must_have": true
+    },
+    {
+      "item": "Cardiac auscultation for a new or changed murmur, plus peripheral stigmata: splinter hemorrhages, Janeway lesions, Osler nodes, conjunctival petechiae",
+      "rationale": "IVDU with bacteremia risk is a high pretest population for endocarditis; a new regurgitant murmur is a major criterion",
+      "must_have": true
+    },
+    {
+      "item": "Ask about stool frequency and consistency; examine the abdomen for distension and tenderness",
+      "rationale": "Antibiotic exposure makes C. difficile a leading nosocomial cause of fever; abdominal findings signal severity",
+      "must_have": true
+    },
+    {
+      "item": "Ask: timing of rigors relative to infusions or line access; any new injection since admission; new medications",
+      "rationale": "Infusion-related rigors point to the line; in-hospital injection raises new bacteremia risk",
+      "must_have": false
+    },
+    {
+      "item": "Skin exam for a new maculopapular rash and check for new joint pain",
+      "rationale": "Vancomycin-associated drug fever and DRESS present with rash and eosinophilia",
+      "must_have": false
+    },
+    {
+      "item": "Spinal percussion tenderness and focused neurologic exam of the legs",
+      "rationale": "Progression of vertebral osteomyelitis or epidural abscess can present as recurrent fever",
+      "must_have": false
+    }
+  ],
+  "reference_targets_mapped": [],
+  "off_bedside_acceptable": [
+    "Peripheral and line-drawn blood cultures",
+    "Transthoracic then transesophageal echocardiogram",
+    "C. difficile stool testing",
+    "CBC with differential for eosinophilia",
+    "MRI spine if new neurologic signs"
+  ],
+  "should_not_recommend": [
+    "Echocardiogram ordered before cardiac auscultation and line-site inspection",
+    "Empiric antibiotic change before examining the line site and obtaining paired cultures"
+  ],
+  "underspecified_flag_expected": false,
+  "perturbation_pair": {
+    "case_id": "fever_003_p1",
+    "changed_feature": "rigors -> six watery stools since yesterday",
+    "input_oneliner": "46M IVDU w/ PICC for vertebral osteo, day 10 vanc, T 38.9 tonight, six watery stools since yesterday, no other localizing sx per RN",
+    "expected_change": "C. difficile colitis becomes the leading differential; abdominal exam for distension, tenderness, and peritoneal signs becomes must-have and stool testing rises; rigors-timing question drops; line-site inspection and murmur exam remain but rank lower."
+  },
+  "noise_variant": {
+    "case_id": "fever_003_n1",
+    "changed_feature": "wording, room number, and occupation",
+    "input_oneliner": "Bed 9-2: forty-six year old male, former line cook, history of injection drug use, PICC line for spine infection on vancomycin day 10, fever 38.9 with shaking chills this evening, nothing localizing on nursing assessment",
+    "expected_change": "None. Card should be substantially identical to base."
+  },
+  "authored_at": "",
+  "frozen_commit": ""
+}

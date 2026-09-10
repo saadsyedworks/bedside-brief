@@ -1,0 +1,73 @@
+{
+  "case_id": "chest_pain_003",
+  "presentation": "chest_pain",
+  "input_oneliner": "38M in for AKI from gastroenteritis, sharp central chest pain since evening, changes with breathing and position, HR 96, afebrile",
+  "optional_context": {
+    "age": 38,
+    "sex": "M",
+    "comorbidity": "AKI from gastroenteritis",
+    "timing": "since evening",
+    "objective": "HR 96, afebrile"
+  },
+  "intended_bedside_differential": [
+    "pericarditis",
+    "musculoskeletal_chest_wall",
+    "pulmonary_embolism",
+    "pneumothorax"
+  ],
+  "reference_targets_freetext": [
+    {
+      "item": "Auscultate for a pericardial friction rub at the left sternal border with the patient leaning forward, breath held in expiration",
+      "rationale": "Rub is the most specific bedside finding for pericarditis",
+      "must_have": true
+    },
+    {
+      "item": "Ask whether pain eases sitting forward and worsens supine or with inspiration; ask about recent viral illness",
+      "rationale": "Positional relief is characteristic of pericarditis",
+      "must_have": true
+    },
+    {
+      "item": "Palpate the chest wall and costochondral junctions for fully reproducible tenderness; ask about recent vomiting, retching, or strain",
+      "rationale": "Reproducible tenderness supports chest-wall pain after repeated vomiting",
+      "must_have": true
+    },
+    {
+      "item": "Measure pulsus paradoxus and assess JVP",
+      "rationale": "Screens for effusion with tamponade physiology",
+      "must_have": false
+    },
+    {
+      "item": "Examine both legs for asymmetric swelling and compare breath sounds side to side",
+      "rationale": "Screens for PE and pneumothorax as alternatives to pleuritic pain",
+      "must_have": false
+    }
+  ],
+  "reference_targets_mapped": [],
+  "off_bedside_acceptable": [
+    "ECG",
+    "troponin",
+    "chest x-ray",
+    "echocardiogram",
+    "CRP/ESR"
+  ],
+  "should_not_recommend": [
+    "Use chest-wall tenderness to exclude PE or ACS",
+    "Start NSAIDs without examining for effusion or tamponade (JVP, pulsus paradoxus)",
+    "Diagnose by response to a GI cocktail"
+  ],
+  "underspecified_flag_expected": false,
+  "perturbation_pair": {
+    "case_id": "chest_pain_003_p1",
+    "changed_feature": "hemodynamics: HR 96 -> HR 124 with BP 86/58",
+    "input_oneliner": "38M in for AKI from gastroenteritis, sharp central chest pain since evening, changes with breathing and position, HR 124, BP 86/58, afebrile",
+    "expected_change": "Pulsus paradoxus measurement and JVP assessment become must_have and pericardial_effusion_tamponade rises to top of differential; POCUS for pericardial effusion is a new item; chest-wall palpation drops to should-still-include."
+  },
+  "noise_variant": {
+    "case_id": "chest_pain_003_n1",
+    "changed_feature": "wording and non-contributory detail",
+    "input_oneliner": "38 year old man, software engineer, admitted with acute kidney injury after gastroenteritis, bed 3 by the nursing station, sharp central chest pain since this evening that varies with breathing and position, pulse 96, no fever",
+    "expected_change": "None. Card should be substantially identical to base."
+  },
+  "authored_at": "",
+  "frozen_commit": ""
+}

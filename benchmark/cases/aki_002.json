@@ -1,0 +1,71 @@
+{
+  "case_id": "aki_002",
+  "presentation": "aki",
+  "input_oneliner": "78M BPH admitted for CAP, on diphenhydramine qhs, no urine output x8h per RN, Cr up 0.5 overnight",
+  "optional_context": {
+    "age": 78,
+    "sex": "M",
+    "comorbidity": "benign prostatic hyperplasia, community-acquired pneumonia",
+    "timing": "acute, overnight",
+    "objective": "no urine output for 8 hours, creatinine up 0.5"
+  },
+  "intended_bedside_differential": [
+    "obstruction_retention",
+    "prerenal_hypovolemia",
+    "atn"
+  ],
+  "reference_targets_freetext": [
+    {
+      "item": "Bladder percussion/palpation for retention: suprapubic dullness, palpable mass, tenderness",
+      "rationale": "Acute urinary retention is the first reversible cause of anuria in an elderly man with BPH on an anticholinergic",
+      "must_have": true
+    },
+    {
+      "item": "Medication review for anticholinergics, opioids, and alpha-agonists; ask about last void, straining, and dribbling",
+      "rationale": "Diphenhydramine and opioids precipitate retention; the history of small frequent voids or dribbling supports overflow",
+      "must_have": true
+    },
+    {
+      "item": "Volume exam: jugular venous pressure, mucous membranes, orthostatic vital signs",
+      "rationale": "Distinguishes prerenal AKI from obstruction in a febrile patient with poor intake",
+      "must_have": true
+    },
+    {
+      "item": "Digital rectal exam for prostate size and tenderness",
+      "rationale": "Prostate enlargement or prostatitis supports obstruction; tenderness raises prostatitis as the infection source",
+      "must_have": false
+    },
+    {
+      "item": "Ask about flank pain, hematuria, and bilateral costovertebral angle tenderness",
+      "rationale": "Upper tract obstruction or pyelonephritis as alternative causes",
+      "must_have": false
+    }
+  ],
+  "reference_targets_mapped": [],
+  "off_bedside_acceptable": [
+    "Bladder scan for post-void residual",
+    "Urinalysis",
+    "Basic metabolic panel",
+    "Renal ultrasound if retention excluded",
+    "Foley catheter placement if retention confirmed"
+  ],
+  "should_not_recommend": [
+    "Fluid bolus for low urine output before bladder exam",
+    "Furosemide for oliguria before bladder exam and volume assessment"
+  ],
+  "underspecified_flag_expected": false,
+  "perturbation_pair": {
+    "case_id": "aki_002_p1",
+    "changed_feature": "medication: diphenhydramine qhs -> ketorolac scheduled x3 days for pleuritic pain",
+    "input_oneliner": "78M BPH admitted for CAP, on scheduled ketorolac x3 days for pleuritic pain, no urine output x8h per RN, Cr up 0.5 overnight",
+    "expected_change": "NSAID-related prerenal AKI, ATN, and AIN rise; volume exam and medication history become the top must-haves; bladder percussion/palpation remains must-have as a reversible cause; ask about new rash, fever timing, and arthralgia for AIN rises; anticholinergic question drops."
+  },
+  "noise_variant": {
+    "case_id": "aki_002_n1",
+    "changed_feature": "pager-terse rewording, room number, and occupation",
+    "input_oneliner": "Rm 2-19: 78 y/o M, former bus driver, BPH, in w/ pneumonia, gets diphenhydramine at bedtime, nurse reports zero urine in 8 hrs, creatinine climbed 0.5 since yesterday",
+    "expected_change": "None. Card should be substantially identical to base."
+  },
+  "authored_at": "",
+  "frozen_commit": ""
+}

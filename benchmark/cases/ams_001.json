@@ -1,0 +1,78 @@
+{
+  "case_id": "ams_001",
+  "presentation": "ams",
+  "input_oneliner": "84F mild dementia, hospital day 2 for hip fracture awaiting surgery, overnight pulling at lines, disoriented, T 37.9, HR 98, SpO2 94%",
+  "optional_context": {
+    "age": 84,
+    "sex": "F",
+    "comorbidity": "mild dementia; hip fracture awaiting surgery, hospital day 2",
+    "timing": "acute overnight",
+    "objective": "T 37.9, HR 98, SpO2 94%"
+  },
+  "intended_bedside_differential": [
+    "delirium_infectious",
+    "medication_effect",
+    "stroke"
+  ],
+  "reference_targets_freetext": [
+    {
+      "item": "Confusion Assessment Method (acute change, inattention via months backward, disorganized thinking, altered arousal)",
+      "rationale": "Validated bedside diagnosis of delirium versus baseline dementia",
+      "must_have": true
+    },
+    {
+      "item": "Review MAR for opioids, benzodiazepines, anticholinergics, and any new drug in the last 24 h; ask about uncontrolled pain",
+      "rationale": "Medications and untreated pain are the most common reversible precipitants in a fracture patient",
+      "must_have": true
+    },
+    {
+      "item": "Infection source examination: lungs, suprapubic and costovertebral tenderness, skin and pressure areas, IV sites",
+      "rationale": "Low-grade fever with delirium demands a bedside source search before empiric treatment",
+      "must_have": true
+    },
+    {
+      "item": "Bladder palpation or percussion for retention and date of last bowel movement",
+      "rationale": "Urinary retention and constipation are frequently missed precipitants of delirium",
+      "must_have": false
+    },
+    {
+      "item": "Focal neurologic screen: gaze, facial symmetry, arm drift, speech",
+      "rationale": "Excludes a focal deficit that would reframe this as stroke rather than delirium",
+      "must_have": false
+    },
+    {
+      "item": "Ask family or nurse for baseline cognition and time course, and ensure glasses and hearing aids are in place",
+      "rationale": "Establishes acuity of change and removes sensory contributors",
+      "must_have": false
+    }
+  ],
+  "reference_targets_mapped": [],
+  "off_bedside_acceptable": [
+    "Fingerstick glucose",
+    "CBC, BMP, urinalysis",
+    "chest X-ray",
+    "ECG",
+    "head CT only if focal deficit, fall, or anticoagulation",
+    "bladder scan"
+  ],
+  "should_not_recommend": [
+    "Haloperidol or benzodiazepine for agitation before delirium assessment and reversible-cause examination",
+    "Physical restraints as the first response",
+    "Head CT ordered as a substitute for bedside neurologic and delirium assessment"
+  ],
+  "underspecified_flag_expected": false,
+  "perturbation_pair": {
+    "case_id": "ams_001_p1",
+    "changed_feature": "adds a new right facial droop noted by RN",
+    "input_oneliner": "84F mild dementia, hospital day 2 for hip fracture awaiting surgery, overnight pulling at lines, disoriented, new right facial droop, T 37.9, HR 98",
+    "expected_change": "Focal neurologic screen (gaze, facial symmetry, arm drift, speech, visual fields, and time last known well) becomes must_have; infection source examination drops to should-still-include; CAM and MAR review remain must_have."
+  },
+  "noise_variant": {
+    "case_id": "ams_001_n1",
+    "changed_feature": "wording and non-contributory demographic detail (room, former occupation, family present)",
+    "input_oneliner": "Eighty-four-year-old woman, room 618, retired seamstress, daughter staying overnight; mild dementia at baseline; day two waiting for hip fracture surgery; tonight pulling at her IV, does not know where she is; temp 37.9, HR 98, sats 94%",
+    "expected_change": "None. Card should be substantially identical to base."
+  },
+  "authored_at": "",
+  "frozen_commit": ""
+}

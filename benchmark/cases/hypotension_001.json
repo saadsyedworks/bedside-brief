@@ -1,0 +1,79 @@
+{
+  "case_id": "hypotension_001",
+  "presentation": "hypotension",
+  "input_oneliner": "72M POD3 hip fracture repair, chronic Foley, T 38.4, BP 86/50, HR 112, RN says newly confused",
+  "optional_context": {
+    "age": 72,
+    "sex": "M",
+    "comorbidity": "post-operative day 3 hip fracture repair, chronic indwelling urinary catheter",
+    "timing": "acute overnight",
+    "objective": "T 38.4, BP 86/50, HR 112"
+  },
+  "intended_bedside_differential": [
+    "septic_shock",
+    "hypovolemic_hemorrhagic_shock",
+    "medication_effect",
+    "pulmonary_embolism"
+  ],
+  "reference_targets_freetext": [
+    {
+      "item": "Peripheral perfusion: capillary refill time (>3 s), skin mottling over the knees, cool extremities",
+      "rationale": "Prolonged capillary refill and mottling identify hypoperfusion and track resuscitation response",
+      "must_have": true
+    },
+    {
+      "item": "Source examination: suprapubic and costovertebral tenderness with catheter inspection, surgical wound, lungs, skin and pressure areas, IV and line sites",
+      "rationale": "Catheter-associated urinary infection, wound infection, and pneumonia are the likely septic sources post-operatively",
+      "must_have": true
+    },
+    {
+      "item": "Mental status and respiratory rate at the bedside (qSOFA elements)",
+      "rationale": "Altered mentation and tachypnea with hypotension complete the qSOFA and mark organ dysfunction",
+      "must_have": true
+    },
+    {
+      "item": "Passive leg raise with blood pressure/pulse pressure response to gauge fluid responsiveness",
+      "rationale": "Functional bedside test that predicts response to a fluid bolus",
+      "must_have": false
+    },
+    {
+      "item": "Review MAR for antihypertensives, opioids, or sedatives given in the last 6 h and the cumulative fluid balance and urine output",
+      "rationale": "Medication effect and unreplaced losses are common contributors on the surgical floor",
+      "must_have": false
+    },
+    {
+      "item": "Ask about calf pain or leg swelling and pleuritic pain; check SpO2",
+      "rationale": "Post-operative pulmonary embolism can present as fever, hypotension, and confusion",
+      "must_have": false
+    }
+  ],
+  "reference_targets_mapped": [],
+  "off_bedside_acceptable": [
+    "Lactate",
+    "blood and urine cultures",
+    "CBC and BMP",
+    "chest X-ray",
+    "ECG",
+    "catheter exchange after cultures",
+    "empiric antibiotics after cultures"
+  ],
+  "should_not_recommend": [
+    "Deferring the perfusion and source examination until lactate and cultures result",
+    "Sedating the patient for agitation before mental status and perfusion are assessed"
+  ],
+  "underspecified_flag_expected": false,
+  "perturbation_pair": {
+    "case_id": "hypotension_001_p1",
+    "changed_feature": "T 38.4 -> T 36.2 (afebrile)",
+    "input_oneliner": "72M POD3 hip fracture repair, chronic Foley, T 36.2, BP 86/50, HR 112, RN says newly confused",
+    "expected_change": "Source examination drops from must_have to should-still-include; hemorrhage assessment rises to must_have (surgical site, drain and thigh for hematoma, conjunctival pallor, postural pulse rise if safe) together with the MAR review for opioids and antihypertensives; perfusion and mental status remain must_have."
+  },
+  "noise_variant": {
+    "case_id": "hypotension_001_n1",
+    "changed_feature": "wording and non-contributory demographic detail (room, occupation)",
+    "input_oneliner": "Seventy-two-year-old man, room 512, retired bus driver, third day after his hip fracture was fixed; has a long-term Foley; tonight temp 38.4, BP 86/50, pulse 112, and the nurse says he is more confused than usual",
+    "expected_change": "None. Card should be substantially identical to base."
+  },
+  "authored_at": "",
+  "frozen_commit": ""
+}

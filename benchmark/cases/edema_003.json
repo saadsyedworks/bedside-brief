@@ -1,0 +1,72 @@
+{
+  "case_id": "edema_003",
+  "presentation": "edema",
+  "input_oneliner": "Page: 48F day 4 of pneumonia admission, new right calf swelling and pain since this afternoon, HR 96, afebrile, SpO2 96%",
+  "optional_context": {
+    "age": 48,
+    "sex": "F",
+    "comorbidity": "community-acquired pneumonia, hospital day 4",
+    "timing": "acute, hours",
+    "objective": "HR 96, afebrile, SpO2 96%"
+  },
+  "intended_bedside_differential": [
+    "dvt",
+    "cellulitis_ssti",
+    "venous_insufficiency",
+    "pulmonary_embolism"
+  ],
+  "reference_targets_freetext": [
+    {
+      "item": "Measure calf circumference 10 cm below the tibial tuberosity bilaterally (difference >3 cm)",
+      "rationale": "Objective asymmetry is the most reproducible Wells criterion for DVT",
+      "must_have": true
+    },
+    {
+      "item": "Wells DVT items on history and exam: bedridden >3 days, active cancer, prior VTE, recent surgery, pitting edema confined to the symptomatic leg, collateral superficial veins",
+      "rationale": "Structured pretest probability determines whether ultrasound can wait until morning",
+      "must_have": true
+    },
+    {
+      "item": "Ask about pleuritic chest pain, dyspnea, or presyncope; check resting heart rate and respiratory rate",
+      "rationale": "Screens for concurrent pulmonary embolism, which changes urgency",
+      "must_have": true
+    },
+    {
+      "item": "Inspect for well-demarcated erythema, warmth, lymphangitic streaking, and a portal of entry",
+      "rationale": "Cellulitis is the main mimic of DVT in a unilateral swollen leg",
+      "must_have": false
+    },
+    {
+      "item": "Palpate along the deep venous course for tenderness and a superficial cord; note whether edema is pitting and its proximal extent",
+      "rationale": "Localizes the process and estimates proximal extension",
+      "must_have": false
+    }
+  ],
+  "reference_targets_mapped": [],
+  "off_bedside_acceptable": [
+    "Compression ultrasound of the leg",
+    "D-dimer (limited value in an inpatient)",
+    "CBC",
+    "checking whether pharmacologic VTE prophylaxis was ordered and given"
+  ],
+  "should_not_recommend": [
+    "Homan's sign as a rule-in or rule-out test",
+    "Empiric therapeutic anticoagulation without examining the leg or estimating pretest probability",
+    "Withholding the leg examination because an ultrasound is ordered for the morning"
+  ],
+  "underspecified_flag_expected": false,
+  "perturbation_pair": {
+    "case_id": "edema_003_p1",
+    "changed_feature": "unilateral right calf swelling -> bilateral symmetric leg swelling",
+    "input_oneliner": "Page: 48F day 4 of pneumonia admission, new bilateral symmetric leg swelling since this afternoon, HR 96, afebrile, SpO2 96%",
+    "expected_change": "DVT falls: calf circumference difference and Wells items drop; JVP with abdominojugular reflux and a review of cumulative IV fluid volume and new medications (dihydropyridine, steroids) rise to must_have; cellulitis inspection drops."
+  },
+  "noise_variant": {
+    "case_id": "edema_003_n1",
+    "changed_feature": "wording and non-contributory detail (unit, bed number, nurse name)",
+    "input_oneliner": "Forty-eight-year-old woman in 7-West bed 3 (nurse Maria calling), admitted four days ago with pneumonia; since this afternoon her right calf is swollen and sore; heart rate 96, no fever, saturating 96%",
+    "expected_change": "None. Card should be substantially identical to base."
+  },
+  "authored_at": "",
+  "frozen_commit": ""
+}

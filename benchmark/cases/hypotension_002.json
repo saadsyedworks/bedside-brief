@@ -1,0 +1,74 @@
+{
+  "case_id": "hypotension_002",
+  "presentation": "hypotension",
+  "input_oneliner": "Cross-cover: 63M on apixaban for AF, admitted with CAP, day 2, BP 88/54, HR 118, pale and lightheaded when he stood to void",
+  "optional_context": {
+    "age": 63,
+    "sex": "M",
+    "comorbidity": "atrial fibrillation on apixaban; community-acquired pneumonia, hospital day 2",
+    "timing": "acute overnight",
+    "objective": "BP 88/54, HR 118, pallor"
+  },
+  "intended_bedside_differential": [
+    "hypovolemic_hemorrhagic_shock",
+    "septic_shock",
+    "medication_effect",
+    "atrial_fibrillation_flutter"
+  ],
+  "reference_targets_freetext": [
+    {
+      "item": "Ask about melena, hematemesis, and hematochezia, and perform a digital rectal examination for melena",
+      "rationale": "Occult GI bleeding on an anticoagulant is the leading cause; melena on rectal exam confirms it",
+      "must_have": true
+    },
+    {
+      "item": "Orthostatic vitals at 1 and 3 minutes (postural pulse increment >=30/min or standing dizziness), if safe to stand",
+      "rationale": "Postural pulse increment is the most accurate bedside sign of large-volume blood loss",
+      "must_have": true
+    },
+    {
+      "item": "Conjunctival pallor, capillary refill, skin temperature, and pulse regularity (rapid AF versus sinus tachycardia)",
+      "rationale": "Distinguishes hypoperfusion from blood loss versus a primary rate problem",
+      "must_have": true
+    },
+    {
+      "item": "Ask about NSAID or aspirin use, prior ulcer or varices, and alcohol; examine the abdomen for tenderness and the flanks and thighs for hematoma",
+      "rationale": "Identifies bleeding site and risk factors, including retroperitoneal or soft-tissue bleeding",
+      "must_have": false
+    },
+    {
+      "item": "Review MAR for antihypertensives, diuretics, and opioids given tonight; temperature and lung examination for progression of pneumonia",
+      "rationale": "Medication effect and worsening sepsis are competing explanations",
+      "must_have": false
+    }
+  ],
+  "reference_targets_mapped": [],
+  "off_bedside_acceptable": [
+    "CBC and type and screen",
+    "ECG",
+    "lactate",
+    "coagulation studies",
+    "GI consult",
+    "two large-bore IVs and crossmatch"
+  ],
+  "should_not_recommend": [
+    "Empiric anticoagulant reversal before bleeding is sought on history and exam",
+    "Nasogastric lavage to diagnose upper GI bleeding",
+    "Standing the patient for orthostatics when he is presyncopal supine"
+  ],
+  "underspecified_flag_expected": false,
+  "perturbation_pair": {
+    "case_id": "hypotension_002_p1",
+    "changed_feature": "on apixaban for AF -> no anticoagulant, on IV furosemide BID with poor oral intake",
+    "input_oneliner": "Cross-cover: 63M no anticoagulant, on IV furosemide BID with poor oral intake, admitted with CAP, day 2, BP 88/54, HR 118, pale and lightheaded when he stood to void",
+    "expected_change": "Non-hemorrhagic hypovolemia rises: dry axillae and mucous membranes, fluid balance and urine output review, and asking about oral intake, vomiting, or diarrhea become must_have; the melena question and rectal exam drop to should-still-include; orthostatic vitals remain must_have."
+  },
+  "noise_variant": {
+    "case_id": "hypotension_002_n1",
+    "changed_feature": "wording and non-contributory demographic detail (occupation, family phoned)",
+    "input_oneliner": "63-year-old man, an accountant, daughter phoned the desk; takes apixaban for atrial fibrillation; second day in with pneumonia; blood pressure 88/54, pulse 118, looks pale and got lightheaded standing up to use the urinal",
+    "expected_change": "None. Card should be substantially identical to base."
+  },
+  "authored_at": "",
+  "frozen_commit": ""
+}

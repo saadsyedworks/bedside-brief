@@ -1,0 +1,70 @@
+{
+  "case_id": "dizziness_003",
+  "presentation": "dizziness",
+  "input_oneliner": "Cross-cover page: 62F on the tele floor, nurse says she's dizzy tonight, asking if you want anything ordered",
+  "optional_context": {
+    "age": 62,
+    "sex": "F",
+    "comorbidity": null,
+    "timing": "tonight, otherwise unspecified",
+    "objective": null
+  },
+  "intended_bedside_differential": [
+    "orthostatic_hypotension",
+    "medication_effect",
+    "bppv",
+    "posterior_circulation_stroke"
+  ],
+  "reference_targets_freetext": [
+    {
+      "item": "Ask timing: continuous vs episodic, how long each episode lasts, and when it started",
+      "rationale": "Timing is the first branch point of the timing-and-triggers approach",
+      "must_have": true
+    },
+    {
+      "item": "Ask triggers: rolling in bed or head turning, standing up, or no trigger; and whether it is spinning, near-faint, or unsteadiness",
+      "rationale": "Trigger determines whether Dix-Hallpike, orthostatics, or HINTS is the right next step",
+      "must_have": true
+    },
+    {
+      "item": "Orthostatic vitals at 1 and 3 minutes",
+      "rationale": "Cheapest objective test in a hospitalized patient with likely volume or medication contributors",
+      "must_have": true
+    },
+    {
+      "item": "Review the medication administration record for new, sedating, or antihypertensive doses in the last 24 hours",
+      "rationale": "Medication effect is the most common inpatient cause",
+      "must_have": false
+    },
+    {
+      "item": "Watch the patient walk and screen for new focal neurologic symptoms (diplopia, dysarthria, weakness)",
+      "rationale": "Gait failure or focal signs escalate to stroke evaluation",
+      "must_have": false
+    }
+  ],
+  "reference_targets_mapped": [],
+  "off_bedside_acceptable": [
+    "fingerstick glucose",
+    "telemetry review for arrhythmia",
+    "hemoglobin"
+  ],
+  "should_not_recommend": [
+    "Commit to a HINTS-vs-Dix-Hallpike pathway before establishing timing and triggers",
+    "Order meclizine by phone without evaluating the patient"
+  ],
+  "underspecified_flag_expected": true,
+  "perturbation_pair": {
+    "case_id": "dizziness_003_p1",
+    "changed_feature": "timing/trigger specified: unspecified dizziness -> seconds of spinning each time she turns in bed",
+    "input_oneliner": "Cross-cover page: 62F on the tele floor, nurse says she gets spinning for seconds each time she turns in bed tonight, asking if you want anything ordered",
+    "expected_change": "Underspecified flag should no longer fire; Dix-Hallpike maneuver becomes must_have and bppv rises to top of differential; the timing/trigger questions are answered and drop; orthostatic vitals drop to should-still-include."
+  },
+  "noise_variant": {
+    "case_id": "dizziness_003_n1",
+    "changed_feature": "wording and non-contributory detail",
+    "input_oneliner": "Page from the telemetry floor: 62 year old woman, room 614, retired librarian, nurse reports the patient is feeling dizzy this evening and wonders whether you would like to order anything",
+    "expected_change": "None. Card should be substantially identical to base."
+  },
+  "authored_at": "",
+  "frozen_commit": ""
+}

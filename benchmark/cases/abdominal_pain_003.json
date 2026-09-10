@@ -1,0 +1,78 @@
+{
+  "case_id": "abdominal_pain_003",
+  "presentation": "abdominal_pain",
+  "input_oneliner": "79M AF not anticoagulated, sudden severe diffuse abdominal pain 1h, RN says belly soft, HR 118, BP 128/76",
+  "optional_context": {
+    "age": 79,
+    "sex": "M",
+    "comorbidity": "atrial fibrillation, not anticoagulated",
+    "timing": "acute, 1 hour",
+    "objective": "HR 118, BP 128/76"
+  },
+  "intended_bedside_differential": [
+    "mesenteric_ischemia",
+    "perforated_viscus",
+    "aaa",
+    "small_bowel_obstruction"
+  ],
+  "reference_targets_freetext": [
+    {
+      "item": "Compare reported pain severity with abdominal tenderness on palpation (pain out of proportion to exam)",
+      "rationale": "Severe pain with a soft, minimally tender abdomen in an embolic-risk patient is the classic signal for mesenteric ischemia",
+      "must_have": true
+    },
+    {
+      "item": "Peritoneal signs: rigidity, percussion tenderness, rebound, cough test",
+      "rationale": "Rigidity and percussion tenderness have the strongest likelihood ratios for peritonitis and perforation",
+      "must_have": true
+    },
+    {
+      "item": "Palpate for a pulsatile, expansile abdominal mass and check femoral pulses bilaterally",
+      "rationale": "Abdominal palpation detects most large AAAs; asymmetric femoral pulses raise concern for rupture or dissection",
+      "must_have": true
+    },
+    {
+      "item": "Ask: prior abdominal surgery, vomiting, last flatus and bowel movement; inspect for distension and check hernia orifices",
+      "rationale": "Adhesions and hernias cause most small bowel obstructions; obstipation and distension support it",
+      "must_have": false
+    },
+    {
+      "item": "Rectal exam for blood",
+      "rationale": "Bloody stool supports bowel ischemia",
+      "must_have": false
+    },
+    {
+      "item": "Repeat vitals with orthostatic assessment if stable",
+      "rationale": "Tachycardia out of proportion and emerging hypotension mark a surgical abdomen",
+      "must_have": false
+    }
+  ],
+  "reference_targets_mapped": [],
+  "off_bedside_acceptable": [
+    "Lactate",
+    "CT angiography of the abdomen",
+    "Upright chest X-ray for free air",
+    "Surgical and vascular consult",
+    "Type and screen"
+  ],
+  "should_not_recommend": [
+    "Enema or laxative before peritoneal exam",
+    "Reassurance based on a soft abdomen without serial exam",
+    "CT abdomen before vitals and abdominal exam"
+  ],
+  "underspecified_flag_expected": false,
+  "perturbation_pair": {
+    "case_id": "abdominal_pain_003_p1",
+    "changed_feature": "comorbidity: AF not anticoagulated -> known 5.2 cm AAA under surveillance",
+    "input_oneliner": "79M with known 5.2 cm AAA under surveillance, sudden severe diffuse abdominal pain 1h, RN says belly soft, HR 118, BP 128/76",
+    "expected_change": "AAA rupture becomes the leading differential; pulsatile mass palpation, bilateral femoral pulses, and blood pressure in both arms with back or flank pain question become must-have; pain-out-of-proportion assessment drops to should-still-include; rectal exam for blood drops."
+  },
+  "noise_variant": {
+    "case_id": "abdominal_pain_003_n1",
+    "changed_feature": "pager-terse rewording, room number, and occupation",
+    "input_oneliner": "Rm 7-14: 79yo male retired machinist, afib no blood thinners, abrupt bad pain all over abdomen for the last hour, nurse thinks abdomen soft, pulse 118 and pressure 128/76",
+    "expected_change": "None. Card should be substantially identical to base."
+  },
+  "authored_at": "",
+  "frozen_commit": ""
+}

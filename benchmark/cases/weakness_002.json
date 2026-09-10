@@ -1,0 +1,77 @@
+{
+  "case_id": "weakness_002",
+  "presentation": "weakness",
+  "input_oneliner": "54M metastatic prostate CA admitted for pain control, overnight says legs heavy, trouble standing, mid-back pain worse",
+  "optional_context": {
+    "age": 54,
+    "sex": "M",
+    "comorbidity": "metastatic prostate cancer",
+    "timing": "subacute, hours to a day",
+    "objective": null
+  },
+  "intended_bedside_differential": [
+    "spinal_cord_compression",
+    "cauda_equina",
+    "gbs",
+    "electrolyte_hypokalemia_hypophosphatemia"
+  ],
+  "reference_targets_freetext": [
+    {
+      "item": "Sensory level to pinprick and temperature on the trunk, and vibration sense in the legs",
+      "rationale": "A sensory level localizes cord compression and is the single most useful bedside finding for a myelopathy",
+      "must_have": true
+    },
+    {
+      "item": "Deep tendon reflexes in the legs, plantar responses (Babinski), and tone",
+      "rationale": "Hyperreflexia and extensor plantars indicate cord compression; areflexia points to GBS or cauda equina",
+      "must_have": true
+    },
+    {
+      "item": "Saddle sensation, anal tone on rectal exam, and bladder percussion/palpation for retention",
+      "rationale": "Saddle anesthesia, reduced anal tone, and painless retention are the red flags for cauda equina and lower cord involvement",
+      "must_have": true
+    },
+    {
+      "item": "Spinal percussion tenderness and ask whether pain is worse lying flat or at night",
+      "rationale": "Localizes the vertebral level of metastatic involvement",
+      "must_have": false
+    },
+    {
+      "item": "Ask: onset and progression, bowel or bladder change, and whether weakness is symmetric; test hip flexion strength and sit-to-stand",
+      "rationale": "Defines pattern and speed of progression; bilateral symmetric leg weakness with back pain in cancer is cord compression until proven otherwise",
+      "must_have": false
+    },
+    {
+      "item": "Ask about steroid or opioid dose changes and diuretic use",
+      "rationale": "Steroid myopathy and hypokalemia are treatable confounders in this population",
+      "must_have": false
+    }
+  ],
+  "reference_targets_mapped": [],
+  "off_bedside_acceptable": [
+    "Whole-spine MRI with contrast",
+    "Bladder scan for post-void residual",
+    "Basic metabolic panel, phosphate, magnesium",
+    "Dexamethasone and spine/oncology consult once compression suspected"
+  ],
+  "should_not_recommend": [
+    "Increasing opioids for back pain before a neurologic exam",
+    "Plain spine films as a substitute for neurologic examination",
+    "Waiting for a morning MRI slot before examining for a sensory level and retention"
+  ],
+  "underspecified_flag_expected": false,
+  "perturbation_pair": {
+    "case_id": "weakness_002_p1",
+    "changed_feature": "comorbidity: metastatic prostate cancer -> Campylobacter gastroenteritis 2 weeks ago",
+    "input_oneliner": "54M with Campylobacter gastroenteritis 2 weeks ago, admitted for dehydration, overnight says legs heavy, trouble standing, mid-back pain worse",
+    "expected_change": "GBS becomes the leading differential; reflexes (areflexia) remain must-have; single breath count or forced vital capacity for respiratory muscle strength and ask about ascending pattern and paresthesias become must-have; sensory level and spinal percussion tenderness drop to should-still-include."
+  },
+  "noise_variant": {
+    "case_id": "weakness_002_n1",
+    "changed_feature": "sign-out rewording, occupation, and room number",
+    "input_oneliner": "Bed 3-8, fifty-four year old male, retired electrician, metastatic prostate cancer in for pain management, tonight reports his legs feel heavy and he struggles to stand up, and the mid-back pain has escalated",
+    "expected_change": "None. Card should be substantially identical to base."
+  },
+  "authored_at": "",
+  "frozen_commit": ""
+}

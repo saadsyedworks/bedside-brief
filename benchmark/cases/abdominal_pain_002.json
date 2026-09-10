@@ -1,0 +1,72 @@
+{
+  "case_id": "abdominal_pain_002",
+  "presentation": "abdominal_pain",
+  "input_oneliner": "Cross-cover: 62F T2DM admitted w/ HF exacerbation, RUQ pain and vomiting x6h after dinner, T 38.4, HR 104",
+  "optional_context": {
+    "age": 62,
+    "sex": "F",
+    "comorbidity": "type 2 diabetes, heart failure",
+    "timing": "acute, post-prandial, 6 hours",
+    "objective": "T 38.4, HR 104"
+  },
+  "intended_bedside_differential": [
+    "cholecystitis",
+    "cholangitis",
+    "pancreatitis",
+    "peptic_ulcer"
+  ],
+  "reference_targets_freetext": [
+    {
+      "item": "Murphy sign (inspiratory arrest on RUQ palpation)",
+      "rationale": "Best-studied bedside finding for acute cholecystitis, though less sensitive in elderly patients",
+      "must_have": true
+    },
+    {
+      "item": "Scleral icterus and skin jaundice, plus mental status check",
+      "rationale": "Jaundice with fever and RUQ pain points to cholangitis; confusion or hypotension escalates to urgent decompression",
+      "must_have": true
+    },
+    {
+      "item": "Ask: pain character and radiation to the back, prior biliary colic, alcohol use, recent gallstones",
+      "rationale": "Band-like radiation to the back and alcohol history shift probability toward pancreatitis; prior colic toward biliary disease",
+      "must_have": true
+    },
+    {
+      "item": "Epigastric tenderness and any peritoneal signs (guarding, rigidity, percussion tenderness)",
+      "rationale": "Localizes pancreatic or ulcer pain and screens for perforation",
+      "must_have": false
+    },
+    {
+      "item": "Point-of-care ultrasound of the gallbladder for stones, wall thickening, and sonographic Murphy sign",
+      "rationale": "Bedside confirmation when available; sonographic Murphy adds to the physical Murphy sign",
+      "must_have": false
+    }
+  ],
+  "reference_targets_mapped": [],
+  "off_bedside_acceptable": [
+    "Lipase",
+    "Liver panel and bilirubin",
+    "Blood cultures",
+    "Right upper quadrant ultrasound",
+    "Lactate"
+  ],
+  "should_not_recommend": [
+    "HIDA scan or CT before Murphy sign and jaundice assessment",
+    "Withholding analgesia to preserve the abdominal exam"
+  ],
+  "underspecified_flag_expected": false,
+  "perturbation_pair": {
+    "case_id": "abdominal_pain_002_p1",
+    "changed_feature": "no jaundice -> nurse reports new scleral icterus",
+    "input_oneliner": "Cross-cover: 62F T2DM admitted w/ HF exacerbation, RUQ pain and vomiting x6h after dinner, T 38.4, HR 104, nurse notes new scleral icterus",
+    "expected_change": "Cholangitis moves to the top; mental status and blood pressure check for Reynolds pentad becomes must-have; Murphy sign drops to should-still-include; ask about prior biliary stents or ERCP rises."
+  },
+  "noise_variant": {
+    "case_id": "abdominal_pain_002_n1",
+    "changed_feature": "sign-out phrasing, family at bedside, and non-contributory detail",
+    "input_oneliner": "Sixty-two year old woman, diabetic, in for heart failure flare, daughter at bedside, developed right upper belly pain with repeated vomiting about six hours ago after her evening meal, temp 38.4, pulse 104",
+    "expected_change": "None. Card should be substantially identical to base."
+  },
+  "authored_at": "",
+  "frozen_commit": ""
+}

@@ -1,0 +1,72 @@
+{
+  "case_id": "fever_001",
+  "presentation": "fever",
+  "input_oneliner": "71F POD2 hip fracture repair, Foley in, T 38.6 overnight, mild cough, no complaints otherwise",
+  "optional_context": {
+    "age": 71,
+    "sex": "F",
+    "comorbidity": "hip fracture, post-operative",
+    "timing": "post-operative day 2, overnight",
+    "objective": "T 38.6"
+  },
+  "intended_bedside_differential": [
+    "pneumonia",
+    "uti_pyelonephritis",
+    "cellulitis_ssti",
+    "dvt"
+  ],
+  "reference_targets_freetext": [
+    {
+      "item": "Respiratory rate, oxygen saturation, and focused lung exam for crackles, bronchial breath sounds, egophony, dullness",
+      "rationale": "Abnormal vital signs plus asymmetric lung findings are the best bedside predictors of pneumonia; normal vitals and exam lower probability",
+      "must_have": true
+    },
+    {
+      "item": "Inspect surgical wound for erythema, warmth, drainage, dehiscence, and tenderness beyond the incision",
+      "rationale": "Surgical site infection is common by day 2-5 and is entirely a bedside diagnosis",
+      "must_have": true
+    },
+    {
+      "item": "Costovertebral angle tenderness and suprapubic tenderness; inspect Foley for turbidity and ask about dysuria or flank pain",
+      "rationale": "Catheter-associated UTI needs symptoms beyond bacteriuria; flank tenderness raises pyelonephritis",
+      "must_have": true
+    },
+    {
+      "item": "Calf exam for asymmetric swelling, tenderness, and warmth; measure calf circumference",
+      "rationale": "Post-operative immobility makes DVT a real cause of low-grade fever",
+      "must_have": false
+    },
+    {
+      "item": "Ask: sputum, pleuritic chest pain, chills, new medications, transfusion, and incentive spirometry use",
+      "rationale": "Directs the differential and identifies drug fever or atelectasis as alternative explanations",
+      "must_have": false
+    }
+  ],
+  "reference_targets_mapped": [],
+  "off_bedside_acceptable": [
+    "Chest X-ray",
+    "Urinalysis and urine culture",
+    "Blood cultures",
+    "Lower extremity venous duplex",
+    "CBC"
+  ],
+  "should_not_recommend": [
+    "Empiric broad-spectrum antibiotics before source exam",
+    "CT chest before lung exam and vitals"
+  ],
+  "underspecified_flag_expected": false,
+  "perturbation_pair": {
+    "case_id": "fever_001_p1",
+    "changed_feature": "operation: hip fracture repair -> sigmoid colectomy",
+    "input_oneliner": "71F POD2 sigmoid colectomy, Foley in, T 38.6 overnight, mild cough, no complaints otherwise",
+    "expected_change": "Intra-abdominal abscess or anastomotic leak enters the top differential; abdominal exam for distension, peritoneal signs, and wound inspection become must-have; lung exam stays but drops to should-still-include; ask about flatus, bowel function, and drain output rises."
+  },
+  "noise_variant": {
+    "case_id": "fever_001_n1",
+    "changed_feature": "sign-out rewording, occupation, family present",
+    "input_oneliner": "Seventy-one year old retired librarian, second day after hip fracture surgery, catheter still in, husband at bedside, spiked to 38.6 tonight, coughing a little, otherwise says she feels fine",
+    "expected_change": "None. Card should be substantially identical to base."
+  },
+  "authored_at": "",
+  "frozen_commit": ""
+}

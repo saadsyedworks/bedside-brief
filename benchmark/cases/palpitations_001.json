@@ -1,0 +1,72 @@
+{
+  "case_id": "palpitations_001",
+  "presentation": "palpitations",
+  "input_oneliner": "68F HTN and OSA, admitted for COPD exacerbation, woke with racing irregular heartbeat, HR 130s on tele, BP 132/84, no chest pain",
+  "optional_context": {
+    "age": 68,
+    "sex": "F",
+    "comorbidity": "hypertension, obstructive sleep apnea, inpatient for COPD exacerbation",
+    "timing": "acute onset overnight",
+    "objective": "HR 130s irregular on telemetry, BP 132/84"
+  },
+  "intended_bedside_differential": [
+    "atrial_fibrillation_flutter",
+    "sinus_tachycardia_secondary",
+    "svt"
+  ],
+  "reference_targets_freetext": [
+    {
+      "item": "Radial pulse regularity and apical-radial pulse deficit (irregularly irregular rhythm)",
+      "rationale": "Irregularly irregular pulse is the key bedside discriminator for AF versus regular tachycardias",
+      "must_have": true
+    },
+    {
+      "item": "Ask about abrupt versus gradual onset and whether the rate is fixed or fluctuates with activity",
+      "rationale": "AF/SVT start abruptly; secondary sinus tachycardia builds gradually and varies with rest",
+      "must_have": true
+    },
+    {
+      "item": "Ask about triggers in the last 24 h: nebulized beta-agonist and steroid doses, alcohol, caffeine, missed beta-blocker",
+      "rationale": "Identifies reversible precipitants of secondary sinus tachycardia and new-onset AF",
+      "must_have": true
+    },
+    {
+      "item": "Jugular venous pressure and lung crackles for heart failure as cause or consequence of the tachycardia",
+      "rationale": "Rapid AF can precipitate or result from decompensated HF; guides urgency of rate control",
+      "must_have": false
+    },
+    {
+      "item": "Thyroid examination and signs of thyrotoxicosis: fine tremor, warm moist skin, lid lag",
+      "rationale": "Hyperthyroidism is a common reversible cause of new AF",
+      "must_have": false
+    }
+  ],
+  "reference_targets_mapped": [],
+  "off_bedside_acceptable": [
+    "12-lead ECG",
+    "continuous telemetry review",
+    "TSH",
+    "electrolytes and magnesium",
+    "troponin"
+  ],
+  "should_not_recommend": [
+    "Empiric IV rate control or adenosine before the pulse is examined and the rhythm confirmed on a 12-lead ECG",
+    "Adenosine for a rhythm that is irregularly irregular",
+    "Cardioversion before hemodynamic status and anticoagulation status are assessed"
+  ],
+  "underspecified_flag_expected": false,
+  "perturbation_pair": {
+    "case_id": "palpitations_001_p1",
+    "changed_feature": "irregular HR 130s -> regular fixed rate of 150 on telemetry",
+    "input_oneliner": "68F HTN and OSA, admitted for COPD exacerbation, woke with racing heartbeat, HR fixed at 150 regular on tele, BP 132/84, no chest pain",
+    "expected_change": "Pulse regularity/pulse deficit drops from must_have to should-still-include (regular rhythm expected); modified Valsalva maneuver (REVERT technique) rises to must_have as a diagnostic-therapeutic test to unmask flutter waves or terminate SVT; the abrupt-onset question remains must_have."
+  },
+  "noise_variant": {
+    "case_id": "palpitations_001_n1",
+    "changed_feature": "wording and non-contributory demographic detail (occupation, room, family present)",
+    "input_oneliner": "Sixty-eight-year-old woman in room 412 (retired librarian, daughter at bedside), hypertension, sleep apnea, in for COPD flare; woke up with a fast, irregular heartbeat; tele HR 130s, BP 132/84, denies chest pain",
+    "expected_change": "None. Card should be substantially identical to base."
+  },
+  "authored_at": "",
+  "frozen_commit": ""
+}
