@@ -28,8 +28,13 @@ except Exception:  # pragma: no cover - fallback if tools/ is mid-edit by anothe
 
 Record = dict[str, Any]
 
-# Bookkeeping fields: never rendered, so their digits must not widen the validator allow-list.
-_SKIP_KEYS = frozenset({"record_version", "source_index", "extracted_at", "verified_at", "agent_id"})
+# Bookkeeping and narrative fields: never rendered, so their digits must not widen the validator
+# allow-list. extraction_notes / verification_notes routinely quote numbers that were deliberately
+# NOT entered as estimates (ORs, RRs, other cohorts); those are not verified evidence.
+_SKIP_KEYS = frozenset({
+    "record_version", "source_index", "extracted_at", "verified_at", "agent_id",
+    "extraction_notes", "verification_notes",
+})
 
 _DDL = """
 DROP TABLE IF EXISTS record_tag;
@@ -160,7 +165,8 @@ def records_matching(differentials: Iterable[str], db_path: str | Path | None = 
 
 def numbers_in_record(record: Record) -> set[str]:
     """Every numeric literal stored in the record, normalised: numeric fields (values, CI bounds,
-    prevalence, year) and digits inside any text field (quote, location, technique, citation...)."""
+    prevalence, year) and digits inside any rendered text field (quote, location, technique,
+    citation...). Keys in `_SKIP_KEYS` (bookkeeping + free-text notes) are never counted."""
     found: set[str] = set()
 
     def walk(node: Any, key: str | None = None) -> None:

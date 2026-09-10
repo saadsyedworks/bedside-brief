@@ -50,6 +50,7 @@ class ValidationResult:
     ok: bool
     violations: list[str] = field(default_factory=list)
     bad_item_ids: list[str] = field(default_factory=list)
+    bad_card_fields: list[str] = field(default_factory=list)  # card-level keys (ask_first, chief_complaint...) carrying foreign numbers
 
 
 def _leaf_strings(node: Any) -> Iterator[str]:
@@ -104,24 +105,30 @@ def validate_card(card: dict[str, Any], records_by_id: dict[str, dict[str, Any]]
                 bad_ids.append(rid)
 
     outside = {k: v for k, v in card.items() if k != "sections" and k not in _UNSCANNED_CARD_KEYS}
+    bad_fields = sorted(k for k, v in outside.items() if _numbers_in(v) - allowed_union)
     extra = sorted(_numbers_in(outside) - allowed_union)
     if extra:
-        violations.append(f"card: numbers outside items not in any linked record: {extra}")
+        violations.append(f"card: numbers outside items not in any linked record: {extra} (fields {bad_fields})")
 
     for v in violations:
         log.warning("validator: %s", v)
-    return ValidationResult(ok=not violations, violations=violations, bad_item_ids=bad_ids)
+    return ValidationResult(ok=not violations, violations=violations, bad_item_ids=bad_ids, bad_card_fields=bad_fields)
 
 
 def block(card: dict[str, Any], result: ValidationResult) -> dict[str, Any]:
-    """Replacement card with the violating items removed and a `blocked` note attached."""
+    """Replacement card with the violating items AND violating card-level fields (e.g. `ask_first`)
+    removed, plus a `blocked` note. The result always re-validates clean: nothing is re-generated."""
     blocked = copy.deepcopy(card)
     bad = set(result.bad_item_ids)
     sections = blocked.get("sections") or {}
     for section, items in sections.items():
         sections[section] = [item for item in items if item.get("id") not in bad]
+    removed_fields = [k for k in result.bad_card_fields if k in blocked]
+    for k in removed_fields:
+        del blocked[k]
     blocked["blocked"] = {
         "removed": sorted(bad),
+        "removed_fields": removed_fields,
         "violations": list(result.violations),
         "note": "Some items were withheld because their text failed the evidence check.",
     }

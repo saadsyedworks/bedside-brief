@@ -17,10 +17,12 @@ from bedside_brief.parser import ParserError, parse_oneliner  # noqa: E402
 from eval.cases import load_cases  # noqa: E402
 
 
-def main(out: Path) -> None:
+def main(out: Path, only: set[str] | None = None) -> None:
     llm = LLMClient()
     rows = []
     for ci in load_cases():
+        if only and ci.case_id not in only:
+            continue
         t0 = time.time()
         try:
             p = parse_oneliner(ci.oneliner, llm)
@@ -62,4 +64,4 @@ def main(out: Path) -> None:
 
 
 if __name__ == "__main__":
-    main(Path(sys.argv[1]))
+    main(Path(sys.argv[1]), set(sys.argv[2].split(",")) if len(sys.argv) > 2 else None)

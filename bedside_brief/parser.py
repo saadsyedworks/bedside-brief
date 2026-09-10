@@ -79,11 +79,16 @@ def system_prompt() -> str:
         "- modifiers: short qualifying phrases from the one-liner (no numbers).",
         f"- differentials: one to {config.MAX_DIFFERENTIALS} entries, each {{dx, weight}} with weight in [0, 1], most likely first, weights descending.",
         "- indication_tags: zero or more INDICATION_TAGS that apply.",
-        "- underspecified: true ONLY when the one-liner lacks the basic facts needed to rank the differentials at all "
-        "(no timing/onset, no trigger or context, no localisation — a clinician would have to ask before deciding what to examine). "
-        "A typical triage one-liner with a complaint, a time course and one or two context facts is NOT underspecified, "
-        "even though many things remain unknown. Expect false for most inputs.",
-        "- missing_features: ONLY when underspecified is true, list the 1-3 HISTORY facts (one question each) that would resolve the ambiguity. "
+        "- underspecified: judge the PRESENTING COMPLAINT, not the patient background. True when the complaint itself is "
+        "uncharacterised: no onset or time course of the symptom, no trigger or positional/exertional context, and no character "
+        "or localisation - so you cannot rank the differentials better than the base rate for that presentation. "
+        "Age, ward, admission diagnosis, comorbidity, devices and routine vitals are BACKGROUND: they do not make a vague "
+        "complaint specified. False as soon as the complaint itself carries an onset, a trigger, a character, a localisation, "
+        "or an associated symptom, even if much else is unknown.",
+        "Example true: '80M admitted yesterday for cellulitis, nurse says he seems off tonight, no other details' "
+        "(rich background, but 'off' is uncharacterised). "
+        "Example false: '58F post-op day 1, sudden sharp pain worse on inspiration' (onset, character and trigger given).",
+        "- missing_features: ONLY when underspecified is true, list the 1-3 HISTORY questions that would characterise the complaint. "
         "Never list exam findings, labs, or imaging here; when underspecified is false this must be an empty list.",
         "Reply with the JSON object only.",
     ]
