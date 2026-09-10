@@ -1,0 +1,222 @@
+{
+ "identity": {
+  "id": "pocus_lung_consolidation",
+  "title": "POCUS lung: subpleural consolidation with air bronchograms / hepatization (+/- focal B-lines) for pneumonia",
+  "type": "pocus",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "chest_pain",
+   "fever"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "acute_decompensated_hf",
+   "pleural_effusion",
+   "pneumonia",
+   "pulmonary_embolism"
+  ],
+  "indication_tags": [
+   "febrile",
+   "unilateral"
+  ]
+ },
+ "technique": {
+  "how": "With a 3.5-5 MHz microconvex or curvilinear probe scan anterior, lateral and posterior zones of each hemithorax (at least 8-12 regions), longitudinally across rib spaces. Look for a subpleural hypoechoic tissue-like (hepatized) area with irregular deep border (shred sign), hyperechoic punctate or linear air bronchograms, possibly focal B-lines or a small effusion.",
+  "prerequisites": "Patient positioned to allow posterior views (sit up or roll); operator trained in lung ultrasound.",
+  "contraindications": "None absolute; chest wall wounds, dressings or subcutaneous emphysema limit windows."
+ },
+ "interpretation": {
+  "positive_finding": "A subpleural consolidation with air bronchograms strongly supports pneumonia (pooled LR+ ~17; single multicentre study LR+ 40). Bilateral diffuse B-lines without consolidation point instead to cardiogenic edema.",
+  "negative_finding": "A normal lung ultrasound makes pneumonia unlikely (pooled LR- 0.07), but about 8% of pneumonic lesions do not reach the pleura and are missed.",
+  "pitfalls": "Atelectasis, contusion, infarction from PE, and tumour can all appear as consolidation; dynamic air bronchograms favour pneumonia over obstructive atelectasis. Deep or central infiltrates not touching the pleura are invisible.",
+  "changes_what": "Positive: treat as pneumonia and look for effusion/complications; negative in a low-probability patient: pursue HF, PE or other causes before empiric antibiotics."
+ },
+ "estimates": [
+  {
+   "target_condition": "Pneumonia (LUS positive = consolidation per included study criteria)",
+   "population": "Adults with suspected pneumonia; 10 studies, n=1172 (6 ED/hospital ward, 4 ICU); LUS by highly skilled sonographers in 7 studies",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Chest radiograph and/or chest CT, with or without clinical criteria, per included study",
+   "sensitivity": {
+    "value": 0.94,
+    "ci_low": 0.92,
+    "ci_high": 0.96
+   },
+   "specificity": {
+    "value": 0.96,
+    "ci_low": 0.94,
+    "ci_high": 0.97
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "both",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "Pooled sensitivity and specificity for the diagnosis of pneumonia using LUS were 94% (95% CI, 92%-96%) and 96% (94%-97%), respectively",
+   "location": "Abstract, Results; full text (PMC4005846) Results 'Overall meta-analysis' and Figure 2"
+  },
+  {
+   "target_condition": "Pneumonia (same pooled analysis as above — likelihood-ratio entry, split only to respect the quote cap)",
+   "population": "Adults with suspected pneumonia; 10 studies, n=1172 (6 ED/hospital ward, 4 ICU); LUS by highly skilled sonographers in 7 studies",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Chest radiograph and/or chest CT, with or without clinical criteria, per included study",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 16.8,
+    "ci_low": 7.7,
+    "ci_high": 37.0
+   },
+   "lr_negative": {
+    "value": 0.07,
+    "ci_low": 0.05,
+    "ci_high": 0.1
+   },
+   "computed": false,
+   "interpretation_label": "both",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "pooled positive and negative LRs were 16.8 (7.7-37.0) and 0.07 (0.05-0.10), respectively",
+   "location": "Abstract, Results; full text (PMC4005846) Results 'Overall meta-analysis' and Figure 2"
+  },
+  {
+   "target_condition": "Pneumonia (LUS consolidation) — ED and medical ward subgroup",
+   "population": "6 studies of patients admitted to EDs or medical wards with suspected pneumonia",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Chest radiograph and/or chest CT, with or without clinical criteria, per included study",
+   "sensitivity": {
+    "value": 0.95,
+    "ci_low": 0.93,
+    "ci_high": 0.97
+   },
+   "specificity": {
+    "value": 0.94,
+    "ci_low": 0.91,
+    "ci_high": 0.97
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "both",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "patients admitted to EDs or medical wards, LUS had a pooled sensitivity of 95% (95% CI, 93% to 97%) and pooled specificity of 94% (95% CI, 91% to 97%)",
+   "location": "Full text (PMC4005846), Results, 'Subgroup analysis by patient type and physician training'"
+  },
+  {
+   "target_condition": "Pneumonia (LUS consolidation) — operators were trained ED physicians or general practitioners (non-expert)",
+   "population": "2 studies in which ED physicians or GPs performed LUS after brief training",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Chest radiograph and/or chest CT, with or without clinical criteria, per included study",
+   "sensitivity": {
+    "value": 0.93,
+    "ci_low": 0.85,
+    "ci_high": 0.97
+   },
+   "specificity": {
+    "value": 0.92,
+    "ci_low": 0.84,
+    "ci_high": 0.96
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "both",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "used ED physicians or general practitioners (n = 2), LUS had a pooled sensitivity of 93% (95% CI, 85% to 97%) and pooled specificity of 92% (95% CI, 84% to 96%)",
+   "location": "Full text (PMC4005846), Results, 'Subgroup analysis by patient type and physician training'"
+  },
+  {
+   "target_condition": "Community-acquired pneumonia (LUS-positive infiltrate; 86.7% showed air bronchogram)",
+   "population": "362 patients with suspected CAP, 14 European centres, prospective; CAP confirmed in 229 (63.3%)",
+   "setting": "mixed",
+   "prevalence": 0.633,
+   "reference_standard": "Chest radiograph in two planes, or low-dose CT when radiograph inconclusive/negative with positive LUS",
+   "sensitivity": {
+    "value": 0.934,
+    "ci_low": 0.892,
+    "ci_high": 0.963
+   },
+   "specificity": {
+    "value": 0.977,
+    "ci_low": 0.934,
+    "ci_high": 0.996
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "both",
+   "evidence_level": "validation_cohort",
+   "source_index": 1,
+   "quote": "LUS revealed a sensitivity of 93.4% (95% CI, 89.2%-96.3%), specificity of 97.7% (95% CI, 93.4%-99.6%)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Community-acquired pneumonia (same Reissig 2012 cohort — likelihood-ratio entry, split only to respect the quote cap)",
+   "population": "362 patients with suspected CAP, 14 European centres, prospective; CAP confirmed in 229 (63.3%)",
+   "setting": "mixed",
+   "prevalence": 0.633,
+   "reference_standard": "Chest radiograph in two planes, or low-dose CT when radiograph inconclusive/negative with positive LUS",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 40.5,
+    "ci_low": 13.2,
+    "ci_high": 123.9
+   },
+   "lr_negative": {
+    "value": 0.07,
+    "ci_low": 0.04,
+    "ci_high": 0.11
+   },
+   "computed": false,
+   "interpretation_label": "both",
+   "evidence_level": "validation_cohort",
+   "source_index": 1,
+   "quote": "likelihood ratios (LRs) of 40.5 (95% CI, 13.2-123.9) for positive and 0.07 (95% CI, 0.04-0.11) for negative results",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Chavez MA, Shams N, Ellington LE, Naithani N, Gilman RH, Steinhoff MC, Santosham M, Black RE, et al. Lung ultrasound for the diagnosis of pneumonia in adults: a systematic review and meta-analysis. Respir Res. 2014.",
+   "doi": "10.1186/1465-9921-15-50",
+   "pmid": "24758612",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2014
+  },
+  {
+   "citation": "Reissig A, Copetti R, Mathis G, Mempel C, Schuler A, Zechner P, Aliberti S, Neumann R, et al. Lung ultrasound in the diagnosis and follow-up of community-acquired pneumonia: a prospective, multicenter, diagnostic accuracy study. Chest. 2012.",
+   "doi": "10.1378/chest.12-0364",
+   "pmid": "22700780",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2012
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use a negative scan to withhold antibiotics in a septic or immunocompromised patient with high pretest probability; central infiltrates are missed.",
+  "escalation_warning": "Consolidation with large effusion, hypoxia or hemodynamic instability warrants urgent imaging and sepsis management; consider empyema or necrotizing pneumonia.",
+  "interobserver_note": "Meta-analysis notes most studies used self-reported expert sonographers; ED/GP-operator subgroup performed slightly worse (sens 93%, spec 92%). No kappa reported in the abstract.",
+  "skill_assumption": "Operator trained in lung ultrasound (studies used experts with >=100 exams or >10 years, or ED physicians after ~6 hours of training); systematic multi-zone protocol including posterior chest."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Pooled estimate from the abstract and PMC open-access full text of Chavez 2014; sens/spec and LR rows are split into paired entries (same analysis) because one verbatim quote holding all four numbers with CIs exceeds the quote cap; the same applies to the Reissig 2012 rows. Positive LUS criterion in 9/10 included studies was 'consolidation' (Table 3 of full text); one study used 'alveolar and interstitial' findings, so the title's air-bronchogram/hepatization definition is close but not identical. Reissig 2012 is the largest prospective primary study (cited as source 1); its abstract also reports '86.7% (183 of 211) an air bronchogram' and '97.6% (205 of 211) of patients with CAP showed breath-dependent motion of infiltrates' (Abstract, Results). Reissig full text was not retrievable via PMC. Chavez abstract: AUC 0.99 (0.98-0.99); ICU subgroup (4 studies) sens 93% (89-95), spec 97% (95-98) (full text, subgroup paragraph) not entered as a separate estimate to limit duplication.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T02:42:19+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

@@ -1,0 +1,257 @@
+{
+ "identity": {
+  "id": "exam_shock_index",
+  "title": "Shock index (HR / SBP >= 0.9-1.0)",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "syncope",
+   "hypotension",
+   "abdominal_pain",
+   "fever"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "aaa",
+   "hypovolemic_hemorrhagic_shock",
+   "pulmonary_embolism",
+   "septic_shock"
+  ],
+  "indication_tags": [
+   "trauma",
+   "anticoagulated"
+  ]
+ },
+ "technique": {
+  "how": "Divide the heart rate (beats/min) by the systolic blood pressure (mmHg) from the first set of triage vital signs; normal is roughly 0.5-0.7. Record the threshold used (>0.9 or >=1.0) and recalculate with each new set of vitals to follow the trend.",
+  "prerequisites": "Accurate HR and SBP; note beta-blockers, calcium-channel blockers, pacemakers and baseline hypertension.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "SI >0.9 in trauma has specificity ~94% for hemorrhage needing hemostasis (LR+ ~8.5 computed) and SI >=1.0 in suspected infection is the most specific vital-sign predictor of hyperlactatemia (spec 0.81); an elevated SI flags occult shock when HR and SBP each look acceptable.",
+  "negative_finding": "A normal SI does not exclude bleeding or sepsis (sensitivity 55% for hemorrhage at >0.9; 48% for lactate >=4 at >=1.0); lowering the threshold to 0.7-0.8 improves sensitivity at the cost of specificity.",
+  "pitfalls": "Beta-blockade, pacing, hypertension and age blunt the index; pain, anxiety, fever, and anemia raise it without shock. A single value is less informative than the trend.",
+  "changes_what": "Elevated SI: escalate to resuscitation, early lactate, source/bleeding search and transfusion readiness; normal SI: do not de-escalate on this alone."
+ },
+ "estimates": [
+  {
+   "target_condition": "Hemorrhage requiring hemostasis intervention after trauma — SI >0.9 (initial hospital vitals)",
+   "population": "4277 adult (>16 y) trauma patients at a single trauma centre over 11 years; traumatic brain injury and transfers excluded; retrospective",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "Bleeding requiring intervention for hemostasis (study definition; the Koch 2019 review summarises it as >=2 units PRBC in 24 h)",
+   "sensitivity": {
+    "value": 0.545,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.936,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 8.52,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.49,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "interpretation_label": "rule_in",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "using the standard SI cutoff of >0.9 as the threshold for bleeding, the sensitivity is 54.5%, with a specificity of 93.6%",
+   "location": "Abstract, Results",
+   "computed_from": "LR+ = 0.545/(1-0.936) = 8.52; LR- = (1-0.545)/0.936 = 0.49; from reported sensitivity 54.5% and specificity 93.6%"
+  },
+  {
+   "target_condition": "Hemorrhage requiring hemostasis intervention after trauma — SI >=0.8 (lowered threshold)",
+   "population": "4277 adult (>16 y) trauma patients at a single trauma centre over 11 years; traumatic brain injury and transfers excluded; retrospective",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "Bleeding requiring intervention for hemostasis (study definition; the Koch 2019 review summarises it as >=2 units PRBC in 24 h)",
+   "sensitivity": {
+    "value": 0.761,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.874,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 6.04,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.27,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "interpretation_label": "both",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "Lowering the SI to ≥0.8 increases the sensitivity to 76.1%, with a specificity of 87.4%",
+   "location": "Abstract, Results",
+   "computed_from": "LR+ = 0.761/(1-0.874) = 6.04; LR- = (1-0.761)/0.874 = 0.27; from reported sensitivity 76.1% and specificity 87.4%"
+  },
+  {
+   "target_condition": "Hyperlactatemia (lactate >=4.0 mmol/L) in ED patients with suspected infection — SI >=1.0 at triage",
+   "population": "2524 adult ED patients with suspected infection screened for severe sepsis; retrospective; hyperlactatemia in 290 (11.5%)",
+   "setting": "ED",
+   "prevalence": 0.115,
+   "reference_standard": "Initial serum lactate >=4.0 mmol/L (hyperlactatemia as surrogate for severe sepsis)",
+   "sensitivity": {
+    "value": 0.48,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.81,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 2.53,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.64,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "Sensitivity  0.48  0.78  0.83  0.63    Specificity  0.81  0.52  0.42  0.54",
+   "location": "Full text (PMC), Table 3 'Performance of predictors for hyperlactatemia', column SI ≥ 1.0",
+   "computed_from": "LR+ = 0.48/(1-0.81) = 2.53; LR- = (1-0.48)/0.81 = 0.64; from Table 3 sensitivity 0.48, specificity 0.81 (SI ≥1.0 column)"
+  },
+  {
+   "target_condition": "Hyperlactatemia (lactate >=4.0 mmol/L) in ED patients with suspected infection — SI >=0.7 at triage",
+   "population": "2524 adult ED patients with suspected infection screened for severe sepsis; retrospective; hyperlactatemia in 290 (11.5%)",
+   "setting": "ED",
+   "prevalence": 0.115,
+   "reference_standard": "Initial serum lactate >=4.0 mmol/L (hyperlactatemia as surrogate for severe sepsis)",
+   "sensitivity": {
+    "value": 0.83,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.42,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 1.43,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.4,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "Sensitivity  0.48  0.78  0.83  0.63    Specificity  0.81  0.52  0.42  0.54",
+   "location": "Full text (PMC), Table 3 'Performance of predictors for hyperlactatemia', column SI ≥ 0.7",
+   "computed_from": "LR+ = 0.83/(1-0.42) = 1.43; LR- = (1-0.83)/0.42 = 0.40; from Table 3 sensitivity 0.83, specificity 0.42 (SI ≥0.7 column)"
+  },
+  {
+   "target_condition": "Ruptured ectopic pregnancy (hemoperitoneum) — SI (HR/SBP) >0.7 at presentation; case-control design",
+   "population": "52 ED patients with ectopic pregnancy (25 ruptured, 27 unruptured); retrospective case-control",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "Tubal rupture/hemoperitoneum at surgery",
+   "sensitivity": {
+    "value": 0.72,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.67,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 2,
+   "quote": "sensitivity for heart rate, systolic blood pressure, and heart rate/systolic blood pressure was 28%, 36%, and 72% respectively; the specificity was 96%, 96%, and 67%",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "DeMuro JP, Simmons S, Jax J, Gianelli SM. Application of the Shock Index to the prediction of need for hemostasis intervention. Am J Emerg Med. 2013.",
+   "doi": "10.1016/j.ajem.2013.05.027",
+   "pmid": "23806728",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2013
+  },
+  {
+   "citation": "Berger T, Green J, Horeczko T, Hagar Y, Garg N, Suarez A, Panacek E, Shapiro N. Shock index and early recognition of sepsis in the emergency department: pilot study. West J Emerg Med. 2013.",
+   "doi": "10.5811/westjem.2012.8.11546",
+   "pmid": "23599863",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2013
+  },
+  {
+   "citation": "Birkhahn RH, Gaeta TJ, Van Deusen SK, Tloczkowski J. The ability of traditional vital signs and shock index to identify ruptured ectopic pregnancy. Am J Obstet Gynecol. 2003.",
+   "doi": "10.1067/s0002-9378(03)00663-x",
+   "pmid": "14634556",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2003
+  },
+  {
+   "citation": "Koch E, Lovett S, Nghiem T, Riggs RA, Rech MA. Shock index in the emergency department: utility and limitations. Open Access Emerg Med. 2019.",
+   "doi": "10.2147/OAEM.S178358",
+   "pmid": "31616192",
+   "url": null,
+   "kind": "consensus",
+   "year": 2019
+  },
+  {
+   "citation": "Mutschler M, Nienaber U, Münzberg M, Wölfl C, Schoechl H, Paffrath T, Bouillon B, Maegele M, et al. The Shock Index revisited - a fast guide to transfusion requirement? A retrospective analysis on 21,853 patients derived from the TraumaRegister DGU. Crit Care. 2013.",
+   "doi": "10.1186/cc12851",
+   "pmid": "23938104",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2013
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not rely on SI in patients on beta-blockers or with pacemakers, in pregnancy beyond the first trimester, or in children (use age-adjusted SIPA).",
+  "escalation_warning": "SI >=1.0 with a bleeding source, suspected AAA, PE or infection indicates shock and warrants immediate resuscitation, senior review and ICU-level care.",
+  "interobserver_note": "Derived from measured vitals; variation comes from measurement timing and technique rather than observer judgement."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Primary cohorts were traced through the Koch 2019 narrative review (source 3, used as an index only; tagged consensus for lack of a closer kind). DeMuro 2013 (trauma) and Berger 2013 (suspected infection) give sensitivity/specificity for the title thresholds; LRs are computed from those pairs and flagged computed=true. The Berger quote is the verbatim Table 3 row (columns in order: SI ≥1.0, SIRS, SI ≥0.7, SIRS without WBC). Birkhahn 2003 is a case-control study, so no prevalence is entered; ectopic pregnancy is not in vocab.json and is included only because ruptured ectopic is a hemorrhagic-shock cause in women with abdominal pain/syncope. Prognostic data not entered as diagnostic: Berger Table 4 28-day mortality (SI ≥1.0 sensitivity 0.37, specificity 0.8); Mutschler 2013 (n=21,853) mortality rose from 10.9% (SI <0.6) to 39.8% (SI ≥1.4) and '31% in group III and 57% in group IV required ≥10 blood units' (Abstract, Results) — PROGNOSTIC strata, not accuracy. DeMuro abstract: geriatric subgroup 'SI is more specific in the older patients' without numbers.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T02:42:19+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

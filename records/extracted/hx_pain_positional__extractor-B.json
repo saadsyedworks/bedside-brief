@@ -1,0 +1,97 @@
+{
+ "identity": {
+  "id": "hx_pain_positional",
+  "title": "Pain that is positional (changes with posture; relieved leaning forward = pericarditis; ACS negative)",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "chest_pain"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "acs",
+   "esophageal_gerd",
+   "musculoskeletal_chest_wall",
+   "pericarditis"
+  ],
+  "indication_tags": [
+   "positional"
+  ]
+ },
+ "technique": {
+  "how": "Ask whether the pain changes with body position, movement, twisting or breathing, and specifically whether lying flat worsens and sitting up or leaning forward eases it. Distinguish this from exertional pain and from pain reproduced by palpation, which are recorded separately.",
+  "prerequisites": "Patient able to describe pain; ask before analgesia when possible.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Positional chest pain argues AGAINST myocardial infarction (LR 0.3 in the JAMA RCE; 0.2-0.3 across reviews) and favours pericarditis, musculoskeletal or esophageal causes; relief on sitting forward with worsening supine is the characteristic pericarditis pattern in ESC guidance.",
+  "negative_finding": "Non-positional pain slightly increases ACS probability but is non-specific; the absence of positional change does not exclude pericarditis or chest-wall pain.",
+  "pitfalls": "An LR of 0.3 does not exclude ACS in a high-pretest patient, and post-infarction pericarditis and dissection can both be positional. Patient descriptions are inconsistent and the finding was defined variably across studies.",
+  "changes_what": "Positional pain lowers ACS probability but does not obviate ECG/troponin; sitting-forward relief prompts ECG for PR depression/ST elevation and echo for effusion."
+ },
+ "estimates": [
+  {
+   "target_condition": "Acute myocardial infarction — finding PRESENT = positional chest pain",
+   "population": "Adults presenting with acute chest pain; studies summarised in the JAMA RCE (mostly ED cohorts)",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "Myocardial infarction by serial ECG and cardiac enzymes per included studies",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 0.3,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "positional chest pain (LR, 0.3)",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Panju AA, Hemmelgarn BR, Guyatt GH, Simel DL. The rational clinical examination. Is this patient having a myocardial infarction? JAMA. 1998.",
+   "doi": "10.1001/jama.280.14.1256",
+   "pmid": "9786377",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1998
+  },
+  {
+   "citation": "Swap CJ, Nagurney JT. Value and limitations of chest pain history in the evaluation of patients with suspected acute coronary syndromes. JAMA. 2005.",
+   "doi": "10.1001/jama.294.20.2623",
+   "pmid": "16304077",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2005
+  },
+  {
+   "citation": "Adler Y, Charron P, Imazio M, Badano L, Barón-Esquivias G, Bogaert J, Brucato A, Gueret P, et al. 2015 ESC Guidelines for the diagnosis and management of pericardial diseases. Eur Heart J. 2015.",
+   "doi": "10.1093/eurheartj/ehv318",
+   "pmid": "26320112",
+   "url": null,
+   "kind": "guideline",
+   "year": 2015
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use positional pain to withhold ECG and troponin in patients with risk factors, exertional component, or hemodynamic instability.",
+  "escalation_warning": "Positional pain with fever, pericardial rub, hypotension or a large effusion on POCUS needs urgent evaluation for tamponade or purulent pericarditis.",
+  "interobserver_note": "Definitions of 'positional' varied between primary studies; no reliability coefficient reported in the RCE abstract."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Only a point LR (0.3, no CI) is available from the Panju 1998 RCE abstract; the JAMA full text (table with sens/spec and primary-study attribution) is not open access, so status is partially_quantified. Swap & Nagurney 2005 report positional pain among features with 'likelihood ratios [LRs] 0.2-0.3' (Abstract, Results); that is a range and is not entered as a point value. Their article is a JAMA clinical review (systematic literature review, not a formal meta-analysis) and is tagged meta_analysis for lack of a closer kind. Direction check: LR+ 0.3 <1 and interpretation states the finding argues against MI, consistent. Pericarditis: relief on sitting forward is part of the ESC 2015 clinical criteria (typical pericarditic chest pain); no diagnostic-accuracy estimate for this feature was found (PubMed record has no abstract; criterion from recall, unverified recall).",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T02:42:19+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

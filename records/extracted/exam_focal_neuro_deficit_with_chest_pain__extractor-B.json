@@ -1,0 +1,122 @@
+{
+ "identity": {
+  "id": "exam_focal_neuro_deficit_with_chest_pain",
+  "title": "Focal neurologic deficit (limb weakness, aphasia, Horner) accompanying chest/back pain",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "chest_pain",
+   "syncope",
+   "weakness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "aortic_dissection",
+   "stroke"
+  ],
+  "indication_tags": [
+   "acute_onset"
+  ]
+ },
+ "technique": {
+  "how": "In any patient with acute chest, back or abdominal pain, perform a brief screening neurologic exam: speech, facial symmetry, pronator drift and grip in both arms, leg strength, sensation, and pupils (Horner). Note any deficit that is new, fluctuating, or accompanied by pain, and check bilateral arm blood pressures and pulses at the same time.",
+  "prerequisites": "Patient able to cooperate; compare with baseline function.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "A focal neurologic deficit in a patient with acute chest or back pain raises the probability of aortic dissection (pooled LR+ 4.4, specificity 95%), and the combination of stroke syndrome with pain should prompt aortic imaging before thrombolysis.",
+  "negative_finding": "Most dissections have no neurologic deficit (pooled sensitivity ~17%), so its absence does not lower the probability meaningfully.",
+  "pitfalls": "Deficits may be transient (syncope, paraparesis from spinal ischemia) or missed if pain dominates; stroke without pain is far more often primary cerebrovascular disease. Painless dissection presenting as stroke occurs and is a thrombolysis hazard.",
+  "changes_what": "Present: treat as high-risk for dissection and obtain CT angiography of the aorta urgently; absent: does not change dissection probability."
+ },
+ "estimates": [
+  {
+   "target_condition": "Acute aortic dissection — finding PRESENT = neurologic deficit",
+   "population": "ED patients evaluated for suspected acute aortic dissection; 3 pooled studies (I2 0%); dissection prevalence across the 9 review studies ranged 21.9%-76.1%",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "Advanced imaging (CT/MR/TEE), surgery or autopsy per included study",
+   "sensitivity": null,
+   "specificity": {
+    "value": 0.95,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 4.4,
+    "ci_low": 3.3,
+    "ci_high": 5.7
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "neurologic deficit (n = 3, specificity = 95%, positive likelihood ratio [LR+] = 4.4, 95% confidence interval [CI] = 3.3-5.7, I2 = 0%)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Acute thoracic aortic dissection — finding PRESENT = focal neurological deficit (sensitivity only; case series of confirmed dissection)",
+   "population": "Pooled from 21 studies of >=18 consecutive patients with confirmed thoracic aortic dissection (1966-2000)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Confirmed thoracic aortic dissection (imaging, surgery or autopsy)",
+   "sensitivity": {
+    "value": 0.17,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "pooled",
+   "source_index": 1,
+   "quote": "17% have focal neurological deficits",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Ohle R, Kareemi HK, Wells G, Perry JJ. Clinical Examination for Acute Aortic Dissection: A Systematic Review and Meta-analysis. Acad Emerg Med. 2018.",
+   "doi": "10.1111/acem.13360",
+   "pmid": "29265487",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2018
+  },
+  {
+   "citation": "Klompas M. Does this patient have an acute thoracic aortic dissection? JAMA. 2002.",
+   "doi": "10.1001/jama.287.17.2262",
+   "pmid": "11980527",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2002
+  },
+  {
+   "citation": "Hagan PG, Nienaber CA, Isselbacher EM, Bruckman D, Karavite DJ, Russman PL, Evangelista A, Fattori R, et al. The International Registry of Acute Aortic Dissection (IRAD): new insights into an old disease. JAMA. 2000.",
+   "doi": "10.1001/jama.283.7.897",
+   "pmid": "10685714",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2000
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use absence of deficit to exclude dissection; do not give thrombolysis for stroke with chest/back pain until the aorta is imaged.",
+  "escalation_warning": "Any new focal deficit with chest/back pain, pulse deficit, or hypotension is a surgical emergency; activate CT angiography and vascular/cardiothoracic surgery immediately.",
+  "interobserver_note": "Neurologic deficit definitions varied between studies (any focal deficit, stroke, paraparesis); no kappa reported in the abstracts."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Ohle 2018 abstract gives specificity 95% and LR+ 4.4 (3.3-5.7) but not sensitivity; Klompas 2002 abstract gives pooled sensitivity 17% and an LR+ RANGE 6.6-33.0 (not entered as a point value per the ranges rule). Neither source is open access, so tables could not be inspected and no single estimate has a full sens/spec or LR pair; status is partially_quantified. Direction: LR+ >1 and finding argues FOR dissection, consistent with interpretation. Sensitivity is not derived from the LR. Hagan 2000 (IRAD, n=464) is cited for context only: the abstract reports pulse deficit in 15.1% and aortic regurgitation in 31.6% (Abstract, Results) and does not give the neurologic-deficit frequency. Ohle abstract also: hypotension LR+ 2.9 (1.8-4.6), specificity 95%; AHA ADD score <1 LR- 0.22 (0.15-0.33), sensitivity 91% (Abstract, Results).",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T02:42:19+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

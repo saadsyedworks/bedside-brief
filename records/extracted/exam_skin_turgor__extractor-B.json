@@ -1,0 +1,123 @@
+{
+ "identity": {
+  "id": "exam_skin_turgor",
+  "title": "Skin turgor decreased (slow recoil of pinched skin, subclavicular or forearm)",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "hypotension",
+   "aki",
+   "dizziness",
+   "ams"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "hyponatremia",
+   "hypovolemic_hemorrhagic_shock",
+   "orthostatic_hypotension",
+   "prerenal_hypovolemia"
+  ],
+  "indication_tags": [
+   "elderly"
+  ]
+ },
+ "technique": {
+  "how": "Pinch a fold of skin between thumb and forefinger for 2–3 s, release, and time its return to flat. Use the subclavicular area or sternum (forearm/dorsum of hand is least reliable in older adults); slow return or persistent 'tenting' is decreased turgor.",
+  "prerequisites": "Compare with the patient's baseline if known; note age, edema and weight loss.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Slow recoil is traditionally read as volume depletion, but in adults it has no proven diagnostic value (JAMA RCE) and in older adults no physical sign reached basic diagnostic accuracy for dehydration. Do not rule hypovolemia in on turgor.",
+  "negative_finding": "Normal turgor does not exclude hypovolemia. Use postural pulse increment ≥30/min, dry axilla, and BUN/creatinine or serum osmolality instead.",
+  "pitfalls": "Age-related loss of elastin causes tenting without dehydration; edema and obesity mask reduced turgor. Reference standards differ (plasma osmolality vs clinical rating), and older-adult studies used a dichotomous 'poor turgor' judgment.",
+  "changes_what": "Neither result should change fluid decisions alone; if hypovolemia is suspected, check postural vitals, axillary moisture and BUN/creatinine or osmolality."
+ },
+ "estimates": [
+  {
+   "target_condition": "Water-loss dehydration (plasma osmolality >295 mOsm/kg) — 'poor skin turgor' among 7 dichotomous physical signs; sensitivity/specificity for turgor not separable from the abstract",
+   "population": "130 older adults (mean age 78 y) with any primary diagnosis assessed within 30 min of hospital admission, UK",
+   "setting": "mixed",
+   "prevalence": 0.21,
+   "reference_standard": "Plasma osmolality >295 mOsm/kg (water-loss) and BUN:creatinine ratio >20 (water-and-solute-loss)",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "computed_from": "",
+   "interpretation_label": "minimal",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "with 21% of participants classified with water-loss dehydration (plasma osmolality >295 mOsm/kg)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Current low-intake dehydration (serum osmolality >300 mOsm/kg) — skin turgor among 49 signs/symptoms; individual turgor accuracy not in abstract (reported only as not usefully discriminating)",
+   "population": "188 consecutively recruited care-home residents ≥65 y without cardiac or renal failure, UK (DRIE)",
+   "setting": "outpatient",
+   "prevalence": 0.2,
+   "reference_standard": "Serum osmolality >300 mOsm/kg (current) / ≥295 mOsm/kg (impending), double-blind assessment",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "computed_from": "",
+   "interpretation_label": "minimal",
+   "evidence_level": "single_study",
+   "source_index": 2,
+   "quote": "Although 20% of residents had current low-intake dehydration and a further 28% impending dehydration, none of the commonly used clinical signs and symptoms usefully discriminated",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "McGee S, Abernethy WB, Simel DL. The rational clinical examination. Is this patient hypovolemic? JAMA 1999.",
+   "doi": "10.1001/jama.281.11.1022",
+   "pmid": "10086438",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1999
+  },
+  {
+   "citation": "Fortes MB, Owen JA, Raymond-Barker P, Bishop C, Elghenzai S, Oliver SJ et al. Is this elderly patient dehydrated? Diagnostic accuracy of hydration assessment using physical signs, urine, and saliva markers. Journal of the American Medical Directors Association 2016.",
+   "doi": "10.1016/j.jamda.2014.09.012",
+   "pmid": "25444573",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2016
+  },
+  {
+   "citation": "Bunn DK, Hooper L. Signs and Symptoms of Low-Intake Dehydration Do Not Work in Older Care Home Residents-DRIE Diagnostic Accuracy Study. Journal of the American Medical Directors Association 2020.",
+   "doi": "10.1016/j.jamda.2019.01.122",
+   "pmid": "30872081",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2020
+  },
+  {
+   "citation": "Gross CR, Lindquist RD, Woolley AC, Granieri R, Allard K, Webster B. Clinical indicators of dehydration severity in elderly patients. The Journal of emergency medicine 1992.",
+   "doi": "10.1016/0736-4679(92)90331-m",
+   "pmid": "1624737",
+   "url": null,
+   "kind": "primary_study",
+   "year": 1992
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use turgor to decide fluid resuscitation in hypotension or AKI; use hemodynamics, postural vitals and labs.",
+  "escalation_warning": "Hypotension with suspected hypovolemia: resuscitate and search for bleeding or sepsis regardless of turgor.",
+  "interobserver_note": "Interobserver reliability for skin turgor was not reported in the sources reviewed; the RCE states poor skin turgor has no proven diagnostic value in adults (Abstract, PMID 10086438)."
+ },
+ "tier": "extracted",
+ "extraction_notes": "RCE anchor PMID 10086438 confirmed; JAMA 1999 has no PMC body text, and the abstract states only that \"the capillary refill time and poor skin turgor have no proven diagnostic value\" (Abstract) without turgor sens/spec, so the RCE table values could not be extracted. Primary ED study Gross 1992 (PMID 1624737, cited by the RCE) abstract reports correlations, no 2x2 for turgor. Two later prospective diagnostic-accuracy studies were located: Fortes 2015 JAMDA (PMID 25444573) — abstract: \"All physical signs showed poor sensitivity (0%-44%) for detecting either form of dehydration\" (Abstract, Results) — a RANGE across 7 signs, not entered; and DRIE 2020 (PMID 30872081) — no turgor-specific number in abstract; neither has PMC body text (pmc check: no PMCID), so per-sign tables were not accessible. Cochrane review Hooper 2015 (PMID 25924806, PMC7097739) has no OA body text. Estimates therefore carry only cohort prevalences with null accuracy fields; status partially_quantified. Net evidence direction: skin turgor does not usefully discriminate dehydration/hypovolemia in adults, especially older adults.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T02:42:33+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

@@ -1,0 +1,72 @@
+{
+ "identity": {
+  "id": "exam_bladder_percussion_palpable",
+  "title": "Suprapubic palpation / percussion for distended bladder; LUTS and prostate history",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "aki",
+   "ams",
+   "abdominal_pain",
+   "weakness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "cauda_equina",
+   "delirium_infectious",
+   "obstruction_retention",
+   "urinary_retention"
+  ],
+  "indication_tags": [
+   "elderly",
+   "new_medication",
+   "post_operative"
+  ]
+ },
+ "technique": {
+  "how": "Patient supine: percuss from the umbilicus toward the pubis for a dome of suprapubic dullness and palpate for a smooth, tense, tender midline mass rising from the pelvis that provokes urge. Ask about LUTS, straining, dribbling, hematuria, prostate disease, anticholinergic/opioid use and time since last void; confirm with bladder scan or catheter volume.",
+  "prerequisites": "Attempt to void first when able; know time of last void.",
+  "contraindications": "Avoid deep palpation over fresh lower abdominal incisions."
+ },
+ "interpretation": {
+  "positive_finding": "A palpable or percussible bladder above the pubis with inability to void indicates retention — catheterize and measure volume. This is a treatable cause of AKI, delirium and abdominal pain.",
+  "negative_finding": "A non-palpable bladder does not exclude retention: obesity, smaller volumes and silent postoperative or opioid-related distension are missed. Obtain a bladder scan or post-void residual when retention is plausible.",
+  "pitfalls": "Postoperative bladder volume >500 mL was present in 44% at recovery-room discharge, and 54% of those without symptoms of distension could not void within 30 min (PMID 14977795, Abstract). Pelvic masses, pregnancy and ascites mimic; palpation cannot estimate volume.",
+  "changes_what": "Positive → catheterize/measure PVR now and seek the cause (drugs, prostate, cauda equina); negative with risk factors → bladder scan."
+ },
+ "estimates": [],
+ "evidence_status": "not_quantified",
+ "sources": [
+  {
+   "citation": "Selius BA, Subedi R. Urinary retention in adults: diagnosis and initial management. American family physician 2008. Narrative review (Am Fam Physician) supporting history/examination then bladder measurement.",
+   "doi": null,
+   "pmid": "18350762",
+   "url": null,
+   "kind": "consensus",
+   "year": 2008
+  },
+  {
+   "citation": "Lamonerie L, Marret E, Deleuze A, Lembert N, Dupont M, Bonnet F. Prevalence of postoperative bladder distension and urinary retention detected by ultrasound measurement. British journal of anaesthesia 2004.",
+   "doi": "10.1093/bja/aeh099",
+   "pmid": "14977795",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2004
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use an absent suprapubic mass to exclude retention in AKI, delirium or suspected cauda equina — measure post-void residual.",
+  "escalation_warning": "Retention with new saddle anesthesia, leg weakness or back pain → emergent cauda equina evaluation (MRI).",
+  "interobserver_note": "No reliability data for suprapubic palpation/percussion found."
+ },
+ "tier": "extracted",
+ "extraction_notes": "No anchor source was seeded. Searches: 'urinary retention bladder palpation percussion accuracy ultrasound' (0 hits), 'clinical estimation bladder volume palpation accuracy ultrasound residual' (0 hits), 'postoperative urinary retention physical examination bladder scan sensitivity', 'urinary retention diagnosis physical examination bladder ultrasound emergency', 'Detecting postoperative urinary retention with an ultrasound scanner[Title]'. Hits were bladder-scanner-vs-catheter agreement studies (PMID 11939918, 29952185) that do not test palpation/percussion, and Lamonerie 2004 (PMID 14977795) showing silent postoperative distension, used only for the pitfall (numbers quoted with location). No diagnostic-accuracy study of suprapubic palpation/percussion against measured bladder volume was found within budget, so status is not_quantified with a narrative review (Selius & Subedi 2008, PMID 18350762, confirmed) cited as the consensus source. 'Urinary retention' cross-listed to aki per vocab changelog.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T02:42:33+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

@@ -1,0 +1,163 @@
+{
+ "identity": {
+  "id": "exam_skew_deviation",
+  "title": "Test of skew (alternate cover test; vertical ocular misalignment)",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dizziness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "posterior_circulation_stroke"
+  ],
+  "indication_tags": [
+   "acute_onset"
+  ]
+ },
+ "technique": {
+  "how": "Patient fixates a target at about 1 m; alternately cover each eye every 1–2 s and watch the just-uncovered eye for a vertical re-fixation movement (one eye drifts up, the other down). Any vertical corrective movement = skew deviation; note head tilt and ocular counter-roll (ocular tilt reaction). Perform as the 'S' of HINTS in acute vestibular syndrome.",
+  "prerequisites": "Adequate vision and fixation in both eyes; continuous vertigo with nystagmus (acute vestibular syndrome) — HINTS is not validated for episodic or positional dizziness.",
+  "contraindications": "Uninterpretable with pre-existing strabismus, ocular motor palsy, internuclear ophthalmoplegia or an uncooperative patient."
+ },
+ "interpretation": {
+  "positive_finding": "Vertical misalignment on alternate cover in AVS indicates a central (usually brainstem) lesion — LR+ about 6 — and overrides a 'peripheral-looking' abnormal head impulse test. A complete ocular tilt reaction was seen only with brainstem strokes.",
+  "negative_finding": "Absence of skew barely lowers stroke probability (LR− 0.78; sensitivity 25–27%) and misses most pure cerebellar infarcts. Rely on the full HINTS battery, not skew alone.",
+  "pitfalls": "Insensitive, especially for cerebellar (PICA) strokes; congenital or decompensated phorias, fourth-nerve palsy and old strabismus give false positives. Subtle skews need a trained examiner, and an untestable skew counts as a 'dangerous' HINTS result.",
+  "changes_what": "Skew present → treat as central AVS: stroke pathway, MRI-DWI, neurology; skew absent → no reassurance alone, complete HINTS (head impulse, nystagmus)."
+ },
+ "estimates": [
+  {
+   "target_condition": "Central lesion (69 ischemic strokes, 4 hemorrhages, 3 other) in acute vestibular syndrome — skew deviation present or untestable on prism cross-cover test",
+   "population": "101 consecutive high-risk AVS patients (≥1 stroke risk factor), 76 central / 25 peripheral, single academic stroke centre, examined generally <72 h from onset",
+   "setting": "ED",
+   "prevalence": 0.75,
+   "reference_standard": "MRI-DWI or CT for stroke; normal MRI plus clinical follow-up (most with caloric testing) for peripheral lesions",
+   "sensitivity": {
+    "value": 0.25,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.96,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 6.25,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.78,
+    "ci_low": 0.67,
+    "ci_high": 0.91
+   },
+   "computed": true,
+   "computed_from": "Table 1 gives finding frequency 4% in 25 peripheral and 25% in 76 central patients and NLR 0.78 (0.67–0.91) as reported; specificity = 1 − 0.04 = 0.96; LR+ = 0.25/0.04 = 6.25 (computed from rounded percentages). Prevalence = 76/101 in a risk-enriched cohort.",
+   "interpretation_label": "rule_in",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "skew deviation present or untestable 4% 25% 0.78 (0.67–0.91)",
+   "location": "Table 1 (PMC4593511 full text), columns PAVS n=25 / CAVS n=76 / NLR Central (95% CI)"
+  },
+  {
+   "target_condition": "Structural brainstem involvement in acute vestibular syndrome — skew deviation evident at initial examination (subgroup; pure cerebellar lesions 4%)",
+   "population": "Same cohort: 50 patients with brainstem involvement vs 25 with peripheral vestibulopathy (APV); 24 pure cerebellar lesions reported separately",
+   "setting": "ED",
+   "prevalence": null,
+   "reference_standard": "MRI-DWI/CT lesion localization; clinical follow-up for peripheral lesions",
+   "sensitivity": {
+    "value": 0.3,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.96,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_positive": {
+    "value": 7.5,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": {
+    "value": 0.73,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "computed": true,
+   "computed_from": "15/50 brainstem cases with skew = 0.30; 1/25 APV with skew → specificity 0.96; LR+ = 0.30/0.04 = 7.5; LR− = 0.70/0.96 = 0.73.",
+   "interpretation_label": "rule_in",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "Skew was evident in 4% (n=1/25) with APV, 4% (n=1/24) with pure cerebellar lesions, and 30% (n=15/50) with demonstrated structural brainstem involvement",
+   "location": "Results, paragraph on skew deviation (PMC4593511 full text)"
+  },
+  {
+   "target_condition": "Central cause of acute vestibular syndrome — test of skew positive; pooled sensitivity only (specificity reported as 'high' but numeric value in supplementary Table 2, not accessible)",
+   "population": "Systematic review of 10 study cohorts (n=800) of adults with AVS; results stratified by examiner type and stroke location",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Neuroimaging (MRI-DWI) with clinical follow-up as used in primary studies",
+   "sensitivity": {
+    "value": 0.27,
+    "ci_low": 0.161,
+    "ci_high": 0.379
+   },
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "computed_from": "",
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 1,
+   "quote": "considerably lower for the other tests including the test of skew (27.0% [16.1-37.9])",
+   "location": "Results, 'Diagnostic accuracy of individual bedside tests' paragraph (PMC10524166 full text)"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Kattah JC, Talkad AV, Wang DZ, Hsieh YH, Newman-Toker DE. HINTS to diagnose stroke in the acute vestibular syndrome: three-step bedside oculomotor examination more sensitive than early MRI diffusion-weighted imaging. Stroke 2009.",
+   "doi": "10.1161/STROKEAHA.109.551234",
+   "pmid": "19762709",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2009
+  },
+  {
+   "citation": "Tarnutzer AA, Gold D, Wang Z, Robinson KA, Kattah JC, Mantokoudis G et al. Impact of Clinician Training Background and Stroke Location on Bedside Diagnostic Test Accuracy in the Acute Vestibular Syndrome - A Meta-Analysis. Annals of neurology 2023.",
+   "doi": "10.1002/ana.26661",
+   "pmid": "37038843",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2023
+  },
+  {
+   "citation": "Tarnutzer AA, Berkowitz AL, Robinson KA, Hsieh YH, Newman-Toker DE. Does my dizzy patient have a stroke? A systematic review of bedside diagnosis in acute vestibular syndrome. CMAJ : Canadian Medical Association journal = journal de l'Association medicale canadienne 2011. CMAJ 2011;183(9):E571-92; no OA body text and no abstract via PubMed fetch — cited for context only.",
+   "doi": "10.1503/cmaj.100174",
+   "pmid": "21576300",
+   "url": null,
+   "kind": "meta_analysis",
+   "year": 2011
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Not for episodic or positional dizziness without nystagmus, and never as a stand-alone rule-out.",
+  "escalation_warning": "Any HINTS 'dangerous' sign (normal head impulse, direction-changing nystagmus, skew) → stroke work-up even when CT or early MRI is negative (MRI-DWI falsely negative in 12% <48 h, PMID 19762709, Abstract).",
+  "interobserver_note": "Skew-specific reliability not reported. HINTS specificity was higher among subspecialists than non-subspecialists (97.6% vs 89.1%, p = 0.007) (PMID 37038843, Abstract)."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Anchors confirmed: Kattah 2009 (PMID 19762709; PMC4593511 OA text read, Table 1 row and Results paragraph quoted) and Tarnutzer 2011 CMAJ (PMID 21576300; PMC3114934 abstract-only deposit, PubMed fetch returned an empty abstract, so its pooled skew numbers could not be quoted and it carries no estimate). Added Tarnutzer 2023 Ann Neurol meta-analysis (PMID 37038843; PMC10524166 OA) — its Table 3 lists HINTS/HIT composites only; the skew-specific pooled sensitivity appears in Results text and pooled specificity is in supplementary Table 2 (not accessible), hence sensitivity-only third estimate. Estimate 1 uses the Table 1 row 'present or untestable' (3 untestable central patients counted as positive, per footnote §); estimate 2 uses skew 'evident' by lesion site from Results text. Specificity and LR+ are computed from rounded percentages (1/25 = 4%), so LR+ carries no CI. Kattah population was risk-enriched (75% central), so prevalence does not generalize to unselected ED dizziness. Composite HINTS accuracy (100% sens/96% spec single-study; pooled 95.3%/92.6%) deliberately not entered as a skew estimate (COMPOSITE rule).",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T02:42:33+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

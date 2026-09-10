@@ -1,0 +1,91 @@
+{
+ "identity": {
+  "id": "hx_smoking_pack_years",
+  "title": "Smoking history: >40 (or >=70) pack-years, current smoker",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "chest_pain",
+   "fever"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "acs",
+   "copd_exacerbation",
+   "ild",
+   "pneumonia"
+  ],
+  "indication_tags": [
+   "copd_known"
+  ]
+ },
+ "technique": {
+  "how": "Ask packs per day and years smoked; pack-years = packs/day x years (20 cigarettes = 1 pack). Record current vs former smoking and quit date, and ask about pipes, cigars, and other inhaled exposures.",
+  "prerequisites": "Reliable history from patient or collateral source.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "More than 40 pack-years substantially raises the probability of obstructive airway disease (LR 8.3 in CARE-COAD1) and makes COPD exacerbation a more plausible cause of dyspnea.",
+  "negative_finding": "A light or absent smoking history lowers but does not exclude obstructive airway disease; the RCE did not report an LR for the absence of heavy smoking.",
+  "pitfalls": "Pack-year recall is imprecise and biomass, occupational, and asthma-related airflow limitation occur in never-smokers. Smoking is also a risk factor for ACS and lung cancer, so it does not discriminate among smoking-related diagnoses.",
+  "changes_what": "Heavy pack-year history plus wheeze or known OAD shifts dyspnea toward COPD exacerbation; confirm with spirometry when stable."
+ },
+ "estimates": [
+  {
+   "target_condition": "Obstructive airway disease (FEV1 and FEV1/FVC below 5th percentile) — finding PRESENT = smoking >40 pack-years",
+   "population": "309 consecutive patients at 25 primary care and referral sites in 14 countries (25% known OAD, 37% suspected, 39% neither); mean age 56",
+   "setting": "outpatient",
+   "prevalence": 0.52,
+   "reference_standard": "Spirometry: FEV1 and FEV1/FVC ratio below the 5th percentile adjusted for height, age and sex",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 8.3,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "rule_in",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "smoking for more than 40 pack-years (LR, 8.3)",
+   "location": "Abstract, Results (multivariate model)"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Straus SE, McAlister FA, Sackett DL, Deeks JJ. The accuracy of patient history, wheezing, and laryngeal measurements in diagnosing obstructive airway disease. CARE-COAD1 Group. JAMA. 2000.",
+   "doi": "10.1001/jama.283.14.1853",
+   "pmid": "10770147",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2000
+  },
+  {
+   "citation": "Holleman DR, Simel DL. Does the clinical examination predict airflow limitation? JAMA. 1995.",
+   "doi": null,
+   "pmid": "7815660",
+   "url": null,
+   "kind": "rce_series",
+   "year": 1995
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not let a heavy smoking history anchor the dyspnea diagnosis on COPD when hypoxia, fever, chest pain or new edema suggest pneumonia, ACS, PE or heart failure.",
+  "escalation_warning": "Smokers with acute dyspnea and chest pain need ECG and troponin; smoking history does not lower ACS probability.",
+  "interobserver_note": "Self-reported pack-years; no reliability statistic reported in the abstract."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Only an LR+ without CI is available from the abstract of CARE-COAD1 (multivariate model); no sensitivity/specificity, so partially_quantified. Prevalence 0.52 is from the same abstract ('52% had an FEV1 and FEV1-FVC ratio less than the fifth percentile'). The >=70 pack-year threshold in the title is attributed to Holleman & Simel 1995 (PMID 7815660, RCE 'Does the clinical examination predict airflow limitation?'); that record has no PubMed abstract and no open-access text, so no number is entered for it (LR ~8 for >=70 pack-years is unverified recall). Full JAMA text of Straus 2000 not open access; the multivariate table could not be inspected.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T02:42:19+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

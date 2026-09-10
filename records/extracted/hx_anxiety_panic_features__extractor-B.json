@@ -1,0 +1,123 @@
+{
+ "identity": {
+  "id": "hx_anxiety_panic_features",
+  "title": "Panic/anxiety features: episodes at rest or with stress, dread, paresthesias, known panic disorder; not affected by sleep",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "chest_pain",
+   "palpitations",
+   "dizziness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "anxiety_hyperventilation",
+   "sinus_tachycardia_secondary",
+   "svt"
+  ],
+  "indication_tags": []
+ },
+ "technique": {
+  "how": "Ask about a prior diagnosis of panic disorder, whether episodes occur at rest or with emotional stress, accompanying dread, paresthesias or hyperventilation, and specifically whether palpitations wake the patient or occur during sleep or at work. Record duration of episodes and any prior documented arrhythmia.",
+  "prerequisites": "Patient able to give a history; screen with the same questions before dismissing symptoms as anxiety.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "A known history of panic disorder makes clinically significant arrhythmia somewhat less likely (LR 0.26, CI crosses 1). Palpitations that are affected by sleeping or that occur at work point toward a true arrhythmia rather than anxiety.",
+  "negative_finding": "Absence of panic features does not rule in arrhythmia; the RCE concludes the clinical examination cannot exclude significant arrhythmia in most patients.",
+  "pitfalls": "Panic disorder and SVT coexist, and SVT is frequently mislabelled as panic; a regular rapid pounding in the neck strongly suggests AVNRT regardless of anxiety history. Data come from single small studies with wide confidence intervals.",
+  "changes_what": "Panic features lower but do not remove arrhythmia probability; still obtain ECG and, for recurrent symptoms, ambulatory monitoring with symptom-rhythm correlation."
+ },
+ "estimates": [
+  {
+   "target_condition": "Clinically significant cardiac arrhythmia (finding PRESENT = known history of panic disorder)",
+   "population": "Adults presenting with palpitations; pooled from the studies included in the JAMA RCE (7 accuracy studies, mostly single small studies)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Cardiac arrhythmia documented by ambulatory/event ECG monitoring or electrophysiologic evaluation per included studies",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 0.26,
+    "ci_low": 0.07,
+    "ci_high": 1.01
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "A known history of panic disorder (LR, 0.26; 95% CI, 0.07-1.01)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Clinically significant cardiac arrhythmia (finding PRESENT = palpitations affected by sleeping; i.e. NOT the anxiety pattern)",
+   "population": "Adults presenting with palpitations; pooled from the studies included in the JAMA RCE (7 accuracy studies, mostly single small studies)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Cardiac arrhythmia documented by ambulatory/event ECG monitoring or electrophysiologic evaluation per included studies",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 2.29,
+    "ci_low": 1.33,
+    "ci_high": 3.94
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "having palpitations affected by sleeping (LR, 2.29; 95% CI, 1.33-3.94)",
+   "location": "Abstract, Results"
+  },
+  {
+   "target_condition": "Clinically significant cardiac arrhythmia (finding PRESENT = palpitations occurring while at work; i.e. NOT the at-rest anxiety pattern)",
+   "population": "Adults presenting with palpitations; pooled from the studies included in the JAMA RCE (7 accuracy studies, mostly single small studies)",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Cardiac arrhythmia documented by ambulatory/event ECG monitoring or electrophysiologic evaluation per included studies",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 2.17,
+    "ci_low": 1.19,
+    "ci_high": 3.96
+   },
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "modest",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "or while the patient is at work (LR, 2.17; 95% CI, 1.19-3.96) slightly increase the likelihood of a cardiac arrhythmia",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Thavendiranathan P, Bagai A, Khoo C, Dorian P, Choudhry NK. Does this patient with palpitations have a cardiac arrhythmia? JAMA. 2009.",
+   "doi": "10.1001/jama.2009.1673",
+   "pmid": "19920238",
+   "url": null,
+   "kind": "rce_series",
+   "year": 2009
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not attribute palpitations to anxiety when there is syncope, exertional onset, structural heart disease, or an abnormal ECG.",
+  "escalation_warning": "Palpitations with syncope, chest pain, or hemodynamic compromise need immediate ECG and monitoring regardless of psychiatric history.",
+  "interobserver_note": "No reliability data reported in the RCE abstract; historical items depend on patient recall."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Only LR+ values are reported in the abstract (sensitivity/specificity not given), so status is partially_quantified. The composite anxiety pattern in the title is not evaluated as a single finding; the RCE quantifies its components separately: panic disorder history (LR 0.26, CI 0.07-1.01, not statistically significant), palpitations affected by sleeping (LR 2.29) and at work (LR 2.17), the latter two arguing FOR arrhythmia. Direction check: LR+ 0.26 <1 for panic history agrees with interpretation (finding argues against arrhythmia). Also from the abstract: palpitations lasting <5 min LR 0.38 (95% CI 0.22-0.63) for arrhythmia (Abstract, Results). Full text is not open access (JAMA), so the source table for each LR could not be inspected; location is the abstract.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T02:42:19+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

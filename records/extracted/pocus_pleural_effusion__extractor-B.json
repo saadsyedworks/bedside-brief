@@ -1,0 +1,166 @@
+{
+ "identity": {
+  "id": "pocus_pleural_effusion",
+  "title": "POCUS: anechoic dependent pleural collection with spine sign / lung flapping",
+  "type": "pocus",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "dyspnea",
+   "chest_pain",
+   "edema",
+   "fever"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "acute_decompensated_hf",
+   "cirrhosis",
+   "nephrotic_syndrome",
+   "pleural_effusion",
+   "pneumonia"
+  ],
+  "indication_tags": [
+   "unilateral",
+   "bilateral"
+  ]
+ },
+ "technique": {
+  "how": "Curvilinear or phased-array probe in the posterior axillary line at the diaphragm (FAST RUQ/LUQ views); find the diaphragm and liver/spleen. Effusion = anechoic or hypoechoic dependent space above the diaphragm bounded by chest wall, with the lung base floating or flapping in it; the thoracic spine visible above the diaphragm (spine sign) confirms fluid.",
+  "prerequisites": "Patient supine or sitting; scan both bases and compare sides.",
+  "contraindications": "None; dressings or subcutaneous emphysema limit the window."
+ },
+ "interpretation": {
+  "positive_finding": "An anechoic dependent collection with spine sign identifies pleural effusion with pooled specificity 0.98 and LR+ ~54 against CT/surgery; bilateral effusions favour heart failure, cirrhosis or nephrotic syndrome, unilateral favours parapneumonic or malignant effusion.",
+  "negative_finding": "A normal scan of both bases makes a clinically important effusion unlikely (pooled sensitivity 0.94, LR- 0.06), better than supine chest radiography (sensitivity 0.51).",
+  "pitfalls": "Mirror-image artefact of the liver above the diaphragm can be mistaken for fluid; complex septated or echogenic effusions (empyema, hemothorax) are less anechoic. Ascites below the diaphragm and a raised hemidiaphragm are confusers.",
+  "changes_what": "Positive: characterise size and laterality, consider diagnostic thoracentesis; negative: remove effusion from the dyspnea differential and look for other causes."
+ },
+ "estimates": [
+  {
+   "target_condition": "Pleural effusion (any; sonographic definition per included study)",
+   "population": "12 studies, 1554 subjects (646 with effusion, 912 without); 7 studies in critically ill/ICU or trauma patients, others ED, cardiac surgery or heart-failure clinic",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Pleural effusion confirmed by computed tomography or surgery (studies using radiography as reference were excluded)",
+   "sensitivity": {
+    "value": 0.94,
+    "ci_low": 0.88,
+    "ci_high": 0.97
+   },
+   "specificity": {
+    "value": 0.98,
+    "ci_low": 0.92,
+    "ci_high": 1.0
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "both",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "Pooled sensitivity of ultrasonography in detection of pleural effusion was 0.94 (95% CI: 0.88-0.97; I2= 84.23, p<0.001) and its pooled specificity was calculated to be 0.98 (95% CI: 0.92-1.0",
+   "location": "Abstract, Results; full text (PMC4744606) Results paragraph 2 and Figure 4"
+  },
+  {
+   "target_condition": "Pleural effusion (same pooled analysis as above — likelihood-ratio entry, split only to respect the quote cap)",
+   "population": "12 studies, 1554 subjects (646 with effusion, 912 without); 7 studies in critically ill/ICU or trauma patients, others ED, cardiac surgery or heart-failure clinic",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Pleural effusion confirmed by computed tomography or surgery (studies using radiography as reference were excluded)",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": {
+    "value": 53.96,
+    "ci_low": 11.46,
+    "ci_high": 254.05
+   },
+   "lr_negative": {
+    "value": 0.06,
+    "ci_low": 0.03,
+    "ci_high": 0.12
+   },
+   "computed": false,
+   "interpretation_label": "both",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "its pooled positive and negative likelihood ratios were calculated to be 53.96 (95% CI: 11.46-254.05; I2= 88.12, p<0.001) and 0.06 (95% CI: 0.03-0.12",
+   "location": "Full text (PMC4744606), Results paragraph 2; Figure 4B"
+  },
+  {
+   "target_condition": "Pleural effusion — subgroup: operator 'Other physician' (non-radiologist/non-intensivist, includes emergency physicians and nurses)",
+   "population": "6 studies with non-radiologist/non-intensivist operators",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Pleural effusion confirmed by computed tomography or surgery (studies using radiography as reference were excluded)",
+   "sensitivity": {
+    "value": 0.9,
+    "ci_low": 0.83,
+    "ci_high": 0.96
+   },
+   "specificity": {
+    "value": 0.94,
+    "ci_low": 0.86,
+    "ci_high": 1.0
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "both",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "Other physician  6  0.90 (0.83-0.96)   0.94 (0.86-1.00)",
+   "location": "Full text (PMC4744606), Table 2, ultrasonography rows, subgroup 'Operator'"
+  },
+  {
+   "target_condition": "Pleural effusion — subgroup: operator radiologist or intensivist",
+   "population": "6 studies with radiologist or intensivist operators",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Pleural effusion confirmed by computed tomography or surgery (studies using radiography as reference were excluded)",
+   "sensitivity": {
+    "value": 0.97,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": {
+    "value": 0.99,
+    "ci_low": 0.98,
+    "ci_high": 1.0
+   },
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "interpretation_label": "both",
+   "evidence_level": "pooled",
+   "source_index": 0,
+   "quote": "Radiologist/Intensivist  6  0.97 (0.83-0.96)  <0.001  0.99 (0.98-1.00)",
+   "location": "Full text (PMC4744606), Table 2, ultrasonography rows, subgroup 'Operator'"
+  }
+ ],
+ "evidence_status": "quantified",
+ "sources": [
+  {
+   "citation": "Yousefifard M, Baikpour M, Ghelichkhani P, Asady H, Shahsavari Nia K, Moghadas Jafari A, Hosseini M, Safari S. Screening Performance Characteristic of Ultrasonography and Radiography in Detection of Pleural Effusion; a Meta-Analysis. Emerg (Tehran). 2016.",
+   "doi": null,
+   "pmid": "26862542",
+   "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4744606/",
+   "kind": "meta_analysis",
+   "year": 2016
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not rely on a single anterior or supine view; small effusions are posterior and dependent and need a lateral/posterior window.",
+  "escalation_warning": "Large effusion with hypoxia, hypotension, or fever needs urgent drainage assessment; unilateral effusion with sepsis suggests empyema.",
+  "interobserver_note": "Sensitivity was higher with radiologist/intensivist operators (0.97) than other physicians (0.90); specificity was unaffected by operator (Table 2). No kappa reported.",
+  "skill_assumption": "Basic thoracic POCUS competence (FAST-level views of both bases); studies used intensivists, radiologists, emergency physicians, internists and trained nurses with 1-10 MHz probes."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Pooled sens/spec and LR entries are split into two estimate rows because a single verbatim quote containing all four numbers with CIs exceeds the quote cap; they describe the same 12-study analysis. Table 2 prints the radiologist/intensivist sensitivity as '0.97 (0.83-0.96)', an internally inconsistent CI (the same CI as the 'other physician' row), so CI is left null for that entry. Sonographic definitions varied across the 12 primary studies (anechoic dependent collection with or without spine sign/lung flapping); the meta-analysis did not require the spine sign, so the title's refinement is a bedside confirmation feature rather than the pooled threshold. Prevalence not entered: pooled counts (646/1558 hemithoraces or patients, mixed designs) are not a single cohort prevalence. Pocket-size device sensitivity ranged 62-98% in three small studies (Discussion). Comparator: chest radiography pooled sensitivity 0.51 (0.33-0.68), specificity 0.91 (0.68-0.98) (Abstract).",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T02:42:19+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

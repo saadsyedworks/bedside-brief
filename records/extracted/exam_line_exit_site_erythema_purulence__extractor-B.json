@@ -1,0 +1,78 @@
+{
+ "identity": {
+  "id": "exam_line_exit_site_erythema_purulence",
+  "title": "Central line exit-site erythema, tenderness, or purulence (with line-day count)",
+  "type": "exam",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "hypotension",
+   "fever"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "line_infection",
+   "septic_shock"
+  ],
+  "indication_tags": [
+   "dialysis",
+   "immunocompromised"
+  ]
+ },
+ "technique": {
+  "how": "Remove the dressing and inspect the insertion/exit site for erythema (extent), tenderness on palpation, induration, swelling and purulent drainage; record catheter type (short-term noncuffed vs tunneled/dialysis), site and line-days. For tunneled catheters, palpate along the tunnel for tenderness or expressible pus.",
+  "prerequisites": "Clean technique for dressing removal; know insertion date and catheter type.",
+  "contraindications": "None; never delay paired blood cultures for the inspection."
+ },
+ "interpretation": {
+  "positive_finding": "Purulence or overt inflammation should raise suspicion of catheter-related BSI, particularly S. aureus or Gram-negative infection in a febrile or septic patient. Even infected short-term CVCs usually look normal, so a positive site is uncommon but meaningful.",
+  "negative_finding": "A normal-appearing site does not exclude catheter-related bloodstream infection; in short-term noncuffed CVCs local inflammation was almost never present with CRBSI. Rely on paired blood cultures.",
+  "pitfalls": "Most CRBSIs are coagulase-negative staphylococci, which incite little local inflammation. Adhesive/dressing dermatitis mimics infection, and tunneled/dialysis catheter exit-site data differ from the short-term CVC study.",
+  "changes_what": "Purulence → culture drainage, paired blood cultures, remove line, treat; normal site → still draw paired cultures if febrile without another source."
+ },
+ "estimates": [
+  {
+   "target_condition": "CVC-related bloodstream infection (catheter segment and blood isolates concordant by restriction-fragment DNA subtyping) — index finding: any local insertion-site inflammation (pain, erythema, swelling, purulence score 0–5)",
+   "population": "1,263 short-term noncuffed percutaneous CVCs (subclavian, internal jugular or femoral) from two randomized trials 1998–2000, most patients in ICU; sites scored daily by research nurses",
+   "setting": "ICU",
+   "prevalence": 0.027,
+   "reference_standard": "Catheter segment culture with blood culture concordance by restriction-fragment DNA subtyping",
+   "sensitivity": null,
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "computed_from": "",
+   "interpretation_label": "minimal",
+   "evidence_level": "single_study",
+   "source_index": 0,
+   "quote": "Among 1,263 CVCs prospectively studied, 333 (26.3%) were colonized at removal; of these, 35 catheters (2.7%) caused BSIs",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Safdar N, Maki DG. Inflammation at the insertion site is not predictive of catheter-related bloodstream infection with short-term, noncuffed central venous catheters. Critical care medicine 2003. Crit Care Med 2002;30(12):2632-5 (PubMed year field 2003).",
+   "doi": "10.1097/00003246-200212000-00003",
+   "pmid": "12483050",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2003
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not use a clean-looking site to rule out line sepsis in a febrile or hypotensive patient with a central line.",
+  "escalation_warning": "Purulence at the site with fever or hypotension: treat as CRBSI — paired cultures, remove the catheter, empiric antibiotics.",
+  "interobserver_note": "Site inflammation was scored by research nurses on a 0–5 scale; no interobserver statistics reported in the abstract."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Anchor PMID 12483050 confirmed (title matches). No PMC full text; abstract only. The abstract reports sensitivity of local inflammation for CVC-related BSI as a RANGE across inflammatory variables — quote: \"The sensitivity of local inflammation for diagnosis of CVC-related BSI was dismal (0-3%)\" (Abstract, Results) — so sensitivity is left null per the no-ranges rule and only the per-catheter CRBSI prevalence (35/1263 = 0.027) is entered. Specificity/LRs not in abstract. Searches ('catheter insertion site inflammation catheter-related bloodstream infection sensitivity'; 'central venous catheter local signs infection sensitivity specificity'; 'hemodialysis catheter exit site infection clinical signs bacteremia predictive value') found no diagnostic-accuracy study of exit-site signs for tunneled/dialysis catheters, so the dialysis analogue is unquantified. Status partially_quantified because a numeric field (prevalence) exists but no sens/spec or LR pair.",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T02:42:33+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}

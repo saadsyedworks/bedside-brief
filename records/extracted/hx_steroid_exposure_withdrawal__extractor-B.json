@@ -1,0 +1,92 @@
+{
+ "identity": {
+  "id": "hx_steroid_exposure_withdrawal",
+  "title": "Glucocorticoid exposure / abrupt withdrawal, known adrenal disease, hyperpigmentation",
+  "type": "history",
+  "bedside": true
+ },
+ "clinical_mapping": {
+  "presentations": [
+   "hypotension",
+   "ams",
+   "abdominal_pain",
+   "weakness"
+  ],
+  "syndromes": [],
+  "differentials": [
+   "adrenal_insufficiency"
+  ],
+  "indication_tags": [
+   "new_medication",
+   "malignancy",
+   "immunocompromised"
+  ]
+ },
+ "technique": {
+  "how": "Ask about any glucocorticoid in the past year (oral, inhaled, intra-articular, high-potency topical, megestrol), dose/duration, recent taper or missed doses, known Addison's, hypopituitarism or adrenal metastases, and adrenal-suppressing drugs (ketoconazole, etomidate, checkpoint inhibitors, opioids). Inspect palmar creases, buccal mucosa, scars and sun-exposed skin for hyperpigmentation.",
+  "prerequisites": "Medication reconciliation including OTC, injections and recent hospital courses.",
+  "contraindications": "None."
+ },
+ "interpretation": {
+  "positive_finding": "Recent steroid exposure/withdrawal or known adrenal disease in a hypotensive, hyponatremic or hypoglycemic patient makes adrenal crisis a must-treat diagnosis. Hyperpigmentation points to primary (ACTH-high) disease and was present in 76% of registry Addison's patients.",
+  "negative_finding": "Absent hyperpigmentation does not exclude secondary/tertiary insufficiency (steroid withdrawal, pituitary disease), where pigmentation does not occur. Absent steroid history does not exclude primary disease.",
+  "pitfalls": "Inhaled, topical, intra-articular steroids and megestrol are frequently missed; pigmentation is subtle in dark skin or blamed on sun. Hyperkalemia occurs only in primary adrenal insufficiency.",
+  "changes_what": "Positive → draw cortisol/ACTH and give stress-dose hydrocortisone before results; negative → do not withhold empiric steroids in vasopressor-refractory shock."
+ },
+ "estimates": [
+  {
+   "target_condition": "Primary adrenal insufficiency (Addison's disease, established diagnosis) — hyperpigmentation ever observed (sensitivity only; no non-Addison comparison group)",
+   "population": "148 patients with Addison's disease in a South African national registry (questionnaire, folder and laboratory review), median age at diagnosis 34 y",
+   "setting": "mixed",
+   "prevalence": null,
+   "reference_standard": "Established clinical/biochemical diagnosis of Addison's disease from records",
+   "sensitivity": {
+    "value": 0.76,
+    "ci_low": null,
+    "ci_high": null
+   },
+   "specificity": null,
+   "lr_positive": null,
+   "lr_negative": null,
+   "computed": false,
+   "computed_from": "",
+   "interpretation_label": "modest",
+   "evidence_level": "single_study",
+   "source_index": 1,
+   "quote": "Hyperpigmentation was observed in 76%, nausea and vomiting occurred in more than 40%, and weight loss was noted in 25%.",
+   "location": "Abstract, Results"
+  }
+ ],
+ "evidence_status": "partially_quantified",
+ "sources": [
+  {
+   "citation": "Bornstein SR, Allolio B, Arlt W, Barthel A, Don-Wauchope A, Hammer GD et al. Diagnosis and Treatment of Primary Adrenal Insufficiency: An Endocrine Society Clinical Practice Guideline. The Journal of clinical endocrinology and metabolism 2016.",
+   "doi": "10.1210/jc.2015-1710",
+   "pmid": "26760044",
+   "url": null,
+   "kind": "guideline",
+   "year": 2016
+  },
+  {
+   "citation": "Ross IL, Levitt NS. Addison's disease symptoms--a cross sectional study in urban South Africa. PloS one 2013.",
+   "doi": "10.1371/journal.pone.0053526",
+   "pmid": "23308244",
+   "url": null,
+   "kind": "primary_study",
+   "year": 2013
+  }
+ ],
+ "safety_scope": {
+  "do_not_use_when": "Do not wait for history confirmation or cosyntropin testing before treating suspected adrenal crisis in shock.",
+  "escalation_warning": "Hypotension with hyponatremia, hyperkalemia or hypoglycemia and any steroid exposure or adrenal disease: give hydrocortisone immediately and resuscitate (Endocrine Society guideline).",
+  "interobserver_note": "History elements; no reliability data found."
+ },
+ "tier": "extracted",
+ "extraction_notes": "Guideline anchor PMID 26760044 confirmed (Endocrine Society 2016 primary adrenal insufficiency guideline; abstract is methodological, no diagnostic-accuracy numbers). Searches ('adrenal insufficiency hyperpigmentation sensitivity diagnosis'; 'Addison disease clinical presentation hyperpigmentation frequency patients') found no controlled diagnostic-accuracy study of steroid-exposure history or hyperpigmentation; no JAMA RCE exists for adrenal insufficiency. Ross & Levitt 2013 (PMID 23308244, PLoS One) is a registry case series giving the frequency of hyperpigmentation among established Addison's patients (0.76), entered as sensitivity-only with no specificity (no controls), hence partially_quantified. Important scope note: hyperpigmentation applies only to primary AI; glucocorticoid withdrawal causes secondary/tertiary AI without pigmentation, so the id bundles two mechanisms with different signs. Same abstract: loss of consciousness as a presenting feature 20% (95% CI 14–28%), shock 5% (CI 1.5–8.5%) (Abstract, Results).",
+ "agent_id": "extractor-B",
+ "extracted_at": "2026-09-10T02:42:33+00:00",
+ "verified_by": null,
+ "verified_at": null,
+ "verification_notes": "",
+ "record_version": 1
+}
