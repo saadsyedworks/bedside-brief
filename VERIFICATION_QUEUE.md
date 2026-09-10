@@ -31,6 +31,25 @@ the red-team flags for that id at the top. `p` promotes, `r` rejects with a reas
 re-checks schema, vocabulary, units, and quote-plus-location before anything is written, and only ever
 writes `records/verified/`. Commit and push that folder whenever you stop.
 
+## Verifying from an iPad
+
+There is a web verifier that needs no terminal at all:
+**https://claude.ai/code/artifact/c6df8fe3-0bc8-4447-b028-5a6e7d23f2b7**
+
+Both packets sit side by side (stacked in portrait), every estimate shows its quote, its location and a
+tappable PubMed or DOI link, and the red-team flags for that record sit at the top. Tap **Promote A**,
+**Promote B**, **Reject** or **Skip**; exclude any estimate you don't want carried over before you
+promote. Decisions save to the page's own store and it advances to the next undecided record.
+
+When you have a batch done, tell me and I pull them into the repo with `tools/pull_decisions.py`,
+which rebuilds each record from the packet you chose, drops the estimates you excluded, stamps
+`verified_by` and `verified_at`, and refuses anything that fails schema, vocabulary or units. The
+desktop app stays the fuller tool: it lets you edit any field, the iPad page is choose-and-exclude.
+
+You can also run the desktop app on a computer and browse it from the iPad on the same Wi-Fi:
+`./start_verify.sh` won't do it, so run `python3 tools/verify_ui.py --host 0.0.0.0`, then open
+`http://<that computer's IP>:8765`. The queue has no login, so only do that on a network you trust.
+
 ## Start here: six cheapest upgrades
 
 For each of these, one packet says `not_quantified` while the other carries a real, located, verified
