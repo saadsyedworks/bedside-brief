@@ -1,6 +1,6 @@
 # Phase 0 owner gate — Bedside Brief
 
-Generated at commit `8bff84c`. Everything below is a DRAFT until you sign off; after sign-off I commit **freeze #1** and write its hash into every case file.
+Generated at commit `4ca7c62`. Everything below is a DRAFT until you sign off; after sign-off I commit **freeze #1** and write its hash into every case file.
 
 ## What you are approving
 
