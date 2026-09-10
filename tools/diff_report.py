@@ -59,6 +59,12 @@ def compare(rid: str, packs: dict[str, dict], resolve: bool) -> dict:
                 flags.append(f"VOCAB VIOLATION ({a}): tag {x}")
         for i, e in enumerate(p.get("estimates", [])):
             numeric = any(_val(e, k) is not None for k in STATS)
+            tc = str(e.get("target_condition", ""))
+            low = tc.lower()
+            prognostic_words = ("mortality", "death", "died", "survival", "requiring transfusion",
+                                "massive transfusion", "intervention", "icu admission", "vasopressor")
+            if any(w in low for w in prognostic_words) and not tc.startswith("PROGNOSTIC:"):
+                flags.append(f"PROGNOSTIC UNLABELLED ({a}): estimates[{i}] target_condition {tc[:60]!r} reads as an outcome, not a diagnosis")
             if numeric and (not e.get("quote") or not e.get("location")):
                 flags.append(f"NO LOCATION ({a}): estimates[{i}] {_est_key(e)}")
             if numeric and _val(e, "sensitivity") and _val(e, "specificity") and _val(e, "lr_positive"):

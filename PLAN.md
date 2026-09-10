@@ -9,7 +9,7 @@
 ## Phase 1 — Extraction (Days 1–3, runs in background)
 - [x] Build `agents/extractor.md` from `extraction_packet_spec.md`. Build `agents/redteam.md`. (Shipped in handoff; plus `tools/pubmed.py`, `tools/record_skeleton.py`, `tools/diff_report.py`.)
 - [x] Run extractor-A and extractor-B over all ids, batched by presentation, cardiology first. Write to `records/extracted/`. (306 packets / 153 ids in 4 waves.)
-- [~] Red-team each batch (waves 1–3 done, wave 4 running). Produce `records/diff_report.md`: per id, agreement status, flagged issues, and a suggested verification order (disagreements first, then rce_backed agreements, then rest).
+- [x] Red-team each batch (waves 1–4 done, all 153 ids). Produce `records/diff_report.md`: per id, agreement status, flagged issues, and a suggested verification order (disagreements first, then rce_backed agreements, then rest).
 - [x] Build `tools/verify_ui.py` (done; 9 tests) — owner gate pending:: side-by-side packet view with quote + location + link, one-click promote/reject/edit → writes `records/verified/{id}.json` with `verified_by`, `verified_at`. Owner gate: hand over the queue.
 
 ## Phase 2 — Pipeline (Days 2–3, parallel with extraction)

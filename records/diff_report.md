@@ -20,7 +20,7 @@
 14. `exam_wheezing` — disagree — 4 flag(s)
 15. `hx_alcohol_use_withdrawal_timing` — disagree — 3 flag(s)
 16. `hx_back_pain_cancer_history` — disagree — 2 flag(s)
-17. `hx_exertional_chest_pain` — disagree — 2 flag(s)
+17. `hx_exertional_chest_pain` — disagree — 4 flag(s)
 18. `hx_pain_radiation_both_arms` — disagree — 2 flag(s)
 19. `hx_palpitations_before_syncope` — disagree — 3 flag(s)
 20. `hx_pleuritic_chest_pain` — disagree — 3 flag(s)
@@ -31,7 +31,7 @@
 25. `exam_cool_extremities` — disagree — 2 flag(s)
 26. `exam_kussmaul_sign` — disagree — 3 flag(s)
 27. `exam_line_exit_site_erythema_purulence` — disagree — 2 flag(s)
-28. `exam_mottling_score` — disagree — 2 flag(s)
+28. `exam_mottling_score` — disagree — 4 flag(s)
 29. `exam_new_regurgitant_murmur` — disagree — 2 flag(s)
 30. `exam_saddle_anesthesia_anal_tone` — disagree — 2 flag(s)
 31. `exam_thyrotoxicosis_signs` — disagree — 2 flag(s)
@@ -42,7 +42,7 @@
 36. `exam_ascites_flank_dullness_fluid_wave` — partial — 6 flag(s)
 37. `exam_bp_differential_arms` — partial — 3 flag(s)
 38. `exam_cam_delirium_screen` — partial — 1 flag(s)
-39. `exam_capillary_refill` — partial — 1 flag(s)
+39. `exam_capillary_refill` — partial — 6 flag(s)
 40. `exam_carotid_upstroke_delayed` — partial — 1 flag(s)
 41. `exam_chest_wall_tenderness_reproducible` — partial — 2 flag(s)
 42. `exam_cirrhosis_stigmata` — partial — 2 flag(s)
@@ -112,7 +112,7 @@
 106. `exam_pulse_irregularly_irregular` — partial — 9 flag(s)
 107. `exam_pupils_eye_movements_toxidrome` — partial — 1 flag(s)
 108. `exam_sensory_level_upper_motor_neuron_signs` — agree — 1 flag(s)
-109. `exam_shock_index` — partial — 5 flag(s)
+109. `exam_shock_index` — partial — 7 flag(s)
 110. `exam_skew_deviation` — partial — 2 flag(s)
 111. `exam_stemmer_sign` — partial — 1 flag(s)
 112. `exam_stridor` — agree — 0 flag(s)
@@ -240,6 +240,8 @@
 - ESTIMATE SET DIFFERS: A=2 B=0 (population split or omission)
 
 ### hx_exertional_chest_pain  (extractor-A, extractor-B) — **disagree**
+- PROGNOSTIC UNLABELLED (extractor-A): estimates[1] target_condition 'Acute coronary syndrome (AMI, positive cardiac testing, arrh' reads as an outcome, not a diagnosis
+- PROGNOSTIC UNLABELLED (extractor-B): estimates[1] target_condition 'Acute coronary syndrome (AMI, positive cardiac testing, arrh' reads as an outcome, not a diagnosis
 - STATUS MISMATCH: quantified vs partially_quantified
 - ESTIMATE SET DIFFERS: A=3 B=2 (population split or omission)
 
@@ -292,6 +294,8 @@
 - ESTIMATE SET DIFFERS: A=1 B=0 (population split or omission)
 
 ### exam_mottling_score  (extractor-A, extractor-B) — **disagree**
+- PROGNOSTIC UNLABELLED (extractor-B): estimates[0] target_condition '14-day mortality in septic shock (prognostic, not diagnostic' reads as an outcome, not a diagnosis
+- PROGNOSTIC UNLABELLED (extractor-B): estimates[1] target_condition '14-day mortality in sepsis/septic shock (prognostic, not dia' reads as an outcome, not a diagnosis
 - STATUS MISMATCH: not_quantified vs partially_quantified
 - ESTIMATE SET DIFFERS: A=0 B=2 (population split or omission)
 
@@ -343,6 +347,11 @@
 - ESTIMATE SET DIFFERS: A=2 B=2 (population split or omission)
 
 ### exam_capillary_refill  (extractor-A, extractor-B) — **partial**
+- PROGNOSTIC UNLABELLED (extractor-A): estimates[2] target_condition '14-day mortality (prognostic) after 6 h of septic shock resu' reads as an outcome, not a diagnosis
+- PROGNOSTIC UNLABELLED (extractor-A): estimates[3] target_condition 'Death (prognostic) in adults with acute circulatory failure;' reads as an outcome, not a diagnosis
+- PROGNOSTIC UNLABELLED (extractor-B): estimates[2] target_condition '14-day mortality after initial resuscitation of septic shock' reads as an outcome, not a diagnosis
+- PROGNOSTIC UNLABELLED (extractor-B): estimates[3] target_condition '14-day mortality after initial resuscitation of septic shock' reads as an outcome, not a diagnosis
+- PROGNOSTIC UNLABELLED (extractor-B): estimates[4] target_condition 'Death in adults with acute circulatory failure (abnormal CRT' reads as an outcome, not a diagnosis
 - ESTIMATE SET DIFFERS: A=4 B=5 (population split or omission)
 
 ### exam_carotid_upstroke_delayed  (extractor-A, extractor-B) — **partial**
@@ -653,6 +662,8 @@
 ### exam_shock_index  (extractor-A, extractor-B) — **partial**
 - SILENT COMPUTATION? (extractor-A): estimates[0] LR+ equals sens/(1-spec) but computed=false
 - SILENT COMPUTATION? (extractor-A): estimates[1] LR+ equals sens/(1-spec) but computed=false
+- PROGNOSTIC UNLABELLED (extractor-B): estimates[0] target_condition 'Hemorrhage requiring hemostasis intervention after trauma — ' reads as an outcome, not a diagnosis
+- PROGNOSTIC UNLABELLED (extractor-B): estimates[1] target_condition 'Hemorrhage requiring hemostasis intervention after trauma — ' reads as an outcome, not a diagnosis
 - SECONDARY SOURCE? (extractor-B): sources[3] kind=consensus on a quantified record
 - ESTIMATE SET DIFFERS: A=2 B=5 (population split or omission)
 - SOURCES DISJOINT: no shared PMID/DOI between packets
