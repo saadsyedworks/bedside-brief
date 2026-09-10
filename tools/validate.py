@@ -171,6 +171,10 @@ def validate_records(d: Path) -> tuple[list[str], list[str]]:
             has_num = any(est.get(k) for k in ("sensitivity", "specificity", "lr_positive", "lr_negative"))
             if not has_num:
                 warns.append(f"{f.name}: estimates[{i}] has no numeric field (delete it or fill it)")
+            for k in ("lr_positive", "lr_negative"):
+                st = est.get(k)
+                if isinstance(st, dict) and isinstance(st.get("value"), (int, float)) and st["value"] <= 0:
+                    warns.append(f"{f.name}: estimates[{i}].{k} is {st['value']} (zero/negative LR; use null + note)")
             if has_num and (not est.get("quote") or not est.get("location")):
                 errs.append(f"{f.name}: estimates[{i}] numeric without quote+location")
             if est.get("quote") and len(est["quote"].split()) > 25:

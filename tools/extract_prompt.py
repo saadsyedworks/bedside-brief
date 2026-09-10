@@ -40,6 +40,11 @@ For EACH id below, fill the provided skeleton and write it to `records/extracted
 - PROGNOSTIC vs DIAGNOSTIC: outcomes like mortality are not diagnostic accuracy; if you include them, target_condition must start "PROGNOSTIC: …".
 - AUTHORS: copy `sources[].citation` author names from `tools/pubmed.py fetch` output (it returns `authors`); never from memory.
 - NOTES DISCIPLINE: any number in extraction_notes/interobserver_note/pitfalls must also have a quote+location, or be tagged "(unverified recall)".
+- THRESHOLD: state the exact threshold/definition the estimate used inside `target_condition` or `population` (e.g. "≥3 B-lines in ≥2 zones", "PVR ≥400 mL"); if it differs from the id title, say so and status is at most partially_quantified.
+- DIRECTION SELF-CHECK before saving: any estimate with LR+ < 1 or LR− > 1 must agree with `interpretation.positive_finding`/`negative_finding`; if the source shows the finding argues AGAINST the condition, write that.
+- REVIEW TABLES: when a systematic review's table is your source, record the PRIMARY study's PMID as the estimate's source when it is on PubMed and prefer its abstract; cite the review as a second source.
+- SEARCH PMC FIRST: before writing "table not accessible", run `python3 tools/pubmed.py fulltext <pmid>` — many RCE-era primaries and most meta-analyses since 2015 have open-access body text.
+- QUOTE CAP: ≤25 words normally; up to 35 words only when the shorter quote would drop the confidence interval.
 - STATUS RULE: quantified = every estimate has ≥1 numeric field AND ≥1 estimate has both a sens/spec pair or an LR pair; partially_quantified = some numeric fields present but the above not met; not_quantified = no numeric estimate at all.
 - technique.how ≤400 chars; changes_what ≤200 chars; ≤2 sentences per prose field; POCUS records need safety_scope.skill_assumption.
 - After writing all files run `python3 tools/validate.py records records/extracted` and fix until your files show 0 errors (ignore other agents' files in the output).
