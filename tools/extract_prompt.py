@@ -45,6 +45,10 @@ For EACH id below, fill the provided skeleton and write it to `records/extracted
 - REVIEW TABLES: when a systematic review's table is your source, record the PRIMARY study's PMID as the estimate's source when it is on PubMed and prefer its abstract; cite the review as a second source.
 - SEARCH PMC FIRST: before writing "table not accessible", run `python3 tools/pubmed.py fulltext <pmid>` — many RCE-era primaries and most meta-analyses since 2015 have open-access body text.
 - QUOTE CAP: ≤25 words normally; up to 35 words only when the shorter quote would drop the confidence interval.
+- PREVALENCE: `prevalence` = the study's observed prevalence only; never a pre-test assumption, a mortality rate, or a case-control ratio (leave null).
+- AGE GROUP: the estimate's population must match the record's adult inpatient scope; pediatric-only data may be entered only with population "PEDIATRIC: …" and never raises evidence_status.
+- ONE ANALYSIS = ONE ESTIMATE: do not split one analysis into two estimates to fit the quote cap; use the 35-word allowance instead.
+- NOTES: regenerate extraction_notes after any estimate deletion; never leave notes describing rows that no longer exist.
 - STATUS RULE: quantified = every estimate has ≥1 numeric field AND ≥1 estimate has both a sens/spec pair or an LR pair; partially_quantified = some numeric fields present but the above not met; not_quantified = no numeric estimate at all.
 - technique.how ≤400 chars; changes_what ≤200 chars; ≤2 sentences per prose field; POCUS records need safety_scope.skill_assumption.
 - After writing all files run `python3 tools/validate.py records records/extracted` and fix until your files show 0 errors (ignore other agents' files in the output).
