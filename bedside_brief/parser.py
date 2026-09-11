@@ -31,12 +31,13 @@ PARSER_SCHEMA: dict[str, Any] = {
     "title": "oneliner_parse",
     "type": "object",
     "additionalProperties": False,
-    "required": ["chief_complaint", "presentation", "time_course", "modifiers", "differentials", "indication_tags", "missing_features", "underspecified"],
+    "required": ["chief_complaint", "presentation", "time_course", "modifiers", "observed_values", "differentials", "indication_tags", "missing_features", "underspecified"],
     "properties": {
         "chief_complaint": {"type": "string"},
         "presentation": {"type": "string"},
         "time_course": {"type": "string"},
         "modifiers": _STRING_ARRAY,
+        "observed_values": _STRING_ARRAY,
         "differentials": {
             "type": "array",
             "items": {
@@ -62,7 +63,8 @@ def system_prompt() -> str:
     lines = [
         "You parse an inpatient internal-medicine one-liner into a strict JSON object for a bedside decision-support tool.",
         "Emit ONLY the strings listed below for presentation, differentials and indication_tags; any other string is rejected.",
-        "Do not emit sensitivities, specificities, likelihood ratios, citations, or any number other than the differential weights.",
+        "Do not emit sensitivities, specificities, likelihood ratios, citations, or any number of your own: the only numbers "
+        "allowed are the differential weights and, in observed_values, measurements copied from the one-liner itself.",
         "",
         "PRESENTATIONS and the differentials allowed under each (a differential may be used under any presentation):",
     ]
@@ -77,6 +79,11 @@ def system_prompt() -> str:
         "- presentation: exactly one PRESENTATION key.",
         "- time_course: e.g. hyperacute / acute / subacute / chronic, in words.",
         "- modifiers: short qualifying phrases from the one-liner (no numbers).",
+        "- observed_values: every measured value the one-liner states about THIS patient - vital signs, labs, scores - copied "
+        "as written, with its units and its label, one per entry (e.g. 'BP 88/54', 'HR 118', 'Cr 1.1 to 2.0', 'SpO2 88% on 4L'). "
+        "Copy, do not interpret: never convert a measurement into a word like 'hypotensive' here, never add a value the "
+        "one-liner does not state, and never carry a value over from what you know about the condition. Empty list if the "
+        "one-liner states none. These describe the patient in front of the clinician; they are not evidence about a test.",
         f"- differentials: one to {config.MAX_DIFFERENTIALS} entries, each {{dx, weight}} with weight in [0, 1], most likely first, weights descending.",
         "- indication_tags: zero or more INDICATION_TAGS that apply.",
         "- underspecified: judge the PRESENTING COMPLAINT, not the patient background. True when the complaint itself is "
@@ -143,6 +150,14 @@ def parse_oneliner(text: str, llm: Any) -> dict[str, Any]:
         "presentation": reply["presentation"],
         "time_course": strip_numbers(reply["time_course"]),
         "modifiers": [strip_numbers(m) for m in reply["modifiers"] if m],
+        # Deliberately NOT digit-stripped. These are the clinician's own measurements of this patient, quoted back
+        # from the one-liner -- not claims about a test's performance, which is what the no-numbers rule exists to
+        # contain. Stripping them here blinded the ranker to the patient's actual state: "BP 88/54" became
+        # "hypotension", and a record whose contraindication reads "do not stand a patient who is already
+        # hypotensive" could never be seen to apply. Containment is unaffected, because it is enforced downstream
+        # and twice: render strips every card-level string again, and the validator blocks any number absent from a
+        # linked verified record. observed_values is passed to the ranker and never reaches the card.
+        "observed_values": [v.strip() for v in reply.get("observed_values") or [] if v and v.strip()],
         "differentials": _normalise_differentials(reply["differentials"]),
         "indication_tags": list(dict.fromkeys(reply["indication_tags"])),
         "underspecified": bool(reply.get("underspecified", False)),

@@ -1,0 +1,498 @@
+{
+ "arm": "A",
+ "ask_first": false,
+ "base_case_id": "weakness_003",
+ "blocked_items": [],
+ "case_id": "weakness_003_n1",
+ "created_at": "2026-09-11T10:51:00+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "16267412",
+    "19",
+    "24",
+    "46",
+    "475",
+    "60",
+    "72"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_rhabdo_myalgia_dark_urine",
+   "section": "ask",
+   "text": "Muscle pain/weakness, prolonged immobilization or exertion, dark cola-colored urine"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "24",
+    "72"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_hypoglycemia_symptoms_insulin",
+   "section": "ask",
+   "text": "Hypoglycemia history: insulin/sulfonylurea use, missed meals, adrenergic or neuroglycopenic symptoms"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "4",
+    "48",
+    "90"
+   ],
+   "performance_claims": [],
+   "record_id": "exam_proximal_symmetric_weakness",
+   "section": "examine",
+   "text": "Proximal symmetric weakness (chair-rise/Gowers-type maneuver, arm abduction) without focal deficit"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Fokke C, van den Berg B, Drenthen J, Walgaard C, van Doorn PA, Jacobs BC. Diagnosis of Guillain-Barre syndrome and validation of Brighton criteria. Brain. 2014;137(1):33-43."
+   ],
+   "numeric_claims": [
+    "0.91",
+    "0.97",
+    "1",
+    "10.1093",
+    "137",
+    "2",
+    "20",
+    "2014",
+    "24163275",
+    "285",
+    "3",
+    "33",
+    "4",
+    "43",
+    "494",
+    "6",
+    "80",
+    "91",
+    "97"
+   ],
+   "performance_claims": [
+    "0.91",
+    "0.97"
+   ],
+   "record_id": "exam_ascending_symmetric_weakness_areflexia",
+   "section": "examine",
+   "text": "Ascending symmetric limb weakness with absent/reduced reflexes (after recent GI/URI illness)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Goldstein LB, Simel DL. Is this patient having a stroke? JAMA. 2005;293(19):2391-2402.",
+    "Kothari RU, Pancioli A, Liu T, Brott T, Broderick J. Cincinnati Prehospital Stroke Scale: reproducibility and validity. Ann Emerg Med. 1999;33(4):373-378."
+   ],
+   "numeric_claims": [
+    "0",
+    "0.1",
+    "0.25",
+    "0.29",
+    "0.39",
+    "0.4",
+    "0.61",
+    "0.66",
+    "0.87",
+    "0.88",
+    "1",
+    "10",
+    "10.1001",
+    "10.1016",
+    "10092713",
+    "15900010",
+    "171",
+    "19",
+    "196",
+    "1999",
+    "2005",
+    "2391",
+    "2402",
+    "293",
+    "293.19",
+    "3",
+    "3.3",
+    "33",
+    "373",
+    "378",
+    "4",
+    "49",
+    "5.08",
+    "5.5",
+    "644",
+    "66",
+    "70299",
+    "87",
+    "88",
+    "9.1",
+    "95",
+    "99"
+   ],
+   "performance_claims": [
+    "0.25",
+    "0.39",
+    "0.39",
+    "0.61",
+    "0.66",
+    "0.87",
+    "0.88",
+    "3.3",
+    "5.08",
+    "5.5",
+    "9.1"
+   ],
+   "record_id": "exam_face_arm_speech_cpss",
+   "section": "examine",
+   "text": "Facial droop, arm drift, abnormal speech (Cincinnati/FAST screen)"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "candidates": [
+   "exam_proximal_symmetric_weakness",
+   "exam_ascending_symmetric_weakness_areflexia",
+   "exam_pulse_irregularly_irregular",
+   "fn_gait_stand_unaided",
+   "exam_sensory_level_upper_motor_neuron_signs",
+   "hx_rhabdo_myalgia_dark_urine",
+   "exam_face_arm_speech_cpss",
+   "exam_focal_neuro_deficit_screen",
+   "exam_focal_neuro_deficit_with_chest_pain",
+   "exam_forehead_sparing_facial_weakness",
+   "hx_hypoglycemia_symptoms_insulin",
+   "fn_single_breath_count",
+   "exam_pupils_eye_movements_toxidrome",
+   "exam_subtle_motor_signs_ncse"
+  ],
+  "card": {
+   "chief_complaint": "too weak to walk",
+   "presentation": "weakness",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_rhabdo_myalgia_dark_urine",
+      "changes_what": "Positive \u2192 CK, creatinine, potassium, urinalysis; start IV fluids; assess compartments. Negative \u2192 still send CK if found down, post-seizure or toxin-exposed.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not exclude rhabdomyolysis by history in obtunded, intoxicated or found-down patients \u2014 send CK.",
+      "escalation_warning": "Tense painful compartment, hyperkalemia or rising creatinine \u2192 urgent surgical and nephrology involvement.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Ask about muscle pain, weakness, swelling and dark tea/cola-coloured urine, and exposures: found down/prolonged immobilization, seizure, extreme exertion or heat, crush or trauma, cocaine/amphetamines, alcohol, statins/fibrates, antipsychotics (NMS), recent infection. Palpate for tender, swollen or tense muscle compartments and check distal pulses and sensation.",
+      "id": "hx_rhabdo_myalgia_dark_urine",
+      "negative_finding": "Absent muscle symptoms or dark urine do not exclude rhabdomyolysis; many cases are oligosymptomatic and even qualitative urine myoglobin was positive in only 19% of 475 inpatients (PMID 16267412, Abstract). Measure CK whenever risk factors exist.",
+      "pitfalls": "Dark urine also comes from hematuria, hemoglobinuria or bilirubin. In 60% of cases multiple causes co-exist and toxins account for 46% (PMID 16267412, Abstract); CK peaks at 24\u201372 h, so an early value may be modest (unverified recall).",
+      "positive_finding": "Myalgia or weakness with dark urine after immobilization, exertion, seizure or toxin exposure strongly suggests rhabdomyolysis; check CK and a urine dipstick (heme-positive without red cells).",
+      "prerequisites": "Collateral history for obtunded or intoxicated patients; medication and drug-use review.",
+      "rationale": "Rhabdomyolysis can present with weakness and is important to identify early for management.",
+      "skill_assumption": null,
+      "title": "Muscle pain/weakness, prolonged immobilization or exertion, dark cola-colored urine",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_hypoglycemia_symptoms_insulin",
+      "changes_what": "Positive: fingerstick now, treat, and observe for recurrence (sulfonylurea/renal failure -> admit); negative: keep glucose check but move to cardiac/neurologic causes of the spell.",
+      "contraindications": "None; the history must never delay a point-of-care glucose in any patient with altered mental status, syncope or focal deficit.",
+      "do_not_use_when": "Never rely on symptom history alone in an obtunded, post-ictal or focally weak patient - measure glucose immediately.",
+      "escalation_warning": "Hypoglycemia with sulfonylurea, insulin overdose, renal failure or alcohol needs monitored admission and repeated glucose; persistent deficit after glucose correction is a stroke workup.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Ask specifically about insulin or sulfonylurea use (drug, dose, timing of last dose), missed or delayed meals, alcohol, recent renal or hepatic decline, and prodromal autonomic symptoms (sweating, tremor, palpitations, hunger) or neuroglycopenic symptoms (confusion, drowsiness, difficulty speaking, weakness). Confirm with a fingerstick glucose at the time of symptoms.",
+      "id": "hx_hypoglycemia_symptoms_insulin",
+      "negative_finding": "No exposure to insulin or secretagogues and no critical illness, cortisol/hormone deficiency or alcohol makes drug-induced hypoglycemia unlikely, but a measured glucose is still required because neuroglycopenia can present without warning symptoms.",
+      "pitfalls": "Long-standing diabetes and beta-blockers blunt autonomic warning symptoms so neuroglycopenic presentation (confusion, focal deficit) may be the only clue; sulfonylurea hypoglycemia recurs for 24-72 h so a single corrected glucose is not the end of the episode.",
+      "positive_finding": "Insulin/secretagogue exposure plus a missed meal, alcohol or renal impairment and autonomic or neuroglycopenic prodrome makes hypoglycemia likely; Whipple's triad (symptoms, documented low glucose, resolution with glucose) confirms it.",
+      "prerequisites": "A collateral history when the patient is confused; the medication list including recently added sulfonylureas, insulin dose changes, or drugs that potentiate them.",
+      "rationale": "Hypoglycemia is a reversible cause of acute weakness and must be ruled out quickly.",
+      "skill_assumption": null,
+      "title": "Hypoglycemia history: insulin/sulfonylurea use, missed meals, adrenergic or neuroglycopenic symptoms",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/exam_proximal_symmetric_weakness",
+      "changes_what": "Positive: CK, K/PO4/Mg, TSH, drug review, consider EMG/neurology. Focal, asymmetric or areflexic pattern: pursue GBS, cord compression or stroke instead.",
+      "contraindications": "Do not attempt chair-rise or squat tests in patients at risk of falling without assistance.",
+      "do_not_use_when": "Not applicable for diagnosing weakness in uncooperative, sedated or delirious patients; do not use a normal proximal exam to dismiss ascending weakness, bulbar symptoms or respiratory decline.",
+      "escalation_warning": "Rapidly progressive weakness, neck flexion weakness, dysphagia, reduced vital capacity or areflexia require urgent assessment for GBS/myasthenic crisis and airway monitoring.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Test functional proximal strength: rise from a chair with arms folded, squat and rise (or Gowers manoeuvre), step onto a stool, hold arms abducted to 90 degrees against resistance, lift the head off the pillow. Grade MRC power symmetrically (shoulder abduction, elbow flexion, hip flexion, knee extension, ankle dorsiflexion); check reflexes and sensation for focal deficit.",
+      "id": "exam_proximal_symmetric_weakness",
+      "negative_finding": "Normal proximal strength with preserved chair-rise argues against a generalised myopathy or critical-illness weakness; asymmetric, distal, or reflex/sensory-involving weakness redirects to neuropathy (e.g., GBS with areflexia), cord or central lesions.",
+      "pitfalls": "Pain, effort, deconditioning and sedation produce apparent weakness; GBS and myasthenia can also present proximally. MRC grading is unreliable in inattentive or delirious patients and the ICU-acquired weakness diagnosis requires an awake, cooperative patient.",
+      "positive_finding": "Symmetric proximal weakness with preserved sensation and reflexes points to a myopathic process (inflammatory, drug/statin, alcohol, endocrine, hypokalaemia/hypophosphataemia) or ICU-acquired weakness, and should prompt CK, electrolytes, thyroid tests and a medication/alcohol history. In ICU patients an MRC sum score below 48 defines significant weakness.",
+      "prerequisites": "Pain, joint disease and sedation accounted for; cooperative, awake patient for MRC grading.",
+      "rationale": "Proximal symmetric weakness helps distinguish myopathy and electrolyte causes from central or peripheral neurologic causes.",
+      "skill_assumption": null,
+      "title": "Proximal symmetric weakness (chair-rise/Gowers-type maneuver, arm abduction) without focal deficit",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_ascending_symmetric_weakness_areflexia",
+      "changes_what": "Positive: admit, serial FVC/single breath count, cardiac monitoring, LP and NCS, start IVIG/PLEX. Negative: check electrolytes and CK; image the spine if a sensory level or sphincter signs.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use preserved reflexes alone to dismiss GBS early in the course; do not use this pattern to exclude cord compression when back pain, a sensory level or sphincter change is present.",
+      "escalation_warning": "Dyspnea, weak cough, single breath count <20 or FVC <20 mL/kg, bulbar weakness or autonomic instability indicate impending respiratory failure: ICU-level monitoring.",
+      "evidence": [
+       {
+        "citation": "Fokke C, van den Berg B, Drenthen J, Walgaard C, van Doorn PA, Jacobs BC. Diagnosis of Guillain-Barre syndrome and validation of Brighton criteria. Brain. 2014;137(1):33-43.",
+        "computed": false,
+        "doi": "10.1093/brain/awt285",
+        "evidence_level": "validation_cohort",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "24163275",
+        "population": "494 adults with GBS previously enrolled in therapeutic and observational studies (Dutch cohorts); no non-GBS comparison group",
+        "prevalence": null,
+        "quote": "Decreased reflexes in paretic arms or legs were found initially in 91% of patients and in all patients during follow-up.",
+        "reference_standard": "Clinical diagnosis of GBS by treating neurologists (trial/observational study inclusion)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.91"
+        },
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Guillain-Barre syndrome; finding = decreased reflexes in paretic limbs at initial examination",
+        "url": null,
+        "year": "2014"
+       },
+       {
+        "citation": "Fokke C, van den Berg B, Drenthen J, Walgaard C, van Doorn PA, Jacobs BC. Diagnosis of Guillain-Barre syndrome and validation of Brighton criteria. Brain. 2014;137(1):33-43.",
+        "computed": false,
+        "doi": "10.1093/brain/awt285",
+        "evidence_level": "validation_cohort",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "24163275",
+        "population": "Same cohort of 494 adults with GBS",
+        "prevalence": null,
+        "quote": "Disease nadir was reached within 2 weeks in 80%, within 4 weeks in 97% and within 6 weeks in all patients.",
+        "reference_standard": "Clinical diagnosis of GBS (trial/observational study inclusion)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.97"
+        },
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Guillain-Barre syndrome; finding = bilateral limb weakness reaching nadir within 4 weeks",
+        "url": null,
+        "year": "2014"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Test proximal and distal strength in all four limbs (MRC grading), compare sides, and elicit biceps, triceps, knee and ankle reflexes with reinforcement. Ask about onset and progression (hours to days, distal to proximal), preceding diarrhea or respiratory illness within 4 weeks, sensory symptoms, facial or bulbar weakness, and back pain or sphincter change.",
+      "id": "exam_ascending_symmetric_weakness_areflexia",
+      "negative_finding": "Preserved brisk reflexes, a sensory level, early sphincter dysfunction, marked asymmetry or fever at onset point toward myelopathy, cord compression or other mimics; however 2% of GBS patients keep normal reflexes in paretic arms.",
+      "pitfalls": "Reflexes may be normal on day 1 and lost later, so re-examine; hypokalemia/hypophosphatemia and myopathy produce symmetric weakness with preserved reflexes. Weakness stayed leg-restricted in 6% and arm-restricted in 1%.",
+      "positive_finding": "Bilateral, relatively symmetric, progressive flaccid weakness with reduced or absent reflexes in the weak limbs, reaching nadir within 4 weeks, is the Brighton level-1 to 3 clinical core of GBS; 91% of GBS patients have decreased reflexes at presentation.",
+      "prerequisites": "Cooperative patient; reflex hammer; document time course and check bedside respiratory measures (single breath count / FVC) at the same visit.",
+      "rationale": "Ascending weakness with areflexia points toward GBS, which requires urgent monitoring and intervention.",
+      "skill_assumption": null,
+      "title": "Ascending symmetric limb weakness with absent/reduced reflexes (after recent GI/URI illness)",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_face_arm_speech_cpss",
+      "changes_what": "Positive: activate stroke pathway/immediate imaging and time-critical reperfusion assessment. Negative: lowers probability but still image if dizziness, ataxia or visual symptoms.",
+      "contraindications": "None; if the patient cannot cooperate, observe spontaneous facial symmetry and limb movement instead.",
+      "do_not_use_when": "Do not rely on a negative screen to exclude posterior-circulation stroke in a patient with acute dizziness, ataxia, diplopia or visual field loss; use HINTS/gait assessment and imaging pathways instead.",
+      "escalation_warning": "Any positive item with symptom onset within the reperfusion window is a time-critical emergency; do not delay activation for a glucose result unless hypoglycemia is confirmed and deficits resolve with correction.",
+      "evidence": [
+       {
+        "citation": "Goldstein LB, Simel DL. Is this patient having a stroke? JAMA. 2005;293(19):2391-2402.",
+        "computed": false,
+        "doi": "10.1001/jama.293.19.2391",
+        "evidence_level": "pooled",
+        "interpretation_label": "both",
+        "kind": "rce_series",
+        "location": "Abstract, Data Synthesis (JAMA 2005;293:2391)",
+        "lr_negative": {
+         "ci_high": "0.61",
+         "ci_low": "0.25",
+         "value": "0.39"
+        },
+        "lr_positive": {
+         "ci_high": "9.1",
+         "ci_low": "3.3",
+         "value": "5.5"
+        },
+        "pmid": "15900010",
+        "population": "Pooled studies of patients with suspected stroke evaluated with modern neuroimaging (RCE systematic review)",
+        "prevalence": "0.1",
+        "quote": "LR of > or =1 finding = 5.5; 95% CI, 3.3-9.1 ... LR of 0 findings = 0.39; 95% CI, 0.25-0.61",
+        "reference_standard": "Final diagnosis after neuroimaging and relevant laboratory tests",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Acute stroke (ischemic or hemorrhagic) among patients with neurologically relevant symptoms",
+        "url": null,
+        "year": "2005"
+       },
+       {
+        "citation": "Kothari RU, Pancioli A, Liu T, Brott T, Broderick J. Cincinnati Prehospital Stroke Scale: reproducibility and validity. Ann Emerg Med. 1999;33(4):373-378.",
+        "computed": true,
+        "doi": "10.1016/s0196-0644(99)70299-4",
+        "evidence_level": "single_study",
+        "interpretation_label": "both",
+        "kind": "primary_study",
+        "location": "Abstract, Results (Ann Emerg Med 1999;33:373)",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.39"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "5.08"
+        },
+        "pmid": "10092713",
+        "population": "Convenience sample of 171 ED and neurology inpatients, 49 with stroke/TIA",
+        "prevalence": "0.29",
+        "quote": "abnormality in any 1 of the 3 stroke scale items had a sensitivity of 66% and specificity of 87% in identifying a stroke patient.",
+        "reference_standard": "Discharge diagnosis of stroke or TIA",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.66"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.87"
+        },
+        "target_condition": "Stroke or TIA (any 1 of 3 CPSS items abnormal, scored by physician)",
+        "url": null,
+        "year": "1999"
+       },
+       {
+        "citation": "Kothari RU, Pancioli A, Liu T, Brott T, Broderick J. Cincinnati Prehospital Stroke Scale: reproducibility and validity. Ann Emerg Med. 1999;33(4):373-378.",
+        "computed": false,
+        "doi": "10.1016/s0196-0644(99)70299-4",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_out",
+        "kind": "primary_study",
+        "location": "Abstract, Results (Ann Emerg Med 1999;33:373)",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "10092713",
+        "population": "Same 171-patient convenience sample; subgroup with anterior circulation stroke",
+        "prevalence": null,
+        "quote": "The sensitivity was 88% for identification of patients with anterior circulation strokes.",
+        "reference_standard": "Discharge diagnosis of stroke, anterior circulation",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.88"
+        },
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Anterior circulation stroke (any 1 of 3 CPSS items abnormal)",
+        "url": null,
+        "year": "1999"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Ask the patient to smile or show teeth and look for asymmetric facial movement; have them close eyes and hold both arms out palms-up for 10 seconds, watching for one arm drifting down; ask them to repeat a simple sentence and listen for slurring, wrong words, or inability to speak. Any one abnormal item is a positive screen.",
+      "id": "exam_face_arm_speech_cpss",
+      "negative_finding": "Absence of all three findings lowers but does not exclude stroke (LR about 0.4); posterior-circulation strokes, which often present with dizziness or ataxia, are commonly missed by this screen (Kothari: 66% sensitivity overall vs 88% for anterior circulation).",
+      "pitfalls": "Bell palsy, old deficits, intoxication, hypoglycemia and seizure mimics all produce false positives; isolated vertigo, ataxia, visual field loss and neglect are not captured, so a negative screen must not stop a stroke work-up in a dizzy patient.",
+      "positive_finding": "Any new facial paresis, arm drift, or abnormal speech; in patients with neurologically relevant symptoms this raises the probability of stroke (pooled LR about 5.5).",
+      "prerequisites": "Patient awake enough to follow simple commands; check a fingerstick glucose alongside the screen. Note time last known well.",
+      "rationale": "A focused stroke screen is critical to rule out central causes of acute inability to walk.",
+      "skill_assumption": null,
+      "title": "Facial droop, arm drift, abnormal speech (Cincinnati/FAST screen)",
+      "type": "exam"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_rhabdo_myalgia_dark_urine",
+     "rationale": "Rhabdomyolysis can present with weakness and is important to identify early for management."
+    },
+    {
+     "id": "hx_hypoglycemia_symptoms_insulin",
+     "rationale": "Hypoglycemia is a reversible cause of acute weakness and must be ruled out quickly."
+    }
+   ],
+   "examine": [
+    {
+     "id": "exam_proximal_symmetric_weakness",
+     "rationale": "Proximal symmetric weakness helps distinguish myopathy and electrolyte causes from central or peripheral neurologic causes."
+    },
+    {
+     "id": "exam_ascending_symmetric_weakness_areflexia",
+     "rationale": "Ascending weakness with areflexia points toward GBS, which requires urgent monitoring and intervention."
+    },
+    {
+     "id": "exam_face_arm_speech_cpss",
+     "rationale": "A focused stroke screen is critical to rule out central causes of acute inability to walk."
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "too weak to walk",
+   "differentials": [
+    {
+     "dx": "sepsis_deconditioning",
+     "weight": 1.0
+    },
+    {
+     "dx": "electrolyte_hypokalemia_hypophosphatemia",
+     "weight": 0.4
+    },
+    {
+     "dx": "myopathy",
+     "weight": 0.3
+    },
+    {
+     "dx": "stroke",
+     "weight": 0.2
+    },
+    {
+     "dx": "gbs",
+     "weight": 0.1
+    }
+   ],
+   "indication_tags": [
+    "elderly"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "unable to walk"
+   ],
+   "presentation": "weakness",
+   "time_course": "subacute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "n1"
+}

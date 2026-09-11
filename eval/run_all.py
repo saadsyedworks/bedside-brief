@@ -58,7 +58,7 @@ def smoke_llm(state: SmokeState) -> FakeLLM:
             if case and case.variant == "p1":
                 dxs = [{"dx": "orthostatic_hypotension", "weight": 1.0}, {"dx": "hypovolemic_hemorrhagic_shock", "weight": 0.7}]
             return {"chief_complaint": user[:60], "presentation": case.presentation if case else "syncope", "time_course": "acute",
-                    "modifiers": [], "differentials": dxs, "indication_tags": ["exertional"],
+                    "modifiers": [], "observed_values": ["BP 92/58"], "differentials": dxs, "indication_tags": ["exertional"],
                     "missing_features": ["exertional vs positional"] if case and case.underspecified_expected else [],
                     "underspecified": bool(case and case.underspecified_expected)}
         if title == "card_choice":

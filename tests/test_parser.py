@@ -13,6 +13,7 @@ GOOD = {
     "presentation": "syncope",
     "time_course": "acute, within 24 hours",
     "modifiers": ["exertional", "BP 90/60 on arrival"],
+    "observed_values": ["BP 90/60"],
     "differentials": [{"dx": "aortic_stenosis", "weight": 0.8}, {"dx": "orthostatic_hypotension", "weight": 0.4}],
     "indication_tags": ["exertional", "elderly"],
     "missing_features": ["was BP < 90 at onset?"],
@@ -75,3 +76,20 @@ def test_no_differentials_is_a_contract_error():
         ps.parse_oneliner("x", FakeLLM(dict(GOOD, differentials=[])))
     with pytest.raises(ps.ParserError):
         ps.parse_oneliner("   ", FakeLLM(GOOD))
+
+
+def test_observed_values_keep_their_digits():
+    """The patient's own measurements survive the parse; every other string is still stripped.
+
+    "BP 88/54" is a fact about the patient in front of the clinician, not a claim about how a test
+    performs, and the no-numbers rule exists to contain the latter. Stripping it here left the
+    ranker unable to see that a record reading "do not stand a patient who is already hypotensive"
+    applied: the parse said "hypotension on standing" instead.
+    """
+    reply = dict(GOOD, chief_complaint="lightheaded at BP 88/54",
+                 modifiers=["pale", "BP 88/54"],
+                 observed_values=["BP 88/54", "HR 118", "Cr 1.1 to 2.0"])
+    parsed = ps.parse_oneliner("63M on apixaban, BP 88/54, HR 118, pale and lightheaded on standing", FakeLLM(reply))
+    assert parsed["observed_values"] == ["BP 88/54", "HR 118", "Cr 1.1 to 2.0"]
+    assert not re.search(r"\d", parsed["chief_complaint"]), "every other field is still digit-stripped"
+    assert all(not re.search(r"\d", m) for m in parsed["modifiers"])

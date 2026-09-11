@@ -1,0 +1,1070 @@
+{
+ "arm": "A",
+ "ask_first": false,
+ "base_case_id": "aki_001",
+ "blocked_items": [],
+ "case_id": "aki_001_p1",
+ "created_at": "2026-09-11T10:23:53+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "McGee S, Abernethy WB 3rd, Simel DL. The rational clinical examination. Is this patient hypovolemic? JAMA. 1999;281(11):1022-1029."
+   ],
+   "numeric_claims": [
+    "0.03",
+    "0.06",
+    "0.22",
+    "0.48",
+    "0.8",
+    "0.91",
+    "0.97",
+    "0.98",
+    "0.99",
+    "1",
+    "10.1001",
+    "100",
+    "10086438",
+    "1022",
+    "1029",
+    "11",
+    "1150",
+    "1999",
+    "2",
+    "22",
+    "281",
+    "281.11",
+    "3",
+    "30",
+    "450",
+    "48",
+    "48.5",
+    "6",
+    "630",
+    "91",
+    "95",
+    "97",
+    "98",
+    "99"
+   ],
+   "performance_claims": [
+    "0.03",
+    "0.06",
+    "0.22",
+    "0.48",
+    "0.8",
+    "0.91",
+    "0.97",
+    "0.97",
+    "0.97",
+    "0.98",
+    "0.98",
+    "0.99",
+    "0.99",
+    "1",
+    "11",
+    "48.5"
+   ],
+   "record_id": "hx_postural_dizziness",
+   "section": "ask",
+   "text": "Severe postural dizziness / inability to stand for vitals"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "2",
+    "4",
+    "5"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_hypotensive_medication_review",
+   "section": "ask",
+   "text": "Antihypertensive / sedative / new-medication review (timing of last doses)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Butman SM, Ewy GA, Standen JR, Kern KB, Hahn E. Bedside cardiovascular examination in patients with severe chronic heart failure: importance of rest or inducible jugular venous distension. J Am Coll Cardiol 1993;22(4):968-74.",
+    "Mant J, Doust J, Roalfe A, et al. Systematic review and individual patient data meta-analysis of diagnosis of heart failure, with modelling of implications of different diagnostic strategies in primary care. Health Technol Assess 2009;13(32):1-207.",
+    "Signs and symptoms in adult patients with acute dyspnea: a systematic review and meta-analysis. Eur J Emerg Med 2018;25(1):3-11 (author list not retrievable via abstract tool; confirmed by PMID/DOI)."
+   ],
+   "numeric_claims": [
+    "0.2",
+    "0.24",
+    "0.55",
+    "0.7",
+    "0.77",
+    "0.8",
+    "0.81",
+    "0.88",
+    "0.97",
+    "1",
+    "10.1016",
+    "10.1097",
+    "10.331",
+    "1097",
+    "11",
+    "13",
+    "13320",
+    "18",
+    "19586584",
+    "1993",
+    "2",
+    "2009",
+    "2018",
+    "207",
+    "22",
+    "25",
+    "29252938",
+    "3",
+    "30",
+    "32",
+    "4",
+    "4.05",
+    "429",
+    "45",
+    "4737",
+    "52",
+    "59",
+    "7",
+    "70",
+    "72",
+    "735",
+    "74",
+    "8",
+    "80",
+    "81",
+    "8409071",
+    "85",
+    "89",
+    "9",
+    "90405",
+    "93",
+    "968",
+    "99"
+   ],
+   "performance_claims": [
+    "0.24",
+    "0.7",
+    "0.8",
+    "0.81",
+    "0.88",
+    "4.05"
+   ],
+   "record_id": "exam_jvp_elevated",
+   "section": "examine",
+   "text": "Jugular venous pressure elevated (>8 cm H2O / >3 cm above sternal angle); low/flat JVP as the negative"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Ait-Oufella H, Bige N, Boelle PY, et al. Capillary refill time exploration during septic shock. Intensive Care Med. 2014;40(7):958-964.",
+    "Jacquet-Lagreze M, Wiart C, Schweizer R, et al. Prognostic value of capillary refill time in adult patients: a systematic review with meta-analysis. Crit Care. 2023;27(1):473.",
+    "Schriger DL, Baraff LJ. Capillary refill--is it a useful predictor of hypovolemic states? Ann Emerg Med. 1991;20(6):601-605."
+   ],
+   "numeric_claims": [
+    "0.21",
+    "0.25",
+    "0.26",
+    "0.36",
+    "0.43",
+    "0.46",
+    "0.54",
+    "0.55",
+    "0.56",
+    "0.6",
+    "0.64",
+    "0.68",
+    "0.72",
+    "0.73",
+    "0.82",
+    "0.84",
+    "0.86",
+    "0.94",
+    "0.95",
+    "1",
+    "1.9",
+    "10",
+    "10.1007",
+    "10.1016",
+    "10.1186",
+    "13",
+    "13054",
+    "134",
+    "14",
+    "15",
+    "19",
+    "196",
+    "1991",
+    "2",
+    "2.4",
+    "20",
+    "2014",
+    "2023",
+    "2039096",
+    "23",
+    "24811942",
+    "26",
+    "27",
+    "3",
+    "3326",
+    "38042855",
+    "4",
+    "4.9",
+    "40",
+    "43",
+    "450",
+    "46",
+    "473",
+    "4751",
+    "5",
+    "5.1",
+    "54",
+    "55",
+    "56",
+    "59",
+    "6",
+    "60",
+    "601",
+    "605",
+    "64",
+    "644",
+    "656",
+    "68",
+    "7",
+    "72",
+    "73",
+    "82",
+    "82375",
+    "84",
+    "86",
+    "9",
+    "94",
+    "95",
+    "958",
+    "964"
+   ],
+   "performance_claims": [
+    "0.21",
+    "0.25",
+    "0.26",
+    "0.43",
+    "0.46",
+    "0.54",
+    "0.55",
+    "0.56",
+    "0.6",
+    "0.6",
+    "0.64",
+    "0.64",
+    "0.68",
+    "0.72",
+    "0.73",
+    "0.82",
+    "0.82",
+    "0.84",
+    "0.84",
+    "0.86",
+    "0.94",
+    "0.95",
+    "0.95",
+    "1.9",
+    "3",
+    "5.1"
+   ],
+   "record_id": "exam_capillary_refill",
+   "section": "examine",
+   "text": "Capillary refill time prolonged (>2-3 s, fingertip at heart level, warm room)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "McGee S, Abernethy WB, Simel DL. The rational clinical examination. Is this patient hypovolemic? JAMA. 1999;281(11):1022-1029."
+   ],
+   "numeric_claims": [
+    "0.1",
+    "0.3",
+    "0.6",
+    "10.1001",
+    "10086438",
+    "1022",
+    "1029",
+    "11",
+    "1999",
+    "2.8",
+    "281",
+    "281.11",
+    "30",
+    "95"
+   ],
+   "performance_claims": [
+    "0.1",
+    "0.1",
+    "0.3",
+    "0.3",
+    "0.6",
+    "0.6"
+   ],
+   "record_id": "exam_dry_mucous_membranes",
+   "section": "examine",
+   "text": "Dry oral mucous membranes, tongue furrows, sunken eyes, dry axilla"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Simel DL, Halvorsen RA Jr, Feussner JR. Quantitating bedside diagnosis: clinical evaluation of ascites. J Gen Intern Med. 1988;3(5):423-428."
+   ],
+   "numeric_claims": [
+    "0.12",
+    "0.17",
+    "1",
+    "10.1007",
+    "1982",
+    "1988",
+    "2595917",
+    "3",
+    "3049966",
+    "37.7",
+    "423",
+    "428",
+    "5",
+    "5.76",
+    "83.3",
+    "9.6",
+    "90"
+   ],
+   "performance_claims": [
+    "0.12",
+    "37.7",
+    "5.76",
+    "9.6"
+   ],
+   "record_id": "exam_ascites_flank_dullness_fluid_wave",
+   "section": "examine",
+   "text": "Ascites exam: flank dullness, shifting dullness, fluid wave"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "candidates": [
+   "hx_nephrotoxin_contrast_exposure",
+   "exam_jvp_elevated",
+   "fn_passive_leg_raise",
+   "exam_capillary_refill",
+   "exam_dry_axilla",
+   "exam_dry_mucous_membranes",
+   "exam_hypotension_sbp_lt90",
+   "exam_orthostatic_vitals",
+   "exam_skin_turgor",
+   "exam_tachycardia_resting",
+   "hx_hypotensive_medication_review",
+   "hx_postural_dizziness",
+   "exam_ascites_flank_dullness_fluid_wave",
+   "exam_cirrhosis_stigmata",
+   "exam_shifting_dullness",
+   "exam_spider_nevi",
+   "exam_abdominojugular_reflux",
+   "exam_cool_extremities",
+   "exam_peripheral_edema_pitting",
+   "exam_pulmonary_crackles",
+   "exam_s3_gallop",
+   "hx_orthopnea",
+   "hx_pnd"
+  ],
+  "card": {
+   "chief_complaint": "acute kidney injury with oliguria and hypotension",
+   "presentation": "aki",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_postural_dizziness",
+      "changes_what": "Positive: treat as significant volume loss - IV access, fluid/blood, search for bleeding source; negative: does not exclude moderate haemorrhage, use labs/other findings.",
+      "contraindications": "Do not stand a patient who is already hypotensive, in shock, or with suspected unstable spine/pelvic injury.",
+      "do_not_use_when": "Do not attempt standing in patients who are hypotensive supine, obtunded, or at high fall risk; do not apply the volunteer-derived numbers uncritically to elderly patients on antihypertensives, beta-blockers or with autonomic neuropathy.",
+      "escalation_warning": "Inability to stand because of dizziness in a patient with suspected bleeding indicates large-volume loss: obtain large-bore access, type and crossmatch, and escalate immediately.",
+      "evidence": [
+       {
+        "citation": "McGee S, Abernethy WB 3rd, Simel DL. The rational clinical examination. Is this patient hypovolemic? JAMA. 1999;281(11):1022-1029.",
+        "computed": true,
+        "doi": "10.1001/jama.281.11.1022",
+        "evidence_level": "pooled",
+        "interpretation_label": "both",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.03"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "48.5"
+        },
+        "pmid": "10086438",
+        "population": "Healthy adult volunteers undergoing phlebotomy (pooled RCE analysis of postural vital-sign studies)",
+        "prevalence": null,
+        "quote": "a much greater sensitivity for large blood loss of 97% (95% CI, 91%-100%); the corresponding specificity is 98% (95% CI, 97%-99%)",
+        "reference_standard": "Known volume of blood removed by phlebotomy (before vs after)",
+        "sensitivity": {
+         "ci_high": "1",
+         "ci_low": "0.91",
+         "value": "0.97"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "0.99",
+         "ci_low": "0.97",
+         "value": "0.98"
+        },
+        "target_condition": "Hypovolaemia from LARGE acute blood loss (630-1150 mL) - finding: severe postural dizziness (preventing upright vitals) OR postural pulse increment >=30/min",
+        "url": null,
+        "year": "1999"
+       },
+       {
+        "citation": "McGee S, Abernethy WB 3rd, Simel DL. The rational clinical examination. Is this patient hypovolemic? JAMA. 1999;281(11):1022-1029.",
+        "computed": true,
+        "doi": "10.1001/jama.281.11.1022",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.8"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "11"
+        },
+        "pmid": "10086438",
+        "population": "Healthy adult volunteers undergoing phlebotomy (pooled RCE analysis of postural vital-sign studies)",
+        "prevalence": null,
+        "quote": "The presence of either finding has a sensitivity for moderate blood loss of only 22% (95% confidence interval [CI], 6%-48%)",
+        "reference_standard": "Known volume of blood removed by phlebotomy (before vs after)",
+        "sensitivity": {
+         "ci_high": "0.48",
+         "ci_low": "0.06",
+         "value": "0.22"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "0.99",
+         "ci_low": "0.97",
+         "value": "0.98"
+        },
+        "target_condition": "Hypovolaemia from MODERATE acute blood loss (450-630 mL) - finding: severe postural dizziness OR postural pulse increment >=30/min",
+        "url": null,
+        "year": "1999"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "After supine vitals, stand the patient (with assistance) and ask about dizziness while measuring pulse and BP at about 1 minute. 'Severe' means dizziness so marked the patient cannot stay standing long enough for upright vitals or nearly faints; record it as a positive finding in its own right, together with any pulse increment of 30/min or more.",
+      "id": "hx_postural_dizziness",
+      "negative_finding": "Absence is reassuring only against large blood loss (sensitivity 0.97); after moderate (450-630 mL) loss the finding is usually absent (sensitivity 0.22), so a negative test does not exclude clinically important haemorrhage.",
+      "pitfalls": "Mild postural dizziness has no proven diagnostic value; supine tachycardia or hypotension is often absent even after 1 L loss. Evidence comes from healthy volunteers after phlebotomy, not from elderly or medicated ED patients, in whom baseline orthostatic symptoms are common.",
+      "positive_finding": "Severe postural dizziness (or a postural pulse increment >=30/min) is highly specific (0.98) for hypovolaemia from blood loss and is present in almost all subjects after large (630-1150 mL) blood loss.",
+      "prerequisites": "Supine rest for at least 2 minutes before standing; an assistant to prevent a fall. Sitting is not an adequate substitute for standing.",
+      "rationale": "Severe postural dizziness or inability to stand suggests significant volume loss and would prompt urgent fluid resuscitation.",
+      "skill_assumption": null,
+      "title": "Severe postural dizziness / inability to stand for vitals",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_hypotensive_medication_review",
+      "changes_what": "Positive: hold/adjust the culprit, check orthostatic vitals, ECG, creatinine and electrolytes; negative: pursue arrhythmic, structural, vasovagal or infectious causes.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not accept a medication explanation as final in patients with exertional syncope, syncope while supine, palpitations preceding syncope, known structural heart disease or an abnormal ECG.",
+      "escalation_warning": "Bradycardia or high-grade AV block, QT prolongation, symptomatic hypotension with AKI, or opioid/sedative toxicity with reduced consciousness need monitored care and antidote/withdrawal decisions.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Reconcile every drug (prescribed, OTC, herbal, recreational) against the pharmacy list: antihypertensives, diuretics, nitrates, alpha-blockers, PDE5 inhibitors, rate-slowing agents (beta-blockers, non-DHP CCB, digoxin), QT-prolonging drugs, sedatives/opioids, psychotropics, insulin/sulfonylureas, NSAIDs/ACEi/ARB/SGLT2i. Note start dates, dose changes and timing of the last dose versus the event.",
+      "id": "hx_hypotensive_medication_review",
+      "negative_finding": "No culprit drug or no temporal relationship lowers the probability of medication effect but does not exclude intrinsic cardiac or neurological causes.",
+      "pitfalls": "Patients omit over-the-counter, recreational and 'as needed' drugs; drug effects are amplified by age, renal impairment, volume depletion and drug-drug interactions, so a long-standing drug can still be the cause after a change elsewhere. Attributing syncope to drugs without ECG review can miss conduction disease unmasked by the drug.",
+      "positive_finding": "A new or up-titrated vasoactive, rate-slowing, sedative or diuretic drug (or an intercurrent illness reducing intake/clearance) temporally linked to the event supports drug-induced orthostatic hypotension, bradyarrhythmia, hypovolemia/AKI or delirium.",
+      "prerequisites": "Access to an accurate medication list (pharmacy fill data, carer, containers); ask specifically about new drugs and dose escalations within the past 2-4 weeks.",
+      "rationale": "Recent changes or doses of antihypertensives or sedatives could explain hypotension and AKI, and would prompt holding or adjusting these medications.",
+      "skill_assumption": null,
+      "title": "Antihypertensive / sedative / new-medication review (timing of last doses)",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/exam_jvp_elevated",
+      "changes_what": "Elevated JVP moves dyspnea/edema toward acute HF or RV/pericardial disease and away from hypovolemia; a flat JVP in hypotension favors hypovolemia/sepsis over cardiogenic causes.",
+      "contraindications": "None; avoid firm neck pressure in patients with carotid disease.",
+      "do_not_use_when": "Do not use a normal JVP to withhold treatment for suspected heart failure, or declare a shocked patient hypovolemic when the neck cannot be adequately examined (obesity, short neck, column above the jaw).",
+      "escalation_warning": "Elevated JVP with hypotension, clear lungs and tachycardia suggests tamponade, RV infarction or massive PE and needs immediate echo/POCUS rather than diuresis.",
+      "evidence": [
+       {
+        "citation": "Butman SM, Ewy GA, Standen JR, Kern KB, Hahn E. Bedside cardiovascular examination in patients with severe chronic heart failure: importance of rest or inducible jugular venous distension. J Am Coll Cardiol 1993;22(4):968-74.",
+        "computed": true,
+        "doi": "10.1016/0735-1097(93)90405-p",
+        "evidence_level": "single_study",
+        "interpretation_label": "both",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.24"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "4.05"
+        },
+        "pmid": "8409071",
+        "population": "52 patients with severe chronic heart failure undergoing in-hospital transplant evaluation; index finding = jugular venous distension at rest OR inducible by the abdominojugular test",
+        "prevalence": null,
+        "quote": "had the best combination of sensitivity (81%), specificity (80%) and predictive accuracy (81%) for elevation of the pulmonary capillary wedge pressure",
+        "reference_standard": "Right heart catheterization (PCWP >= 18 mmHg)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.81"
+        },
+        "setting": "inpatient",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.8"
+        },
+        "target_condition": "Elevated pulmonary capillary wedge pressure (>=18 mmHg)",
+        "url": null,
+        "year": "1993"
+       },
+       {
+        "citation": "Signs and symptoms in adult patients with acute dyspnea: a systematic review and meta-analysis. Eur J Emerg Med 2018;25(1):3-11 (author list not retrievable via abstract tool; confirmed by PMID/DOI).",
+        "computed": false,
+        "doi": "10.1097/MEJ.0000000000000429",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "meta_analysis",
+        "location": "Abstract, Conclusion",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "29252938",
+        "population": "Adults with a new episode of acute dyspnea; 8 ED studies, 4737 patients; HF prevalence 25-59%",
+        "prevalence": null,
+        "quote": "Elevated jugular venous pressure (0.88, pooled odds ratio: 7), added third heart sound (0.97), and lung crepitations (0.77, pooled odds ratio: 11)",
+        "reference_standard": "Clinical diagnosis of HF per included studies (varied)",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.88"
+        },
+        "target_condition": "Heart failure as cause of acute dyspnea",
+        "url": null,
+        "year": "2018"
+       },
+       {
+        "citation": "Mant J, Doust J, Roalfe A, et al. Systematic review and individual patient data meta-analysis of diagnosis of heart failure, with modelling of implications of different diagnostic strategies in primary care. Health Technol Assess 2009;13(32):1-207.",
+        "computed": false,
+        "doi": "10.3310/hta13320",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "19586584",
+        "population": "Patients with suspected heart failure in primary care; individual patient data meta-analysis of 9 studies",
+        "prevalence": null,
+        "quote": "orthopnoea (89%), oedema (72%), elevated jugular venous pressure (70%), cardiomegaly (85%), added heart sounds (99%), lung crepitations (81%)",
+        "reference_standard": "Echocardiography / expert panel per included studies",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.7"
+        },
+        "target_condition": "Heart failure (new diagnosis) in primary care",
+        "url": null,
+        "year": "2009"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Recline the patient at 30-45 degrees (adjust until the top of the pulsation is visible), turn the head slightly left, and use tangential light to find the top of the internal jugular column. Measure its vertical height above the sternal angle; >3 cm above the angle (about >8 cm H2O total) is elevated.",
+      "id": "exam_jvp_elevated",
+      "negative_finding": "A flat or normal JVP lowers but does not exclude heart failure; sensitivity is modest (roughly 0.2-0.7 across ED studies) and pooled sensitivity in ED series stays below 0.55.",
+      "pitfalls": "Confusing carotid with venous pulsation, misjudging the sternal angle-to-atrium distance (varies with position), and failing to see a very high column (look for earlobe pulsation) or a very low one (lie the patient flatter). Isolated RV failure, tricuspid disease, tamponade or constriction raise JVP without left-sided congestion.",
+      "positive_finding": "A venous column >3 cm above the sternal angle indicates raised right atrial pressure and, in chronic heart failure, usually raised left-sided filling pressure (PCWP >=18 mmHg). It substantially raises the probability of heart failure as the cause of acute dyspnea.",
+      "prerequisites": "Adequate light, exposed neck, patient relaxed and breathing quietly; identify the venous (biphasic, non-palpable, falls with inspiration, occludable) rather than carotid pulsation.",
+      "rationale": "JVP assessment helps distinguish between hypovolemia (flat) and cardiac/volume overload (elevated), directly impacting fluid management decisions.",
+      "skill_assumption": null,
+      "title": "Jugular venous pressure elevated (>8 cm H2O / >3 cm above sternal angle); low/flat JVP as the negative",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_capillary_refill",
+      "changes_what": "Prolonged CRT in shock: treat as ongoing hypoperfusion and reassess after resuscitation; normal CRT does not rule out hypovolemia.",
+      "contraindications": "Not interpretable on a cold, cyanotic or vasoconstricted limb, with peripheral arterial disease, or in the presence of nail polish/false nails.",
+      "do_not_use_when": "Do not use CRT to exclude hypovolemia or bleeding in adults; do not interpret on cold, vasoconstricted or peripherally diseased limbs.",
+      "escalation_warning": "Persistently prolonged CRT after initial resuscitation in septic shock marks a high-mortality group and should prompt reassessment of perfusion and escalation, not reassurance.",
+      "evidence": [
+       {
+        "citation": "Schriger DL, Baraff LJ. Capillary refill--is it a useful predictor of hypovolemic states? Ann Emerg Med. 1991;20(6):601-605.",
+        "computed": false,
+        "doi": "10.1016/s0196-0644(05)82375-3",
+        "evidence_level": "single_study",
+        "interpretation_label": "minimal",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "2039096",
+        "population": "13 adult ED patients with history suggestive of hypovolemia and hypotension; comparison group blood donors",
+        "prevalence": null,
+        "quote": "26% for the orthostatic group, and 46% for the hypotensive group",
+        "reference_standard": "Clinical hypovolemia group assignment (hypotension); age-sex specific CRT upper limit of normal",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.46"
+        },
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Hypovolemia (ED patients with suggestive history and frank hypotension)",
+        "url": null,
+        "year": "1991"
+       },
+       {
+        "citation": "Schriger DL, Baraff LJ. Capillary refill--is it a useful predictor of hypovolemic states? Ann Emerg Med. 1991;20(6):601-605.",
+        "computed": false,
+        "doi": "10.1016/s0196-0644(05)82375-3",
+        "evidence_level": "single_study",
+        "interpretation_label": "minimal",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "2039096",
+        "population": "19 adult ED patients with history suggestive of hypovolemia and abnormal orthostatic vital signs",
+        "prevalence": null,
+        "quote": "26% for the orthostatic group, and 46% for the hypotensive group",
+        "reference_standard": "Clinical hypovolemia group assignment (abnormal orthostatics); age-sex specific CRT upper limit of normal",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.26"
+        },
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Hypovolemia (ED patients with suggestive history and abnormal orthostatic vital signs)",
+        "url": null,
+        "year": "1991"
+       },
+       {
+        "citation": "Ait-Oufella H, Bige N, Boelle PY, et al. Capillary refill time exploration during septic shock. Intensive Care Med. 2014;40(7):958-964.",
+        "computed": true,
+        "doi": "10.1007/s00134-014-3326-4",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.25"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "3"
+        },
+        "pmid": "24811942",
+        "population": "59 consecutive adults with septic shock, tertiary ICU",
+        "prevalence": "0.36",
+        "quote": "index CRT at 2.4 s predicted 14-day outcome with a sensitivity of 82% (95% CI [60-95]) and a specificity of 73% (95% CI [56-86])",
+        "reference_standard": "Vital status at 14 days",
+        "sensitivity": {
+         "ci_high": "0.95",
+         "ci_low": "0.6",
+         "value": "0.82"
+        },
+        "setting": "ICU",
+        "specificity": {
+         "ci_high": "0.86",
+         "ci_low": "0.56",
+         "value": "0.73"
+        },
+        "target_condition": "14-day mortality after initial resuscitation of septic shock (index fingertip CRT >2.4 s at 6 h)",
+        "url": null,
+        "year": "2014"
+       },
+       {
+        "citation": "Ait-Oufella H, Bige N, Boelle PY, et al. Capillary refill time exploration during septic shock. Intensive Care Med. 2014;40(7):958-964.",
+        "computed": true,
+        "doi": "10.1007/s00134-014-3326-4",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.21"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "5.1"
+        },
+        "pmid": "24811942",
+        "population": "59 consecutive adults with septic shock, tertiary ICU",
+        "prevalence": "0.36",
+        "quote": "knee CRT at 4.9 s predicted 14-day outcome with a sensitivity of 82% (95% CI [60-95]) and a specificity of 84% (95% CI [68-94])",
+        "reference_standard": "Vital status at 14 days",
+        "sensitivity": {
+         "ci_high": "0.95",
+         "ci_low": "0.6",
+         "value": "0.82"
+        },
+        "setting": "ICU",
+        "specificity": {
+         "ci_high": "0.94",
+         "ci_low": "0.68",
+         "value": "0.84"
+        },
+        "target_condition": "14-day mortality after initial resuscitation of septic shock (knee CRT >4.9 s at 6 h)",
+        "url": null,
+        "year": "2014"
+       },
+       {
+        "citation": "Jacquet-Lagreze M, Wiart C, Schweizer R, et al. Prognostic value of capillary refill time in adult patients: a systematic review with meta-analysis. Crit Care. 2023;27(1):473.",
+        "computed": true,
+        "doi": "10.1186/s13054-023-04751-9",
+        "evidence_level": "pooled",
+        "interpretation_label": "minimal",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.64"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "1.9"
+        },
+        "pmid": "38042855",
+        "population": "Adults with acute circulatory failure; 13 studies in primary analysis (23 studies, 60,656 patients overall)",
+        "prevalence": null,
+        "quote": "pooled sensitivity was 54% (95%CI [43; 64]). The pooled specificity was 72% (95%CI [55; 84])",
+        "reference_standard": "Mortality as reported by each study",
+        "sensitivity": {
+         "ci_high": "0.64",
+         "ci_low": "0.43",
+         "value": "0.54"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "0.84",
+         "ci_low": "0.55",
+         "value": "0.72"
+        },
+        "target_condition": "Death in adults with acute circulatory failure (abnormal CRT, study-specific thresholds)",
+        "url": null,
+        "year": "2023"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "With the hand at heart level in a warm room, press the distal index finger pad (or nail bed) firmly for 10-15 s until blanched, release, and time return of baseline colour with a watch. Prolonged is >3 s (ICU studies use >2.4-3 s at the fingertip; knee CRT is an alternative site).",
+      "id": "exam_capillary_refill",
+      "negative_finding": "A normal CRT does not exclude mild-to-moderate hypovolemia in adults (sensitivity 6% after 450 mL loss). In acute circulatory failure, normal CRT only weakly lowers mortality risk (pooled LR- about 0.6).",
+      "pitfalls": "Cold room, cold hands, age and vasoconstriction prolong CRT without hypoperfusion; measurement quality (site, pressure, timing) strongly affects accuracy. CRT is a prognostic/perfusion marker, not a diagnostic test for the cause of shock.",
+      "positive_finding": "In resuscitated septic shock, a fingertip CRT >2.4 s at 6 h predicts 14-day death with sensitivity 82% and specificity 73%, and marks persisting hypoperfusion. In undifferentiated adults, a prolonged CRT is a weak sign of hypovolemia (sensitivity 26-46%).",
+      "prerequisites": "Warm extremity and ambient temperature; a second hand or watch to time; consistent pressure (a glass slide can standardise blanching).",
+      "rationale": "Prolonged capillary refill time indicates ongoing hypoperfusion and supports the need for urgent resuscitation.",
+      "skill_assumption": null,
+      "title": "Capillary refill time prolonged (>2-3 s, fingertip at heart level, warm room)",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_dry_mucous_membranes",
+      "changes_what": "Moist membranes and an unfurrowed tongue lower the probability of hypovolemia; dry findings support a fluid trial and checking electrolytes, BUN/creatinine.",
+      "contraindications": "None.",
+      "do_not_use_when": "Not validated for blood loss; do not use these signs to exclude hemorrhagic hypovolemia or shock.",
+      "escalation_warning": "Hypotension, severe postural dizziness or a postural pulse increment of 30/min or more indicates large volume loss and needs urgent resuscitation regardless of mucosal findings.",
+      "evidence": [
+       {
+        "citation": "McGee S, Abernethy WB, Simel DL. The rational clinical examination. Is this patient hypovolemic? JAMA. 1999;281(11):1022-1029.",
+        "computed": false,
+        "doi": "10.1001/jama.281.11.1022",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_out",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.6",
+         "ci_low": "0.1",
+         "value": "0.3"
+        },
+        "lr_positive": null,
+        "pmid": "10086438",
+        "population": "Adults (largely elderly) presenting with suspected hypovolemia due to vomiting, diarrhea or decreased oral intake",
+        "prevalence": null,
+        "quote": "moist mucous membranes and a tongue without furrows argue against it (negative likelihood ratio, 0.3; 95% CI, 0.1-0.6 for both findings)",
+        "reference_standard": "Laboratory/clinical criteria for hypovolemia used by the included primary studies; details not visible in abstract",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Hypovolemia (dehydration) in adults with vomiting, diarrhea or decreased oral intake - finding: dry oral mucous membranes (LR- is for moist membranes)",
+        "url": null,
+        "year": "1999"
+       },
+       {
+        "citation": "McGee S, Abernethy WB, Simel DL. The rational clinical examination. Is this patient hypovolemic? JAMA. 1999;281(11):1022-1029.",
+        "computed": false,
+        "doi": "10.1001/jama.281.11.1022",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_out",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.6",
+         "ci_low": "0.1",
+         "value": "0.3"
+        },
+        "lr_positive": null,
+        "pmid": "10086438",
+        "population": "Adults (largely elderly) presenting with suspected hypovolemia due to vomiting, diarrhea or decreased oral intake",
+        "prevalence": null,
+        "quote": "moist mucous membranes and a tongue without furrows argue against it (negative likelihood ratio, 0.3; 95% CI, 0.1-0.6 for both findings)",
+        "reference_standard": "Laboratory/clinical criteria for hypovolemia used by the included primary studies; details not visible in abstract",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Hypovolemia (dehydration) in adults with vomiting, diarrhea or decreased oral intake - finding: longitudinal tongue furrows (LR- is for tongue without furrows)",
+        "url": null,
+        "year": "1999"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Inspect the mouth with a light: look at the buccal mucosa and under the tongue for moisture, and at the dorsum of the tongue for longitudinal furrows. Inspect the eyes for sunken globes. Palpate the axilla for sweat. Record each sign separately rather than a global impression.",
+      "id": "exam_dry_mucous_membranes",
+      "negative_finding": "Moist mucous membranes or a tongue without furrows argue against hypovolemia (LR- 0.3 for either), which is the more useful direction of these signs.",
+      "pitfalls": "Mouth breathing, oxygen therapy, anticholinergics and age-related changes dry the mouth without volume depletion; sunken eyes and tongue furrows are chronic in many elderly patients.",
+      "positive_finding": "Dry mucous membranes, furrowed tongue, sunken eyes or a dry axilla each support hypovolemia in patients with vomiting, diarrhea or poor intake; the pooled RCE gives LR+ 2.8 for dry axilla only.",
+      "prerequisites": "Patient not mouth-breathing on oxygen for a prolonged period and no recent oral intake or mouth care; good lighting.",
+      "rationale": "Dry mucous membranes support hypovolemia as a cause of AKI and hypotension, guiding fluid replacement.",
+      "skill_assumption": null,
+      "title": "Dry oral mucous membranes, tongue furrows, sunken eyes, dry axilla",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_ascites_flank_dullness_fluid_wave",
+      "changes_what": "Positive: diagnostic paracentesis (SAAG, cell count; SBP work-up if febrile/AKI/AMS). Negative but concern persists: bedside ultrasound before abandoning the diagnosis.",
+      "contraindications": "None absolute; avoid rolling with unstable spine or fresh laparotomy.",
+      "do_not_use_when": "Do not use a negative exam to exclude ascites when abdominal compartment syndrome, SBP or hepatorenal syndrome is being considered; image instead.",
+      "escalation_warning": "Tense ascites with hypotension, oliguria or respiratory compromise requires urgent paracentesis and assessment for abdominal compartment syndrome.",
+      "evidence": [
+       {
+        "citation": "Simel DL, Halvorsen RA Jr, Feussner JR. Quantitating bedside diagnosis: clinical evaluation of ascites. J Gen Intern Med. 1988;3(5):423-428.",
+        "computed": false,
+        "doi": "10.1007/BF02595917",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "9.6"
+        },
+        "pmid": "3049966",
+        "population": "Hospitalized adults with a broad spectrum of conditions in whom ascites was clinically evaluated (prospective)",
+        "prevalence": null,
+        "quote": "The positive likelihood ratios for a fluid wave = 9.6 and shifting dullness = 5.76 favored ascites",
+        "reference_standard": "Abdominal ultrasonography",
+        "sensitivity": null,
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Ascites; finding = fluid wave",
+        "url": null,
+        "year": "1988"
+       },
+       {
+        "citation": "Simel DL, Halvorsen RA Jr, Feussner JR. Quantitating bedside diagnosis: clinical evaluation of ascites. J Gen Intern Med. 1988;3(5):423-428.",
+        "computed": false,
+        "doi": "10.1007/BF02595917",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "5.76"
+        },
+        "pmid": "3049966",
+        "population": "Hospitalized adults with a broad spectrum of conditions in whom ascites was clinically evaluated (prospective)",
+        "prevalence": null,
+        "quote": "The positive likelihood ratios for a fluid wave = 9.6 and shifting dullness = 5.76 favored ascites",
+        "reference_standard": "Abdominal ultrasonography",
+        "sensitivity": null,
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Ascites; finding = shifting dullness",
+        "url": null,
+        "year": "1988"
+       },
+       {
+        "citation": "Simel DL, Halvorsen RA Jr, Feussner JR. Quantitating bedside diagnosis: clinical evaluation of ascites. J Gen Intern Med. 1988;3(5):423-428.",
+        "computed": false,
+        "doi": "10.1007/BF02595917",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_out",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.12"
+        },
+        "lr_positive": null,
+        "pmid": "3049966",
+        "population": "Hospitalized adults with a broad spectrum of conditions in whom ascites was clinically evaluated (prospective)",
+        "prevalence": null,
+        "quote": "the absence of bulging flanks (negative likelihood ratio = 0.12) or peripheral edema (negative likelihood ratio = 0.17)",
+        "reference_standard": "Abdominal ultrasonography",
+        "sensitivity": null,
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Ascites; finding = absence of bulging flanks (negative finding)",
+        "url": null,
+        "year": "1988"
+       },
+       {
+        "citation": "Simel DL, Halvorsen RA Jr, Feussner JR. Quantitating bedside diagnosis: clinical evaluation of ascites. J Gen Intern Med. 1988;3(5):423-428.",
+        "computed": false,
+        "doi": "10.1007/BF02595917",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results (range 37.7-83.3 across examiners; lower bound entered)",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "37.7"
+        },
+        "pmid": "3049966",
+        "population": "Hospitalized adults with a broad spectrum of conditions in whom ascites was clinically evaluated (prospective)",
+        "prevalence": null,
+        "quote": "The overall clinical evaluation produced a positive likelihood ratio = 37.7-83.3 when suggestive of ascites",
+        "reference_standard": "Abdominal ultrasonography",
+        "sensitivity": null,
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Ascites; overall clinical evaluation judged suggestive of ascites",
+        "url": null,
+        "year": "1988"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Supine patient: percuss from periumbilical tympany toward each flank to find flank dullness, then roll the patient toward one side and re-percuss for shifting of the dullness line. Fluid wave: place an assistant's hand edge on the midline, tap one flank sharply and feel for a transmitted impulse on the opposite flank.",
+      "id": "exam_ascites_flank_dullness_fluid_wave",
+      "negative_finding": "No bulging flanks (LR- 0.12) or no flank dullness makes ascites unlikely; Cattau 1982 found absent flank dullness excluded ascites with >90% accuracy.",
+      "pitfalls": "Volumes under about 1 L are missed by percussion; obesity and gaseous distension confound; in patients with normal prothrombin time (low prevalence) positive signs were usually false positives.",
+      "positive_finding": "Fluid wave (LR+ 9.6) and shifting dullness (LR+ 5.76) raise the probability of ultrasound-confirmed ascites; fluid wave is the more specific sign.",
+      "prerequisites": "Supine and able to roll; empty bladder; expose the abdomen.",
+      "rationale": "Detecting ascites is important in a patient with cirrhosis and AKI, as it raises suspicion for hepatorenal syndrome and may prompt paracentesis.",
+      "skill_assumption": null,
+      "title": "Ascites exam: flank dullness, shifting dullness, fluid wave",
+      "type": "exam"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_postural_dizziness",
+     "rationale": "Severe postural dizziness or inability to stand suggests significant volume loss and would prompt urgent fluid resuscitation."
+    },
+    {
+     "id": "hx_hypotensive_medication_review",
+     "rationale": "Recent changes or doses of antihypertensives or sedatives could explain hypotension and AKI, and would prompt holding or adjusting these medications."
+    }
+   ],
+   "examine": [
+    {
+     "id": "exam_jvp_elevated",
+     "rationale": "JVP assessment helps distinguish between hypovolemia (flat) and cardiac/volume overload (elevated), directly impacting fluid management decisions."
+    },
+    {
+     "id": "exam_capillary_refill",
+     "rationale": "Prolonged capillary refill time indicates ongoing hypoperfusion and supports the need for urgent resuscitation."
+    },
+    {
+     "id": "exam_dry_mucous_membranes",
+     "rationale": "Dry mucous membranes support hypovolemia as a cause of AKI and hypotension, guiding fluid replacement."
+    },
+    {
+     "id": "exam_ascites_flank_dullness_fluid_wave",
+     "rationale": "Detecting ascites is important in a patient with cirrhosis and AKI, as it raises suspicion for hepatorenal syndrome and may prompt paracentesis."
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "acute kidney injury with oliguria and hypotension",
+   "differentials": [
+    {
+     "dx": "prerenal_hypovolemia",
+     "weight": 1.0
+    },
+    {
+     "dx": "hepatorenal",
+     "weight": 0.6
+    },
+    {
+     "dx": "atn",
+     "weight": 0.3
+    },
+    {
+     "dx": "cardiorenal",
+     "weight": 0.1
+    }
+   ],
+   "indication_tags": [
+    "cirrhosis_known",
+    "acute_onset"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "oliguria",
+    "hypotension",
+    "recent diuresis"
+   ],
+   "presentation": "aki",
+   "time_course": "acute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "p1"
+}

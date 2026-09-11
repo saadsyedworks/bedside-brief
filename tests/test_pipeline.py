@@ -12,6 +12,7 @@ PARSE = {
     "presentation": "syncope",
     "time_course": "acute",
     "modifiers": ["exertional"],
+    "observed_values": ["BP 92/58", "HR 104"],
     "differentials": [
         {"dx": "aortic_stenosis", "weight": 1.0},
         {"dx": "orthostatic_hypotension", "weight": 0.5},
@@ -57,3 +58,25 @@ def test_missing_features_surface_as_ask_first(index_db):
     out = pipeline.brief("syncope", FakeLLM([parse, RANK]), index_db)
     assert out["card"]["ask_first"] == ["exertional vs positional", "BP at [n] min?"]
     assert out["validation"]["ok"] is True
+
+
+def test_observed_values_reach_the_ranker_but_never_the_card(index_db, records_by_id):
+    """The vital signs go to the stage that must reason about the patient, and stop there.
+
+    Containment is unchanged: render strips every card-level string again and the validator blocks
+    any number absent from a linked verified record, so letting the parse carry the clinician's own
+    measurements cannot put an unverified number in front of a reader.
+    """
+    import json as _json
+    from bedside_brief.rank import _parsed_summary
+
+    out = pipeline.brief("63M on apixaban, BP 88/54, pale and lightheaded on standing",
+                         FakeLLM([PARSE, RANK]), index_db, ALL)
+
+    assert out["parsed"]["observed_values"] == ["BP 92/58", "HR 104"]
+    assert _parsed_summary(out["parsed"])["observed_values"] == ["BP 92/58", "HR 104"], "the ranker sees them"
+
+    card_text = _json.dumps(out["card"])
+    for value in ("92/58", "104"):
+        assert value not in card_text, f"{value} reached the card"
+    assert out["validation"]["ok"] and validate_card(out["card"], records_by_id).ok

@@ -1,0 +1,535 @@
+{
+ "arm": "A",
+ "ask_first": false,
+ "base_case_id": "fever_003",
+ "blocked_items": [],
+ "case_id": "fever_003_n1",
+ "created_at": "2026-09-11T10:43:37+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "2",
+    "72"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_new_medication_temporal_fever",
+   "section": "ask",
+   "text": "Fever onset temporally linked to a new drug (with rash/relative bradycardia)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Katz DA, Lynch ME, Littenberg B. Clinical prediction rules to optimize cytotoxin testing for Clostridium difficile in hospitalized patients with diarrhea. The American journal of medicine. 1996."
+   ],
+   "numeric_claims": [
+    "0.14",
+    "0.31",
+    "0.44",
+    "0.45",
+    "0.8",
+    "0.86",
+    "1.45",
+    "1.5",
+    "1.56",
+    "10.1016",
+    "12",
+    "15",
+    "16",
+    "18",
+    "1996",
+    "2",
+    "2.8",
+    "24",
+    "265",
+    "3",
+    "30",
+    "45",
+    "480",
+    "68",
+    "8",
+    "80",
+    "86",
+    "8644759",
+    "9343",
+    "94",
+    "95",
+    "97"
+   ],
+   "performance_claims": [
+    "0.31",
+    "0.44",
+    "0.45",
+    "0.45",
+    "0.8",
+    "0.86",
+    "1.45",
+    "1.56"
+   ],
+   "record_id": "hx_recent_antibiotics_new_diarrhea",
+   "section": "ask",
+   "text": "Antibiotic exposure within 8-12 weeks plus new watery diarrhea (>=3/day) or ileus/distension"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": "exam_infection_source_survey",
+   "section": "examine",
+   "text": "Focused infection-source exam (line/exit sites, skin, abdomen, joints, sacrum, urine catheter)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Cobo-Sanchez JL, Blanco-Mavillard I, Pelayo-Alonso R, Mancebo-Salas N, Fernandez-Fernandez I, Larraneta-Inda I, et al. Validation of a Clinical Scale for Early Detection of Infections at the Exit Site of Central Venous Catheters for Hemodialysis. Kidney Int Rep. 2024."
+   ],
+   "numeric_claims": [
+    "0.21",
+    "0.7136",
+    "0.8034",
+    "0.8771",
+    "0.9273",
+    "0.9523",
+    "0.97",
+    "1",
+    "10.1016",
+    "16.8",
+    "2",
+    "2024",
+    "2024.06",
+    "3",
+    "310",
+    "337",
+    "34",
+    "39291192",
+    "515",
+    "71.36",
+    "80.34",
+    "87.71",
+    "92.73",
+    "95",
+    "95.23",
+    "97"
+   ],
+   "performance_claims": [
+    "0.21",
+    "0.7136",
+    "0.8034",
+    "0.8771",
+    "0.9273",
+    "0.9523",
+    "0.97",
+    "16.8"
+   ],
+   "record_id": "exam_line_exit_site_erythema_purulence",
+   "section": "examine",
+   "text": "Central line exit-site erythema, tenderness, or purulence (with line-day count)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Papadimitriou-Olivgeris M, Monney P, Frank M, Tzimas G, Fourr\u00e9 N, Zimmermann V, Tozzi P, Kirsch M, et al. Role of the New Physical Examination Minor Criterion (New Heart Murmur) for the Diagnosis of Infective Endocarditis. Open Forum Infect Dis. 2025."
+   ],
+   "numeric_claims": [
+    "0.37",
+    "0.376",
+    "0.73",
+    "0.87",
+    "1",
+    "10.1093",
+    "1177",
+    "13",
+    "2.74",
+    "2014",
+    "2023",
+    "2025",
+    "22",
+    "260",
+    "3127",
+    "37",
+    "39790639",
+    "430",
+    "690",
+    "736"
+   ],
+   "performance_claims": [
+    "0.37",
+    "0.73",
+    "0.87",
+    "2.74"
+   ],
+   "record_id": "exam_new_regurgitant_murmur",
+   "section": "examine",
+   "text": "New or changed regurgitant murmur"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "candidates": [
+   "hx_rigors_shaking_chills",
+   "exam_infection_source_survey",
+   "exam_line_exit_site_erythema_purulence",
+   "exam_diastolic_murmur_new",
+   "exam_new_regurgitant_murmur",
+   "exam_meningeal_signs_nuchal_kernig_brudzinski",
+   "exam_neck_stiffness",
+   "hx_recent_antibiotics_new_diarrhea",
+   "exam_egophony",
+   "exam_percussion_dullness",
+   "exam_pulmonary_crackles",
+   "exam_tachypnea_rr_gt24",
+   "exam_wheezing",
+   "fn_jolt_accentuation",
+   "hx_pleuritic_chest_pain",
+   "hx_smoking_pack_years",
+   "hx_ain_rash_fever_arthralgia",
+   "hx_new_medication_temporal_fever",
+   "exam_accessory_muscle_use",
+   "exam_breath_sounds_unilateral_absent",
+   "fn_bedside_walk_test"
+  ],
+  "card": {
+   "chief_complaint": "fever with shaking chills",
+   "presentation": "fever",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_new_medication_temporal_fever",
+      "changes_what": "Positive: stop the suspect drug (substitute if needed), expect defervescence within ~72 h, continue infection work-up. Negative: keep searching for occult infection, thrombosis or malignancy.",
+      "contraindications": "Do not stop essential drugs (e.g., antimicrobials for a proven infection, immunosuppressants) without a risk-benefit assessment.",
+      "do_not_use_when": "Do not attribute fever to a drug in a neutropenic, septic or haemodynamically unstable patient until infection has been excluded; do not withdraw life-sustaining drugs on this basis alone.",
+      "escalation_warning": "Fever with rash, mucosal involvement, facial oedema, eosinophilia or organ dysfunction may be DRESS/SJS: stop the drug immediately and escalate.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Build a dated medication timeline (start/stop of every agent, including antibiotics, anticonvulsants, allopurinol, heparin) against the fever curve. Look for fever beginning after a new drug, a patient who looks relatively well despite high temperatures, a pulse lower than expected for the temperature, rash or eosinophilia, and defervescence within about 72 h of stopping the suspect drug.",
+      "id": "hx_new_medication_temporal_fever",
+      "negative_finding": "Absence of rash, eosinophilia or relative bradycardia does not argue against drug fever: these accompaniments were found in only a minority of cases in the largest series. Persistence of fever more than a few days after stopping the suspect drug argues against the diagnosis.",
+      "pitfalls": "Textbook features (relative bradycardia, rash, eosinophilia, characteristic fever pattern) are absent in most cases; drug fever is a diagnosis of exclusion and infection must be ruled out first. Rechallenge reproduces fever and is usually inappropriate.",
+      "positive_finding": "Fever temporally following a new drug, with no alternative source and resolution after withdrawal, supports drug fever; antibacterials (beta-lactams, vancomycin, rifampicin, aminoglycosides) are the commonest culprits and median onset is about 2 days but the lag is highly variable.",
+      "prerequisites": "Complete medication reconciliation; other infectious and non-infectious causes actively sought and excluded.",
+      "rationale": "Drug fever is on the differential, so asking about new medications and timing of fever onset can guide whether to stop a suspect drug.",
+      "skill_assumption": null,
+      "title": "Fever onset temporally linked to a new drug (with rash/relative bradycardia)",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_recent_antibiotics_new_diarrhea",
+      "changes_what": "Positive: send stool for C. difficile testing and consider empirical therapy if severe; stop unnecessary antibiotics/PPIs. Negative: defer testing, look for other diarrhoea causes.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use absence of diarrhoea to dismiss CDI in a patient with antibiotic exposure who develops ileus, distension, leukocytosis or shock; do not use the history to withhold testing in immunocompromised or IBD patients.",
+      "escalation_warning": "Hypotension, ileus, megacolon, WBC >=15 or creatinine >1.5 mg/dL indicate severe/fulminant CDI: urgent treatment and surgical review per IDSA/SHEA.",
+      "evidence": [
+       {
+        "citation": "Katz DA, Lynch ME, Littenberg B. Clinical prediction rules to optimize cytotoxin testing for Clostridium difficile in hospitalized patients with diarrhea. The American journal of medicine. 1996.",
+        "computed": true,
+        "doi": "10.1016/s0002-9343(95)00016-x",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.44"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "1.45"
+        },
+        "pmid": "8644759",
+        "population": "480 consecutive hospitalised adults undergoing diagnostic C. difficile cytotoxin testing at a university hospital and affiliated VA medical centre, USA (derivation cohort)",
+        "prevalence": "0.14",
+        "quote": "both prior antibiotic use and history of significant diarrhea are present, demonstrated sensitivity, specificity, positive and negative predictive value of 80, 45, 18 and 94%",
+        "reference_standard": "C. difficile stool cytotoxin assay",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.8"
+        },
+        "setting": "inpatient",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.45"
+        },
+        "target_condition": "Positive C. difficile stool cytotoxin assay - rule positive if BOTH antibiotic use within 30 days AND significant diarrhoea (new onset of >3 partially formed or watery stools per 24 h); threshold differs from id (30 days, not 8-12 weeks)",
+        "url": null,
+        "year": "1996"
+       },
+       {
+        "citation": "Katz DA, Lynch ME, Littenberg B. Clinical prediction rules to optimize cytotoxin testing for Clostridium difficile in hospitalized patients with diarrhea. The American journal of medicine. 1996.",
+        "computed": true,
+        "doi": "10.1016/s0002-9343(95)00016-x",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.31"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "1.56"
+        },
+        "pmid": "8644759",
+        "population": "Nested modelling subset: 68 cytotoxin-positive cases and 265 randomly selected test-negative controls within 480 consecutive tested inpatients, USA",
+        "prevalence": null,
+        "quote": "defined as positive if prior antibiotic use and either significant diarrhea or abdominal pain are present) demonstrated sensitivity and specificity of 86 and 45%",
+        "reference_standard": "C. difficile stool cytotoxin assay",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.86"
+        },
+        "setting": "inpatient",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.45"
+        },
+        "target_condition": "COMPOSITE: antibiotic use within 30 days AND (significant diarrhoea OR abdominal pain) for positive C. difficile cytotoxin assay",
+        "url": null,
+        "year": "1996"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Ask about any systemic antibiotic in the preceding 8-12 weeks (name, dates), hospital or long-term-care exposure, and characterise the diarrhoea: new onset, number of unformed/watery stools per 24 h (>=3), duration, blood. In the ill patient without diarrhoea, look for abdominal distension, absent bowel sounds or radiographic ileus, which can represent fulminant CDI.",
+      "id": "hx_recent_antibiotics_new_diarrhea",
+      "negative_finding": "No antibiotic exposure and no significant diarrhoea/abdominal pain makes a positive C. difficile assay unlikely (NPV about 94-97% in tested inpatients; misclassification 2.8% in validation); testing can usually be deferred and other causes (laxatives, feeds, medications) pursued.",
+      "pitfalls": "Community-acquired CDI occurs without recent antibiotics; ileus/megacolon presents without diarrhoea. Fever, abdominal pain and leukocytosis were not discriminating for toxin positivity in one prospective cohort, and laxative or tube-feed diarrhoea produces false positives on the history alone.",
+      "positive_finding": "Prior antibiotic use plus >=3 watery stools/24 h defines the population in whom C. difficile testing is indicated; in tested inpatients the combination had sensitivity about 0.80 but specificity only 0.45, so it selects for testing rather than diagnosing. Toxin/NAAT testing is required for diagnosis.",
+      "prerequisites": "Medication reconciliation including outpatient prescriptions; stool chart if inpatient.",
+      "rationale": "C. difficile colitis is on the differential, so recent antibiotic use and new diarrhea should be checked to guide testing and empiric therapy.",
+      "skill_assumption": null,
+      "title": "Antibiotic exposure within 8-12 weeks plus new watery diarrhea (>=3/day) or ileus/distension",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/exam_infection_source_survey",
+      "changes_what": "A positive survey targets cultures, imaging and source control (line removal, drainage, debridement); a negative survey mandates blood/urine cultures and imaging rather than reassurance.",
+      "contraindications": "None; do not delay cultures and antibiotics in suspected sepsis while completing the survey.",
+      "do_not_use_when": "Never let a negative source survey withhold cultures, empiric antibiotics or imaging in a hypotensive, febrile or acutely confused patient with suspected infection.",
+      "escalation_warning": "Crepitus, bullae, skin necrosis or pain out of proportion (necrotizing fasciitis), a hot joint, peritonism, or purulence at a central line/dialysis catheter in a septic patient require immediate surgical/source-control and line removal decisions.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Undress and inspect every line, dialysis and drain/exit site (erythema, purulence, tunnel tenderness), all skin including back, sacrum, heels, perineum, injection sites and wounds; palpate abdomen (peritonism, Murphy sign, flank tenderness), joints and spine for warmth/effusion/tenderness; check urinary catheter, mouth, sinuses, ears and chest. Repeat daily while the source is unknown.",
+      "id": "exam_infection_source_survey",
+      "negative_finding": "A normal survey does not exclude an occult source: insertion-site inflammation is absent in nearly all catheter-related bloodstream infections, and intra-abdominal, urinary, endovascular and spinal infections are frequently silent in elderly, immunosuppressed or sedated patients.",
+      "pitfalls": "Line-site appearance has near-zero sensitivity for CRBSI (coagulase-negative staphylococci cause little inflammation); steroids, neutropenia and neuropathy blunt local signs; dressings, obesity and immobility hide sacral, perineal and injection-site infections. Pain out of proportion with unimpressive skin findings suggests necrotizing infection.",
+      "positive_finding": "Purulence, spreading erythema or tunnel tenderness at a line/exit site, cellulitis or crepitus, a hot swollen joint, peritonism or flank tenderness, or a sacral/heel ulcer with surrounding infection identifies a probable source and directs cultures, source control and empiric therapy.",
+      "prerequisites": "Full exposure with dressings taken down, adequate lighting and analgesia; review lines, catheters and devices with their insertion dates; log-roll immobile patients to view the sacrum.",
+      "rationale": "A focused infection-source exam can identify a source (e.g., line, skin, joints) and direct cultures, imaging, or source control, which is critical in acute fever with shaking chills.",
+      "skill_assumption": null,
+      "title": "Focused infection-source exam (line/exit sites, skin, abdomen, joints, sacrum, urine catheter)",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_line_exit_site_erythema_purulence",
+      "changes_what": "Positive site: culture exudate, draw paired blood cultures, consider line removal; negative site does not lower suspicion of CRBSI in an unexplained fever or shock.",
+      "contraindications": "None; do not delay blood cultures or catheter management while inspecting.",
+      "do_not_use_when": "Do not use a clean site to rule out CRBSI in short-term non-cuffed CVCs; do not rely on site appearance in neutropenic patients who may not mount local inflammation.",
+      "escalation_warning": "Fever with hypotension plus any line in situ: cultures and sepsis pathway regardless of site appearance; purulent exit site with sepsis mandates line removal.",
+      "evidence": [
+       {
+        "citation": "Cobo-Sanchez JL, Blanco-Mavillard I, Pelayo-Alonso R, Mancebo-Salas N, Fernandez-Fernandez I, Larraneta-Inda I, et al. Validation of a Clinical Scale for Early Detection of Infections at the Exit Site of Central Venous Catheters for Hemodialysis. Kidney Int Rep. 2024.",
+        "computed": true,
+        "doi": "10.1016/j.ekir.2024.06.034",
+        "evidence_level": "single_study",
+        "interpretation_label": "both",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.21"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "16.8"
+        },
+        "pmid": "39291192",
+        "population": "Adults with tunneled hemodialysis CVC in place >=1 month; 337 catheters, 310 patients, 515 pericatheter cultures; multicenter prospective cohort",
+        "prevalence": null,
+        "quote": "sensitivity 80.34% (95% CI: 71.36%-87.71%) and specificity 95.23% (95% CI: 92.73%-97%)",
+        "reference_standard": "Positive pericatheter skin swab culture (taken only when any scale item present)",
+        "sensitivity": {
+         "ci_high": "0.8771",
+         "ci_low": "0.7136",
+         "value": "0.8034"
+        },
+        "setting": "outpatient",
+        "specificity": {
+         "ci_high": "0.97",
+         "ci_low": "0.9273",
+         "value": "0.9523"
+        },
+        "target_condition": "COMPOSITE: exit-site infection of tunneled hemodialysis CVC (3-item scale: interdialytic exit-site pain OR erythema >=2 cm OR abscess/purulent exudate)",
+        "url": null,
+        "year": "2024"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Remove the dressing and inspect the insertion/exit site and tunnel in good light: erythema (note extent in cm), induration or swelling, tenderness on palpation, and purulent exudate (express gently along the tunnel). Record catheter type (non-tunneled vs tunneled/cuffed), site, and line-day count.",
+      "id": "exam_line_exit_site_erythema_purulence",
+      "negative_finding": "A clean, non-inflamed site does not exclude catheter-related bloodstream infection; most short-term CVC infections (largely coagulase-negative staphylococci) show little or no local inflammation.",
+      "pitfalls": "Local inflammation is insensitive (near zero) for CRBSI with short-term non-cuffed CVCs; dressing adhesive irritation and tunnel-line manipulation can mimic erythema. Hemodialysis exit-site scale evidence uses a skin-swab culture reference, not bacteremia.",
+      "positive_finding": "Purulence, tenderness, or erythema >=2 cm at the exit site indicates local catheter infection and, in a febrile or hypotensive patient, should raise concern for catheter-related bloodstream infection with S. aureus or Gram-negative organisms.",
+      "prerequisites": "Dressing change with clean technique; knowledge of insertion date and catheter type.",
+      "rationale": "Line infection is the top differential, so checking the line exit site for erythema or purulence can prompt immediate cultures and possible line removal.",
+      "skill_assumption": null,
+      "title": "Central line exit-site erythema, tenderness, or purulence (with line-day count)",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_new_regurgitant_murmur",
+      "changes_what": "Positive: obtain blood cultures and echocardiography urgently; negative: do not lower suspicion of IE in bacteremic patients.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use absence of a murmur to withhold cultures or echocardiography in Staphylococcus aureus bacteremia, prosthetic valves, or IVDU.",
+      "escalation_warning": "New regurgitant murmur with heart failure, heart block, or embolic phenomena warrants urgent echocardiography and cardiac surgery discussion.",
+      "evidence": [
+       {
+        "citation": "Papadimitriou-Olivgeris M, Monney P, Frank M, Tzimas G, Fourr\u00e9 N, Zimmermann V, Tozzi P, Kirsch M, et al. Role of the New Physical Examination Minor Criterion (New Heart Murmur) for the Diagnosis of Infective Endocarditis. Open Forum Infect Dis. 2025.",
+        "computed": true,
+        "doi": "10.1093/ofid/ofae736",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Results, first paragraph; Table 1 row 'Minor physical examination criterion' (260 (13) vs 430 (37))",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.73"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "2.74"
+        },
+        "pmid": "39790639",
+        "population": "3127 adult episodes of suspected IE (blood cultures plus echocardiography obtained for IE) at two Swiss tertiary centres, 2014-2023; 1177 IE",
+        "prevalence": "0.376",
+        "quote": "revealed a new heart murmur in 690 (22%) episodes, which was more common in patients with IE than those without (37% vs 13%",
+        "reference_standard": "Endocarditis team or expert-clinician final diagnosis using 2023 Duke-ISCVID criteria",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.37"
+        },
+        "setting": "inpatient",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.87"
+        },
+        "target_condition": "Infective endocarditis (endocarditis-team/expert adjudicated) among episodes of suspected IE",
+        "url": null,
+        "year": "2025"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Auscultate all four valve areas with diaphragm and bell, patient supine then sitting forward in end-expiration; compare against any documented prior exam. Note any holosystolic (mitral/tricuspid) or early diastolic decrescendo (aortic) murmur not previously recorded.",
+      "id": "exam_new_regurgitant_murmur",
+      "negative_finding": "Absence of a new murmur only modestly lowers the probability of endocarditis (most IE episodes have no new murmur) and never excludes it.",
+      "pitfalls": "Requires a reliable baseline exam; tachycardia, obesity, and noisy wards reduce detection; flow murmurs from fever or anemia mimic new pathology; auscultation skill varies between examiners.",
+      "positive_finding": "A new regurgitant murmur in a febrile or bacteremic patient raises the probability of infective endocarditis and is a minor Duke-ISCVID physical-examination criterion; in a dyspneic patient it suggests acute valvular regurgitation causing heart failure.",
+      "prerequisites": "Quiet room; knowledge of prior murmur status (chart or patient report).",
+      "rationale": "Endocarditis is high on the differential, and a new or changed regurgitant murmur would prompt urgent blood cultures and echocardiography.",
+      "skill_assumption": null,
+      "title": "New or changed regurgitant murmur",
+      "type": "exam"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_new_medication_temporal_fever",
+     "rationale": "Drug fever is on the differential, so asking about new medications and timing of fever onset can guide whether to stop a suspect drug."
+    },
+    {
+     "id": "hx_recent_antibiotics_new_diarrhea",
+     "rationale": "C. difficile colitis is on the differential, so recent antibiotic use and new diarrhea should be checked to guide testing and empiric therapy."
+    }
+   ],
+   "examine": [
+    {
+     "id": "exam_infection_source_survey",
+     "rationale": "A focused infection-source exam can identify a source (e.g., line, skin, joints) and direct cultures, imaging, or source control, which is critical in acute fever with shaking chills."
+    },
+    {
+     "id": "exam_line_exit_site_erythema_purulence",
+     "rationale": "Line infection is the top differential, so checking the line exit site for erythema or purulence can prompt immediate cultures and possible line removal."
+    },
+    {
+     "id": "exam_new_regurgitant_murmur",
+     "rationale": "Endocarditis is high on the differential, and a new or changed regurgitant murmur would prompt urgent blood cultures and echocardiography."
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "fever with shaking chills",
+   "differentials": [
+    {
+     "dx": "line_infection",
+     "weight": 1.0
+    },
+    {
+     "dx": "endocarditis",
+     "weight": 0.625
+    },
+    {
+     "dx": "pneumonia",
+     "weight": 0.25
+    },
+    {
+     "dx": "meningitis_encephalitis",
+     "weight": 0.25
+    },
+    {
+     "dx": "cdiff_colitis",
+     "weight": 0.2
+    },
+    {
+     "dx": "drug_fever",
+     "weight": 0.175
+    }
+   ],
+   "indication_tags": [
+    "ivdu",
+    "prosthetic_valve",
+    "immunocompromised",
+    "acute_onset"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "shaking chills",
+    "no localizing symptoms"
+   ],
+   "presentation": "fever",
+   "time_course": "acute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "n1"
+}

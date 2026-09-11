@@ -1,0 +1,371 @@
+{
+ "arm": "A",
+ "ask_first": false,
+ "base_case_id": "dizziness_002",
+ "blocked_items": [],
+ "case_id": "dizziness_002_n1",
+ "created_at": "2026-09-11T10:36:41+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Herr RD, Zun L, Mathews JJ. A directed approach to the dizzy patient. Ann Emerg Med. 1989;18(6):664-672."
+   ],
+   "numeric_claims": [
+    "0.42",
+    "0.86",
+    "1",
+    "10.1016",
+    "125",
+    "18",
+    "196",
+    "1989",
+    "20",
+    "2729692",
+    "4",
+    "42",
+    "52",
+    "6",
+    "644",
+    "66",
+    "664",
+    "672",
+    "80524",
+    "86",
+    "89"
+   ],
+   "performance_claims": [
+    "0.42",
+    "0.86"
+   ],
+   "record_id": "hx_dizziness_timing_triggers",
+   "section": "ask",
+   "text": "Timing and triggers (TiTrATE: episodic vs continuous, triggered vs spontaneous) rather than symptom quality; associated diplopia/dysarthria/dysphagia/hearing loss"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [
+    "Halker RB, Barrs DM, Wellik KE, Wingerchuk DM, Demaerschalk BM. Establishing a diagnosis of benign paroxysmal positional vertigo through the Dix-Hallpike and side-lying maneuvers: a critically appraised topic. Neurologist. 2008;14(3):201-204.",
+    "Lopez-Escamez JA, et al. [Diagnosis of common causes of vertigo using a structured clinical history]. Acta Otorrinolaringol Esp. 2000;51(1):25-30."
+   ],
+   "numeric_claims": [
+    "0",
+    "0.11",
+    "0.13",
+    "0.25",
+    "0.28",
+    "0.33",
+    "0.58",
+    "0.65",
+    "0.69",
+    "0.71",
+    "0.75",
+    "0.79",
+    "0.82",
+    "0.94",
+    "1",
+    "10.1097",
+    "100",
+    "10799928",
+    "13",
+    "14",
+    "17.5",
+    "18469678",
+    "2.83",
+    "20",
+    "2000",
+    "2008",
+    "201",
+    "204",
+    "25",
+    "2820",
+    "3",
+    "3.17",
+    "30",
+    "31816",
+    "33",
+    "45",
+    "51",
+    "60",
+    "63",
+    "65",
+    "71",
+    "75",
+    "79",
+    "82",
+    "90",
+    "94",
+    "95"
+   ],
+   "performance_claims": [
+    "0.11",
+    "0.25",
+    "0.28",
+    "0.33",
+    "0.58",
+    "0.65",
+    "0.69",
+    "0.71",
+    "0.75",
+    "0.79",
+    "0.82",
+    "0.94",
+    "1",
+    "17.5",
+    "2.83",
+    "3.17"
+   ],
+   "record_id": "fn_dix_hallpike",
+   "section": "examine",
+   "text": "Dix-Hallpike maneuver (posterior-canal BPPV)"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "candidates": [
+   "hx_dizziness_timing_triggers",
+   "exam_nystagmus_direction_changing",
+   "fn_dix_hallpike",
+   "fn_gait_stand_unaided",
+   "fn_head_impulse_test",
+   "fn_hints_exam",
+   "hx_deliriogenic_medication_review",
+   "exam_face_arm_speech_cpss",
+   "exam_focal_neuro_deficit_screen",
+   "exam_skew_deviation",
+   "exam_orthostatic_vitals",
+   "hx_hypotensive_medication_review",
+   "exam_dry_mucous_membranes",
+   "exam_melena_rectal_exam",
+   "exam_skin_turgor",
+   "fn_standing_heart_rate_response",
+   "hx_postural_dizziness",
+   "hx_syncope_prodrome",
+   "exam_pupils_eye_movements_toxidrome",
+   "exam_anaphylaxis_signs",
+   "exam_cam_delirium_screen",
+   "fn_attention_months_backward",
+   "exam_peripheral_edema_pitting",
+   "hx_edema_causing_medications",
+   "hx_nephrotoxin_contrast_exposure"
+  ],
+  "card": {
+   "chief_complaint": "brief episodes of room spinning when turning in bed",
+   "presentation": "dizziness",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_dizziness_timing_triggers",
+      "changes_what": "Determines which bedside exam follows: HINTS for continuous spontaneous, Dix-Hallpike for triggered episodic, orthostatic vitals for standing-triggered, ECG/monitoring for spontaneous episodic.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use a reassuring timing/trigger pattern alone to exclude stroke in patients with vascular risk factors, new headache/neck pain, or any brainstem symptom; obtain the targeted examination.",
+      "escalation_warning": "Acute continuous dizziness with any of diplopia, dysarthria, dysphagia, limb ataxia, new deafness or inability to walk unaided is a stroke pathway until proven otherwise; up to 20% of early DWI-MRI are false negative.",
+      "evidence": [
+       {
+        "citation": "Herr RD, Zun L, Mathews JJ. A directed approach to the dizzy patient. Ann Emerg Med. 1989;18(6):664-672.",
+        "computed": false,
+        "doi": "10.1016/s0196-0644(89)80524-4",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "2729692",
+        "population": "125 ED patients with dizziness evaluated with a standardized 66-item history/exam/lab protocol",
+        "prevalence": null,
+        "quote": "The best predictors, either older age, lack of vertigo, or neurologic deficit, could identify 86% of \"serious\" dizziness with 42% specificity.",
+        "reference_standard": "Emergency physician diagnosis modified by 1-month follow-up using predefined diagnostic criteria",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.86"
+        },
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.42"
+        },
+        "target_condition": "'Serious' cause of dizziness (stroke/TIA, arrhythmia, medication, seizure, other requiring admission) - composite predictor: older age OR lack of vertigo OR neurologic deficit",
+        "url": null,
+        "year": "1989"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Instead of asking 'what kind of dizziness', ask: Is it there now continuously or does it come in discrete episodes? How long do episodes last (seconds, minutes, hours)? Is it brought on only by a trigger (head/position change, standing) or does it arise spontaneously? Then ask about diplopia, dysarthria, dysphagia, new hearing loss, headache or neck pain.",
+      "id": "hx_dizziness_timing_triggers",
+      "negative_finding": "A clear positional trigger with seconds-long episodes and no neurologic symptoms makes central causes unlikely, but isolated dizziness can still be a vertebrobasilar stroke.",
+      "pitfalls": "Symptom-quality descriptors (vertigo vs lightheadedness) are unreliable: 52% of ED patients changed their descriptor on retest after ~6 minutes, so do not triage on 'type'. Do not confuse 'worse with movement' (most vestibular causes) with 'only occurs with movement' (true trigger).",
+      "positive_finding": "Continuous acute vestibular syndrome demands HINTS-type eye examination for stroke; triggered brief episodes point to BPPV or orthostatic hypotension (test with Dix-Hallpike or orthostatic vitals); spontaneous episodes lasting minutes-hours suggest TIA, Meniere or arrhythmia. Any associated brainstem symptom raises stroke probability.",
+      "prerequisites": "Patient able to give a history; screen for red-flag neurologic symptoms before deciding on examination pathway.",
+      "rationale": "Clarifying the timing and triggers will help confirm BPPV and guide whether positional testing is appropriate.",
+      "skill_assumption": null,
+      "title": "Timing and triggers (TiTrATE: episodic vs continuous, triggered vs spontaneous) rather than symptom quality; associated diplopia/dysarthria/dysphagia/hearing loss",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/fn_dix_hallpike",
+      "changes_what": "Positive with typical nystagmus: diagnose posterior-canal BPPV and perform Epley; no imaging. Atypical (downbeat/persistent) nystagmus: evaluate for central positional vertigo.",
+      "contraindications": "Relative: cervical spine instability or severe cervical disease, recent neck surgery, vertebrobasilar insufficiency, carotid stenosis; use the side-lying test as an alternative.",
+      "do_not_use_when": "Do not use to evaluate continuous vertigo with spontaneous nystagmus (acute vestibular syndrome) - a positional test cannot rule out stroke there. Avoid in unstable cervical spine.",
+      "escalation_warning": "Positional nystagmus that is downbeat, purely vertical, non-fatiguing, without latency, or accompanied by other neurologic signs warrants MRI for central positional vertigo (posterior fossa lesion).",
+      "evidence": [
+       {
+        "citation": "Halker RB, Barrs DM, Wellik KE, Wingerchuk DM, Demaerschalk BM. Establishing a diagnosis of benign paroxysmal positional vertigo through the Dix-Hallpike and side-lying maneuvers: a critically appraised topic. Neurologist. 2008;14(3):201-204.",
+        "computed": false,
+        "doi": "10.1097/NRL.0b013e31816f2820",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results (Neurologist 2008;14:201)",
+        "lr_negative": {
+         "ci_high": "0.69",
+         "ci_low": "0.11",
+         "value": "0.28"
+        },
+        "lr_positive": {
+         "ci_high": "17.5",
+         "ci_low": "0.58",
+         "value": "3.17"
+        },
+        "pmid": "18469678",
+        "population": "Single primary study comparing Dix-Hallpike and side-lying tests in patients with positional vertigo (critically appraised topic)",
+        "prevalence": null,
+        "quote": "For the Dix-Hallpike test, the estimated sensitivity was 79% [95% confidence interval (CI) 65-94], specificity was 75% (33-100)",
+        "reference_standard": "Clinical diagnosis of BPPV (study methodology rated very weak by the appraisers)",
+        "sensitivity": {
+         "ci_high": "0.94",
+         "ci_low": "0.65",
+         "value": "0.79"
+        },
+        "setting": "outpatient",
+        "specificity": {
+         "ci_high": "1",
+         "ci_low": "0.33",
+         "value": "0.75"
+        },
+        "target_condition": "Posterior canal BPPV",
+        "url": null,
+        "year": "2008"
+       },
+       {
+        "citation": "Lopez-Escamez JA, et al. [Diagnosis of common causes of vertigo using a structured clinical history]. Acta Otorrinolaringol Esp. 2000;51(1):25-30.",
+        "computed": true,
+        "doi": null,
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results (Acta Otorrinolaringol Esp 2000;51:25)",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.25"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "2.83"
+        },
+        "pmid": "10799928",
+        "population": "100 consecutive outpatients with dizziness or imbalance, 13 with BPPV",
+        "prevalence": "0.13",
+        "quote": "positional nystagmus (sensitivity [SE] 90%, SP 63%), and the Dix-Hallpike test (SE 82%, SP 71%).",
+        "reference_standard": "Concordant diagnosis by three blinded investigators reviewing a structured history (no imaging or vestibular-lab standard)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.82"
+        },
+        "setting": "outpatient",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.71"
+        },
+        "target_condition": "BPPV (all canals) among outpatients with dizziness",
+        "url": null,
+        "year": "2000"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Patient sits upright on the bed; turn the head 45 degrees toward the test ear, then briskly lie them back so the head hangs about 20 degrees below horizontal (over the bed end or a pillow under the shoulders). Keep eyes open and watch for 30-60 s for latency, nystagmus direction and duration; sit up and repeat on the other side.",
+      "id": "fn_dix_hallpike",
+      "negative_finding": "A negative maneuver reduces but does not exclude BPPV (single-study LR- about 0.28); if the history is typical, repeat or perform the supine roll test for horizontal-canal BPPV.",
+      "pitfalls": "Downbeat, purely vertical or persistent (non-fatiguing) positional nystagmus without latency suggests a central cause, not BPPV; canalith repositioning should not be done reflexively. Sensitivity falls if the patient has already been treated, closes their eyes, or the head hang is inadequate.",
+      "positive_finding": "After a latency of a few seconds, a burst of torsional up-beating nystagmus with vertigo lasting under 60 s that fatigues on repetition indicates posterior-canal BPPV of the tested (down) ear; the AAO-HNS guideline diagnoses BPPV on this finding alone.",
+      "prerequisites": "Best applied to episodic, brief, positionally triggered vertigo with no spontaneous nystagmus; explain the vertigo may be provoked. Neck must tolerate extension and rotation.",
+      "rationale": "Dix-Hallpike is the key bedside test for diagnosing posterior-canal BPPV, which matches the patient's triggered, brief vertigo.",
+      "skill_assumption": null,
+      "title": "Dix-Hallpike maneuver (posterior-canal BPPV)",
+      "type": "functional"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_dizziness_timing_triggers",
+     "rationale": "Clarifying the timing and triggers will help confirm BPPV and guide whether positional testing is appropriate."
+    }
+   ],
+   "examine": [
+    {
+     "id": "fn_dix_hallpike",
+     "rationale": "Dix-Hallpike is the key bedside test for diagnosing posterior-canal BPPV, which matches the patient's triggered, brief vertigo."
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "brief episodes of room spinning when turning in bed",
+   "differentials": [
+    {
+     "dx": "bppv",
+     "weight": 1.0
+    },
+    {
+     "dx": "vestibular_neuritis",
+     "weight": 0.214
+    },
+    {
+     "dx": "orthostatic_hypotension",
+     "weight": 0.1
+    },
+    {
+     "dx": "medication_effect",
+     "weight": 0.071
+    },
+    {
+     "dx": "posterior_circulation_stroke",
+     "weight": 0.043
+    }
+   ],
+   "indication_tags": [
+    "post_operative",
+    "acute_onset"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "episodic",
+    "triggered by turning in bed",
+    "nausea",
+    "no headache"
+   ],
+   "presentation": "dizziness",
+   "time_course": "acute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "n1"
+}

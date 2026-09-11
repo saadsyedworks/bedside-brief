@@ -1,0 +1,596 @@
+{
+ "arm": "A",
+ "ask_first": false,
+ "base_case_id": "weakness_001",
+ "blocked_items": [],
+ "case_id": "weakness_001",
+ "created_at": "2026-09-11T10:49:49+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "24",
+    "72"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_hypoglycemia_symptoms_insulin",
+   "section": "ask",
+   "text": "Hypoglycemia history: insulin/sulfonylurea use, missed meals, adrenergic or neuroglycopenic symptoms"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Benbadis SR, Wolgamuth BR, Goren H, Brener S, Fouad-Tarazi F. Value of tongue biting in the diagnosis of seizures. Arch Intern Med. 1995;155(21):2346-2349.",
+    "Brigo F, Nardone R, Bongiovanni LG. Value of tongue biting in the differential diagnosis between epileptic seizures and syncope. Seizure. 2012;21(8):568-572.",
+    "Hoefnagels WA, Padberg GW, Overweg J, van der Velde EA, Roos RA. Transient loss of consciousness: the value of the history for distinguishing seizure from syncope. J Neurol. 1991;238(1):39-43.",
+    "Sheldon R, Rose S, Ritchie D, et al. Historical criteria that distinguish syncope from seizures. J Am Coll Cardiol. 2002;40(1):142-148."
+   ],
+   "numeric_claims": [
+    "0.19",
+    "0.24",
+    "0.33",
+    "0.44",
+    "0.589",
+    "0.695",
+    "0.7",
+    "0.82",
+    "0.94",
+    "0.96",
+    "0.99",
+    "1",
+    "10.1016",
+    "100",
+    "102",
+    "1097",
+    "12103268",
+    "142",
+    "148",
+    "15",
+    "155",
+    "1940",
+    "1991",
+    "1995",
+    "2",
+    "2.969",
+    "2002",
+    "2012",
+    "2030371",
+    "21",
+    "22.461",
+    "22770819",
+    "2346",
+    "2349",
+    "238",
+    "24",
+    "267",
+    "29",
+    "33",
+    "34",
+    "39",
+    "40",
+    "41",
+    "43",
+    "437",
+    "45",
+    "5",
+    "53",
+    "539",
+    "568",
+    "572",
+    "63",
+    "735",
+    "7487261",
+    "75",
+    "8",
+    "8.167",
+    "8.2",
+    "80",
+    "90",
+    "94",
+    "95",
+    "96",
+    "98",
+    "99"
+   ],
+   "performance_claims": [
+    "0.24",
+    "0.33",
+    "0.589",
+    "0.695",
+    "0.82",
+    "0.94",
+    "0.94",
+    "0.96",
+    "0.99",
+    "2.969",
+    "22.461",
+    "5",
+    "8.167"
+   ],
+   "record_id": "hx_post_event_confusion",
+   "section": "ask",
+   "text": "Seizure-vs-syncope features: prolonged (>1-5 min) post-event confusion, lateral tongue biting, head turning, incontinence"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Goldstein LB, Simel DL. Is this patient having a stroke? JAMA. 2005;293(19):2391-2402.",
+    "Kothari RU, Pancioli A, Liu T, Brott T, Broderick J. Cincinnati Prehospital Stroke Scale: reproducibility and validity. Ann Emerg Med. 1999;33(4):373-378."
+   ],
+   "numeric_claims": [
+    "0",
+    "0.1",
+    "0.25",
+    "0.29",
+    "0.39",
+    "0.4",
+    "0.61",
+    "0.66",
+    "0.87",
+    "0.88",
+    "1",
+    "10",
+    "10.1001",
+    "10.1016",
+    "10092713",
+    "15900010",
+    "171",
+    "19",
+    "196",
+    "1999",
+    "2005",
+    "2391",
+    "2402",
+    "293",
+    "293.19",
+    "3",
+    "3.3",
+    "33",
+    "373",
+    "378",
+    "4",
+    "49",
+    "5.08",
+    "5.5",
+    "644",
+    "66",
+    "70299",
+    "87",
+    "88",
+    "9.1",
+    "95",
+    "99"
+   ],
+   "performance_claims": [
+    "0.25",
+    "0.39",
+    "0.39",
+    "0.61",
+    "0.66",
+    "0.87",
+    "0.88",
+    "3.3",
+    "5.08",
+    "5.5",
+    "9.1"
+   ],
+   "record_id": "exam_face_arm_speech_cpss",
+   "section": "examine",
+   "text": "Facial droop, arm drift, abnormal speech (Cincinnati/FAST screen)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": "exam_forehead_sparing_facial_weakness",
+   "section": "examine",
+   "text": "Forehead sparing (central) vs forehead involvement (peripheral) in facial weakness"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "candidates": [
+   "exam_focal_neuro_deficit_screen",
+   "exam_pulse_irregularly_irregular",
+   "fn_gait_stand_unaided",
+   "exam_face_arm_speech_cpss",
+   "exam_focal_neuro_deficit_with_chest_pain",
+   "exam_forehead_sparing_facial_weakness",
+   "hx_hypoglycemia_symptoms_insulin",
+   "exam_sensory_level_upper_motor_neuron_signs",
+   "fn_single_breath_count",
+   "hx_alcohol_use_withdrawal_timing",
+   "exam_ascending_symmetric_weakness_areflexia",
+   "exam_proximal_symmetric_weakness",
+   "exam_fatigable_ptosis_sustained_upgaze",
+   "fn_ice_pack_test",
+   "exam_subtle_motor_signs_ncse",
+   "exam_pupils_eye_movements_toxidrome",
+   "hx_post_event_confusion"
+  ],
+  "card": {
+   "chief_complaint": "left facial droop and slurred speech",
+   "presentation": "weakness",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_hypoglycemia_symptoms_insulin",
+      "changes_what": "Positive: fingerstick now, treat, and observe for recurrence (sulfonylurea/renal failure -> admit); negative: keep glucose check but move to cardiac/neurologic causes of the spell.",
+      "contraindications": "None; the history must never delay a point-of-care glucose in any patient with altered mental status, syncope or focal deficit.",
+      "do_not_use_when": "Never rely on symptom history alone in an obtunded, post-ictal or focally weak patient - measure glucose immediately.",
+      "escalation_warning": "Hypoglycemia with sulfonylurea, insulin overdose, renal failure or alcohol needs monitored admission and repeated glucose; persistent deficit after glucose correction is a stroke workup.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Ask specifically about insulin or sulfonylurea use (drug, dose, timing of last dose), missed or delayed meals, alcohol, recent renal or hepatic decline, and prodromal autonomic symptoms (sweating, tremor, palpitations, hunger) or neuroglycopenic symptoms (confusion, drowsiness, difficulty speaking, weakness). Confirm with a fingerstick glucose at the time of symptoms.",
+      "id": "hx_hypoglycemia_symptoms_insulin",
+      "negative_finding": "No exposure to insulin or secretagogues and no critical illness, cortisol/hormone deficiency or alcohol makes drug-induced hypoglycemia unlikely, but a measured glucose is still required because neuroglycopenia can present without warning symptoms.",
+      "pitfalls": "Long-standing diabetes and beta-blockers blunt autonomic warning symptoms so neuroglycopenic presentation (confusion, focal deficit) may be the only clue; sulfonylurea hypoglycemia recurs for 24-72 h so a single corrected glucose is not the end of the episode.",
+      "positive_finding": "Insulin/secretagogue exposure plus a missed meal, alcohol or renal impairment and autonomic or neuroglycopenic prodrome makes hypoglycemia likely; Whipple's triad (symptoms, documented low glucose, resolution with glucose) confirms it.",
+      "prerequisites": "A collateral history when the patient is confused; the medication list including recently added sulfonylureas, insulin dose changes, or drugs that potentiate them.",
+      "rationale": "Hypoglycemia can mimic stroke and is rapidly reversible, so history of insulin or sulfonylurea use and symptoms is critical.",
+      "skill_assumption": null,
+      "title": "Hypoglycemia history: insulin/sulfonylurea use, missed meals, adrenergic or neuroglycopenic symptoms",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_post_event_confusion",
+      "changes_what": "Positive (prolonged confusion, lateral tongue bite): pursue seizure work-up (EEG, imaging). Negative with rapid reorientation: pursue syncope pathway (ECG, orthostatics, cardiac risk).",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not rely on these features alone in patients with focal deficits, head injury, or possible nonconvulsive status; absence of tongue biting never excludes seizure.",
+      "escalation_warning": "Prolonged post-event confusion with fever, headache, focal signs, or no return to baseline needs urgent evaluation for structural, infectious, or ongoing seizure causes.",
+      "evidence": [
+       {
+        "citation": "Brigo F, Nardone R, Bongiovanni LG. Value of tongue biting in the differential diagnosis between epileptic seizures and syncope. Seizure. 2012;21(8):568-572.",
+        "computed": false,
+        "doi": null,
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.82",
+         "ci_low": "0.589",
+         "value": "0.695"
+        },
+        "lr_positive": {
+         "ci_high": "22.461",
+         "ci_low": "2.969",
+         "value": "8.167"
+        },
+        "pmid": "22770819",
+        "population": "Pooled: 75 patients with epileptic seizures and 98 with syncope from 2 studies",
+        "prevalence": null,
+        "quote": "sensitivity 33%, specificity 96%, pLR 8.167 (95% CI 2.969-22.461) and nLR 0.695 (95% CI 0.589-0.82)",
+        "reference_standard": "Clinical/video-EEG diagnosis of epileptic seizure vs syncope as defined in the included studies",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.33"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.96"
+        },
+        "target_condition": "Epileptic seizure (vs syncope) - finding: tongue biting (any)",
+        "url": null,
+        "year": "2012"
+       },
+       {
+        "citation": "Benbadis SR, Wolgamuth BR, Goren H, Brener S, Fouad-Tarazi F. Value of tongue biting in the diagnosis of seizures. Arch Intern Med. 1995;155(21):2346-2349.",
+        "computed": false,
+        "doi": null,
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "7487261",
+        "population": "63 epilepsy-monitoring-unit patients with bilateral motor activity and/or complete LOC (34 epileptic, 29 nonepileptic) plus 45 patients with syncope (retrospective)",
+        "prevalence": null,
+        "quote": "Tongue biting had a sensitivity of 24% and a specificity of 99% for the diagnosis of generalized tonic-clonic seizures.",
+        "reference_standard": "Video-EEG monitoring (epilepsy monitoring unit); syncope by clinical diagnosis",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.24"
+        },
+        "setting": "inpatient",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.99"
+        },
+        "target_condition": "Generalized tonic-clonic seizure (vs nonepileptic events and syncope) - finding: tongue biting",
+        "url": null,
+        "year": "1995"
+       },
+       {
+        "citation": "Hoefnagels WA, Padberg GW, Overweg J, van der Velde EA, Roos RA. Transient loss of consciousness: the value of the history for distinguishing seizure from syncope. J Neurol. 1991;238(1):39-43.",
+        "computed": false,
+        "doi": null,
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "5"
+        },
+        "pmid": "2030371",
+        "population": "94 consecutive patients aged 15+ with transient loss of consciousness (41 seizure, 53 syncope)",
+        "prevalence": "0.44",
+        "quote": "We found a seizure five times more likely than syncope if the patient was disoriented after the event",
+        "reference_standard": "Eyewitness-observed clonic movements or automatisms classified the event as a seizure",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Seizure (vs syncope) - finding: disorientation immediately after the event (eyewitness report)",
+        "url": null,
+        "year": "1991"
+       },
+       {
+        "citation": "Sheldon R, Rose S, Ritchie D, et al. Historical criteria that distinguish syncope from seizures. J Am Coll Cardiol. 2002;40(1):142-148.",
+        "computed": false,
+        "doi": "10.1016/s0735-1097(02)01940-x",
+        "evidence_level": "validation_cohort",
+        "interpretation_label": "both",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "12103268",
+        "population": "539 patients with loss of consciousness of known cause (102 seizures; 437 syncope incl. 267 tilt-positive vasovagal, 90 VT, 80 other)",
+        "prevalence": "0.19",
+        "quote": "The point score based on symptoms alone correctly classified 94% of patients, diagnosing seizures with 94% sensitivity and 94% specificity.",
+        "reference_standard": "Established cause of LOC (tilt testing, electrophysiology, EEG/clinical epilepsy diagnosis); split-half validation",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.94"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.94"
+        },
+        "target_condition": "Seizure (vs syncope) - COMPOSITE Calgary historical point score (includes post-event confusion, tongue biting, head turning, incontinence items), not a single feature",
+        "url": null,
+        "year": "2002"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Take the history from an eyewitness where possible. Ask how long the patient was confused or disoriented after coming round (seconds vs many minutes), whether the tongue was bitten and where (lateral border vs tip), whether the head or eyes turned to one side, and whether there was incontinence. Inspect the lateral tongue for laceration.",
+      "id": "hx_post_event_confusion",
+      "negative_finding": "Absence of tongue biting barely lowers seizure probability (pooled LR- 0.70, sensitivity ~0.24-0.33). Rapid, full orientation on waking favours syncope.",
+      "pitfalls": "Brief myoclonic jerks and even a few seconds of confusion are common in convulsive syncope; incontinence and injury did not discriminate in Hoefnagels 1991. Tip-of-tongue bites occur in syncope.",
+      "positive_finding": "Disorientation after the event made seizure about five times more likely than syncope (Hoefnagels 1991); tongue biting is highly specific for generalised seizure (pooled LR+ 8.2, spec 0.96), and lateral tongue biting was 100% specific in Benbadis 1995.",
+      "prerequisites": "An eyewitness account materially improves accuracy; the patient's own recall of the event is often absent.",
+      "rationale": "Seizure can mimic stroke; asking about post-event confusion or tongue biting helps distinguish seizure from stroke.",
+      "skill_assumption": null,
+      "title": "Seizure-vs-syncope features: prolonged (>1-5 min) post-event confusion, lateral tongue biting, head turning, incontinence",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/exam_face_arm_speech_cpss",
+      "changes_what": "Positive: activate stroke pathway/immediate imaging and time-critical reperfusion assessment. Negative: lowers probability but still image if dizziness, ataxia or visual symptoms.",
+      "contraindications": "None; if the patient cannot cooperate, observe spontaneous facial symmetry and limb movement instead.",
+      "do_not_use_when": "Do not rely on a negative screen to exclude posterior-circulation stroke in a patient with acute dizziness, ataxia, diplopia or visual field loss; use HINTS/gait assessment and imaging pathways instead.",
+      "escalation_warning": "Any positive item with symptom onset within the reperfusion window is a time-critical emergency; do not delay activation for a glucose result unless hypoglycemia is confirmed and deficits resolve with correction.",
+      "evidence": [
+       {
+        "citation": "Goldstein LB, Simel DL. Is this patient having a stroke? JAMA. 2005;293(19):2391-2402.",
+        "computed": false,
+        "doi": "10.1001/jama.293.19.2391",
+        "evidence_level": "pooled",
+        "interpretation_label": "both",
+        "kind": "rce_series",
+        "location": "Abstract, Data Synthesis (JAMA 2005;293:2391)",
+        "lr_negative": {
+         "ci_high": "0.61",
+         "ci_low": "0.25",
+         "value": "0.39"
+        },
+        "lr_positive": {
+         "ci_high": "9.1",
+         "ci_low": "3.3",
+         "value": "5.5"
+        },
+        "pmid": "15900010",
+        "population": "Pooled studies of patients with suspected stroke evaluated with modern neuroimaging (RCE systematic review)",
+        "prevalence": "0.1",
+        "quote": "LR of > or =1 finding = 5.5; 95% CI, 3.3-9.1 ... LR of 0 findings = 0.39; 95% CI, 0.25-0.61",
+        "reference_standard": "Final diagnosis after neuroimaging and relevant laboratory tests",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Acute stroke (ischemic or hemorrhagic) among patients with neurologically relevant symptoms",
+        "url": null,
+        "year": "2005"
+       },
+       {
+        "citation": "Kothari RU, Pancioli A, Liu T, Brott T, Broderick J. Cincinnati Prehospital Stroke Scale: reproducibility and validity. Ann Emerg Med. 1999;33(4):373-378.",
+        "computed": true,
+        "doi": "10.1016/s0196-0644(99)70299-4",
+        "evidence_level": "single_study",
+        "interpretation_label": "both",
+        "kind": "primary_study",
+        "location": "Abstract, Results (Ann Emerg Med 1999;33:373)",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.39"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "5.08"
+        },
+        "pmid": "10092713",
+        "population": "Convenience sample of 171 ED and neurology inpatients, 49 with stroke/TIA",
+        "prevalence": "0.29",
+        "quote": "abnormality in any 1 of the 3 stroke scale items had a sensitivity of 66% and specificity of 87% in identifying a stroke patient.",
+        "reference_standard": "Discharge diagnosis of stroke or TIA",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.66"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.87"
+        },
+        "target_condition": "Stroke or TIA (any 1 of 3 CPSS items abnormal, scored by physician)",
+        "url": null,
+        "year": "1999"
+       },
+       {
+        "citation": "Kothari RU, Pancioli A, Liu T, Brott T, Broderick J. Cincinnati Prehospital Stroke Scale: reproducibility and validity. Ann Emerg Med. 1999;33(4):373-378.",
+        "computed": false,
+        "doi": "10.1016/s0196-0644(99)70299-4",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_out",
+        "kind": "primary_study",
+        "location": "Abstract, Results (Ann Emerg Med 1999;33:373)",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "10092713",
+        "population": "Same 171-patient convenience sample; subgroup with anterior circulation stroke",
+        "prevalence": null,
+        "quote": "The sensitivity was 88% for identification of patients with anterior circulation strokes.",
+        "reference_standard": "Discharge diagnosis of stroke, anterior circulation",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.88"
+        },
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Anterior circulation stroke (any 1 of 3 CPSS items abnormal)",
+        "url": null,
+        "year": "1999"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Ask the patient to smile or show teeth and look for asymmetric facial movement; have them close eyes and hold both arms out palms-up for 10 seconds, watching for one arm drifting down; ask them to repeat a simple sentence and listen for slurring, wrong words, or inability to speak. Any one abnormal item is a positive screen.",
+      "id": "exam_face_arm_speech_cpss",
+      "negative_finding": "Absence of all three findings lowers but does not exclude stroke (LR about 0.4); posterior-circulation strokes, which often present with dizziness or ataxia, are commonly missed by this screen (Kothari: 66% sensitivity overall vs 88% for anterior circulation).",
+      "pitfalls": "Bell palsy, old deficits, intoxication, hypoglycemia and seizure mimics all produce false positives; isolated vertigo, ataxia, visual field loss and neglect are not captured, so a negative screen must not stop a stroke work-up in a dizzy patient.",
+      "positive_finding": "Any new facial paresis, arm drift, or abnormal speech; in patients with neurologically relevant symptoms this raises the probability of stroke (pooled LR about 5.5).",
+      "prerequisites": "Patient awake enough to follow simple commands; check a fingerstick glucose alongside the screen. Note time last known well.",
+      "rationale": "A positive FAST screen strongly supports acute stroke and triggers immediate stroke pathway activation.",
+      "skill_assumption": null,
+      "title": "Facial droop, arm drift, abnormal speech (Cincinnati/FAST screen)",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_forehead_sparing_facial_weakness",
+      "changes_what": "Forehead spared: stroke pathway/imaging. Forehead involved and isolated: Bell palsy work-up and early steroids; any additional neurological sign redirects to central causes.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use forehead involvement alone to exclude stroke in patients with vascular risk factors, vertigo, diplopia, ataxia, limb or gaze findings, or bilateral/recurrent palsy.",
+      "escalation_warning": "Any additional neurological deficit, sudden onset with headache, or forehead-sparing pattern warrants urgent stroke assessment.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Ask the patient to raise the eyebrows, close the eyes tightly against resistance, show the teeth and puff the cheeks; compare sides. Forehead and eye closure preserved with lower-face weakness = upper motor neuron (central) pattern; forehead, eye closure and lower face all weak on one side = lower motor neuron (peripheral) pattern. Also check ear canal, other cranial nerves and limbs.",
+      "id": "exam_forehead_sparing_facial_weakness",
+      "negative_finding": "Involvement of the forehead and eye closure indicates a peripheral (facial nerve) lesion, consistent with Bell palsy when isolated and rapid in onset; it does not exclude a pontine stroke (nucleus/fascicle lesion gives a peripheral pattern), Ramsay Hunt, Lyme disease, otitis or tumour.",
+      "pitfalls": "Bilateral cortical innervation of the forehead makes sparing incomplete in some central lesions, and mild peripheral palsies can look forehead-sparing early. Pontine infarcts and facial-nucleus lesions produce a 'peripheral' pattern with a central cause; look for crossed signs, gaze palsy or other cranial nerve deficits.",
+      "positive_finding": "Forehead sparing with lower facial weakness indicates a central (supranuclear) lesion and should be treated as a possible stroke until proven otherwise; accompanying limb weakness, dysarthria, gaze palsy or diplopia strongly favours stroke.",
+      "prerequisites": "Adequate cooperation; note pre-existing asymmetry, ptosis or previous palsy.",
+      "rationale": "Distinguishing central (forehead sparing) from peripheral facial weakness helps differentiate stroke from Bell's palsy.",
+      "skill_assumption": null,
+      "title": "Forehead sparing (central) vs forehead involvement (peripheral) in facial weakness",
+      "type": "exam"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_hypoglycemia_symptoms_insulin",
+     "rationale": "Hypoglycemia can mimic stroke and is rapidly reversible, so history of insulin or sulfonylurea use and symptoms is critical."
+    },
+    {
+     "id": "hx_post_event_confusion",
+     "rationale": "Seizure can mimic stroke; asking about post-event confusion or tongue biting helps distinguish seizure from stroke."
+    }
+   ],
+   "examine": [
+    {
+     "id": "exam_face_arm_speech_cpss",
+     "rationale": "A positive FAST screen strongly supports acute stroke and triggers immediate stroke pathway activation."
+    },
+    {
+     "id": "exam_forehead_sparing_facial_weakness",
+     "rationale": "Distinguishing central (forehead sparing) from peripheral facial weakness helps differentiate stroke from Bell's palsy."
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "left facial droop and slurred speech",
+   "differentials": [
+    {
+     "dx": "stroke",
+     "weight": 1.0
+    },
+    {
+     "dx": "seizure_mimic",
+     "weight": 0.082
+    },
+    {
+     "dx": "hypoglycemia",
+     "weight": 0.047
+    },
+    {
+     "dx": "electrolyte_hypokalemia_hypophosphatemia",
+     "weight": 0.024
+    },
+    {
+     "dx": "myasthenia_gravis",
+     "weight": 0.012
+    },
+    {
+     "dx": "gbs",
+     "weight": 0.012
+    }
+   ],
+   "indication_tags": [
+    "acute_onset",
+    "anticoagulated",
+    "elderly"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "left facial droop",
+    "slurred speech",
+    "last seen normal [n] minutes ago"
+   ],
+   "presentation": "weakness",
+   "time_course": "hyperacute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "base"
+}

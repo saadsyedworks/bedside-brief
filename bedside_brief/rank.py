@@ -101,7 +101,8 @@ def system_prompt(limits: Any) -> str:
 
 
 def _parsed_summary(parsed: dict[str, Any]) -> dict[str, Any]:
-    return {k: parsed.get(k) for k in ("chief_complaint", "presentation", "time_course", "modifiers", "differentials", "indication_tags", "missing_features")}
+    return {k: parsed.get(k) for k in ("chief_complaint", "presentation", "time_course", "modifiers", "observed_values",
+                                      "differentials", "indication_tags", "missing_features")}
 
 
 def _empty(limits: Any) -> dict[str, list[dict[str, str]]]:

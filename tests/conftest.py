@@ -152,6 +152,7 @@ def parsed() -> dict[str, Any]:
         "presentation": "syncope",
         "time_course": "acute",
         "modifiers": ["exertional"],
+        "observed_values": ["BP 92/58", "HR 104"],
         "differentials": [
             {"dx": "aortic_stenosis", "weight": 1.0},
             {"dx": "orthostatic_hypotension", "weight": 0.5},

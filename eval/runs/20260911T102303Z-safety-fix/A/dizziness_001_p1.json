@@ -1,0 +1,720 @@
+{
+ "arm": "A",
+ "ask_first": false,
+ "base_case_id": "dizziness_001",
+ "blocked_items": [],
+ "case_id": "dizziness_001_p1",
+ "created_at": "2026-09-11T10:35:54+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Herr RD, Zun L, Mathews JJ. A directed approach to the dizzy patient. Ann Emerg Med. 1989;18(6):664-672."
+   ],
+   "numeric_claims": [
+    "0.42",
+    "0.86",
+    "1",
+    "10.1016",
+    "125",
+    "18",
+    "196",
+    "1989",
+    "20",
+    "2729692",
+    "4",
+    "42",
+    "52",
+    "6",
+    "644",
+    "66",
+    "664",
+    "672",
+    "80524",
+    "86",
+    "89"
+   ],
+   "performance_claims": [
+    "0.42",
+    "0.86"
+   ],
+   "record_id": "hx_dizziness_timing_triggers",
+   "section": "ask",
+   "text": "Timing and triggers (TiTrATE: episodic vs continuous, triggered vs spontaneous) rather than symptom quality; associated diplopia/dysarthria/dysphagia/hearing loss"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [
+    "Halker RB, Barrs DM, Wellik KE, Wingerchuk DM, Demaerschalk BM. Establishing a diagnosis of benign paroxysmal positional vertigo through the Dix-Hallpike and side-lying maneuvers: a critically appraised topic. Neurologist. 2008;14(3):201-204.",
+    "Lopez-Escamez JA, et al. [Diagnosis of common causes of vertigo using a structured clinical history]. Acta Otorrinolaringol Esp. 2000;51(1):25-30."
+   ],
+   "numeric_claims": [
+    "0",
+    "0.11",
+    "0.13",
+    "0.25",
+    "0.28",
+    "0.33",
+    "0.58",
+    "0.65",
+    "0.69",
+    "0.71",
+    "0.75",
+    "0.79",
+    "0.82",
+    "0.94",
+    "1",
+    "10.1097",
+    "100",
+    "10799928",
+    "13",
+    "14",
+    "17.5",
+    "18469678",
+    "2.83",
+    "20",
+    "2000",
+    "2008",
+    "201",
+    "204",
+    "25",
+    "2820",
+    "3",
+    "3.17",
+    "30",
+    "31816",
+    "33",
+    "45",
+    "51",
+    "60",
+    "63",
+    "65",
+    "71",
+    "75",
+    "79",
+    "82",
+    "90",
+    "94",
+    "95"
+   ],
+   "performance_claims": [
+    "0.11",
+    "0.25",
+    "0.28",
+    "0.33",
+    "0.58",
+    "0.65",
+    "0.69",
+    "0.71",
+    "0.75",
+    "0.79",
+    "0.82",
+    "0.94",
+    "1",
+    "17.5",
+    "2.83",
+    "3.17"
+   ],
+   "record_id": "fn_dix_hallpike",
+   "section": "examine",
+   "text": "Dix-Hallpike maneuver (posterior-canal BPPV)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [
+    "Kattah JC, Martinez C, Zalazar G, Batuecas A, Lemos J, Carmona S. Role of incubitus truncal ataxia, and equivalent standing grade 3 ataxia in the diagnosis of central acute vestibular syndrome. J Neurol Sci. 2022;441:120374.",
+    "Kattah JC, Talkad AV, Wang DZ, Hsieh YH, Newman-Toker DE. HINTS to diagnose stroke in the acute vestibular syndrome: three-step bedside oculomotor examination more sensitive than early MRI diffusion-weighted imaging. Stroke. 2009;40(11):3504-3510.",
+    "Systematic review and meta-analysis of the diagnostic accuracy of a graded gait and truncal instability rating in acutely dizzy and ataxic patients. Cerebellum. 2024.",
+    "Tarnutzer AA, Gold D, Wang Z, et al. Impact of clinician training background and stroke location on bedside diagnostic test accuracy in the acute vestibular syndrome - a meta-analysis. Ann Neurol. 2023;94(2):295-308."
+   ],
+   "numeric_claims": [
+    "0",
+    "0.052",
+    "0.33",
+    "0.343",
+    "0.358",
+    "0.44",
+    "0.451",
+    "0.47",
+    "0.537",
+    "0.56",
+    "0.593",
+    "0.665",
+    "0.67",
+    "0.708",
+    "0.716",
+    "0.79",
+    "0.808",
+    "0.823",
+    "0.827",
+    "0.86",
+    "0.92",
+    "0.938",
+    "0.978",
+    "0.98",
+    "0.991",
+    "0.992",
+    "1",
+    "10",
+    "10.1002",
+    "10.1007",
+    "10.1016",
+    "10.1161",
+    "100",
+    "101",
+    "1025",
+    "10524166",
+    "109.551234",
+    "11",
+    "11585515",
+    "120374",
+    "12311",
+    "15",
+    "1718",
+    "18",
+    "19762709",
+    "2",
+    "2006",
+    "2009",
+    "2022",
+    "2022.120374",
+    "2023",
+    "2024",
+    "24",
+    "25",
+    "26661",
+    "295",
+    "3",
+    "306",
+    "308",
+    "33",
+    "34.3",
+    "35.8",
+    "3504",
+    "3510",
+    "36",
+    "36063733",
+    "37038843",
+    "38990511",
+    "4",
+    "40",
+    "44",
+    "441",
+    "45.1",
+    "4593511",
+    "5.2",
+    "52",
+    "53.7",
+    "59.3",
+    "6",
+    "66.5",
+    "665",
+    "67",
+    "69",
+    "70.8",
+    "71",
+    "71.6",
+    "72.2",
+    "79",
+    "79.9",
+    "80.8",
+    "800",
+    "81",
+    "82.3",
+    "82.7",
+    "83",
+    "87.5",
+    "92",
+    "93.8",
+    "94",
+    "95",
+    "97.8",
+    "98",
+    "99",
+    "99.1",
+    "99.2"
+   ],
+   "performance_claims": [
+    "0.052",
+    "0.33",
+    "0.343",
+    "0.358",
+    "0.44",
+    "0.451",
+    "0.47",
+    "0.537",
+    "0.56",
+    "0.593",
+    "0.665",
+    "0.67",
+    "0.67",
+    "0.708",
+    "0.716",
+    "0.79",
+    "0.79",
+    "0.808",
+    "0.823",
+    "0.827",
+    "0.86",
+    "0.92",
+    "0.938",
+    "0.978",
+    "0.98",
+    "0.991",
+    "0.992",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1"
+   ],
+   "record_id": "fn_gait_stand_unaided",
+   "section": "examine",
+   "text": "Ability to stand and walk unaided (truncal ataxia grade; inability = central marker)"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "candidates": [
+   "hx_dizziness_timing_triggers",
+   "exam_nystagmus_direction_changing",
+   "fn_dix_hallpike",
+   "fn_gait_stand_unaided",
+   "exam_focal_neuro_deficit_screen",
+   "fn_head_impulse_test",
+   "fn_hints_exam",
+   "exam_face_arm_speech_cpss",
+   "exam_skew_deviation",
+   "exam_orthostatic_vitals",
+   "hx_deliriogenic_medication_review",
+   "hx_hypotensive_medication_review",
+   "exam_pupils_eye_movements_toxidrome",
+   "exam_anaphylaxis_signs",
+   "exam_cam_delirium_screen",
+   "fn_attention_months_backward",
+   "hx_nephrotoxin_contrast_exposure",
+   "exam_peripheral_edema_pitting",
+   "hx_edema_causing_medications"
+  ],
+  "card": {
+   "chief_complaint": "spinning sensation with vomiting when rolling over",
+   "presentation": "dizziness",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_dizziness_timing_triggers",
+      "changes_what": "Determines which bedside exam follows: HINTS for continuous spontaneous, Dix-Hallpike for triggered episodic, orthostatic vitals for standing-triggered, ECG/monitoring for spontaneous episodic.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use a reassuring timing/trigger pattern alone to exclude stroke in patients with vascular risk factors, new headache/neck pain, or any brainstem symptom; obtain the targeted examination.",
+      "escalation_warning": "Acute continuous dizziness with any of diplopia, dysarthria, dysphagia, limb ataxia, new deafness or inability to walk unaided is a stroke pathway until proven otherwise; up to 20% of early DWI-MRI are false negative.",
+      "evidence": [
+       {
+        "citation": "Herr RD, Zun L, Mathews JJ. A directed approach to the dizzy patient. Ann Emerg Med. 1989;18(6):664-672.",
+        "computed": false,
+        "doi": "10.1016/s0196-0644(89)80524-4",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "2729692",
+        "population": "125 ED patients with dizziness evaluated with a standardized 66-item history/exam/lab protocol",
+        "prevalence": null,
+        "quote": "The best predictors, either older age, lack of vertigo, or neurologic deficit, could identify 86% of \"serious\" dizziness with 42% specificity.",
+        "reference_standard": "Emergency physician diagnosis modified by 1-month follow-up using predefined diagnostic criteria",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.86"
+        },
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.42"
+        },
+        "target_condition": "'Serious' cause of dizziness (stroke/TIA, arrhythmia, medication, seizure, other requiring admission) - composite predictor: older age OR lack of vertigo OR neurologic deficit",
+        "url": null,
+        "year": "1989"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Instead of asking 'what kind of dizziness', ask: Is it there now continuously or does it come in discrete episodes? How long do episodes last (seconds, minutes, hours)? Is it brought on only by a trigger (head/position change, standing) or does it arise spontaneously? Then ask about diplopia, dysarthria, dysphagia, new hearing loss, headache or neck pain.",
+      "id": "hx_dizziness_timing_triggers",
+      "negative_finding": "A clear positional trigger with seconds-long episodes and no neurologic symptoms makes central causes unlikely, but isolated dizziness can still be a vertebrobasilar stroke.",
+      "pitfalls": "Symptom-quality descriptors (vertigo vs lightheadedness) are unreliable: 52% of ED patients changed their descriptor on retest after ~6 minutes, so do not triage on 'type'. Do not confuse 'worse with movement' (most vestibular causes) with 'only occurs with movement' (true trigger).",
+      "positive_finding": "Continuous acute vestibular syndrome demands HINTS-type eye examination for stroke; triggered brief episodes point to BPPV or orthostatic hypotension (test with Dix-Hallpike or orthostatic vitals); spontaneous episodes lasting minutes-hours suggest TIA, Meniere or arrhythmia. Any associated brainstem symptom raises stroke probability.",
+      "prerequisites": "Patient able to give a history; screen for red-flag neurologic symptoms before deciding on examination pathway.",
+      "rationale": "Clarifying timing and triggers will determine if this is positional (suggesting BPPV) or continuous (suggesting other causes), guiding the next exam step.",
+      "skill_assumption": null,
+      "title": "Timing and triggers (TiTrATE: episodic vs continuous, triggered vs spontaneous) rather than symptom quality; associated diplopia/dysarthria/dysphagia/hearing loss",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/fn_dix_hallpike",
+      "changes_what": "Positive with typical nystagmus: diagnose posterior-canal BPPV and perform Epley; no imaging. Atypical (downbeat/persistent) nystagmus: evaluate for central positional vertigo.",
+      "contraindications": "Relative: cervical spine instability or severe cervical disease, recent neck surgery, vertebrobasilar insufficiency, carotid stenosis; use the side-lying test as an alternative.",
+      "do_not_use_when": "Do not use to evaluate continuous vertigo with spontaneous nystagmus (acute vestibular syndrome) - a positional test cannot rule out stroke there. Avoid in unstable cervical spine.",
+      "escalation_warning": "Positional nystagmus that is downbeat, purely vertical, non-fatiguing, without latency, or accompanied by other neurologic signs warrants MRI for central positional vertigo (posterior fossa lesion).",
+      "evidence": [
+       {
+        "citation": "Halker RB, Barrs DM, Wellik KE, Wingerchuk DM, Demaerschalk BM. Establishing a diagnosis of benign paroxysmal positional vertigo through the Dix-Hallpike and side-lying maneuvers: a critically appraised topic. Neurologist. 2008;14(3):201-204.",
+        "computed": false,
+        "doi": "10.1097/NRL.0b013e31816f2820",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results (Neurologist 2008;14:201)",
+        "lr_negative": {
+         "ci_high": "0.69",
+         "ci_low": "0.11",
+         "value": "0.28"
+        },
+        "lr_positive": {
+         "ci_high": "17.5",
+         "ci_low": "0.58",
+         "value": "3.17"
+        },
+        "pmid": "18469678",
+        "population": "Single primary study comparing Dix-Hallpike and side-lying tests in patients with positional vertigo (critically appraised topic)",
+        "prevalence": null,
+        "quote": "For the Dix-Hallpike test, the estimated sensitivity was 79% [95% confidence interval (CI) 65-94], specificity was 75% (33-100)",
+        "reference_standard": "Clinical diagnosis of BPPV (study methodology rated very weak by the appraisers)",
+        "sensitivity": {
+         "ci_high": "0.94",
+         "ci_low": "0.65",
+         "value": "0.79"
+        },
+        "setting": "outpatient",
+        "specificity": {
+         "ci_high": "1",
+         "ci_low": "0.33",
+         "value": "0.75"
+        },
+        "target_condition": "Posterior canal BPPV",
+        "url": null,
+        "year": "2008"
+       },
+       {
+        "citation": "Lopez-Escamez JA, et al. [Diagnosis of common causes of vertigo using a structured clinical history]. Acta Otorrinolaringol Esp. 2000;51(1):25-30.",
+        "computed": true,
+        "doi": null,
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results (Acta Otorrinolaringol Esp 2000;51:25)",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.25"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "2.83"
+        },
+        "pmid": "10799928",
+        "population": "100 consecutive outpatients with dizziness or imbalance, 13 with BPPV",
+        "prevalence": "0.13",
+        "quote": "positional nystagmus (sensitivity [SE] 90%, SP 63%), and the Dix-Hallpike test (SE 82%, SP 71%).",
+        "reference_standard": "Concordant diagnosis by three blinded investigators reviewing a structured history (no imaging or vestibular-lab standard)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.82"
+        },
+        "setting": "outpatient",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.71"
+        },
+        "target_condition": "BPPV (all canals) among outpatients with dizziness",
+        "url": null,
+        "year": "2000"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Patient sits upright on the bed; turn the head 45 degrees toward the test ear, then briskly lie them back so the head hangs about 20 degrees below horizontal (over the bed end or a pillow under the shoulders). Keep eyes open and watch for 30-60 s for latency, nystagmus direction and duration; sit up and repeat on the other side.",
+      "id": "fn_dix_hallpike",
+      "negative_finding": "A negative maneuver reduces but does not exclude BPPV (single-study LR- about 0.28); if the history is typical, repeat or perform the supine roll test for horizontal-canal BPPV.",
+      "pitfalls": "Downbeat, purely vertical or persistent (non-fatiguing) positional nystagmus without latency suggests a central cause, not BPPV; canalith repositioning should not be done reflexively. Sensitivity falls if the patient has already been treated, closes their eyes, or the head hang is inadequate.",
+      "positive_finding": "After a latency of a few seconds, a burst of torsional up-beating nystagmus with vertigo lasting under 60 s that fatigues on repetition indicates posterior-canal BPPV of the tested (down) ear; the AAO-HNS guideline diagnoses BPPV on this finding alone.",
+      "prerequisites": "Best applied to episodic, brief, positionally triggered vertigo with no spontaneous nystagmus; explain the vertigo may be provoked. Neck must tolerate extension and rotation.",
+      "rationale": "Dix-Hallpike is the key maneuver for diagnosing posterior-canal BPPV, which is most likely given positional, triggered vertigo.",
+      "skill_assumption": null,
+      "title": "Dix-Hallpike maneuver (posterior-canal BPPV)",
+      "type": "functional"
+     },
+     {
+      "audit_link": "/record/fn_gait_stand_unaided",
+      "changes_what": "Cannot stand/walk unaided (grade 3): treat as central; stroke work-up regardless of HINTS. Walks unaided: lowers but does not remove need for HINTS; still image if other red flags.",
+      "contraindications": "Do not attempt to stand a hypotensive, actively vomiting or obtunded patient; use the sitting test instead.",
+      "do_not_use_when": "Do not stand hypotensive, vomiting or obtunded patients; interpret with caution in patients with baseline gait impairment (neuropathy, parkinsonism, prior stroke, intoxication) where inability to walk is not new.",
+      "escalation_warning": "New inability to stand or walk unaided with acute vertigo is a central sign until proven otherwise, even with a normal CT and a peripheral-appearing HINTS; Carmona 2023 found truncal ataxia without nystagmus in 15% of acute-vertigo patients, mostly strokes.",
+      "evidence": [
+       {
+        "citation": "Tarnutzer AA, Gold D, Wang Z, et al. Impact of clinician training background and stroke location on bedside diagnostic test accuracy in the acute vestibular syndrome - a meta-analysis. Ann Neurol. 2023;94(2):295-308.",
+        "computed": false,
+        "doi": "10.1002/ana.26661",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results (Ann Neurol 2023;94:295; PMC10524166)",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "37038843",
+        "population": "Pooled AVS cohorts (10 study cohorts, n=800; stroke and vestibular neuritis)",
+        "prevalence": null,
+        "quote": "Severe (grade 3) gait/truncal instability had high specificity 99.2% (95% CI = 97.8-100.0) but low sensitivity 35.8% (95% CI = 5.2-66.5).",
+        "reference_standard": "Delayed MRI-DWI for peripheral cases; confirmatory neuroimaging for stroke",
+        "sensitivity": {
+         "ci_high": "0.665",
+         "ci_low": "0.052",
+         "value": "0.358"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "1",
+         "ci_low": "0.978",
+         "value": "0.992"
+        },
+        "target_condition": "Central acute vestibular syndrome (stroke or other central lesion) - severe (grade 3) gait/truncal instability",
+        "url": null,
+        "year": "2023"
+       },
+       {
+        "citation": "Tarnutzer AA, Gold D, Wang Z, et al. Impact of clinician training background and stroke location on bedside diagnostic test accuracy in the acute vestibular syndrome - a meta-analysis. Ann Neurol. 2023;94(2):295-308.",
+        "computed": false,
+        "doi": "10.1002/ana.26661",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Results, 'Diagnostic accuracy of bedside examination findings' (Ann Neurol 2023;94:295; PMC10524166); supplementary Table 2",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "37038843",
+        "population": "Pooled AVS cohorts (Ann Neurol 2023 meta-analysis)",
+        "prevalence": null,
+        "quote": "highest for a normal hHIT (79.9% [95% CI 72.2-87.5]), grade 2 or 3 gait/truncal instability (80.8% [45.1-100.0])",
+        "reference_standard": "Delayed MRI-DWI for peripheral cases; confirmatory neuroimaging for stroke",
+        "sensitivity": {
+         "ci_high": "1",
+         "ci_low": "0.451",
+         "value": "0.808"
+        },
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Central acute vestibular syndrome - grade 2 or 3 gait/truncal instability",
+        "url": null,
+        "year": "2023"
+       },
+       {
+        "citation": "Systematic review and meta-analysis of the diagnostic accuracy of a graded gait and truncal instability rating in acutely dizzy and ataxic patients. Cerebellum. 2024.",
+        "computed": false,
+        "doi": "10.1007/s12311-024-01718-6",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results (Cerebellum 2024; PMC11585515)",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "38990511",
+        "population": "18 studies, 1025 patients with acute vestibular syndrome (665 ischemic strokes, 306 acute unilateral vestibulopathy)",
+        "prevalence": null,
+        "quote": "Grade 2/3 GTI had moderate sensitivity (70.8% [95% confidence-interval (CI) = 59.3-82.3%]) and specificity (82.7 [71.6-93.8%]) for predicting a central cause",
+        "reference_standard": "Neuroimaging-based final diagnosis",
+        "sensitivity": {
+         "ci_high": "0.823",
+         "ci_low": "0.593",
+         "value": "0.708"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "0.938",
+         "ci_low": "0.716",
+         "value": "0.827"
+        },
+        "target_condition": "Central cause of acute prolonged vertigo/imbalance - grade 2/3 graded gait/truncal instability (GTI)",
+        "url": null,
+        "year": "2024"
+       },
+       {
+        "citation": "Systematic review and meta-analysis of the diagnostic accuracy of a graded gait and truncal instability rating in acutely dizzy and ataxic patients. Cerebellum. 2024.",
+        "computed": false,
+        "doi": "10.1007/s12311-024-01718-6",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results (Cerebellum 2024; PMC11585515)",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "38990511",
+        "population": "Same 18-study, 1025-patient AVS pool",
+        "prevalence": null,
+        "quote": "grade 3 GTI had a lower sensitivity (44.0% [34.3-53.7%] and higher specificity (99.1% [98.0-100.0%]).",
+        "reference_standard": "Neuroimaging-based final diagnosis",
+        "sensitivity": {
+         "ci_high": "0.537",
+         "ci_low": "0.343",
+         "value": "0.44"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "1",
+         "ci_low": "0.98",
+         "value": "0.991"
+        },
+        "target_condition": "Central cause of acute prolonged vertigo/imbalance - grade 3 GTI (cannot stand/walk unaided)",
+        "url": null,
+        "year": "2024"
+       },
+       {
+        "citation": "Kattah JC, Martinez C, Zalazar G, Batuecas A, Lemos J, Carmona S. Role of incubitus truncal ataxia, and equivalent standing grade 3 ataxia in the diagnosis of central acute vestibular syndrome. J Neurol Sci. 2022;441:120374.",
+        "computed": false,
+        "doi": "10.1016/j.jns.2022.120374",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_out",
+        "kind": "primary_study",
+        "location": "Abstract, Results (J Neurol Sci 2022;441:120374)",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "36063733",
+        "population": "52 prospectively studied AVS patients (stroke and vestibular neuritis)",
+        "prevalence": null,
+        "quote": "grade 2-3 ataxia to differentiate patients with vestibular neuritis from patients with stroke resulted in a 92% sensitivity (95% CI 79-100%), a 67% specificity",
+        "reference_standard": "Brain MRI",
+        "sensitivity": {
+         "ci_high": "1",
+         "ci_low": "0.79",
+         "value": "0.92"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "0.86",
+         "ci_low": "0.47",
+         "value": "0.67"
+        },
+        "target_condition": "AICA/PICA-territory stroke vs vestibular neuritis - grade 2-3 truncal ataxia (including inability to sit still as substitute)",
+        "url": null,
+        "year": "2022"
+       },
+       {
+        "citation": "Kattah JC, Talkad AV, Wang DZ, Hsieh YH, Newman-Toker DE. HINTS to diagnose stroke in the acute vestibular syndrome: three-step bedside oculomotor examination more sensitive than early MRI diffusion-weighted imaging. Stroke. 2009;40(11):3504-3510.",
+        "computed": false,
+        "doi": "10.1161/STROKEAHA.109.551234",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Table 4 (Sensitivity n=69, Specificity n=25), Stroke 2009;40:3504 (PMC4593511)",
+        "lr_negative": {
+         "ci_high": "0.79",
+         "ci_low": "0.56",
+         "value": "0.67"
+        },
+        "lr_positive": null,
+        "pmid": "19762709",
+        "population": "101 consecutive high-risk AVS patients (69 ischemic strokes vs 25 peripheral) at a stroke referral center",
+        "prevalence": null,
+        "quote": "Severe truncal ataxia 33% 100% 0.67 (0.56-0.79)",
+        "reference_standard": "MRI (or CT) for stroke; normal MRI plus clinical follow-up for peripheral",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.33"
+        },
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "1"
+        },
+        "target_condition": "Ischemic stroke in AVS - severe truncal ataxia (cannot sit unassisted)",
+        "url": null,
+        "year": "2009"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "With an assistant ready, ask the patient to sit unsupported, then stand, then walk a few metres. Grade truncal/gait instability: 0 = normal; 1 = mild sway but walks unaided; 2 = walks only with support/one-sided assistance; 3 = cannot stand or walk even with support (or cannot sit without arm support). If the patient cannot get up, note whether they can sit still unassisted.",
+      "id": "fn_gait_stand_unaided",
+      "negative_finding": "Walking unaided does not exclude posterior-circulation stroke: grade 3 instability is present in only about 36-44% of central AVS, so a patient who can walk still needs HINTS and imaging assessment when indicated.",
+      "pitfalls": "Peripheral vestibular neuritis causes unsteadiness (grade 1-2) that is easily over-called, especially in the elderly, the intoxicated or those with prior neuropathy; sedatives, Wernicke encephalopathy and alcohol withdrawal also produce ataxia. Grading systems differ (Lee 2006 vs Moon 2009), which changes sensitivity.",
+      "positive_finding": "Grade 3 instability (cannot stand or walk unaided) in acute vertigo is almost exclusively central - pooled specificity about 99% (LR+ high), and 0/25 peripheral patients in Kattah 2009. Grade 2-3 instability is more sensitive (71-81% pooled) but less specific (83%).",
+      "prerequisites": "Adequate blood pressure and no orthostatic symptoms; assistant present for fall prevention. Compare with baseline mobility in elderly or frail patients.",
+      "rationale": "Assessing gait and ability to stand helps screen for central causes like stroke, which must be considered in acute vertigo, especially in elderly or anticoagulated patients.",
+      "skill_assumption": null,
+      "title": "Ability to stand and walk unaided (truncal ataxia grade; inability = central marker)",
+      "type": "functional"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_dizziness_timing_triggers",
+     "rationale": "Clarifying timing and triggers will determine if this is positional (suggesting BPPV) or continuous (suggesting other causes), guiding the next exam step."
+    }
+   ],
+   "examine": [
+    {
+     "id": "fn_dix_hallpike",
+     "rationale": "Dix-Hallpike is the key maneuver for diagnosing posterior-canal BPPV, which is most likely given positional, triggered vertigo."
+    },
+    {
+     "id": "fn_gait_stand_unaided",
+     "rationale": "Assessing gait and ability to stand helps screen for central causes like stroke, which must be considered in acute vertigo, especially in elderly or anticoagulated patients."
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "spinning sensation with vomiting when rolling over",
+   "differentials": [
+    {
+     "dx": "bppv",
+     "weight": 1.0
+    },
+    {
+     "dx": "vestibular_neuritis",
+     "weight": 0.214
+    },
+    {
+     "dx": "posterior_circulation_stroke",
+     "weight": 0.143
+    },
+    {
+     "dx": "medication_effect",
+     "weight": 0.071
+    }
+   ],
+   "indication_tags": [
+    "acute_onset",
+    "elderly",
+    "anticoagulated"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "spinning",
+    "with vomiting",
+    "when rolling over",
+    "since [n] AM"
+   ],
+   "presentation": "dizziness",
+   "time_course": "acute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "p1"
+}
