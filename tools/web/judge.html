@@ -1,0 +1,297 @@
+<title>Bedside Brief Judging</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+  :root {
+    --ground:#f5f7f5; --surface:#ffffff; --sunk:#eceff0; --ink:#16211e;
+    --muted:#5a6b66; --faint:#8a9994; --rule:#d7dedb; --accent:#0d5c63;
+    --rel:#3f6212; --marg:#8a6d1f; --irr:#8c2f22; --flag:#8c2f22;
+    --shadow:0 1px 2px rgba(22,33,30,.06);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground:#101715; --surface:#17211e; --sunk:#1d2724; --ink:#e6ece9;
+      --muted:#9bada7; --faint:#6d807a; --rule:#2b3733; --accent:#6fc3c6;
+      --rel:#9dc06a; --marg:#d7b05c; --irr:#e0857a; --flag:#e0857a; --shadow:none;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground:#101715; --surface:#17211e; --sunk:#1d2724; --ink:#e6ece9;
+    --muted:#9bada7; --faint:#6d807a; --rule:#2b3733; --accent:#6fc3c6;
+    --rel:#9dc06a; --marg:#d7b05c; --irr:#e0857a; --flag:#e0857a; --shadow:none;
+  }
+  *{box-sizing:border-box}
+  body{background:var(--ground);color:var(--ink);margin:0;padding-inline:14px;padding-block:0 130px;
+       font:400 16px/1.5 "IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;-webkit-text-size-adjust:100%}
+  .wrap{max-width:46rem;margin:0 auto}
+
+  header.mast{padding-block:26px 14px;border-bottom:2px solid var(--ink);display:flex;flex-direction:column;gap:8px}
+  .eyebrow{font-family:"IBM Plex Mono",monospace;font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+  h1{font-family:"Newsreader",Georgia,serif;font-weight:500;font-size:1.7rem;line-height:1.1;margin:0}
+  .sub{color:var(--muted);font-size:.9rem;margin:0}
+  .totals{font-family:"IBM Plex Mono",monospace;font-size:.78rem;color:var(--faint);font-variant-numeric:tabular-nums}
+
+  .cases{display:flex;flex-wrap:wrap;gap:7px;margin:16px 0 4px}
+  .chip{appearance:none;border:1px solid var(--rule);background:var(--surface);color:var(--ink);
+        border-radius:999px;padding:8px 13px;font:500 .8rem/1 "IBM Plex Sans",sans-serif;
+        min-height:38px;cursor:pointer;display:flex;align-items:center;gap:7px}
+  .chip .n{font-family:"IBM Plex Mono",monospace;font-size:.7rem;color:var(--faint);font-variant-numeric:tabular-nums}
+  .chip[aria-current="true"]{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+  .chip.done{border-color:var(--rel)}
+  .chip.done .n{color:var(--rel)}
+
+  .oneliner{background:var(--surface);border:1px solid var(--rule);border-left:3px solid var(--accent);
+            border-radius:4px;padding:14px 16px;margin:18px 0 6px;box-shadow:var(--shadow)}
+  .oneliner .lbl{font-family:"IBM Plex Mono",monospace;font-size:.66rem;letter-spacing:.12em;
+                 text-transform:uppercase;color:var(--faint);margin-bottom:6px}
+  .oneliner p{margin:0;font-family:"Newsreader",Georgia,serif;font-size:1.1rem;line-height:1.45}
+
+  .hint{color:var(--muted);font-size:.86rem;margin:14px 0 10px}
+  .hint b{color:var(--ink);font-weight:600}
+
+  .row{border-bottom:1px solid var(--rule);padding:12px 0 13px;display:flex;flex-direction:column;gap:9px}
+  .row.scored{opacity:.62}
+  .row .txt{font-size:.95rem;line-height:1.45;overflow-wrap:anywhere}
+  .row .idx{font-family:"IBM Plex Mono",monospace;font-size:.7rem;color:var(--faint);margin-right:.5em}
+  .btns{display:flex;gap:8px;flex-wrap:wrap}
+  .btn{appearance:none;border:1px solid var(--rule);background:var(--surface);color:var(--muted);
+       border-radius:5px;min-height:44px;padding:0 15px;font:500 .86rem/1 "IBM Plex Sans",sans-serif;cursor:pointer}
+  .btn:active{transform:translateY(1px)}
+  .btn[aria-pressed="true"][data-v="relevant"]{background:var(--rel);border-color:var(--rel);color:#fff}
+  .btn[aria-pressed="true"][data-v="marginal"]{background:var(--marg);border-color:var(--marg);color:#fff}
+  .btn[aria-pressed="true"][data-v="irrelevant"]{background:var(--irr);border-color:var(--irr);color:#fff}
+  .btn.flag{margin-left:auto}
+  .btn.flag[aria-pressed="true"]{background:var(--flag);border-color:var(--flag);color:#fff}
+  :root:not([data-theme="light"]) .btn[aria-pressed="true"]{color:#101715}
+  @media (prefers-color-scheme: light){.btn[aria-pressed="true"]{color:#fff}}
+
+  .bar{position:fixed;left:0;right:0;bottom:0;background:var(--surface);border-top:1px solid var(--rule);
+       padding:11px 14px calc(11px + env(safe-area-inset-bottom));display:flex;gap:12px;align-items:center;
+       justify-content:space-between;box-shadow:0 -2px 8px rgba(22,33,30,.07)}
+  .bar .prog{font-family:"IBM Plex Mono",monospace;font-size:.8rem;color:var(--muted);font-variant-numeric:tabular-nums}
+  .bar .prog b{color:var(--ink)}
+  .bar .save{font-family:"IBM Plex Mono",monospace;font-size:.72rem;color:var(--faint)}
+  .bar .nav{display:flex;gap:8px}
+  .notice{background:var(--sunk);border-radius:5px;padding:15px 16px;margin:20px 0;color:var(--muted);font-size:.92rem}
+  .notice b{color:var(--ink)}
+  @media(max-width:430px){.btn{padding:0 12px;font-size:.82rem}}
+</style>
+
+<div class="wrap">
+  <header class="mast">
+    <div class="eyebrow">Bedside Brief · gate 3 · blinded</div>
+    <h1>Score each recommendation</h1>
+    <p class="sub">Which arm produced an item is not in this page. Judge the item against the one-liner only.</p>
+    <div class="totals" id="totals">loading…</div>
+  </header>
+
+  <div id="body">
+    <div class="notice" id="boot">Connecting to the queue…</div>
+  </div>
+</div>
+
+<div class="bar" hidden id="bar">
+  <span class="prog" id="prog"></span>
+  <span class="save" id="save"></span>
+  <span class="nav">
+    <button class="btn" id="prev" type="button">Prev case</button>
+    <button class="btn" id="next" type="button">Next case</button>
+  </span>
+</div>
+
+<script>
+const REL = ["relevant", "marginal", "irrelevant"];
+const $ = (id) => document.getElementById(id);
+const state = { db: null, index: null, cases: {}, scores: {}, current: null, dirty: new Set(), timer: null };
+
+function say(html) { $("body").innerHTML = '<div class="notice">' + html + "</div>"; }
+
+function remember(k, v) { try { localStorage.setItem(k, v); } catch (e) { /* private window, blocked site data */ } }
+function recall(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
+
+function scoredCount(caseId) {
+  const s = state.scores[caseId] || {};
+  return Object.keys(s).filter((u) => s[u] && s[u].r).length;
+}
+
+function renderTotals() {
+  if (!state.index) return;
+  const done = state.index.cases.reduce((n, c) => n + scoredCount(c.case_id), 0);
+  $("totals").textContent = done + " of " + state.index.n_items + " items scored · " +
+    state.index.n_cases + " cases · run " + (state.index.run || "");
+}
+
+function renderCases() {
+  const el = document.createElement("div");
+  el.className = "cases";
+  for (const c of state.index.cases) {
+    const b = document.createElement("button");
+    b.className = "chip" + (scoredCount(c.case_id) >= c.n_items ? " done" : "");
+    b.type = "button";
+    b.setAttribute("aria-current", String(c.case_id === state.current));
+    b.innerHTML = '<span>' + c.presentation.replace(/_/g, " ") + '</span>' +
+      '<span class="n">' + scoredCount(c.case_id) + "/" + c.n_items + "</span>";
+    b.addEventListener("click", () => openCase(c.case_id));
+    el.appendChild(b);
+  }
+  return el;
+}
+
+function renderCase() {
+  const doc = state.cases[state.current];
+  const body = $("body");
+  body.innerHTML = "";
+  body.appendChild(renderCases());
+  if (!doc) { body.insertAdjacentHTML("beforeend", '<div class="notice">Loading this case…</div>'); return; }
+
+  const ol = document.createElement("div");
+  ol.className = "oneliner";
+  ol.innerHTML = '<div class="lbl">' + doc.case_id.replace(/_/g, " ") + "</div><p></p>";
+  ol.querySelector("p").textContent = doc.oneliner;
+  body.appendChild(ol);
+
+  body.insertAdjacentHTML("beforeend",
+    '<p class="hint"><b>Relevant</b> — you would want this at the bedside for this patient. ' +
+    '<b>Marginal</b> — defensible but not worth the seconds. <b>Irrelevant</b> — no. ' +
+    'Add <b>Flag</b> for anything unsafe or actively misleading.</p>');
+
+  const scores = state.scores[doc.case_id] || (state.scores[doc.case_id] = {});
+  doc.items.forEach((item, i) => {
+    const row = document.createElement("div");
+    const cur = scores[item.uid] || {};
+    row.className = "row" + (cur.r ? " scored" : "");
+    const txt = document.createElement("div");
+    txt.className = "txt";
+    const idx = document.createElement("span");
+    idx.className = "idx";
+    idx.textContent = String(i + 1).padStart(2, "0");
+    txt.appendChild(idx);
+    txt.appendChild(document.createTextNode(item.text));
+    row.appendChild(txt);
+
+    const btns = document.createElement("div");
+    btns.className = "btns";
+    for (const v of REL) {
+      const b = document.createElement("button");
+      b.className = "btn";
+      b.type = "button";
+      b.dataset.v = v;
+      b.textContent = v[0].toUpperCase() + v.slice(1);
+      b.setAttribute("aria-pressed", String(cur.r === v));
+      b.addEventListener("click", () => score(doc.case_id, item.uid, { r: v }));
+      btns.appendChild(b);
+    }
+    const f = document.createElement("button");
+    f.className = "btn flag";
+    f.type = "button";
+    f.textContent = "Flag";
+    f.setAttribute("aria-pressed", String(!!cur.f));
+    f.addEventListener("click", () => score(doc.case_id, item.uid, { f: !cur.f }));
+    btns.appendChild(f);
+    row.appendChild(btns);
+    body.appendChild(row);
+  });
+
+  const c = state.index.cases.find((x) => x.case_id === doc.case_id);
+  $("prog").innerHTML = "<b>" + scoredCount(doc.case_id) + "</b> / " + c.n_items + " in this case";
+  $("bar").hidden = false;
+  renderTotals();
+}
+
+function score(caseId, uid, patch) {
+  const all = state.scores[caseId] || (state.scores[caseId] = {});
+  all[uid] = Object.assign({}, all[uid], patch);
+  state.dirty.add(caseId);
+  queueSave();
+  renderCase();
+}
+
+function queueSave() {
+  $("save").textContent = "saving…";
+  clearTimeout(state.timer);
+  state.timer = setTimeout(flush, 700);
+}
+
+async function flush() {
+  if (!state.db || !state.dirty.size) { $("save").textContent = state.db ? "saved" : "not saved — no store"; return; }
+  const pending = Array.from(state.dirty);
+  state.dirty.clear();
+  try {
+    for (const caseId of pending) {
+      await state.db.doc("judging_scores/" + caseId).set({
+        case_id: caseId, scores: state.scores[caseId], at: new Date().toISOString(),
+      });
+    }
+    $("save").textContent = "saved";
+  } catch (e) {
+    pending.forEach((c) => state.dirty.add(c));
+    $("save").textContent = "save failed — retrying";
+    setTimeout(flush, 4000);
+  }
+}
+
+function openCase(caseId) {
+  state.current = caseId;
+  remember("bb_judge_case", caseId);
+  renderCase();
+  window.scrollTo({ top: 0 });
+  loadCase(caseId);
+}
+
+async function loadCase(caseId) {
+  if (state.cases[caseId] || !state.db) return;
+  try {
+    const snap = await state.db.doc("judging_queue/" + caseId).get();
+    if (snap.exists) { state.cases[caseId] = snap.data(); if (state.current === caseId) renderCase(); }
+  } catch (e) { /* leave the placeholder; the retry is re-tapping the chip */ }
+}
+
+function step(delta) {
+  const ids = state.index.cases.map((c) => c.case_id);
+  const i = ids.indexOf(state.current);
+  openCase(ids[(i + delta + ids.length) % ids.length]);
+}
+
+async function start() {
+  let db = null;
+  try { db = await window.claude?.use?.("db"); } catch (e) { db = null; }
+  if (!db) {
+    say("<b>This page cannot reach its store.</b> Open it from the artifact link in Claude — a saved " +
+        "copy or a plain browser tab has no store behind it, so nothing you tapped could be kept.");
+    return;
+  }
+  state.db = db;
+  try {
+    const idx = await db.doc("judging_meta/index").get();
+    if (!idx.exists) { say("<b>The queue has not been seeded yet.</b> Nothing to score."); return; }
+    state.index = idx.data();
+  } catch (e) {
+    say("<b>Could not read the queue.</b> " + (e && e.message ? e.message : "Unknown error") +
+        " — reopening the link usually clears it.");
+    return;
+  }
+  try {
+    const snap = await db.collection("judging_scores").get();
+    for (const d of snap.docs) {
+      const body = d.data();
+      if (body && body.scores) state.scores[body.case_id || d.id] = body.scores;
+    }
+  } catch (e) { /* first visit, or scores unreadable: start from empty rather than blocking */ }
+
+  const wanted = recall("bb_judge_case");
+  const ids = state.index.cases.map((c) => c.case_id);
+  state.current = ids.includes(wanted) ? wanted : ids[0];
+  renderCase();
+  for (const id of ids) loadCase(id);
+  $("save").textContent = "saved";
+}
+
+$("prev").addEventListener("click", () => step(-1));
+$("next").addEventListener("click", () => step(1));
+window.addEventListener("error", (e) => {
+  const b = $("boot");
+  if (b) b.innerHTML = "<b>This page hit an error while starting.</b> " + (e.message || "") ;
+});
+start();
+</script>
