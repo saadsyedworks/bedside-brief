@@ -1,0 +1,523 @@
+{
+ "arm": "A",
+ "ask_first": false,
+ "base_case_id": "palpitations_001",
+ "blocked_items": [],
+ "case_id": "palpitations_001_n1",
+ "created_at": "2026-09-11T11:50:12+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "0.38",
+    "2009",
+    "5"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_palpitations_abrupt_onset_offset",
+   "section": "ask",
+   "text": "Abrupt onset and abrupt termination of palpitations (vs gradual)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "190",
+    "1996",
+    "24",
+    "43",
+    "48"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_stimulant_caffeine_alcohol_use",
+   "section": "ask",
+   "text": "Stimulant/substance exposure: caffeine, energy drinks, decongestants, beta-agonists, cocaine/amphetamines, alcohol binge (holiday heart), recent withdrawal"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Cooke G, Doust J, Sanders S. Is pulse palpation helpful in detecting atrial fibrillation? A systematic review. J Fam Pract. 2006;55(2):130-134.",
+    "Taggar JS, Coleman T, Lewis S, Heneghan C, Jones M. Accuracy of methods for detecting an irregular pulse and suspected atrial fibrillation: A systematic review and meta-analysis. Eur J Prev Cardiol. 2016;23(12):1330-1338."
+   ],
+   "numeric_claims": [
+    "0.05",
+    "0.1",
+    "0.18",
+    "0.69",
+    "0.72",
+    "0.75",
+    "0.76",
+    "0.82",
+    "0.84",
+    "0.85",
+    "0.88",
+    "0.92",
+    "0.94",
+    "0.96",
+    "0.97",
+    "10.1177",
+    "12",
+    "129",
+    "130",
+    "1330",
+    "1338",
+    "134",
+    "15",
+    "16451780",
+    "2",
+    "20",
+    "2006",
+    "2016",
+    "2047487315611347",
+    "21",
+    "23",
+    "2385",
+    "26464292",
+    "3",
+    "3.39",
+    "3.4",
+    "3.8",
+    "30",
+    "5.2",
+    "55",
+    "6",
+    "60",
+    "69",
+    "7.2",
+    "72",
+    "75",
+    "82",
+    "84",
+    "92",
+    "94",
+    "95",
+    "97"
+   ],
+   "performance_claims": [
+    "0.05",
+    "0.1",
+    "0.1",
+    "0.18",
+    "0.69",
+    "0.72",
+    "0.75",
+    "0.76",
+    "0.82",
+    "0.84",
+    "0.85",
+    "0.88",
+    "0.92",
+    "0.94",
+    "0.96",
+    "0.97",
+    "3.39",
+    "3.8",
+    "5.2",
+    "7.2"
+   ],
+   "record_id": "exam_pulse_irregularly_irregular",
+   "section": "examine",
+   "text": "Radial pulse irregularly irregular on palpation (>=20-30 s)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [
+    "Cooke G, Doust J, Sanders S. Is pulse palpation helpful in detecting atrial fibrillation? A systematic review. J Fam Pract 2006;55:130-134."
+   ],
+   "numeric_claims": [
+    "0.1",
+    "0.69",
+    "0.72",
+    "0.75",
+    "0.84",
+    "0.94",
+    "0.97",
+    "12",
+    "130",
+    "134",
+    "150",
+    "16451780",
+    "2006",
+    "2385",
+    "250",
+    "3",
+    "3.39",
+    "3.4",
+    "55",
+    "60",
+    "69",
+    "72",
+    "75",
+    "84",
+    "94",
+    "95",
+    "97"
+   ],
+   "performance_claims": [
+    "0.1",
+    "0.69",
+    "0.72",
+    "0.75",
+    "0.84",
+    "0.94",
+    "0.97",
+    "3.39"
+   ],
+   "record_id": "fn_pulse_palpation_during_symptoms",
+   "section": "examine",
+   "text": "Palpate/auscultate the pulse (or have the patient count/record it) DURING an episode: rate, regularity, abrupt termination"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "3",
+    "4"
+   ],
+   "performance_claims": [],
+   "record_id": "exam_thyrotoxicosis_signs",
+   "section": "examine",
+   "text": "Signs of thyrotoxicosis: fine tremor, lid lag/retraction, warm moist skin, goiter, hyperreflexia"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "candidates": [
+   "hx_palpitations_abrupt_onset_offset",
+   "fn_pulse_palpation_during_symptoms",
+   "fn_tap_out_rhythm_regular",
+   "fn_vagal_maneuver_response",
+   "hx_neck_pounding_frog_sign",
+   "exam_thyrotoxicosis_signs",
+   "hx_stimulant_caffeine_alcohol_use",
+   "exam_pulse_irregularly_irregular",
+   "hx_palpitations_before_syncope",
+   "hx_anxiety_panic_features",
+   "hx_palpitations_exertional_onset",
+   "exam_tachycardia_resting",
+   "fn_standing_heart_rate_response",
+   "fn_bedside_walk_test",
+   "exam_tachypnea_rr_gt24"
+  ],
+  "card": {
+   "chief_complaint": "woke up with fast, irregular heartbeat",
+   "presentation": "palpitations",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_palpitations_abrupt_onset_offset",
+      "changes_what": "Positive: prioritise symptom-rhythm correlation (event/loop recorder) and teach vagal manoeuvres. Negative: does not exclude arrhythmia; monitor if symptoms are recurrent or concerning.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use a 'gradual' description to dismiss palpitations accompanied by syncope, chest pain, or known structural heart disease.",
+      "escalation_warning": "Abrupt palpitations with syncope, exertional onset, or a family history of sudden death need ECG and cardiology assessment for VT/pre-excitation, not reassurance.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Ask whether episodes start 'like a switch' within one beat and stop just as suddenly, versus building up and fading over minutes. Ask what the patient was doing at onset, whether vagal manoeuvres (breath-hold, straining, cold water) stop it, and how long episodes last.",
+      "id": "hx_palpitations_abrupt_onset_offset",
+      "negative_finding": "Gradual onset and offset suggests sinus tachycardia (anxiety, exertion, secondary causes); the 2009 RCE found no historical feature other than neck pounding that reliably excludes a significant arrhythmia.",
+      "pitfalls": "Patients often cannot judge onset speed; AF may also start abruptly. The RCE found episodes lasting under 5 minutes made arrhythmia slightly less likely (LR 0.38), so duration and onset pattern should be weighed together.",
+      "positive_finding": "Sudden-onset, sudden-offset rapid regular palpitations, especially if terminated by vagal manoeuvres, are the classic description of re-entrant SVT and are widely used to prioritise rhythm monitoring.",
+      "prerequisites": "Patient has had at least one episode they can describe; a recorded rhythm during symptoms remains the reference.",
+      "rationale": "Abrupt onset and offset helps distinguish arrhythmia types and guides need for monitoring or vagal maneuvers.",
+      "skill_assumption": null,
+      "title": "Abrupt onset and abrupt termination of palpitations (vs gradual)",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_stimulant_caffeine_alcohol_use",
+      "changes_what": "Positive: ECG, electrolytes and rhythm capture, then trigger withdrawal with follow-up; negative: proceed to ambulatory monitoring based on symptom pattern, not to reassurance.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use a stimulant history to explain palpitations with syncope, chest pain, known structural heart disease or an abnormal ECG.",
+      "escalation_warning": "Cocaine/amphetamine-associated palpitations with chest pain, hypertension or wide-complex rhythm require ACS and toxicology pathways; alcohol withdrawal with tachycardia needs withdrawal management.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Ask non-judgementally about the 24-48 h before the palpitations: caffeine/energy drinks (amount), decongestants, inhaled or oral beta-agonists, thyroid hormone, cocaine/amphetamines/MDMA, cannabis, nicotine, and alcohol quantity (binge in the preceding day or two) or abrupt cessation of alcohol/benzodiazepines; ask about weight-loss or 'pre-workout' supplements.",
+      "id": "hx_stimulant_caffeine_alcohol_use",
+      "negative_finding": "Absence of exposures removes a reversible trigger but does not lower the probability of a primary arrhythmia; documented symptom-rhythm correlation is still required in recurrent palpitations.",
+      "pitfalls": "Attributing palpitations to caffeine or anxiety without a rhythm strip misses AF and SVT (cardiac cause in 43% of 190 consecutive palpitations patients, Weber 1996 Abstract); patients under-report alcohol and illicit drugs.",
+      "positive_finding": "A temporal link to a stimulant, sympathomimetic or alcohol binge supports sinus tachycardia, ectopy or 'holiday heart' AF as the mechanism, and in cocaine/amphetamine use raises ischaemia and ventricular arrhythmia risk.",
+      "prerequisites": "Privacy and, when relevant, a urine drug screen or ethanol level to corroborate; check the pulse or rhythm strip during symptoms if ongoing.",
+      "rationale": "Recent stimulant or alcohol use can trigger arrhythmias and changes management if positive.",
+      "skill_assumption": null,
+      "title": "Stimulant/substance exposure: caffeine, energy drinks, decongestants, beta-agonists, cocaine/amphetamines, alcohol binge (holiday heart), recent withdrawal",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/exam_pulse_irregularly_irregular",
+      "changes_what": "Positive: obtain 12-lead ECG now (rate control/anticoagulation decisions follow ECG); negative: AF at this moment unlikely, consider ambulatory monitoring if paroxysmal AF suspected.",
+      "contraindications": "None. Weak or thready pulse (shock, arterial disease) reduces reliability; use apical auscultation instead.",
+      "do_not_use_when": "Do not rely on pulse palpation instead of an ECG when AF would change management (anticoagulation, rate control, syncope/stroke workup); do not use a weak or thready pulse in shock to judge rhythm.",
+      "escalation_warning": "Irregularly irregular pulse with a rapid rate and hypotension, chest pain, or acute focal deficit requires immediate ECG and monitored care.",
+      "evidence": [
+       {
+        "citation": "Cooke G, Doust J, Sanders S. Is pulse palpation helpful in detecting atrial fibrillation? A systematic review. J Fam Pract. 2006;55(2):130-134.",
+        "computed": false,
+        "doi": null,
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_out",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results (LRs: 'The pooled positive likelihood ratio was 3.39, while the pooled negative likelihood ratio was 0.10', same paragraph)",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.1"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "3.39"
+        },
+        "pmid": "16451780",
+        "population": "3 studies, 2385 patients, predominantly elderly/primary-care screening populations",
+        "prevalence": null,
+        "quote": "Pooled sensitivity was 94% (95% confidence interval [CI], 84%-97%) and pooled specificity was 72% (95% CI, 69%-75%).",
+        "reference_standard": "12-lead ECG diagnosis of atrial fibrillation",
+        "sensitivity": {
+         "ci_high": "0.97",
+         "ci_low": "0.84",
+         "value": "0.94"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "0.75",
+         "ci_low": "0.69",
+         "value": "0.72"
+        },
+        "target_condition": "Atrial fibrillation (irregular pulse on palpation)",
+        "url": null,
+        "year": "2006"
+       },
+       {
+        "citation": "Taggar JS, Coleman T, Lewis S, Heneghan C, Jones M. Accuracy of methods for detecting an irregular pulse and suspected atrial fibrillation: A systematic review and meta-analysis. Eur J Prev Cardiol. 2016;23(12):1330-1338.",
+        "computed": false,
+        "doi": "10.1177/2047487315611347",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_out",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.18",
+         "ci_low": "0.05",
+         "value": "0.1"
+        },
+        "lr_positive": {
+         "ci_high": "7.2",
+         "ci_low": "3.8",
+         "value": "5.2"
+        },
+        "pmid": "26464292",
+        "population": "Adults in AF screening studies; 6 pulse-palpation interventions within 21 studies (15,129 pulse assessments overall)",
+        "prevalence": null,
+        "quote": "pulse palpation (six interventions) were 0.92 (95% CI 0.85-0.96) and 0.82 (95% CI 0.76-0.88), respectively (PLR 5.2 (95% CI 3.8-7.2), NLR 0.1 (95% CI 0.05-0.18))",
+        "reference_standard": "12-lead ECG diagnosed atrial fibrillation",
+        "sensitivity": {
+         "ci_high": "0.96",
+         "ci_low": "0.85",
+         "value": "0.92"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "0.88",
+         "ci_low": "0.76",
+         "value": "0.82"
+        },
+        "target_condition": "Atrial fibrillation (pulse irregularity detected by manual pulse palpation)",
+        "url": null,
+        "year": "2016"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Palpate the radial pulse with two fingers for at least 20-30 s (longer if any irregularity), noting rhythm and rate. An irregularly irregular rhythm with no repeating pattern and variable beat volume is positive; occasional dropped or early beats with an otherwise regular rhythm are not.",
+      "id": "exam_pulse_irregularly_irregular",
+      "negative_finding": "A regular pulse makes AF unlikely (pooled sensitivity 92-94%, LR- 0.10), which is the finding's main value; it does not exclude paroxysmal AF outside the examination.",
+      "pitfalls": "Specificity is only 72-82%, so roughly a quarter of positive pulses in screening are not AF. Atrial flutter with fixed block feels regular, and AF with slow ventricular response can be hard to appreciate.",
+      "positive_finding": "An irregularly irregular pulse raises the probability of atrial fibrillation (pooled LR+ 3.4-5.2) but is not diagnostic; frequent ectopy, sinus arrhythmia and flutter with variable block mimic it, so a 12-lead ECG is required.",
+      "prerequisites": "Patient at rest; count for 30-60 s if rate is needed, since pulse deficit in AF makes short counts inaccurate.",
+      "rationale": "An irregularly irregular pulse on exam strongly suggests atrial fibrillation and prompts immediate ECG and anticoagulation assessment.",
+      "skill_assumption": null,
+      "title": "Radial pulse irregularly irregular on palpation (>=20-30 s)",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/fn_pulse_palpation_during_symptoms",
+      "changes_what": "Irregular pulse during symptoms: obtain ECG for AF and anticoagulation decision; regular fast pulse with abrupt stop: pursue SVT with monitoring/EP referral.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not substitute pulse palpation for an ECG when the patient is symptomatic and monitoring is available; do not rely on a patient's self-count in syncope.",
+      "escalation_warning": "Pulse >150/min with hypotension, chest pain, dyspnea or altered mentation is an unstable tachyarrhythmia needing immediate ECG/monitoring and possible cardioversion.",
+      "evidence": [
+       {
+        "citation": "Cooke G, Doust J, Sanders S. Is pulse palpation helpful in detecting atrial fibrillation? A systematic review. J Fam Pract 2006;55:130-134.",
+        "computed": false,
+        "doi": null,
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_out",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "16451780",
+        "population": "3 studies, 2385 patients, predominantly elderly primary care/screening populations",
+        "prevalence": null,
+        "quote": "Pooled sensitivity was 94% (95% confidence interval [CI], 84%-97%) and pooled specificity was 72% (95% CI, 69%-75%)",
+        "reference_standard": "12-lead ECG",
+        "sensitivity": {
+         "ci_high": "0.97",
+         "ci_low": "0.84",
+         "value": "0.94"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "0.75",
+         "ci_low": "0.69",
+         "value": "0.72"
+        },
+        "target_condition": "Atrial fibrillation (irregular pulse on palpation)",
+        "url": null,
+        "year": "2006"
+       },
+       {
+        "citation": "Cooke G, Doust J, Sanders S. Is pulse palpation helpful in detecting atrial fibrillation? A systematic review. J Fam Pract 2006;55:130-134.",
+        "computed": false,
+        "doi": null,
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_out",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.1"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "3.39"
+        },
+        "pmid": "16451780",
+        "population": "3 studies, 2385 patients, predominantly elderly primary care/screening populations",
+        "prevalence": null,
+        "quote": "The pooled positive likelihood ratio was 3.39, while the pooled negative likelihood ratio was 0.10.",
+        "reference_standard": "12-lead ECG",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Atrial fibrillation (irregular pulse on palpation)",
+        "url": null,
+        "year": "2006"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "During an episode, palpate the radial pulse (or auscultate the apex) for a full 60 seconds: note the rate, whether the rhythm is regular, regularly irregular (dropped beats) or irregularly irregular, and whether it stops abruptly or slows gradually. Teach the patient to do the same or to record with a smartwatch/single-lead device between visits.",
+      "id": "fn_pulse_palpation_during_symptoms",
+      "negative_finding": "A regular pulse during symptoms makes AF unlikely (LR- 0.10). A normal rate and rhythm while symptomatic argues against an arrhythmic cause of that episode.",
+      "pitfalls": "The pooled data are for pulse irregularity versus ECG (largely elderly screening), not for rate or termination pattern, which are unquantified. Frequent ectopy and sinus arrhythmia mimic AF; fast rates make irregularity hard to feel.",
+      "positive_finding": "An irregularly irregular pulse has pooled sensitivity 0.94 and specificity 0.72 for AF (LR+ 3.4). A regular pulse at 150-250/min that stops abruptly suggests SVT; occasional dropped/early beats suggest ectopy.",
+      "prerequisites": "Symptoms present at the time of examination, or the patient trained to self-check; a 12-lead ECG or rhythm strip should be obtained simultaneously whenever possible.",
+      "rationale": "Palpating the pulse during symptoms helps correlate rhythm with symptoms and guides urgent ECG or monitoring.",
+      "skill_assumption": null,
+      "title": "Palpate/auscultate the pulse (or have the patient count/record it) DURING an episode: rate, regularity, abrupt termination",
+      "type": "functional"
+     },
+     {
+      "audit_link": "/record/exam_thyrotoxicosis_signs",
+      "changes_what": "Positive: order TSH/free T4 and consider beta-blockade; negative: still check TSH in new AF or unexplained tachycardia/weight loss.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not rely on exam to diagnose or exclude thyrotoxicosis when TSH is readily available.",
+      "escalation_warning": "Thyrotoxic signs with fever, delirium, heart failure, or hemodynamic instability suggest thyroid storm - urgent endocrine and critical-care involvement.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Rest a sheet of paper on the outstretched fingers to reveal fine tremor; feel palms for warmth and moisture; observe the upper lid as the patient follows your finger downward (lid lag) and at rest for sclera visible above the iris (retraction); palpate the thyroid from behind during swallowing for goiter, bruit, or nodules; test ankle/biceps reflexes for brisk relaxation.",
+      "id": "exam_thyrotoxicosis_signs",
+      "negative_finding": "Absence of these signs does not exclude hyperthyroidism, particularly in older adults (apathetic thyrotoxicosis) and in beta-blocked patients.",
+      "pitfalls": "Anxiety, caffeine, alcohol withdrawal, and beta-agonists cause tremor and tachycardia; lid retraction is specific to Graves orbitopathy rather than thyrotoxicosis per se; goiter is common in euthyroid people.",
+      "positive_finding": "A cluster of tremor, warm moist skin, lid lag/retraction, goiter, and brisk reflexes in a patient with tachycardia, atrial fibrillation, weight loss, or unexplained dyspnea suggests thyrotoxicosis; ATA guidance recommends confirming with TSH and free T4/T3.",
+      "prerequisites": "Patient seated, arms unsupported for tremor; neck extended slightly for thyroid palpation.",
+      "rationale": "Thyrotoxicosis can cause new-onset atrial fibrillation and should be checked for in acute presentations.",
+      "skill_assumption": null,
+      "title": "Signs of thyrotoxicosis: fine tremor, lid lag/retraction, warm moist skin, goiter, hyperreflexia",
+      "type": "exam"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_palpitations_abrupt_onset_offset",
+     "rationale": "Abrupt onset and offset helps distinguish arrhythmia types and guides need for monitoring or vagal maneuvers."
+    },
+    {
+     "id": "hx_stimulant_caffeine_alcohol_use",
+     "rationale": "Recent stimulant or alcohol use can trigger arrhythmias and changes management if positive."
+    }
+   ],
+   "examine": [
+    {
+     "id": "exam_pulse_irregularly_irregular",
+     "rationale": "An irregularly irregular pulse on exam strongly suggests atrial fibrillation and prompts immediate ECG and anticoagulation assessment."
+    },
+    {
+     "id": "fn_pulse_palpation_during_symptoms",
+     "rationale": "Palpating the pulse during symptoms helps correlate rhythm with symptoms and guides urgent ECG or monitoring."
+    },
+    {
+     "id": "exam_thyrotoxicosis_signs",
+     "rationale": "Thyrotoxicosis can cause new-onset atrial fibrillation and should be checked for in acute presentations."
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "woke up with fast, irregular heartbeat",
+   "differentials": [
+    {
+     "dx": "atrial_fibrillation_flutter",
+     "weight": 1.0
+    },
+    {
+     "dx": "sinus_tachycardia_secondary",
+     "weight": 0.214
+    },
+    {
+     "dx": "svt",
+     "weight": 0.143
+    },
+    {
+     "dx": "anxiety_hyperventilation",
+     "weight": 0.071
+    }
+   ],
+   "indication_tags": [
+    "acute_onset",
+    "copd_known"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "woke up",
+    "irregular heartbeat",
+    "denies chest pain"
+   ],
+   "observed_values": [
+    "tele HR 130s",
+    "BP 132/84"
+   ],
+   "presentation": "palpitations",
+   "time_course": "acute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "n1"
+}

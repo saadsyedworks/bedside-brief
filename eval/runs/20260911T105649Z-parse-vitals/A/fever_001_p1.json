@@ -1,0 +1,878 @@
+{
+ "arm": "A",
+ "ask_first": false,
+ "base_case_id": "fever_001",
+ "blocked_items": [],
+ "case_id": "fever_001_p1",
+ "created_at": "2026-09-11T11:09:44+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Coburn B, Morris AM, Tomlinson G, Detsky AS. Does this adult patient with suspected bacteremia require blood cultures? JAMA. 2012;308(5):502-511.",
+    "Tokuda Y, Miyasato H, Stein GH, Kishaba T. The degree of chills for risk of bacteremia in acute febrile illness. Am J Med. 2005;118(12):1417."
+   ],
+   "numeric_claims": [
+    "0.076",
+    "0.11",
+    "0.24",
+    "0.51",
+    "0.744",
+    "0.875",
+    "0.892",
+    "0.9",
+    "0.903",
+    "0.915",
+    "0.945",
+    "10.1001",
+    "10.1016",
+    "118",
+    "12",
+    "1417",
+    "16378800",
+    "2.95",
+    "2005",
+    "2005.06",
+    "2012",
+    "2012.8262",
+    "22851117",
+    "25",
+    "3",
+    "308",
+    "35",
+    "4.65",
+    "4.7",
+    "40",
+    "43",
+    "4566",
+    "5",
+    "502",
+    "511",
+    "526",
+    "6.86",
+    "7.2",
+    "7.6",
+    "74.4",
+    "87.5",
+    "89.2",
+    "90.3",
+    "91.5",
+    "94.5",
+    "946",
+    "95"
+   ],
+   "performance_claims": [
+    "0.11",
+    "0.24",
+    "0.51",
+    "0.744",
+    "0.875",
+    "0.892",
+    "0.903",
+    "0.915",
+    "0.945",
+    "2.95",
+    "3",
+    "4.65",
+    "4.7",
+    "6.86",
+    "7.2"
+   ],
+   "record_id": "hx_rigors_shaking_chills",
+   "section": "ask",
+   "text": "Rigors / shaking chills"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Bent S, Nallamothu BK, Simel DL, Fihn SD, Saint S. Does this woman have an acute uncomplicated urinary tract infection? JAMA. 2002;287(20):2701-2710."
+   ],
+   "numeric_claims": [
+    "0.2",
+    "0.3",
+    "0.5",
+    "0.7",
+    "1.1",
+    "1.2",
+    "1.5",
+    "1.8",
+    "10.1001",
+    "12020306",
+    "2",
+    "20",
+    "2002",
+    "24.6",
+    "2701",
+    "2710",
+    "287",
+    "287.2",
+    "3",
+    "9",
+    "90",
+    "95"
+   ],
+   "performance_claims": [
+    "0.3",
+    "0.5",
+    "0.7",
+    "1.1",
+    "1.2",
+    "1.5",
+    "1.8",
+    "2",
+    "24.6",
+    "3"
+   ],
+   "record_id": "hx_dysuria_frequency",
+   "section": "ask",
+   "text": "Dysuria and urinary frequency/urgency (new)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "2",
+    "72"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_new_medication_temporal_fever",
+   "section": "ask",
+   "text": "Fever onset temporally linked to a new drug (with rash/relative bradycardia)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": "exam_infection_source_survey",
+   "section": "examine",
+   "text": "Focused infection-source exam (line/exit sites, skin, abdomen, joints, sacrum, urine catheter)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Bent S, Nallamothu BK, Simel DL, Fihn SD, Saint S. Does this woman have an acute uncomplicated urinary tract infection? JAMA. 2002;287(20):2701-2710."
+   ],
+   "numeric_claims": [
+    "0.5",
+    "0.7",
+    "0.8",
+    "0.9",
+    "1.1",
+    "1.2",
+    "1.6",
+    "1.7",
+    "10.1001",
+    "12",
+    "12020306",
+    "2.1",
+    "2.5",
+    "20",
+    "2002",
+    "2701",
+    "2710",
+    "287",
+    "287.2",
+    "9",
+    "95"
+   ],
+   "performance_claims": [
+    "0.7",
+    "0.8",
+    "0.9",
+    "1.1",
+    "1.2",
+    "1.6",
+    "1.7",
+    "2.1",
+    "2.5"
+   ],
+   "record_id": "exam_cva_tenderness",
+   "section": "examine",
+   "text": "Costovertebral angle (flank) tenderness"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Ebell MH, Chupp H, Cai X, Bentivegna M, Kearney M. Accuracy of signs and symptoms for the diagnosis of community-acquired pneumonia: a meta-analysis. Acad Emerg Med. 2020;27(7):541-553."
+   ],
+   "numeric_claims": [
+    "1.34",
+    "10",
+    "10.1111",
+    "13965",
+    "17",
+    "18",
+    "20",
+    "2020",
+    "27",
+    "30",
+    "32329557",
+    "541",
+    "553",
+    "6",
+    "6.17",
+    "7",
+    "9",
+    "95"
+   ],
+   "performance_claims": [
+    "1.34",
+    "18",
+    "6.17"
+   ],
+   "record_id": "exam_egophony",
+   "section": "examine",
+   "text": "Egophony (E-to-A change) or bronchial breath sounds over a focal area"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Cobo-Sanchez JL, Blanco-Mavillard I, Pelayo-Alonso R, Mancebo-Salas N, Fernandez-Fernandez I, Larraneta-Inda I, et al. Validation of a Clinical Scale for Early Detection of Infections at the Exit Site of Central Venous Catheters for Hemodialysis. Kidney Int Rep. 2024."
+   ],
+   "numeric_claims": [
+    "0.21",
+    "0.7136",
+    "0.8034",
+    "0.8771",
+    "0.9273",
+    "0.9523",
+    "0.97",
+    "1",
+    "10.1016",
+    "16.8",
+    "2",
+    "2024",
+    "2024.06",
+    "3",
+    "310",
+    "337",
+    "34",
+    "39291192",
+    "515",
+    "71.36",
+    "80.34",
+    "87.71",
+    "92.73",
+    "95",
+    "95.23",
+    "97"
+   ],
+   "performance_claims": [
+    "0.21",
+    "0.7136",
+    "0.8034",
+    "0.8771",
+    "0.9273",
+    "0.9523",
+    "0.97",
+    "16.8"
+   ],
+   "record_id": "exam_line_exit_site_erythema_purulence",
+   "section": "examine",
+   "text": "Central line exit-site erythema, tenderness, or purulence (with line-day count)"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "candidates": [
+   "exam_infection_source_survey",
+   "hx_rigors_shaking_chills",
+   "exam_cva_tenderness",
+   "hx_dysuria_frequency",
+   "exam_egophony",
+   "exam_percussion_dullness",
+   "exam_pulmonary_crackles",
+   "exam_tachypnea_rr_gt24",
+   "exam_wheezing",
+   "hx_pleuritic_chest_pain",
+   "hx_smoking_pack_years",
+   "exam_line_exit_site_erythema_purulence",
+   "exam_rebound_tenderness",
+   "exam_llq_tenderness",
+   "exam_abdominal_rigidity_guarding",
+   "exam_shifting_dullness",
+   "hx_ain_rash_fever_arthralgia",
+   "hx_new_medication_temporal_fever",
+   "exam_accessory_muscle_use",
+   "exam_breath_sounds_unilateral_absent",
+   "fn_bedside_walk_test",
+   "hx_prior_abdominal_surgery",
+   "exam_ascites_flank_dullness_fluid_wave",
+   "exam_cirrhosis_stigmata",
+   "exam_spider_nevi"
+  ],
+  "card": {
+   "chief_complaint": "fever after surgery",
+   "presentation": "fever",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_rigors_shaking_chills",
+      "changes_what": "Shaking chills should prompt blood cultures and a search for a bacteremic source (line, biliary, urinary, endovascular); no chills supports withholding cultures when pretest probability is low.",
+      "contraindications": "None.",
+      "do_not_use_when": "The RCE conclusions do not apply to immunocompromised patients or when endocarditis is suspected; in those groups obtain cultures regardless of chills.",
+      "escalation_warning": "Rigors with hypotension, altered mentation or a central line indicate probable bacteremia/sepsis: cultures, source control and antibiotics within the hour.",
+      "evidence": [
+       {
+        "citation": "Coburn B, Morris AM, Tomlinson G, Detsky AS. Does this adult patient with suspected bacteremia require blood cultures? JAMA. 2012;308(5):502-511.",
+        "computed": false,
+        "doi": "10.1001/jama.2012.8262",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "7.2",
+         "ci_low": "3",
+         "value": "4.7"
+        },
+        "pmid": "22851117",
+        "population": "Adult immunocompetent patients in whom bacteremia was suspected (35 studies; 4566 bacteremia and 25,946 negative episodes)",
+        "prevalence": null,
+        "quote": "The severity of chills graded on an ordinal scale (shaking chills, LR, 4.7; 95% CI, 3.0-7.2) may be more useful.",
+        "reference_standard": "Blood cultures",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Bacteremia (true-positive blood culture)",
+        "url": null,
+        "year": "2012"
+       },
+       {
+        "citation": "Tokuda Y, Miyasato H, Stein GH, Kishaba T. The degree of chills for risk of bacteremia in acute febrile illness. Am J Med. 2005;118(12):1417.",
+        "computed": false,
+        "doi": "10.1016/j.amjmed.2005.06.043",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "6.86",
+         "ci_low": "2.95",
+         "value": "4.65"
+        },
+        "pmid": "16378800",
+        "population": "526 consecutive adults with acute febrile illness (40, 7.6%, bacteremic)",
+        "prevalence": "0.076",
+        "quote": "Shaking chills showed a specificity of 90.3% (95% CI 89.2-91.5) and positive likelihood ratio of 4.65 (95% CI 2.95-6.86).",
+        "reference_standard": "Blood cultures",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": {
+         "ci_high": "0.915",
+         "ci_low": "0.892",
+         "value": "0.903"
+        },
+        "target_condition": "Bacteremia - finding: shaking chills (whole-body shaking under a thick blanket)",
+        "url": null,
+        "year": "2005"
+       },
+       {
+        "citation": "Tokuda Y, Miyasato H, Stein GH, Kishaba T. The degree of chills for risk of bacteremia in acute febrile illness. Am J Med. 2005;118(12):1417.",
+        "computed": false,
+        "doi": "10.1016/j.amjmed.2005.06.043",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_out",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.51",
+         "ci_low": "0.11",
+         "value": "0.24"
+        },
+        "lr_positive": null,
+        "pmid": "16378800",
+        "population": "526 consecutive adults with acute febrile illness (40, 7.6%, bacteremic)",
+        "prevalence": "0.076",
+        "quote": "The absence of chills showed a sensitivity of 87.5% (95% CI 74.4-94.5) and negative likelihood ratio of 0.24 (95% CI 0.11-0.51).",
+        "reference_standard": "Blood cultures",
+        "sensitivity": {
+         "ci_high": "0.945",
+         "ci_low": "0.744",
+         "value": "0.875"
+        },
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Bacteremia - finding: any chills (sensitivity and LR- refer to absence of chills)",
+        "url": null,
+        "year": "2005"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Ask the patient (or witnesses) whether they have had chills and grade the worst episode: mild = feeling cold, needing a jacket; moderate = needing a thick blanket; shaking chills = whole-body shaking even under a thick blanket. Record timing relative to fever and any line, procedure or infusion.",
+      "id": "hx_rigors_shaking_chills",
+      "negative_finding": "Absence of any chills lowers the probability of bacteremia (LR- 0.24) but does not exclude it, particularly in elderly or immunocompromised patients who may not mount rigors.",
+      "pitfalls": "Rigors also occur with malaria, transfusion or drug reactions, and after amphotericin or contaminated infusions; the grading relies on patient recall and the RCE data exclude immunocompromised patients and suspected endocarditis.",
+      "positive_finding": "Shaking (rigor-grade) chills raise the probability of bacteremia about 4.7-fold (LR+ 4.7, 95% CI 3.0-7.2; specificity 0.90) and justify blood cultures before antibiotics.",
+      "prerequisites": "Patient or witness able to describe the episode; ask before antipyretics blunt recall.",
+      "rationale": "Rigors suggest bacteremia and help prioritize blood cultures and search for a source.",
+      "skill_assumption": null,
+      "title": "Rigors / shaking chills",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_dysuria_frequency",
+      "changes_what": "Dysuria plus frequency without vaginal symptoms can justify empirical treatment in women; absent or nonspecific symptoms should push toward other causes of fever, AKI or delirium.",
+      "contraindications": "None.",
+      "do_not_use_when": "The LRs apply to non-pregnant women with uncomplicated UTI; do not apply them to men, catheterized patients, or elderly patients with delirium and no new urinary symptoms.",
+      "escalation_warning": "Urinary symptoms with fever, rigors, flank pain, hypotension or AKI indicate pyelonephritis/urosepsis, which needs cultures, antibiotics and assessment for obstruction.",
+      "evidence": [
+       {
+        "citation": "Bent S, Nallamothu BK, Simel DL, Fihn SD, Saint S. Does this woman have an acute uncomplicated urinary tract infection? JAMA. 2002;287(20):2701-2710.",
+        "computed": false,
+        "doi": "10.1001/jama.287.20.2701",
+        "evidence_level": "pooled",
+        "interpretation_label": "minimal",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "2",
+         "ci_low": "1.2",
+         "value": "1.5"
+        },
+        "pmid": "12020306",
+        "population": "Women presenting with one or more symptoms of acute uncomplicated urinary tract infection (9 studies)",
+        "prevalence": "0.5",
+        "quote": "dysuria (summary positive likelihood ratio [LR], 1.5; 95% confidence interval [CI], 1.2-2.0)",
+        "reference_standard": "Urine culture as defined in included studies",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "Acute uncomplicated urinary tract infection - finding: dysuria present",
+        "url": null,
+        "year": "2002"
+       },
+       {
+        "citation": "Bent S, Nallamothu BK, Simel DL, Fihn SD, Saint S. Does this woman have an acute uncomplicated urinary tract infection? JAMA. 2002;287(20):2701-2710.",
+        "computed": false,
+        "doi": "10.1001/jama.287.20.2701",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.7",
+         "ci_low": "0.3",
+         "value": "0.5"
+        },
+        "lr_positive": null,
+        "pmid": "12020306",
+        "population": "Women presenting with one or more symptoms of acute uncomplicated urinary tract infection (9 studies)",
+        "prevalence": "0.5",
+        "quote": "absence of dysuria (summary negative LR, 0.5; 95% CI, 0.3-0.7)",
+        "reference_standard": "Urine culture as defined in included studies",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "Acute uncomplicated urinary tract infection - finding: dysuria absent",
+        "url": null,
+        "year": "2002"
+       },
+       {
+        "citation": "Bent S, Nallamothu BK, Simel DL, Fihn SD, Saint S. Does this woman have an acute uncomplicated urinary tract infection? JAMA. 2002;287(20):2701-2710.",
+        "computed": false,
+        "doi": "10.1001/jama.287.20.2701",
+        "evidence_level": "pooled",
+        "interpretation_label": "minimal",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "3",
+         "ci_low": "1.1",
+         "value": "1.8"
+        },
+        "pmid": "12020306",
+        "population": "Women presenting with one or more symptoms of acute uncomplicated urinary tract infection (9 studies)",
+        "prevalence": "0.5",
+        "quote": "frequency (LR, 1.8; 95% CI, 1.1-3.0)",
+        "reference_standard": "Urine culture as defined in included studies",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "Acute uncomplicated urinary tract infection - finding: frequency present",
+        "url": null,
+        "year": "2002"
+       },
+       {
+        "citation": "Bent S, Nallamothu BK, Simel DL, Fihn SD, Saint S. Does this woman have an acute uncomplicated urinary tract infection? JAMA. 2002;287(20):2701-2710.",
+        "computed": false,
+        "doi": "10.1001/jama.287.20.2701",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "24.6"
+        },
+        "pmid": "12020306",
+        "population": "Women with UTI symptoms in the single included study that examined symptom combinations",
+        "prevalence": "0.5",
+        "quote": "24.6 for the combination of dysuria and frequency but no vaginal discharge or irritation",
+        "reference_standard": "Urine culture as defined in included studies",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "Acute uncomplicated urinary tract infection - combination: dysuria and frequency without vaginal discharge or irritation",
+        "url": null,
+        "year": "2002"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Ask specifically about pain or burning on passing urine, new increase in frequency or urgency, and their onset; then ask about vaginal discharge or irritation, hematuria, flank pain and fever. Establish whether the symptoms are new relative to baseline (important in elderly or catheterized patients).",
+      "id": "hx_dysuria_frequency",
+      "negative_finding": "Absence of dysuria lowers the probability only modestly (LR- 0.5); history alone cannot rule out UTI once one symptom is present.",
+      "pitfalls": "Vaginitis, urethritis and STIs mimic dysuria (vaginal discharge/irritation LR 0.2-0.3 for UTI). In elderly patients asymptomatic bacteriuria is common, and confusion without new genitourinary symptoms should not be attributed to UTI.",
+      "positive_finding": "In women, dysuria (LR+ 1.5) or frequency (LR+ 1.8) each raise UTI probability slightly; dysuria and frequency together without vaginal discharge or irritation raise it strongly (LR 24.6, probability above 90%).",
+      "prerequisites": "Patient able to give a reliable history; in delirium, obtain collateral history of new urinary symptoms.",
+      "rationale": "Urinary symptoms would support UTI/pyelonephritis as the fever source.",
+      "skill_assumption": null,
+      "title": "Dysuria and urinary frequency/urgency (new)",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_new_medication_temporal_fever",
+      "changes_what": "Positive: stop the suspect drug (substitute if needed), expect defervescence within ~72 h, continue infection work-up. Negative: keep searching for occult infection, thrombosis or malignancy.",
+      "contraindications": "Do not stop essential drugs (e.g., antimicrobials for a proven infection, immunosuppressants) without a risk-benefit assessment.",
+      "do_not_use_when": "Do not attribute fever to a drug in a neutropenic, septic or haemodynamically unstable patient until infection has been excluded; do not withdraw life-sustaining drugs on this basis alone.",
+      "escalation_warning": "Fever with rash, mucosal involvement, facial oedema, eosinophilia or organ dysfunction may be DRESS/SJS: stop the drug immediately and escalate.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Build a dated medication timeline (start/stop of every agent, including antibiotics, anticonvulsants, allopurinol, heparin) against the fever curve. Look for fever beginning after a new drug, a patient who looks relatively well despite high temperatures, a pulse lower than expected for the temperature, rash or eosinophilia, and defervescence within about 72 h of stopping the suspect drug.",
+      "id": "hx_new_medication_temporal_fever",
+      "negative_finding": "Absence of rash, eosinophilia or relative bradycardia does not argue against drug fever: these accompaniments were found in only a minority of cases in the largest series. Persistence of fever more than a few days after stopping the suspect drug argues against the diagnosis.",
+      "pitfalls": "Textbook features (relative bradycardia, rash, eosinophilia, characteristic fever pattern) are absent in most cases; drug fever is a diagnosis of exclusion and infection must be ruled out first. Rechallenge reproduces fever and is usually inappropriate.",
+      "positive_finding": "Fever temporally following a new drug, with no alternative source and resolution after withdrawal, supports drug fever; antibacterials (beta-lactams, vancomycin, rifampicin, aminoglycosides) are the commonest culprits and median onset is about 2 days but the lag is highly variable.",
+      "prerequisites": "Complete medication reconciliation; other infectious and non-infectious causes actively sought and excluded.",
+      "rationale": "Recent new drug exposure could indicate drug fever, which changes management.",
+      "skill_assumption": null,
+      "title": "Fever onset temporally linked to a new drug (with rash/relative bradycardia)",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/exam_infection_source_survey",
+      "changes_what": "A positive survey targets cultures, imaging and source control (line removal, drainage, debridement); a negative survey mandates blood/urine cultures and imaging rather than reassurance.",
+      "contraindications": "None; do not delay cultures and antibiotics in suspected sepsis while completing the survey.",
+      "do_not_use_when": "Never let a negative source survey withhold cultures, empiric antibiotics or imaging in a hypotensive, febrile or acutely confused patient with suspected infection.",
+      "escalation_warning": "Crepitus, bullae, skin necrosis or pain out of proportion (necrotizing fasciitis), a hot joint, peritonism, or purulence at a central line/dialysis catheter in a septic patient require immediate surgical/source-control and line removal decisions.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Undress and inspect every line, dialysis and drain/exit site (erythema, purulence, tunnel tenderness), all skin including back, sacrum, heels, perineum, injection sites and wounds; palpate abdomen (peritonism, Murphy sign, flank tenderness), joints and spine for warmth/effusion/tenderness; check urinary catheter, mouth, sinuses, ears and chest. Repeat daily while the source is unknown.",
+      "id": "exam_infection_source_survey",
+      "negative_finding": "A normal survey does not exclude an occult source: insertion-site inflammation is absent in nearly all catheter-related bloodstream infections, and intra-abdominal, urinary, endovascular and spinal infections are frequently silent in elderly, immunosuppressed or sedated patients.",
+      "pitfalls": "Line-site appearance has near-zero sensitivity for CRBSI (coagulase-negative staphylococci cause little inflammation); steroids, neutropenia and neuropathy blunt local signs; dressings, obesity and immobility hide sacral, perineal and injection-site infections. Pain out of proportion with unimpressive skin findings suggests necrotizing infection.",
+      "positive_finding": "Purulence, spreading erythema or tunnel tenderness at a line/exit site, cellulitis or crepitus, a hot swollen joint, peritonism or flank tenderness, or a sacral/heel ulcer with surrounding infection identifies a probable source and directs cultures, source control and empiric therapy.",
+      "prerequisites": "Full exposure with dressings taken down, adequate lighting and analgesia; review lines, catheters and devices with their insertion dates; log-roll immobile patients to view the sacrum.",
+      "rationale": "A focused source exam can rapidly identify treatable post-op infection sources (line, wound, catheter, etc).",
+      "skill_assumption": null,
+      "title": "Focused infection-source exam (line/exit sites, skin, abdomen, joints, sacrum, urine catheter)",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_cva_tenderness",
+      "changes_what": "CVA tenderness in a febrile patient with urinary symptoms supports pyelonephritis (culture, consider imaging for obstruction); its absence should not lower suspicion much.",
+      "contraindications": "Avoid fist percussion with suspected spinal fracture, recent flank surgery or known renal/splenic injury.",
+      "do_not_use_when": "Not validated in men, children, pregnancy, catheterized or elderly patients with nonspecific presentations; do not use to exclude obstruction or renal colic.",
+      "escalation_warning": "Flank tenderness with fever plus hypotension, AKI or a solitary/transplant kidney suggests obstructed pyelonephritis: urgent imaging and urology involvement.",
+      "evidence": [
+       {
+        "citation": "Bent S, Nallamothu BK, Simel DL, Fihn SD, Saint S. Does this woman have an acute uncomplicated urinary tract infection? JAMA. 2002;287(20):2701-2710.",
+        "computed": false,
+        "doi": "10.1001/jama.287.20.2701",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "2.5",
+         "ci_low": "1.1",
+         "value": "1.7"
+        },
+        "pmid": "12020306",
+        "population": "Women presenting with one or more symptoms of acute uncomplicated urinary tract infection (9 studies)",
+        "prevalence": "0.5",
+        "quote": "costovertebral angle tenderness (LR, 1.7; 95% CI, 1.1-2.5)",
+        "reference_standard": "Urine culture as defined in included studies",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "Acute uncomplicated urinary tract infection - finding: costovertebral angle tenderness",
+        "url": null,
+        "year": "2002"
+       },
+       {
+        "citation": "Bent S, Nallamothu BK, Simel DL, Fihn SD, Saint S. Does this woman have an acute uncomplicated urinary tract infection? JAMA. 2002;287(20):2701-2710.",
+        "computed": false,
+        "doi": "10.1001/jama.287.20.2701",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "2.1",
+         "ci_low": "1.2",
+         "value": "1.6"
+        },
+        "pmid": "12020306",
+        "population": "Women presenting with one or more symptoms of acute uncomplicated urinary tract infection (9 studies)",
+        "prevalence": "0.5",
+        "quote": "back pain (LR, 1.6; 95% CI, 1.2-2.1)",
+        "reference_standard": "Urine culture as defined in included studies",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "Acute uncomplicated urinary tract infection - finding: back pain (history) present",
+        "url": null,
+        "year": "2002"
+       },
+       {
+        "citation": "Bent S, Nallamothu BK, Simel DL, Fihn SD, Saint S. Does this woman have an acute uncomplicated urinary tract infection? JAMA. 2002;287(20):2701-2710.",
+        "computed": false,
+        "doi": "10.1001/jama.287.20.2701",
+        "evidence_level": "pooled",
+        "interpretation_label": "minimal",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.9",
+         "ci_low": "0.7",
+         "value": "0.8"
+        },
+        "lr_positive": null,
+        "pmid": "12020306",
+        "population": "Women presenting with one or more symptoms of acute uncomplicated urinary tract infection (9 studies)",
+        "prevalence": "0.5",
+        "quote": "absence of back pain (LR, 0.8; 95% CI, 0.7-0.9)",
+        "reference_standard": "Urine culture as defined in included studies",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "Acute uncomplicated urinary tract infection - finding: back pain (history) absent",
+        "url": null,
+        "year": "2002"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "With the patient sitting or standing, place one palm flat over the costovertebral angle (below the 12th rib, lateral to the spine) and strike it with the ulnar side of the other fist, or press firmly with the fingertips. Compare both sides and watch the face for wincing; ask if the pain is the same as their presenting pain.",
+      "id": "exam_cva_tenderness",
+      "negative_finding": "Absence of CVA tenderness barely changes the probability (absence of back pain LR 0.8) and does not exclude pyelonephritis, especially in elderly or immunocompromised patients.",
+      "pitfalls": "Musculoskeletal back pain, rib injury and retrocecal appendicitis cause false positives; the RCE LRs are for uncomplicated UTI in women, not for separating pyelonephritis from cystitis or for renal colic.",
+      "positive_finding": "Unilateral CVA tenderness modestly increases the probability of urinary tract infection in symptomatic women (LR+ 1.7, 95% CI 1.1-2.5) and, with fever, points toward pyelonephritis rather than cystitis.",
+      "prerequisites": "Warn the patient first; assess before analgesia if possible.",
+      "rationale": "CVA tenderness would support pyelonephritis as the fever source.",
+      "skill_assumption": null,
+      "title": "Costovertebral angle (flank) tenderness",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_egophony",
+      "changes_what": "Focal egophony in a febrile, coughing patient raises pneumonia probability substantially (LR+ about 6); proceed to CXR/LUS and empiric treatment as clinically indicated.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use absence of egophony to withhold imaging in a patient with hypoxia, abnormal vital signs or immunocompromise.",
+      "escalation_warning": "Egophony plus hypotension, RR >30 or confusion suggests severe pneumonia; assess for sepsis and consider admission.",
+      "evidence": [
+       {
+        "citation": "Ebell MH, Chupp H, Cai X, Bentivegna M, Kearney M. Accuracy of signs and symptoms for the diagnosis of community-acquired pneumonia: a meta-analysis. Acad Emerg Med. 2020;27(7):541-553.",
+        "computed": false,
+        "doi": "10.1111/acem.13965",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "18",
+         "ci_low": "1.34",
+         "value": "6.17"
+        },
+        "pmid": "32329557",
+        "population": "Adults with clinically suspected pneumonia or acute cough; 17 prospective cohorts (9 primary care, 7 ED); CAP prevalence 10% primary care, 20% ED",
+        "prevalence": null,
+        "quote": "egophony (LR+ = 6.17, 95% CI = 1.34 to 18.0)",
+        "reference_standard": "Chest imaging",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Community-acquired pneumonia (egophony)",
+        "url": null,
+        "year": "2020"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Auscultate the posterior and lateral chest while the patient repeatedly says a sustained 'ee'; egophony is present where the sound is heard as a nasal 'ay' (A) over a focal area but as 'ee' elsewhere. Compare with breath sounds at the same site for a harsh, tubular bronchial quality with a pause between inspiration and expiration.",
+      "id": "exam_egophony",
+      "negative_finding": "Normal vesicular sounds and 'ee' transmitted unchanged; absence has little rule-out value because the sign is insensitive.",
+      "pitfalls": "Sensitivity is low so most pneumonias lack egophony; it also occurs over the compressed lung at the upper border of a pleural effusion and can be mimicked at the trachea and interscapular area in thin patients.",
+      "positive_finding": "Focal E-to-A change and/or bronchial breath sounds over lung parenchyma, indicating consolidation or the compressed lung above an effusion.",
+      "prerequisites": "Cooperative patient able to phonate; compare with the contralateral side at the same level.",
+      "rationale": "Egophony would support pneumonia in a post-op patient with cough and fever.",
+      "skill_assumption": null,
+      "title": "Egophony (E-to-A change) or bronchial breath sounds over a focal area",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_line_exit_site_erythema_purulence",
+      "changes_what": "Positive site: culture exudate, draw paired blood cultures, consider line removal; negative site does not lower suspicion of CRBSI in an unexplained fever or shock.",
+      "contraindications": "None; do not delay blood cultures or catheter management while inspecting.",
+      "do_not_use_when": "Do not use a clean site to rule out CRBSI in short-term non-cuffed CVCs; do not rely on site appearance in neutropenic patients who may not mount local inflammation.",
+      "escalation_warning": "Fever with hypotension plus any line in situ: cultures and sepsis pathway regardless of site appearance; purulent exit site with sepsis mandates line removal.",
+      "evidence": [
+       {
+        "citation": "Cobo-Sanchez JL, Blanco-Mavillard I, Pelayo-Alonso R, Mancebo-Salas N, Fernandez-Fernandez I, Larraneta-Inda I, et al. Validation of a Clinical Scale for Early Detection of Infections at the Exit Site of Central Venous Catheters for Hemodialysis. Kidney Int Rep. 2024.",
+        "computed": true,
+        "doi": "10.1016/j.ekir.2024.06.034",
+        "evidence_level": "single_study",
+        "interpretation_label": "both",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.21"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "16.8"
+        },
+        "pmid": "39291192",
+        "population": "Adults with tunneled hemodialysis CVC in place >=1 month; 337 catheters, 310 patients, 515 pericatheter cultures; multicenter prospective cohort",
+        "prevalence": null,
+        "quote": "sensitivity 80.34% (95% CI: 71.36%-87.71%) and specificity 95.23% (95% CI: 92.73%-97%)",
+        "reference_standard": "Positive pericatheter skin swab culture (taken only when any scale item present)",
+        "sensitivity": {
+         "ci_high": "0.8771",
+         "ci_low": "0.7136",
+         "value": "0.8034"
+        },
+        "setting": "outpatient",
+        "specificity": {
+         "ci_high": "0.97",
+         "ci_low": "0.9273",
+         "value": "0.9523"
+        },
+        "target_condition": "COMPOSITE: exit-site infection of tunneled hemodialysis CVC (3-item scale: interdialytic exit-site pain OR erythema >=2 cm OR abscess/purulent exudate)",
+        "url": null,
+        "year": "2024"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Remove the dressing and inspect the insertion/exit site and tunnel in good light: erythema (note extent in cm), induration or swelling, tenderness on palpation, and purulent exudate (express gently along the tunnel). Record catheter type (non-tunneled vs tunneled/cuffed), site, and line-day count.",
+      "id": "exam_line_exit_site_erythema_purulence",
+      "negative_finding": "A clean, non-inflamed site does not exclude catheter-related bloodstream infection; most short-term CVC infections (largely coagulase-negative staphylococci) show little or no local inflammation.",
+      "pitfalls": "Local inflammation is insensitive (near zero) for CRBSI with short-term non-cuffed CVCs; dressing adhesive irritation and tunnel-line manipulation can mimic erythema. Hemodialysis exit-site scale evidence uses a skin-swab culture reference, not bacteremia.",
+      "positive_finding": "Purulence, tenderness, or erythema >=2 cm at the exit site indicates local catheter infection and, in a febrile or hypotensive patient, should raise concern for catheter-related bloodstream infection with S. aureus or Gram-negative organisms.",
+      "prerequisites": "Dressing change with clean technique; knowledge of insertion date and catheter type.",
+      "rationale": "Line site infection is a key post-op fever source and requires prompt action if present.",
+      "skill_assumption": null,
+      "title": "Central line exit-site erythema, tenderness, or purulence (with line-day count)",
+      "type": "exam"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_rigors_shaking_chills",
+     "rationale": "Rigors suggest bacteremia and help prioritize blood cultures and search for a source."
+    },
+    {
+     "id": "hx_dysuria_frequency",
+     "rationale": "Urinary symptoms would support UTI/pyelonephritis as the fever source."
+    },
+    {
+     "id": "hx_new_medication_temporal_fever",
+     "rationale": "Recent new drug exposure could indicate drug fever, which changes management."
+    }
+   ],
+   "examine": [
+    {
+     "id": "exam_infection_source_survey",
+     "rationale": "A focused source exam can rapidly identify treatable post-op infection sources (line, wound, catheter, etc)."
+    },
+    {
+     "id": "exam_cva_tenderness",
+     "rationale": "CVA tenderness would support pyelonephritis as the fever source."
+    },
+    {
+     "id": "exam_egophony",
+     "rationale": "Egophony would support pneumonia in a post-op patient with cough and fever."
+    },
+    {
+     "id": "exam_line_exit_site_erythema_purulence",
+     "rationale": "Line site infection is a key post-op fever source and requires prompt action if present."
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "fever after surgery",
+   "differentials": [
+    {
+     "dx": "uti_pyelonephritis",
+     "weight": 1.0
+    },
+    {
+     "dx": "pneumonia",
+     "weight": 0.5
+    },
+    {
+     "dx": "line_infection",
+     "weight": 0.375
+    },
+    {
+     "dx": "intraabdominal_abscess",
+     "weight": 0.25
+    },
+    {
+     "dx": "sbp",
+     "weight": 0.125
+    },
+    {
+     "dx": "drug_fever",
+     "weight": 0.125
+    }
+   ],
+   "indication_tags": [
+    "post_operative"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "post-operative",
+    "mild cough",
+    "no complaints otherwise"
+   ],
+   "observed_values": [
+    "T 38.6"
+   ],
+   "presentation": "fever",
+   "time_course": "acute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "p1"
+}

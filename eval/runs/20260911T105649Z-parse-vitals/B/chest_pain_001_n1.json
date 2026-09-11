@@ -1,0 +1,1156 @@
+{
+ "arm": "B",
+ "ask_first": false,
+ "base_case_id": "chest_pain_001",
+ "blocked_items": [],
+ "case_id": "chest_pain_001_n1",
+ "created_at": "2026-09-11T11:20:48+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Courtney DM, Kline JA, Kabrhel C, et al. Clinical features from the history and physical examination that predict the presence or absence of pulmonary embolism in symptomatic emergency department patients: results of a prospective, multicenter study. Ann Emerg Med. 2010;55(4):307-315.",
+    "Panju AA, Hemmelgarn BR, Guyatt GH, Simel DL. The rational clinical examination. Is this patient having a myocardial infarction? JAMA. 1998;280(14):1256-1263."
+   ],
+   "numeric_claims": [
+    "0.072",
+    "0.2",
+    "1.5",
+    "1.53",
+    "1.99",
+    "10",
+    "10.1001",
+    "10.1016",
+    "12",
+    "1256",
+    "1263",
+    "14",
+    "1998",
+    "20045580",
+    "2009.11",
+    "2010",
+    "280",
+    "280.14",
+    "307",
+    "315",
+    "4",
+    "45",
+    "49",
+    "55",
+    "67",
+    "7",
+    "940",
+    "9786377"
+   ],
+   "performance_claims": [
+    "0.2"
+   ],
+   "record_id": "hx_pleuritic_chest_pain",
+   "section": "ask",
+   "text": "Pleuritic chest pain (sharp, worse with inspiration/cough), +/- hemoptysis"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Panju AA, Hemmelgarn BR, Guyatt GH, Simel DL. The rational clinical examination. Is this patient having a myocardial infarction? JAMA. 1998."
+   ],
+   "numeric_claims": [
+    "0.2",
+    "0.3",
+    "10.1001",
+    "1256",
+    "1998",
+    "280.14",
+    "9786377"
+   ],
+   "performance_claims": [
+    "0.3"
+   ],
+   "record_id": "hx_pain_positional",
+   "section": "ask",
+   "text": "Pain that is positional (changes with posture; relieved leaning forward = pericarditis; ACS negative)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Straus SE, McAlister FA, Sackett DL, Deeks JJ. The accuracy of patient history, wheezing, and laryngeal measurements in diagnosing obstructive airway disease. CARE-COAD1 Group. JAMA. 2000;283(14):1853-1857."
+   ],
+   "numeric_claims": [
+    "0.52",
+    "1",
+    "10.1001",
+    "100",
+    "10770147",
+    "14",
+    "1853",
+    "1857",
+    "20",
+    "2000",
+    "25",
+    "283",
+    "283.14",
+    "309",
+    "37",
+    "39",
+    "40",
+    "5",
+    "7.3",
+    "70",
+    "8.3"
+   ],
+   "performance_claims": [
+    "8.3"
+   ],
+   "record_id": "hx_smoking_pack_years",
+   "section": "ask",
+   "text": "Smoking history: >40 (or >=70) pack-years, current smoker"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Chun AA, McGee SR. Bedside diagnosis of coronary artery disease: a systematic review. Am J Med. 2004;117(5):334-343.",
+    "Goodacre S, Locker T, Morris F, Campbell S. How useful are clinical features in the diagnosis of acute, undifferentiated chest pain? Acad Emerg Med. 2002;9(3):203-208."
+   ],
+   "numeric_claims": [
+    "0.038",
+    "0.091",
+    "0.1",
+    "10.1016",
+    "10.1111",
+    "117",
+    "11874776",
+    "15336583",
+    "1553",
+    "1966",
+    "2.06",
+    "2.1",
+    "2.35",
+    "2.4",
+    "2002",
+    "2003",
+    "2004",
+    "2004.03",
+    "203",
+    "208",
+    "21",
+    "245",
+    "2712.2002",
+    "3",
+    "3.8",
+    "334",
+    "343",
+    "4.2",
+    "5",
+    "5.8",
+    "6",
+    "7.8",
+    "893",
+    "9",
+    "9.1",
+    "95"
+   ],
+   "performance_claims": [
+    "2.06",
+    "2.35",
+    "4.2",
+    "5.8",
+    "7.8"
+   ],
+   "record_id": "hx_exertional_chest_pain",
+   "section": "ask",
+   "text": "Chest pain provoked by exertion, relieved by rest (typical angina pattern)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "1",
+    "120",
+    "2",
+    "4",
+    "40",
+    "6",
+    "88",
+    "90"
+   ],
+   "performance_claims": [],
+   "record_id": "fn_bedside_walk_test",
+   "section": "examine",
+   "text": "Bedside walk / ambulatory desaturation and dyspnea reproduction test (hallway walk with pulse-ox, ability to complete)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Bruyninckx R, Aertgeerts B, Bruyninckx P, Buntinx F. Signs and symptoms in diagnosing acute myocardial infarction and acute coronary syndrome: a diagnostic meta-analysis. Br J Gen Pract. 2008;58(547):105-111.",
+    "Goodacre S, Locker T, Morris F, Campbell S. How useful are clinical features in the diagnosis of acute, undifferentiated chest pain? Acad Emerg Med. 2002;9(3):203-208."
+   ],
+   "numeric_claims": [
+    "0.038",
+    "0.04",
+    "0.08",
+    "0.14",
+    "0.18",
+    "0.2",
+    "0.23",
+    "0.29",
+    "0.3",
+    "1.5",
+    "10",
+    "10.1111",
+    "10.3399",
+    "105",
+    "111",
+    "11874776",
+    "1553",
+    "16",
+    "18307844",
+    "2002",
+    "2008",
+    "203",
+    "208",
+    "245",
+    "2712.2002",
+    "277014",
+    "28",
+    "3",
+    "3.8",
+    "4.07",
+    "5",
+    "547",
+    "58",
+    "6",
+    "8",
+    "893",
+    "9",
+    "92",
+    "94",
+    "95"
+   ],
+   "performance_claims": [
+    "0.04",
+    "0.08",
+    "0.14",
+    "0.18",
+    "0.23",
+    "0.29",
+    "0.3"
+   ],
+   "record_id": "exam_chest_wall_tenderness_reproducible",
+   "section": "examine",
+   "text": "Chest pain fully reproduced by palpation of chest wall"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Mant J, Doust J, Roalfe A, et al. Systematic review and individual patient data meta-analysis of diagnosis of heart failure, with modelling of implications of different diagnostic strategies in primary care. Health Technol Assess 2009;13(32):1-207.",
+    "Marcus GM, Gerber IL, McKeown BH, et al. Association between phonocardiographic third and fourth heart sounds and objective measures of left ventricular function. JAMA 2005;293(18):2238-44.",
+    "Martindale JL, Wakai A, Collins SP, et al. Diagnosing acute heart failure in the emergency department: a systematic review and meta-analysis. Acad Emerg Med 2016;23(3):223-42.",
+    "Signs and symptoms in adult patients with acute dyspnea: a systematic review and meta-analysis. Eur J Emerg Med 2018;25(1):3-11 (author list not retrievable via abstract tool; confirmed by PMID/DOI).",
+    "Wang CS, FitzGerald JM, Schulzer M, Mak E, Ayas NT. Does this dyspneic patient in the emergency department have congestive heart failure? JAMA 2005;294(15):1944-56."
+   ],
+   "numeric_claims": [
+    "0.11",
+    "0.12",
+    "0.18",
+    "0.41",
+    "0.52",
+    "0.55",
+    "0.64",
+    "0.77",
+    "0.87",
+    "0.88",
+    "0.9",
+    "0.92",
+    "0.97",
+    "0.99",
+    "1",
+    "10.1001",
+    "10.1097",
+    "10.1111",
+    "10.331",
+    "11",
+    "12878",
+    "13",
+    "13320",
+    "15",
+    "15886379",
+    "16234501",
+    "18",
+    "1944",
+    "19586584",
+    "2",
+    "2.7",
+    "2005",
+    "2009",
+    "2016",
+    "2018",
+    "207",
+    "22",
+    "223",
+    "2238",
+    "23",
+    "25",
+    "26910112",
+    "29",
+    "29252938",
+    "293",
+    "293.18",
+    "294",
+    "294.15",
+    "3",
+    "32",
+    "4",
+    "4.9",
+    "41",
+    "42",
+    "429",
+    "44",
+    "4737",
+    "5.1",
+    "5.9",
+    "50",
+    "52",
+    "56",
+    "7",
+    "70",
+    "72",
+    "79",
+    "8",
+    "81",
+    "85",
+    "87",
+    "89",
+    "9",
+    "90",
+    "92",
+    "95",
+    "99"
+   ],
+   "performance_claims": [
+    "0.11",
+    "0.41",
+    "0.52",
+    "0.55",
+    "0.64",
+    "0.87",
+    "0.9",
+    "0.92",
+    "0.97",
+    "0.99",
+    "11",
+    "11",
+    "2.7",
+    "25",
+    "4",
+    "4",
+    "4.9",
+    "5.1",
+    "5.9"
+   ],
+   "record_id": "exam_s3_gallop",
+   "section": "examine",
+   "text": "Third heart sound (S3 gallop) at apex with bell, left lateral decubitus"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Klompas M. Does this patient have an acute thoracic aortic dissection? JAMA. 2002.",
+    "Ohle R, Kareemi HK, Wells G, Perry JJ. Clinical Examination for Acute Aortic Dissection: A Systematic Review and Meta-analysis. Acad Emerg Med. 2018."
+   ],
+   "numeric_claims": [
+    "0",
+    "0.17",
+    "0.95",
+    "10.1001",
+    "10.1111",
+    "11980527",
+    "13360",
+    "17",
+    "18",
+    "1966",
+    "2",
+    "2000",
+    "2002",
+    "2018",
+    "21",
+    "21.9",
+    "2262",
+    "287.17",
+    "29265487",
+    "3",
+    "3.3",
+    "4.4",
+    "5.7",
+    "76.1",
+    "9",
+    "95"
+   ],
+   "performance_claims": [
+    "0.17",
+    "0.95",
+    "3.3",
+    "4.4",
+    "5.7"
+   ],
+   "record_id": "exam_focal_neuro_deficit_with_chest_pain",
+   "section": "examine",
+   "text": "Focal neurologic deficit (limb weakness, aphasia, Horner) accompanying chest/back pain"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "card": {
+   "chief_complaint": "pressure-like chest pain at rest with sweating",
+   "presentation": "chest_pain",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_pleuritic_chest_pain",
+      "changes_what": "Positive: de-emphasize ACS and work up PE/pneumonia/pneumothorax/pericarditis (exam, CXR, PE risk score). Negative: does not remove PE from the differential.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use pleuritic quality to discharge a patient with possible ACS without an ECG and troponin.",
+      "escalation_warning": "Pleuritic pain with hypoxemia, tachycardia, unilateral leg swelling or hemoptysis warrants immediate PE work-up; with sudden dyspnea consider pneumothorax.",
+      "evidence": [
+       {
+        "citation": "Panju AA, Hemmelgarn BR, Guyatt GH, Simel DL. The rational clinical examination. Is this patient having a myocardial infarction? JAMA. 1998;280(14):1256-1263.",
+        "computed": false,
+        "doi": "10.1001/jama.280.14.1256",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_out",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.2"
+        },
+        "pmid": "9786377",
+        "population": "Adults with acute chest pain in studies pooled by the RCE review",
+        "prevalence": null,
+        "quote": "pleuritic chest pain (LR, 0.2)",
+        "reference_standard": "Confirmed MI by study criteria (enzymes/ECG) in included studies",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Acute myocardial infarction",
+        "url": null,
+        "year": "1998"
+       },
+       {
+        "citation": "Courtney DM, Kline JA, Kabrhel C, et al. Clinical features from the history and physical examination that predict the presence or absence of pulmonary embolism in symptomatic emergency department patients: results of a prospective, multicenter study. Ann Emerg Med. 2010;55(4):307-315.",
+        "computed": false,
+        "doi": "10.1016/j.annemergmed.2009.11.010",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "20045580",
+        "population": "7,940 symptomatic US ED patients tested for PE (12 centers); mean age 49, 67% female",
+        "prevalence": "0.072",
+        "quote": "those with an adjusted odds ratio (OR) greater than 1.5 included non-cancer-related thrombophilia (OR 1.99), pleuritic chest pain (OR 1.53)",
+        "reference_standard": "Imaging-confirmed PE or DVT within 45 days",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Venous thromboembolism (PE or DVT) in ED patients evaluated for PE",
+        "url": null,
+        "year": "2010"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Ask whether the pain is sharp and clearly worse with a deep breath, cough or sneeze (not with exertion or palpation), and whether there has been any hemoptysis. Ask separately about onset, exertional relation and positional relief so the pleuritic quality is not conflated with other descriptors.",
+      "id": "hx_pleuritic_chest_pain",
+      "negative_finding": "Absence of pleuritic quality does not exclude PE, pericarditis or pneumonia; PE frequently presents with isolated dyspnea or collapse without pleuritic pain.",
+      "pitfalls": "Pleuritic pain lowers but does not exclude ACS; no history element alone permits discharge without testing. Patients may label any sharp pain as breath-related unless asked specifically about inspiration.",
+      "positive_finding": "Pleuritic pain lowers the probability of myocardial infarction (LR about 0.2) and shifts the differential toward pulmonary embolism, pneumonia, pneumothorax, pericarditis and pleural disease. In ED patients evaluated for PE it modestly raises VTE probability (adjusted OR 1.5).",
+      "prerequisites": "Patient able to give a history; ask before analgesia if feasible.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Pleuritic chest pain (sharp, worse with inspiration/cough), +/- hemoptysis",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_pain_positional",
+      "changes_what": "Positional pain lowers ACS probability but does not obviate ECG/troponin; sitting-forward relief prompts ECG for PR depression/ST elevation and echo for effusion.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use positional pain to withhold ECG and troponin in patients with risk factors, exertional component, or hemodynamic instability.",
+      "escalation_warning": "Positional pain with fever, pericardial rub, hypotension or a large effusion on POCUS needs urgent evaluation for tamponade or purulent pericarditis.",
+      "evidence": [
+       {
+        "citation": "Panju AA, Hemmelgarn BR, Guyatt GH, Simel DL. The rational clinical examination. Is this patient having a myocardial infarction? JAMA. 1998.",
+        "computed": false,
+        "doi": "10.1001/jama.280.14.1256",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.3"
+        },
+        "pmid": "9786377",
+        "population": "Adults presenting with acute chest pain; studies summarised in the JAMA RCE (mostly ED cohorts)",
+        "prevalence": null,
+        "quote": "positional chest pain (LR, 0.3)",
+        "reference_standard": "Myocardial infarction by serial ECG and cardiac enzymes per included studies",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Acute myocardial infarction \u2014 finding PRESENT = positional chest pain",
+        "url": null,
+        "year": "1998"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Ask whether the pain changes with body position, movement, twisting or breathing, and specifically whether lying flat worsens and sitting up or leaning forward eases it. Distinguish this from exertional pain and from pain reproduced by palpation, which are recorded separately.",
+      "id": "hx_pain_positional",
+      "negative_finding": "Non-positional pain slightly increases ACS probability but is non-specific; the absence of positional change does not exclude pericarditis or chest-wall pain.",
+      "pitfalls": "An LR of 0.3 does not exclude ACS in a high-pretest patient, and post-infarction pericarditis and dissection can both be positional. Patient descriptions are inconsistent and the finding was defined variably across studies.",
+      "positive_finding": "Positional chest pain argues AGAINST myocardial infarction (LR 0.3 in the JAMA RCE; 0.2-0.3 across reviews) and favours pericarditis, musculoskeletal or esophageal causes; relief on sitting forward with worsening supine is the characteristic pericarditis pattern in ESC guidance.",
+      "prerequisites": "Patient able to describe pain; ask before analgesia when possible.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Pain that is positional (changes with posture; relieved leaning forward = pericarditis; ACS negative)",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_smoking_pack_years",
+      "changes_what": "Heavy pack-year history should raise COPD/ILD on the dyspnea differential and prompt spirometry once stable; it does not discriminate the acute cause.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use pack-years to attribute acute dyspnea to COPD when PE, ACS, pneumothorax, or heart failure are plausible.",
+      "escalation_warning": "Heavy smokers with acute chest pain or dyspnea need ACS and PE considered independently of COPD history.",
+      "evidence": [
+       {
+        "citation": "Straus SE, McAlister FA, Sackett DL, Deeks JJ. The accuracy of patient history, wheezing, and laryngeal measurements in diagnosing obstructive airway disease. CARE-COAD1 Group. JAMA. 2000;283(14):1853-1857.",
+        "computed": false,
+        "doi": "10.1001/jama.283.14.1853",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "8.3"
+        },
+        "pmid": "10770147",
+        "population": "309 consecutive adults at 25 primary care and referral sites in 14 countries; 25% known OAD, 37% suspected, 39% neither",
+        "prevalence": "0.52",
+        "quote": "smoking for more than 40 pack-years (LR, 8.3), self-reported history of chronic OAD (LR, 7.3)",
+        "reference_standard": "Spirometry: FEV1 and FEV1/FVC ratio < 5th percentile adjusted for height, age, sex",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "Obstructive airway disease (FEV1 and FEV1/FVC below 5th percentile) - finding: smoking >40 pack-years",
+        "url": null,
+        "year": "2000"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Ask packs per day and years smoked; pack-years = packs/day x years (20 cigarettes = 1 pack). Record current vs former status and quit date. Thresholds studied: >40 pack-years (CARE-COAD1) and >=70 pack-years (Badgett).",
+      "id": "hx_smoking_pack_years",
+      "negative_finding": "Absence of heavy smoking does not exclude airflow limitation; the LR for absence was not reported in the abstract.",
+      "pitfalls": "Pack-year recall is imprecise; the finding predicts chronic OAD, not whether today's dyspnea is a COPD exacerbation versus pneumonia, ACS, or PE. Heavy smoking also raises probability of ACS, lung cancer and ILD.",
+      "positive_finding": ">40 pack-years strongly favours obstructive airway disease (LR 8.3) in patients with known, suspected, or no OAD; with prior COPD diagnosis, >=70 pack-years plus prior diagnosis had specificity 100%.",
+      "prerequisites": "Reliable history from patient or informant.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Smoking history: >40 (or >=70) pack-years, current smoker",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_exertional_chest_pain",
+      "changes_what": "Positive: ECG/troponin pathway and consider AS/HCM if a murmur is present. Negative: does not remove ACS from the differential; risk score plus troponin still required.",
+      "contraindications": "None.",
+      "do_not_use_when": "Never use a non-exertional history to discharge a patient with possible ACS; do not apply the stable-CAD typical-angina LR to acute ED presentations.",
+      "escalation_warning": "Exertional chest pain with syncope, a systolic murmur, or ongoing pain at rest requires immediate ECG, troponin and monitoring.",
+      "evidence": [
+       {
+        "citation": "Goodacre S, Locker T, Morris F, Campbell S. How useful are clinical features in the diagnosis of acute, undifferentiated chest pain? Acad Emerg Med. 2002;9(3):203-208.",
+        "computed": false,
+        "doi": "10.1111/j.1553-2712.2002.tb00245.x",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "2.35"
+        },
+        "pmid": "11874776",
+        "population": "893 ED chest pain unit patients with acute undifferentiated chest pain; 3.8% AMI",
+        "prevalence": "0.038",
+        "quote": "Features useful in the diagnosis of AMI were exertional pain [likelihood ratio (LR) = 2.35]",
+        "reference_standard": "WHO criteria for AMI",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Acute myocardial infarction (WHO criteria)",
+        "url": null,
+        "year": "2002"
+       },
+       {
+        "citation": "Goodacre S, Locker T, Morris F, Campbell S. How useful are clinical features in the diagnosis of acute, undifferentiated chest pain? Acad Emerg Med. 2002;9(3):203-208.",
+        "computed": false,
+        "doi": "10.1111/j.1553-2712.2002.tb00245.x",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "2.06"
+        },
+        "pmid": "11874776",
+        "population": "893 ED chest pain unit patients with acute undifferentiated chest pain; 9.1% ACS",
+        "prevalence": "0.091",
+        "quote": "Features useful in the diagnosis of ACS were exertional pain (LR = 2.06)",
+        "reference_standard": "Cardiac testing, AMI, arrhythmia, death, or revascularization within six months",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Acute coronary syndrome (AMI, positive cardiac testing, arrhythmia, death or revascularization within 6 months)",
+        "url": null,
+        "year": "2002"
+       },
+       {
+        "citation": "Chun AA, McGee SR. Bedside diagnosis of coronary artery disease: a systematic review. Am J Med. 2004;117(5):334-343.",
+        "computed": false,
+        "doi": "10.1016/j.amjmed.2004.03.021",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "7.8",
+         "ci_low": "4.2",
+         "value": "5.8"
+        },
+        "pmid": "15336583",
+        "population": "Patients with stable intermittent chest pain evaluated for CAD (systematic review 1966-2003)",
+        "prevalence": null,
+        "quote": "the presence of typical angina (likelihood ratio [LR]=5.8; 95% confidence interval [CI]: 4.2 to 7.8)",
+        "reference_standard": "Coronary angiography (as per pooled studies)",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "Coronary artery disease (stable, intermittent chest pain; typical angina)",
+        "url": null,
+        "year": "2004"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Ask specifically what the patient was doing when the pain started, whether it reliably comes on with physical effort or emotional stress, and whether it settles within minutes of stopping or with nitroglycerin. Distinguish exertion-provoked pain from pain that merely occurred during activity.",
+      "id": "hx_exertional_chest_pain",
+      "negative_finding": "Absence of an exertional pattern only modestly lowers ACS probability in the ED; nonanginal chest pain in the stable setting has LR 0.1 for CAD.",
+      "pitfalls": "History alone never excludes ACS; exertional chest pain is also the presenting symptom of severe AS and HCM. Rest pain is common in ACS and does not argue against it.",
+      "positive_finding": "Exertion-precipitated pain roughly doubles the odds of AMI/ACS in ED chest pain (LR ~2.1-2.4); a full typical-angina triad in stable outpatients gives LR 5.8 for coronary disease.",
+      "prerequisites": "Patient able to give a history; clarify the index episode rather than a general pattern.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Chest pain provoked by exertion, relieved by rest (typical angina pattern)",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/fn_bedside_walk_test",
+      "changes_what": "Desaturation or incomplete walk: keep in hospital, escalate imaging (CTPA/HRCT/echo) and oxygen. Normal walk: supports outpatient pathway if resting evaluation is also reassuring.",
+      "contraindications": "Unstable angina or ACS in evolution, resting hypoxia or hypotension, suspected severe aortic stenosis with exertional syncope, untreated suspected PE with hemodynamic compromise, resting HR >120 or uncontrolled arrhythmia (contraindications adapted from ERS/ATS 6MWT standard).",
+      "do_not_use_when": "Do not walk a patient with resting hypoxia, hypotension, ongoing chest pain, suspected severe aortic stenosis or an untreated high-probability PE.",
+      "escalation_warning": "SpO2 falling below 88-90%, chest pain, presyncope or a heart-rate surge with symptoms means stop, sit the patient, give oxygen and escalate.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Record resting SpO2, heart rate and dyspnea (Borg) with a well-fitting finger probe. Walk the patient along a flat corridor at their own pace for 1-6 minutes (or a set distance, e.g. 40 steps) with continuous oximetry; note nadir SpO2, heart-rate rise, symptom reproduction, and whether they can complete the walk. A fall in SpO2 of >=4% or to <90% is the usual desaturation criterion.",
+      "id": "fn_bedside_walk_test",
+      "negative_finding": "Completing a corridor walk without desaturation or symptom reproduction lowers concern for a significant exertional gas-exchange defect but has no validated accuracy for excluding PE, ACS or aortic stenosis.",
+      "pitfalls": "Motion artefact, poor perfusion and nail polish produce spurious dips; a short walk may be too little stimulus and a test at the bedside is less reproducible than a standardised 6MWT (two tests recommended). Deconditioning and pain limit completion without implying cardiopulmonary disease.",
+      "positive_finding": "Exertional desaturation or reproduced dyspnea with a normal resting SpO2 indicates a gas-exchange or cardiopulmonary limit (ILD, pneumonia, PE, heart failure, COPD) and argues against anxiety/hyperventilation; failure to complete the walk from symptoms is a marker of severity and unsafe discharge.",
+      "prerequisites": "Stable resting vitals, no ongoing chest pain, ECG reviewed if chest pain or syncope is the presentation; a chair and staff available; oximeter with good waveform.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Bedside walk / ambulatory desaturation and dyspnea reproduction test (hallway walk with pulse-ox, ability to complete)",
+      "type": "functional"
+     },
+     {
+      "audit_link": "/record/exam_chest_wall_tenderness_reproducible",
+      "changes_what": "Positive: shift toward musculoskeletal/zoster causes, but still obtain ECG (and troponin if any ACS risk). Negative: no meaningful change in ACS probability.",
+      "contraindications": "Recent chest trauma, sternotomy, or suspected rib fracture - palpate gently.",
+      "do_not_use_when": "Do not use reproducible tenderness to forgo ECG/troponin in patients with high pretest probability (known CAD, ECG changes, diaphoresis, arm radiation); do not use after trauma or in suspected PE, where wall tenderness is common and uninformative.",
+      "escalation_warning": "If the ECG is ischaemic or troponin is elevated, ignore the tenderness; a dermatomal rash or unilateral burning pain preceding a rash should prompt early antiviral treatment for zoster.",
+      "evidence": [
+       {
+        "citation": "Bruyninckx R, Aertgeerts B, Bruyninckx P, Buntinx F. Signs and symptoms in diagnosing acute myocardial infarction and acute coronary syndrome: a diagnostic meta-analysis. Br J Gen Pract. 2008;58(547):105-111.",
+        "computed": true,
+        "doi": "10.3399/bjgp08X277014",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_out",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results (PubMed abstract; full text not accessible)",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "0.29",
+         "ci_low": "0.18",
+         "value": "0.23"
+        },
+        "pmid": "18307844",
+        "population": "Non-selected patients with chest pain (16 of 28 studies; primary care and ED populations pooled)",
+        "prevalence": null,
+        "quote": "Absence of chest-wall tenderness on palpation had a LR- of 0.23 (95% CI = 0.18 to 0.29).",
+        "reference_standard": "AMI per included studies (random-effects pooling)",
+        "sensitivity": {
+         "ci_high": "0.14",
+         "ci_low": "0.04",
+         "value": "0.08"
+        },
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Acute myocardial infarction",
+        "url": null,
+        "year": "2008"
+       },
+       {
+        "citation": "Goodacre S, Locker T, Morris F, Campbell S. How useful are clinical features in the diagnosis of acute, undifferentiated chest pain? Acad Emerg Med. 2002;9(3):203-208.",
+        "computed": false,
+        "doi": "10.1111/j.1553-2712.2002.tb00245.x",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_out",
+        "kind": "primary_study",
+        "location": "Abstract, Results (PubMed abstract)",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.3"
+        },
+        "pmid": "11874776",
+        "population": "893 consecutive patients with acute, undifferentiated chest pain at a UK ED chest pain unit (AMI 3.8%)",
+        "prevalence": "0.038",
+        "quote": "pain radiating to the shoulder or both arms (LR = 4.07), and chest wall tenderness (LR = 0.3)",
+        "reference_standard": "WHO criteria for AMI with 6-month follow-up",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Acute myocardial infarction (WHO criteria)",
+        "url": null,
+        "year": "2002"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Ask the patient to localise the pain, then press firmly over the sternum, costochondral junctions, ribs and parasternal muscles; ask whether the pressure reproduces the presenting pain exactly (not merely causes soreness). Inspect the tender area for a dermatomal vesicular rash (zoster) before attributing pain to the chest wall.",
+      "id": "exam_chest_wall_tenderness_reproducible",
+      "negative_finding": "Absence of reproducible tenderness is the norm in MI (present in ~92-94% of AMI/ACS) but is non-specific and barely raises the probability of ACS (LR+ ~1.5 or less).",
+      "pitfalls": "Partial or vague tenderness is common in ACS and PE, so insist on exact reproduction; PE and pericarditis can coexist with wall tenderness; a low-prevalence (primary care) setting is where the finding is most useful, whereas in a high-risk ED patient it should not stop the workup.",
+      "positive_finding": "Pain fully reproduced by chest-wall palpation lowers the probability of MI/ACS about four-fold (LR ~0.2-0.3; pooled 0.23), supporting a musculoskeletal cause, but only 5-10% of infarcts have this feature and it does not exclude ACS.",
+      "prerequisites": "Patient able to compare elicited pain with the presenting pain; ECG obtained regardless.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Chest pain fully reproduced by palpation of chest wall",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_s3_gallop",
+      "changes_what": "Present S3 strongly raises probability of acute HF/cardiogenic cause and supports diuresis and echo; absent S3 does not lower it.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not rely on absence of S3 to exclude heart failure, or on presence of S3 in a young/pregnant patient to diagnose it.",
+      "escalation_warning": "New S3 with chest pain or hypotension indicates significant LV dysfunction (possible MI/cardiogenic shock) and warrants urgent ECG, troponin and echo.",
+      "evidence": [
+       {
+        "citation": "Wang CS, FitzGerald JM, Schulzer M, Mak E, Ayas NT. Does this dyspneic patient in the emergency department have congestive heart failure? JAMA 2005;294(15):1944-56.",
+        "computed": false,
+        "doi": "10.1001/jama.294.15.1944",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "25",
+         "ci_low": "4.9",
+         "value": "11"
+        },
+        "pmid": "16234501",
+        "population": "Adult ED patients presenting with dyspnea; 22 studies pooled in RCE",
+        "prevalence": null,
+        "quote": "the sign of the third heart sound (S(3)) gallop (positive LR = 11; 95% CI, 4.9-25.0)",
+        "reference_standard": "Clinical/echo-based HF diagnosis per included studies",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Congestive heart failure as cause of dyspnea",
+        "url": null,
+        "year": "2005"
+       },
+       {
+        "citation": "Martindale JL, Wakai A, Collins SP, et al. Diagnosing acute heart failure in the emergency department: a systematic review and meta-analysis. Acad Emerg Med 2016;23(3):223-42.",
+        "computed": false,
+        "doi": "10.1111/acem.12878",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "5.9",
+         "ci_low": "2.7",
+         "value": "4"
+        },
+        "pmid": "26910112",
+        "population": "Adult ED patients with undifferentiated dyspnea; AHF prevalence 29-79% across included studies",
+        "prevalence": null,
+        "quote": "the auscultation of S3 on physical examination (4.0, 95% confidence interval [CI] = 2.7 to 5.9)",
+        "reference_standard": "Criterion standard = clinical data plus objective test results",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Acute heart failure as cause of dyspnea",
+        "url": null,
+        "year": "2016"
+       },
+       {
+        "citation": "Marcus GM, Gerber IL, McKeown BH, et al. Association between phonocardiographic third and fourth heart sounds and objective measures of left ventricular function. JAMA 2005;293(18):2238-44.",
+        "computed": true,
+        "doi": "10.1001/jama.293.18.2238",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.64"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "5.1"
+        },
+        "pmid": "15886379",
+        "population": "90 adults undergoing elective left heart catheterization at a US teaching hospital; S3 detected by computerized phonocardiography (not auscultation)",
+        "prevalence": null,
+        "quote": "The sensitivities of these heart sounds to detect an elevated LVEDP, reduced LVEF, or elevated BNP were 41%, 52%, and 32% for an S3",
+        "reference_standard": "Invasive LVEDP at catheterization",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.41"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.92"
+        },
+        "target_condition": "Elevated left ventricular end-diastolic pressure",
+        "url": null,
+        "year": "2005"
+       },
+       {
+        "citation": "Marcus GM, Gerber IL, McKeown BH, et al. Association between phonocardiographic third and fourth heart sounds and objective measures of left ventricular function. JAMA 2005;293(18):2238-44.",
+        "computed": true,
+        "doi": "10.1001/jama.293.18.2238",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.55"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "4"
+        },
+        "pmid": "15886379",
+        "population": "Same 90-patient elective catheterization cohort; phonocardiographic S3",
+        "prevalence": null,
+        "quote": "the specificities of the S3 were 92%, 87%, and 92%",
+        "reference_standard": "Transthoracic echocardiographic LVEF",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.52"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.87"
+        },
+        "target_condition": "Reduced left ventricular ejection fraction",
+        "url": null,
+        "year": "2005"
+       },
+       {
+        "citation": "Mant J, Doust J, Roalfe A, et al. Systematic review and individual patient data meta-analysis of diagnosis of heart failure, with modelling of implications of different diagnostic strategies in primary care. Health Technol Assess 2009;13(32):1-207.",
+        "computed": true,
+        "doi": "10.3310/hta13320",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.9"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "11"
+        },
+        "pmid": "19586584",
+        "population": "Patients with suspected heart failure in primary care; IPD meta-analysis of 9 studies",
+        "prevalence": null,
+        "quote": "orthopnoea (89%), oedema (72%), elevated jugular venous pressure (70%), cardiomegaly (85%), added heart sounds (99%), lung crepitations (81%)",
+        "reference_standard": "Echocardiography / expert panel per included studies",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.11"
+        },
+        "setting": "outpatient",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.99"
+        },
+        "target_condition": "Heart failure (new diagnosis) in primary care; index finding 'added heart sounds'",
+        "url": null,
+        "year": "2009"
+       },
+       {
+        "citation": "Signs and symptoms in adult patients with acute dyspnea: a systematic review and meta-analysis. Eur J Emerg Med 2018;25(1):3-11 (author list not retrievable via abstract tool; confirmed by PMID/DOI).",
+        "computed": false,
+        "doi": "10.1097/MEJ.0000000000000429",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "meta_analysis",
+        "location": "Abstract, Conclusion",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "29252938",
+        "population": "Adults with a new episode of acute dyspnea; 8 ED studies, 4737 patients",
+        "prevalence": null,
+        "quote": "Elevated jugular venous pressure (0.88, pooled odds ratio: 7), added third heart sound (0.97), and lung crepitations (0.77, pooled odds ratio: 11)",
+        "reference_standard": "Clinical diagnosis of HF per included studies",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.97"
+        },
+        "target_condition": "Heart failure as cause of acute dyspnea",
+        "url": null,
+        "year": "2018"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Place the bell lightly over the apex with the patient in left lateral decubitus, in a quiet room, at end-expiration. Listen for a low-pitched dull sound 0.12-0.18 s after S2 (early diastole) giving a 'Ken-tuck-y' cadence; a right-sided S3 is heard at the lower left sternal border and increases with inspiration.",
+      "id": "exam_s3_gallop",
+      "negative_finding": "Absence of an S3 barely changes the probability of heart failure (sensitivity ~11-50%), so a negative examination must not be used to rule out HF.",
+      "pitfalls": "A physiologic S3 is normal in children, young adults, athletes and pregnancy. Easily missed with the diaphragm, in obesity, COPD, tachycardia (summation gallop) or a noisy ward; can be confused with split S2, opening snap or pericardial knock.",
+      "positive_finding": "In dyspneic ED adults an audible S3 gallop is the single most rule-in physical sign for heart failure (pooled LR+ 11 in the RCE, 4.0 in a later meta-analysis) and is highly specific for elevated LVEDP or reduced LVEF. In acute MI it marks LV dysfunction and worse prognosis.",
+      "prerequisites": "Quiet environment, bell with light pressure, patient rolled to the left; time the sound against the carotid pulse.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Third heart sound (S3 gallop) at apex with bell, left lateral decubitus",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_focal_neuro_deficit_with_chest_pain",
+      "changes_what": "Present: treat as high-risk for dissection and obtain CT angiography of the aorta urgently; absent: does not change dissection probability.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use absence of deficit to exclude dissection; do not give thrombolysis for stroke with chest/back pain until the aorta is imaged.",
+      "escalation_warning": "Any new focal deficit with chest/back pain, pulse deficit, or hypotension is a surgical emergency; activate CT angiography and vascular/cardiothoracic surgery immediately.",
+      "evidence": [
+       {
+        "citation": "Ohle R, Kareemi HK, Wells G, Perry JJ. Clinical Examination for Acute Aortic Dissection: A Systematic Review and Meta-analysis. Acad Emerg Med. 2018.",
+        "computed": false,
+        "doi": "10.1111/acem.13360",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "5.7",
+         "ci_low": "3.3",
+         "value": "4.4"
+        },
+        "pmid": "29265487",
+        "population": "ED patients evaluated for suspected acute aortic dissection; 3 pooled studies (I2 0%); dissection prevalence across the 9 review studies ranged 21.9%-76.1%",
+        "prevalence": null,
+        "quote": "neurologic deficit (n = 3, specificity = 95%, positive likelihood ratio [LR+] = 4.4, 95% confidence interval [CI] = 3.3-5.7, I2 = 0%)",
+        "reference_standard": "Advanced imaging (CT/MR/TEE), surgery or autopsy per included study",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.95"
+        },
+        "target_condition": "Acute aortic dissection \u2014 finding PRESENT = neurologic deficit",
+        "url": null,
+        "year": "2018"
+       },
+       {
+        "citation": "Klompas M. Does this patient have an acute thoracic aortic dissection? JAMA. 2002.",
+        "computed": false,
+        "doi": "10.1001/jama.287.17.2262",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "11980527",
+        "population": "Pooled from 21 studies of >=18 consecutive patients with confirmed thoracic aortic dissection (1966-2000)",
+        "prevalence": null,
+        "quote": "17% have focal neurological deficits",
+        "reference_standard": "Confirmed thoracic aortic dissection (imaging, surgery or autopsy)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.17"
+        },
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Acute thoracic aortic dissection \u2014 finding PRESENT = focal neurological deficit (sensitivity only; case series of confirmed dissection)",
+        "url": null,
+        "year": "2002"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "In any patient with acute chest, back or abdominal pain, perform a brief screening neurologic exam: speech, facial symmetry, pronator drift and grip in both arms, leg strength, sensation, and pupils (Horner). Note any deficit that is new, fluctuating, or accompanied by pain, and check bilateral arm blood pressures and pulses at the same time.",
+      "id": "exam_focal_neuro_deficit_with_chest_pain",
+      "negative_finding": "Most dissections have no neurologic deficit (pooled sensitivity ~17%), so its absence does not lower the probability meaningfully.",
+      "pitfalls": "Deficits may be transient (syncope, paraparesis from spinal ischemia) or missed if pain dominates; stroke without pain is far more often primary cerebrovascular disease. Painless dissection presenting as stroke occurs and is a thrombolysis hazard.",
+      "positive_finding": "A focal neurologic deficit in a patient with acute chest or back pain raises the probability of aortic dissection (pooled LR+ 4.4, specificity 95%), and the combination of stroke syndrome with pain should prompt aortic imaging before thrombolysis.",
+      "prerequisites": "Patient able to cooperate; compare with baseline function.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Focal neurologic deficit (limb weakness, aphasia, Horner) accompanying chest/back pain",
+      "type": "exam"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_pleuritic_chest_pain",
+     "rationale": ""
+    },
+    {
+     "id": "hx_pain_positional",
+     "rationale": ""
+    },
+    {
+     "id": "hx_smoking_pack_years",
+     "rationale": ""
+    },
+    {
+     "id": "hx_exertional_chest_pain",
+     "rationale": ""
+    }
+   ],
+   "examine": [
+    {
+     "id": "fn_bedside_walk_test",
+     "rationale": ""
+    },
+    {
+     "id": "exam_chest_wall_tenderness_reproducible",
+     "rationale": ""
+    },
+    {
+     "id": "exam_s3_gallop",
+     "rationale": ""
+    },
+    {
+     "id": "exam_focal_neuro_deficit_with_chest_pain",
+     "rationale": ""
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "pressure-like chest pain at rest with sweating",
+   "differentials": [
+    {
+     "dx": "acs",
+     "weight": 1.0
+    },
+    {
+     "dx": "pericarditis",
+     "weight": 0.143
+    },
+    {
+     "dx": "pulmonary_embolism",
+     "weight": 0.114
+    },
+    {
+     "dx": "aortic_dissection",
+     "weight": 0.1
+    },
+    {
+     "dx": "pneumonia",
+     "weight": 0.043
+    },
+    {
+     "dx": "musculoskeletal_chest_wall",
+     "weight": 0.029
+    }
+   ],
+   "indication_tags": [
+    "diabetes_insulin",
+    "ckd_known",
+    "acute_onset"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "pressure-like",
+    "mid-chest",
+    "resting",
+    "sweaty"
+   ],
+   "observed_values": [
+    "BP 150/90",
+    "pulse 92",
+    "saturation 96"
+   ],
+   "presentation": "chest_pain",
+   "time_course": "acute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "n1"
+}

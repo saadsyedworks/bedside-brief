@@ -1,0 +1,538 @@
+{
+ "arm": "A",
+ "ask_first": false,
+ "base_case_id": "weakness_001",
+ "blocked_items": [],
+ "case_id": "weakness_001_n1",
+ "created_at": "2026-09-11T11:53:10+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "24",
+    "72"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_hypoglycemia_symptoms_insulin",
+   "section": "ask",
+   "text": "Hypoglycemia history: insulin/sulfonylurea use, missed meals, adrenergic or neuroglycopenic symptoms"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Goldstein LB, Simel DL. Is this patient having a stroke? JAMA. 2005;293(19):2391-2402.",
+    "Kothari RU, Pancioli A, Liu T, Brott T, Broderick J. Cincinnati Prehospital Stroke Scale: reproducibility and validity. Ann Emerg Med. 1999;33(4):373-378."
+   ],
+   "numeric_claims": [
+    "0",
+    "0.1",
+    "0.25",
+    "0.29",
+    "0.39",
+    "0.4",
+    "0.61",
+    "0.66",
+    "0.87",
+    "0.88",
+    "1",
+    "10",
+    "10.1001",
+    "10.1016",
+    "10092713",
+    "15900010",
+    "171",
+    "19",
+    "196",
+    "1999",
+    "2005",
+    "2391",
+    "2402",
+    "293",
+    "293.19",
+    "3",
+    "3.3",
+    "33",
+    "373",
+    "378",
+    "4",
+    "49",
+    "5.08",
+    "5.5",
+    "644",
+    "66",
+    "70299",
+    "87",
+    "88",
+    "9.1",
+    "95",
+    "99"
+   ],
+   "performance_claims": [
+    "0.25",
+    "0.39",
+    "0.39",
+    "0.61",
+    "0.66",
+    "0.87",
+    "0.88",
+    "3.3",
+    "5.08",
+    "5.5",
+    "9.1"
+   ],
+   "record_id": "exam_face_arm_speech_cpss",
+   "section": "examine",
+   "text": "Facial droop, arm drift, abnormal speech (Cincinnati/FAST screen)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": "exam_forehead_sparing_facial_weakness",
+   "section": "examine",
+   "text": "Forehead sparing (central) vs forehead involvement (peripheral) in facial weakness"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Cooke G, Doust J, Sanders S. Is pulse palpation helpful in detecting atrial fibrillation? A systematic review. J Fam Pract. 2006;55(2):130-134.",
+    "Taggar JS, Coleman T, Lewis S, Heneghan C, Jones M. Accuracy of methods for detecting an irregular pulse and suspected atrial fibrillation: A systematic review and meta-analysis. Eur J Prev Cardiol. 2016;23(12):1330-1338."
+   ],
+   "numeric_claims": [
+    "0.05",
+    "0.1",
+    "0.18",
+    "0.69",
+    "0.72",
+    "0.75",
+    "0.76",
+    "0.82",
+    "0.84",
+    "0.85",
+    "0.88",
+    "0.92",
+    "0.94",
+    "0.96",
+    "0.97",
+    "10.1177",
+    "12",
+    "129",
+    "130",
+    "1330",
+    "1338",
+    "134",
+    "15",
+    "16451780",
+    "2",
+    "20",
+    "2006",
+    "2016",
+    "2047487315611347",
+    "21",
+    "23",
+    "2385",
+    "26464292",
+    "3",
+    "3.39",
+    "3.4",
+    "3.8",
+    "30",
+    "5.2",
+    "55",
+    "6",
+    "60",
+    "69",
+    "7.2",
+    "72",
+    "75",
+    "82",
+    "84",
+    "92",
+    "94",
+    "95",
+    "97"
+   ],
+   "performance_claims": [
+    "0.05",
+    "0.1",
+    "0.1",
+    "0.18",
+    "0.69",
+    "0.72",
+    "0.75",
+    "0.76",
+    "0.82",
+    "0.84",
+    "0.85",
+    "0.88",
+    "0.92",
+    "0.94",
+    "0.96",
+    "0.97",
+    "3.39",
+    "3.8",
+    "5.2",
+    "7.2"
+   ],
+   "record_id": "exam_pulse_irregularly_irregular",
+   "section": "examine",
+   "text": "Radial pulse irregularly irregular on palpation (>=20-30 s)"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "candidates": [
+   "exam_face_arm_speech_cpss",
+   "exam_focal_neuro_deficit_screen",
+   "exam_forehead_sparing_facial_weakness",
+   "exam_focal_neuro_deficit_with_chest_pain",
+   "fn_gait_stand_unaided",
+   "hx_hypoglycemia_symptoms_insulin",
+   "exam_pulse_irregularly_irregular",
+   "exam_sensory_level_upper_motor_neuron_signs",
+   "fn_single_breath_count",
+   "exam_proximal_symmetric_weakness",
+   "hx_alcohol_use_withdrawal_timing",
+   "exam_ascending_symmetric_weakness_areflexia",
+   "exam_fatigable_ptosis_sustained_upgaze",
+   "fn_ice_pack_test",
+   "exam_subtle_motor_signs_ncse",
+   "exam_pupils_eye_movements_toxidrome"
+  ],
+  "card": {
+   "chief_complaint": "sudden left facial droop and slurred speech",
+   "presentation": "weakness",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_hypoglycemia_symptoms_insulin",
+      "changes_what": "Positive: fingerstick now, treat, and observe for recurrence (sulfonylurea/renal failure -> admit); negative: keep glucose check but move to cardiac/neurologic causes of the spell.",
+      "contraindications": "None; the history must never delay a point-of-care glucose in any patient with altered mental status, syncope or focal deficit.",
+      "do_not_use_when": "Never rely on symptom history alone in an obtunded, post-ictal or focally weak patient - measure glucose immediately.",
+      "escalation_warning": "Hypoglycemia with sulfonylurea, insulin overdose, renal failure or alcohol needs monitored admission and repeated glucose; persistent deficit after glucose correction is a stroke workup.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Ask specifically about insulin or sulfonylurea use (drug, dose, timing of last dose), missed or delayed meals, alcohol, recent renal or hepatic decline, and prodromal autonomic symptoms (sweating, tremor, palpitations, hunger) or neuroglycopenic symptoms (confusion, drowsiness, difficulty speaking, weakness). Confirm with a fingerstick glucose at the time of symptoms.",
+      "id": "hx_hypoglycemia_symptoms_insulin",
+      "negative_finding": "No exposure to insulin or secretagogues and no critical illness, cortisol/hormone deficiency or alcohol makes drug-induced hypoglycemia unlikely, but a measured glucose is still required because neuroglycopenia can present without warning symptoms.",
+      "pitfalls": "Long-standing diabetes and beta-blockers blunt autonomic warning symptoms so neuroglycopenic presentation (confusion, focal deficit) may be the only clue; sulfonylurea hypoglycemia recurs for 24-72 h so a single corrected glucose is not the end of the episode.",
+      "positive_finding": "Insulin/secretagogue exposure plus a missed meal, alcohol or renal impairment and autonomic or neuroglycopenic prodrome makes hypoglycemia likely; Whipple's triad (symptoms, documented low glucose, resolution with glucose) confirms it.",
+      "prerequisites": "A collateral history when the patient is confused; the medication list including recently added sulfonylureas, insulin dose changes, or drugs that potentiate them.",
+      "rationale": "Hypoglycemia can mimic stroke and is rapidly reversible, so it's critical to check for risk factors and symptoms.",
+      "skill_assumption": null,
+      "title": "Hypoglycemia history: insulin/sulfonylurea use, missed meals, adrenergic or neuroglycopenic symptoms",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/exam_face_arm_speech_cpss",
+      "changes_what": "Positive: activate stroke pathway/immediate imaging and time-critical reperfusion assessment. Negative: lowers probability but still image if dizziness, ataxia or visual symptoms.",
+      "contraindications": "None; if the patient cannot cooperate, observe spontaneous facial symmetry and limb movement instead.",
+      "do_not_use_when": "Do not rely on a negative screen to exclude posterior-circulation stroke in a patient with acute dizziness, ataxia, diplopia or visual field loss; use HINTS/gait assessment and imaging pathways instead.",
+      "escalation_warning": "Any positive item with symptom onset within the reperfusion window is a time-critical emergency; do not delay activation for a glucose result unless hypoglycemia is confirmed and deficits resolve with correction.",
+      "evidence": [
+       {
+        "citation": "Goldstein LB, Simel DL. Is this patient having a stroke? JAMA. 2005;293(19):2391-2402.",
+        "computed": false,
+        "doi": "10.1001/jama.293.19.2391",
+        "evidence_level": "pooled",
+        "interpretation_label": "both",
+        "kind": "rce_series",
+        "location": "Abstract, Data Synthesis (JAMA 2005;293:2391)",
+        "lr_negative": {
+         "ci_high": "0.61",
+         "ci_low": "0.25",
+         "value": "0.39"
+        },
+        "lr_positive": {
+         "ci_high": "9.1",
+         "ci_low": "3.3",
+         "value": "5.5"
+        },
+        "pmid": "15900010",
+        "population": "Pooled studies of patients with suspected stroke evaluated with modern neuroimaging (RCE systematic review)",
+        "prevalence": "0.1",
+        "quote": "LR of > or =1 finding = 5.5; 95% CI, 3.3-9.1 ... LR of 0 findings = 0.39; 95% CI, 0.25-0.61",
+        "reference_standard": "Final diagnosis after neuroimaging and relevant laboratory tests",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Acute stroke (ischemic or hemorrhagic) among patients with neurologically relevant symptoms",
+        "url": null,
+        "year": "2005"
+       },
+       {
+        "citation": "Kothari RU, Pancioli A, Liu T, Brott T, Broderick J. Cincinnati Prehospital Stroke Scale: reproducibility and validity. Ann Emerg Med. 1999;33(4):373-378.",
+        "computed": true,
+        "doi": "10.1016/s0196-0644(99)70299-4",
+        "evidence_level": "single_study",
+        "interpretation_label": "both",
+        "kind": "primary_study",
+        "location": "Abstract, Results (Ann Emerg Med 1999;33:373)",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.39"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "5.08"
+        },
+        "pmid": "10092713",
+        "population": "Convenience sample of 171 ED and neurology inpatients, 49 with stroke/TIA",
+        "prevalence": "0.29",
+        "quote": "abnormality in any 1 of the 3 stroke scale items had a sensitivity of 66% and specificity of 87% in identifying a stroke patient.",
+        "reference_standard": "Discharge diagnosis of stroke or TIA",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.66"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.87"
+        },
+        "target_condition": "Stroke or TIA (any 1 of 3 CPSS items abnormal, scored by physician)",
+        "url": null,
+        "year": "1999"
+       },
+       {
+        "citation": "Kothari RU, Pancioli A, Liu T, Brott T, Broderick J. Cincinnati Prehospital Stroke Scale: reproducibility and validity. Ann Emerg Med. 1999;33(4):373-378.",
+        "computed": false,
+        "doi": "10.1016/s0196-0644(99)70299-4",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_out",
+        "kind": "primary_study",
+        "location": "Abstract, Results (Ann Emerg Med 1999;33:373)",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "10092713",
+        "population": "Same 171-patient convenience sample; subgroup with anterior circulation stroke",
+        "prevalence": null,
+        "quote": "The sensitivity was 88% for identification of patients with anterior circulation strokes.",
+        "reference_standard": "Discharge diagnosis of stroke, anterior circulation",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.88"
+        },
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Anterior circulation stroke (any 1 of 3 CPSS items abnormal)",
+        "url": null,
+        "year": "1999"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Ask the patient to smile or show teeth and look for asymmetric facial movement; have them close eyes and hold both arms out palms-up for 10 seconds, watching for one arm drifting down; ask them to repeat a simple sentence and listen for slurring, wrong words, or inability to speak. Any one abnormal item is a positive screen.",
+      "id": "exam_face_arm_speech_cpss",
+      "negative_finding": "Absence of all three findings lowers but does not exclude stroke (LR about 0.4); posterior-circulation strokes, which often present with dizziness or ataxia, are commonly missed by this screen (Kothari: 66% sensitivity overall vs 88% for anterior circulation).",
+      "pitfalls": "Bell palsy, old deficits, intoxication, hypoglycemia and seizure mimics all produce false positives; isolated vertigo, ataxia, visual field loss and neglect are not captured, so a negative screen must not stop a stroke work-up in a dizzy patient.",
+      "positive_finding": "Any new facial paresis, arm drift, or abnormal speech; in patients with neurologically relevant symptoms this raises the probability of stroke (pooled LR about 5.5).",
+      "prerequisites": "Patient awake enough to follow simple commands; check a fingerstick glucose alongside the screen. Note time last known well.",
+      "rationale": "A focused screen for facial droop, arm drift, and abnormal speech quickly identifies patients needing urgent stroke pathway activation.",
+      "skill_assumption": null,
+      "title": "Facial droop, arm drift, abnormal speech (Cincinnati/FAST screen)",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_forehead_sparing_facial_weakness",
+      "changes_what": "Forehead spared: stroke pathway/imaging. Forehead involved and isolated: Bell palsy work-up and early steroids; any additional neurological sign redirects to central causes.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use forehead involvement alone to exclude stroke in patients with vascular risk factors, vertigo, diplopia, ataxia, limb or gaze findings, or bilateral/recurrent palsy.",
+      "escalation_warning": "Any additional neurological deficit, sudden onset with headache, or forehead-sparing pattern warrants urgent stroke assessment.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Ask the patient to raise the eyebrows, close the eyes tightly against resistance, show the teeth and puff the cheeks; compare sides. Forehead and eye closure preserved with lower-face weakness = upper motor neuron (central) pattern; forehead, eye closure and lower face all weak on one side = lower motor neuron (peripheral) pattern. Also check ear canal, other cranial nerves and limbs.",
+      "id": "exam_forehead_sparing_facial_weakness",
+      "negative_finding": "Involvement of the forehead and eye closure indicates a peripheral (facial nerve) lesion, consistent with Bell palsy when isolated and rapid in onset; it does not exclude a pontine stroke (nucleus/fascicle lesion gives a peripheral pattern), Ramsay Hunt, Lyme disease, otitis or tumour.",
+      "pitfalls": "Bilateral cortical innervation of the forehead makes sparing incomplete in some central lesions, and mild peripheral palsies can look forehead-sparing early. Pontine infarcts and facial-nucleus lesions produce a 'peripheral' pattern with a central cause; look for crossed signs, gaze palsy or other cranial nerve deficits.",
+      "positive_finding": "Forehead sparing with lower facial weakness indicates a central (supranuclear) lesion and should be treated as a possible stroke until proven otherwise; accompanying limb weakness, dysarthria, gaze palsy or diplopia strongly favours stroke.",
+      "prerequisites": "Adequate cooperation; note pre-existing asymmetry, ptosis or previous palsy.",
+      "rationale": "Distinguishing central (forehead sparing) from peripheral facial weakness helps differentiate stroke from Bell palsy, guiding immediate management.",
+      "skill_assumption": null,
+      "title": "Forehead sparing (central) vs forehead involvement (peripheral) in facial weakness",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_pulse_irregularly_irregular",
+      "changes_what": "Positive: obtain 12-lead ECG now (rate control/anticoagulation decisions follow ECG); negative: AF at this moment unlikely, consider ambulatory monitoring if paroxysmal AF suspected.",
+      "contraindications": "None. Weak or thready pulse (shock, arterial disease) reduces reliability; use apical auscultation instead.",
+      "do_not_use_when": "Do not rely on pulse palpation instead of an ECG when AF would change management (anticoagulation, rate control, syncope/stroke workup); do not use a weak or thready pulse in shock to judge rhythm.",
+      "escalation_warning": "Irregularly irregular pulse with a rapid rate and hypotension, chest pain, or acute focal deficit requires immediate ECG and monitored care.",
+      "evidence": [
+       {
+        "citation": "Cooke G, Doust J, Sanders S. Is pulse palpation helpful in detecting atrial fibrillation? A systematic review. J Fam Pract. 2006;55(2):130-134.",
+        "computed": false,
+        "doi": null,
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_out",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results (LRs: 'The pooled positive likelihood ratio was 3.39, while the pooled negative likelihood ratio was 0.10', same paragraph)",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.1"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "3.39"
+        },
+        "pmid": "16451780",
+        "population": "3 studies, 2385 patients, predominantly elderly/primary-care screening populations",
+        "prevalence": null,
+        "quote": "Pooled sensitivity was 94% (95% confidence interval [CI], 84%-97%) and pooled specificity was 72% (95% CI, 69%-75%).",
+        "reference_standard": "12-lead ECG diagnosis of atrial fibrillation",
+        "sensitivity": {
+         "ci_high": "0.97",
+         "ci_low": "0.84",
+         "value": "0.94"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "0.75",
+         "ci_low": "0.69",
+         "value": "0.72"
+        },
+        "target_condition": "Atrial fibrillation (irregular pulse on palpation)",
+        "url": null,
+        "year": "2006"
+       },
+       {
+        "citation": "Taggar JS, Coleman T, Lewis S, Heneghan C, Jones M. Accuracy of methods for detecting an irregular pulse and suspected atrial fibrillation: A systematic review and meta-analysis. Eur J Prev Cardiol. 2016;23(12):1330-1338.",
+        "computed": false,
+        "doi": "10.1177/2047487315611347",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_out",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.18",
+         "ci_low": "0.05",
+         "value": "0.1"
+        },
+        "lr_positive": {
+         "ci_high": "7.2",
+         "ci_low": "3.8",
+         "value": "5.2"
+        },
+        "pmid": "26464292",
+        "population": "Adults in AF screening studies; 6 pulse-palpation interventions within 21 studies (15,129 pulse assessments overall)",
+        "prevalence": null,
+        "quote": "pulse palpation (six interventions) were 0.92 (95% CI 0.85-0.96) and 0.82 (95% CI 0.76-0.88), respectively (PLR 5.2 (95% CI 3.8-7.2), NLR 0.1 (95% CI 0.05-0.18))",
+        "reference_standard": "12-lead ECG diagnosed atrial fibrillation",
+        "sensitivity": {
+         "ci_high": "0.96",
+         "ci_low": "0.85",
+         "value": "0.92"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "0.88",
+         "ci_low": "0.76",
+         "value": "0.82"
+        },
+        "target_condition": "Atrial fibrillation (pulse irregularity detected by manual pulse palpation)",
+        "url": null,
+        "year": "2016"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Palpate the radial pulse with two fingers for at least 20-30 s (longer if any irregularity), noting rhythm and rate. An irregularly irregular rhythm with no repeating pattern and variable beat volume is positive; occasional dropped or early beats with an otherwise regular rhythm are not.",
+      "id": "exam_pulse_irregularly_irregular",
+      "negative_finding": "A regular pulse makes AF unlikely (pooled sensitivity 92-94%, LR- 0.10), which is the finding's main value; it does not exclude paroxysmal AF outside the examination.",
+      "pitfalls": "Specificity is only 72-82%, so roughly a quarter of positive pulses in screening are not AF. Atrial flutter with fixed block feels regular, and AF with slow ventricular response can be hard to appreciate.",
+      "positive_finding": "An irregularly irregular pulse raises the probability of atrial fibrillation (pooled LR+ 3.4-5.2) but is not diagnostic; frequent ectopy, sinus arrhythmia and flutter with variable block mimic it, so a 12-lead ECG is required.",
+      "prerequisites": "Patient at rest; count for 30-60 s if rate is needed, since pulse deficit in AF makes short counts inaccurate.",
+      "rationale": "Detecting atrial fibrillation as a potential embolic source can change acute management and secondary prevention in stroke patients.",
+      "skill_assumption": null,
+      "title": "Radial pulse irregularly irregular on palpation (>=20-30 s)",
+      "type": "exam"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_hypoglycemia_symptoms_insulin",
+     "rationale": "Hypoglycemia can mimic stroke and is rapidly reversible, so it's critical to check for risk factors and symptoms."
+    }
+   ],
+   "examine": [
+    {
+     "id": "exam_face_arm_speech_cpss",
+     "rationale": "A focused screen for facial droop, arm drift, and abnormal speech quickly identifies patients needing urgent stroke pathway activation."
+    },
+    {
+     "id": "exam_forehead_sparing_facial_weakness",
+     "rationale": "Distinguishing central (forehead sparing) from peripheral facial weakness helps differentiate stroke from Bell palsy, guiding immediate management."
+    },
+    {
+     "id": "exam_pulse_irregularly_irregular",
+     "rationale": "Detecting atrial fibrillation as a potential embolic source can change acute management and secondary prevention in stroke patients."
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "sudden left facial droop and slurred speech",
+   "differentials": [
+    {
+     "dx": "stroke",
+     "weight": 1.0
+    },
+    {
+     "dx": "sepsis_deconditioning",
+     "weight": 0.059
+    },
+    {
+     "dx": "hypoglycemia",
+     "weight": 0.047
+    },
+    {
+     "dx": "electrolyte_hypokalemia_hypophosphatemia",
+     "weight": 0.035
+    },
+    {
+     "dx": "myasthenia_gravis",
+     "weight": 0.024
+    },
+    {
+     "dx": "bell_palsy",
+     "weight": 0.012
+    }
+   ],
+   "indication_tags": [
+    "acute_onset"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "left facial droop",
+    "slurred speech",
+    "normal forty minutes ago"
+   ],
+   "observed_values": [],
+   "presentation": "weakness",
+   "time_course": "hyperacute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "n1"
+}

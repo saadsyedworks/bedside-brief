@@ -1,0 +1,700 @@
+{
+ "arm": "A",
+ "ask_first": false,
+ "base_case_id": "chest_pain_003",
+ "blocked_items": [],
+ "case_id": "chest_pain_003",
+ "created_at": "2026-09-11T11:02:23+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Panju AA, Hemmelgarn BR, Guyatt GH, Simel DL. The rational clinical examination. Is this patient having a myocardial infarction? JAMA. 1998."
+   ],
+   "numeric_claims": [
+    "0.2",
+    "0.3",
+    "10.1001",
+    "1256",
+    "1998",
+    "280.14",
+    "9786377"
+   ],
+   "performance_claims": [
+    "0.3"
+   ],
+   "record_id": "hx_pain_positional",
+   "section": "ask",
+   "text": "Pain that is positional (changes with posture; relieved leaning forward = pericarditis; ACS negative)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Courtney DM, Kline JA, Kabrhel C, et al. Clinical features from the history and physical examination that predict the presence or absence of pulmonary embolism in symptomatic emergency department patients: results of a prospective, multicenter study. Ann Emerg Med. 2010;55(4):307-315.",
+    "Panju AA, Hemmelgarn BR, Guyatt GH, Simel DL. The rational clinical examination. Is this patient having a myocardial infarction? JAMA. 1998;280(14):1256-1263."
+   ],
+   "numeric_claims": [
+    "0.072",
+    "0.2",
+    "1.5",
+    "1.53",
+    "1.99",
+    "10",
+    "10.1001",
+    "10.1016",
+    "12",
+    "1256",
+    "1263",
+    "14",
+    "1998",
+    "20045580",
+    "2009.11",
+    "2010",
+    "280",
+    "280.14",
+    "307",
+    "315",
+    "4",
+    "45",
+    "49",
+    "55",
+    "67",
+    "7",
+    "940",
+    "9786377"
+   ],
+   "performance_claims": [
+    "0.2"
+   ],
+   "record_id": "hx_pleuritic_chest_pain",
+   "section": "ask",
+   "text": "Pleuritic chest pain (sharp, worse with inspiration/cough), +/- hemoptysis"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "10",
+    "2",
+    "4"
+   ],
+   "performance_claims": [],
+   "record_id": "exam_pericardial_friction_rub",
+   "section": "examine",
+   "text": "Pericardial friction rub (triphasic scratchy sound, LSB, leaning forward, end-expiration)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Bruyninckx R, Aertgeerts B, Bruyninckx P, Buntinx F. Signs and symptoms in diagnosing acute myocardial infarction and acute coronary syndrome: a diagnostic meta-analysis. Br J Gen Pract. 2008;58(547):105-111.",
+    "Goodacre S, Locker T, Morris F, Campbell S. How useful are clinical features in the diagnosis of acute, undifferentiated chest pain? Acad Emerg Med. 2002;9(3):203-208."
+   ],
+   "numeric_claims": [
+    "0.038",
+    "0.04",
+    "0.08",
+    "0.14",
+    "0.18",
+    "0.2",
+    "0.23",
+    "0.29",
+    "0.3",
+    "1.5",
+    "10",
+    "10.1111",
+    "10.3399",
+    "105",
+    "111",
+    "11874776",
+    "1553",
+    "16",
+    "18307844",
+    "2002",
+    "2008",
+    "203",
+    "208",
+    "245",
+    "2712.2002",
+    "277014",
+    "28",
+    "3",
+    "3.8",
+    "4.07",
+    "5",
+    "547",
+    "58",
+    "6",
+    "8",
+    "893",
+    "9",
+    "92",
+    "94",
+    "95"
+   ],
+   "performance_claims": [
+    "0.04",
+    "0.08",
+    "0.14",
+    "0.18",
+    "0.23",
+    "0.29",
+    "0.3"
+   ],
+   "record_id": "exam_chest_wall_tenderness_reproducible",
+   "section": "examine",
+   "text": "Chest pain fully reproduced by palpation of chest wall"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Butman SM, Ewy GA, Standen JR, Kern KB, Hahn E. Bedside cardiovascular examination in patients with severe chronic heart failure: importance of rest or inducible jugular venous distension. J Am Coll Cardiol 1993;22(4):968-74.",
+    "Mant J, Doust J, Roalfe A, et al. Systematic review and individual patient data meta-analysis of diagnosis of heart failure, with modelling of implications of different diagnostic strategies in primary care. Health Technol Assess 2009;13(32):1-207.",
+    "Signs and symptoms in adult patients with acute dyspnea: a systematic review and meta-analysis. Eur J Emerg Med 2018;25(1):3-11 (author list not retrievable via abstract tool; confirmed by PMID/DOI)."
+   ],
+   "numeric_claims": [
+    "0.2",
+    "0.24",
+    "0.55",
+    "0.7",
+    "0.77",
+    "0.8",
+    "0.81",
+    "0.88",
+    "0.97",
+    "1",
+    "10.1016",
+    "10.1097",
+    "10.331",
+    "1097",
+    "11",
+    "13",
+    "13320",
+    "18",
+    "19586584",
+    "1993",
+    "2",
+    "2009",
+    "2018",
+    "207",
+    "22",
+    "25",
+    "29252938",
+    "3",
+    "30",
+    "32",
+    "4",
+    "4.05",
+    "429",
+    "45",
+    "4737",
+    "52",
+    "59",
+    "7",
+    "70",
+    "72",
+    "735",
+    "74",
+    "8",
+    "80",
+    "81",
+    "8409071",
+    "85",
+    "89",
+    "9",
+    "90405",
+    "93",
+    "968",
+    "99"
+   ],
+   "performance_claims": [
+    "0.24",
+    "0.7",
+    "0.8",
+    "0.81",
+    "0.88",
+    "4.05"
+   ],
+   "record_id": "exam_jvp_elevated",
+   "section": "examine",
+   "text": "Jugular venous pressure elevated (>8 cm H2O / >3 cm above sternal angle); low/flat JVP as the negative"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "1",
+    "10",
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": "exam_muffled_heart_sounds",
+   "section": "examine",
+   "text": "Muffled/diminished heart sounds (Beck triad component)"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "candidates": [
+   "exam_pericardial_friction_rub",
+   "hx_pain_positional",
+   "hx_pleuritic_chest_pain",
+   "hx_orthopnea",
+   "exam_chest_wall_tenderness_reproducible",
+   "exam_hypotension_sbp_lt90",
+   "exam_jvp_elevated",
+   "exam_muffled_heart_sounds",
+   "exam_pulsus_paradoxus",
+   "exam_tachycardia_resting",
+   "fn_bedside_walk_test",
+   "hx_smoking_pack_years",
+   "exam_breath_sounds_unilateral_absent",
+   "exam_dermatomal_vesicular_rash",
+   "exam_egophony",
+   "exam_percussion_dullness",
+   "exam_pulmonary_crackles",
+   "exam_s3_gallop",
+   "exam_tachypnea_rr_gt24",
+   "exam_wheezing",
+   "hx_exertional_chest_pain",
+   "hx_pain_radiation_both_arms",
+   "exam_kussmaul_sign",
+   "exam_accessory_muscle_use",
+   "hx_rigors_shaking_chills"
+  ],
+  "card": {
+   "chief_complaint": "sharp central chest pain since evening",
+   "presentation": "chest_pain",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_pain_positional",
+      "changes_what": "Positional pain lowers ACS probability but does not obviate ECG/troponin; sitting-forward relief prompts ECG for PR depression/ST elevation and echo for effusion.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use positional pain to withhold ECG and troponin in patients with risk factors, exertional component, or hemodynamic instability.",
+      "escalation_warning": "Positional pain with fever, pericardial rub, hypotension or a large effusion on POCUS needs urgent evaluation for tamponade or purulent pericarditis.",
+      "evidence": [
+       {
+        "citation": "Panju AA, Hemmelgarn BR, Guyatt GH, Simel DL. The rational clinical examination. Is this patient having a myocardial infarction? JAMA. 1998.",
+        "computed": false,
+        "doi": "10.1001/jama.280.14.1256",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.3"
+        },
+        "pmid": "9786377",
+        "population": "Adults presenting with acute chest pain; studies summarised in the JAMA RCE (mostly ED cohorts)",
+        "prevalence": null,
+        "quote": "positional chest pain (LR, 0.3)",
+        "reference_standard": "Myocardial infarction by serial ECG and cardiac enzymes per included studies",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Acute myocardial infarction \u2014 finding PRESENT = positional chest pain",
+        "url": null,
+        "year": "1998"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Ask whether the pain changes with body position, movement, twisting or breathing, and specifically whether lying flat worsens and sitting up or leaning forward eases it. Distinguish this from exertional pain and from pain reproduced by palpation, which are recorded separately.",
+      "id": "hx_pain_positional",
+      "negative_finding": "Non-positional pain slightly increases ACS probability but is non-specific; the absence of positional change does not exclude pericarditis or chest-wall pain.",
+      "pitfalls": "An LR of 0.3 does not exclude ACS in a high-pretest patient, and post-infarction pericarditis and dissection can both be positional. Patient descriptions are inconsistent and the finding was defined variably across studies.",
+      "positive_finding": "Positional chest pain argues AGAINST myocardial infarction (LR 0.3 in the JAMA RCE; 0.2-0.3 across reviews) and favours pericarditis, musculoskeletal or esophageal causes; relief on sitting forward with worsening supine is the characteristic pericarditis pattern in ESC guidance.",
+      "prerequisites": "Patient able to describe pain; ask before analgesia when possible.",
+      "rationale": "Positional pain is highly suggestive of pericarditis and helps distinguish it from ACS, guiding the need for ECG and echo.",
+      "skill_assumption": null,
+      "title": "Pain that is positional (changes with posture; relieved leaning forward = pericarditis; ACS negative)",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_pleuritic_chest_pain",
+      "changes_what": "Positive: de-emphasize ACS and work up PE/pneumonia/pneumothorax/pericarditis (exam, CXR, PE risk score). Negative: does not remove PE from the differential.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use pleuritic quality to discharge a patient with possible ACS without an ECG and troponin.",
+      "escalation_warning": "Pleuritic pain with hypoxemia, tachycardia, unilateral leg swelling or hemoptysis warrants immediate PE work-up; with sudden dyspnea consider pneumothorax.",
+      "evidence": [
+       {
+        "citation": "Panju AA, Hemmelgarn BR, Guyatt GH, Simel DL. The rational clinical examination. Is this patient having a myocardial infarction? JAMA. 1998;280(14):1256-1263.",
+        "computed": false,
+        "doi": "10.1001/jama.280.14.1256",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_out",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.2"
+        },
+        "pmid": "9786377",
+        "population": "Adults with acute chest pain in studies pooled by the RCE review",
+        "prevalence": null,
+        "quote": "pleuritic chest pain (LR, 0.2)",
+        "reference_standard": "Confirmed MI by study criteria (enzymes/ECG) in included studies",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Acute myocardial infarction",
+        "url": null,
+        "year": "1998"
+       },
+       {
+        "citation": "Courtney DM, Kline JA, Kabrhel C, et al. Clinical features from the history and physical examination that predict the presence or absence of pulmonary embolism in symptomatic emergency department patients: results of a prospective, multicenter study. Ann Emerg Med. 2010;55(4):307-315.",
+        "computed": false,
+        "doi": "10.1016/j.annemergmed.2009.11.010",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "20045580",
+        "population": "7,940 symptomatic US ED patients tested for PE (12 centers); mean age 49, 67% female",
+        "prevalence": "0.072",
+        "quote": "those with an adjusted odds ratio (OR) greater than 1.5 included non-cancer-related thrombophilia (OR 1.99), pleuritic chest pain (OR 1.53)",
+        "reference_standard": "Imaging-confirmed PE or DVT within 45 days",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Venous thromboembolism (PE or DVT) in ED patients evaluated for PE",
+        "url": null,
+        "year": "2010"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Ask whether the pain is sharp and clearly worse with a deep breath, cough or sneeze (not with exertion or palpation), and whether there has been any hemoptysis. Ask separately about onset, exertional relation and positional relief so the pleuritic quality is not conflated with other descriptors.",
+      "id": "hx_pleuritic_chest_pain",
+      "negative_finding": "Absence of pleuritic quality does not exclude PE, pericarditis or pneumonia; PE frequently presents with isolated dyspnea or collapse without pleuritic pain.",
+      "pitfalls": "Pleuritic pain lowers but does not exclude ACS; no history element alone permits discharge without testing. Patients may label any sharp pain as breath-related unless asked specifically about inspiration.",
+      "positive_finding": "Pleuritic pain lowers the probability of myocardial infarction (LR about 0.2) and shifts the differential toward pulmonary embolism, pneumonia, pneumothorax, pericarditis and pleural disease. In ED patients evaluated for PE it modestly raises VTE probability (adjusted OR 1.5).",
+      "prerequisites": "Patient able to give a history; ask before analgesia if feasible.",
+      "rationale": "Pleuritic pain supports pericarditis or pulmonary causes and helps de-emphasize ACS, influencing immediate workup.",
+      "skill_assumption": null,
+      "title": "Pleuritic chest pain (sharp, worse with inspiration/cough), +/- hemoptysis",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/exam_pericardial_friction_rub",
+      "changes_what": "Rub present: treat as pericarditis criterion; get ECG, troponin, echo. Rub absent: still apply the other three criteria; do not use to discount pericarditis or tamponade.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use presence or absence of a rub to decide about tamponade; that decision rests on hemodynamics, pulsus paradoxus, JVP and echo.",
+      "escalation_warning": "Rub with hypotension, rising JVP, or pulsus paradoxus >10 mmHg means possible tamponade: urgent echo and cardiology.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Sit the patient forward, ask for full exhalation and a breath-hold, and listen with the diaphragm firmly at the left lower sternal border. A rub is a superficial scratchy or leathery sound, classically with up to three components (atrial systole, ventricular systole, early diastole); it may come and go, so re-auscultate several times over hours.",
+      "id": "exam_pericardial_friction_rub",
+      "negative_finding": "Absence of a rub does not exclude pericarditis; rubs are intermittent and were not present in most patients in prospective pericarditis cohorts. Absence of a rub with a large effusion says nothing about tamponade.",
+      "pitfalls": "Pleural rubs (disappear with breath-hold) and crunching artefact from skin or hair mimic a pericardial rub. The rub often vanishes as effusion accumulates, so its disappearance may signal worsening rather than improvement.",
+      "positive_finding": "A rub is one of the four ESC diagnostic criteria for acute pericarditis (chest pain, rub, ECG changes, new/worsening effusion; 2 of 4 required) and is regarded as highly specific, but no sensitivity/specificity against an independent reference standard was found.",
+      "prerequisites": "Quiet room; patient able to sit forward and hold expiration.",
+      "rationale": "A pericardial friction rub is a classic finding for pericarditis and, if present, strongly supports the diagnosis.",
+      "skill_assumption": null,
+      "title": "Pericardial friction rub (triphasic scratchy sound, LSB, leaning forward, end-expiration)",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_chest_wall_tenderness_reproducible",
+      "changes_what": "Positive: shift toward musculoskeletal/zoster causes, but still obtain ECG (and troponin if any ACS risk). Negative: no meaningful change in ACS probability.",
+      "contraindications": "Recent chest trauma, sternotomy, or suspected rib fracture - palpate gently.",
+      "do_not_use_when": "Do not use reproducible tenderness to forgo ECG/troponin in patients with high pretest probability (known CAD, ECG changes, diaphoresis, arm radiation); do not use after trauma or in suspected PE, where wall tenderness is common and uninformative.",
+      "escalation_warning": "If the ECG is ischaemic or troponin is elevated, ignore the tenderness; a dermatomal rash or unilateral burning pain preceding a rash should prompt early antiviral treatment for zoster.",
+      "evidence": [
+       {
+        "citation": "Bruyninckx R, Aertgeerts B, Bruyninckx P, Buntinx F. Signs and symptoms in diagnosing acute myocardial infarction and acute coronary syndrome: a diagnostic meta-analysis. Br J Gen Pract. 2008;58(547):105-111.",
+        "computed": true,
+        "doi": "10.3399/bjgp08X277014",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_out",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results (PubMed abstract; full text not accessible)",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "0.29",
+         "ci_low": "0.18",
+         "value": "0.23"
+        },
+        "pmid": "18307844",
+        "population": "Non-selected patients with chest pain (16 of 28 studies; primary care and ED populations pooled)",
+        "prevalence": null,
+        "quote": "Absence of chest-wall tenderness on palpation had a LR- of 0.23 (95% CI = 0.18 to 0.29).",
+        "reference_standard": "AMI per included studies (random-effects pooling)",
+        "sensitivity": {
+         "ci_high": "0.14",
+         "ci_low": "0.04",
+         "value": "0.08"
+        },
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Acute myocardial infarction",
+        "url": null,
+        "year": "2008"
+       },
+       {
+        "citation": "Goodacre S, Locker T, Morris F, Campbell S. How useful are clinical features in the diagnosis of acute, undifferentiated chest pain? Acad Emerg Med. 2002;9(3):203-208.",
+        "computed": false,
+        "doi": "10.1111/j.1553-2712.2002.tb00245.x",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_out",
+        "kind": "primary_study",
+        "location": "Abstract, Results (PubMed abstract)",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.3"
+        },
+        "pmid": "11874776",
+        "population": "893 consecutive patients with acute, undifferentiated chest pain at a UK ED chest pain unit (AMI 3.8%)",
+        "prevalence": "0.038",
+        "quote": "pain radiating to the shoulder or both arms (LR = 4.07), and chest wall tenderness (LR = 0.3)",
+        "reference_standard": "WHO criteria for AMI with 6-month follow-up",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Acute myocardial infarction (WHO criteria)",
+        "url": null,
+        "year": "2002"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Ask the patient to localise the pain, then press firmly over the sternum, costochondral junctions, ribs and parasternal muscles; ask whether the pressure reproduces the presenting pain exactly (not merely causes soreness). Inspect the tender area for a dermatomal vesicular rash (zoster) before attributing pain to the chest wall.",
+      "id": "exam_chest_wall_tenderness_reproducible",
+      "negative_finding": "Absence of reproducible tenderness is the norm in MI (present in ~92-94% of AMI/ACS) but is non-specific and barely raises the probability of ACS (LR+ ~1.5 or less).",
+      "pitfalls": "Partial or vague tenderness is common in ACS and PE, so insist on exact reproduction; PE and pericarditis can coexist with wall tenderness; a low-prevalence (primary care) setting is where the finding is most useful, whereas in a high-risk ED patient it should not stop the workup.",
+      "positive_finding": "Pain fully reproduced by chest-wall palpation lowers the probability of MI/ACS about four-fold (LR ~0.2-0.3; pooled 0.23), supporting a musculoskeletal cause, but only 5-10% of infarcts have this feature and it does not exclude ACS.",
+      "prerequisites": "Patient able to compare elicited pain with the presenting pain; ECG obtained regardless.",
+      "rationale": "Reproducible chest wall tenderness would shift suspicion toward a musculoskeletal cause, potentially changing the diagnostic pathway.",
+      "skill_assumption": null,
+      "title": "Chest pain fully reproduced by palpation of chest wall",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_jvp_elevated",
+      "changes_what": "Elevated JVP moves dyspnea/edema toward acute HF or RV/pericardial disease and away from hypovolemia; a flat JVP in hypotension favors hypovolemia/sepsis over cardiogenic causes.",
+      "contraindications": "None; avoid firm neck pressure in patients with carotid disease.",
+      "do_not_use_when": "Do not use a normal JVP to withhold treatment for suspected heart failure, or declare a shocked patient hypovolemic when the neck cannot be adequately examined (obesity, short neck, column above the jaw).",
+      "escalation_warning": "Elevated JVP with hypotension, clear lungs and tachycardia suggests tamponade, RV infarction or massive PE and needs immediate echo/POCUS rather than diuresis.",
+      "evidence": [
+       {
+        "citation": "Butman SM, Ewy GA, Standen JR, Kern KB, Hahn E. Bedside cardiovascular examination in patients with severe chronic heart failure: importance of rest or inducible jugular venous distension. J Am Coll Cardiol 1993;22(4):968-74.",
+        "computed": true,
+        "doi": "10.1016/0735-1097(93)90405-p",
+        "evidence_level": "single_study",
+        "interpretation_label": "both",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.24"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "4.05"
+        },
+        "pmid": "8409071",
+        "population": "52 patients with severe chronic heart failure undergoing in-hospital transplant evaluation; index finding = jugular venous distension at rest OR inducible by the abdominojugular test",
+        "prevalence": null,
+        "quote": "had the best combination of sensitivity (81%), specificity (80%) and predictive accuracy (81%) for elevation of the pulmonary capillary wedge pressure",
+        "reference_standard": "Right heart catheterization (PCWP >= 18 mmHg)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.81"
+        },
+        "setting": "inpatient",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.8"
+        },
+        "target_condition": "Elevated pulmonary capillary wedge pressure (>=18 mmHg)",
+        "url": null,
+        "year": "1993"
+       },
+       {
+        "citation": "Signs and symptoms in adult patients with acute dyspnea: a systematic review and meta-analysis. Eur J Emerg Med 2018;25(1):3-11 (author list not retrievable via abstract tool; confirmed by PMID/DOI).",
+        "computed": false,
+        "doi": "10.1097/MEJ.0000000000000429",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "meta_analysis",
+        "location": "Abstract, Conclusion",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "29252938",
+        "population": "Adults with a new episode of acute dyspnea; 8 ED studies, 4737 patients; HF prevalence 25-59%",
+        "prevalence": null,
+        "quote": "Elevated jugular venous pressure (0.88, pooled odds ratio: 7), added third heart sound (0.97), and lung crepitations (0.77, pooled odds ratio: 11)",
+        "reference_standard": "Clinical diagnosis of HF per included studies (varied)",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.88"
+        },
+        "target_condition": "Heart failure as cause of acute dyspnea",
+        "url": null,
+        "year": "2018"
+       },
+       {
+        "citation": "Mant J, Doust J, Roalfe A, et al. Systematic review and individual patient data meta-analysis of diagnosis of heart failure, with modelling of implications of different diagnostic strategies in primary care. Health Technol Assess 2009;13(32):1-207.",
+        "computed": false,
+        "doi": "10.3310/hta13320",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "19586584",
+        "population": "Patients with suspected heart failure in primary care; individual patient data meta-analysis of 9 studies",
+        "prevalence": null,
+        "quote": "orthopnoea (89%), oedema (72%), elevated jugular venous pressure (70%), cardiomegaly (85%), added heart sounds (99%), lung crepitations (81%)",
+        "reference_standard": "Echocardiography / expert panel per included studies",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.7"
+        },
+        "target_condition": "Heart failure (new diagnosis) in primary care",
+        "url": null,
+        "year": "2009"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Recline the patient at 30-45 degrees (adjust until the top of the pulsation is visible), turn the head slightly left, and use tangential light to find the top of the internal jugular column. Measure its vertical height above the sternal angle; >3 cm above the angle (about >8 cm H2O total) is elevated.",
+      "id": "exam_jvp_elevated",
+      "negative_finding": "A flat or normal JVP lowers but does not exclude heart failure; sensitivity is modest (roughly 0.2-0.7 across ED studies) and pooled sensitivity in ED series stays below 0.55.",
+      "pitfalls": "Confusing carotid with venous pulsation, misjudging the sternal angle-to-atrium distance (varies with position), and failing to see a very high column (look for earlobe pulsation) or a very low one (lie the patient flatter). Isolated RV failure, tricuspid disease, tamponade or constriction raise JVP without left-sided congestion.",
+      "positive_finding": "A venous column >3 cm above the sternal angle indicates raised right atrial pressure and, in chronic heart failure, usually raised left-sided filling pressure (PCWP >=18 mmHg). It substantially raises the probability of heart failure as the cause of acute dyspnea.",
+      "prerequisites": "Adequate light, exposed neck, patient relaxed and breathing quietly; identify the venous (biphasic, non-palpable, falls with inspiration, occludable) rather than carotid pulsation.",
+      "rationale": "Elevated JVP would raise concern for pericardial effusion or tamponade, prompting urgent imaging and intervention if present.",
+      "skill_assumption": null,
+      "title": "Jugular venous pressure elevated (>8 cm H2O / >3 cm above sternal angle); low/flat JVP as the negative",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_muffled_heart_sounds",
+      "changes_what": "Muffled sounds with hypotension/JVP elevation: immediate bedside echo for effusion; normal sounds: no reassurance - image if tamponade is otherwise plausible.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use absence of muffled sounds to exclude tamponade, and do not use the sign alone to diagnose it.",
+      "escalation_warning": "Muffled sounds with hypotension, raised JVP or pulsus paradoxus >10 mmHg = suspected tamponade: emergent echocardiography and preparation for pericardiocentesis.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Auscultate the apex and left sternal border in a quiet room with the patient supine and then leaning forward; judge whether S1/S2 are distant or muffled relative to what the chest-wall thickness would predict, and compare with prior exams if available. Look concurrently for JVP elevation, hypotension and pulsus paradoxus.",
+      "id": "exam_muffled_heart_sounds",
+      "negative_finding": "Normal heart sounds do not exclude a pericardial effusion or tamponade, particularly in rapidly accumulating (traumatic, post-procedural) effusions.",
+      "pitfalls": "Highly subjective and setting-dependent; noisy EDs, hyperinflated chests and large body habitus all diminish sounds. Do not wait for the full Beck triad before obtaining echocardiography.",
+      "positive_finding": "Distant heart sounds with hypotension and raised JVP (Beck triad) suggest tamponade, but the triad is present in only a minority of tamponade cases; diminished sounds alone are common in COPD/hyperinflation, obesity and pleural effusion.",
+      "prerequisites": "Quiet environment; a baseline examination greatly improves the judgement of 'diminished'.",
+      "rationale": "Muffled heart sounds, especially with other findings, would increase suspicion for pericardial effusion/tamponade and prompt urgent echo.",
+      "skill_assumption": null,
+      "title": "Muffled/diminished heart sounds (Beck triad component)",
+      "type": "exam"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_pain_positional",
+     "rationale": "Positional pain is highly suggestive of pericarditis and helps distinguish it from ACS, guiding the need for ECG and echo."
+    },
+    {
+     "id": "hx_pleuritic_chest_pain",
+     "rationale": "Pleuritic pain supports pericarditis or pulmonary causes and helps de-emphasize ACS, influencing immediate workup."
+    }
+   ],
+   "examine": [
+    {
+     "id": "exam_pericardial_friction_rub",
+     "rationale": "A pericardial friction rub is a classic finding for pericarditis and, if present, strongly supports the diagnosis."
+    },
+    {
+     "id": "exam_chest_wall_tenderness_reproducible",
+     "rationale": "Reproducible chest wall tenderness would shift suspicion toward a musculoskeletal cause, potentially changing the diagnostic pathway."
+    },
+    {
+     "id": "exam_jvp_elevated",
+     "rationale": "Elevated JVP would raise concern for pericardial effusion or tamponade, prompting urgent imaging and intervention if present."
+    },
+    {
+     "id": "exam_muffled_heart_sounds",
+     "rationale": "Muffled heart sounds, especially with other findings, would increase suspicion for pericardial effusion/tamponade and prompt urgent echo."
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "sharp central chest pain since evening",
+   "differentials": [
+    {
+     "dx": "pericarditis",
+     "weight": 1.0
+    },
+    {
+     "dx": "pericardial_effusion_tamponade",
+     "weight": 0.4
+    },
+    {
+     "dx": "pneumonia",
+     "weight": 0.2
+    },
+    {
+     "dx": "acs",
+     "weight": 0.2
+    },
+    {
+     "dx": "musculoskeletal_chest_wall",
+     "weight": 0.2
+    }
+   ],
+   "indication_tags": [
+    "acute_onset",
+    "positional",
+    "pleuritic"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "sharp",
+    "central",
+    "changes with breathing and position",
+    "since evening"
+   ],
+   "observed_values": [
+    "HR 96",
+    "afebrile"
+   ],
+   "presentation": "chest_pain",
+   "time_course": "acute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "base"
+}

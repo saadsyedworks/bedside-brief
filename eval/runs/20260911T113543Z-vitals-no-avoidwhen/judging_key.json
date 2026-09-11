@@ -1,0 +1,3162 @@
+{
+ "_note": "SEALED: do not open while scoring judging_queue.csv",
+ "seed": 7,
+ "items": {
+  "e5c26cc119": {
+   "arm": "A",
+   "case_id": "abdominal_pain_001",
+   "item_index": 0,
+   "record_id": "hx_rlq_pain_migration"
+  },
+  "166b533e01": {
+   "arm": "A",
+   "case_id": "abdominal_pain_001",
+   "item_index": 1,
+   "record_id": "hx_pain_out_of_proportion_exam"
+  },
+  "8f61c6cb81": {
+   "arm": "A",
+   "case_id": "abdominal_pain_001",
+   "item_index": 2,
+   "record_id": "exam_abdominal_rigidity_guarding"
+  },
+  "b2beff815e": {
+   "arm": "A",
+   "case_id": "abdominal_pain_001",
+   "item_index": 3,
+   "record_id": "exam_rebound_tenderness"
+  },
+  "66770bb976": {
+   "arm": "A",
+   "case_id": "abdominal_pain_001",
+   "item_index": 4,
+   "record_id": "exam_rlq_tenderness_mcburney"
+  },
+  "b4364578bf": {
+   "arm": "A",
+   "case_id": "aki_001",
+   "item_index": 0,
+   "record_id": "hx_nephrotoxin_contrast_exposure"
+  },
+  "4fa98aef89": {
+   "arm": "A",
+   "case_id": "aki_001",
+   "item_index": 1,
+   "record_id": "hx_orthopnea"
+  },
+  "525ea5c651": {
+   "arm": "A",
+   "case_id": "aki_001",
+   "item_index": 2,
+   "record_id": "exam_jvp_elevated"
+  },
+  "df3d8060d5": {
+   "arm": "A",
+   "case_id": "aki_001",
+   "item_index": 3,
+   "record_id": "fn_passive_leg_raise"
+  },
+  "8c709e0fc1": {
+   "arm": "A",
+   "case_id": "aki_001",
+   "item_index": 4,
+   "record_id": "exam_bladder_percussion_palpable"
+  },
+  "3c5c8763f5": {
+   "arm": "A",
+   "case_id": "aki_001",
+   "item_index": 5,
+   "record_id": "exam_capillary_refill"
+  },
+  "7624b7ad2c": {
+   "arm": "A",
+   "case_id": "ams_001",
+   "item_index": 0,
+   "record_id": "hx_deliriogenic_medication_review"
+  },
+  "1a850abce0": {
+   "arm": "A",
+   "case_id": "ams_001",
+   "item_index": 1,
+   "record_id": "hx_hypoglycemia_symptoms_insulin"
+  },
+  "6e64c18dce": {
+   "arm": "A",
+   "case_id": "ams_001",
+   "item_index": 2,
+   "record_id": "hx_rigors_shaking_chills"
+  },
+  "d8782d9274": {
+   "arm": "A",
+   "case_id": "ams_001",
+   "item_index": 3,
+   "record_id": "exam_cam_delirium_screen"
+  },
+  "5e8279f157": {
+   "arm": "A",
+   "case_id": "ams_001",
+   "item_index": 4,
+   "record_id": "exam_infection_source_survey"
+  },
+  "239196950b": {
+   "arm": "A",
+   "case_id": "ams_001",
+   "item_index": 5,
+   "record_id": "exam_pupils_eye_movements_toxidrome"
+  },
+  "8e0c568f0c": {
+   "arm": "A",
+   "case_id": "ams_001",
+   "item_index": 6,
+   "record_id": "exam_focal_neuro_deficit_screen"
+  },
+  "940812648b": {
+   "arm": "A",
+   "case_id": "chest_pain_001",
+   "item_index": 0,
+   "record_id": "hx_pain_radiation_both_arms"
+  },
+  "21d01361dc": {
+   "arm": "A",
+   "case_id": "chest_pain_001",
+   "item_index": 1,
+   "record_id": "hx_pain_abrupt_maximal_onset"
+  },
+  "a845da58b4": {
+   "arm": "A",
+   "case_id": "chest_pain_001",
+   "item_index": 2,
+   "record_id": "hx_pleuritic_chest_pain"
+  },
+  "69cc7d3cf3": {
+   "arm": "A",
+   "case_id": "chest_pain_001",
+   "item_index": 3,
+   "record_id": "hx_pain_tearing_ripping"
+  },
+  "0a76bd79c7": {
+   "arm": "A",
+   "case_id": "chest_pain_001",
+   "item_index": 4,
+   "record_id": "exam_chest_wall_tenderness_reproducible"
+  },
+  "b5f9cf80a4": {
+   "arm": "A",
+   "case_id": "chest_pain_001",
+   "item_index": 5,
+   "record_id": "exam_pericardial_friction_rub"
+  },
+  "a1ea1cf101": {
+   "arm": "A",
+   "case_id": "chest_pain_001",
+   "item_index": 6,
+   "record_id": "exam_bp_differential_arms"
+  },
+  "67bd5f7938": {
+   "arm": "A",
+   "case_id": "chest_pain_001",
+   "item_index": 7,
+   "record_id": "exam_pulse_deficit"
+  },
+  "600cb9e843": {
+   "arm": "A",
+   "case_id": "dizziness_001",
+   "item_index": 0,
+   "record_id": "hx_dizziness_timing_triggers"
+  },
+  "e9bcfca746": {
+   "arm": "A",
+   "case_id": "dizziness_001",
+   "item_index": 1,
+   "record_id": "fn_gait_stand_unaided"
+  },
+  "8aeac25a5f": {
+   "arm": "A",
+   "case_id": "dizziness_001",
+   "item_index": 2,
+   "record_id": "exam_nystagmus_direction_changing"
+  },
+  "093d28603d": {
+   "arm": "A",
+   "case_id": "dizziness_001",
+   "item_index": 3,
+   "record_id": "exam_focal_neuro_deficit_screen"
+  },
+  "aff016c2ca": {
+   "arm": "A",
+   "case_id": "dizziness_001",
+   "item_index": 4,
+   "record_id": "fn_hints_exam"
+  },
+  "6d719f67b0": {
+   "arm": "A",
+   "case_id": "dyspnea_001",
+   "item_index": 0,
+   "record_id": "hx_orthopnea"
+  },
+  "2941b86b7d": {
+   "arm": "A",
+   "case_id": "dyspnea_001",
+   "item_index": 1,
+   "record_id": "hx_pnd"
+  },
+  "01f6926ca7": {
+   "arm": "A",
+   "case_id": "dyspnea_001",
+   "item_index": 2,
+   "record_id": "hx_vte_risk_factors"
+  },
+  "19b607cc84": {
+   "arm": "A",
+   "case_id": "dyspnea_001",
+   "item_index": 3,
+   "record_id": "exam_jvp_elevated"
+  },
+  "64387e70e9": {
+   "arm": "A",
+   "case_id": "dyspnea_001",
+   "item_index": 4,
+   "record_id": "exam_pulmonary_crackles"
+  },
+  "34d0af9596": {
+   "arm": "A",
+   "case_id": "dyspnea_001",
+   "item_index": 5,
+   "record_id": "exam_peripheral_edema_pitting"
+  },
+  "f96c76a45b": {
+   "arm": "A",
+   "case_id": "dyspnea_001",
+   "item_index": 6,
+   "record_id": "exam_accessory_muscle_use"
+  },
+  "3f060de174": {
+   "arm": "A",
+   "case_id": "edema_001",
+   "item_index": 0,
+   "record_id": "hx_orthopnea"
+  },
+  "15b89889d9": {
+   "arm": "A",
+   "case_id": "edema_001",
+   "item_index": 1,
+   "record_id": "hx_edema_causing_medications"
+  },
+  "7153fb5457": {
+   "arm": "A",
+   "case_id": "edema_001",
+   "item_index": 2,
+   "record_id": "exam_jvp_elevated"
+  },
+  "60eeef9cc6": {
+   "arm": "A",
+   "case_id": "edema_001",
+   "item_index": 3,
+   "record_id": "exam_peripheral_edema_pitting"
+  },
+  "f9bc1852fb": {
+   "arm": "A",
+   "case_id": "edema_001",
+   "item_index": 4,
+   "record_id": "exam_abdominojugular_reflux"
+  },
+  "21ff7e87d5": {
+   "arm": "A",
+   "case_id": "edema_001",
+   "item_index": 5,
+   "record_id": "exam_pulmonary_crackles"
+  },
+  "e756370734": {
+   "arm": "A",
+   "case_id": "fever_001",
+   "item_index": 0,
+   "record_id": "hx_rigors_shaking_chills"
+  },
+  "3377e3da27": {
+   "arm": "A",
+   "case_id": "fever_001",
+   "item_index": 1,
+   "record_id": "hx_dysuria_frequency"
+  },
+  "9b604135b1": {
+   "arm": "A",
+   "case_id": "fever_001",
+   "item_index": 2,
+   "record_id": "hx_new_medication_temporal_fever"
+  },
+  "4cd3dc8355": {
+   "arm": "A",
+   "case_id": "fever_001",
+   "item_index": 3,
+   "record_id": "exam_infection_source_survey"
+  },
+  "5734632e4d": {
+   "arm": "A",
+   "case_id": "fever_001",
+   "item_index": 4,
+   "record_id": "exam_cva_tenderness"
+  },
+  "bf570ceb92": {
+   "arm": "A",
+   "case_id": "fever_001",
+   "item_index": 5,
+   "record_id": "exam_egophony"
+  },
+  "b2a85e3db1": {
+   "arm": "A",
+   "case_id": "fever_001",
+   "item_index": 6,
+   "record_id": "exam_joint_effusion_warmth_painful_rom"
+  },
+  "037248ab86": {
+   "arm": "A",
+   "case_id": "hypotension_001",
+   "item_index": 0,
+   "record_id": "hx_deliriogenic_medication_review"
+  },
+  "3789492d49": {
+   "arm": "A",
+   "case_id": "hypotension_001",
+   "item_index": 1,
+   "record_id": "hx_rigors_shaking_chills"
+  },
+  "ed2b323a20": {
+   "arm": "A",
+   "case_id": "hypotension_001",
+   "item_index": 2,
+   "record_id": "hx_dysuria_frequency"
+  },
+  "2e969df999": {
+   "arm": "A",
+   "case_id": "hypotension_001",
+   "item_index": 3,
+   "record_id": "exam_infection_source_survey"
+  },
+  "2037a65df8": {
+   "arm": "A",
+   "case_id": "hypotension_001",
+   "item_index": 4,
+   "record_id": "exam_cam_delirium_screen"
+  },
+  "0e77031aa4": {
+   "arm": "A",
+   "case_id": "hypotension_001",
+   "item_index": 5,
+   "record_id": "exam_hypotension_sbp_lt90"
+  },
+  "d2b25e34e9": {
+   "arm": "A",
+   "case_id": "hypotension_001",
+   "item_index": 6,
+   "record_id": "exam_jvp_elevated"
+  },
+  "985215f2f8": {
+   "arm": "A",
+   "case_id": "palpitations_001",
+   "item_index": 0,
+   "record_id": "hx_palpitations_abrupt_onset_offset"
+  },
+  "c80a7478f5": {
+   "arm": "A",
+   "case_id": "palpitations_001",
+   "item_index": 1,
+   "record_id": "hx_stimulant_caffeine_alcohol_use"
+  },
+  "b6358b0134": {
+   "arm": "A",
+   "case_id": "palpitations_001",
+   "item_index": 2,
+   "record_id": "exam_pulse_irregularly_irregular"
+  },
+  "77a155dd90": {
+   "arm": "A",
+   "case_id": "palpitations_001",
+   "item_index": 3,
+   "record_id": "exam_tachycardia_resting"
+  },
+  "c985cc9269": {
+   "arm": "A",
+   "case_id": "palpitations_001",
+   "item_index": 4,
+   "record_id": "exam_thyrotoxicosis_signs"
+  },
+  "e23d8d4faf": {
+   "arm": "A",
+   "case_id": "syncope_001",
+   "item_index": 0,
+   "record_id": "hx_exertional_syncope"
+  },
+  "3d814d8819": {
+   "arm": "A",
+   "case_id": "syncope_001",
+   "item_index": 1,
+   "record_id": "hx_syncope_prodrome"
+  },
+  "3619a75450": {
+   "arm": "A",
+   "case_id": "syncope_001",
+   "item_index": 2,
+   "record_id": "hx_family_hx_sudden_death"
+  },
+  "d8dcb8b964": {
+   "arm": "A",
+   "case_id": "syncope_001",
+   "item_index": 3,
+   "record_id": "exam_murmur_late_peaking_systolic"
+  },
+  "a6f8149e2d": {
+   "arm": "A",
+   "case_id": "syncope_001",
+   "item_index": 4,
+   "record_id": "exam_carotid_upstroke_delayed"
+  },
+  "f7523bd7c9": {
+   "arm": "A",
+   "case_id": "syncope_001",
+   "item_index": 5,
+   "record_id": "fn_murmur_valsalva_standing_louder"
+  },
+  "f4561c0ca8": {
+   "arm": "A",
+   "case_id": "weakness_001",
+   "item_index": 0,
+   "record_id": "hx_hypoglycemia_symptoms_insulin"
+  },
+  "f0c6224bf8": {
+   "arm": "A",
+   "case_id": "weakness_001",
+   "item_index": 1,
+   "record_id": "hx_post_event_confusion"
+  },
+  "7fbeed5443": {
+   "arm": "A",
+   "case_id": "weakness_001",
+   "item_index": 2,
+   "record_id": "exam_face_arm_speech_cpss"
+  },
+  "b40f67aa93": {
+   "arm": "A",
+   "case_id": "weakness_001",
+   "item_index": 3,
+   "record_id": "exam_forehead_sparing_facial_weakness"
+  },
+  "c9a4d4afcd": {
+   "arm": "A",
+   "case_id": "weakness_001",
+   "item_index": 4,
+   "record_id": "exam_pulse_irregularly_irregular"
+  },
+  "305118da8d": {
+   "arm": "B",
+   "case_id": "abdominal_pain_001",
+   "item_index": 0,
+   "record_id": "hx_rlq_pain_migration"
+  },
+  "5cf23a75c1": {
+   "arm": "B",
+   "case_id": "abdominal_pain_001",
+   "item_index": 1,
+   "record_id": "hx_pain_out_of_proportion_exam"
+  },
+  "d70f9e3b5f": {
+   "arm": "B",
+   "case_id": "abdominal_pain_001",
+   "item_index": 2,
+   "record_id": "hx_epigastric_pain_radiating_back"
+  },
+  "e6333f6a53": {
+   "arm": "B",
+   "case_id": "abdominal_pain_001",
+   "item_index": 3,
+   "record_id": "exam_abdominal_rigidity_guarding"
+  },
+  "e99a5485c1": {
+   "arm": "B",
+   "case_id": "abdominal_pain_001",
+   "item_index": 4,
+   "record_id": "exam_rebound_tenderness"
+  },
+  "27cb21d671": {
+   "arm": "B",
+   "case_id": "abdominal_pain_001",
+   "item_index": 5,
+   "record_id": "exam_rlq_tenderness_mcburney"
+  },
+  "b76ad06d71": {
+   "arm": "B",
+   "case_id": "abdominal_pain_001",
+   "item_index": 6,
+   "record_id": "exam_charcot_triad"
+  },
+  "d3c5a342cd": {
+   "arm": "B",
+   "case_id": "aki_001",
+   "item_index": 0,
+   "record_id": "hx_nephrotoxin_contrast_exposure"
+  },
+  "69f531f6c4": {
+   "arm": "B",
+   "case_id": "aki_001",
+   "item_index": 1,
+   "record_id": "hx_hypotensive_medication_review"
+  },
+  "47953ceb5f": {
+   "arm": "B",
+   "case_id": "aki_001",
+   "item_index": 2,
+   "record_id": "hx_postural_dizziness"
+  },
+  "508835df8d": {
+   "arm": "B",
+   "case_id": "aki_001",
+   "item_index": 3,
+   "record_id": "hx_orthopnea"
+  },
+  "b5d1418bb8": {
+   "arm": "B",
+   "case_id": "aki_001",
+   "item_index": 4,
+   "record_id": "exam_jvp_elevated"
+  },
+  "c905890c1e": {
+   "arm": "B",
+   "case_id": "aki_001",
+   "item_index": 5,
+   "record_id": "fn_passive_leg_raise"
+  },
+  "d52ed1d38f": {
+   "arm": "B",
+   "case_id": "aki_001",
+   "item_index": 6,
+   "record_id": "exam_capillary_refill"
+  },
+  "a6e8c15a45": {
+   "arm": "B",
+   "case_id": "aki_001",
+   "item_index": 7,
+   "record_id": "exam_dry_axilla"
+  },
+  "6642da3b57": {
+   "arm": "B",
+   "case_id": "ams_001",
+   "item_index": 0,
+   "record_id": "hx_dysuria_frequency"
+  },
+  "e580495a51": {
+   "arm": "B",
+   "case_id": "ams_001",
+   "item_index": 1,
+   "record_id": "hx_rigors_shaking_chills"
+  },
+  "bdacfbe3c8": {
+   "arm": "B",
+   "case_id": "ams_001",
+   "item_index": 2,
+   "record_id": "hx_deliriogenic_medication_review"
+  },
+  "8c1e9340eb": {
+   "arm": "B",
+   "case_id": "ams_001",
+   "item_index": 3,
+   "record_id": "hx_hypotensive_medication_review"
+  },
+  "030154421d": {
+   "arm": "B",
+   "case_id": "ams_001",
+   "item_index": 4,
+   "record_id": "exam_cam_delirium_screen"
+  },
+  "060bb0e135": {
+   "arm": "B",
+   "case_id": "ams_001",
+   "item_index": 5,
+   "record_id": "fn_attention_months_backward"
+  },
+  "9c4ee5c101": {
+   "arm": "B",
+   "case_id": "ams_001",
+   "item_index": 6,
+   "record_id": "exam_bladder_percussion_palpable"
+  },
+  "20535f7d9c": {
+   "arm": "B",
+   "case_id": "ams_001",
+   "item_index": 7,
+   "record_id": "exam_infection_source_survey"
+  },
+  "f6ca204eef": {
+   "arm": "B",
+   "case_id": "chest_pain_001",
+   "item_index": 0,
+   "record_id": "hx_pleuritic_chest_pain"
+  },
+  "7e9a9ccdf3": {
+   "arm": "B",
+   "case_id": "chest_pain_001",
+   "item_index": 1,
+   "record_id": "hx_pain_positional"
+  },
+  "d173033966": {
+   "arm": "B",
+   "case_id": "chest_pain_001",
+   "item_index": 2,
+   "record_id": "hx_smoking_pack_years"
+  },
+  "b58b62a546": {
+   "arm": "B",
+   "case_id": "chest_pain_001",
+   "item_index": 3,
+   "record_id": "hx_exertional_chest_pain"
+  },
+  "56a0a196ed": {
+   "arm": "B",
+   "case_id": "chest_pain_001",
+   "item_index": 4,
+   "record_id": "exam_chest_wall_tenderness_reproducible"
+  },
+  "2a3372728e": {
+   "arm": "B",
+   "case_id": "chest_pain_001",
+   "item_index": 5,
+   "record_id": "fn_bedside_walk_test"
+  },
+  "315d556e2a": {
+   "arm": "B",
+   "case_id": "chest_pain_001",
+   "item_index": 6,
+   "record_id": "exam_s3_gallop"
+  },
+  "432e2b477c": {
+   "arm": "B",
+   "case_id": "chest_pain_001",
+   "item_index": 7,
+   "record_id": "exam_tachypnea_rr_gt24"
+  },
+  "cbf60070f7": {
+   "arm": "B",
+   "case_id": "dizziness_001",
+   "item_index": 0,
+   "record_id": "hx_dizziness_timing_triggers"
+  },
+  "3bafa01dc8": {
+   "arm": "B",
+   "case_id": "dizziness_001",
+   "item_index": 1,
+   "record_id": "hx_deliriogenic_medication_review"
+  },
+  "dae0ba57ea": {
+   "arm": "B",
+   "case_id": "dizziness_001",
+   "item_index": 2,
+   "record_id": "hx_hypotensive_medication_review"
+  },
+  "46f8f77378": {
+   "arm": "B",
+   "case_id": "dizziness_001",
+   "item_index": 3,
+   "record_id": "hx_nephrotoxin_contrast_exposure"
+  },
+  "3f67fba9b8": {
+   "arm": "B",
+   "case_id": "dizziness_001",
+   "item_index": 4,
+   "record_id": "fn_gait_stand_unaided"
+  },
+  "70d4374380": {
+   "arm": "B",
+   "case_id": "dizziness_001",
+   "item_index": 5,
+   "record_id": "exam_nystagmus_direction_changing"
+  },
+  "c7a545ee0f": {
+   "arm": "B",
+   "case_id": "dizziness_001",
+   "item_index": 6,
+   "record_id": "fn_head_impulse_test"
+  },
+  "357de96341": {
+   "arm": "B",
+   "case_id": "dizziness_001",
+   "item_index": 7,
+   "record_id": "fn_hints_exam"
+  },
+  "6d23a35e0f": {
+   "arm": "B",
+   "case_id": "dyspnea_001",
+   "item_index": 0,
+   "record_id": "hx_orthopnea"
+  },
+  "94fd4d987e": {
+   "arm": "B",
+   "case_id": "dyspnea_001",
+   "item_index": 1,
+   "record_id": "hx_pnd"
+  },
+  "5eedc9fc9e": {
+   "arm": "B",
+   "case_id": "dyspnea_001",
+   "item_index": 2,
+   "record_id": "hx_pleuritic_chest_pain"
+  },
+  "7cd7a28901": {
+   "arm": "B",
+   "case_id": "dyspnea_001",
+   "item_index": 3,
+   "record_id": "hx_smoking_pack_years"
+  },
+  "a69450e72e": {
+   "arm": "B",
+   "case_id": "dyspnea_001",
+   "item_index": 4,
+   "record_id": "exam_pulmonary_crackles"
+  },
+  "dd8909e7e6": {
+   "arm": "B",
+   "case_id": "dyspnea_001",
+   "item_index": 5,
+   "record_id": "exam_jvp_elevated"
+  },
+  "795f0edef1": {
+   "arm": "B",
+   "case_id": "dyspnea_001",
+   "item_index": 6,
+   "record_id": "exam_tachypnea_rr_gt24"
+  },
+  "16df0302e0": {
+   "arm": "B",
+   "case_id": "dyspnea_001",
+   "item_index": 7,
+   "record_id": "exam_wheezing"
+  },
+  "dde14bbd46": {
+   "arm": "B",
+   "case_id": "edema_001",
+   "item_index": 0,
+   "record_id": "hx_edema_causing_medications"
+  },
+  "1bf995c6eb": {
+   "arm": "B",
+   "case_id": "edema_001",
+   "item_index": 1,
+   "record_id": "hx_orthopnea"
+  },
+  "e9b94a87cc": {
+   "arm": "B",
+   "case_id": "edema_001",
+   "item_index": 2,
+   "record_id": "hx_pnd"
+  },
+  "7cad38f4f4": {
+   "arm": "B",
+   "case_id": "edema_001",
+   "item_index": 3,
+   "record_id": "hx_deliriogenic_medication_review"
+  },
+  "eec33926a9": {
+   "arm": "B",
+   "case_id": "edema_001",
+   "item_index": 4,
+   "record_id": "exam_peripheral_edema_pitting"
+  },
+  "2b77add3e1": {
+   "arm": "B",
+   "case_id": "edema_001",
+   "item_index": 5,
+   "record_id": "exam_abdominojugular_reflux"
+  },
+  "c595ec992e": {
+   "arm": "B",
+   "case_id": "edema_001",
+   "item_index": 6,
+   "record_id": "exam_jvp_elevated"
+  },
+  "505ff3c391": {
+   "arm": "B",
+   "case_id": "edema_001",
+   "item_index": 7,
+   "record_id": "exam_shifting_dullness"
+  },
+  "993bb6c7d4": {
+   "arm": "B",
+   "case_id": "fever_001",
+   "item_index": 0,
+   "record_id": "hx_rigors_shaking_chills"
+  },
+  "375a59bd2f": {
+   "arm": "B",
+   "case_id": "fever_001",
+   "item_index": 1,
+   "record_id": "hx_dysuria_frequency"
+  },
+  "c918881eda": {
+   "arm": "B",
+   "case_id": "fever_001",
+   "item_index": 2,
+   "record_id": "hx_pleuritic_chest_pain"
+  },
+  "c577f2a1a5": {
+   "arm": "B",
+   "case_id": "fever_001",
+   "item_index": 3,
+   "record_id": "hx_smoking_pack_years"
+  },
+  "ee2c852a4d": {
+   "arm": "B",
+   "case_id": "fever_001",
+   "item_index": 4,
+   "record_id": "exam_infection_source_survey"
+  },
+  "31e9b8ce8e": {
+   "arm": "B",
+   "case_id": "fever_001",
+   "item_index": 5,
+   "record_id": "exam_cva_tenderness"
+  },
+  "213b8950a3": {
+   "arm": "B",
+   "case_id": "fever_001",
+   "item_index": 6,
+   "record_id": "exam_egophony"
+  },
+  "544239ec5a": {
+   "arm": "B",
+   "case_id": "fever_001",
+   "item_index": 7,
+   "record_id": "exam_percussion_dullness"
+  },
+  "11eb8e9485": {
+   "arm": "B",
+   "case_id": "hypotension_001",
+   "item_index": 0,
+   "record_id": "hx_rigors_shaking_chills"
+  },
+  "e9d102ac1e": {
+   "arm": "B",
+   "case_id": "hypotension_001",
+   "item_index": 1,
+   "record_id": "hx_dysuria_frequency"
+  },
+  "8a4382cd75": {
+   "arm": "B",
+   "case_id": "hypotension_001",
+   "item_index": 2,
+   "record_id": "hx_deliriogenic_medication_review"
+  },
+  "51c1462417": {
+   "arm": "B",
+   "case_id": "hypotension_001",
+   "item_index": 3,
+   "record_id": "hx_hypotensive_medication_review"
+  },
+  "5593ddafaf": {
+   "arm": "B",
+   "case_id": "hypotension_001",
+   "item_index": 4,
+   "record_id": "exam_cam_delirium_screen"
+  },
+  "9da664c47a": {
+   "arm": "B",
+   "case_id": "hypotension_001",
+   "item_index": 5,
+   "record_id": "fn_attention_months_backward"
+  },
+  "7a29892a5a": {
+   "arm": "B",
+   "case_id": "hypotension_001",
+   "item_index": 6,
+   "record_id": "exam_infection_source_survey"
+  },
+  "881c19774a": {
+   "arm": "B",
+   "case_id": "hypotension_001",
+   "item_index": 7,
+   "record_id": "exam_bladder_percussion_palpable"
+  },
+  "48e07771c0": {
+   "arm": "B",
+   "case_id": "palpitations_001",
+   "item_index": 0,
+   "record_id": "hx_palpitations_abrupt_onset_offset"
+  },
+  "8fe48850a6": {
+   "arm": "B",
+   "case_id": "palpitations_001",
+   "item_index": 1,
+   "record_id": "hx_neck_pounding_frog_sign"
+  },
+  "99d926f677": {
+   "arm": "B",
+   "case_id": "palpitations_001",
+   "item_index": 2,
+   "record_id": "hx_stimulant_caffeine_alcohol_use"
+  },
+  "b40d39d6b9": {
+   "arm": "B",
+   "case_id": "palpitations_001",
+   "item_index": 3,
+   "record_id": "hx_palpitations_before_syncope"
+  },
+  "1471930ed7": {
+   "arm": "B",
+   "case_id": "palpitations_001",
+   "item_index": 4,
+   "record_id": "fn_pulse_palpation_during_symptoms"
+  },
+  "bcbd632abe": {
+   "arm": "B",
+   "case_id": "palpitations_001",
+   "item_index": 5,
+   "record_id": "fn_tap_out_rhythm_regular"
+  },
+  "a5d9cc9d9b": {
+   "arm": "B",
+   "case_id": "palpitations_001",
+   "item_index": 6,
+   "record_id": "fn_vagal_maneuver_response"
+  },
+  "672b24fc8a": {
+   "arm": "B",
+   "case_id": "palpitations_001",
+   "item_index": 7,
+   "record_id": "exam_thyrotoxicosis_signs"
+  },
+  "4336f14fcd": {
+   "arm": "B",
+   "case_id": "syncope_001",
+   "item_index": 0,
+   "record_id": "hx_exertional_syncope"
+  },
+  "30a5e5334d": {
+   "arm": "B",
+   "case_id": "syncope_001",
+   "item_index": 1,
+   "record_id": "hx_exertional_chest_pain"
+  },
+  "3ce5d6e327": {
+   "arm": "B",
+   "case_id": "syncope_001",
+   "item_index": 2,
+   "record_id": "hx_palpitations_exertional_onset"
+  },
+  "ef77a1a810": {
+   "arm": "B",
+   "case_id": "syncope_001",
+   "item_index": 3,
+   "record_id": "hx_dizziness_timing_triggers"
+  },
+  "6ac90b6c85": {
+   "arm": "B",
+   "case_id": "syncope_001",
+   "item_index": 4,
+   "record_id": "exam_carotid_upstroke_delayed"
+  },
+  "6086cd37c4": {
+   "arm": "B",
+   "case_id": "syncope_001",
+   "item_index": 5,
+   "record_id": "exam_murmur_late_peaking_systolic"
+  },
+  "b54b5af482": {
+   "arm": "B",
+   "case_id": "syncope_001",
+   "item_index": 6,
+   "record_id": "fn_murmur_valsalva_standing_louder"
+  },
+  "3853e71054": {
+   "arm": "B",
+   "case_id": "syncope_001",
+   "item_index": 7,
+   "record_id": "fn_bedside_walk_test"
+  },
+  "f2be18d0ee": {
+   "arm": "B",
+   "case_id": "weakness_001",
+   "item_index": 0,
+   "record_id": "hx_hypoglycemia_symptoms_insulin"
+  },
+  "404478ea90": {
+   "arm": "B",
+   "case_id": "weakness_001",
+   "item_index": 1,
+   "record_id": "hx_alcohol_use_withdrawal_timing"
+  },
+  "d3287cf911": {
+   "arm": "B",
+   "case_id": "weakness_001",
+   "item_index": 2,
+   "record_id": "hx_dysuria_frequency"
+  },
+  "3cc3c7dba4": {
+   "arm": "B",
+   "case_id": "weakness_001",
+   "item_index": 3,
+   "record_id": "hx_post_event_confusion"
+  },
+  "4323ec8ce0": {
+   "arm": "B",
+   "case_id": "weakness_001",
+   "item_index": 4,
+   "record_id": "exam_focal_neuro_deficit_screen"
+  },
+  "c89fc930c9": {
+   "arm": "B",
+   "case_id": "weakness_001",
+   "item_index": 5,
+   "record_id": "exam_pulse_irregularly_irregular"
+  },
+  "f13772f146": {
+   "arm": "B",
+   "case_id": "weakness_001",
+   "item_index": 6,
+   "record_id": "fn_gait_stand_unaided"
+  },
+  "0351c1622e": {
+   "arm": "B",
+   "case_id": "weakness_001",
+   "item_index": 7,
+   "record_id": "exam_face_arm_speech_cpss"
+  },
+  "5e75d254cf": {
+   "arm": "C",
+   "case_id": "abdominal_pain_001",
+   "item_index": 0,
+   "record_id": null
+  },
+  "62a9422806": {
+   "arm": "C",
+   "case_id": "abdominal_pain_001",
+   "item_index": 1,
+   "record_id": null
+  },
+  "59eed2fc9e": {
+   "arm": "C",
+   "case_id": "abdominal_pain_001",
+   "item_index": 2,
+   "record_id": null
+  },
+  "1a39783d51": {
+   "arm": "C",
+   "case_id": "abdominal_pain_001",
+   "item_index": 3,
+   "record_id": null
+  },
+  "d6508fa961": {
+   "arm": "C",
+   "case_id": "abdominal_pain_001",
+   "item_index": 4,
+   "record_id": null
+  },
+  "36d1a5c176": {
+   "arm": "C",
+   "case_id": "abdominal_pain_001",
+   "item_index": 5,
+   "record_id": null
+  },
+  "daabb366ef": {
+   "arm": "C",
+   "case_id": "abdominal_pain_001",
+   "item_index": 6,
+   "record_id": null
+  },
+  "0de6509ec6": {
+   "arm": "C",
+   "case_id": "abdominal_pain_001",
+   "item_index": 7,
+   "record_id": null
+  },
+  "28362d6b26": {
+   "arm": "C",
+   "case_id": "abdominal_pain_001",
+   "item_index": 8,
+   "record_id": null
+  },
+  "93b092a065": {
+   "arm": "C",
+   "case_id": "abdominal_pain_001",
+   "item_index": 9,
+   "record_id": null
+  },
+  "15cbfca477": {
+   "arm": "C",
+   "case_id": "abdominal_pain_001",
+   "item_index": 10,
+   "record_id": null
+  },
+  "72dec4ccb2": {
+   "arm": "C",
+   "case_id": "abdominal_pain_001",
+   "item_index": 11,
+   "record_id": null
+  },
+  "2c3c1aaef8": {
+   "arm": "C",
+   "case_id": "abdominal_pain_001",
+   "item_index": 12,
+   "record_id": null
+  },
+  "c2d53f0205": {
+   "arm": "C",
+   "case_id": "abdominal_pain_001",
+   "item_index": 13,
+   "record_id": null
+  },
+  "37b3ad07ce": {
+   "arm": "C",
+   "case_id": "abdominal_pain_001",
+   "item_index": 14,
+   "record_id": null
+  },
+  "4a2ee7dc96": {
+   "arm": "C",
+   "case_id": "abdominal_pain_001",
+   "item_index": 15,
+   "record_id": null
+  },
+  "9ef000fbfd": {
+   "arm": "C",
+   "case_id": "abdominal_pain_001",
+   "item_index": 16,
+   "record_id": null
+  },
+  "0fa04bf77d": {
+   "arm": "C",
+   "case_id": "abdominal_pain_001",
+   "item_index": 17,
+   "record_id": null
+  },
+  "bf18cf5ad6": {
+   "arm": "C",
+   "case_id": "abdominal_pain_001",
+   "item_index": 18,
+   "record_id": null
+  },
+  "939d9cf128": {
+   "arm": "C",
+   "case_id": "abdominal_pain_001",
+   "item_index": 19,
+   "record_id": null
+  },
+  "b2fd024fc4": {
+   "arm": "C",
+   "case_id": "abdominal_pain_001",
+   "item_index": 20,
+   "record_id": null
+  },
+  "177a36d07e": {
+   "arm": "C",
+   "case_id": "abdominal_pain_001",
+   "item_index": 21,
+   "record_id": null
+  },
+  "492279f9e4": {
+   "arm": "C",
+   "case_id": "abdominal_pain_001",
+   "item_index": 22,
+   "record_id": null
+  },
+  "5cf83e6d57": {
+   "arm": "C",
+   "case_id": "abdominal_pain_001",
+   "item_index": 23,
+   "record_id": null
+  },
+  "e9984d5e45": {
+   "arm": "C",
+   "case_id": "abdominal_pain_001",
+   "item_index": 24,
+   "record_id": null
+  },
+  "12a8e15cf9": {
+   "arm": "C",
+   "case_id": "abdominal_pain_001",
+   "item_index": 25,
+   "record_id": null
+  },
+  "04b556e1b4": {
+   "arm": "C",
+   "case_id": "aki_001",
+   "item_index": 0,
+   "record_id": null
+  },
+  "9960a5eec1": {
+   "arm": "C",
+   "case_id": "aki_001",
+   "item_index": 1,
+   "record_id": null
+  },
+  "0e0891bc63": {
+   "arm": "C",
+   "case_id": "aki_001",
+   "item_index": 2,
+   "record_id": null
+  },
+  "f479bbbf19": {
+   "arm": "C",
+   "case_id": "aki_001",
+   "item_index": 3,
+   "record_id": null
+  },
+  "c10456e8ca": {
+   "arm": "C",
+   "case_id": "aki_001",
+   "item_index": 4,
+   "record_id": null
+  },
+  "1171b052d3": {
+   "arm": "C",
+   "case_id": "aki_001",
+   "item_index": 5,
+   "record_id": null
+  },
+  "ee3777180b": {
+   "arm": "C",
+   "case_id": "aki_001",
+   "item_index": 6,
+   "record_id": null
+  },
+  "f6d93fd37b": {
+   "arm": "C",
+   "case_id": "aki_001",
+   "item_index": 7,
+   "record_id": null
+  },
+  "8d603d40aa": {
+   "arm": "C",
+   "case_id": "aki_001",
+   "item_index": 8,
+   "record_id": null
+  },
+  "2f69486da4": {
+   "arm": "C",
+   "case_id": "aki_001",
+   "item_index": 9,
+   "record_id": null
+  },
+  "aad94e5902": {
+   "arm": "C",
+   "case_id": "aki_001",
+   "item_index": 10,
+   "record_id": null
+  },
+  "650be3ed96": {
+   "arm": "C",
+   "case_id": "aki_001",
+   "item_index": 11,
+   "record_id": null
+  },
+  "c483cbc445": {
+   "arm": "C",
+   "case_id": "aki_001",
+   "item_index": 12,
+   "record_id": null
+  },
+  "a8f7616ea7": {
+   "arm": "C",
+   "case_id": "aki_001",
+   "item_index": 13,
+   "record_id": null
+  },
+  "987073c8ef": {
+   "arm": "C",
+   "case_id": "aki_001",
+   "item_index": 14,
+   "record_id": null
+  },
+  "bdcd3d0bd8": {
+   "arm": "C",
+   "case_id": "aki_001",
+   "item_index": 15,
+   "record_id": null
+  },
+  "c5273fccb8": {
+   "arm": "C",
+   "case_id": "aki_001",
+   "item_index": 16,
+   "record_id": null
+  },
+  "d66a534247": {
+   "arm": "C",
+   "case_id": "aki_001",
+   "item_index": 17,
+   "record_id": null
+  },
+  "68e49602d0": {
+   "arm": "C",
+   "case_id": "aki_001",
+   "item_index": 18,
+   "record_id": null
+  },
+  "b8dc9766db": {
+   "arm": "C",
+   "case_id": "aki_001",
+   "item_index": 19,
+   "record_id": null
+  },
+  "29dd256b2c": {
+   "arm": "C",
+   "case_id": "aki_001",
+   "item_index": 20,
+   "record_id": null
+  },
+  "af00d781e9": {
+   "arm": "C",
+   "case_id": "aki_001",
+   "item_index": 21,
+   "record_id": null
+  },
+  "075970ed2f": {
+   "arm": "C",
+   "case_id": "aki_001",
+   "item_index": 22,
+   "record_id": null
+  },
+  "7659ab3418": {
+   "arm": "C",
+   "case_id": "aki_001",
+   "item_index": 23,
+   "record_id": null
+  },
+  "dfff203354": {
+   "arm": "C",
+   "case_id": "aki_001",
+   "item_index": 24,
+   "record_id": null
+  },
+  "3991415c7f": {
+   "arm": "C",
+   "case_id": "aki_001",
+   "item_index": 25,
+   "record_id": null
+  },
+  "7c0d5b8967": {
+   "arm": "C",
+   "case_id": "aki_001",
+   "item_index": 26,
+   "record_id": null
+  },
+  "f4b7a27085": {
+   "arm": "C",
+   "case_id": "aki_001",
+   "item_index": 27,
+   "record_id": null
+  },
+  "00f95f8275": {
+   "arm": "C",
+   "case_id": "aki_001",
+   "item_index": 28,
+   "record_id": null
+  },
+  "0f8c083f41": {
+   "arm": "C",
+   "case_id": "aki_001",
+   "item_index": 29,
+   "record_id": null
+  },
+  "ca39fa48be": {
+   "arm": "C",
+   "case_id": "aki_001",
+   "item_index": 30,
+   "record_id": null
+  },
+  "4e5a994565": {
+   "arm": "C",
+   "case_id": "aki_001",
+   "item_index": 31,
+   "record_id": null
+  },
+  "36fe5fe316": {
+   "arm": "C",
+   "case_id": "aki_001",
+   "item_index": 32,
+   "record_id": null
+  },
+  "d524aedea1": {
+   "arm": "C",
+   "case_id": "ams_001",
+   "item_index": 0,
+   "record_id": null
+  },
+  "daceb661be": {
+   "arm": "C",
+   "case_id": "ams_001",
+   "item_index": 1,
+   "record_id": null
+  },
+  "43cb25246c": {
+   "arm": "C",
+   "case_id": "ams_001",
+   "item_index": 2,
+   "record_id": null
+  },
+  "9891301058": {
+   "arm": "C",
+   "case_id": "ams_001",
+   "item_index": 3,
+   "record_id": null
+  },
+  "5d1e4288f6": {
+   "arm": "C",
+   "case_id": "ams_001",
+   "item_index": 4,
+   "record_id": null
+  },
+  "af9d6e3d20": {
+   "arm": "C",
+   "case_id": "ams_001",
+   "item_index": 5,
+   "record_id": null
+  },
+  "c3fec47be6": {
+   "arm": "C",
+   "case_id": "ams_001",
+   "item_index": 6,
+   "record_id": null
+  },
+  "64d1b3693b": {
+   "arm": "C",
+   "case_id": "ams_001",
+   "item_index": 7,
+   "record_id": null
+  },
+  "a4126b7ca1": {
+   "arm": "C",
+   "case_id": "ams_001",
+   "item_index": 8,
+   "record_id": null
+  },
+  "334e42bcc4": {
+   "arm": "C",
+   "case_id": "ams_001",
+   "item_index": 9,
+   "record_id": null
+  },
+  "a8dcf7bb2d": {
+   "arm": "C",
+   "case_id": "ams_001",
+   "item_index": 10,
+   "record_id": null
+  },
+  "e9e4e3b409": {
+   "arm": "C",
+   "case_id": "ams_001",
+   "item_index": 11,
+   "record_id": null
+  },
+  "c10941217c": {
+   "arm": "C",
+   "case_id": "ams_001",
+   "item_index": 12,
+   "record_id": null
+  },
+  "dbfb14fa5a": {
+   "arm": "C",
+   "case_id": "ams_001",
+   "item_index": 13,
+   "record_id": null
+  },
+  "0416a87a51": {
+   "arm": "C",
+   "case_id": "ams_001",
+   "item_index": 14,
+   "record_id": null
+  },
+  "1732b3f83c": {
+   "arm": "C",
+   "case_id": "ams_001",
+   "item_index": 15,
+   "record_id": null
+  },
+  "8bfca65fed": {
+   "arm": "C",
+   "case_id": "ams_001",
+   "item_index": 16,
+   "record_id": null
+  },
+  "12d838b142": {
+   "arm": "C",
+   "case_id": "ams_001",
+   "item_index": 17,
+   "record_id": null
+  },
+  "e9582d1f9e": {
+   "arm": "C",
+   "case_id": "ams_001",
+   "item_index": 18,
+   "record_id": null
+  },
+  "7c4e7fa792": {
+   "arm": "C",
+   "case_id": "ams_001",
+   "item_index": 19,
+   "record_id": null
+  },
+  "4c4bc5c980": {
+   "arm": "C",
+   "case_id": "ams_001",
+   "item_index": 20,
+   "record_id": null
+  },
+  "8318bdb3e3": {
+   "arm": "C",
+   "case_id": "ams_001",
+   "item_index": 21,
+   "record_id": null
+  },
+  "331a647e6d": {
+   "arm": "C",
+   "case_id": "ams_001",
+   "item_index": 22,
+   "record_id": null
+  },
+  "7106b49ca6": {
+   "arm": "C",
+   "case_id": "ams_001",
+   "item_index": 23,
+   "record_id": null
+  },
+  "2890df318f": {
+   "arm": "C",
+   "case_id": "ams_001",
+   "item_index": 24,
+   "record_id": null
+  },
+  "6209d990d3": {
+   "arm": "C",
+   "case_id": "ams_001",
+   "item_index": 25,
+   "record_id": null
+  },
+  "a180b7ef30": {
+   "arm": "C",
+   "case_id": "ams_001",
+   "item_index": 26,
+   "record_id": null
+  },
+  "77576427b4": {
+   "arm": "C",
+   "case_id": "ams_001",
+   "item_index": 27,
+   "record_id": null
+  },
+  "77d6ccadab": {
+   "arm": "C",
+   "case_id": "ams_001",
+   "item_index": 28,
+   "record_id": null
+  },
+  "4ac37bf8e6": {
+   "arm": "C",
+   "case_id": "ams_001",
+   "item_index": 29,
+   "record_id": null
+  },
+  "e879e88d88": {
+   "arm": "C",
+   "case_id": "ams_001",
+   "item_index": 30,
+   "record_id": null
+  },
+  "221b0f5d64": {
+   "arm": "C",
+   "case_id": "ams_001",
+   "item_index": 31,
+   "record_id": null
+  },
+  "7db1b7acfd": {
+   "arm": "C",
+   "case_id": "chest_pain_001",
+   "item_index": 0,
+   "record_id": null
+  },
+  "30bb5b5487": {
+   "arm": "C",
+   "case_id": "chest_pain_001",
+   "item_index": 1,
+   "record_id": null
+  },
+  "121a831aa5": {
+   "arm": "C",
+   "case_id": "chest_pain_001",
+   "item_index": 2,
+   "record_id": null
+  },
+  "79c9914c49": {
+   "arm": "C",
+   "case_id": "chest_pain_001",
+   "item_index": 3,
+   "record_id": null
+  },
+  "efd80c413e": {
+   "arm": "C",
+   "case_id": "chest_pain_001",
+   "item_index": 4,
+   "record_id": null
+  },
+  "0570ec92f8": {
+   "arm": "C",
+   "case_id": "chest_pain_001",
+   "item_index": 5,
+   "record_id": null
+  },
+  "363c775499": {
+   "arm": "C",
+   "case_id": "chest_pain_001",
+   "item_index": 6,
+   "record_id": null
+  },
+  "b9c9092f90": {
+   "arm": "C",
+   "case_id": "chest_pain_001",
+   "item_index": 7,
+   "record_id": null
+  },
+  "c93f2ae50f": {
+   "arm": "C",
+   "case_id": "chest_pain_001",
+   "item_index": 8,
+   "record_id": null
+  },
+  "52809f3e67": {
+   "arm": "C",
+   "case_id": "chest_pain_001",
+   "item_index": 9,
+   "record_id": null
+  },
+  "123cd42e10": {
+   "arm": "C",
+   "case_id": "chest_pain_001",
+   "item_index": 10,
+   "record_id": null
+  },
+  "2fa7cf72ee": {
+   "arm": "C",
+   "case_id": "chest_pain_001",
+   "item_index": 11,
+   "record_id": null
+  },
+  "160a087b42": {
+   "arm": "C",
+   "case_id": "chest_pain_001",
+   "item_index": 12,
+   "record_id": null
+  },
+  "07264d0bd5": {
+   "arm": "C",
+   "case_id": "chest_pain_001",
+   "item_index": 13,
+   "record_id": null
+  },
+  "2dfecfc5a4": {
+   "arm": "C",
+   "case_id": "chest_pain_001",
+   "item_index": 14,
+   "record_id": null
+  },
+  "02357f590b": {
+   "arm": "C",
+   "case_id": "chest_pain_001",
+   "item_index": 15,
+   "record_id": null
+  },
+  "bc19985e95": {
+   "arm": "C",
+   "case_id": "chest_pain_001",
+   "item_index": 16,
+   "record_id": null
+  },
+  "b8aa230c68": {
+   "arm": "C",
+   "case_id": "chest_pain_001",
+   "item_index": 17,
+   "record_id": null
+  },
+  "b26aad5646": {
+   "arm": "C",
+   "case_id": "chest_pain_001",
+   "item_index": 18,
+   "record_id": null
+  },
+  "2ba9cc8acf": {
+   "arm": "C",
+   "case_id": "chest_pain_001",
+   "item_index": 19,
+   "record_id": null
+  },
+  "11446cb7dd": {
+   "arm": "C",
+   "case_id": "chest_pain_001",
+   "item_index": 20,
+   "record_id": null
+  },
+  "035c8f5c52": {
+   "arm": "C",
+   "case_id": "chest_pain_001",
+   "item_index": 21,
+   "record_id": null
+  },
+  "4068210023": {
+   "arm": "C",
+   "case_id": "chest_pain_001",
+   "item_index": 22,
+   "record_id": null
+  },
+  "76f849dfe8": {
+   "arm": "C",
+   "case_id": "chest_pain_001",
+   "item_index": 23,
+   "record_id": null
+  },
+  "1ef072fe78": {
+   "arm": "C",
+   "case_id": "chest_pain_001",
+   "item_index": 24,
+   "record_id": null
+  },
+  "0408abd7f1": {
+   "arm": "C",
+   "case_id": "chest_pain_001",
+   "item_index": 25,
+   "record_id": null
+  },
+  "eaa7ca0fca": {
+   "arm": "C",
+   "case_id": "chest_pain_001",
+   "item_index": 26,
+   "record_id": null
+  },
+  "44a996bdb9": {
+   "arm": "C",
+   "case_id": "chest_pain_001",
+   "item_index": 27,
+   "record_id": null
+  },
+  "ced9e1d671": {
+   "arm": "C",
+   "case_id": "chest_pain_001",
+   "item_index": 28,
+   "record_id": null
+  },
+  "c1569cc005": {
+   "arm": "C",
+   "case_id": "chest_pain_001",
+   "item_index": 29,
+   "record_id": null
+  },
+  "1f65b8a898": {
+   "arm": "C",
+   "case_id": "chest_pain_001",
+   "item_index": 30,
+   "record_id": null
+  },
+  "9b43c91175": {
+   "arm": "C",
+   "case_id": "chest_pain_001",
+   "item_index": 31,
+   "record_id": null
+  },
+  "04d8e8e681": {
+   "arm": "C",
+   "case_id": "chest_pain_001",
+   "item_index": 32,
+   "record_id": null
+  },
+  "7b0d36d394": {
+   "arm": "C",
+   "case_id": "chest_pain_001",
+   "item_index": 33,
+   "record_id": null
+  },
+  "5fa5ff3540": {
+   "arm": "C",
+   "case_id": "chest_pain_001",
+   "item_index": 34,
+   "record_id": null
+  },
+  "8fda93a7ff": {
+   "arm": "C",
+   "case_id": "chest_pain_001",
+   "item_index": 35,
+   "record_id": null
+  },
+  "c62b17b3e1": {
+   "arm": "C",
+   "case_id": "dizziness_001",
+   "item_index": 0,
+   "record_id": null
+  },
+  "40a31e5f13": {
+   "arm": "C",
+   "case_id": "dizziness_001",
+   "item_index": 1,
+   "record_id": null
+  },
+  "7dbb611c31": {
+   "arm": "C",
+   "case_id": "dizziness_001",
+   "item_index": 2,
+   "record_id": null
+  },
+  "eb70c93d24": {
+   "arm": "C",
+   "case_id": "dizziness_001",
+   "item_index": 3,
+   "record_id": null
+  },
+  "c2e059d04a": {
+   "arm": "C",
+   "case_id": "dizziness_001",
+   "item_index": 4,
+   "record_id": null
+  },
+  "031009b93d": {
+   "arm": "C",
+   "case_id": "dizziness_001",
+   "item_index": 5,
+   "record_id": null
+  },
+  "65b9a51fec": {
+   "arm": "C",
+   "case_id": "dizziness_001",
+   "item_index": 6,
+   "record_id": null
+  },
+  "0de0414f8d": {
+   "arm": "C",
+   "case_id": "dizziness_001",
+   "item_index": 7,
+   "record_id": null
+  },
+  "764533761b": {
+   "arm": "C",
+   "case_id": "dizziness_001",
+   "item_index": 8,
+   "record_id": null
+  },
+  "5fd80855da": {
+   "arm": "C",
+   "case_id": "dizziness_001",
+   "item_index": 9,
+   "record_id": null
+  },
+  "2f0101fc55": {
+   "arm": "C",
+   "case_id": "dizziness_001",
+   "item_index": 10,
+   "record_id": null
+  },
+  "05db976cd2": {
+   "arm": "C",
+   "case_id": "dizziness_001",
+   "item_index": 11,
+   "record_id": null
+  },
+  "e35090d4b2": {
+   "arm": "C",
+   "case_id": "dizziness_001",
+   "item_index": 12,
+   "record_id": null
+  },
+  "97e2daf071": {
+   "arm": "C",
+   "case_id": "dizziness_001",
+   "item_index": 13,
+   "record_id": null
+  },
+  "0d8ccfd88e": {
+   "arm": "C",
+   "case_id": "dizziness_001",
+   "item_index": 14,
+   "record_id": null
+  },
+  "40672574bc": {
+   "arm": "C",
+   "case_id": "dizziness_001",
+   "item_index": 15,
+   "record_id": null
+  },
+  "de800db62b": {
+   "arm": "C",
+   "case_id": "dizziness_001",
+   "item_index": 16,
+   "record_id": null
+  },
+  "41446fff95": {
+   "arm": "C",
+   "case_id": "dizziness_001",
+   "item_index": 17,
+   "record_id": null
+  },
+  "61fe88e797": {
+   "arm": "C",
+   "case_id": "dizziness_001",
+   "item_index": 18,
+   "record_id": null
+  },
+  "09ac0a6200": {
+   "arm": "C",
+   "case_id": "dizziness_001",
+   "item_index": 19,
+   "record_id": null
+  },
+  "2b2c8e325e": {
+   "arm": "C",
+   "case_id": "dizziness_001",
+   "item_index": 20,
+   "record_id": null
+  },
+  "d78363ff9b": {
+   "arm": "C",
+   "case_id": "dizziness_001",
+   "item_index": 21,
+   "record_id": null
+  },
+  "5fb878efc8": {
+   "arm": "C",
+   "case_id": "dizziness_001",
+   "item_index": 22,
+   "record_id": null
+  },
+  "459567cb84": {
+   "arm": "C",
+   "case_id": "dizziness_001",
+   "item_index": 23,
+   "record_id": null
+  },
+  "0808bf9613": {
+   "arm": "C",
+   "case_id": "dyspnea_001",
+   "item_index": 0,
+   "record_id": null
+  },
+  "c2c3807f62": {
+   "arm": "C",
+   "case_id": "dyspnea_001",
+   "item_index": 1,
+   "record_id": null
+  },
+  "a6ea309384": {
+   "arm": "C",
+   "case_id": "dyspnea_001",
+   "item_index": 2,
+   "record_id": null
+  },
+  "5d56aa7d84": {
+   "arm": "C",
+   "case_id": "dyspnea_001",
+   "item_index": 3,
+   "record_id": null
+  },
+  "67fe6e8492": {
+   "arm": "C",
+   "case_id": "dyspnea_001",
+   "item_index": 4,
+   "record_id": null
+  },
+  "2fdd84e62c": {
+   "arm": "C",
+   "case_id": "dyspnea_001",
+   "item_index": 5,
+   "record_id": null
+  },
+  "10110e16e6": {
+   "arm": "C",
+   "case_id": "dyspnea_001",
+   "item_index": 6,
+   "record_id": null
+  },
+  "2511cc0012": {
+   "arm": "C",
+   "case_id": "dyspnea_001",
+   "item_index": 7,
+   "record_id": null
+  },
+  "8bcec4e425": {
+   "arm": "C",
+   "case_id": "dyspnea_001",
+   "item_index": 8,
+   "record_id": null
+  },
+  "e50e716f6e": {
+   "arm": "C",
+   "case_id": "dyspnea_001",
+   "item_index": 9,
+   "record_id": null
+  },
+  "e1dcbe6f5a": {
+   "arm": "C",
+   "case_id": "dyspnea_001",
+   "item_index": 10,
+   "record_id": null
+  },
+  "f1c6655e9d": {
+   "arm": "C",
+   "case_id": "dyspnea_001",
+   "item_index": 11,
+   "record_id": null
+  },
+  "1fe9979b2a": {
+   "arm": "C",
+   "case_id": "dyspnea_001",
+   "item_index": 12,
+   "record_id": null
+  },
+  "2938f40299": {
+   "arm": "C",
+   "case_id": "dyspnea_001",
+   "item_index": 13,
+   "record_id": null
+  },
+  "bcde5ea0ab": {
+   "arm": "C",
+   "case_id": "dyspnea_001",
+   "item_index": 14,
+   "record_id": null
+  },
+  "08c6c5e15d": {
+   "arm": "C",
+   "case_id": "dyspnea_001",
+   "item_index": 15,
+   "record_id": null
+  },
+  "fbf4011f7e": {
+   "arm": "C",
+   "case_id": "dyspnea_001",
+   "item_index": 16,
+   "record_id": null
+  },
+  "4dea765574": {
+   "arm": "C",
+   "case_id": "dyspnea_001",
+   "item_index": 17,
+   "record_id": null
+  },
+  "12d855baf3": {
+   "arm": "C",
+   "case_id": "dyspnea_001",
+   "item_index": 18,
+   "record_id": null
+  },
+  "ccb45a4233": {
+   "arm": "C",
+   "case_id": "dyspnea_001",
+   "item_index": 19,
+   "record_id": null
+  },
+  "ebadaa2870": {
+   "arm": "C",
+   "case_id": "dyspnea_001",
+   "item_index": 20,
+   "record_id": null
+  },
+  "fce8e3bda1": {
+   "arm": "C",
+   "case_id": "dyspnea_001",
+   "item_index": 21,
+   "record_id": null
+  },
+  "29ea695c66": {
+   "arm": "C",
+   "case_id": "dyspnea_001",
+   "item_index": 22,
+   "record_id": null
+  },
+  "cd8bf4e3d2": {
+   "arm": "C",
+   "case_id": "dyspnea_001",
+   "item_index": 23,
+   "record_id": null
+  },
+  "7c298f01c4": {
+   "arm": "C",
+   "case_id": "dyspnea_001",
+   "item_index": 24,
+   "record_id": null
+  },
+  "912979a754": {
+   "arm": "C",
+   "case_id": "dyspnea_001",
+   "item_index": 25,
+   "record_id": null
+  },
+  "da339f5d0a": {
+   "arm": "C",
+   "case_id": "dyspnea_001",
+   "item_index": 26,
+   "record_id": null
+  },
+  "81d6a8e072": {
+   "arm": "C",
+   "case_id": "dyspnea_001",
+   "item_index": 27,
+   "record_id": null
+  },
+  "da4192d869": {
+   "arm": "C",
+   "case_id": "edema_001",
+   "item_index": 0,
+   "record_id": null
+  },
+  "b31847e95b": {
+   "arm": "C",
+   "case_id": "edema_001",
+   "item_index": 1,
+   "record_id": null
+  },
+  "b410d239bc": {
+   "arm": "C",
+   "case_id": "edema_001",
+   "item_index": 2,
+   "record_id": null
+  },
+  "f699f8c49f": {
+   "arm": "C",
+   "case_id": "edema_001",
+   "item_index": 3,
+   "record_id": null
+  },
+  "659e07f457": {
+   "arm": "C",
+   "case_id": "edema_001",
+   "item_index": 4,
+   "record_id": null
+  },
+  "ca30fbd723": {
+   "arm": "C",
+   "case_id": "edema_001",
+   "item_index": 5,
+   "record_id": null
+  },
+  "62451cfd3b": {
+   "arm": "C",
+   "case_id": "edema_001",
+   "item_index": 6,
+   "record_id": null
+  },
+  "f6c4958a60": {
+   "arm": "C",
+   "case_id": "edema_001",
+   "item_index": 7,
+   "record_id": null
+  },
+  "d4d1a6e989": {
+   "arm": "C",
+   "case_id": "edema_001",
+   "item_index": 8,
+   "record_id": null
+  },
+  "e6909751e0": {
+   "arm": "C",
+   "case_id": "edema_001",
+   "item_index": 9,
+   "record_id": null
+  },
+  "dd745eb3eb": {
+   "arm": "C",
+   "case_id": "edema_001",
+   "item_index": 10,
+   "record_id": null
+  },
+  "bf1c7250c2": {
+   "arm": "C",
+   "case_id": "edema_001",
+   "item_index": 11,
+   "record_id": null
+  },
+  "3cdc08fb46": {
+   "arm": "C",
+   "case_id": "edema_001",
+   "item_index": 12,
+   "record_id": null
+  },
+  "48ec82b1a6": {
+   "arm": "C",
+   "case_id": "edema_001",
+   "item_index": 13,
+   "record_id": null
+  },
+  "de0653c5ee": {
+   "arm": "C",
+   "case_id": "edema_001",
+   "item_index": 14,
+   "record_id": null
+  },
+  "f915573d9a": {
+   "arm": "C",
+   "case_id": "edema_001",
+   "item_index": 15,
+   "record_id": null
+  },
+  "df1503d0d8": {
+   "arm": "C",
+   "case_id": "edema_001",
+   "item_index": 16,
+   "record_id": null
+  },
+  "872818a2ca": {
+   "arm": "C",
+   "case_id": "edema_001",
+   "item_index": 17,
+   "record_id": null
+  },
+  "1ca1229850": {
+   "arm": "C",
+   "case_id": "edema_001",
+   "item_index": 18,
+   "record_id": null
+  },
+  "00f720f033": {
+   "arm": "C",
+   "case_id": "edema_001",
+   "item_index": 19,
+   "record_id": null
+  },
+  "54df9d8201": {
+   "arm": "C",
+   "case_id": "edema_001",
+   "item_index": 20,
+   "record_id": null
+  },
+  "0aca55a679": {
+   "arm": "C",
+   "case_id": "edema_001",
+   "item_index": 21,
+   "record_id": null
+  },
+  "5f1e6bde09": {
+   "arm": "C",
+   "case_id": "edema_001",
+   "item_index": 22,
+   "record_id": null
+  },
+  "66829cbe3d": {
+   "arm": "C",
+   "case_id": "edema_001",
+   "item_index": 23,
+   "record_id": null
+  },
+  "7286d627d9": {
+   "arm": "C",
+   "case_id": "edema_001",
+   "item_index": 24,
+   "record_id": null
+  },
+  "e1f23c7921": {
+   "arm": "C",
+   "case_id": "edema_001",
+   "item_index": 25,
+   "record_id": null
+  },
+  "38f14f3c25": {
+   "arm": "C",
+   "case_id": "edema_001",
+   "item_index": 26,
+   "record_id": null
+  },
+  "eb400d811a": {
+   "arm": "C",
+   "case_id": "edema_001",
+   "item_index": 27,
+   "record_id": null
+  },
+  "ed8c4f314c": {
+   "arm": "C",
+   "case_id": "edema_001",
+   "item_index": 28,
+   "record_id": null
+  },
+  "beea2ab7f4": {
+   "arm": "C",
+   "case_id": "edema_001",
+   "item_index": 29,
+   "record_id": null
+  },
+  "c30a5d4781": {
+   "arm": "C",
+   "case_id": "edema_001",
+   "item_index": 30,
+   "record_id": null
+  },
+  "6ecdd057c7": {
+   "arm": "C",
+   "case_id": "edema_001",
+   "item_index": 31,
+   "record_id": null
+  },
+  "af49866628": {
+   "arm": "C",
+   "case_id": "edema_001",
+   "item_index": 32,
+   "record_id": null
+  },
+  "1797f2f1a0": {
+   "arm": "C",
+   "case_id": "edema_001",
+   "item_index": 33,
+   "record_id": null
+  },
+  "0f9c2f7464": {
+   "arm": "C",
+   "case_id": "edema_001",
+   "item_index": 34,
+   "record_id": null
+  },
+  "2f323fb0c2": {
+   "arm": "C",
+   "case_id": "fever_001",
+   "item_index": 0,
+   "record_id": null
+  },
+  "cb30a80e26": {
+   "arm": "C",
+   "case_id": "fever_001",
+   "item_index": 1,
+   "record_id": null
+  },
+  "b61c90bb5a": {
+   "arm": "C",
+   "case_id": "fever_001",
+   "item_index": 2,
+   "record_id": null
+  },
+  "0d7b9df25b": {
+   "arm": "C",
+   "case_id": "fever_001",
+   "item_index": 3,
+   "record_id": null
+  },
+  "ddfeb8d8a9": {
+   "arm": "C",
+   "case_id": "fever_001",
+   "item_index": 4,
+   "record_id": null
+  },
+  "9b9639a532": {
+   "arm": "C",
+   "case_id": "fever_001",
+   "item_index": 5,
+   "record_id": null
+  },
+  "15ae709094": {
+   "arm": "C",
+   "case_id": "fever_001",
+   "item_index": 6,
+   "record_id": null
+  },
+  "360db49065": {
+   "arm": "C",
+   "case_id": "fever_001",
+   "item_index": 7,
+   "record_id": null
+  },
+  "f8ad1c250e": {
+   "arm": "C",
+   "case_id": "fever_001",
+   "item_index": 8,
+   "record_id": null
+  },
+  "7f4c23b780": {
+   "arm": "C",
+   "case_id": "fever_001",
+   "item_index": 9,
+   "record_id": null
+  },
+  "18bf515f44": {
+   "arm": "C",
+   "case_id": "fever_001",
+   "item_index": 10,
+   "record_id": null
+  },
+  "8f2ca6b075": {
+   "arm": "C",
+   "case_id": "fever_001",
+   "item_index": 11,
+   "record_id": null
+  },
+  "4771343c8d": {
+   "arm": "C",
+   "case_id": "fever_001",
+   "item_index": 12,
+   "record_id": null
+  },
+  "79065bf88e": {
+   "arm": "C",
+   "case_id": "fever_001",
+   "item_index": 13,
+   "record_id": null
+  },
+  "0a21d6fd3d": {
+   "arm": "C",
+   "case_id": "fever_001",
+   "item_index": 14,
+   "record_id": null
+  },
+  "779d2b7d77": {
+   "arm": "C",
+   "case_id": "fever_001",
+   "item_index": 15,
+   "record_id": null
+  },
+  "0d2308efd9": {
+   "arm": "C",
+   "case_id": "fever_001",
+   "item_index": 16,
+   "record_id": null
+  },
+  "b3c618b6cd": {
+   "arm": "C",
+   "case_id": "fever_001",
+   "item_index": 17,
+   "record_id": null
+  },
+  "47c72e139e": {
+   "arm": "C",
+   "case_id": "fever_001",
+   "item_index": 18,
+   "record_id": null
+  },
+  "7320be3b57": {
+   "arm": "C",
+   "case_id": "fever_001",
+   "item_index": 19,
+   "record_id": null
+  },
+  "816526f5aa": {
+   "arm": "C",
+   "case_id": "fever_001",
+   "item_index": 20,
+   "record_id": null
+  },
+  "6239c7276f": {
+   "arm": "C",
+   "case_id": "fever_001",
+   "item_index": 21,
+   "record_id": null
+  },
+  "4494722a6a": {
+   "arm": "C",
+   "case_id": "fever_001",
+   "item_index": 22,
+   "record_id": null
+  },
+  "ed77e1c4ff": {
+   "arm": "C",
+   "case_id": "fever_001",
+   "item_index": 23,
+   "record_id": null
+  },
+  "4531a9fe8b": {
+   "arm": "C",
+   "case_id": "fever_001",
+   "item_index": 24,
+   "record_id": null
+  },
+  "17de02c6bd": {
+   "arm": "C",
+   "case_id": "fever_001",
+   "item_index": 25,
+   "record_id": null
+  },
+  "a68754a4e4": {
+   "arm": "C",
+   "case_id": "fever_001",
+   "item_index": 26,
+   "record_id": null
+  },
+  "2bb6fb8196": {
+   "arm": "C",
+   "case_id": "hypotension_001",
+   "item_index": 0,
+   "record_id": null
+  },
+  "318c347335": {
+   "arm": "C",
+   "case_id": "hypotension_001",
+   "item_index": 1,
+   "record_id": null
+  },
+  "f9800376fb": {
+   "arm": "C",
+   "case_id": "hypotension_001",
+   "item_index": 2,
+   "record_id": null
+  },
+  "f7d7e85f12": {
+   "arm": "C",
+   "case_id": "hypotension_001",
+   "item_index": 3,
+   "record_id": null
+  },
+  "3a124f2b23": {
+   "arm": "C",
+   "case_id": "hypotension_001",
+   "item_index": 4,
+   "record_id": null
+  },
+  "f715a289a5": {
+   "arm": "C",
+   "case_id": "hypotension_001",
+   "item_index": 5,
+   "record_id": null
+  },
+  "b3d4cb9499": {
+   "arm": "C",
+   "case_id": "hypotension_001",
+   "item_index": 6,
+   "record_id": null
+  },
+  "cec168db42": {
+   "arm": "C",
+   "case_id": "hypotension_001",
+   "item_index": 7,
+   "record_id": null
+  },
+  "ee34ec95fc": {
+   "arm": "C",
+   "case_id": "hypotension_001",
+   "item_index": 8,
+   "record_id": null
+  },
+  "e1ea20d50f": {
+   "arm": "C",
+   "case_id": "hypotension_001",
+   "item_index": 9,
+   "record_id": null
+  },
+  "057feef0b9": {
+   "arm": "C",
+   "case_id": "hypotension_001",
+   "item_index": 10,
+   "record_id": null
+  },
+  "5a41977486": {
+   "arm": "C",
+   "case_id": "hypotension_001",
+   "item_index": 11,
+   "record_id": null
+  },
+  "b746862579": {
+   "arm": "C",
+   "case_id": "hypotension_001",
+   "item_index": 12,
+   "record_id": null
+  },
+  "dffdd68908": {
+   "arm": "C",
+   "case_id": "hypotension_001",
+   "item_index": 13,
+   "record_id": null
+  },
+  "dd2a115272": {
+   "arm": "C",
+   "case_id": "hypotension_001",
+   "item_index": 14,
+   "record_id": null
+  },
+  "385648b37f": {
+   "arm": "C",
+   "case_id": "hypotension_001",
+   "item_index": 15,
+   "record_id": null
+  },
+  "805577b110": {
+   "arm": "C",
+   "case_id": "hypotension_001",
+   "item_index": 16,
+   "record_id": null
+  },
+  "fbecf39cf0": {
+   "arm": "C",
+   "case_id": "hypotension_001",
+   "item_index": 17,
+   "record_id": null
+  },
+  "ccd15ac40c": {
+   "arm": "C",
+   "case_id": "hypotension_001",
+   "item_index": 18,
+   "record_id": null
+  },
+  "bf02cf5c82": {
+   "arm": "C",
+   "case_id": "hypotension_001",
+   "item_index": 19,
+   "record_id": null
+  },
+  "e0d3626639": {
+   "arm": "C",
+   "case_id": "hypotension_001",
+   "item_index": 20,
+   "record_id": null
+  },
+  "49c51b28da": {
+   "arm": "C",
+   "case_id": "hypotension_001",
+   "item_index": 21,
+   "record_id": null
+  },
+  "fb984c7a1a": {
+   "arm": "C",
+   "case_id": "hypotension_001",
+   "item_index": 22,
+   "record_id": null
+  },
+  "e3d1292aea": {
+   "arm": "C",
+   "case_id": "hypotension_001",
+   "item_index": 23,
+   "record_id": null
+  },
+  "9a932a4646": {
+   "arm": "C",
+   "case_id": "hypotension_001",
+   "item_index": 24,
+   "record_id": null
+  },
+  "5d46e9aac7": {
+   "arm": "C",
+   "case_id": "hypotension_001",
+   "item_index": 25,
+   "record_id": null
+  },
+  "ad895c4e25": {
+   "arm": "C",
+   "case_id": "hypotension_001",
+   "item_index": 26,
+   "record_id": null
+  },
+  "e99f2a0621": {
+   "arm": "C",
+   "case_id": "hypotension_001",
+   "item_index": 27,
+   "record_id": null
+  },
+  "826ee6b2b3": {
+   "arm": "C",
+   "case_id": "hypotension_001",
+   "item_index": 28,
+   "record_id": null
+  },
+  "a0d2062795": {
+   "arm": "C",
+   "case_id": "hypotension_001",
+   "item_index": 29,
+   "record_id": null
+  },
+  "3f0eb4c293": {
+   "arm": "C",
+   "case_id": "hypotension_001",
+   "item_index": 30,
+   "record_id": null
+  },
+  "584667e45b": {
+   "arm": "C",
+   "case_id": "hypotension_001",
+   "item_index": 31,
+   "record_id": null
+  },
+  "51ad8017ef": {
+   "arm": "C",
+   "case_id": "hypotension_001",
+   "item_index": 32,
+   "record_id": null
+  },
+  "1f1069abb0": {
+   "arm": "C",
+   "case_id": "hypotension_001",
+   "item_index": 33,
+   "record_id": null
+  },
+  "39640a143e": {
+   "arm": "C",
+   "case_id": "palpitations_001",
+   "item_index": 0,
+   "record_id": null
+  },
+  "5caedff669": {
+   "arm": "C",
+   "case_id": "palpitations_001",
+   "item_index": 1,
+   "record_id": null
+  },
+  "2045d64e10": {
+   "arm": "C",
+   "case_id": "palpitations_001",
+   "item_index": 2,
+   "record_id": null
+  },
+  "ed01096aec": {
+   "arm": "C",
+   "case_id": "palpitations_001",
+   "item_index": 3,
+   "record_id": null
+  },
+  "0dbaf7c7cd": {
+   "arm": "C",
+   "case_id": "palpitations_001",
+   "item_index": 4,
+   "record_id": null
+  },
+  "a5c732b541": {
+   "arm": "C",
+   "case_id": "palpitations_001",
+   "item_index": 5,
+   "record_id": null
+  },
+  "455d61139d": {
+   "arm": "C",
+   "case_id": "palpitations_001",
+   "item_index": 6,
+   "record_id": null
+  },
+  "a1528bfeb9": {
+   "arm": "C",
+   "case_id": "palpitations_001",
+   "item_index": 7,
+   "record_id": null
+  },
+  "2d4c0bd384": {
+   "arm": "C",
+   "case_id": "palpitations_001",
+   "item_index": 8,
+   "record_id": null
+  },
+  "9f25a0face": {
+   "arm": "C",
+   "case_id": "palpitations_001",
+   "item_index": 9,
+   "record_id": null
+  },
+  "902d2b6207": {
+   "arm": "C",
+   "case_id": "palpitations_001",
+   "item_index": 10,
+   "record_id": null
+  },
+  "3290439c8c": {
+   "arm": "C",
+   "case_id": "palpitations_001",
+   "item_index": 11,
+   "record_id": null
+  },
+  "aa98094a2c": {
+   "arm": "C",
+   "case_id": "palpitations_001",
+   "item_index": 12,
+   "record_id": null
+  },
+  "416e1dcf4b": {
+   "arm": "C",
+   "case_id": "palpitations_001",
+   "item_index": 13,
+   "record_id": null
+  },
+  "b0c39b2f0c": {
+   "arm": "C",
+   "case_id": "palpitations_001",
+   "item_index": 14,
+   "record_id": null
+  },
+  "1018684447": {
+   "arm": "C",
+   "case_id": "palpitations_001",
+   "item_index": 15,
+   "record_id": null
+  },
+  "6c74f9c5d1": {
+   "arm": "C",
+   "case_id": "palpitations_001",
+   "item_index": 16,
+   "record_id": null
+  },
+  "a5aae3c2d6": {
+   "arm": "C",
+   "case_id": "palpitations_001",
+   "item_index": 17,
+   "record_id": null
+  },
+  "5e6f5d25bc": {
+   "arm": "C",
+   "case_id": "palpitations_001",
+   "item_index": 18,
+   "record_id": null
+  },
+  "0b6334a0d0": {
+   "arm": "C",
+   "case_id": "palpitations_001",
+   "item_index": 19,
+   "record_id": null
+  },
+  "9aa882aed7": {
+   "arm": "C",
+   "case_id": "palpitations_001",
+   "item_index": 20,
+   "record_id": null
+  },
+  "72adaa1f49": {
+   "arm": "C",
+   "case_id": "palpitations_001",
+   "item_index": 21,
+   "record_id": null
+  },
+  "4fba7572bf": {
+   "arm": "C",
+   "case_id": "palpitations_001",
+   "item_index": 22,
+   "record_id": null
+  },
+  "5af26d1d07": {
+   "arm": "C",
+   "case_id": "palpitations_001",
+   "item_index": 23,
+   "record_id": null
+  },
+  "d4ede4adcb": {
+   "arm": "C",
+   "case_id": "palpitations_001",
+   "item_index": 24,
+   "record_id": null
+  },
+  "b23397770f": {
+   "arm": "C",
+   "case_id": "palpitations_001",
+   "item_index": 25,
+   "record_id": null
+  },
+  "760420f28d": {
+   "arm": "C",
+   "case_id": "palpitations_001",
+   "item_index": 26,
+   "record_id": null
+  },
+  "412601286e": {
+   "arm": "C",
+   "case_id": "palpitations_001",
+   "item_index": 27,
+   "record_id": null
+  },
+  "8717be0568": {
+   "arm": "C",
+   "case_id": "palpitations_001",
+   "item_index": 28,
+   "record_id": null
+  },
+  "b1b539147d": {
+   "arm": "C",
+   "case_id": "syncope_001",
+   "item_index": 0,
+   "record_id": null
+  },
+  "ae5826c0c5": {
+   "arm": "C",
+   "case_id": "syncope_001",
+   "item_index": 1,
+   "record_id": null
+  },
+  "cc96ae665b": {
+   "arm": "C",
+   "case_id": "syncope_001",
+   "item_index": 2,
+   "record_id": null
+  },
+  "168ae34371": {
+   "arm": "C",
+   "case_id": "syncope_001",
+   "item_index": 3,
+   "record_id": null
+  },
+  "772e7786d2": {
+   "arm": "C",
+   "case_id": "syncope_001",
+   "item_index": 4,
+   "record_id": null
+  },
+  "534c8ced82": {
+   "arm": "C",
+   "case_id": "syncope_001",
+   "item_index": 5,
+   "record_id": null
+  },
+  "ae6b726fa2": {
+   "arm": "C",
+   "case_id": "syncope_001",
+   "item_index": 6,
+   "record_id": null
+  },
+  "76612e7169": {
+   "arm": "C",
+   "case_id": "syncope_001",
+   "item_index": 7,
+   "record_id": null
+  },
+  "f7b7708804": {
+   "arm": "C",
+   "case_id": "syncope_001",
+   "item_index": 8,
+   "record_id": null
+  },
+  "7c0303777d": {
+   "arm": "C",
+   "case_id": "syncope_001",
+   "item_index": 9,
+   "record_id": null
+  },
+  "96fbfeb7ec": {
+   "arm": "C",
+   "case_id": "syncope_001",
+   "item_index": 10,
+   "record_id": null
+  },
+  "d83d6221f2": {
+   "arm": "C",
+   "case_id": "syncope_001",
+   "item_index": 11,
+   "record_id": null
+  },
+  "d21c7603de": {
+   "arm": "C",
+   "case_id": "syncope_001",
+   "item_index": 12,
+   "record_id": null
+  },
+  "ee82830dbc": {
+   "arm": "C",
+   "case_id": "syncope_001",
+   "item_index": 13,
+   "record_id": null
+  },
+  "3028fd59f1": {
+   "arm": "C",
+   "case_id": "syncope_001",
+   "item_index": 14,
+   "record_id": null
+  },
+  "3dac05337e": {
+   "arm": "C",
+   "case_id": "syncope_001",
+   "item_index": 15,
+   "record_id": null
+  },
+  "9efd0f7f7e": {
+   "arm": "C",
+   "case_id": "syncope_001",
+   "item_index": 16,
+   "record_id": null
+  },
+  "16beec7ab1": {
+   "arm": "C",
+   "case_id": "syncope_001",
+   "item_index": 17,
+   "record_id": null
+  },
+  "ef6c6f245f": {
+   "arm": "C",
+   "case_id": "syncope_001",
+   "item_index": 18,
+   "record_id": null
+  },
+  "54c786de3b": {
+   "arm": "C",
+   "case_id": "syncope_001",
+   "item_index": 19,
+   "record_id": null
+  },
+  "c808ad6a78": {
+   "arm": "C",
+   "case_id": "syncope_001",
+   "item_index": 20,
+   "record_id": null
+  },
+  "9e0ac0d224": {
+   "arm": "C",
+   "case_id": "syncope_001",
+   "item_index": 21,
+   "record_id": null
+  },
+  "e3d03e3b17": {
+   "arm": "C",
+   "case_id": "weakness_001",
+   "item_index": 0,
+   "record_id": null
+  },
+  "ae63f561ce": {
+   "arm": "C",
+   "case_id": "weakness_001",
+   "item_index": 1,
+   "record_id": null
+  },
+  "3d05f666e0": {
+   "arm": "C",
+   "case_id": "weakness_001",
+   "item_index": 2,
+   "record_id": null
+  },
+  "6e313481ad": {
+   "arm": "C",
+   "case_id": "weakness_001",
+   "item_index": 3,
+   "record_id": null
+  },
+  "52fed7a161": {
+   "arm": "C",
+   "case_id": "weakness_001",
+   "item_index": 4,
+   "record_id": null
+  },
+  "25a03627ef": {
+   "arm": "C",
+   "case_id": "weakness_001",
+   "item_index": 5,
+   "record_id": null
+  },
+  "9abdfbec77": {
+   "arm": "C",
+   "case_id": "weakness_001",
+   "item_index": 6,
+   "record_id": null
+  },
+  "9a42901256": {
+   "arm": "C",
+   "case_id": "weakness_001",
+   "item_index": 7,
+   "record_id": null
+  },
+  "dd36adc503": {
+   "arm": "C",
+   "case_id": "weakness_001",
+   "item_index": 8,
+   "record_id": null
+  },
+  "b936139ac3": {
+   "arm": "C",
+   "case_id": "weakness_001",
+   "item_index": 9,
+   "record_id": null
+  },
+  "afda831ccc": {
+   "arm": "C",
+   "case_id": "weakness_001",
+   "item_index": 10,
+   "record_id": null
+  },
+  "e6e6875144": {
+   "arm": "C",
+   "case_id": "weakness_001",
+   "item_index": 11,
+   "record_id": null
+  },
+  "7bd5dc0e9f": {
+   "arm": "C",
+   "case_id": "weakness_001",
+   "item_index": 12,
+   "record_id": null
+  },
+  "27bac56373": {
+   "arm": "C",
+   "case_id": "weakness_001",
+   "item_index": 13,
+   "record_id": null
+  },
+  "95853550d5": {
+   "arm": "C",
+   "case_id": "weakness_001",
+   "item_index": 14,
+   "record_id": null
+  },
+  "0945e0411e": {
+   "arm": "C",
+   "case_id": "weakness_001",
+   "item_index": 15,
+   "record_id": null
+  },
+  "84754aca40": {
+   "arm": "C",
+   "case_id": "weakness_001",
+   "item_index": 16,
+   "record_id": null
+  },
+  "79fb65c0c7": {
+   "arm": "C",
+   "case_id": "weakness_001",
+   "item_index": 17,
+   "record_id": null
+  },
+  "d083ab9154": {
+   "arm": "C",
+   "case_id": "weakness_001",
+   "item_index": 18,
+   "record_id": null
+  },
+  "94a74cca07": {
+   "arm": "C",
+   "case_id": "weakness_001",
+   "item_index": 19,
+   "record_id": null
+  },
+  "9070879f18": {
+   "arm": "C",
+   "case_id": "weakness_001",
+   "item_index": 20,
+   "record_id": null
+  },
+  "aa74682614": {
+   "arm": "C",
+   "case_id": "weakness_001",
+   "item_index": 21,
+   "record_id": null
+  },
+  "693ed30395": {
+   "arm": "C",
+   "case_id": "weakness_001",
+   "item_index": 22,
+   "record_id": null
+  },
+  "5134017f6b": {
+   "arm": "C",
+   "case_id": "weakness_001",
+   "item_index": 23,
+   "record_id": null
+  },
+  "3fec86c767": {
+   "arm": "C",
+   "case_id": "weakness_001",
+   "item_index": 24,
+   "record_id": null
+  },
+  "21072f8ce7": {
+   "arm": "C",
+   "case_id": "weakness_001",
+   "item_index": 25,
+   "record_id": null
+  },
+  "538865e5f7": {
+   "arm": "C",
+   "case_id": "weakness_001",
+   "item_index": 26,
+   "record_id": null
+  },
+  "766f00aa2f": {
+   "arm": "C",
+   "case_id": "weakness_001",
+   "item_index": 27,
+   "record_id": null
+  },
+  "5bc4047654": {
+   "arm": "C",
+   "case_id": "weakness_001",
+   "item_index": 28,
+   "record_id": null
+  },
+  "05b7481322": {
+   "arm": "C",
+   "case_id": "weakness_001",
+   "item_index": 29,
+   "record_id": null
+  },
+  "651b1b4c07": {
+   "arm": "C",
+   "case_id": "weakness_001",
+   "item_index": 30,
+   "record_id": null
+  }
+ }
+}

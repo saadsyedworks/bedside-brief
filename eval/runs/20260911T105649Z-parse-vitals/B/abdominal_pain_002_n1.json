@@ -1,0 +1,1028 @@
+{
+ "arm": "B",
+ "ask_first": false,
+ "base_case_id": "abdominal_pain_002",
+ "blocked_items": [],
+ "case_id": "abdominal_pain_002_n1",
+ "created_at": "2026-09-11T11:19:16+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Bent S, Nallamothu BK, Simel DL, Fihn SD, Saint S. Does this woman have an acute uncomplicated urinary tract infection? JAMA. 2002;287(20):2701-2710."
+   ],
+   "numeric_claims": [
+    "0.2",
+    "0.3",
+    "0.5",
+    "0.7",
+    "1.1",
+    "1.2",
+    "1.5",
+    "1.8",
+    "10.1001",
+    "12020306",
+    "2",
+    "20",
+    "2002",
+    "24.6",
+    "2701",
+    "2710",
+    "287",
+    "287.2",
+    "3",
+    "9",
+    "90",
+    "95"
+   ],
+   "performance_claims": [
+    "0.3",
+    "0.5",
+    "0.7",
+    "1.1",
+    "1.2",
+    "1.5",
+    "1.8",
+    "2",
+    "24.6",
+    "3"
+   ],
+   "record_id": "hx_dysuria_frequency",
+   "section": "ask",
+   "text": "Dysuria and urinary frequency/urgency (new)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "3"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_epigastric_pain_radiating_back",
+   "section": "ask",
+   "text": "Constant epigastric pain radiating to the back (with alcohol/gallstone history)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Coburn B, Morris AM, Tomlinson G, Detsky AS. Does this adult patient with suspected bacteremia require blood cultures? JAMA. 2012;308(5):502-511.",
+    "Tokuda Y, Miyasato H, Stein GH, Kishaba T. The degree of chills for risk of bacteremia in acute febrile illness. Am J Med. 2005;118(12):1417."
+   ],
+   "numeric_claims": [
+    "0.076",
+    "0.11",
+    "0.24",
+    "0.51",
+    "0.744",
+    "0.875",
+    "0.892",
+    "0.9",
+    "0.903",
+    "0.915",
+    "0.945",
+    "10.1001",
+    "10.1016",
+    "118",
+    "12",
+    "1417",
+    "16378800",
+    "2.95",
+    "2005",
+    "2005.06",
+    "2012",
+    "2012.8262",
+    "22851117",
+    "25",
+    "3",
+    "308",
+    "35",
+    "4.65",
+    "4.7",
+    "40",
+    "43",
+    "4566",
+    "5",
+    "502",
+    "511",
+    "526",
+    "6.86",
+    "7.2",
+    "7.6",
+    "74.4",
+    "87.5",
+    "89.2",
+    "90.3",
+    "91.5",
+    "94.5",
+    "946",
+    "95"
+   ],
+   "performance_claims": [
+    "0.11",
+    "0.24",
+    "0.51",
+    "0.744",
+    "0.875",
+    "0.892",
+    "0.903",
+    "0.915",
+    "0.945",
+    "2.95",
+    "3",
+    "4.65",
+    "4.7",
+    "6.86",
+    "7.2"
+   ],
+   "record_id": "hx_rigors_shaking_chills",
+   "section": "ask",
+   "text": "Rigors / shaking chills"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Kiriyama S, Takada T, Strasberg SM et al. New diagnostic criteria and severity assessment of acute cholangitis in revised Tokyo Guidelines. Journal of hepato-biliary-pancreatic sciences. 2013.",
+    "Sperna Weiland CJ, Busch CBE, Bhalla A et al. Performance of diagnostic tools for acute cholangitis in patients with suspected biliary obstruction. Journal of hepato-biliary-pancreatic sciences. 2022."
+   ],
+   "numeric_claims": [
+    "0.16",
+    "0.26",
+    "0.264",
+    "0.38",
+    "0.46",
+    "0.55",
+    "0.56",
+    "0.77",
+    "0.956",
+    "0.96",
+    "0.98",
+    "0.99",
+    "1",
+    "10.1002",
+    "10.1007",
+    "100",
+    "1096",
+    "11.9",
+    "12",
+    "127",
+    "13",
+    "18",
+    "2013",
+    "2022",
+    "22825491",
+    "26.4",
+    "3",
+    "33",
+    "34932265",
+    "38",
+    "42",
+    "432",
+    "46",
+    "51",
+    "534",
+    "537",
+    "56",
+    "6",
+    "794",
+    "95",
+    "95.6",
+    "98",
+    "99",
+    "99.7"
+   ],
+   "performance_claims": [
+    "0.264",
+    "0.38",
+    "0.46",
+    "0.55",
+    "0.56",
+    "0.77",
+    "0.956",
+    "0.98",
+    "0.99",
+    "1",
+    "46",
+    "6"
+   ],
+   "record_id": "exam_charcot_triad",
+   "section": "examine",
+   "text": "Charcot triad at the bedside (fever + RUQ pain/tenderness + jaundice)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Singer AJ, McCracken G, Henry MC, Thode HC Jr, Cabahug CJ. Correlation among clinical, laboratory, and hepatobiliary scanning findings in patients with suspected acute cholecystitis. Ann Emerg Med. 1996;28(3):267-272.",
+    "Trowbridge RL, Rutkowski NK, Shojania KG. Does this patient have acute cholecystitis? JAMA. 2003;289(1):80-86."
+   ],
+   "numeric_claims": [
+    "0.53",
+    "0.8",
+    "0.972",
+    "1",
+    "10.1001",
+    "100",
+    "12503981",
+    "17",
+    "1996",
+    "2.8",
+    "2003",
+    "267",
+    "272",
+    "28",
+    "289",
+    "289.1",
+    "3",
+    "65",
+    "8.6",
+    "80",
+    "86",
+    "8780468",
+    "93.3",
+    "95",
+    "97",
+    "97.2"
+   ],
+   "performance_claims": [
+    "0.8",
+    "0.972",
+    "2.8",
+    "8.6"
+   ],
+   "record_id": "exam_murphy_sign",
+   "section": "examine",
+   "text": "Murphy sign (inspiratory arrest on RUQ palpation)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Becker T, Kharbanda A, Bachur R. Atypical clinical features of pediatric appendicitis. Acad Emerg Med. 2007;14(2):124-129."
+   ],
+   "numeric_claims": [
+    "0.36",
+    "0.53",
+    "0.6",
+    "0.63",
+    "10.1197",
+    "11.9",
+    "124",
+    "129",
+    "14",
+    "17192449",
+    "2",
+    "2006.08",
+    "2007",
+    "36",
+    "47",
+    "755",
+    "9"
+   ],
+   "performance_claims": [
+    "0.53",
+    "0.63"
+   ],
+   "record_id": "exam_abdominal_rigidity_guarding",
+   "section": "examine",
+   "text": "Involuntary guarding / board-like rigidity"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Bent S, Nallamothu BK, Simel DL, Fihn SD, Saint S. Does this woman have an acute uncomplicated urinary tract infection? JAMA. 2002;287(20):2701-2710."
+   ],
+   "numeric_claims": [
+    "0.5",
+    "0.7",
+    "0.8",
+    "0.9",
+    "1.1",
+    "1.2",
+    "1.6",
+    "1.7",
+    "10.1001",
+    "12",
+    "12020306",
+    "2.1",
+    "2.5",
+    "20",
+    "2002",
+    "2701",
+    "2710",
+    "287",
+    "287.2",
+    "9",
+    "95"
+   ],
+   "performance_claims": [
+    "0.7",
+    "0.8",
+    "0.9",
+    "1.1",
+    "1.2",
+    "1.6",
+    "1.7",
+    "2.1",
+    "2.5"
+   ],
+   "record_id": "exam_cva_tenderness",
+   "section": "examine",
+   "text": "Costovertebral angle (flank) tenderness"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "card": {
+   "chief_complaint": "right upper abdominal pain and vomiting after meal",
+   "presentation": "abdominal_pain",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_dysuria_frequency",
+      "changes_what": "Dysuria plus frequency without vaginal symptoms can justify empirical treatment in women; absent or nonspecific symptoms should push toward other causes of fever, AKI or delirium.",
+      "contraindications": "None.",
+      "do_not_use_when": "The LRs apply to non-pregnant women with uncomplicated UTI; do not apply them to men, catheterized patients, or elderly patients with delirium and no new urinary symptoms.",
+      "escalation_warning": "Urinary symptoms with fever, rigors, flank pain, hypotension or AKI indicate pyelonephritis/urosepsis, which needs cultures, antibiotics and assessment for obstruction.",
+      "evidence": [
+       {
+        "citation": "Bent S, Nallamothu BK, Simel DL, Fihn SD, Saint S. Does this woman have an acute uncomplicated urinary tract infection? JAMA. 2002;287(20):2701-2710.",
+        "computed": false,
+        "doi": "10.1001/jama.287.20.2701",
+        "evidence_level": "pooled",
+        "interpretation_label": "minimal",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "2",
+         "ci_low": "1.2",
+         "value": "1.5"
+        },
+        "pmid": "12020306",
+        "population": "Women presenting with one or more symptoms of acute uncomplicated urinary tract infection (9 studies)",
+        "prevalence": "0.5",
+        "quote": "dysuria (summary positive likelihood ratio [LR], 1.5; 95% confidence interval [CI], 1.2-2.0)",
+        "reference_standard": "Urine culture as defined in included studies",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "Acute uncomplicated urinary tract infection - finding: dysuria present",
+        "url": null,
+        "year": "2002"
+       },
+       {
+        "citation": "Bent S, Nallamothu BK, Simel DL, Fihn SD, Saint S. Does this woman have an acute uncomplicated urinary tract infection? JAMA. 2002;287(20):2701-2710.",
+        "computed": false,
+        "doi": "10.1001/jama.287.20.2701",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.7",
+         "ci_low": "0.3",
+         "value": "0.5"
+        },
+        "lr_positive": null,
+        "pmid": "12020306",
+        "population": "Women presenting with one or more symptoms of acute uncomplicated urinary tract infection (9 studies)",
+        "prevalence": "0.5",
+        "quote": "absence of dysuria (summary negative LR, 0.5; 95% CI, 0.3-0.7)",
+        "reference_standard": "Urine culture as defined in included studies",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "Acute uncomplicated urinary tract infection - finding: dysuria absent",
+        "url": null,
+        "year": "2002"
+       },
+       {
+        "citation": "Bent S, Nallamothu BK, Simel DL, Fihn SD, Saint S. Does this woman have an acute uncomplicated urinary tract infection? JAMA. 2002;287(20):2701-2710.",
+        "computed": false,
+        "doi": "10.1001/jama.287.20.2701",
+        "evidence_level": "pooled",
+        "interpretation_label": "minimal",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "3",
+         "ci_low": "1.1",
+         "value": "1.8"
+        },
+        "pmid": "12020306",
+        "population": "Women presenting with one or more symptoms of acute uncomplicated urinary tract infection (9 studies)",
+        "prevalence": "0.5",
+        "quote": "frequency (LR, 1.8; 95% CI, 1.1-3.0)",
+        "reference_standard": "Urine culture as defined in included studies",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "Acute uncomplicated urinary tract infection - finding: frequency present",
+        "url": null,
+        "year": "2002"
+       },
+       {
+        "citation": "Bent S, Nallamothu BK, Simel DL, Fihn SD, Saint S. Does this woman have an acute uncomplicated urinary tract infection? JAMA. 2002;287(20):2701-2710.",
+        "computed": false,
+        "doi": "10.1001/jama.287.20.2701",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "24.6"
+        },
+        "pmid": "12020306",
+        "population": "Women with UTI symptoms in the single included study that examined symptom combinations",
+        "prevalence": "0.5",
+        "quote": "24.6 for the combination of dysuria and frequency but no vaginal discharge or irritation",
+        "reference_standard": "Urine culture as defined in included studies",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "Acute uncomplicated urinary tract infection - combination: dysuria and frequency without vaginal discharge or irritation",
+        "url": null,
+        "year": "2002"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Ask specifically about pain or burning on passing urine, new increase in frequency or urgency, and their onset; then ask about vaginal discharge or irritation, hematuria, flank pain and fever. Establish whether the symptoms are new relative to baseline (important in elderly or catheterized patients).",
+      "id": "hx_dysuria_frequency",
+      "negative_finding": "Absence of dysuria lowers the probability only modestly (LR- 0.5); history alone cannot rule out UTI once one symptom is present.",
+      "pitfalls": "Vaginitis, urethritis and STIs mimic dysuria (vaginal discharge/irritation LR 0.2-0.3 for UTI). In elderly patients asymptomatic bacteriuria is common, and confusion without new genitourinary symptoms should not be attributed to UTI.",
+      "positive_finding": "In women, dysuria (LR+ 1.5) or frequency (LR+ 1.8) each raise UTI probability slightly; dysuria and frequency together without vaginal discharge or irritation raise it strongly (LR 24.6, probability above 90%).",
+      "prerequisites": "Patient able to give a reliable history; in delirium, obtain collateral history of new urinary symptoms.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Dysuria and urinary frequency/urgency (new)",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_epigastric_pain_radiating_back",
+      "changes_what": "Present: check lipase and consider pancreatitis, but exclude aortic catastrophe and perforation first when the patient is unstable or the pain is tearing/sudden.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not label pain as pancreatitis when there is hypotension, syncope, a pulsatile mass, limb ischemia or a tearing quality until aorta is imaged.",
+      "escalation_warning": "Epigastric pain to the back with shock, peritonitis, or a normal lipase demands urgent CT for aortic rupture, dissection or perforated viscus.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Ask onset, location, and character: constant severe epigastric or upper-abdominal pain, often boring through to the back, worse supine and eased by sitting forward, with nausea and vomiting. Ask about alcohol intake, known gallstones or prior biliary colic, recent ERCP, hypertriglyceridemia and new medications.",
+      "id": "hx_epigastric_pain_radiating_back",
+      "negative_finding": "Absence of back radiation does not exclude pancreatitis; pain that is intermittent or colicky favours biliary colic or bowel pathology.",
+      "pitfalls": "Tearing pain with pulse or BP asymmetry, hypotension or a pulsatile mass points to aorta, not pancreas; elderly and post-operative patients may have minimal pain. Grey Turner/Cullen ecchymosis is rare (3% in one large series) and marks severity rather than aiding diagnosis.",
+      "positive_finding": "Constant epigastric pain radiating to the back with an alcohol or gallstone history is the classic presentation of acute pancreatitis and is one of the three diagnostic criteria in the revised Atlanta classification (with lipase/amylase >3x ULN and imaging). The same pain pattern also occurs with posterior penetrating peptic ulcer, ruptured AAA and aortic dissection.",
+      "prerequisites": "Reliable history; ask family when the patient is intoxicated or encephalopathic.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Constant epigastric pain radiating to the back (with alcohol/gallstone history)",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_rigors_shaking_chills",
+      "changes_what": "Shaking chills should prompt blood cultures and a search for a bacteremic source (line, biliary, urinary, endovascular); no chills supports withholding cultures when pretest probability is low.",
+      "contraindications": "None.",
+      "do_not_use_when": "The RCE conclusions do not apply to immunocompromised patients or when endocarditis is suspected; in those groups obtain cultures regardless of chills.",
+      "escalation_warning": "Rigors with hypotension, altered mentation or a central line indicate probable bacteremia/sepsis: cultures, source control and antibiotics within the hour.",
+      "evidence": [
+       {
+        "citation": "Coburn B, Morris AM, Tomlinson G, Detsky AS. Does this adult patient with suspected bacteremia require blood cultures? JAMA. 2012;308(5):502-511.",
+        "computed": false,
+        "doi": "10.1001/jama.2012.8262",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "7.2",
+         "ci_low": "3",
+         "value": "4.7"
+        },
+        "pmid": "22851117",
+        "population": "Adult immunocompetent patients in whom bacteremia was suspected (35 studies; 4566 bacteremia and 25,946 negative episodes)",
+        "prevalence": null,
+        "quote": "The severity of chills graded on an ordinal scale (shaking chills, LR, 4.7; 95% CI, 3.0-7.2) may be more useful.",
+        "reference_standard": "Blood cultures",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Bacteremia (true-positive blood culture)",
+        "url": null,
+        "year": "2012"
+       },
+       {
+        "citation": "Tokuda Y, Miyasato H, Stein GH, Kishaba T. The degree of chills for risk of bacteremia in acute febrile illness. Am J Med. 2005;118(12):1417.",
+        "computed": false,
+        "doi": "10.1016/j.amjmed.2005.06.043",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "6.86",
+         "ci_low": "2.95",
+         "value": "4.65"
+        },
+        "pmid": "16378800",
+        "population": "526 consecutive adults with acute febrile illness (40, 7.6%, bacteremic)",
+        "prevalence": "0.076",
+        "quote": "Shaking chills showed a specificity of 90.3% (95% CI 89.2-91.5) and positive likelihood ratio of 4.65 (95% CI 2.95-6.86).",
+        "reference_standard": "Blood cultures",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": {
+         "ci_high": "0.915",
+         "ci_low": "0.892",
+         "value": "0.903"
+        },
+        "target_condition": "Bacteremia - finding: shaking chills (whole-body shaking under a thick blanket)",
+        "url": null,
+        "year": "2005"
+       },
+       {
+        "citation": "Tokuda Y, Miyasato H, Stein GH, Kishaba T. The degree of chills for risk of bacteremia in acute febrile illness. Am J Med. 2005;118(12):1417.",
+        "computed": false,
+        "doi": "10.1016/j.amjmed.2005.06.043",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_out",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.51",
+         "ci_low": "0.11",
+         "value": "0.24"
+        },
+        "lr_positive": null,
+        "pmid": "16378800",
+        "population": "526 consecutive adults with acute febrile illness (40, 7.6%, bacteremic)",
+        "prevalence": "0.076",
+        "quote": "The absence of chills showed a sensitivity of 87.5% (95% CI 74.4-94.5) and negative likelihood ratio of 0.24 (95% CI 0.11-0.51).",
+        "reference_standard": "Blood cultures",
+        "sensitivity": {
+         "ci_high": "0.945",
+         "ci_low": "0.744",
+         "value": "0.875"
+        },
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Bacteremia - finding: any chills (sensitivity and LR- refer to absence of chills)",
+        "url": null,
+        "year": "2005"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Ask the patient (or witnesses) whether they have had chills and grade the worst episode: mild = feeling cold, needing a jacket; moderate = needing a thick blanket; shaking chills = whole-body shaking even under a thick blanket. Record timing relative to fever and any line, procedure or infusion.",
+      "id": "hx_rigors_shaking_chills",
+      "negative_finding": "Absence of any chills lowers the probability of bacteremia (LR- 0.24) but does not exclude it, particularly in elderly or immunocompromised patients who may not mount rigors.",
+      "pitfalls": "Rigors also occur with malaria, transfusion or drug reactions, and after amphotericin or contaminated infusions; the grading relies on patient recall and the RCE data exclude immunocompromised patients and suspected endocarditis.",
+      "positive_finding": "Shaking (rigor-grade) chills raise the probability of bacteremia about 4.7-fold (LR+ 4.7, 95% CI 3.0-7.2; specificity 0.90) and justify blood cultures before antibiotics.",
+      "prerequisites": "Patient or witness able to describe the episode; ask before antipyretics blunt recall.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Rigors / shaking chills",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/exam_charcot_triad",
+      "changes_what": "Triad present: treat as cholangitis (cultures, antibiotics, urgent biliary imaging/drainage). Triad absent: still apply TG18 criteria; never use absence to rule out.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use absence of the triad to defer work-up in a septic, confused or hypotensive patient with biliary risk factors (stones, stents, prior ERCP, malignancy).",
+      "escalation_warning": "Triad plus hypotension or altered mentation (Reynolds pentad) indicates severe (Grade III) cholangitis: urgent biliary decompression and sepsis management.",
+      "evidence": [
+       {
+        "citation": "Kiriyama S, Takada T, Strasberg SM et al. New diagnostic criteria and severity assessment of acute cholangitis in revised Tokyo Guidelines. Journal of hepato-biliary-pancreatic sciences. 2013.",
+        "computed": true,
+        "doi": "10.1007/s00534-012-0537-3",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.77"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "6"
+        },
+        "pmid": "22825491",
+        "population": "1,432 retrospectively analysed biliary disease cases with suspected acute cholangitis, multiple tertiary centres in Japan (TG13 derivation cohort)",
+        "prevalence": null,
+        "quote": "The sensitivity of Charcot's triad was only 26.4 % but the specificity was 95.6 %.",
+        "reference_standard": "Purulent bile at drainage, or remission after biliary drainage, or remission with antibiotics alone (biliary tree sole infection site)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.264"
+        },
+        "setting": "inpatient",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.956"
+        },
+        "target_condition": "Acute cholangitis (TG13 gold standard: purulent bile, or clinical remission after biliary drainage, or remission with antibiotics alone with biliary tree the only infection site); Charcot triad = fever + jaundice + RUQ pain",
+        "url": null,
+        "year": "2013"
+       },
+       {
+        "citation": "Sperna Weiland CJ, Busch CBE, Bhalla A et al. Performance of diagnostic tools for acute cholangitis in patients with suspected biliary obstruction. Journal of hepato-biliary-pancreatic sciences. 2022.",
+        "computed": true,
+        "doi": "10.1002/jhbp.1096",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.55"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "46"
+        },
+        "pmid": "34932265",
+        "population": "794 patients with suspected biliary obstruction who underwent ERCP, nationwide prospective Dutch cohort (127 with cholangitis)",
+        "prevalence": "0.16",
+        "quote": "The sensitivity for DPSG and Charcot was 42% (95% CI 33-51) and 46% (95% CI 38-56), specificity was 99.7% (95% CI 99-100) and 99% (95% CI 98-100), respectively.",
+        "reference_standard": "Real-world cholangitis diagnosis by treating clinicians (clinical reference standard) in patients undergoing ERCP",
+        "sensitivity": {
+         "ci_high": "0.56",
+         "ci_low": "0.38",
+         "value": "0.46"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "1",
+         "ci_low": "0.98",
+         "value": "0.99"
+        },
+        "target_condition": "Acute cholangitis ('real-world cholangitis', clinical reference standard) in patients with suspected biliary obstruction undergoing ERCP; Charcot triad present",
+        "url": null,
+        "year": "2022"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Document all three elements at the same encounter: fever (or rigors), right-upper-quadrant pain or tenderness on palpation, and jaundice (scleral icterus in good light, confirmed by bilirubin when available). The triad is positive only when all three are present.",
+      "id": "exam_charcot_triad",
+      "negative_finding": "Absence of the full triad does not exclude cholangitis: sensitivity is only 0.26-0.46, so most cholangitis patients lack it. Use Tokyo Guidelines criteria (systemic inflammation + cholestasis + biliary imaging) rather than the triad to rule out.",
+      "pitfalls": "Sensitivity is very low; elderly, immunosuppressed and post-ERCP patients may present with confusion or hypotension without pain. Jaundice may be absent early or with partial obstruction.",
+      "positive_finding": "The full triad is highly specific (0.96-0.99) for acute cholangitis and should trigger blood cultures, antibiotics and early biliary imaging with drainage planning. It does not separate cholangitis from acute cholecystitis with jaundice (false-positive rate 11.9% in acute cholecystitis in the TG13 cohort).",
+      "prerequisites": "Recorded temperature; inspection of sclerae; RUQ palpation.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Charcot triad at the bedside (fever + RUQ pain/tenderness + jaundice)",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_murphy_sign",
+      "changes_what": "Positive with RUQ pain/fever: obtain RUQ ultrasound and start cholecystitis pathway. Negative: does not remove need for imaging if pretest probability is meaningful.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use a negative sign to exclude cholecystitis in elderly, diabetic, or opioid-treated patients, or in suspected cholangitis (fever, jaundice) where imaging and blood cultures are needed regardless.",
+      "escalation_warning": "RUQ pain with fever, jaundice, or hypotension suggests cholangitis or gangrenous cholecystitis: blood cultures, IV antibiotics, urgent imaging and surgical/GI review.",
+      "evidence": [
+       {
+        "citation": "Trowbridge RL, Rutkowski NK, Shojania KG. Does this patient have acute cholecystitis? JAMA. 2003;289(1):80-86.",
+        "computed": false,
+        "doi": "10.1001/jama.289.1.80",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "8.6",
+         "ci_low": "0.8",
+         "value": "2.8"
+        },
+        "pmid": "12503981",
+        "population": "Adults with abdominal pain or suspected acute cholecystitis (17 pooled studies)",
+        "prevalence": null,
+        "quote": "Murphy sign (positive LR, 2.8; 95% CI, 0.8-8.6)",
+        "reference_standard": "Surgery, pathology, HIDA scan, RUQ ultrasound or consistent clinical course",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Acute cholecystitis",
+        "url": null,
+        "year": "2003"
+       },
+       {
+        "citation": "Singer AJ, McCracken G, Henry MC, Thode HC Jr, Cabahug CJ. Correlation among clinical, laboratory, and hepatobiliary scanning findings in patients with suspected acute cholecystitis. Ann Emerg Med. 1996;28(3):267-272.",
+        "computed": false,
+        "doi": null,
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_out",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "8780468",
+        "population": "100 consecutive ED patients referred for urgent HIDA scan; sign documented in 65",
+        "prevalence": "0.53",
+        "quote": "The presence of Murphy's sign was both sensitive (97.2%) and highly predictive (93.3%) of a positive HBS",
+        "reference_standard": "Hepatobiliary scintigraphy (HBS) positive",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.972"
+        },
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Positive hepatobiliary scintigraphy (acute cholecystitis)",
+        "url": null,
+        "year": "1996"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Place fingertips under the right costal margin at the mid-clavicular line while the patient exhales, then ask for a deep breath. The sign is positive when inspiration is abruptly halted by pain as the gallbladder descends onto the examining hand; compare with the left side, which should not arrest breathing.",
+      "id": "exam_murphy_sign",
+      "negative_finding": "A negative Murphy sign lowers probability modestly and does not exclude cholecystitis, especially in the elderly or after analgesia.",
+      "pitfalls": "Frequently undocumented; sensitivity falls in elderly and opioid-treated patients; hepatitis, hepatic congestion and right lower lobe pneumonia can produce a false-positive. Sonographic Murphy sign is a separate finding.",
+      "positive_finding": "Inspiratory arrest with RUQ pain raises the probability of acute cholecystitis (pooled LR+ 2.8, wide CI) and in one ED series was present in 97% of patients with a positive HIDA scan.",
+      "prerequisites": "Cooperative patient able to take a deep breath; examine before opioid analgesia if possible.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Murphy sign (inspiratory arrest on RUQ palpation)",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_abdominal_rigidity_guarding",
+      "changes_what": "Present: treat as peritonitis, obtain surgical review and CT urgently. Absent: modest reassurance only; do not use to withhold imaging.",
+      "contraindications": "None; avoid deep or repeated palpation once peritonitis is evident.",
+      "do_not_use_when": "Do not rely on absence of guarding to exclude surgical pathology in the elderly, immunosuppressed, obese, pregnant or opioid-treated patient.",
+      "escalation_warning": "Diffuse rigidity with hypotension or fever is generalized peritonitis until proven otherwise: resuscitate, antibiotics, immediate surgical consultation.",
+      "evidence": [
+       {
+        "citation": "Becker T, Kharbanda A, Bachur R. Atypical clinical features of pediatric appendicitis. Acad Emerg Med. 2007;14(2):124-129.",
+        "computed": false,
+        "doi": "10.1197/j.aem.2006.08.009",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.63"
+        },
+        "lr_positive": null,
+        "pmid": "17192449",
+        "population": "755 children and adolescents (median age 11.9 y) evaluated for suspected appendicitis; 36% had appendicitis",
+        "prevalence": "0.36",
+        "quote": "lack of guarding (LR, 0.63)",
+        "reference_standard": "Surgical pathology or telephone follow-up",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Acute appendicitis (absence of guarding as negative predictor) (pediatric)",
+        "url": null,
+        "year": "2007"
+       },
+       {
+        "citation": "Becker T, Kharbanda A, Bachur R. Atypical clinical features of pediatric appendicitis. Acad Emerg Med. 2007;14(2):124-129.",
+        "computed": true,
+        "doi": "10.1197/j.aem.2006.08.009",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "17192449",
+        "population": "Children and adolescents with proven appendicitis in the same cohort (n=755 enrolled)",
+        "prevalence": "0.36",
+        "quote": "lack of guarding (47%)",
+        "reference_standard": "Surgical pathology or telephone follow-up",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.53"
+        },
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Acute appendicitis (pediatric)",
+        "url": null,
+        "year": "2007"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "With the patient supine, knees flexed and distracted by conversation, palpate each quadrant gently with a flat hand. Involuntary guarding is reflex contraction of the abdominal wall that persists despite relaxation and distraction; rigidity is a board-like wall that does not soften on expiration.",
+      "id": "exam_abdominal_rigidity_guarding",
+      "negative_finding": "Absence of guarding lowers but does not exclude appendicitis (pediatric LR- ~0.6); early, retrocaecal or perforated disease in the elderly or immunosuppressed may show no guarding.",
+      "pitfalls": "Voluntary guarding from anxiety, cold hands or ticklishness mimics the sign; obesity, steroids, opioids and advanced age blunt it. Distinguishing voluntary from involuntary guarding is examiner dependent.",
+      "positive_finding": "Involuntary guarding or rigidity indicates parietal peritoneal irritation (localized or generalized peritonitis) and raises the probability of appendicitis, perforation or other surgical pathology.",
+      "prerequisites": "Patient able to lie supine and relax; warm hands; examine tender areas last.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Involuntary guarding / board-like rigidity",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_cva_tenderness",
+      "changes_what": "CVA tenderness in a febrile patient with urinary symptoms supports pyelonephritis (culture, consider imaging for obstruction); its absence should not lower suspicion much.",
+      "contraindications": "Avoid fist percussion with suspected spinal fracture, recent flank surgery or known renal/splenic injury.",
+      "do_not_use_when": "Not validated in men, children, pregnancy, catheterized or elderly patients with nonspecific presentations; do not use to exclude obstruction or renal colic.",
+      "escalation_warning": "Flank tenderness with fever plus hypotension, AKI or a solitary/transplant kidney suggests obstructed pyelonephritis: urgent imaging and urology involvement.",
+      "evidence": [
+       {
+        "citation": "Bent S, Nallamothu BK, Simel DL, Fihn SD, Saint S. Does this woman have an acute uncomplicated urinary tract infection? JAMA. 2002;287(20):2701-2710.",
+        "computed": false,
+        "doi": "10.1001/jama.287.20.2701",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "2.5",
+         "ci_low": "1.1",
+         "value": "1.7"
+        },
+        "pmid": "12020306",
+        "population": "Women presenting with one or more symptoms of acute uncomplicated urinary tract infection (9 studies)",
+        "prevalence": "0.5",
+        "quote": "costovertebral angle tenderness (LR, 1.7; 95% CI, 1.1-2.5)",
+        "reference_standard": "Urine culture as defined in included studies",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "Acute uncomplicated urinary tract infection - finding: costovertebral angle tenderness",
+        "url": null,
+        "year": "2002"
+       },
+       {
+        "citation": "Bent S, Nallamothu BK, Simel DL, Fihn SD, Saint S. Does this woman have an acute uncomplicated urinary tract infection? JAMA. 2002;287(20):2701-2710.",
+        "computed": false,
+        "doi": "10.1001/jama.287.20.2701",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "2.1",
+         "ci_low": "1.2",
+         "value": "1.6"
+        },
+        "pmid": "12020306",
+        "population": "Women presenting with one or more symptoms of acute uncomplicated urinary tract infection (9 studies)",
+        "prevalence": "0.5",
+        "quote": "back pain (LR, 1.6; 95% CI, 1.2-2.1)",
+        "reference_standard": "Urine culture as defined in included studies",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "Acute uncomplicated urinary tract infection - finding: back pain (history) present",
+        "url": null,
+        "year": "2002"
+       },
+       {
+        "citation": "Bent S, Nallamothu BK, Simel DL, Fihn SD, Saint S. Does this woman have an acute uncomplicated urinary tract infection? JAMA. 2002;287(20):2701-2710.",
+        "computed": false,
+        "doi": "10.1001/jama.287.20.2701",
+        "evidence_level": "pooled",
+        "interpretation_label": "minimal",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.9",
+         "ci_low": "0.7",
+         "value": "0.8"
+        },
+        "lr_positive": null,
+        "pmid": "12020306",
+        "population": "Women presenting with one or more symptoms of acute uncomplicated urinary tract infection (9 studies)",
+        "prevalence": "0.5",
+        "quote": "absence of back pain (LR, 0.8; 95% CI, 0.7-0.9)",
+        "reference_standard": "Urine culture as defined in included studies",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "Acute uncomplicated urinary tract infection - finding: back pain (history) absent",
+        "url": null,
+        "year": "2002"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "With the patient sitting or standing, place one palm flat over the costovertebral angle (below the 12th rib, lateral to the spine) and strike it with the ulnar side of the other fist, or press firmly with the fingertips. Compare both sides and watch the face for wincing; ask if the pain is the same as their presenting pain.",
+      "id": "exam_cva_tenderness",
+      "negative_finding": "Absence of CVA tenderness barely changes the probability (absence of back pain LR 0.8) and does not exclude pyelonephritis, especially in elderly or immunocompromised patients.",
+      "pitfalls": "Musculoskeletal back pain, rib injury and retrocecal appendicitis cause false positives; the RCE LRs are for uncomplicated UTI in women, not for separating pyelonephritis from cystitis or for renal colic.",
+      "positive_finding": "Unilateral CVA tenderness modestly increases the probability of urinary tract infection in symptomatic women (LR+ 1.7, 95% CI 1.1-2.5) and, with fever, points toward pyelonephritis rather than cystitis.",
+      "prerequisites": "Warn the patient first; assess before analgesia if possible.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Costovertebral angle (flank) tenderness",
+      "type": "exam"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_dysuria_frequency",
+     "rationale": ""
+    },
+    {
+     "id": "hx_epigastric_pain_radiating_back",
+     "rationale": ""
+    },
+    {
+     "id": "hx_rigors_shaking_chills",
+     "rationale": ""
+    }
+   ],
+   "examine": [
+    {
+     "id": "exam_charcot_triad",
+     "rationale": ""
+    },
+    {
+     "id": "exam_murphy_sign",
+     "rationale": ""
+    },
+    {
+     "id": "exam_abdominal_rigidity_guarding",
+     "rationale": ""
+    },
+    {
+     "id": "exam_cva_tenderness",
+     "rationale": ""
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "right upper abdominal pain and vomiting after meal",
+   "differentials": [
+    {
+     "dx": "cholecystitis",
+     "weight": 1.0
+    },
+    {
+     "dx": "cholangitis",
+     "weight": 0.4
+    },
+    {
+     "dx": "pancreatitis",
+     "weight": 0.3
+    },
+    {
+     "dx": "pyelonephritis_nephrolithiasis",
+     "weight": 0.14
+    },
+    {
+     "dx": "sbp",
+     "weight": 0.1
+    },
+    {
+     "dx": "perforated_viscus",
+     "weight": 0.06
+    }
+   ],
+   "indication_tags": [
+    "diabetes_insulin",
+    "hf_known",
+    "acute_onset",
+    "post_prandial",
+    "febrile"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "right upper quadrant",
+    "post-prandial",
+    "repeated vomiting"
+   ],
+   "observed_values": [
+    "Temp 38.4",
+    "Pulse 104"
+   ],
+   "presentation": "abdominal_pain",
+   "time_course": "acute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "n1"
+}

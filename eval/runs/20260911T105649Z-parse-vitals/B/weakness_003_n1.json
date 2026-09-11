@@ -1,0 +1,842 @@
+{
+ "arm": "B",
+ "ask_first": false,
+ "base_case_id": "weakness_003",
+ "blocked_items": [],
+ "case_id": "weakness_003_n1",
+ "created_at": "2026-09-11T11:26:09+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "16267412",
+    "19",
+    "24",
+    "46",
+    "475",
+    "60",
+    "72"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_rhabdo_myalgia_dark_urine",
+   "section": "ask",
+   "text": "Muscle pain/weakness, prolonged immobilization or exertion, dark cola-colored urine"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "24",
+    "72"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_hypoglycemia_symptoms_insulin",
+   "section": "ask",
+   "text": "Hypoglycemia history: insulin/sulfonylurea use, missed meals, adrenergic or neuroglycopenic symptoms"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "4",
+    "48",
+    "90"
+   ],
+   "performance_claims": [],
+   "record_id": "exam_proximal_symmetric_weakness",
+   "section": "examine",
+   "text": "Proximal symmetric weakness (chair-rise/Gowers-type maneuver, arm abduction) without focal deficit"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Fokke C, van den Berg B, Drenthen J, Walgaard C, van Doorn PA, Jacobs BC. Diagnosis of Guillain-Barre syndrome and validation of Brighton criteria. Brain. 2014;137(1):33-43."
+   ],
+   "numeric_claims": [
+    "0.91",
+    "0.97",
+    "1",
+    "10.1093",
+    "137",
+    "2",
+    "20",
+    "2014",
+    "24163275",
+    "285",
+    "3",
+    "33",
+    "4",
+    "43",
+    "494",
+    "6",
+    "80",
+    "91",
+    "97"
+   ],
+   "performance_claims": [
+    "0.91",
+    "0.97"
+   ],
+   "record_id": "exam_ascending_symmetric_weakness_areflexia",
+   "section": "examine",
+   "text": "Ascending symmetric limb weakness with absent/reduced reflexes (after recent GI/URI illness)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Cooke G, Doust J, Sanders S. Is pulse palpation helpful in detecting atrial fibrillation? A systematic review. J Fam Pract. 2006;55(2):130-134.",
+    "Taggar JS, Coleman T, Lewis S, Heneghan C, Jones M. Accuracy of methods for detecting an irregular pulse and suspected atrial fibrillation: A systematic review and meta-analysis. Eur J Prev Cardiol. 2016;23(12):1330-1338."
+   ],
+   "numeric_claims": [
+    "0.05",
+    "0.1",
+    "0.18",
+    "0.69",
+    "0.72",
+    "0.75",
+    "0.76",
+    "0.82",
+    "0.84",
+    "0.85",
+    "0.88",
+    "0.92",
+    "0.94",
+    "0.96",
+    "0.97",
+    "10.1177",
+    "12",
+    "129",
+    "130",
+    "1330",
+    "1338",
+    "134",
+    "15",
+    "16451780",
+    "2",
+    "20",
+    "2006",
+    "2016",
+    "2047487315611347",
+    "21",
+    "23",
+    "2385",
+    "26464292",
+    "3",
+    "3.39",
+    "3.4",
+    "3.8",
+    "30",
+    "5.2",
+    "55",
+    "6",
+    "60",
+    "69",
+    "7.2",
+    "72",
+    "75",
+    "82",
+    "84",
+    "92",
+    "94",
+    "95",
+    "97"
+   ],
+   "performance_claims": [
+    "0.05",
+    "0.1",
+    "0.1",
+    "0.18",
+    "0.69",
+    "0.72",
+    "0.75",
+    "0.76",
+    "0.82",
+    "0.84",
+    "0.85",
+    "0.88",
+    "0.92",
+    "0.94",
+    "0.96",
+    "0.97",
+    "3.39",
+    "3.8",
+    "5.2",
+    "7.2"
+   ],
+   "record_id": "exam_pulse_irregularly_irregular",
+   "section": "examine",
+   "text": "Radial pulse irregularly irregular on palpation (>=20-30 s)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [
+    "Kattah JC, Martinez C, Zalazar G, Batuecas A, Lemos J, Carmona S. Role of incubitus truncal ataxia, and equivalent standing grade 3 ataxia in the diagnosis of central acute vestibular syndrome. J Neurol Sci. 2022;441:120374.",
+    "Kattah JC, Talkad AV, Wang DZ, Hsieh YH, Newman-Toker DE. HINTS to diagnose stroke in the acute vestibular syndrome: three-step bedside oculomotor examination more sensitive than early MRI diffusion-weighted imaging. Stroke. 2009;40(11):3504-3510.",
+    "Systematic review and meta-analysis of the diagnostic accuracy of a graded gait and truncal instability rating in acutely dizzy and ataxic patients. Cerebellum. 2024.",
+    "Tarnutzer AA, Gold D, Wang Z, et al. Impact of clinician training background and stroke location on bedside diagnostic test accuracy in the acute vestibular syndrome - a meta-analysis. Ann Neurol. 2023;94(2):295-308."
+   ],
+   "numeric_claims": [
+    "0",
+    "0.052",
+    "0.33",
+    "0.343",
+    "0.358",
+    "0.44",
+    "0.451",
+    "0.47",
+    "0.537",
+    "0.56",
+    "0.593",
+    "0.665",
+    "0.67",
+    "0.708",
+    "0.716",
+    "0.79",
+    "0.808",
+    "0.823",
+    "0.827",
+    "0.86",
+    "0.92",
+    "0.938",
+    "0.978",
+    "0.98",
+    "0.991",
+    "0.992",
+    "1",
+    "10",
+    "10.1002",
+    "10.1007",
+    "10.1016",
+    "10.1161",
+    "100",
+    "101",
+    "1025",
+    "10524166",
+    "109.551234",
+    "11",
+    "11585515",
+    "120374",
+    "12311",
+    "15",
+    "1718",
+    "18",
+    "19762709",
+    "2",
+    "2006",
+    "2009",
+    "2022",
+    "2022.120374",
+    "2023",
+    "2024",
+    "24",
+    "25",
+    "26661",
+    "295",
+    "3",
+    "306",
+    "308",
+    "33",
+    "34.3",
+    "35.8",
+    "3504",
+    "3510",
+    "36",
+    "36063733",
+    "37038843",
+    "38990511",
+    "4",
+    "40",
+    "44",
+    "441",
+    "45.1",
+    "4593511",
+    "5.2",
+    "52",
+    "53.7",
+    "59.3",
+    "6",
+    "66.5",
+    "665",
+    "67",
+    "69",
+    "70.8",
+    "71",
+    "71.6",
+    "72.2",
+    "79",
+    "79.9",
+    "80.8",
+    "800",
+    "81",
+    "82.3",
+    "82.7",
+    "83",
+    "87.5",
+    "92",
+    "93.8",
+    "94",
+    "95",
+    "97.8",
+    "98",
+    "99",
+    "99.1",
+    "99.2"
+   ],
+   "performance_claims": [
+    "0.052",
+    "0.33",
+    "0.343",
+    "0.358",
+    "0.44",
+    "0.451",
+    "0.47",
+    "0.537",
+    "0.56",
+    "0.593",
+    "0.665",
+    "0.67",
+    "0.67",
+    "0.708",
+    "0.716",
+    "0.79",
+    "0.79",
+    "0.808",
+    "0.823",
+    "0.827",
+    "0.86",
+    "0.92",
+    "0.938",
+    "0.978",
+    "0.98",
+    "0.991",
+    "0.992",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1"
+   ],
+   "record_id": "fn_gait_stand_unaided",
+   "section": "examine",
+   "text": "Ability to stand and walk unaided (truncal ataxia grade; inability = central marker)"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "card": {
+   "chief_complaint": "too weak to walk",
+   "presentation": "weakness",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_rhabdo_myalgia_dark_urine",
+      "changes_what": "Positive \u2192 CK, creatinine, potassium, urinalysis; start IV fluids; assess compartments. Negative \u2192 still send CK if found down, post-seizure or toxin-exposed.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not exclude rhabdomyolysis by history in obtunded, intoxicated or found-down patients \u2014 send CK.",
+      "escalation_warning": "Tense painful compartment, hyperkalemia or rising creatinine \u2192 urgent surgical and nephrology involvement.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Ask about muscle pain, weakness, swelling and dark tea/cola-coloured urine, and exposures: found down/prolonged immobilization, seizure, extreme exertion or heat, crush or trauma, cocaine/amphetamines, alcohol, statins/fibrates, antipsychotics (NMS), recent infection. Palpate for tender, swollen or tense muscle compartments and check distal pulses and sensation.",
+      "id": "hx_rhabdo_myalgia_dark_urine",
+      "negative_finding": "Absent muscle symptoms or dark urine do not exclude rhabdomyolysis; many cases are oligosymptomatic and even qualitative urine myoglobin was positive in only 19% of 475 inpatients (PMID 16267412, Abstract). Measure CK whenever risk factors exist.",
+      "pitfalls": "Dark urine also comes from hematuria, hemoglobinuria or bilirubin. In 60% of cases multiple causes co-exist and toxins account for 46% (PMID 16267412, Abstract); CK peaks at 24\u201372 h, so an early value may be modest (unverified recall).",
+      "positive_finding": "Myalgia or weakness with dark urine after immobilization, exertion, seizure or toxin exposure strongly suggests rhabdomyolysis; check CK and a urine dipstick (heme-positive without red cells).",
+      "prerequisites": "Collateral history for obtunded or intoxicated patients; medication and drug-use review.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Muscle pain/weakness, prolonged immobilization or exertion, dark cola-colored urine",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_hypoglycemia_symptoms_insulin",
+      "changes_what": "Positive: fingerstick now, treat, and observe for recurrence (sulfonylurea/renal failure -> admit); negative: keep glucose check but move to cardiac/neurologic causes of the spell.",
+      "contraindications": "None; the history must never delay a point-of-care glucose in any patient with altered mental status, syncope or focal deficit.",
+      "do_not_use_when": "Never rely on symptom history alone in an obtunded, post-ictal or focally weak patient - measure glucose immediately.",
+      "escalation_warning": "Hypoglycemia with sulfonylurea, insulin overdose, renal failure or alcohol needs monitored admission and repeated glucose; persistent deficit after glucose correction is a stroke workup.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Ask specifically about insulin or sulfonylurea use (drug, dose, timing of last dose), missed or delayed meals, alcohol, recent renal or hepatic decline, and prodromal autonomic symptoms (sweating, tremor, palpitations, hunger) or neuroglycopenic symptoms (confusion, drowsiness, difficulty speaking, weakness). Confirm with a fingerstick glucose at the time of symptoms.",
+      "id": "hx_hypoglycemia_symptoms_insulin",
+      "negative_finding": "No exposure to insulin or secretagogues and no critical illness, cortisol/hormone deficiency or alcohol makes drug-induced hypoglycemia unlikely, but a measured glucose is still required because neuroglycopenia can present without warning symptoms.",
+      "pitfalls": "Long-standing diabetes and beta-blockers blunt autonomic warning symptoms so neuroglycopenic presentation (confusion, focal deficit) may be the only clue; sulfonylurea hypoglycemia recurs for 24-72 h so a single corrected glucose is not the end of the episode.",
+      "positive_finding": "Insulin/secretagogue exposure plus a missed meal, alcohol or renal impairment and autonomic or neuroglycopenic prodrome makes hypoglycemia likely; Whipple's triad (symptoms, documented low glucose, resolution with glucose) confirms it.",
+      "prerequisites": "A collateral history when the patient is confused; the medication list including recently added sulfonylureas, insulin dose changes, or drugs that potentiate them.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Hypoglycemia history: insulin/sulfonylurea use, missed meals, adrenergic or neuroglycopenic symptoms",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/exam_proximal_symmetric_weakness",
+      "changes_what": "Positive: CK, K/PO4/Mg, TSH, drug review, consider EMG/neurology. Focal, asymmetric or areflexic pattern: pursue GBS, cord compression or stroke instead.",
+      "contraindications": "Do not attempt chair-rise or squat tests in patients at risk of falling without assistance.",
+      "do_not_use_when": "Not applicable for diagnosing weakness in uncooperative, sedated or delirious patients; do not use a normal proximal exam to dismiss ascending weakness, bulbar symptoms or respiratory decline.",
+      "escalation_warning": "Rapidly progressive weakness, neck flexion weakness, dysphagia, reduced vital capacity or areflexia require urgent assessment for GBS/myasthenic crisis and airway monitoring.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Test functional proximal strength: rise from a chair with arms folded, squat and rise (or Gowers manoeuvre), step onto a stool, hold arms abducted to 90 degrees against resistance, lift the head off the pillow. Grade MRC power symmetrically (shoulder abduction, elbow flexion, hip flexion, knee extension, ankle dorsiflexion); check reflexes and sensation for focal deficit.",
+      "id": "exam_proximal_symmetric_weakness",
+      "negative_finding": "Normal proximal strength with preserved chair-rise argues against a generalised myopathy or critical-illness weakness; asymmetric, distal, or reflex/sensory-involving weakness redirects to neuropathy (e.g., GBS with areflexia), cord or central lesions.",
+      "pitfalls": "Pain, effort, deconditioning and sedation produce apparent weakness; GBS and myasthenia can also present proximally. MRC grading is unreliable in inattentive or delirious patients and the ICU-acquired weakness diagnosis requires an awake, cooperative patient.",
+      "positive_finding": "Symmetric proximal weakness with preserved sensation and reflexes points to a myopathic process (inflammatory, drug/statin, alcohol, endocrine, hypokalaemia/hypophosphataemia) or ICU-acquired weakness, and should prompt CK, electrolytes, thyroid tests and a medication/alcohol history. In ICU patients an MRC sum score below 48 defines significant weakness.",
+      "prerequisites": "Pain, joint disease and sedation accounted for; cooperative, awake patient for MRC grading.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Proximal symmetric weakness (chair-rise/Gowers-type maneuver, arm abduction) without focal deficit",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_ascending_symmetric_weakness_areflexia",
+      "changes_what": "Positive: admit, serial FVC/single breath count, cardiac monitoring, LP and NCS, start IVIG/PLEX. Negative: check electrolytes and CK; image the spine if a sensory level or sphincter signs.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use preserved reflexes alone to dismiss GBS early in the course; do not use this pattern to exclude cord compression when back pain, a sensory level or sphincter change is present.",
+      "escalation_warning": "Dyspnea, weak cough, single breath count <20 or FVC <20 mL/kg, bulbar weakness or autonomic instability indicate impending respiratory failure: ICU-level monitoring.",
+      "evidence": [
+       {
+        "citation": "Fokke C, van den Berg B, Drenthen J, Walgaard C, van Doorn PA, Jacobs BC. Diagnosis of Guillain-Barre syndrome and validation of Brighton criteria. Brain. 2014;137(1):33-43.",
+        "computed": false,
+        "doi": "10.1093/brain/awt285",
+        "evidence_level": "validation_cohort",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "24163275",
+        "population": "494 adults with GBS previously enrolled in therapeutic and observational studies (Dutch cohorts); no non-GBS comparison group",
+        "prevalence": null,
+        "quote": "Decreased reflexes in paretic arms or legs were found initially in 91% of patients and in all patients during follow-up.",
+        "reference_standard": "Clinical diagnosis of GBS by treating neurologists (trial/observational study inclusion)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.91"
+        },
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Guillain-Barre syndrome; finding = decreased reflexes in paretic limbs at initial examination",
+        "url": null,
+        "year": "2014"
+       },
+       {
+        "citation": "Fokke C, van den Berg B, Drenthen J, Walgaard C, van Doorn PA, Jacobs BC. Diagnosis of Guillain-Barre syndrome and validation of Brighton criteria. Brain. 2014;137(1):33-43.",
+        "computed": false,
+        "doi": "10.1093/brain/awt285",
+        "evidence_level": "validation_cohort",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "24163275",
+        "population": "Same cohort of 494 adults with GBS",
+        "prevalence": null,
+        "quote": "Disease nadir was reached within 2 weeks in 80%, within 4 weeks in 97% and within 6 weeks in all patients.",
+        "reference_standard": "Clinical diagnosis of GBS (trial/observational study inclusion)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.97"
+        },
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Guillain-Barre syndrome; finding = bilateral limb weakness reaching nadir within 4 weeks",
+        "url": null,
+        "year": "2014"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Test proximal and distal strength in all four limbs (MRC grading), compare sides, and elicit biceps, triceps, knee and ankle reflexes with reinforcement. Ask about onset and progression (hours to days, distal to proximal), preceding diarrhea or respiratory illness within 4 weeks, sensory symptoms, facial or bulbar weakness, and back pain or sphincter change.",
+      "id": "exam_ascending_symmetric_weakness_areflexia",
+      "negative_finding": "Preserved brisk reflexes, a sensory level, early sphincter dysfunction, marked asymmetry or fever at onset point toward myelopathy, cord compression or other mimics; however 2% of GBS patients keep normal reflexes in paretic arms.",
+      "pitfalls": "Reflexes may be normal on day 1 and lost later, so re-examine; hypokalemia/hypophosphatemia and myopathy produce symmetric weakness with preserved reflexes. Weakness stayed leg-restricted in 6% and arm-restricted in 1%.",
+      "positive_finding": "Bilateral, relatively symmetric, progressive flaccid weakness with reduced or absent reflexes in the weak limbs, reaching nadir within 4 weeks, is the Brighton level-1 to 3 clinical core of GBS; 91% of GBS patients have decreased reflexes at presentation.",
+      "prerequisites": "Cooperative patient; reflex hammer; document time course and check bedside respiratory measures (single breath count / FVC) at the same visit.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Ascending symmetric limb weakness with absent/reduced reflexes (after recent GI/URI illness)",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_pulse_irregularly_irregular",
+      "changes_what": "Positive: obtain 12-lead ECG now (rate control/anticoagulation decisions follow ECG); negative: AF at this moment unlikely, consider ambulatory monitoring if paroxysmal AF suspected.",
+      "contraindications": "None. Weak or thready pulse (shock, arterial disease) reduces reliability; use apical auscultation instead.",
+      "do_not_use_when": "Do not rely on pulse palpation instead of an ECG when AF would change management (anticoagulation, rate control, syncope/stroke workup); do not use a weak or thready pulse in shock to judge rhythm.",
+      "escalation_warning": "Irregularly irregular pulse with a rapid rate and hypotension, chest pain, or acute focal deficit requires immediate ECG and monitored care.",
+      "evidence": [
+       {
+        "citation": "Cooke G, Doust J, Sanders S. Is pulse palpation helpful in detecting atrial fibrillation? A systematic review. J Fam Pract. 2006;55(2):130-134.",
+        "computed": false,
+        "doi": null,
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_out",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results (LRs: 'The pooled positive likelihood ratio was 3.39, while the pooled negative likelihood ratio was 0.10', same paragraph)",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.1"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "3.39"
+        },
+        "pmid": "16451780",
+        "population": "3 studies, 2385 patients, predominantly elderly/primary-care screening populations",
+        "prevalence": null,
+        "quote": "Pooled sensitivity was 94% (95% confidence interval [CI], 84%-97%) and pooled specificity was 72% (95% CI, 69%-75%).",
+        "reference_standard": "12-lead ECG diagnosis of atrial fibrillation",
+        "sensitivity": {
+         "ci_high": "0.97",
+         "ci_low": "0.84",
+         "value": "0.94"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "0.75",
+         "ci_low": "0.69",
+         "value": "0.72"
+        },
+        "target_condition": "Atrial fibrillation (irregular pulse on palpation)",
+        "url": null,
+        "year": "2006"
+       },
+       {
+        "citation": "Taggar JS, Coleman T, Lewis S, Heneghan C, Jones M. Accuracy of methods for detecting an irregular pulse and suspected atrial fibrillation: A systematic review and meta-analysis. Eur J Prev Cardiol. 2016;23(12):1330-1338.",
+        "computed": false,
+        "doi": "10.1177/2047487315611347",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_out",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.18",
+         "ci_low": "0.05",
+         "value": "0.1"
+        },
+        "lr_positive": {
+         "ci_high": "7.2",
+         "ci_low": "3.8",
+         "value": "5.2"
+        },
+        "pmid": "26464292",
+        "population": "Adults in AF screening studies; 6 pulse-palpation interventions within 21 studies (15,129 pulse assessments overall)",
+        "prevalence": null,
+        "quote": "pulse palpation (six interventions) were 0.92 (95% CI 0.85-0.96) and 0.82 (95% CI 0.76-0.88), respectively (PLR 5.2 (95% CI 3.8-7.2), NLR 0.1 (95% CI 0.05-0.18))",
+        "reference_standard": "12-lead ECG diagnosed atrial fibrillation",
+        "sensitivity": {
+         "ci_high": "0.96",
+         "ci_low": "0.85",
+         "value": "0.92"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "0.88",
+         "ci_low": "0.76",
+         "value": "0.82"
+        },
+        "target_condition": "Atrial fibrillation (pulse irregularity detected by manual pulse palpation)",
+        "url": null,
+        "year": "2016"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Palpate the radial pulse with two fingers for at least 20-30 s (longer if any irregularity), noting rhythm and rate. An irregularly irregular rhythm with no repeating pattern and variable beat volume is positive; occasional dropped or early beats with an otherwise regular rhythm are not.",
+      "id": "exam_pulse_irregularly_irregular",
+      "negative_finding": "A regular pulse makes AF unlikely (pooled sensitivity 92-94%, LR- 0.10), which is the finding's main value; it does not exclude paroxysmal AF outside the examination.",
+      "pitfalls": "Specificity is only 72-82%, so roughly a quarter of positive pulses in screening are not AF. Atrial flutter with fixed block feels regular, and AF with slow ventricular response can be hard to appreciate.",
+      "positive_finding": "An irregularly irregular pulse raises the probability of atrial fibrillation (pooled LR+ 3.4-5.2) but is not diagnostic; frequent ectopy, sinus arrhythmia and flutter with variable block mimic it, so a 12-lead ECG is required.",
+      "prerequisites": "Patient at rest; count for 30-60 s if rate is needed, since pulse deficit in AF makes short counts inaccurate.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Radial pulse irregularly irregular on palpation (>=20-30 s)",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/fn_gait_stand_unaided",
+      "changes_what": "Cannot stand/walk unaided (grade 3): treat as central; stroke work-up regardless of HINTS. Walks unaided: lowers but does not remove need for HINTS; still image if other red flags.",
+      "contraindications": "Do not attempt to stand a hypotensive, actively vomiting or obtunded patient; use the sitting test instead.",
+      "do_not_use_when": "Do not stand hypotensive, vomiting or obtunded patients; interpret with caution in patients with baseline gait impairment (neuropathy, parkinsonism, prior stroke, intoxication) where inability to walk is not new.",
+      "escalation_warning": "New inability to stand or walk unaided with acute vertigo is a central sign until proven otherwise, even with a normal CT and a peripheral-appearing HINTS; Carmona 2023 found truncal ataxia without nystagmus in 15% of acute-vertigo patients, mostly strokes.",
+      "evidence": [
+       {
+        "citation": "Tarnutzer AA, Gold D, Wang Z, et al. Impact of clinician training background and stroke location on bedside diagnostic test accuracy in the acute vestibular syndrome - a meta-analysis. Ann Neurol. 2023;94(2):295-308.",
+        "computed": false,
+        "doi": "10.1002/ana.26661",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results (Ann Neurol 2023;94:295; PMC10524166)",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "37038843",
+        "population": "Pooled AVS cohorts (10 study cohorts, n=800; stroke and vestibular neuritis)",
+        "prevalence": null,
+        "quote": "Severe (grade 3) gait/truncal instability had high specificity 99.2% (95% CI = 97.8-100.0) but low sensitivity 35.8% (95% CI = 5.2-66.5).",
+        "reference_standard": "Delayed MRI-DWI for peripheral cases; confirmatory neuroimaging for stroke",
+        "sensitivity": {
+         "ci_high": "0.665",
+         "ci_low": "0.052",
+         "value": "0.358"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "1",
+         "ci_low": "0.978",
+         "value": "0.992"
+        },
+        "target_condition": "Central acute vestibular syndrome (stroke or other central lesion) - severe (grade 3) gait/truncal instability",
+        "url": null,
+        "year": "2023"
+       },
+       {
+        "citation": "Tarnutzer AA, Gold D, Wang Z, et al. Impact of clinician training background and stroke location on bedside diagnostic test accuracy in the acute vestibular syndrome - a meta-analysis. Ann Neurol. 2023;94(2):295-308.",
+        "computed": false,
+        "doi": "10.1002/ana.26661",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Results, 'Diagnostic accuracy of bedside examination findings' (Ann Neurol 2023;94:295; PMC10524166); supplementary Table 2",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "37038843",
+        "population": "Pooled AVS cohorts (Ann Neurol 2023 meta-analysis)",
+        "prevalence": null,
+        "quote": "highest for a normal hHIT (79.9% [95% CI 72.2-87.5]), grade 2 or 3 gait/truncal instability (80.8% [45.1-100.0])",
+        "reference_standard": "Delayed MRI-DWI for peripheral cases; confirmatory neuroimaging for stroke",
+        "sensitivity": {
+         "ci_high": "1",
+         "ci_low": "0.451",
+         "value": "0.808"
+        },
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Central acute vestibular syndrome - grade 2 or 3 gait/truncal instability",
+        "url": null,
+        "year": "2023"
+       },
+       {
+        "citation": "Systematic review and meta-analysis of the diagnostic accuracy of a graded gait and truncal instability rating in acutely dizzy and ataxic patients. Cerebellum. 2024.",
+        "computed": false,
+        "doi": "10.1007/s12311-024-01718-6",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results (Cerebellum 2024; PMC11585515)",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "38990511",
+        "population": "18 studies, 1025 patients with acute vestibular syndrome (665 ischemic strokes, 306 acute unilateral vestibulopathy)",
+        "prevalence": null,
+        "quote": "Grade 2/3 GTI had moderate sensitivity (70.8% [95% confidence-interval (CI) = 59.3-82.3%]) and specificity (82.7 [71.6-93.8%]) for predicting a central cause",
+        "reference_standard": "Neuroimaging-based final diagnosis",
+        "sensitivity": {
+         "ci_high": "0.823",
+         "ci_low": "0.593",
+         "value": "0.708"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "0.938",
+         "ci_low": "0.716",
+         "value": "0.827"
+        },
+        "target_condition": "Central cause of acute prolonged vertigo/imbalance - grade 2/3 graded gait/truncal instability (GTI)",
+        "url": null,
+        "year": "2024"
+       },
+       {
+        "citation": "Systematic review and meta-analysis of the diagnostic accuracy of a graded gait and truncal instability rating in acutely dizzy and ataxic patients. Cerebellum. 2024.",
+        "computed": false,
+        "doi": "10.1007/s12311-024-01718-6",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results (Cerebellum 2024; PMC11585515)",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "38990511",
+        "population": "Same 18-study, 1025-patient AVS pool",
+        "prevalence": null,
+        "quote": "grade 3 GTI had a lower sensitivity (44.0% [34.3-53.7%] and higher specificity (99.1% [98.0-100.0%]).",
+        "reference_standard": "Neuroimaging-based final diagnosis",
+        "sensitivity": {
+         "ci_high": "0.537",
+         "ci_low": "0.343",
+         "value": "0.44"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "1",
+         "ci_low": "0.98",
+         "value": "0.991"
+        },
+        "target_condition": "Central cause of acute prolonged vertigo/imbalance - grade 3 GTI (cannot stand/walk unaided)",
+        "url": null,
+        "year": "2024"
+       },
+       {
+        "citation": "Kattah JC, Martinez C, Zalazar G, Batuecas A, Lemos J, Carmona S. Role of incubitus truncal ataxia, and equivalent standing grade 3 ataxia in the diagnosis of central acute vestibular syndrome. J Neurol Sci. 2022;441:120374.",
+        "computed": false,
+        "doi": "10.1016/j.jns.2022.120374",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_out",
+        "kind": "primary_study",
+        "location": "Abstract, Results (J Neurol Sci 2022;441:120374)",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "36063733",
+        "population": "52 prospectively studied AVS patients (stroke and vestibular neuritis)",
+        "prevalence": null,
+        "quote": "grade 2-3 ataxia to differentiate patients with vestibular neuritis from patients with stroke resulted in a 92% sensitivity (95% CI 79-100%), a 67% specificity",
+        "reference_standard": "Brain MRI",
+        "sensitivity": {
+         "ci_high": "1",
+         "ci_low": "0.79",
+         "value": "0.92"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "0.86",
+         "ci_low": "0.47",
+         "value": "0.67"
+        },
+        "target_condition": "AICA/PICA-territory stroke vs vestibular neuritis - grade 2-3 truncal ataxia (including inability to sit still as substitute)",
+        "url": null,
+        "year": "2022"
+       },
+       {
+        "citation": "Kattah JC, Talkad AV, Wang DZ, Hsieh YH, Newman-Toker DE. HINTS to diagnose stroke in the acute vestibular syndrome: three-step bedside oculomotor examination more sensitive than early MRI diffusion-weighted imaging. Stroke. 2009;40(11):3504-3510.",
+        "computed": false,
+        "doi": "10.1161/STROKEAHA.109.551234",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Table 4 (Sensitivity n=69, Specificity n=25), Stroke 2009;40:3504 (PMC4593511)",
+        "lr_negative": {
+         "ci_high": "0.79",
+         "ci_low": "0.56",
+         "value": "0.67"
+        },
+        "lr_positive": null,
+        "pmid": "19762709",
+        "population": "101 consecutive high-risk AVS patients (69 ischemic strokes vs 25 peripheral) at a stroke referral center",
+        "prevalence": null,
+        "quote": "Severe truncal ataxia 33% 100% 0.67 (0.56-0.79)",
+        "reference_standard": "MRI (or CT) for stroke; normal MRI plus clinical follow-up for peripheral",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.33"
+        },
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "1"
+        },
+        "target_condition": "Ischemic stroke in AVS - severe truncal ataxia (cannot sit unassisted)",
+        "url": null,
+        "year": "2009"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "With an assistant ready, ask the patient to sit unsupported, then stand, then walk a few metres. Grade truncal/gait instability: 0 = normal; 1 = mild sway but walks unaided; 2 = walks only with support/one-sided assistance; 3 = cannot stand or walk even with support (or cannot sit without arm support). If the patient cannot get up, note whether they can sit still unassisted.",
+      "id": "fn_gait_stand_unaided",
+      "negative_finding": "Walking unaided does not exclude posterior-circulation stroke: grade 3 instability is present in only about 36-44% of central AVS, so a patient who can walk still needs HINTS and imaging assessment when indicated.",
+      "pitfalls": "Peripheral vestibular neuritis causes unsteadiness (grade 1-2) that is easily over-called, especially in the elderly, the intoxicated or those with prior neuropathy; sedatives, Wernicke encephalopathy and alcohol withdrawal also produce ataxia. Grading systems differ (Lee 2006 vs Moon 2009), which changes sensitivity.",
+      "positive_finding": "Grade 3 instability (cannot stand or walk unaided) in acute vertigo is almost exclusively central - pooled specificity about 99% (LR+ high), and 0/25 peripheral patients in Kattah 2009. Grade 2-3 instability is more sensitive (71-81% pooled) but less specific (83%).",
+      "prerequisites": "Adequate blood pressure and no orthostatic symptoms; assistant present for fall prevention. Compare with baseline mobility in elderly or frail patients.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Ability to stand and walk unaided (truncal ataxia grade; inability = central marker)",
+      "type": "functional"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_rhabdo_myalgia_dark_urine",
+     "rationale": ""
+    },
+    {
+     "id": "hx_hypoglycemia_symptoms_insulin",
+     "rationale": ""
+    }
+   ],
+   "examine": [
+    {
+     "id": "exam_proximal_symmetric_weakness",
+     "rationale": ""
+    },
+    {
+     "id": "exam_ascending_symmetric_weakness_areflexia",
+     "rationale": ""
+    },
+    {
+     "id": "exam_pulse_irregularly_irregular",
+     "rationale": ""
+    },
+    {
+     "id": "fn_gait_stand_unaided",
+     "rationale": ""
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "too weak to walk",
+   "differentials": [
+    {
+     "dx": "sepsis_deconditioning",
+     "weight": 1.0
+    },
+    {
+     "dx": "electrolyte_hypokalemia_hypophosphatemia",
+     "weight": 0.4
+    },
+    {
+     "dx": "myopathy",
+     "weight": 0.3
+    },
+    {
+     "dx": "stroke",
+     "weight": 0.2
+    },
+    {
+     "dx": "gbs",
+     "weight": 0.1
+    }
+   ],
+   "indication_tags": [
+    "elderly"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "unable to walk today"
+   ],
+   "observed_values": [],
+   "presentation": "weakness",
+   "time_course": "acute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "n1"
+}

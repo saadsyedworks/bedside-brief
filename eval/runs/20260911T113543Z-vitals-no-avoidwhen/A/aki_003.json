@@ -1,0 +1,684 @@
+{
+ "arm": "A",
+ "ask_first": false,
+ "base_case_id": "aki_003",
+ "blocked_items": [],
+ "case_id": "aki_003",
+ "created_at": "2026-09-11T11:37:03+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "16267412",
+    "19",
+    "24",
+    "46",
+    "475",
+    "60",
+    "72"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_rhabdo_myalgia_dark_urine",
+   "section": "ask",
+   "text": "Muscle pain/weakness, prolonged immobilization or exertion, dark cola-colored urine"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "48",
+    "72"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_nephrotoxin_contrast_exposure",
+   "section": "ask",
+   "text": "Nephrotoxin and contrast exposure history (NSAID, ACEi/ARB, diuretic, aminoglycoside, vancomycin, PPI, iodinated contrast; timing)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "14977795",
+    "30",
+    "44",
+    "500",
+    "54"
+   ],
+   "performance_claims": [],
+   "record_id": "exam_bladder_percussion_palpable",
+   "section": "examine",
+   "text": "Suprapubic palpation / percussion for distended bladder; LUTS and prostate history"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "McGee S, Abernethy WB, Simel DL. The rational clinical examination. Is this patient hypovolemic? JAMA. 1999;281(11):1022-1029."
+   ],
+   "numeric_claims": [
+    "0.1",
+    "0.3",
+    "0.6",
+    "10.1001",
+    "10086438",
+    "1022",
+    "1029",
+    "11",
+    "1999",
+    "2.8",
+    "281",
+    "281.11",
+    "30",
+    "95"
+   ],
+   "performance_claims": [
+    "0.1",
+    "0.1",
+    "0.3",
+    "0.3",
+    "0.6",
+    "0.6"
+   ],
+   "record_id": "exam_dry_mucous_membranes",
+   "section": "examine",
+   "text": "Dry oral mucous membranes, tongue furrows, sunken eyes, dry axilla"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Drazner MH, Hellkamp AS, Leier CV, Shah MR, Miller LW, Russell SD, Young JB, Califf RM, et al. Value of clinician assessment of hemodynamics in advanced heart failure: the ESCAPE trial. Circ Heart Fail. 2009.",
+    "Guberman BA, Fowler NO, Engel PJ, Gueron M, Allen JM. Cardiac tamponade in medical patients. Circulation. 1981.",
+    "Ohle R, Kareemi HK, Wells G, Perry JJ. Clinical examination for acute aortic dissection: a systematic review and meta-analysis. Acad Emerg Med. 2019."
+   ],
+   "numeric_claims": [
+    "0.12",
+    "0.3",
+    "0.375",
+    "0.5",
+    "0.74",
+    "0.77",
+    "0.84",
+    "0.95",
+    "0.96",
+    "1",
+    "1.05",
+    "1.8",
+    "1.83",
+    "10.1111",
+    "10.1161",
+    "100",
+    "108.769778",
+    "12",
+    "13360",
+    "188",
+    "19",
+    "19675681",
+    "1981",
+    "2",
+    "2.3",
+    "2.9",
+    "20",
+    "2009",
+    "2019",
+    "21.9",
+    "25",
+    "26",
+    "29265487",
+    "3",
+    "35",
+    "4",
+    "4.6",
+    "400",
+    "42",
+    "5",
+    "56",
+    "60",
+    "633",
+    "64.3",
+    "6455217",
+    "65",
+    "68",
+    "76.1",
+    "84",
+    "9",
+    "90",
+    "95"
+   ],
+   "performance_claims": [
+    "0.12",
+    "0.375",
+    "0.77",
+    "0.84",
+    "0.95",
+    "1.05",
+    "1.8",
+    "2.9",
+    "4.6"
+   ],
+   "record_id": "exam_hypotension_sbp_lt90",
+   "section": "examine",
+   "text": "Systolic BP <90 mmHg (or MAP <65) at the bedside"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Simel DL, Halvorsen RA Jr, Feussner JR. Quantitating bedside diagnosis: clinical evaluation of ascites. J Gen Intern Med. 1988;3(5):423-428."
+   ],
+   "numeric_claims": [
+    "0.12",
+    "0.17",
+    "1",
+    "10.1007",
+    "1982",
+    "1988",
+    "2595917",
+    "3",
+    "3049966",
+    "37.7",
+    "423",
+    "428",
+    "5",
+    "5.76",
+    "83.3",
+    "9.6",
+    "90"
+   ],
+   "performance_claims": [
+    "0.12",
+    "37.7",
+    "5.76",
+    "9.6"
+   ],
+   "record_id": "exam_ascites_flank_dullness_fluid_wave",
+   "section": "examine",
+   "text": "Ascites exam: flank dullness, shifting dullness, fluid wave"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "candidates": [
+   "hx_rhabdo_myalgia_dark_urine",
+   "hx_nephrotoxin_contrast_exposure",
+   "exam_saddle_anesthesia_anal_tone",
+   "exam_ascites_flank_dullness_fluid_wave",
+   "exam_cirrhosis_stigmata",
+   "exam_spider_nevi",
+   "exam_capillary_refill",
+   "exam_dry_axilla",
+   "exam_dry_mucous_membranes",
+   "exam_hypotension_sbp_lt90",
+   "exam_jvp_elevated",
+   "exam_orthostatic_vitals",
+   "exam_skin_turgor",
+   "exam_tachycardia_resting",
+   "fn_passive_leg_raise",
+   "hx_hypotensive_medication_review",
+   "hx_postural_dizziness",
+   "exam_bladder_percussion_palpable",
+   "exam_cva_tenderness",
+   "exam_sensory_level_upper_motor_neuron_signs",
+   "exam_shifting_dullness"
+  ],
+  "card": {
+   "chief_complaint": "found down, dark urine",
+   "presentation": "aki",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_rhabdo_myalgia_dark_urine",
+      "changes_what": "Positive \u2192 CK, creatinine, potassium, urinalysis; start IV fluids; assess compartments. Negative \u2192 still send CK if found down, post-seizure or toxin-exposed.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not exclude rhabdomyolysis by history in obtunded, intoxicated or found-down patients \u2014 send CK.",
+      "escalation_warning": "Tense painful compartment, hyperkalemia or rising creatinine \u2192 urgent surgical and nephrology involvement.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Ask about muscle pain, weakness, swelling and dark tea/cola-coloured urine, and exposures: found down/prolonged immobilization, seizure, extreme exertion or heat, crush or trauma, cocaine/amphetamines, alcohol, statins/fibrates, antipsychotics (NMS), recent infection. Palpate for tender, swollen or tense muscle compartments and check distal pulses and sensation.",
+      "id": "hx_rhabdo_myalgia_dark_urine",
+      "negative_finding": "Absent muscle symptoms or dark urine do not exclude rhabdomyolysis; many cases are oligosymptomatic and even qualitative urine myoglobin was positive in only 19% of 475 inpatients (PMID 16267412, Abstract). Measure CK whenever risk factors exist.",
+      "pitfalls": "Dark urine also comes from hematuria, hemoglobinuria or bilirubin. In 60% of cases multiple causes co-exist and toxins account for 46% (PMID 16267412, Abstract); CK peaks at 24\u201372 h, so an early value may be modest (unverified recall).",
+      "positive_finding": "Myalgia or weakness with dark urine after immobilization, exertion, seizure or toxin exposure strongly suggests rhabdomyolysis; check CK and a urine dipstick (heme-positive without red cells).",
+      "prerequisites": "Collateral history for obtunded or intoxicated patients; medication and drug-use review.",
+      "rationale": "Rhabdomyolysis is a leading concern given the history of being found down and dark urine, so clarifying muscle symptoms and immobilization is critical.",
+      "skill_assumption": null,
+      "title": "Muscle pain/weakness, prolonged immobilization or exertion, dark cola-colored urine",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_nephrotoxin_contrast_exposure",
+      "changes_what": "A positive exposure history should lead to stopping or dose-adjusting the agent, avoiding further nephrotoxins and monitoring creatinine; still assess obstruction and volume status.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not attribute AKI solely to a drug or contrast when there is oliguria, sepsis, hypotension or possible obstruction; these still need evaluation.",
+      "escalation_warning": "AKI with hyperkalemia, acidosis, fluid overload or uremic symptoms needs urgent nephrology review regardless of the exposure history.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Reconcile all drugs against the chart and pharmacy record, including over-the-counter NSAIDs and herbal products: NSAIDs, ACEi/ARB, diuretics, aminoglycosides, vancomycin (with piperacillin-tazobactam), PPIs, and any iodinated contrast. For each, record start date, dose change and timing relative to the creatinine rise.",
+      "id": "hx_nephrotoxin_contrast_exposure",
+      "negative_finding": "No exposure lowers the likelihood of drug-related AKI and contrast nephropathy, redirecting attention to hypovolemia, sepsis, obstruction and intrinsic renal disease.",
+      "pitfalls": "Patients under-report OTC NSAIDs; PPI-associated AIN can begin weeks to months after the start; contrast-associated AKI is often confounded by the illness that prompted imaging, so timing alone does not prove causation.",
+      "positive_finding": "A nephrotoxin started or dosed within days of the creatinine rise, or contrast within 48-72 h, makes drug-induced AKI (hemodynamic, ATN or AIN) a leading candidate and identifies an immediately reversible factor.",
+      "prerequisites": "Access to medication administration and imaging records; collateral history for patients who cannot report OTC use.",
+      "rationale": "Identifying nephrotoxin exposure is important for acute kidney injury management and may change immediate medication decisions.",
+      "skill_assumption": null,
+      "title": "Nephrotoxin and contrast exposure history (NSAID, ACEi/ARB, diuretic, aminoglycoside, vancomycin, PPI, iodinated contrast; timing)",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/exam_bladder_percussion_palpable",
+      "changes_what": "Positive \u2192 catheterize/measure PVR now and seek the cause (drugs, prostate, cauda equina); negative with risk factors \u2192 bladder scan.",
+      "contraindications": "Avoid deep palpation over fresh lower abdominal incisions.",
+      "do_not_use_when": "Do not use an absent suprapubic mass to exclude retention in AKI, delirium or suspected cauda equina \u2014 measure post-void residual.",
+      "escalation_warning": "Retention with new saddle anesthesia, leg weakness or back pain \u2192 emergent cauda equina evaluation (MRI).",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Patient supine: percuss from the umbilicus toward the pubis for a dome of suprapubic dullness and palpate for a smooth, tense, tender midline mass rising from the pelvis that provokes urge. Ask about LUTS, straining, dribbling, hematuria, prostate disease, anticholinergic/opioid use and time since last void; confirm with bladder scan or catheter volume.",
+      "id": "exam_bladder_percussion_palpable",
+      "negative_finding": "A non-palpable bladder does not exclude retention: obesity, smaller volumes and silent postoperative or opioid-related distension are missed. Obtain a bladder scan or post-void residual when retention is plausible.",
+      "pitfalls": "Postoperative bladder volume >500 mL was present in 44% at recovery-room discharge, and 54% of those without symptoms of distension could not void within 30 min (PMID 14977795, Abstract). Pelvic masses, pregnancy and ascites mimic; palpation cannot estimate volume.",
+      "positive_finding": "A palpable or percussible bladder above the pubis with inability to void indicates retention \u2014 catheterize and measure volume. This is a treatable cause of AKI, delirium and abdominal pain.",
+      "prerequisites": "Attempt to void first when able; know time of last void.",
+      "rationale": "Obstructive/retention causes of AKI must be ruled out early, especially in a found down patient.",
+      "skill_assumption": null,
+      "title": "Suprapubic palpation / percussion for distended bladder; LUTS and prostate history",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_dry_mucous_membranes",
+      "changes_what": "Moist membranes and an unfurrowed tongue lower the probability of hypovolemia; dry findings support a fluid trial and checking electrolytes, BUN/creatinine.",
+      "contraindications": "None.",
+      "do_not_use_when": "Not validated for blood loss; do not use these signs to exclude hemorrhagic hypovolemia or shock.",
+      "escalation_warning": "Hypotension, severe postural dizziness or a postural pulse increment of 30/min or more indicates large volume loss and needs urgent resuscitation regardless of mucosal findings.",
+      "evidence": [
+       {
+        "citation": "McGee S, Abernethy WB, Simel DL. The rational clinical examination. Is this patient hypovolemic? JAMA. 1999;281(11):1022-1029.",
+        "computed": false,
+        "doi": "10.1001/jama.281.11.1022",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_out",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.6",
+         "ci_low": "0.1",
+         "value": "0.3"
+        },
+        "lr_positive": null,
+        "pmid": "10086438",
+        "population": "Adults (largely elderly) presenting with suspected hypovolemia due to vomiting, diarrhea or decreased oral intake",
+        "prevalence": null,
+        "quote": "moist mucous membranes and a tongue without furrows argue against it (negative likelihood ratio, 0.3; 95% CI, 0.1-0.6 for both findings)",
+        "reference_standard": "Laboratory/clinical criteria for hypovolemia used by the included primary studies; details not visible in abstract",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Hypovolemia (dehydration) in adults with vomiting, diarrhea or decreased oral intake - finding: dry oral mucous membranes (LR- is for moist membranes)",
+        "url": null,
+        "year": "1999"
+       },
+       {
+        "citation": "McGee S, Abernethy WB, Simel DL. The rational clinical examination. Is this patient hypovolemic? JAMA. 1999;281(11):1022-1029.",
+        "computed": false,
+        "doi": "10.1001/jama.281.11.1022",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_out",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.6",
+         "ci_low": "0.1",
+         "value": "0.3"
+        },
+        "lr_positive": null,
+        "pmid": "10086438",
+        "population": "Adults (largely elderly) presenting with suspected hypovolemia due to vomiting, diarrhea or decreased oral intake",
+        "prevalence": null,
+        "quote": "moist mucous membranes and a tongue without furrows argue against it (negative likelihood ratio, 0.3; 95% CI, 0.1-0.6 for both findings)",
+        "reference_standard": "Laboratory/clinical criteria for hypovolemia used by the included primary studies; details not visible in abstract",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Hypovolemia (dehydration) in adults with vomiting, diarrhea or decreased oral intake - finding: longitudinal tongue furrows (LR- is for tongue without furrows)",
+        "url": null,
+        "year": "1999"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Inspect the mouth with a light: look at the buccal mucosa and under the tongue for moisture, and at the dorsum of the tongue for longitudinal furrows. Inspect the eyes for sunken globes. Palpate the axilla for sweat. Record each sign separately rather than a global impression.",
+      "id": "exam_dry_mucous_membranes",
+      "negative_finding": "Moist mucous membranes or a tongue without furrows argue against hypovolemia (LR- 0.3 for either), which is the more useful direction of these signs.",
+      "pitfalls": "Mouth breathing, oxygen therapy, anticholinergics and age-related changes dry the mouth without volume depletion; sunken eyes and tongue furrows are chronic in many elderly patients.",
+      "positive_finding": "Dry mucous membranes, furrowed tongue, sunken eyes or a dry axilla each support hypovolemia in patients with vomiting, diarrhea or poor intake; the pooled RCE gives LR+ 2.8 for dry axilla only.",
+      "prerequisites": "Patient not mouth-breathing on oxygen for a prolonged period and no recent oral intake or mouth care; good lighting.",
+      "rationale": "Volume status assessment is crucial to distinguish prerenal from intrinsic causes of AKI.",
+      "skill_assumption": null,
+      "title": "Dry oral mucous membranes, tongue furrows, sunken eyes, dry axilla",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_hypotension_sbp_lt90",
+      "changes_what": "SBP <90/MAP <65: resuscitate, lactate, POCUS (RUSH) to classify shock type, cause-directed therapy now. Normal BP: keep looking for compensated shock (HR, lactate, mentation, urine output).",
+      "contraindications": "Avoid the arm with a dialysis fistula, lymphoedema or recent axillary surgery; none otherwise.",
+      "do_not_use_when": "Do not use a single normal cuff reading to exclude shock or tamponade; do not interpret SBP <90 as 'baseline' without documented prior values.",
+      "escalation_warning": "SBP <90 or MAP <65 with altered mentation, lactate >2, oliguria or cool skin is shock: immediate resuscitation and senior/ICU review; in suspected dissection or tamponade, hypotension signals imminent collapse.",
+      "evidence": [
+       {
+        "citation": "Ohle R, Kareemi HK, Wells G, Perry JJ. Clinical examination for acute aortic dissection: a systematic review and meta-analysis. Acad Emerg Med. 2019.",
+        "computed": false,
+        "doi": "10.1111/acem.13360",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "4.6",
+         "ci_low": "1.8",
+         "value": "2.9"
+        },
+        "pmid": "29265487",
+        "population": "Pooled 4 studies of ED patients evaluated for suspected acute aortic dissection (review total 9 studies, 2,400 participants; prevalence range 21.9-76.1%)",
+        "prevalence": null,
+        "quote": "hypotension (n = 4, specificity = 95%, LR+ = 2.9 95% CI = 1.8-4.6, I2 = 42%)",
+        "reference_standard": "Acute aortic dissection confirmed by imaging, surgery or autopsy per primary studies",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.95"
+        },
+        "target_condition": "Acute aortic dissection; finding = hypotension as defined by each primary study (thresholds varied; not uniformly SBP <90 mmHg)",
+        "url": null,
+        "year": "2019"
+       },
+       {
+        "citation": "Drazner MH, Hellkamp AS, Leier CV, Shah MR, Miller LW, Russell SD, Young JB, Califf RM, et al. Value of clinician assessment of hemodynamics in advanced heart failure: the ESCAPE trial. Circ Heart Fail. 2009.",
+        "computed": true,
+        "doi": "10.1161/CIRCHEARTFAILURE.108.769778",
+        "evidence_level": "single_study",
+        "interpretation_label": "minimal",
+        "kind": "primary_study",
+        "location": "Table 5 (Utility of history and physical examination in detecting an invasively measured cardiac index <2.3 L/min/m2); columns frequency, sensitivity, specificity, PPV, NPV, LR+, LR-, OR, P",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "1.05"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.77"
+        },
+        "pmid": "19675681",
+        "population": "188 patients hospitalised with advanced decompensated HF in the ESCAPE trial with pulmonary artery catheter measurements",
+        "prevalence": null,
+        "quote": "SBP < 90 25/188 12 84 68 26 0.77 0.96 0.74 (0.30, 1.83) 0.5",
+        "reference_standard": "Invasively measured cardiac index <2.3 L/min/m2 by pulmonary artery catheter",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.12"
+        },
+        "setting": "inpatient",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.84"
+        },
+        "target_condition": "Low cardiac index <2.3 L/min/m2 in advanced heart failure; finding = SBP <90 mmHg on baseline examination",
+        "url": null,
+        "year": "2009"
+       },
+       {
+        "citation": "Guberman BA, Fowler NO, Engel PJ, Gueron M, Allen JM. Cardiac tamponade in medical patients. Circulation. 1981.",
+        "computed": true,
+        "doi": "10.1161/01.cir.64.3.633",
+        "evidence_level": "single_study",
+        "interpretation_label": "minimal",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "6455217",
+        "population": "56 medical patients with cardiac tamponade, single-centre case series, University of Cincinnati",
+        "prevalence": null,
+        "quote": "heart sounds were diminished in 19 patients; arterial systolic pressure was greater than or equal to 100 mm Hg in 35",
+        "reference_standard": "Clinical/haemodynamic diagnosis of tamponade with relief by pericardiocentesis or pericardial resection",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.375"
+        },
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Cardiac tamponade (sensitivity only); finding = systolic BP <100 mmHg (threshold differs from id title's <90)",
+        "url": null,
+        "year": "1981"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Measure with a correctly sized cuff on a supported arm (manual if the automated reading is doubtful or the pulse is irregular), repeat, and measure both arms when dissection is possible; calculate MAP = (SBP + 2 x DBP)/3. Interpret against the patient's usual pressure and drug list.",
+      "id": "exam_hypotension_sbp_lt90",
+      "negative_finding": "A normal SBP does not exclude shock (compensated haemorrhage, early sepsis, cardiogenic shock with vasoconstriction) or tamponade (about 60% of tamponade patients had SBP \u2265100), nor low cardiac index in heart failure (SBP <90 sensitivity 12%).",
+      "pitfalls": "Chronic hypertensives are hypoperfused at 'normal' pressures; beta-blockers, pacemakers and automated cuffs in AF mislead. Interarm difference >20 mmHg raises dissection concern. Cuff readings overestimate true pressure in profound vasoconstriction.",
+      "positive_finding": "SBP <90 (or MAP <65) is shock until proven otherwise and should trigger a search for the cause (septic, hypovolaemic/haemorrhagic, cardiogenic, obstructive: tamponade/PE/tension pneumothorax, anaphylaxis, adrenal). In suspected dissection, hypotension roughly triples the odds (LR+ 2.9, specificity 95%). It is not a discriminator between causes.",
+      "prerequisites": "Appropriate cuff size; awareness of baseline BP, beta-blockers/antihypertensives and pacing.",
+      "rationale": "Detecting hypotension would prompt urgent resuscitation and guide further workup for shock or hypovolemia.",
+      "skill_assumption": null,
+      "title": "Systolic BP <90 mmHg (or MAP <65) at the bedside",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_ascites_flank_dullness_fluid_wave",
+      "changes_what": "Positive: diagnostic paracentesis (SAAG, cell count; SBP work-up if febrile/AKI/AMS). Negative but concern persists: bedside ultrasound before abandoning the diagnosis.",
+      "contraindications": "None absolute; avoid rolling with unstable spine or fresh laparotomy.",
+      "do_not_use_when": "Do not use a negative exam to exclude ascites when abdominal compartment syndrome, SBP or hepatorenal syndrome is being considered; image instead.",
+      "escalation_warning": "Tense ascites with hypotension, oliguria or respiratory compromise requires urgent paracentesis and assessment for abdominal compartment syndrome.",
+      "evidence": [
+       {
+        "citation": "Simel DL, Halvorsen RA Jr, Feussner JR. Quantitating bedside diagnosis: clinical evaluation of ascites. J Gen Intern Med. 1988;3(5):423-428.",
+        "computed": false,
+        "doi": "10.1007/BF02595917",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "9.6"
+        },
+        "pmid": "3049966",
+        "population": "Hospitalized adults with a broad spectrum of conditions in whom ascites was clinically evaluated (prospective)",
+        "prevalence": null,
+        "quote": "The positive likelihood ratios for a fluid wave = 9.6 and shifting dullness = 5.76 favored ascites",
+        "reference_standard": "Abdominal ultrasonography",
+        "sensitivity": null,
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Ascites; finding = fluid wave",
+        "url": null,
+        "year": "1988"
+       },
+       {
+        "citation": "Simel DL, Halvorsen RA Jr, Feussner JR. Quantitating bedside diagnosis: clinical evaluation of ascites. J Gen Intern Med. 1988;3(5):423-428.",
+        "computed": false,
+        "doi": "10.1007/BF02595917",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "5.76"
+        },
+        "pmid": "3049966",
+        "population": "Hospitalized adults with a broad spectrum of conditions in whom ascites was clinically evaluated (prospective)",
+        "prevalence": null,
+        "quote": "The positive likelihood ratios for a fluid wave = 9.6 and shifting dullness = 5.76 favored ascites",
+        "reference_standard": "Abdominal ultrasonography",
+        "sensitivity": null,
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Ascites; finding = shifting dullness",
+        "url": null,
+        "year": "1988"
+       },
+       {
+        "citation": "Simel DL, Halvorsen RA Jr, Feussner JR. Quantitating bedside diagnosis: clinical evaluation of ascites. J Gen Intern Med. 1988;3(5):423-428.",
+        "computed": false,
+        "doi": "10.1007/BF02595917",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_out",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.12"
+        },
+        "lr_positive": null,
+        "pmid": "3049966",
+        "population": "Hospitalized adults with a broad spectrum of conditions in whom ascites was clinically evaluated (prospective)",
+        "prevalence": null,
+        "quote": "the absence of bulging flanks (negative likelihood ratio = 0.12) or peripheral edema (negative likelihood ratio = 0.17)",
+        "reference_standard": "Abdominal ultrasonography",
+        "sensitivity": null,
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Ascites; finding = absence of bulging flanks (negative finding)",
+        "url": null,
+        "year": "1988"
+       },
+       {
+        "citation": "Simel DL, Halvorsen RA Jr, Feussner JR. Quantitating bedside diagnosis: clinical evaluation of ascites. J Gen Intern Med. 1988;3(5):423-428.",
+        "computed": false,
+        "doi": "10.1007/BF02595917",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results (range 37.7-83.3 across examiners; lower bound entered)",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "37.7"
+        },
+        "pmid": "3049966",
+        "population": "Hospitalized adults with a broad spectrum of conditions in whom ascites was clinically evaluated (prospective)",
+        "prevalence": null,
+        "quote": "The overall clinical evaluation produced a positive likelihood ratio = 37.7-83.3 when suggestive of ascites",
+        "reference_standard": "Abdominal ultrasonography",
+        "sensitivity": null,
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Ascites; overall clinical evaluation judged suggestive of ascites",
+        "url": null,
+        "year": "1988"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Supine patient: percuss from periumbilical tympany toward each flank to find flank dullness, then roll the patient toward one side and re-percuss for shifting of the dullness line. Fluid wave: place an assistant's hand edge on the midline, tap one flank sharply and feel for a transmitted impulse on the opposite flank.",
+      "id": "exam_ascites_flank_dullness_fluid_wave",
+      "negative_finding": "No bulging flanks (LR- 0.12) or no flank dullness makes ascites unlikely; Cattau 1982 found absent flank dullness excluded ascites with >90% accuracy.",
+      "pitfalls": "Volumes under about 1 L are missed by percussion; obesity and gaseous distension confound; in patients with normal prothrombin time (low prevalence) positive signs were usually false positives.",
+      "positive_finding": "Fluid wave (LR+ 9.6) and shifting dullness (LR+ 5.76) raise the probability of ultrasound-confirmed ascites; fluid wave is the more specific sign.",
+      "prerequisites": "Supine and able to roll; empty bladder; expose the abdomen.",
+      "rationale": "Hepatorenal syndrome is on the differential, and ascites exam helps identify underlying liver disease.",
+      "skill_assumption": null,
+      "title": "Ascites exam: flank dullness, shifting dullness, fluid wave",
+      "type": "exam"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_rhabdo_myalgia_dark_urine",
+     "rationale": "Rhabdomyolysis is a leading concern given the history of being found down and dark urine, so clarifying muscle symptoms and immobilization is critical."
+    },
+    {
+     "id": "hx_nephrotoxin_contrast_exposure",
+     "rationale": "Identifying nephrotoxin exposure is important for acute kidney injury management and may change immediate medication decisions."
+    }
+   ],
+   "examine": [
+    {
+     "id": "exam_bladder_percussion_palpable",
+     "rationale": "Obstructive/retention causes of AKI must be ruled out early, especially in a found down patient."
+    },
+    {
+     "id": "exam_dry_mucous_membranes",
+     "rationale": "Volume status assessment is crucial to distinguish prerenal from intrinsic causes of AKI."
+    },
+    {
+     "id": "exam_hypotension_sbp_lt90",
+     "rationale": "Detecting hypotension would prompt urgent resuscitation and guide further workup for shock or hypovolemia."
+    },
+    {
+     "id": "exam_ascites_flank_dullness_fluid_wave",
+     "rationale": "Hepatorenal syndrome is on the differential, and ascites exam helps identify underlying liver disease."
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "found down, dark urine",
+   "differentials": [
+    {
+     "dx": "rhabdomyolysis",
+     "weight": 1.0
+    },
+    {
+     "dx": "atn",
+     "weight": 0.4
+    },
+    {
+     "dx": "prerenal_hypovolemia",
+     "weight": 0.3
+    },
+    {
+     "dx": "obstruction_retention",
+     "weight": 0.2
+    },
+    {
+     "dx": "hepatorenal",
+     "weight": 0.1
+    }
+   ],
+   "indication_tags": [
+    "alcohol_use",
+    "acute_onset"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "found down ~[n]h",
+    "alcohol withdrawal",
+    "urine dark brown"
+   ],
+   "observed_values": [
+    "Cr 3.4"
+   ],
+   "presentation": "aki",
+   "time_course": "acute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "base"
+}

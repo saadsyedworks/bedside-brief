@@ -1,0 +1,568 @@
+{
+ "arm": "A",
+ "ask_first": false,
+ "base_case_id": "weakness_002",
+ "blocked_items": [],
+ "case_id": "weakness_002_n1",
+ "created_at": "2026-09-11T11:18:15+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "1",
+    "33",
+    "50",
+    "7"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_back_pain_cancer_history",
+   "section": "ask",
+   "text": "New or progressive back pain in a patient with known cancer (or age >50, night pain, weight loss)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "0.3",
+    "1",
+    "10",
+    "4",
+    "56"
+   ],
+   "performance_claims": [],
+   "record_id": "exam_sensory_level_upper_motor_neuron_signs",
+   "section": "examine",
+   "text": "Sensory level with hyperreflexia / extensor plantar (Babinski) below the level"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "0.19",
+    "0.43",
+    "0.62",
+    "0.88",
+    "2",
+    "5",
+    "500"
+   ],
+   "performance_claims": [],
+   "record_id": "exam_saddle_anesthesia_anal_tone",
+   "section": "examine",
+   "text": "Saddle (perineal) sensory loss and reduced anal tone"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [
+    "Kattah JC, Martinez C, Zalazar G, Batuecas A, Lemos J, Carmona S. Role of incubitus truncal ataxia, and equivalent standing grade 3 ataxia in the diagnosis of central acute vestibular syndrome. J Neurol Sci. 2022;441:120374.",
+    "Kattah JC, Talkad AV, Wang DZ, Hsieh YH, Newman-Toker DE. HINTS to diagnose stroke in the acute vestibular syndrome: three-step bedside oculomotor examination more sensitive than early MRI diffusion-weighted imaging. Stroke. 2009;40(11):3504-3510.",
+    "Systematic review and meta-analysis of the diagnostic accuracy of a graded gait and truncal instability rating in acutely dizzy and ataxic patients. Cerebellum. 2024.",
+    "Tarnutzer AA, Gold D, Wang Z, et al. Impact of clinician training background and stroke location on bedside diagnostic test accuracy in the acute vestibular syndrome - a meta-analysis. Ann Neurol. 2023;94(2):295-308."
+   ],
+   "numeric_claims": [
+    "0",
+    "0.052",
+    "0.33",
+    "0.343",
+    "0.358",
+    "0.44",
+    "0.451",
+    "0.47",
+    "0.537",
+    "0.56",
+    "0.593",
+    "0.665",
+    "0.67",
+    "0.708",
+    "0.716",
+    "0.79",
+    "0.808",
+    "0.823",
+    "0.827",
+    "0.86",
+    "0.92",
+    "0.938",
+    "0.978",
+    "0.98",
+    "0.991",
+    "0.992",
+    "1",
+    "10",
+    "10.1002",
+    "10.1007",
+    "10.1016",
+    "10.1161",
+    "100",
+    "101",
+    "1025",
+    "10524166",
+    "109.551234",
+    "11",
+    "11585515",
+    "120374",
+    "12311",
+    "15",
+    "1718",
+    "18",
+    "19762709",
+    "2",
+    "2006",
+    "2009",
+    "2022",
+    "2022.120374",
+    "2023",
+    "2024",
+    "24",
+    "25",
+    "26661",
+    "295",
+    "3",
+    "306",
+    "308",
+    "33",
+    "34.3",
+    "35.8",
+    "3504",
+    "3510",
+    "36",
+    "36063733",
+    "37038843",
+    "38990511",
+    "4",
+    "40",
+    "44",
+    "441",
+    "45.1",
+    "4593511",
+    "5.2",
+    "52",
+    "53.7",
+    "59.3",
+    "6",
+    "66.5",
+    "665",
+    "67",
+    "69",
+    "70.8",
+    "71",
+    "71.6",
+    "72.2",
+    "79",
+    "79.9",
+    "80.8",
+    "800",
+    "81",
+    "82.3",
+    "82.7",
+    "83",
+    "87.5",
+    "92",
+    "93.8",
+    "94",
+    "95",
+    "97.8",
+    "98",
+    "99",
+    "99.1",
+    "99.2"
+   ],
+   "performance_claims": [
+    "0.052",
+    "0.33",
+    "0.343",
+    "0.358",
+    "0.44",
+    "0.451",
+    "0.47",
+    "0.537",
+    "0.56",
+    "0.593",
+    "0.665",
+    "0.67",
+    "0.67",
+    "0.708",
+    "0.716",
+    "0.79",
+    "0.79",
+    "0.808",
+    "0.823",
+    "0.827",
+    "0.86",
+    "0.92",
+    "0.938",
+    "0.978",
+    "0.98",
+    "0.991",
+    "0.992",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1"
+   ],
+   "record_id": "fn_gait_stand_unaided",
+   "section": "examine",
+   "text": "Ability to stand and walk unaided (truncal ataxia grade; inability = central marker)"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "candidates": [
+   "exam_saddle_anesthesia_anal_tone",
+   "hx_back_pain_cancer_history",
+   "exam_sensory_level_upper_motor_neuron_signs",
+   "exam_ascending_symmetric_weakness_areflexia",
+   "exam_face_arm_speech_cpss",
+   "exam_focal_neuro_deficit_screen",
+   "exam_focal_neuro_deficit_with_chest_pain",
+   "exam_forehead_sparing_facial_weakness",
+   "fn_gait_stand_unaided",
+   "exam_bladder_percussion_palpable",
+   "exam_proximal_symmetric_weakness",
+   "exam_pulse_irregularly_irregular",
+   "hx_hypoglycemia_symptoms_insulin",
+   "hx_rhabdo_myalgia_dark_urine",
+   "exam_subtle_motor_signs_ncse",
+   "exam_pupils_eye_movements_toxidrome"
+  ],
+  "card": {
+   "chief_complaint": "heavy legs and escalating mid-back pain",
+   "presentation": "weakness",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_back_pain_cancer_history",
+      "changes_what": "Positive: same-day whole-spine MRI (urgent if any neurological deficit) and dexamethasone per local pathway; negative: routine care unless other red flags accumulate.",
+      "contraindications": "None.",
+      "do_not_use_when": "Not a substitute for a neurological examination; do not let an absent cancer history delay imaging when there are motor, sensory or sphincter symptoms.",
+      "escalation_warning": "Back pain plus leg weakness, saddle anaesthesia or urinary retention in a cancer patient is metastatic cord compression until proven otherwise: emergency MRI and steroids.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Ask specifically about any prior cancer diagnosis (including remote and 'cured'), and characterize the pain: onset, progression, night or rest pain, thoracic location, unexplained weight loss, and duration over one month. Then screen for cord/cauda equina symptoms: leg weakness, gait change, saddle numbness, urinary retention or incontinence.",
+      "id": "hx_back_pain_cancer_history",
+      "negative_finding": "No cancer history makes spinal malignancy unlikely in primary care (prevalence <1%), but minor red flags (age >50, weight loss, failure to improve) are weakly informative and cannot exclude it.",
+      "pitfalls": "Age >50, night pain and weight loss have high false-positive rates when used alone. Sensitivity of 'history of cancer' is modest, so its absence does not clear a patient with progressive or thoracic pain.",
+      "positive_finding": "A prior cancer history is the only red flag shown to substantially raise the probability of spinal malignancy: post-test probability 7% in primary care and 33% in an ED cohort. With new neurological symptoms treat as possible metastatic cord compression.",
+      "prerequisites": "Reliable history or collateral; access to oncology records if the patient is unsure.",
+      "rationale": "A history of cancer or new/progressive back pain strongly raises suspicion for spinal cord compression and guides urgency of imaging and steroid initiation.",
+      "skill_assumption": null,
+      "title": "New or progressive back pain in a patient with known cancer (or age >50, night pain, weight loss)",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/exam_sensory_level_upper_motor_neuron_signs",
+      "changes_what": "Positive: emergency whole-spine MRI, dexamethasone if malignancy suspected, spinal/oncology referral. Negative in suspected GBS: pursue neuromuscular workup; retained UMN signs argue against GBS.",
+      "contraindications": "None; in acute spinal shock reflexes may be absent below the level for days, so hyporeflexia does not exclude cord compression.",
+      "do_not_use_when": "Do not rely on absent hyperreflexia or a normal plantar response to exclude acute cord compression, and do not delay imaging to complete a detailed sensory map.",
+      "escalation_warning": "New bilateral leg weakness, a sensory level, or new bladder dysfunction in a patient with known cancer is metastatic spinal cord compression until MRI proves otherwise; outcome depends on ambulatory status at treatment, so image within hours.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Test pinprick and light touch moving upward from the feet on the trunk to find a dermatome above which sensation becomes normal; confirm with temperature (cold tuning fork). Test knee and ankle reflexes, clonus, and the plantar response by stroking the lateral sole from heel toward the toes with a blunt object; check bladder with a post-void residual.",
+      "id": "exam_sensory_level_upper_motor_neuron_signs",
+      "negative_finding": "Absence of a sensory level or of upper motor neuron signs does not exclude early cord compression, because acute lesions can present with flaccidity and areflexia (spinal shock) and sensory levels are often imprecise; in GBS reflexes are lost and no level is found.",
+      "pitfalls": "The Babinski sign has only fair inter-rater reliability (kappa 0.30) and agreed with known upper motor neuron weakness in just 56% of examinations; withdrawal from a ticklish sole mimics an extensor response. The clinical level often lies several segments below the true lesion, so image the whole spine.",
+      "positive_finding": "A bilateral sensory level on the trunk with hyperreflexia, clonus, or extensor plantars below it localizes to the spinal cord and, with back pain in a patient with cancer, indicates metastatic cord compression until MRI proves otherwise.",
+      "prerequisites": "Cooperative patient able to report sensation; know dermatome landmarks (T4 nipple, T10 umbilicus, L1 inguinal); compare bilaterally.",
+      "rationale": "A sensory level with upper motor neuron signs is a key finding for spinal cord compression and would prompt emergency imaging and intervention.",
+      "skill_assumption": null,
+      "title": "Sensory level with hyperreflexia / extensor plantar (Babinski) below the level",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_saddle_anesthesia_anal_tone",
+      "changes_what": "Positive: emergency MRI whole lumbosacral spine/urgent spinal surgical referral. Negative: does not exclude cauda equina; if suspicion persists (bilateral sciatica, retention) still image.",
+      "contraindications": "Patient refusal; rectal exam may be deferred if imaging is already being obtained emergently, but perineal sensation should still be tested.",
+      "do_not_use_when": "Do not use normal anal tone or perineal sensation to defer imaging when bilateral sciatica, new urinary retention or incontinence is present; the exam is insensitive for early cauda equina.",
+      "escalation_warning": "Any new saddle sensory change, sphincter disturbance or retention with back pain is a surgical emergency: emergent MRI and spinal referral without waiting for full deficit.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "With a chaperone and consent, test light touch and pinprick over the perineum, perianal skin, buttocks and inner thighs (S2-S5) comparing sides and asking about numbness when wiping; then digital rectal examination assessing resting anal tone, voluntary squeeze, and perianal sensation/anal wink. Pair with a bladder scan for post-void residual.",
+      "id": "exam_saddle_anesthesia_anal_tone",
+      "negative_finding": "Normal perineal sensation and anal tone do not exclude cauda equina compression - pooled sensitivities of individual red flags are only 0.19-0.43, and the diagnosis is often early or incomplete when sphincter signs are absent.",
+      "pitfalls": "Subjective perineal numbness is more sensitive than objective testing; anal tone is unreliable with prior anorectal surgery, chronic constipation or in the elderly. A large post-void residual (>500 mL) is the single most predictive bedside finding and should be checked with the exam.",
+      "positive_finding": "New saddle sensory loss or reduced anal tone in a patient with back pain and bilateral leg or sphincter symptoms is a red flag that mandates emergency MRI; pooled red flags for MRI-confirmed cauda equina are more specific (0.62-0.88) than sensitive.",
+      "prerequisites": "Chaperone, explanation and consent; document time of onset of bladder/bowel symptoms and bilateral leg symptoms.",
+      "rationale": "Saddle anesthesia or reduced anal tone is critical for identifying cauda equina syndrome, which requires urgent action.",
+      "skill_assumption": null,
+      "title": "Saddle (perineal) sensory loss and reduced anal tone",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/fn_gait_stand_unaided",
+      "changes_what": "Cannot stand/walk unaided (grade 3): treat as central; stroke work-up regardless of HINTS. Walks unaided: lowers but does not remove need for HINTS; still image if other red flags.",
+      "contraindications": "Do not attempt to stand a hypotensive, actively vomiting or obtunded patient; use the sitting test instead.",
+      "do_not_use_when": "Do not stand hypotensive, vomiting or obtunded patients; interpret with caution in patients with baseline gait impairment (neuropathy, parkinsonism, prior stroke, intoxication) where inability to walk is not new.",
+      "escalation_warning": "New inability to stand or walk unaided with acute vertigo is a central sign until proven otherwise, even with a normal CT and a peripheral-appearing HINTS; Carmona 2023 found truncal ataxia without nystagmus in 15% of acute-vertigo patients, mostly strokes.",
+      "evidence": [
+       {
+        "citation": "Tarnutzer AA, Gold D, Wang Z, et al. Impact of clinician training background and stroke location on bedside diagnostic test accuracy in the acute vestibular syndrome - a meta-analysis. Ann Neurol. 2023;94(2):295-308.",
+        "computed": false,
+        "doi": "10.1002/ana.26661",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results (Ann Neurol 2023;94:295; PMC10524166)",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "37038843",
+        "population": "Pooled AVS cohorts (10 study cohorts, n=800; stroke and vestibular neuritis)",
+        "prevalence": null,
+        "quote": "Severe (grade 3) gait/truncal instability had high specificity 99.2% (95% CI = 97.8-100.0) but low sensitivity 35.8% (95% CI = 5.2-66.5).",
+        "reference_standard": "Delayed MRI-DWI for peripheral cases; confirmatory neuroimaging for stroke",
+        "sensitivity": {
+         "ci_high": "0.665",
+         "ci_low": "0.052",
+         "value": "0.358"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "1",
+         "ci_low": "0.978",
+         "value": "0.992"
+        },
+        "target_condition": "Central acute vestibular syndrome (stroke or other central lesion) - severe (grade 3) gait/truncal instability",
+        "url": null,
+        "year": "2023"
+       },
+       {
+        "citation": "Tarnutzer AA, Gold D, Wang Z, et al. Impact of clinician training background and stroke location on bedside diagnostic test accuracy in the acute vestibular syndrome - a meta-analysis. Ann Neurol. 2023;94(2):295-308.",
+        "computed": false,
+        "doi": "10.1002/ana.26661",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Results, 'Diagnostic accuracy of bedside examination findings' (Ann Neurol 2023;94:295; PMC10524166); supplementary Table 2",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "37038843",
+        "population": "Pooled AVS cohorts (Ann Neurol 2023 meta-analysis)",
+        "prevalence": null,
+        "quote": "highest for a normal hHIT (79.9% [95% CI 72.2-87.5]), grade 2 or 3 gait/truncal instability (80.8% [45.1-100.0])",
+        "reference_standard": "Delayed MRI-DWI for peripheral cases; confirmatory neuroimaging for stroke",
+        "sensitivity": {
+         "ci_high": "1",
+         "ci_low": "0.451",
+         "value": "0.808"
+        },
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Central acute vestibular syndrome - grade 2 or 3 gait/truncal instability",
+        "url": null,
+        "year": "2023"
+       },
+       {
+        "citation": "Systematic review and meta-analysis of the diagnostic accuracy of a graded gait and truncal instability rating in acutely dizzy and ataxic patients. Cerebellum. 2024.",
+        "computed": false,
+        "doi": "10.1007/s12311-024-01718-6",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results (Cerebellum 2024; PMC11585515)",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "38990511",
+        "population": "18 studies, 1025 patients with acute vestibular syndrome (665 ischemic strokes, 306 acute unilateral vestibulopathy)",
+        "prevalence": null,
+        "quote": "Grade 2/3 GTI had moderate sensitivity (70.8% [95% confidence-interval (CI) = 59.3-82.3%]) and specificity (82.7 [71.6-93.8%]) for predicting a central cause",
+        "reference_standard": "Neuroimaging-based final diagnosis",
+        "sensitivity": {
+         "ci_high": "0.823",
+         "ci_low": "0.593",
+         "value": "0.708"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "0.938",
+         "ci_low": "0.716",
+         "value": "0.827"
+        },
+        "target_condition": "Central cause of acute prolonged vertigo/imbalance - grade 2/3 graded gait/truncal instability (GTI)",
+        "url": null,
+        "year": "2024"
+       },
+       {
+        "citation": "Systematic review and meta-analysis of the diagnostic accuracy of a graded gait and truncal instability rating in acutely dizzy and ataxic patients. Cerebellum. 2024.",
+        "computed": false,
+        "doi": "10.1007/s12311-024-01718-6",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results (Cerebellum 2024; PMC11585515)",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "38990511",
+        "population": "Same 18-study, 1025-patient AVS pool",
+        "prevalence": null,
+        "quote": "grade 3 GTI had a lower sensitivity (44.0% [34.3-53.7%] and higher specificity (99.1% [98.0-100.0%]).",
+        "reference_standard": "Neuroimaging-based final diagnosis",
+        "sensitivity": {
+         "ci_high": "0.537",
+         "ci_low": "0.343",
+         "value": "0.44"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "1",
+         "ci_low": "0.98",
+         "value": "0.991"
+        },
+        "target_condition": "Central cause of acute prolonged vertigo/imbalance - grade 3 GTI (cannot stand/walk unaided)",
+        "url": null,
+        "year": "2024"
+       },
+       {
+        "citation": "Kattah JC, Martinez C, Zalazar G, Batuecas A, Lemos J, Carmona S. Role of incubitus truncal ataxia, and equivalent standing grade 3 ataxia in the diagnosis of central acute vestibular syndrome. J Neurol Sci. 2022;441:120374.",
+        "computed": false,
+        "doi": "10.1016/j.jns.2022.120374",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_out",
+        "kind": "primary_study",
+        "location": "Abstract, Results (J Neurol Sci 2022;441:120374)",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "36063733",
+        "population": "52 prospectively studied AVS patients (stroke and vestibular neuritis)",
+        "prevalence": null,
+        "quote": "grade 2-3 ataxia to differentiate patients with vestibular neuritis from patients with stroke resulted in a 92% sensitivity (95% CI 79-100%), a 67% specificity",
+        "reference_standard": "Brain MRI",
+        "sensitivity": {
+         "ci_high": "1",
+         "ci_low": "0.79",
+         "value": "0.92"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "0.86",
+         "ci_low": "0.47",
+         "value": "0.67"
+        },
+        "target_condition": "AICA/PICA-territory stroke vs vestibular neuritis - grade 2-3 truncal ataxia (including inability to sit still as substitute)",
+        "url": null,
+        "year": "2022"
+       },
+       {
+        "citation": "Kattah JC, Talkad AV, Wang DZ, Hsieh YH, Newman-Toker DE. HINTS to diagnose stroke in the acute vestibular syndrome: three-step bedside oculomotor examination more sensitive than early MRI diffusion-weighted imaging. Stroke. 2009;40(11):3504-3510.",
+        "computed": false,
+        "doi": "10.1161/STROKEAHA.109.551234",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Table 4 (Sensitivity n=69, Specificity n=25), Stroke 2009;40:3504 (PMC4593511)",
+        "lr_negative": {
+         "ci_high": "0.79",
+         "ci_low": "0.56",
+         "value": "0.67"
+        },
+        "lr_positive": null,
+        "pmid": "19762709",
+        "population": "101 consecutive high-risk AVS patients (69 ischemic strokes vs 25 peripheral) at a stroke referral center",
+        "prevalence": null,
+        "quote": "Severe truncal ataxia 33% 100% 0.67 (0.56-0.79)",
+        "reference_standard": "MRI (or CT) for stroke; normal MRI plus clinical follow-up for peripheral",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.33"
+        },
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "1"
+        },
+        "target_condition": "Ischemic stroke in AVS - severe truncal ataxia (cannot sit unassisted)",
+        "url": null,
+        "year": "2009"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "With an assistant ready, ask the patient to sit unsupported, then stand, then walk a few metres. Grade truncal/gait instability: 0 = normal; 1 = mild sway but walks unaided; 2 = walks only with support/one-sided assistance; 3 = cannot stand or walk even with support (or cannot sit without arm support). If the patient cannot get up, note whether they can sit still unassisted.",
+      "id": "fn_gait_stand_unaided",
+      "negative_finding": "Walking unaided does not exclude posterior-circulation stroke: grade 3 instability is present in only about 36-44% of central AVS, so a patient who can walk still needs HINTS and imaging assessment when indicated.",
+      "pitfalls": "Peripheral vestibular neuritis causes unsteadiness (grade 1-2) that is easily over-called, especially in the elderly, the intoxicated or those with prior neuropathy; sedatives, Wernicke encephalopathy and alcohol withdrawal also produce ataxia. Grading systems differ (Lee 2006 vs Moon 2009), which changes sensitivity.",
+      "positive_finding": "Grade 3 instability (cannot stand or walk unaided) in acute vertigo is almost exclusively central - pooled specificity about 99% (LR+ high), and 0/25 peripheral patients in Kattah 2009. Grade 2-3 instability is more sensitive (71-81% pooled) but less specific (83%).",
+      "prerequisites": "Adequate blood pressure and no orthostatic symptoms; assistant present for fall prevention. Compare with baseline mobility in elderly or frail patients.",
+      "rationale": "Inability to stand or walk unaided suggests a central process and increases urgency for imaging and specialist referral.",
+      "skill_assumption": null,
+      "title": "Ability to stand and walk unaided (truncal ataxia grade; inability = central marker)",
+      "type": "functional"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_back_pain_cancer_history",
+     "rationale": "A history of cancer or new/progressive back pain strongly raises suspicion for spinal cord compression and guides urgency of imaging and steroid initiation."
+    }
+   ],
+   "examine": [
+    {
+     "id": "exam_sensory_level_upper_motor_neuron_signs",
+     "rationale": "A sensory level with upper motor neuron signs is a key finding for spinal cord compression and would prompt emergency imaging and intervention."
+    },
+    {
+     "id": "exam_saddle_anesthesia_anal_tone",
+     "rationale": "Saddle anesthesia or reduced anal tone is critical for identifying cauda equina syndrome, which requires urgent action."
+    },
+    {
+     "id": "fn_gait_stand_unaided",
+     "rationale": "Inability to stand or walk unaided suggests a central process and increases urgency for imaging and specialist referral."
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "heavy legs and escalating mid-back pain",
+   "differentials": [
+    {
+     "dx": "spinal_cord_compression",
+     "weight": 1.0
+    },
+    {
+     "dx": "cauda_equina",
+     "weight": 0.214
+    },
+    {
+     "dx": "stroke",
+     "weight": 0.071
+    },
+    {
+     "dx": "myopathy",
+     "weight": 0.071
+    },
+    {
+     "dx": "sepsis_deconditioning",
+     "weight": 0.071
+    }
+   ],
+   "indication_tags": [
+    "malignancy",
+    "acute_onset"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "struggles to stand up",
+    "mid-back pain escalated"
+   ],
+   "observed_values": [],
+   "presentation": "weakness",
+   "time_course": "acute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "n1"
+}

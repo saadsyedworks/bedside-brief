@@ -1,0 +1,184 @@
+{
+ "arm": "A",
+ "ask_first": false,
+ "base_case_id": "dizziness_001",
+ "blocked_items": [],
+ "case_id": "dizziness_001_p1",
+ "created_at": "2026-09-11T11:03:14+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Herr RD, Zun L, Mathews JJ. A directed approach to the dizzy patient. Ann Emerg Med. 1989;18(6):664-672."
+   ],
+   "numeric_claims": [
+    "0.42",
+    "0.86",
+    "1",
+    "10.1016",
+    "125",
+    "18",
+    "196",
+    "1989",
+    "20",
+    "2729692",
+    "4",
+    "42",
+    "52",
+    "6",
+    "644",
+    "66",
+    "664",
+    "672",
+    "80524",
+    "86",
+    "89"
+   ],
+   "performance_claims": [
+    "0.42",
+    "0.86"
+   ],
+   "record_id": "hx_dizziness_timing_triggers",
+   "section": "ask",
+   "text": "Timing and triggers (TiTrATE: episodic vs continuous, triggered vs spontaneous) rather than symptom quality; associated diplopia/dysarthria/dysphagia/hearing loss"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "candidates": [
+   "hx_dizziness_timing_triggers",
+   "exam_nystagmus_direction_changing",
+   "fn_dix_hallpike",
+   "fn_gait_stand_unaided",
+   "exam_focal_neuro_deficit_screen",
+   "fn_head_impulse_test",
+   "fn_hints_exam",
+   "exam_face_arm_speech_cpss",
+   "exam_skew_deviation",
+   "exam_orthostatic_vitals",
+   "hx_deliriogenic_medication_review",
+   "hx_hypotensive_medication_review",
+   "exam_pupils_eye_movements_toxidrome",
+   "exam_anaphylaxis_signs",
+   "exam_cam_delirium_screen",
+   "fn_attention_months_backward",
+   "hx_nephrotoxin_contrast_exposure",
+   "exam_peripheral_edema_pitting",
+   "hx_edema_causing_medications"
+  ],
+  "card": {
+   "chief_complaint": "spinning sensation with vomiting when rolling over",
+   "presentation": "dizziness",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_dizziness_timing_triggers",
+      "changes_what": "Determines which bedside exam follows: HINTS for continuous spontaneous, Dix-Hallpike for triggered episodic, orthostatic vitals for standing-triggered, ECG/monitoring for spontaneous episodic.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use a reassuring timing/trigger pattern alone to exclude stroke in patients with vascular risk factors, new headache/neck pain, or any brainstem symptom; obtain the targeted examination.",
+      "escalation_warning": "Acute continuous dizziness with any of diplopia, dysarthria, dysphagia, limb ataxia, new deafness or inability to walk unaided is a stroke pathway until proven otherwise; up to 20% of early DWI-MRI are false negative.",
+      "evidence": [
+       {
+        "citation": "Herr RD, Zun L, Mathews JJ. A directed approach to the dizzy patient. Ann Emerg Med. 1989;18(6):664-672.",
+        "computed": false,
+        "doi": "10.1016/s0196-0644(89)80524-4",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "2729692",
+        "population": "125 ED patients with dizziness evaluated with a standardized 66-item history/exam/lab protocol",
+        "prevalence": null,
+        "quote": "The best predictors, either older age, lack of vertigo, or neurologic deficit, could identify 86% of \"serious\" dizziness with 42% specificity.",
+        "reference_standard": "Emergency physician diagnosis modified by 1-month follow-up using predefined diagnostic criteria",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.86"
+        },
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.42"
+        },
+        "target_condition": "'Serious' cause of dizziness (stroke/TIA, arrhythmia, medication, seizure, other requiring admission) - composite predictor: older age OR lack of vertigo OR neurologic deficit",
+        "url": null,
+        "year": "1989"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Instead of asking 'what kind of dizziness', ask: Is it there now continuously or does it come in discrete episodes? How long do episodes last (seconds, minutes, hours)? Is it brought on only by a trigger (head/position change, standing) or does it arise spontaneously? Then ask about diplopia, dysarthria, dysphagia, new hearing loss, headache or neck pain.",
+      "id": "hx_dizziness_timing_triggers",
+      "negative_finding": "A clear positional trigger with seconds-long episodes and no neurologic symptoms makes central causes unlikely, but isolated dizziness can still be a vertebrobasilar stroke.",
+      "pitfalls": "Symptom-quality descriptors (vertigo vs lightheadedness) are unreliable: 52% of ED patients changed their descriptor on retest after ~6 minutes, so do not triage on 'type'. Do not confuse 'worse with movement' (most vestibular causes) with 'only occurs with movement' (true trigger).",
+      "positive_finding": "Continuous acute vestibular syndrome demands HINTS-type eye examination for stroke; triggered brief episodes point to BPPV or orthostatic hypotension (test with Dix-Hallpike or orthostatic vitals); spontaneous episodes lasting minutes-hours suggest TIA, Meniere or arrhythmia. Any associated brainstem symptom raises stroke probability.",
+      "prerequisites": "Patient able to give a history; screen for red-flag neurologic symptoms before deciding on examination pathway.",
+      "rationale": "Clarifying whether the dizziness is episodic and triggered versus continuous will determine the appropriate bedside exam and help distinguish BPPV from other causes.",
+      "skill_assumption": null,
+      "title": "Timing and triggers (TiTrATE: episodic vs continuous, triggered vs spontaneous) rather than symptom quality; associated diplopia/dysarthria/dysphagia/hearing loss",
+      "type": "history"
+     }
+    ],
+    "examine": []
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_dizziness_timing_triggers",
+     "rationale": "Clarifying whether the dizziness is episodic and triggered versus continuous will determine the appropriate bedside exam and help distinguish BPPV from other causes."
+    }
+   ],
+   "examine": []
+  },
+  "parsed": {
+   "chief_complaint": "spinning sensation with vomiting when rolling over",
+   "differentials": [
+    {
+     "dx": "bppv",
+     "weight": 1.0
+    },
+    {
+     "dx": "vestibular_neuritis",
+     "weight": 0.214
+    },
+    {
+     "dx": "posterior_circulation_stroke",
+     "weight": 0.143
+    },
+    {
+     "dx": "medication_effect",
+     "weight": 0.071
+    }
+   ],
+   "indication_tags": [
+    "acute_onset",
+    "positional",
+    "anticoagulated",
+    "elderly"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "spinning for seconds each time he rolls over since [n] AM",
+    "with vomiting"
+   ],
+   "observed_values": [
+    "BP 168/94"
+   ],
+   "presentation": "dizziness",
+   "time_course": "acute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "p1"
+}

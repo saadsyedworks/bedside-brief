@@ -1,0 +1,494 @@
+{
+ "arm": "A",
+ "ask_first": false,
+ "base_case_id": "ams_002",
+ "blocked_items": [],
+ "case_id": "ams_002",
+ "created_at": "2026-09-11T10:59:41+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "72"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_deliriogenic_medication_review",
+   "section": "ask",
+   "text": "Deliriogenic medication review: anticholinergics, benzodiazepines, opioids, new/changed drugs, thiazides"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Aertgeerts B, Buntinx F, Kester A. The value of the CAGE in screening for alcohol abuse and alcohol dependence in general clinical populations: a diagnostic meta-analysis. J Clin Epidemiol. 2004;57(1):30-39."
+   ],
+   "numeric_claims": [
+    "0",
+    "0.18",
+    "0.6",
+    "0.71",
+    "0.87",
+    "1",
+    "10",
+    "10.1016",
+    "15019008",
+    "2",
+    "2004",
+    "24",
+    "254",
+    "3",
+    "3.44",
+    "30",
+    "39",
+    "4356",
+    "48",
+    "57",
+    "6",
+    "67",
+    "895",
+    "96"
+   ],
+   "performance_claims": [
+    "0.18",
+    "0.71",
+    "0.87",
+    "3.44"
+   ],
+   "record_id": "hx_alcohol_use_withdrawal_timing",
+   "section": "ask",
+   "text": "Alcohol use (CAGE) and time since last drink; tremor, diaphoresis, agitation (CIWA items)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "1",
+    "2",
+    "30"
+   ],
+   "performance_claims": [],
+   "record_id": "exam_asterixis",
+   "section": "examine",
+   "text": "Asterixis (flapping tremor with wrists extended)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Shi Q, Warren L, Saposnik G, Macdermid JC. Confusion assessment method: a systematic review and meta-analysis of diagnostic accuracy. Neuropsychiatr Dis Treat 2013;9:1359-1370.",
+    "Wong CL, Holroyd-Leduc J, Simel DL, Straus SE. Does this patient have delirium?: value of bedside instruments. JAMA 2010;304:779-786."
+   ],
+   "numeric_claims": [
+    "0.09",
+    "0.16",
+    "0.29",
+    "0.69",
+    "0.82",
+    "0.87",
+    "0.91",
+    "0.99",
+    "1",
+    "10",
+    "10.1001",
+    "10.2147",
+    "100",
+    "1359",
+    "1370",
+    "16",
+    "2",
+    "2010",
+    "2010.1182",
+    "2013",
+    "20716741",
+    "22",
+    "24092976",
+    "2442",
+    "25",
+    "3",
+    "3027",
+    "304",
+    "4",
+    "49520",
+    "5",
+    "5.8",
+    "69",
+    "779",
+    "786",
+    "82",
+    "87",
+    "9",
+    "9.6",
+    "91",
+    "95",
+    "99"
+   ],
+   "performance_claims": [
+    "0.09",
+    "0.16",
+    "0.29",
+    "0.69",
+    "0.82",
+    "0.87",
+    "0.91",
+    "0.99",
+    "1",
+    "16",
+    "5.8",
+    "9.6"
+   ],
+   "record_id": "exam_cam_delirium_screen",
+   "section": "examine",
+   "text": "Confusion Assessment Method (CAM) delirium screen"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": "exam_infection_source_survey",
+   "section": "examine",
+   "text": "Focused infection-source exam (line/exit sites, skin, abdomen, joints, sacrum, urine catheter)"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "candidates": [
+   "exam_cam_delirium_screen",
+   "fn_attention_months_backward",
+   "exam_asterixis",
+   "exam_cirrhosis_stigmata",
+   "exam_shifting_dullness",
+   "exam_spider_nevi",
+   "hx_alcohol_use_withdrawal_timing",
+   "exam_bladder_percussion_palpable",
+   "exam_infection_source_survey",
+   "hx_dysuria_frequency",
+   "hx_rigors_shaking_chills",
+   "exam_dry_mucous_membranes",
+   "exam_skin_turgor",
+   "hx_deliriogenic_medication_review",
+   "exam_tachypnea_rr_gt24"
+  ],
+  "card": {
+   "chief_complaint": "somnolence and disorientation",
+   "presentation": "ams",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_deliriogenic_medication_review",
+      "changes_what": "Positive: stop or taper the culprit and check sodium; the review is additive to, not a replacement for, the infectious/metabolic delirium workup.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not delay sepsis, hypoglycemia or stroke evaluation while the medication list is being reconciled.",
+      "escalation_warning": "Abrupt benzodiazepine or opioid withdrawal can itself cause delirium, seizures or severe pain; taper rather than stop in chronic users.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Reconcile every current drug (including OTC, PRN and recently stopped) against the admission list and the last 72 h MAR. Flag anticholinergics, benzodiazepines/Z-drugs, opioids, dihydropyridines, antihistamines, steroids, any drug added or dose-changed in the past week, and diuretics/thiazides (sodium).",
+      "id": "hx_deliriogenic_medication_review",
+      "negative_finding": "No culprit drug identified does not exclude delirium or medication effect; look for infection, metabolic and structural causes.",
+      "pitfalls": "Risk data are relative risks/odds ratios from cohort studies, not diagnostic sensitivity or specificity, so no LR can be assigned. Untreated severe pain also precipitates delirium, so opioids should be tapered rather than abruptly withdrawn.",
+      "positive_finding": "One or more deliriogenic drugs or a recent addition/dose change temporally preceding the mental-status change. More than three drugs added during admission roughly triples delirium risk in older inpatients.",
+      "prerequisites": "Reliable medication history from chart, pharmacy record or family; time of each new start or dose change.",
+      "rationale": "Medication-induced delirium is common and reversible, so identifying culprit drugs can rapidly change management.",
+      "skill_assumption": null,
+      "title": "Deliriogenic medication review: anticholinergics, benzodiazepines, opioids, new/changed drugs, thiazides",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_alcohol_use_withdrawal_timing",
+      "changes_what": "Positive: give thiamine before glucose, start symptom-triggered benzodiazepines, check glucose/ammonia. Negative: pursue other AMS causes; still consider Wernicke if malnourished.",
+      "contraindications": "CIWA-Ar is unreliable in patients who cannot communicate (intubated, delirious from another cause, severe dementia).",
+      "do_not_use_when": "Do not use CIWA-Ar to drive sedation in patients who cannot communicate or whose agitation may be from another cause (sepsis, hypoxia, head injury, hypoglycemia).",
+      "escalation_warning": "Seizure, fever, marked autonomic instability or hallucinations with confusion 48-96 h after the last drink suggest delirium tremens or Wernicke; give IV thiamine and escalate care.",
+      "evidence": [
+       {
+        "citation": "Aertgeerts B, Buntinx F, Kester A. The value of the CAGE in screening for alcohol abuse and alcohol dependence in general clinical populations: a diagnostic meta-analysis. J Clin Epidemiol. 2004;57(1):30-39.",
+        "computed": false,
+        "doi": "10.1016/S0895-4356(03)00254-3",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "15019008",
+        "population": "Hospital inpatients from studies pooled in a diagnostic meta-analysis (10 studies overall)",
+        "prevalence": null,
+        "quote": "the pooled sensitivity is far better in inpatients (0.87) than in primary care patients (0.71) or ambulatory patients (0.60)",
+        "reference_standard": "DSM criteria for alcohol abuse/dependence (structured interview)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.87"
+        },
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "DSM-defined alcohol abuse or dependence; CAGE score >=2 (inpatients)",
+        "url": null,
+        "year": "2004"
+       },
+       {
+        "citation": "Aertgeerts B, Buntinx F, Kester A. The value of the CAGE in screening for alcohol abuse and alcohol dependence in general clinical populations: a diagnostic meta-analysis. J Clin Epidemiol. 2004;57(1):30-39.",
+        "computed": false,
+        "doi": "10.1016/S0895-4356(03)00254-3",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "15019008",
+        "population": "Primary care patients from pooled studies",
+        "prevalence": null,
+        "quote": "the pooled sensitivity is far better in inpatients (0.87) than in primary care patients (0.71) or ambulatory patients (0.60)",
+        "reference_standard": "DSM criteria for alcohol abuse/dependence",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.71"
+        },
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "DSM-defined alcohol abuse or dependence; CAGE score >=2 (primary care)",
+        "url": null,
+        "year": "2004"
+       },
+       {
+        "citation": "Aertgeerts B, Buntinx F, Kester A. The value of the CAGE in screening for alcohol abuse and alcohol dependence in general clinical populations: a diagnostic meta-analysis. J Clin Epidemiol. 2004;57(1):30-39.",
+        "computed": false,
+        "doi": "10.1016/S0895-4356(03)00254-3",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.18"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "3.44"
+        },
+        "pmid": "15019008",
+        "population": "General clinical populations, 10 pooled studies (inpatient, primary care, ambulatory)",
+        "prevalence": null,
+        "quote": "The likelihood ratios seem to be relatively constant over the populations (overall LR+:3.44;LR-:0.18)",
+        "reference_standard": "DSM criteria for alcohol abuse/dependence",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "DSM-defined alcohol abuse or dependence; CAGE score >=2 (all populations)",
+        "url": null,
+        "year": "2004"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Ask the four CAGE questions (Cut down, Annoyed, Guilty, Eye-opener), quantity/frequency, and the exact time of the last drink. Score CIWA-Ar items at the bedside: nausea, tremor (arms extended), sweats, anxiety, agitation, tactile/auditory/visual disturbances, headache, orientation (0-67).",
+      "id": "hx_alcohol_use_withdrawal_timing",
+      "negative_finding": "CAGE <2 lowers but does not exclude an alcohol use disorder (pooled LR- 0.18; sensitivity only 0.60 in ambulatory patients). A drink within the last few hours makes withdrawal an unlikely cause of current symptoms.",
+      "pitfalls": "CAGE detects abuse/dependence, not hazardous drinking, and performs poorly in women, prenatal and primary-care populations. CIWA-Ar is a severity scale, not a diagnostic test, and is inflated by pain, sepsis, hypoglycemia and anxiety.",
+      "positive_finding": "CAGE >=2 raises the probability of DSM alcohol abuse/dependence (pooled LR+ 3.44; sensitivity 0.87 in inpatients). Last drink 6-24 h ago with tremor/sweats/agitation fits early withdrawal; 48-96 h fits delirium tremens.",
+      "prerequisites": "Patient able to answer or a collateral historian; CIWA-Ar requires a communicative patient.",
+      "rationale": "Alcohol withdrawal or Wernicke's encephalopathy must be considered in any patient with cirrhosis and AMS, as it changes immediate therapy.",
+      "skill_assumption": null,
+      "title": "Alcohol use (CAGE) and time since last drink; tremor, diaphoresis, agitation (CIWA items)",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/exam_asterixis",
+      "changes_what": "Present: obtain blood gas (CO2), ammonia/liver tests, renal function and drug review; treat the identified cause. Absent: no change in workup for the presenting complaint.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not rely on asterixis to grade encephalopathy in a stuporous or comatose patient (the sign disappears as HE deepens).",
+      "escalation_warning": "Asterixis with drowsiness in a COPD patient means probable acute hypercapnic failure: blood gas and NIV assessment now. In cirrhosis, new asterixis warrants a search for a precipitant (bleeding, infection, drugs).",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Have the patient hold both arms outstretched with wrists dorsiflexed and fingers spread for 30 s (or squeeze your fingers, or protrude the tongue if the arms cannot be held up); watch for brief, irregular loss of posture with a flapping correction. Examine both sides; can also be elicited in the feet or with hip abduction in a supine patient.",
+      "id": "exam_asterixis",
+      "negative_finding": "Absence does not exclude hepatic encephalopathy (covert/grade 1 HE and deep coma both lack asterixis) nor hypercapnia; interpret with the rest of the examination and an ammonia/blood gas as indicated.",
+      "pitfalls": "Asterixis is absent in stupor/coma and in minimal HE, so it is neither sensitive nor specific; unilateral asterixis suggests a contralateral structural brain lesion (stroke) rather than a metabolic cause.",
+      "positive_finding": "Bilateral asterixis indicates a metabolic or toxic encephalopathy: hepatic encephalopathy (grade 2 or higher, West Haven) in cirrhosis, hypercapnic respiratory failure, uraemia, or drug effect (valproate, carbamazepine, lithium, sedatives). It does not distinguish between these causes.",
+      "prerequisites": "Patient awake enough to follow a command and sustain posture; a comatose patient cannot show asterixis.",
+      "rationale": "Asterixis is a key sign of hepatic encephalopathy and would prompt immediate workup and treatment for this reversible cause.",
+      "skill_assumption": null,
+      "title": "Asterixis (flapping tremor with wrists extended)",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_cam_delirium_screen",
+      "changes_what": "Positive: label as delirium and work up precipitants; negative: pursue dementia, depression, psychosis or focal neurology but rescreen if course fluctuates.",
+      "contraindications": "None.",
+      "do_not_use_when": "Not a substitute for glucose, vitals, and focal neurological exam in acute mental-status change; use CAM-ICU in ventilated or non-verbal patients.",
+      "escalation_warning": "A positive CAM with fever, meningism, focal deficit or reduced consciousness needs urgent evaluation for meningitis, stroke or sepsis regardless of screen result.",
+      "evidence": [
+       {
+        "citation": "Wong CL, Holroyd-Leduc J, Simel DL, Straus SE. Does this patient have delirium?: value of bedside instruments. JAMA 2010;304:779-786.",
+        "computed": false,
+        "doi": "10.1001/jama.2010.1182",
+        "evidence_level": "pooled",
+        "interpretation_label": "both",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.29",
+         "ci_low": "0.09",
+         "value": "0.16"
+        },
+        "lr_positive": {
+         "ci_high": "16",
+         "ci_low": "5.8",
+         "value": "9.6"
+        },
+        "pmid": "20716741",
+        "population": "Hospitalized adults, mostly older medical/surgical inpatients, across 25 prospective studies (N=3027)",
+        "prevalence": null,
+        "quote": "the CAM has the best available supportive data as a bedside delirium instrument (summary-positive LR, 9.6; 95% CI, 5.8-16.0; summary-negative LR, 0.16; 95% CI, 0.09-0.29)",
+        "reference_standard": "DSM-based diagnosis by geriatrician, psychiatrist or neurologist",
+        "sensitivity": null,
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Delirium (DSM-based diagnosis)",
+        "url": null,
+        "year": "2010"
+       },
+       {
+        "citation": "Shi Q, Warren L, Saposnik G, Macdermid JC. Confusion assessment method: a systematic review and meta-analysis of diagnostic accuracy. Neuropsychiatr Dis Treat 2013;9:1359-1370.",
+        "computed": false,
+        "doi": "10.2147/NDT.S49520",
+        "evidence_level": "pooled",
+        "interpretation_label": "both",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results; Results text and Figure 2 (bivariate estimate)",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "24092976",
+        "population": "Adults in a variety of medical settings; 22 studies of CAM and CAM-ICU (n=2442)",
+        "prevalence": null,
+        "quote": "The pooled sensitivities and specificity for CAM were 82% (95% confidence interval [CI]: 69%-91%) and 99% (95% CI: 87%-100%)",
+        "reference_standard": "DSM-IV criteria",
+        "sensitivity": {
+         "ci_high": "0.91",
+         "ci_low": "0.69",
+         "value": "0.82"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "1",
+         "ci_low": "0.87",
+         "value": "0.99"
+        },
+        "target_condition": "Delirium (DSM-IV)",
+        "url": null,
+        "year": "2013"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "After a brief cognitive test (e.g. months backwards, digit span) and interview, score four features: (1) acute onset and fluctuating course from an informant/chart, (2) inattention, (3) disorganized thinking, (4) altered level of consciousness. CAM positive = features 1 AND 2 plus either 3 or 4. Takes about 5 minutes.",
+      "id": "exam_cam_delirium_screen",
+      "negative_finding": "Negative CAM lowers the probability substantially (pooled LR- 0.16) but pooled sensitivity is only ~0.82; repeat the screen if fluctuation is suspected.",
+      "pitfalls": "Accuracy falls with untrained raters and without a formal attention test; dementia, aphasia and hypoactive delirium lower sensitivity. The CAM identifies delirium, not its cause.",
+      "positive_finding": "Positive CAM makes delirium roughly 10 times more likely (pooled LR+ 9.6) and should trigger a search for the precipitant (infection, drugs, metabolic, withdrawal).",
+      "prerequisites": "Baseline cognition from a collateral source; trained rater; patient able to respond (use CAM-ICU for intubated/non-verbal patients).",
+      "rationale": "A formal delirium screen helps distinguish delirium from other causes of AMS and guides the search for precipitants.",
+      "skill_assumption": null,
+      "title": "Confusion Assessment Method (CAM) delirium screen",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_infection_source_survey",
+      "changes_what": "A positive survey targets cultures, imaging and source control (line removal, drainage, debridement); a negative survey mandates blood/urine cultures and imaging rather than reassurance.",
+      "contraindications": "None; do not delay cultures and antibiotics in suspected sepsis while completing the survey.",
+      "do_not_use_when": "Never let a negative source survey withhold cultures, empiric antibiotics or imaging in a hypotensive, febrile or acutely confused patient with suspected infection.",
+      "escalation_warning": "Crepitus, bullae, skin necrosis or pain out of proportion (necrotizing fasciitis), a hot joint, peritonism, or purulence at a central line/dialysis catheter in a septic patient require immediate surgical/source-control and line removal decisions.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Undress and inspect every line, dialysis and drain/exit site (erythema, purulence, tunnel tenderness), all skin including back, sacrum, heels, perineum, injection sites and wounds; palpate abdomen (peritonism, Murphy sign, flank tenderness), joints and spine for warmth/effusion/tenderness; check urinary catheter, mouth, sinuses, ears and chest. Repeat daily while the source is unknown.",
+      "id": "exam_infection_source_survey",
+      "negative_finding": "A normal survey does not exclude an occult source: insertion-site inflammation is absent in nearly all catheter-related bloodstream infections, and intra-abdominal, urinary, endovascular and spinal infections are frequently silent in elderly, immunosuppressed or sedated patients.",
+      "pitfalls": "Line-site appearance has near-zero sensitivity for CRBSI (coagulase-negative staphylococci cause little inflammation); steroids, neutropenia and neuropathy blunt local signs; dressings, obesity and immobility hide sacral, perineal and injection-site infections. Pain out of proportion with unimpressive skin findings suggests necrotizing infection.",
+      "positive_finding": "Purulence, spreading erythema or tunnel tenderness at a line/exit site, cellulitis or crepitus, a hot swollen joint, peritonism or flank tenderness, or a sacral/heel ulcer with surrounding infection identifies a probable source and directs cultures, source control and empiric therapy.",
+      "prerequisites": "Full exposure with dressings taken down, adequate lighting and analgesia; review lines, catheters and devices with their insertion dates; log-roll immobile patients to view the sacrum.",
+      "rationale": "Infection is a common precipitant of delirium and hepatic encephalopathy, so a focused source exam can direct urgent investigations and therapy.",
+      "skill_assumption": null,
+      "title": "Focused infection-source exam (line/exit sites, skin, abdomen, joints, sacrum, urine catheter)",
+      "type": "exam"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_deliriogenic_medication_review",
+     "rationale": "Medication-induced delirium is common and reversible, so identifying culprit drugs can rapidly change management."
+    },
+    {
+     "id": "hx_alcohol_use_withdrawal_timing",
+     "rationale": "Alcohol withdrawal or Wernicke's encephalopathy must be considered in any patient with cirrhosis and AMS, as it changes immediate therapy."
+    }
+   ],
+   "examine": [
+    {
+     "id": "exam_asterixis",
+     "rationale": "Asterixis is a key sign of hepatic encephalopathy and would prompt immediate workup and treatment for this reversible cause."
+    },
+    {
+     "id": "exam_cam_delirium_screen",
+     "rationale": "A formal delirium screen helps distinguish delirium from other causes of AMS and guides the search for precipitants."
+    },
+    {
+     "id": "exam_infection_source_survey",
+     "rationale": "Infection is a common precipitant of delirium and hepatic encephalopathy, so a focused source exam can direct urgent investigations and therapy."
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "somnolence and disorientation",
+   "differentials": [
+    {
+     "dx": "hepatic_encephalopathy",
+     "weight": 1.0
+    },
+    {
+     "dx": "delirium_infectious",
+     "weight": 0.214
+    },
+    {
+     "dx": "hyponatremia",
+     "weight": 0.143
+    },
+    {
+     "dx": "uremia",
+     "weight": 0.071
+    }
+   ],
+   "indication_tags": [
+    "cirrhosis_known",
+    "acute_onset"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "oriented to person only"
+   ],
+   "observed_values": [
+    "HR 78"
+   ],
+   "presentation": "ams",
+   "time_course": "acute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "base"
+}

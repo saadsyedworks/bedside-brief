@@ -1,0 +1,906 @@
+{
+ "arm": "A",
+ "ask_first": false,
+ "base_case_id": "edema_002",
+ "blocked_items": [],
+ "case_id": "edema_002_n1",
+ "created_at": "2026-09-11T11:45:39+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "2",
+    "4"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_edema_causing_medications",
+   "section": "ask",
+   "text": "Medication review for edema: dihydropyridine CCB, NSAIDs, thiazolidinediones, pregabalin/gabapentin, steroids, minoxidil/hydralazine"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Ekundayo OJ, Howard VJ, Safford MM, et al. Value of orthopnea, paroxysmal nocturnal dyspnea, and medications in prospective population studies of incident heart failure. Am J Cardiol. 2009;104(2):259-264.",
+    "Fonseca C, Morais H, Mota T, et al. The diagnosis of heart failure in primary care: value of symptoms and signs. Eur J Heart Fail. 2004;6(6):795-800."
+   ],
+   "numeric_claims": [
+    "0.047",
+    "0.46",
+    "0.52",
+    "0.58",
+    "0.82",
+    "0.83",
+    "0.84",
+    "10.1016",
+    "104",
+    "1058",
+    "15542419",
+    "19576357",
+    "2",
+    "2004",
+    "2004.08",
+    "2009",
+    "2009.03",
+    "25",
+    "25.8",
+    "259",
+    "264",
+    "272",
+    "3.06",
+    "35.5",
+    "36",
+    "39.1",
+    "46",
+    "5",
+    "52",
+    "58",
+    "6",
+    "65",
+    "771",
+    "795",
+    "800",
+    "82",
+    "83",
+    "84",
+    "95"
+   ],
+   "performance_claims": [
+    "0.46",
+    "0.52",
+    "0.58",
+    "0.58",
+    "0.82",
+    "0.83",
+    "0.84",
+    "3.06",
+    "39.1"
+   ],
+   "record_id": "hx_orthopnea",
+   "section": "ask",
+   "text": "Orthopnea: dyspnea lying flat relieved by sitting up / number of pillows"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Simel DL, Halvorsen RA Jr, Feussner JR. Quantitating bedside diagnosis: clinical evaluation of ascites. J Gen Intern Med. 1988;3(5):423-428."
+   ],
+   "numeric_claims": [
+    "0.12",
+    "0.17",
+    "1",
+    "10.1007",
+    "1988",
+    "1992",
+    "2",
+    "2595917",
+    "3",
+    "30",
+    "3049966",
+    "423",
+    "428",
+    "5",
+    "5.76",
+    "5.8",
+    "9.6"
+   ],
+   "performance_claims": [
+    "0.12",
+    "0.17",
+    "5.76",
+    "9.6"
+   ],
+   "record_id": "exam_shifting_dullness",
+   "section": "examine",
+   "text": "Ascites signs: shifting dullness, flank dullness, fluid wave, bulging flanks"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Mant J, Doust J, Roalfe A, et al. Systematic review and individual patient data meta-analysis of diagnosis of heart failure, with modelling of implications of different diagnostic strategies in primary care. Health Technol Assess. 2009;13(32):1-207."
+   ],
+   "numeric_claims": [
+    "0.53",
+    "0.65",
+    "0.72",
+    "1",
+    "1.9",
+    "10.331",
+    "11",
+    "13",
+    "13320",
+    "19586584",
+    "2009",
+    "207",
+    "32",
+    "4",
+    "5",
+    "50",
+    "53",
+    "72",
+    "9"
+   ],
+   "performance_claims": [
+    "0.53",
+    "0.65",
+    "0.72",
+    "1.9"
+   ],
+   "record_id": "exam_peripheral_edema_pitting",
+   "section": "examine",
+   "text": "Lower-extremity edema: bilateral vs unilateral, pitting vs non-pitting (brawny), grade and level"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Butman SM, Ewy GA, Standen JR, Kern KB, Hahn E. Bedside cardiovascular examination in patients with severe chronic heart failure: importance of rest or inducible jugular venous distension. J Am Coll Cardiol 1993;22(4):968-74.",
+    "Mant J, Doust J, Roalfe A, et al. Systematic review and individual patient data meta-analysis of diagnosis of heart failure, with modelling of implications of different diagnostic strategies in primary care. Health Technol Assess 2009;13(32):1-207.",
+    "Signs and symptoms in adult patients with acute dyspnea: a systematic review and meta-analysis. Eur J Emerg Med 2018;25(1):3-11 (author list not retrievable via abstract tool; confirmed by PMID/DOI)."
+   ],
+   "numeric_claims": [
+    "0.2",
+    "0.24",
+    "0.55",
+    "0.7",
+    "0.77",
+    "0.8",
+    "0.81",
+    "0.88",
+    "0.97",
+    "1",
+    "10.1016",
+    "10.1097",
+    "10.331",
+    "1097",
+    "11",
+    "13",
+    "13320",
+    "18",
+    "19586584",
+    "1993",
+    "2",
+    "2009",
+    "2018",
+    "207",
+    "22",
+    "25",
+    "29252938",
+    "3",
+    "30",
+    "32",
+    "4",
+    "4.05",
+    "429",
+    "45",
+    "4737",
+    "52",
+    "59",
+    "7",
+    "70",
+    "72",
+    "735",
+    "74",
+    "8",
+    "80",
+    "81",
+    "8409071",
+    "85",
+    "89",
+    "9",
+    "90405",
+    "93",
+    "968",
+    "99"
+   ],
+   "performance_claims": [
+    "0.24",
+    "0.7",
+    "0.8",
+    "0.81",
+    "0.88",
+    "4.05"
+   ],
+   "record_id": "exam_jvp_elevated",
+   "section": "examine",
+   "text": "Jugular venous pressure elevated (>8 cm H2O / >3 cm above sternal angle); low/flat JVP as the negative"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Udell JA, Wang CS, Tinmouth J, et al. Does this patient with liver disease have cirrhosis? JAMA. 2012;307(8):832-842."
+   ],
+   "numeric_claims": [
+    "0.24",
+    "0.37",
+    "0.51",
+    "10.1001",
+    "12",
+    "160",
+    "19",
+    "2.4",
+    "2.9",
+    "2012",
+    "2012.186",
+    "22357834",
+    "24",
+    "307",
+    "4.3",
+    "533",
+    "6.2",
+    "7.2",
+    "8",
+    "832",
+    "842",
+    "86",
+    "95"
+   ],
+   "performance_claims": [
+    "0.24",
+    "0.37",
+    "0.51",
+    "12",
+    "2.4",
+    "2.9",
+    "4.3",
+    "6.2",
+    "7.2"
+   ],
+   "record_id": "exam_cirrhosis_stigmata",
+   "section": "examine",
+   "text": "Cirrhosis stigmata: spider angiomata, palmar erythema, gynecomastia, caput medusae, jaundice"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "candidates": [
+   "exam_peripheral_edema_pitting",
+   "exam_shifting_dullness",
+   "exam_ascites_flank_dullness_fluid_wave",
+   "exam_spider_nevi",
+   "exam_cirrhosis_stigmata",
+   "hx_edema_causing_medications",
+   "exam_abdominojugular_reflux",
+   "exam_cool_extremities",
+   "exam_jvp_elevated",
+   "exam_parasternal_heave_loud_p2",
+   "exam_percussion_dullness",
+   "exam_pulmonary_crackles",
+   "exam_s3_gallop",
+   "hx_orthopnea",
+   "hx_pnd",
+   "exam_calf_asymmetry_gt3cm",
+   "exam_stemmer_sign",
+   "exam_tense_distended_abdomen_iah",
+   "exam_pupils_eye_movements_toxidrome",
+   "exam_accessory_muscle_use",
+   "exam_new_regurgitant_murmur",
+   "exam_pulse_irregularly_irregular",
+   "exam_tachycardia_resting",
+   "exam_tachypnea_rr_gt24",
+   "exam_wheezing",
+   "fn_bedside_walk_test",
+   "fn_passive_leg_raise",
+   "exam_anaphylaxis_signs",
+   "exam_cam_delirium_screen",
+   "exam_orthostatic_vitals",
+   "fn_attention_months_backward",
+   "hx_deliriogenic_medication_review",
+   "hx_dizziness_timing_triggers",
+   "hx_hypotensive_medication_review",
+   "hx_nephrotoxin_contrast_exposure"
+  ],
+  "card": {
+   "chief_complaint": "progressive abdominal distension and bilateral leg swelling with weakness",
+   "presentation": "edema",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_edema_causing_medications",
+      "changes_what": "Positive: trial withdrawal/dose reduction and reassess, check creatinine; negative or non-resolving: pursue HF, venous, renal, hepatic and DVT causes.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not label edema as drug-induced when there is dyspnea, orthopnea, elevated JVP, unilateral swelling, hypoalbuminemia/proteinuria or rising creatinine until those causes are evaluated.",
+      "escalation_warning": "Thiazolidinedione- or NSAID-associated edema with weight gain and dyspnea may be new/worsened heart failure; NSAID edema with oliguria or rising creatinine indicates AKI - stop the drug and assess urgently.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Review the full list for dihydropyridine CCBs (amlodipine, nifedipine), NSAIDs/COX-2 inhibitors, thiazolidinediones, pregabalin/gabapentin, corticosteroids, direct vasodilators (minoxidil, hydralazine), estrogens/progestins, testosterone, docetaxel, and DPP-4 or insulin. Record start date and dose escalation relative to edema onset and whether edema is bilateral, dependent and non-tender.",
+      "id": "hx_edema_causing_medications",
+      "negative_finding": "No culprit drug makes medication effect unlikely and directs evaluation toward heart failure, venous insufficiency, renal/hepatic disease or DVT (if unilateral).",
+      "pitfalls": "Up to one-third of edema on amlodipine is not caused by it, and thiazolidinediones/NSAIDs can precipitate true heart failure rather than benign edema; drug edema is a diagnosis of exclusion when JVP, BNP or echo suggest cardiac disease. Unilateral or painful edema is never attributed to medication.",
+      "positive_finding": "Bilateral dependent edema beginning weeks after starting or increasing a dihydropyridine CCB, NSAID, thiazolidinedione, gabapentinoid, steroid or vasodilator, without orthopnea, elevated JVP or weight gain out of proportion, supports drug-induced edema (and NSAIDs also cause AKI/sodium retention).",
+      "prerequisites": "Reconciled medication list including over-the-counter NSAIDs; weight trend, orthopnea/PND and JVP assessment to distinguish drug edema from heart failure.",
+      "rationale": "Identifying medications that cause edema can reveal a reversible cause and guide immediate management.",
+      "skill_assumption": null,
+      "title": "Medication review for edema: dihydropyridine CCB, NSAIDs, thiazolidinediones, pregabalin/gabapentin, steroids, minoxidil/hydralazine",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_orthopnea",
+      "changes_what": "New orthopnoea raises probability of decompensated HF and supports BNP/echo and decongestion; absence should not be used to exclude HF.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not rely on the absence of orthopnoea to exclude heart failure, and do not attribute orthopnoea to heart failure without examining for tamponade, effusion or neuromuscular weakness when the picture does not fit.",
+      "escalation_warning": "Orthopnoea with hypotension, pulsus paradoxus or a raised JVP suggests tamponade or acute pump failure; obtain immediate echo.",
+      "evidence": [
+       {
+        "citation": "Fonseca C, Morais H, Mota T, et al. The diagnosis of heart failure in primary care: value of symptoms and signs. Eur J Heart Fail. 2004;6(6):795-800.",
+        "computed": false,
+        "doi": "10.1016/j.ejheart.2004.08.002",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "39.1"
+        },
+        "pmid": "15542419",
+        "population": "Portuguese primary care attendees screened by Boston questionnaire and referred for echocardiography (n=1058 assessed); orthopnoea sensitivity reported only as <36%",
+        "prevalence": null,
+        "quote": "a history of paroxysmal nocturnal dyspnoea (LR 35.5), orthopnea (LR 39.1) and breathlessness when walking on the flat (LR 25.8)",
+        "reference_standard": "Resting echocardiography with clinical assessment",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "Heart failure (cardiac dysfunction at rest on echocardiography)",
+        "url": null,
+        "year": "2004"
+       },
+       {
+        "citation": "Ekundayo OJ, Howard VJ, Safford MM, et al. Value of orthopnea, paroxysmal nocturnal dyspnea, and medications in prospective population studies of incident heart failure. Am J Cardiol. 2009;104(2):259-264.",
+        "computed": true,
+        "doi": "10.1016/j.amjcard.2009.03.025",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.58"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "3.06"
+        },
+        "pmid": "19576357",
+        "population": "5,771 community-dwelling adults >=65 years in the Cardiovascular Health Study; 272 with adjudicated definite HF",
+        "prevalence": "0.047",
+        "quote": "for either orthopnea or PND were 52% (95% confidence interval [CI] 46% to 58%), 83% (95% CI 82% to 84%)",
+        "reference_standard": "Centrally adjudicated definite heart failure (CHS criteria)",
+        "sensitivity": {
+         "ci_high": "0.58",
+         "ci_low": "0.46",
+         "value": "0.52"
+        },
+        "setting": "outpatient",
+        "specificity": {
+         "ci_high": "0.84",
+         "ci_low": "0.82",
+         "value": "0.83"
+        },
+        "target_condition": "Prevalent definite heart failure (composite symptom: orthopnoea OR paroxysmal nocturnal dyspnoea)",
+        "url": null,
+        "year": "2009"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Ask whether breathing worsens within minutes of lying flat and eases on sitting up, how many pillows (or what head-of-bed angle) are needed to sleep, and whether this is new or increased compared with baseline. Distinguish from positional dyspnoea due to abdominal distension, obesity, or nasal obstruction, and from cough-related waking.",
+      "id": "hx_orthopnea",
+      "negative_finding": "Absence of orthopnoea only modestly lowers the probability of heart failure; many heart failure patients, particularly with chronic disease, sleep flat.",
+      "pitfalls": "Orthopnoea also occurs with COPD, massive ascites, obesity, and bilateral diaphragm paralysis; pillow count is confounded by habit, reflux and sinus disease. In chronic HF orthopnoea correlates poorly with measured wedge pressure.",
+      "positive_finding": "New or worsening need to sleep propped up, with dyspnoea on lying flat that resolves on sitting, points to raised left-sided filling pressure (heart failure) or, less often, tamponade, large effusion or bilateral diaphragm weakness.",
+      "prerequisites": "Patient (or collateral historian) able to describe sleep position and recent change.",
+      "rationale": "Orthopnea helps distinguish heart failure from other causes of edema and may prompt urgent cardiac workup.",
+      "skill_assumption": null,
+      "title": "Orthopnea: dyspnea lying flat relieved by sitting up / number of pillows",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/exam_shifting_dullness",
+      "changes_what": "Positive: confirm with POCUS and consider diagnostic paracentesis (SBP, SAAG); negative flank dullness: ascites unlikely, look elsewhere for edema/AKI cause.",
+      "contraindications": "Avoid rolling patients with unstable spine or fresh abdominal wounds; otherwise none.",
+      "do_not_use_when": "Do not rely on percussion to exclude small-volume ascites when SBP or hepatorenal syndrome is suspected; use ultrasound.",
+      "escalation_warning": "Ascites with fever, abdominal pain, encephalopathy or rising creatinine needs urgent diagnostic paracentesis for SBP.",
+      "evidence": [
+       {
+        "citation": "Simel DL, Halvorsen RA Jr, Feussner JR. Quantitating bedside diagnosis: clinical evaluation of ascites. J Gen Intern Med. 1988;3(5):423-428.",
+        "computed": false,
+        "doi": "10.1007/BF02595917",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "9.6"
+        },
+        "pmid": "3049966",
+        "population": "Hospitalized adults with suspected ascites, broad spectrum (Durham VA); n not stated in abstract",
+        "prevalence": null,
+        "quote": "The positive likelihood ratios for a fluid wave = 9.6 and shifting dullness = 5.76 favored ascites",
+        "reference_standard": "Not stated in abstract (the 1992 RCE summarises this study as ultrasound-referenced; full text not viewable here)",
+        "sensitivity": null,
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Ascites",
+        "url": null,
+        "year": "1988"
+       },
+       {
+        "citation": "Simel DL, Halvorsen RA Jr, Feussner JR. Quantitating bedside diagnosis: clinical evaluation of ascites. J Gen Intern Med. 1988;3(5):423-428.",
+        "computed": false,
+        "doi": "10.1007/BF02595917",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "5.76"
+        },
+        "pmid": "3049966",
+        "population": "Hospitalized adults with suspected ascites, broad spectrum (Durham VA); n not stated in abstract",
+        "prevalence": null,
+        "quote": "The positive likelihood ratios for a fluid wave = 9.6 and shifting dullness = 5.76 favored ascites",
+        "reference_standard": "Not stated in abstract (the 1992 RCE summarises this study as ultrasound-referenced; full text not viewable here)",
+        "sensitivity": null,
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Ascites",
+        "url": null,
+        "year": "1988"
+       },
+       {
+        "citation": "Simel DL, Halvorsen RA Jr, Feussner JR. Quantitating bedside diagnosis: clinical evaluation of ascites. J Gen Intern Med. 1988;3(5):423-428.",
+        "computed": false,
+        "doi": "10.1007/BF02595917",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_out",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.12"
+        },
+        "lr_positive": null,
+        "pmid": "3049966",
+        "population": "Hospitalized adults with suspected ascites, broad spectrum (Durham VA); n not stated in abstract",
+        "prevalence": null,
+        "quote": "the absence of bulging flanks (negative likelihood ratio = 0.12) or peripheral edema (negative likelihood ratio = 0.17) favored ascites the least",
+        "reference_standard": "Not stated in abstract (the 1992 RCE summarises this study as ultrasound-referenced; full text not viewable here)",
+        "sensitivity": null,
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Ascites",
+        "url": null,
+        "year": "1988"
+       },
+       {
+        "citation": "Simel DL, Halvorsen RA Jr, Feussner JR. Quantitating bedside diagnosis: clinical evaluation of ascites. J Gen Intern Med. 1988;3(5):423-428.",
+        "computed": false,
+        "doi": "10.1007/BF02595917",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_out",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.17"
+        },
+        "lr_positive": null,
+        "pmid": "3049966",
+        "population": "Hospitalized adults with suspected ascites, broad spectrum (Durham VA); n not stated in abstract",
+        "prevalence": null,
+        "quote": "the absence of bulging flanks (negative likelihood ratio = 0.12) or peripheral edema (negative likelihood ratio = 0.17) favored ascites the least",
+        "reference_standard": "Not stated in abstract (the 1992 RCE summarises this study as ultrasound-referenced; full text not viewable here)",
+        "sensitivity": null,
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Ascites",
+        "url": null,
+        "year": "1988"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Supine: inspect for bulging flanks, then percuss from umbilicus laterally to map the flank dullness border. Roll the patient onto one side, wait ~30 s and re-percuss: the dull border shifting toward the dependent side (>2-3 cm) is positive. Fluid wave: assistant's hand edge on midline; tap one flank sharply and feel for an impulse at the other flank.",
+      "id": "exam_shifting_dullness",
+      "negative_finding": "Absence of bulging flanks (LR- 0.12) or of flank dullness argues strongly against clinically significant ascites; absent shifting dullness with a normal PT makes ascites rare.",
+      "pitfalls": "Examination misses small volumes (<1 L) and is unreliable in obesity; fluid wave is often falsely positive in obesity and falsely negative with small volumes; interobserver agreement is only moderate.",
+      "positive_finding": "A fluid wave (LR+ about 9.6) or shifting dullness (LR+ about 5.8) makes ascites substantially more likely in hospitalized patients with suspected ascites. Positive signs in a patient with liver disease and prolonged PT are very likely true.",
+      "prerequisites": "Supine patient able to roll laterally; empty bladder; quiet room for percussion.",
+      "rationale": "Detecting ascites confirms clinically significant portal hypertension and guides need for paracentesis.",
+      "skill_assumption": null,
+      "title": "Ascites signs: shifting dullness, flank dullness, fluid wave, bulging flanks",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_peripheral_edema_pitting",
+      "changes_what": "Bilateral pitting edema plus elevated JVP should shift dyspnea toward HF and prompt BNP/echo; unilateral edema should trigger DVT evaluation instead.",
+      "contraindications": "None; avoid pressing over cellulitis, ulcers or a suspected DVT.",
+      "do_not_use_when": "Do not rely on edema alone to diagnose or exclude HF, or to judge acute volume status in a hypotensive or oliguric patient.",
+      "escalation_warning": "Unilateral painful edema needs DVT evaluation; rapidly progressive bilateral edema with hypotension or rising creatinine suggests cardiorenal or cirrhotic decompensation and needs urgent assessment.",
+      "evidence": [
+       {
+        "citation": "Mant J, Doust J, Roalfe A, et al. Systematic review and individual patient data meta-analysis of diagnosis of heart failure, with modelling of implications of different diagnostic strategies in primary care. Health Technol Assess. 2009;13(32):1-207.",
+        "computed": true,
+        "doi": "10.3310/hta13320",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.65"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "1.9"
+        },
+        "pmid": "19586584",
+        "population": "Individual patient data from 9 studies of adults with suspected heart failure (predominantly primary care / open-access referral cohorts)",
+        "prevalence": null,
+        "quote": "oedema (72%) ... sensitivity of these features was low, ranging from 11% (added heart sounds) to 53% (oedema)",
+        "reference_standard": "Heart failure diagnosis by echocardiography-based criteria of each included study",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.53"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.72"
+        },
+        "target_condition": "Heart failure (any) in patients with suspected heart failure",
+        "url": null,
+        "year": "2009"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Press firmly with the thumb for at least 5 s over the dorsum of the foot, behind the medial malleolus and over the tibial shaft, then release. Note whether a pit persists (pitting), its depth and duration (grade 1-4), how high up the leg it extends, and whether it is symmetric. Non-pitting, firm (brawny) edema suggests lymphedema or chronic venous disease.",
+      "id": "exam_peripheral_edema_pitting",
+      "negative_finding": "Absence of edema does not exclude heart failure (pooled sensitivity ~50%); acute HF and HFpEF often present without edema.",
+      "pitfalls": "Dependent edema in chronically seated or elderly patients is common without HF; edema lags behind volume changes by days, so it tracks chronic rather than acute volume status.",
+      "positive_finding": "Bilateral pitting edema modestly raises the probability of heart failure in dyspneic patients but is nonspecific: venous insufficiency, drugs, hypoalbuminemia, nephrotic syndrome and cirrhosis produce the same sign. Unilateral edema points to a local cause (DVT, venous obstruction, cellulitis); brawny non-pitting edema suggests lymphedema.",
+      "prerequisites": "Compare both legs at the same level; ask about duration, leg dependency, and new drugs (calcium-channel blockers, thiazolidinediones, NSAIDs).",
+      "rationale": "Characterizing edema as pitting and bilateral supports systemic causes like cirrhosis or nephrotic syndrome.",
+      "skill_assumption": null,
+      "title": "Lower-extremity edema: bilateral vs unilateral, pitting vs non-pitting (brawny), grade and level",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_jvp_elevated",
+      "changes_what": "Elevated JVP moves dyspnea/edema toward acute HF or RV/pericardial disease and away from hypovolemia; a flat JVP in hypotension favors hypovolemia/sepsis over cardiogenic causes.",
+      "contraindications": "None; avoid firm neck pressure in patients with carotid disease.",
+      "do_not_use_when": "Do not use a normal JVP to withhold treatment for suspected heart failure, or declare a shocked patient hypovolemic when the neck cannot be adequately examined (obesity, short neck, column above the jaw).",
+      "escalation_warning": "Elevated JVP with hypotension, clear lungs and tachycardia suggests tamponade, RV infarction or massive PE and needs immediate echo/POCUS rather than diuresis.",
+      "evidence": [
+       {
+        "citation": "Butman SM, Ewy GA, Standen JR, Kern KB, Hahn E. Bedside cardiovascular examination in patients with severe chronic heart failure: importance of rest or inducible jugular venous distension. J Am Coll Cardiol 1993;22(4):968-74.",
+        "computed": true,
+        "doi": "10.1016/0735-1097(93)90405-p",
+        "evidence_level": "single_study",
+        "interpretation_label": "both",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.24"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "4.05"
+        },
+        "pmid": "8409071",
+        "population": "52 patients with severe chronic heart failure undergoing in-hospital transplant evaluation; index finding = jugular venous distension at rest OR inducible by the abdominojugular test",
+        "prevalence": null,
+        "quote": "had the best combination of sensitivity (81%), specificity (80%) and predictive accuracy (81%) for elevation of the pulmonary capillary wedge pressure",
+        "reference_standard": "Right heart catheterization (PCWP >= 18 mmHg)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.81"
+        },
+        "setting": "inpatient",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.8"
+        },
+        "target_condition": "Elevated pulmonary capillary wedge pressure (>=18 mmHg)",
+        "url": null,
+        "year": "1993"
+       },
+       {
+        "citation": "Signs and symptoms in adult patients with acute dyspnea: a systematic review and meta-analysis. Eur J Emerg Med 2018;25(1):3-11 (author list not retrievable via abstract tool; confirmed by PMID/DOI).",
+        "computed": false,
+        "doi": "10.1097/MEJ.0000000000000429",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "meta_analysis",
+        "location": "Abstract, Conclusion",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "29252938",
+        "population": "Adults with a new episode of acute dyspnea; 8 ED studies, 4737 patients; HF prevalence 25-59%",
+        "prevalence": null,
+        "quote": "Elevated jugular venous pressure (0.88, pooled odds ratio: 7), added third heart sound (0.97), and lung crepitations (0.77, pooled odds ratio: 11)",
+        "reference_standard": "Clinical diagnosis of HF per included studies (varied)",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.88"
+        },
+        "target_condition": "Heart failure as cause of acute dyspnea",
+        "url": null,
+        "year": "2018"
+       },
+       {
+        "citation": "Mant J, Doust J, Roalfe A, et al. Systematic review and individual patient data meta-analysis of diagnosis of heart failure, with modelling of implications of different diagnostic strategies in primary care. Health Technol Assess 2009;13(32):1-207.",
+        "computed": false,
+        "doi": "10.3310/hta13320",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "19586584",
+        "population": "Patients with suspected heart failure in primary care; individual patient data meta-analysis of 9 studies",
+        "prevalence": null,
+        "quote": "orthopnoea (89%), oedema (72%), elevated jugular venous pressure (70%), cardiomegaly (85%), added heart sounds (99%), lung crepitations (81%)",
+        "reference_standard": "Echocardiography / expert panel per included studies",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.7"
+        },
+        "target_condition": "Heart failure (new diagnosis) in primary care",
+        "url": null,
+        "year": "2009"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Recline the patient at 30-45 degrees (adjust until the top of the pulsation is visible), turn the head slightly left, and use tangential light to find the top of the internal jugular column. Measure its vertical height above the sternal angle; >3 cm above the angle (about >8 cm H2O total) is elevated.",
+      "id": "exam_jvp_elevated",
+      "negative_finding": "A flat or normal JVP lowers but does not exclude heart failure; sensitivity is modest (roughly 0.2-0.7 across ED studies) and pooled sensitivity in ED series stays below 0.55.",
+      "pitfalls": "Confusing carotid with venous pulsation, misjudging the sternal angle-to-atrium distance (varies with position), and failing to see a very high column (look for earlobe pulsation) or a very low one (lie the patient flatter). Isolated RV failure, tricuspid disease, tamponade or constriction raise JVP without left-sided congestion.",
+      "positive_finding": "A venous column >3 cm above the sternal angle indicates raised right atrial pressure and, in chronic heart failure, usually raised left-sided filling pressure (PCWP >=18 mmHg). It substantially raises the probability of heart failure as the cause of acute dyspnea.",
+      "prerequisites": "Adequate light, exposed neck, patient relaxed and breathing quietly; identify the venous (biphasic, non-palpable, falls with inspiration, occludable) rather than carotid pulsation.",
+      "rationale": "Elevated JVP points toward cardiac or volume overload causes and away from isolated hepatic or renal causes.",
+      "skill_assumption": null,
+      "title": "Jugular venous pressure elevated (>8 cm H2O / >3 cm above sternal angle); low/flat JVP as the negative",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_cirrhosis_stigmata",
+      "changes_what": "Positive: treat as probable cirrhosis (screen for varices, SBP, HE; adjust drugs). Negative: do not exclude; use platelets/INR-based indices or elastography.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use stigmata to exclude cirrhosis in a patient with risk factors; compensated cirrhosis is frequently silent.",
+      "escalation_warning": "Stigmata plus confusion, GI bleeding, fever with ascites, or rising creatinine indicate decompensation (HE, variceal bleed, SBP, HRS) needing urgent work-up.",
+      "evidence": [
+       {
+        "citation": "Udell JA, Wang CS, Tinmouth J, et al. Does this patient with liver disease have cirrhosis? JAMA. 2012;307(8):832-842.",
+        "computed": false,
+        "doi": "10.1001/jama.2012.186",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "rce_series",
+        "location": "Abstract, Results (summary random-effects LR)",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "6.2",
+         "ci_low": "2.4",
+         "value": "4.3"
+        },
+        "pmid": "22357834",
+        "population": "19,533 patients from 86 studies of adults with liver disease undergoing biopsy; prevalence 24%",
+        "prevalence": "0.24",
+        "quote": "spider nevi (LR, 4.3; 95% CI 2.4-6.2)",
+        "reference_standard": "Liver biopsy",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Cirrhosis (histologically proven) in adults with known or suspected liver disease; finding = spider nevi",
+        "url": null,
+        "year": "2012"
+       },
+       {
+        "citation": "Udell JA, Wang CS, Tinmouth J, et al. Does this patient with liver disease have cirrhosis? JAMA. 2012;307(8):832-842.",
+        "computed": false,
+        "doi": "10.1001/jama.2012.186",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "12",
+         "ci_low": "2.9",
+         "value": "7.2"
+        },
+        "pmid": "22357834",
+        "population": "Same pooled cohort (86 studies, 19,533 patients)",
+        "prevalence": "0.24",
+        "quote": "the presence of ascites (LR, 7.2; 95% CI, 2.9-12)",
+        "reference_standard": "Liver biopsy",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Cirrhosis (histologically proven) in adults with known or suspected liver disease; finding = ascites on examination",
+        "url": null,
+        "year": "2012"
+       },
+       {
+        "citation": "Udell JA, Wang CS, Tinmouth J, et al. Does this patient with liver disease have cirrhosis? JAMA. 2012;307(8):832-842.",
+        "computed": false,
+        "doi": "10.1001/jama.2012.186",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.51",
+         "ci_low": "0.24",
+         "value": "0.37"
+        },
+        "lr_positive": null,
+        "pmid": "22357834",
+        "population": "Same pooled cohort (86 studies, 19,533 patients)",
+        "prevalence": "0.24",
+        "quote": "the absence of hepatomegaly (LR, 0.37; 95% CI, 0.24-0.51)",
+        "reference_standard": "Liver biopsy",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Cirrhosis; finding = absence of hepatomegaly (negative finding)",
+        "url": null,
+        "year": "2012"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Inspect face, neck, upper chest, arms and hands in good light for spider angiomata (central arteriole that blanches with pressure and refills centrally), palmar erythema (thenar/hypothenar), gynecomastia, dilated periumbilical veins (caput medusae) and scleral/skin jaundice. Percuss and palpate the liver edge and check for ascites at the same time.",
+      "id": "exam_cirrhosis_stigmata",
+      "negative_finding": "Absence of individual stigmata does little to exclude cirrhosis; absence of hepatomegaly (LR 0.37) and laboratory indices (platelets >=160, Lok index) are the useful negatives.",
+      "pitfalls": "Isolated spider nevi occur in pregnancy, estrogen use and healthy people; stigmata are late-stage findings and compensated cirrhosis is often stigmata-free. The clinician's overall gestalt was less informative than individual findings.",
+      "positive_finding": "Spider nevi (pooled LR 4.3) or clinical ascites (pooled LR 7.2) substantially raise the probability of biopsy-proven cirrhosis in a patient with liver disease.",
+      "prerequisites": "Adequate lighting and skin exposure of the upper body; known or suspected liver disease so the pretest probability is meaningful.",
+      "rationale": "Cirrhosis stigmata support the diagnosis of advanced liver disease and influence screening for complications.",
+      "skill_assumption": null,
+      "title": "Cirrhosis stigmata: spider angiomata, palmar erythema, gynecomastia, caput medusae, jaundice",
+      "type": "exam"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_edema_causing_medications",
+     "rationale": "Identifying medications that cause edema can reveal a reversible cause and guide immediate management."
+    },
+    {
+     "id": "hx_orthopnea",
+     "rationale": "Orthopnea helps distinguish heart failure from other causes of edema and may prompt urgent cardiac workup."
+    }
+   ],
+   "examine": [
+    {
+     "id": "exam_shifting_dullness",
+     "rationale": "Detecting ascites confirms clinically significant portal hypertension and guides need for paracentesis."
+    },
+    {
+     "id": "exam_peripheral_edema_pitting",
+     "rationale": "Characterizing edema as pitting and bilateral supports systemic causes like cirrhosis or nephrotic syndrome."
+    },
+    {
+     "id": "exam_jvp_elevated",
+     "rationale": "Elevated JVP points toward cardiac or volume overload causes and away from isolated hepatic or renal causes."
+    },
+    {
+     "id": "exam_cirrhosis_stigmata",
+     "rationale": "Cirrhosis stigmata support the diagnosis of advanced liver disease and influence screening for complications."
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "progressive abdominal distension and bilateral leg swelling with weakness",
+   "differentials": [
+    {
+     "dx": "cirrhosis",
+     "weight": 1.0
+    },
+    {
+     "dx": "nephrotic_syndrome",
+     "weight": 0.3
+    },
+    {
+     "dx": "acute_decompensated_hf",
+     "weight": 0.3
+    },
+    {
+     "dx": "hypoalbuminemia",
+     "weight": 0.2
+    },
+    {
+     "dx": "medication_effect",
+     "weight": 0.1
+    },
+    {
+     "dx": "lymphedema",
+     "weight": 0.1
+    }
+   ],
+   "indication_tags": [
+    "subacute",
+    "bilateral",
+    "cirrhosis_known",
+    "alcohol_use"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "progressive abdominal distension",
+    "bilateral leg swelling",
+    "unable to work"
+   ],
+   "observed_values": [
+    "BP 106/62"
+   ],
+   "presentation": "edema",
+   "time_course": "subacute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "n1"
+}

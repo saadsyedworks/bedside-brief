@@ -1,0 +1,631 @@
+{
+ "arm": "A",
+ "ask_first": false,
+ "base_case_id": "fever_002",
+ "blocked_items": [],
+ "case_id": "fever_002_p1",
+ "created_at": "2026-09-11T11:47:02+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Alayed KA, Tan C, Daneman N. Red Flags for Necrotizing Fasciitis: A Case Control Study. International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases. 2016."
+   ],
+   "numeric_claims": [
+    "0.5",
+    "10.1016",
+    "2004",
+    "2013",
+    "2015.04",
+    "2016",
+    "21",
+    "25975653",
+    "4.5",
+    "6",
+    "7"
+   ],
+   "performance_claims": [
+    "4.5"
+   ],
+   "record_id": "hx_pain_out_of_proportion_exam",
+   "section": "ask",
+   "text": "Pain out of proportion to examination findings"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Margaretten ME, Kohlwes J, Moore D, Bent S. Does this adult patient have septic arthritis? JAMA. 2007;297(13):1478-1488."
+   ],
+   "numeric_claims": [
+    "0.52",
+    "0.57",
+    "0.62",
+    "0.71",
+    "0.78",
+    "0.85",
+    "0.9",
+    "10.1001",
+    "13",
+    "14",
+    "1478",
+    "1488",
+    "17405973",
+    "2007",
+    "297",
+    "297.13",
+    "40",
+    "50",
+    "52",
+    "57",
+    "62",
+    "6242",
+    "653",
+    "71",
+    "78",
+    "85",
+    "90",
+    "95"
+   ],
+   "performance_claims": [
+    "0.52",
+    "0.57",
+    "0.62",
+    "0.71",
+    "0.78",
+    "0.78",
+    "0.85",
+    "0.85",
+    "0.9"
+   ],
+   "record_id": "exam_joint_effusion_warmth_painful_rom",
+   "section": "examine",
+   "text": "Hot swollen joint with effusion and painful/limited range of motion (refusal to bear weight)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Fernando SM, Tran A, Cheng W, et al. Necrotizing soft tissue infection: diagnostic accuracy of physical examination, imaging, and LRINEC score: a systematic review and meta-analysis. Ann Surg. 2019;269(1):58-65."
+   ],
+   "numeric_claims": [
+    "0.21",
+    "0.25",
+    "0.252",
+    "0.46",
+    "0.7",
+    "0.77",
+    "0.78",
+    "0.81",
+    "0.958",
+    "0.977",
+    "1",
+    "10.1097",
+    "2",
+    "2019",
+    "21",
+    "23",
+    "25.2",
+    "269",
+    "2774",
+    "29672405",
+    "46",
+    "58",
+    "5982",
+    "6",
+    "65",
+    "77",
+    "9.1",
+    "95.8",
+    "97.7"
+   ],
+   "performance_claims": [
+    "0.21",
+    "0.252",
+    "0.46",
+    "0.7",
+    "0.77",
+    "0.78",
+    "0.81",
+    "0.958",
+    "0.977",
+    "2",
+    "6",
+    "9.1"
+   ],
+   "record_id": "exam_nec_fasc_hard_signs",
+   "section": "examine",
+   "text": "Necrotizing infection hard signs: hemorrhagic bullae, crepitus, skin anesthesia, spread beyond marked border"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Pulia MS, Schwei RJ, Alexandridis R, et al. Validation of Thermal Imaging and the ALT-70 Prediction Model to Differentiate Cellulitis From Pseudocellulitis. JAMA Dermatol. 2024;160(5):511-517.",
+    "Raff AB, Weng QY, Cohen JM, et al. A predictive model for diagnosis of lower extremity cellulitis: A cross-sectional study. J Am Acad Dermatol. 2017;76(4):618-625.e2."
+   ],
+   "numeric_claims": [
+    "0",
+    "0.158",
+    "0.22",
+    "0.281",
+    "0.451",
+    "0.695",
+    "10.1001",
+    "10.1016",
+    "15.8",
+    "160",
+    "2",
+    "2010",
+    "2012",
+    "2016.12",
+    "2017",
+    "2024",
+    "2024.0091",
+    "204",
+    "22",
+    "259",
+    "28.1",
+    "28215446",
+    "3",
+    "30.5",
+    "38536160",
+    "4",
+    "44",
+    "5",
+    "511",
+    "517",
+    "6",
+    "618",
+    "625",
+    "70",
+    "76",
+    "79",
+    "82",
+    "83",
+    "92",
+    "95"
+   ],
+   "performance_claims": [
+    "0.158",
+    "0.22",
+    "0.281"
+   ],
+   "record_id": "exam_cellulitis_unilateral_warmth_border",
+   "section": "examine",
+   "text": "Unilateral warm erythema with defined border (vs bilateral / stasis change)"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "candidates": [
+   "exam_joint_effusion_warmth_painful_rom",
+   "exam_infection_source_survey",
+   "exam_nec_fasc_hard_signs",
+   "exam_cellulitis_unilateral_warmth_border",
+   "exam_calf_asymmetry_gt3cm",
+   "hx_pain_out_of_proportion_exam"
+  ],
+  "card": {
+   "chief_complaint": "left lower leg and knee redness, swelling, and pain",
+   "presentation": "fever",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_pain_out_of_proportion_exam",
+      "changes_what": "Present: escalate now - CT angiography for suspected mesenteric ischemia; urgent surgical consult for suspected necrotizing infection. Absent: does not lower probability enough to stop work-up.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not apply to patients who cannot report pain reliably (sedation, dementia, spinal cord injury); absence of the sign never excludes either diagnosis.",
+      "escalation_warning": "Suspected necrotizing infection or mesenteric ischemia is time-critical: surgical consultation / CT angiography without waiting for laboratory results.",
+      "evidence": [
+       {
+        "citation": "Alayed KA, Tan C, Daneman N. Red Flags for Necrotizing Fasciitis: A Case Control Study. International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases. 2016.",
+        "computed": false,
+        "doi": "10.1016/j.ijid.2015.04.021",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "4.5"
+        },
+        "pmid": "25975653",
+        "population": "All NF cases admitted to a large Canadian tertiary hospital 2004-2013, each matched to two cellulitis controls (retrospective case-control)",
+        "prevalence": null,
+        "quote": "The clinical features that most significantly increased the odds of NF were recent surgery (LR+ 7.0) pain-out-of-proportion (LR+ 4.5), diarrhea (LR+ 6.0)",
+        "reference_standard": "Admitted with diagnosis of necrotizing fasciitis (chart-confirmed) versus cellulitis controls",
+        "sensitivity": null,
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Necrotizing fasciitis versus cellulitis (case-control): pain-out-of-proportion documented on history/physical examination",
+        "url": null,
+        "year": "2016"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Compare reported pain severity and analgesic requirement with objective findings: for the abdomen, severe continuous pain with a soft, non-tender or minimally tender abdomen; for skin/soft tissue, severe pain or exquisite tenderness extending beyond the visible erythema, or pain disproportionate to a modest cellulitis. Record the discordance explicitly.",
+      "id": "hx_pain_out_of_proportion_exam",
+      "negative_finding": "Absence is not reassuring: no single red flag had sufficient sensitivity to rule out necrotizing fasciitis (LR- >=0.5 for all findings), and mesenteric ischemia frequently presents with vague or non-specific pain, especially in the elderly.",
+      "pitfalls": "Late presentations of ischemia develop peritonism, so the sign is transient; analgesia, diabetes, and altered mental status blunt reporting. Distinguishing 'out of proportion' is subjective and undefined in most studies.",
+      "positive_finding": "In a soft-tissue infection, pain out of proportion raised the odds of necrotizing fasciitis about 4.5-fold versus cellulitis in a case-control study; in abdominal pain with vascular risk (AF, atherosclerosis, low flow), it is the classic cue for early mesenteric ischemia and should prompt CT angiography rather than observation.",
+      "prerequisites": "Patient able to report pain; opioid or sedative effect accounted for.",
+      "rationale": "Pain out of proportion raises concern for necrotizing fasciitis and mandates urgent escalation if present.",
+      "skill_assumption": null,
+      "title": "Pain out of proportion to examination findings",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/exam_joint_effusion_warmth_painful_rom",
+      "changes_what": "A hot swollen joint with painful passive motion should trigger urgent aspiration (cell count, crystals, Gram stain, culture) and orthopedic review; do not treat as cellulitis.",
+      "contraindications": "Do not force range of motion in a suspected fracture or unstable prosthesis.",
+      "do_not_use_when": "Never use absence of fever or a modest exam to exclude septic arthritis; prosthetic joints and immunosuppressed patients need aspiration on suspicion alone.",
+      "escalation_warning": "Hot swollen joint with fever, rigors, sepsis physiology, IV drug use or a prosthesis requires same-day aspiration and orthopedic/ID involvement; delayed treatment destroys the joint.",
+      "evidence": [
+       {
+        "citation": "Margaretten ME, Kohlwes J, Moore D, Bent S. Does this adult patient have septic arthritis? JAMA. 2007;297(13):1478-1488.",
+        "computed": false,
+        "doi": "10.1001/jama.297.13.1478",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "17405973",
+        "population": "Adults presenting with an acutely painful and/or swollen joint (14 studies, 6242 patients, 653 with septic arthritis)",
+        "prevalence": null,
+        "quote": "Joint pain (sensitivity, 85%; 95% confidence interval [CI], 78%-90%), a history of joint swelling (sensitivity, 78%; 95% CI, 71%-85%)",
+        "reference_standard": "Gold standard for septic arthritis (positive synovial fluid or blood culture / clinical criteria as defined by included studies)",
+        "sensitivity": {
+         "ci_high": "0.9",
+         "ci_low": "0.78",
+         "value": "0.85"
+        },
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Nongonococcal bacterial (septic) arthritis - finding: joint pain",
+        "url": null,
+        "year": "2007"
+       },
+       {
+        "citation": "Margaretten ME, Kohlwes J, Moore D, Bent S. Does this adult patient have septic arthritis? JAMA. 2007;297(13):1478-1488.",
+        "computed": false,
+        "doi": "10.1001/jama.297.13.1478",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "17405973",
+        "population": "Adults presenting with an acutely painful and/or swollen joint (14 studies, 6242 patients, 653 with septic arthritis)",
+        "prevalence": null,
+        "quote": "Joint pain (sensitivity, 85%; 95% confidence interval [CI], 78%-90%), a history of joint swelling (sensitivity, 78%; 95% CI, 71%-85%)",
+        "reference_standard": "Gold standard for septic arthritis (positive synovial fluid or blood culture / clinical criteria as defined by included studies)",
+        "sensitivity": {
+         "ci_high": "0.85",
+         "ci_low": "0.71",
+         "value": "0.78"
+        },
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Nongonococcal bacterial (septic) arthritis - finding: history of joint swelling",
+        "url": null,
+        "year": "2007"
+       },
+       {
+        "citation": "Margaretten ME, Kohlwes J, Moore D, Bent S. Does this adult patient have septic arthritis? JAMA. 2007;297(13):1478-1488.",
+        "computed": false,
+        "doi": "10.1001/jama.297.13.1478",
+        "evidence_level": "pooled",
+        "interpretation_label": "minimal",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "17405973",
+        "population": "Adults presenting with an acutely painful and/or swollen joint (14 studies, 6242 patients, 653 with septic arthritis)",
+        "prevalence": null,
+        "quote": "fever (sensitivity, 57%; 95% CI, 52%-62%) are the only findings that occur in more than 50% of patients",
+        "reference_standard": "Gold standard for septic arthritis (positive synovial fluid or blood culture / clinical criteria as defined by included studies)",
+        "sensitivity": {
+         "ci_high": "0.62",
+         "ci_low": "0.52",
+         "value": "0.57"
+        },
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Nongonococcal bacterial (septic) arthritis - finding: fever",
+        "url": null,
+        "year": "2007"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Expose and compare both joints: inspect for swelling and erythema, palpate for warmth and an effusion (patellar tap or bulge sign at the knee, fullness at other joints), then move the joint passively through its range. Note pain with small passive movements, restriction, and whether the patient will bear weight on the limb.",
+      "id": "exam_joint_effusion_warmth_painful_rom",
+      "negative_finding": "No exam finding rules out septic arthritis; fever is absent in over 40% of cases, and specificity of these findings against gout, pseudogout or reactive arthritis is low.",
+      "pitfalls": "Cellulitis over a joint, crystal arthritis and hemarthrosis look identical; pain on passive motion favors joint involvement over cellulitis. Elderly, immunosuppressed and prosthetic-joint patients may have muted findings.",
+      "positive_finding": "An acutely painful, swollen, warm joint with effusion and painful limited passive motion is the expected picture of septic arthritis (joint pain sensitivity 0.85, joint swelling 0.78, fever 0.57) and mandates arthrocentesis before antibiotics.",
+      "prerequisites": "Adequate exposure of both sides; assess before analgesia blunts findings when feasible.",
+      "rationale": "A hot, swollen joint with painful passive motion strongly suggests septic arthritis and requires urgent aspiration and specialist review.",
+      "skill_assumption": null,
+      "title": "Hot swollen joint with effusion and painful/limited range of motion (refusal to bear weight)",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_nec_fasc_hard_signs",
+      "changes_what": "Any hard sign should move necrotizing infection to the top of the differential and prompt urgent surgical exploration; their absence must not be used to de-escalate.",
+      "contraindications": "None; do not delay surgical consultation to complete serial examinations when hard signs are already present.",
+      "do_not_use_when": "Never use absence of hard signs (or a low LRINEC) to rule out necrotizing infection in a patient with severe pain, toxicity or rapid progression.",
+      "escalation_warning": "Hemorrhagic bullae, crepitus, skin anesthesia, hypotension or spread beyond the marked border require immediate surgical consultation and broad-spectrum antibiotics; delay to debridement increases mortality.",
+      "evidence": [
+       {
+        "citation": "Fernando SM, Tran A, Cheng W, et al. Necrotizing soft tissue infection: diagnostic accuracy of physical examination, imaging, and LRINEC score: a systematic review and meta-analysis. Ann Surg. 2019;269(1):58-65.",
+        "computed": true,
+        "doi": "10.1097/SLA.0000000000002774",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.78"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "6"
+        },
+        "pmid": "29672405",
+        "population": "Adults with a soft tissue infection clinically concerning for NSTI (23 studies, n=5982)",
+        "prevalence": null,
+        "quote": "for hemorrhagic bullae 25.2% and 95.8%, and for hypotension 21.0% and 97.7%",
+        "reference_standard": "NSTI confirmed by surgery or histopathology",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.252"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.958"
+        },
+        "target_condition": "Necrotizing soft tissue infection - finding: hemorrhagic bullae",
+        "url": null,
+        "year": "2019"
+       },
+       {
+        "citation": "Fernando SM, Tran A, Cheng W, et al. Necrotizing soft tissue infection: diagnostic accuracy of physical examination, imaging, and LRINEC score: a systematic review and meta-analysis. Ann Surg. 2019;269(1):58-65.",
+        "computed": true,
+        "doi": "10.1097/SLA.0000000000002774",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.81"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "9.1"
+        },
+        "pmid": "29672405",
+        "population": "Adults with a soft tissue infection clinically concerning for NSTI (23 studies, n=5982)",
+        "prevalence": null,
+        "quote": "for hemorrhagic bullae 25.2% and 95.8%, and for hypotension 21.0% and 97.7%",
+        "reference_standard": "NSTI confirmed by surgery or histopathology",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.21"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.977"
+        },
+        "target_condition": "Necrotizing soft tissue infection - finding: hypotension",
+        "url": null,
+        "year": "2019"
+       },
+       {
+        "citation": "Fernando SM, Tran A, Cheng W, et al. Necrotizing soft tissue infection: diagnostic accuracy of physical examination, imaging, and LRINEC score: a systematic review and meta-analysis. Ann Surg. 2019;269(1):58-65.",
+        "computed": true,
+        "doi": "10.1097/SLA.0000000000002774",
+        "evidence_level": "pooled",
+        "interpretation_label": "minimal",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.7"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "2"
+        },
+        "pmid": "29672405",
+        "population": "Adults with a soft tissue infection clinically concerning for NSTI (23 studies, n=5982)",
+        "prevalence": null,
+        "quote": "pooled sensitivity and specificity for fever was 46.0% and 77.0% respectively",
+        "reference_standard": "NSTI confirmed by surgery or histopathology",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.46"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.77"
+        },
+        "target_condition": "Necrotizing soft tissue infection - finding: fever",
+        "url": null,
+        "year": "2019"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Fully expose the limb/trunk and inspect for bullae (especially hemorrhagic or violaceous), dusky or necrotic skin; palpate for crepitus and for tenderness or induration extending beyond visible erythema; test light-touch sensation over the affected skin. Mark the erythema border with pen and time, and re-examine within 1-2 h for spread.",
+      "id": "exam_nec_fasc_hard_signs",
+      "negative_finding": "Absence of any single hard sign does not exclude necrotizing infection: pooled sensitivity is 0.25 for bullae, 0.21 for hypotension and 0.46 for fever.",
+      "pitfalls": "Hard signs are late; pain out of proportion, tachycardia and systemic toxicity precede them. Crepitus is present only with gas-forming organisms, and anesthesia can be masked by analgesia or neuropathy (diabetes).",
+      "positive_finding": "Hemorrhagic bullae (pooled specificity 0.958) or hypotension (0.977) in a soft tissue infection strongly favors necrotizing infection and should trigger immediate surgical consultation; crepitus, anesthesia and rapid spread are treated the same way by consensus.",
+      "prerequisites": "Adequate exposure and analgesia; a documented baseline border and time for serial comparison.",
+      "rationale": "Hard signs of necrotizing infection require immediate surgical evaluation and can be rapidly assessed at the bedside.",
+      "skill_assumption": null,
+      "title": "Necrotizing infection hard signs: hemorrhagic bullae, crepitus, skin anesthesia, spread beyond marked border",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_cellulitis_unilateral_warmth_border",
+      "changes_what": "Unilateral warm erythema: treat as cellulitis but rule out DVT/necrotizing infection; bilateral: seek pseudocellulitis (stasis, dermatitis) before antibiotics.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use asymmetry/border to reassure when there is severe pain, rapid progression, bullae, crepitus, hypotension or immunocompromise; necrotizing infection needs surgical evaluation regardless of score.",
+      "escalation_warning": "Unilateral swollen warm leg also fits DVT: obtain compression ultrasound if no clear portal of entry or if edema dominates over erythema.",
+      "evidence": [
+       {
+        "citation": "Pulia MS, Schwei RJ, Alexandridis R, et al. Validation of Thermal Imaging and the ALT-70 Prediction Model to Differentiate Cellulitis From Pseudocellulitis. JAMA Dermatol. 2024;160(5):511-517.",
+        "computed": false,
+        "doi": "10.1001/jamadermatol.2024.0091",
+        "evidence_level": "validation_cohort",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "38536160",
+        "population": "Adults presenting to ED with acute lower-extremity dermatologic symptoms, n=204, 92 with cellulitis",
+        "prevalence": "0.451",
+        "quote": "specificity varied considerably (ALT-70, 22.0% [95% CI, 15.8%-28.1%]",
+        "reference_standard": "Independent 6-physician consensus review of the case",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": {
+         "ci_high": "0.281",
+         "ci_low": "0.158",
+         "value": "0.22"
+        },
+        "target_condition": "Lower-extremity cellulitis vs pseudocellulitis (ALT-70 model; asymmetry item weighted 3 points)",
+        "url": null,
+        "year": "2024"
+       },
+       {
+        "citation": "Raff AB, Weng QY, Cohen JM, et al. A predictive model for diagnosis of lower extremity cellulitis: A cross-sectional study. J Am Acad Dermatol. 2017;76(4):618-625.e2.",
+        "computed": false,
+        "doi": "10.1016/j.jaad.2016.12.044",
+        "evidence_level": "single_study",
+        "interpretation_label": "both",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "28215446",
+        "population": "Patients admitted via ED with a diagnosis of lower-extremity cellulitis, n=259, 2010-2012",
+        "prevalence": "0.695",
+        "quote": "In total, 79 (30.5%) of 259 patients were misdiagnosed with lower extremity cellulitis",
+        "reference_standard": "Discharge diagnosis (cellulitis vs alternative diagnosis) after inpatient evaluation",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Lower-extremity cellulitis vs pseudocellulitis (ALT-70 derivation)",
+        "url": null,
+        "year": "2017"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Expose and compare both legs. Note whether erythema is unilateral (asymmetric) or bilateral, feel for warmth with the back of the hand against the contralateral limb, and trace the border (marking it with pen for follow-up). Check for a portal of entry (tinea, ulcer), tenderness, and disproportionate pain, crepitus or bullae.",
+      "id": "exam_cellulitis_unilateral_warmth_border",
+      "negative_finding": "Bilateral symmetric erythema without fever, leukocytosis or tachycardia favors stasis dermatitis or other pseudocellulitis (ALT-70 0-2 points: >=83% pseudocellulitis); bilateral cellulitis is rare.",
+      "pitfalls": "ALT-70 is sensitive but only 22% specific in a prospective ED validation, so a 'positive' asymmetric leg still includes many DVT, gout, contact dermatitis and stasis cases; warmth is subjective; do not miss necrotizing infection (pain out of proportion, rapid spread, crepitus).",
+      "positive_finding": "Unilateral warm, tender erythema, especially with leukocytosis, tachycardia or age >=70 (ALT-70 >=5 points), gives >=82% likelihood of true cellulitis in the derivation cohort. Asymmetry is the heaviest-weighted item (3 points).",
+      "prerequisites": "Both legs exposed; heart rate, temperature and WBC available if scoring ALT-70.",
+      "rationale": "Unilateral warm erythema with a defined border supports cellulitis and helps distinguish from other causes of leg swelling.",
+      "skill_assumption": null,
+      "title": "Unilateral warm erythema with defined border (vs bilateral / stasis change)",
+      "type": "exam"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_pain_out_of_proportion_exam",
+     "rationale": "Pain out of proportion raises concern for necrotizing fasciitis and mandates urgent escalation if present."
+    }
+   ],
+   "examine": [
+    {
+     "id": "exam_joint_effusion_warmth_painful_rom",
+     "rationale": "A hot, swollen joint with painful passive motion strongly suggests septic arthritis and requires urgent aspiration and specialist review."
+    },
+    {
+     "id": "exam_nec_fasc_hard_signs",
+     "rationale": "Hard signs of necrotizing infection require immediate surgical evaluation and can be rapidly assessed at the bedside."
+    },
+    {
+     "id": "exam_cellulitis_unilateral_warmth_border",
+     "rationale": "Unilateral warm erythema with a defined border supports cellulitis and helps distinguish from other causes of leg swelling."
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "left lower leg and knee redness, swelling, and pain",
+   "differentials": [
+    {
+     "dx": "cellulitis_ssti",
+     "weight": 1.0
+    },
+    {
+     "dx": "septic_arthritis",
+     "weight": 0.8
+    },
+    {
+     "dx": "necrotizing_fasciitis",
+     "weight": 0.2
+    }
+   ],
+   "indication_tags": [
+    "diabetes_insulin",
+    "unilateral",
+    "acute_onset",
+    "febrile"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "left lower leg red and swollen",
+    "left knee hot and swollen",
+    "will not allow passive movement"
+   ],
+   "observed_values": [
+    "T 39.2"
+   ],
+   "presentation": "fever",
+   "time_course": "acute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "p1"
+}

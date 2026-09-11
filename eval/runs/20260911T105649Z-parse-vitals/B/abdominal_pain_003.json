@@ -1,0 +1,1033 @@
+{
+ "arm": "B",
+ "ask_first": false,
+ "base_case_id": "abdominal_pain_003",
+ "blocked_items": [],
+ "case_id": "abdominal_pain_003",
+ "created_at": "2026-09-11T11:19:20+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Alayed KA, Tan C, Daneman N. Red Flags for Necrotizing Fasciitis: A Case Control Study. International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases. 2016."
+   ],
+   "numeric_claims": [
+    "0.5",
+    "10.1016",
+    "2004",
+    "2013",
+    "2015.04",
+    "2016",
+    "21",
+    "25975653",
+    "4.5",
+    "6",
+    "7"
+   ],
+   "performance_claims": [
+    "4.5"
+   ],
+   "record_id": "hx_pain_out_of_proportion_exam",
+   "section": "ask",
+   "text": "Pain out of proportion to examination findings"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Klompas M. Does this patient have an acute thoracic aortic dissection? JAMA. 2002;287(17):2262-2272.",
+    "Ohle R, Um J, Anjum O, et al. High risk clinical features for acute aortic dissection: a case-control study. Acad Emerg Med. 2018;25(4):378-384."
+   ],
+   "numeric_claims": [
+    "0.03",
+    "0.07",
+    "0.14",
+    "0.2",
+    "0.3",
+    "0.5",
+    "0.84",
+    "0.959",
+    "10.1001",
+    "10.1111",
+    "11980527",
+    "13356",
+    "14",
+    "16",
+    "17",
+    "194",
+    "2002",
+    "2018",
+    "21",
+    "2262",
+    "2272",
+    "25",
+    "287",
+    "287.17",
+    "29218798",
+    "378",
+    "384",
+    "4",
+    "5",
+    "776",
+    "84",
+    "95",
+    "95.9",
+    "96"
+   ],
+   "performance_claims": [
+    "0.03",
+    "0.07",
+    "0.14",
+    "0.2",
+    "0.3",
+    "0.5",
+    "0.84",
+    "0.959"
+   ],
+   "record_id": "hx_pain_abrupt_maximal_onset",
+   "section": "ask",
+   "text": "Pain abrupt in onset and maximal at onset (thunderclap-type chest/back pain)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Benabbas R, Hanna M, Shah J, Sinert R. Diagnostic Accuracy of History, Physical Examination, Laboratory Tests, and Point-of-care Ultrasound for Pediatric Acute Appendicitis in the Emergency Department: A Systematic Review and Meta-analysis. Acad Emerg Med. 2017;24(5):523-551."
+   ],
+   "numeric_claims": [
+    "10.1111",
+    "13181",
+    "2.2",
+    "2017",
+    "21",
+    "24",
+    "28214369",
+    "3.59",
+    "4.8",
+    "4.81",
+    "5",
+    "523",
+    "551",
+    "6.44",
+    "8605",
+    "95"
+   ],
+   "performance_claims": [
+    "3.59",
+    "4.81",
+    "6.44"
+   ],
+   "record_id": "hx_rlq_pain_migration",
+   "section": "ask",
+   "text": "Right lower quadrant pain with periumbilical-to-RLQ migration"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "3"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_epigastric_pain_radiating_back",
+   "section": "ask",
+   "text": "Constant epigastric pain radiating to the back (with alcohol/gallstone history)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Becker T, Kharbanda A, Bachur R. Atypical clinical features of pediatric appendicitis. Acad Emerg Med. 2007;14(2):124-129."
+   ],
+   "numeric_claims": [
+    "0.36",
+    "0.53",
+    "0.6",
+    "0.63",
+    "10.1197",
+    "11.9",
+    "124",
+    "129",
+    "14",
+    "17192449",
+    "2",
+    "2006.08",
+    "2007",
+    "36",
+    "47",
+    "755",
+    "9"
+   ],
+   "performance_claims": [
+    "0.53",
+    "0.63"
+   ],
+   "record_id": "exam_abdominal_rigidity_guarding",
+   "section": "examine",
+   "text": "Involuntary guarding / board-like rigidity"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "13"
+   ],
+   "performance_claims": [],
+   "record_id": "exam_abdominal_distension",
+   "section": "examine",
+   "text": "Abdominal distension on inspection/percussion"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Berger T, Green J, Horeczko T, Hagar Y, Garg N, Suarez A, Panacek E, Shapiro N. Shock index and early recognition of sepsis in the emergency department: pilot study. West J Emerg Med. 2013.",
+    "Birkhahn RH, Gaeta TJ, Van Deusen SK, Tloczkowski J. The ability of traditional vital signs and shock index to identify ruptured ectopic pregnancy. Am J Obstet Gynecol. 2003.",
+    "DeMuro JP, Simmons S, Jax J, Gianelli SM. Application of the Shock Index to the prediction of need for hemostasis intervention. Am J Emerg Med. 2013."
+   ],
+   "numeric_claims": [
+    "0.115",
+    "0.27",
+    "0.4",
+    "0.42",
+    "0.48",
+    "0.49",
+    "0.5",
+    "0.52",
+    "0.54",
+    "0.545",
+    "0.63",
+    "0.64",
+    "0.67",
+    "0.7",
+    "0.72",
+    "0.761",
+    "0.78",
+    "0.8",
+    "0.81",
+    "0.83",
+    "0.874",
+    "0.9",
+    "0.936",
+    "1",
+    "1.43",
+    "10.1016",
+    "10.1067",
+    "10.5811",
+    "11",
+    "11.5",
+    "11546",
+    "14634556",
+    "16",
+    "2",
+    "2.53",
+    "2003",
+    "2012.8",
+    "2013",
+    "2013.05",
+    "2019",
+    "23599863",
+    "23806728",
+    "24",
+    "25",
+    "2524",
+    "27",
+    "28",
+    "290",
+    "3",
+    "36",
+    "4",
+    "4277",
+    "48",
+    "52",
+    "54.5",
+    "55",
+    "6.04",
+    "663",
+    "67",
+    "72",
+    "76.1",
+    "8.5",
+    "8.52",
+    "87.4",
+    "93.6",
+    "9378",
+    "94",
+    "96"
+   ],
+   "performance_claims": [
+    "0.27",
+    "0.4",
+    "0.42",
+    "0.48",
+    "0.49",
+    "0.545",
+    "0.64",
+    "0.67",
+    "0.72",
+    "0.761",
+    "0.81",
+    "0.83",
+    "0.874",
+    "0.936",
+    "1.43",
+    "2.53",
+    "6.04",
+    "8.52"
+   ],
+   "record_id": "exam_shock_index",
+   "section": "examine",
+   "text": "Shock index (HR / SBP >= 0.9-1.0)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Lam\u00e9ris W, van Randen A, van Gulik TM et al. A clinical decision rule to establish the diagnosis of acute diverticulitis at the emergency department. Diseases of the colon and rectum. 2010.",
+    "Laurell H, Hansson LE, Gunnarsson U. Acute diverticulitis--clinical presentation and differential diagnostics. Colorectal disease : the official journal of the Association of Coloproctology of Great Britain and Ireland. 2007."
+   ],
+   "numeric_claims": [
+    "0",
+    "0.043",
+    "0.363",
+    "0.37",
+    "0.635",
+    "0.64",
+    "0.65",
+    "0.97",
+    "0.978",
+    "1",
+    "10.1007",
+    "10.1111",
+    "1162",
+    "126",
+    "13",
+    "1318.2006",
+    "145",
+    "1463",
+    "16.7",
+    "17573742",
+    "2007",
+    "2010",
+    "20485003",
+    "21",
+    "21.3",
+    "24",
+    "29",
+    "3",
+    "30",
+    "3181",
+    "349",
+    "50",
+    "64",
+    "7",
+    "80",
+    "83",
+    "86",
+    "95",
+    "97",
+    "98",
+    "99"
+   ],
+   "performance_claims": [
+    "0.363",
+    "0.37",
+    "0.64",
+    "0.65",
+    "0.97",
+    "0.978",
+    "16.7",
+    "21.3"
+   ],
+   "record_id": "exam_llq_tenderness",
+   "section": "examine",
+   "text": "Localized LLQ tenderness (with prior diverticulitis episode history)"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "card": {
+   "chief_complaint": "sudden severe diffuse abdominal pain",
+   "presentation": "abdominal_pain",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_pain_out_of_proportion_exam",
+      "changes_what": "Present: escalate now - CT angiography for suspected mesenteric ischemia; urgent surgical consult for suspected necrotizing infection. Absent: does not lower probability enough to stop work-up.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not apply to patients who cannot report pain reliably (sedation, dementia, spinal cord injury); absence of the sign never excludes either diagnosis.",
+      "escalation_warning": "Suspected necrotizing infection or mesenteric ischemia is time-critical: surgical consultation / CT angiography without waiting for laboratory results.",
+      "evidence": [
+       {
+        "citation": "Alayed KA, Tan C, Daneman N. Red Flags for Necrotizing Fasciitis: A Case Control Study. International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases. 2016.",
+        "computed": false,
+        "doi": "10.1016/j.ijid.2015.04.021",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "4.5"
+        },
+        "pmid": "25975653",
+        "population": "All NF cases admitted to a large Canadian tertiary hospital 2004-2013, each matched to two cellulitis controls (retrospective case-control)",
+        "prevalence": null,
+        "quote": "The clinical features that most significantly increased the odds of NF were recent surgery (LR+ 7.0) pain-out-of-proportion (LR+ 4.5), diarrhea (LR+ 6.0)",
+        "reference_standard": "Admitted with diagnosis of necrotizing fasciitis (chart-confirmed) versus cellulitis controls",
+        "sensitivity": null,
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Necrotizing fasciitis versus cellulitis (case-control): pain-out-of-proportion documented on history/physical examination",
+        "url": null,
+        "year": "2016"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Compare reported pain severity and analgesic requirement with objective findings: for the abdomen, severe continuous pain with a soft, non-tender or minimally tender abdomen; for skin/soft tissue, severe pain or exquisite tenderness extending beyond the visible erythema, or pain disproportionate to a modest cellulitis. Record the discordance explicitly.",
+      "id": "hx_pain_out_of_proportion_exam",
+      "negative_finding": "Absence is not reassuring: no single red flag had sufficient sensitivity to rule out necrotizing fasciitis (LR- >=0.5 for all findings), and mesenteric ischemia frequently presents with vague or non-specific pain, especially in the elderly.",
+      "pitfalls": "Late presentations of ischemia develop peritonism, so the sign is transient; analgesia, diabetes, and altered mental status blunt reporting. Distinguishing 'out of proportion' is subjective and undefined in most studies.",
+      "positive_finding": "In a soft-tissue infection, pain out of proportion raised the odds of necrotizing fasciitis about 4.5-fold versus cellulitis in a case-control study; in abdominal pain with vascular risk (AF, atherosclerosis, low flow), it is the classic cue for early mesenteric ischemia and should prompt CT angiography rather than observation.",
+      "prerequisites": "Patient able to report pain; opioid or sedative effect accounted for.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Pain out of proportion to examination findings",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_pain_abrupt_maximal_onset",
+      "changes_what": "Positive: escalate to ADD-RS assessment, CXR/D-dimer and CT angiography as appropriate; negative onset lowers but does not eliminate dissection probability.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use gradual onset alone to exclude dissection in patients with other high-risk features (Marfan/aortic disease, pulse deficit, neurologic deficit, new murmur, hypotension).",
+      "escalation_warning": "Abrupt severe chest/back pain with hypotension, pulse deficit, or neurologic deficit is a dissection or ruptured AAA until proven otherwise: immediate CT angiography and surgical notification.",
+      "evidence": [
+       {
+        "citation": "Klompas M. Does this patient have an acute thoracic aortic dissection? JAMA. 2002;287(17):2262-2272.",
+        "computed": false,
+        "doi": "10.1001/jama.287.17.2262",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_out",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.5",
+         "ci_low": "0.2",
+         "value": "0.3"
+        },
+        "lr_positive": null,
+        "pmid": "11980527",
+        "population": "Consecutive patients with confirmed thoracic aortic dissection from 21 studies (case series; sensitivity pooled; LR- derived from comparison cohorts)",
+        "prevalence": null,
+        "quote": "sudden onset (sensitivity, 84%). The absence of sudden pain onset lowers the likelihood of dissection (negative likelihood ratio [LR], 0.3; 95% confidence interval [CI], 0.2-0.5)",
+        "reference_standard": "Dissection confirmed by imaging, surgery, or autopsy",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.84"
+        },
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Acute thoracic aortic dissection (finding: sudden-onset pain)",
+        "url": null,
+        "year": "2002"
+       },
+       {
+        "citation": "Ohle R, Um J, Anjum O, et al. High risk clinical features for acute aortic dissection: a case-control study. Acad Emerg Med. 2018;25(4):378-384.",
+        "computed": false,
+        "doi": "10.1111/acem.13356",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_out",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.14",
+         "ci_low": "0.03",
+         "value": "0.07"
+        },
+        "lr_positive": null,
+        "pmid": "29218798",
+        "population": "Matched case-control: 194 ED/in-hospital CT- or echo-confirmed AAD cases vs 776 ED controls with truncal pain <14 days and no clear diagnosis",
+        "prevalence": null,
+        "quote": "Absence of abrupt-onset pain (sensitivity = 95.9%, negative likelihood ratio = 0.07 [0.03-0.14]) can help rule out AAD.",
+        "reference_standard": "CT angiography or echocardiography confirmed dissection",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.959"
+        },
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Acute aortic dissection (finding: abrupt-onset pain)",
+        "url": null,
+        "year": "2018"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Ask an open question about how the pain began, then specifically: 'Did it reach its worst within seconds, or build up over minutes?' Document time-to-peak intensity and whether the patient can pinpoint the moment of onset (what they were doing). Also ask about tearing/ripping quality and migration.",
+      "id": "hx_pain_abrupt_maximal_onset",
+      "negative_finding": "Absence of sudden onset lowers the likelihood of dissection (LR- 0.3 in the RCE pooled series; 0.07 in an ED case-control study), but the clinical examination is insufficiently sensitive to rule out dissection on its own.",
+      "pitfalls": "Patients recall onset imprecisely, particularly after analgesia or when pain was preceded by exertion; gradual-onset presentations still occur in ~5-16% of dissections, especially in elderly patients or with painless neurologic presentations.",
+      "positive_finding": "Abrupt-onset pain is present in ~84-96% of aortic dissections but is common in other conditions, so it raises suspicion for dissection only modestly (specificity not established in unselected cohorts); it is a high-risk feature in the ADD risk score.",
+      "prerequisites": "Patient able to give history; otherwise ask witnesses or EMS about onset.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Pain abrupt in onset and maximal at onset (thunderclap-type chest/back pain)",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_rlq_pain_migration",
+      "changes_what": "Migration present: treat as likely appendicitis, obtain imaging or surgical review; absent: keep appendicitis on the differential but weigh alternatives.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use absence of migration to exclude appendicitis in young children, the elderly, pregnancy or patients with unreliable histories.",
+      "escalation_warning": "Migration followed by sudden generalised pain and rigidity suggests perforation: urgent surgical review.",
+      "evidence": [
+       {
+        "citation": "Benabbas R, Hanna M, Shah J, Sinert R. Diagnostic Accuracy of History, Physical Examination, Laboratory Tests, and Point-of-care Ultrasound for Pediatric Acute Appendicitis in the Emergency Department: A Systematic Review and Meta-analysis. Acad Emerg Med. 2017;24(5):523-551.",
+        "computed": false,
+        "doi": "10.1111/acem.13181",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "6.44",
+         "ci_low": "3.59",
+         "value": "4.81"
+        },
+        "pmid": "28214369",
+        "population": "ED pediatric patients with undifferentiated abdominal pain; pooled from included studies (systematic review of 21 studies, 8605 patients overall)",
+        "prevalence": null,
+        "quote": "history of \"pain migration to right lower quadrant (RLQ)\" (LR+ = 4.81, 95% confidence interval [CI] = 3.59-6.44)",
+        "reference_standard": "Surgical pathology or clinical follow-up as defined per study",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Acute appendicitis (children)",
+        "url": null,
+        "year": "2017"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Ask where the pain started and where it is now, and in what order symptoms appeared. Migration means a vague periumbilical or epigastric (visceral) pain that, over hours, shifts to a sharper localised RLQ (parietal) pain; also ask whether pain preceded vomiting and about anorexia.",
+      "id": "hx_rlq_pain_migration",
+      "negative_finding": "Lack of migration makes appendicitis less likely but many confirmed cases present with RLQ pain from the outset, so absence does not exclude it.",
+      "pitfalls": "Migration is reported in only about half of cases and is recalled unreliably; retrocaecal or pelvic appendices localise atypically. Vomiting before pain onset argues against appendicitis.",
+      "positive_finding": "Classic periumbilical-to-RLQ migration raises the probability of appendicitis (pediatric pooled LR+ 4.8 in undifferentiated abdominal pain; adult OR 2.2), more than RLQ pain alone.",
+      "prerequisites": "Patient able to give a history; for children or cognitively impaired patients, use carer history.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Right lower quadrant pain with periumbilical-to-RLQ migration",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_epigastric_pain_radiating_back",
+      "changes_what": "Present: check lipase and consider pancreatitis, but exclude aortic catastrophe and perforation first when the patient is unstable or the pain is tearing/sudden.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not label pain as pancreatitis when there is hypotension, syncope, a pulsatile mass, limb ischemia or a tearing quality until aorta is imaged.",
+      "escalation_warning": "Epigastric pain to the back with shock, peritonitis, or a normal lipase demands urgent CT for aortic rupture, dissection or perforated viscus.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Ask onset, location, and character: constant severe epigastric or upper-abdominal pain, often boring through to the back, worse supine and eased by sitting forward, with nausea and vomiting. Ask about alcohol intake, known gallstones or prior biliary colic, recent ERCP, hypertriglyceridemia and new medications.",
+      "id": "hx_epigastric_pain_radiating_back",
+      "negative_finding": "Absence of back radiation does not exclude pancreatitis; pain that is intermittent or colicky favours biliary colic or bowel pathology.",
+      "pitfalls": "Tearing pain with pulse or BP asymmetry, hypotension or a pulsatile mass points to aorta, not pancreas; elderly and post-operative patients may have minimal pain. Grey Turner/Cullen ecchymosis is rare (3% in one large series) and marks severity rather than aiding diagnosis.",
+      "positive_finding": "Constant epigastric pain radiating to the back with an alcohol or gallstone history is the classic presentation of acute pancreatitis and is one of the three diagnostic criteria in the revised Atlanta classification (with lipase/amylase >3x ULN and imaging). The same pain pattern also occurs with posterior penetrating peptic ulcer, ruptured AAA and aortic dissection.",
+      "prerequisites": "Reliable history; ask family when the patient is intoxicated or encephalopathic.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Constant epigastric pain radiating to the back (with alcohol/gallstone history)",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/exam_abdominal_rigidity_guarding",
+      "changes_what": "Present: treat as peritonitis, obtain surgical review and CT urgently. Absent: modest reassurance only; do not use to withhold imaging.",
+      "contraindications": "None; avoid deep or repeated palpation once peritonitis is evident.",
+      "do_not_use_when": "Do not rely on absence of guarding to exclude surgical pathology in the elderly, immunosuppressed, obese, pregnant or opioid-treated patient.",
+      "escalation_warning": "Diffuse rigidity with hypotension or fever is generalized peritonitis until proven otherwise: resuscitate, antibiotics, immediate surgical consultation.",
+      "evidence": [
+       {
+        "citation": "Becker T, Kharbanda A, Bachur R. Atypical clinical features of pediatric appendicitis. Acad Emerg Med. 2007;14(2):124-129.",
+        "computed": false,
+        "doi": "10.1197/j.aem.2006.08.009",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.63"
+        },
+        "lr_positive": null,
+        "pmid": "17192449",
+        "population": "755 children and adolescents (median age 11.9 y) evaluated for suspected appendicitis; 36% had appendicitis",
+        "prevalence": "0.36",
+        "quote": "lack of guarding (LR, 0.63)",
+        "reference_standard": "Surgical pathology or telephone follow-up",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Acute appendicitis (absence of guarding as negative predictor) (pediatric)",
+        "url": null,
+        "year": "2007"
+       },
+       {
+        "citation": "Becker T, Kharbanda A, Bachur R. Atypical clinical features of pediatric appendicitis. Acad Emerg Med. 2007;14(2):124-129.",
+        "computed": true,
+        "doi": "10.1197/j.aem.2006.08.009",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "17192449",
+        "population": "Children and adolescents with proven appendicitis in the same cohort (n=755 enrolled)",
+        "prevalence": "0.36",
+        "quote": "lack of guarding (47%)",
+        "reference_standard": "Surgical pathology or telephone follow-up",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.53"
+        },
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Acute appendicitis (pediatric)",
+        "url": null,
+        "year": "2007"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "With the patient supine, knees flexed and distracted by conversation, palpate each quadrant gently with a flat hand. Involuntary guarding is reflex contraction of the abdominal wall that persists despite relaxation and distraction; rigidity is a board-like wall that does not soften on expiration.",
+      "id": "exam_abdominal_rigidity_guarding",
+      "negative_finding": "Absence of guarding lowers but does not exclude appendicitis (pediatric LR- ~0.6); early, retrocaecal or perforated disease in the elderly or immunosuppressed may show no guarding.",
+      "pitfalls": "Voluntary guarding from anxiety, cold hands or ticklishness mimics the sign; obesity, steroids, opioids and advanced age blunt it. Distinguishing voluntary from involuntary guarding is examiner dependent.",
+      "positive_finding": "Involuntary guarding or rigidity indicates parietal peritoneal irritation (localized or generalized peritonitis) and raises the probability of appendicitis, perforation or other surgical pathology.",
+      "prerequisites": "Patient able to lie supine and relax; warm hands; examine tender areas last.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Involuntary guarding / board-like rigidity",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_abdominal_distension",
+      "changes_what": "Distension + pain/vomiting: NG decompression, fluids, CT abdomen. Tense distension with AKI: measure bladder pressure. Suprapubic dullness: bladder scan and catheterize.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not interpret distension in isolation in patients with ascites, pregnancy, or known chronic megacolon; do not use absence of distension to defer imaging when pain is severe or peritoneal signs exist.",
+      "escalation_warning": "Distension with peritonism, hemodynamic instability, or rising lactate suggests strangulation or perforation: immediate surgical review. Tense abdomen with oliguria: check intra-abdominal pressure.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Inspect the supine abdomen from the side and foot of the bed for a protuberant contour, flank bulging and visible loops or peristalsis. Percuss all quadrants: tympany suggests gas-filled bowel (obstruction/ileus), suprapubic dullness a full bladder, flank dullness fluid. Ask the patient whether the belly feels bigger than usual.",
+      "id": "exam_abdominal_distension",
+      "negative_finding": "Absence of distension makes complete SBO less likely but does not exclude proximal or early obstruction, ischemia or perforation.",
+      "pitfalls": "Obesity, ascites, pregnancy and chronic constipation mimic or mask distension; a tense abdomen from retention is easily mistaken for obstruction. Percussion note and contour are poorly reproducible between examiners.",
+      "positive_finding": "New tympanitic distension with pain and vomiting points to small bowel obstruction (RR ~13 vs no distension in the OMGE series); tense distension with oliguria raises abdominal compartment syndrome; suprapubic dullness suggests retention.",
+      "prerequisites": "Supine patient with abdomen fully exposed; compare with baseline habitus if known.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Abdominal distension on inspection/percussion",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_shock_index",
+      "changes_what": "Elevated SI: escalate to resuscitation, early lactate, source/bleeding search and transfusion readiness; normal SI: do not de-escalate on this alone.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not rely on SI in patients on beta-blockers or with pacemakers, in pregnancy beyond the first trimester, or in children (use age-adjusted SIPA).",
+      "escalation_warning": "SI >=1.0 with a bleeding source, suspected AAA, PE or infection indicates shock and warrants immediate resuscitation, senior review and ICU-level care.",
+      "evidence": [
+       {
+        "citation": "DeMuro JP, Simmons S, Jax J, Gianelli SM. Application of the Shock Index to the prediction of need for hemostasis intervention. Am J Emerg Med. 2013.",
+        "computed": true,
+        "doi": "10.1016/j.ajem.2013.05.027",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.49"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "8.52"
+        },
+        "pmid": "23806728",
+        "population": "4277 adult (>16 y) trauma patients at a single trauma centre over 11 years; traumatic brain injury and transfers excluded; retrospective",
+        "prevalence": null,
+        "quote": "using the standard SI cutoff of >0.9 as the threshold for bleeding, the sensitivity is 54.5%, with a specificity of 93.6%",
+        "reference_standard": "Bleeding requiring intervention for hemostasis (study definition; the Koch 2019 review summarises it as >=2 units PRBC in 24 h)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.545"
+        },
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.936"
+        },
+        "target_condition": "PROGNOSTIC: Hemorrhage requiring hemostasis intervention after trauma \u2014 SI >0.9 (initial hospital vitals)",
+        "url": null,
+        "year": "2013"
+       },
+       {
+        "citation": "DeMuro JP, Simmons S, Jax J, Gianelli SM. Application of the Shock Index to the prediction of need for hemostasis intervention. Am J Emerg Med. 2013.",
+        "computed": true,
+        "doi": "10.1016/j.ajem.2013.05.027",
+        "evidence_level": "single_study",
+        "interpretation_label": "both",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.27"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "6.04"
+        },
+        "pmid": "23806728",
+        "population": "4277 adult (>16 y) trauma patients at a single trauma centre over 11 years; traumatic brain injury and transfers excluded; retrospective",
+        "prevalence": null,
+        "quote": "Lowering the SI to \u22650.8 increases the sensitivity to 76.1%, with a specificity of 87.4%",
+        "reference_standard": "Bleeding requiring intervention for hemostasis (study definition; the Koch 2019 review summarises it as >=2 units PRBC in 24 h)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.761"
+        },
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.874"
+        },
+        "target_condition": "PROGNOSTIC: Hemorrhage requiring hemostasis intervention after trauma \u2014 SI >=0.8 (lowered threshold)",
+        "url": null,
+        "year": "2013"
+       },
+       {
+        "citation": "Berger T, Green J, Horeczko T, Hagar Y, Garg N, Suarez A, Panacek E, Shapiro N. Shock index and early recognition of sepsis in the emergency department: pilot study. West J Emerg Med. 2013.",
+        "computed": true,
+        "doi": "10.5811/westjem.2012.8.11546",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Full text (PMC), Table 3 'Performance of predictors for hyperlactatemia', column SI \u2265 1.0",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.64"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "2.53"
+        },
+        "pmid": "23599863",
+        "population": "2524 adult ED patients with suspected infection screened for severe sepsis; retrospective; hyperlactatemia in 290 (11.5%)",
+        "prevalence": "0.115",
+        "quote": "Sensitivity  0.48  0.78  0.83  0.63    Specificity  0.81  0.52  0.42  0.54",
+        "reference_standard": "Initial serum lactate >=4.0 mmol/L (hyperlactatemia as surrogate for severe sepsis)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.48"
+        },
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.81"
+        },
+        "target_condition": "Hyperlactatemia (lactate >=4.0 mmol/L) in ED patients with suspected infection \u2014 SI >=1.0 at triage",
+        "url": null,
+        "year": "2013"
+       },
+       {
+        "citation": "Berger T, Green J, Horeczko T, Hagar Y, Garg N, Suarez A, Panacek E, Shapiro N. Shock index and early recognition of sepsis in the emergency department: pilot study. West J Emerg Med. 2013.",
+        "computed": true,
+        "doi": "10.5811/westjem.2012.8.11546",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Full text (PMC), Table 3 'Performance of predictors for hyperlactatemia', column SI \u2265 0.7",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.4"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "1.43"
+        },
+        "pmid": "23599863",
+        "population": "2524 adult ED patients with suspected infection screened for severe sepsis; retrospective; hyperlactatemia in 290 (11.5%)",
+        "prevalence": "0.115",
+        "quote": "Sensitivity  0.48  0.78  0.83  0.63    Specificity  0.81  0.52  0.42  0.54",
+        "reference_standard": "Initial serum lactate >=4.0 mmol/L (hyperlactatemia as surrogate for severe sepsis)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.83"
+        },
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.42"
+        },
+        "target_condition": "Hyperlactatemia (lactate >=4.0 mmol/L) in ED patients with suspected infection \u2014 SI >=0.7 at triage",
+        "url": null,
+        "year": "2013"
+       },
+       {
+        "citation": "Birkhahn RH, Gaeta TJ, Van Deusen SK, Tloczkowski J. The ability of traditional vital signs and shock index to identify ruptured ectopic pregnancy. Am J Obstet Gynecol. 2003.",
+        "computed": false,
+        "doi": "10.1067/s0002-9378(03)00663-x",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "14634556",
+        "population": "52 ED patients with ectopic pregnancy (25 ruptured, 27 unruptured); retrospective case-control",
+        "prevalence": null,
+        "quote": "sensitivity for heart rate, systolic blood pressure, and heart rate/systolic blood pressure was 28%, 36%, and 72% respectively; the specificity was 96%, 96%, and 67%",
+        "reference_standard": "Tubal rupture/hemoperitoneum at surgery",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.72"
+        },
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.67"
+        },
+        "target_condition": "Ruptured ectopic pregnancy (hemoperitoneum) \u2014 SI (HR/SBP) >0.7 at presentation; case-control design",
+        "url": null,
+        "year": "2003"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Divide the heart rate (beats/min) by the systolic blood pressure (mmHg) from the first set of triage vital signs; normal is roughly 0.5-0.7. Record the threshold used (>0.9 or >=1.0) and recalculate with each new set of vitals to follow the trend.",
+      "id": "exam_shock_index",
+      "negative_finding": "A normal SI does not exclude bleeding or sepsis (sensitivity 55% for hemorrhage at >0.9; 48% for lactate >=4 at >=1.0); lowering the threshold to 0.7-0.8 improves sensitivity at the cost of specificity.",
+      "pitfalls": "Beta-blockade, pacing, hypertension and age blunt the index; pain, anxiety, fever, and anemia raise it without shock. A single value is less informative than the trend.",
+      "positive_finding": "SI >0.9 in trauma has specificity ~94% for hemorrhage needing hemostasis (LR+ ~8.5 computed) and SI >=1.0 in suspected infection is the most specific vital-sign predictor of hyperlactatemia (spec 0.81); an elevated SI flags occult shock when HR and SBP each look acceptable.",
+      "prerequisites": "Accurate HR and SBP; note beta-blockers, calcium-channel blockers, pacemakers and baseline hypertension.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Shock index (HR / SBP >= 0.9-1.0)",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_llq_tenderness",
+      "changes_what": "Isolated LLQ tenderness + no vomiting + CRP>50: diverticulitis likely; consider CT to stage. Diffuse tenderness/peritonism or incomplete features: CT to exclude perforation, abscess or alternatives.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not rely on a benign LLQ exam in immunosuppressed, steroid-treated or very elderly patients, in whom perforation can present with minimal tenderness.",
+      "escalation_warning": "Diffuse peritonism, rigidity, hypotension or a tender mass suggests perforation or abscess: urgent CT and surgical review.",
+      "evidence": [
+       {
+        "citation": "Lam\u00e9ris W, van Randen A, van Gulik TM et al. A clinical decision rule to establish the diagnosis of acute diverticulitis at the emergency department. Diseases of the colon and rectum. 2010.",
+        "computed": true,
+        "doi": "10.1007/DCR.0b013e3181d98d86",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.65"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "16.7"
+        },
+        "pmid": "20485003",
+        "population": "126 ED patients with acute abdominal pain and clinically suspected diverticulitis before imaging (80 with final diagnosis of diverticulitis), from a prospective cohort of 1,021 ED abdominal-pain patients, Netherlands",
+        "prevalence": "0.635",
+        "quote": "30 patients had all 3 features (24%), of whom 29 had a final diagnosis of acute diverticulitis (97%; 95% CI: 83%-99%)",
+        "reference_standard": "Final diagnosis by expert panel after imaging and follow-up",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.363"
+        },
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.978"
+        },
+        "target_condition": "COMPOSITE: direct tenderness only in the LLQ AND absence of vomiting AND CRP >50 mg/L (Lameris rule, all three present) for final diagnosis of acute diverticulitis",
+        "url": null,
+        "year": "2010"
+       },
+       {
+        "citation": "Laurell H, Hansson LE, Gunnarsson U. Acute diverticulitis--clinical presentation and differential diagnostics. Colorectal disease : the official journal of the Association of Coloproctology of Great Britain and Ireland. 2007.",
+        "computed": true,
+        "doi": "10.1111/j.1463-1318.2006.01162.x",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.37"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "21.3"
+        },
+        "pmid": "17573742",
+        "population": "3,349 patients admitted with abdominal pain of up to 7 days' duration, prospectively registered, Swedish hospital (145 with final diagnosis of diverticulitis)",
+        "prevalence": "0.043",
+        "quote": "Sensitivity of diverticulitis as primary diagnosis was 64% and specificity 97%.",
+        "reference_standard": "Final diagnosis with 1-3 year follow-up",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.64"
+        },
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.97"
+        },
+        "target_condition": "Clinician's primary (admission) diagnosis of acute diverticulitis - overall clinical gestalt including LLQ tenderness, NOT the isolated sign",
+        "url": null,
+        "year": "2007"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Palpate all four quadrants, leaving the painful area until last; record whether direct tenderness is confined to the left lower quadrant (versus diffuse or elsewhere), and whether there is guarding, rebound or a palpable mass. Ask specifically about previous confirmed episodes of diverticulitis and about vomiting.",
+      "id": "exam_llq_tenderness",
+      "negative_finding": "Absence of isolated LLQ tenderness does not exclude diverticulitis (the three-feature rule captured only about one-third of confirmed cases); clinicians' overall clinical diagnosis has a sensitivity of roughly 0.64 with a high false-positive rate, so imaging (CT) is needed when features are incomplete.",
+      "pitfalls": "Redundant sigmoid, right-sided diverticulitis (more common in Asian patients) and elderly or immunosuppressed patients give atypical locations or minimal tenderness. Diffuse tenderness, rigidity or peritonism signals perforation or abscess, not uncomplicated diverticulitis.",
+      "positive_finding": "Tenderness confined to the LLQ, especially with a prior episode, no vomiting and CRP >50 mg/L, makes acute diverticulitis very likely (PPV 97% for the three-feature rule in clinically suspected patients), and can allow treatment without imaging in uncomplicated cases in some pathways.",
+      "prerequisites": "Patient supine and relaxed; analgesia does not preclude examination.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Localized LLQ tenderness (with prior diverticulitis episode history)",
+      "type": "exam"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_pain_out_of_proportion_exam",
+     "rationale": ""
+    },
+    {
+     "id": "hx_pain_abrupt_maximal_onset",
+     "rationale": ""
+    },
+    {
+     "id": "hx_rlq_pain_migration",
+     "rationale": ""
+    },
+    {
+     "id": "hx_epigastric_pain_radiating_back",
+     "rationale": ""
+    }
+   ],
+   "examine": [
+    {
+     "id": "exam_abdominal_rigidity_guarding",
+     "rationale": ""
+    },
+    {
+     "id": "exam_abdominal_distension",
+     "rationale": ""
+    },
+    {
+     "id": "exam_shock_index",
+     "rationale": ""
+    },
+    {
+     "id": "exam_llq_tenderness",
+     "rationale": ""
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "sudden severe diffuse abdominal pain",
+   "differentials": [
+    {
+     "dx": "mesenteric_ischemia",
+     "weight": 1.0
+    },
+    {
+     "dx": "perforated_viscus",
+     "weight": 0.25
+    },
+    {
+     "dx": "pancreatitis",
+     "weight": 0.167
+    },
+    {
+     "dx": "small_bowel_obstruction",
+     "weight": 0.117
+    },
+    {
+     "dx": "aaa",
+     "weight": 0.083
+    },
+    {
+     "dx": "diverticulitis",
+     "weight": 0.05
+    }
+   ],
+   "indication_tags": [
+    "acute_onset",
+    "anticoagulated"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "sudden onset",
+    "severe",
+    "diffuse"
+   ],
+   "observed_values": [
+    "HR 118",
+    "BP 128/76"
+   ],
+   "presentation": "abdominal_pain",
+   "time_course": "acute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "base"
+}

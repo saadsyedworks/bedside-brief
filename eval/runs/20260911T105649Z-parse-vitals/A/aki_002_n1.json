@@ -1,0 +1,253 @@
+{
+ "arm": "A",
+ "ask_first": false,
+ "base_case_id": "aki_002",
+ "blocked_items": [],
+ "case_id": "aki_002_n1",
+ "created_at": "2026-09-11T10:58:18+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "48",
+    "72"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_nephrotoxin_contrast_exposure",
+   "section": "ask",
+   "text": "Nephrotoxin and contrast exposure history (NSAID, ACEi/ARB, diuretic, aminoglycoside, vancomycin, PPI, iodinated contrast; timing)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "2",
+    "4",
+    "5"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_hypotensive_medication_review",
+   "section": "ask",
+   "text": "Antihypertensive / sedative / new-medication review (timing of last doses)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "14977795",
+    "30",
+    "44",
+    "500",
+    "54"
+   ],
+   "performance_claims": [],
+   "record_id": "exam_bladder_percussion_palpable",
+   "section": "examine",
+   "text": "Suprapubic palpation / percussion for distended bladder; LUTS and prostate history"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "0.19",
+    "0.43",
+    "0.62",
+    "0.88",
+    "2",
+    "5",
+    "500"
+   ],
+   "performance_claims": [],
+   "record_id": "exam_saddle_anesthesia_anal_tone",
+   "section": "examine",
+   "text": "Saddle (perineal) sensory loss and reduced anal tone"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "candidates": [
+   "exam_bladder_percussion_palpable",
+   "exam_saddle_anesthesia_anal_tone",
+   "exam_cva_tenderness",
+   "exam_sensory_level_upper_motor_neuron_signs",
+   "hx_nephrotoxin_contrast_exposure",
+   "exam_orthostatic_vitals",
+   "hx_hypotensive_medication_review",
+   "exam_dry_axilla",
+   "exam_dry_mucous_membranes",
+   "exam_skin_turgor",
+   "hx_postural_dizziness",
+   "exam_jvp_elevated",
+   "fn_passive_leg_raise",
+   "exam_capillary_refill",
+   "exam_hypotension_sbp_lt90",
+   "exam_tachycardia_resting",
+   "exam_abdominojugular_reflux",
+   "exam_cool_extremities",
+   "exam_peripheral_edema_pitting",
+   "exam_pulmonary_crackles",
+   "exam_s3_gallop",
+   "hx_orthopnea",
+   "hx_pnd"
+  ],
+  "card": {
+   "chief_complaint": "no urine output overnight",
+   "presentation": "aki",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_nephrotoxin_contrast_exposure",
+      "changes_what": "A positive exposure history should lead to stopping or dose-adjusting the agent, avoiding further nephrotoxins and monitoring creatinine; still assess obstruction and volume status.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not attribute AKI solely to a drug or contrast when there is oliguria, sepsis, hypotension or possible obstruction; these still need evaluation.",
+      "escalation_warning": "AKI with hyperkalemia, acidosis, fluid overload or uremic symptoms needs urgent nephrology review regardless of the exposure history.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Reconcile all drugs against the chart and pharmacy record, including over-the-counter NSAIDs and herbal products: NSAIDs, ACEi/ARB, diuretics, aminoglycosides, vancomycin (with piperacillin-tazobactam), PPIs, and any iodinated contrast. For each, record start date, dose change and timing relative to the creatinine rise.",
+      "id": "hx_nephrotoxin_contrast_exposure",
+      "negative_finding": "No exposure lowers the likelihood of drug-related AKI and contrast nephropathy, redirecting attention to hypovolemia, sepsis, obstruction and intrinsic renal disease.",
+      "pitfalls": "Patients under-report OTC NSAIDs; PPI-associated AIN can begin weeks to months after the start; contrast-associated AKI is often confounded by the illness that prompted imaging, so timing alone does not prove causation.",
+      "positive_finding": "A nephrotoxin started or dosed within days of the creatinine rise, or contrast within 48-72 h, makes drug-induced AKI (hemodynamic, ATN or AIN) a leading candidate and identifies an immediately reversible factor.",
+      "prerequisites": "Access to medication administration and imaging records; collateral history for patients who cannot report OTC use.",
+      "rationale": "Recent medication exposure (e.g., diphenhydramine) could contribute to AKI or retention, and identifying nephrotoxins guides immediate management.",
+      "skill_assumption": null,
+      "title": "Nephrotoxin and contrast exposure history (NSAID, ACEi/ARB, diuretic, aminoglycoside, vancomycin, PPI, iodinated contrast; timing)",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_hypotensive_medication_review",
+      "changes_what": "Positive: hold/adjust the culprit, check orthostatic vitals, ECG, creatinine and electrolytes; negative: pursue arrhythmic, structural, vasovagal or infectious causes.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not accept a medication explanation as final in patients with exertional syncope, syncope while supine, palpitations preceding syncope, known structural heart disease or an abnormal ECG.",
+      "escalation_warning": "Bradycardia or high-grade AV block, QT prolongation, symptomatic hypotension with AKI, or opioid/sedative toxicity with reduced consciousness need monitored care and antidote/withdrawal decisions.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Reconcile every drug (prescribed, OTC, herbal, recreational) against the pharmacy list: antihypertensives, diuretics, nitrates, alpha-blockers, PDE5 inhibitors, rate-slowing agents (beta-blockers, non-DHP CCB, digoxin), QT-prolonging drugs, sedatives/opioids, psychotropics, insulin/sulfonylureas, NSAIDs/ACEi/ARB/SGLT2i. Note start dates, dose changes and timing of the last dose versus the event.",
+      "id": "hx_hypotensive_medication_review",
+      "negative_finding": "No culprit drug or no temporal relationship lowers the probability of medication effect but does not exclude intrinsic cardiac or neurological causes.",
+      "pitfalls": "Patients omit over-the-counter, recreational and 'as needed' drugs; drug effects are amplified by age, renal impairment, volume depletion and drug-drug interactions, so a long-standing drug can still be the cause after a change elsewhere. Attributing syncope to drugs without ECG review can miss conduction disease unmasked by the drug.",
+      "positive_finding": "A new or up-titrated vasoactive, rate-slowing, sedative or diuretic drug (or an intercurrent illness reducing intake/clearance) temporally linked to the event supports drug-induced orthostatic hypotension, bradyarrhythmia, hypovolemia/AKI or delirium.",
+      "prerequisites": "Access to an accurate medication list (pharmacy fill data, carer, containers); ask specifically about new drugs and dose escalations within the past 2-4 weeks.",
+      "rationale": "Reviewing new or sedative medications is crucial since diphenhydramine and others may precipitate retention or worsen AKI, especially in a patient with BPH.",
+      "skill_assumption": null,
+      "title": "Antihypertensive / sedative / new-medication review (timing of last doses)",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/exam_bladder_percussion_palpable",
+      "changes_what": "Positive \u2192 catheterize/measure PVR now and seek the cause (drugs, prostate, cauda equina); negative with risk factors \u2192 bladder scan.",
+      "contraindications": "Avoid deep palpation over fresh lower abdominal incisions.",
+      "do_not_use_when": "Do not use an absent suprapubic mass to exclude retention in AKI, delirium or suspected cauda equina \u2014 measure post-void residual.",
+      "escalation_warning": "Retention with new saddle anesthesia, leg weakness or back pain \u2192 emergent cauda equina evaluation (MRI).",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Patient supine: percuss from the umbilicus toward the pubis for a dome of suprapubic dullness and palpate for a smooth, tense, tender midline mass rising from the pelvis that provokes urge. Ask about LUTS, straining, dribbling, hematuria, prostate disease, anticholinergic/opioid use and time since last void; confirm with bladder scan or catheter volume.",
+      "id": "exam_bladder_percussion_palpable",
+      "negative_finding": "A non-palpable bladder does not exclude retention: obesity, smaller volumes and silent postoperative or opioid-related distension are missed. Obtain a bladder scan or post-void residual when retention is plausible.",
+      "pitfalls": "Postoperative bladder volume >500 mL was present in 44% at recovery-room discharge, and 54% of those without symptoms of distension could not void within 30 min (PMID 14977795, Abstract). Pelvic masses, pregnancy and ascites mimic; palpation cannot estimate volume.",
+      "positive_finding": "A palpable or percussible bladder above the pubis with inability to void indicates retention \u2014 catheterize and measure volume. This is a treatable cause of AKI, delirium and abdominal pain.",
+      "prerequisites": "Attempt to void first when able; know time of last void.",
+      "rationale": "Palpating or percussing for a distended bladder can rapidly identify urinary retention, which is highly likely given BPH and anticholinergic use.",
+      "skill_assumption": null,
+      "title": "Suprapubic palpation / percussion for distended bladder; LUTS and prostate history",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_saddle_anesthesia_anal_tone",
+      "changes_what": "Positive: emergency MRI whole lumbosacral spine/urgent spinal surgical referral. Negative: does not exclude cauda equina; if suspicion persists (bilateral sciatica, retention) still image.",
+      "contraindications": "Patient refusal; rectal exam may be deferred if imaging is already being obtained emergently, but perineal sensation should still be tested.",
+      "do_not_use_when": "Do not use normal anal tone or perineal sensation to defer imaging when bilateral sciatica, new urinary retention or incontinence is present; the exam is insensitive for early cauda equina.",
+      "escalation_warning": "Any new saddle sensory change, sphincter disturbance or retention with back pain is a surgical emergency: emergent MRI and spinal referral without waiting for full deficit.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "With a chaperone and consent, test light touch and pinprick over the perineum, perianal skin, buttocks and inner thighs (S2-S5) comparing sides and asking about numbness when wiping; then digital rectal examination assessing resting anal tone, voluntary squeeze, and perianal sensation/anal wink. Pair with a bladder scan for post-void residual.",
+      "id": "exam_saddle_anesthesia_anal_tone",
+      "negative_finding": "Normal perineal sensation and anal tone do not exclude cauda equina compression - pooled sensitivities of individual red flags are only 0.19-0.43, and the diagnosis is often early or incomplete when sphincter signs are absent.",
+      "pitfalls": "Subjective perineal numbness is more sensitive than objective testing; anal tone is unreliable with prior anorectal surgery, chronic constipation or in the elderly. A large post-void residual (>500 mL) is the single most predictive bedside finding and should be checked with the exam.",
+      "positive_finding": "New saddle sensory loss or reduced anal tone in a patient with back pain and bilateral leg or sphincter symptoms is a red flag that mandates emergency MRI; pooled red flags for MRI-confirmed cauda equina are more specific (0.62-0.88) than sensitive.",
+      "prerequisites": "Chaperone, explanation and consent; document time of onset of bladder/bowel symptoms and bilateral leg symptoms.",
+      "rationale": "Checking for saddle anesthesia and anal tone screens for cauda equina, a rare but critical cause of acute retention that must not be missed.",
+      "skill_assumption": null,
+      "title": "Saddle (perineal) sensory loss and reduced anal tone",
+      "type": "exam"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_nephrotoxin_contrast_exposure",
+     "rationale": "Recent medication exposure (e.g., diphenhydramine) could contribute to AKI or retention, and identifying nephrotoxins guides immediate management."
+    },
+    {
+     "id": "hx_hypotensive_medication_review",
+     "rationale": "Reviewing new or sedative medications is crucial since diphenhydramine and others may precipitate retention or worsen AKI, especially in a patient with BPH."
+    }
+   ],
+   "examine": [
+    {
+     "id": "exam_bladder_percussion_palpable",
+     "rationale": "Palpating or percussing for a distended bladder can rapidly identify urinary retention, which is highly likely given BPH and anticholinergic use."
+    },
+    {
+     "id": "exam_saddle_anesthesia_anal_tone",
+     "rationale": "Checking for saddle anesthesia and anal tone screens for cauda equina, a rare but critical cause of acute retention that must not be missed."
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "no urine output overnight",
+   "differentials": [
+    {
+     "dx": "obstruction_retention",
+     "weight": 1.0
+    },
+    {
+     "dx": "prerenal_hypovolemia",
+     "weight": 0.214
+    },
+    {
+     "dx": "atn",
+     "weight": 0.143
+    },
+    {
+     "dx": "cardiorenal",
+     "weight": 0.071
+    }
+   ],
+   "indication_tags": [
+    "acute_onset",
+    "elderly",
+    "new_medication"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "recent diphenhydramine",
+    "history of BPH",
+    "inpatient for pneumonia"
+   ],
+   "observed_values": [
+    "zero urine in 8 hrs",
+    "creatinine climbed 0.5 since yesterday"
+   ],
+   "presentation": "aki",
+   "time_course": "acute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "n1"
+}

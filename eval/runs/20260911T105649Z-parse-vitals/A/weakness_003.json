@@ -1,0 +1,431 @@
+{
+ "arm": "A",
+ "ask_first": false,
+ "base_case_id": "weakness_003",
+ "blocked_items": [],
+ "case_id": "weakness_003",
+ "created_at": "2026-09-11T11:18:26+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "24",
+    "72"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_hypoglycemia_symptoms_insulin",
+   "section": "ask",
+   "text": "Hypoglycemia history: insulin/sulfonylurea use, missed meals, adrenergic or neuroglycopenic symptoms"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "1",
+    "33",
+    "50",
+    "7"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_back_pain_cancer_history",
+   "section": "ask",
+   "text": "New or progressive back pain in a patient with known cancer (or age >50, night pain, weight loss)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Goldstein LB, Simel DL. Is this patient having a stroke? JAMA. 2005;293(19):2391-2402.",
+    "Kothari RU, Pancioli A, Liu T, Brott T, Broderick J. Cincinnati Prehospital Stroke Scale: reproducibility and validity. Ann Emerg Med. 1999;33(4):373-378."
+   ],
+   "numeric_claims": [
+    "0",
+    "0.1",
+    "0.25",
+    "0.29",
+    "0.39",
+    "0.4",
+    "0.61",
+    "0.66",
+    "0.87",
+    "0.88",
+    "1",
+    "10",
+    "10.1001",
+    "10.1016",
+    "10092713",
+    "15900010",
+    "171",
+    "19",
+    "196",
+    "1999",
+    "2005",
+    "2391",
+    "2402",
+    "293",
+    "293.19",
+    "3",
+    "3.3",
+    "33",
+    "373",
+    "378",
+    "4",
+    "49",
+    "5.08",
+    "5.5",
+    "644",
+    "66",
+    "70299",
+    "87",
+    "88",
+    "9.1",
+    "95",
+    "99"
+   ],
+   "performance_claims": [
+    "0.25",
+    "0.39",
+    "0.39",
+    "0.61",
+    "0.66",
+    "0.87",
+    "0.88",
+    "3.3",
+    "5.08",
+    "5.5",
+    "9.1"
+   ],
+   "record_id": "exam_face_arm_speech_cpss",
+   "section": "examine",
+   "text": "Facial droop, arm drift, abnormal speech (Cincinnati/FAST screen)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "4",
+    "48",
+    "90"
+   ],
+   "performance_claims": [],
+   "record_id": "exam_proximal_symmetric_weakness",
+   "section": "examine",
+   "text": "Proximal symmetric weakness (chair-rise/Gowers-type maneuver, arm abduction) without focal deficit"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "0.3",
+    "1",
+    "10",
+    "4",
+    "56"
+   ],
+   "performance_claims": [],
+   "record_id": "exam_sensory_level_upper_motor_neuron_signs",
+   "section": "examine",
+   "text": "Sensory level with hyperreflexia / extensor plantar (Babinski) below the level"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "candidates": [
+   "exam_proximal_symmetric_weakness",
+   "exam_face_arm_speech_cpss",
+   "exam_focal_neuro_deficit_screen",
+   "fn_gait_stand_unaided",
+   "exam_ascending_symmetric_weakness_areflexia",
+   "exam_focal_neuro_deficit_with_chest_pain",
+   "exam_forehead_sparing_facial_weakness",
+   "exam_pulse_irregularly_irregular",
+   "hx_hypoglycemia_symptoms_insulin",
+   "exam_sensory_level_upper_motor_neuron_signs",
+   "exam_saddle_anesthesia_anal_tone",
+   "hx_back_pain_cancer_history",
+   "hx_alcohol_use_withdrawal_timing",
+   "hx_rhabdo_myalgia_dark_urine",
+   "exam_subtle_motor_signs_ncse",
+   "exam_pupils_eye_movements_toxidrome"
+  ],
+  "card": {
+   "chief_complaint": "too weak to walk today",
+   "presentation": "weakness",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_hypoglycemia_symptoms_insulin",
+      "changes_what": "Positive: fingerstick now, treat, and observe for recurrence (sulfonylurea/renal failure -> admit); negative: keep glucose check but move to cardiac/neurologic causes of the spell.",
+      "contraindications": "None; the history must never delay a point-of-care glucose in any patient with altered mental status, syncope or focal deficit.",
+      "do_not_use_when": "Never rely on symptom history alone in an obtunded, post-ictal or focally weak patient - measure glucose immediately.",
+      "escalation_warning": "Hypoglycemia with sulfonylurea, insulin overdose, renal failure or alcohol needs monitored admission and repeated glucose; persistent deficit after glucose correction is a stroke workup.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Ask specifically about insulin or sulfonylurea use (drug, dose, timing of last dose), missed or delayed meals, alcohol, recent renal or hepatic decline, and prodromal autonomic symptoms (sweating, tremor, palpitations, hunger) or neuroglycopenic symptoms (confusion, drowsiness, difficulty speaking, weakness). Confirm with a fingerstick glucose at the time of symptoms.",
+      "id": "hx_hypoglycemia_symptoms_insulin",
+      "negative_finding": "No exposure to insulin or secretagogues and no critical illness, cortisol/hormone deficiency or alcohol makes drug-induced hypoglycemia unlikely, but a measured glucose is still required because neuroglycopenia can present without warning symptoms.",
+      "pitfalls": "Long-standing diabetes and beta-blockers blunt autonomic warning symptoms so neuroglycopenic presentation (confusion, focal deficit) may be the only clue; sulfonylurea hypoglycemia recurs for 24-72 h so a single corrected glucose is not the end of the episode.",
+      "positive_finding": "Insulin/secretagogue exposure plus a missed meal, alcohol or renal impairment and autonomic or neuroglycopenic prodrome makes hypoglycemia likely; Whipple's triad (symptoms, documented low glucose, resolution with glucose) confirms it.",
+      "prerequisites": "A collateral history when the patient is confused; the medication list including recently added sulfonylureas, insulin dose changes, or drugs that potentiate them.",
+      "rationale": "Hypoglycemia is a reversible cause of acute weakness and must be checked immediately.",
+      "skill_assumption": null,
+      "title": "Hypoglycemia history: insulin/sulfonylurea use, missed meals, adrenergic or neuroglycopenic symptoms",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_back_pain_cancer_history",
+      "changes_what": "Positive: same-day whole-spine MRI (urgent if any neurological deficit) and dexamethasone per local pathway; negative: routine care unless other red flags accumulate.",
+      "contraindications": "None.",
+      "do_not_use_when": "Not a substitute for a neurological examination; do not let an absent cancer history delay imaging when there are motor, sensory or sphincter symptoms.",
+      "escalation_warning": "Back pain plus leg weakness, saddle anaesthesia or urinary retention in a cancer patient is metastatic cord compression until proven otherwise: emergency MRI and steroids.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Ask specifically about any prior cancer diagnosis (including remote and 'cured'), and characterize the pain: onset, progression, night or rest pain, thoracic location, unexplained weight loss, and duration over one month. Then screen for cord/cauda equina symptoms: leg weakness, gait change, saddle numbness, urinary retention or incontinence.",
+      "id": "hx_back_pain_cancer_history",
+      "negative_finding": "No cancer history makes spinal malignancy unlikely in primary care (prevalence <1%), but minor red flags (age >50, weight loss, failure to improve) are weakly informative and cannot exclude it.",
+      "pitfalls": "Age >50, night pain and weight loss have high false-positive rates when used alone. Sensitivity of 'history of cancer' is modest, so its absence does not clear a patient with progressive or thoracic pain.",
+      "positive_finding": "A prior cancer history is the only red flag shown to substantially raise the probability of spinal malignancy: post-test probability 7% in primary care and 33% in an ED cohort. With new neurological symptoms treat as possible metastatic cord compression.",
+      "prerequisites": "Reliable history or collateral; access to oncology records if the patient is unsure.",
+      "rationale": "Back pain or cancer history raises suspicion for spinal cord compression, which is an emergency.",
+      "skill_assumption": null,
+      "title": "New or progressive back pain in a patient with known cancer (or age >50, night pain, weight loss)",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/exam_face_arm_speech_cpss",
+      "changes_what": "Positive: activate stroke pathway/immediate imaging and time-critical reperfusion assessment. Negative: lowers probability but still image if dizziness, ataxia or visual symptoms.",
+      "contraindications": "None; if the patient cannot cooperate, observe spontaneous facial symmetry and limb movement instead.",
+      "do_not_use_when": "Do not rely on a negative screen to exclude posterior-circulation stroke in a patient with acute dizziness, ataxia, diplopia or visual field loss; use HINTS/gait assessment and imaging pathways instead.",
+      "escalation_warning": "Any positive item with symptom onset within the reperfusion window is a time-critical emergency; do not delay activation for a glucose result unless hypoglycemia is confirmed and deficits resolve with correction.",
+      "evidence": [
+       {
+        "citation": "Goldstein LB, Simel DL. Is this patient having a stroke? JAMA. 2005;293(19):2391-2402.",
+        "computed": false,
+        "doi": "10.1001/jama.293.19.2391",
+        "evidence_level": "pooled",
+        "interpretation_label": "both",
+        "kind": "rce_series",
+        "location": "Abstract, Data Synthesis (JAMA 2005;293:2391)",
+        "lr_negative": {
+         "ci_high": "0.61",
+         "ci_low": "0.25",
+         "value": "0.39"
+        },
+        "lr_positive": {
+         "ci_high": "9.1",
+         "ci_low": "3.3",
+         "value": "5.5"
+        },
+        "pmid": "15900010",
+        "population": "Pooled studies of patients with suspected stroke evaluated with modern neuroimaging (RCE systematic review)",
+        "prevalence": "0.1",
+        "quote": "LR of > or =1 finding = 5.5; 95% CI, 3.3-9.1 ... LR of 0 findings = 0.39; 95% CI, 0.25-0.61",
+        "reference_standard": "Final diagnosis after neuroimaging and relevant laboratory tests",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Acute stroke (ischemic or hemorrhagic) among patients with neurologically relevant symptoms",
+        "url": null,
+        "year": "2005"
+       },
+       {
+        "citation": "Kothari RU, Pancioli A, Liu T, Brott T, Broderick J. Cincinnati Prehospital Stroke Scale: reproducibility and validity. Ann Emerg Med. 1999;33(4):373-378.",
+        "computed": true,
+        "doi": "10.1016/s0196-0644(99)70299-4",
+        "evidence_level": "single_study",
+        "interpretation_label": "both",
+        "kind": "primary_study",
+        "location": "Abstract, Results (Ann Emerg Med 1999;33:373)",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.39"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "5.08"
+        },
+        "pmid": "10092713",
+        "population": "Convenience sample of 171 ED and neurology inpatients, 49 with stroke/TIA",
+        "prevalence": "0.29",
+        "quote": "abnormality in any 1 of the 3 stroke scale items had a sensitivity of 66% and specificity of 87% in identifying a stroke patient.",
+        "reference_standard": "Discharge diagnosis of stroke or TIA",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.66"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.87"
+        },
+        "target_condition": "Stroke or TIA (any 1 of 3 CPSS items abnormal, scored by physician)",
+        "url": null,
+        "year": "1999"
+       },
+       {
+        "citation": "Kothari RU, Pancioli A, Liu T, Brott T, Broderick J. Cincinnati Prehospital Stroke Scale: reproducibility and validity. Ann Emerg Med. 1999;33(4):373-378.",
+        "computed": false,
+        "doi": "10.1016/s0196-0644(99)70299-4",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_out",
+        "kind": "primary_study",
+        "location": "Abstract, Results (Ann Emerg Med 1999;33:373)",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "10092713",
+        "population": "Same 171-patient convenience sample; subgroup with anterior circulation stroke",
+        "prevalence": null,
+        "quote": "The sensitivity was 88% for identification of patients with anterior circulation strokes.",
+        "reference_standard": "Discharge diagnosis of stroke, anterior circulation",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.88"
+        },
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Anterior circulation stroke (any 1 of 3 CPSS items abnormal)",
+        "url": null,
+        "year": "1999"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Ask the patient to smile or show teeth and look for asymmetric facial movement; have them close eyes and hold both arms out palms-up for 10 seconds, watching for one arm drifting down; ask them to repeat a simple sentence and listen for slurring, wrong words, or inability to speak. Any one abnormal item is a positive screen.",
+      "id": "exam_face_arm_speech_cpss",
+      "negative_finding": "Absence of all three findings lowers but does not exclude stroke (LR about 0.4); posterior-circulation strokes, which often present with dizziness or ataxia, are commonly missed by this screen (Kothari: 66% sensitivity overall vs 88% for anterior circulation).",
+      "pitfalls": "Bell palsy, old deficits, intoxication, hypoglycemia and seizure mimics all produce false positives; isolated vertigo, ataxia, visual field loss and neglect are not captured, so a negative screen must not stop a stroke work-up in a dizzy patient.",
+      "positive_finding": "Any new facial paresis, arm drift, or abnormal speech; in patients with neurologically relevant symptoms this raises the probability of stroke (pooled LR about 5.5).",
+      "prerequisites": "Patient awake enough to follow simple commands; check a fingerstick glucose alongside the screen. Note time last known well.",
+      "rationale": "A positive screen for facial droop, arm drift, or abnormal speech would trigger an immediate stroke workup.",
+      "skill_assumption": null,
+      "title": "Facial droop, arm drift, abnormal speech (Cincinnati/FAST screen)",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_proximal_symmetric_weakness",
+      "changes_what": "Positive: CK, K/PO4/Mg, TSH, drug review, consider EMG/neurology. Focal, asymmetric or areflexic pattern: pursue GBS, cord compression or stroke instead.",
+      "contraindications": "Do not attempt chair-rise or squat tests in patients at risk of falling without assistance.",
+      "do_not_use_when": "Not applicable for diagnosing weakness in uncooperative, sedated or delirious patients; do not use a normal proximal exam to dismiss ascending weakness, bulbar symptoms or respiratory decline.",
+      "escalation_warning": "Rapidly progressive weakness, neck flexion weakness, dysphagia, reduced vital capacity or areflexia require urgent assessment for GBS/myasthenic crisis and airway monitoring.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Test functional proximal strength: rise from a chair with arms folded, squat and rise (or Gowers manoeuvre), step onto a stool, hold arms abducted to 90 degrees against resistance, lift the head off the pillow. Grade MRC power symmetrically (shoulder abduction, elbow flexion, hip flexion, knee extension, ankle dorsiflexion); check reflexes and sensation for focal deficit.",
+      "id": "exam_proximal_symmetric_weakness",
+      "negative_finding": "Normal proximal strength with preserved chair-rise argues against a generalised myopathy or critical-illness weakness; asymmetric, distal, or reflex/sensory-involving weakness redirects to neuropathy (e.g., GBS with areflexia), cord or central lesions.",
+      "pitfalls": "Pain, effort, deconditioning and sedation produce apparent weakness; GBS and myasthenia can also present proximally. MRC grading is unreliable in inattentive or delirious patients and the ICU-acquired weakness diagnosis requires an awake, cooperative patient.",
+      "positive_finding": "Symmetric proximal weakness with preserved sensation and reflexes points to a myopathic process (inflammatory, drug/statin, alcohol, endocrine, hypokalaemia/hypophosphataemia) or ICU-acquired weakness, and should prompt CK, electrolytes, thyroid tests and a medication/alcohol history. In ICU patients an MRC sum score below 48 defines significant weakness.",
+      "prerequisites": "Pain, joint disease and sedation accounted for; cooperative, awake patient for MRC grading.",
+      "rationale": "Proximal symmetric weakness suggests myopathy or electrolyte disturbance, guiding further labs and management.",
+      "skill_assumption": null,
+      "title": "Proximal symmetric weakness (chair-rise/Gowers-type maneuver, arm abduction) without focal deficit",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_sensory_level_upper_motor_neuron_signs",
+      "changes_what": "Positive: emergency whole-spine MRI, dexamethasone if malignancy suspected, spinal/oncology referral. Negative in suspected GBS: pursue neuromuscular workup; retained UMN signs argue against GBS.",
+      "contraindications": "None; in acute spinal shock reflexes may be absent below the level for days, so hyporeflexia does not exclude cord compression.",
+      "do_not_use_when": "Do not rely on absent hyperreflexia or a normal plantar response to exclude acute cord compression, and do not delay imaging to complete a detailed sensory map.",
+      "escalation_warning": "New bilateral leg weakness, a sensory level, or new bladder dysfunction in a patient with known cancer is metastatic spinal cord compression until MRI proves otherwise; outcome depends on ambulatory status at treatment, so image within hours.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Test pinprick and light touch moving upward from the feet on the trunk to find a dermatome above which sensation becomes normal; confirm with temperature (cold tuning fork). Test knee and ankle reflexes, clonus, and the plantar response by stroking the lateral sole from heel toward the toes with a blunt object; check bladder with a post-void residual.",
+      "id": "exam_sensory_level_upper_motor_neuron_signs",
+      "negative_finding": "Absence of a sensory level or of upper motor neuron signs does not exclude early cord compression, because acute lesions can present with flaccidity and areflexia (spinal shock) and sensory levels are often imprecise; in GBS reflexes are lost and no level is found.",
+      "pitfalls": "The Babinski sign has only fair inter-rater reliability (kappa 0.30) and agreed with known upper motor neuron weakness in just 56% of examinations; withdrawal from a ticklish sole mimics an extensor response. The clinical level often lies several segments below the true lesion, so image the whole spine.",
+      "positive_finding": "A bilateral sensory level on the trunk with hyperreflexia, clonus, or extensor plantars below it localizes to the spinal cord and, with back pain in a patient with cancer, indicates metastatic cord compression until MRI proves otherwise.",
+      "prerequisites": "Cooperative patient able to report sensation; know dermatome landmarks (T4 nipple, T10 umbilicus, L1 inguinal); compare bilaterally.",
+      "rationale": "A sensory level with UMN signs would indicate possible spinal cord compression, requiring urgent imaging.",
+      "skill_assumption": null,
+      "title": "Sensory level with hyperreflexia / extensor plantar (Babinski) below the level",
+      "type": "exam"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_hypoglycemia_symptoms_insulin",
+     "rationale": "Hypoglycemia is a reversible cause of acute weakness and must be checked immediately."
+    },
+    {
+     "id": "hx_back_pain_cancer_history",
+     "rationale": "Back pain or cancer history raises suspicion for spinal cord compression, which is an emergency."
+    }
+   ],
+   "examine": [
+    {
+     "id": "exam_face_arm_speech_cpss",
+     "rationale": "A positive screen for facial droop, arm drift, or abnormal speech would trigger an immediate stroke workup."
+    },
+    {
+     "id": "exam_proximal_symmetric_weakness",
+     "rationale": "Proximal symmetric weakness suggests myopathy or electrolyte disturbance, guiding further labs and management."
+    },
+    {
+     "id": "exam_sensory_level_upper_motor_neuron_signs",
+     "rationale": "A sensory level with UMN signs would indicate possible spinal cord compression, requiring urgent imaging."
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "too weak to walk today",
+   "differentials": [
+    {
+     "dx": "sepsis_deconditioning",
+     "weight": 1.0
+    },
+    {
+     "dx": "stroke",
+     "weight": 0.5
+    },
+    {
+     "dx": "electrolyte_hypokalemia_hypophosphatemia",
+     "weight": 0.375
+    },
+    {
+     "dx": "myopathy",
+     "weight": 0.25
+    },
+    {
+     "dx": "hypoglycemia",
+     "weight": 0.25
+    },
+    {
+     "dx": "spinal_cord_compression",
+     "weight": 0.125
+    }
+   ],
+   "indication_tags": [
+    "elderly",
+    "acute_onset"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "unable to walk"
+   ],
+   "observed_values": [],
+   "presentation": "weakness",
+   "time_course": "acute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "base"
+}

@@ -1,0 +1,1109 @@
+{
+ "arm": "B",
+ "ask_first": false,
+ "base_case_id": "edema_003",
+ "blocked_items": [],
+ "case_id": "edema_003_n1",
+ "created_at": "2026-09-11T11:23:06+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Goodacre S, Sutton AJ, Sampson FC. Meta-analysis: The value of clinical assessment in the diagnosis of deep venous thrombosis. Ann Intern Med. 2005;143(2):129-139.",
+    "Wells PS, Owen C, Doucette S, Fergusson D, Tran H. Does this patient have deep vein thrombosis? JAMA. 2006;295(2):199-207."
+   ],
+   "numeric_claims": [
+    "0.19",
+    "0.25",
+    "1.76",
+    "1.8",
+    "1.98",
+    "10.1001",
+    "10.7326",
+    "12",
+    "129",
+    "13",
+    "139",
+    "14",
+    "143",
+    "16027455",
+    "16403932",
+    "17",
+    "199",
+    "2",
+    "2.25",
+    "2.7",
+    "2.71",
+    "2005",
+    "200507190",
+    "2006",
+    "207",
+    "23",
+    "295",
+    "295.2",
+    "3",
+    "4",
+    "4819",
+    "5",
+    "5.2",
+    "53",
+    "6",
+    "8",
+    "8000",
+    "95"
+   ],
+   "performance_claims": [
+    "0.25",
+    "1.76",
+    "1.98",
+    "2.25",
+    "2.71",
+    "5.2"
+   ],
+   "record_id": "hx_vte_risk_factors",
+   "section": "ask",
+   "text": "VTE risk history (Wells items): immobilization >=3 days or surgery within 4-12 weeks, prior objectively confirmed VTE, active malignancy"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "2",
+    "4"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_edema_causing_medications",
+   "section": "ask",
+   "text": "Medication review for edema: dihydropyridine CCB, NSAIDs, thiazolidinediones, pregabalin/gabapentin, steroids, minoxidil/hydralazine"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Klompas M. Does this patient have an acute thoracic aortic dissection? JAMA. 2002;287(17):2262-2272.",
+    "Ohle R, Um J, Anjum O, et al. High risk clinical features for acute aortic dissection: a case-control study. Acad Emerg Med. 2018;25(4):378-384."
+   ],
+   "numeric_claims": [
+    "0.03",
+    "0.07",
+    "0.14",
+    "0.2",
+    "0.3",
+    "0.5",
+    "0.84",
+    "0.959",
+    "10.1001",
+    "10.1111",
+    "11980527",
+    "13356",
+    "14",
+    "16",
+    "17",
+    "194",
+    "2002",
+    "2018",
+    "21",
+    "2262",
+    "2272",
+    "25",
+    "287",
+    "287.17",
+    "29218798",
+    "378",
+    "384",
+    "4",
+    "5",
+    "776",
+    "84",
+    "95",
+    "95.9",
+    "96"
+   ],
+   "performance_claims": [
+    "0.03",
+    "0.07",
+    "0.14",
+    "0.2",
+    "0.3",
+    "0.5",
+    "0.84",
+    "0.959"
+   ],
+   "record_id": "hx_pain_abrupt_maximal_onset",
+   "section": "ask",
+   "text": "Pain abrupt in onset and maximal at onset (thunderclap-type chest/back pain)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Herr RD, Zun L, Mathews JJ. A directed approach to the dizzy patient. Ann Emerg Med. 1989;18(6):664-672."
+   ],
+   "numeric_claims": [
+    "0.42",
+    "0.86",
+    "1",
+    "10.1016",
+    "125",
+    "18",
+    "196",
+    "1989",
+    "20",
+    "2729692",
+    "4",
+    "42",
+    "52",
+    "6",
+    "644",
+    "66",
+    "664",
+    "672",
+    "80524",
+    "86",
+    "89"
+   ],
+   "performance_claims": [
+    "0.42",
+    "0.86"
+   ],
+   "record_id": "hx_dizziness_timing_triggers",
+   "section": "ask",
+   "text": "Timing and triggers (TiTrATE: episodic vs continuous, triggered vs spontaneous) rather than symptom quality; associated diplopia/dysarthria/dysphagia/hearing loss"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Goodacre S, Sutton AJ, Sampson FC. Meta-analysis: the value of clinical assessment in the diagnosis of deep venous thrombosis. Ann Intern Med. 2005;143(2):129-139."
+   ],
+   "numeric_claims": [
+    "0.57",
+    "0.67",
+    "1",
+    "1.8",
+    "1.98",
+    "10",
+    "10.7326",
+    "12",
+    "129",
+    "139",
+    "143",
+    "16027455",
+    "2",
+    "2.25",
+    "2.71",
+    "2005",
+    "200507190",
+    "3",
+    "4819",
+    "5.2"
+   ],
+   "performance_claims": [
+    "0.57",
+    "0.67",
+    "1.8"
+   ],
+   "record_id": "exam_calf_asymmetry_gt3cm",
+   "section": "examine",
+   "text": "Unilateral leg swelling: calf circumference difference >3 cm (10 cm below tibial tuberosity), with calf tenderness"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Pulia MS, Schwei RJ, Alexandridis R, et al. Validation of Thermal Imaging and the ALT-70 Prediction Model to Differentiate Cellulitis From Pseudocellulitis. JAMA Dermatol. 2024;160(5):511-517.",
+    "Raff AB, Weng QY, Cohen JM, et al. A predictive model for diagnosis of lower extremity cellulitis: A cross-sectional study. J Am Acad Dermatol. 2017;76(4):618-625.e2."
+   ],
+   "numeric_claims": [
+    "0",
+    "0.158",
+    "0.22",
+    "0.281",
+    "0.451",
+    "0.695",
+    "10.1001",
+    "10.1016",
+    "15.8",
+    "160",
+    "2",
+    "2010",
+    "2012",
+    "2016.12",
+    "2017",
+    "2024",
+    "2024.0091",
+    "204",
+    "22",
+    "259",
+    "28.1",
+    "28215446",
+    "3",
+    "30.5",
+    "38536160",
+    "4",
+    "44",
+    "5",
+    "511",
+    "517",
+    "6",
+    "618",
+    "625",
+    "70",
+    "76",
+    "79",
+    "82",
+    "83",
+    "92",
+    "95"
+   ],
+   "performance_claims": [
+    "0.158",
+    "0.22",
+    "0.281"
+   ],
+   "record_id": "exam_cellulitis_unilateral_warmth_border",
+   "section": "examine",
+   "text": "Unilateral warm erythema with defined border (vs bilateral / stasis change)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Goss JA, Greene AK. Sensitivity and Specificity of the Stemmer Sign for Lymphedema: A Clinical Lymphoscintigraphic Study. Plast Reconstr Surg Glob Open. 2019.",
+    "Jayaraj A, Raju S, May C, Pace N. The diagnostic unreliability of classic physical signs of lymphedema. J Vasc Surg Venous Lymphat Disord. 2019."
+   ],
+   "numeric_claims": [
+    "0.17",
+    "0.59",
+    "0.65",
+    "0.818",
+    "0.88",
+    "0.889",
+    "0.94",
+    "1",
+    "1.42",
+    "10.1016",
+    "10.1097",
+    "110",
+    "12",
+    "13",
+    "17",
+    "2",
+    "2.54",
+    "20",
+    "2019",
+    "2019.04",
+    "2295",
+    "31281100",
+    "31624689",
+    "35",
+    "436",
+    "636",
+    "6635205",
+    "7",
+    "80",
+    "87",
+    "88",
+    "90",
+    "92"
+   ],
+   "performance_claims": [
+    "0.17",
+    "0.17",
+    "0.65",
+    "0.88",
+    "0.889",
+    "0.94",
+    "1.42",
+    "2.54"
+   ],
+   "record_id": "exam_stemmer_sign",
+   "section": "examine",
+   "text": "Stemmer sign: inability to pinch a skin fold at the base of the 2nd toe"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Mant J, Doust J, Roalfe A, et al. Systematic review and individual patient data meta-analysis of diagnosis of heart failure, with modelling of implications of different diagnostic strategies in primary care. Health Technol Assess. 2009;13(32):1-207."
+   ],
+   "numeric_claims": [
+    "0.53",
+    "0.65",
+    "0.72",
+    "1",
+    "1.9",
+    "10.331",
+    "11",
+    "13",
+    "13320",
+    "19586584",
+    "2009",
+    "207",
+    "32",
+    "4",
+    "5",
+    "50",
+    "53",
+    "72",
+    "9"
+   ],
+   "performance_claims": [
+    "0.53",
+    "0.65",
+    "0.72",
+    "1.9"
+   ],
+   "record_id": "exam_peripheral_edema_pitting",
+   "section": "examine",
+   "text": "Lower-extremity edema: bilateral vs unilateral, pitting vs non-pitting (brawny), grade and level"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "card": {
+   "chief_complaint": "right calf swelling and pain",
+   "presentation": "edema",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_vte_risk_factors",
+      "changes_what": "Positive items push the Wells score toward moderate/high: order compression ultrasound (or CTPA) rather than relying on D-dimer alone; negative items lower the score and enable D-dimer exclusion.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use individual risk factors alone to exclude VTE; do not apply Wells-based D-dimer exclusion to inpatients, pregnant patients, or those already anticoagulated, where the derivation cohorts do not apply.",
+      "escalation_warning": "Hypotension, syncope or hypoxia with any VTE risk factor mandates immediate imaging or empiric anticoagulation, not D-dimer triage.",
+      "evidence": [
+       {
+        "citation": "Goodacre S, Sutton AJ, Sampson FC. Meta-analysis: The value of clinical assessment in the diagnosis of deep venous thrombosis. Ann Intern Med. 2005;143(2):129-139.",
+        "computed": false,
+        "doi": "10.7326/0003-4819-143-2-200507190-00012",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Abstract, Data Synthesis (finding: malignancy)",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "2.71"
+        },
+        "pmid": "16027455",
+        "population": "Adults with clinically suspected DVT in cohort studies (mostly outpatient/ED referrals)",
+        "prevalence": null,
+        "quote": "Only malignancy (likelihood ratio [LR], 2.71), previous DVT (LR, 2.25), recent immobilization (LR, 1.98)",
+        "reference_standard": "Compression ultrasound or contrast venography",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Deep vein thrombosis (imaging-confirmed)",
+        "url": null,
+        "year": "2005"
+       },
+       {
+        "citation": "Goodacre S, Sutton AJ, Sampson FC. Meta-analysis: The value of clinical assessment in the diagnosis of deep venous thrombosis. Ann Intern Med. 2005;143(2):129-139.",
+        "computed": false,
+        "doi": "10.7326/0003-4819-143-2-200507190-00012",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Abstract, Data Synthesis (finding: previous DVT)",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "2.25"
+        },
+        "pmid": "16027455",
+        "population": "Adults with clinically suspected DVT in cohort studies",
+        "prevalence": null,
+        "quote": "malignancy (likelihood ratio [LR], 2.71), previous DVT (LR, 2.25), recent immobilization (LR, 1.98)",
+        "reference_standard": "Compression ultrasound or contrast venography",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Deep vein thrombosis (imaging-confirmed)",
+        "url": null,
+        "year": "2005"
+       },
+       {
+        "citation": "Goodacre S, Sutton AJ, Sampson FC. Meta-analysis: The value of clinical assessment in the diagnosis of deep venous thrombosis. Ann Intern Med. 2005;143(2):129-139.",
+        "computed": false,
+        "doi": "10.7326/0003-4819-143-2-200507190-00012",
+        "evidence_level": "pooled",
+        "interpretation_label": "minimal",
+        "kind": "meta_analysis",
+        "location": "Abstract, Data Synthesis (finding: recent immobilization)",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "1.98"
+        },
+        "pmid": "16027455",
+        "population": "Adults with clinically suspected DVT in cohort studies",
+        "prevalence": null,
+        "quote": "previous DVT (LR, 2.25), recent immobilization (LR, 1.98), difference in calf diameter (LR, 1.80)",
+        "reference_standard": "Compression ultrasound or contrast venography",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Deep vein thrombosis (imaging-confirmed)",
+        "url": null,
+        "year": "2005"
+       },
+       {
+        "citation": "Goodacre S, Sutton AJ, Sampson FC. Meta-analysis: The value of clinical assessment in the diagnosis of deep venous thrombosis. Ann Intern Med. 2005;143(2):129-139.",
+        "computed": false,
+        "doi": "10.7326/0003-4819-143-2-200507190-00012",
+        "evidence_level": "pooled",
+        "interpretation_label": "minimal",
+        "kind": "meta_analysis",
+        "location": "Abstract, Data Synthesis (finding: recent surgery)",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "1.76"
+        },
+        "pmid": "16027455",
+        "population": "Adults with clinically suspected DVT in cohort studies",
+        "prevalence": null,
+        "quote": "difference in calf diameter (LR, 1.80), and recent surgery (LR, 1.76) were useful for ruling in DVT",
+        "reference_standard": "Compression ultrasound or contrast venography",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Deep vein thrombosis (imaging-confirmed)",
+        "url": null,
+        "year": "2005"
+       },
+       {
+        "citation": "Goodacre S, Sutton AJ, Sampson FC. Meta-analysis: The value of clinical assessment in the diagnosis of deep venous thrombosis. Ann Intern Med. 2005;143(2):129-139.",
+        "computed": false,
+        "doi": "10.7326/0003-4819-143-2-200507190-00012",
+        "evidence_level": "pooled",
+        "interpretation_label": "both",
+        "kind": "meta_analysis",
+        "location": "Abstract, Data Synthesis (Wells clinical score)",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.25"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "5.2"
+        },
+        "pmid": "16027455",
+        "population": "Adults with clinically suspected DVT in cohort studies",
+        "prevalence": null,
+        "quote": "it stratified patients into groups with high (LR, 5.2), intermediate, and low (LR, 0.25) probability of DVT",
+        "reference_standard": "Compression ultrasound or contrast venography",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Deep vein thrombosis (imaging-confirmed), Wells score high vs low category",
+        "url": null,
+        "year": "2005"
+       },
+       {
+        "citation": "Wells PS, Owen C, Doucette S, Fergusson D, Tran H. Does this patient have deep vein thrombosis? JAMA. 2006;295(2):199-207.",
+        "computed": false,
+        "doi": "10.1001/jama.295.2.199",
+        "evidence_level": "pooled",
+        "interpretation_label": "both",
+        "kind": "rce_series",
+        "location": "Abstract, Results (post-test prevalence by Wells category; no sens/spec/LR)",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "16403932",
+        "population": "Consecutive unselected outpatients with suspected DVT, 14 studies (>8000 patients)",
+        "prevalence": "0.19",
+        "quote": "prevalence of DVT in the low, moderate, and high clinical probability groups was 5.0% (95% CI, 4.0%-8.0%), 17% (95% CI, 13%-23%), and 53%",
+        "reference_standard": "Imaging plus 3-month clinical follow-up",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "Deep vein thrombosis, prevalence by Wells clinical probability category",
+        "url": null,
+        "year": "2006"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Ask directly: bed rest >=3 days or major surgery within the past 4-12 weeks; any previous DVT or PE confirmed by imaging; cancer treated within 6 months or palliative. Record each item separately for the Wells DVT or PE score rather than as a global impression.",
+      "id": "hx_vte_risk_factors",
+      "negative_finding": "Absence of individual risk factors does not exclude VTE; a low Wells score (LR ~0.25) plus a negative D-dimer is what allows exclusion without imaging.",
+      "pitfalls": "Risk-factor LRs were pooled from heterogeneous cohorts and are weaker in patients with prior VTE. Malignancy and prior VTE also raise D-dimer, so they do not license D-dimer-only exclusion in high-probability patients.",
+      "positive_finding": "Any single risk factor raises the probability of DVT only modestly (pooled LR+ about 1.8-2.7); the value comes from combining items in a Wells score, where a high score carries LR ~5.",
+      "prerequisites": "Patient or collateral historian able to give a reliable history; check the chart for prior imaging-confirmed VTE and oncology history.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "VTE risk history (Wells items): immobilization >=3 days or surgery within 4-12 weeks, prior objectively confirmed VTE, active malignancy",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_edema_causing_medications",
+      "changes_what": "Positive: trial withdrawal/dose reduction and reassess, check creatinine; negative or non-resolving: pursue HF, venous, renal, hepatic and DVT causes.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not label edema as drug-induced when there is dyspnea, orthopnea, elevated JVP, unilateral swelling, hypoalbuminemia/proteinuria or rising creatinine until those causes are evaluated.",
+      "escalation_warning": "Thiazolidinedione- or NSAID-associated edema with weight gain and dyspnea may be new/worsened heart failure; NSAID edema with oliguria or rising creatinine indicates AKI - stop the drug and assess urgently.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Review the full list for dihydropyridine CCBs (amlodipine, nifedipine), NSAIDs/COX-2 inhibitors, thiazolidinediones, pregabalin/gabapentin, corticosteroids, direct vasodilators (minoxidil, hydralazine), estrogens/progestins, testosterone, docetaxel, and DPP-4 or insulin. Record start date and dose escalation relative to edema onset and whether edema is bilateral, dependent and non-tender.",
+      "id": "hx_edema_causing_medications",
+      "negative_finding": "No culprit drug makes medication effect unlikely and directs evaluation toward heart failure, venous insufficiency, renal/hepatic disease or DVT (if unilateral).",
+      "pitfalls": "Up to one-third of edema on amlodipine is not caused by it, and thiazolidinediones/NSAIDs can precipitate true heart failure rather than benign edema; drug edema is a diagnosis of exclusion when JVP, BNP or echo suggest cardiac disease. Unilateral or painful edema is never attributed to medication.",
+      "positive_finding": "Bilateral dependent edema beginning weeks after starting or increasing a dihydropyridine CCB, NSAID, thiazolidinedione, gabapentinoid, steroid or vasodilator, without orthopnea, elevated JVP or weight gain out of proportion, supports drug-induced edema (and NSAIDs also cause AKI/sodium retention).",
+      "prerequisites": "Reconciled medication list including over-the-counter NSAIDs; weight trend, orthopnea/PND and JVP assessment to distinguish drug edema from heart failure.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Medication review for edema: dihydropyridine CCB, NSAIDs, thiazolidinediones, pregabalin/gabapentin, steroids, minoxidil/hydralazine",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_pain_abrupt_maximal_onset",
+      "changes_what": "Positive: escalate to ADD-RS assessment, CXR/D-dimer and CT angiography as appropriate; negative onset lowers but does not eliminate dissection probability.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use gradual onset alone to exclude dissection in patients with other high-risk features (Marfan/aortic disease, pulse deficit, neurologic deficit, new murmur, hypotension).",
+      "escalation_warning": "Abrupt severe chest/back pain with hypotension, pulse deficit, or neurologic deficit is a dissection or ruptured AAA until proven otherwise: immediate CT angiography and surgical notification.",
+      "evidence": [
+       {
+        "citation": "Klompas M. Does this patient have an acute thoracic aortic dissection? JAMA. 2002;287(17):2262-2272.",
+        "computed": false,
+        "doi": "10.1001/jama.287.17.2262",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_out",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.5",
+         "ci_low": "0.2",
+         "value": "0.3"
+        },
+        "lr_positive": null,
+        "pmid": "11980527",
+        "population": "Consecutive patients with confirmed thoracic aortic dissection from 21 studies (case series; sensitivity pooled; LR- derived from comparison cohorts)",
+        "prevalence": null,
+        "quote": "sudden onset (sensitivity, 84%). The absence of sudden pain onset lowers the likelihood of dissection (negative likelihood ratio [LR], 0.3; 95% confidence interval [CI], 0.2-0.5)",
+        "reference_standard": "Dissection confirmed by imaging, surgery, or autopsy",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.84"
+        },
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Acute thoracic aortic dissection (finding: sudden-onset pain)",
+        "url": null,
+        "year": "2002"
+       },
+       {
+        "citation": "Ohle R, Um J, Anjum O, et al. High risk clinical features for acute aortic dissection: a case-control study. Acad Emerg Med. 2018;25(4):378-384.",
+        "computed": false,
+        "doi": "10.1111/acem.13356",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_out",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.14",
+         "ci_low": "0.03",
+         "value": "0.07"
+        },
+        "lr_positive": null,
+        "pmid": "29218798",
+        "population": "Matched case-control: 194 ED/in-hospital CT- or echo-confirmed AAD cases vs 776 ED controls with truncal pain <14 days and no clear diagnosis",
+        "prevalence": null,
+        "quote": "Absence of abrupt-onset pain (sensitivity = 95.9%, negative likelihood ratio = 0.07 [0.03-0.14]) can help rule out AAD.",
+        "reference_standard": "CT angiography or echocardiography confirmed dissection",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.959"
+        },
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Acute aortic dissection (finding: abrupt-onset pain)",
+        "url": null,
+        "year": "2018"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Ask an open question about how the pain began, then specifically: 'Did it reach its worst within seconds, or build up over minutes?' Document time-to-peak intensity and whether the patient can pinpoint the moment of onset (what they were doing). Also ask about tearing/ripping quality and migration.",
+      "id": "hx_pain_abrupt_maximal_onset",
+      "negative_finding": "Absence of sudden onset lowers the likelihood of dissection (LR- 0.3 in the RCE pooled series; 0.07 in an ED case-control study), but the clinical examination is insufficiently sensitive to rule out dissection on its own.",
+      "pitfalls": "Patients recall onset imprecisely, particularly after analgesia or when pain was preceded by exertion; gradual-onset presentations still occur in ~5-16% of dissections, especially in elderly patients or with painless neurologic presentations.",
+      "positive_finding": "Abrupt-onset pain is present in ~84-96% of aortic dissections but is common in other conditions, so it raises suspicion for dissection only modestly (specificity not established in unselected cohorts); it is a high-risk feature in the ADD risk score.",
+      "prerequisites": "Patient able to give history; otherwise ask witnesses or EMS about onset.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Pain abrupt in onset and maximal at onset (thunderclap-type chest/back pain)",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_dizziness_timing_triggers",
+      "changes_what": "Determines which bedside exam follows: HINTS for continuous spontaneous, Dix-Hallpike for triggered episodic, orthostatic vitals for standing-triggered, ECG/monitoring for spontaneous episodic.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use a reassuring timing/trigger pattern alone to exclude stroke in patients with vascular risk factors, new headache/neck pain, or any brainstem symptom; obtain the targeted examination.",
+      "escalation_warning": "Acute continuous dizziness with any of diplopia, dysarthria, dysphagia, limb ataxia, new deafness or inability to walk unaided is a stroke pathway until proven otherwise; up to 20% of early DWI-MRI are false negative.",
+      "evidence": [
+       {
+        "citation": "Herr RD, Zun L, Mathews JJ. A directed approach to the dizzy patient. Ann Emerg Med. 1989;18(6):664-672.",
+        "computed": false,
+        "doi": "10.1016/s0196-0644(89)80524-4",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "2729692",
+        "population": "125 ED patients with dizziness evaluated with a standardized 66-item history/exam/lab protocol",
+        "prevalence": null,
+        "quote": "The best predictors, either older age, lack of vertigo, or neurologic deficit, could identify 86% of \"serious\" dizziness with 42% specificity.",
+        "reference_standard": "Emergency physician diagnosis modified by 1-month follow-up using predefined diagnostic criteria",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.86"
+        },
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.42"
+        },
+        "target_condition": "'Serious' cause of dizziness (stroke/TIA, arrhythmia, medication, seizure, other requiring admission) - composite predictor: older age OR lack of vertigo OR neurologic deficit",
+        "url": null,
+        "year": "1989"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Instead of asking 'what kind of dizziness', ask: Is it there now continuously or does it come in discrete episodes? How long do episodes last (seconds, minutes, hours)? Is it brought on only by a trigger (head/position change, standing) or does it arise spontaneously? Then ask about diplopia, dysarthria, dysphagia, new hearing loss, headache or neck pain.",
+      "id": "hx_dizziness_timing_triggers",
+      "negative_finding": "A clear positional trigger with seconds-long episodes and no neurologic symptoms makes central causes unlikely, but isolated dizziness can still be a vertebrobasilar stroke.",
+      "pitfalls": "Symptom-quality descriptors (vertigo vs lightheadedness) are unreliable: 52% of ED patients changed their descriptor on retest after ~6 minutes, so do not triage on 'type'. Do not confuse 'worse with movement' (most vestibular causes) with 'only occurs with movement' (true trigger).",
+      "positive_finding": "Continuous acute vestibular syndrome demands HINTS-type eye examination for stroke; triggered brief episodes point to BPPV or orthostatic hypotension (test with Dix-Hallpike or orthostatic vitals); spontaneous episodes lasting minutes-hours suggest TIA, Meniere or arrhythmia. Any associated brainstem symptom raises stroke probability.",
+      "prerequisites": "Patient able to give a history; screen for red-flag neurologic symptoms before deciding on examination pathway.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Timing and triggers (TiTrATE: episodic vs continuous, triggered vs spontaneous) rather than symptom quality; associated diplopia/dysarthria/dysphagia/hearing loss",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/exam_calf_asymmetry_gt3cm",
+      "changes_what": "Positive: adds 1 Wells point and pushes toward compression ultrasound; negative does not stop work-up if other Wells items or D-dimer are positive.",
+      "contraindications": "None; avoid firm calf compression if DVT is strongly suspected and pain is severe.",
+      "do_not_use_when": "Do not rely on a negative calf measurement to withhold imaging in a patient with moderate/high Wells probability or with symptoms suggesting PE.",
+      "escalation_warning": "Massive swelling with cyanosis or pallor and pain (phlegmasia) or a cold pulseless limb requires immediate vascular imaging and consultation.",
+      "evidence": [
+       {
+        "citation": "Goodacre S, Sutton AJ, Sampson FC. Meta-analysis: the value of clinical assessment in the diagnosis of deep venous thrombosis. Ann Intern Med. 2005;143(2):129-139.",
+        "computed": false,
+        "doi": "10.7326/0003-4819-143-2-200507190-00012",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "1.8"
+        },
+        "pmid": "16027455",
+        "population": "Patients with clinically suspected DVT (cohort studies comparing clinical assessment with a reference standard; pooled random-effects)",
+        "prevalence": null,
+        "quote": "malignancy (likelihood ratio [LR], 2.71), previous DVT (LR, 2.25), recent immobilization (LR, 1.98), difference in calf diameter (LR, 1.80)",
+        "reference_standard": "Venography or compression/duplex ultrasound (study-specific reference standard)",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "DVT (finding: difference in calf diameter, present)",
+        "url": null,
+        "year": "2005"
+       },
+       {
+        "citation": "Goodacre S, Sutton AJ, Sampson FC. Meta-analysis: the value of clinical assessment in the diagnosis of deep venous thrombosis. Ann Intern Med. 2005;143(2):129-139.",
+        "computed": false,
+        "doi": "10.7326/0003-4819-143-2-200507190-00012",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.57"
+        },
+        "lr_positive": null,
+        "pmid": "16027455",
+        "population": "Patients with clinically suspected DVT (cohort studies comparing clinical assessment with a reference standard; pooled random-effects)",
+        "prevalence": null,
+        "quote": "absence of calf swelling (LR, 0.67) or difference in calf diameter (LR, 0.57) was useful for ruling out DVT",
+        "reference_standard": "Venography or compression/duplex ultrasound (study-specific reference standard)",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "DVT (finding: difference in calf diameter, absent)",
+        "url": null,
+        "year": "2005"
+       },
+       {
+        "citation": "Goodacre S, Sutton AJ, Sampson FC. Meta-analysis: the value of clinical assessment in the diagnosis of deep venous thrombosis. Ann Intern Med. 2005;143(2):129-139.",
+        "computed": false,
+        "doi": "10.7326/0003-4819-143-2-200507190-00012",
+        "evidence_level": "pooled",
+        "interpretation_label": "minimal",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.67"
+        },
+        "lr_positive": null,
+        "pmid": "16027455",
+        "population": "Patients with clinically suspected DVT (cohort studies comparing clinical assessment with a reference standard; pooled random-effects)",
+        "prevalence": null,
+        "quote": "absence of calf swelling (LR, 0.67) or difference in calf diameter (LR, 0.57) was useful for ruling out DVT",
+        "reference_standard": "Venography or compression/duplex ultrasound (study-specific reference standard)",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "DVT (finding: calf swelling, absent)",
+        "url": null,
+        "year": "2005"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "With the patient supine and legs relaxed, mark a point 10 cm below the tibial tuberosity on each leg and measure calf circumference with a tape at the same level bilaterally. A difference >3 cm (symptomatic side larger) is positive; also note localized tenderness along the deep venous system and pitting edema confined to the symptomatic leg.",
+      "id": "exam_calf_asymmetry_gt3cm",
+      "negative_finding": "No calf-diameter difference (LR- 0.57) or no calf swelling (LR- 0.67) lowers the probability of DVT only modestly; it cannot exclude DVT on its own.",
+      "pitfalls": "Chronic venous insufficiency, lymphedema, cellulitis, Baker cyst, and prior DVT produce asymmetry without acute thrombosis; measuring at different levels or in a dependent leg creates spurious differences. Calf tenderness alone has LR near 1.",
+      "positive_finding": "Calf-diameter difference roughly doubles the odds of DVT (pooled LR+ 1.8); it is the only physical sign with useful rule-in value but is far weaker than the overall Wells score (high probability LR 5.2).",
+      "prerequisites": "Both legs accessible and comparable (no prior amputation, cast, or chronic unilateral disease that already explains asymmetry).",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Unilateral leg swelling: calf circumference difference >3 cm (10 cm below tibial tuberosity), with calf tenderness",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_cellulitis_unilateral_warmth_border",
+      "changes_what": "Unilateral warm erythema: treat as cellulitis but rule out DVT/necrotizing infection; bilateral: seek pseudocellulitis (stasis, dermatitis) before antibiotics.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use asymmetry/border to reassure when there is severe pain, rapid progression, bullae, crepitus, hypotension or immunocompromise; necrotizing infection needs surgical evaluation regardless of score.",
+      "escalation_warning": "Unilateral swollen warm leg also fits DVT: obtain compression ultrasound if no clear portal of entry or if edema dominates over erythema.",
+      "evidence": [
+       {
+        "citation": "Pulia MS, Schwei RJ, Alexandridis R, et al. Validation of Thermal Imaging and the ALT-70 Prediction Model to Differentiate Cellulitis From Pseudocellulitis. JAMA Dermatol. 2024;160(5):511-517.",
+        "computed": false,
+        "doi": "10.1001/jamadermatol.2024.0091",
+        "evidence_level": "validation_cohort",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "38536160",
+        "population": "Adults presenting to ED with acute lower-extremity dermatologic symptoms, n=204, 92 with cellulitis",
+        "prevalence": "0.451",
+        "quote": "specificity varied considerably (ALT-70, 22.0% [95% CI, 15.8%-28.1%]",
+        "reference_standard": "Independent 6-physician consensus review of the case",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": {
+         "ci_high": "0.281",
+         "ci_low": "0.158",
+         "value": "0.22"
+        },
+        "target_condition": "Lower-extremity cellulitis vs pseudocellulitis (ALT-70 model; asymmetry item weighted 3 points)",
+        "url": null,
+        "year": "2024"
+       },
+       {
+        "citation": "Raff AB, Weng QY, Cohen JM, et al. A predictive model for diagnosis of lower extremity cellulitis: A cross-sectional study. J Am Acad Dermatol. 2017;76(4):618-625.e2.",
+        "computed": false,
+        "doi": "10.1016/j.jaad.2016.12.044",
+        "evidence_level": "single_study",
+        "interpretation_label": "both",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "28215446",
+        "population": "Patients admitted via ED with a diagnosis of lower-extremity cellulitis, n=259, 2010-2012",
+        "prevalence": "0.695",
+        "quote": "In total, 79 (30.5%) of 259 patients were misdiagnosed with lower extremity cellulitis",
+        "reference_standard": "Discharge diagnosis (cellulitis vs alternative diagnosis) after inpatient evaluation",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Lower-extremity cellulitis vs pseudocellulitis (ALT-70 derivation)",
+        "url": null,
+        "year": "2017"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Expose and compare both legs. Note whether erythema is unilateral (asymmetric) or bilateral, feel for warmth with the back of the hand against the contralateral limb, and trace the border (marking it with pen for follow-up). Check for a portal of entry (tinea, ulcer), tenderness, and disproportionate pain, crepitus or bullae.",
+      "id": "exam_cellulitis_unilateral_warmth_border",
+      "negative_finding": "Bilateral symmetric erythema without fever, leukocytosis or tachycardia favors stasis dermatitis or other pseudocellulitis (ALT-70 0-2 points: >=83% pseudocellulitis); bilateral cellulitis is rare.",
+      "pitfalls": "ALT-70 is sensitive but only 22% specific in a prospective ED validation, so a 'positive' asymmetric leg still includes many DVT, gout, contact dermatitis and stasis cases; warmth is subjective; do not miss necrotizing infection (pain out of proportion, rapid spread, crepitus).",
+      "positive_finding": "Unilateral warm, tender erythema, especially with leukocytosis, tachycardia or age >=70 (ALT-70 >=5 points), gives >=82% likelihood of true cellulitis in the derivation cohort. Asymmetry is the heaviest-weighted item (3 points).",
+      "prerequisites": "Both legs exposed; heart rate, temperature and WBC available if scoring ALT-70.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Unilateral warm erythema with defined border (vs bilateral / stasis change)",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_stemmer_sign",
+      "changes_what": "Positive shifts unilateral/asymmetric edema toward lymphedema (consider lymphoscintigraphy, cancer/filarial causes); negative does not exclude it - still evaluate DVT and venous disease.",
+      "contraindications": "None; avoid forceps or forceful pinching on fragile or ulcerated skin.",
+      "do_not_use_when": "Do not use a negative Stemmer sign to dismiss acute unilateral leg swelling - DVT must be excluded on its own merits; a positive sign in an obese or immobile patient is unreliable.",
+      "escalation_warning": "Rapidly progressive unilateral swelling, pain, warmth or erythema needs DVT and cellulitis/necrotizing infection assessment regardless of the Stemmer sign; new lymphedema in an adult warrants evaluation for pelvic/abdominal malignancy.",
+      "evidence": [
+       {
+        "citation": "Goss JA, Greene AK. Sensitivity and Specificity of the Stemmer Sign for Lymphedema: A Clinical Lymphoscintigraphic Study. Plast Reconstr Surg Glob Open. 2019.",
+        "computed": true,
+        "doi": "10.1097/GOX.0000000000002295",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results; same counts in Results paragraph 1 of PMC full text (PMC6635205)",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.17"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "2.54"
+        },
+        "pmid": "31624689",
+        "population": "110 consecutive patients (mean age 35 y, range 1-88; 90 lower limb, 20 upper limb) referred to a tertiary Lymphedema Program, examined by a single senior surgeon",
+        "prevalence": "0.818",
+        "quote": "positive Stemmer sign (n = 87) exhibited abnormal (n = 80) or normal (n = 7) lymphatic function by lymphoscintigraphy (sensitivity = 92%)",
+        "reference_standard": "Lymphoscintigraphy (delayed tracer transit to inguinal/axillary nodes or dermal backflow = lymphedema)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.889"
+        },
+        "setting": "outpatient",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.65"
+        },
+        "target_condition": "Lymphedema (primary or secondary, arm or leg)",
+        "url": null,
+        "year": "2019"
+       },
+       {
+        "citation": "Jayaraj A, Raju S, May C, Pace N. The diagnostic unreliability of classic physical signs of lymphedema. J Vasc Surg Venous Lymphat Disord. 2019.",
+        "computed": true,
+        "doi": "10.1016/j.jvsv.2019.04.013",
+        "evidence_level": "single_study",
+        "interpretation_label": "minimal",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.94"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "1.42"
+        },
+        "pmid": "31281100",
+        "population": "436 swollen lower limbs (of 636 consecutive limbs, 12-month period) that underwent lymphoscintigraphy at a venous/lymphatic referral center; retrospective",
+        "prevalence": "0.59",
+        "quote": "Sensitivity and specificity of clinical signs in predicting lymphoscintigraphy-confirmed lymphedema were 17% and 88%, respectively.",
+        "reference_standard": "Lymphoscintigraphy scored on transit delay, dermal backflow, collaterals, uptake intensity and node counts",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.17"
+        },
+        "setting": "outpatient",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.88"
+        },
+        "target_condition": "COMPOSITE: any classic clinical sign of lymphedema (dorsal hump, square toes, Kaposi-Stemmer sign, or nonpitting edema) - per-limb analysis",
+        "url": null,
+        "year": "2019"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "With the patient standing (or supine), grasp the dorsal skin over the proximal phalanx of the second toe (or just proximal to the metatarsophalangeal joint; hand: index finger) between thumb and index finger and try to lift a thin skin fold. Compare with the contralateral limb.",
+      "id": "exam_stemmer_sign",
+      "negative_finding": "A pinchable fold argues against established lymphedema but does not exclude early (stage 1) or lean-patient lymphedema; venous edema, DVT and systemic causes remain possible.",
+      "pitfalls": "Obesity and immobility (e.g. neuromuscular disease) give false positives, and stage 1 disease or normal BMI give false negatives; chronic venous obstruction is the commonest cause of lymphedema-like signs with normal lymphoscintigraphy. Accuracy figures come from lymphedema-referral populations, not unselected edema.",
+      "positive_finding": "Positive (Kaposi-Stemmer sign) when the skin cannot be pinched into a fold because of thickened, fibrotic dorsal skin, indicating lymphedema (primary or secondary) rather than venous, cardiac, hepatic or renal edema.",
+      "prerequisites": "Foot exposed and clean; examine both feet; note BMI and any pitting.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Stemmer sign: inability to pinch a skin fold at the base of the 2nd toe",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_peripheral_edema_pitting",
+      "changes_what": "Bilateral pitting edema plus elevated JVP should shift dyspnea toward HF and prompt BNP/echo; unilateral edema should trigger DVT evaluation instead.",
+      "contraindications": "None; avoid pressing over cellulitis, ulcers or a suspected DVT.",
+      "do_not_use_when": "Do not rely on edema alone to diagnose or exclude HF, or to judge acute volume status in a hypotensive or oliguric patient.",
+      "escalation_warning": "Unilateral painful edema needs DVT evaluation; rapidly progressive bilateral edema with hypotension or rising creatinine suggests cardiorenal or cirrhotic decompensation and needs urgent assessment.",
+      "evidence": [
+       {
+        "citation": "Mant J, Doust J, Roalfe A, et al. Systematic review and individual patient data meta-analysis of diagnosis of heart failure, with modelling of implications of different diagnostic strategies in primary care. Health Technol Assess. 2009;13(32):1-207.",
+        "computed": true,
+        "doi": "10.3310/hta13320",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.65"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "1.9"
+        },
+        "pmid": "19586584",
+        "population": "Individual patient data from 9 studies of adults with suspected heart failure (predominantly primary care / open-access referral cohorts)",
+        "prevalence": null,
+        "quote": "oedema (72%) ... sensitivity of these features was low, ranging from 11% (added heart sounds) to 53% (oedema)",
+        "reference_standard": "Heart failure diagnosis by echocardiography-based criteria of each included study",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.53"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.72"
+        },
+        "target_condition": "Heart failure (any) in patients with suspected heart failure",
+        "url": null,
+        "year": "2009"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Press firmly with the thumb for at least 5 s over the dorsum of the foot, behind the medial malleolus and over the tibial shaft, then release. Note whether a pit persists (pitting), its depth and duration (grade 1-4), how high up the leg it extends, and whether it is symmetric. Non-pitting, firm (brawny) edema suggests lymphedema or chronic venous disease.",
+      "id": "exam_peripheral_edema_pitting",
+      "negative_finding": "Absence of edema does not exclude heart failure (pooled sensitivity ~50%); acute HF and HFpEF often present without edema.",
+      "pitfalls": "Dependent edema in chronically seated or elderly patients is common without HF; edema lags behind volume changes by days, so it tracks chronic rather than acute volume status.",
+      "positive_finding": "Bilateral pitting edema modestly raises the probability of heart failure in dyspneic patients but is nonspecific: venous insufficiency, drugs, hypoalbuminemia, nephrotic syndrome and cirrhosis produce the same sign. Unilateral edema points to a local cause (DVT, venous obstruction, cellulitis); brawny non-pitting edema suggests lymphedema.",
+      "prerequisites": "Compare both legs at the same level; ask about duration, leg dependency, and new drugs (calcium-channel blockers, thiazolidinediones, NSAIDs).",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Lower-extremity edema: bilateral vs unilateral, pitting vs non-pitting (brawny), grade and level",
+      "type": "exam"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_vte_risk_factors",
+     "rationale": ""
+    },
+    {
+     "id": "hx_edema_causing_medications",
+     "rationale": ""
+    },
+    {
+     "id": "hx_pain_abrupt_maximal_onset",
+     "rationale": ""
+    },
+    {
+     "id": "hx_dizziness_timing_triggers",
+     "rationale": ""
+    }
+   ],
+   "examine": [
+    {
+     "id": "exam_calf_asymmetry_gt3cm",
+     "rationale": ""
+    },
+    {
+     "id": "exam_cellulitis_unilateral_warmth_border",
+     "rationale": ""
+    },
+    {
+     "id": "exam_stemmer_sign",
+     "rationale": ""
+    },
+    {
+     "id": "exam_peripheral_edema_pitting",
+     "rationale": ""
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "right calf swelling and pain",
+   "differentials": [
+    {
+     "dx": "dvt",
+     "weight": 1.0
+    },
+    {
+     "dx": "cellulitis_ssti",
+     "weight": 0.214
+    },
+    {
+     "dx": "venous_insufficiency",
+     "weight": 0.1
+    },
+    {
+     "dx": "pulmonary_embolism",
+     "weight": 0.071
+    },
+    {
+     "dx": "medication_effect",
+     "weight": 0.043
+    }
+   ],
+   "indication_tags": [
+    "acute_onset",
+    "unilateral",
+    "recent_immobilization"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "since this afternoon",
+    "right calf"
+   ],
+   "observed_values": [
+    "HR 96",
+    "SpO2 96%"
+   ],
+   "presentation": "edema",
+   "time_course": "acute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "n1"
+}

@@ -1,0 +1,996 @@
+{
+ "arm": "B",
+ "ask_first": false,
+ "base_case_id": "chest_pain_001",
+ "blocked_items": [],
+ "case_id": "chest_pain_001_p1",
+ "created_at": "2026-09-11T11:20:47+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Klompas M. Does this patient have an acute thoracic aortic dissection? JAMA. 2002;287(17):2262-2272.",
+    "Ohle R, Um J, Anjum O, et al. High risk clinical features for acute aortic dissection: a case-control study. Acad Emerg Med. 2018;25(4):378-384."
+   ],
+   "numeric_claims": [
+    "0.03",
+    "0.07",
+    "0.14",
+    "0.2",
+    "0.3",
+    "0.5",
+    "0.84",
+    "0.959",
+    "10.1001",
+    "10.1111",
+    "11980527",
+    "13356",
+    "14",
+    "16",
+    "17",
+    "194",
+    "2002",
+    "2018",
+    "21",
+    "2262",
+    "2272",
+    "25",
+    "287",
+    "287.17",
+    "29218798",
+    "378",
+    "384",
+    "4",
+    "5",
+    "776",
+    "84",
+    "95",
+    "95.9",
+    "96"
+   ],
+   "performance_claims": [
+    "0.03",
+    "0.07",
+    "0.14",
+    "0.2",
+    "0.3",
+    "0.5",
+    "0.84",
+    "0.959"
+   ],
+   "record_id": "hx_pain_abrupt_maximal_onset",
+   "section": "ask",
+   "text": "Pain abrupt in onset and maximal at onset (thunderclap-type chest/back pain)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "3"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_epigastric_pain_radiating_back",
+   "section": "ask",
+   "text": "Constant epigastric pain radiating to the back (with alcohol/gallstone history)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Ohle R, Um J, Anjum O, et al. High Risk Clinical Features for Acute Aortic Dissection: A Case-Control Study. Acad Emerg Med. 2018;25(4):378-387."
+   ],
+   "numeric_claims": [
+    "0.2",
+    "0.997",
+    "1",
+    "10.1111",
+    "13356",
+    "177.5",
+    "194",
+    "2",
+    "2002",
+    "2014",
+    "2018",
+    "2019",
+    "25",
+    "29218798",
+    "378",
+    "387",
+    "4",
+    "42",
+    "42.1",
+    "776",
+    "9.9",
+    "99.7"
+   ],
+   "performance_claims": [
+    "0.997",
+    "177.5",
+    "42.1",
+    "9.9"
+   ],
+   "record_id": "hx_pain_tearing_ripping",
+   "section": "ask",
+   "text": "Pain described as tearing or ripping, or migrating (chest to back/abdomen/legs)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Courtney DM, Kline JA, Kabrhel C, et al. Clinical features from the history and physical examination that predict the presence or absence of pulmonary embolism in symptomatic emergency department patients: results of a prospective, multicenter study. Ann Emerg Med. 2010;55(4):307-315.",
+    "Panju AA, Hemmelgarn BR, Guyatt GH, Simel DL. The rational clinical examination. Is this patient having a myocardial infarction? JAMA. 1998;280(14):1256-1263."
+   ],
+   "numeric_claims": [
+    "0.072",
+    "0.2",
+    "1.5",
+    "1.53",
+    "1.99",
+    "10",
+    "10.1001",
+    "10.1016",
+    "12",
+    "1256",
+    "1263",
+    "14",
+    "1998",
+    "20045580",
+    "2009.11",
+    "2010",
+    "280",
+    "280.14",
+    "307",
+    "315",
+    "4",
+    "45",
+    "49",
+    "55",
+    "67",
+    "7",
+    "940",
+    "9786377"
+   ],
+   "performance_claims": [
+    "0.2"
+   ],
+   "record_id": "hx_pleuritic_chest_pain",
+   "section": "ask",
+   "text": "Pleuritic chest pain (sharp, worse with inspiration/cough), +/- hemoptysis"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Klompas M. Does this patient have an acute thoracic aortic dissection? JAMA. 2002.",
+    "Ohle R, Kareemi HK, Wells G, Perry JJ. Clinical Examination for Acute Aortic Dissection: A Systematic Review and Meta-analysis. Acad Emerg Med. 2018."
+   ],
+   "numeric_claims": [
+    "0",
+    "0.17",
+    "0.95",
+    "10.1001",
+    "10.1111",
+    "11980527",
+    "13360",
+    "17",
+    "18",
+    "1966",
+    "2",
+    "2000",
+    "2002",
+    "2018",
+    "21",
+    "21.9",
+    "2262",
+    "287.17",
+    "29265487",
+    "3",
+    "3.3",
+    "4.4",
+    "5.7",
+    "76.1",
+    "9",
+    "95"
+   ],
+   "performance_claims": [
+    "0.17",
+    "0.95",
+    "3.3",
+    "4.4",
+    "5.7"
+   ],
+   "record_id": "exam_focal_neuro_deficit_with_chest_pain",
+   "section": "examine",
+   "text": "Focal neurologic deficit (limb weakness, aphasia, Horner) accompanying chest/back pain"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Drazner MH, Hellkamp AS, Leier CV, Shah MR, Miller LW, Russell SD, Young JB, Califf RM, et al. Value of clinician assessment of hemodynamics in advanced heart failure: the ESCAPE trial. Circ Heart Fail. 2009.",
+    "Guberman BA, Fowler NO, Engel PJ, Gueron M, Allen JM. Cardiac tamponade in medical patients. Circulation. 1981.",
+    "Ohle R, Kareemi HK, Wells G, Perry JJ. Clinical examination for acute aortic dissection: a systematic review and meta-analysis. Acad Emerg Med. 2019."
+   ],
+   "numeric_claims": [
+    "0.12",
+    "0.3",
+    "0.375",
+    "0.5",
+    "0.74",
+    "0.77",
+    "0.84",
+    "0.95",
+    "0.96",
+    "1",
+    "1.05",
+    "1.8",
+    "1.83",
+    "10.1111",
+    "10.1161",
+    "100",
+    "108.769778",
+    "12",
+    "13360",
+    "188",
+    "19",
+    "19675681",
+    "1981",
+    "2",
+    "2.3",
+    "2.9",
+    "20",
+    "2009",
+    "2019",
+    "21.9",
+    "25",
+    "26",
+    "29265487",
+    "3",
+    "35",
+    "4",
+    "4.6",
+    "400",
+    "42",
+    "5",
+    "56",
+    "60",
+    "633",
+    "64.3",
+    "6455217",
+    "65",
+    "68",
+    "76.1",
+    "84",
+    "9",
+    "90",
+    "95"
+   ],
+   "performance_claims": [
+    "0.12",
+    "0.375",
+    "0.77",
+    "0.84",
+    "0.95",
+    "1.05",
+    "1.8",
+    "2.9",
+    "4.6"
+   ],
+   "record_id": "exam_hypotension_sbp_lt90",
+   "section": "examine",
+   "text": "Systolic BP <90 mmHg (or MAP <65) at the bedside"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Klompas M. Does this patient have an acute thoracic aortic dissection? JAMA. 2002;287(17):2262-2272.",
+    "Shibata T, et al. Characteristics of Inter-Arm Difference in Blood Pressure in Acute Aortic Dissection. J Nippon Med Sch. 2022;89(1)."
+   ],
+   "numeric_claims": [
+    "0.029",
+    "0.14",
+    "0.31",
+    "0.9",
+    "0.96",
+    "1",
+    "10",
+    "10.1001",
+    "10.1272",
+    "11980527",
+    "122",
+    "14",
+    "17",
+    "1966",
+    "20",
+    "2000",
+    "2002",
+    "2021",
+    "2022",
+    "21",
+    "2262",
+    "2272",
+    "287",
+    "287.17",
+    "3.5",
+    "31",
+    "33",
+    "33692296",
+    "4",
+    "5.7",
+    "58",
+    "6.6",
+    "605",
+    "88",
+    "89"
+   ],
+   "performance_claims": [
+    "0.14",
+    "0.31",
+    "0.9",
+    "0.96",
+    "3.5",
+    "5.7"
+   ],
+   "record_id": "exam_bp_differential_arms",
+   "section": "examine",
+   "text": "Inter-arm systolic BP difference >20 mmHg"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "1.4",
+    "28",
+    "3",
+    "4"
+   ],
+   "performance_claims": [],
+   "record_id": "exam_diastolic_murmur_new",
+   "section": "examine",
+   "text": "New diastolic (aortic regurgitation) murmur"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "card": {
+   "chief_complaint": "tearing chest pain radiating to the back at rest",
+   "presentation": "chest_pain",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_pain_abrupt_maximal_onset",
+      "changes_what": "Positive: escalate to ADD-RS assessment, CXR/D-dimer and CT angiography as appropriate; negative onset lowers but does not eliminate dissection probability.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use gradual onset alone to exclude dissection in patients with other high-risk features (Marfan/aortic disease, pulse deficit, neurologic deficit, new murmur, hypotension).",
+      "escalation_warning": "Abrupt severe chest/back pain with hypotension, pulse deficit, or neurologic deficit is a dissection or ruptured AAA until proven otherwise: immediate CT angiography and surgical notification.",
+      "evidence": [
+       {
+        "citation": "Klompas M. Does this patient have an acute thoracic aortic dissection? JAMA. 2002;287(17):2262-2272.",
+        "computed": false,
+        "doi": "10.1001/jama.287.17.2262",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_out",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.5",
+         "ci_low": "0.2",
+         "value": "0.3"
+        },
+        "lr_positive": null,
+        "pmid": "11980527",
+        "population": "Consecutive patients with confirmed thoracic aortic dissection from 21 studies (case series; sensitivity pooled; LR- derived from comparison cohorts)",
+        "prevalence": null,
+        "quote": "sudden onset (sensitivity, 84%). The absence of sudden pain onset lowers the likelihood of dissection (negative likelihood ratio [LR], 0.3; 95% confidence interval [CI], 0.2-0.5)",
+        "reference_standard": "Dissection confirmed by imaging, surgery, or autopsy",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.84"
+        },
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Acute thoracic aortic dissection (finding: sudden-onset pain)",
+        "url": null,
+        "year": "2002"
+       },
+       {
+        "citation": "Ohle R, Um J, Anjum O, et al. High risk clinical features for acute aortic dissection: a case-control study. Acad Emerg Med. 2018;25(4):378-384.",
+        "computed": false,
+        "doi": "10.1111/acem.13356",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_out",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.14",
+         "ci_low": "0.03",
+         "value": "0.07"
+        },
+        "lr_positive": null,
+        "pmid": "29218798",
+        "population": "Matched case-control: 194 ED/in-hospital CT- or echo-confirmed AAD cases vs 776 ED controls with truncal pain <14 days and no clear diagnosis",
+        "prevalence": null,
+        "quote": "Absence of abrupt-onset pain (sensitivity = 95.9%, negative likelihood ratio = 0.07 [0.03-0.14]) can help rule out AAD.",
+        "reference_standard": "CT angiography or echocardiography confirmed dissection",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.959"
+        },
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Acute aortic dissection (finding: abrupt-onset pain)",
+        "url": null,
+        "year": "2018"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Ask an open question about how the pain began, then specifically: 'Did it reach its worst within seconds, or build up over minutes?' Document time-to-peak intensity and whether the patient can pinpoint the moment of onset (what they were doing). Also ask about tearing/ripping quality and migration.",
+      "id": "hx_pain_abrupt_maximal_onset",
+      "negative_finding": "Absence of sudden onset lowers the likelihood of dissection (LR- 0.3 in the RCE pooled series; 0.07 in an ED case-control study), but the clinical examination is insufficiently sensitive to rule out dissection on its own.",
+      "pitfalls": "Patients recall onset imprecisely, particularly after analgesia or when pain was preceded by exertion; gradual-onset presentations still occur in ~5-16% of dissections, especially in elderly patients or with painless neurologic presentations.",
+      "positive_finding": "Abrupt-onset pain is present in ~84-96% of aortic dissections but is common in other conditions, so it raises suspicion for dissection only modestly (specificity not established in unselected cohorts); it is a high-risk feature in the ADD risk score.",
+      "prerequisites": "Patient able to give history; otherwise ask witnesses or EMS about onset.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Pain abrupt in onset and maximal at onset (thunderclap-type chest/back pain)",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_epigastric_pain_radiating_back",
+      "changes_what": "Present: check lipase and consider pancreatitis, but exclude aortic catastrophe and perforation first when the patient is unstable or the pain is tearing/sudden.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not label pain as pancreatitis when there is hypotension, syncope, a pulsatile mass, limb ischemia or a tearing quality until aorta is imaged.",
+      "escalation_warning": "Epigastric pain to the back with shock, peritonitis, or a normal lipase demands urgent CT for aortic rupture, dissection or perforated viscus.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Ask onset, location, and character: constant severe epigastric or upper-abdominal pain, often boring through to the back, worse supine and eased by sitting forward, with nausea and vomiting. Ask about alcohol intake, known gallstones or prior biliary colic, recent ERCP, hypertriglyceridemia and new medications.",
+      "id": "hx_epigastric_pain_radiating_back",
+      "negative_finding": "Absence of back radiation does not exclude pancreatitis; pain that is intermittent or colicky favours biliary colic or bowel pathology.",
+      "pitfalls": "Tearing pain with pulse or BP asymmetry, hypotension or a pulsatile mass points to aorta, not pancreas; elderly and post-operative patients may have minimal pain. Grey Turner/Cullen ecchymosis is rare (3% in one large series) and marks severity rather than aiding diagnosis.",
+      "positive_finding": "Constant epigastric pain radiating to the back with an alcohol or gallstone history is the classic presentation of acute pancreatitis and is one of the three diagnostic criteria in the revised Atlanta classification (with lipase/amylase >3x ULN and imaging). The same pain pattern also occurs with posterior penetrating peptic ulcer, ruptured AAA and aortic dissection.",
+      "prerequisites": "Reliable history; ask family when the patient is intoxicated or encephalopathic.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Constant epigastric pain radiating to the back (with alcohol/gallstone history)",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_pain_tearing_ripping",
+      "changes_what": "Positive: treat as high-risk feature, obtain immediate CT angiography (or TEE) and control BP/heart rate. Negative: does not exclude dissection; rely on onset and exam findings.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use absence of tearing quality to exclude dissection or aortic aneurysm.",
+      "escalation_warning": "Tearing/ripping pain with pulse or BP differential, new diastolic murmur, hypotension or neurologic deficit is a surgical emergency; image immediately and avoid anticoagulation until dissection is excluded.",
+      "evidence": [
+       {
+        "citation": "Ohle R, Um J, Anjum O, et al. High Risk Clinical Features for Acute Aortic Dissection: A Case-Control Study. Acad Emerg Med. 2018;25(4):378-387.",
+        "computed": false,
+        "doi": "10.1111/acem.13356",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "177.5",
+         "ci_low": "9.9",
+         "value": "42.1"
+        },
+        "pmid": "29218798",
+        "population": "194 confirmed nontraumatic AAD cases vs 776 age/sex-matched controls with truncal pain and no clear diagnosis (2 tertiary EDs + 1 cardiac referral center, 2002-2014)",
+        "prevalence": "0.2",
+        "quote": "Presence of tearing/ripping pain (specificity = 99.7%, positive likelihood ratio [LR+] = 42.1 [9.9-177.5])",
+        "reference_standard": "AAD confirmed by CT or echocardiography; controls without AAD",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.997"
+        },
+        "target_condition": "Acute aortic dissection",
+        "url": null,
+        "year": "2019"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Ask the patient to describe the pain quality in their own words before offering options, then ask specifically about tearing or ripping character, abrupt maximal-at-onset intensity, and migration of pain (chest to back, abdomen or legs). Record each element separately.",
+      "id": "hx_pain_tearing_ripping",
+      "negative_finding": "Absence of tearing/ripping quality does not lower probability meaningfully; many dissections present with sharp, not tearing, pain. Absence of abrupt onset is the more useful negative feature.",
+      "pitfalls": "The LR+ comes from a matched case-control design with low-risk controls, so it is likely inflated by spectrum bias. Leading questions ('was it tearing?') increase false positives.",
+      "positive_finding": "Tearing or ripping pain is highly specific for acute aortic dissection (specificity 99.7%, LR+ about 42 in a case-control study) and is an independent predictor in prospective suspected-dissection cohorts.",
+      "prerequisites": "Patient able to give history; ask before opioid analgesia if possible.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Pain described as tearing or ripping, or migrating (chest to back/abdomen/legs)",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_pleuritic_chest_pain",
+      "changes_what": "Positive: de-emphasize ACS and work up PE/pneumonia/pneumothorax/pericarditis (exam, CXR, PE risk score). Negative: does not remove PE from the differential.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use pleuritic quality to discharge a patient with possible ACS without an ECG and troponin.",
+      "escalation_warning": "Pleuritic pain with hypoxemia, tachycardia, unilateral leg swelling or hemoptysis warrants immediate PE work-up; with sudden dyspnea consider pneumothorax.",
+      "evidence": [
+       {
+        "citation": "Panju AA, Hemmelgarn BR, Guyatt GH, Simel DL. The rational clinical examination. Is this patient having a myocardial infarction? JAMA. 1998;280(14):1256-1263.",
+        "computed": false,
+        "doi": "10.1001/jama.280.14.1256",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_out",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.2"
+        },
+        "pmid": "9786377",
+        "population": "Adults with acute chest pain in studies pooled by the RCE review",
+        "prevalence": null,
+        "quote": "pleuritic chest pain (LR, 0.2)",
+        "reference_standard": "Confirmed MI by study criteria (enzymes/ECG) in included studies",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Acute myocardial infarction",
+        "url": null,
+        "year": "1998"
+       },
+       {
+        "citation": "Courtney DM, Kline JA, Kabrhel C, et al. Clinical features from the history and physical examination that predict the presence or absence of pulmonary embolism in symptomatic emergency department patients: results of a prospective, multicenter study. Ann Emerg Med. 2010;55(4):307-315.",
+        "computed": false,
+        "doi": "10.1016/j.annemergmed.2009.11.010",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "20045580",
+        "population": "7,940 symptomatic US ED patients tested for PE (12 centers); mean age 49, 67% female",
+        "prevalence": "0.072",
+        "quote": "those with an adjusted odds ratio (OR) greater than 1.5 included non-cancer-related thrombophilia (OR 1.99), pleuritic chest pain (OR 1.53)",
+        "reference_standard": "Imaging-confirmed PE or DVT within 45 days",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Venous thromboembolism (PE or DVT) in ED patients evaluated for PE",
+        "url": null,
+        "year": "2010"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Ask whether the pain is sharp and clearly worse with a deep breath, cough or sneeze (not with exertion or palpation), and whether there has been any hemoptysis. Ask separately about onset, exertional relation and positional relief so the pleuritic quality is not conflated with other descriptors.",
+      "id": "hx_pleuritic_chest_pain",
+      "negative_finding": "Absence of pleuritic quality does not exclude PE, pericarditis or pneumonia; PE frequently presents with isolated dyspnea or collapse without pleuritic pain.",
+      "pitfalls": "Pleuritic pain lowers but does not exclude ACS; no history element alone permits discharge without testing. Patients may label any sharp pain as breath-related unless asked specifically about inspiration.",
+      "positive_finding": "Pleuritic pain lowers the probability of myocardial infarction (LR about 0.2) and shifts the differential toward pulmonary embolism, pneumonia, pneumothorax, pericarditis and pleural disease. In ED patients evaluated for PE it modestly raises VTE probability (adjusted OR 1.5).",
+      "prerequisites": "Patient able to give a history; ask before analgesia if feasible.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Pleuritic chest pain (sharp, worse with inspiration/cough), +/- hemoptysis",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/exam_focal_neuro_deficit_with_chest_pain",
+      "changes_what": "Present: treat as high-risk for dissection and obtain CT angiography of the aorta urgently; absent: does not change dissection probability.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use absence of deficit to exclude dissection; do not give thrombolysis for stroke with chest/back pain until the aorta is imaged.",
+      "escalation_warning": "Any new focal deficit with chest/back pain, pulse deficit, or hypotension is a surgical emergency; activate CT angiography and vascular/cardiothoracic surgery immediately.",
+      "evidence": [
+       {
+        "citation": "Ohle R, Kareemi HK, Wells G, Perry JJ. Clinical Examination for Acute Aortic Dissection: A Systematic Review and Meta-analysis. Acad Emerg Med. 2018.",
+        "computed": false,
+        "doi": "10.1111/acem.13360",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "5.7",
+         "ci_low": "3.3",
+         "value": "4.4"
+        },
+        "pmid": "29265487",
+        "population": "ED patients evaluated for suspected acute aortic dissection; 3 pooled studies (I2 0%); dissection prevalence across the 9 review studies ranged 21.9%-76.1%",
+        "prevalence": null,
+        "quote": "neurologic deficit (n = 3, specificity = 95%, positive likelihood ratio [LR+] = 4.4, 95% confidence interval [CI] = 3.3-5.7, I2 = 0%)",
+        "reference_standard": "Advanced imaging (CT/MR/TEE), surgery or autopsy per included study",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.95"
+        },
+        "target_condition": "Acute aortic dissection \u2014 finding PRESENT = neurologic deficit",
+        "url": null,
+        "year": "2018"
+       },
+       {
+        "citation": "Klompas M. Does this patient have an acute thoracic aortic dissection? JAMA. 2002.",
+        "computed": false,
+        "doi": "10.1001/jama.287.17.2262",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "11980527",
+        "population": "Pooled from 21 studies of >=18 consecutive patients with confirmed thoracic aortic dissection (1966-2000)",
+        "prevalence": null,
+        "quote": "17% have focal neurological deficits",
+        "reference_standard": "Confirmed thoracic aortic dissection (imaging, surgery or autopsy)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.17"
+        },
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Acute thoracic aortic dissection \u2014 finding PRESENT = focal neurological deficit (sensitivity only; case series of confirmed dissection)",
+        "url": null,
+        "year": "2002"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "In any patient with acute chest, back or abdominal pain, perform a brief screening neurologic exam: speech, facial symmetry, pronator drift and grip in both arms, leg strength, sensation, and pupils (Horner). Note any deficit that is new, fluctuating, or accompanied by pain, and check bilateral arm blood pressures and pulses at the same time.",
+      "id": "exam_focal_neuro_deficit_with_chest_pain",
+      "negative_finding": "Most dissections have no neurologic deficit (pooled sensitivity ~17%), so its absence does not lower the probability meaningfully.",
+      "pitfalls": "Deficits may be transient (syncope, paraparesis from spinal ischemia) or missed if pain dominates; stroke without pain is far more often primary cerebrovascular disease. Painless dissection presenting as stroke occurs and is a thrombolysis hazard.",
+      "positive_finding": "A focal neurologic deficit in a patient with acute chest or back pain raises the probability of aortic dissection (pooled LR+ 4.4, specificity 95%), and the combination of stroke syndrome with pain should prompt aortic imaging before thrombolysis.",
+      "prerequisites": "Patient able to cooperate; compare with baseline function.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Focal neurologic deficit (limb weakness, aphasia, Horner) accompanying chest/back pain",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_hypotension_sbp_lt90",
+      "changes_what": "SBP <90/MAP <65: resuscitate, lactate, POCUS (RUSH) to classify shock type, cause-directed therapy now. Normal BP: keep looking for compensated shock (HR, lactate, mentation, urine output).",
+      "contraindications": "Avoid the arm with a dialysis fistula, lymphoedema or recent axillary surgery; none otherwise.",
+      "do_not_use_when": "Do not use a single normal cuff reading to exclude shock or tamponade; do not interpret SBP <90 as 'baseline' without documented prior values.",
+      "escalation_warning": "SBP <90 or MAP <65 with altered mentation, lactate >2, oliguria or cool skin is shock: immediate resuscitation and senior/ICU review; in suspected dissection or tamponade, hypotension signals imminent collapse.",
+      "evidence": [
+       {
+        "citation": "Ohle R, Kareemi HK, Wells G, Perry JJ. Clinical examination for acute aortic dissection: a systematic review and meta-analysis. Acad Emerg Med. 2019.",
+        "computed": false,
+        "doi": "10.1111/acem.13360",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "4.6",
+         "ci_low": "1.8",
+         "value": "2.9"
+        },
+        "pmid": "29265487",
+        "population": "Pooled 4 studies of ED patients evaluated for suspected acute aortic dissection (review total 9 studies, 2,400 participants; prevalence range 21.9-76.1%)",
+        "prevalence": null,
+        "quote": "hypotension (n = 4, specificity = 95%, LR+ = 2.9 95% CI = 1.8-4.6, I2 = 42%)",
+        "reference_standard": "Acute aortic dissection confirmed by imaging, surgery or autopsy per primary studies",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.95"
+        },
+        "target_condition": "Acute aortic dissection; finding = hypotension as defined by each primary study (thresholds varied; not uniformly SBP <90 mmHg)",
+        "url": null,
+        "year": "2019"
+       },
+       {
+        "citation": "Drazner MH, Hellkamp AS, Leier CV, Shah MR, Miller LW, Russell SD, Young JB, Califf RM, et al. Value of clinician assessment of hemodynamics in advanced heart failure: the ESCAPE trial. Circ Heart Fail. 2009.",
+        "computed": true,
+        "doi": "10.1161/CIRCHEARTFAILURE.108.769778",
+        "evidence_level": "single_study",
+        "interpretation_label": "minimal",
+        "kind": "primary_study",
+        "location": "Table 5 (Utility of history and physical examination in detecting an invasively measured cardiac index <2.3 L/min/m2); columns frequency, sensitivity, specificity, PPV, NPV, LR+, LR-, OR, P",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "1.05"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.77"
+        },
+        "pmid": "19675681",
+        "population": "188 patients hospitalised with advanced decompensated HF in the ESCAPE trial with pulmonary artery catheter measurements",
+        "prevalence": null,
+        "quote": "SBP < 90 25/188 12 84 68 26 0.77 0.96 0.74 (0.30, 1.83) 0.5",
+        "reference_standard": "Invasively measured cardiac index <2.3 L/min/m2 by pulmonary artery catheter",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.12"
+        },
+        "setting": "inpatient",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.84"
+        },
+        "target_condition": "Low cardiac index <2.3 L/min/m2 in advanced heart failure; finding = SBP <90 mmHg on baseline examination",
+        "url": null,
+        "year": "2009"
+       },
+       {
+        "citation": "Guberman BA, Fowler NO, Engel PJ, Gueron M, Allen JM. Cardiac tamponade in medical patients. Circulation. 1981.",
+        "computed": true,
+        "doi": "10.1161/01.cir.64.3.633",
+        "evidence_level": "single_study",
+        "interpretation_label": "minimal",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "6455217",
+        "population": "56 medical patients with cardiac tamponade, single-centre case series, University of Cincinnati",
+        "prevalence": null,
+        "quote": "heart sounds were diminished in 19 patients; arterial systolic pressure was greater than or equal to 100 mm Hg in 35",
+        "reference_standard": "Clinical/haemodynamic diagnosis of tamponade with relief by pericardiocentesis or pericardial resection",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.375"
+        },
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Cardiac tamponade (sensitivity only); finding = systolic BP <100 mmHg (threshold differs from id title's <90)",
+        "url": null,
+        "year": "1981"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Measure with a correctly sized cuff on a supported arm (manual if the automated reading is doubtful or the pulse is irregular), repeat, and measure both arms when dissection is possible; calculate MAP = (SBP + 2 x DBP)/3. Interpret against the patient's usual pressure and drug list.",
+      "id": "exam_hypotension_sbp_lt90",
+      "negative_finding": "A normal SBP does not exclude shock (compensated haemorrhage, early sepsis, cardiogenic shock with vasoconstriction) or tamponade (about 60% of tamponade patients had SBP \u2265100), nor low cardiac index in heart failure (SBP <90 sensitivity 12%).",
+      "pitfalls": "Chronic hypertensives are hypoperfused at 'normal' pressures; beta-blockers, pacemakers and automated cuffs in AF mislead. Interarm difference >20 mmHg raises dissection concern. Cuff readings overestimate true pressure in profound vasoconstriction.",
+      "positive_finding": "SBP <90 (or MAP <65) is shock until proven otherwise and should trigger a search for the cause (septic, hypovolaemic/haemorrhagic, cardiogenic, obstructive: tamponade/PE/tension pneumothorax, anaphylaxis, adrenal). In suspected dissection, hypotension roughly triples the odds (LR+ 2.9, specificity 95%). It is not a discriminator between causes.",
+      "prerequisites": "Appropriate cuff size; awareness of baseline BP, beta-blockers/antihypertensives and pacing.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Systolic BP <90 mmHg (or MAP <65) at the bedside",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_bp_differential_arms",
+      "changes_what": "Positive: treat as high-risk exam feature, obtain emergent CT angiography and manage BP using the higher-reading arm. Negative: does not lower suspicion; proceed on history and risk score.",
+      "contraindications": "Avoid cuff on an arm with AV fistula, recent surgery or lymphedema.",
+      "do_not_use_when": "Do not use equal arm pressures to exclude dissection; do not interpret a differential in a patient with known subclavian stenosis, AV fistula or prior arm vascular surgery.",
+      "escalation_warning": "Inter-arm difference >20 mmHg with acute chest/back pain, syncope or neurologic deficit: emergent CTA and surgical notification; treat hypotension as possible tamponade or rupture.",
+      "evidence": [
+       {
+        "citation": "Klompas M. Does this patient have an acute thoracic aortic dissection? JAMA. 2002;287(17):2262-2272.",
+        "computed": false,
+        "doi": "10.1001/jama.287.17.2262",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "11980527",
+        "population": "Pooled consecutive patients with confirmed thoracic aortic dissection from 21 studies (1966-2000)",
+        "prevalence": null,
+        "quote": "31% have pulse deficits or blood pressure differentials",
+        "reference_standard": "Confirmed dissection by imaging, surgery or autopsy in included studies",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.31"
+        },
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Acute thoracic aortic dissection (pulse deficit OR blood pressure differential, composite finding)",
+        "url": null,
+        "year": "2002"
+       },
+       {
+        "citation": "Klompas M. Does this patient have an acute thoracic aortic dissection? JAMA. 2002;287(17):2262-2272.",
+        "computed": false,
+        "doi": "10.1001/jama.287.17.2262",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "5.7"
+        },
+        "pmid": "11980527",
+        "population": "Pooled patients with suspected/confirmed thoracic aortic dissection in the RCE review",
+        "prevalence": null,
+        "quote": "pulse or blood pressure differentials and neurological deficits increase the likelihood of disease (positive LRs, 5.7 and 6.6-33.0, respectively)",
+        "reference_standard": "Confirmed dissection by imaging, surgery or autopsy in included studies",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Acute thoracic aortic dissection (pulse deficit OR blood pressure differential, composite finding)",
+        "url": null,
+        "year": "2002"
+       },
+       {
+        "citation": "Shibata T, et al. Characteristics of Inter-Arm Difference in Blood Pressure in Acute Aortic Dissection. J Nippon Med Sch. 2022;89(1).",
+        "computed": true,
+        "doi": "10.1272/jnms.JNMS.2021_88-605",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.9"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "3.5"
+        },
+        "pmid": "33692296",
+        "population": "Consecutive patients with chest and/or back pain and suspected acute cardiovascular disease with BP measured in both arms: 58 type A AAD vs 122 non-AAD (single center, Japan, retrospective)",
+        "prevalence": null,
+        "quote": "L-R >20 mm Hg (14% vs. 4%, p=0.029) were higher in the TAAD group",
+        "reference_standard": "CT-confirmed aortic dissection; non-AAD controls",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.14"
+        },
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.96"
+        },
+        "target_condition": "Stanford type A acute aortic dissection (left-minus-right systolic BP >20 mmHg)",
+        "url": null,
+        "year": "2022"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Measure systolic BP in both arms with an appropriately sized cuff, ideally simultaneously or in rapid succession with the patient in the same position, and repeat once; record which arm is lower. A difference >20 mmHg systolic is the conventional positive threshold.",
+      "id": "exam_bp_differential_arms",
+      "negative_finding": "Equal arm pressures do not exclude dissection; only a minority of dissections (about 31% for the composite finding, 14% for >20 mmHg in type A) show a differential, and type B dissection rarely does.",
+      "pitfalls": "Inter-arm differences >10-20 mmHg are common in the general and hypertensive population from subclavian atherosclerosis, so specificity in low-prevalence settings is limited. Sequential rather than simultaneous measurement and cuff-size errors create false differences.",
+      "positive_finding": "An inter-arm systolic difference >20 mmHg increases the likelihood of aortic dissection (pooled LR+ 5.7 for the composite pulse/BP differential; sensitivity 14% vs 4% in type A dissection vs non-dissection in one retrospective series). Left-lower-than-right patterns implicate brachiocephalic involvement.",
+      "prerequisites": "Both arms accessible; no dialysis fistula, lymphedema or prior arm vascular surgery on the measured side.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Inter-arm systolic BP difference >20 mmHg",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_diastolic_murmur_new",
+      "changes_what": "New AR murmur + acute pain: immediate CT angiography/TEE for dissection. New murmur + fever: blood cultures x3 and echocardiography for endocarditis. Absent: no reassurance.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use the absence of a murmur to exclude dissection or endocarditis; do not attribute a murmur to 'chronic' disease without a prior record.",
+      "escalation_warning": "New AR murmur with tearing chest/back pain, pulse deficit, hypotension or neurological deficit: activate the dissection pathway (CTA/TEE, cardiothoracic surgery) immediately.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "With the patient sitting, leaning forward, in held end-expiration, listen with the diaphragm at the left sternal border (3rd-4th interspace) and right upper sternal border for a high-pitched, blowing, decrescendo early-diastolic murmur; check for a wide pulse pressure and collapsing pulse. Compare with prior documented examinations to establish that it is new.",
+      "id": "exam_diastolic_murmur_new",
+      "negative_finding": "Absence of a diastolic murmur does not lower the probability of dissection or endocarditis meaningfully; most dissections and many endocarditis cases have no regurgitant murmur at presentation.",
+      "pitfalls": "Early diastolic AR murmurs are soft and easily missed in a noisy ED or tachycardic patient; a chronic AR murmur is common in the elderly and is not 'new'. Pulmonary regurgitation and mitral stenosis murmurs can be confused.",
+      "positive_finding": "A diastolic murmur is heard in only about 28% of acute aortic dissections and barely changes the odds (LR+ 1.4), but a NEW aortic regurgitation murmur in acute chest/back pain (with pulse deficit or neurological deficit) or in fever/bacteraemia (endocarditis, especially prosthetic valve or IVDU) is a high-consequence finding that demands imaging.",
+      "prerequisites": "Quiet room; prior notes or echo to judge 'new'; note any prosthetic valve.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "New diastolic (aortic regurgitation) murmur",
+      "type": "exam"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_pain_abrupt_maximal_onset",
+     "rationale": ""
+    },
+    {
+     "id": "hx_epigastric_pain_radiating_back",
+     "rationale": ""
+    },
+    {
+     "id": "hx_pain_tearing_ripping",
+     "rationale": ""
+    },
+    {
+     "id": "hx_pleuritic_chest_pain",
+     "rationale": ""
+    }
+   ],
+   "examine": [
+    {
+     "id": "exam_focal_neuro_deficit_with_chest_pain",
+     "rationale": ""
+    },
+    {
+     "id": "exam_hypotension_sbp_lt90",
+     "rationale": ""
+    },
+    {
+     "id": "exam_bp_differential_arms",
+     "rationale": ""
+    },
+    {
+     "id": "exam_diastolic_murmur_new",
+     "rationale": ""
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "tearing chest pain radiating to the back at rest",
+   "differentials": [
+    {
+     "dx": "aortic_dissection",
+     "weight": 1.0
+    },
+    {
+     "dx": "acs",
+     "weight": 0.333
+    },
+    {
+     "dx": "pulmonary_embolism",
+     "weight": 0.167
+    },
+    {
+     "dx": "pericarditis",
+     "weight": 0.083
+    },
+    {
+     "dx": "musculoskeletal_chest_wall",
+     "weight": 0.083
+    }
+   ],
+   "indication_tags": [
+    "acute_onset",
+    "diabetes_insulin",
+    "ckd_known"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "tearing",
+    "radiating to the back",
+    "at rest",
+    "diaphoretic"
+   ],
+   "observed_values": [
+    "BP 150/90",
+    "HR 92",
+    "sat 96%"
+   ],
+   "presentation": "chest_pain",
+   "time_course": "acute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "p1"
+}

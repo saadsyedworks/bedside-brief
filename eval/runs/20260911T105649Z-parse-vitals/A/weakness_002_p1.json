@@ -1,0 +1,692 @@
+{
+ "arm": "A",
+ "ask_first": false,
+ "base_case_id": "weakness_002",
+ "blocked_items": [],
+ "case_id": "weakness_002_p1",
+ "created_at": "2026-09-11T11:18:08+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "1",
+    "33",
+    "50",
+    "7"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_back_pain_cancer_history",
+   "section": "ask",
+   "text": "New or progressive back pain in a patient with known cancer (or age >50, night pain, weight loss)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "16267412",
+    "19",
+    "24",
+    "46",
+    "475",
+    "60",
+    "72"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_rhabdo_myalgia_dark_urine",
+   "section": "ask",
+   "text": "Muscle pain/weakness, prolonged immobilization or exertion, dark cola-colored urine"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Fokke C, van den Berg B, Drenthen J, Walgaard C, van Doorn PA, Jacobs BC. Diagnosis of Guillain-Barre syndrome and validation of Brighton criteria. Brain. 2014;137(1):33-43."
+   ],
+   "numeric_claims": [
+    "0.91",
+    "0.97",
+    "1",
+    "10.1093",
+    "137",
+    "2",
+    "20",
+    "2014",
+    "24163275",
+    "285",
+    "3",
+    "33",
+    "4",
+    "43",
+    "494",
+    "6",
+    "80",
+    "91",
+    "97"
+   ],
+   "performance_claims": [
+    "0.91",
+    "0.97"
+   ],
+   "record_id": "exam_ascending_symmetric_weakness_areflexia",
+   "section": "examine",
+   "text": "Ascending symmetric limb weakness with absent/reduced reflexes (after recent GI/URI illness)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "0.3",
+    "1",
+    "10",
+    "4",
+    "56"
+   ],
+   "performance_claims": [],
+   "record_id": "exam_sensory_level_upper_motor_neuron_signs",
+   "section": "examine",
+   "text": "Sensory level with hyperreflexia / extensor plantar (Babinski) below the level"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "0.19",
+    "0.43",
+    "0.62",
+    "0.88",
+    "2",
+    "5",
+    "500"
+   ],
+   "performance_claims": [],
+   "record_id": "exam_saddle_anesthesia_anal_tone",
+   "section": "examine",
+   "text": "Saddle (perineal) sensory loss and reduced anal tone"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [
+    "Bhandari SK, Bist A, Ghimire A. Single breath count test and its applications in clinical practice: a systematic review. Ann Med Surg (Lond). 2024;86(4):2113-2118.",
+    "Delmondes GMB, Couto NFS, Correia Junior MGA, et al. Single breath counting technique to assess pulmonary function: a systematic review and meta-analysis. J Breath Res. 2023;18(1).",
+    "Kalita J, Kumar M, Misra UK. Serial single breath count is a reliable tool for monitoring respiratory functions in Guillain-Barre Syndrome. J Clin Neurosci. 2020;72:50-56.",
+    "Kukulka K, Gummi RR, Govindarajan R. A telephonic single breath count test for screening of exacerbations of myasthenia gravis: A pilot study. Muscle Nerve. 2020;62(2):258-261.",
+    "Quinn C, McMillan CT, Owegi MA, et al. Single breath counting is an effective screening tool for forced vital capacity in ALS. Amyotroph Lateral Scler Frontotemporal Degener. 2021;22(7-8):528-534."
+   ],
+   "numeric_claims": [
+    "0.073",
+    "0.1",
+    "0.33",
+    "0.6",
+    "0.62",
+    "0.696",
+    "0.7662",
+    "0.77",
+    "0.8",
+    "0.89",
+    "0.906",
+    "0.91",
+    "0.94",
+    "0.944",
+    "0.95",
+    "0.952",
+    "1",
+    "10",
+    "10.1002",
+    "10.1016",
+    "10.108",
+    "10.1088",
+    "10.1097",
+    "100",
+    "1752",
+    "18",
+    "18.9",
+    "19",
+    "1915337",
+    "1994",
+    "2",
+    "20",
+    "2020",
+    "2020.01",
+    "2021",
+    "2023",
+    "2024",
+    "21",
+    "2113",
+    "2118",
+    "21678421.2021",
+    "22",
+    "24",
+    "25",
+    "258",
+    "261",
+    "26987",
+    "3",
+    "30",
+    "31982274",
+    "32",
+    "32447763",
+    "34348533",
+    "37875103",
+    "38576972",
+    "4",
+    "4.04",
+    "41",
+    "45",
+    "5",
+    "50",
+    "528",
+    "534",
+    "56",
+    "6",
+    "60",
+    "62",
+    "647",
+    "7",
+    "7.3",
+    "70",
+    "71",
+    "7163",
+    "72",
+    "76.62",
+    "8",
+    "80",
+    "86",
+    "89",
+    "9.0000000000001853",
+    "90.6",
+    "94",
+    "94.4",
+    "95",
+    "95.2"
+   ],
+   "performance_claims": [
+    "0.073",
+    "0.1",
+    "0.33",
+    "0.6",
+    "0.6",
+    "0.62",
+    "0.7662",
+    "0.8",
+    "0.89",
+    "0.906",
+    "0.944",
+    "0.95",
+    "0.952",
+    "1",
+    "18.9",
+    "2",
+    "4.04"
+   ],
+   "record_id": "fn_single_breath_count",
+   "section": "examine",
+   "text": "Single breath count (count aloud on one full inspiration; <20 signals weak respiratory muscles)"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "candidates": [
+   "exam_ascending_symmetric_weakness_areflexia",
+   "exam_proximal_symmetric_weakness",
+   "exam_sensory_level_upper_motor_neuron_signs",
+   "fn_single_breath_count",
+   "exam_saddle_anesthesia_anal_tone",
+   "hx_back_pain_cancer_history",
+   "hx_rhabdo_myalgia_dark_urine",
+   "exam_bladder_percussion_palpable"
+  ],
+  "card": {
+   "chief_complaint": "heavy legs and trouble standing with mid-back pain",
+   "presentation": "weakness",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_back_pain_cancer_history",
+      "changes_what": "Positive: same-day whole-spine MRI (urgent if any neurological deficit) and dexamethasone per local pathway; negative: routine care unless other red flags accumulate.",
+      "contraindications": "None.",
+      "do_not_use_when": "Not a substitute for a neurological examination; do not let an absent cancer history delay imaging when there are motor, sensory or sphincter symptoms.",
+      "escalation_warning": "Back pain plus leg weakness, saddle anaesthesia or urinary retention in a cancer patient is metastatic cord compression until proven otherwise: emergency MRI and steroids.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Ask specifically about any prior cancer diagnosis (including remote and 'cured'), and characterize the pain: onset, progression, night or rest pain, thoracic location, unexplained weight loss, and duration over one month. Then screen for cord/cauda equina symptoms: leg weakness, gait change, saddle numbness, urinary retention or incontinence.",
+      "id": "hx_back_pain_cancer_history",
+      "negative_finding": "No cancer history makes spinal malignancy unlikely in primary care (prevalence <1%), but minor red flags (age >50, weight loss, failure to improve) are weakly informative and cannot exclude it.",
+      "pitfalls": "Age >50, night pain and weight loss have high false-positive rates when used alone. Sensitivity of 'history of cancer' is modest, so its absence does not clear a patient with progressive or thoracic pain.",
+      "positive_finding": "A prior cancer history is the only red flag shown to substantially raise the probability of spinal malignancy: post-test probability 7% in primary care and 33% in an ED cohort. With new neurological symptoms treat as possible metastatic cord compression.",
+      "prerequisites": "Reliable history or collateral; access to oncology records if the patient is unsure.",
+      "rationale": "A history of cancer or red flag symptoms with new back pain would make spinal cord compression more likely and prompt urgent imaging.",
+      "skill_assumption": null,
+      "title": "New or progressive back pain in a patient with known cancer (or age >50, night pain, weight loss)",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_rhabdo_myalgia_dark_urine",
+      "changes_what": "Positive \u2192 CK, creatinine, potassium, urinalysis; start IV fluids; assess compartments. Negative \u2192 still send CK if found down, post-seizure or toxin-exposed.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not exclude rhabdomyolysis by history in obtunded, intoxicated or found-down patients \u2014 send CK.",
+      "escalation_warning": "Tense painful compartment, hyperkalemia or rising creatinine \u2192 urgent surgical and nephrology involvement.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Ask about muscle pain, weakness, swelling and dark tea/cola-coloured urine, and exposures: found down/prolonged immobilization, seizure, extreme exertion or heat, crush or trauma, cocaine/amphetamines, alcohol, statins/fibrates, antipsychotics (NMS), recent infection. Palpate for tender, swollen or tense muscle compartments and check distal pulses and sensation.",
+      "id": "hx_rhabdo_myalgia_dark_urine",
+      "negative_finding": "Absent muscle symptoms or dark urine do not exclude rhabdomyolysis; many cases are oligosymptomatic and even qualitative urine myoglobin was positive in only 19% of 475 inpatients (PMID 16267412, Abstract). Measure CK whenever risk factors exist.",
+      "pitfalls": "Dark urine also comes from hematuria, hemoglobinuria or bilirubin. In 60% of cases multiple causes co-exist and toxins account for 46% (PMID 16267412, Abstract); CK peaks at 24\u201372 h, so an early value may be modest (unverified recall).",
+      "positive_finding": "Myalgia or weakness with dark urine after immobilization, exertion, seizure or toxin exposure strongly suggests rhabdomyolysis; check CK and a urine dipstick (heme-positive without red cells).",
+      "prerequisites": "Collateral history for obtunded or intoxicated patients; medication and drug-use review.",
+      "rationale": "Asking about muscle pain, dark urine, or immobilization helps screen for rhabdomyolysis as a cause of weakness.",
+      "skill_assumption": null,
+      "title": "Muscle pain/weakness, prolonged immobilization or exertion, dark cola-colored urine",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/exam_ascending_symmetric_weakness_areflexia",
+      "changes_what": "Positive: admit, serial FVC/single breath count, cardiac monitoring, LP and NCS, start IVIG/PLEX. Negative: check electrolytes and CK; image the spine if a sensory level or sphincter signs.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use preserved reflexes alone to dismiss GBS early in the course; do not use this pattern to exclude cord compression when back pain, a sensory level or sphincter change is present.",
+      "escalation_warning": "Dyspnea, weak cough, single breath count <20 or FVC <20 mL/kg, bulbar weakness or autonomic instability indicate impending respiratory failure: ICU-level monitoring.",
+      "evidence": [
+       {
+        "citation": "Fokke C, van den Berg B, Drenthen J, Walgaard C, van Doorn PA, Jacobs BC. Diagnosis of Guillain-Barre syndrome and validation of Brighton criteria. Brain. 2014;137(1):33-43.",
+        "computed": false,
+        "doi": "10.1093/brain/awt285",
+        "evidence_level": "validation_cohort",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "24163275",
+        "population": "494 adults with GBS previously enrolled in therapeutic and observational studies (Dutch cohorts); no non-GBS comparison group",
+        "prevalence": null,
+        "quote": "Decreased reflexes in paretic arms or legs were found initially in 91% of patients and in all patients during follow-up.",
+        "reference_standard": "Clinical diagnosis of GBS by treating neurologists (trial/observational study inclusion)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.91"
+        },
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Guillain-Barre syndrome; finding = decreased reflexes in paretic limbs at initial examination",
+        "url": null,
+        "year": "2014"
+       },
+       {
+        "citation": "Fokke C, van den Berg B, Drenthen J, Walgaard C, van Doorn PA, Jacobs BC. Diagnosis of Guillain-Barre syndrome and validation of Brighton criteria. Brain. 2014;137(1):33-43.",
+        "computed": false,
+        "doi": "10.1093/brain/awt285",
+        "evidence_level": "validation_cohort",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "24163275",
+        "population": "Same cohort of 494 adults with GBS",
+        "prevalence": null,
+        "quote": "Disease nadir was reached within 2 weeks in 80%, within 4 weeks in 97% and within 6 weeks in all patients.",
+        "reference_standard": "Clinical diagnosis of GBS (trial/observational study inclusion)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.97"
+        },
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Guillain-Barre syndrome; finding = bilateral limb weakness reaching nadir within 4 weeks",
+        "url": null,
+        "year": "2014"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Test proximal and distal strength in all four limbs (MRC grading), compare sides, and elicit biceps, triceps, knee and ankle reflexes with reinforcement. Ask about onset and progression (hours to days, distal to proximal), preceding diarrhea or respiratory illness within 4 weeks, sensory symptoms, facial or bulbar weakness, and back pain or sphincter change.",
+      "id": "exam_ascending_symmetric_weakness_areflexia",
+      "negative_finding": "Preserved brisk reflexes, a sensory level, early sphincter dysfunction, marked asymmetry or fever at onset point toward myelopathy, cord compression or other mimics; however 2% of GBS patients keep normal reflexes in paretic arms.",
+      "pitfalls": "Reflexes may be normal on day 1 and lost later, so re-examine; hypokalemia/hypophosphatemia and myopathy produce symmetric weakness with preserved reflexes. Weakness stayed leg-restricted in 6% and arm-restricted in 1%.",
+      "positive_finding": "Bilateral, relatively symmetric, progressive flaccid weakness with reduced or absent reflexes in the weak limbs, reaching nadir within 4 weeks, is the Brighton level-1 to 3 clinical core of GBS; 91% of GBS patients have decreased reflexes at presentation.",
+      "prerequisites": "Cooperative patient; reflex hammer; document time course and check bedside respiratory measures (single breath count / FVC) at the same visit.",
+      "rationale": "Checking for ascending symmetric weakness and areflexia is key for diagnosing GBS, the leading differential.",
+      "skill_assumption": null,
+      "title": "Ascending symmetric limb weakness with absent/reduced reflexes (after recent GI/URI illness)",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_sensory_level_upper_motor_neuron_signs",
+      "changes_what": "Positive: emergency whole-spine MRI, dexamethasone if malignancy suspected, spinal/oncology referral. Negative in suspected GBS: pursue neuromuscular workup; retained UMN signs argue against GBS.",
+      "contraindications": "None; in acute spinal shock reflexes may be absent below the level for days, so hyporeflexia does not exclude cord compression.",
+      "do_not_use_when": "Do not rely on absent hyperreflexia or a normal plantar response to exclude acute cord compression, and do not delay imaging to complete a detailed sensory map.",
+      "escalation_warning": "New bilateral leg weakness, a sensory level, or new bladder dysfunction in a patient with known cancer is metastatic spinal cord compression until MRI proves otherwise; outcome depends on ambulatory status at treatment, so image within hours.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Test pinprick and light touch moving upward from the feet on the trunk to find a dermatome above which sensation becomes normal; confirm with temperature (cold tuning fork). Test knee and ankle reflexes, clonus, and the plantar response by stroking the lateral sole from heel toward the toes with a blunt object; check bladder with a post-void residual.",
+      "id": "exam_sensory_level_upper_motor_neuron_signs",
+      "negative_finding": "Absence of a sensory level or of upper motor neuron signs does not exclude early cord compression, because acute lesions can present with flaccidity and areflexia (spinal shock) and sensory levels are often imprecise; in GBS reflexes are lost and no level is found.",
+      "pitfalls": "The Babinski sign has only fair inter-rater reliability (kappa 0.30) and agreed with known upper motor neuron weakness in just 56% of examinations; withdrawal from a ticklish sole mimics an extensor response. The clinical level often lies several segments below the true lesion, so image the whole spine.",
+      "positive_finding": "A bilateral sensory level on the trunk with hyperreflexia, clonus, or extensor plantars below it localizes to the spinal cord and, with back pain in a patient with cancer, indicates metastatic cord compression until MRI proves otherwise.",
+      "prerequisites": "Cooperative patient able to report sensation; know dermatome landmarks (T4 nipple, T10 umbilicus, L1 inguinal); compare bilaterally.",
+      "rationale": "Examining for a sensory level and UMN signs helps identify or rule out spinal cord compression, which is an emergency.",
+      "skill_assumption": null,
+      "title": "Sensory level with hyperreflexia / extensor plantar (Babinski) below the level",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_saddle_anesthesia_anal_tone",
+      "changes_what": "Positive: emergency MRI whole lumbosacral spine/urgent spinal surgical referral. Negative: does not exclude cauda equina; if suspicion persists (bilateral sciatica, retention) still image.",
+      "contraindications": "Patient refusal; rectal exam may be deferred if imaging is already being obtained emergently, but perineal sensation should still be tested.",
+      "do_not_use_when": "Do not use normal anal tone or perineal sensation to defer imaging when bilateral sciatica, new urinary retention or incontinence is present; the exam is insensitive for early cauda equina.",
+      "escalation_warning": "Any new saddle sensory change, sphincter disturbance or retention with back pain is a surgical emergency: emergent MRI and spinal referral without waiting for full deficit.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "With a chaperone and consent, test light touch and pinprick over the perineum, perianal skin, buttocks and inner thighs (S2-S5) comparing sides and asking about numbness when wiping; then digital rectal examination assessing resting anal tone, voluntary squeeze, and perianal sensation/anal wink. Pair with a bladder scan for post-void residual.",
+      "id": "exam_saddle_anesthesia_anal_tone",
+      "negative_finding": "Normal perineal sensation and anal tone do not exclude cauda equina compression - pooled sensitivities of individual red flags are only 0.19-0.43, and the diagnosis is often early or incomplete when sphincter signs are absent.",
+      "pitfalls": "Subjective perineal numbness is more sensitive than objective testing; anal tone is unreliable with prior anorectal surgery, chronic constipation or in the elderly. A large post-void residual (>500 mL) is the single most predictive bedside finding and should be checked with the exam.",
+      "positive_finding": "New saddle sensory loss or reduced anal tone in a patient with back pain and bilateral leg or sphincter symptoms is a red flag that mandates emergency MRI; pooled red flags for MRI-confirmed cauda equina are more specific (0.62-0.88) than sensitive.",
+      "prerequisites": "Chaperone, explanation and consent; document time of onset of bladder/bowel symptoms and bilateral leg symptoms.",
+      "rationale": "Testing for saddle anesthesia and anal tone is important to detect cauda equina syndrome, which requires urgent intervention.",
+      "skill_assumption": null,
+      "title": "Saddle (perineal) sensory loss and reduced anal tone",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/fn_single_breath_count",
+      "changes_what": "Count <20 (or falling >20% in 24 h): obtain FVC/NIF and ABG, escalate monitoring, prepare for airway support; count comfortably >25 and stable: continue serial checks.",
+      "contraindications": "Unreliable in severe dysarthria/aphasia, uncooperative or delirious patients, and after recent airway/oral surgery.",
+      "do_not_use_when": "Do not substitute SBC for spirometry/NIF when a decision to intubate is imminent, or in patients with bulbar dysarthria, aphasia or delirium where counting is unreliable.",
+      "escalation_warning": "SBC <=10, a fall >20% over 24 h, inability to complete a sentence, paradoxical breathing or rising PaCO2 indicate impending respiratory failure - ICU and airway readiness now.",
+      "evidence": [
+       {
+        "citation": "Kalita J, Kumar M, Misra UK. Serial single breath count is a reliable tool for monitoring respiratory functions in Guillain-Barre Syndrome. J Clin Neurosci. 2020;72:50-56.",
+        "computed": true,
+        "doi": "10.1016/j.jocn.2020.01.032",
+        "evidence_level": "single_study",
+        "interpretation_label": "both",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.1"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "18.9"
+        },
+        "pmid": "31982274",
+        "population": "94 GBS patients (age 6-70) with serial SBC at 2 Hz, India, neurology inpatients",
+        "prevalence": null,
+        "quote": "At SBC 5, need for MV could be predicted with a sensitivity of 90.6% and specificity of 95.2%",
+        "reference_standard": "Intubation per modified ABG criteria (PaO2 <60 with PaCO2 >50, or pH <7.3)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.906"
+        },
+        "setting": "inpatient",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.952"
+        },
+        "target_condition": "Need for intubation/mechanical ventilation in GBS (SBC <=5)",
+        "url": null,
+        "year": "2020"
+       },
+       {
+        "citation": "Bhandari SK, Bist A, Ghimire A. Single breath count test and its applications in clinical practice: a systematic review. Ann Med Surg (Lond). 2024;86(4):2113-2118.",
+        "computed": false,
+        "doi": "10.1097/MS9.0000000000001853",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_out",
+        "kind": "meta_analysis",
+        "location": "Table 3",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "38576972",
+        "population": "GBS patients (Kalita 2020 cohort as tabulated by systematic review)",
+        "prevalence": null,
+        "quote": "SBCT>19 had sensitivity of 95% in ruling out the need for mechanical ventilation",
+        "reference_standard": "Intubation per modified ABG criteria",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.95"
+        },
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Need for mechanical ventilation in GBS (SBC >19 rules out)",
+        "url": null,
+        "year": "2024"
+       },
+       {
+        "citation": "Kukulka K, Gummi RR, Govindarajan R. A telephonic single breath count test for screening of exacerbations of myasthenia gravis: A pilot study. Muscle Nerve. 2020;62(2):258-261.",
+        "computed": true,
+        "doi": "10.1002/mus.26987",
+        "evidence_level": "single_study",
+        "interpretation_label": "both",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.33"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "2"
+        },
+        "pmid": "32447763",
+        "population": "45 telephone calls from MG patients reporting worsening symptoms (single-center retrospective pilot)",
+        "prevalence": null,
+        "quote": "the nurse-administered telephonic SBCT had a positive predictive value of 71%, sensitivity of 80%, and specificity of 60%",
+        "reference_standard": "Clinically diagnosed MG exacerbation after emergency department evaluation",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.8"
+        },
+        "setting": "outpatient",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.6"
+        },
+        "target_condition": "Myasthenia gravis exacerbation (telephonic screening, cutoff count 25)",
+        "url": null,
+        "year": "2020"
+       },
+       {
+        "citation": "Bhandari SK, Bist A, Ghimire A. Single breath count test and its applications in clinical practice: a systematic review. Ann Med Surg (Lond). 2024;86(4):2113-2118.",
+        "computed": true,
+        "doi": "10.1097/MS9.0000000000001853",
+        "evidence_level": "single_study",
+        "interpretation_label": "both",
+        "kind": "meta_analysis",
+        "location": "Table 3",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.073"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "4.04"
+        },
+        "pmid": "38576972",
+        "population": "Hospitalized patients with a variety of diseases (Bartfield 1994 cohort as tabulated in systematic review)",
+        "prevalence": null,
+        "quote": "SBCT of 21 or less had a sensitivity and specificity of 94.4% and 76.62% for VC <20 ml/kg",
+        "reference_standard": "Spirometric vital capacity",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.944"
+        },
+        "setting": "inpatient",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.7662"
+        },
+        "target_condition": "Vital capacity <20 mL/kg (SBCT <=21)",
+        "url": null,
+        "year": "2024"
+       },
+       {
+        "citation": "Delmondes GMB, Couto NFS, Correia Junior MGA, et al. Single breath counting technique to assess pulmonary function: a systematic review and meta-analysis. J Breath Res. 2023;18(1).",
+        "computed": false,
+        "doi": "10.1088/1752-7163/ad0647",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "37875103",
+        "population": "Patients with neuromuscular dystrophy (single study within meta-analysis)",
+        "prevalence": null,
+        "quote": "a count lower than 41 for a VC below 80% of predicted in patients with neuromuscular dystrophy (Sensitivity = 89% and Specificity = 62%)",
+        "reference_standard": "Spirometric vital capacity, % predicted",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.89"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.62"
+        },
+        "target_condition": "Vital capacity <80% predicted (count <41) in neuromuscular dystrophy",
+        "url": null,
+        "year": "2023"
+       },
+       {
+        "citation": "Quinn C, McMillan CT, Owegi MA, et al. Single breath counting is an effective screening tool for forced vital capacity in ALS. Amyotroph Lateral Scler Frontotemporal Degener. 2021;22(7-8):528-534.",
+        "computed": false,
+        "doi": "10.1080/21678421.2021.1915337",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_out",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "34348533",
+        "population": "30 ALS clinic patients",
+        "prevalence": null,
+        "quote": "SBCpp had 100% sensitivity and 60% specificity (area under curve (AUC) = 0.696) for predicting FVCpred <50%",
+        "reference_standard": "Spirometric FVC % predicted",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "1"
+        },
+        "setting": "outpatient",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.6"
+        },
+        "target_condition": "FVC <50% predicted in ALS (patient-paced SBC)",
+        "url": null,
+        "year": "2021"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Patient sits upright, takes a maximal inspiration, then counts aloud from 1 upward in a normal voice at about two numbers per second (2 Hz; use a metronome/app if available) without taking another breath. Record the highest number reached; take the best of 3 attempts. Repeat serially (e.g. every 4-6 h) in evolving neuromuscular weakness.",
+      "id": "fn_single_breath_count",
+      "negative_finding": "A count >=20-25 makes severe respiratory muscle weakness (VC <20 mL/kg) unlikely; in GBS a count >19 had 95% sensitivity for ruling out need for ventilation, and in ALS a count above the cut-off had 100% sensitivity for FVC <50% predicted.",
+      "pitfalls": "Counting speed and voice loudness change the number (unpaced counts run higher); bulbar weakness, pain, COPD and anxiety lower counts without diaphragm weakness; thresholds differ by disease and study (5-41), so trend serial counts rather than fixing on one number.",
+      "positive_finding": "A low count signals reduced vital capacity: SBC <=5 predicted need for mechanical ventilation in GBS with sensitivity 0.91 and specificity 0.95; SBC <=21 identified VC <20 mL/kg in hospitalized patients (sens 0.94, spec 0.77); SBC <25 detected MG exacerbation with sensitivity 0.80.",
+      "prerequisites": "Patient can speak and follow commands; note dysarthria or facial weakness that slows counting.",
+      "rationale": "Assessing single breath count screens for respiratory muscle weakness, which can rapidly worsen in GBS and requires close monitoring.",
+      "skill_assumption": null,
+      "title": "Single breath count (count aloud on one full inspiration; <20 signals weak respiratory muscles)",
+      "type": "functional"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_back_pain_cancer_history",
+     "rationale": "A history of cancer or red flag symptoms with new back pain would make spinal cord compression more likely and prompt urgent imaging."
+    },
+    {
+     "id": "hx_rhabdo_myalgia_dark_urine",
+     "rationale": "Asking about muscle pain, dark urine, or immobilization helps screen for rhabdomyolysis as a cause of weakness."
+    }
+   ],
+   "examine": [
+    {
+     "id": "exam_ascending_symmetric_weakness_areflexia",
+     "rationale": "Checking for ascending symmetric weakness and areflexia is key for diagnosing GBS, the leading differential."
+    },
+    {
+     "id": "exam_sensory_level_upper_motor_neuron_signs",
+     "rationale": "Examining for a sensory level and UMN signs helps identify or rule out spinal cord compression, which is an emergency."
+    },
+    {
+     "id": "exam_saddle_anesthesia_anal_tone",
+     "rationale": "Testing for saddle anesthesia and anal tone is important to detect cauda equina syndrome, which requires urgent intervention."
+    },
+    {
+     "id": "fn_single_breath_count",
+     "rationale": "Assessing single breath count screens for respiratory muscle weakness, which can rapidly worsen in GBS and requires close monitoring."
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "heavy legs and trouble standing with mid-back pain",
+   "differentials": [
+    {
+     "dx": "gbs",
+     "weight": 1.0
+    },
+    {
+     "dx": "myopathy",
+     "weight": 0.214
+    },
+    {
+     "dx": "spinal_cord_compression",
+     "weight": 0.143
+    },
+    {
+     "dx": "cauda_equina",
+     "weight": 0.071
+    }
+   ],
+   "indication_tags": [],
+   "missing_features": [],
+   "modifiers": [
+    "mid-back pain worse",
+    "legs feel heavy",
+    "trouble standing"
+   ],
+   "observed_values": [],
+   "presentation": "weakness",
+   "time_course": "subacute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "p1"
+}

@@ -1,0 +1,1023 @@
+{
+ "arm": "A",
+ "ask_first": false,
+ "base_case_id": "hypotension_001",
+ "blocked_items": [],
+ "case_id": "hypotension_001_n1",
+ "created_at": "2026-09-11T11:11:44+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Coburn B, Morris AM, Tomlinson G, Detsky AS. Does this adult patient with suspected bacteremia require blood cultures? JAMA. 2012;308(5):502-511.",
+    "Tokuda Y, Miyasato H, Stein GH, Kishaba T. The degree of chills for risk of bacteremia in acute febrile illness. Am J Med. 2005;118(12):1417."
+   ],
+   "numeric_claims": [
+    "0.076",
+    "0.11",
+    "0.24",
+    "0.51",
+    "0.744",
+    "0.875",
+    "0.892",
+    "0.9",
+    "0.903",
+    "0.915",
+    "0.945",
+    "10.1001",
+    "10.1016",
+    "118",
+    "12",
+    "1417",
+    "16378800",
+    "2.95",
+    "2005",
+    "2005.06",
+    "2012",
+    "2012.8262",
+    "22851117",
+    "25",
+    "3",
+    "308",
+    "35",
+    "4.65",
+    "4.7",
+    "40",
+    "43",
+    "4566",
+    "5",
+    "502",
+    "511",
+    "526",
+    "6.86",
+    "7.2",
+    "7.6",
+    "74.4",
+    "87.5",
+    "89.2",
+    "90.3",
+    "91.5",
+    "94.5",
+    "946",
+    "95"
+   ],
+   "performance_claims": [
+    "0.11",
+    "0.24",
+    "0.51",
+    "0.744",
+    "0.875",
+    "0.892",
+    "0.903",
+    "0.915",
+    "0.945",
+    "2.95",
+    "3",
+    "4.65",
+    "4.7",
+    "6.86",
+    "7.2"
+   ],
+   "record_id": "hx_rigors_shaking_chills",
+   "section": "ask",
+   "text": "Rigors / shaking chills"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "72"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_deliriogenic_medication_review",
+   "section": "ask",
+   "text": "Deliriogenic medication review: anticholinergics, benzodiazepines, opioids, new/changed drugs, thiazides"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Shi Q, Warren L, Saposnik G, Macdermid JC. Confusion assessment method: a systematic review and meta-analysis of diagnostic accuracy. Neuropsychiatr Dis Treat 2013;9:1359-1370.",
+    "Wong CL, Holroyd-Leduc J, Simel DL, Straus SE. Does this patient have delirium?: value of bedside instruments. JAMA 2010;304:779-786."
+   ],
+   "numeric_claims": [
+    "0.09",
+    "0.16",
+    "0.29",
+    "0.69",
+    "0.82",
+    "0.87",
+    "0.91",
+    "0.99",
+    "1",
+    "10",
+    "10.1001",
+    "10.2147",
+    "100",
+    "1359",
+    "1370",
+    "16",
+    "2",
+    "2010",
+    "2010.1182",
+    "2013",
+    "20716741",
+    "22",
+    "24092976",
+    "2442",
+    "25",
+    "3",
+    "3027",
+    "304",
+    "4",
+    "49520",
+    "5",
+    "5.8",
+    "69",
+    "779",
+    "786",
+    "82",
+    "87",
+    "9",
+    "9.6",
+    "91",
+    "95",
+    "99"
+   ],
+   "performance_claims": [
+    "0.09",
+    "0.16",
+    "0.29",
+    "0.69",
+    "0.82",
+    "0.87",
+    "0.91",
+    "0.99",
+    "1",
+    "16",
+    "5.8",
+    "9.6"
+   ],
+   "record_id": "exam_cam_delirium_screen",
+   "section": "examine",
+   "text": "Confusion Assessment Method (CAM) delirium screen"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": "exam_infection_source_survey",
+   "section": "examine",
+   "text": "Focused infection-source exam (line/exit sites, skin, abdomen, joints, sacrum, urine catheter)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Drazner MH, Hellkamp AS, Leier CV, Shah MR, Miller LW, Russell SD, Young JB, Califf RM, et al. Value of clinician assessment of hemodynamics in advanced heart failure: the ESCAPE trial. Circ Heart Fail. 2009.",
+    "Guberman BA, Fowler NO, Engel PJ, Gueron M, Allen JM. Cardiac tamponade in medical patients. Circulation. 1981.",
+    "Ohle R, Kareemi HK, Wells G, Perry JJ. Clinical examination for acute aortic dissection: a systematic review and meta-analysis. Acad Emerg Med. 2019."
+   ],
+   "numeric_claims": [
+    "0.12",
+    "0.3",
+    "0.375",
+    "0.5",
+    "0.74",
+    "0.77",
+    "0.84",
+    "0.95",
+    "0.96",
+    "1",
+    "1.05",
+    "1.8",
+    "1.83",
+    "10.1111",
+    "10.1161",
+    "100",
+    "108.769778",
+    "12",
+    "13360",
+    "188",
+    "19",
+    "19675681",
+    "1981",
+    "2",
+    "2.3",
+    "2.9",
+    "20",
+    "2009",
+    "2019",
+    "21.9",
+    "25",
+    "26",
+    "29265487",
+    "3",
+    "35",
+    "4",
+    "4.6",
+    "400",
+    "42",
+    "5",
+    "56",
+    "60",
+    "633",
+    "64.3",
+    "6455217",
+    "65",
+    "68",
+    "76.1",
+    "84",
+    "9",
+    "90",
+    "95"
+   ],
+   "performance_claims": [
+    "0.12",
+    "0.375",
+    "0.77",
+    "0.84",
+    "0.95",
+    "1.05",
+    "1.8",
+    "2.9",
+    "4.6"
+   ],
+   "record_id": "exam_hypotension_sbp_lt90",
+   "section": "examine",
+   "text": "Systolic BP <90 mmHg (or MAP <65) at the bedside"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Berger T, Green J, Horeczko T, Hagar Y, Garg N, Suarez A, Panacek E, Shapiro N. Shock index and early recognition of sepsis in the emergency department: pilot study. West J Emerg Med. 2013.",
+    "Birkhahn RH, Gaeta TJ, Van Deusen SK, Tloczkowski J. The ability of traditional vital signs and shock index to identify ruptured ectopic pregnancy. Am J Obstet Gynecol. 2003.",
+    "DeMuro JP, Simmons S, Jax J, Gianelli SM. Application of the Shock Index to the prediction of need for hemostasis intervention. Am J Emerg Med. 2013."
+   ],
+   "numeric_claims": [
+    "0.115",
+    "0.27",
+    "0.4",
+    "0.42",
+    "0.48",
+    "0.49",
+    "0.5",
+    "0.52",
+    "0.54",
+    "0.545",
+    "0.63",
+    "0.64",
+    "0.67",
+    "0.7",
+    "0.72",
+    "0.761",
+    "0.78",
+    "0.8",
+    "0.81",
+    "0.83",
+    "0.874",
+    "0.9",
+    "0.936",
+    "1",
+    "1.43",
+    "10.1016",
+    "10.1067",
+    "10.5811",
+    "11",
+    "11.5",
+    "11546",
+    "14634556",
+    "16",
+    "2",
+    "2.53",
+    "2003",
+    "2012.8",
+    "2013",
+    "2013.05",
+    "2019",
+    "23599863",
+    "23806728",
+    "24",
+    "25",
+    "2524",
+    "27",
+    "28",
+    "290",
+    "3",
+    "36",
+    "4",
+    "4277",
+    "48",
+    "52",
+    "54.5",
+    "55",
+    "6.04",
+    "663",
+    "67",
+    "72",
+    "76.1",
+    "8.5",
+    "8.52",
+    "87.4",
+    "93.6",
+    "9378",
+    "94",
+    "96"
+   ],
+   "performance_claims": [
+    "0.27",
+    "0.4",
+    "0.42",
+    "0.48",
+    "0.49",
+    "0.545",
+    "0.64",
+    "0.67",
+    "0.72",
+    "0.761",
+    "0.81",
+    "0.83",
+    "0.874",
+    "0.936",
+    "1.43",
+    "2.53",
+    "6.04",
+    "8.52"
+   ],
+   "record_id": "exam_shock_index",
+   "section": "examine",
+   "text": "Shock index (HR / SBP >= 0.9-1.0)"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "candidates": [
+   "exam_cam_delirium_screen",
+   "fn_attention_months_backward",
+   "exam_infection_source_survey",
+   "hx_rigors_shaking_chills",
+   "exam_bladder_percussion_palpable",
+   "hx_dysuria_frequency",
+   "hx_deliriogenic_medication_review",
+   "exam_orthostatic_vitals",
+   "exam_dry_axilla",
+   "exam_dry_mucous_membranes",
+   "exam_skin_turgor",
+   "hx_hypotensive_medication_review",
+   "exam_tachypnea_rr_gt24",
+   "exam_pupils_eye_movements_toxidrome",
+   "exam_nec_fasc_hard_signs",
+   "exam_capillary_refill",
+   "exam_cool_extremities",
+   "exam_hypotension_sbp_lt90",
+   "exam_mottling_score",
+   "exam_shock_index",
+   "exam_tachycardia_resting",
+   "fn_passive_leg_raise",
+   "exam_anaphylaxis_signs",
+   "exam_pulsatile_abdominal_mass",
+   "hx_dizziness_timing_triggers",
+   "hx_nephrotoxin_contrast_exposure",
+   "hx_postural_dizziness",
+   "exam_line_exit_site_erythema_purulence",
+   "exam_conjunctival_pallor",
+   "exam_jvp_elevated",
+   "exam_melena_rectal_exam",
+   "exam_peripheral_edema_pitting",
+   "hx_edema_causing_medications"
+  ],
+  "card": {
+   "chief_complaint": "new confusion and fever",
+   "presentation": "ams",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_rigors_shaking_chills",
+      "changes_what": "Shaking chills should prompt blood cultures and a search for a bacteremic source (line, biliary, urinary, endovascular); no chills supports withholding cultures when pretest probability is low.",
+      "contraindications": "None.",
+      "do_not_use_when": "The RCE conclusions do not apply to immunocompromised patients or when endocarditis is suspected; in those groups obtain cultures regardless of chills.",
+      "escalation_warning": "Rigors with hypotension, altered mentation or a central line indicate probable bacteremia/sepsis: cultures, source control and antibiotics within the hour.",
+      "evidence": [
+       {
+        "citation": "Coburn B, Morris AM, Tomlinson G, Detsky AS. Does this adult patient with suspected bacteremia require blood cultures? JAMA. 2012;308(5):502-511.",
+        "computed": false,
+        "doi": "10.1001/jama.2012.8262",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "7.2",
+         "ci_low": "3",
+         "value": "4.7"
+        },
+        "pmid": "22851117",
+        "population": "Adult immunocompetent patients in whom bacteremia was suspected (35 studies; 4566 bacteremia and 25,946 negative episodes)",
+        "prevalence": null,
+        "quote": "The severity of chills graded on an ordinal scale (shaking chills, LR, 4.7; 95% CI, 3.0-7.2) may be more useful.",
+        "reference_standard": "Blood cultures",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Bacteremia (true-positive blood culture)",
+        "url": null,
+        "year": "2012"
+       },
+       {
+        "citation": "Tokuda Y, Miyasato H, Stein GH, Kishaba T. The degree of chills for risk of bacteremia in acute febrile illness. Am J Med. 2005;118(12):1417.",
+        "computed": false,
+        "doi": "10.1016/j.amjmed.2005.06.043",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "6.86",
+         "ci_low": "2.95",
+         "value": "4.65"
+        },
+        "pmid": "16378800",
+        "population": "526 consecutive adults with acute febrile illness (40, 7.6%, bacteremic)",
+        "prevalence": "0.076",
+        "quote": "Shaking chills showed a specificity of 90.3% (95% CI 89.2-91.5) and positive likelihood ratio of 4.65 (95% CI 2.95-6.86).",
+        "reference_standard": "Blood cultures",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": {
+         "ci_high": "0.915",
+         "ci_low": "0.892",
+         "value": "0.903"
+        },
+        "target_condition": "Bacteremia - finding: shaking chills (whole-body shaking under a thick blanket)",
+        "url": null,
+        "year": "2005"
+       },
+       {
+        "citation": "Tokuda Y, Miyasato H, Stein GH, Kishaba T. The degree of chills for risk of bacteremia in acute febrile illness. Am J Med. 2005;118(12):1417.",
+        "computed": false,
+        "doi": "10.1016/j.amjmed.2005.06.043",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_out",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.51",
+         "ci_low": "0.11",
+         "value": "0.24"
+        },
+        "lr_positive": null,
+        "pmid": "16378800",
+        "population": "526 consecutive adults with acute febrile illness (40, 7.6%, bacteremic)",
+        "prevalence": "0.076",
+        "quote": "The absence of chills showed a sensitivity of 87.5% (95% CI 74.4-94.5) and negative likelihood ratio of 0.24 (95% CI 0.11-0.51).",
+        "reference_standard": "Blood cultures",
+        "sensitivity": {
+         "ci_high": "0.945",
+         "ci_low": "0.744",
+         "value": "0.875"
+        },
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Bacteremia - finding: any chills (sensitivity and LR- refer to absence of chills)",
+        "url": null,
+        "year": "2005"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Ask the patient (or witnesses) whether they have had chills and grade the worst episode: mild = feeling cold, needing a jacket; moderate = needing a thick blanket; shaking chills = whole-body shaking even under a thick blanket. Record timing relative to fever and any line, procedure or infusion.",
+      "id": "hx_rigors_shaking_chills",
+      "negative_finding": "Absence of any chills lowers the probability of bacteremia (LR- 0.24) but does not exclude it, particularly in elderly or immunocompromised patients who may not mount rigors.",
+      "pitfalls": "Rigors also occur with malaria, transfusion or drug reactions, and after amphotericin or contaminated infusions; the grading relies on patient recall and the RCE data exclude immunocompromised patients and suspected endocarditis.",
+      "positive_finding": "Shaking (rigor-grade) chills raise the probability of bacteremia about 4.7-fold (LR+ 4.7, 95% CI 3.0-7.2; specificity 0.90) and justify blood cultures before antibiotics.",
+      "prerequisites": "Patient or witness able to describe the episode; ask before antipyretics blunt recall.",
+      "rationale": "Rigors suggest bacteremia and can help prioritize blood cultures and source search in this septic, post-op patient.",
+      "skill_assumption": null,
+      "title": "Rigors / shaking chills",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_deliriogenic_medication_review",
+      "changes_what": "Positive: stop or taper the culprit and check sodium; the review is additive to, not a replacement for, the infectious/metabolic delirium workup.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not delay sepsis, hypoglycemia or stroke evaluation while the medication list is being reconciled.",
+      "escalation_warning": "Abrupt benzodiazepine or opioid withdrawal can itself cause delirium, seizures or severe pain; taper rather than stop in chronic users.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Reconcile every current drug (including OTC, PRN and recently stopped) against the admission list and the last 72 h MAR. Flag anticholinergics, benzodiazepines/Z-drugs, opioids, dihydropyridines, antihistamines, steroids, any drug added or dose-changed in the past week, and diuretics/thiazides (sodium).",
+      "id": "hx_deliriogenic_medication_review",
+      "negative_finding": "No culprit drug identified does not exclude delirium or medication effect; look for infection, metabolic and structural causes.",
+      "pitfalls": "Risk data are relative risks/odds ratios from cohort studies, not diagnostic sensitivity or specificity, so no LR can be assigned. Untreated severe pain also precipitates delirium, so opioids should be tapered rather than abruptly withdrawn.",
+      "positive_finding": "One or more deliriogenic drugs or a recent addition/dose change temporally preceding the mental-status change. More than three drugs added during admission roughly triples delirium risk in older inpatients.",
+      "prerequisites": "Reliable medication history from chart, pharmacy record or family; time of each new start or dose change.",
+      "rationale": "Medication review is essential as new or changed drugs can precipitate delirium, especially post-operatively.",
+      "skill_assumption": null,
+      "title": "Deliriogenic medication review: anticholinergics, benzodiazepines, opioids, new/changed drugs, thiazides",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/exam_cam_delirium_screen",
+      "changes_what": "Positive: label as delirium and work up precipitants; negative: pursue dementia, depression, psychosis or focal neurology but rescreen if course fluctuates.",
+      "contraindications": "None.",
+      "do_not_use_when": "Not a substitute for glucose, vitals, and focal neurological exam in acute mental-status change; use CAM-ICU in ventilated or non-verbal patients.",
+      "escalation_warning": "A positive CAM with fever, meningism, focal deficit or reduced consciousness needs urgent evaluation for meningitis, stroke or sepsis regardless of screen result.",
+      "evidence": [
+       {
+        "citation": "Wong CL, Holroyd-Leduc J, Simel DL, Straus SE. Does this patient have delirium?: value of bedside instruments. JAMA 2010;304:779-786.",
+        "computed": false,
+        "doi": "10.1001/jama.2010.1182",
+        "evidence_level": "pooled",
+        "interpretation_label": "both",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.29",
+         "ci_low": "0.09",
+         "value": "0.16"
+        },
+        "lr_positive": {
+         "ci_high": "16",
+         "ci_low": "5.8",
+         "value": "9.6"
+        },
+        "pmid": "20716741",
+        "population": "Hospitalized adults, mostly older medical/surgical inpatients, across 25 prospective studies (N=3027)",
+        "prevalence": null,
+        "quote": "the CAM has the best available supportive data as a bedside delirium instrument (summary-positive LR, 9.6; 95% CI, 5.8-16.0; summary-negative LR, 0.16; 95% CI, 0.09-0.29)",
+        "reference_standard": "DSM-based diagnosis by geriatrician, psychiatrist or neurologist",
+        "sensitivity": null,
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Delirium (DSM-based diagnosis)",
+        "url": null,
+        "year": "2010"
+       },
+       {
+        "citation": "Shi Q, Warren L, Saposnik G, Macdermid JC. Confusion assessment method: a systematic review and meta-analysis of diagnostic accuracy. Neuropsychiatr Dis Treat 2013;9:1359-1370.",
+        "computed": false,
+        "doi": "10.2147/NDT.S49520",
+        "evidence_level": "pooled",
+        "interpretation_label": "both",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results; Results text and Figure 2 (bivariate estimate)",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "24092976",
+        "population": "Adults in a variety of medical settings; 22 studies of CAM and CAM-ICU (n=2442)",
+        "prevalence": null,
+        "quote": "The pooled sensitivities and specificity for CAM were 82% (95% confidence interval [CI]: 69%-91%) and 99% (95% CI: 87%-100%)",
+        "reference_standard": "DSM-IV criteria",
+        "sensitivity": {
+         "ci_high": "0.91",
+         "ci_low": "0.69",
+         "value": "0.82"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "1",
+         "ci_low": "0.87",
+         "value": "0.99"
+        },
+        "target_condition": "Delirium (DSM-IV)",
+        "url": null,
+        "year": "2013"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "After a brief cognitive test (e.g. months backwards, digit span) and interview, score four features: (1) acute onset and fluctuating course from an informant/chart, (2) inattention, (3) disorganized thinking, (4) altered level of consciousness. CAM positive = features 1 AND 2 plus either 3 or 4. Takes about 5 minutes.",
+      "id": "exam_cam_delirium_screen",
+      "negative_finding": "Negative CAM lowers the probability substantially (pooled LR- 0.16) but pooled sensitivity is only ~0.82; repeat the screen if fluctuation is suspected.",
+      "pitfalls": "Accuracy falls with untrained raters and without a formal attention test; dementia, aphasia and hypoactive delirium lower sensitivity. The CAM identifies delirium, not its cause.",
+      "positive_finding": "Positive CAM makes delirium roughly 10 times more likely (pooled LR+ 9.6) and should trigger a search for the precipitant (infection, drugs, metabolic, withdrawal).",
+      "prerequisites": "Baseline cognition from a collateral source; trained rater; patient able to respond (use CAM-ICU for intubated/non-verbal patients).",
+      "rationale": "CAM screen confirms delirium, guiding the workup toward infectious or metabolic precipitants.",
+      "skill_assumption": null,
+      "title": "Confusion Assessment Method (CAM) delirium screen",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_infection_source_survey",
+      "changes_what": "A positive survey targets cultures, imaging and source control (line removal, drainage, debridement); a negative survey mandates blood/urine cultures and imaging rather than reassurance.",
+      "contraindications": "None; do not delay cultures and antibiotics in suspected sepsis while completing the survey.",
+      "do_not_use_when": "Never let a negative source survey withhold cultures, empiric antibiotics or imaging in a hypotensive, febrile or acutely confused patient with suspected infection.",
+      "escalation_warning": "Crepitus, bullae, skin necrosis or pain out of proportion (necrotizing fasciitis), a hot joint, peritonism, or purulence at a central line/dialysis catheter in a septic patient require immediate surgical/source-control and line removal decisions.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Undress and inspect every line, dialysis and drain/exit site (erythema, purulence, tunnel tenderness), all skin including back, sacrum, heels, perineum, injection sites and wounds; palpate abdomen (peritonism, Murphy sign, flank tenderness), joints and spine for warmth/effusion/tenderness; check urinary catheter, mouth, sinuses, ears and chest. Repeat daily while the source is unknown.",
+      "id": "exam_infection_source_survey",
+      "negative_finding": "A normal survey does not exclude an occult source: insertion-site inflammation is absent in nearly all catheter-related bloodstream infections, and intra-abdominal, urinary, endovascular and spinal infections are frequently silent in elderly, immunosuppressed or sedated patients.",
+      "pitfalls": "Line-site appearance has near-zero sensitivity for CRBSI (coagulase-negative staphylococci cause little inflammation); steroids, neutropenia and neuropathy blunt local signs; dressings, obesity and immobility hide sacral, perineal and injection-site infections. Pain out of proportion with unimpressive skin findings suggests necrotizing infection.",
+      "positive_finding": "Purulence, spreading erythema or tunnel tenderness at a line/exit site, cellulitis or crepitus, a hot swollen joint, peritonism or flank tenderness, or a sacral/heel ulcer with surrounding infection identifies a probable source and directs cultures, source control and empiric therapy.",
+      "prerequisites": "Full exposure with dressings taken down, adequate lighting and analgesia; review lines, catheters and devices with their insertion dates; log-roll immobile patients to view the sacrum.",
+      "rationale": "A focused infection-source exam is critical to identify and control the source in a septic, post-op patient with a Foley.",
+      "skill_assumption": null,
+      "title": "Focused infection-source exam (line/exit sites, skin, abdomen, joints, sacrum, urine catheter)",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_hypotension_sbp_lt90",
+      "changes_what": "SBP <90/MAP <65: resuscitate, lactate, POCUS (RUSH) to classify shock type, cause-directed therapy now. Normal BP: keep looking for compensated shock (HR, lactate, mentation, urine output).",
+      "contraindications": "Avoid the arm with a dialysis fistula, lymphoedema or recent axillary surgery; none otherwise.",
+      "do_not_use_when": "Do not use a single normal cuff reading to exclude shock or tamponade; do not interpret SBP <90 as 'baseline' without documented prior values.",
+      "escalation_warning": "SBP <90 or MAP <65 with altered mentation, lactate >2, oliguria or cool skin is shock: immediate resuscitation and senior/ICU review; in suspected dissection or tamponade, hypotension signals imminent collapse.",
+      "evidence": [
+       {
+        "citation": "Ohle R, Kareemi HK, Wells G, Perry JJ. Clinical examination for acute aortic dissection: a systematic review and meta-analysis. Acad Emerg Med. 2019.",
+        "computed": false,
+        "doi": "10.1111/acem.13360",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "4.6",
+         "ci_low": "1.8",
+         "value": "2.9"
+        },
+        "pmid": "29265487",
+        "population": "Pooled 4 studies of ED patients evaluated for suspected acute aortic dissection (review total 9 studies, 2,400 participants; prevalence range 21.9-76.1%)",
+        "prevalence": null,
+        "quote": "hypotension (n = 4, specificity = 95%, LR+ = 2.9 95% CI = 1.8-4.6, I2 = 42%)",
+        "reference_standard": "Acute aortic dissection confirmed by imaging, surgery or autopsy per primary studies",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.95"
+        },
+        "target_condition": "Acute aortic dissection; finding = hypotension as defined by each primary study (thresholds varied; not uniformly SBP <90 mmHg)",
+        "url": null,
+        "year": "2019"
+       },
+       {
+        "citation": "Drazner MH, Hellkamp AS, Leier CV, Shah MR, Miller LW, Russell SD, Young JB, Califf RM, et al. Value of clinician assessment of hemodynamics in advanced heart failure: the ESCAPE trial. Circ Heart Fail. 2009.",
+        "computed": true,
+        "doi": "10.1161/CIRCHEARTFAILURE.108.769778",
+        "evidence_level": "single_study",
+        "interpretation_label": "minimal",
+        "kind": "primary_study",
+        "location": "Table 5 (Utility of history and physical examination in detecting an invasively measured cardiac index <2.3 L/min/m2); columns frequency, sensitivity, specificity, PPV, NPV, LR+, LR-, OR, P",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "1.05"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.77"
+        },
+        "pmid": "19675681",
+        "population": "188 patients hospitalised with advanced decompensated HF in the ESCAPE trial with pulmonary artery catheter measurements",
+        "prevalence": null,
+        "quote": "SBP < 90 25/188 12 84 68 26 0.77 0.96 0.74 (0.30, 1.83) 0.5",
+        "reference_standard": "Invasively measured cardiac index <2.3 L/min/m2 by pulmonary artery catheter",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.12"
+        },
+        "setting": "inpatient",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.84"
+        },
+        "target_condition": "Low cardiac index <2.3 L/min/m2 in advanced heart failure; finding = SBP <90 mmHg on baseline examination",
+        "url": null,
+        "year": "2009"
+       },
+       {
+        "citation": "Guberman BA, Fowler NO, Engel PJ, Gueron M, Allen JM. Cardiac tamponade in medical patients. Circulation. 1981.",
+        "computed": true,
+        "doi": "10.1161/01.cir.64.3.633",
+        "evidence_level": "single_study",
+        "interpretation_label": "minimal",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "6455217",
+        "population": "56 medical patients with cardiac tamponade, single-centre case series, University of Cincinnati",
+        "prevalence": null,
+        "quote": "heart sounds were diminished in 19 patients; arterial systolic pressure was greater than or equal to 100 mm Hg in 35",
+        "reference_standard": "Clinical/haemodynamic diagnosis of tamponade with relief by pericardiocentesis or pericardial resection",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.375"
+        },
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Cardiac tamponade (sensitivity only); finding = systolic BP <100 mmHg (threshold differs from id title's <90)",
+        "url": null,
+        "year": "1981"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Measure with a correctly sized cuff on a supported arm (manual if the automated reading is doubtful or the pulse is irregular), repeat, and measure both arms when dissection is possible; calculate MAP = (SBP + 2 x DBP)/3. Interpret against the patient's usual pressure and drug list.",
+      "id": "exam_hypotension_sbp_lt90",
+      "negative_finding": "A normal SBP does not exclude shock (compensated haemorrhage, early sepsis, cardiogenic shock with vasoconstriction) or tamponade (about 60% of tamponade patients had SBP \u2265100), nor low cardiac index in heart failure (SBP <90 sensitivity 12%).",
+      "pitfalls": "Chronic hypertensives are hypoperfused at 'normal' pressures; beta-blockers, pacemakers and automated cuffs in AF mislead. Interarm difference >20 mmHg raises dissection concern. Cuff readings overestimate true pressure in profound vasoconstriction.",
+      "positive_finding": "SBP <90 (or MAP <65) is shock until proven otherwise and should trigger a search for the cause (septic, hypovolaemic/haemorrhagic, cardiogenic, obstructive: tamponade/PE/tension pneumothorax, anaphylaxis, adrenal). In suspected dissection, hypotension roughly triples the odds (LR+ 2.9, specificity 95%). It is not a discriminator between causes.",
+      "prerequisites": "Appropriate cuff size; awareness of baseline BP, beta-blockers/antihypertensives and pacing.",
+      "rationale": "Bedside confirmation of hypotension is key for immediate resuscitation and shock management.",
+      "skill_assumption": null,
+      "title": "Systolic BP <90 mmHg (or MAP <65) at the bedside",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_shock_index",
+      "changes_what": "Elevated SI: escalate to resuscitation, early lactate, source/bleeding search and transfusion readiness; normal SI: do not de-escalate on this alone.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not rely on SI in patients on beta-blockers or with pacemakers, in pregnancy beyond the first trimester, or in children (use age-adjusted SIPA).",
+      "escalation_warning": "SI >=1.0 with a bleeding source, suspected AAA, PE or infection indicates shock and warrants immediate resuscitation, senior review and ICU-level care.",
+      "evidence": [
+       {
+        "citation": "DeMuro JP, Simmons S, Jax J, Gianelli SM. Application of the Shock Index to the prediction of need for hemostasis intervention. Am J Emerg Med. 2013.",
+        "computed": true,
+        "doi": "10.1016/j.ajem.2013.05.027",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.49"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "8.52"
+        },
+        "pmid": "23806728",
+        "population": "4277 adult (>16 y) trauma patients at a single trauma centre over 11 years; traumatic brain injury and transfers excluded; retrospective",
+        "prevalence": null,
+        "quote": "using the standard SI cutoff of >0.9 as the threshold for bleeding, the sensitivity is 54.5%, with a specificity of 93.6%",
+        "reference_standard": "Bleeding requiring intervention for hemostasis (study definition; the Koch 2019 review summarises it as >=2 units PRBC in 24 h)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.545"
+        },
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.936"
+        },
+        "target_condition": "PROGNOSTIC: Hemorrhage requiring hemostasis intervention after trauma \u2014 SI >0.9 (initial hospital vitals)",
+        "url": null,
+        "year": "2013"
+       },
+       {
+        "citation": "DeMuro JP, Simmons S, Jax J, Gianelli SM. Application of the Shock Index to the prediction of need for hemostasis intervention. Am J Emerg Med. 2013.",
+        "computed": true,
+        "doi": "10.1016/j.ajem.2013.05.027",
+        "evidence_level": "single_study",
+        "interpretation_label": "both",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.27"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "6.04"
+        },
+        "pmid": "23806728",
+        "population": "4277 adult (>16 y) trauma patients at a single trauma centre over 11 years; traumatic brain injury and transfers excluded; retrospective",
+        "prevalence": null,
+        "quote": "Lowering the SI to \u22650.8 increases the sensitivity to 76.1%, with a specificity of 87.4%",
+        "reference_standard": "Bleeding requiring intervention for hemostasis (study definition; the Koch 2019 review summarises it as >=2 units PRBC in 24 h)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.761"
+        },
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.874"
+        },
+        "target_condition": "PROGNOSTIC: Hemorrhage requiring hemostasis intervention after trauma \u2014 SI >=0.8 (lowered threshold)",
+        "url": null,
+        "year": "2013"
+       },
+       {
+        "citation": "Berger T, Green J, Horeczko T, Hagar Y, Garg N, Suarez A, Panacek E, Shapiro N. Shock index and early recognition of sepsis in the emergency department: pilot study. West J Emerg Med. 2013.",
+        "computed": true,
+        "doi": "10.5811/westjem.2012.8.11546",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Full text (PMC), Table 3 'Performance of predictors for hyperlactatemia', column SI \u2265 1.0",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.64"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "2.53"
+        },
+        "pmid": "23599863",
+        "population": "2524 adult ED patients with suspected infection screened for severe sepsis; retrospective; hyperlactatemia in 290 (11.5%)",
+        "prevalence": "0.115",
+        "quote": "Sensitivity  0.48  0.78  0.83  0.63    Specificity  0.81  0.52  0.42  0.54",
+        "reference_standard": "Initial serum lactate >=4.0 mmol/L (hyperlactatemia as surrogate for severe sepsis)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.48"
+        },
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.81"
+        },
+        "target_condition": "Hyperlactatemia (lactate >=4.0 mmol/L) in ED patients with suspected infection \u2014 SI >=1.0 at triage",
+        "url": null,
+        "year": "2013"
+       },
+       {
+        "citation": "Berger T, Green J, Horeczko T, Hagar Y, Garg N, Suarez A, Panacek E, Shapiro N. Shock index and early recognition of sepsis in the emergency department: pilot study. West J Emerg Med. 2013.",
+        "computed": true,
+        "doi": "10.5811/westjem.2012.8.11546",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Full text (PMC), Table 3 'Performance of predictors for hyperlactatemia', column SI \u2265 0.7",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.4"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "1.43"
+        },
+        "pmid": "23599863",
+        "population": "2524 adult ED patients with suspected infection screened for severe sepsis; retrospective; hyperlactatemia in 290 (11.5%)",
+        "prevalence": "0.115",
+        "quote": "Sensitivity  0.48  0.78  0.83  0.63    Specificity  0.81  0.52  0.42  0.54",
+        "reference_standard": "Initial serum lactate >=4.0 mmol/L (hyperlactatemia as surrogate for severe sepsis)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.83"
+        },
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.42"
+        },
+        "target_condition": "Hyperlactatemia (lactate >=4.0 mmol/L) in ED patients with suspected infection \u2014 SI >=0.7 at triage",
+        "url": null,
+        "year": "2013"
+       },
+       {
+        "citation": "Birkhahn RH, Gaeta TJ, Van Deusen SK, Tloczkowski J. The ability of traditional vital signs and shock index to identify ruptured ectopic pregnancy. Am J Obstet Gynecol. 2003.",
+        "computed": false,
+        "doi": "10.1067/s0002-9378(03)00663-x",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "14634556",
+        "population": "52 ED patients with ectopic pregnancy (25 ruptured, 27 unruptured); retrospective case-control",
+        "prevalence": null,
+        "quote": "sensitivity for heart rate, systolic blood pressure, and heart rate/systolic blood pressure was 28%, 36%, and 72% respectively; the specificity was 96%, 96%, and 67%",
+        "reference_standard": "Tubal rupture/hemoperitoneum at surgery",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.72"
+        },
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.67"
+        },
+        "target_condition": "Ruptured ectopic pregnancy (hemoperitoneum) \u2014 SI (HR/SBP) >0.7 at presentation; case-control design",
+        "url": null,
+        "year": "2003"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Divide the heart rate (beats/min) by the systolic blood pressure (mmHg) from the first set of triage vital signs; normal is roughly 0.5-0.7. Record the threshold used (>0.9 or >=1.0) and recalculate with each new set of vitals to follow the trend.",
+      "id": "exam_shock_index",
+      "negative_finding": "A normal SI does not exclude bleeding or sepsis (sensitivity 55% for hemorrhage at >0.9; 48% for lactate >=4 at >=1.0); lowering the threshold to 0.7-0.8 improves sensitivity at the cost of specificity.",
+      "pitfalls": "Beta-blockade, pacing, hypertension and age blunt the index; pain, anxiety, fever, and anemia raise it without shock. A single value is less informative than the trend.",
+      "positive_finding": "SI >0.9 in trauma has specificity ~94% for hemorrhage needing hemostasis (LR+ ~8.5 computed) and SI >=1.0 in suspected infection is the most specific vital-sign predictor of hyperlactatemia (spec 0.81); an elevated SI flags occult shock when HR and SBP each look acceptable.",
+      "prerequisites": "Accurate HR and SBP; note beta-blockers, calcium-channel blockers, pacemakers and baseline hypertension.",
+      "rationale": "Shock index helps rapidly risk-stratify and escalate care in a patient with hypotension and tachycardia.",
+      "skill_assumption": null,
+      "title": "Shock index (HR / SBP >= 0.9-1.0)",
+      "type": "exam"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_rigors_shaking_chills",
+     "rationale": "Rigors suggest bacteremia and can help prioritize blood cultures and source search in this septic, post-op patient."
+    },
+    {
+     "id": "hx_deliriogenic_medication_review",
+     "rationale": "Medication review is essential as new or changed drugs can precipitate delirium, especially post-operatively."
+    }
+   ],
+   "examine": [
+    {
+     "id": "exam_cam_delirium_screen",
+     "rationale": "CAM screen confirms delirium, guiding the workup toward infectious or metabolic precipitants."
+    },
+    {
+     "id": "exam_infection_source_survey",
+     "rationale": "A focused infection-source exam is critical to identify and control the source in a septic, post-op patient with a Foley."
+    },
+    {
+     "id": "exam_hypotension_sbp_lt90",
+     "rationale": "Bedside confirmation of hypotension is key for immediate resuscitation and shock management."
+    },
+    {
+     "id": "exam_shock_index",
+     "rationale": "Shock index helps rapidly risk-stratify and escalate care in a patient with hypotension and tachycardia."
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "new confusion and fever",
+   "differentials": [
+    {
+     "dx": "delirium_infectious",
+     "weight": 1.0
+    },
+    {
+     "dx": "septic_shock",
+     "weight": 0.286
+    },
+    {
+     "dx": "hypovolemic_hemorrhagic_shock",
+     "weight": 0.071
+    },
+    {
+     "dx": "medication_effect",
+     "weight": 0.071
+    }
+   ],
+   "indication_tags": [
+    "acute_onset",
+    "febrile",
+    "post_operative",
+    "elderly"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "third day post hip fracture repair",
+    "long-term Foley",
+    "new confusion"
+   ],
+   "observed_values": [
+    "temp 38.4",
+    "BP 86/50",
+    "pulse 112"
+   ],
+   "presentation": "ams",
+   "time_course": "acute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "n1"
+}

@@ -1,0 +1,546 @@
+{
+ "arm": "A",
+ "ask_first": false,
+ "base_case_id": "abdominal_pain_001",
+ "blocked_items": [],
+ "case_id": "abdominal_pain_001_n1",
+ "created_at": "2026-09-11T10:56:59+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Benabbas R, Hanna M, Shah J, Sinert R. Diagnostic Accuracy of History, Physical Examination, Laboratory Tests, and Point-of-care Ultrasound for Pediatric Acute Appendicitis in the Emergency Department: A Systematic Review and Meta-analysis. Acad Emerg Med. 2017;24(5):523-551."
+   ],
+   "numeric_claims": [
+    "10.1111",
+    "13181",
+    "2.2",
+    "2017",
+    "21",
+    "24",
+    "28214369",
+    "3.59",
+    "4.8",
+    "4.81",
+    "5",
+    "523",
+    "551",
+    "6.44",
+    "8605",
+    "95"
+   ],
+   "performance_claims": [
+    "3.59",
+    "4.81",
+    "6.44"
+   ],
+   "record_id": "hx_rlq_pain_migration",
+   "section": "ask",
+   "text": "Right lower quadrant pain with periumbilical-to-RLQ migration"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Alayed KA, Tan C, Daneman N. Red Flags for Necrotizing Fasciitis: A Case Control Study. International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases. 2016."
+   ],
+   "numeric_claims": [
+    "0.5",
+    "10.1016",
+    "2004",
+    "2013",
+    "2015.04",
+    "2016",
+    "21",
+    "25975653",
+    "4.5",
+    "6",
+    "7"
+   ],
+   "performance_claims": [
+    "4.5"
+   ],
+   "record_id": "hx_pain_out_of_proportion_exam",
+   "section": "ask",
+   "text": "Pain out of proportion to examination findings"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Becker T, Kharbanda A, Bachur R. Atypical clinical features of pediatric appendicitis. Acad Emerg Med. 2007;14(2):124-129."
+   ],
+   "numeric_claims": [
+    "0.36",
+    "0.53",
+    "0.6",
+    "0.63",
+    "10.1197",
+    "11.9",
+    "124",
+    "129",
+    "14",
+    "17192449",
+    "2",
+    "2006.08",
+    "2007",
+    "36",
+    "47",
+    "755",
+    "9"
+   ],
+   "performance_claims": [
+    "0.53",
+    "0.63"
+   ],
+   "record_id": "exam_abdominal_rigidity_guarding",
+   "section": "examine",
+   "text": "Involuntary guarding / board-like rigidity"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Bundy DG, Byerley JS, Liles EA, Perrin EM, Katznelson J, Rice HE. Does this child have appendicitis? JAMA. 2007;298(4):438-451.",
+    "Golledge J, Toms AP, Franklin IJ, Scriven MW, Galland RB. Assessment of peritonism in appendicitis. Ann R Coll Surg Engl. 1996;78(1):11-14."
+   ],
+   "numeric_claims": [
+    "0.14",
+    "0.2",
+    "0.28",
+    "0.44",
+    "0.55",
+    "0.82",
+    "0.89",
+    "1",
+    "10.1001",
+    "100",
+    "11",
+    "14",
+    "17652298",
+    "18",
+    "1996",
+    "2.3",
+    "2007",
+    "25",
+    "298",
+    "298.4",
+    "3",
+    "3.9",
+    "4",
+    "438",
+    "44",
+    "451",
+    "7.45",
+    "78",
+    "81",
+    "86",
+    "8659965",
+    "95"
+   ],
+   "performance_claims": [
+    "0.14",
+    "0.2",
+    "0.28",
+    "0.55",
+    "0.82",
+    "0.89",
+    "2.3",
+    "3",
+    "3.9",
+    "7.45"
+   ],
+   "record_id": "exam_rebound_tenderness",
+   "section": "examine",
+   "text": "Rebound tenderness (peritoneal irritation)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "12",
+    "1996",
+    "3.29"
+   ],
+   "performance_claims": [],
+   "record_id": "exam_rlq_tenderness_mcburney",
+   "section": "examine",
+   "text": "RLQ (McBurney point) tenderness"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "candidates": [
+   "exam_abdominal_rigidity_guarding",
+   "exam_rebound_tenderness",
+   "exam_rlq_tenderness_mcburney",
+   "hx_rlq_pain_migration",
+   "exam_llq_tenderness",
+   "hx_epigastric_pain_radiating_back",
+   "hx_pain_out_of_proportion_exam",
+   "exam_abdominal_distension",
+   "exam_ascites_flank_dullness_fluid_wave",
+   "exam_cirrhosis_stigmata",
+   "exam_shifting_dullness",
+   "exam_spider_nevi"
+  ],
+  "card": {
+   "chief_complaint": "belly pain moving to right lower side with no appetite and fever",
+   "presentation": "abdominal_pain",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_rlq_pain_migration",
+      "changes_what": "Migration present: treat as likely appendicitis, obtain imaging or surgical review; absent: keep appendicitis on the differential but weigh alternatives.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use absence of migration to exclude appendicitis in young children, the elderly, pregnancy or patients with unreliable histories.",
+      "escalation_warning": "Migration followed by sudden generalised pain and rigidity suggests perforation: urgent surgical review.",
+      "evidence": [
+       {
+        "citation": "Benabbas R, Hanna M, Shah J, Sinert R. Diagnostic Accuracy of History, Physical Examination, Laboratory Tests, and Point-of-care Ultrasound for Pediatric Acute Appendicitis in the Emergency Department: A Systematic Review and Meta-analysis. Acad Emerg Med. 2017;24(5):523-551.",
+        "computed": false,
+        "doi": "10.1111/acem.13181",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "6.44",
+         "ci_low": "3.59",
+         "value": "4.81"
+        },
+        "pmid": "28214369",
+        "population": "ED pediatric patients with undifferentiated abdominal pain; pooled from included studies (systematic review of 21 studies, 8605 patients overall)",
+        "prevalence": null,
+        "quote": "history of \"pain migration to right lower quadrant (RLQ)\" (LR+ = 4.81, 95% confidence interval [CI] = 3.59-6.44)",
+        "reference_standard": "Surgical pathology or clinical follow-up as defined per study",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Acute appendicitis (children)",
+        "url": null,
+        "year": "2017"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Ask where the pain started and where it is now, and in what order symptoms appeared. Migration means a vague periumbilical or epigastric (visceral) pain that, over hours, shifts to a sharper localised RLQ (parietal) pain; also ask whether pain preceded vomiting and about anorexia.",
+      "id": "hx_rlq_pain_migration",
+      "negative_finding": "Lack of migration makes appendicitis less likely but many confirmed cases present with RLQ pain from the outset, so absence does not exclude it.",
+      "pitfalls": "Migration is reported in only about half of cases and is recalled unreliably; retrocaecal or pelvic appendices localise atypically. Vomiting before pain onset argues against appendicitis.",
+      "positive_finding": "Classic periumbilical-to-RLQ migration raises the probability of appendicitis (pediatric pooled LR+ 4.8 in undifferentiated abdominal pain; adult OR 2.2), more than RLQ pain alone.",
+      "prerequisites": "Patient able to give a history; for children or cognitively impaired patients, use carer history.",
+      "rationale": "Pain migrating from periumbilical to RLQ is classic for appendicitis and would strongly support urgent imaging or surgical review.",
+      "skill_assumption": null,
+      "title": "Right lower quadrant pain with periumbilical-to-RLQ migration",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_pain_out_of_proportion_exam",
+      "changes_what": "Present: escalate now - CT angiography for suspected mesenteric ischemia; urgent surgical consult for suspected necrotizing infection. Absent: does not lower probability enough to stop work-up.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not apply to patients who cannot report pain reliably (sedation, dementia, spinal cord injury); absence of the sign never excludes either diagnosis.",
+      "escalation_warning": "Suspected necrotizing infection or mesenteric ischemia is time-critical: surgical consultation / CT angiography without waiting for laboratory results.",
+      "evidence": [
+       {
+        "citation": "Alayed KA, Tan C, Daneman N. Red Flags for Necrotizing Fasciitis: A Case Control Study. International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases. 2016.",
+        "computed": false,
+        "doi": "10.1016/j.ijid.2015.04.021",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "4.5"
+        },
+        "pmid": "25975653",
+        "population": "All NF cases admitted to a large Canadian tertiary hospital 2004-2013, each matched to two cellulitis controls (retrospective case-control)",
+        "prevalence": null,
+        "quote": "The clinical features that most significantly increased the odds of NF were recent surgery (LR+ 7.0) pain-out-of-proportion (LR+ 4.5), diarrhea (LR+ 6.0)",
+        "reference_standard": "Admitted with diagnosis of necrotizing fasciitis (chart-confirmed) versus cellulitis controls",
+        "sensitivity": null,
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Necrotizing fasciitis versus cellulitis (case-control): pain-out-of-proportion documented on history/physical examination",
+        "url": null,
+        "year": "2016"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Compare reported pain severity and analgesic requirement with objective findings: for the abdomen, severe continuous pain with a soft, non-tender or minimally tender abdomen; for skin/soft tissue, severe pain or exquisite tenderness extending beyond the visible erythema, or pain disproportionate to a modest cellulitis. Record the discordance explicitly.",
+      "id": "hx_pain_out_of_proportion_exam",
+      "negative_finding": "Absence is not reassuring: no single red flag had sufficient sensitivity to rule out necrotizing fasciitis (LR- >=0.5 for all findings), and mesenteric ischemia frequently presents with vague or non-specific pain, especially in the elderly.",
+      "pitfalls": "Late presentations of ischemia develop peritonism, so the sign is transient; analgesia, diabetes, and altered mental status blunt reporting. Distinguishing 'out of proportion' is subjective and undefined in most studies.",
+      "positive_finding": "In a soft-tissue infection, pain out of proportion raised the odds of necrotizing fasciitis about 4.5-fold versus cellulitis in a case-control study; in abdominal pain with vascular risk (AF, atherosclerosis, low flow), it is the classic cue for early mesenteric ischemia and should prompt CT angiography rather than observation.",
+      "prerequisites": "Patient able to report pain; opioid or sedative effect accounted for.",
+      "rationale": "Pain out of proportion to exam could indicate mesenteric ischemia or other surgical emergencies and would prompt urgent escalation if present.",
+      "skill_assumption": null,
+      "title": "Pain out of proportion to examination findings",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/exam_abdominal_rigidity_guarding",
+      "changes_what": "Present: treat as peritonitis, obtain surgical review and CT urgently. Absent: modest reassurance only; do not use to withhold imaging.",
+      "contraindications": "None; avoid deep or repeated palpation once peritonitis is evident.",
+      "do_not_use_when": "Do not rely on absence of guarding to exclude surgical pathology in the elderly, immunosuppressed, obese, pregnant or opioid-treated patient.",
+      "escalation_warning": "Diffuse rigidity with hypotension or fever is generalized peritonitis until proven otherwise: resuscitate, antibiotics, immediate surgical consultation.",
+      "evidence": [
+       {
+        "citation": "Becker T, Kharbanda A, Bachur R. Atypical clinical features of pediatric appendicitis. Acad Emerg Med. 2007;14(2):124-129.",
+        "computed": false,
+        "doi": "10.1197/j.aem.2006.08.009",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.63"
+        },
+        "lr_positive": null,
+        "pmid": "17192449",
+        "population": "755 children and adolescents (median age 11.9 y) evaluated for suspected appendicitis; 36% had appendicitis",
+        "prevalence": "0.36",
+        "quote": "lack of guarding (LR, 0.63)",
+        "reference_standard": "Surgical pathology or telephone follow-up",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Acute appendicitis (absence of guarding as negative predictor) (pediatric)",
+        "url": null,
+        "year": "2007"
+       },
+       {
+        "citation": "Becker T, Kharbanda A, Bachur R. Atypical clinical features of pediatric appendicitis. Acad Emerg Med. 2007;14(2):124-129.",
+        "computed": true,
+        "doi": "10.1197/j.aem.2006.08.009",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "17192449",
+        "population": "Children and adolescents with proven appendicitis in the same cohort (n=755 enrolled)",
+        "prevalence": "0.36",
+        "quote": "lack of guarding (47%)",
+        "reference_standard": "Surgical pathology or telephone follow-up",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.53"
+        },
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Acute appendicitis (pediatric)",
+        "url": null,
+        "year": "2007"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "With the patient supine, knees flexed and distracted by conversation, palpate each quadrant gently with a flat hand. Involuntary guarding is reflex contraction of the abdominal wall that persists despite relaxation and distraction; rigidity is a board-like wall that does not soften on expiration.",
+      "id": "exam_abdominal_rigidity_guarding",
+      "negative_finding": "Absence of guarding lowers but does not exclude appendicitis (pediatric LR- ~0.6); early, retrocaecal or perforated disease in the elderly or immunosuppressed may show no guarding.",
+      "pitfalls": "Voluntary guarding from anxiety, cold hands or ticklishness mimics the sign; obesity, steroids, opioids and advanced age blunt it. Distinguishing voluntary from involuntary guarding is examiner dependent.",
+      "positive_finding": "Involuntary guarding or rigidity indicates parietal peritoneal irritation (localized or generalized peritonitis) and raises the probability of appendicitis, perforation or other surgical pathology.",
+      "prerequisites": "Patient able to lie supine and relax; warm hands; examine tender areas last.",
+      "rationale": "Involuntary guarding or rigidity suggests peritonitis and would require urgent surgical review and imaging.",
+      "skill_assumption": null,
+      "title": "Involuntary guarding / board-like rigidity",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_rebound_tenderness",
+      "changes_what": "Positive: escalate to imaging and surgical review for suspected appendicitis/peritonitis; negative in low-risk patients supports observation, not discharge without follow-up.",
+      "contraindications": "Avoid in an already rigid, obviously peritonitic abdomen where the manoeuvre adds only pain; prefer percussion or cough tenderness.",
+      "do_not_use_when": "Do not use a negative result to exclude peritonitis in elderly, immunosuppressed, steroid-treated, obese or obtunded patients, or in pregnancy where the appendix is displaced.",
+      "escalation_warning": "Generalised rebound with fever, tachycardia or hypotension indicates diffuse peritonitis: resuscitate and obtain immediate surgical review.",
+      "evidence": [
+       {
+        "citation": "Golledge J, Toms AP, Franklin IJ, Scriven MW, Galland RB. Assessment of peritonism in appendicitis. Ann R Coll Surg Engl. 1996;78(1):11-14.",
+        "computed": true,
+        "doi": null,
+        "evidence_level": "single_study",
+        "interpretation_label": "both",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.2"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "7.45"
+        },
+        "pmid": "8659965",
+        "population": "100 consecutive patients with right iliac fossa pain, median age 25 (range 4-81), UK surgical unit; 44 histology-proven appendicitis",
+        "prevalence": "0.44",
+        "quote": "Rebound tenderness proved to be sensitive (sensitivity 0.82), specific (specificity 0.89) and accurate (accuracy 86%).",
+        "reference_standard": "Histology at operation; non-operated patients followed clinically",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.82"
+        },
+        "setting": "inpatient",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.89"
+        },
+        "target_condition": "Acute appendicitis",
+        "url": null,
+        "year": "1996"
+       },
+       {
+        "citation": "Bundy DG, Byerley JS, Liles EA, Perrin EM, Katznelson J, Rice HE. Does this child have appendicitis? JAMA. 2007;298(4):438-451.",
+        "computed": false,
+        "doi": "10.1001/jama.298.4.438",
+        "evidence_level": "pooled",
+        "interpretation_label": "both",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.55",
+         "ci_low": "0.14",
+         "value": "0.28"
+        },
+        "lr_positive": {
+         "ci_high": "3.9",
+         "ci_low": "2.3",
+         "value": "3"
+        },
+        "pmid": "17652298",
+        "population": "Children <=18 years in whom appendicitis was suspected and evaluation undertaken; pooled from quality level >=3 studies",
+        "prevalence": null,
+        "quote": "rebound tenderness triples the odds of appendicitis (summary LR, 3.0; 95% CI, 2.3-3.9), while its absence reduces the likelihood (summary LR, 0.28; 95% CI, 0.14-0.55)",
+        "reference_standard": "Surgical pathology, clinical observation or follow-up",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Acute appendicitis (children)",
+        "url": null,
+        "year": "2007"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Press slowly and deeply with the fingertips over the area of concern (or a remote quadrant), hold, then release abruptly while watching the patient's face. Pain on release greater than on pressure is rebound tenderness. Gentler equivalents: percussion tenderness, or pain on coughing or heel-drop.",
+      "id": "exam_rebound_tenderness",
+      "negative_finding": "Absence lowers the probability of appendicitis (pediatric LR- 0.28) but does not exclude early, retrocaecal or pelvic appendicitis or peritonitis in the elderly and immunosuppressed.",
+      "pitfalls": "The classic release manoeuvre is painful and non-specific in anxious patients; percussion or cough tenderness gives similar information more gently. False negatives occur with steroids, advanced age, obesity and altered mental status.",
+      "positive_finding": "Rebound (or percussion/cough) tenderness indicates parietal peritoneal inflammation; in RIF pain it is specific for appendicitis (spec 0.89, sens 0.82 in adults; pediatric LR+ 3.0).",
+      "prerequisites": "Explain the manoeuvre; give analgesia first (it does not abolish peritoneal signs); perform once, not repeatedly.",
+      "rationale": "Rebound tenderness indicates peritoneal irritation, supporting the need for urgent imaging and surgical evaluation.",
+      "skill_assumption": null,
+      "title": "Rebound tenderness (peritoneal irritation)",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_rlq_tenderness_mcburney",
+      "changes_what": "Localised RLQ tenderness plus migration/rebound/fever: image (US/CT) or surgical review; absent tenderness in a well patient supports observation with re-examination.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use absence of McBurney tenderness to exclude appendicitis in pregnancy, the elderly, or when symptoms are <12 h old.",
+      "escalation_warning": "RLQ tenderness with rigidity, fever and tachycardia suggests perforation: urgent surgical review and CT.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Palpate the right lower quadrant at McBurney point (one-third of the way from the anterior superior iliac spine to the umbilicus) with gentle then deeper pressure, watching the patient's face. Note maximal tenderness there compared with the other quadrants; check for Rovsing sign (RLQ pain on LLQ pressure), psoas and obturator signs.",
+      "id": "exam_rlq_tenderness_mcburney",
+      "negative_finding": "Absence of RLQ tenderness makes appendicitis less likely (RCE 1996) but does not exclude retrocaecal, pelvic or early appendicitis, or appendicitis in pregnancy where the point of tenderness shifts.",
+      "pitfalls": "RLQ tenderness is common in many conditions (mesenteric adenitis, ovarian pathology, caecal diverticulitis, Crohn disease), so specificity is limited; the appendix position varies, so tenderness may be elsewhere.",
+      "positive_finding": "Isolated, well-localised RIF/McBurney tenderness had the highest odds ratio for appendicitis (OR 3.29) among examination findings in an adult ED cohort; combined with guarding or rebound it strongly supports the diagnosis.",
+      "prerequisites": "Supine, relaxed patient; examine painful area last; analgesia does not abolish localised tenderness.",
+      "rationale": "RLQ tenderness at McBurney's point is a key finding for appendicitis and would guide the need for imaging or surgical consult.",
+      "skill_assumption": null,
+      "title": "RLQ (McBurney point) tenderness",
+      "type": "exam"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_rlq_pain_migration",
+     "rationale": "Pain migrating from periumbilical to RLQ is classic for appendicitis and would strongly support urgent imaging or surgical review."
+    },
+    {
+     "id": "hx_pain_out_of_proportion_exam",
+     "rationale": "Pain out of proportion to exam could indicate mesenteric ischemia or other surgical emergencies and would prompt urgent escalation if present."
+    }
+   ],
+   "examine": [
+    {
+     "id": "exam_abdominal_rigidity_guarding",
+     "rationale": "Involuntary guarding or rigidity suggests peritonitis and would require urgent surgical review and imaging."
+    },
+    {
+     "id": "exam_rebound_tenderness",
+     "rationale": "Rebound tenderness indicates peritoneal irritation, supporting the need for urgent imaging and surgical evaluation."
+    },
+    {
+     "id": "exam_rlq_tenderness_mcburney",
+     "rationale": "RLQ tenderness at McBurney's point is a key finding for appendicitis and would guide the need for imaging or surgical consult."
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "belly pain moving to right lower side with no appetite and fever",
+   "differentials": [
+    {
+     "dx": "appendicitis",
+     "weight": 1.0
+    },
+    {
+     "dx": "diverticulitis",
+     "weight": 0.143
+    },
+    {
+     "dx": "pancreatitis",
+     "weight": 0.1
+    },
+    {
+     "dx": "mesenteric_ischemia",
+     "weight": 0.071
+    },
+    {
+     "dx": "perforated_viscus",
+     "weight": 0.057
+    },
+    {
+     "dx": "sbp",
+     "weight": 0.057
+    }
+   ],
+   "indication_tags": [],
+   "missing_features": [],
+   "modifiers": [
+    "periumbilical onset",
+    "now right lower quadrant",
+    "no appetite"
+   ],
+   "observed_values": [
+    "temp 38.1"
+   ],
+   "presentation": "abdominal_pain",
+   "time_course": "acute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "n1"
+}
