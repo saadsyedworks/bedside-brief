@@ -23,6 +23,49 @@ VERIFIED = ROOT / "records" / "verified"
 REJECTED = ROOT / "records" / "rejected"
 
 
+STAT_FIELDS = ("sensitivity", "specificity", "lr_positive", "lr_negative")
+STAT_LABEL = {"sensitivity": "sensitivity", "specificity": "specificity",
+              "lr_positive": "LR+", "lr_negative": "LR-"}
+
+
+def apply_edits(rec: dict, base: str, edits: dict) -> tuple[list[str], list[str]]:
+    """Apply the owner's per-estimate corrections in place.
+
+    A corrected point estimate invalidates the stored confidence interval, so the bounds are cleared
+    rather than left attached to a number they no longer describe. Every change is written into
+    verification_notes, and a corrected value that no longer appears in its own quote is warned about.
+    """
+    lines, warnings = [], []
+    ests = rec.get("estimates", [])
+    for key in sorted(edits):
+        side, _, idx = key.partition(":")
+        if side != base or not idx.isdigit():
+            continue
+        i = int(idx)
+        if i >= len(ests):
+            warnings.append(f"correction for estimates[{i}] but the packet has {len(ests)}")
+            continue
+        est, ed = ests[i], edits[key]
+        target = est.get("target_condition", f"estimates[{i}]")
+        for field in STAT_FIELDS:
+            if field not in ed:
+                continue
+            new_value = ed[field]
+            was = est.get(field)
+            old_value = was.get("value") if isinstance(was, dict) else None
+            if old_value is not None and float(old_value) == float(new_value):
+                continue
+            est[field] = {"value": new_value, "ci_low": None, "ci_high": None}
+            lines.append(f"[owner correction] {target}: {STAT_LABEL[field]} "
+                         f"{old_value if old_value is not None else 'absent'} -> {new_value} "
+                         f"(confidence interval cleared)")
+            if est.get("quote") and str(new_value) not in str(est["quote"]):
+                warnings.append(f"estimates[{i}] {STAT_LABEL[field]}={new_value} does not appear in its quote")
+        if ed.get("note"):
+            lines.append(f"[owner note] {target}: {ed['note'].strip()}")
+    return lines, warnings
+
+
 def build(decision: dict) -> tuple[str, dict | None, str]:
     rid = decision["id"]
     base = decision.get("base")
@@ -30,6 +73,9 @@ def build(decision: dict) -> tuple[str, dict | None, str]:
     if not src.exists():
         return rid, None, f"no packet for extractor-{base}"
     rec = json.loads(src.read_text())
+    edit_lines, edit_warnings = apply_edits(rec, base, decision.get("edits") or {})
+    for w in edit_warnings:
+        print(f"WARN  {rid}: {w}")
     exclude = set(decision.get("exclude") or [])
     kept = [e for i, e in enumerate(rec.get("estimates", [])) if i not in exclude]
     if exclude:
@@ -46,7 +92,8 @@ def build(decision: dict) -> tuple[str, dict | None, str]:
     rec["tier"] = "verified"
     rec["verified_by"] = "owner"
     rec["verified_at"] = decision.get("at")
-    rec["verification_notes"] = (decision.get("notes") or "").strip()
+    notes = [(decision.get("notes") or "").strip()] if (decision.get("notes") or "").strip() else []
+    rec["verification_notes"] = "\n".join(notes + edit_lines)
     rec["record_version"] = 1
     prior = VERIFIED / f"{rid}.json"
     if prior.exists():
@@ -56,7 +103,10 @@ def build(decision: dict) -> tuple[str, dict | None, str]:
             pass
     rec.pop("_anchor_source", None)
     rec.pop("_expected_evidence", None)
-    return rid, rec, f"from extractor-{base}, {len(kept)} of {len(kept) + len(exclude)} estimates kept"
+    detail = f"from extractor-{base}, {len(kept)} of {len(kept) + len(exclude)} estimates kept"
+    if edit_lines:
+        detail += f", {sum(1 for l in edit_lines if l.startswith('[owner correction]'))} value(s) corrected"
+    return rid, rec, detail
 
 
 def main(src_dir: Path, dry: bool) -> int:

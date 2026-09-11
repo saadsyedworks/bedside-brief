@@ -60,13 +60,28 @@ with sync_playwright() as p:
         print("estimates:", pg.locator(".est").count(), "| decision buttons:", pg.locator(".btn").count())
         pg.screenshot(path=str(D / "ipad_record.png"), full_page=False)
         # exclude the first estimate, then promote A
-        if pg.locator(".toggle").count():
-            pg.locator(".toggle").first.click()
+        # open the correction panel on the first estimate and fix a likelihood ratio
+        pg.locator('button[data-fix]').first.click()
+        pg.wait_for_timeout(400)
+        print("correction panel fields:", pg.locator(".fixgrid input").count())
+        lrp = pg.locator('input[data-fixfield$="|lr_positive"]').first
+        lrp.fill("9.5")
+        pg.locator('textarea[data-fixfield$="|note"]').first.fill("LR+ is 9.5 in Table 3, not the value shown.")
+        pg.wait_for_timeout(300)
+        print("edit badge:", pg.inner_text("#editcount") if pg.locator("#editcount").count() else "none")
+        # exclude the second estimate if there is one
+        if pg.locator('button[data-toggle]').count() > 1:
+            pg.locator('button[data-toggle]').nth(1).click()
+        # the action bar must be on screen without scrolling to the end
+        box = pg.locator(".decide").bounding_box()
+        vp = pg.viewport_size
+        print("action bar visible in viewport:", bool(box) and box["y"] < vp["height"])
         pg.fill("#notes", "Checked the quoted table; kept the pooled row.")
+        pg.screenshot(path=str(D / "ipad_record.png"), full_page=False)
         pg.locator('button[data-act="promote"][data-base="A"]').first.click()
         pg.wait_for_timeout(900)
         w = pg.evaluate("window.__writes")
-        print("writes:", json.dumps(w, indent=1)[:500])
+        print("writes:", json.dumps(w, indent=1)[:800])
     else:
         pg.screenshot(path=str(D / "ipad_queue.png"))
     b.close()
