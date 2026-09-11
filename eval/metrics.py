@@ -76,9 +76,22 @@ def _backing_numbers(item: dict[str, Any], records_by_id: dict[str, dict[str, An
     return backing
 
 
+# A prohibition is written short ("NSAIDs for muscle pain"), a card item long, so the asymmetric
+# overlap below is what decides the match. At three content tokens, two generic ones in common clear
+# 0.6: that is how "Muscle pain/weakness, prolonged immobilization or exertion, dark cola-colored
+# urine" -- correct rhabdomyolysis screening in a found-down patient -- was scored as recommending
+# NSAIDs, on `muscle` and `pain`, with `nsaid` nowhere in the item. Below four tokens there is no room
+# for a partial match to mean anything, so require the prohibition to be wholly present.
+_SNR_SHORT = 4
+
+
 def _snr_hit(item_text: str, snr: str) -> bool:
     a, b = tokens(item_text), tokens(snr)
-    return len(a & b) >= 2 and max(overlap(a, b), overlap(b, a)) >= 0.6
+    if len(a & b) < 2:
+        return False
+    if len(b) < _SNR_SHORT:
+        return b <= a
+    return max(overlap(a, b), overlap(b, a)) >= 0.6
 
 
 def _brevity(out: ArmOutput, limits: Any) -> tuple[bool, dict[str, int]]:

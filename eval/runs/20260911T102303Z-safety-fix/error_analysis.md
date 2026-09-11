@@ -3,8 +3,8 @@
 ## Top 5 failure modes
 
 1. **missing must have targets** — 96 targets
-2. **should not recommend hits** — 5 cases
-3. **ask first false negatives** — 2 cases
+2. **ask first false negatives** — 2 cases
+3. **should not recommend hits** — 2 cases
 4. **ask first false positives** — 0 cases
 5. **brevity failures** — 0 cases
 
@@ -36,16 +36,13 @@
 - {"case_id": "aki_002_p1", "target": "Orthostatic vital signs (supine to standing at 1 and 3 min)"}
 - {"case_id": "aki_003", "target": "Orthostatic vital signs (supine to standing at 1 and 3 min)"}
 
-### should not recommend hits (5 cases)
-- {"case_id": "aki_003", "item": "Muscle pain/weakness, prolonged immobilization or exertion, dark cola-colored urine", "should_not_recommend": "NSAIDs for muscle pain"}
-- {"case_id": "aki_003_n1", "item": "Muscle pain/weakness, prolonged immobilization or exertion, dark cola-colored urine", "should_not_recommend": "NSAIDs for muscle pain"}
-- {"case_id": "aki_003_p1", "item": "Muscle pain/weakness, prolonged immobilization or exertion, dark cola-colored urine", "should_not_recommend": "NSAIDs for muscle pain"}
-- {"case_id": "hypotension_002", "item": "Orthostatic vitals: SBP drop >=20 / DBP >=10 mmHg or pulse increment >=30/min at 1-3 min standing", "should_not_recommend": "Standing the patient for orthostatic vital signs while supine SBP remains <90"}
-- {"case_id": "hypotension_002_p1", "item": "Orthostatic vitals: SBP drop >=20 / DBP >=10 mmHg or pulse increment >=30/min at 1-3 min standing", "should_not_recommend": "Standing the patient for orthostatic vital signs while supine SBP remains <90"}
-
 ### ask first false negatives (2 cases)
 - weakness_003
 - weakness_003_n1
+
+### should not recommend hits (2 cases)
+- {"case_id": "hypotension_002", "item": "Orthostatic vitals: SBP drop >=20 / DBP >=10 mmHg or pulse increment >=30/min at 1-3 min standing", "should_not_recommend": "Standing the patient for orthostatic vital signs while supine SBP remains <90"}
+- {"case_id": "hypotension_002_p1", "item": "Orthostatic vitals: SBP drop >=20 / DBP >=10 mmHg or pulse increment >=30/min at 1-3 min standing", "should_not_recommend": "Standing the patient for orthostatic vital signs while supine SBP remains <90"}
 
 ### ask first false positives (0 cases)
 - none

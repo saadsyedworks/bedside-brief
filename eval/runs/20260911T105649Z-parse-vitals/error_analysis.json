@@ -3,52 +3,35 @@
  "cases": 108,
  "top5": [
   "missing_must_have_targets",
-  "should_not_recommend_hits",
   "ask_first_false_negatives",
   "ask_first_false_positives",
-  "brevity_failures"
+  "brevity_failures",
+  "empty_cards"
  ],
  "modes": {
   "missing_must_have_targets": {
-   "count": 94,
+   "count": 98,
    "unit": "targets",
    "by_presentation": {
-    "abdominal_pain": {
-     "missing": 3,
-     "top": [
-      [
-       "RLQ tenderness (McBurney point)",
-       1
-      ],
-      [
-       "Ask: prior biliary colic, known gallstones, and alcohol use",
-       1
-      ],
-      [
-       "Palpate for a pulsatile, expansile abdominal mass",
-       1
-      ]
-     ]
-    },
     "aki": {
-     "missing": 9,
+     "missing": 13,
      "top": [
       [
        "Orthostatic vital signs (supine to standing at 1 and 3 min)",
-       4
-      ],
-      [
-       "Medication review (MAR): anticholinergics, opioids, alpha-agonists",
-       3
+       5
       ],
       [
        "Abdominojugular reflux",
+       2
+      ],
+      [
+       "Medication review (MAR): anticholinergics, opioids, alpha-agonists",
        2
       ]
      ]
     },
     "ams": {
-     "missing": 12,
+     "missing": 13,
      "top": [
       [
        "Suprapubic tenderness and Costovertebral angle (CVA) tenderness (urinary source)",
@@ -65,25 +48,33 @@
      ]
     },
     "chest_pain": {
-     "missing": 10,
+     "missing": 8,
      "top": [
       [
        "S3 gallop",
        3
       ],
       [
-       "Radial/femoral pulse deficit",
+       "Palpate the chest wall and costochondral junctions for fully reproducible tenderness",
        2
       ],
       [
-       "Ask about onset (abrupt at rest vs after cough or strain), prior pneumothorax, and whether the pain is strictly unilateral",
-       2
+       "Radial/femoral pulse deficit",
+       1
       ]
      ]
     },
     "dizziness": {
-     "missing": 1,
+     "missing": 3,
      "top": [
+      [
+       "HINTS exam (head impulse, nystagmus, test of skew)",
+       1
+      ],
+      [
+       "Gait assessment: can the patient stand and walk unaided (sit unsupported; truncal ataxia)",
+       1
+      ],
       [
        "Dix-Hallpike maneuver on each side, observing latency, duration, and direction of nystagmus",
        1
@@ -91,12 +82,8 @@
      ]
     },
     "dyspnea": {
-     "missing": 9,
+     "missing": 8,
      "top": [
-      [
-       "S3 gallop (third heart sound) at the apex in left lateral decubitus",
-       3
-      ],
       [
        "Ask about known COPD diagnosis or prior spirometry, home inhalers, and prior exacerbations needing steroids or intubation",
        3
@@ -104,6 +91,10 @@
       [
        "Forced expiratory time (timed forced exhalation, >=9 s)",
        3
+      ],
+      [
+       "S3 gallop (third heart sound) at the apex in left lateral decubitus",
+       2
       ]
      ]
     },
@@ -125,11 +116,15 @@
      ]
     },
     "fever": {
-     "missing": 4,
+     "missing": 6,
      "top": [
       [
        "Inspect surgical wound for erythema, warmth, drainage, dehiscence, and tenderness beyond the incision",
        3
+      ],
+      [
+       "Costovertebral angle (CVA) tenderness and suprapubic tenderness",
+       2
       ],
       [
        "Cardiac auscultation for a new or changed murmur",
@@ -138,7 +133,7 @@
      ]
     },
     "hypotension": {
-     "missing": 12,
+     "missing": 13,
      "top": [
       [
        "Capillary refill time (>3 s), skin mottling over the knees, cool extremities",
@@ -149,7 +144,7 @@
        3
       ],
       [
-       "Capillary refill time and cool or mottled extremities",
+       "Ask about melena, hematemesis, and hematochezia",
        2
       ]
      ]
@@ -172,24 +167,24 @@
      ]
     },
     "syncope": {
-     "missing": 5,
+     "missing": 7,
      "top": [
       [
-       "Medication review (MAR): sotalol dose and timing, other QT-prolonging or AV-nodal agents, recent additions",
-       2
+       "Dynamic auscultation: murmur intensity with Valsalva and squat-to-stand (louder with Valsalva or standing suggests HCM, softer suggests AS)",
+       3
       ],
       [
        "Dry axilla / mucous membranes",
-       2
+       3
       ],
       [
-       "Dynamic auscultation: murmur intensity with Valsalva and squat-to-stand (louder with Valsalva or standing suggests HCM, softer suggests AS)",
+       "Witness account: duration, color, jerking, tongue biting, incontinence, post-event confusion (from nurse)",
        1
       ]
      ]
     },
     "weakness": {
-     "missing": 9,
+     "missing": 7,
      "top": [
       [
        "Establish last-known-well time precisely",
@@ -201,35 +196,19 @@
       ],
       [
        "Proximal strength: sit-to-stand without arms, hip flexion against resistance, arms held above head",
-       2
+       1
       ]
      ]
     }
    },
    "examples": [
     {
-     "case_id": "abdominal_pain_001_p1",
-     "target": "RLQ tenderness (McBurney point)"
-    },
-    {
-     "case_id": "abdominal_pain_002_p1",
-     "target": "Ask: prior biliary colic, known gallstones, and alcohol use"
-    },
-    {
-     "case_id": "abdominal_pain_003",
-     "target": "Palpate for a pulsatile, expansile abdominal mass"
-    },
-    {
-     "case_id": "aki_001",
+     "case_id": "aki_001_n1",
      "target": "Orthostatic vital signs (supine to standing at 1 and 3 min)"
-    },
-    {
-     "case_id": "aki_001",
-     "target": "Abdominojugular reflux"
     },
     {
      "case_id": "aki_001_n1",
-     "target": "Orthostatic vital signs (supine to standing at 1 and 3 min)"
+     "target": "Abdominojugular reflux"
     },
     {
      "case_id": "aki_001_p1",
@@ -240,16 +219,32 @@
      "target": "Medication review (MAR): anticholinergics, opioids, alpha-agonists"
     },
     {
+     "case_id": "aki_002",
+     "target": "Orthostatic vital signs (supine to standing at 1 and 3 min)"
+    },
+    {
      "case_id": "aki_002_n1",
-     "target": "Medication review (MAR): anticholinergics, opioids, alpha-agonists"
+     "target": "Orthostatic vital signs (supine to standing at 1 and 3 min)"
     },
     {
      "case_id": "aki_002_p1",
      "target": "Medication review (MAR): anticholinergics, opioids, alpha-agonists"
     },
     {
-     "case_id": "aki_003",
+     "case_id": "aki_002_p1",
      "target": "Orthostatic vital signs (supine to standing at 1 and 3 min)"
+    },
+    {
+     "case_id": "aki_003",
+     "target": "Compartment exam: palpate limb and gluteal compartments for tense, tender swelling; pain with passive stretch; distal pulses and sensation"
+    },
+    {
+     "case_id": "aki_003",
+     "target": "Ask: exact down time, seizure at onset, substances or medications taken, and muscle pain or weakness"
+    },
+    {
+     "case_id": "aki_003_n1",
+     "target": "Compartment exam: palpate limb and gluteal compartments for tense, tender swelling; pain with passive stretch; distal pulses and sensation"
     },
     {
      "case_id": "aki_003_n1",
@@ -257,41 +252,20 @@
     }
    ]
   },
-  "should_not_recommend_hits": {
-   "count": 3,
-   "unit": "cases",
-   "examples": [
-    {
-     "case_id": "hypotension_002",
-     "item": "Orthostatic vitals: SBP drop >=20 / DBP >=10 mmHg or pulse increment >=30/min at 1-3 min standing",
-     "should_not_recommend": "Standing the patient for orthostatic vital signs while supine SBP remains <90"
-    },
-    {
-     "case_id": "hypotension_002_n1",
-     "item": "Orthostatic vitals: SBP drop >=20 / DBP >=10 mmHg or pulse increment >=30/min at 1-3 min standing",
-     "should_not_recommend": "Standing the patient for orthostatic vital signs while supine SBP remains <90"
-    },
-    {
-     "case_id": "hypotension_002_p1",
-     "item": "Orthostatic vitals: SBP drop >=20 / DBP >=10 mmHg or pulse increment >=30/min at 1-3 min standing",
-     "should_not_recommend": "Standing the patient for orthostatic vital signs while supine SBP remains <90"
-    }
-   ]
-  },
   "ask_first_false_negatives": {
-   "count": 2,
+   "count": 4,
    "unit": "cases",
    "examples": [
+    "dizziness_003",
+    "dizziness_003_n1",
     "weakness_003",
     "weakness_003_n1"
    ]
   },
   "ask_first_false_positives": {
-   "count": 1,
+   "count": 0,
    "unit": "cases",
-   "examples": [
-    "ams_003_p1"
-   ]
+   "examples": []
   },
   "brevity_failures": {
    "count": 0,
@@ -304,6 +278,11 @@
    "examples": []
   },
   "pipeline_errors": {
+   "count": 0,
+   "unit": "cases",
+   "examples": []
+  },
+  "should_not_recommend_hits": {
    "count": 0,
    "unit": "cases",
    "examples": []

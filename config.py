@@ -43,4 +43,10 @@ POCUS_ENABLED = False  # owner flips in DAY1_FREEZE.md; retrieval excludes pocus
 
 # --- Retrieval / rendering ---------------------------------------------------
 RENDER_TIERS = ("verified",)  # only verified records ever render
+
+# Whether the ranker is shown each candidate's safety_scope.do_not_use_when. Every verified record
+# carries one, so with it on the model weighs a contraindication for all ~23 candidates per case.
+# Reported as an ablation: arm B shares the parser but does not rank, so it isolates ranking effects.
+# Env override so a run can flip it without editing code: BB_RANKER_CONTRAINDICATIONS=0
+RANKER_SHOWS_CONTRAINDICATIONS = os.environ.get("BB_RANKER_CONTRAINDICATIONS", "1") != "0"
 MAX_DIFFERENTIALS = 6

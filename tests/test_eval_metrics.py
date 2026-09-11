@@ -157,3 +157,25 @@ def test_bedside_share_excluding_unclassified_drops_them_from_the_denominator(ca
     assert c["bedside_share"]["default"]["share"] == pytest.approx(1 / 3)
     assert c["bedside_share_classified"]["default"]["items"] == 2
     assert c["bedside_share_classified"]["default"]["share"] == pytest.approx(0.5)
+
+
+@pytest.mark.parametrize("item, snr, hit", [
+    # the observed false positive: correct rhabdomyolysis screening, scored as recommending NSAIDs
+    ("Muscle pain/weakness, prolonged immobilization or exertion, dark cola-colored urine",
+     "NSAIDs for muscle pain", False),
+    # the same short prohibition, actually recommended
+    ("Ibuprofen or another NSAID for the muscle pain", "NSAIDs for muscle pain", True),
+    # a long prohibition still matches partially, which is what the 0.6 rule is for
+    ("Orthostatic vitals: SBP drop >=20 / DBP >=10 mmHg or pulse increment >=30/min at 1-3 min standing",
+     "Standing the patient for orthostatic vital signs while supine SBP remains <90", True),
+    ("Ask about muscle pain and dark urine", "Deferring the compartment exam until CK results", False),
+])
+def test_short_prohibitions_must_be_wholly_present(item, snr, hit):
+    """Two generic words shared with a three-word prohibition is not a recommendation of it.
+
+    Prohibitions are written short and card items long, so the asymmetric overlap decides the match:
+    at three content tokens, `muscle` and `pain` in common clear 0.6 while `nsaid` appears nowhere in
+    the item. Three of six arm-A "safety hits" in the first frozen run were this.
+    """
+    from eval.metrics import _snr_hit
+    assert _snr_hit(item, snr) is hit

@@ -3,8 +3,8 @@
  "cases": 108,
  "top5": [
   "missing_must_have_targets",
-  "should_not_recommend_hits",
   "ask_first_false_negatives",
+  "should_not_recommend_hits",
   "ask_first_false_positives",
   "brevity_failures"
  ],
@@ -257,25 +257,18 @@
     }
    ]
   },
-  "should_not_recommend_hits": {
-   "count": 5,
+  "ask_first_false_negatives": {
+   "count": 2,
    "unit": "cases",
    "examples": [
-    {
-     "case_id": "aki_003",
-     "item": "Muscle pain/weakness, prolonged immobilization or exertion, dark cola-colored urine",
-     "should_not_recommend": "NSAIDs for muscle pain"
-    },
-    {
-     "case_id": "aki_003_n1",
-     "item": "Muscle pain/weakness, prolonged immobilization or exertion, dark cola-colored urine",
-     "should_not_recommend": "NSAIDs for muscle pain"
-    },
-    {
-     "case_id": "aki_003_p1",
-     "item": "Muscle pain/weakness, prolonged immobilization or exertion, dark cola-colored urine",
-     "should_not_recommend": "NSAIDs for muscle pain"
-    },
+    "weakness_003",
+    "weakness_003_n1"
+   ]
+  },
+  "should_not_recommend_hits": {
+   "count": 2,
+   "unit": "cases",
+   "examples": [
     {
      "case_id": "hypotension_002",
      "item": "Orthostatic vitals: SBP drop >=20 / DBP >=10 mmHg or pulse increment >=30/min at 1-3 min standing",
@@ -286,14 +279,6 @@
      "item": "Orthostatic vitals: SBP drop >=20 / DBP >=10 mmHg or pulse increment >=30/min at 1-3 min standing",
      "should_not_recommend": "Standing the patient for orthostatic vital signs while supine SBP remains <90"
     }
-   ]
-  },
-  "ask_first_false_negatives": {
-   "count": 2,
-   "unit": "cases",
-   "examples": [
-    "weakness_003",
-    "weakness_003_n1"
    ]
   },
   "ask_first_false_positives": {

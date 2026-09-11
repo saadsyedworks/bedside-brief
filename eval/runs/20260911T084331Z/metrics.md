@@ -24,5 +24,5 @@ Inputs: 108 (36 base, 36 perturbation pairs, 36 noise variants). Store: 153 veri
 |   pairs explicit / fallback | 36 / 0 | 36 / 0 | 36 / 0 |
 | Noise stability (Jaccard mean) | 0.749 | 0.872 | 0.095 |
 | Brevity pass rate | 100.0% | 100.0% | 0.0% |
-| should_not_recommend case hit rate | 5.6% | 5.6% | 16.7% |
+| should_not_recommend case hit rate | 2.8% | 2.8% | 13.0% |
 | Ask-first correctness | 97.2% | 98.1% | 94.4% |

@@ -5,7 +5,7 @@
   "cases": null,
   "judge_all": false,
   "mode": "default",
-  "run_dir": "eval/runs/20260911T084331Z",
+  "run_dir": "eval/runs/20260911T113543Z-vitals-no-avoidwhen",
   "smoke": false,
   "target_map": null,
   "verbose": false
@@ -17,10 +17,6 @@
   "perturbation_pairs": 36
  },
  "counts": {
-  "A": {
-   "errors": 0,
-   "outputs": 108
-  },
   "B": {
    "errors": 0,
    "outputs": 108
@@ -30,13 +26,12 @@
    "outputs": 108
   }
  },
- "finished_at": "2026-09-11T11:31:32+00:00",
  "frozen_commits": [
   "39a698e5e79a5b6eddebf090caa3f6c8a1b16f7b"
  ],
  "git_head": "f2c25874bcd5000e4870a0ac2f8fa4f16c0c0ed3",
  "model": "gpt-4.1",
- "started_at": "2026-09-11T08:43:37+00:00",
+ "started_at": "2026-09-11T11:35:46+00:00",
  "unfrozen_cases": [],
- "updated_at": "2026-09-11T11:31:32+00:00"
+ "updated_at": "2026-09-11T11:35:47+00:00"
 }

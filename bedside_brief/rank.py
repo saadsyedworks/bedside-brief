@@ -65,7 +65,7 @@ def candidate_summary(candidates: list[Candidate]) -> list[dict[str, str]]:
             "evidence_status": rec["evidence_status"],
         }
         avoid = (rec.get("safety_scope") or {}).get("do_not_use_when")
-        if avoid:
+        if avoid and getattr(config, "RANKER_SHOWS_CONTRAINDICATIONS", True):
             row["avoid_when"] = strip_numbers(avoid)
         rows.append(row)
     _assert_no_numbers(rows)

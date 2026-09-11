@@ -1,6 +1,6 @@
 # Bedside Brief — evaluation report
 
-Run: model `gpt-4.1`, git head `bc7d6340fe772c554f9d99f38f79d3443f36753c`, frozen commits ['39a698e5e79a5b6eddebf090caa3f6c8a1b16f7b'], updated 2026-09-11T10:51:10+00:00.<!-- manifest.json -->
+Run: model `gpt-4.1`, git head `f2c25874bcd5000e4870a0ac2f8fa4f16c0c0ed3`, frozen commits ['39a698e5e79a5b6eddebf090caa3f6c8a1b16f7b'], updated 2026-09-11T11:31:36+00:00.<!-- manifest.json -->
 Provenance: every number below is followed by an HTML comment `<!-- file#json.path -->`; relative files resolve inside `eval/runs/20260911T102303Z-safety-fix`.
 
 ## Benchmark and store
@@ -27,7 +27,7 @@ Provenance: every number below is followed by an HTML comment `<!-- file#json.pa
 | Perturbation responsiveness | 63.9%<!-- metrics.json#arms.A.perturbation_responsiveness.rate --> | 63.0%<!-- metrics.json#arms.B.perturbation_responsiveness.rate --> | 53.2%<!-- metrics.json#arms.C.perturbation_responsiveness.rate --> |
 | Noise stability (Jaccard) | 0.76<!-- metrics.json#arms.A.noise_stability.jaccard_mean --> | 0.87<!-- metrics.json#arms.B.noise_stability.jaccard_mean --> | 0.10<!-- metrics.json#arms.C.noise_stability.jaccard_mean --> |
 | Brevity pass rate | 100.0%<!-- metrics.json#arms.A.brevity.pass_rate --> | 100.0%<!-- metrics.json#arms.B.brevity.pass_rate --> | 0.0%<!-- metrics.json#arms.C.brevity.pass_rate --> |
-| should_not_recommend case hit rate | 4.6%<!-- metrics.json#arms.A.should_not_recommend.case_hit_rate --> | 5.6%<!-- metrics.json#arms.B.should_not_recommend.case_hit_rate --> | 16.7%<!-- metrics.json#arms.C.should_not_recommend.case_hit_rate --> |
+| should_not_recommend case hit rate | 1.9%<!-- metrics.json#arms.A.should_not_recommend.case_hit_rate --> | 2.8%<!-- metrics.json#arms.B.should_not_recommend.case_hit_rate --> | 13.0%<!-- metrics.json#arms.C.should_not_recommend.case_hit_rate --> |
 | Ask-first correctness | 98.1%<!-- metrics.json#arms.A.ask_first.accuracy --> | 98.1%<!-- metrics.json#arms.B.ask_first.accuracy --> | 94.4%<!-- metrics.json#arms.C.ask_first.accuracy --> |
 | Errors / outputs | 0<!-- metrics.json#arms.A.n_errors --> / 108<!-- metrics.json#arms.A.n_outputs --> | 0<!-- metrics.json#arms.B.n_errors --> / 108<!-- metrics.json#arms.B.n_outputs --> | 0<!-- metrics.json#arms.C.n_errors --> / 108<!-- metrics.json#arms.C.n_outputs --> |
 
@@ -68,7 +68,7 @@ Inputs: 108 (36 base, 36 perturbation pairs, 36 noise variants). Store: 153 veri
 |   pairs explicit / fallback | 36 / 0 | 36 / 0 | 36 / 0 |
 | Noise stability (Jaccard mean) | 0.760 | 0.872 | 0.095 |
 | Brevity pass rate | 100.0% | 100.0% | 0.0% |
-| should_not_recommend case hit rate | 4.6% | 5.6% | 16.7% |
+| should_not_recommend case hit rate | 1.9% | 2.8% | 13.0% |
 | Ask-first correctness | 98.1% | 98.1% | 94.4% |
 
 
