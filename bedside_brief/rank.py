@@ -62,7 +62,9 @@ def candidate_summary(candidates: list[Candidate]) -> list[dict[str, str]]:
 
 
 def _assert_no_numbers(rows: list[dict[str, str]]) -> None:
-    without_ids = json.dumps([{k: v for k, v in r.items() if k != "id"} for r in rows])
+    # ensure_ascii=False matters: the default escapes non-ASCII, so an arrow in changes_what
+    # serialises as "\u2192" and the scan reads 2192 as a leaked number.
+    without_ids = json.dumps([{k: v for k, v in r.items() if k != "id"} for r in rows], ensure_ascii=False)
     leaked = scan_numbers(without_ids)
     if leaked:
         raise RankerNumberLeak(f"numbers leaked into candidate summary: {sorted(leaked)}")

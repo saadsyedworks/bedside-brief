@@ -1,9 +1,17 @@
 # Proposed fixes to the verified store — for owner approval
 
-Status: **nothing has been changed.** The verified store is still exactly as you
-promoted it (`ce8d101`, 153 records / 349 estimates). This document is the diff
-list for the 9 red-team defects that survived into the verified store, plus the
-empty-estimate cleanup. Apply nothing until you sign off — only you promote.
+Status: **APPLIED** in commit `206658a` on 2026-09-11, after the owner approved
+all four judgement calls (`flip-a`, `label`, `rewrite`, `apply`). The store went
+from 153 records / 349 estimates to 153 records / 337 estimates; validator 0
+errors, warnings 14 → 8; 204 tests green. Every change is stamped into the
+record's `verification_notes` as an `[owner fix]` line, and `record_version` is
+bumped, so each record says what was changed after promotion and why.
+
+What follows is the proposal as it was put to the owner, kept as the record of
+what was decided and on what evidence. The two classes below describe how each
+fix would have been made; both were applied by `tools/apply_fixes.py`, which
+remains a dry run by default and is idempotent — re-running it now reports no
+further change.
 
 Two classes of fix:
 

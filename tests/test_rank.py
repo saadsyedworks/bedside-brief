@@ -93,6 +93,19 @@ def test_candidate_summary_guard_raises_on_leak(candidates, monkeypatch):
         rk.candidate_summary(candidates)
 
 
+def test_arrow_in_changes_what_is_not_a_leaked_number(candidates):
+    """An arrow escapes to \\u2192 under json.dumps' default, which the scan reads as 2192.
+
+    Ten verified records write "finding -> action" with a real arrow, so a guard that serialises
+    with ensure_ascii=True rejects every card that retrieves one of them.
+    """
+    rec = candidates[0].record
+    rec["interpretation"]["changes_what"] = "a full bladder \u2192 catheterise before imaging"
+    rec["identity"]["title"] = "Bladder percussion \u2014 dullness above the pubis"
+    rows = rk.candidate_summary(candidates)
+    assert "\u2192" in rows[0]["changes_what"]
+
+
 def test_no_candidates_skips_llm(parsed):
     llm = FakeLLM(choice())
     assert rk.rank(parsed, [], llm, NO_POCUS) == {"ask": [], "examine": []}
