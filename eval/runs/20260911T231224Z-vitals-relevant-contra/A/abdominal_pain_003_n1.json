@@ -1,0 +1,869 @@
+{
+ "arm": "A",
+ "ask_first": false,
+ "base_case_id": "abdominal_pain_003",
+ "blocked_items": [],
+ "case_id": "abdominal_pain_003_n1",
+ "created_at": "2026-09-11T23:12:59+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Alayed KA, Tan C, Daneman N. Red Flags for Necrotizing Fasciitis: A Case Control Study. International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases. 2016."
+   ],
+   "numeric_claims": [
+    "0.5",
+    "10.1016",
+    "2004",
+    "2013",
+    "2015.04",
+    "2016",
+    "21",
+    "25975653",
+    "4.5",
+    "6",
+    "7"
+   ],
+   "performance_claims": [
+    "4.5"
+   ],
+   "record_id": "hx_pain_out_of_proportion_exam",
+   "section": "ask",
+   "text": "Pain out of proportion to examination findings"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Ohle R, Um J, Anjum O, et al. High Risk Clinical Features for Acute Aortic Dissection: A Case-Control Study. Acad Emerg Med. 2018;25(4):378-387."
+   ],
+   "numeric_claims": [
+    "0.2",
+    "0.997",
+    "1",
+    "10.1111",
+    "13356",
+    "177.5",
+    "194",
+    "2",
+    "2002",
+    "2014",
+    "2018",
+    "2019",
+    "25",
+    "29218798",
+    "378",
+    "387",
+    "4",
+    "42",
+    "42.1",
+    "776",
+    "9.9",
+    "99.7"
+   ],
+   "performance_claims": [
+    "0.997",
+    "177.5",
+    "42.1",
+    "9.9"
+   ],
+   "record_id": "hx_pain_tearing_ripping",
+   "section": "ask",
+   "text": "Pain described as tearing or ripping, or migrating (chest to back/abdomen/legs)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "12.1",
+    "2013"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_prior_abdominal_surgery",
+   "section": "ask",
+   "text": "History of prior abdominal surgery (adhesion risk)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Becker T, Kharbanda A, Bachur R. Atypical clinical features of pediatric appendicitis. Acad Emerg Med. 2007;14(2):124-129."
+   ],
+   "numeric_claims": [
+    "0.36",
+    "0.53",
+    "0.6",
+    "0.63",
+    "10.1197",
+    "11.9",
+    "124",
+    "129",
+    "14",
+    "17192449",
+    "2",
+    "2006.08",
+    "2007",
+    "36",
+    "47",
+    "755",
+    "9"
+   ],
+   "performance_claims": [
+    "0.53",
+    "0.63"
+   ],
+   "record_id": "exam_abdominal_rigidity_guarding",
+   "section": "examine",
+   "text": "Involuntary guarding / board-like rigidity"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Bundy DG, Byerley JS, Liles EA, Perrin EM, Katznelson J, Rice HE. Does this child have appendicitis? JAMA. 2007;298(4):438-451.",
+    "Golledge J, Toms AP, Franklin IJ, Scriven MW, Galland RB. Assessment of peritonism in appendicitis. Ann R Coll Surg Engl. 1996;78(1):11-14."
+   ],
+   "numeric_claims": [
+    "0.14",
+    "0.2",
+    "0.28",
+    "0.44",
+    "0.55",
+    "0.82",
+    "0.89",
+    "1",
+    "10.1001",
+    "100",
+    "11",
+    "14",
+    "17652298",
+    "18",
+    "1996",
+    "2.3",
+    "2007",
+    "25",
+    "298",
+    "298.4",
+    "3",
+    "3.9",
+    "4",
+    "438",
+    "44",
+    "451",
+    "7.45",
+    "78",
+    "81",
+    "86",
+    "8659965",
+    "95"
+   ],
+   "performance_claims": [
+    "0.14",
+    "0.2",
+    "0.28",
+    "0.55",
+    "0.82",
+    "0.89",
+    "2.3",
+    "3",
+    "3.9",
+    "7.45"
+   ],
+   "record_id": "exam_rebound_tenderness",
+   "section": "examine",
+   "text": "Rebound tenderness (peritoneal irritation)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "13"
+   ],
+   "performance_claims": [],
+   "record_id": "exam_abdominal_distension",
+   "section": "examine",
+   "text": "Abdominal distension on inspection/percussion"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Fink HA, Lederle FA, Roth CS, Bowles CA, Nelson DB, Haas MA. The accuracy of physical examination to detect abdominal aortic aneurysm. Arch Intern Med. 2000;160(6):833-836.",
+    "Lederle FA, Simel DL. The rational clinical examination. Does this patient have abdominal aortic aneurysm? JAMA. 1999;281(1):77-82."
+   ],
+   "numeric_claims": [
+    "0.29",
+    "0.33",
+    "0.38",
+    "0.43",
+    "0.495",
+    "0.51",
+    "0.56",
+    "0.6",
+    "0.65",
+    "0.67",
+    "0.68",
+    "0.72",
+    "0.75",
+    "0.76",
+    "0.81",
+    "0.82",
+    "1",
+    "10.1001",
+    "100",
+    "101",
+    "10737283",
+    "12",
+    "15",
+    "15.6",
+    "160",
+    "160.6",
+    "19.5",
+    "1999",
+    "2",
+    "2.7",
+    "200",
+    "2000",
+    "28.5",
+    "281",
+    "281.1",
+    "29",
+    "3",
+    "3.6",
+    "3.9",
+    "4",
+    "4.9",
+    "43",
+    "5",
+    "50",
+    "51",
+    "53",
+    "6",
+    "60",
+    "68",
+    "7.4",
+    "75",
+    "76",
+    "77",
+    "8.6",
+    "82",
+    "833",
+    "836",
+    "88",
+    "91",
+    "95",
+    "9892455",
+    "99"
+   ],
+   "performance_claims": [
+    "0.29",
+    "0.33",
+    "0.38",
+    "0.43",
+    "0.51",
+    "0.56",
+    "0.6",
+    "0.65",
+    "0.67",
+    "0.68",
+    "0.68",
+    "0.72",
+    "0.75",
+    "0.76",
+    "0.76",
+    "0.81",
+    "0.82",
+    "12",
+    "15.6",
+    "19.5",
+    "2",
+    "2.7",
+    "28.5",
+    "3.6",
+    "7.4",
+    "8.6"
+   ],
+   "record_id": "exam_pulsatile_abdominal_mass",
+   "section": "examine",
+   "text": "Palpable pulsatile abdominal mass (widened aortic pulsation)"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "candidates": [
+   "exam_abdominal_rigidity_guarding",
+   "hx_pain_out_of_proportion_exam",
+   "exam_abdominal_distension",
+   "hx_pain_abrupt_maximal_onset",
+   "exam_llq_tenderness",
+   "exam_rebound_tenderness",
+   "hx_epigastric_pain_radiating_back",
+   "exam_pulsatile_abdominal_mass",
+   "exam_pulse_deficit",
+   "exam_shock_index",
+   "exam_tense_distended_abdomen_iah",
+   "hx_pain_tearing_ripping",
+   "hx_prior_abdominal_surgery"
+  ],
+  "card": {
+   "chief_complaint": "abrupt severe abdominal pain",
+   "presentation": "abdominal_pain",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_pain_out_of_proportion_exam",
+      "changes_what": "Present: escalate now - CT angiography for suspected mesenteric ischemia; urgent surgical consult for suspected necrotizing infection. Absent: does not lower probability enough to stop work-up.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not apply to patients who cannot report pain reliably (sedation, dementia, spinal cord injury); absence of the sign never excludes either diagnosis.",
+      "escalation_warning": "Suspected necrotizing infection or mesenteric ischemia is time-critical: surgical consultation / CT angiography without waiting for laboratory results.",
+      "evidence": [
+       {
+        "citation": "Alayed KA, Tan C, Daneman N. Red Flags for Necrotizing Fasciitis: A Case Control Study. International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases. 2016.",
+        "computed": false,
+        "doi": "10.1016/j.ijid.2015.04.021",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "4.5"
+        },
+        "pmid": "25975653",
+        "population": "All NF cases admitted to a large Canadian tertiary hospital 2004-2013, each matched to two cellulitis controls (retrospective case-control)",
+        "prevalence": null,
+        "quote": "The clinical features that most significantly increased the odds of NF were recent surgery (LR+ 7.0) pain-out-of-proportion (LR+ 4.5), diarrhea (LR+ 6.0)",
+        "reference_standard": "Admitted with diagnosis of necrotizing fasciitis (chart-confirmed) versus cellulitis controls",
+        "sensitivity": null,
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Necrotizing fasciitis versus cellulitis (case-control): pain-out-of-proportion documented on history/physical examination",
+        "url": null,
+        "year": "2016"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Compare reported pain severity and analgesic requirement with objective findings: for the abdomen, severe continuous pain with a soft, non-tender or minimally tender abdomen; for skin/soft tissue, severe pain or exquisite tenderness extending beyond the visible erythema, or pain disproportionate to a modest cellulitis. Record the discordance explicitly.",
+      "id": "hx_pain_out_of_proportion_exam",
+      "negative_finding": "Absence is not reassuring: no single red flag had sufficient sensitivity to rule out necrotizing fasciitis (LR- >=0.5 for all findings), and mesenteric ischemia frequently presents with vague or non-specific pain, especially in the elderly.",
+      "pitfalls": "Late presentations of ischemia develop peritonism, so the sign is transient; analgesia, diabetes, and altered mental status blunt reporting. Distinguishing 'out of proportion' is subjective and undefined in most studies.",
+      "positive_finding": "In a soft-tissue infection, pain out of proportion raised the odds of necrotizing fasciitis about 4.5-fold versus cellulitis in a case-control study; in abdominal pain with vascular risk (AF, atherosclerosis, low flow), it is the classic cue for early mesenteric ischemia and should prompt CT angiography rather than observation.",
+      "prerequisites": "Patient able to report pain; opioid or sedative effect accounted for.",
+      "rationale": "Pain out of proportion to exam is a key discriminator for mesenteric ischemia and would prompt urgent escalation.",
+      "skill_assumption": null,
+      "title": "Pain out of proportion to examination findings",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_pain_tearing_ripping",
+      "changes_what": "Positive: treat as high-risk feature, obtain immediate CT angiography (or TEE) and control BP/heart rate. Negative: does not exclude dissection; rely on onset and exam findings.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use absence of tearing quality to exclude dissection or aortic aneurysm.",
+      "escalation_warning": "Tearing/ripping pain with pulse or BP differential, new diastolic murmur, hypotension or neurologic deficit is a surgical emergency; image immediately and avoid anticoagulation until dissection is excluded.",
+      "evidence": [
+       {
+        "citation": "Ohle R, Um J, Anjum O, et al. High Risk Clinical Features for Acute Aortic Dissection: A Case-Control Study. Acad Emerg Med. 2018;25(4):378-387.",
+        "computed": false,
+        "doi": "10.1111/acem.13356",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "177.5",
+         "ci_low": "9.9",
+         "value": "42.1"
+        },
+        "pmid": "29218798",
+        "population": "194 confirmed nontraumatic AAD cases vs 776 age/sex-matched controls with truncal pain and no clear diagnosis (2 tertiary EDs + 1 cardiac referral center, 2002-2014)",
+        "prevalence": "0.2",
+        "quote": "Presence of tearing/ripping pain (specificity = 99.7%, positive likelihood ratio [LR+] = 42.1 [9.9-177.5])",
+        "reference_standard": "AAD confirmed by CT or echocardiography; controls without AAD",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.997"
+        },
+        "target_condition": "Acute aortic dissection",
+        "url": null,
+        "year": "2019"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Ask the patient to describe the pain quality in their own words before offering options, then ask specifically about tearing or ripping character, abrupt maximal-at-onset intensity, and migration of pain (chest to back, abdomen or legs). Record each element separately.",
+      "id": "hx_pain_tearing_ripping",
+      "negative_finding": "Absence of tearing/ripping quality does not lower probability meaningfully; many dissections present with sharp, not tearing, pain. Absence of abrupt onset is the more useful negative feature.",
+      "pitfalls": "The LR+ comes from a matched case-control design with low-risk controls, so it is likely inflated by spectrum bias. Leading questions ('was it tearing?') increase false positives.",
+      "positive_finding": "Tearing or ripping pain is highly specific for acute aortic dissection (specificity 99.7%, LR+ about 42 in a case-control study) and is an independent predictor in prospective suspected-dissection cohorts.",
+      "prerequisites": "Patient able to give history; ask before opioid analgesia if possible.",
+      "rationale": "Tearing or migrating pain raises suspicion for aortic dissection or AAA, which require immediate action.",
+      "skill_assumption": null,
+      "title": "Pain described as tearing or ripping, or migrating (chest to back/abdomen/legs)",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_prior_abdominal_surgery",
+      "changes_what": "With distension/vomiting: lowers threshold for CT and NG decompression. No prior surgery with SBO features: expect non-adhesive cause and earlier surgical involvement.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not let a prior-surgery history anchor the diagnosis on adhesions when signs of strangulation, hernia, or malignancy are present; do not dismiss SBO in a patient without prior surgery.",
+      "escalation_warning": "SBO features with fever, tachycardia, peritonism or lactate rise indicate strangulation: fluids, antibiotics, immediate surgical consultation regardless of adhesion history.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Ask specifically about any previous abdominal or pelvic operation (including laparoscopic, gynecologic, hernia repair and appendicectomy), radiotherapy, and prior episodes of obstruction; inspect for scars, which patients may not mention.",
+      "id": "hx_prior_abdominal_surgery",
+      "negative_finding": "A 'virgin abdomen' makes adhesive SBO much less likely and shifts the differential toward hernia, malignancy, volvulus, Crohn's or gallstone ileus, which more often need operation.",
+      "pitfalls": "Patients forget minor or remote procedures; laparoscopy and pelvic surgery also cause adhesions. The item is a risk factor, not a diagnostic sign, and most patients with scars presenting with pain do not have SBO.",
+      "positive_finding": "Prior laparotomy is the dominant risk factor for adhesive small bowel obstruction; in the OMGE series it was the most efficient historical item (RR 12.1) and is one of the best history predictors in the 2013 meta-analysis.",
+      "prerequisites": "None; corroborate with old records or inspection of the abdomen.",
+      "rationale": "Prior abdominal surgery increases risk for adhesive small bowel obstruction, influencing early management.",
+      "skill_assumption": null,
+      "title": "History of prior abdominal surgery (adhesion risk)",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/exam_abdominal_rigidity_guarding",
+      "changes_what": "Present: treat as peritonitis, obtain surgical review and CT urgently. Absent: modest reassurance only; do not use to withhold imaging.",
+      "contraindications": "None; avoid deep or repeated palpation once peritonitis is evident.",
+      "do_not_use_when": "Do not rely on absence of guarding to exclude surgical pathology in the elderly, immunosuppressed, obese, pregnant or opioid-treated patient.",
+      "escalation_warning": "Diffuse rigidity with hypotension or fever is generalized peritonitis until proven otherwise: resuscitate, antibiotics, immediate surgical consultation.",
+      "evidence": [
+       {
+        "citation": "Becker T, Kharbanda A, Bachur R. Atypical clinical features of pediatric appendicitis. Acad Emerg Med. 2007;14(2):124-129.",
+        "computed": false,
+        "doi": "10.1197/j.aem.2006.08.009",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.63"
+        },
+        "lr_positive": null,
+        "pmid": "17192449",
+        "population": "755 children and adolescents (median age 11.9 y) evaluated for suspected appendicitis; 36% had appendicitis",
+        "prevalence": "0.36",
+        "quote": "lack of guarding (LR, 0.63)",
+        "reference_standard": "Surgical pathology or telephone follow-up",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Acute appendicitis (absence of guarding as negative predictor) (pediatric)",
+        "url": null,
+        "year": "2007"
+       },
+       {
+        "citation": "Becker T, Kharbanda A, Bachur R. Atypical clinical features of pediatric appendicitis. Acad Emerg Med. 2007;14(2):124-129.",
+        "computed": true,
+        "doi": "10.1197/j.aem.2006.08.009",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "17192449",
+        "population": "Children and adolescents with proven appendicitis in the same cohort (n=755 enrolled)",
+        "prevalence": "0.36",
+        "quote": "lack of guarding (47%)",
+        "reference_standard": "Surgical pathology or telephone follow-up",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.53"
+        },
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Acute appendicitis (pediatric)",
+        "url": null,
+        "year": "2007"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "With the patient supine, knees flexed and distracted by conversation, palpate each quadrant gently with a flat hand. Involuntary guarding is reflex contraction of the abdominal wall that persists despite relaxation and distraction; rigidity is a board-like wall that does not soften on expiration.",
+      "id": "exam_abdominal_rigidity_guarding",
+      "negative_finding": "Absence of guarding lowers but does not exclude appendicitis (pediatric LR- ~0.6); early, retrocaecal or perforated disease in the elderly or immunosuppressed may show no guarding.",
+      "pitfalls": "Voluntary guarding from anxiety, cold hands or ticklishness mimics the sign; obesity, steroids, opioids and advanced age blunt it. Distinguishing voluntary from involuntary guarding is examiner dependent.",
+      "positive_finding": "Involuntary guarding or rigidity indicates parietal peritoneal irritation (localized or generalized peritonitis) and raises the probability of appendicitis, perforation or other surgical pathology.",
+      "prerequisites": "Patient able to lie supine and relax; warm hands; examine tender areas last.",
+      "rationale": "Involuntary guarding or rigidity suggests peritonitis or perforation, requiring urgent surgical review.",
+      "skill_assumption": null,
+      "title": "Involuntary guarding / board-like rigidity",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_rebound_tenderness",
+      "changes_what": "Positive: escalate to imaging and surgical review for suspected appendicitis/peritonitis; negative in low-risk patients supports observation, not discharge without follow-up.",
+      "contraindications": "Avoid in an already rigid, obviously peritonitic abdomen where the manoeuvre adds only pain; prefer percussion or cough tenderness.",
+      "do_not_use_when": "Do not use a negative result to exclude peritonitis in elderly, immunosuppressed, steroid-treated, obese or obtunded patients, or in pregnancy where the appendix is displaced.",
+      "escalation_warning": "Generalised rebound with fever, tachycardia or hypotension indicates diffuse peritonitis: resuscitate and obtain immediate surgical review.",
+      "evidence": [
+       {
+        "citation": "Golledge J, Toms AP, Franklin IJ, Scriven MW, Galland RB. Assessment of peritonism in appendicitis. Ann R Coll Surg Engl. 1996;78(1):11-14.",
+        "computed": true,
+        "doi": null,
+        "evidence_level": "single_study",
+        "interpretation_label": "both",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.2"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "7.45"
+        },
+        "pmid": "8659965",
+        "population": "100 consecutive patients with right iliac fossa pain, median age 25 (range 4-81), UK surgical unit; 44 histology-proven appendicitis",
+        "prevalence": "0.44",
+        "quote": "Rebound tenderness proved to be sensitive (sensitivity 0.82), specific (specificity 0.89) and accurate (accuracy 86%).",
+        "reference_standard": "Histology at operation; non-operated patients followed clinically",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.82"
+        },
+        "setting": "inpatient",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.89"
+        },
+        "target_condition": "Acute appendicitis",
+        "url": null,
+        "year": "1996"
+       },
+       {
+        "citation": "Bundy DG, Byerley JS, Liles EA, Perrin EM, Katznelson J, Rice HE. Does this child have appendicitis? JAMA. 2007;298(4):438-451.",
+        "computed": false,
+        "doi": "10.1001/jama.298.4.438",
+        "evidence_level": "pooled",
+        "interpretation_label": "both",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.55",
+         "ci_low": "0.14",
+         "value": "0.28"
+        },
+        "lr_positive": {
+         "ci_high": "3.9",
+         "ci_low": "2.3",
+         "value": "3"
+        },
+        "pmid": "17652298",
+        "population": "Children <=18 years in whom appendicitis was suspected and evaluation undertaken; pooled from quality level >=3 studies",
+        "prevalence": null,
+        "quote": "rebound tenderness triples the odds of appendicitis (summary LR, 3.0; 95% CI, 2.3-3.9), while its absence reduces the likelihood (summary LR, 0.28; 95% CI, 0.14-0.55)",
+        "reference_standard": "Surgical pathology, clinical observation or follow-up",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Acute appendicitis (children)",
+        "url": null,
+        "year": "2007"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Press slowly and deeply with the fingertips over the area of concern (or a remote quadrant), hold, then release abruptly while watching the patient's face. Pain on release greater than on pressure is rebound tenderness. Gentler equivalents: percussion tenderness, or pain on coughing or heel-drop.",
+      "id": "exam_rebound_tenderness",
+      "negative_finding": "Absence lowers the probability of appendicitis (pediatric LR- 0.28) but does not exclude early, retrocaecal or pelvic appendicitis or peritonitis in the elderly and immunosuppressed.",
+      "pitfalls": "The classic release manoeuvre is painful and non-specific in anxious patients; percussion or cough tenderness gives similar information more gently. False negatives occur with steroids, advanced age, obesity and altered mental status.",
+      "positive_finding": "Rebound (or percussion/cough) tenderness indicates parietal peritoneal inflammation; in RIF pain it is specific for appendicitis (spec 0.89, sens 0.82 in adults; pediatric LR+ 3.0).",
+      "prerequisites": "Explain the manoeuvre; give analgesia first (it does not abolish peritoneal signs); perform once, not repeatedly.",
+      "rationale": "Rebound tenderness is a sign of peritoneal irritation and would escalate the need for imaging and surgical consult.",
+      "skill_assumption": null,
+      "title": "Rebound tenderness (peritoneal irritation)",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_abdominal_distension",
+      "changes_what": "Distension + pain/vomiting: NG decompression, fluids, CT abdomen. Tense distension with AKI: measure bladder pressure. Suprapubic dullness: bladder scan and catheterize.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not interpret distension in isolation in patients with ascites, pregnancy, or known chronic megacolon; do not use absence of distension to defer imaging when pain is severe or peritoneal signs exist.",
+      "escalation_warning": "Distension with peritonism, hemodynamic instability, or rising lactate suggests strangulation or perforation: immediate surgical review. Tense abdomen with oliguria: check intra-abdominal pressure.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Inspect the supine abdomen from the side and foot of the bed for a protuberant contour, flank bulging and visible loops or peristalsis. Percuss all quadrants: tympany suggests gas-filled bowel (obstruction/ileus), suprapubic dullness a full bladder, flank dullness fluid. Ask the patient whether the belly feels bigger than usual.",
+      "id": "exam_abdominal_distension",
+      "negative_finding": "Absence of distension makes complete SBO less likely but does not exclude proximal or early obstruction, ischemia or perforation.",
+      "pitfalls": "Obesity, ascites, pregnancy and chronic constipation mimic or mask distension; a tense abdomen from retention is easily mistaken for obstruction. Percussion note and contour are poorly reproducible between examiners.",
+      "positive_finding": "New tympanitic distension with pain and vomiting points to small bowel obstruction (RR ~13 vs no distension in the OMGE series); tense distension with oliguria raises abdominal compartment syndrome; suprapubic dullness suggests retention.",
+      "prerequisites": "Supine patient with abdomen fully exposed; compare with baseline habitus if known.",
+      "rationale": "Abdominal distension helps differentiate obstruction or perforation and guides immediate management steps.",
+      "skill_assumption": null,
+      "title": "Abdominal distension on inspection/percussion",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_pulsatile_abdominal_mass",
+      "changes_what": "Positive: obtain bedside aortic ultrasound now (CT if stable and rupture suspected); negative does not exclude AAA in a symptomatic elderly patient and should not stop imaging.",
+      "contraindications": "None; palpation has not been reported to precipitate rupture, but in a patient with suspected rupture do not delay imaging or resuscitation to examine.",
+      "do_not_use_when": "Never use a negative palpation to exclude ruptured AAA in a hypotensive or syncopal older patient with abdominal, flank, or back pain; go straight to bedside ultrasound.",
+      "escalation_warning": "Pulsatile mass with pain, hypotension, or syncope indicates possible rupture: activate vascular surgery, large-bore access, and CT only if stable.",
+      "evidence": [
+       {
+        "citation": "Lederle FA, Simel DL. The rational clinical examination. Does this patient have abdominal aortic aneurysm? JAMA. 1999;281(1):77-82.",
+        "computed": false,
+        "doi": "10.1001/jama.281.1.77",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.81",
+         "ci_low": "0.65",
+         "value": "0.72"
+        },
+        "lr_positive": {
+         "ci_high": "19.5",
+         "ci_low": "7.4",
+         "value": "12"
+        },
+        "pmid": "9892455",
+        "population": "Patients not previously known to have AAA, screened with both abdominal palpation and ultrasound (15 pooled studies)",
+        "prevalence": null,
+        "quote": "using a cutoff point for AAAs of 3.0 cm or greater are 12.0 (95% CI, 7.4-19.5) and 0.72 (95% CI, 0.65-0.81), respectively",
+        "reference_standard": "Abdominal ultrasound",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "AAA >=3.0 cm (finding: abnormal widening of aortic pulsation)",
+        "url": null,
+        "year": "1999"
+       },
+       {
+        "citation": "Lederle FA, Simel DL. The rational clinical examination. Does this patient have abdominal aortic aneurysm? JAMA. 1999;281(1):77-82.",
+        "computed": false,
+        "doi": "10.1001/jama.281.1.77",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.67",
+         "ci_low": "0.38",
+         "value": "0.51"
+        },
+        "lr_positive": {
+         "ci_high": "28.5",
+         "ci_low": "8.6",
+         "value": "15.6"
+        },
+        "pmid": "9892455",
+        "population": "Patients not previously known to have AAA, screened with both abdominal palpation and ultrasound (15 pooled studies)",
+        "prevalence": null,
+        "quote": "and for AAAs of 4.0 cm or greater are 15.6 (95% CI, 8.6-28.5) and 0.51 (95% CI, 0.38-0.67)",
+        "reference_standard": "Abdominal ultrasound",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "AAA >=4.0 cm (finding: abnormal widening of aortic pulsation)",
+        "url": null,
+        "year": "1999"
+       },
+       {
+        "citation": "Lederle FA, Simel DL. The rational clinical examination. Does this patient have abdominal aortic aneurysm? JAMA. 1999;281(1):77-82.",
+        "computed": false,
+        "doi": "10.1001/jama.281.1.77",
+        "evidence_level": "pooled",
+        "interpretation_label": "minimal",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "9892455",
+        "population": "Patients not previously known to have AAA, screened with both abdominal palpation and ultrasound (15 pooled studies)",
+        "prevalence": null,
+        "quote": "ranging from 29% for AAAs of 3.0 to 3.9 cm to 50% for AAAs of 4.0 to 4.9 cm",
+        "reference_standard": "Abdominal ultrasound",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.29"
+        },
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "AAA by diameter stratum: 3.0-3.9 cm (sensitivity only)",
+        "url": null,
+        "year": "1999"
+       },
+       {
+        "citation": "Lederle FA, Simel DL. The rational clinical examination. Does this patient have abdominal aortic aneurysm? JAMA. 1999;281(1):77-82.",
+        "computed": false,
+        "doi": "10.1001/jama.281.1.77",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "9892455",
+        "population": "Patients not previously known to have AAA, screened with both abdominal palpation and ultrasound (15 pooled studies)",
+        "prevalence": null,
+        "quote": "to 50% for AAAs of 4.0 to 4.9 cm and 76% for AAAs of 5.0 cm or greater",
+        "reference_standard": "Abdominal ultrasound",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.76"
+        },
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "AAA by diameter stratum: >=5.0 cm (sensitivity only)",
+        "url": null,
+        "year": "1999"
+       },
+       {
+        "citation": "Fink HA, Lederle FA, Roth CS, Bowles CA, Nelson DB, Haas MA. The accuracy of physical examination to detect abdominal aortic aneurysm. Arch Intern Med. 2000;160(6):833-836.",
+        "computed": false,
+        "doi": "10.1001/archinte.160.6.833",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.56",
+         "ci_low": "0.33",
+         "value": "0.43"
+        },
+        "lr_positive": {
+         "ci_high": "3.6",
+         "ci_low": "2",
+         "value": "2.7"
+        },
+        "pmid": "10737283",
+        "population": "200 subjects aged 51-88 years (99 with and 101 without ultrasound-proven AAA), each examined by 2 blinded internists",
+        "prevalence": "0.495",
+        "quote": "68% (95% confidence interval [CI], 60%-76%); specificity, 75% (95% CI, 68%-82%); positive likelihood ratio, 2.7 (95% CI, 2.0-3.6); negative likelihood ratio 0.43 (95% CI, 0.33-0.56)",
+        "reference_standard": "Prior abdominal ultrasound",
+        "sensitivity": {
+         "ci_high": "0.76",
+         "ci_low": "0.6",
+         "value": "0.68"
+        },
+        "setting": "outpatient",
+        "specificity": {
+         "ci_high": "0.82",
+         "ci_low": "0.68",
+         "value": "0.75"
+        },
+        "target_condition": "AAA (any, ultrasound-defined) by blinded internist palpation",
+        "url": null,
+        "year": "2000"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Patient supine with knees flexed and abdomen relaxed. Palpate deeply in the epigastrium just left of midline to locate the aortic pulse, then place both hands on either side of the pulsating aorta and estimate its width (excluding the abdominal wall); a width >3 cm, or an expansile mass pushing the fingers apart, is positive.",
+      "id": "exam_pulsatile_abdominal_mass",
+      "negative_finding": "A normal-width or unpalpable aorta lowers AAA probability only modestly (LR- 0.72 for >=3.0 cm; 0.51 for >=4.0 cm); sensitivity is 29% for 3.0-3.9 cm aneurysms and 76% for >=5.0 cm, so a negative exam cannot exclude AAA, especially if rupture is possible.",
+      "pitfalls": "Sensitivity drops from ~91% to ~53% when abdominal girth is >=100 cm; tortuous aortas in thin elderly patients and transmitted pulsation from an overlying mass can mimic AAA. Half of symptomatic AAA patients lack the triad of hypotension, back/abdominal pain, and pulsatile mass.",
+      "positive_finding": "A widened aortic pulsation raises the likelihood of AAA substantially (pooled LR+ 12 for AAA >=3.0 cm, 15.6 for >=4.0 cm); positive predictive value in screening cohorts was only ~43%, so confirm with ultrasound.",
+      "prerequisites": "Relaxed abdomen; measure abdominal girth (accuracy falls markedly when girth >=100 cm).",
+      "rationale": "A pulsatile abdominal mass suggests AAA, which is a surgical emergency and changes the next steps.",
+      "skill_assumption": null,
+      "title": "Palpable pulsatile abdominal mass (widened aortic pulsation)",
+      "type": "exam"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_pain_out_of_proportion_exam",
+     "rationale": "Pain out of proportion to exam is a key discriminator for mesenteric ischemia and would prompt urgent escalation."
+    },
+    {
+     "id": "hx_pain_tearing_ripping",
+     "rationale": "Tearing or migrating pain raises suspicion for aortic dissection or AAA, which require immediate action."
+    },
+    {
+     "id": "hx_prior_abdominal_surgery",
+     "rationale": "Prior abdominal surgery increases risk for adhesive small bowel obstruction, influencing early management."
+    }
+   ],
+   "examine": [
+    {
+     "id": "exam_abdominal_rigidity_guarding",
+     "rationale": "Involuntary guarding or rigidity suggests peritonitis or perforation, requiring urgent surgical review."
+    },
+    {
+     "id": "exam_rebound_tenderness",
+     "rationale": "Rebound tenderness is a sign of peritoneal irritation and would escalate the need for imaging and surgical consult."
+    },
+    {
+     "id": "exam_abdominal_distension",
+     "rationale": "Abdominal distension helps differentiate obstruction or perforation and guides immediate management steps."
+    },
+    {
+     "id": "exam_pulsatile_abdominal_mass",
+     "rationale": "A pulsatile abdominal mass suggests AAA, which is a surgical emergency and changes the next steps."
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "abrupt severe abdominal pain",
+   "differentials": [
+    {
+     "dx": "mesenteric_ischemia",
+     "weight": 1.0
+    },
+    {
+     "dx": "perforated_viscus",
+     "weight": 0.4
+    },
+    {
+     "dx": "pancreatitis",
+     "weight": 0.2
+    },
+    {
+     "dx": "small_bowel_obstruction",
+     "weight": 0.2
+    },
+    {
+     "dx": "aaa",
+     "weight": 0.2
+    }
+   ],
+   "indication_tags": [
+    "acute_onset"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "all over abdomen",
+    "severe",
+    "abrupt onset",
+    "last hour"
+   ],
+   "observed_values": [
+    "pulse 118",
+    "pressure 128/76"
+   ],
+   "presentation": "abdominal_pain",
+   "time_course": "acute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "n1"
+}

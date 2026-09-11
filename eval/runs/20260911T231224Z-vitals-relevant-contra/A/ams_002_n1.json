@@ -1,0 +1,815 @@
+{
+ "arm": "A",
+ "ask_first": false,
+ "base_case_id": "ams_002",
+ "blocked_items": [],
+ "case_id": "ams_002_n1",
+ "created_at": "2026-09-11T23:15:13+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Aertgeerts B, Buntinx F, Kester A. The value of the CAGE in screening for alcohol abuse and alcohol dependence in general clinical populations: a diagnostic meta-analysis. J Clin Epidemiol. 2004;57(1):30-39."
+   ],
+   "numeric_claims": [
+    "0",
+    "0.18",
+    "0.6",
+    "0.71",
+    "0.87",
+    "1",
+    "10",
+    "10.1016",
+    "15019008",
+    "2",
+    "2004",
+    "24",
+    "254",
+    "3",
+    "3.44",
+    "30",
+    "39",
+    "4356",
+    "48",
+    "57",
+    "6",
+    "67",
+    "895",
+    "96"
+   ],
+   "performance_claims": [
+    "0.18",
+    "0.71",
+    "0.87",
+    "3.44"
+   ],
+   "record_id": "hx_alcohol_use_withdrawal_timing",
+   "section": "ask",
+   "text": "Alcohol use (CAGE) and time since last drink; tremor, diaphoresis, agitation (CIWA items)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "72"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_deliriogenic_medication_review",
+   "section": "ask",
+   "text": "Deliriogenic medication review: anticholinergics, benzodiazepines, opioids, new/changed drugs, thiazides"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Coburn B, Morris AM, Tomlinson G, Detsky AS. Does this adult patient with suspected bacteremia require blood cultures? JAMA. 2012;308(5):502-511.",
+    "Tokuda Y, Miyasato H, Stein GH, Kishaba T. The degree of chills for risk of bacteremia in acute febrile illness. Am J Med. 2005;118(12):1417."
+   ],
+   "numeric_claims": [
+    "0.076",
+    "0.11",
+    "0.24",
+    "0.51",
+    "0.744",
+    "0.875",
+    "0.892",
+    "0.9",
+    "0.903",
+    "0.915",
+    "0.945",
+    "10.1001",
+    "10.1016",
+    "118",
+    "12",
+    "1417",
+    "16378800",
+    "2.95",
+    "2005",
+    "2005.06",
+    "2012",
+    "2012.8262",
+    "22851117",
+    "25",
+    "3",
+    "308",
+    "35",
+    "4.65",
+    "4.7",
+    "40",
+    "43",
+    "4566",
+    "5",
+    "502",
+    "511",
+    "526",
+    "6.86",
+    "7.2",
+    "7.6",
+    "74.4",
+    "87.5",
+    "89.2",
+    "90.3",
+    "91.5",
+    "94.5",
+    "946",
+    "95"
+   ],
+   "performance_claims": [
+    "0.11",
+    "0.24",
+    "0.51",
+    "0.744",
+    "0.875",
+    "0.892",
+    "0.903",
+    "0.915",
+    "0.945",
+    "2.95",
+    "3",
+    "4.65",
+    "4.7",
+    "6.86",
+    "7.2"
+   ],
+   "record_id": "hx_rigors_shaking_chills",
+   "section": "ask",
+   "text": "Rigors / shaking chills"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "1",
+    "2",
+    "30"
+   ],
+   "performance_claims": [],
+   "record_id": "exam_asterixis",
+   "section": "examine",
+   "text": "Asterixis (flapping tremor with wrists extended)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Shi Q, Warren L, Saposnik G, Macdermid JC. Confusion assessment method: a systematic review and meta-analysis of diagnostic accuracy. Neuropsychiatr Dis Treat 2013;9:1359-1370.",
+    "Wong CL, Holroyd-Leduc J, Simel DL, Straus SE. Does this patient have delirium?: value of bedside instruments. JAMA 2010;304:779-786."
+   ],
+   "numeric_claims": [
+    "0.09",
+    "0.16",
+    "0.29",
+    "0.69",
+    "0.82",
+    "0.87",
+    "0.91",
+    "0.99",
+    "1",
+    "10",
+    "10.1001",
+    "10.2147",
+    "100",
+    "1359",
+    "1370",
+    "16",
+    "2",
+    "2010",
+    "2010.1182",
+    "2013",
+    "20716741",
+    "22",
+    "24092976",
+    "2442",
+    "25",
+    "3",
+    "3027",
+    "304",
+    "4",
+    "49520",
+    "5",
+    "5.8",
+    "69",
+    "779",
+    "786",
+    "82",
+    "87",
+    "9",
+    "9.6",
+    "91",
+    "95",
+    "99"
+   ],
+   "performance_claims": [
+    "0.09",
+    "0.16",
+    "0.29",
+    "0.69",
+    "0.82",
+    "0.87",
+    "0.91",
+    "0.99",
+    "1",
+    "16",
+    "5.8",
+    "9.6"
+   ],
+   "record_id": "exam_cam_delirium_screen",
+   "section": "examine",
+   "text": "Confusion Assessment Method (CAM) delirium screen"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": "exam_infection_source_survey",
+   "section": "examine",
+   "text": "Focused infection-source exam (line/exit sites, skin, abdomen, joints, sacrum, urine catheter)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Caine D, Halliday GM, Kril JJ, Harper CG. Operational criteria for the classification of chronic alcoholics: identification of Wernicke's encephalopathy. J Neurol Neurosurg Psychiatry. 1997;62(1):51-60.",
+    "Harper CG, Giles M, Finlay-Jones R. Clinical signs in the Wernicke-Korsakoff complex: a retrospective analysis of 131 cases diagnosed at necropsy. J Neurol Neurosurg Psychiatry. 1986;49(4):341-345."
+   ],
+   "numeric_claims": [
+    "0.16",
+    "0.5",
+    "1",
+    "10.1136",
+    "106",
+    "12",
+    "131",
+    "16",
+    "19",
+    "1986",
+    "1997",
+    "2",
+    "3",
+    "341",
+    "345",
+    "3701343",
+    "4",
+    "49",
+    "49.4",
+    "50",
+    "51",
+    "60",
+    "62",
+    "62.1",
+    "80",
+    "9010400"
+   ],
+   "performance_claims": [
+    "0.16",
+    "0.5"
+   ],
+   "record_id": "exam_pupils_eye_movements_toxidrome",
+   "section": "examine",
+   "text": "Pupils and eye movements: miosis with hypoventilation (opioid), ophthalmoplegia/nystagmus with ataxia (Wernicke), gaze deviation"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "candidates": [
+   "exam_cirrhosis_stigmata",
+   "exam_spider_nevi",
+   "exam_cam_delirium_screen",
+   "fn_attention_months_backward",
+   "exam_asterixis",
+   "exam_shifting_dullness",
+   "hx_alcohol_use_withdrawal_timing",
+   "exam_pupils_eye_movements_toxidrome",
+   "exam_bladder_percussion_palpable",
+   "exam_infection_source_survey",
+   "hx_dysuria_frequency",
+   "hx_rigors_shaking_chills",
+   "hx_deliriogenic_medication_review",
+   "exam_tachypnea_rr_gt24",
+   "exam_dry_mucous_membranes",
+   "exam_skin_turgor",
+   "exam_orthostatic_vitals",
+   "hx_hypotensive_medication_review",
+   "exam_anaphylaxis_signs",
+   "hx_dizziness_timing_triggers",
+   "exam_peripheral_edema_pitting",
+   "hx_edema_causing_medications",
+   "hx_nephrotoxin_contrast_exposure"
+  ],
+  "card": {
+   "chief_complaint": "very sleepy, only knows his name",
+   "presentation": "ams",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_alcohol_use_withdrawal_timing",
+      "changes_what": "Positive: give thiamine before glucose, start symptom-triggered benzodiazepines, check glucose/ammonia. Negative: pursue other AMS causes; still consider Wernicke if malnourished.",
+      "contraindications": "CIWA-Ar is unreliable in patients who cannot communicate (intubated, delirious from another cause, severe dementia).",
+      "do_not_use_when": "Do not use CIWA-Ar to drive sedation in patients who cannot communicate or whose agitation may be from another cause (sepsis, hypoxia, head injury, hypoglycemia).",
+      "escalation_warning": "Seizure, fever, marked autonomic instability or hallucinations with confusion 48-96 h after the last drink suggest delirium tremens or Wernicke; give IV thiamine and escalate care.",
+      "evidence": [
+       {
+        "citation": "Aertgeerts B, Buntinx F, Kester A. The value of the CAGE in screening for alcohol abuse and alcohol dependence in general clinical populations: a diagnostic meta-analysis. J Clin Epidemiol. 2004;57(1):30-39.",
+        "computed": false,
+        "doi": "10.1016/S0895-4356(03)00254-3",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "15019008",
+        "population": "Hospital inpatients from studies pooled in a diagnostic meta-analysis (10 studies overall)",
+        "prevalence": null,
+        "quote": "the pooled sensitivity is far better in inpatients (0.87) than in primary care patients (0.71) or ambulatory patients (0.60)",
+        "reference_standard": "DSM criteria for alcohol abuse/dependence (structured interview)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.87"
+        },
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "DSM-defined alcohol abuse or dependence; CAGE score >=2 (inpatients)",
+        "url": null,
+        "year": "2004"
+       },
+       {
+        "citation": "Aertgeerts B, Buntinx F, Kester A. The value of the CAGE in screening for alcohol abuse and alcohol dependence in general clinical populations: a diagnostic meta-analysis. J Clin Epidemiol. 2004;57(1):30-39.",
+        "computed": false,
+        "doi": "10.1016/S0895-4356(03)00254-3",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "15019008",
+        "population": "Primary care patients from pooled studies",
+        "prevalence": null,
+        "quote": "the pooled sensitivity is far better in inpatients (0.87) than in primary care patients (0.71) or ambulatory patients (0.60)",
+        "reference_standard": "DSM criteria for alcohol abuse/dependence",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.71"
+        },
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "DSM-defined alcohol abuse or dependence; CAGE score >=2 (primary care)",
+        "url": null,
+        "year": "2004"
+       },
+       {
+        "citation": "Aertgeerts B, Buntinx F, Kester A. The value of the CAGE in screening for alcohol abuse and alcohol dependence in general clinical populations: a diagnostic meta-analysis. J Clin Epidemiol. 2004;57(1):30-39.",
+        "computed": false,
+        "doi": "10.1016/S0895-4356(03)00254-3",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.18"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "3.44"
+        },
+        "pmid": "15019008",
+        "population": "General clinical populations, 10 pooled studies (inpatient, primary care, ambulatory)",
+        "prevalence": null,
+        "quote": "The likelihood ratios seem to be relatively constant over the populations (overall LR+:3.44;LR-:0.18)",
+        "reference_standard": "DSM criteria for alcohol abuse/dependence",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "DSM-defined alcohol abuse or dependence; CAGE score >=2 (all populations)",
+        "url": null,
+        "year": "2004"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Ask the four CAGE questions (Cut down, Annoyed, Guilty, Eye-opener), quantity/frequency, and the exact time of the last drink. Score CIWA-Ar items at the bedside: nausea, tremor (arms extended), sweats, anxiety, agitation, tactile/auditory/visual disturbances, headache, orientation (0-67).",
+      "id": "hx_alcohol_use_withdrawal_timing",
+      "negative_finding": "CAGE <2 lowers but does not exclude an alcohol use disorder (pooled LR- 0.18; sensitivity only 0.60 in ambulatory patients). A drink within the last few hours makes withdrawal an unlikely cause of current symptoms.",
+      "pitfalls": "CAGE detects abuse/dependence, not hazardous drinking, and performs poorly in women, prenatal and primary-care populations. CIWA-Ar is a severity scale, not a diagnostic test, and is inflated by pain, sepsis, hypoglycemia and anxiety.",
+      "positive_finding": "CAGE >=2 raises the probability of DSM alcohol abuse/dependence (pooled LR+ 3.44; sensitivity 0.87 in inpatients). Last drink 6-24 h ago with tremor/sweats/agitation fits early withdrawal; 48-96 h fits delirium tremens.",
+      "prerequisites": "Patient able to answer or a collateral historian; CIWA-Ar requires a communicative patient.",
+      "rationale": "Recent alcohol cessation in a cirrhotic patient makes withdrawal and Wernicke's important to assess immediately.",
+      "skill_assumption": null,
+      "title": "Alcohol use (CAGE) and time since last drink; tremor, diaphoresis, agitation (CIWA items)",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_deliriogenic_medication_review",
+      "changes_what": "Positive: stop or taper the culprit and check sodium; the review is additive to, not a replacement for, the infectious/metabolic delirium workup.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not delay sepsis, hypoglycemia or stroke evaluation while the medication list is being reconciled.",
+      "escalation_warning": "Abrupt benzodiazepine or opioid withdrawal can itself cause delirium, seizures or severe pain; taper rather than stop in chronic users.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Reconcile every current drug (including OTC, PRN and recently stopped) against the admission list and the last 72 h MAR. Flag anticholinergics, benzodiazepines/Z-drugs, opioids, dihydropyridines, antihistamines, steroids, any drug added or dose-changed in the past week, and diuretics/thiazides (sodium).",
+      "id": "hx_deliriogenic_medication_review",
+      "negative_finding": "No culprit drug identified does not exclude delirium or medication effect; look for infection, metabolic and structural causes.",
+      "pitfalls": "Risk data are relative risks/odds ratios from cohort studies, not diagnostic sensitivity or specificity, so no LR can be assigned. Untreated severe pain also precipitates delirium, so opioids should be tapered rather than abruptly withdrawn.",
+      "positive_finding": "One or more deliriogenic drugs or a recent addition/dose change temporally preceding the mental-status change. More than three drugs added during admission roughly triples delirium risk in older inpatients.",
+      "prerequisites": "Reliable medication history from chart, pharmacy record or family; time of each new start or dose change.",
+      "rationale": "Medication effects are a common, reversible cause of acute mental status change and should be checked early.",
+      "skill_assumption": null,
+      "title": "Deliriogenic medication review: anticholinergics, benzodiazepines, opioids, new/changed drugs, thiazides",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_rigors_shaking_chills",
+      "changes_what": "Shaking chills should prompt blood cultures and a search for a bacteremic source (line, biliary, urinary, endovascular); no chills supports withholding cultures when pretest probability is low.",
+      "contraindications": "None.",
+      "do_not_use_when": "The RCE conclusions do not apply to immunocompromised patients or when endocarditis is suspected; in those groups obtain cultures regardless of chills.",
+      "escalation_warning": "Rigors with hypotension, altered mentation or a central line indicate probable bacteremia/sepsis: cultures, source control and antibiotics within the hour.",
+      "evidence": [
+       {
+        "citation": "Coburn B, Morris AM, Tomlinson G, Detsky AS. Does this adult patient with suspected bacteremia require blood cultures? JAMA. 2012;308(5):502-511.",
+        "computed": false,
+        "doi": "10.1001/jama.2012.8262",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "7.2",
+         "ci_low": "3",
+         "value": "4.7"
+        },
+        "pmid": "22851117",
+        "population": "Adult immunocompetent patients in whom bacteremia was suspected (35 studies; 4566 bacteremia and 25,946 negative episodes)",
+        "prevalence": null,
+        "quote": "The severity of chills graded on an ordinal scale (shaking chills, LR, 4.7; 95% CI, 3.0-7.2) may be more useful.",
+        "reference_standard": "Blood cultures",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Bacteremia (true-positive blood culture)",
+        "url": null,
+        "year": "2012"
+       },
+       {
+        "citation": "Tokuda Y, Miyasato H, Stein GH, Kishaba T. The degree of chills for risk of bacteremia in acute febrile illness. Am J Med. 2005;118(12):1417.",
+        "computed": false,
+        "doi": "10.1016/j.amjmed.2005.06.043",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "6.86",
+         "ci_low": "2.95",
+         "value": "4.65"
+        },
+        "pmid": "16378800",
+        "population": "526 consecutive adults with acute febrile illness (40, 7.6%, bacteremic)",
+        "prevalence": "0.076",
+        "quote": "Shaking chills showed a specificity of 90.3% (95% CI 89.2-91.5) and positive likelihood ratio of 4.65 (95% CI 2.95-6.86).",
+        "reference_standard": "Blood cultures",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": {
+         "ci_high": "0.915",
+         "ci_low": "0.892",
+         "value": "0.903"
+        },
+        "target_condition": "Bacteremia - finding: shaking chills (whole-body shaking under a thick blanket)",
+        "url": null,
+        "year": "2005"
+       },
+       {
+        "citation": "Tokuda Y, Miyasato H, Stein GH, Kishaba T. The degree of chills for risk of bacteremia in acute febrile illness. Am J Med. 2005;118(12):1417.",
+        "computed": false,
+        "doi": "10.1016/j.amjmed.2005.06.043",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_out",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.51",
+         "ci_low": "0.11",
+         "value": "0.24"
+        },
+        "lr_positive": null,
+        "pmid": "16378800",
+        "population": "526 consecutive adults with acute febrile illness (40, 7.6%, bacteremic)",
+        "prevalence": "0.076",
+        "quote": "The absence of chills showed a sensitivity of 87.5% (95% CI 74.4-94.5) and negative likelihood ratio of 0.24 (95% CI 0.11-0.51).",
+        "reference_standard": "Blood cultures",
+        "sensitivity": {
+         "ci_high": "0.945",
+         "ci_low": "0.744",
+         "value": "0.875"
+        },
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Bacteremia - finding: any chills (sensitivity and LR- refer to absence of chills)",
+        "url": null,
+        "year": "2005"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Ask the patient (or witnesses) whether they have had chills and grade the worst episode: mild = feeling cold, needing a jacket; moderate = needing a thick blanket; shaking chills = whole-body shaking even under a thick blanket. Record timing relative to fever and any line, procedure or infusion.",
+      "id": "hx_rigors_shaking_chills",
+      "negative_finding": "Absence of any chills lowers the probability of bacteremia (LR- 0.24) but does not exclude it, particularly in elderly or immunocompromised patients who may not mount rigors.",
+      "pitfalls": "Rigors also occur with malaria, transfusion or drug reactions, and after amphotericin or contaminated infusions; the grading relies on patient recall and the RCE data exclude immunocompromised patients and suspected endocarditis.",
+      "positive_finding": "Shaking (rigor-grade) chills raise the probability of bacteremia about 4.7-fold (LR+ 4.7, 95% CI 3.0-7.2; specificity 0.90) and justify blood cultures before antibiotics.",
+      "prerequisites": "Patient or witness able to describe the episode; ask before antipyretics blunt recall.",
+      "rationale": "Rigors can point to infection as a precipitant of delirium or hepatic encephalopathy in this vulnerable patient.",
+      "skill_assumption": null,
+      "title": "Rigors / shaking chills",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/exam_asterixis",
+      "changes_what": "Present: obtain blood gas (CO2), ammonia/liver tests, renal function and drug review; treat the identified cause. Absent: no change in workup for the presenting complaint.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not rely on asterixis to grade encephalopathy in a stuporous or comatose patient (the sign disappears as HE deepens).",
+      "escalation_warning": "Asterixis with drowsiness in a COPD patient means probable acute hypercapnic failure: blood gas and NIV assessment now. In cirrhosis, new asterixis warrants a search for a precipitant (bleeding, infection, drugs).",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Have the patient hold both arms outstretched with wrists dorsiflexed and fingers spread for 30 s (or squeeze your fingers, or protrude the tongue if the arms cannot be held up); watch for brief, irregular loss of posture with a flapping correction. Examine both sides; can also be elicited in the feet or with hip abduction in a supine patient.",
+      "id": "exam_asterixis",
+      "negative_finding": "Absence does not exclude hepatic encephalopathy (covert/grade 1 HE and deep coma both lack asterixis) nor hypercapnia; interpret with the rest of the examination and an ammonia/blood gas as indicated.",
+      "pitfalls": "Asterixis is absent in stupor/coma and in minimal HE, so it is neither sensitive nor specific; unilateral asterixis suggests a contralateral structural brain lesion (stroke) rather than a metabolic cause.",
+      "positive_finding": "Bilateral asterixis indicates a metabolic or toxic encephalopathy: hepatic encephalopathy (grade 2 or higher, West Haven) in cirrhosis, hypercapnic respiratory failure, uraemia, or drug effect (valproate, carbamazepine, lithium, sedatives). It does not distinguish between these causes.",
+      "prerequisites": "Patient awake enough to follow a command and sustain posture; a comatose patient cannot show asterixis.",
+      "rationale": "Asterixis is a key sign of hepatic encephalopathy and would directly guide urgent management in this context.",
+      "skill_assumption": null,
+      "title": "Asterixis (flapping tremor with wrists extended)",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_cam_delirium_screen",
+      "changes_what": "Positive: label as delirium and work up precipitants; negative: pursue dementia, depression, psychosis or focal neurology but rescreen if course fluctuates.",
+      "contraindications": "None.",
+      "do_not_use_when": "Not a substitute for glucose, vitals, and focal neurological exam in acute mental-status change; use CAM-ICU in ventilated or non-verbal patients.",
+      "escalation_warning": "A positive CAM with fever, meningism, focal deficit or reduced consciousness needs urgent evaluation for meningitis, stroke or sepsis regardless of screen result.",
+      "evidence": [
+       {
+        "citation": "Wong CL, Holroyd-Leduc J, Simel DL, Straus SE. Does this patient have delirium?: value of bedside instruments. JAMA 2010;304:779-786.",
+        "computed": false,
+        "doi": "10.1001/jama.2010.1182",
+        "evidence_level": "pooled",
+        "interpretation_label": "both",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.29",
+         "ci_low": "0.09",
+         "value": "0.16"
+        },
+        "lr_positive": {
+         "ci_high": "16",
+         "ci_low": "5.8",
+         "value": "9.6"
+        },
+        "pmid": "20716741",
+        "population": "Hospitalized adults, mostly older medical/surgical inpatients, across 25 prospective studies (N=3027)",
+        "prevalence": null,
+        "quote": "the CAM has the best available supportive data as a bedside delirium instrument (summary-positive LR, 9.6; 95% CI, 5.8-16.0; summary-negative LR, 0.16; 95% CI, 0.09-0.29)",
+        "reference_standard": "DSM-based diagnosis by geriatrician, psychiatrist or neurologist",
+        "sensitivity": null,
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Delirium (DSM-based diagnosis)",
+        "url": null,
+        "year": "2010"
+       },
+       {
+        "citation": "Shi Q, Warren L, Saposnik G, Macdermid JC. Confusion assessment method: a systematic review and meta-analysis of diagnostic accuracy. Neuropsychiatr Dis Treat 2013;9:1359-1370.",
+        "computed": false,
+        "doi": "10.2147/NDT.S49520",
+        "evidence_level": "pooled",
+        "interpretation_label": "both",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results; Results text and Figure 2 (bivariate estimate)",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "24092976",
+        "population": "Adults in a variety of medical settings; 22 studies of CAM and CAM-ICU (n=2442)",
+        "prevalence": null,
+        "quote": "The pooled sensitivities and specificity for CAM were 82% (95% confidence interval [CI]: 69%-91%) and 99% (95% CI: 87%-100%)",
+        "reference_standard": "DSM-IV criteria",
+        "sensitivity": {
+         "ci_high": "0.91",
+         "ci_low": "0.69",
+         "value": "0.82"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "1",
+         "ci_low": "0.87",
+         "value": "0.99"
+        },
+        "target_condition": "Delirium (DSM-IV)",
+        "url": null,
+        "year": "2013"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "After a brief cognitive test (e.g. months backwards, digit span) and interview, score four features: (1) acute onset and fluctuating course from an informant/chart, (2) inattention, (3) disorganized thinking, (4) altered level of consciousness. CAM positive = features 1 AND 2 plus either 3 or 4. Takes about 5 minutes.",
+      "id": "exam_cam_delirium_screen",
+      "negative_finding": "Negative CAM lowers the probability substantially (pooled LR- 0.16) but pooled sensitivity is only ~0.82; repeat the screen if fluctuation is suspected.",
+      "pitfalls": "Accuracy falls with untrained raters and without a formal attention test; dementia, aphasia and hypoactive delirium lower sensitivity. The CAM identifies delirium, not its cause.",
+      "positive_finding": "Positive CAM makes delirium roughly 10 times more likely (pooled LR+ 9.6) and should trigger a search for the precipitant (infection, drugs, metabolic, withdrawal).",
+      "prerequisites": "Baseline cognition from a collateral source; trained rater; patient able to respond (use CAM-ICU for intubated/non-verbal patients).",
+      "rationale": "A formal delirium screen helps confirm acute delirium and guides the search for underlying causes.",
+      "skill_assumption": null,
+      "title": "Confusion Assessment Method (CAM) delirium screen",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_infection_source_survey",
+      "changes_what": "A positive survey targets cultures, imaging and source control (line removal, drainage, debridement); a negative survey mandates blood/urine cultures and imaging rather than reassurance.",
+      "contraindications": "None; do not delay cultures and antibiotics in suspected sepsis while completing the survey.",
+      "do_not_use_when": "Never let a negative source survey withhold cultures, empiric antibiotics or imaging in a hypotensive, febrile or acutely confused patient with suspected infection.",
+      "escalation_warning": "Crepitus, bullae, skin necrosis or pain out of proportion (necrotizing fasciitis), a hot joint, peritonism, or purulence at a central line/dialysis catheter in a septic patient require immediate surgical/source-control and line removal decisions.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Undress and inspect every line, dialysis and drain/exit site (erythema, purulence, tunnel tenderness), all skin including back, sacrum, heels, perineum, injection sites and wounds; palpate abdomen (peritonism, Murphy sign, flank tenderness), joints and spine for warmth/effusion/tenderness; check urinary catheter, mouth, sinuses, ears and chest. Repeat daily while the source is unknown.",
+      "id": "exam_infection_source_survey",
+      "negative_finding": "A normal survey does not exclude an occult source: insertion-site inflammation is absent in nearly all catheter-related bloodstream infections, and intra-abdominal, urinary, endovascular and spinal infections are frequently silent in elderly, immunosuppressed or sedated patients.",
+      "pitfalls": "Line-site appearance has near-zero sensitivity for CRBSI (coagulase-negative staphylococci cause little inflammation); steroids, neutropenia and neuropathy blunt local signs; dressings, obesity and immobility hide sacral, perineal and injection-site infections. Pain out of proportion with unimpressive skin findings suggests necrotizing infection.",
+      "positive_finding": "Purulence, spreading erythema or tunnel tenderness at a line/exit site, cellulitis or crepitus, a hot swollen joint, peritonism or flank tenderness, or a sacral/heel ulcer with surrounding infection identifies a probable source and directs cultures, source control and empiric therapy.",
+      "prerequisites": "Full exposure with dressings taken down, adequate lighting and analgesia; review lines, catheters and devices with their insertion dates; log-roll immobile patients to view the sacrum.",
+      "rationale": "Identifying a source of infection is crucial, as infection is a common precipitant of encephalopathy and delirium in cirrhotics.",
+      "skill_assumption": null,
+      "title": "Focused infection-source exam (line/exit sites, skin, abdomen, joints, sacrum, urine catheter)",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_pupils_eye_movements_toxidrome",
+      "changes_what": "Miosis + hypoventilation: give naloxone and support ventilation. Eye-movement signs + ataxia/confusion: IV thiamine now, before glucose. Gaze deviation: stroke pathway or EEG.",
+      "contraindications": "None.",
+      "do_not_use_when": "Never withhold thiamine or naloxone because the eye or pupil findings are absent; both treatments are low-risk and the signs are insensitive.",
+      "escalation_warning": "Hypoventilation with miosis needs airway support and naloxone now; new gaze deviation or ophthalmoplegia with headache or focal deficits needs urgent neuroimaging.",
+      "evidence": [
+       {
+        "citation": "Harper CG, Giles M, Finlay-Jones R. Clinical signs in the Wernicke-Korsakoff complex: a retrospective analysis of 131 cases diagnosed at necropsy. J Neurol Neurosurg Psychiatry. 1986;49(4):341-345.",
+        "computed": false,
+        "doi": "10.1136/jnnp.49.4.341",
+        "evidence_level": "single_study",
+        "interpretation_label": "minimal",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "3701343",
+        "population": "131 cases of Wernicke-Korsakoff syndrome diagnosed at necropsy, Western Australia, retrospective review of clinical records (80% undiagnosed in life)",
+        "prevalence": null,
+        "quote": "only 16% had the classical clinical triad and 19% had no documented clinical signs",
+        "reference_standard": "Neuropathological diagnosis at necropsy",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.16"
+        },
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "COMPOSITE: classic Wernicke triad (oculomotor abnormality + cerebellar ataxia + altered mental state) all documented antemortem, for necropsy-proven Wernicke-Korsakoff",
+        "url": null,
+        "year": "1986"
+       },
+       {
+        "citation": "Caine D, Halliday GM, Kril JJ, Harper CG. Operational criteria for the classification of chronic alcoholics: identification of Wernicke's encephalopathy. J Neurol Neurosurg Psychiatry. 1997;62(1):51-60.",
+        "computed": false,
+        "doi": "10.1136/jnnp.62.1.51",
+        "evidence_level": "single_study",
+        "interpretation_label": "minimal",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "9010400",
+        "population": "106 alcoholics screened from a large necropsy sample; criteria applied retrospectively to patient records by 3 independent raters; subgroup with Wernicke's plus hepatic encephalopathy",
+        "prevalence": null,
+        "quote": "Wernicke's encephalopathy was underrecognized only when occurring with hepatic encephalopathy (50% sensitivity)",
+        "reference_standard": "Definitive neuropathological diagnosis at necropsy",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.5"
+        },
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "COMPOSITE: Caine operational criteria (2 of 4: dietary deficiency, eye signs, cerebellar dysfunction, altered mental state/memory impairment) for neuropathologically confirmed Wernicke's encephalopathy co-occurring with hepatic encephalopathy",
+        "url": null,
+        "year": "1997"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Measure pupil size and reactivity in dim light, count respiratory rate for a full minute. Test horizontal and vertical pursuit and check for nystagmus, lateral rectus (VI) palsy or conjugate gaze palsy; note any forced gaze deviation at rest. Then test gait or heel-shin for ataxia and screen mental state and short-term recall.",
+      "id": "exam_pupils_eye_movements_toxidrome",
+      "negative_finding": "Normal pupils do not exclude opioid effect after mixed ingestions or hypoxia. The full Wernicke triad was documented in only 16% of necropsy-proven cases, so absence of eye signs must not withhold thiamine in at-risk patients.",
+      "pitfalls": "Miosis also follows pontine stroke, clonidine, organophosphates and cholinergic eye drops; mydriasis after hypoxic arrest can mask opioid miosis. Wernicke's without alcohol (bariatric surgery, hyperemesis, cancer) presents atypically; eye signs are frequently missed on record review.",
+      "positive_finding": "Pinpoint pupils with respiratory rate <=12 in an unresponsive patient points to opioid toxidrome and justifies naloxone. Nystagmus, VI palsy or gaze palsy plus ataxia or confusion in a malnourished or alcohol-using patient meets Caine criteria for Wernicke's and mandates immediate IV thiamine; forced conjugate gaze deviation suggests stroke or ongoing seizure.",
+      "prerequisites": "Pen light; ability to open the eyelids; record any recent opioid, sedative or eye-drop exposure and prior ocular surgery.",
+      "rationale": "Pupil and eye findings can rapidly identify toxidromes or Wernicke's, both relevant in this patient.",
+      "skill_assumption": null,
+      "title": "Pupils and eye movements: miosis with hypoventilation (opioid), ophthalmoplegia/nystagmus with ataxia (Wernicke), gaze deviation",
+      "type": "exam"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_alcohol_use_withdrawal_timing",
+     "rationale": "Recent alcohol cessation in a cirrhotic patient makes withdrawal and Wernicke's important to assess immediately."
+    },
+    {
+     "id": "hx_deliriogenic_medication_review",
+     "rationale": "Medication effects are a common, reversible cause of acute mental status change and should be checked early."
+    },
+    {
+     "id": "hx_rigors_shaking_chills",
+     "rationale": "Rigors can point to infection as a precipitant of delirium or hepatic encephalopathy in this vulnerable patient."
+    }
+   ],
+   "examine": [
+    {
+     "id": "exam_asterixis",
+     "rationale": "Asterixis is a key sign of hepatic encephalopathy and would directly guide urgent management in this context."
+    },
+    {
+     "id": "exam_cam_delirium_screen",
+     "rationale": "A formal delirium screen helps confirm acute delirium and guides the search for underlying causes."
+    },
+    {
+     "id": "exam_infection_source_survey",
+     "rationale": "Identifying a source of infection is crucial, as infection is a common precipitant of encephalopathy and delirium in cirrhotics."
+    },
+    {
+     "id": "exam_pupils_eye_movements_toxidrome",
+     "rationale": "Pupil and eye findings can rapidly identify toxidromes or Wernicke's, both relevant in this patient."
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "very sleepy, only knows his name",
+   "differentials": [
+    {
+     "dx": "hepatic_encephalopathy",
+     "weight": 1.0
+    },
+    {
+     "dx": "delirium_infectious",
+     "weight": 0.214
+    },
+    {
+     "dx": "uremia",
+     "weight": 0.1
+    },
+    {
+     "dx": "hyponatremia",
+     "weight": 0.071
+    },
+    {
+     "dx": "medication_effect",
+     "weight": 0.043
+    }
+   ],
+   "indication_tags": [
+    "cirrhosis_known",
+    "alcohol_use",
+    "acute_onset"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "cirrhosis",
+    "recent alcohol cessation",
+    "admitted yesterday with ascites"
+   ],
+   "observed_values": [
+    "pulse 78"
+   ],
+   "presentation": "ams",
+   "time_course": "acute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "n1"
+}

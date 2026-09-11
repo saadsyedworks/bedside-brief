@@ -1,0 +1,293 @@
+{
+ "arm": "A",
+ "cases": 108,
+ "top5": [
+  "missing_must_have_targets",
+  "ask_first_false_negatives",
+  "ask_first_false_positives",
+  "brevity_failures",
+  "empty_cards"
+ ],
+ "modes": {
+  "missing_must_have_targets": {
+   "count": 91,
+   "unit": "targets",
+   "by_presentation": {
+    "abdominal_pain": {
+     "missing": 1,
+     "top": [
+      [
+       "Murphy sign (inspiratory arrest on RUQ palpation)",
+       1
+      ]
+     ]
+    },
+    "aki": {
+     "missing": 12,
+     "top": [
+      [
+       "Orthostatic vital signs (supine to standing at 1 and 3 min)",
+       7
+      ],
+      [
+       "Abdominojugular reflux",
+       3
+      ],
+      [
+       "Medication review (MAR): anticholinergics, opioids, alpha-agonists",
+       2
+      ]
+     ]
+    },
+    "ams": {
+     "missing": 13,
+     "top": [
+      [
+       "Suprapubic tenderness and Costovertebral angle (CVA) tenderness (urinary source)",
+       3
+      ],
+      [
+       "Abdominal tenderness (SBP)",
+       3
+      ],
+      [
+       "Digital rectal examination (DRE) for melena",
+       3
+      ]
+     ]
+    },
+    "chest_pain": {
+     "missing": 8,
+     "top": [
+      [
+       "S3 gallop",
+       3
+      ],
+      [
+       "Palpate the chest wall and costochondral junctions for fully reproducible tenderness",
+       2
+      ],
+      [
+       "Radial/femoral pulse deficit",
+       1
+      ]
+     ]
+    },
+    "dizziness": {
+     "missing": 3,
+     "top": [
+      [
+       "Gait assessment: can the patient stand and walk unaided (sit unsupported; truncal ataxia)",
+       2
+      ],
+      [
+       "Dix-Hallpike maneuver on each side, observing latency, duration, and direction of nystagmus",
+       1
+      ]
+     ]
+    },
+    "dyspnea": {
+     "missing": 8,
+     "top": [
+      [
+       "Ask about known COPD diagnosis or prior spirometry, home inhalers, and prior exacerbations needing steroids or intubation",
+       3
+      ],
+      [
+       "Forced expiratory time (timed forced exhalation, >=9 s)",
+       3
+      ],
+      [
+       "S3 gallop (third heart sound) at the apex in left lateral decubitus",
+       2
+      ]
+     ]
+    },
+    "edema": {
+     "missing": 5,
+     "top": [
+      [
+       "S3 gallop (third heart sound) at the apex in left lateral decubitus",
+       3
+      ],
+      [
+       "Calf circumference asymmetry >3 cm (10 cm below tibial tuberosity)",
+       1
+      ],
+      [
+       "Wells DVT items on history and exam: bedridden >3 days, active cancer, prior VTE, recent surgery, pitting edema confined to the symptomatic leg, collateral superficial veins",
+       1
+      ]
+     ]
+    },
+    "fever": {
+     "missing": 3,
+     "top": [
+      [
+       "Inspect surgical wound for erythema, warmth, drainage, dehiscence, and tenderness beyond the incision",
+       3
+      ]
+     ]
+    },
+    "hypotension": {
+     "missing": 12,
+     "top": [
+      [
+       "Mental status and respiratory rate at the bedside (qSOFA elements)",
+       3
+      ],
+      [
+       "Capillary refill time (>3 s), skin mottling over the knees, cool extremities",
+       2
+      ],
+      [
+       "Ask about melena, hematemesis, and hematochezia",
+       2
+      ]
+     ]
+    },
+    "palpitations": {
+     "missing": 15,
+     "top": [
+      [
+       "JVP (jugular venous pressure)",
+       3
+      ],
+      [
+       "Bedside hemodynamic stability: mentation, chest pain, dyspnea, Capillary refill time, skin temperature",
+       3
+      ],
+      [
+       "Cannon a waves in the jugular venous pulse and variable intensity of S1 (AV dissociation)",
+       3
+      ]
+     ]
+    },
+    "syncope": {
+     "missing": 5,
+     "top": [
+      [
+       "Dry axilla / mucous membranes",
+       2
+      ],
+      [
+       "Dynamic auscultation: murmur intensity with Valsalva and squat-to-stand (louder with Valsalva or standing suggests HCM, softer suggests AS)",
+       1
+      ],
+      [
+       "Medication review (MAR): sotalol dose and timing, other QT-prolonging or AV-nodal agents, recent additions",
+       1
+      ]
+     ]
+    },
+    "weakness": {
+     "missing": 6,
+     "top": [
+      [
+       "Establish last-known-well time precisely",
+       3
+      ],
+      [
+       "Ask: focal versus generalized, sudden versus gradual onset, new today or progressive since admission, and whether the problem is weakness, dizziness, or pain on standing",
+       3
+      ]
+     ]
+    }
+   },
+   "examples": [
+    {
+     "case_id": "abdominal_pain_002_p1",
+     "target": "Murphy sign (inspiratory arrest on RUQ palpation)"
+    },
+    {
+     "case_id": "aki_001",
+     "target": "Orthostatic vital signs (supine to standing at 1 and 3 min)"
+    },
+    {
+     "case_id": "aki_001",
+     "target": "Abdominojugular reflux"
+    },
+    {
+     "case_id": "aki_001_n1",
+     "target": "Orthostatic vital signs (supine to standing at 1 and 3 min)"
+    },
+    {
+     "case_id": "aki_001_n1",
+     "target": "Abdominojugular reflux"
+    },
+    {
+     "case_id": "aki_001_p1",
+     "target": "Orthostatic vital signs (supine to standing at 1 and 3 min)"
+    },
+    {
+     "case_id": "aki_001_p1",
+     "target": "Abdominojugular reflux"
+    },
+    {
+     "case_id": "aki_002",
+     "target": "Medication review (MAR): anticholinergics, opioids, alpha-agonists"
+    },
+    {
+     "case_id": "aki_002",
+     "target": "Orthostatic vital signs (supine to standing at 1 and 3 min)"
+    },
+    {
+     "case_id": "aki_002_p1",
+     "target": "Medication review (MAR): anticholinergics, opioids, alpha-agonists"
+    },
+    {
+     "case_id": "aki_002_p1",
+     "target": "Orthostatic vital signs (supine to standing at 1 and 3 min)"
+    },
+    {
+     "case_id": "aki_003",
+     "target": "Orthostatic vital signs (supine to standing at 1 and 3 min)"
+    }
+   ]
+  },
+  "ask_first_false_negatives": {
+   "count": 3,
+   "unit": "cases",
+   "examples": [
+    "dizziness_003_n1",
+    "weakness_003",
+    "weakness_003_n1"
+   ]
+  },
+  "ask_first_false_positives": {
+   "count": 0,
+   "unit": "cases",
+   "examples": []
+  },
+  "brevity_failures": {
+   "count": 0,
+   "unit": "cases",
+   "examples": []
+  },
+  "empty_cards": {
+   "count": 0,
+   "unit": "cases",
+   "examples": []
+  },
+  "pipeline_errors": {
+   "count": 0,
+   "unit": "cases",
+   "examples": []
+  },
+  "should_not_recommend_hits": {
+   "count": 0,
+   "unit": "cases",
+   "examples": []
+  },
+  "unsupported_quantitative_claims": {
+   "count": 0,
+   "unit": "numbers",
+   "examples": []
+  },
+  "validator_blocked_items": {
+   "count": 0,
+   "unit": "items",
+   "examples": []
+  }
+ }
+}

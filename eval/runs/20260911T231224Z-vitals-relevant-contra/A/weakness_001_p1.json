@@ -1,0 +1,534 @@
+{
+ "arm": "A",
+ "ask_first": false,
+ "base_case_id": "weakness_001",
+ "blocked_items": [],
+ "case_id": "weakness_001_p1",
+ "created_at": "2026-09-11T23:30:33+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "24",
+    "72"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_hypoglycemia_symptoms_insulin",
+   "section": "ask",
+   "text": "Hypoglycemia history: insulin/sulfonylurea use, missed meals, adrenergic or neuroglycopenic symptoms"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": "exam_forehead_sparing_facial_weakness",
+   "section": "examine",
+   "text": "Forehead sparing (central) vs forehead involvement (peripheral) in facial weakness"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Diagnostic accuracy of the physical examination in emergency department patients with acute vertigo or dizziness: a systematic review and meta-analysis for GRACE-3. Acad Emerg Med. 2023;30(5):552-578.",
+    "Goldstein LB, Simel DL. Is this patient having a stroke? JAMA. 2005;293(19):2391-2402.",
+    "Kattah JC, Talkad AV, Wang DZ, Hsieh YH, Newman-Toker DE. HINTS to diagnose stroke in the acute vestibular syndrome: three-step bedside oculomotor examination more sensitive than early MRI diffusion-weighted imaging. Stroke. 2009;40(11):3504-3510."
+   ],
+   "numeric_claims": [
+    "0",
+    "0.051",
+    "0.1",
+    "0.114",
+    "0.236",
+    "0.25",
+    "0.323",
+    "0.39",
+    "0.4",
+    "0.468",
+    "0.49",
+    "0.51",
+    "0.61",
+    "0.619",
+    "0.75",
+    "0.757",
+    "0.928",
+    "0.971",
+    "0.981",
+    "0.985",
+    "0.992",
+    "1",
+    "10",
+    "10.1001",
+    "10.1161",
+    "101",
+    "109.551234",
+    "11",
+    "11.4",
+    "15900010",
+    "19",
+    "19762709",
+    "2005",
+    "2009",
+    "2023",
+    "23.6",
+    "2391",
+    "2402",
+    "25",
+    "293",
+    "293.19",
+    "3",
+    "3.3",
+    "30",
+    "32.3",
+    "3504",
+    "3510",
+    "36453134",
+    "4",
+    "40",
+    "4593511",
+    "46.8",
+    "49",
+    "5",
+    "5.1",
+    "5.5",
+    "50",
+    "51",
+    "552",
+    "578",
+    "61.9",
+    "75.7",
+    "76",
+    "869",
+    "893",
+    "9.1",
+    "92.8",
+    "93",
+    "95",
+    "97.1",
+    "98.1",
+    "98.5",
+    "99.2"
+   ],
+   "performance_claims": [
+    "0.051",
+    "0.114",
+    "0.236",
+    "0.25",
+    "0.323",
+    "0.39",
+    "0.39",
+    "0.468",
+    "0.49",
+    "0.51",
+    "0.61",
+    "0.61",
+    "0.619",
+    "0.757",
+    "0.928",
+    "0.971",
+    "0.981",
+    "0.985",
+    "0.992",
+    "1",
+    "3.3",
+    "5.5",
+    "9.1"
+   ],
+   "record_id": "exam_focal_neuro_deficit_screen",
+   "section": "examine",
+   "text": "Focal deficit screen: facial droop, arm drift, speech (Cincinnati/NIHSS-lite)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Caine D, Halliday GM, Kril JJ, Harper CG. Operational criteria for the classification of chronic alcoholics: identification of Wernicke's encephalopathy. J Neurol Neurosurg Psychiatry. 1997;62(1):51-60.",
+    "Harper CG, Giles M, Finlay-Jones R. Clinical signs in the Wernicke-Korsakoff complex: a retrospective analysis of 131 cases diagnosed at necropsy. J Neurol Neurosurg Psychiatry. 1986;49(4):341-345."
+   ],
+   "numeric_claims": [
+    "0.16",
+    "0.5",
+    "1",
+    "10.1136",
+    "106",
+    "12",
+    "131",
+    "16",
+    "19",
+    "1986",
+    "1997",
+    "2",
+    "3",
+    "341",
+    "345",
+    "3701343",
+    "4",
+    "49",
+    "49.4",
+    "50",
+    "51",
+    "60",
+    "62",
+    "62.1",
+    "80",
+    "9010400"
+   ],
+   "performance_claims": [
+    "0.16",
+    "0.5"
+   ],
+   "record_id": "exam_pupils_eye_movements_toxidrome",
+   "section": "examine",
+   "text": "Pupils and eye movements: miosis with hypoventilation (opioid), ophthalmoplegia/nystagmus with ataxia (Wernicke), gaze deviation"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "candidates": [
+   "exam_focal_neuro_deficit_screen",
+   "exam_face_arm_speech_cpss",
+   "exam_forehead_sparing_facial_weakness",
+   "exam_focal_neuro_deficit_with_chest_pain",
+   "exam_pulse_irregularly_irregular",
+   "fn_gait_stand_unaided",
+   "hx_hypoglycemia_symptoms_insulin",
+   "exam_sensory_level_upper_motor_neuron_signs",
+   "exam_proximal_symmetric_weakness",
+   "hx_alcohol_use_withdrawal_timing",
+   "exam_subtle_motor_signs_ncse",
+   "exam_pupils_eye_movements_toxidrome"
+  ],
+  "card": {
+   "chief_complaint": "left facial droop and slurred speech",
+   "presentation": "weakness",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_hypoglycemia_symptoms_insulin",
+      "changes_what": "Positive: fingerstick now, treat, and observe for recurrence (sulfonylurea/renal failure -> admit); negative: keep glucose check but move to cardiac/neurologic causes of the spell.",
+      "contraindications": "None; the history must never delay a point-of-care glucose in any patient with altered mental status, syncope or focal deficit.",
+      "do_not_use_when": "Never rely on symptom history alone in an obtunded, post-ictal or focally weak patient - measure glucose immediately.",
+      "escalation_warning": "Hypoglycemia with sulfonylurea, insulin overdose, renal failure or alcohol needs monitored admission and repeated glucose; persistent deficit after glucose correction is a stroke workup.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Ask specifically about insulin or sulfonylurea use (drug, dose, timing of last dose), missed or delayed meals, alcohol, recent renal or hepatic decline, and prodromal autonomic symptoms (sweating, tremor, palpitations, hunger) or neuroglycopenic symptoms (confusion, drowsiness, difficulty speaking, weakness). Confirm with a fingerstick glucose at the time of symptoms.",
+      "id": "hx_hypoglycemia_symptoms_insulin",
+      "negative_finding": "No exposure to insulin or secretagogues and no critical illness, cortisol/hormone deficiency or alcohol makes drug-induced hypoglycemia unlikely, but a measured glucose is still required because neuroglycopenia can present without warning symptoms.",
+      "pitfalls": "Long-standing diabetes and beta-blockers blunt autonomic warning symptoms so neuroglycopenic presentation (confusion, focal deficit) may be the only clue; sulfonylurea hypoglycemia recurs for 24-72 h so a single corrected glucose is not the end of the episode.",
+      "positive_finding": "Insulin/secretagogue exposure plus a missed meal, alcohol or renal impairment and autonomic or neuroglycopenic prodrome makes hypoglycemia likely; Whipple's triad (symptoms, documented low glucose, resolution with glucose) confirms it.",
+      "prerequisites": "A collateral history when the patient is confused; the medication list including recently added sulfonylureas, insulin dose changes, or drugs that potentiate them.",
+      "rationale": "Hypoglycemia can mimic stroke and is rapidly reversible, so checking for risk factors is critical.",
+      "skill_assumption": null,
+      "title": "Hypoglycemia history: insulin/sulfonylurea use, missed meals, adrenergic or neuroglycopenic symptoms",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/exam_forehead_sparing_facial_weakness",
+      "changes_what": "Forehead spared: stroke pathway/imaging. Forehead involved and isolated: Bell palsy work-up and early steroids; any additional neurological sign redirects to central causes.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use forehead involvement alone to exclude stroke in patients with vascular risk factors, vertigo, diplopia, ataxia, limb or gaze findings, or bilateral/recurrent palsy.",
+      "escalation_warning": "Any additional neurological deficit, sudden onset with headache, or forehead-sparing pattern warrants urgent stroke assessment.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Ask the patient to raise the eyebrows, close the eyes tightly against resistance, show the teeth and puff the cheeks; compare sides. Forehead and eye closure preserved with lower-face weakness = upper motor neuron (central) pattern; forehead, eye closure and lower face all weak on one side = lower motor neuron (peripheral) pattern. Also check ear canal, other cranial nerves and limbs.",
+      "id": "exam_forehead_sparing_facial_weakness",
+      "negative_finding": "Involvement of the forehead and eye closure indicates a peripheral (facial nerve) lesion, consistent with Bell palsy when isolated and rapid in onset; it does not exclude a pontine stroke (nucleus/fascicle lesion gives a peripheral pattern), Ramsay Hunt, Lyme disease, otitis or tumour.",
+      "pitfalls": "Bilateral cortical innervation of the forehead makes sparing incomplete in some central lesions, and mild peripheral palsies can look forehead-sparing early. Pontine infarcts and facial-nucleus lesions produce a 'peripheral' pattern with a central cause; look for crossed signs, gaze palsy or other cranial nerve deficits.",
+      "positive_finding": "Forehead sparing with lower facial weakness indicates a central (supranuclear) lesion and should be treated as a possible stroke until proven otherwise; accompanying limb weakness, dysarthria, gaze palsy or diplopia strongly favours stroke.",
+      "prerequisites": "Adequate cooperation; note pre-existing asymmetry, ptosis or previous palsy.",
+      "rationale": "Distinguishing central (stroke) from peripheral (Bell palsy) facial weakness is key for immediate management.",
+      "skill_assumption": null,
+      "title": "Forehead sparing (central) vs forehead involvement (peripheral) in facial weakness",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_focal_neuro_deficit_screen",
+      "changes_what": "Positive: treat as stroke until imaged, especially if anticoagulated (urgent CT for hemorrhage). Negative in a dizzy patient: still needs HINTS/gait assessment; does not exclude stroke.",
+      "contraindications": "None. Do not stand a patient who is vomiting, severely ataxic or hypotensive to test gait.",
+      "do_not_use_when": "Never use a normal three-item screen to exclude stroke in acute vertigo, ataxia, diplopia or visual loss; posterior-circulation strokes frequently have none of the three findings.",
+      "escalation_warning": "New focal deficit in an anticoagulated patient is intracranial hemorrhage until proven otherwise: urgent CT and reversal pathway. Any focal deficit within the reperfusion window is time-critical.",
+      "evidence": [
+       {
+        "citation": "Goldstein LB, Simel DL. Is this patient having a stroke? JAMA. 2005;293(19):2391-2402.",
+        "computed": false,
+        "doi": "10.1001/jama.293.19.2391",
+        "evidence_level": "pooled",
+        "interpretation_label": "both",
+        "kind": "rce_series",
+        "location": "Abstract, Data Synthesis (JAMA 2005;293:2391)",
+        "lr_negative": {
+         "ci_high": "0.61",
+         "ci_low": "0.25",
+         "value": "0.39"
+        },
+        "lr_positive": {
+         "ci_high": "9.1",
+         "ci_low": "3.3",
+         "value": "5.5"
+        },
+        "pmid": "15900010",
+        "population": "Pooled studies of patients with neurologically relevant symptoms, modern neuroimaging (RCE systematic review)",
+        "prevalence": "0.1",
+        "quote": "acute facial paresis, arm drift, or abnormal speech increases the likelihood of stroke (LR of > or =1 finding = 5.5; 95% CI, 3.3-9.1)",
+        "reference_standard": "Final diagnosis after neuroimaging and laboratory tests",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Acute stroke (ischemic or hemorrhagic)",
+        "url": null,
+        "year": "2005"
+       },
+       {
+        "citation": "Diagnostic accuracy of the physical examination in emergency department patients with acute vertigo or dizziness: a systematic review and meta-analysis for GRACE-3. Acad Emerg Med. 2023;30(5):552-578.",
+        "computed": false,
+        "doi": null,
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results (Acad Emerg Med 2023;30:552)",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "36453134",
+        "population": "ED patients with acute vertigo or dizziness; 5 studies, 869 patients",
+        "prevalence": null,
+        "quote": "general neurologic examination-five studies, 869 patients, pooled sensitivity 46.8% (95% confidence interval [CI] 32.3%-61.9%, moderate certainty) and specificity 92.8% (95% CI 75.7%-98.1%",
+        "reference_standard": "Neuroimaging-confirmed central vs peripheral etiology",
+        "sensitivity": {
+         "ci_high": "0.619",
+         "ci_low": "0.323",
+         "value": "0.468"
+        },
+        "setting": "ED",
+        "specificity": {
+         "ci_high": "0.981",
+         "ci_low": "0.757",
+         "value": "0.928"
+        },
+        "target_condition": "Central cause (stroke, hemorrhage, other) of acute vertigo/dizziness - general neurologic examination abnormal",
+        "url": null,
+        "year": "2023"
+       },
+       {
+        "citation": "Diagnostic accuracy of the physical examination in emergency department patients with acute vertigo or dizziness: a systematic review and meta-analysis for GRACE-3. Acad Emerg Med. 2023;30(5):552-578.",
+        "computed": false,
+        "doi": null,
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results (Acad Emerg Med 2023;30:552)",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "36453134",
+        "population": "ED patients with acute vertigo or dizziness; 4 studies, 893 patients",
+        "prevalence": null,
+        "quote": "limb weakness/hemiparesis-four studies, 893 patients, sensitivity 11.4% (95% CI 5.1%-23.6%, high) and specificity 98.5% (95% CI 97.1%-99.2%, high)",
+        "reference_standard": "Neuroimaging-confirmed central vs peripheral etiology",
+        "sensitivity": {
+         "ci_high": "0.236",
+         "ci_low": "0.051",
+         "value": "0.114"
+        },
+        "setting": "ED",
+        "specificity": {
+         "ci_high": "0.992",
+         "ci_low": "0.971",
+         "value": "0.985"
+        },
+        "target_condition": "Central cause of acute vertigo/dizziness - limb weakness/hemiparesis",
+        "url": null,
+        "year": "2023"
+       },
+       {
+        "citation": "Kattah JC, Talkad AV, Wang DZ, Hsieh YH, Newman-Toker DE. HINTS to diagnose stroke in the acute vestibular syndrome: three-step bedside oculomotor examination more sensitive than early MRI diffusion-weighted imaging. Stroke. 2009;40(11):3504-3510.",
+        "computed": false,
+        "doi": "10.1161/STROKEAHA.109.551234",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Table 1 (PAVS n=25 vs CAVS n=76), Stroke 2009;40:3504 (PMC4593511)",
+        "lr_negative": {
+         "ci_high": "0.61",
+         "ci_low": "0.39",
+         "value": "0.49"
+        },
+        "lr_positive": null,
+        "pmid": "19762709",
+        "population": "101 consecutive high-risk AVS patients (25 peripheral, 76 central) at a stroke referral center",
+        "prevalence": "0.75",
+        "quote": "General neurologic signs (including truncal ataxia) 0% 51% 0.49 (0.39-0.61)",
+        "reference_standard": "MRI (or CT) for stroke; normal MRI plus clinical follow-up for peripheral",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.51"
+        },
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "1"
+        },
+        "target_condition": "Central acute vestibular syndrome (stroke or other central lesion) - any general neurologic sign including truncal ataxia",
+        "url": null,
+        "year": "2009"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Brief structured screen: facial symmetry on smile, pronator drift with arms held out and eyes closed for 10 s, and speech (repeat a sentence, name objects). Add gaze (ask to look left/right), visual fields by confrontation, finger-nose and heel-shin, and gait if safe, because dizzy or confused patients often lack the three classic items.",
+      "id": "exam_focal_neuro_deficit_screen",
+      "negative_finding": "A normal focal screen lowers stroke probability modestly overall (LR about 0.4 for absence of face/arm/speech findings) but is insensitive for posterior-circulation stroke: pooled sensitivity of the general neurologic exam in acute vertigo is under 50%, and in Kattah's AVS cohort general signs were absent in 49% of central lesions.",
+      "pitfalls": "Confusion, aphasia and encephalopathy from hypoglycemia, seizure or intoxication mimic focal deficits; a normal screen in a dizzy patient is falsely reassuring, so add HINTS and a gait test. Old deficits must be compared with baseline.",
+      "positive_finding": "Any new focal finding (facial paresis, arm drift, dysarthria/aphasia, gaze palsy, hemisensory loss, limb ataxia) strongly favours a central lesion; in dizzy patients such general neurologic signs are highly specific for a central cause (pooled specificity about 93%; limb weakness 98.5%).",
+      "prerequisites": "Bedside glucose; note baseline deficits, time last known well and anticoagulant use. Patient must be able to follow at least one-step commands or the screen defaults to observation of asymmetry.",
+      "rationale": "Screening for additional focal deficits helps confirm stroke suspicion and guides urgency of imaging.",
+      "skill_assumption": null,
+      "title": "Focal deficit screen: facial droop, arm drift, speech (Cincinnati/NIHSS-lite)",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_pupils_eye_movements_toxidrome",
+      "changes_what": "Miosis + hypoventilation: give naloxone and support ventilation. Eye-movement signs + ataxia/confusion: IV thiamine now, before glucose. Gaze deviation: stroke pathway or EEG.",
+      "contraindications": "None.",
+      "do_not_use_when": "Never withhold thiamine or naloxone because the eye or pupil findings are absent; both treatments are low-risk and the signs are insensitive.",
+      "escalation_warning": "Hypoventilation with miosis needs airway support and naloxone now; new gaze deviation or ophthalmoplegia with headache or focal deficits needs urgent neuroimaging.",
+      "evidence": [
+       {
+        "citation": "Harper CG, Giles M, Finlay-Jones R. Clinical signs in the Wernicke-Korsakoff complex: a retrospective analysis of 131 cases diagnosed at necropsy. J Neurol Neurosurg Psychiatry. 1986;49(4):341-345.",
+        "computed": false,
+        "doi": "10.1136/jnnp.49.4.341",
+        "evidence_level": "single_study",
+        "interpretation_label": "minimal",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "3701343",
+        "population": "131 cases of Wernicke-Korsakoff syndrome diagnosed at necropsy, Western Australia, retrospective review of clinical records (80% undiagnosed in life)",
+        "prevalence": null,
+        "quote": "only 16% had the classical clinical triad and 19% had no documented clinical signs",
+        "reference_standard": "Neuropathological diagnosis at necropsy",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.16"
+        },
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "COMPOSITE: classic Wernicke triad (oculomotor abnormality + cerebellar ataxia + altered mental state) all documented antemortem, for necropsy-proven Wernicke-Korsakoff",
+        "url": null,
+        "year": "1986"
+       },
+       {
+        "citation": "Caine D, Halliday GM, Kril JJ, Harper CG. Operational criteria for the classification of chronic alcoholics: identification of Wernicke's encephalopathy. J Neurol Neurosurg Psychiatry. 1997;62(1):51-60.",
+        "computed": false,
+        "doi": "10.1136/jnnp.62.1.51",
+        "evidence_level": "single_study",
+        "interpretation_label": "minimal",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "9010400",
+        "population": "106 alcoholics screened from a large necropsy sample; criteria applied retrospectively to patient records by 3 independent raters; subgroup with Wernicke's plus hepatic encephalopathy",
+        "prevalence": null,
+        "quote": "Wernicke's encephalopathy was underrecognized only when occurring with hepatic encephalopathy (50% sensitivity)",
+        "reference_standard": "Definitive neuropathological diagnosis at necropsy",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.5"
+        },
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "COMPOSITE: Caine operational criteria (2 of 4: dietary deficiency, eye signs, cerebellar dysfunction, altered mental state/memory impairment) for neuropathologically confirmed Wernicke's encephalopathy co-occurring with hepatic encephalopathy",
+        "url": null,
+        "year": "1997"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Measure pupil size and reactivity in dim light, count respiratory rate for a full minute. Test horizontal and vertical pursuit and check for nystagmus, lateral rectus (VI) palsy or conjugate gaze palsy; note any forced gaze deviation at rest. Then test gait or heel-shin for ataxia and screen mental state and short-term recall.",
+      "id": "exam_pupils_eye_movements_toxidrome",
+      "negative_finding": "Normal pupils do not exclude opioid effect after mixed ingestions or hypoxia. The full Wernicke triad was documented in only 16% of necropsy-proven cases, so absence of eye signs must not withhold thiamine in at-risk patients.",
+      "pitfalls": "Miosis also follows pontine stroke, clonidine, organophosphates and cholinergic eye drops; mydriasis after hypoxic arrest can mask opioid miosis. Wernicke's without alcohol (bariatric surgery, hyperemesis, cancer) presents atypically; eye signs are frequently missed on record review.",
+      "positive_finding": "Pinpoint pupils with respiratory rate <=12 in an unresponsive patient points to opioid toxidrome and justifies naloxone. Nystagmus, VI palsy or gaze palsy plus ataxia or confusion in a malnourished or alcohol-using patient meets Caine criteria for Wernicke's and mandates immediate IV thiamine; forced conjugate gaze deviation suggests stroke or ongoing seizure.",
+      "prerequisites": "Pen light; ability to open the eyelids; record any recent opioid, sedative or eye-drop exposure and prior ocular surgery.",
+      "rationale": "Eye findings can reveal stroke, seizure, or toxidrome, each requiring different urgent actions.",
+      "skill_assumption": null,
+      "title": "Pupils and eye movements: miosis with hypoventilation (opioid), ophthalmoplegia/nystagmus with ataxia (Wernicke), gaze deviation",
+      "type": "exam"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_hypoglycemia_symptoms_insulin",
+     "rationale": "Hypoglycemia can mimic stroke and is rapidly reversible, so checking for risk factors is critical."
+    }
+   ],
+   "examine": [
+    {
+     "id": "exam_forehead_sparing_facial_weakness",
+     "rationale": "Distinguishing central (stroke) from peripheral (Bell palsy) facial weakness is key for immediate management."
+    },
+    {
+     "id": "exam_focal_neuro_deficit_screen",
+     "rationale": "Screening for additional focal deficits helps confirm stroke suspicion and guides urgency of imaging."
+    },
+    {
+     "id": "exam_pupils_eye_movements_toxidrome",
+     "rationale": "Eye findings can reveal stroke, seizure, or toxidrome, each requiring different urgent actions."
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "left facial droop and slurred speech",
+   "differentials": [
+    {
+     "dx": "stroke",
+     "weight": 1.0
+    },
+    {
+     "dx": "bell_palsy",
+     "weight": 0.125
+    },
+    {
+     "dx": "sepsis_deconditioning",
+     "weight": 0.062
+    },
+    {
+     "dx": "hypoglycemia",
+     "weight": 0.062
+    }
+   ],
+   "indication_tags": [
+    "acute_onset",
+    "anticoagulated"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "left facial droop involving forehead",
+    "cannot close left eye",
+    "slurred speech",
+    "last seen normal [n] minutes ago"
+   ],
+   "observed_values": [],
+   "presentation": "weakness",
+   "time_course": "acute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "p1"
+}

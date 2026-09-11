@@ -1,0 +1,957 @@
+{
+ "arm": "A",
+ "ask_first": false,
+ "base_case_id": "fever_003",
+ "blocked_items": [],
+ "case_id": "fever_003_n1",
+ "created_at": "2026-09-11T23:24:42+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Coburn B, Morris AM, Tomlinson G, Detsky AS. Does this adult patient with suspected bacteremia require blood cultures? JAMA. 2012;308(5):502-511.",
+    "Tokuda Y, Miyasato H, Stein GH, Kishaba T. The degree of chills for risk of bacteremia in acute febrile illness. Am J Med. 2005;118(12):1417."
+   ],
+   "numeric_claims": [
+    "0.076",
+    "0.11",
+    "0.24",
+    "0.51",
+    "0.744",
+    "0.875",
+    "0.892",
+    "0.9",
+    "0.903",
+    "0.915",
+    "0.945",
+    "10.1001",
+    "10.1016",
+    "118",
+    "12",
+    "1417",
+    "16378800",
+    "2.95",
+    "2005",
+    "2005.06",
+    "2012",
+    "2012.8262",
+    "22851117",
+    "25",
+    "3",
+    "308",
+    "35",
+    "4.65",
+    "4.7",
+    "40",
+    "43",
+    "4566",
+    "5",
+    "502",
+    "511",
+    "526",
+    "6.86",
+    "7.2",
+    "7.6",
+    "74.4",
+    "87.5",
+    "89.2",
+    "90.3",
+    "91.5",
+    "94.5",
+    "946",
+    "95"
+   ],
+   "performance_claims": [
+    "0.11",
+    "0.24",
+    "0.51",
+    "0.744",
+    "0.875",
+    "0.892",
+    "0.903",
+    "0.915",
+    "0.945",
+    "2.95",
+    "3",
+    "4.65",
+    "4.7",
+    "6.86",
+    "7.2"
+   ],
+   "record_id": "hx_rigors_shaking_chills",
+   "section": "ask",
+   "text": "Rigors / shaking chills"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "2",
+    "72"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_new_medication_temporal_fever",
+   "section": "ask",
+   "text": "Fever onset temporally linked to a new drug (with rash/relative bradycardia)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": "exam_infection_source_survey",
+   "section": "examine",
+   "text": "Focused infection-source exam (line/exit sites, skin, abdomen, joints, sacrum, urine catheter)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Papadimitriou-Olivgeris M, Monney P, Frank M, Tzimas G, Fourr\u00e9 N, Zimmermann V, Tozzi P, Kirsch M, et al. Role of the New Physical Examination Minor Criterion (New Heart Murmur) for the Diagnosis of Infective Endocarditis. Open Forum Infect Dis. 2025."
+   ],
+   "numeric_claims": [
+    "0.37",
+    "0.376",
+    "0.73",
+    "0.87",
+    "1",
+    "10.1093",
+    "1177",
+    "13",
+    "2.74",
+    "2014",
+    "2023",
+    "2025",
+    "22",
+    "260",
+    "3127",
+    "37",
+    "39790639",
+    "430",
+    "690",
+    "736"
+   ],
+   "performance_claims": [
+    "0.37",
+    "0.73",
+    "0.87",
+    "2.74"
+   ],
+   "record_id": "exam_new_regurgitant_murmur",
+   "section": "examine",
+   "text": "New or changed regurgitant murmur"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Cobo-Sanchez JL, Blanco-Mavillard I, Pelayo-Alonso R, Mancebo-Salas N, Fernandez-Fernandez I, Larraneta-Inda I, et al. Validation of a Clinical Scale for Early Detection of Infections at the Exit Site of Central Venous Catheters for Hemodialysis. Kidney Int Rep. 2024."
+   ],
+   "numeric_claims": [
+    "0.21",
+    "0.7136",
+    "0.8034",
+    "0.8771",
+    "0.9273",
+    "0.9523",
+    "0.97",
+    "1",
+    "10.1016",
+    "16.8",
+    "2",
+    "2024",
+    "2024.06",
+    "3",
+    "310",
+    "337",
+    "34",
+    "39291192",
+    "515",
+    "71.36",
+    "80.34",
+    "87.71",
+    "92.73",
+    "95",
+    "95.23",
+    "97"
+   ],
+   "performance_claims": [
+    "0.21",
+    "0.7136",
+    "0.8034",
+    "0.8771",
+    "0.9273",
+    "0.9523",
+    "0.97",
+    "16.8"
+   ],
+   "record_id": "exam_line_exit_site_erythema_purulence",
+   "section": "examine",
+   "text": "Central line exit-site erythema, tenderness, or purulence (with line-day count)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Akaishi T, Kobayashi J, Abe M, et al. Sensitivity and specificity of meningeal signs in patients with meningitis. J Gen Fam Med 2019;20:193-198.",
+    "Nakao JH, Jafri FN, Shah K, Newman DH. Jolt accentuation of headache and other clinical signs: poor predictors of meningitis in adults. Am J Emerg Med 2014;32:24-28.",
+    "Thomas KE, Hasbun R, Jekel J, Quagliarello VJ. The diagnostic accuracy of Kernig's sign, Brudzinski's sign, and nuchal rigidity in adults with suspected meningitis. Clin Infect Dis 2002;35:46-52."
+   ],
+   "numeric_claims": [
+    "0.02",
+    "0.05",
+    "0.179",
+    "0.2",
+    "0.215",
+    "0.229",
+    "0.275",
+    "0.28",
+    "0.3",
+    "0.334",
+    "0.405",
+    "0.42",
+    "0.461",
+    "0.51",
+    "0.517",
+    "0.67",
+    "0.676",
+    "0.713",
+    "0.749",
+    "0.75",
+    "0.76",
+    "0.79",
+    "0.82",
+    "0.84",
+    "0.85",
+    "0.858",
+    "0.888",
+    "0.89",
+    "0.9",
+    "0.91",
+    "0.912",
+    "0.917",
+    "0.936",
+    "0.97",
+    "0.98",
+    "1.2",
+    "1.35",
+    "1.6",
+    "1.74",
+    "1.83",
+    "1.91",
+    "10.1002",
+    "10.1016",
+    "10.1086",
+    "1000",
+    "12",
+    "12060874",
+    "1216",
+    "13",
+    "17.9",
+    "193",
+    "198",
+    "2",
+    "2.268",
+    "2.44",
+    "2.5",
+    "2.61",
+    "20",
+    "2002",
+    "2013.09",
+    "2014",
+    "2019",
+    "21",
+    "21.5",
+    "22.9",
+    "230",
+    "24",
+    "24139448",
+    "27.5",
+    "28",
+    "297",
+    "3.44",
+    "3.71",
+    "31516806",
+    "32",
+    "33.4",
+    "340979",
+    "35",
+    "4",
+    "40.5",
+    "46",
+    "46.1",
+    "5",
+    "51.7",
+    "52",
+    "58",
+    "599",
+    "6",
+    "67.6",
+    "7",
+    "71.3",
+    "74.9",
+    "77",
+    "78",
+    "82",
+    "85.8",
+    "88.8",
+    "9",
+    "90",
+    "91.2",
+    "91.7",
+    "93.6",
+    "97",
+    "98",
+    "99"
+   ],
+   "performance_claims": [
+    "0.02",
+    "0.02",
+    "0.05",
+    "0.179",
+    "0.215",
+    "0.229",
+    "0.275",
+    "0.28",
+    "0.334",
+    "0.405",
+    "0.461",
+    "0.517",
+    "0.67",
+    "0.676",
+    "0.713",
+    "0.749",
+    "0.75",
+    "0.76",
+    "0.79",
+    "0.82",
+    "0.84",
+    "0.85",
+    "0.858",
+    "0.888",
+    "0.888",
+    "0.89",
+    "0.91",
+    "0.912",
+    "0.917",
+    "0.936",
+    "0.97",
+    "0.97",
+    "0.98",
+    "1.35",
+    "1.6",
+    "1.74",
+    "1.83",
+    "1.91",
+    "2.44",
+    "2.61",
+    "3.44",
+    "3.71"
+   ],
+   "record_id": "exam_meningeal_signs_nuchal_kernig_brudzinski",
+   "section": "examine",
+   "text": "Nuchal rigidity, Kernig and Brudzinski signs"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "candidates": [
+   "hx_rigors_shaking_chills",
+   "exam_diastolic_murmur_new",
+   "exam_new_regurgitant_murmur",
+   "exam_infection_source_survey",
+   "exam_line_exit_site_erythema_purulence",
+   "exam_meningeal_signs_nuchal_kernig_brudzinski",
+   "exam_neck_stiffness",
+   "exam_egophony",
+   "exam_percussion_dullness",
+   "exam_pulmonary_crackles",
+   "exam_tachypnea_rr_gt24",
+   "exam_wheezing",
+   "fn_jolt_accentuation",
+   "hx_ain_rash_fever_arthralgia",
+   "hx_new_medication_temporal_fever",
+   "hx_pleuritic_chest_pain",
+   "hx_smoking_pack_years",
+   "exam_accessory_muscle_use",
+   "exam_breath_sounds_unilateral_absent",
+   "fn_bedside_walk_test"
+  ],
+  "card": {
+   "chief_complaint": "fever with shaking chills",
+   "presentation": "fever",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_rigors_shaking_chills",
+      "changes_what": "Shaking chills should prompt blood cultures and a search for a bacteremic source (line, biliary, urinary, endovascular); no chills supports withholding cultures when pretest probability is low.",
+      "contraindications": "None.",
+      "do_not_use_when": "The RCE conclusions do not apply to immunocompromised patients or when endocarditis is suspected; in those groups obtain cultures regardless of chills.",
+      "escalation_warning": "Rigors with hypotension, altered mentation or a central line indicate probable bacteremia/sepsis: cultures, source control and antibiotics within the hour.",
+      "evidence": [
+       {
+        "citation": "Coburn B, Morris AM, Tomlinson G, Detsky AS. Does this adult patient with suspected bacteremia require blood cultures? JAMA. 2012;308(5):502-511.",
+        "computed": false,
+        "doi": "10.1001/jama.2012.8262",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "7.2",
+         "ci_low": "3",
+         "value": "4.7"
+        },
+        "pmid": "22851117",
+        "population": "Adult immunocompetent patients in whom bacteremia was suspected (35 studies; 4566 bacteremia and 25,946 negative episodes)",
+        "prevalence": null,
+        "quote": "The severity of chills graded on an ordinal scale (shaking chills, LR, 4.7; 95% CI, 3.0-7.2) may be more useful.",
+        "reference_standard": "Blood cultures",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Bacteremia (true-positive blood culture)",
+        "url": null,
+        "year": "2012"
+       },
+       {
+        "citation": "Tokuda Y, Miyasato H, Stein GH, Kishaba T. The degree of chills for risk of bacteremia in acute febrile illness. Am J Med. 2005;118(12):1417.",
+        "computed": false,
+        "doi": "10.1016/j.amjmed.2005.06.043",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "6.86",
+         "ci_low": "2.95",
+         "value": "4.65"
+        },
+        "pmid": "16378800",
+        "population": "526 consecutive adults with acute febrile illness (40, 7.6%, bacteremic)",
+        "prevalence": "0.076",
+        "quote": "Shaking chills showed a specificity of 90.3% (95% CI 89.2-91.5) and positive likelihood ratio of 4.65 (95% CI 2.95-6.86).",
+        "reference_standard": "Blood cultures",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": {
+         "ci_high": "0.915",
+         "ci_low": "0.892",
+         "value": "0.903"
+        },
+        "target_condition": "Bacteremia - finding: shaking chills (whole-body shaking under a thick blanket)",
+        "url": null,
+        "year": "2005"
+       },
+       {
+        "citation": "Tokuda Y, Miyasato H, Stein GH, Kishaba T. The degree of chills for risk of bacteremia in acute febrile illness. Am J Med. 2005;118(12):1417.",
+        "computed": false,
+        "doi": "10.1016/j.amjmed.2005.06.043",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_out",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.51",
+         "ci_low": "0.11",
+         "value": "0.24"
+        },
+        "lr_positive": null,
+        "pmid": "16378800",
+        "population": "526 consecutive adults with acute febrile illness (40, 7.6%, bacteremic)",
+        "prevalence": "0.076",
+        "quote": "The absence of chills showed a sensitivity of 87.5% (95% CI 74.4-94.5) and negative likelihood ratio of 0.24 (95% CI 0.11-0.51).",
+        "reference_standard": "Blood cultures",
+        "sensitivity": {
+         "ci_high": "0.945",
+         "ci_low": "0.744",
+         "value": "0.875"
+        },
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Bacteremia - finding: any chills (sensitivity and LR- refer to absence of chills)",
+        "url": null,
+        "year": "2005"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Ask the patient (or witnesses) whether they have had chills and grade the worst episode: mild = feeling cold, needing a jacket; moderate = needing a thick blanket; shaking chills = whole-body shaking even under a thick blanket. Record timing relative to fever and any line, procedure or infusion.",
+      "id": "hx_rigors_shaking_chills",
+      "negative_finding": "Absence of any chills lowers the probability of bacteremia (LR- 0.24) but does not exclude it, particularly in elderly or immunocompromised patients who may not mount rigors.",
+      "pitfalls": "Rigors also occur with malaria, transfusion or drug reactions, and after amphotericin or contaminated infusions; the grading relies on patient recall and the RCE data exclude immunocompromised patients and suspected endocarditis.",
+      "positive_finding": "Shaking (rigor-grade) chills raise the probability of bacteremia about 4.7-fold (LR+ 4.7, 95% CI 3.0-7.2; specificity 0.90) and justify blood cultures before antibiotics.",
+      "prerequisites": "Patient or witness able to describe the episode; ask before antipyretics blunt recall.",
+      "rationale": "Confirming rigors supports a bacteremic source and guides the urgency of blood cultures and source search.",
+      "skill_assumption": null,
+      "title": "Rigors / shaking chills",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_new_medication_temporal_fever",
+      "changes_what": "Positive: stop the suspect drug (substitute if needed), expect defervescence within ~72 h, continue infection work-up. Negative: keep searching for occult infection, thrombosis or malignancy.",
+      "contraindications": "Do not stop essential drugs (e.g., antimicrobials for a proven infection, immunosuppressants) without a risk-benefit assessment.",
+      "do_not_use_when": "Do not attribute fever to a drug in a neutropenic, septic or haemodynamically unstable patient until infection has been excluded; do not withdraw life-sustaining drugs on this basis alone.",
+      "escalation_warning": "Fever with rash, mucosal involvement, facial oedema, eosinophilia or organ dysfunction may be DRESS/SJS: stop the drug immediately and escalate.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Build a dated medication timeline (start/stop of every agent, including antibiotics, anticonvulsants, allopurinol, heparin) against the fever curve. Look for fever beginning after a new drug, a patient who looks relatively well despite high temperatures, a pulse lower than expected for the temperature, rash or eosinophilia, and defervescence within about 72 h of stopping the suspect drug.",
+      "id": "hx_new_medication_temporal_fever",
+      "negative_finding": "Absence of rash, eosinophilia or relative bradycardia does not argue against drug fever: these accompaniments were found in only a minority of cases in the largest series. Persistence of fever more than a few days after stopping the suspect drug argues against the diagnosis.",
+      "pitfalls": "Textbook features (relative bradycardia, rash, eosinophilia, characteristic fever pattern) are absent in most cases; drug fever is a diagnosis of exclusion and infection must be ruled out first. Rechallenge reproduces fever and is usually inappropriate.",
+      "positive_finding": "Fever temporally following a new drug, with no alternative source and resolution after withdrawal, supports drug fever; antibacterials (beta-lactams, vancomycin, rifampicin, aminoglycosides) are the commonest culprits and median onset is about 2 days but the lag is highly variable.",
+      "prerequisites": "Complete medication reconciliation; other infectious and non-infectious causes actively sought and excluded.",
+      "rationale": "A temporal link to new drugs can shift focus to drug fever and away from infectious causes if positive.",
+      "skill_assumption": null,
+      "title": "Fever onset temporally linked to a new drug (with rash/relative bradycardia)",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/exam_infection_source_survey",
+      "changes_what": "A positive survey targets cultures, imaging and source control (line removal, drainage, debridement); a negative survey mandates blood/urine cultures and imaging rather than reassurance.",
+      "contraindications": "None; do not delay cultures and antibiotics in suspected sepsis while completing the survey.",
+      "do_not_use_when": "Never let a negative source survey withhold cultures, empiric antibiotics or imaging in a hypotensive, febrile or acutely confused patient with suspected infection.",
+      "escalation_warning": "Crepitus, bullae, skin necrosis or pain out of proportion (necrotizing fasciitis), a hot joint, peritonism, or purulence at a central line/dialysis catheter in a septic patient require immediate surgical/source-control and line removal decisions.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Undress and inspect every line, dialysis and drain/exit site (erythema, purulence, tunnel tenderness), all skin including back, sacrum, heels, perineum, injection sites and wounds; palpate abdomen (peritonism, Murphy sign, flank tenderness), joints and spine for warmth/effusion/tenderness; check urinary catheter, mouth, sinuses, ears and chest. Repeat daily while the source is unknown.",
+      "id": "exam_infection_source_survey",
+      "negative_finding": "A normal survey does not exclude an occult source: insertion-site inflammation is absent in nearly all catheter-related bloodstream infections, and intra-abdominal, urinary, endovascular and spinal infections are frequently silent in elderly, immunosuppressed or sedated patients.",
+      "pitfalls": "Line-site appearance has near-zero sensitivity for CRBSI (coagulase-negative staphylococci cause little inflammation); steroids, neutropenia and neuropathy blunt local signs; dressings, obesity and immobility hide sacral, perineal and injection-site infections. Pain out of proportion with unimpressive skin findings suggests necrotizing infection.",
+      "positive_finding": "Purulence, spreading erythema or tunnel tenderness at a line/exit site, cellulitis or crepitus, a hot swollen joint, peritonism or flank tenderness, or a sacral/heel ulcer with surrounding infection identifies a probable source and directs cultures, source control and empiric therapy.",
+      "prerequisites": "Full exposure with dressings taken down, adequate lighting and analgesia; review lines, catheters and devices with their insertion dates; log-roll immobile patients to view the sacrum.",
+      "rationale": "A focused source exam can immediately direct cultures, imaging, or source control if a site is found.",
+      "skill_assumption": null,
+      "title": "Focused infection-source exam (line/exit sites, skin, abdomen, joints, sacrum, urine catheter)",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_new_regurgitant_murmur",
+      "changes_what": "Positive: obtain blood cultures and echocardiography urgently; negative: do not lower suspicion of IE in bacteremic patients.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use absence of a murmur to withhold cultures or echocardiography in Staphylococcus aureus bacteremia, prosthetic valves, or IVDU.",
+      "escalation_warning": "New regurgitant murmur with heart failure, heart block, or embolic phenomena warrants urgent echocardiography and cardiac surgery discussion.",
+      "evidence": [
+       {
+        "citation": "Papadimitriou-Olivgeris M, Monney P, Frank M, Tzimas G, Fourr\u00e9 N, Zimmermann V, Tozzi P, Kirsch M, et al. Role of the New Physical Examination Minor Criterion (New Heart Murmur) for the Diagnosis of Infective Endocarditis. Open Forum Infect Dis. 2025.",
+        "computed": true,
+        "doi": "10.1093/ofid/ofae736",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Results, first paragraph; Table 1 row 'Minor physical examination criterion' (260 (13) vs 430 (37))",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.73"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "2.74"
+        },
+        "pmid": "39790639",
+        "population": "3127 adult episodes of suspected IE (blood cultures plus echocardiography obtained for IE) at two Swiss tertiary centres, 2014-2023; 1177 IE",
+        "prevalence": "0.376",
+        "quote": "revealed a new heart murmur in 690 (22%) episodes, which was more common in patients with IE than those without (37% vs 13%",
+        "reference_standard": "Endocarditis team or expert-clinician final diagnosis using 2023 Duke-ISCVID criteria",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.37"
+        },
+        "setting": "inpatient",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.87"
+        },
+        "target_condition": "Infective endocarditis (endocarditis-team/expert adjudicated) among episodes of suspected IE",
+        "url": null,
+        "year": "2025"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Auscultate all four valve areas with diaphragm and bell, patient supine then sitting forward in end-expiration; compare against any documented prior exam. Note any holosystolic (mitral/tricuspid) or early diastolic decrescendo (aortic) murmur not previously recorded.",
+      "id": "exam_new_regurgitant_murmur",
+      "negative_finding": "Absence of a new murmur only modestly lowers the probability of endocarditis (most IE episodes have no new murmur) and never excludes it.",
+      "pitfalls": "Requires a reliable baseline exam; tachycardia, obesity, and noisy wards reduce detection; flow murmurs from fever or anemia mimic new pathology; auscultation skill varies between examiners.",
+      "positive_finding": "A new regurgitant murmur in a febrile or bacteremic patient raises the probability of infective endocarditis and is a minor Duke-ISCVID physical-examination criterion; in a dyspneic patient it suggests acute valvular regurgitation causing heart failure.",
+      "prerequisites": "Quiet room; knowledge of prior murmur status (chart or patient report).",
+      "rationale": "A new or changed regurgitant murmur would prompt urgent workup for endocarditis, which is high on the differential.",
+      "skill_assumption": null,
+      "title": "New or changed regurgitant murmur",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_line_exit_site_erythema_purulence",
+      "changes_what": "Positive site: culture exudate, draw paired blood cultures, consider line removal; negative site does not lower suspicion of CRBSI in an unexplained fever or shock.",
+      "contraindications": "None; do not delay blood cultures or catheter management while inspecting.",
+      "do_not_use_when": "Do not use a clean site to rule out CRBSI in short-term non-cuffed CVCs; do not rely on site appearance in neutropenic patients who may not mount local inflammation.",
+      "escalation_warning": "Fever with hypotension plus any line in situ: cultures and sepsis pathway regardless of site appearance; purulent exit site with sepsis mandates line removal.",
+      "evidence": [
+       {
+        "citation": "Cobo-Sanchez JL, Blanco-Mavillard I, Pelayo-Alonso R, Mancebo-Salas N, Fernandez-Fernandez I, Larraneta-Inda I, et al. Validation of a Clinical Scale for Early Detection of Infections at the Exit Site of Central Venous Catheters for Hemodialysis. Kidney Int Rep. 2024.",
+        "computed": true,
+        "doi": "10.1016/j.ekir.2024.06.034",
+        "evidence_level": "single_study",
+        "interpretation_label": "both",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.21"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "16.8"
+        },
+        "pmid": "39291192",
+        "population": "Adults with tunneled hemodialysis CVC in place >=1 month; 337 catheters, 310 patients, 515 pericatheter cultures; multicenter prospective cohort",
+        "prevalence": null,
+        "quote": "sensitivity 80.34% (95% CI: 71.36%-87.71%) and specificity 95.23% (95% CI: 92.73%-97%)",
+        "reference_standard": "Positive pericatheter skin swab culture (taken only when any scale item present)",
+        "sensitivity": {
+         "ci_high": "0.8771",
+         "ci_low": "0.7136",
+         "value": "0.8034"
+        },
+        "setting": "outpatient",
+        "specificity": {
+         "ci_high": "0.97",
+         "ci_low": "0.9273",
+         "value": "0.9523"
+        },
+        "target_condition": "COMPOSITE: exit-site infection of tunneled hemodialysis CVC (3-item scale: interdialytic exit-site pain OR erythema >=2 cm OR abscess/purulent exudate)",
+        "url": null,
+        "year": "2024"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Remove the dressing and inspect the insertion/exit site and tunnel in good light: erythema (note extent in cm), induration or swelling, tenderness on palpation, and purulent exudate (express gently along the tunnel). Record catheter type (non-tunneled vs tunneled/cuffed), site, and line-day count.",
+      "id": "exam_line_exit_site_erythema_purulence",
+      "negative_finding": "A clean, non-inflamed site does not exclude catheter-related bloodstream infection; most short-term CVC infections (largely coagulase-negative staphylococci) show little or no local inflammation.",
+      "pitfalls": "Local inflammation is insensitive (near zero) for CRBSI with short-term non-cuffed CVCs; dressing adhesive irritation and tunnel-line manipulation can mimic erythema. Hemodialysis exit-site scale evidence uses a skin-swab culture reference, not bacteremia.",
+      "positive_finding": "Purulence, tenderness, or erythema >=2 cm at the exit site indicates local catheter infection and, in a febrile or hypotensive patient, should raise concern for catheter-related bloodstream infection with S. aureus or Gram-negative organisms.",
+      "prerequisites": "Dressing change with clean technique; knowledge of insertion date and catheter type.",
+      "rationale": "Examining line sites is crucial for identifying line infection, a leading possibility in this presentation.",
+      "skill_assumption": null,
+      "title": "Central line exit-site erythema, tenderness, or purulence (with line-day count)",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_meningeal_signs_nuchal_kernig_brudzinski",
+      "changes_what": "Positive: proceed to LP/empiric antibiotics; negative: do not withhold LP when fever plus headache or altered mental status is present.",
+      "contraindications": "Suspected cervical spine injury or instability; severe cervical spondylosis limits interpretation.",
+      "do_not_use_when": "Do not rely on meningeal signs to defer LP or antibiotics in a febrile patient with headache or altered mental status; do not force neck flexion after trauma.",
+      "escalation_warning": "Suspected bacterial meningitis requires blood cultures and empiric antibiotics immediately; never delay for the examination or CT.",
+      "evidence": [
+       {
+        "citation": "Akaishi T, Kobayashi J, Abe M, et al. Sensitivity and specificity of meningeal signs in patients with meningitis. J Gen Fam Med 2019;20:193-198.",
+        "computed": false,
+        "doi": "10.1002/jgf2.268",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Table 2 (Calculated effect sizes); CIs are 99%",
+        "lr_negative": {
+         "ci_high": "0.91",
+         "ci_low": "0.79",
+         "value": "0.84"
+        },
+        "lr_positive": {
+         "ci_high": "3.71",
+         "ci_low": "1.83",
+         "value": "2.61"
+        },
+        "pmid": "31516806",
+        "population": "Adults with suspected meningitis undergoing LP; 9 case-control datasets (599 with pleocytosis, 1216 without), mostly Japan/Iran",
+        "prevalence": null,
+        "quote": "Kernig's sign 9 1.20 78 22.9% (17.9-28.0) 91.2% (88.8-93.6) 2.61 (1.83-3.71) 0.84 (0.79-0.91)",
+        "reference_standard": "CSF pleocytosis on lumbar puncture",
+        "sensitivity": {
+         "ci_high": "0.28",
+         "ci_low": "0.179",
+         "value": "0.229"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "0.936",
+         "ci_low": "0.888",
+         "value": "0.912"
+        },
+        "target_condition": "Kernig's sign for CSF pleocytosis (meningitis) in suspected meningitis",
+        "url": null,
+        "year": "2019"
+       },
+       {
+        "citation": "Akaishi T, Kobayashi J, Abe M, et al. Sensitivity and specificity of meningeal signs in patients with meningitis. J Gen Fam Med 2019;20:193-198.",
+        "computed": false,
+        "doi": "10.1002/jgf2.268",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Table 2 (Calculated effect sizes); CIs are 99%",
+        "lr_negative": {
+         "ci_high": "0.89",
+         "ci_low": "0.75",
+         "value": "0.82"
+        },
+        "lr_positive": {
+         "ci_high": "3.44",
+         "ci_low": "1.74",
+         "value": "2.44"
+        },
+        "pmid": "31516806",
+        "population": "Adults with suspected meningitis undergoing LP; 9 case-control datasets (599 with pleocytosis, 1216 without), mostly Japan/Iran",
+        "prevalence": null,
+        "quote": "Brudzinski's sign 7 0.42 58 27.5% (21.5-33.4) 88.8% (85.8-91.7) 2.44 (1.74-3.44) 0.82 (0.75-0.89)",
+        "reference_standard": "CSF pleocytosis on lumbar puncture",
+        "sensitivity": {
+         "ci_high": "0.334",
+         "ci_low": "0.215",
+         "value": "0.275"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "0.917",
+         "ci_low": "0.858",
+         "value": "0.888"
+        },
+        "target_condition": "Brudzinski's sign for CSF pleocytosis (meningitis) in suspected meningitis",
+        "url": null,
+        "year": "2019"
+       },
+       {
+        "citation": "Akaishi T, Kobayashi J, Abe M, et al. Sensitivity and specificity of meningeal signs in patients with meningitis. J Gen Fam Med 2019;20:193-198.",
+        "computed": false,
+        "doi": "10.1002/jgf2.268",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Table 2 (Calculated effect sizes); CIs are 99%",
+        "lr_negative": {
+         "ci_high": "0.85",
+         "ci_low": "0.67",
+         "value": "0.76"
+        },
+        "lr_positive": {
+         "ci_high": "1.91",
+         "ci_low": "1.35",
+         "value": "1.6"
+        },
+        "pmid": "31516806",
+        "population": "Adults with suspected meningitis undergoing LP; 9 case-control datasets (599 with pleocytosis, 1216 without), mostly Japan/Iran",
+        "prevalence": null,
+        "quote": "Nuchal rigidity 9 0.51 77 46.1% (40.5-51.7) 71.3% (67.6-74.9) 1.60 (1.35-1.91) 0.76 (0.67-0.85)",
+        "reference_standard": "CSF pleocytosis on lumbar puncture",
+        "sensitivity": {
+         "ci_high": "0.517",
+         "ci_low": "0.405",
+         "value": "0.461"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "0.749",
+         "ci_low": "0.676",
+         "value": "0.713"
+        },
+        "target_condition": "Nuchal rigidity for CSF pleocytosis (meningitis) in suspected meningitis",
+        "url": null,
+        "year": "2019"
+       },
+       {
+        "citation": "Thomas KE, Hasbun R, Jekel J, Quagliarello VJ. The diagnostic accuracy of Kernig's sign, Brudzinski's sign, and nuchal rigidity in adults with suspected meningitis. Clin Infect Dis 2002;35:46-52.",
+        "computed": false,
+        "doi": "10.1086/340979",
+        "evidence_level": "single_study",
+        "interpretation_label": "minimal",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.97"
+        },
+        "pmid": "12060874",
+        "population": "297 adults with suspected meningitis evaluated before LP, single US center",
+        "prevalence": null,
+        "quote": "Kernig's sign (sensitivity, 5%; likelihood ratio for a positive test result [LR(+)], 0.97), Brudzinski's sign (sensitivity, 5%; LR(+), 0.97)",
+        "reference_standard": "CSF WBC >=6/mL on lumbar puncture",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.05"
+        },
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Kernig's and Brudzinski's signs (each) for meningitis (>=6 WBC/mL CSF)",
+        "url": null,
+        "year": "2002"
+       },
+       {
+        "citation": "Nakao JH, Jafri FN, Shah K, Newman DH. Jolt accentuation of headache and other clinical signs: poor predictors of meningitis in adults. Am J Emerg Med 2014;32:24-28.",
+        "computed": false,
+        "doi": "10.1016/j.ajem.2013.09.012",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "24139448",
+        "population": "230 neurologically intact ED adults undergoing LP, altered mental status excluded; 2 inner-city academic EDs",
+        "prevalence": "0.2",
+        "quote": "the sensitivity of jolt accentuation was 21%, Kernig sign was 2% ... The specificity of jolt accentuation was 82%, Kernig sign was 97%",
+        "reference_standard": "CSF pleocytosis >=5 cells/high-power field in 4th tube",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.02"
+        },
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.97"
+        },
+        "target_condition": "Kernig sign for CSF pleocytosis (>=5 cells/hpf)",
+        "url": null,
+        "year": "2014"
+       },
+       {
+        "citation": "Nakao JH, Jafri FN, Shah K, Newman DH. Jolt accentuation of headache and other clinical signs: poor predictors of meningitis in adults. Am J Emerg Med 2014;32:24-28.",
+        "computed": false,
+        "doi": "10.1016/j.ajem.2013.09.012",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "24139448",
+        "population": "230 neurologically intact ED adults undergoing LP, altered mental status excluded; 2 inner-city academic EDs",
+        "prevalence": "0.2",
+        "quote": "Brudzinski sign was 2% ... nuchal rigidity was 13%. The specificity of jolt accentuation was 82%, Kernig sign was 97%, Brudzinski sign was 98%",
+        "reference_standard": "CSF pleocytosis >=5 cells/high-power field in 4th tube",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.02"
+        },
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.98"
+        },
+        "target_condition": "Brudzinski sign for CSF pleocytosis (>=5 cells/hpf)",
+        "url": null,
+        "year": "2014"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Supine. Nuchal rigidity: passively flex the neck chin-to-chest; positive if resisted/painful with flexion but not rotation. Kernig: hip flexed 90 degrees, extend the knee; positive if pain/resistance in the hamstrings or back limits extension. Brudzinski: passive neck flexion; positive if hips and knees flex involuntarily.",
+      "id": "exam_meningeal_signs_nuchal_kernig_brudzinski",
+      "negative_finding": "Absent meningeal signs do not exclude meningitis: pooled LR- 0.76-0.84, and sensitivity was 2-5% in two prospective adult cohorts. Decide on LP from fever, headache, mental status and risk factors.",
+      "pitfalls": "Sensitivity is highest only with severe pleocytosis (>=1000 WBC); elderly, immunocompromised and obtunded patients often lack signs. Non-meningitic neck pain (spondylosis, parkinsonism) causes false positives.",
+      "positive_finding": "Kernig or Brudzinski sign is specific (~0.9) but insensitive (~0.2-0.3, pooled), giving LR+ around 2.5; positive signs support LP but rarely change management alone.",
+      "prerequisites": "Cooperative or at least relaxed patient; exclude cervical spine injury before forced neck flexion.",
+      "rationale": "Checking for meningeal signs can rapidly escalate workup for meningitis if positive, which is a serious consideration.",
+      "skill_assumption": null,
+      "title": "Nuchal rigidity, Kernig and Brudzinski signs",
+      "type": "exam"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_rigors_shaking_chills",
+     "rationale": "Confirming rigors supports a bacteremic source and guides the urgency of blood cultures and source search."
+    },
+    {
+     "id": "hx_new_medication_temporal_fever",
+     "rationale": "A temporal link to new drugs can shift focus to drug fever and away from infectious causes if positive."
+    }
+   ],
+   "examine": [
+    {
+     "id": "exam_infection_source_survey",
+     "rationale": "A focused source exam can immediately direct cultures, imaging, or source control if a site is found."
+    },
+    {
+     "id": "exam_new_regurgitant_murmur",
+     "rationale": "A new or changed regurgitant murmur would prompt urgent workup for endocarditis, which is high on the differential."
+    },
+    {
+     "id": "exam_line_exit_site_erythema_purulence",
+     "rationale": "Examining line sites is crucial for identifying line infection, a leading possibility in this presentation."
+    },
+    {
+     "id": "exam_meningeal_signs_nuchal_kernig_brudzinski",
+     "rationale": "Checking for meningeal signs can rapidly escalate workup for meningitis if positive, which is a serious consideration."
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "fever with shaking chills",
+   "differentials": [
+    {
+     "dx": "endocarditis",
+     "weight": 1.0
+    },
+    {
+     "dx": "line_infection",
+     "weight": 0.75
+    },
+    {
+     "dx": "meningitis_encephalitis",
+     "weight": 0.25
+    },
+    {
+     "dx": "pneumonia",
+     "weight": 0.25
+    },
+    {
+     "dx": "drug_fever",
+     "weight": 0.25
+    }
+   ],
+   "indication_tags": [
+    "ivdu",
+    "prosthetic_valve",
+    "immunocompromised",
+    "acute_onset"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "shaking chills",
+    "nothing localizing on nursing assessment"
+   ],
+   "observed_values": [
+    "fever 38.9"
+   ],
+   "presentation": "fever",
+   "time_course": "acute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "n1"
+}

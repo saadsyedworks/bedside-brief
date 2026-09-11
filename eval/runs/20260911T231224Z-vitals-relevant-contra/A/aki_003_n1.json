@@ -1,0 +1,324 @@
+{
+ "arm": "A",
+ "ask_first": false,
+ "base_case_id": "aki_003",
+ "blocked_items": [],
+ "case_id": "aki_003_n1",
+ "created_at": "2026-09-11T23:14:15+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "16267412",
+    "19",
+    "24",
+    "46",
+    "475",
+    "60",
+    "72"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_rhabdo_myalgia_dark_urine",
+   "section": "ask",
+   "text": "Muscle pain/weakness, prolonged immobilization or exertion, dark cola-colored urine"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "48",
+    "72"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_nephrotoxin_contrast_exposure",
+   "section": "ask",
+   "text": "Nephrotoxin and contrast exposure history (NSAID, ACEi/ARB, diuretic, aminoglycoside, vancomycin, PPI, iodinated contrast; timing)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "14977795",
+    "30",
+    "44",
+    "500",
+    "54"
+   ],
+   "performance_claims": [],
+   "record_id": "exam_bladder_percussion_palpable",
+   "section": "examine",
+   "text": "Suprapubic palpation / percussion for distended bladder; LUTS and prostate history"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "McGee S, Abernethy WB, Simel DL. The rational clinical examination. Is this patient hypovolemic? JAMA. 1999;281(11):1022-1029."
+   ],
+   "numeric_claims": [
+    "0.1",
+    "0.3",
+    "0.6",
+    "10.1001",
+    "10086438",
+    "1022",
+    "1029",
+    "11",
+    "1999",
+    "2.8",
+    "281",
+    "281.11",
+    "30",
+    "95"
+   ],
+   "performance_claims": [
+    "0.1",
+    "0.1",
+    "0.3",
+    "0.3",
+    "0.6",
+    "0.6"
+   ],
+   "record_id": "exam_dry_mucous_membranes",
+   "section": "examine",
+   "text": "Dry oral mucous membranes, tongue furrows, sunken eyes, dry axilla"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "candidates": [
+   "hx_rhabdo_myalgia_dark_urine",
+   "hx_nephrotoxin_contrast_exposure",
+   "exam_saddle_anesthesia_anal_tone",
+   "exam_capillary_refill",
+   "exam_dry_axilla",
+   "exam_dry_mucous_membranes",
+   "exam_hypotension_sbp_lt90",
+   "exam_jvp_elevated",
+   "exam_orthostatic_vitals",
+   "exam_skin_turgor",
+   "exam_tachycardia_resting",
+   "fn_passive_leg_raise",
+   "hx_hypotensive_medication_review",
+   "hx_postural_dizziness",
+   "exam_bladder_percussion_palpable",
+   "exam_cva_tenderness",
+   "exam_sensory_level_upper_motor_neuron_signs"
+  ],
+  "card": {
+   "chief_complaint": "dark urine and elevated creatinine after prolonged down time",
+   "presentation": "aki",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_rhabdo_myalgia_dark_urine",
+      "changes_what": "Positive \u2192 CK, creatinine, potassium, urinalysis; start IV fluids; assess compartments. Negative \u2192 still send CK if found down, post-seizure or toxin-exposed.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not exclude rhabdomyolysis by history in obtunded, intoxicated or found-down patients \u2014 send CK.",
+      "escalation_warning": "Tense painful compartment, hyperkalemia or rising creatinine \u2192 urgent surgical and nephrology involvement.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Ask about muscle pain, weakness, swelling and dark tea/cola-coloured urine, and exposures: found down/prolonged immobilization, seizure, extreme exertion or heat, crush or trauma, cocaine/amphetamines, alcohol, statins/fibrates, antipsychotics (NMS), recent infection. Palpate for tender, swollen or tense muscle compartments and check distal pulses and sensation.",
+      "id": "hx_rhabdo_myalgia_dark_urine",
+      "negative_finding": "Absent muscle symptoms or dark urine do not exclude rhabdomyolysis; many cases are oligosymptomatic and even qualitative urine myoglobin was positive in only 19% of 475 inpatients (PMID 16267412, Abstract). Measure CK whenever risk factors exist.",
+      "pitfalls": "Dark urine also comes from hematuria, hemoglobinuria or bilirubin. In 60% of cases multiple causes co-exist and toxins account for 46% (PMID 16267412, Abstract); CK peaks at 24\u201372 h, so an early value may be modest (unverified recall).",
+      "positive_finding": "Myalgia or weakness with dark urine after immobilization, exertion, seizure or toxin exposure strongly suggests rhabdomyolysis; check CK and a urine dipstick (heme-positive without red cells).",
+      "prerequisites": "Collateral history for obtunded or intoxicated patients; medication and drug-use review.",
+      "rationale": "Muscle pain, weakness, and dark urine are classic for rhabdomyolysis and would prompt urgent labs and fluids.",
+      "skill_assumption": null,
+      "title": "Muscle pain/weakness, prolonged immobilization or exertion, dark cola-colored urine",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_nephrotoxin_contrast_exposure",
+      "changes_what": "A positive exposure history should lead to stopping or dose-adjusting the agent, avoiding further nephrotoxins and monitoring creatinine; still assess obstruction and volume status.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not attribute AKI solely to a drug or contrast when there is oliguria, sepsis, hypotension or possible obstruction; these still need evaluation.",
+      "escalation_warning": "AKI with hyperkalemia, acidosis, fluid overload or uremic symptoms needs urgent nephrology review regardless of the exposure history.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Reconcile all drugs against the chart and pharmacy record, including over-the-counter NSAIDs and herbal products: NSAIDs, ACEi/ARB, diuretics, aminoglycosides, vancomycin (with piperacillin-tazobactam), PPIs, and any iodinated contrast. For each, record start date, dose change and timing relative to the creatinine rise.",
+      "id": "hx_nephrotoxin_contrast_exposure",
+      "negative_finding": "No exposure lowers the likelihood of drug-related AKI and contrast nephropathy, redirecting attention to hypovolemia, sepsis, obstruction and intrinsic renal disease.",
+      "pitfalls": "Patients under-report OTC NSAIDs; PPI-associated AIN can begin weeks to months after the start; contrast-associated AKI is often confounded by the illness that prompted imaging, so timing alone does not prove causation.",
+      "positive_finding": "A nephrotoxin started or dosed within days of the creatinine rise, or contrast within 48-72 h, makes drug-induced AKI (hemodynamic, ATN or AIN) a leading candidate and identifies an immediately reversible factor.",
+      "prerequisites": "Access to medication administration and imaging records; collateral history for patients who cannot report OTC use.",
+      "rationale": "Recent nephrotoxin or contrast exposure could explain AKI and would change management by stopping the culprit.",
+      "skill_assumption": null,
+      "title": "Nephrotoxin and contrast exposure history (NSAID, ACEi/ARB, diuretic, aminoglycoside, vancomycin, PPI, iodinated contrast; timing)",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/exam_bladder_percussion_palpable",
+      "changes_what": "Positive \u2192 catheterize/measure PVR now and seek the cause (drugs, prostate, cauda equina); negative with risk factors \u2192 bladder scan.",
+      "contraindications": "Avoid deep palpation over fresh lower abdominal incisions.",
+      "do_not_use_when": "Do not use an absent suprapubic mass to exclude retention in AKI, delirium or suspected cauda equina \u2014 measure post-void residual.",
+      "escalation_warning": "Retention with new saddle anesthesia, leg weakness or back pain \u2192 emergent cauda equina evaluation (MRI).",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Patient supine: percuss from the umbilicus toward the pubis for a dome of suprapubic dullness and palpate for a smooth, tense, tender midline mass rising from the pelvis that provokes urge. Ask about LUTS, straining, dribbling, hematuria, prostate disease, anticholinergic/opioid use and time since last void; confirm with bladder scan or catheter volume.",
+      "id": "exam_bladder_percussion_palpable",
+      "negative_finding": "A non-palpable bladder does not exclude retention: obesity, smaller volumes and silent postoperative or opioid-related distension are missed. Obtain a bladder scan or post-void residual when retention is plausible.",
+      "pitfalls": "Postoperative bladder volume >500 mL was present in 44% at recovery-room discharge, and 54% of those without symptoms of distension could not void within 30 min (PMID 14977795, Abstract). Pelvic masses, pregnancy and ascites mimic; palpation cannot estimate volume.",
+      "positive_finding": "A palpable or percussible bladder above the pubis with inability to void indicates retention \u2014 catheterize and measure volume. This is a treatable cause of AKI, delirium and abdominal pain.",
+      "prerequisites": "Attempt to void first when able; know time of last void.",
+      "rationale": "A distended bladder could indicate obstructive AKI, which is a reversible cause needing immediate intervention.",
+      "skill_assumption": null,
+      "title": "Suprapubic palpation / percussion for distended bladder; LUTS and prostate history",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_dry_mucous_membranes",
+      "changes_what": "Moist membranes and an unfurrowed tongue lower the probability of hypovolemia; dry findings support a fluid trial and checking electrolytes, BUN/creatinine.",
+      "contraindications": "None.",
+      "do_not_use_when": "Not validated for blood loss; do not use these signs to exclude hemorrhagic hypovolemia or shock.",
+      "escalation_warning": "Hypotension, severe postural dizziness or a postural pulse increment of 30/min or more indicates large volume loss and needs urgent resuscitation regardless of mucosal findings.",
+      "evidence": [
+       {
+        "citation": "McGee S, Abernethy WB, Simel DL. The rational clinical examination. Is this patient hypovolemic? JAMA. 1999;281(11):1022-1029.",
+        "computed": false,
+        "doi": "10.1001/jama.281.11.1022",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_out",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.6",
+         "ci_low": "0.1",
+         "value": "0.3"
+        },
+        "lr_positive": null,
+        "pmid": "10086438",
+        "population": "Adults (largely elderly) presenting with suspected hypovolemia due to vomiting, diarrhea or decreased oral intake",
+        "prevalence": null,
+        "quote": "moist mucous membranes and a tongue without furrows argue against it (negative likelihood ratio, 0.3; 95% CI, 0.1-0.6 for both findings)",
+        "reference_standard": "Laboratory/clinical criteria for hypovolemia used by the included primary studies; details not visible in abstract",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Hypovolemia (dehydration) in adults with vomiting, diarrhea or decreased oral intake - finding: dry oral mucous membranes (LR- is for moist membranes)",
+        "url": null,
+        "year": "1999"
+       },
+       {
+        "citation": "McGee S, Abernethy WB, Simel DL. The rational clinical examination. Is this patient hypovolemic? JAMA. 1999;281(11):1022-1029.",
+        "computed": false,
+        "doi": "10.1001/jama.281.11.1022",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_out",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.6",
+         "ci_low": "0.1",
+         "value": "0.3"
+        },
+        "lr_positive": null,
+        "pmid": "10086438",
+        "population": "Adults (largely elderly) presenting with suspected hypovolemia due to vomiting, diarrhea or decreased oral intake",
+        "prevalence": null,
+        "quote": "moist mucous membranes and a tongue without furrows argue against it (negative likelihood ratio, 0.3; 95% CI, 0.1-0.6 for both findings)",
+        "reference_standard": "Laboratory/clinical criteria for hypovolemia used by the included primary studies; details not visible in abstract",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Hypovolemia (dehydration) in adults with vomiting, diarrhea or decreased oral intake - finding: longitudinal tongue furrows (LR- is for tongue without furrows)",
+        "url": null,
+        "year": "1999"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Inspect the mouth with a light: look at the buccal mucosa and under the tongue for moisture, and at the dorsum of the tongue for longitudinal furrows. Inspect the eyes for sunken globes. Palpate the axilla for sweat. Record each sign separately rather than a global impression.",
+      "id": "exam_dry_mucous_membranes",
+      "negative_finding": "Moist mucous membranes or a tongue without furrows argue against hypovolemia (LR- 0.3 for either), which is the more useful direction of these signs.",
+      "pitfalls": "Mouth breathing, oxygen therapy, anticholinergics and age-related changes dry the mouth without volume depletion; sunken eyes and tongue furrows are chronic in many elderly patients.",
+      "positive_finding": "Dry mucous membranes, furrowed tongue, sunken eyes or a dry axilla each support hypovolemia in patients with vomiting, diarrhea or poor intake; the pooled RCE gives LR+ 2.8 for dry axilla only.",
+      "prerequisites": "Patient not mouth-breathing on oxygen for a prolonged period and no recent oral intake or mouth care; good lighting.",
+      "rationale": "Dry mucous membranes would support hypovolemia as a contributor to AKI and guide fluid management.",
+      "skill_assumption": null,
+      "title": "Dry oral mucous membranes, tongue furrows, sunken eyes, dry axilla",
+      "type": "exam"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_rhabdo_myalgia_dark_urine",
+     "rationale": "Muscle pain, weakness, and dark urine are classic for rhabdomyolysis and would prompt urgent labs and fluids."
+    },
+    {
+     "id": "hx_nephrotoxin_contrast_exposure",
+     "rationale": "Recent nephrotoxin or contrast exposure could explain AKI and would change management by stopping the culprit."
+    }
+   ],
+   "examine": [
+    {
+     "id": "exam_bladder_percussion_palpable",
+     "rationale": "A distended bladder could indicate obstructive AKI, which is a reversible cause needing immediate intervention."
+    },
+    {
+     "id": "exam_dry_mucous_membranes",
+     "rationale": "Dry mucous membranes would support hypovolemia as a contributor to AKI and guide fluid management."
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "dark urine and elevated creatinine after prolonged down time",
+   "differentials": [
+    {
+     "dx": "rhabdomyolysis",
+     "weight": 1.0
+    },
+    {
+     "dx": "atn",
+     "weight": 0.333
+    },
+    {
+     "dx": "prerenal_hypovolemia",
+     "weight": 0.167
+    },
+    {
+     "dx": "obstruction_retention",
+     "weight": 0.083
+    },
+    {
+     "dx": "contrast_nephropathy",
+     "weight": 0.083
+    }
+   ],
+   "indication_tags": [
+    "alcohol_use",
+    "acute_onset",
+    "recent_immobilization"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "prolonged immobilization",
+    "alcohol withdrawal",
+    "found down twelve hours"
+   ],
+   "observed_values": [
+    "Cr 3.4",
+    "urine dark brown"
+   ],
+   "presentation": "aki",
+   "time_course": "acute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "n1"
+}
