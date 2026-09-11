@@ -90,24 +90,38 @@ def test_prompt_carries_no_estimate_numbers(candidates, parsed):
     assert "aortic_stenosis" in user  # the parsed summary is present
 
 
-def test_contraindication_reaches_the_ranker(candidates):
+@pytest.mark.parametrize("mode, shown", [("all", True), ("off", False), ("relevant", True)])
+def test_contraindication_display_modes(candidates, monkeypatch, mode, shown):
     """safety_scope.do_not_use_when must be shown, not just printed on the finished card.
 
     On the frozen benchmark arm A recommended orthostatic vitals for a patient whose supine SBP was
-    under 90 — a should_not_recommend item — and rendered the record's own "do not stand a patient
+    under 90 -- a should_not_recommend item -- and rendered the record's own "do not stand a patient
     who is already hypotensive" underneath it. The field was reachable from one place in the
     codebase, the renderer. The ranker is the only stage that sees both the manoeuvre and the
     patient, so it is where the condition has to be legible.
-    """
-    with_scope = candidates[0].record
-    with_scope.setdefault("safety_scope", {})["do_not_use_when"] = "Do not stand a patient whose supine SBP is below 90"
-    candidates[1].record.get("safety_scope", {}).pop("do_not_use_when", None)
 
-    rows = {r["id"]: r for r in rk.candidate_summary(candidates)}
-    avoid = rows[candidates[0].id]["avoid_when"]
-    assert "supine SBP is below" in avoid
-    assert "90" not in avoid, "the contraindication is still digit-stripped like every other field"
-    assert "avoid_when" not in rows[candidates[1].id], "absent when the record carries no contraindication"
+    "all" costs ten points of perturbation responsiveness because every record carries a caveat;
+    "relevant" shows one only when the patient's own measurements put them in the named state.
+    """
+    monkeypatch.setattr(rk.config, "RANKER_CONTRAINDICATIONS", mode)
+    with_scope = candidates[0].record
+    with_scope.setdefault("safety_scope", {})["do_not_use_when"] = "Do not stand a patient who is already hypotensive"
+
+    rows = {r["id"]: r for r in rk.candidate_summary(candidates, ["BP 88/54", "HR 118"])}
+    row = rows[candidates[0].id]
+    assert ("avoid_when" in row) is shown
+    if shown:
+        assert "already hypotensive" in row["avoid_when"]
+        assert "90" not in row["avoid_when"], "still digit-stripped like every other field"
+
+
+def test_relevant_mode_hides_a_contraindication_the_patient_does_not_meet(candidates, monkeypatch):
+    """The narrow mode is the whole point: 22 of 23 candidates should arrive without a hedge."""
+    monkeypatch.setattr(rk.config, "RANKER_CONTRAINDICATIONS", "relevant")
+    candidates[0].record.setdefault("safety_scope", {})["do_not_use_when"] = (
+        "Do not percuss over a recent abdominal incision.")
+    rows = {r["id"]: r for r in rk.candidate_summary(candidates, ["BP 88/54"])}
+    assert "avoid_when" not in rows[candidates[0].id]
 
 
 def test_candidate_summary_guard_raises_on_leak(candidates, monkeypatch):

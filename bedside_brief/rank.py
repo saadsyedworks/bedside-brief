@@ -14,6 +14,7 @@ from typing import Any
 import config
 from bedside_brief.render import strip_numbers
 from bedside_brief.retrieve import SECTION_TYPES, Candidate
+from bedside_brief import patient
 from bedside_brief.validate import scan_numbers
 
 log = logging.getLogger("bedside_brief.rank")
@@ -45,7 +46,7 @@ RANK_SCHEMA: dict[str, Any] = {
 }
 
 
-def candidate_summary(candidates: list[Candidate]) -> list[dict[str, str]]:
+def candidate_summary(candidates: list[Candidate], observed_values: list[str] | None = None) -> list[dict[str, str]]:
     """What the LLM is allowed to see per candidate. Digit-free except the id.
 
     `avoid_when` carries the record's own `safety_scope.do_not_use_when`. Until this was added the
@@ -54,6 +55,8 @@ def candidate_summary(candidates: list[Candidate]) -> list[dict[str, str]]:
     it. The ranker is the one place that knows both the manoeuvre and the patient, so it is where
     the contraindication has to be read.
     """
+    mode = getattr(config, "RANKER_CONTRAINDICATIONS", "off")
+    patient_flags = patient.flags(observed_values) if mode == "relevant" else set()
     rows = []
     for c in candidates:
         rec = c.record
@@ -65,7 +68,8 @@ def candidate_summary(candidates: list[Candidate]) -> list[dict[str, str]]:
             "evidence_status": rec["evidence_status"],
         }
         avoid = (rec.get("safety_scope") or {}).get("do_not_use_when")
-        if avoid and getattr(config, "RANKER_SHOWS_CONTRAINDICATIONS", True):
+        if avoid and (mode == "all" or (mode == "relevant"
+                                        and patient.contraindication_applies(avoid, patient_flags))):
             row["avoid_when"] = strip_numbers(avoid)
         rows.append(row)
     _assert_no_numbers(rows)
@@ -118,7 +122,7 @@ def rank(parsed: dict[str, Any], candidates: list[Candidate], llm: Any, limits: 
         log.info("rank: no candidates; empty card")
         return _empty(limits)
     by_id = {c.id: c for c in candidates}
-    user = json.dumps({"patient": _parsed_summary(parsed), "candidates": candidate_summary(candidates)}, indent=1)
+    user = json.dumps({"patient": _parsed_summary(parsed), "candidates": candidate_summary(candidates, parsed.get("observed_values"))}, indent=1)
     reply = llm.complete_json(system_prompt(limits), user, RANK_SCHEMA)
 
     caps = {"ask": limits.MAX_ASK, "examine": limits.MAX_EXAMINE, "pocus": limits.MAX_POCUS}
