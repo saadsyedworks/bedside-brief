@@ -46,17 +46,28 @@ RANK_SCHEMA: dict[str, Any] = {
 
 
 def candidate_summary(candidates: list[Candidate]) -> list[dict[str, str]]:
-    """What the LLM is allowed to see per candidate. Digit-free except the id."""
+    """What the LLM is allowed to see per candidate. Digit-free except the id.
+
+    `avoid_when` carries the record's own `safety_scope.do_not_use_when`. Until this was added the
+    field existed only to be printed: a card could recommend standing a patient for orthostatic
+    vitals whose supine pressure was already too low, and display the contraindication underneath
+    it. The ranker is the one place that knows both the manoeuvre and the patient, so it is where
+    the contraindication has to be read.
+    """
     rows = []
     for c in candidates:
         rec = c.record
-        rows.append({
+        row = {
             "id": c.id,
             "title": strip_numbers(rec["identity"]["title"]),
             "type": c.type,
             "changes_what": strip_numbers(rec["interpretation"]["changes_what"]),
             "evidence_status": rec["evidence_status"],
-        })
+        }
+        avoid = (rec.get("safety_scope") or {}).get("do_not_use_when")
+        if avoid:
+            row["avoid_when"] = strip_numbers(avoid)
+        rows.append(row)
     _assert_no_numbers(rows)
     return rows
 
@@ -79,6 +90,9 @@ def system_prompt(limits: Any) -> str:
         f"Limits: at most {limits.MAX_ASK} in ask, at most {limits.MAX_EXAMINE} in examine, "
         + (f"at most {limits.MAX_POCUS} in pocus." if limits.POCUS_ENABLED else "and pocus must be an empty list."),
         "Order each section by how much the item would change the next action for THIS patient.",
+        "A candidate may carry 'avoid_when': the condition under which that manoeuvre is unsafe or must not be",
+        "attempted. If the patient as described meets it, do NOT choose that candidate, however well it fits the",
+        "differential — pick the next best one instead. Judge it against the patient given, not a hypothetical one.",
         "For each chosen id write one short rationale sentence in plain words. Do not include any number, estimate,",
         "sensitivity, specificity, likelihood ratio, or citation in the rationale; the card renders evidence from the store itself.",
         "Reply with the JSON object only.",

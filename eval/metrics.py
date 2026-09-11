@@ -279,6 +279,19 @@ def compute_metrics(
                        "per_case_mean": _ratio(sum(bedside_per_case[mode]), len(bedside_per_case[mode]))}
                 for mode in MODES
             },
+            # Pre-specified (DECISIONS #24), an unclassified item counts as not-bedside, so it sits in the
+            # denominator above. That is only fair if unclassified means "a recommendation we could not
+            # place". In free-text arms much of it is formatting the item parser could not help splitting
+            # out -- section headers, citation lines, commentary on the item above -- and those are not
+            # recommendations at all, so counting them penalises the arm for its prose style rather than
+            # for what it told the clinician to do. This sensitivity analysis drops them from both sides;
+            # the primary metric above is unchanged.
+            "bedside_share_classified": {
+                mode: {"bedside": bedside_counts[mode],
+                       "items": items_total - cat_counts.get("unclassified", 0),
+                       "share": _ratio(bedside_counts[mode], items_total - cat_counts.get("unclassified", 0))}
+                for mode in MODES
+            },
             "target_recall_must_have": {
                 "present": mh["present"], "total": mh["total"], "recall": _ratio(mh["present"], mh["total"]), "found_by": dict(mh["by"]),
                 "strata": {s: {**v, "recall": _ratio(v["present"], v["total"])} for s, v in mh["strata"].items()},
@@ -338,6 +351,7 @@ def metrics_markdown(m: dict[str, Any]) -> str:
     lines.append(_row("Items per case (mean)", arms, lambda a: A[a]["items_per_case_mean"], pct=False))
     for mode in MODES:
         lines.append(_row(f"Bedside share [{mode}]", arms, lambda a, mode=mode: A[a]["bedside_share"][mode]["share"]))
+    lines.append(_row("Bedside share [excl. unclassified]", arms, lambda a: A[a]["bedside_share_classified"]["default"]["share"]))
     lines.append(_row("Unclassified items", arms, lambda a: A[a]["unclassified_items"]))
     lines.append(_row("Target recall must_have", arms, lambda a: A[a]["target_recall_must_have"]["recall"]))
     for s in STRATA:

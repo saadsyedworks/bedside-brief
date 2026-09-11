@@ -135,3 +135,25 @@ def test_fallback_perturbation_and_errors(cases):
     assert a["noise_stability"]["jaccard_mean"] == 0.0 and any("fallback" in n for n in m["notes"])
     tight = SimpleNamespace(MAX_ASK=4, MAX_EXAMINE=1, MAX_POCUS=3, POCUS_ENABLED=False)
     assert compute_metrics(cases, {"A": A}, RECORDS, tight)["arms"]["A"]["brevity"]["pass"] == 2  # p1 has 2 examine items
+
+
+def test_bedside_share_excluding_unclassified_drops_them_from_the_denominator(cases):
+    """The pre-specified share counts an unclassified item as not-bedside; the sensitivity drops it.
+
+    In a free-text arm much of "unclassified" is the item parser failing on prose -- section headers,
+    citation lines, commentary attached to the item above -- which are not recommendations at all.
+    Keeping them in the denominator measures prose style, not what the clinician was told to do.
+    """
+    items = [_item("Check the JVP", section="examine"),
+             _item("Send a troponin", section="examine"),
+             _item("Diagnostic performance data:", section="examine")]
+    assert [it["category"] for it in items] == ["exam", "lab", "unclassified"]
+    assert [it["bedside"] for it in items] == [True, False, False]
+
+    m = compute_metrics(cases, {"C": {"syncope_003": _out("C", "syncope_003", items)}}, RECORDS, LIMITS)
+    c = m["arms"]["C"]
+    assert c["unclassified_items"] == 1
+    assert c["bedside_share"]["default"]["items"] == 3
+    assert c["bedside_share"]["default"]["share"] == pytest.approx(1 / 3)
+    assert c["bedside_share_classified"]["default"]["items"] == 2
+    assert c["bedside_share_classified"]["default"]["share"] == pytest.approx(0.5)

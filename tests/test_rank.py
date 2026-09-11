@@ -76,13 +76,38 @@ def test_prompt_carries_no_estimate_numbers(candidates, parsed):
     user = llm.calls[0]["user"]
     payload = json.loads(user)
     assert {c.id for c in candidates} == {r["id"] for r in payload["candidates"]}
-    assert set(payload["candidates"][0]) == {"id", "title", "type", "changes_what", "evidence_status"}
+    # closed allow-list: nothing the store holds reaches the model except these, and avoid_when only
+    # when the record actually carries a contraindication
+    allowed = {"id", "title", "type", "changes_what", "evidence_status", "avoid_when"}
+    required = {"id", "title", "type", "changes_what", "evidence_status"}
+    for row in payload["candidates"]:
+        assert required <= set(row) <= allowed, row
     # every digit in the prompt must be a differential weight or the parsed summary, never a candidate field
     candidate_text = json.dumps(payload["candidates"])
     assert not re.search(r"\d", candidate_text), candidate_text
     for token in ("0.85", "85", "2.1", "9039886", "1997", "Etchells", "JAMA", "sensitivity", "citation"):
         assert token not in user, token
     assert "aortic_stenosis" in user  # the parsed summary is present
+
+
+def test_contraindication_reaches_the_ranker(candidates):
+    """safety_scope.do_not_use_when must be shown, not just printed on the finished card.
+
+    On the frozen benchmark arm A recommended orthostatic vitals for a patient whose supine SBP was
+    under 90 — a should_not_recommend item — and rendered the record's own "do not stand a patient
+    who is already hypotensive" underneath it. The field was reachable from one place in the
+    codebase, the renderer. The ranker is the only stage that sees both the manoeuvre and the
+    patient, so it is where the condition has to be legible.
+    """
+    with_scope = candidates[0].record
+    with_scope.setdefault("safety_scope", {})["do_not_use_when"] = "Do not stand a patient whose supine SBP is below 90"
+    candidates[1].record.get("safety_scope", {}).pop("do_not_use_when", None)
+
+    rows = {r["id"]: r for r in rk.candidate_summary(candidates)}
+    avoid = rows[candidates[0].id]["avoid_when"]
+    assert "supine SBP is below" in avoid
+    assert "90" not in avoid, "the contraindication is still digit-stripped like every other field"
+    assert "avoid_when" not in rows[candidates[1].id], "absent when the record carries no contraindication"
 
 
 def test_candidate_summary_guard_raises_on_leak(candidates, monkeypatch):
