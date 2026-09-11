@@ -1,0 +1,161 @@
+{
+  "identity": {
+    "id": "exam_tachycardia_resting",
+    "title": "Resting heart rate >100/min (and postural pulse increment)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "chest_pain",
+      "syncope",
+      "palpitations",
+      "hypotension",
+      "aki",
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "acute_decompensated_hf",
+      "anemia",
+      "hyperthyroidism",
+      "hypovolemic_hemorrhagic_shock",
+      "pericardial_effusion_tamponade",
+      "prerenal_hypovolemia",
+      "pulmonary_embolism",
+      "septic_shock",
+      "sinus_tachycardia_secondary"
+    ],
+    "indication_tags": []
+  },
+  "technique": {
+    "how": "Count the radial or apical pulse for 30-60 s after at least 2 minutes at rest (supine); tachycardia is >100/min. For the postural component, keep the patient supine 2 minutes, then standing 1 minute, and record the pulse rise; a rise of 30/min or more, or inability to stand because of dizziness, is positive.",
+    "prerequisites": "Patient rested; note beta-blockers, pacemaker, and pain/anxiety.",
+    "contraindications": "Do not stand a patient who is hypotensive, has suspected hip/spine fracture, or is at high fall risk."
+  },
+  "interpretation": {
+    "positive_finding": "A large postural pulse increment (>=30/min) or severe postural dizziness is highly specific for large-volume blood loss; resting tachycardia is present in about three-quarters of patients with cardiac tamponade but is nonspecific across shock, PE, sepsis, anemia, and thyrotoxicosis.",
+    "negative_finding": "Supine tachycardia is frequently absent after moderate blood loss, so a normal resting rate does not exclude hypovolemia; a normal postural pulse response has modest value after moderate blood loss (composite sensitivity 22%).",
+    "pitfalls": "Beta-blockers, pacing, athletic training, and autonomic neuropathy blunt tachycardia; fever, pain, anxiety, and drugs cause tachycardia without hypovolemia; the postural test is unsafe in unstable patients.",
+    "changes_what": "Positive postural increment: treat as significant hypovolemia/hemorrhage; resting tachycardia: prompts search for cause (PE, tamponade, sepsis, bleeding) rather than a specific diagnosis."
+  },
+  "estimates": [
+    {
+      "target_condition": "Cardiac tamponade among patients with known pericardial effusion (tachycardia present)",
+      "population": "Pooled studies of patients with known tamponade or referred for pericardiocentesis with known effusion (8 studies)",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Echocardiographic/hemodynamic diagnosis of tamponade (varied by study)",
+      "sensitivity": {
+        "value": 0.77,
+        "ci_low": 0.69,
+        "ci_high": 0.85
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "minimal",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "tachycardia (pooled sensitivity, 77%; 95% confidence interval [CI], 69%-85%)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "COMPOSITE: severe postural dizziness OR postural pulse increment >=30/min, for large blood loss (phlebotomy)",
+      "population": "Healthy adult volunteers undergoing phlebotomy (pooled from 10 studies of postural vital signs; large blood loss category)",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Known volume of phlebotomy (large blood loss as defined by the review)",
+      "sensitivity": {
+        "value": 0.97,
+        "ci_low": 0.91,
+        "ci_high": 1.0
+      },
+      "specificity": {
+        "value": 0.98,
+        "ci_low": 0.97,
+        "ci_high": 0.99
+      },
+      "lr_positive": {
+        "value": 48.5,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.03,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.97/(1-0.98) = 48.5; LR- = (1-0.97)/0.98 = 0.03; from the abstract's sensitivity 97% and specificity 98%; CIs not computed",
+      "interpretation_label": "both",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "a much greater sensitivity for large blood loss of 97% (95% CI, 91%-100%); the corresponding specificity is 98% (95% CI, 97%-99%)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "COMPOSITE: severe postural dizziness OR postural pulse increment >=30/min, for moderate blood loss (phlebotomy)",
+      "population": "Healthy adult volunteers undergoing phlebotomy (moderate blood loss category)",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Known volume of phlebotomy (moderate blood loss as defined by the review)",
+      "sensitivity": {
+        "value": 0.22,
+        "ci_low": 0.06,
+        "ci_high": 0.48
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "minimal",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "The presence of either finding has a sensitivity for moderate blood loss of only 22% (95% confidence interval [CI], 6%-48%)",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Roy CL, Minor MA, Brookhart MA, Choudhry NK. Does this patient with a pericardial effusion have cardiac tamponade? JAMA. 2007;297(16):1810-8.",
+      "doi": "10.1001/jama.297.16.1810",
+      "pmid": "17456823",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2007
+    },
+    {
+      "citation": "McGee S, Abernethy WB, Simel DL. The rational clinical examination. Is this patient hypovolemic? JAMA. 1999;281(11):1022-9.",
+      "doi": "10.1001/jama.281.11.1022",
+      "pmid": "10086438",
+      "url": null,
+      "kind": "rce_series",
+      "year": 1999
+    },
+    {
+      "citation": "Chunilal SD, Eikelboom JW, Attia J, Miniati M, Panju AA, Simel DL, Ginsberg JS. Does this patient have pulmonary embolism? JAMA. 2003;290(21):2849-58.",
+      "doi": "10.1001/jama.290.21.2849",
+      "pmid": "14657070",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2003
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not perform postural measurements in hypotensive, syncopal, or fall-prone patients; do not use resting heart rate alone to exclude hemorrhage in beta-blocked or elderly patients.",
+    "escalation_warning": "Tachycardia with hypotension, elevated JVP, or pulsus paradoxus suggests tamponade or massive PE; with fever suggests sepsis - escalate immediately.",
+    "interobserver_note": "Pulse counting is reproducible; no kappa extracted for postural increment."
+  },
+  "tier": "verified",
+  "extraction_notes": "Resting tachycardia alone has no defensible sens/spec/LR in the visible abstracts: McGee 1999 states supine tachycardia is 'frequently absent' after up to 1150 mL blood loss but gives the 33% sensitivity figure only for supine hypotension, so no resting-tachycardia estimate for hypovolemia is entered. The postural entries are COMPOSITES (dizziness OR pulse increment >=30) from healthy-volunteer phlebotomy, not ED patients; the abstract gives one specificity (98%) that I attached only to the large-loss entry. Moderate/large blood-loss volume definitions are in the JAMA tables (not accessible); (unverified recall) approximately 450-630 mL vs 630-1150 mL. Roy 2007 tamponade sensitivity is from studies of patients with known tamponade/effusion (no specificity possible). Chunilal 2003 (PE RCE) abstract reports no tachycardia accuracy; PIOPED clinical findings paper (Stein 1991, PMID 1909617) abstract also lacks a heart-rate figure, so no PE estimate is entered.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T02:33:21+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T04:48:57.220Z",
+  "verification_notes": "",
+  "record_version": 3
+}

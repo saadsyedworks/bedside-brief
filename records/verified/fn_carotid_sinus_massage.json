@@ -1,0 +1,150 @@
+{
+  "identity": {
+    "id": "fn_carotid_sinus_massage",
+    "title": "Carotid sinus massage 5-10 s each side, supine then upright, with continuous BP/pulse; contraindicated with bruit, TIA/stroke or MI within 3 months",
+    "type": "functional",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "syncope",
+      "dizziness"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "bradyarrhythmia",
+      "carotid_sinus_hypersensitivity",
+      "reflex_vasovagal"
+    ],
+    "indication_tags": [
+      "elderly"
+    ]
+  },
+  "technique": {
+    "how": "With continuous ECG and beat-to-beat BP, firmly massage one carotid sinus (at the angle of the jaw, anterior to sternocleidomastoid) for 5-10 s; repeat on the other side, then repeat both sides at 60-70 degrees upright on a tilt table. Positive: asystole >=3 s and/or SBP fall >=50 mmHg, ideally with symptom reproduction.",
+    "prerequisites": "Continuous ECG monitoring and beat-to-beat (phasic) BP; auscultate both carotids first; resuscitation drugs/atropine and a tilt table for the upright phase; performed by trained staff.",
+    "contraindications": "Carotid bruit; TIA or stroke within 3 months; myocardial infarction within 3 months; known carotid stenosis; prior carotid surgery is a relative contraindication. Never massage both sides simultaneously."
+  },
+  "interpretation": {
+    "positive_finding": "Asystole >=3 s (cardioinhibitory), SBP drop >=50 mmHg (vasodepressor) or both (mixed) supports carotid sinus hypersensitivity; the diagnosis of carotid sinus syndrome additionally requires reproduction of spontaneous symptoms.",
+    "negative_finding": "No pause and no significant BP fall in both supine and upright positions makes carotid sinus syndrome unlikely; a normal supine test alone is insufficient because many responses are only seen upright.",
+    "pitfalls": "A hypersensitive response is common in asymptomatic older people (39% of an unselected community sample >65 y), so a positive test without symptom reproduction should not stop the search for other causes; the vasodepressor component is missed without beat-to-beat BP.",
+    "changes_what": "Positive with symptom reproduction in unexplained syncope/falls: cardioinhibitory type -> pacing evaluation; negative supine+upright: remove CSS from the differential, pursue tilt/monitoring."
+  },
+  "estimates": [
+    {
+      "target_condition": "Carotid sinus hypersensitivity response (asystole >=3 s and/or SBP fall >=50 mmHg) - specificity estimated from positive rate in unselected community elders",
+      "population": "272 randomly sampled community residents >65 y (unselected for symptoms), UK general practice register",
+      "setting": "outpatient",
+      "prevalence": null,
+      "reference_standard": "No reference standard for carotid sinus syndrome; positive rate in an unselected community sample used as false-positive rate",
+      "sensitivity": null,
+      "specificity": {
+        "value": 0.61,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": true,
+      "computed_from": "Specificity = 1 - 0.39; 107/272 (39%) unselected community elders met CSH criteria on supine+upright CSM",
+      "interpretation_label": "minimal",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "Carotid sinus hypersensitivity was present in 107 individuals (39%); 24% had asystole of 3 seconds or greater during carotid sinus massage",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Carotid sinus hypersensitivity response (asystole >=3 s and/or SBP fall >=50 mmHg) - specificity estimated from positive rate in elders with no history of syncope, dizziness or falls",
+      "population": "80 community elders >65 y with no history of syncope, dizziness or falls",
+      "setting": "outpatient",
+      "prevalence": null,
+      "reference_standard": "No reference standard; positive rate in previously asymptomatic subsample used as false-positive rate",
+      "sensitivity": null,
+      "specificity": {
+        "value": 0.65,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": true,
+      "computed_from": "Specificity = 1 - 28/80 = 0.65",
+      "interpretation_label": "minimal",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "In 80 previously asymptomatic individuals, carotid sinus hypersensitivity was present in 28 (35%) and accompanied by symptoms in 10.",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Carotid sinus syndrome response (asystole >3 s and/or SBP fall >50 mmHg, supine then upright) - specificity from asymptomatic controls; yield in unexplained syncope 22.3%",
+      "population": "44 asymptomatic controls >=60 y from a general practice register vs 221 symptomatic falls-clinic patients >60 y (130 unexplained syncope)",
+      "setting": "outpatient",
+      "prevalence": null,
+      "reference_standard": "No reference standard; asymptomatic controls used to estimate false-positive rate",
+      "sensitivity": null,
+      "specificity": {
+        "value": 1.0,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": true,
+      "computed_from": "Specificity = 1 - 0/44 controls positive ('None of the controls demonstrated a positive response', Abstract). Positive yield in syncope group 22.3% (n=29/130) is a yield, not sensitivity",
+      "interpretation_label": "modest",
+      "evidence_level": "single_study",
+      "source_index": 2,
+      "quote": "we studied 44 asymptomatic control subjects and 221 symptomatic patients (130 with unexplained syncope, 41 with unexplained falls and 50 with unexplained dizziness)",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "partially_quantified",
+  "sources": [
+    {
+      "citation": "Kerr SR, Pearce MS, Brayne C, Davis RJ, Kenny RA. Carotid sinus hypersensitivity in asymptomatic older persons: implications for diagnosis of syncope and falls. Arch Intern Med 2006;166:515-520.",
+      "doi": "10.1001/archinte.166.5.515",
+      "pmid": "16534037",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2006
+    },
+    {
+      "citation": "Brignole M, Moya A, de Lange FJ, Deharo JC, Elliott PM, Fanciulli A, Fedorowski A, Furlan R, et al. 2018 ESC Guidelines for the diagnosis and management of syncope. Eur Heart J 2018;39:1883-1948.",
+      "doi": "10.1093/eurheartj/ehy037",
+      "pmid": "29562304",
+      "url": null,
+      "kind": "guideline",
+      "year": 2018
+    },
+    {
+      "citation": "Kumar NP, Thomas A, Mudd P, Morris RO, Masud T. The usefulness of carotid sinus massage in different patient groups. Age Ageing 2004;33:159-163.",
+      "doi": "10.1093/ageing/afg114",
+      "pmid": "14600010",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2004
+    },
+    {
+      "citation": "Puggioni E, Guiducci V, Brignole M, Menozzi C, Oddone D, Donateo P, Croci F, Solano A, et al. Results and complications of the carotid sinus massage performed according to the \"method of symptoms\". Am J Cardiol 2002;89:599-601.",
+      "doi": "10.1016/s0002-9149(01)02303-7",
+      "pmid": "11867049",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2002
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Carotid bruit, carotid stenosis or endarterectomy, TIA/stroke or MI within 3 months, ventricular tachycardia history; not without ECG and BP monitoring.",
+    "escalation_warning": "Prolonged asystole (>6 s) or hypotension with syncope during the test is a positive result but needs immediate supine positioning and readiness for atropine; any new focal neurological symptom after massage is a stroke until proven otherwise.",
+    "interobserver_note": "Yield depends on technique (supine AND upright, 5-10 s, beat-to-beat BP); no kappa found. Male sex and age raise the positive rate in asymptomatic elders (OR male 1.71, 95% CI 1.04-2.82; Kerr 2006 Abstract)."
+  },
+  "tier": "verified",
+  "extraction_notes": "No diagnostic-accuracy study with an independent reference standard exists (CSM itself defines carotid sinus syndrome), so sensitivity/LRs cannot be given; only false-positive rates in asymptomatic elders are entered as computed specificities. These conflict: Kerr 2006 (Newcastle, beat-to-beat BP, 5-10 s, supine+upright) found CSH in 39% of unselected elders (35% of never-symptomatic), whereas Kumar 2004 (5 s, plethysmographic BP) found 0/44 controls positive; entered separately, not averaged. Kumar 2004 positive yield in unexplained syncope 22.3% (95% CI not given in abstract for subgroup) and in unexplained dizziness 6% (Abstract). Kerr 2006 95th percentile of response in asymptomatic elders: 7.3 s asystole and 77 mmHg SBP drop (Abstract), suggesting the standard >=3 s / >=50 mmHg cut-offs are permissive. Puggioni 2002 (PMID 11867049) reports complications of the 'method of symptoms' but its abstract is not on PubMed and PMC full text is unavailable, so no complication rate is entered. ESC 2018 guideline (PMID 29562304) supplies technique, criteria and contraindications; abstract not available via e-utils, so wording is from the guideline (unverified recall of exact page). Kerr 2006 not in PMC; all Kerr numbers are from the abstract.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:42:48+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T07:51:22.497Z",
+  "verification_notes": "",
+  "record_version": 3
+}

@@ -78,7 +78,7 @@ def build(decision: dict) -> tuple[str, dict | None, str]:
         print(f"WARN  {rid}: {w}")
     exclude = set(decision.get("exclude") or [])
     kept = [e for i, e in enumerate(rec.get("estimates", [])) if i not in exclude]
-    if exclude:
+    if exclude and kept:
         # source_index values must still point at the right entry in sources[]
         used = sorted({e["source_index"] for e in kept if isinstance(e.get("source_index"), int)})
         remap = {old: new for new, old in enumerate(used)}
@@ -86,6 +86,8 @@ def build(decision: dict) -> tuple[str, dict | None, str]:
         for e in kept:
             if isinstance(e.get("source_index"), int):
                 e["source_index"] = remap[e["source_index"]]
+    # When every estimate is excluded the record becomes not_quantified, and the spec still requires
+    # it to cite the guideline or consensus source supporting the manoeuvre — so keep sources intact.
     rec["estimates"] = kept
     if not kept and rec.get("evidence_status") != "not_quantified":
         rec["evidence_status"] = "not_quantified"

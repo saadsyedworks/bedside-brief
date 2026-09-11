@@ -1,0 +1,69 @@
+{
+  "identity": {
+    "id": "hx_steroid_exposure_withdrawal",
+    "title": "Glucocorticoid exposure / abrupt withdrawal, known adrenal disease, hyperpigmentation",
+    "type": "history",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "hypotension",
+      "ams",
+      "abdominal_pain",
+      "weakness"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "adrenal_insufficiency"
+    ],
+    "indication_tags": [
+      "new_medication",
+      "malignancy",
+      "immunocompromised"
+    ]
+  },
+  "technique": {
+    "how": "Ask specifically about any glucocorticoid in the past year: oral, inhaled, intra-articular/epidural injections, topical, nasal, and megestrol or opioids; dose, duration, and whether it was recently stopped or missed. Ask about known Addison disease, pituitary disease, adrenalectomy, checkpoint-inhibitor or anticoagulant use, and look for mucosal/palmar-crease hyperpigmentation or vitiligo.",
+    "prerequisites": "Medication reconciliation including outside prescriptions and injections; collateral history if the patient is confused.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Recent glucocorticoid exposure (especially higher dose, longer course, or abrupt stop) in a patient with unexplained hypotension, hyponatremia, hypoglycemia, or refractory shock makes adrenal insufficiency probable enough to treat empirically. Hyperpigmentation points to primary (ACTH-driven) disease.",
+    "negative_finding": "No steroid exposure and no known adrenal/pituitary disease lowers but does not exclude adrenal insufficiency (autoimmune, hemorrhage, infiltration, sepsis).",
+    "pitfalls": "Patients forget inhaled, injected, and topical steroids; exposure of any route, dose or duration cannot exclude suppression with certainty. Hyperpigmentation is absent in secondary/tertiary adrenal insufficiency.",
+    "changes_what": "Positive history in shock: draw cortisol/ACTH then give stress-dose hydrocortisone without waiting; negative history still warrants testing if hypotension, hyponatremia or hypoglycemia is unexplained."
+  },
+  "estimates": [],
+  "evidence_status": "not_quantified",
+  "sources": [
+    {
+      "citation": "Broersen LH, Pereira AM, Jorgensen JO, Dekkers OM. Adrenal Insufficiency in Corticosteroids Use: Systematic Review and Meta-Analysis. J Clin Endocrinol Metab. 2015.",
+      "doi": null,
+      "pmid": "25844620",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2015
+    },
+    {
+      "citation": "Bornstein SR, Allolio B, Arlt W, Barthel A, Don-Wauchope A, Hammer GD, Husebye ES, Merke DP, et al. Diagnosis and Treatment of Primary Adrenal Insufficiency: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2016.",
+      "doi": "10.1210/jc.2015-1710",
+      "pmid": "26760044",
+      "url": null,
+      "kind": "guideline",
+      "year": 2016
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not withhold empiric hydrocortisone in suspected adrenal crisis because the steroid history is negative or uncertain.",
+    "escalation_warning": "Hypotension unresponsive to fluids/vasopressors with a steroid history: treat as adrenal crisis immediately (IV hydrocortisone, saline, glucose).",
+    "interobserver_note": "History item; no reliability data found."
+  },
+  "tier": "verified",
+  "extraction_notes": "No diagnostic-accuracy study (sens/spec/LR) of the steroid-exposure history for adrenal insufficiency in acutely ill patients was found; the only quantitative evidence is post-test probability of biochemical AI among steroid-exposed patients from the Broersen 2015 meta-analysis (PMID 25844620), which has no sens/spec/LR field to hold it, so estimates[] is empty and the numbers are recorded here (all Abstract, Results): dose 'from 2.4% (95% CI, 0.6-9.3) (low dose) to 21.5% (95% CI, 12.0-35.5) (high dose)'; duration 'from 1.4% (95% CI, 0.3-7.4) (<28 d) to 27.4% (95% CI, 17.7-39.8) (>1 year) in asthma patients'; by route 'from 4.2% for nasal administration (95% CI, 0.5-28.9) to 52.2% for intra-articular administration (95% CI, 40.5-63.6)'; by disease 'from 6.8% for asthma with inhalation corticosteroids only (95% CI, 3.8-12.0) to 60.0% for hematological malignancies (95% CI, 38.0-78.6)'. Endocrine Society guideline (PMID 26760044) supports a low diagnostic and therapeutic threshold in acutely ill patients with predisposing factors; hyperpigmentation frequency is not quantified in the sources reviewed. Crossref DOI for Broersen not returned by the tool; PMID confirmed.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T02:33:35+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T02:23:18.712Z",
+  "verification_notes": "",
+  "record_version": 3
+}

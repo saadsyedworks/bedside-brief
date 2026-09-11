@@ -1,0 +1,187 @@
+{
+  "identity": {
+    "id": "hx_post_event_confusion",
+    "title": "Seizure-vs-syncope features: prolonged (>1-5 min) post-event confusion, lateral tongue biting, head turning, incontinence",
+    "type": "history",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "syncope",
+      "ams"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "bradyarrhythmia",
+      "nonconvulsive_seizure",
+      "reflex_vasovagal",
+      "seizure_mimic"
+    ],
+    "indication_tags": []
+  },
+  "technique": {
+    "how": "Take the history from an eyewitness where possible. Ask how long the patient was confused or disoriented after coming round (seconds vs many minutes), whether the tongue was bitten and where (lateral border vs tip), whether the head or eyes turned to one side, and whether there was incontinence. Inspect the lateral tongue for laceration.",
+    "prerequisites": "An eyewitness account materially improves accuracy; the patient's own recall of the event is often absent.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Disorientation after the event made seizure about five times more likely than syncope (Hoefnagels 1991); tongue biting is highly specific for generalised seizure (pooled LR+ 8.2, spec 0.96), and lateral tongue biting was 100% specific in Benbadis 1995.",
+    "negative_finding": "Absence of tongue biting barely lowers seizure probability (pooled LR- 0.70, sensitivity ~0.24-0.33). Rapid, full orientation on waking favours syncope.",
+    "pitfalls": "Brief myoclonic jerks and even a few seconds of confusion are common in convulsive syncope; incontinence and injury did not discriminate in Hoefnagels 1991. Tip-of-tongue bites occur in syncope.",
+    "changes_what": "Positive (prolonged confusion, lateral tongue bite): pursue seizure work-up (EEG, imaging). Negative with rapid reorientation: pursue syncope pathway (ECG, orthostatics, cardiac risk)."
+  },
+  "estimates": [
+    {
+      "target_condition": "Epileptic seizure (vs syncope) - finding: tongue biting (any)",
+      "population": "Pooled: 75 patients with epileptic seizures and 98 with syncope from 2 studies",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Clinical/video-EEG diagnosis of epileptic seizure vs syncope as defined in the included studies",
+      "sensitivity": {
+        "value": 0.33,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.96,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 8.167,
+        "ci_low": 2.969,
+        "ci_high": 22.461
+      },
+      "lr_negative": {
+        "value": 0.695,
+        "ci_low": 0.589,
+        "ci_high": 0.82
+      },
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "sensitivity 33%, specificity 96%, pLR 8.167 (95% CI 2.969-22.461) and nLR 0.695 (95% CI 0.589-0.82)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Generalized tonic-clonic seizure (vs nonepileptic events and syncope) - finding: tongue biting",
+      "population": "63 epilepsy-monitoring-unit patients with bilateral motor activity and/or complete LOC (34 epileptic, 29 nonepileptic) plus 45 patients with syncope (retrospective)",
+      "setting": "inpatient",
+      "prevalence": null,
+      "reference_standard": "Video-EEG monitoring (epilepsy monitoring unit); syncope by clinical diagnosis",
+      "sensitivity": {
+        "value": 0.24,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.99,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "single_study",
+      "source_index": 1,
+      "quote": "Tongue biting had a sensitivity of 24% and a specificity of 99% for the diagnosis of generalized tonic-clonic seizures.",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Seizure (vs syncope) - finding: disorientation immediately after the event (eyewitness report)",
+      "population": "94 consecutive patients aged 15+ with transient loss of consciousness (41 seizure, 53 syncope)",
+      "setting": "mixed",
+      "prevalence": 0.44,
+      "reference_standard": "Eyewitness-observed clonic movements or automatisms classified the event as a seizure",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 5.0,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "single_study",
+      "source_index": 2,
+      "quote": "We found a seizure five times more likely than syncope if the patient was disoriented after the event",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Seizure (vs syncope) - COMPOSITE Calgary historical point score (includes post-event confusion, tongue biting, head turning, incontinence items), not a single feature",
+      "population": "539 patients with loss of consciousness of known cause (102 seizures; 437 syncope incl. 267 tilt-positive vasovagal, 90 VT, 80 other)",
+      "setting": "mixed",
+      "prevalence": 0.19,
+      "reference_standard": "Established cause of LOC (tilt testing, electrophysiology, EEG/clinical epilepsy diagnosis); split-half validation",
+      "sensitivity": {
+        "value": 0.94,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.94,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "both",
+      "evidence_level": "validation_cohort",
+      "source_index": 3,
+      "quote": "The point score based on symptoms alone correctly classified 94% of patients, diagnosing seizures with 94% sensitivity and 94% specificity.",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Brigo F, Nardone R, Bongiovanni LG. Value of tongue biting in the differential diagnosis between epileptic seizures and syncope. Seizure. 2012;21(8):568-572.",
+      "doi": null,
+      "pmid": "22770819",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2012
+    },
+    {
+      "citation": "Benbadis SR, Wolgamuth BR, Goren H, Brener S, Fouad-Tarazi F. Value of tongue biting in the diagnosis of seizures. Arch Intern Med. 1995;155(21):2346-2349.",
+      "doi": null,
+      "pmid": "7487261",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1995
+    },
+    {
+      "citation": "Hoefnagels WA, Padberg GW, Overweg J, van der Velde EA, Roos RA. Transient loss of consciousness: the value of the history for distinguishing seizure from syncope. J Neurol. 1991;238(1):39-43.",
+      "doi": null,
+      "pmid": "2030371",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1991
+    },
+    {
+      "citation": "Sheldon R, Rose S, Ritchie D, et al. Historical criteria that distinguish syncope from seizures. J Am Coll Cardiol. 2002;40(1):142-148.",
+      "doi": "10.1016/s0735-1097(02)01940-x",
+      "pmid": "12103268",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2002
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not rely on these features alone in patients with focal deficits, head injury, or possible nonconvulsive status; absence of tongue biting never excludes seizure.",
+    "escalation_warning": "Prolonged post-event confusion with fever, headache, focal signs, or no return to baseline needs urgent evaluation for structural, infectious, or ongoing seizure causes.",
+    "interobserver_note": "Eyewitness-dependent; the Calgary score and Hoefnagels items were derived from structured questionnaires and reproducibility between interviewers is not reported."
+  },
+  "tier": "verified",
+  "extraction_notes": "Brigo 2013 pooled tongue-biting accuracy and Benbadis 1995 sens/spec taken verbatim from PubMed abstracts (journal full text not accessible). Hoefnagels 1991 abstract reports the post-event disorientation LR only in words ('five times more likely'), no CI, so sens/spec left null; prevalence 41/94 computed from abstract counts. Sheldon 2002 (JACC, not open-access) abstract gives only the composite score accuracy (94%/94%); per-item odds ratios/points for post-event confusion, tongue biting, head turning and incontinence are in its Table 2 which could not be read - recorded as a labelled composite estimate. Hoefnagels notes incontinence and trauma were not discriminative. PubMed lists Brigo as 2013 Seizure vol 21; year set to 2012 per epub/volume - verifier should confirm.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T01:47:57+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T08:05:41.606Z",
+  "verification_notes": "",
+  "record_version": 3
+}

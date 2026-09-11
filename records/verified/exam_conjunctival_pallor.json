@@ -1,0 +1,149 @@
+{
+  "identity": {
+    "id": "exam_conjunctival_pallor",
+    "title": "Conjunctival rim pallor (and palmar crease / nail-bed pallor)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "chest_pain",
+      "syncope",
+      "palpitations",
+      "hypotension",
+      "dizziness",
+      "weakness"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "anemia",
+      "hypovolemic_hemorrhagic_shock"
+    ],
+    "indication_tags": []
+  },
+  "technique": {
+    "how": "In good light, gently pull down the lower eyelid and compare the colour of the anterior rim of the palpebral conjunctiva with the deeper posterior conjunctiva: pallor is present when the anterior rim is as pale as the posterior part, borderline when indeterminate. Also inspect palmar creases with the hand extended and the nail beds.",
+    "prerequisites": "Adequate lighting; examiner blinded to haemoglobin if possible.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Definite conjunctival pallor roughly quadruples the odds of severe anaemia (Hb <=90 g/L, LR about 4.5) and warrants a haemoglobin measurement even without other clues.",
+    "negative_finding": "Absence of pallor only modestly lowers the probability of severe anaemia (LR about 0.6) and does not rule it out; it says nothing about acute haemorrhage before haemodilution.",
+    "pitfalls": "Agreement between examiners ranges from good with explicit criteria to near chance; conjunctivitis, icterus, dark skin and poor lighting mislead. Palmar-crease and nail-bed pallor add little.",
+    "changes_what": "Pallor present: check haemoglobin and look for a bleeding source; pallor absent: do not use to exclude anaemia or occult haemorrhage in a symptomatic patient."
+  },
+  "estimates": [
+    {
+      "target_condition": "Severe anaemia, haemoglobin <=90 g/L",
+      "population": "302 medical and surgical inpatients, tertiary-care university teaching hospital (prospective, blinded observers)",
+      "setting": "inpatient",
+      "prevalence": null,
+      "reference_standard": "Laboratory haemoglobin <=90 g/L",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 4.49,
+        "ci_low": 1.8,
+        "ci_high": 10.99
+      },
+      "lr_negative": {
+        "value": 0.61,
+        "ci_low": 0.44,
+        "ci_high": 0.8
+      },
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "LR 4.49 (95% confidence interval [CI] 1.80, 10.99); pallor borderline, LR 1.80 (95% CI 1.18, 2.62); pallor absent, LR 0.61 (95% CI 0.44, 0.80)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Anaemia, haemoglobin <9 g/dL (conjunctival pallor graded severe vs none)",
+      "population": "390 consecutive outpatient and medicine-inpatient adults >12 y, teaching hospital, rural India (prospective, blinded)",
+      "setting": "mixed",
+      "prevalence": 0.21,
+      "reference_standard": "Haemoglobin by electronic cell counter within 1 day",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 4.42,
+        "ci_low": 1.21,
+        "ci_high": 16.1
+      },
+      "lr_negative": {
+        "value": 0.38,
+        "ci_low": 0.19,
+        "ci_high": 0.74
+      },
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "single_study",
+      "source_index": 1,
+      "quote": "Conjunctiva  Severe  3.51 (0.76, 16.1)  4.42 (1.21, 16.1)  4.25 (0.53, 33.6)",
+      "location": "Table 2 (PMC full text), conjunctiva rows; columns Hb <7, <9, <12 g/dL"
+    },
+    {
+      "target_condition": "Severe anaemia, haemoglobin <7 g/dL (conjunctival pallor graded severe)",
+      "population": "Same 390 patients, teaching hospital, rural India",
+      "setting": "mixed",
+      "prevalence": 0.08,
+      "reference_standard": "Haemoglobin by electronic cell counter within 1 day",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 3.51,
+        "ci_low": 0.76,
+        "ci_high": 16.1
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "single_study",
+      "source_index": 1,
+      "quote": "Conjunctiva  Severe  3.51 (0.76, 16.1)  4.42 (1.21, 16.1)  4.25 (0.53, 33.6)",
+      "location": "Table 2 (PMC full text), conjunctiva 'Severe' row, Hb <7 g/dL column"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Sheth TN, Choudhry NK, Bowes M, Detsky AS. The relation of conjunctival pallor to the presence of anemia. J Gen Intern Med. 1997.",
+      "doi": "10.1046/j.1525-1497.1997.00014.x",
+      "pmid": "9051559",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1997
+    },
+    {
+      "citation": "Kalantri A, Karambelkar M, Joshi R, Kalantri S, Jajoo U. Accuracy and reliability of pallor for detecting anaemia: a hospital-based diagnostic accuracy study. PLoS One. 2010.",
+      "doi": "10.1371/journal.pone.0008545",
+      "pmid": "20049324",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2010
+    },
+    {
+      "citation": "Nardone DA, Roth KM, Mazur DJ, McAfee JH. Usefulness of physical examination in detecting the presence or absence of anemia. Arch Intern Med. 1990.",
+      "doi": null,
+      "pmid": "2297289",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1990
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use absence of pallor to exclude acute haemorrhage or anaemia in a patient with syncope, hypotension or chest pain - measure haemoglobin.",
+    "escalation_warning": "Pallor with tachycardia, hypotension or melaena = suspect haemorrhagic shock; obtain access, haemoglobin and cross-match immediately.",
+    "interobserver_note": "With explicit rim criteria agreement was good: 'Kappa scores of interobserver agreement between paired observers were 0.75 and 0.54' (Sheth 1997, Abstract). Without them it was near chance: 'kappa values = 0.07 for conjunctival pallor' (Kalantri 2010, Abstract) and 'K scores ... ranged from .16 to .51 for other sites' (Nardone 1990, Abstract)."
+  },
+  "extraction_notes": "Sheth 1997: LR for borderline pallor 1.80 (1.18-2.62) is in the quote but not entered as a field; sensitivity/specificity not in abstract; PMC full text retrieval failed (87 bytes). Kalantri 2010 Table 2 gives LRs by pallor grade (severe/moderate/mild/no) per Hb threshold; the lr_negative 0.38 for Hb <9 comes from the conjunctiva 'No' row, verbatim 'No  -  0.38 (0.19, 0.74)  0.40 (0.28, 0.58)' (Table 2), where the Hb <7 cell is '-' because no patient with Hb <7 lacked conjunctival pallor (text: 'absence of conjunctival pallor and tongue pallor completely ruled out the probability of haemoglobin <7 g/dL', Discussion) - entered as null rather than LR 0. Moderate-pallor LRs (2.32 at <7; 1.89 at <9) not entered. Prevalences from abstract: 'haemoglobin was <7 g/dL in 8% ... <9 g/dL in 21%'. Nardone 1990 reports no conjunctiva-only figures in the abstract; its composite values ('pallor at any one of three sites ... 0.65' sensitivity; 'pallor at conjunctivae, face, and palms (all three in combination; 0.95)' specificity; palmar creases specificity 1.00) are composites and were not entered as estimates. Nail-bed pallor was inferior to all other sites by ROC (Nardone, Abstract).",
+  "tier": "verified",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T02:33:16+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T07:48:07.695Z",
+  "verification_notes": "",
+  "record_version": 3
+}

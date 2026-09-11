@@ -1,0 +1,96 @@
+{
+  "identity": {
+    "id": "exam_subtle_motor_signs_ncse",
+    "title": "Subtle twitching (face/limbs), eye deviation, nystagmoid jerks, fluctuating responsiveness (NCSE screen)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "ams"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "nonconvulsive_seizure",
+      "stroke"
+    ],
+    "indication_tags": [
+      "acute_onset"
+    ]
+  },
+  "technique": {
+    "how": "In unexplained altered mental state, observe for 1-2 minutes with the eyelids held open: look for sustained gaze deviation, nystagmoid or hippus-like eye jerks, rhythmic twitching of periorbital, perioral, finger or toe muscles, and marked minute-to-minute fluctuation in responsiveness. Ask about prior seizures, epilepsy, stroke or brain injury (remote seizure risk factors).",
+    "prerequisites": "Glucose checked; sedatives/neuromuscular blockers accounted for; ability to examine eyes and limbs.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Ocular movement abnormalities or subtle rhythmic twitching in a patient with unexplained encephalopathy raise the probability of nonconvulsive status epilepticus and justify urgent EEG (and, where EEG is delayed, a monitored benzodiazepine trial by an experienced clinician). In Husain's cohort, either remote seizure risk factors or ocular movement abnormalities were present in every NCSE patient.",
+    "negative_finding": "Absence of both remote seizure risk factors and ocular movement abnormalities made NCSE unlikely in one small cohort (composite sensitivity 100%), but absence of twitching alone does not exclude NCSE, since many NCSE patients have no motor signs.",
+    "pitfalls": "Multifocal myoclonus from uraemia, hypoxia or drugs, and roving eye movements of sedation mimic these signs; signs fluctuate so a single glance is insufficient. Prevalence of NCS/NCSE in undifferentiated ED altered mental status is only about 5%, so the prior is low outside high-risk groups.",
+    "changes_what": "Positive: obtain urgent EEG and consider empiric treatment for NCSE. Negative with no seizure history: EEG is lower priority; pursue metabolic, toxic and structural causes first."
+  },
+  "estimates": [
+    {
+      "target_condition": "COMPOSITE: remote risk factors for seizures OR ocular movement abnormalities (either present) for nonconvulsive status epilepticus on urgent EEG",
+      "population": "48 hospitalised patients with altered mental state for whom an urgent EEG was ordered to identify NCSE over 6 months (12 NCSE, 36 non-NCSE); examined by neurology residents blinded to EEG",
+      "setting": "inpatient",
+      "prevalence": 0.25,
+      "reference_standard": "Urgent EEG interpreted as NCSE vs not NCSE",
+      "sensitivity": {
+        "value": 1.0,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "computed_from": "Prevalence 12/48 = 0.25 from abstract ('48 patients were enrolled, 12 in NCSE and 36 not in NCSE'); specificity of the composite is not in the abstract",
+      "interpretation_label": "rule_out",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "The combined sensitivity of remote risk factors for seizures and ocular movement abnormalities was 100%.",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "partially_quantified",
+  "sources": [
+    {
+      "citation": "Husain AM, Horn GJ, Jacobson MP. Non-convulsive status epilepticus: usefulness of clinical features in selecting patients for urgent EEG. Journal of neurology, neurosurgery, and psychiatry. 2003.",
+      "doi": "10.1136/jnnp.74.2.189",
+      "pmid": "12531946",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2003
+    },
+    {
+      "citation": "Zehtabchi S, Abdel Baki SG, Omurtag A et al. Prevalence of non-convulsive seizure and other electroencephalographic abnormalities in ED patients with altered mental status. The American journal of emergency medicine. 2013.",
+      "doi": "10.1016/j.ajem.2013.08.002",
+      "pmid": "24070982",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2013
+    },
+    {
+      "citation": "Zehtabchi S, Abdel Baki SG, Malhotra S et al. Nonconvulsive seizures in patients presenting with altered mental status: an evidence-based review. Epilepsy & behavior : E&B. 2012.",
+      "doi": "10.1016/j.yebeh.2011.06.012",
+      "pmid": "21784709",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2012
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not rely on absence of motor signs to withhold EEG in patients with prior epilepsy, recent convulsive status, acute brain injury, or unexplained coma; NCSE is often motor-silent.",
+    "escalation_warning": "Suspected NCSE is a neurological emergency: urgent EEG and neurology involvement; do not wait for motor signs to declare.",
+    "interobserver_note": "No interobserver data for these bedside signs located. EEG reference standard itself has only modest agreement: Zehtabchi 2013 reports blinded epileptologist inter-rater kappa 0.45 (95% CI 0.36-0.54) (Abstract, Results)."
+  },
+  "tier": "verified",
+  "extraction_notes": "Anchor Husain 2003 (PMID 12531946) is the only study located that tests bedside clinical features against urgent EEG; its abstract gives only the composite sensitivity (100%) and states that 'remote risk factors for seizures, severely impaired mental state, and ocular movement abnormalities were seen significantly more often in the NCSE group' (Abstract, Results). Per-feature sensitivity/specificity (subtle twitching, eye deviation, nystagmoid jerks, fluctuation) are in the paper's tables, which are not accessible: PMC1738268 is an abstract-only deposit, so those cells are left null and the record is partially_quantified. Prevalence context (not entered as estimates): Zehtabchi 2013 (PMID 24070982), prospective 259 ED patients with AMS, 'NCS (including non-convulsive status epilepticus [NCSE]) was detected in 5% (95% CI, 3-8%) of patients' (Abstract, Results); Zehtabchi 2012 review (PMID 21784709) pooled 5 studies, 'overall prevalence of 21.5%, 95% CI: 18-25%' in selected AMS cohorts (Abstract, Results). Husain cohort prevalence (0.25) reflects patients pre-selected for urgent EEG, not undifferentiated AMS. Searches for 'nonconvulsive status epilepticus clinical features predictors EEG sensitivity' and 'nonconvulsive seizures altered mental status emergency department EEG prevalence' found no further diagnostic-accuracy study of these motor signs.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:41:13+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T07:50:55.899Z",
+  "verification_notes": "",
+  "record_version": 3
+}

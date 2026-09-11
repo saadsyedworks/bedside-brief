@@ -1,0 +1,135 @@
+{
+  "identity": {
+    "id": "exam_rebound_tenderness",
+    "title": "Rebound tenderness (peritoneal irritation)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "abdominal_pain",
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "appendicitis",
+      "diverticulitis",
+      "intraabdominal_abscess",
+      "perforated_viscus",
+      "sbp"
+    ],
+    "indication_tags": []
+  },
+  "technique": {
+    "how": "Press slowly and deeply with the fingertips over the area of concern (or a remote quadrant), hold, then release abruptly while watching the patient's face. Pain on release greater than on pressure is rebound tenderness. Gentler equivalents: percussion tenderness, or pain on coughing or heel-drop.",
+    "prerequisites": "Explain the manoeuvre; give analgesia first (it does not abolish peritoneal signs); perform once, not repeatedly.",
+    "contraindications": "Avoid in an already rigid, obviously peritonitic abdomen where the manoeuvre adds only pain; prefer percussion or cough tenderness."
+  },
+  "interpretation": {
+    "positive_finding": "Rebound (or percussion/cough) tenderness indicates parietal peritoneal inflammation; in RIF pain it is specific for appendicitis (spec 0.89, sens 0.82 in adults; pediatric LR+ 3.0).",
+    "negative_finding": "Absence lowers the probability of appendicitis (pediatric LR- 0.28) but does not exclude early, retrocaecal or pelvic appendicitis or peritonitis in the elderly and immunosuppressed.",
+    "pitfalls": "The classic release manoeuvre is painful and non-specific in anxious patients; percussion or cough tenderness gives similar information more gently. False negatives occur with steroids, advanced age, obesity and altered mental status.",
+    "changes_what": "Positive: escalate to imaging and surgical review for suspected appendicitis/peritonitis; negative in low-risk patients supports observation, not discharge without follow-up."
+  },
+  "estimates": [
+    {
+      "target_condition": "Acute appendicitis",
+      "population": "100 consecutive patients with right iliac fossa pain, median age 25 (range 4-81), UK surgical unit; 44 histology-proven appendicitis",
+      "setting": "inpatient",
+      "prevalence": 0.44,
+      "reference_standard": "Histology at operation; non-operated patients followed clinically",
+      "sensitivity": {
+        "value": 0.82,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.89,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 7.45,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.2,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.82/(1-0.89) = 7.45; LR- = (1-0.82)/0.89 = 0.20; from abstract sensitivity 0.82 and specificity 0.89",
+      "interpretation_label": "both",
+      "evidence_level": "single_study",
+      "source_index": 1,
+      "quote": "Rebound tenderness proved to be sensitive (sensitivity 0.82), specific (specificity 0.89) and accurate (accuracy 86%).",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Acute appendicitis (children)",
+      "population": "Children <=18 years in whom appendicitis was suspected and evaluation undertaken; pooled from quality level >=3 studies",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Surgical pathology, clinical observation or follow-up",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 3.0,
+        "ci_low": 2.3,
+        "ci_high": 3.9
+      },
+      "lr_negative": {
+        "value": 0.28,
+        "ci_low": 0.14,
+        "ci_high": 0.55
+      },
+      "computed": false,
+      "interpretation_label": "both",
+      "evidence_level": "pooled",
+      "source_index": 2,
+      "quote": "rebound tenderness triples the odds of appendicitis (summary LR, 3.0; 95% CI, 2.3-3.9), while its absence reduces the likelihood (summary LR, 0.28; 95% CI, 0.14-0.55)",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Wagner JM, McKinney WP, Carpenter JL. Does this patient have appendicitis? JAMA. 1996;276(19):1589-1594.",
+      "doi": null,
+      "pmid": "8918857",
+      "url": null,
+      "kind": "rce_series",
+      "year": 1996
+    },
+    {
+      "citation": "Golledge J, Toms AP, Franklin IJ, Scriven MW, Galland RB. Assessment of peritonism in appendicitis. Ann R Coll Surg Engl. 1996;78(1):11-14.",
+      "doi": null,
+      "pmid": "8659965",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1996
+    },
+    {
+      "citation": "Bundy DG, Byerley JS, Liles EA, Perrin EM, Katznelson J, Rice HE. Does this child have appendicitis? JAMA. 2007;298(4):438-451.",
+      "doi": "10.1001/jama.298.4.438",
+      "pmid": "17652298",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2007
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use a negative result to exclude peritonitis in elderly, immunosuppressed, steroid-treated, obese or obtunded patients, or in pregnancy where the appendix is displaced.",
+    "escalation_warning": "Generalised rebound with fever, tachycardia or hypotension indicates diffuse peritonitis: resuscitate and obtain immediate surgical review.",
+    "interobserver_note": "Rebound is examiner- and patient-dependent; the pediatric RCE reports only fair agreement, and percussion/cough tenderness are more reproducible alternatives."
+  },
+  "tier": "verified",
+  "extraction_notes": "Adult estimate from Golledge 1996 abstract (PMC deposit has abstract only, so table location not available; LRs computed by extractor from abstract sens/spec). Pediatric pooled LRs from Bundy 2007 abstract. Wagner 1996 adult RCE LRs (rebound LR+ ~1.1-6.3 range) are not visible in the abstract or any reachable full text and were not entered. Alshehri 1995 (PMID 7588144) reports rebound sensitivity 94.7% but in patients already admitted with a diagnosis of appendicitis, so it was omitted as spectrum-biased.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T02:00:08+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T06:54:25.753Z",
+  "verification_notes": "",
+  "record_version": 3
+}

@@ -1,0 +1,147 @@
+{
+  "identity": {
+    "id": "hx_dysuria_frequency",
+    "title": "Dysuria and urinary frequency/urgency (new)",
+    "type": "history",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "aki",
+      "ams",
+      "abdominal_pain",
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "delirium_infectious",
+      "pyelonephritis_nephrolithiasis",
+      "uti_pyelonephritis"
+    ],
+    "indication_tags": [
+      "febrile",
+      "elderly"
+    ]
+  },
+  "technique": {
+    "how": "Ask specifically about pain or burning on passing urine, new increase in frequency or urgency, and their onset; then ask about vaginal discharge or irritation, hematuria, flank pain and fever. Establish whether the symptoms are new relative to baseline (important in elderly or catheterized patients).",
+    "prerequisites": "Patient able to give a reliable history; in delirium, obtain collateral history of new urinary symptoms.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "In women, dysuria (LR+ 1.5) or frequency (LR+ 1.8) each raise UTI probability slightly; dysuria and frequency together without vaginal discharge or irritation raise it strongly (LR 24.6, probability above 90%).",
+    "negative_finding": "Absence of dysuria lowers the probability only modestly (LR- 0.5); history alone cannot rule out UTI once one symptom is present.",
+    "pitfalls": "Vaginitis, urethritis and STIs mimic dysuria (vaginal discharge/irritation LR 0.2-0.3 for UTI). In elderly patients asymptomatic bacteriuria is common, and confusion without new genitourinary symptoms should not be attributed to UTI.",
+    "changes_what": "Dysuria plus frequency without vaginal symptoms can justify empirical treatment in women; absent or nonspecific symptoms should push toward other causes of fever, AKI or delirium."
+  },
+  "estimates": [
+    {
+      "target_condition": "Acute uncomplicated urinary tract infection - finding: dysuria present",
+      "population": "Women presenting with one or more symptoms of acute uncomplicated urinary tract infection (9 studies)",
+      "setting": "outpatient",
+      "prevalence": 0.5,
+      "reference_standard": "Urine culture as defined in included studies",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 1.5,
+        "ci_low": 1.2,
+        "ci_high": 2.0
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "minimal",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "dysuria (summary positive likelihood ratio [LR], 1.5; 95% confidence interval [CI], 1.2-2.0)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Acute uncomplicated urinary tract infection - finding: dysuria absent",
+      "population": "Women presenting with one or more symptoms of acute uncomplicated urinary tract infection (9 studies)",
+      "setting": "outpatient",
+      "prevalence": 0.5,
+      "reference_standard": "Urine culture as defined in included studies",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": {
+        "value": 0.5,
+        "ci_low": 0.3,
+        "ci_high": 0.7
+      },
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "absence of dysuria (summary negative LR, 0.5; 95% CI, 0.3-0.7)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Acute uncomplicated urinary tract infection - finding: frequency present",
+      "population": "Women presenting with one or more symptoms of acute uncomplicated urinary tract infection (9 studies)",
+      "setting": "outpatient",
+      "prevalence": 0.5,
+      "reference_standard": "Urine culture as defined in included studies",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 1.8,
+        "ci_low": 1.1,
+        "ci_high": 3.0
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "minimal",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "frequency (LR, 1.8; 95% CI, 1.1-3.0)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Acute uncomplicated urinary tract infection - combination: dysuria and frequency without vaginal discharge or irritation",
+      "population": "Women with UTI symptoms in the single included study that examined symptom combinations",
+      "setting": "outpatient",
+      "prevalence": 0.5,
+      "reference_standard": "Urine culture as defined in included studies",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 24.6,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "24.6 for the combination of dysuria and frequency but no vaginal discharge or irritation",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Bent S, Nallamothu BK, Simel DL, Fihn SD, Saint S. Does this woman have an acute uncomplicated urinary tract infection? JAMA. 2002;287(20):2701-2710.",
+      "doi": "10.1001/jama.287.20.2701",
+      "pmid": "12020306",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2002
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "The LRs apply to non-pregnant women with uncomplicated UTI; do not apply them to men, catheterized patients, or elderly patients with delirium and no new urinary symptoms.",
+    "escalation_warning": "Urinary symptoms with fever, rigors, flank pain, hypotension or AKI indicate pyelonephritis/urosepsis, which needs cultures, antibiotics and assessment for obstruction.",
+    "interobserver_note": "Precision of symptom history is not reported in the abstract; symptom definitions varied across the nine included studies."
+  },
+  "tier": "verified",
+  "extraction_notes": "All numbers from the Bent 2002 RCE abstract (PMID 12020306); JAMA full text and tables are not accessible. The LR 24.6 for dysuria+frequency without vaginal discharge/irritation comes from a single study within the review and has no CI in the abstract. No quantitative evidence was found for dysuria/frequency in elderly or delirious patients; the seeded 'elderly' tag and delirium differential are retained but the estimates do not cover them.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T01:59:59+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T07:17:12.873Z",
+  "verification_notes": "",
+  "record_version": 3
+}

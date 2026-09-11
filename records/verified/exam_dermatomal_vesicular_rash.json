@@ -1,0 +1,77 @@
+{
+  "identity": {
+    "id": "exam_dermatomal_vesicular_rash",
+    "title": "Unilateral dermatomal vesicular rash (or dermatomal allodynia preceding rash)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "chest_pain",
+      "abdominal_pain",
+      "weakness"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "herpes_zoster",
+      "musculoskeletal_chest_wall"
+    ],
+    "indication_tags": [
+      "unilateral",
+      "immunocompromised",
+      "elderly"
+    ]
+  },
+  "technique": {
+    "how": "Fully expose the painful region including the back and inspect for grouped vesicles on an erythematous base confined to one or two adjacent dermatomes and stopping at the midline. If no rash, lightly stroke the skin to test for dermatomal allodynia or hyperesthesia and re-examine in 2-3 days because rash may follow pain.",
+    "prerequisites": "Good light; undress the patient; ask about prior varicella, immunosuppression and recent onset of burning pain.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "A unilateral dermatomal vesicular eruption is diagnostic of herpes zoster on clinical grounds and explains chest, flank or abdominal pain in that dermatome; consensus guidance treats it as sufficient to start antivirals without laboratory confirmation.",
+    "negative_finding": "Absence of rash does not exclude early zoster (pre-eruptive phase) or zoster sine herpete; pain preceding rash by days is common.",
+    "pitfalls": "Early zoster is frequently misdiagnosed as herpes simplex (PCR studies found 30% of clinically labelled cases discordant); disseminated or multidermatomal disease occurs in immunocompromised hosts. Zoster does not exclude a coexisting cardiac or intra-abdominal cause of pain.",
+    "changes_what": "Rash present: diagnose zoster and start antivirals within 72 h; absent with dermatomal pain: keep zoster in mind but continue evaluating for ACS, PE, biliary or musculoskeletal causes."
+  },
+  "estimates": [],
+  "evidence_status": "not_quantified",
+  "sources": [
+    {
+      "citation": "Dworkin RH, Johnson RW, Breuer J, Gnann JW, Levin MJ, Backonja M, Betts RF, Gershon AA, et al. Recommendations for the management of herpes zoster. Clin Infect Dis. 2007.",
+      "doi": "10.1086/510206",
+      "pmid": "17143845",
+      "url": null,
+      "kind": "consensus",
+      "year": 2007
+    },
+    {
+      "citation": "Rübben A, Baron JM, Grussendorf-Conen EI. Routine detection of herpes simplex virus and varicella zoster virus by polymerase chain reaction reveals that initial herpes zoster is frequently misdiagnosed as herpes simplex. Br J Dermatol. 1997.",
+      "doi": "10.1046/j.1365-2133.1997.18161913.x",
+      "pmid": "9292077",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1997
+    },
+    {
+      "citation": "Böer A, Herder N, Blödorn-Schlicht N, Steinkraus V, Falk TM. Refining criteria for diagnosis of cutaneous infections caused by herpes viruses through correlation of morphology with molecular pathology. Indian J Dermatol Venereol Leprol. 2006.",
+      "doi": "10.4103/0378-6323.26717",
+      "pmid": "16880572",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2006
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not stop the chest-pain or abdominal-pain workup because a rash is present when ECG, troponin or vital signs are abnormal.",
+    "escalation_warning": "Ophthalmic (V1) involvement, disseminated rash, or zoster in an immunocompromised host needs urgent specialist input and often IV therapy.",
+    "interobserver_note": "No inter-rater data found; PCR-based studies show clinical labelling of herpes-group eruptions is imperfect."
+  },
+  "tier": "verified",
+  "extraction_notes": "No diagnostic-accuracy study of the dermatomal vesicular rash as a discriminator of chest/abdominal pain was found (searched 'herpes zoster clinical diagnosis accuracy PCR' and related terms). The finding is diagnostic by definition in consensus guidance (Dworkin 2007), so status is not_quantified. Context numbers (not sens/spec of this sign): Rübben 1997, 110 patients swabbed at first visit, 'zoster was incorrectly diagnosed as herpes simplex in nine cases' (Abstract, Results); Böer 2006, 75 clinically diagnosed cases, 'Clinical suspicion of infection by herpes viruses was confirmed by histopathology in 37% of the cases and by PCR studies in 65% of the cases' and 'Zoster was frequently misdiagnosed as infection with herpes simplex viruses (30%)' (Abstract, Results). These are dermatology-clinic case series, not cohorts of undifferentiated pain, and are not entered as estimates.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:42:19+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T07:48:13.016Z",
+  "verification_notes": "",
+  "record_version": 3
+}

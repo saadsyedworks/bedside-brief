@@ -1,0 +1,202 @@
+{
+  "identity": {
+    "id": "pocus_pericardial_effusion",
+    "title": "POCUS cardiac: pericardial effusion (subxiphoid/PLAX), with RA/RV diastolic collapse for tamponade",
+    "type": "pocus",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "chest_pain",
+      "syncope",
+      "edema",
+      "hypotension"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "cardiogenic_shock",
+      "constrictive_pericarditis",
+      "pericardial_effusion_tamponade",
+      "pericarditis"
+    ],
+    "indication_tags": [
+      "dialysis",
+      "malignancy"
+    ]
+  },
+  "technique": {
+    "how": "Phased-array probe, subxiphoid 4-chamber and parasternal long-axis views; look for an anechoic stripe between heart and bright pericardium (circumferential if large; <1 cm small, >2 cm large). For tamponade, look for RA collapse in systole, RV free-wall collapse in diastole (M-mode), plethoric non-collapsing IVC and swinging heart.",
+    "prerequisites": "Operator trained in focused cardiac POCUS; if unstable, scan during resuscitation; correlate with ECG/vitals.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Anechoic pericardial fluid separating the visceral and parietal pericardium; with RV diastolic collapse, RA systolic collapse and a plethoric IVC in a hypotensive/tachycardic patient this indicates tamponade physiology.",
+    "negative_finding": "No pericardial fluid in adequate subxiphoid and parasternal views effectively excludes a significant effusion and therefore tamponade as the cause of shock.",
+    "pitfalls": "Epicardial fat pad (anterior, echogenic, moves with the heart) and left pleural effusion (posterior to the descending aorta on PLAX) mimic effusion. Chamber collapse is insensitive/nonspecific in pulmonary hypertension, RV hypertrophy, loculated post-surgical effusions and hypovolemia; tamponade remains a clinical diagnosis.",
+    "changes_what": "Effusion with hypotension and RA/RV collapse or plethoric IVC: treat as tamponade (fluids as bridge, urgent pericardiocentesis/cardiology); no effusion removes tamponade from the shock differential."
+  },
+  "estimates": [
+    {
+      "target_condition": "Pericardial effusion (detection by emergency-physician bedside echocardiography)",
+      "population": "515 ED patients meeting high-risk criteria for pericardial effusion (103 with effusion); emergency physicians trained in ultrasonography",
+      "setting": "ED",
+      "prevalence": 0.2,
+      "reference_standard": "Review of all captured images by the Department of Cardiology",
+      "sensitivity": {
+        "value": 0.96,
+        "ci_low": 0.904,
+        "ci_high": 0.989
+      },
+      "specificity": {
+        "value": 0.98,
+        "ci_low": 0.958,
+        "ci_high": 0.991
+      },
+      "lr_positive": {
+        "value": 48,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.041,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.96/(1-0.98) = 48; LR- = (1-0.96)/0.98 = 0.041, from sensitivity 96% and specificity 98%; prevalence 103/515",
+      "interpretation_label": "both",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "Emergency physicians detected pericardial effusion with a sensitivity of 96% (95% confidence interval [CI] 90.4% to 98.9%), specificity of 98% (95% CI 95.8% to 99.1%)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Pericardial effusion (eFAST pericardial view in trauma)",
+      "population": "Trauma patients undergoing eFAST; pooled from 75 studies/24,350 patients overall (pericardial subset not separately sized in abstract)",
+      "setting": "ED",
+      "prevalence": null,
+      "reference_standard": "CT, formal echocardiography or operative findings per included studies",
+      "sensitivity": {
+        "value": 0.91,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.94,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "computed_from": "",
+      "interpretation_label": "rule_in",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "Pooled sensitivities and specificities were calculated for the detection of pneumothorax (69% and 99% respectively), pericardial effusion (91% and 94% respectively)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Cardiac tamponade (right ventricular collapse) among patients with moderate or large pericardial effusion",
+      "population": "110 consecutive patients with moderate (49) or large (61) pericardial effusion; 38 with clinical tamponade",
+      "setting": "mixed",
+      "prevalence": 0.35,
+      "reference_standard": "Clinical features of cardiac tamponade (clinical diagnosis used as standard)",
+      "sensitivity": {
+        "value": 0.6,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.9,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "computed_from": "",
+      "interpretation_label": "rule_in",
+      "evidence_level": "single_study",
+      "source_index": 2,
+      "quote": "60% and 90% for right ventricular collapse",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Cardiac tamponade (collapse of any right cardiac chamber) among patients with moderate or large pericardial effusion",
+      "population": "110 consecutive patients with moderate (49) or large (61) pericardial effusion; 38 with clinical tamponade",
+      "setting": "mixed",
+      "prevalence": 0.35,
+      "reference_standard": "Clinical features of cardiac tamponade (clinical diagnosis used as standard)",
+      "sensitivity": {
+        "value": 0.9,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.65,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "computed_from": "",
+      "interpretation_label": "rule_out",
+      "evidence_level": "single_study",
+      "source_index": 2,
+      "quote": "sensitivity and specificity would be 90% and 65% for the presence of any collapse",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Mandavia DP, Hoffner RJ, Mahaney K, Henderson SO. Bedside echocardiography by emergency physicians. Ann Emerg Med. 2001;38(4):377-382.",
+      "doi": "10.1067/mem.2001.118224",
+      "pmid": "11574793",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2001
+    },
+    {
+      "citation": "Netherton S, Milenkovic V, Taylor M, Davis PJ. Diagnostic accuracy of eFAST in the trauma patient: a systematic review and meta-analysis. CJEM. 2019;21(6):727-738.",
+      "doi": "10.1017/cem.2019.381",
+      "pmid": "31317856",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2019
+    },
+    {
+      "citation": "Merce J, Sagrista-Sauleda J, Permanyer-Miralda G, Evangelista A, Soler-Soler J. Correlation between clinical and Doppler echocardiographic findings in patients with moderate and large pericardial effusion: implications for the diagnosis of cardiac tamponade. Am Heart J. 1999;138(4 Pt 1):759-764.",
+      "doi": "10.1016/s0002-8703(99)70193-6",
+      "pmid": "10502224",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1999
+    },
+    {
+      "citation": "Roy CL, Minor MA, Brookhart MA, Choudhry NK. Does this patient with a pericardial effusion have cardiac tamponade? JAMA. 2007;297(16):1810-1818.",
+      "doi": "10.1001/jama.297.16.1810",
+      "pmid": "17456823",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2007
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not diagnose tamponade from chamber collapse alone in a normotensive patient, and do not exclude it on the basis of absent collapse in pulmonary hypertension, RV hypertrophy or loculated/post-cardiac-surgery effusions.",
+    "escalation_warning": "Effusion with hypotension, tachycardia, elevated JVP or pulsus paradoxus >10 mm Hg is tamponade until proven otherwise: call cardiology/perform pericardiocentesis urgently and avoid positive-pressure ventilation if possible.",
+    "interobserver_note": "Mandavia 2001 used cardiology over-read of all EP images as the standard (overall accuracy 97.5%); no kappa reported in the abstract. Merce 1999 shows RA collapse is sensitive but nonspecific (68%/66%) and RV collapse specific but insensitive.",
+    "skill_assumption": "Assumes an operator credentialed in focused cardiac POCUS (subxiphoid and PLAX windows, effusion vs fat pad vs pleural fluid, M-mode for RV diastolic collapse); Mandavia's operators were ultrasound-trained emergency physicians, and tamponade signs require more advanced skill than effusion detection."
+  },
+  "tier": "verified",
+  "extraction_notes": "Mandavia 2001 (Ann Emerg Med, not open access) sensitivity/specificity with CIs are in the abstract; LRs computed from point estimates and flagged. Netherton 2019 eFAST pooled pericardial estimate from abstract (no CIs in abstract). Merce 1999 tamponade-sign estimates use CLINICAL tamponade as the reference standard (reverse of usual design) - interpret as concordance rather than accuracy; RA-collapse values (68%/66%) not entered as a separate estimate to keep quotes within 25 words but are noted here; setting recorded as mixed (single-center cardiology cohort, inpatient/outpatient not stated). Roy 2007 JAMA RCE cited for clinical context (pulsus paradoxus >10 mm Hg LR 3.3) but no POCUS estimate; that number is a physical-exam finding and not entered here.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T01:47:39+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T08:09:24.468Z",
+  "verification_notes": "",
+  "record_version": 3
+}

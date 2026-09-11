@@ -1,0 +1,148 @@
+{
+  "identity": {
+    "id": "hx_exertional_chest_pain",
+    "title": "Chest pain provoked by exertion, relieved by rest (typical angina pattern)",
+    "type": "history",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "chest_pain",
+      "syncope"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "acs",
+      "aortic_stenosis",
+      "hcm"
+    ],
+    "indication_tags": [
+      "exertional"
+    ]
+  },
+  "technique": {
+    "how": "Ask specifically what the patient was doing when the pain started, whether it reliably comes on with physical effort or emotional stress, and whether it settles within minutes of stopping or with nitroglycerin. Distinguish exertion-provoked pain from pain that merely occurred during activity.",
+    "prerequisites": "Patient able to give a history; clarify the index episode rather than a general pattern.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Exertion-precipitated pain roughly doubles the odds of AMI/ACS in ED chest pain (LR ~2.1-2.4); a full typical-angina triad in stable outpatients gives LR 5.8 for coronary disease.",
+    "negative_finding": "Absence of an exertional pattern only modestly lowers ACS probability in the ED; nonanginal chest pain in the stable setting has LR 0.1 for CAD.",
+    "pitfalls": "History alone never excludes ACS; exertional chest pain is also the presenting symptom of severe AS and HCM. Rest pain is common in ACS and does not argue against it.",
+    "changes_what": "Positive: ECG/troponin pathway and consider AS/HCM if a murmur is present. Negative: does not remove ACS from the differential; risk score plus troponin still required."
+  },
+  "estimates": [
+    {
+      "target_condition": "Acute myocardial infarction (WHO criteria)",
+      "population": "893 ED chest pain unit patients with acute undifferentiated chest pain; 3.8% AMI",
+      "setting": "ED",
+      "prevalence": 0.038,
+      "reference_standard": "WHO criteria for AMI",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 2.35,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "Features useful in the diagnosis of AMI were exertional pain [likelihood ratio (LR) = 2.35]",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Acute coronary syndrome (AMI, positive cardiac testing, arrhythmia, death or revascularization within 6 months)",
+      "population": "893 ED chest pain unit patients with acute undifferentiated chest pain; 9.1% ACS",
+      "setting": "ED",
+      "prevalence": 0.091,
+      "reference_standard": "Cardiac testing, AMI, arrhythmia, death, or revascularization within six months",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 2.06,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "Features useful in the diagnosis of ACS were exertional pain (LR = 2.06)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Coronary artery disease (stable, intermittent chest pain; typical angina)",
+      "population": "Patients with stable intermittent chest pain evaluated for CAD (systematic review 1966-2003)",
+      "setting": "outpatient",
+      "prevalence": null,
+      "reference_standard": "Coronary angiography (as per pooled studies)",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 5.8,
+        "ci_low": 4.2,
+        "ci_high": 7.8
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "the presence of typical angina (likelihood ratio [LR]=5.8; 95% confidence interval [CI]: 4.2 to 7.8)",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Goodacre S, Locker T, Morris F, Campbell S. How useful are clinical features in the diagnosis of acute, undifferentiated chest pain? Acad Emerg Med. 2002;9(3):203-208.",
+      "doi": "10.1111/j.1553-2712.2002.tb00245.x",
+      "pmid": "11874776",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2002
+    },
+    {
+      "citation": "Chun AA, McGee SR. Bedside diagnosis of coronary artery disease: a systematic review. Am J Med. 2004;117(5):334-343.",
+      "doi": "10.1016/j.amjmed.2004.03.021",
+      "pmid": "15336583",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2004
+    },
+    {
+      "citation": "Swap CJ, Nagurney JT. Value and limitations of chest pain history in the evaluation of patients with suspected acute coronary syndromes. JAMA. 2005;294(20):2623-2629.",
+      "doi": "10.1001/jama.294.20.2623",
+      "pmid": "16304077",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2005
+    },
+    {
+      "citation": "Fanaroff AC, Rymer JA, Goldstein SA, Simel DL, Newby LK. Does This Patient With Chest Pain Have Acute Coronary Syndrome? The Rational Clinical Examination Systematic Review. JAMA. 2015;314(18):1955-1965.",
+      "doi": "10.1001/jama.2015.12735",
+      "pmid": "26547467",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2015
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Never use a non-exertional history to discharge a patient with possible ACS; do not apply the stable-CAD typical-angina LR to acute ED presentations.",
+    "escalation_warning": "Exertional chest pain with syncope, a systolic murmur, or ongoing pain at rest requires immediate ECG, troponin and monitoring.",
+    "interobserver_note": "Reliability of the exertional-pain history was not reported in the sources retrieved."
+  },
+  "extraction_notes": "Goodacre 2002 LRs (2.35 AMI; 2.06 ACS) are reported in the abstract without CIs; sens/spec not given. Chun & McGee 2004 'typical angina' LR is for stable CAD, a different population, so it is kept as a separate estimate; its 'nonanginal chest pain' LR 0.1 (0.1-0.2) is a distinct category and not entered as lr_negative. Swap & Nagurney 2005 abstract gives only a combined range (LR 2.3-4.7 for radiation or exertion) and Fanaroff 2015 abstract does not report exertion; their tables were not viewable, so no estimate entered from them. Reference standard for the Chun pooled estimate inferred from the review's scope; not verifiable from the abstract.",
+  "tier": "verified",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T01:37:34+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T05:00:01.522Z",
+  "verification_notes": "",
+  "record_version": 3
+}

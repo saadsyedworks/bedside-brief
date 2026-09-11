@@ -1,0 +1,77 @@
+{
+  "identity": {
+    "id": "hx_rhabdo_myalgia_dark_urine",
+    "title": "Muscle pain/weakness, prolonged immobilization or exertion, dark cola-colored urine",
+    "type": "history",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "aki",
+      "weakness"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "glomerulonephritis",
+      "myopathy",
+      "rhabdomyolysis"
+    ],
+    "indication_tags": [
+      "recent_immobilization",
+      "alcohol_use",
+      "trauma"
+    ]
+  },
+  "technique": {
+    "how": "Ask about muscle pain, weakness, swelling and dark tea/cola-coloured urine, and exposures: found down/prolonged immobilization, seizure, extreme exertion or heat, crush or trauma, cocaine/amphetamines, alcohol, statins/fibrates, antipsychotics (NMS), recent infection. Palpate for tender, swollen or tense muscle compartments and check distal pulses and sensation.",
+    "prerequisites": "Collateral history for obtunded or intoxicated patients; medication and drug-use review.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Myalgia or weakness with dark urine after immobilization, exertion, seizure or toxin exposure strongly suggests rhabdomyolysis; check CK and a urine dipstick (heme-positive without red cells).",
+    "negative_finding": "Absent muscle symptoms or dark urine do not exclude rhabdomyolysis; many cases are oligosymptomatic and even qualitative urine myoglobin was positive in only 19% of 475 inpatients (PMID 16267412, Abstract). Measure CK whenever risk factors exist.",
+    "pitfalls": "Dark urine also comes from hematuria, hemoglobinuria or bilirubin. In 60% of cases multiple causes co-exist and toxins account for 46% (PMID 16267412, Abstract); CK peaks at 24–72 h, so an early value may be modest (unverified recall).",
+    "changes_what": "Positive → CK, creatinine, potassium, urinalysis; start IV fluids; assess compartments. Negative → still send CK if found down, post-seizure or toxin-exposed."
+  },
+  "estimates": [],
+  "evidence_status": "not_quantified",
+  "sources": [
+    {
+      "citation": "Bosch X, Poch E, Grau JM. Rhabdomyolysis and acute kidney injury. The New England journal of medicine 2009. Narrative review (N Engl J Med 2009;361:62-72).",
+      "doi": "10.1056/NEJMra0801327",
+      "pmid": "19571284",
+      "url": null,
+      "kind": "consensus",
+      "year": 2009
+    },
+    {
+      "citation": "Melli G, Chaudhry V, Cornblath DR. Rhabdomyolysis: an evaluation of 475 hospitalized patients. Medicine 2005.",
+      "doi": "10.1097/01.md.0000188565.48918.41",
+      "pmid": "16267412",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2005
+    },
+    {
+      "citation": "Gabow PA, Kaehny WD, Kelleher SP. The spectrum of rhabdomyolysis. Medicine 1982. Medicine (Baltimore) 1982;61(3):141-52; no abstract on PubMed.",
+      "doi": "10.1097/00005792-198205000-00002",
+      "pmid": "7078398",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1982
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not exclude rhabdomyolysis by history in obtunded, intoxicated or found-down patients — send CK.",
+    "escalation_warning": "Tense painful compartment, hyperkalemia or rising creatinine → urgent surgical and nephrology involvement.",
+    "interobserver_note": "History items; no reliability data found."
+  },
+  "tier": "verified",
+  "extraction_notes": "Anchor PMID 19571284 confirmed (Bosch et al. NEJM 2009 review; PubMed has no abstract). No diagnostic-accuracy study of the history items against CK-defined rhabdomyolysis was found ('rhabdomyolysis hospitalized patients clinical presentation myalgia weakness urine'; 'rhabdomyolysis 475 hospitalized patients'; 'The spectrum of rhabdomyolysis[Title]'; 'Gabow rhabdomyolysis spectrum 1982 Medicine Baltimore'). Melli 2005 (PMID 16267412; 475 inpatients with CK >5× ULN) abstract gives etiology and urine-myoglobin figures but no myalgia/dark-urine frequencies; Gabow 1982 (PMID 7078398) confirmed but PubMed carries no abstract, so its classic symptom frequencies could not be quoted. Status not_quantified; numbers in pitfalls/negative_finding are quoted from the Melli abstract: 'Urine myoglobin detected by dipstick/ultrafiltration was positive in only 19%'; 'In 60% of all cases, multiple factors were present'; 'illicit drugs, alcohol, and prescribed drugs responsible for 46%' (all Abstract, Results).",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:42:33+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T08:05:48.410Z",
+  "verification_notes": "",
+  "record_version": 3
+}

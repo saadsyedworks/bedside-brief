@@ -1,0 +1,77 @@
+{
+  "identity": {
+    "id": "exam_proximal_symmetric_weakness",
+    "title": "Proximal symmetric weakness (chair-rise/Gowers-type maneuver, arm abduction) without focal deficit",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "weakness"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "electrolyte_hypokalemia_hypophosphatemia",
+      "gbs",
+      "myopathy",
+      "sepsis_deconditioning"
+    ],
+    "indication_tags": [
+      "new_medication",
+      "alcohol_use",
+      "subacute"
+    ]
+  },
+  "technique": {
+    "how": "Test functional proximal strength: rise from a chair with arms folded, squat and rise (or Gowers manoeuvre), step onto a stool, hold arms abducted to 90 degrees against resistance, lift the head off the pillow. Grade MRC power symmetrically (shoulder abduction, elbow flexion, hip flexion, knee extension, ankle dorsiflexion); check reflexes and sensation for focal deficit.",
+    "prerequisites": "Pain, joint disease and sedation accounted for; cooperative, awake patient for MRC grading.",
+    "contraindications": "Do not attempt chair-rise or squat tests in patients at risk of falling without assistance."
+  },
+  "interpretation": {
+    "positive_finding": "Symmetric proximal weakness with preserved sensation and reflexes points to a myopathic process (inflammatory, drug/statin, alcohol, endocrine, hypokalaemia/hypophosphataemia) or ICU-acquired weakness, and should prompt CK, electrolytes, thyroid tests and a medication/alcohol history. In ICU patients an MRC sum score below 48 defines significant weakness.",
+    "negative_finding": "Normal proximal strength with preserved chair-rise argues against a generalised myopathy or critical-illness weakness; asymmetric, distal, or reflex/sensory-involving weakness redirects to neuropathy (e.g., GBS with areflexia), cord or central lesions.",
+    "pitfalls": "Pain, effort, deconditioning and sedation produce apparent weakness; GBS and myasthenia can also present proximally. MRC grading is unreliable in inattentive or delirious patients and the ICU-acquired weakness diagnosis requires an awake, cooperative patient.",
+    "changes_what": "Positive: CK, K/PO4/Mg, TSH, drug review, consider EMG/neurology. Focal, asymmetric or areflexic pattern: pursue GBS, cord compression or stroke instead."
+  },
+  "estimates": [],
+  "evidence_status": "not_quantified",
+  "sources": [
+    {
+      "citation": "Stevens RD, Marshall SA, Cornblath DR et al. A framework for diagnosing and classifying intensive care unit-acquired weakness. Critical care medicine. 2010.",
+      "doi": "10.1097/CCM.0b013e3181b6ef67",
+      "pmid": "20046114",
+      "url": null,
+      "kind": "consensus",
+      "year": 2010
+    },
+    {
+      "citation": "Fan E, Cheek F, Chlan L et al. An official American Thoracic Society Clinical Practice guideline: the diagnosis of intensive care unit-acquired weakness in adults. American journal of respiratory and critical care medicine. 2015.",
+      "doi": "10.1164/rccm.201411-2011ST",
+      "pmid": "25496103",
+      "url": null,
+      "kind": "guideline",
+      "year": 2015
+    },
+    {
+      "citation": "Hermans G, Clerckx B, Vanhullebusch T et al. Interobserver agreement of Medical Research Council sum-score and handgrip strength in the intensive care unit. Muscle & nerve. 2012.",
+      "doi": "10.1002/mus.22219",
+      "pmid": "22190301",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2012
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Not applicable for diagnosing weakness in uncooperative, sedated or delirious patients; do not use a normal proximal exam to dismiss ascending weakness, bulbar symptoms or respiratory decline.",
+    "escalation_warning": "Rapidly progressive weakness, neck flexion weakness, dysphagia, reduced vital capacity or areflexia require urgent assessment for GBS/myasthenic crisis and airway monitoring.",
+    "interobserver_note": "MRC sum-score interobserver agreement in ICU patients is very good: Hermans 2012 ICC 0.95 (0.92-0.97); kappa for 'significant weakness' (MRC sum-score <48) 0.68 +/- 0.09 and for 'severe weakness' (<36) 0.93 +/- 0.07 (Abstract, Results)."
+  },
+  "tier": "verified",
+  "extraction_notes": "No diagnostic-accuracy study (sensitivity/specificity/LR against a reference standard) of proximal symmetric weakness or the chair-rise/Gowers manoeuvre for myopathy, electrolyte weakness, GBS or deconditioning was located (searches: 'proximal muscle weakness myopathy examination diagnostic accuracy', ICU-acquired weakness framework/guideline). Status not_quantified. Reliability data only: Hermans 2012 (PMID 22190301; 75 ICU patients, two observers) 'The intraclass correlation coefficient (ICC) for MRC sum-score was 0.95 (0.92-0.97)' and kappa 0.68 +/- 0.09 for MRC sum-score <48 (Abstract, Results). Consensus sources: Stevens 2009 framework (PMID 20046114) defining ICU-acquired weakness and the ATS 2014 guideline (Fan 2014, PMID 25496103) recommending MRC-based assessment; the '<48' threshold appears in Hermans' abstract as the definition of significant weakness. Dos Santos 2022 (PMID 35879189) reports fasciculation ultrasound accuracy for SMA in proximally weak patients, not relevant to this bedside sign.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:41:13+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T07:49:27.699Z",
+  "verification_notes": "",
+  "record_version": 3
+}

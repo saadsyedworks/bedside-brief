@@ -1,0 +1,72 @@
+{
+  "identity": {
+    "id": "hx_new_medication_temporal_fever",
+    "title": "Fever onset temporally linked to a new drug (with rash/relative bradycardia)",
+    "type": "history",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "drug_fever"
+    ],
+    "indication_tags": [
+      "new_medication"
+    ]
+  },
+  "technique": {
+    "how": "Build a dated medication timeline (start/stop of every agent, including antibiotics, anticonvulsants, allopurinol, heparin) against the fever curve. Look for fever beginning after a new drug, a patient who looks relatively well despite high temperatures, a pulse lower than expected for the temperature, rash or eosinophilia, and defervescence within about 72 h of stopping the suspect drug.",
+    "prerequisites": "Complete medication reconciliation; other infectious and non-infectious causes actively sought and excluded.",
+    "contraindications": "Do not stop essential drugs (e.g., antimicrobials for a proven infection, immunosuppressants) without a risk-benefit assessment."
+  },
+  "interpretation": {
+    "positive_finding": "Fever temporally following a new drug, with no alternative source and resolution after withdrawal, supports drug fever; antibacterials (beta-lactams, vancomycin, rifampicin, aminoglycosides) are the commonest culprits and median onset is about 2 days but the lag is highly variable.",
+    "negative_finding": "Absence of rash, eosinophilia or relative bradycardia does not argue against drug fever: these accompaniments were found in only a minority of cases in the largest series. Persistence of fever more than a few days after stopping the suspect drug argues against the diagnosis.",
+    "pitfalls": "Textbook features (relative bradycardia, rash, eosinophilia, characteristic fever pattern) are absent in most cases; drug fever is a diagnosis of exclusion and infection must be ruled out first. Rechallenge reproduces fever and is usually inappropriate.",
+    "changes_what": "Positive: stop the suspect drug (substitute if needed), expect defervescence within ~72 h, continue infection work-up. Negative: keep searching for occult infection, thrombosis or malignancy."
+  },
+  "estimates": [],
+  "evidence_status": "not_quantified",
+  "sources": [
+    {
+      "citation": "Mackowiak PA, LeMaistre CF. Drug fever: a critical appraisal of conventional concepts. An analysis of 51 episodes in two Dallas hospitals and 97 episodes reported in the English literature. Annals of internal medicine. 1987.",
+      "doi": "10.7326/0003-4819-106-5-728",
+      "pmid": "3565971",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1987
+    },
+    {
+      "citation": "Vodovar D, LeBeller C, Mégarbane B et al. Drug Fever: a descriptive cohort study from the French national pharmacovigilance database. Drug safety. 2012.",
+      "doi": "10.2165/11630640-000000000-00000",
+      "pmid": "22830618",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2012
+    },
+    {
+      "citation": "Cunha BA. The diagnostic significance of relative bradycardia in infectious disease. Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases. 2001.",
+      "doi": "10.1046/j.1469-0691.2000.0194f.x",
+      "pmid": "11284920",
+      "url": null,
+      "kind": "consensus",
+      "year": 2001
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not attribute fever to a drug in a neutropenic, septic or haemodynamically unstable patient until infection has been excluded; do not withdraw life-sustaining drugs on this basis alone.",
+    "escalation_warning": "Fever with rash, mucosal involvement, facial oedema, eosinophilia or organ dysfunction may be DRESS/SJS: stop the drug immediately and escalate.",
+    "interobserver_note": "No interobserver data; attribution relies on causality assessment (e.g., Naranjo criteria) which is inherently subjective."
+  },
+  "tier": "verified",
+  "extraction_notes": "No diagnostic-accuracy study (sensitivity/specificity/LR) of a temporal drug-fever history against a reference standard exists; the entity is defined by exclusion and dechallenge, so status is not_quantified. Descriptive evidence only: Mackowiak 1987 (PMID 3565971; 51 hospital episodes plus 97 literature episodes) found 'relative bradycardia in a minority of cases', 'a highly variable lag time between the initiation of the offending agent and the onset of fever', and 'an infrequent association with either rash or eosinophilia' (Abstract); the exact proportions are in the full text, which is not accessible via PMC. Vodovar 2012 (PMID 22830618; 167 pharmacovigilance cases without skin reaction): 'Median time [interquartile range] from drug administration to fever onset was 2 days [1.0-10.5]' and 'Drug rechallenge was performed (38.0%), resulting in recurrence of DF in all cases' (Abstract, Results); antibacterials most frequently implicated, e.g. amikacin PRR 39.6 [23.6, 69.0], vancomycin 4.0 [1.4, 11.5] (Abstract, Results). Cunha 2001 (PMID 11284920) is a narrative review of relative bradycardia with no abstract on PubMed and is cited as consensus only. The 72-hour defervescence expectation is conventional teaching (unverified recall).",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:41:13+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T08:05:04.009Z",
+  "verification_notes": "",
+  "record_version": 3
+}

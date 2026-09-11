@@ -21,3 +21,7 @@
 - 03:40 Freeze #2 (28a5f26). Arm C (generic LLM, gpt-4.1) run on all 108 frozen inputs as a DEV run (not the reportable run): 102/108 completed before the client had 429 backoff; preliminary, non-abstract signal: ~28 items per answer, bedside share ≈0.60, ~22% of items carry a numeric claim. Parser dry-run exposed out-of-vocab tags → corrective re-parse added (DECISIONS #27). Red-team wave 3 committed. Wave 4 A-side complete (58 ids); B-side running.
 - 04:20 **Extraction complete**: 306 packets = 153 ids × 2 independent extractors; validator 0 errors. Red-team waves 1–3 committed; wave 4 launching. Parser: vocab corrective re-parse (108/108 parse) and `underspecified` flag to gate ask-first (DECISIONS #27, #29). Dev arm C run complete (108/108).
 - 04:50 Red-team wave 4 complete (all 4 waves now committed; 153/153 ids reviewed). Code-review audit: 10/10 non-negotiables PASS with adversarial checks executed. Parser ask-first recalibrated (4/6 sensitivity, 0 false positives). PROGNOSTIC-unlabelled check added to the diff tool. Phase 1 extraction closed; owner verification is the critical path.
+
+## 2026-09-11
+- 08:10 **Owner verified all 153 records** over ~6 h in the iPad verifier (86 from packet B, 67 from A; 9 estimates excluded, 1 value corrected, 0 rejections).
+- 08:20 Store built: 153 verified, 349 estimates, 12/12 presentations, 22.2% not_quantified. Validator 0 errors. Fixed a puller bug: excluding every estimate dropped the sources a `not_quantified` record still needs to cite.

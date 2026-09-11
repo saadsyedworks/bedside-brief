@@ -1,0 +1,195 @@
+{
+  "identity": {
+    "id": "pocus_hydronephrosis",
+    "title": "Hydronephrosis (bilateral or solitary kidney) on renal POCUS",
+    "type": "pocus",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "aki",
+      "abdominal_pain",
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "obstruction_retention",
+      "pyelonephritis_nephrolithiasis",
+      "urinary_retention"
+    ],
+    "indication_tags": [
+      "elderly",
+      "malignancy"
+    ]
+  },
+  "technique": {
+    "how": "Curvilinear probe in the posterior axillary line (right ~ liver window, left higher and more posterior); obtain long and short axis of each kidney and fan through the entire organ. Hydronephrosis = anechoic dilatation of the renal pelvis and calyces; grade mild (pelvis only), moderate (calyces rounded), severe (cortical thinning). Always scan the bladder as well.",
+    "prerequisites": "Both kidneys imaged fully; know whether patient has a solitary or transplanted kidney; check bladder volume first because a full bladder causes mild bilateral pelvic dilatation.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Unilateral hydronephrosis with flank pain suggests an obstructing stone (pooled LR+ 2.9; moderate-or-greater hydronephrosis specificity 0.94). Bilateral hydronephrosis, or hydronephrosis in a solitary/transplant kidney, with AKI indicates obstructive nephropathy needing decompression.",
+    "negative_finding": "No hydronephrosis makes obstructive AKI unlikely but does not exclude early obstruction, obstruction in a volume-depleted patient, or retroperitoneal fibrosis/encasement where the collecting system fails to dilate; LR- ~0.4 for stones.",
+    "pitfalls": "Full bladder, pregnancy, high-flow diuresis, extrarenal pelvis and parapelvic cysts mimic hydronephrosis; renal vessels can be mistaken for calyces (use color Doppler). Accuracy is strongly operator dependent (LR- 0.08 for fellowship-trained vs 0.37 overall).",
+    "changes_what": "Bilateral/solitary-kidney hydronephrosis with AKI: catheterize, urology for stent/nephrostomy. Unilateral with fever: infected obstruction until proven otherwise. None: seek other AKI causes."
+  },
+  "estimates": [
+    {
+      "target_condition": "Nephrolithiasis (any degree of hydronephrosis on POCUS)",
+      "population": "1,773 adult ED patients with renal colic symptoms across 5 high-quality studies",
+      "setting": "ED",
+      "prevalence": null,
+      "reference_standard": "CT evidence of stone or hydronephrosis, direct stone visualization, or surgical findings",
+      "sensitivity": {
+        "value": 0.702,
+        "ci_low": 0.671,
+        "ci_high": 0.732
+      },
+      "specificity": {
+        "value": 0.754,
+        "ci_low": 0.725,
+        "ci_high": 0.782
+      },
+      "lr_positive": {
+        "value": 2.85,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.39,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "pooled results for sensitivity and specificity were 70.2% (95% confidence interval [CI] = 67.1%-73.2%) and 75.4% (95% CI = 72.5%-78.2%)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Nephrolithiasis (moderate or greater hydronephrosis on POCUS)",
+      "population": "Adult ED patients with renal colic in two of the meta-analysed studies",
+      "setting": "ED",
+      "prevalence": null,
+      "reference_standard": "CT evidence of stone or hydronephrosis, direct stone visualization, or surgical findings",
+      "sensitivity": null,
+      "specificity": {
+        "value": 0.944,
+        "ci_low": 0.927,
+        "ci_high": 0.958
+      },
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "moderate or greater hydronephrosis yielded a specificity of 94.4% (95% CI = 92.7%-95.8%)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Hydronephrosis on CT",
+      "population": "670 interpretable bedside scans in ED patients with suspected renal colic by 144 clinicians of all experience levels; 47.5% had hydronephrosis on CT",
+      "setting": "ED",
+      "prevalence": 0.475,
+      "reference_standard": "Non-contrast CT read by radiology",
+      "sensitivity": {
+        "value": 0.726,
+        "ci_low": 0.654,
+        "ci_high": 0.789
+      },
+      "specificity": {
+        "value": 0.733,
+        "ci_low": 0.661,
+        "ci_high": 0.794
+      },
+      "lr_positive": {
+        "value": 2.72,
+        "ci_low": 2.25,
+        "ci_high": 3.27
+      },
+      "lr_negative": {
+        "value": 0.37,
+        "ci_low": 0.31,
+        "ci_high": 0.44
+      },
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "single_study",
+      "source_index": 1,
+      "quote": "sensitivity of 72.6% (95% confidence interval [CI] 65.4% to 78.9%), specificity of 73.3% (95% CI 66.1% to 79.4%)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Hydronephrosis on CT (fellowship-trained emergency ultrasound attendings)",
+      "population": "Subset of the same cohort scanned by attending physicians with emergency ultrasound fellowship training",
+      "setting": "ED",
+      "prevalence": 0.475,
+      "reference_standard": "Non-contrast CT read by radiology",
+      "sensitivity": {
+        "value": 0.927,
+        "ci_low": 0.838,
+        "ci_high": 0.969
+      },
+      "specificity": null,
+      "lr_positive": {
+        "value": 4.97,
+        "ci_low": 2.9,
+        "ci_high": 8.51
+      },
+      "lr_negative": {
+        "value": 0.08,
+        "ci_low": 0.03,
+        "ci_high": 0.23
+      },
+      "computed": false,
+      "interpretation_label": "both",
+      "evidence_level": "single_study",
+      "source_index": 1,
+      "quote": "sensitivity of 92.7% (95% CI 83.8% to 96.9%), positive likelihood ratio of 4.97 (95% CI 2.90 to 8.51), and negative likelihood ratio of 0.08",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Wong C, Teitge B, Ross M, Young P, Robertson HL, Lang E. The Accuracy and Prognostic Value of Point-of-care Ultrasound for Nephrolithiasis in the Emergency Department: A Systematic Review and Meta-analysis. Acad Emerg Med. 2018;25(6):684-698.",
+      "doi": "10.1111/acem.13388",
+      "pmid": "29427476",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2018
+    },
+    {
+      "citation": "Herbst MK, Rosenberg G, Daniels B, et al. Effect of provider experience on clinician-performed ultrasonography for hydronephrosis in patients with suspected renal colic. Ann Emerg Med. 2014;64(3):269-276.",
+      "doi": "10.1016/j.annemergmed.2014.01.012",
+      "pmid": "24630203",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2014
+    },
+    {
+      "citation": "Riddell J, Case A, Wopat R, et al. Sensitivity of emergency bedside ultrasound to detect hydronephrosis in patients with computed tomography-proven stones. West J Emerg Med. 2014;15(1):96-100.",
+      "doi": "10.5811/westjem.2013.9.15874",
+      "pmid": "24578772",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2014
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use absence of hydronephrosis to exclude obstruction in hypovolemic or oliguric patients, retroperitoneal malignancy/fibrosis, or within the first hours of acute obstruction; do not diagnose obstruction from mild pelvic dilatation with a full bladder or in pregnancy without rescanning after voiding.",
+    "escalation_warning": "Hydronephrosis with fever or sepsis is an infected obstructed system: cultures, IV antibiotics and emergent urology for decompression. Bilateral or solitary-kidney hydronephrosis with AKI or hyperkalemia: urgent decompression.",
+    "interobserver_note": "Herbst 2014: 144 clinicians; overall LR- 0.37 vs 0.08 for fellowship-trained attendings, and no accuracy gain with experience below fellowship level. Grading of mild vs moderate hydronephrosis is inconsistent between operators.",
+    "skill_assumption": "Emergency clinician with basic renal POCUS training; pooled numbers reflect mixed experience (residents, PAs/NPs, attendings). Rule-out performance (LR- 0.08) applies only to fellowship-trained sonographers."
+  },
+  "tier": "verified",
+  "extraction_notes": "All estimates are for ED renal-colic populations with CT reference; no study within the call budget quantified POCUS hydronephrosis specifically for obstructive AKI or bilateral/solitary-kidney obstruction, so the AKI use is inferred from the stone literature and should be flagged by the verifier. Wong 2018 LRs (2.85/0.39) are reported in the abstract without CIs. Riddell 2014 (retrospective, CT-proven stones only) sensitivity 78.4% cited as context, not entered because the population lacks a negative arm.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:00:12+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T08:07:26.292Z",
+  "verification_notes": "",
+  "record_version": 3
+}

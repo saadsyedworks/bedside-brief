@@ -1,0 +1,77 @@
+{
+  "identity": {
+    "id": "hx_palpitations_exertional_onset",
+    "title": "Palpitations beginning during exertion (vs at rest or after exertion)",
+    "type": "history",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "chest_pain",
+      "syncope",
+      "palpitations"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "ventricular_tachycardia",
+      "hcm",
+      "svt",
+      "sinus_tachycardia_secondary"
+    ],
+    "indication_tags": [
+      "exertional"
+    ]
+  },
+  "technique": {
+    "how": "Ask exactly when episodes start relative to activity: during peak exertion, in the recovery minutes after stopping, or at rest/at night. Clarify whether onset and offset are abrupt or gradual, whether rate outpaces the effort, and whether syncope, presyncope or chest pain accompany it. Ask about family history of sudden death or cardiomyopathy.",
+    "prerequisites": "Patient can recall episode context; a diary or wearable log helps.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Palpitations that begin abruptly during exertion, especially with syncope, chest pain or a family history of sudden death, raise concern for VT, HCM, ARVC, CPVT or exercise-triggered SVT and warrant ECG, echo and exercise testing.",
+    "negative_finding": "Onset at rest or post-exertion is more typical of ectopy, vagally mediated SVT or sinus tachycardia from anxiety; it does not exclude arrhythmia.",
+    "pitfalls": "Sinus tachycardia proportional to effort is normal; patients often conflate 'after' with 'during' exercise. The RCE found no historical feature except neck pounding that strongly changes arrhythmia probability.",
+    "changes_what": "Positive: expedite ECG, echocardiogram and exercise/ambulatory monitoring, restrict strenuous exertion pending results; negative: routine ambulatory evaluation."
+  },
+  "estimates": [],
+  "evidence_status": "not_quantified",
+  "sources": [
+    {
+      "citation": "Thavendiranathan P, Bagai A, Khoo C, Dorian P, Choudhry NK. Does this patient with palpitations have a cardiac arrhythmia? JAMA 2009;302:2135-2143.",
+      "doi": "10.1001/jama.2009.1673",
+      "pmid": "19920238",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2009
+    },
+    {
+      "citation": "Weber BE, Kapoor WN. Evaluation and outcomes of patients with palpitations. Am J Med 1996;100:138-148.",
+      "doi": "10.1016/s0002-9343(97)89451-x",
+      "pmid": "8629647",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1996
+    },
+    {
+      "citation": "Zimetbaum P, Josephson ME. Evaluation of patients with palpitations. N Engl J Med 1998;338:1369-1373.",
+      "doi": "10.1056/NEJM199805073381907",
+      "pmid": "9571258",
+      "url": null,
+      "kind": "consensus",
+      "year": 1998
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use a reassuring history to skip an ECG; structural heart disease and channelopathies can present with exertional palpitations and a normal exam.",
+    "escalation_warning": "Exertional palpitations with syncope, chest pain, known cardiomyopathy or family history of sudden death need urgent cardiology review before further exercise.",
+    "interobserver_note": "Timing relative to exertion is patient-reported and not standardized; no interobserver data."
+  },
+  "tier": "verified",
+  "extraction_notes": "The JAMA RCE (abstract) quantifies palpitations affected by sleep (LR 2.29) and at work (LR 2.17) but reports no LR for onset during exertion, and its full text is not OA; Weber & Kapoor 1996 report etiologies, not accuracy of exertional onset. Exertional onset as a red flag rests on expert consensus (Zimetbaum & Josephson NEJM 1998; abstract empty in PubMed but title/authors/DOI confirmed). All PMIDs confirmed.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:00:31+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T08:05:14.641Z",
+  "verification_notes": "",
+  "record_version": 3
+}

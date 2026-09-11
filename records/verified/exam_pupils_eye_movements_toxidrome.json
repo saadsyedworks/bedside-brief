@@ -1,0 +1,131 @@
+{
+  "identity": {
+    "id": "exam_pupils_eye_movements_toxidrome",
+    "title": "Pupils and eye movements: miosis with hypoventilation (opioid), ophthalmoplegia/nystagmus with ataxia (Wernicke), gaze deviation",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "dizziness",
+      "ams"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "hypercapnia",
+      "intoxication_withdrawal",
+      "medication_effect",
+      "nonconvulsive_seizure",
+      "stroke",
+      "wernicke"
+    ],
+    "indication_tags": [
+      "alcohol_use",
+      "new_medication"
+    ]
+  },
+  "technique": {
+    "how": "Measure pupil size and reactivity in dim light, count respiratory rate for a full minute. Test horizontal and vertical pursuit and check for nystagmus, lateral rectus (VI) palsy or conjugate gaze palsy; note any forced gaze deviation at rest. Then test gait or heel-shin for ataxia and screen mental state and short-term recall.",
+    "prerequisites": "Pen light; ability to open the eyelids; record any recent opioid, sedative or eye-drop exposure and prior ocular surgery.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Pinpoint pupils with respiratory rate <=12 in an unresponsive patient points to opioid toxidrome and justifies naloxone. Nystagmus, VI palsy or gaze palsy plus ataxia or confusion in a malnourished or alcohol-using patient meets Caine criteria for Wernicke's and mandates immediate IV thiamine; forced conjugate gaze deviation suggests stroke or ongoing seizure.",
+    "negative_finding": "Normal pupils do not exclude opioid effect after mixed ingestions or hypoxia. The full Wernicke triad was documented in only 16% of necropsy-proven cases, so absence of eye signs must not withhold thiamine in at-risk patients.",
+    "pitfalls": "Miosis also follows pontine stroke, clonidine, organophosphates and cholinergic eye drops; mydriasis after hypoxic arrest can mask opioid miosis. Wernicke's without alcohol (bariatric surgery, hyperemesis, cancer) presents atypically; eye signs are frequently missed on record review.",
+    "changes_what": "Miosis + hypoventilation: give naloxone and support ventilation. Eye-movement signs + ataxia/confusion: IV thiamine now, before glucose. Gaze deviation: stroke pathway or EEG."
+  },
+  "estimates": [
+    {
+      "target_condition": "COMPOSITE: classic Wernicke triad (oculomotor abnormality + cerebellar ataxia + altered mental state) all documented antemortem, for necropsy-proven Wernicke-Korsakoff",
+      "population": "131 cases of Wernicke-Korsakoff syndrome diagnosed at necropsy, Western Australia, retrospective review of clinical records (80% undiagnosed in life)",
+      "setting": "inpatient",
+      "prevalence": null,
+      "reference_standard": "Neuropathological diagnosis at necropsy",
+      "sensitivity": {
+        "value": 0.16,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "minimal",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "only 16% had the classical clinical triad and 19% had no documented clinical signs",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "COMPOSITE: Caine operational criteria (2 of 4: dietary deficiency, eye signs, cerebellar dysfunction, altered mental state/memory impairment) for neuropathologically confirmed Wernicke's encephalopathy co-occurring with hepatic encephalopathy",
+      "population": "106 alcoholics screened from a large necropsy sample; criteria applied retrospectively to patient records by 3 independent raters; subgroup with Wernicke's plus hepatic encephalopathy",
+      "setting": "inpatient",
+      "prevalence": null,
+      "reference_standard": "Definitive neuropathological diagnosis at necropsy",
+      "sensitivity": {
+        "value": 0.5,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "minimal",
+      "evidence_level": "single_study",
+      "source_index": 1,
+      "quote": "Wernicke's encephalopathy was underrecognized only when occurring with hepatic encephalopathy (50% sensitivity)",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "partially_quantified",
+  "sources": [
+    {
+      "citation": "Harper CG, Giles M, Finlay-Jones R. Clinical signs in the Wernicke-Korsakoff complex: a retrospective analysis of 131 cases diagnosed at necropsy. J Neurol Neurosurg Psychiatry. 1986;49(4):341-345.",
+      "doi": "10.1136/jnnp.49.4.341",
+      "pmid": "3701343",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1986
+    },
+    {
+      "citation": "Caine D, Halliday GM, Kril JJ, Harper CG. Operational criteria for the classification of chronic alcoholics: identification of Wernicke's encephalopathy. J Neurol Neurosurg Psychiatry. 1997;62(1):51-60.",
+      "doi": "10.1136/jnnp.62.1.51",
+      "pmid": "9010400",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1997
+    },
+    {
+      "citation": "Galvin R, Bråthen G, Ivashynka A, Hillbom M, Tanasescu R, Leone MA. EFNS guidelines for diagnosis, therapy and prevention of Wernicke encephalopathy. Eur J Neurol. 2010;17(12):1408-1418.",
+      "doi": "10.1111/j.1468-1331.2010.03153.x",
+      "pmid": "20642790",
+      "url": null,
+      "kind": "guideline",
+      "year": 2010
+    },
+    {
+      "citation": "Hoffman JR, Schriger DL, Luo JS. The empiric use of naloxone in patients with altered mental status: a reappraisal. Ann Emerg Med. 1991;20(3):246-252.",
+      "doi": "10.1016/s0196-0644(05)80933-3",
+      "pmid": "1996818",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1991
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Never withhold thiamine or naloxone because the eye or pupil findings are absent; both treatments are low-risk and the signs are insensitive.",
+    "escalation_warning": "Hypoventilation with miosis needs airway support and naloxone now; new gaze deviation or ophthalmoplegia with headache or focal deficits needs urgent neuroimaging.",
+    "interobserver_note": "Caine 1997 reports 100% between-rater agreement for diagnostic classification using the criteria on records, quote 'within and between rater reliability for diagnostic classification using the criteria retrospectively on patient records was 100% for three independent raters' (Abstract), despite variability for individual signs."
+  },
+  "tier": "verified",
+  "extraction_notes": "Both Wernicke estimates are COMPOSITE criteria sensitivities from necropsy series (case-only design, so no specificity or prevalence); individual sign accuracy (eye signs alone) is in the full texts of PMIDs 3701343 and 9010400, which are abstract-only in PMC and inaccessible here. Opioid component: Hoffman 1991 (PMID 1996818, n=730 AMS patients given naloxone) states that respirations <=12 or any of the three findings (respirations <=12, miotic pupils, circumstantial evidence) were 'highly sensitive in predicting response to naloxone' but the abstract gives no sensitivity figure for miosis alone, so no estimate entered; full text not in PMC. Search 'opioid overdose miosis respiratory rate naloxone response sensitivity' returned nothing. Gaze deviation for stroke/seizure: no diagnostic-accuracy source searched within budget; described from guideline-level teaching only. EFNS guideline (PMID 20642790) recommends Caine 2-of-4 criteria in alcoholics (Level B). Status partially_quantified (sensitivity only, composites).",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:41:04+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T07:49:47.380Z",
+  "verification_notes": "",
+  "record_version": 3
+}

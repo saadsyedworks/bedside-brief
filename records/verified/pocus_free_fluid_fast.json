@@ -1,0 +1,133 @@
+{
+  "identity": {
+    "id": "pocus_free_fluid_fast",
+    "title": "POCUS free intraperitoneal fluid (FAST views)",
+    "type": "pocus",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "hypotension",
+      "abdominal_pain",
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "aaa",
+      "cirrhosis",
+      "hypovolemic_hemorrhagic_shock",
+      "perforated_viscus",
+      "sbp"
+    ],
+    "indication_tags": [
+      "trauma",
+      "cirrhosis_known"
+    ]
+  },
+  "technique": {
+    "how": "Curvilinear or phased-array probe, patient supine: RUQ (hepatorenal/Morison's pouch, sweep to caudal liver tip and right paracolic gutter), LUQ (splenorenal and subphrenic spaces), pelvis (rectovesical/rectouterine pouch, transverse and sagittal, ideally with filled bladder), plus subxiphoid cardiac view. An anechoic stripe in a dependent space = free fluid.",
+    "prerequisites": "Trained operator; full bladder improves the pelvic view; repeat the exam if the first is negative and suspicion persists.",
+    "contraindications": "None; do not delay laparotomy in an unstable patient with a clear indication."
+  },
+  "interpretation": {
+    "positive_finding": "Free fluid in a hypotensive blunt-trauma patient is hemoperitoneum until proven otherwise (adjusted summary LR+ 30) and sends the patient to laparotomy or CT depending on stability. In non-trauma patients it shows ascites/free fluid but not its nature.",
+    "negative_finding": "A negative FAST lowers but does not exclude intra-abdominal injury (adjusted LR− 0.26; pooled sensitivity 74–82%). It does not exclude retroperitoneal, hollow-viscus or solid-organ injury without hemoperitoneum.",
+    "pitfalls": "Needs roughly 200+ mL to be visible; pre-existing ascites, ovarian cysts, bladder, perinephric fat and pericolic fluid mimic blood. Obesity, bowel gas and subcutaneous emphysema limit windows, and all pooled estimates are trauma-only.",
+    "changes_what": "Positive in unstable trauma → OR; positive in stable → CT; negative with persistent suspicion → CT or serial FAST. Non-trauma free fluid → paracentesis to characterize."
+  },
+  "estimates": [
+    {
+      "target_condition": "Intra-abdominal injury after blunt abdominal trauma — abnormal bedside FAST (intraperitoneal fluid or organ injury); random-effects bivariate summary, unadjusted for publication bias",
+      "population": "Adult ED patients with blunt abdominal trauma; 22 bedside ultrasonography studies (evidence levels 1–3)",
+      "setting": "ED",
+      "prevalence": 0.13,
+      "reference_standard": "Abdominal CT, diagnostic peritoneal lavage, laparotomy, autopsy and/or clinical course",
+      "sensitivity": {
+        "value": 0.82,
+        "ci_low": 0.75,
+        "ci_high": 0.89
+      },
+      "specificity": {
+        "value": 0.99,
+        "ci_low": 0.98,
+        "ci_high": 0.99
+      },
+      "lr_positive": {
+        "value": 69,
+        "ci_low": 38,
+        "ci_high": 101
+      },
+      "lr_negative": {
+        "value": 0.18,
+        "ci_low": 0.11,
+        "ci_high": 0.25
+      },
+      "computed": false,
+      "computed_from": "",
+      "interpretation_label": "both",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "Abnormal FAST examination result, bedside (all US references) Unadjusted 82 (75–89) 99 (98–99) 69 (38–101) 0.18 (0.11–0.25)",
+      "location": "Table 4, Imaging rows (PMC4966670 full text)"
+    },
+    {
+      "target_condition": "Intra-abdominal injury after blunt abdominal trauma — abnormal bedside FAST; random-effects univariate summary adjusted for publication bias",
+      "population": "Adult ED patients with blunt abdominal trauma; 22 bedside ultrasonography studies (evidence levels 1–3)",
+      "setting": "ED",
+      "prevalence": 0.13,
+      "reference_standard": "Abdominal CT, diagnostic peritoneal lavage, laparotomy, autopsy and/or clinical course",
+      "sensitivity": {
+        "value": 0.74,
+        "ci_low": 0.66,
+        "ci_high": 0.8
+      },
+      "specificity": {
+        "value": 0.96,
+        "ci_low": 0.91,
+        "ci_high": 0.98
+      },
+      "lr_positive": {
+        "value": 30,
+        "ci_low": 20,
+        "ci_high": 46
+      },
+      "lr_negative": {
+        "value": 0.26,
+        "ci_low": 0.19,
+        "ci_high": 0.34
+      },
+      "computed": false,
+      "computed_from": "",
+      "interpretation_label": "both",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "Adjusted for publication bias 74 (66–80) 96 (91–98) 30 (20–46) 0.26 (0.19–0.34)",
+      "location": "Table 4, Imaging rows (PMC4966670 full text)"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Nishijima DK, Simel DL, Wisner DH, Holmes JF. Does this adult patient have a blunt intra-abdominal injury? JAMA 2012.",
+      "doi": "10.1001/jama.2012.422",
+      "pmid": "22496266",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2012
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Not validated for non-trauma hypotension or for characterizing fluid; do not use a negative FAST to stop work-up in penetrating trauma or suspected hollow-viscus injury.",
+    "escalation_warning": "Positive FAST with hypotension after trauma is a surgical emergency — activate trauma surgery and massive transfusion.",
+    "interobserver_note": "Accuracy varied across the 22 included studies (individual results in eTable 3, not accessible); no pooled interobserver statistic reported.",
+    "skill_assumption": "Operator credentialed in FAST/eFAST; pooled estimates come from emergency physicians, surgeons and radiologists in trauma centres, not novices."
+  },
+  "tier": "verified",
+  "extraction_notes": "RCE anchor PMID 22496266 confirmed; PMC4966670 open-access body text read. Both Table 4 FAST rows entered as separate estimates (unadjusted bivariate vs publication-bias-adjusted univariate) rather than averaged; the adjusted row is the more conservative planning number. Prevalence quote: \"The prevalence of intra-abdominal injury in adult emergency department patients with blunt abdominal trauma among all evidence level 1 and 2 studies was 13% (95% CI, 10%-17%)\" (Abstract, Results). Reference standard as stated in the abstract. Table 4 does not state a fluid-volume threshold; index test is 'abnormal FAST' (free fluid or organ injury), so estimates are for the FAST result rather than 'free fluid' alone — a minor mismatch with the id title. All data are trauma-only; no diagnostic-accuracy data for FAST-view free fluid in cirrhosis/SBP, AAA rupture or perforated viscus were sought within budget, so those differentials remain unquantified.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:42:33+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T07:31:03.321Z",
+  "verification_notes": "",
+  "record_version": 3
+}

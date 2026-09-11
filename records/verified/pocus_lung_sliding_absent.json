@@ -1,0 +1,198 @@
+{
+  "identity": {
+    "id": "pocus_lung_sliding_absent",
+    "title": "POCUS lung: absent lung sliding (+/- lung point, absent B-lines) for pneumothorax",
+    "type": "pocus",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "chest_pain",
+      "hypotension"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "pneumothorax"
+    ],
+    "indication_tags": [
+      "trauma",
+      "unilateral",
+      "acute_onset"
+    ]
+  },
+  "technique": {
+    "how": "Supine patient; high-frequency linear (or curvilinear/phased) probe longitudinal on the anterior chest at the 2nd-4th interspace midclavicular line, then several other anterior/lateral points. Identify the pleural line between rib shadows and look for sliding in B-mode and 'seashore' vs 'barcode' (stratosphere) sign on M-mode; scan laterally for a lung point.",
+    "prerequisites": "Patient supine or semi-recumbent (air rises anteriorly); operator credentialed in lung POCUS; interpretation in the clinical context.",
+    "contraindications": "None; do not delay needle decompression in tension pneumothorax to scan."
+  },
+  "interpretation": {
+    "positive_finding": "Absent lung sliding with A-lines and no B-lines or lung pulse at the anterior chest; a lung point (sliding alternating with absent sliding at one location) is specific and confirms pneumothorax.",
+    "negative_finding": "Presence of lung sliding, B-lines or a lung pulse at the scanned interspace rules out pneumothorax at that point; scan multiple points to cover the anterior chest.",
+    "pitfalls": "Sliding is also absent with mainstem intubation, apnea, pleural adhesions, ARDS, bullae and prior pleurodesis, so absent sliding alone is not diagnostic. Sensitivity is much lower in novice/prehospital hands and for small or loculated pneumothoraces.",
+    "changes_what": "Absent sliding plus lung point in a dyspneic/hypotensive patient: treat as pneumothorax (decompress if unstable); sliding at all anterior points makes significant pneumothorax unlikely."
+  },
+  "estimates": [
+    {
+      "target_condition": "Pneumothorax (absence of lung sliding and comet-tail artifacts)",
+      "population": "Adults clinically suspected of pneumothorax (trauma and post-procedure), 8 studies, 1,048 patients; mostly emergency physicians/intensivists",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "CT scan or release of air on chest tube placement",
+      "sensitivity": {
+        "value": 0.909,
+        "ci_low": 0.865,
+        "ci_high": 0.939
+      },
+      "specificity": {
+        "value": 0.982,
+        "ci_low": 0.97,
+        "ci_high": 0.99
+      },
+      "lr_positive": {
+        "value": 50.5,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.093,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.909/(1-0.982) = 50.5; LR- = (1-0.909)/0.982 = 0.093, from pooled sensitivity 90.9% and specificity 98.2%",
+      "interpretation_label": "both",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "Ultrasonography was 90.9% sensitive (95% CI, 86.5-93.9) and 98.2% specific (95% CI, 97.0-99.0) for the detection of pneumothorax.",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Pneumothorax (ultrasonography by non-radiologist clinicians)",
+      "population": "Adults evaluated for pneumothorax, subgroup of studies with clinician (non-radiologist) operators",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "CT or chest tube findings (per included studies)",
+      "sensitivity": {
+        "value": 0.89,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.99,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "computed_from": "",
+      "interpretation_label": "both",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "For ultrasonography performed by clinicians other than radiologists, pooled sensitivity and specificity were 0.89 and 0.99, respectively.",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Pneumothorax (anterior absent lung sliding + A-lines + lung point, BLUE 'A prime' profile)",
+      "population": "260 consecutive ICU admissions with acute respiratory failure and definite diagnosis; 9 pneumothorax; single expert operator",
+      "setting": "ICU",
+      "prevalence": null,
+      "reference_standard": "Final diagnosis by ICU team",
+      "sensitivity": {
+        "value": 0.81,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 1.0,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "computed_from": "",
+      "interpretation_label": "rule_in",
+      "evidence_level": "single_study",
+      "source_index": 2,
+      "quote": "Anterior absent lung sliding plus A lines plus lung point indicated pneumothorax (n=9) with 81% sensitivity and 100% specificity.",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Pneumothorax (thoracic POCUS by HEMS/prehospital providers, mostly novice nurses/paramedics)",
+      "population": "Medical and trauma patients scanned prehospital/in helicopter; 8 studies, 1,713 images",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Predominantly CT",
+      "sensitivity": {
+        "value": 0.61,
+        "ci_low": 0.27,
+        "ci_high": 0.87
+      },
+      "specificity": {
+        "value": 0.99,
+        "ci_low": 0.98,
+        "ci_high": 1.0
+      },
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "computed_from": "",
+      "interpretation_label": "rule_in",
+      "evidence_level": "pooled",
+      "source_index": 3,
+      "quote": "pooled sensitivity 61% (95% CI: 27-87%; I2 = 94%) and pooled specificity 99% (95% CI: 98-100%; I2 = 89%)",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Alrajhi K, Woo MY, Vaillancourt C. Test characteristics of ultrasonography for the detection of pneumothorax: a systematic review and meta-analysis. Chest. 2012;141(3):703-708.",
+      "doi": "10.1378/chest.11-0131",
+      "pmid": "21868468",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2012
+    },
+    {
+      "citation": "Ding W, Shen Y, Yang J, He X, Zhang M. Diagnosis of pneumothorax by radiography and ultrasonography: a meta-analysis. Chest. 2011;140(4):859-866.",
+      "doi": "10.1378/chest.10-2946",
+      "pmid": "21546439",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2011
+    },
+    {
+      "citation": "Lichtenstein DA, Meziere GA. Relevance of lung ultrasound in the diagnosis of acute respiratory failure: the BLUE protocol. Chest. 2008;134(1):117-125.",
+      "doi": "10.1378/chest.07-2800",
+      "pmid": "18403664",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2008
+    },
+    {
+      "citation": "Griffiths E. Helicopter emergency medical services use of thoracic point of care ultrasound for pneumothorax: a systematic review and meta-analysis. Scand J Trauma Resusc Emerg Med. 2021;29:163.",
+      "doi": "10.1186/s13049-021-00977-0",
+      "pmid": "34801070",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2021
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use absent sliding alone to diagnose pneumothorax in intubated, apneic, post-pleurodesis or severe-ARDS patients; do not use a single-point scan to exclude pneumothorax.",
+    "escalation_warning": "Absent sliding with hypotension or rising airway pressures is presumed tension pneumothorax: decompress immediately rather than completing the scan.",
+    "interobserver_note": "Ding 2011 meta-regression found operator skill strongly associated with accuracy (relative DOR 0.21, 95% CI 0.05-0.96); Griffiths 2021 shows sensitivity falls to 61% with novice prehospital operators.",
+    "skill_assumption": "Assumes an operator trained to basic lung POCUS competency (able to identify the pleural line, sliding, M-mode seashore/barcode, B-lines and lung point); pooled numbers come mainly from emergency physicians and intensivists, not novices."
+  },
+  "tier": "verified",
+  "extraction_notes": "Primary estimate from Alrajhi 2012 abstract (Chest, not open access; sens/spec with CIs are in the abstract); LRs computed from the pooled point estimates and flagged computed. Ding 2011 clinician-operator subgroup from abstract (no CIs given there). BLUE profile numbers from Lichtenstein 2008 abstract; prevalence not entered because the cohort excluded uncertain/rare diagnoses. Griffiths 2021 added to show the operator/setting effect on sensitivity; 'setting' recorded as mixed because the schema has no prehospital value. eFAST trauma pooled estimate (Netherton 2019: 69% sensitivity, 99% specificity) was seen but not entered to stay within source budget.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T01:47:39+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T08:08:50.115Z",
+  "verification_notes": "",
+  "record_version": 3
+}

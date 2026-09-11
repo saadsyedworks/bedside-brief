@@ -1,0 +1,127 @@
+{
+  "identity": {
+    "id": "exam_cirrhosis_stigmata",
+    "title": "Cirrhosis stigmata: spider angiomata, palmar erythema, gynecomastia, caput medusae, jaundice",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "edema",
+      "aki",
+      "ams",
+      "abdominal_pain"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "cirrhosis",
+      "hepatic_encephalopathy",
+      "hepatorenal",
+      "sbp"
+    ],
+    "indication_tags": [
+      "alcohol_use",
+      "cirrhosis_known"
+    ]
+  },
+  "technique": {
+    "how": "Inspect face, neck, upper chest, arms and hands in good light for spider angiomata (central arteriole that blanches with pressure and refills centrally), palmar erythema (thenar/hypothenar), gynecomastia, dilated periumbilical veins (caput medusae) and scleral/skin jaundice. Percuss and palpate the liver edge and check for ascites at the same time.",
+    "prerequisites": "Adequate lighting and skin exposure of the upper body; known or suspected liver disease so the pretest probability is meaningful.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Spider nevi (pooled LR 4.3) or clinical ascites (pooled LR 7.2) substantially raise the probability of biopsy-proven cirrhosis in a patient with liver disease.",
+    "negative_finding": "Absence of individual stigmata does little to exclude cirrhosis; absence of hepatomegaly (LR 0.37) and laboratory indices (platelets >=160, Lok index) are the useful negatives.",
+    "pitfalls": "Isolated spider nevi occur in pregnancy, estrogen use and healthy people; stigmata are late-stage findings and compensated cirrhosis is often stigmata-free. The clinician's overall gestalt was less informative than individual findings.",
+    "changes_what": "Positive: treat as probable cirrhosis (screen for varices, SBP, HE; adjust drugs). Negative: do not exclude; use platelets/INR-based indices or elastography."
+  },
+  "estimates": [
+    {
+      "target_condition": "Cirrhosis (histologically proven) in adults with known or suspected liver disease; finding = spider nevi",
+      "population": "19,533 patients from 86 studies of adults with liver disease undergoing biopsy; prevalence 24%",
+      "setting": "mixed",
+      "prevalence": 0.24,
+      "reference_standard": "Liver biopsy",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 4.3,
+        "ci_low": 2.4,
+        "ci_high": 6.2
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "spider nevi (LR, 4.3; 95% CI 2.4-6.2)",
+      "location": "Abstract, Results (summary random-effects LR)"
+    },
+    {
+      "target_condition": "Cirrhosis (histologically proven) in adults with known or suspected liver disease; finding = ascites on examination",
+      "population": "Same pooled cohort (86 studies, 19,533 patients)",
+      "setting": "mixed",
+      "prevalence": 0.24,
+      "reference_standard": "Liver biopsy",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 7.2,
+        "ci_low": 2.9,
+        "ci_high": 12
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "the presence of ascites (LR, 7.2; 95% CI, 2.9-12)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Cirrhosis; finding = absence of hepatomegaly (negative finding)",
+      "population": "Same pooled cohort (86 studies, 19,533 patients)",
+      "setting": "mixed",
+      "prevalence": 0.24,
+      "reference_standard": "Liver biopsy",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": {
+        "value": 0.37,
+        "ci_low": 0.24,
+        "ci_high": 0.51
+      },
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "the absence of hepatomegaly (LR, 0.37; 95% CI, 0.24-0.51)",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "partially_quantified",
+  "sources": [
+    {
+      "citation": "Udell JA, Wang CS, Tinmouth J, et al. Does this patient with liver disease have cirrhosis? JAMA. 2012;307(8):832-842.",
+      "doi": "10.1001/jama.2012.186",
+      "pmid": "22357834",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2012
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use stigmata to exclude cirrhosis in a patient with risk factors; compensated cirrhosis is frequently silent.",
+    "escalation_warning": "Stigmata plus confusion, GI bleeding, fever with ascites, or rising creatinine indicate decompensation (HE, variceal bleed, SBP, HRS) needing urgent work-up.",
+    "interobserver_note": "The RCE notes the overall clinician impression was less informative than individual findings; agreement for individual stigmata is not reported in the abstract."
+  },
+  "tier": "verified",
+  "extraction_notes": "Only the abstract of the 2012 RCE is accessible (JAMA, not PMC). Pooled LRs for spider nevi, ascites and absent hepatomegaly were taken verbatim from the abstract; the RCE tables reporting palmar erythema, gynecomastia, caput medusae, jaundice and sensitivity/specificity could not be viewed, so those items and sens/spec are left null. Negative LRs for spider nevi/ascites are not in the abstract. Status partially_quantified because only LR+ is available for the stigmata.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T01:48:01+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T05:51:21.461Z",
+  "verification_notes": "",
+  "record_version": 3
+}

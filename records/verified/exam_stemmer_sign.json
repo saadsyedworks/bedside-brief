@@ -1,0 +1,136 @@
+{
+  "identity": {
+    "id": "exam_stemmer_sign",
+    "title": "Stemmer sign: inability to pinch a skin fold at the base of the 2nd toe",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "edema"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "dvt",
+      "lymphedema",
+      "venous_insufficiency"
+    ],
+    "indication_tags": [
+      "unilateral",
+      "malignancy"
+    ]
+  },
+  "technique": {
+    "how": "With the patient standing (or supine), grasp the dorsal skin over the proximal phalanx of the second toe (or just proximal to the metatarsophalangeal joint; hand: index finger) between thumb and index finger and try to lift a thin skin fold. Compare with the contralateral limb.",
+    "prerequisites": "Foot exposed and clean; examine both feet; note BMI and any pitting.",
+    "contraindications": "None; avoid forceps or forceful pinching on fragile or ulcerated skin."
+  },
+  "interpretation": {
+    "positive_finding": "Positive (Kaposi-Stemmer sign) when the skin cannot be pinched into a fold because of thickened, fibrotic dorsal skin, indicating lymphedema (primary or secondary) rather than venous, cardiac, hepatic or renal edema.",
+    "negative_finding": "A pinchable fold argues against established lymphedema but does not exclude early (stage 1) or lean-patient lymphedema; venous edema, DVT and systemic causes remain possible.",
+    "pitfalls": "Obesity and immobility (e.g. neuromuscular disease) give false positives, and stage 1 disease or normal BMI give false negatives; chronic venous obstruction is the commonest cause of lymphedema-like signs with normal lymphoscintigraphy. Accuracy figures come from lymphedema-referral populations, not unselected edema.",
+    "changes_what": "Positive shifts unilateral/asymmetric edema toward lymphedema (consider lymphoscintigraphy, cancer/filarial causes); negative does not exclude it - still evaluate DVT and venous disease."
+  },
+  "estimates": [
+    {
+      "target_condition": "Lymphedema (primary or secondary, arm or leg)",
+      "population": "110 consecutive patients (mean age 35 y, range 1-88; 90 lower limb, 20 upper limb) referred to a tertiary Lymphedema Program, examined by a single senior surgeon",
+      "setting": "outpatient",
+      "prevalence": 0.818,
+      "reference_standard": "Lymphoscintigraphy (delayed tracer transit to inguinal/axillary nodes or dermal backflow = lymphedema)",
+      "sensitivity": {
+        "value": 0.889,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.65,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 2.54,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.17,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "2x2 from abstract: TP 80, FP 7, FN 10, TN 13. Sensitivity = 80/90 = 0.889; specificity = 13/20 = 0.65; LR+ = 0.889/0.35 = 2.54; LR- = 0.111/0.65 = 0.17; prevalence = 90/110 = 0.818. The paper labels 80/87 (0.92) 'sensitivity' and 13/23 (0.57) 'specificity', which are actually PPV and NPV.",
+      "interpretation_label": "modest",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "positive Stemmer sign (n = 87) exhibited abnormal (n = 80) or normal (n = 7) lymphatic function by lymphoscintigraphy (sensitivity = 92%)",
+      "location": "Abstract, Results; same counts in Results paragraph 1 of PMC full text (PMC6635205)"
+    },
+    {
+      "target_condition": "COMPOSITE: any classic clinical sign of lymphedema (dorsal hump, square toes, Kaposi-Stemmer sign, or nonpitting edema) - per-limb analysis",
+      "population": "436 swollen lower limbs (of 636 consecutive limbs, 12-month period) that underwent lymphoscintigraphy at a venous/lymphatic referral center; retrospective",
+      "setting": "outpatient",
+      "prevalence": 0.59,
+      "reference_standard": "Lymphoscintigraphy scored on transit delay, dermal backflow, collaterals, uptake intensity and node counts",
+      "sensitivity": {
+        "value": 0.17,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.88,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 1.42,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.94,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.17/(1-0.88) = 1.42; LR- = (1-0.17)/0.88 = 0.94, from reported composite sensitivity 17% and specificity 88%; prevalence = 258/436 = 0.59 abnormal lymphoscintigraphy",
+      "interpretation_label": "minimal",
+      "evidence_level": "single_study",
+      "source_index": 1,
+      "quote": "Sensitivity and specificity of clinical signs in predicting lymphoscintigraphy-confirmed lymphedema were 17% and 88%, respectively.",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Goss JA, Greene AK. Sensitivity and Specificity of the Stemmer Sign for Lymphedema: A Clinical Lymphoscintigraphic Study. Plast Reconstr Surg Glob Open. 2019.",
+      "doi": "10.1097/GOX.0000000000002295",
+      "pmid": "31624689",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2019
+    },
+    {
+      "citation": "Jayaraj A, Raju S, May C, Pace N. The diagnostic unreliability of classic physical signs of lymphedema. J Vasc Surg Venous Lymphat Disord. 2019.",
+      "doi": "10.1016/j.jvsv.2019.04.013",
+      "pmid": "31281100",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2019
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use a negative Stemmer sign to dismiss acute unilateral leg swelling - DVT must be excluded on its own merits; a positive sign in an obese or immobile patient is unreliable.",
+    "escalation_warning": "Rapidly progressive unilateral swelling, pain, warmth or erythema needs DVT and cellulitis/necrotizing infection assessment regardless of the Stemmer sign; new lymphedema in an adult warrants evaluation for pelvic/abdominal malignancy.",
+    "interobserver_note": "No inter-observer data; Goss 2019 used a single examiner (senior author) pinching proximal to the MTP joint rather than over the proximal phalanx as originally described (PMC full text, Discussion)."
+  },
+  "tier": "verified",
+  "extraction_notes": "Goss 2019: the abstract's 'sensitivity = 92%' is 80/87 (PPV) and 'specificity = 57%' is 13/23 (NPV); the true sensitivity and specificity from the reported 2x2 are 80/90 = 0.889 and 13/20 = 0.65 and are entered as computed. High prevalence (0.82) reflects a lymphedema referral clinic, so PPV is inflated relative to a general edema population. Jayaraj 2019 is a composite of four signs analysed per limb (only entered with COMPOSITE prefix); for the Stemmer sign alone it reports only 'the Kaposi-Stemmer sign was a significant predictor of lymphedema (odds ratio, 7.9; P = .02)' (Abstract, Results) and that 32% of sign-positive limbs had the Stemmer sign, without a sign-specific sens/spec. Kappa/inter-observer data not found. A 2025 CART study on lipedema vs lymphedema (PMID 40009424) was not reviewed (budget).",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T02:33:30+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T07:50:38.113Z",
+  "verification_notes": "",
+  "record_version": 3
+}

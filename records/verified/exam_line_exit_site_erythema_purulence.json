@@ -1,0 +1,102 @@
+{
+  "identity": {
+    "id": "exam_line_exit_site_erythema_purulence",
+    "title": "Central line exit-site erythema, tenderness, or purulence (with line-day count)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "hypotension",
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "line_infection",
+      "septic_shock"
+    ],
+    "indication_tags": [
+      "dialysis",
+      "immunocompromised"
+    ]
+  },
+  "technique": {
+    "how": "Remove the dressing and inspect the insertion/exit site and tunnel in good light: erythema (note extent in cm), induration or swelling, tenderness on palpation, and purulent exudate (express gently along the tunnel). Record catheter type (non-tunneled vs tunneled/cuffed), site, and line-day count.",
+    "prerequisites": "Dressing change with clean technique; knowledge of insertion date and catheter type.",
+    "contraindications": "None; do not delay blood cultures or catheter management while inspecting."
+  },
+  "interpretation": {
+    "positive_finding": "Purulence, tenderness, or erythema >=2 cm at the exit site indicates local catheter infection and, in a febrile or hypotensive patient, should raise concern for catheter-related bloodstream infection with S. aureus or Gram-negative organisms.",
+    "negative_finding": "A clean, non-inflamed site does not exclude catheter-related bloodstream infection; most short-term CVC infections (largely coagulase-negative staphylococci) show little or no local inflammation.",
+    "pitfalls": "Local inflammation is insensitive (near zero) for CRBSI with short-term non-cuffed CVCs; dressing adhesive irritation and tunnel-line manipulation can mimic erythema. Hemodialysis exit-site scale evidence uses a skin-swab culture reference, not bacteremia.",
+    "changes_what": "Positive site: culture exudate, draw paired blood cultures, consider line removal; negative site does not lower suspicion of CRBSI in an unexplained fever or shock."
+  },
+  "estimates": [
+    {
+      "target_condition": "COMPOSITE: exit-site infection of tunneled hemodialysis CVC (3-item scale: interdialytic exit-site pain OR erythema >=2 cm OR abscess/purulent exudate)",
+      "population": "Adults with tunneled hemodialysis CVC in place >=1 month; 337 catheters, 310 patients, 515 pericatheter cultures; multicenter prospective cohort",
+      "setting": "outpatient",
+      "prevalence": null,
+      "reference_standard": "Positive pericatheter skin swab culture (taken only when any scale item present)",
+      "sensitivity": {
+        "value": 0.8034,
+        "ci_low": 0.7136,
+        "ci_high": 0.8771
+      },
+      "specificity": {
+        "value": 0.9523,
+        "ci_low": 0.9273,
+        "ci_high": 0.97
+      },
+      "lr_positive": {
+        "value": 16.8,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.21,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.8034/(1-0.9523) = 16.8; LR- = (1-0.8034)/0.9523 = 0.21; sens/spec as reported in abstract",
+      "interpretation_label": "both",
+      "evidence_level": "single_study",
+      "source_index": 1,
+      "quote": "sensitivity 80.34% (95% CI: 71.36%-87.71%) and specificity 95.23% (95% CI: 92.73%-97%)",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Safdar N, Maki DG. Inflammation at the insertion site is not predictive of catheter-related bloodstream infection with short-term, noncuffed central venous catheters. Crit Care Med. 2002.",
+      "doi": "10.1097/00003246-200212000-00003",
+      "pmid": "12483050",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2002
+    },
+    {
+      "citation": "Cobo-Sanchez JL, Blanco-Mavillard I, Pelayo-Alonso R, Mancebo-Salas N, Fernandez-Fernandez I, Larraneta-Inda I, et al. Validation of a Clinical Scale for Early Detection of Infections at the Exit Site of Central Venous Catheters for Hemodialysis. Kidney Int Rep. 2024.",
+      "doi": "10.1016/j.ekir.2024.06.034",
+      "pmid": "39291192",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2024
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use a clean site to rule out CRBSI in short-term non-cuffed CVCs; do not rely on site appearance in neutropenic patients who may not mount local inflammation.",
+    "escalation_warning": "Fever with hypotension plus any line in situ: cultures and sepsis pathway regardless of site appearance; purulent exit site with sepsis mandates line removal.",
+    "interobserver_note": "No kappa for bedside site inspection found in the sources reviewed; Safdar used trained research nurses with a 0-5 inflammation score."
+  },
+  "tier": "verified",
+  "extraction_notes": "Anchor study Safdar & Maki (PMID 12483050; ICU, 1263 short-term non-cuffed CVCs, 35 CRBSI by DNA subtyping) reports only a range for local inflammation: 'The sensitivity of local inflammation for diagnosis of CVC-related BSI was dismal (0-3%)' (Abstract, Results); per RANGES rule no point value entered, and the specificity is not given in the abstract (full text not open access). The only sens/spec pair found is the Cobo-Sanchez 2024 3-item exit-site scale for tunneled HD catheters, entered as COMPOSITE; its reference standard is a skin-swab culture (exit-site infection), not bacteremia, and cultures were taken only when an item was present, so specificity is estimated in a selected sample and prevalence is not entered. Line-day count as a quantitative predictor was not found in a diagnostic-accuracy format. Guembe 2014 (PMID 23850957) concerns superficial cultures, not exam, and was not used.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T02:33:35+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T02:16:09.587Z",
+  "verification_notes": "",
+  "record_version": 3
+}

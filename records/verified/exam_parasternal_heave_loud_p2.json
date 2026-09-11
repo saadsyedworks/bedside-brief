@@ -1,0 +1,226 @@
+{
+  "identity": {
+    "id": "exam_parasternal_heave_loud_p2",
+    "title": "Left parasternal (RV) heave and loud/palpable P2",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "syncope",
+      "edema",
+      "hypotension"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "acute_decompensated_hf",
+      "constrictive_pericarditis",
+      "pulmonary_embolism",
+      "rv_failure_pulmonary_hypertension"
+    ],
+    "indication_tags": []
+  },
+  "technique": {
+    "how": "Patient supine at 30-45 degrees. Place the heel of the hand over the left lower sternal border and feel for a sustained outward lift during systole (RV heave), then palpate the 2nd left interspace for a palpable P2. Auscultate the pulmonic area for a loud pulmonic component of S2, comparing intensity with A2, at rest and during a slow inspiration.",
+    "prerequisites": "Quiet room; patient not in acute respiratory distress that prevents breath control.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "A loud P2 modestly raises the probability of pulmonary hypertension (mPAP >=25 mmHg): LR+ 1.6 at rest and 1.9 on inspiration for all examiners, 3.2 when elicited by a specialist. An RV lift has LR+ about 1.1-1.3 and is essentially non-discriminating.",
+    "negative_finding": "Absence of either sign does not exclude pulmonary hypertension; all negative LRs were about 0.7-1.0 and no finding reliably ruled PH out.",
+    "pitfalls": "Sensitivity is low (21-43%) and generalist examiners performed no better than chance for these signs. A parasternal lift can also come from left atrial enlargement in mitral regurgitation or from a thin chest wall.",
+    "changes_what": "Loud P2 or RV heave: move to echocardiography for RV pressure and function. Absent signs should not lower suspicion of PH or PE when the history is suggestive."
+  },
+  "estimates": [
+    {
+      "target_condition": "Pulmonary hypertension (mPAP >=25 mmHg); finding = RV lift at rest, all 6 examiners pooled",
+      "population": "52 adults undergoing right heart catheterization for any reason, Toronto; 25 with PH (mPAP >=25 mmHg); each examined independently by 6 physicians (3 specialists, 3 generalists) blinded to hemodynamics",
+      "setting": "mixed",
+      "prevalence": 0.481,
+      "reference_standard": "Right heart catheterization, mean pulmonary artery pressure >=25 mmHg",
+      "sensitivity": {
+        "value": 0.32,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.72,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 1.1,
+        "ci_low": 0.78,
+        "ci_high": 1.6
+      },
+      "lr_negative": {
+        "value": 1.0,
+        "ci_low": 0.81,
+        "ci_high": 1.1
+      },
+      "computed": false,
+      "interpretation_label": "minimal",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "RV Lift 32 72 1.1 [0.78,1.6] 1.0 [0.81,1.1]",
+      "location": "Table 3, row 'RV Lift', 'All Examiners' columns (Sn, Sp, LR+, LR-)"
+    },
+    {
+      "target_condition": "Pulmonary hypertension (mPAP >=25 mmHg); finding = RV lift during slow inspiration, all examiners pooled",
+      "population": "52 adults undergoing right heart catheterization for any reason, Toronto; 25 with PH (mPAP >=25 mmHg); each examined independently by 6 physicians (3 specialists, 3 generalists) blinded to hemodynamics",
+      "setting": "mixed",
+      "prevalence": 0.481,
+      "reference_standard": "Right heart catheterization, mean pulmonary artery pressure >=25 mmHg",
+      "sensitivity": {
+        "value": 0.21,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.84,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 1.3,
+        "ci_low": 0.78,
+        "ci_high": 2.1
+      },
+      "lr_negative": {
+        "value": 1.0,
+        "ci_low": 0.82,
+        "ci_high": 1.1
+      },
+      "computed": false,
+      "interpretation_label": "minimal",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "RV Lift (insp) 21 84 1.3 [0.78,2.1] 1.0 [0.82,1.1]",
+      "location": "Table 3, row 'RV Lift (insp)', 'All Examiners' columns"
+    },
+    {
+      "target_condition": "Pulmonary hypertension (mPAP >=25 mmHg); finding = loud P2 at rest, all examiners pooled",
+      "population": "52 adults undergoing right heart catheterization for any reason, Toronto; 25 with PH (mPAP >=25 mmHg); each examined independently by 6 physicians (3 specialists, 3 generalists) blinded to hemodynamics",
+      "setting": "mixed",
+      "prevalence": 0.481,
+      "reference_standard": "Right heart catheterization, mean pulmonary artery pressure >=25 mmHg",
+      "sensitivity": {
+        "value": 0.43,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.74,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 1.6,
+        "ci_low": 1.2,
+        "ci_high": 2.4
+      },
+      "lr_negative": {
+        "value": 0.8,
+        "ci_low": 0.63,
+        "ci_high": 0.92
+      },
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "Loud P2 43 74 1.6 [1.2,2.4] 0.8 [0.63,0.92]",
+      "location": "Table 3, row 'Loud P2', 'All Examiners' columns"
+    },
+    {
+      "target_condition": "Pulmonary hypertension (mPAP >=25 mmHg); finding = loud P2 during slow inspiration, all examiners pooled",
+      "population": "52 adults undergoing right heart catheterization for any reason, Toronto; 25 with PH (mPAP >=25 mmHg); each examined independently by 6 physicians (3 specialists, 3 generalists) blinded to hemodynamics",
+      "setting": "mixed",
+      "prevalence": 0.481,
+      "reference_standard": "Right heart catheterization, mean pulmonary artery pressure >=25 mmHg",
+      "sensitivity": {
+        "value": 0.29,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.85,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 1.9,
+        "ci_low": 1.2,
+        "ci_high": 3.1
+      },
+      "lr_negative": {
+        "value": 0.8,
+        "ci_low": 0.71,
+        "ci_high": 0.96
+      },
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "Loud P2 (insp) 29 85 1.9 [1.2,3.1] 0.8 [0.71,0.96]",
+      "location": "Table 3, row 'Loud P2 (insp)', 'All Examiners' columns; also Results text 'LR +ve 1.9, 95% CrI [1.2, 3.1]'"
+    },
+    {
+      "target_condition": "Pulmonary hypertension (mPAP >=25 mmHg); finding = loud P2 during slow inspiration, SPECIALIST examiners only (3 PH/cardiology specialists)",
+      "population": "52 adults undergoing right heart catheterization for any reason, Toronto; 25 with PH (mPAP >=25 mmHg); each examined independently by 6 physicians (3 specialists, 3 generalists) blinded to hemodynamics",
+      "setting": "mixed",
+      "prevalence": 0.481,
+      "reference_standard": "Right heart catheterization, mean pulmonary artery pressure >=25 mmHg",
+      "sensitivity": {
+        "value": 0.37,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.87,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 3.2,
+        "ci_low": 1.5,
+        "ci_high": 6.2
+      },
+      "lr_negative": {
+        "value": 0.7,
+        "ci_low": 0.51,
+        "ci_high": 0.9
+      },
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "a loud P2 on inspiration (specificity 87%, sensitivity 37%, positive LR 3.2, 95% CrI [1.5, 6.2])",
+      "location": "Results text following Table 3; Table 3 row 'Loud P2 (insp)', 'Specialists' columns (LR- 0.7 [0.51,0.90])"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Colman R, Whittingham H, Tomlinson G, Granton J. Utility of the physical examination in detecting pulmonary hypertension. A mixed methods study. PLoS One. 2014;9(10):e108499.",
+      "doi": "10.1371/journal.pone.0108499",
+      "pmid": "25343585",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2014
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not rely on these signs to exclude PH, RV failure or PE; do not use them to defer echo in a hypotensive or syncopal patient.",
+    "escalation_warning": "RV heave or loud P2 with hypotension, syncope, or rising JVP suggests acute RV failure (massive PE, PH crisis) and needs immediate echo and escalation.",
+    "interobserver_note": "No kappa reported. Specialists outperformed generalists: loud P2 on inspiration LR+ 3.2 (specialists) vs 1.2 (generalists); quote 'positive LR 1.2, 95% CrI [0.58, 2.4]' for generalists (Results text after Table 3)."
+  },
+  "tier": "verified",
+  "extraction_notes": "PMC OA full text of PMID 25343585 read; all five estimates copied from Table 3 (All Examiners and Specialists columns). Prevalence 25/52 = 0.481 computed from Results ('25 met criteria for PH'). Values are Bayesian credible intervals (CrI). The paper's systematic review (31 studies) found heterogeneous, mostly uncontrolled data; its Table 1 re-derives from a liver-transplant cohort of 55 patients (8 with PAH): quote 'a loud P2 had a sensitivity of 37.5% [95% CI: 14%-69%] and a specificity of 98% [95% CI: 89%-100%] while an RV heave had a sensitivity of 37.5%' (Results/Table 1 of review section). That primary study is cited only as reference [27] without a PMID I could confirm, so it is not entered as an estimate. No JAMA RCE exists for pulmonary hypertension exam. Generalist-only rows (LR+ 1.0-1.5) omitted as estimates but visible in Table 3.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:41:04+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T07:49:09.346Z",
+  "verification_notes": "",
+  "record_version": 3
+}

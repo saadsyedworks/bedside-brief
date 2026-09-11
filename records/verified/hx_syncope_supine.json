@@ -1,0 +1,80 @@
+{
+  "identity": {
+    "id": "hx_syncope_supine",
+    "title": "Syncope while supine or seated without warning",
+    "type": "history",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "syncope"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "bradyarrhythmia",
+      "reflex_vasovagal",
+      "tachyarrhythmia"
+    ],
+    "indication_tags": []
+  },
+  "technique": {
+    "how": "Ask what position the patient was in when consciousness was lost (lying flat, sitting, standing) and whether there was any warning (nausea, warmth, sweating, visual greying) or none at all. Confirm with a witness whether the patient was already lying down before collapse rather than falling to a supine position.",
+    "prerequisites": "Reliable account of body position at the moment of loss of consciousness.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Syncope while supine (like exertional syncope) was among the most specific historical predictors of a cardiac cause in patients with heart disease (Alboni 2001) and is a scored predictor in the EGSYS cardiac-syncope score; it scores against vasovagal syncope in the Calgary score.",
+    "negative_finding": "Syncope only when upright with a typical prodrome favours reflex or orthostatic mechanisms but does not exclude arrhythmia.",
+    "pitfalls": "Sleep-related vasovagal syncope and situational syncope can occur lying down; patients may misreport position after amnesia for the event.",
+    "changes_what": "Positive: treat as probable arrhythmic syncope - ECG, monitoring, consider admission. Negative: supports reflex/orthostatic pathway only alongside other features."
+  },
+  "estimates": [],
+  "evidence_status": "not_quantified",
+  "sources": [
+    {
+      "citation": "Albassam OT, Redelmeier RJ, Shadowitz S, Husain AM, Simel D, Etchells EE. Did This Patient Have Cardiac Syncope?: The Rational Clinical Examination Systematic Review. JAMA. 2019;321(24):2448-2457.",
+      "doi": "10.1001/jama.2019.8001",
+      "pmid": "31237649",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2019
+    },
+    {
+      "citation": "Alboni P, Brignole M, Menozzi C, et al. Diagnostic value of history in patients with syncope with or without heart disease. J Am Coll Cardiol. 2001;37(7):1921-1928.",
+      "doi": "10.1016/s0735-1097(01)01241-4",
+      "pmid": "11401133",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2001
+    },
+    {
+      "citation": "Sheldon R, Rose S, Connolly S, Ritchie D, Koshman ML, Frenneaux M. Diagnostic criteria for vasovagal syncope based on a quantitative history. Eur Heart J. 2006;27(3):344-350.",
+      "doi": "10.1093/eurheartj/ehi584",
+      "pmid": "16223744",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2006
+    },
+    {
+      "citation": "Del Rosso A, Ungar A, Maggi R, et al. Clinical predictors of cardiac syncope at initial evaluation in patients referred urgently to a general hospital: the EGSYS score. Heart. 2008;94(12):1620-1626.",
+      "doi": null,
+      "pmid": "18519550",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2008
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use absence of supine syncope to discharge a patient with structural heart disease, abnormal ECG, or exertional syncope.",
+    "escalation_warning": "Syncope while lying down with no prodrome should be treated as arrhythmic until proven otherwise - monitored bed and cardiology review.",
+    "interobserver_note": "Self/witness report; reproducibility not reported."
+  },
+  "tier": "verified",
+  "extraction_notes": "No sensitivity/specificity/LR for supine syncope is visible in accessible text. RCE 2019 abstract does not report a supine-position estimate and its evidence table is behind a paywall (no PMC). Alboni 2001 abstract: 'the most specific predictors of a cardiac cause were syncope in the supine position or during effort' (no number). Calgary vasovagal score (Sheldon 2006) abstract reports only composite accuracy (89% sens/91% spec); the item weight for supine syncope is in its Table 3, not readable here. EGSYS abstract lists 'syncope during effort or in supine position' as a predictor without univariate values. Verifier with JAMA access should extract the 'syncope while supine' row from RCE 2019 (expected LR+ roughly 2-4).",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T01:47:57+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T05:24:02.427Z",
+  "verification_notes": "",
+  "record_version": 3
+}

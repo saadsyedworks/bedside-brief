@@ -1,0 +1,178 @@
+{
+  "identity": {
+    "id": "fn_head_impulse_test",
+    "title": "Head impulse test (corrective saccade = peripheral)",
+    "type": "functional",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dizziness"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "posterior_circulation_stroke",
+      "vestibular_neuritis"
+    ],
+    "indication_tags": [
+      "acute_onset"
+    ]
+  },
+  "technique": {
+    "how": "Patient fixes gaze on your nose; hold the head with both hands and deliver a small (10-20 degree), rapid, unpredictable horizontal head turn to each side, watching the eyes as the head stops. A corrective ('catch-up') saccade back to your nose after the turn indicates a deficient vestibulo-ocular reflex on that side (abnormal = peripheral); eyes that stay locked on target = normal.",
+    "prerequisites": "Only interpretable in acute vestibular syndrome (continuous vertigo with spontaneous nystagmus); the patient must be able to fixate. Warn the patient and check cervical range of motion first.",
+    "contraindications": "Cervical spine instability or acute neck injury, known carotid/vertebral dissection, severe cervical spondylosis."
+  },
+  "interpretation": {
+    "positive_finding": "Abnormal test (catch-up saccade) supports a peripheral vestibular lesion (vestibular neuritis) on the side toward which the head was turned; in Kattah 2009 an abnormal h-HIT was present in 100% of peripheral cases.",
+    "negative_finding": "A NORMAL head impulse test in a patient with acute vestibular syndrome is the dangerous result: it suggests a central (stroke) cause - present in about 80% of central AVS (pooled) and 93% in Kattah 2009 (NLR 0.07).",
+    "pitfalls": "The direction of inference is inverted relative to most tests (normal = worrying); AICA strokes involving the labyrinth give a falsely 'peripheral' abnormal HIT (sensitivity only 36% for AICA strokes), so a positive HIT must be combined with nystagmus and skew (HINTS/HINTS+). Small saccades are easily missed by untrained examiners, and the test is meaningless without spontaneous nystagmus.",
+    "changes_what": "Normal HIT in AVS: treat as central; stroke pathway/MRI. Abnormal HIT: supports neuritis only if nystagmus is unidirectional and no skew; otherwise still image."
+  },
+  "estimates": [
+    {
+      "target_condition": "Central acute vestibular syndrome - normal horizontal head impulse test",
+      "population": "Pooled AVS cohorts (10 study cohorts, n=800; hHIT assessed in 422 central and 378 peripheral patients)",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Delayed MRI-DWI for peripheral cases; confirmatory neuroimaging for stroke",
+      "sensitivity": {
+        "value": 0.799,
+        "ci_low": 0.722,
+        "ci_high": 0.875
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "Sensitivity for detecting a central cause of AVS was highest for a normal hHIT (79.9% [95% CI 72.2-87.5])",
+      "location": "Results, 'Diagnostic accuracy of bedside examination findings' (Ann Neurol 2023;94:295; PMC10524166); supplementary Table 2"
+    },
+    {
+      "target_condition": "AICA-territory stroke in AVS - normal hHIT alone",
+      "population": "AICA stroke subgroup of pooled AVS cohorts",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Confirmatory neuroimaging",
+      "sensitivity": {
+        "value": 0.36,
+        "ci_low": 0.202,
+        "ci_high": 0.555
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "minimal",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "AICA strokes were missed more frequently when applying the hHIT alone (sensitivity=36.0% [20.2-55.5])",
+      "location": "Results, 'Diagnostic accuracy in AVS stratified by stroke location', Table 4 (Ann Neurol 2023;94:295; PMC10524166)"
+    },
+    {
+      "target_condition": "Central cause of acute vertigo/dizziness - head impulse test (normal = central)",
+      "population": "ED patients with acute vertigo or dizziness; 17 studies, 1366 patients (not restricted to AVS)",
+      "setting": "ED",
+      "prevalence": null,
+      "reference_standard": "Neuroimaging-confirmed central vs peripheral etiology",
+      "sensitivity": {
+        "value": 0.768,
+        "ci_low": 0.644,
+        "ci_high": 0.858
+      },
+      "specificity": {
+        "value": 0.891,
+        "ci_low": 0.758,
+        "ci_high": 0.956
+      },
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "head impulse test (HIT)-17 studies, 1366 patients, sensitivity 76.8% (64.4%-85.8%, low) and specificity 89.1% (95% CI 75.8%-95.6%, moderate)",
+      "location": "Abstract, Results (Acad Emerg Med 2023;30:552)"
+    },
+    {
+      "target_condition": "Central acute vestibular syndrome - h-HIT normal or untestable",
+      "population": "101 consecutive high-risk AVS patients (25 peripheral, 76 central); neuro-ophthalmologist examiner",
+      "setting": "ED",
+      "prevalence": 0.75,
+      "reference_standard": "MRI (or CT) for stroke; normal MRI plus clinical follow-up for peripheral",
+      "sensitivity": {
+        "value": 0.93,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 1.0,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": null,
+      "lr_negative": {
+        "value": 0.07,
+        "ci_low": 0.03,
+        "ci_high": 0.15
+      },
+      "computed": false,
+      "interpretation_label": "both",
+      "evidence_level": "single_study",
+      "source_index": 2,
+      "quote": "h-HIT normal or untestable 0% 93% 0.07 (0.03-0.15)",
+      "location": "Table 1 (PAVS n=25 vs CAVS n=76), Stroke 2009;40:3504 (PMC4593511)"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Tarnutzer AA, Gold D, Wang Z, et al. Impact of clinician training background and stroke location on bedside diagnostic test accuracy in the acute vestibular syndrome - a meta-analysis. Ann Neurol. 2023;94(2):295-308.",
+      "doi": "10.1002/ana.26661",
+      "pmid": "37038843",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2023
+    },
+    {
+      "citation": "Diagnostic accuracy of the physical examination in emergency department patients with acute vertigo or dizziness: a systematic review and meta-analysis for GRACE-3. Acad Emerg Med. 2023;30(5):552-578.",
+      "doi": null,
+      "pmid": "36453134",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2023
+    },
+    {
+      "citation": "Kattah JC, Talkad AV, Wang DZ, Hsieh YH, Newman-Toker DE. HINTS to diagnose stroke in the acute vestibular syndrome: three-step bedside oculomotor examination more sensitive than early MRI diffusion-weighted imaging. Stroke. 2009;40(11):3504-3510.",
+      "doi": "10.1161/STROKEAHA.109.551234",
+      "pmid": "19762709",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2009
+    },
+    {
+      "citation": "Tarnutzer AA, Berkowitz AL, Robinson KA, Hsieh YH, Newman-Toker DE. Does my dizzy patient have a stroke? A systematic review of bedside diagnosis in acute vestibular syndrome. CMAJ. 2011;183(9):E571-E592.",
+      "doi": "10.1503/cmaj.100174",
+      "pmid": "21576300",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2011
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Not valid outside acute vestibular syndrome (no spontaneous nystagmus, episodic or positional vertigo), in patients who cannot fixate, or with cervical instability/dissection. Do not use HIT alone to rule out stroke.",
+    "escalation_warning": "A normal head impulse in a patient with continuous vertigo and nystagmus is a stroke warning even with normal CT; an abnormal HIT does not exclude AICA infarction, especially with new hearing loss.",
+    "interobserver_note": "Accuracy depends on examiner expertise: bedside HIT sensitivity for central lesions was as low as 58% in one non-expert cohort (Machner, cited in Ann Neurol 2023); video-HIT meta-analysis reports sens 84%/spec 85% (PMID 40447837, not cited as estimate)."
+  },
+  "tier": "verified",
+  "extraction_notes": "Direction of inference: here 'positive for central' = NORMAL HIT, so pooled sensitivity refers to the proportion of central AVS with a normal HIT. Ann Neurol 2023 (PMC full text) gives pooled sensitivity in the Results text but specificity only in supplementary Table 2 (not viewable) - left null. GRACE-3 (abstract) pools a broader ED vertigo/dizziness population (not AVS-only), so it is reported as a separate estimate. Kattah 2009 Table 1 values read from PMC full text; specificity 100% = 0/25 peripheral. Tarnutzer 2011 CMAJ anchor: abstract-only PMC deposit, cited without numbers.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T02:00:17+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T07:51:37.415Z",
+  "verification_notes": "",
+  "record_version": 3
+}

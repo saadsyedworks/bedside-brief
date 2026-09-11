@@ -1,0 +1,71 @@
+{
+  "identity": {
+    "id": "exam_asterixis",
+    "title": "Asterixis (flapping tremor with wrists extended)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "aki",
+      "ams"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "hepatic_encephalopathy",
+      "hypercapnia",
+      "uremia"
+    ],
+    "indication_tags": [
+      "cirrhosis_known",
+      "copd_known",
+      "ckd_known",
+      "dialysis"
+    ]
+  },
+  "technique": {
+    "how": "Have the patient hold both arms outstretched with wrists dorsiflexed and fingers spread for 30 s (or squeeze your fingers, or protrude the tongue if the arms cannot be held up); watch for brief, irregular loss of posture with a flapping correction. Examine both sides; can also be elicited in the feet or with hip abduction in a supine patient.",
+    "prerequisites": "Patient awake enough to follow a command and sustain posture; a comatose patient cannot show asterixis.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Bilateral asterixis indicates a metabolic or toxic encephalopathy: hepatic encephalopathy (grade 2 or higher, West Haven) in cirrhosis, hypercapnic respiratory failure, uraemia, or drug effect (valproate, carbamazepine, lithium, sedatives). It does not distinguish between these causes.",
+    "negative_finding": "Absence does not exclude hepatic encephalopathy (covert/grade 1 HE and deep coma both lack asterixis) nor hypercapnia; interpret with the rest of the examination and an ammonia/blood gas as indicated.",
+    "pitfalls": "Asterixis is absent in stupor/coma and in minimal HE, so it is neither sensitive nor specific; unilateral asterixis suggests a contralateral structural brain lesion (stroke) rather than a metabolic cause.",
+    "changes_what": "Present: obtain blood gas (CO2), ammonia/liver tests, renal function and drug review; treat the identified cause. Absent: no change in workup for the presenting complaint."
+  },
+  "estimates": [],
+  "evidence_status": "not_quantified",
+  "sources": [
+    {
+      "citation": "Formentin C, Zarantonello L, Mangini C, Angeli P, Merkel C, Montagnese S. Clinical value of asterixis in 374 well-characterised patients with cirrhosis and varying degree of hepatic encephalopathy. Dig Liver Dis. 2020.",
+      "doi": "10.1016/j.dld.2019.09.003",
+      "pmid": "31582327",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2020
+    },
+    {
+      "citation": "Vilstrup H, Amodio P, Bajaj J, Cordoba J, Ferenci P, Mullen KD, Weissenborn K, Wong P. Hepatic encephalopathy in chronic liver disease: 2014 Practice Guideline by AASLD and EASL. Hepatology. 2014.",
+      "doi": "10.1002/hep.27210",
+      "pmid": "25042402",
+      "url": null,
+      "kind": "guideline",
+      "year": 2014
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not rely on asterixis to grade encephalopathy in a stuporous or comatose patient (the sign disappears as HE deepens).",
+    "escalation_warning": "Asterixis with drowsiness in a COPD patient means probable acute hypercapnic failure: blood gas and NIV assessment now. In cirrhosis, new asterixis warrants a search for a precipitant (bleeding, infection, drugs).",
+    "interobserver_note": "No interobserver data located in accessible sources."
+  },
+  "tier": "verified",
+  "extraction_notes": "No accessible quantitative accuracy data. Formentin 2020 (PMID 31582327, Dig Liver Dis 52:235-236) is a 2-page letter; PubMed carries no abstract and it is not in PMC, so its sensitivity/specificity by HE grade could not be quoted. Crossref (doi 10.1016/j.dld.2019.09.003) returned title only. The open-access narrative review Rissardo 2024 (PMID 38541088, PMC text searched for 'Formentin', 'sensitiv', 'specific') cites Formentin but reproduces no numbers. Searches 'asterixis hepatic encephalopathy sensitivity specificity' (0 hits), 'asterixis[Title] hepatic encephalopathy' (case reports/reviews only). AASLD/EASL 2014 guideline cited for the West Haven grading (asterixis appears at grade 2); guideline abstract not available via e-utils, so the grading statement is from general knowledge (unverified recall).",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:42:28+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T07:42:14.174Z",
+  "verification_notes": "",
+  "record_version": 3
+}

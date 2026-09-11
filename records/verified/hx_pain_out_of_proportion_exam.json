@@ -1,0 +1,98 @@
+{
+  "identity": {
+    "id": "hx_pain_out_of_proportion_exam",
+    "title": "Pain out of proportion to examination findings",
+    "type": "history",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "abdominal_pain",
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "mesenteric_ischemia",
+      "necrotizing_fasciitis"
+    ],
+    "indication_tags": [
+      "elderly",
+      "acute_onset"
+    ]
+  },
+  "technique": {
+    "how": "Compare reported pain severity and analgesic requirement with objective findings: for the abdomen, severe continuous pain with a soft, non-tender or minimally tender abdomen; for skin/soft tissue, severe pain or exquisite tenderness extending beyond the visible erythema, or pain disproportionate to a modest cellulitis. Record the discordance explicitly.",
+    "prerequisites": "Patient able to report pain; opioid or sedative effect accounted for.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "In a soft-tissue infection, pain out of proportion raised the odds of necrotizing fasciitis about 4.5-fold versus cellulitis in a case-control study; in abdominal pain with vascular risk (AF, atherosclerosis, low flow), it is the classic cue for early mesenteric ischemia and should prompt CT angiography rather than observation.",
+    "negative_finding": "Absence is not reassuring: no single red flag had sufficient sensitivity to rule out necrotizing fasciitis (LR- >=0.5 for all findings), and mesenteric ischemia frequently presents with vague or non-specific pain, especially in the elderly.",
+    "pitfalls": "Late presentations of ischemia develop peritonism, so the sign is transient; analgesia, diabetes, and altered mental status blunt reporting. Distinguishing 'out of proportion' is subjective and undefined in most studies.",
+    "changes_what": "Present: escalate now - CT angiography for suspected mesenteric ischemia; urgent surgical consult for suspected necrotizing infection. Absent: does not lower probability enough to stop work-up."
+  },
+  "estimates": [
+    {
+      "target_condition": "Necrotizing fasciitis versus cellulitis (case-control): pain-out-of-proportion documented on history/physical examination",
+      "population": "All NF cases admitted to a large Canadian tertiary hospital 2004-2013, each matched to two cellulitis controls (retrospective case-control)",
+      "setting": "inpatient",
+      "prevalence": null,
+      "reference_standard": "Admitted with diagnosis of necrotizing fasciitis (chart-confirmed) versus cellulitis controls",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 4.5,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": null,
+      "computed": false,
+      "computed_from": "",
+      "interpretation_label": "rule_in",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "The clinical features that most significantly increased the odds of NF were recent surgery (LR+ 7.0) pain-out-of-proportion (LR+ 4.5), diarrhea (LR+ 6.0)",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "partially_quantified",
+  "sources": [
+    {
+      "citation": "Alayed KA, Tan C, Daneman N. Red Flags for Necrotizing Fasciitis: A Case Control Study. International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases. 2016.",
+      "doi": "10.1016/j.ijid.2015.04.021",
+      "pmid": "25975653",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2016
+    },
+    {
+      "citation": "Cudnik MT, Darbha S, Jones J et al. The diagnosis of acute mesenteric ischemia: A systematic review and meta-analysis. Academic emergency medicine : official journal of the Society for Academic Emergency Medicine. 2014.",
+      "doi": "10.1111/acem.12254",
+      "pmid": "24238311",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2014
+    },
+    {
+      "citation": "Fernando SM, Tran A, Cheng W et al. Necrotizing Soft Tissue Infection: Diagnostic Accuracy of Physical Examination, Imaging, and LRINEC Score: A Systematic Review and Meta-Analysis. Annals of surgery. 2019.",
+      "doi": "10.1097/SLA.0000000000002774",
+      "pmid": "29672405",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2019
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not apply to patients who cannot report pain reliably (sedation, dementia, spinal cord injury); absence of the sign never excludes either diagnosis.",
+    "escalation_warning": "Suspected necrotizing infection or mesenteric ischemia is time-critical: surgical consultation / CT angiography without waiting for laboratory results.",
+    "interobserver_note": "No interobserver data; 'out of proportion' was extracted from charts retrospectively in Alayed 2016 and is not operationally defined."
+  },
+  "tier": "verified",
+  "extraction_notes": "Only one study with a numeric estimate for this specific finding was located: Alayed 2016 (PMID 25975653), a retrospective case-control (NF vs cellulitis); case-control design means no prevalence and LRs may be inflated by spectrum. Its abstract gives LR+ 4.5 but no exact LR- or sensitivity for pain-out-of-proportion, only that 'sensitivity <= 85% and LR- >= 0.5 for all findings' (Abstract, Results); the abstract also reports that absence of all nine red flags gave 'LR- 0.04' (composite, not entered). IJID full text not retrievable via PMC. Mesenteric ischemia: Cudnik 2014 meta-analysis (PMID 24238311) concluded 'Signs, symptoms, and laboratory testing are insufficiently diagnostic for the condition' (Abstract, Conclusions) and pooled no clinical-feature estimates; prevalence in included studies 'ranged from 8% to 60%' (Abstract, Results). No numeric estimate for pain out of proportion in mesenteric ischemia is available. Fernando 2019 (PMID 29672405) NSTI meta-analysis pooled fever, hemorrhagic bullae and hypotension only; pain out of proportion not in abstract and full text not on PMC. Status partially_quantified (one LR direction only, one setting).",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:41:13+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T08:05:10.140Z",
+  "verification_notes": "",
+  "record_version": 3
+}

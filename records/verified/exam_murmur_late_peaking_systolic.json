@@ -1,0 +1,209 @@
+{
+  "identity": {
+    "id": "exam_murmur_late_peaking_systolic",
+    "title": "Harsh crescendo-decrescendo systolic murmur, late-peaking, radiating to carotids, with soft/absent A2",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "chest_pain",
+      "syncope",
+      "dizziness"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "aortic_stenosis",
+      "hcm"
+    ],
+    "indication_tags": [
+      "exertional",
+      "elderly"
+    ]
+  },
+  "technique": {
+    "how": "With the diaphragm at the right 2nd intercostal space and along the left sternal border, time the murmur's peak against S1/S2 (or the carotid pulse); note whether the crescendo peaks in the second half of systole. Listen over both carotids and the right clavicle for radiation, and judge whether A2 is soft or inaudible at the base.",
+    "prerequisites": "Quiet room, patient supine then sitting forward in held expiration; palpate the carotid simultaneously to time systole.",
+    "contraindications": "None; avoid firm carotid pressure in patients with known carotid disease."
+  },
+  "interpretation": {
+    "positive_finding": "A mid-to-late-peaking, harsh ejection murmur that radiates to the right carotid/clavicle with a diminished or absent A2 strongly raises the probability of moderate-or-greater aortic stenosis (LR+ roughly 8-100 for late peak; ~11 for soft S2).",
+    "negative_finding": "Absence of any systolic murmur radiating to the neck or right clavicle makes moderate-or-severe AS unlikely (LR- about 0.05-0.11); an early-peaking soft murmur with a normal A2 favours sclerosis or flow murmur.",
+    "pitfalls": "Murmur loudness does not track severity (low-flow AS is soft), and HCM produces a similar harsh ejection murmur that peaks late but radiates poorly to the neck and has a preserved A2; most accuracy data come from cardiologist examiners in referral populations.",
+    "changes_what": "Positive: obtain echocardiography and treat exertional symptoms as possible severe AS (avoid aggressive vasodilators/nitrates). Negative radiation: AS becomes an unlikely explanation."
+  },
+  "estimates": [
+    {
+      "target_condition": "Aortic stenosis (any/hemodynamically significant, per included studies)",
+      "population": "Adults with systolic murmurs examined mostly by cardiologists; pooled range across RCE-included studies",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Echocardiography or cardiac catheterization",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 8.0,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": null,
+      "computed": false,
+      "computed_from": "Not computed. The RCE reports a between-study RANGE (8.0-101) with no pooled point estimate; value shown is the conservative low end of the range, not a mean.",
+      "interpretation_label": "rule_in",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "mid to late peak intensity of the murmur (positive likelihood ratio, 8.0-101)",
+      "location": "Abstract, Results (PubMed abstract; full text not accessible)"
+    },
+    {
+      "target_condition": "Aortic stenosis - component: absence of murmur radiation to right carotid",
+      "population": "Adults with systolic murmurs, mostly cardiologist examiners; RCE pooled range",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Echocardiography or cardiac catheterization",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": {
+        "value": 0.05,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": false,
+      "computed_from": "Not computed. RCE reports a range 0.05-0.10 for absent radiation to the right carotid; value shown is the low end of the range.",
+      "interpretation_label": "rule_out",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "absence of murmur radiation to the right carotid artery (negative likelihood ratio, 0.05-0.10)",
+      "location": "Abstract, Results (PubMed abstract)"
+    },
+    {
+      "target_condition": "Aortic stenosis of at least moderate severity - component: diminished second heart sound",
+      "population": "868 patients in 7 observational studies examined before echo or left heart catheterization (6 studies, 801 patients for S2)",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Echocardiography and/or left heart catheterization",
+      "sensitivity": {
+        "value": 0.59,
+        "ci_low": 0.44,
+        "ci_high": 0.72
+      },
+      "specificity": {
+        "value": 0.95,
+        "ci_low": 0.85,
+        "ci_high": 0.98
+      },
+      "lr_positive": {
+        "value": 10.87,
+        "ci_low": 3.94,
+        "ci_high": 30.12
+      },
+      "lr_negative": {
+        "value": 0.44,
+        "ci_low": 0.31,
+        "ci_high": 0.61
+      },
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "Diminished S2 0.59 (0.44- 0.72) ... 0.95 (0.85- 0.98) ... 10.87 (3.94-30.12) ... 0.44 (0.31-0.61)",
+      "location": "Table 2 (PMC full text)"
+    },
+    {
+      "target_condition": "Aortic stenosis of at least moderate severity - component: systolic murmur radiating to the neck",
+      "population": "662 patients in 4 observational studies examined before echo or catheterization",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Echocardiography and/or left heart catheterization",
+      "sensitivity": {
+        "value": 0.93,
+        "ci_low": 0.81,
+        "ci_high": 0.97
+      },
+      "specificity": {
+        "value": 0.66,
+        "ci_low": 0.41,
+        "ci_high": 0.84
+      },
+      "lr_positive": {
+        "value": 2.69,
+        "ci_low": 1.48,
+        "ci_high": 4.89
+      },
+      "lr_negative": {
+        "value": 0.11,
+        "ci_low": 0.06,
+        "ci_high": 0.23
+      },
+      "computed": false,
+      "interpretation_label": "rule_out",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "Systolic murmur radiating to the neck 0.93 (0.81-0.97) ... 0.66 (0.41-0.84) ... 2.69 (1.48-4.89) ... 0.11 (0.06-0.23)",
+      "location": "Table 2 (PMC full text)"
+    },
+    {
+      "target_condition": "Moderate or severe aortic stenosis (valve area <=1.2 cm2 or peak gradient >=25 mmHg) - component: absence of murmur over right clavicle",
+      "population": "124 consecutive hospital inpatients referred for echocardiography, examined by a general internist and internal medicine resident",
+      "setting": "inpatient",
+      "prevalence": null,
+      "reference_standard": "Doppler echocardiography",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": {
+        "value": 0.1,
+        "ci_low": 0.01,
+        "ci_high": 0.44
+      },
+      "computed": false,
+      "interpretation_label": "rule_out",
+      "evidence_level": "single_study",
+      "source_index": 2,
+      "quote": "Absence of a murmur over the right clavicle ruled out aortic stenosis (likelihood ratio [LR] 0.10; 95% confidence interval [CI] 0.01, 0.44)",
+      "location": "Abstract, Results (PubMed abstract)"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Etchells E, Bell C, Robb K. Does this patient have an abnormal systolic murmur? JAMA. 1997;277(7):564-571.",
+      "doi": null,
+      "pmid": "9032164",
+      "url": null,
+      "kind": "rce_series",
+      "year": 1997
+    },
+    {
+      "citation": "Bedside Physical Examination for the Diagnosis of Aortic Stenosis: A Systematic Review and Meta-analysis. CJC Open. 2024 (PMC10290951).",
+      "doi": "10.1016/j.cjco.2023.02.007",
+      "pmid": "37377515",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2024
+    },
+    {
+      "citation": "Etchells E, Glenns V, Shadowitz S, Bell C, Siu S. A bedside clinical prediction rule for detecting moderate or severe aortic stenosis. J Gen Intern Med. 1998;13(10):699-704.",
+      "doi": "10.1046/j.1525-1497.1998.00207.x",
+      "pmid": "9798818",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1998
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use murmur intensity or absence of a late peak to exclude severe low-flow/low-gradient AS in patients with reduced LV function; do not rely on auscultation alone when exertional syncope or heart failure is present.",
+    "escalation_warning": "Exertional syncope, angina or heart failure with a murmur suggestive of AS warrants urgent echocardiography and cardiology review; avoid nitrates, aggressive diuresis and vasodilators until AS severity is known.",
+    "interobserver_note": "Detection of systolic murmurs has fair reliability (kappa 0.30-0.48, RCE); kappa for murmur radiation to the neck 0.33 and for diminished S2 0.54 (Etchells 1998, cited in CJC Open 2024). Late-peak timing reliability not reported."
+  },
+  "tier": "verified",
+  "extraction_notes": "Late-peak timing itself: only the 1997 RCE range (8.0-101) is available as a pooled figure; the 2024 CJC Open meta-analysis found only 2 studies (216 pts) and did not pool late-peaking murmur, and I could not locate/retrieve those two primaries (Abe; Gamaza-Chulian), so no single-study point estimate is given. RCE full text not accessible (no PMC), so ranges come from the abstract and the per-study 2x2s are not visible; ranges recorded as low-end value with explicit computed_from note, never averaged. The composite title bundles three signs; separate component estimates were entered for diminished S2 and neck radiation from CJC Open Table 2 (PMC10290951) and for absence of right-clavicle murmur from Etchells 1998 (internist examiners, inpatient). Aronow & Kronzon 1987 (PMID 3497570) is the key elderly primary but has no abstract on PubMed, so not cited.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T01:37:35+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T06:29:47.623Z",
+  "verification_notes": "",
+  "record_version": 3
+}

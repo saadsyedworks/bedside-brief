@@ -1,0 +1,180 @@
+{
+  "identity": {
+    "id": "exam_tense_distended_abdomen_iah",
+    "title": "Tense, distended abdomen (suspected intra-abdominal hypertension)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "aki",
+      "abdominal_pain"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "abdominal_compartment",
+      "cirrhosis",
+      "small_bowel_obstruction"
+    ],
+    "indication_tags": [
+      "post_operative",
+      "trauma",
+      "cirrhosis_known"
+    ]
+  },
+  "technique": {
+    "how": "Inspect for abdominal distension and palpate for a tense, non-compressible, drum-like abdomen; note rising peak airway pressures, oliguria, and falling cardiac output as supporting signs. Judge as 'elevated IAP' or 'normal'; then measure bladder (intravesical) pressure supine at end-expiration with 25 mL saline, transducer zeroed at the mid-axillary line.",
+    "prerequisites": "Foley catheter for confirmatory intravesical pressure; knowledge of risk factors (massive resuscitation, laparotomy, pancreatitis, ascites, obesity).",
+    "contraindications": "None for the exam; bladder pressure unreliable with neurogenic bladder, bladder trauma, or pelvic packing."
+  },
+  "interpretation": {
+    "positive_finding": "A tense, distended abdomen judged clinically as 'raised pressure' is moderately specific (0.81-0.94) for IAH and, with new AKI or high airway pressures, should prompt immediate bladder-pressure measurement and consideration of abdominal compartment syndrome.",
+    "negative_finding": "A soft or non-distended abdomen does not exclude IAH: sensitivity is only 0.40-0.61, so at-risk ICU patients need measured bladder pressure regardless.",
+    "pitfalls": "Clinicians underestimate IAP; obesity, ascites, and post-laparotomy dressings confound palpation, and threshold definitions (IAP >10, >15, >=18 mmHg) differ between studies. WSACS defines IAH as sustained IAP >=12 mmHg and ACS as >20 mmHg with new organ dysfunction.",
+    "changes_what": "Positive exam in an at-risk patient: measure bladder pressure now and escalate for ACS; negative exam should not stop protocolized IAP monitoring in at-risk ICU patients."
+  },
+  "estimates": [
+    {
+      "target_condition": "Elevated intra-abdominal pressure (bladder pressure >10 mmHg)",
+      "population": "42 adult blunt-trauma ICU patients (mean ISS 36), 147 paired daily assessments; prospective blinded",
+      "setting": "ICU",
+      "prevalence": 0.32,
+      "reference_standard": "Intravesical (bladder) pressure measurement",
+      "sensitivity": {
+        "value": 0.4,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.94,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 6.7,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.64,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.40/(1-0.94) = 6.7; LR- = (1-0.40)/0.94 = 0.64; prevalence 47/147 measurements >10 mmHg",
+      "interpretation_label": "rule_in",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "sensitivity, specificity, positive predictive value, negative predictive value and accuracy of clinical abdominal examination for identifying elevated IAP were 40%, 94%, 76%, 77% and 77%",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Significantly elevated intra-abdominal pressure (bladder pressure >15 mmHg)",
+      "population": "42 adult blunt-trauma ICU patients (mean ISS 36), 147 paired daily assessments; prospective blinded",
+      "setting": "ICU",
+      "prevalence": 0.11,
+      "reference_standard": "Intravesical (bladder) pressure measurement",
+      "sensitivity": {
+        "value": 0.56,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.87,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 4.3,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.51,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.56/(1-0.87) = 4.3; LR- = (1-0.56)/0.87 = 0.51; prevalence 16/147 measurements >15 mmHg",
+      "interpretation_label": "modest",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "sensitivity, specificity, positive predictive value, negative predictive value and accuracy of 56%, 87%, 35%, 94% and 84% respectively, for significantly elevated IAP",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Elevated intra-abdominal pressure (>=18 mmHg)",
+      "population": "110 post-operative ICU patients at a trauma center, 150 clinical estimates of IAP; prospective blinded",
+      "setting": "ICU",
+      "prevalence": 0.21,
+      "reference_standard": "Intravesical (bladder) pressure measurement",
+      "sensitivity": {
+        "value": 0.609,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.805,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 3.1,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.49,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.609/(1-0.805) = 3.1; LR- = (1-0.609)/0.805 = 0.49; prevalence: IAP 'elevated in 21%' of 150 estimates",
+      "interpretation_label": "modest",
+      "evidence_level": "single_study",
+      "source_index": 1,
+      "quote": "which was elevated in 21%. The kappa score was 0.37; sensitivity, 60.9%; specificity, 80.5%; ppv, 45.2%; npv, 88.6%.",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Kirkpatrick AW, Brenneman FD, McLean RF, Rapanos T, Boulanger BR. Is clinical examination an accurate indicator of raised intra-abdominal pressure in critically injured patients? Can J Surg. 2000.",
+      "doi": null,
+      "pmid": "10851415",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2000
+    },
+    {
+      "citation": "Sugrue M, Bauman A, Jones F, Bishop G, Flabouris A, Parr M, et al. Clinical examination is an inaccurate predictor of intraabdominal pressure. World J Surg. 2002.",
+      "doi": "10.1007/s00268-002-6411-8",
+      "pmid": "12297912",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2002
+    },
+    {
+      "citation": "Kirkpatrick AW, Roberts DJ, De Waele J, Jaeschke R, Malbrain ML, De Keulenaer B, Duchesne J, Bjorck M, et al. Intra-abdominal hypertension and the abdominal compartment syndrome: updated consensus definitions and clinical practice guidelines from the World Society of the Abdominal Compartment Syndrome. Intensive Care Med. 2013.",
+      "doi": "10.1007/s00134-013-2906-z",
+      "pmid": "23673399",
+      "url": null,
+      "kind": "guideline",
+      "year": 2013
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use a soft abdomen to exclude IAH/ACS in any ICU patient with risk factors (massive fluids, laparotomy, pancreatitis, burns, ascites) and new oliguria or rising airway pressures.",
+    "escalation_warning": "Tense abdomen with oliguria, rising ventilator pressures, or hemodynamic deterioration: urgent bladder pressure and surgical consultation for possible decompressive laparotomy.",
+    "interobserver_note": "Sugrue 2002: agreement between clinical estimate and measured IAP kappa 0.37 (Abstract, Results); between-examiner kappa not reported."
+  },
+  "tier": "verified",
+  "extraction_notes": "Both primary studies are single-center ICU cohorts with repeated measurements per patient (unit of analysis is the assessment, not the patient), so CIs are not reported and prevalence is per measurement. Thresholds differ (>10, >15, >=18 mmHg) and predate the WSACS 2013 definition of IAH (>=12 mmHg); no pooled estimate exists to my knowledge. Full texts not open access via PMC, so all quotes/locations are from abstracts. WSACS 2013 (PMID 23673399) recommends IAP measurement rather than clinical estimation in at-risk patients; the 'IAH >=12 mmHg / ACS >20 mmHg' definitions are from that guideline (unverified recall of exact wording; not in abstract).",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T02:33:35+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T02:27:00.199Z",
+  "verification_notes": "",
+  "record_version": 3
+}

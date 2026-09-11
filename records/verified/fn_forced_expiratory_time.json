@@ -1,0 +1,129 @@
+{
+  "identity": {
+    "id": "fn_forced_expiratory_time",
+    "title": "Forced expiratory time >6-9 s (stethoscope over trachea, full forced exhalation)",
+    "type": "functional",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "asthma_exacerbation",
+      "copd_exacerbation"
+    ],
+    "indication_tags": [
+      "copd_known"
+    ]
+  },
+  "technique": {
+    "how": "Place the stethoscope diaphragm over the trachea in the suprasternal notch. Ask the patient to take a maximal breath in and blow out as hard and fast as possible with the mouth open until no more air comes; time with a second hand from the start of exhalation until airflow noise stops. Take the best of two or three efforts.",
+    "prerequisites": "Patient able to cooperate with a maximal effort; not in severe distress.",
+    "contraindications": "Recent pneumothorax, haemoptysis, or unstable chest wall/abdominal wounds where a forced manoeuvre is unsafe (relative)."
+  },
+  "interpretation": {
+    "positive_finding": "In patients referred for spirometry aged >=60, an FET >8 s raises the likelihood of obstructive airways disease about four-fold (LR 4.08, 95% CI 2.54-6.79); 6-8 s roughly doubles it (LR 2.19).",
+    "negative_finding": "An FET of 4-6 s lowers the likelihood of obstruction in patients >=60 (LR 0.42, 95% CI 0.24-0.73); the test discriminates less well in younger subjects, so a short FET does not exclude asthma in the young.",
+    "pitfalls": "Submaximal effort, cough, or stopping early shortens the time; glottic closure or a slow start lengthens it. Sensitivity/specificity depend on the cutoff, and the original study's optimal cutoff was 6 s, which differs from the '>6-9 s' range in this id's title.",
+    "changes_what": "Long FET (>8 s): treat as probable obstruction and confirm with spirometry/peak flow. Short FET (4-6 s) in an older patient: obstruction less likely, look for other causes of dyspnea."
+  },
+  "estimates": [
+    {
+      "target_condition": "Obstructive airways disease on spirometry; finding = FET greater than 8 seconds (stratum LR), patients aged >=60",
+      "population": "Consecutive patients referred to a tertiary-hospital pulmonary function laboratory (preoperative, acute/chronic and occupational lung disease), n=400; FET measured by a physician examiner; stratum LRs from age-adjusted logistic model, subjects aged >=60 years",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Spirometry (obstructive airways disease by laboratory criteria)",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 4.08,
+        "ci_low": 2.54,
+        "ci_high": 6.79
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "of greater than 8 seconds, 4.08 (95% CI, 2.54 to 6.79)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Obstructive airways disease on spirometry; finding = FET 6 to 8 seconds (stratum LR), patients aged >=60",
+      "population": "Consecutive patients referred to a tertiary-hospital pulmonary function laboratory (preoperative, acute/chronic and occupational lung disease), n=400; FET measured by a physician examiner; stratum LRs from age-adjusted logistic model, subjects aged >=60 years",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Spirometry (obstructive airways disease by laboratory criteria)",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 2.19,
+        "ci_low": 1.02,
+        "ci_high": 4.8
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "of 6 to 8 seconds, 2.19 (95% CI, 1.02 to 4.80)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Obstructive airways disease on spirometry; finding = FET 4 to 6 seconds (stratum LR <1, i.e. this band argues AGAINST obstruction), patients aged >=60",
+      "population": "Consecutive patients referred to a tertiary-hospital pulmonary function laboratory (preoperative, acute/chronic and occupational lung disease), n=400; FET measured by a physician examiner; stratum LRs from age-adjusted logistic model, subjects aged >=60 years",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Spirometry (obstructive airways disease by laboratory criteria)",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 0.42,
+        "ci_low": 0.24,
+        "ci_high": 0.73
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_out",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "an FET of 4 to 6 seconds is 0.42 (95% confidence interval [CI], 0.24 to 0.73)",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "partially_quantified",
+  "sources": [
+    {
+      "citation": "Schapira RM, Schapira MM, Funahashi A, McAuliffe TL, Varkey B. The value of the forced expiratory time in the physical diagnosis of obstructive airways disease. JAMA. 1993;270(6):731-736.",
+      "doi": null,
+      "pmid": "8336375",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1993
+    },
+    {
+      "citation": "Holleman DR Jr, Simel DL. Does the clinical examination predict airflow limitation? JAMA. 1995;273(4):313-319.",
+      "doi": null,
+      "pmid": "7815660",
+      "url": null,
+      "kind": "rce_series",
+      "year": 1995
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use in an exhausted, hypoxic or severely distressed patient, or to decide against bronchodilators in an acute wheezy presentation.",
+    "escalation_warning": "A patient too breathless to perform a forced exhalation is showing a severity sign; act on that rather than on the timing.",
+    "interobserver_note": "Interexaminer agreement moderate-good: quote 'The kappa statistic for interexaminer agreement is 0.70.' (Schapira 1993, Abstract, Results; 100 subjects examined by pairs of physicians)."
+  },
+  "tier": "verified",
+  "extraction_notes": "Anchor RCE PMID 7815660 confirmed (title matches) but has no PubMed abstract and no PMC text, so its pooled FET summary could not be read; the primary study it draws on (Schapira 1993, PMID 8336375, confirmed) supplies all numbers from its abstract. Schapira reports multilevel stratum LRs by FET band (4-6 s, 6-8 s, >8 s) for subjects >=60, not a single LR+/LR- pair; each band is entered as a separate estimate with the value in lr_positive (the LR for that band being present), and the 4-6 s band with LR 0.42 is explicitly labelled as arguing against obstruction. Sensitivity/specificity at each cutoff (2-14 s) are in the full text, not the abstract, so they are null. Quote 'Using the FET maneuver with a cutoff value of 6 seconds will correctly diagnose the greatest number of subjects' (Abstract). Status partially_quantified because no estimate has a sens/spec pair or an LR+/LR- pair, and the id's '>6-9 s' threshold differs from the study's bands. CARE-COAD1 (Straus 2000, PMID 10770147) was fetched but does not evaluate FET.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:41:04+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T06:57:13.156Z",
+  "verification_notes": "",
+  "record_version": 3
+}

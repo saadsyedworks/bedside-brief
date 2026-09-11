@@ -1,0 +1,58 @@
+{
+  "identity": {
+    "id": "exam_stridor",
+    "title": "Inspiratory stridor at rest (audible without stethoscope)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "hypotension"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "anaphylaxis",
+      "upper_airway_obstruction"
+    ],
+    "indication_tags": [
+      "acute_onset"
+    ]
+  },
+  "technique": {
+    "how": "Stand at the bedside and listen without a stethoscope while the patient breathes at rest; stridor is a harsh, high-pitched monophonic sound loudest over the neck, predominantly inspiratory in extrathoracic obstruction. Note voice change, drooling, tripod posture, tongue or lip swelling and urticaria, and check it is not transmitted wheeze by auscultating the neck versus the chest.",
+    "prerequisites": "Do not lie the patient flat or instrument the mouth until an airway plan exists.",
+    "contraindications": "Avoid tongue-depressor examination of the pharynx if epiglottitis or supraglottic swelling is suspected."
+  },
+  "interpretation": {
+    "positive_finding": "Inspiratory stridor at rest indicates critical extrathoracic upper-airway narrowing (laryngeal oedema in anaphylaxis, angioedema, epiglottitis, foreign body, tumour, vocal cord dysfunction) and is an airway emergency; with urticaria, hypotension or recent allergen exposure it satisfies WAO clinical criteria for anaphylaxis.",
+    "negative_finding": "Absence of stridor does not exclude airway compromise; obstruction may present with voice change or dysphagia alone, and a silent airway can mean exhaustion or near-total occlusion.",
+    "pitfalls": "Expiratory or biphasic stridor points to intrathoracic or fixed obstruction; polyphonic wheeze from asthma can be mistaken for stridor when loud. Stridor volume does not track severity, and it may disappear as obstruction becomes complete.",
+    "changes_what": "Stridor at rest: call airway help, give IM adrenaline if anaphylaxis possible, avoid supine positioning and sedation. No stridor: still assess airway if voice or swallowing is affected."
+  },
+  "estimates": [],
+  "evidence_status": "not_quantified",
+  "sources": [
+    {
+      "citation": "Cardona V, Ansotegui IJ, Ebisawa M, El-Gamal Y, Fernandez Rivas M, Fineman S, Geller M, Gonzalez-Estrada A, et al. World allergy organization anaphylaxis guidance 2020. World Allergy Organ J. 2020;13(10):100472.",
+      "doi": "10.1016/j.waojou.2020.100472",
+      "pmid": "33204386",
+      "url": null,
+      "kind": "guideline",
+      "year": 2020
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Never delay airway management or adrenaline to complete an examination or await imaging in a stridulous patient.",
+    "escalation_warning": "Stridor at rest with hypoxia, drooling, hypotension, or rapidly progressive swelling: immediate senior airway/anaesthesia/ENT call and preparation for surgical airway.",
+    "interobserver_note": "No interobserver data found."
+  },
+  "tier": "verified",
+  "extraction_notes": "Anchor PMID 33204386 confirmed (title matches; PubMed lists the record year as 2025 but the DOI/issue is 2020). Searches 'stridor likelihood ratio' (10 recent hits, none an adult diagnostic-accuracy study of bedside stridor for upper-airway obstruction or anaphylaxis) found no defensible sensitivity/specificity/LR; most stridor accuracy literature concerns paediatric croup or post-extubation cuff-leak prediction, which do not map to this id. Status not_quantified; WAO 2020 guidance cited as consensus support for stridor as a criterion of severe airway involvement in anaphylaxis (no numeric claims made).",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:41:04+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T07:50:45.168Z",
+  "verification_notes": "",
+  "record_version": 3
+}

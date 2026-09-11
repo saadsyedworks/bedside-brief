@@ -1,0 +1,83 @@
+{
+  "identity": {
+    "id": "hx_stimulant_caffeine_alcohol_use",
+    "title": "Stimulant/substance exposure: caffeine, energy drinks, decongestants, beta-agonists, cocaine/amphetamines, alcohol binge (holiday heart), recent withdrawal",
+    "type": "history",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "palpitations"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "sinus_tachycardia_secondary",
+      "atrial_fibrillation_flutter",
+      "pvcs_benign_ectopy"
+    ],
+    "indication_tags": [
+      "alcohol_use",
+      "new_medication"
+    ]
+  },
+  "technique": {
+    "how": "Ask non-judgementally about the 24-48 h before the palpitations: caffeine/energy drinks (amount), decongestants, inhaled or oral beta-agonists, thyroid hormone, cocaine/amphetamines/MDMA, cannabis, nicotine, and alcohol quantity (binge in the preceding day or two) or abrupt cessation of alcohol/benzodiazepines; ask about weight-loss or 'pre-workout' supplements.",
+    "prerequisites": "Privacy and, when relevant, a urine drug screen or ethanol level to corroborate; check the pulse or rhythm strip during symptoms if ongoing.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "A temporal link to a stimulant, sympathomimetic or alcohol binge supports sinus tachycardia, ectopy or 'holiday heart' AF as the mechanism, and in cocaine/amphetamine use raises ischaemia and ventricular arrhythmia risk.",
+    "negative_finding": "Absence of exposures removes a reversible trigger but does not lower the probability of a primary arrhythmia; documented symptom-rhythm correlation is still required in recurrent palpitations.",
+    "pitfalls": "Attributing palpitations to caffeine or anxiety without a rhythm strip misses AF and SVT (cardiac cause in 43% of 190 consecutive palpitations patients, Weber 1996 Abstract); patients under-report alcohol and illicit drugs.",
+    "changes_what": "Positive: ECG, electrolytes and rhythm capture, then trigger withdrawal with follow-up; negative: proceed to ambulatory monitoring based on symptom pattern, not to reassurance."
+  },
+  "estimates": [],
+  "evidence_status": "not_quantified",
+  "sources": [
+    {
+      "citation": "Weber BE, Kapoor WN. Evaluation and outcomes of patients with palpitations. Am J Med 1996;100:138-148.",
+      "doi": "10.1016/s0002-9343(97)89451-x",
+      "pmid": "8629647",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1996
+    },
+    {
+      "citation": "Thavendiranathan P, Bagai A, Khoo C, Dorian P, Choudhry NK. Does this patient with palpitations have a cardiac arrhythmia? JAMA 2009;302:2135-2143.",
+      "doi": "10.1001/jama.2009.1673",
+      "pmid": "19920238",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2009
+    },
+    {
+      "citation": "Ettinger PO, Wu CF, De La Cruz C, Weisse AB, Ahmed SS, Regan TJ. Arrhythmias and the \"Holiday Heart\": alcohol-associated cardiac rhythm disorders. Am Heart J 1978;95:555-562.",
+      "doi": "10.1016/0002-8703(78)90296-x",
+      "pmid": "636996",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1978
+    },
+    {
+      "citation": "Zimetbaum P, Josephson ME. Evaluation of patients with palpitations. N Engl J Med 1998;338:1369-1373.",
+      "doi": "10.1056/NEJM199805073381907",
+      "pmid": "9571258",
+      "url": null,
+      "kind": "consensus",
+      "year": 1998
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use a stimulant history to explain palpitations with syncope, chest pain, known structural heart disease or an abnormal ECG.",
+    "escalation_warning": "Cocaine/amphetamine-associated palpitations with chest pain, hypertension or wide-complex rhythm require ACS and toxicology pathways; alcohol withdrawal with tachycardia needs withdrawal management.",
+    "interobserver_note": "Self-reported substance use is unreliable; no accuracy data for the history item."
+  },
+  "tier": "verified",
+  "extraction_notes": "No diagnostic-accuracy data for stimulant, caffeine or alcohol exposure as a predictor of arrhythmia in patients with palpitations. The JAMA RCE (Thavendiranathan 2009, PMID 19920238, Abstract) lists LRs for cardiac-disease history (2.03), palpitations during sleep (2.29), at work (2.17), panic disorder (0.26) and duration <5 min (0.38) but no stimulant/alcohol item, and states 'No other features significantly alter the probability of clinically significant arrhythmia'. Weber 1996 (PMID 8629647, Abstract): etiology cardiac in 43%, psychiatric 31%, miscellaneous 10%, unknown 16% of 190 consecutive patients - background prevalence, not accuracy. Ettinger 1978 and Zimetbaum 1998 have no PubMed abstracts; cited for the holiday-heart concept and expert review only. Search 'caffeine consumption arrhythmia palpitations prospective' returned only a narrative review (PMID 29474816: coffee's effects on arrhythmias 'neutral').",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:42:48+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T08:05:53.641Z",
+  "verification_notes": "",
+  "record_version": 3
+}

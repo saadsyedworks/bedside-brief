@@ -1,0 +1,172 @@
+{
+  "identity": {
+    "id": "exam_wheezing",
+    "title": "Wheezing on auscultation (diffuse expiratory vs focal/monophonic)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "chest_pain",
+      "hypotension",
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "acute_decompensated_hf",
+      "anaphylaxis",
+      "asthma_exacerbation",
+      "copd_exacerbation",
+      "pneumonia",
+      "pulmonary_embolism",
+      "upper_airway_obstruction"
+    ],
+    "indication_tags": [
+      "copd_known"
+    ]
+  },
+  "technique": {
+    "how": "Auscultate all lung fields during tidal breathing and then during a forced expiration, noting whether wheeze is diffuse and polyphonic (airflow limitation) or focal and monophonic (localized obstruction). Listen over the neck to separate inspiratory stridor from expiratory wheeze.",
+    "prerequisites": "Patient able to take deep and forced breaths; quiet setting.",
+    "contraindications": "None, but avoid repeated forced expirations in a patient near exhaustion."
+  },
+  "interpretation": {
+    "positive_finding": "Diffuse polyphonic expiratory wheeze supports airflow limitation (asthma/COPD); a fixed focal monophonic wheeze suggests localized bronchial obstruction; predominantly inspiratory noise over the neck is stridor.",
+    "negative_finding": "No wheeze does not exclude airflow limitation (sensitivity roughly 0.25-0.3); a 'silent chest' in a distressed asthmatic indicates critically low airflow, not improvement.",
+    "pitfalls": "Wheeze occurs in heart failure ('cardiac asthma') and pneumonia and does not discriminate them; its intensity does not track severity. Sensitivity is low and pooled specificity for obstructive disease around 0.9.",
+    "changes_what": "Diffuse wheeze: treat airflow limitation and confirm with spirometry/peak flow; new wheeze with edema/JVP elevation should prompt evaluation for heart failure rather than bronchodilators alone."
+  },
+  "estimates": [
+    {
+      "target_condition": "Obstructive airway disease (wheezing on examination)",
+      "population": "309 consecutive patients at 25 primary care and referral sites in 14 countries (25% known, 37% suspected OAD); 52% had OAD",
+      "setting": "outpatient",
+      "prevalence": 0.52,
+      "reference_standard": "Spirometry: FEV1 and FEV1/FVC below 5th percentile adjusted for height, age and sex",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 2.7,
+        "ci_low": 1.7,
+        "ci_high": 4.2
+      },
+      "lr_negative": null,
+      "computed": false,
+      "computed_from": "",
+      "interpretation_label": "modest",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "The LR for wheezing was 2.7 (95% confidence interval [CI], 1.7-4.2)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Obstructive lung disease (COPD/asthma) - wheezes",
+      "population": "Adults with known or suspected COPD/asthma, 10 studies",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Spirometry",
+      "sensitivity": {
+        "value": 0.26,
+        "ci_low": 0.15,
+        "ci_high": 0.41
+      },
+      "specificity": {
+        "value": 0.93,
+        "ci_low": 0.82,
+        "ci_high": 0.97
+      },
+      "lr_positive": {
+        "value": 3.6,
+        "ci_low": 1.9,
+        "ci_high": 6.8
+      },
+      "lr_negative": {
+        "value": 0.79,
+        "ci_low": 0.7,
+        "ci_high": 0.9
+      },
+      "computed": false,
+      "computed_from": "",
+      "interpretation_label": "modest",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "Obstructive lung disease 10 0.26 (0.15, 0.41) 0.93 (0.82, 0.97) 3.6 (1.9, 6.8) 0.79 (0.70, 0.90)",
+      "location": "Table 3, row 'Wheezes - Obstructive lung disease'"
+    },
+    {
+      "target_condition": "Congestive heart failure (cardiogenic pulmonary edema) - wheezes",
+      "population": "Adults with acute dyspnea, 4 studies",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Doppler echocardiography, Framingham criteria or expert panel",
+      "sensitivity": {
+        "value": 0.21,
+        "ci_low": 0.18,
+        "ci_high": 0.25
+      },
+      "specificity": {
+        "value": 0.7,
+        "ci_low": 0.63,
+        "ci_high": 0.77
+      },
+      "lr_positive": {
+        "value": 0.7,
+        "ci_low": 0.5,
+        "ci_high": 1.0
+      },
+      "lr_negative": {
+        "value": 1.12,
+        "ci_low": 1.0,
+        "ci_high": 1.25
+      },
+      "computed": false,
+      "computed_from": "",
+      "interpretation_label": "minimal",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "Congestive heart failure 4 0.21 (0.18, 0.25) 0.70 (0.63, 0.77) 0.7 (0.5, 1.0) 1.12 (1.00, 1.25)",
+      "location": "Table 3, row 'Wheezes - Congestive heart failure'"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Straus SE, McAlister FA, Sackett DL, Deeks JJ; CARE-COAD1 Group. The accuracy of patient history, wheezing, and laryngeal measurements in diagnosing obstructive airway disease. JAMA. 2000;283(14):1853-1857.",
+      "doi": "10.1001/jama.283.14.1853",
+      "pmid": "10770147",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2000
+    },
+    {
+      "citation": "Arts L, Lim EHT, van de Ven PM, Heunks L, Tuinman PR. The diagnostic accuracy of lung auscultation in adult patients with acute pulmonary pathologies: a meta-analysis. Sci Rep. 2020;10:7347.",
+      "doi": "10.1038/s41598-020-64405-6",
+      "pmid": "32355210",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2020
+    },
+    {
+      "citation": "Holleman DR Jr, Simel DL. Does the clinical examination predict airflow limitation? JAMA. 1995;273(4):313-319.",
+      "doi": null,
+      "pmid": "7815660",
+      "url": null,
+      "kind": "rce_series",
+      "year": 1995
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use absence of wheeze to exclude severe asthma or COPD exacerbation, or to exclude heart failure or pulmonary embolism as the cause of dyspnea.",
+    "escalation_warning": "Silent chest, inability to speak, drowsiness or stridor with wheeze (possible anaphylaxis or upper-airway obstruction) requires immediate airway and resuscitation measures.",
+    "interobserver_note": "CARE-COAD1 was designed to test reliability of the examination but the kappa for wheezing is not in the abstract; Arts 2020 reports high between-study heterogeneity (I2 99%) for wheeze in obstructive disease."
+  },
+  "tier": "verified",
+  "extraction_notes": "CARE-COAD1 abstract reports only the LR for wheezing (2.7, 95% CI 1.7-4.2), not sensitivity/specificity; the JAMA full text is not open access, so those fields are null. Pooled rows are from Arts 2020 Table 3 (Sci Rep, PMC7192898). The Holleman 1995 RCE (PMID 7815660) is confirmed by title but has no PubMed abstract and no accessible text, so no numbers were taken from it. No accessible quantitative data for focal/monophonic wheeze, anaphylaxis or pulmonary embolism.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T01:47:39+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T04:50:26.326Z",
+  "verification_notes": "",
+  "record_version": 3
+}

@@ -1,0 +1,108 @@
+{
+  "identity": {
+    "id": "exam_mottling_score",
+    "title": "Skin mottling score (knee, 0-5)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "hypotension",
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "cardiogenic_shock",
+      "hypovolemic_hemorrhagic_shock",
+      "septic_shock"
+    ],
+    "indication_tags": []
+  },
+  "technique": {
+    "how": "Inspect the skin around the knees after initial resuscitation. Score 0 = none; 1 = coin-sized area at centre of knee; 2 = not exceeding upper edge of kneecap; 3 = not exceeding middle thigh; 4 = not exceeding groin fold; 5 = beyond the groin fold. Reassess serially (e.g. 6-hourly).",
+    "prerequisites": "Adequate lighting, knees exposed; ideally scored after the initial resuscitation window.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Mottling score 2-3 or 4-5 at 6 h is strongly associated with 14-day death in septic shock (OR 16 and 74 vs score 0-1); each extra point roughly doubles the odds of death.",
+    "negative_finding": "Absent or minimal mottling (0-1) after resuscitation marks a lower-risk group, but does not exclude shock or hypoperfusion.",
+    "pitfalls": "It is a prognostic (mortality) marker, not a diagnostic test for a specific shock type; dark skin, peripheral vascular disease, hypothermia and vasopressor dosing can alter appearance. It is not a proportion-based sens/spec sign.",
+    "changes_what": "A rising or persistent score (>=2) should trigger escalation: reassess perfusion, lactate and urine output, and intensify resuscitation or ICU involvement; a falling score suggests response."
+  },
+  "estimates": [
+    {
+      "target_condition": "14-day mortality in septic shock (prognostic, not diagnostic)",
+      "population": "Consecutive adult septic shock patients (n=60), scored 6 h after inclusion",
+      "setting": "ICU",
+      "prevalence": 0.45,
+      "reference_standard": "Vital status at day 14",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "mottling score [score 0-1 OR 1; score 2-3 OR 16, 95% CI (4-81); score 4-5 OR 74, 95% CI (11-1,568), p < 0.0001]",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "14-day mortality in sepsis/septic shock (prognostic, not diagnostic)",
+      "population": "Adults with sepsis or septic shock, development cohort n=259 (Paris) with Brazilian validation cohort",
+      "setting": "ICU",
+      "prevalence": 0.37,
+      "reference_standard": "Vital status at day 14",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "validation_cohort",
+      "source_index": 1,
+      "quote": "Mottling score at H6, by point 2.26 [1.72-2.97] < 0.001",
+      "location": "Table 2 (Model 1), PMC full text"
+    }
+  ],
+  "evidence_status": "partially_quantified",
+  "sources": [
+    {
+      "citation": "Ait-Oufella H, Lemoinne S, Boelle PY, et al. Mottling score predicts survival in septic shock. Intensive Care Med 2011;37:801-807.",
+      "doi": "10.1007/s00134-011-2163-y",
+      "pmid": "21373821",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2011
+    },
+    {
+      "citation": "Dumas G, Lavillegrand JR, Joffre J, et al. Mottling score is a strong predictor of 14-day mortality in septic patients whatever vasopressor doses and other tissue perfusion parameters. Crit Care 2019;23:211.",
+      "doi": "10.1186/s13054-019-2496-4",
+      "pmid": "31182133",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2019
+    },
+    {
+      "citation": "Coudroy R, Jamet A, Frat JP, et al. Incidence and impact of skin mottling over the knee and its duration on outcome in critically ill patients. Intensive Care Med 2015;41:452-459.",
+      "doi": "10.1007/s00134-014-3600-5",
+      "pmid": "25516087",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2015
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use the score to decide against escalation; a low score never excludes shock. Validated mainly in septic shock, less in cardiogenic or hemorrhagic shock.",
+    "escalation_warning": "Score >=2 persisting after resuscitation is a marker of high short-term mortality; escalate to ICU-level care.",
+    "interobserver_note": "Excellent agreement between independent observers, kappa 0.87 (95% CI 0.72-0.97) in Ait-Oufella 2011."
+  },
+  "tier": "verified",
+  "extraction_notes": "The evidence is prognostic (odds ratios for 14-day mortality), not sensitivity/specificity for a diagnosis, so all sens/spec/LR fields are null and ORs are recorded in the quotes. Ait-Oufella OR from abstract; Dumas per-point OR read from Table 2 of the PMC open-access full text (development cohort, Model 1). Coudroy 2015 cited for the incidence (29% of all ICU admissions; 49% in septic shock) and in-ICU mortality association (aOR 3.29). Prevalence fields hold the 14-day mortality rate of each cohort. Validator flags these two entries as having no sens/spec/LR field; they are retained deliberately because the only quantitative evidence for this sign is odds ratios for mortality (quote+location given), and dropping them would misrepresent the sign as unquantified.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:28:40+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T05:30:54.800Z",
+  "verification_notes": "",
+  "record_version": 3
+}

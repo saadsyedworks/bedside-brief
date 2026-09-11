@@ -1,0 +1,144 @@
+{
+  "identity": {
+    "id": "exam_charcot_triad",
+    "title": "Charcot triad at the bedside (fever + RUQ pain/tenderness + jaundice)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "ams",
+      "abdominal_pain",
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "cholangitis",
+      "cholecystitis"
+    ],
+    "indication_tags": [
+      "febrile"
+    ]
+  },
+  "technique": {
+    "how": "Document all three elements at the same encounter: fever (or rigors), right-upper-quadrant pain or tenderness on palpation, and jaundice (scleral icterus in good light, confirmed by bilirubin when available). The triad is positive only when all three are present.",
+    "prerequisites": "Recorded temperature; inspection of sclerae; RUQ palpation.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "The full triad is highly specific (0.96-0.99) for acute cholangitis and should trigger blood cultures, antibiotics and early biliary imaging with drainage planning. It does not separate cholangitis from acute cholecystitis with jaundice (false-positive rate 11.9% in acute cholecystitis in the TG13 cohort).",
+    "negative_finding": "Absence of the full triad does not exclude cholangitis: sensitivity is only 0.26-0.46, so most cholangitis patients lack it. Use Tokyo Guidelines criteria (systemic inflammation + cholestasis + biliary imaging) rather than the triad to rule out.",
+    "pitfalls": "Sensitivity is very low; elderly, immunosuppressed and post-ERCP patients may present with confusion or hypotension without pain. Jaundice may be absent early or with partial obstruction.",
+    "changes_what": "Triad present: treat as cholangitis (cultures, antibiotics, urgent biliary imaging/drainage). Triad absent: still apply TG18 criteria; never use absence to rule out."
+  },
+  "estimates": [
+    {
+      "target_condition": "Acute cholangitis (TG13 gold standard: purulent bile, or clinical remission after biliary drainage, or remission with antibiotics alone with biliary tree the only infection site); Charcot triad = fever + jaundice + RUQ pain",
+      "population": "1,432 retrospectively analysed biliary disease cases with suspected acute cholangitis, multiple tertiary centres in Japan (TG13 derivation cohort)",
+      "setting": "inpatient",
+      "prevalence": null,
+      "reference_standard": "Purulent bile at drainage, or remission after biliary drainage, or remission with antibiotics alone (biliary tree sole infection site)",
+      "sensitivity": {
+        "value": 0.264,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.956,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 6.0,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.77,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.264/(1-0.956) = 6.0; LR- = (1-0.264)/0.956 = 0.77; from abstract sensitivity 26.4% and specificity 95.6% (no CIs reported in abstract)",
+      "interpretation_label": "rule_in",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "The sensitivity of Charcot's triad was only 26.4 % but the specificity was 95.6 %.",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Acute cholangitis ('real-world cholangitis', clinical reference standard) in patients with suspected biliary obstruction undergoing ERCP; Charcot triad present",
+      "population": "794 patients with suspected biliary obstruction who underwent ERCP, nationwide prospective Dutch cohort (127 with cholangitis)",
+      "setting": "mixed",
+      "prevalence": 0.16,
+      "reference_standard": "Real-world cholangitis diagnosis by treating clinicians (clinical reference standard) in patients undergoing ERCP",
+      "sensitivity": {
+        "value": 0.46,
+        "ci_low": 0.38,
+        "ci_high": 0.56
+      },
+      "specificity": {
+        "value": 0.99,
+        "ci_low": 0.98,
+        "ci_high": 1.0
+      },
+      "lr_positive": {
+        "value": 46.0,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.55,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.46/(1-0.99) = 46; LR- = (1-0.46)/0.99 = 0.55; from abstract sensitivity 46% and specificity 99%. Prevalence 127/794 = 0.16 from abstract.",
+      "interpretation_label": "rule_in",
+      "evidence_level": "single_study",
+      "source_index": 1,
+      "quote": "The sensitivity for DPSG and Charcot was 42% (95% CI 33-51) and 46% (95% CI 38-56), specificity was 99.7% (95% CI 99-100) and 99% (95% CI 98-100), respectively.",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Kiriyama S, Takada T, Strasberg SM et al. New diagnostic criteria and severity assessment of acute cholangitis in revised Tokyo Guidelines. Journal of hepato-biliary-pancreatic sciences. 2013.",
+      "doi": "10.1007/s00534-012-0537-3",
+      "pmid": "22825491",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2013
+    },
+    {
+      "citation": "Sperna Weiland CJ, Busch CBE, Bhalla A et al. Performance of diagnostic tools for acute cholangitis in patients with suspected biliary obstruction. Journal of hepato-biliary-pancreatic sciences. 2022.",
+      "doi": "10.1002/jhbp.1096",
+      "pmid": "34932265",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2022
+    },
+    {
+      "citation": "Kiriyama S, Kozaka K, Takada T et al. Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholangitis (with videos). Journal of hepato-biliary-pancreatic sciences. 2018.",
+      "doi": "10.1002/jhbp.512",
+      "pmid": "29032610",
+      "url": null,
+      "kind": "guideline",
+      "year": 2018
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use absence of the triad to defer work-up in a septic, confused or hypotensive patient with biliary risk factors (stones, stents, prior ERCP, malignancy).",
+    "escalation_warning": "Triad plus hypotension or altered mentation (Reynolds pentad) indicates severe (Grade III) cholangitis: urgent biliary decompression and sepsis management.",
+    "interobserver_note": "No interobserver data for the triad located; each component (fever, RUQ tenderness, jaundice) is subject to the usual examiner variability of those signs (unverified recall)."
+  },
+  "tier": "verified",
+  "extraction_notes": "Two cohorts, deliberately kept separate. (1) Kiriyama 2013 (TG13 derivation, PMID 22825491): retrospective 1,432 suspected-cholangitis cases; Charcot triad sensitivity 26.4%, specificity 95.6%; abstract also states 'the false positive rate in cases of acute cholecystitis was 11.9 %' (Abstract, Results). Prevalence not in abstract; full text not on PMC. LRs computed from sens/spec. (2) Sperna Weiland 2022 (PMID 34932265): prospective, 794 ERCP patients, '127 (16%) of 794 patients were diagnosed with real-world cholangitis' and '66 (8%) ... were defined as having cholangitis' by Charcot (Abstract, Results); sensitivity 46% (38-56), specificity 99% (98-100). Higher sensitivity than TG13 cohort reflects a pre-selected ERCP population and a clinical reference standard. The estimate[1] quote is 28 words (within the 35-word allowance) because trimming it would drop the confidence intervals. TG18 (Kiriyama 2018, PMID 29032610) cited as the guideline that replaced the triad with TG13/18 criteria; its abstract carries no triad numbers. Spectrum: neither cohort is an undifferentiated ED abdominal-pain population, so LR+ of 46 should be read as an upper bound.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:41:13+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T07:42:48.109Z",
+  "verification_notes": "",
+  "record_version": 3
+}

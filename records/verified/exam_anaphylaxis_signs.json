@@ -1,0 +1,144 @@
+{
+  "identity": {
+    "id": "exam_anaphylaxis_signs",
+    "title": "Anaphylaxis signs: urticaria/flushing, angioedema, stridor, wheeze (NIAID/FAAN criteria)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "hypotension"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "anaphylaxis",
+      "asthma_exacerbation",
+      "medication_effect",
+      "upper_airway_obstruction"
+    ],
+    "indication_tags": [
+      "new_medication",
+      "acute_onset"
+    ]
+  },
+  "technique": {
+    "how": "Look for acute (minutes to hours) skin/mucosal signs (generalised urticaria, flushing, pruritus, lip/tongue/uvula swelling) and pair them with respiratory compromise (stridor, wheeze, hypoxaemia) or hypotension/end-organ dysfunction; with a known allergen, two organ systems (adding persistent GI symptoms) or hypotension alone suffice. Apply the NIAID/FAAN criteria explicitly.",
+    "prerequisites": "Timeline of exposure and onset; blood pressure, SpO2 and airway assessment obtained simultaneously.",
+    "contraindications": "None. Give intramuscular epinephrine as soon as criteria are met; do not wait for full examination."
+  },
+  "interpretation": {
+    "positive_finding": "Meeting NIAID/FAAN criteria identifies allergist-adjudicated anaphylaxis with sensitivity 95-97% and LR+ about 3-5 in ED validation cohorts; treat as anaphylaxis and give epinephrine.",
+    "negative_finding": "Not meeting the criteria makes anaphylaxis unlikely (LR- 0.04-0.07, NPV 96-98%), but 3-5% of adjudicated cases were missed, mostly presentations without skin findings.",
+    "pitfalls": "Skin signs are absent in a minority of anaphylaxis cases (especially with hypotension-predominant or drug/venom triggers), and antihistamines or beta-blockers blunt the picture. Isolated urticaria without a second system is not anaphylaxis.",
+    "changes_what": "Criteria met: IM epinephrine, remove trigger, monitor. Not met: pursue asthma, angioedema (ACE-inhibitor), sepsis, vasovagal or other causes but re-examine as symptoms evolve."
+  },
+  "estimates": [
+    {
+      "target_condition": "COMPOSITE: anaphylaxis (allergist-adjudicated); finding = NIAID/FAAN clinical criteria met (any of the three criterion sets)",
+      "population": "214 ED patients coded as allergic reaction/anaphylaxis or related diagnoses, retrospective chart review, single US academic ED, Apr-Oct 2008",
+      "setting": "ED",
+      "prevalence": 0.285,
+      "reference_standard": "Final diagnosis by two blinded attending allergists reviewing the record (kappa 0.77)",
+      "sensitivity": {
+        "value": 0.967,
+        "ci_low": 0.888,
+        "ci_high": 0.991
+      },
+      "specificity": {
+        "value": 0.824,
+        "ci_low": 0.755,
+        "ci_high": 0.876
+      },
+      "lr_positive": {
+        "value": 5.48,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.04,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": false,
+      "interpretation_label": "both",
+      "evidence_level": "validation_cohort",
+      "source_index": 0,
+      "quote": "sensitivity, 96.7% (95% CI, 88.8% to 99.1%); specificity, 82.4% (95% CI, 75.5% to 87.6%) … positive likelihood ratio, 5.48; and negative likelihood ratio, 0.04.",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "COMPOSITE: anaphylaxis (allergist-adjudicated); finding = NIAID/FAAN clinical criteria met, prospective application",
+      "population": "174 prospectively enrolled ED patients seeking care for an allergic reaction/possible anaphylaxis, single US academic ED, 2010-2013",
+      "setting": "ED",
+      "prevalence": 0.351,
+      "reference_standard": "Independent blinded diagnosis by two board-certified allergist-immunologists (kappa 0.7)",
+      "sensitivity": {
+        "value": 0.951,
+        "ci_low": 0.854,
+        "ci_high": 0.987
+      },
+      "specificity": {
+        "value": 0.708,
+        "ci_low": 0.614,
+        "ci_high": 0.788
+      },
+      "lr_positive": {
+        "value": 3.26,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.07,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": false,
+      "interpretation_label": "both",
+      "evidence_level": "validation_cohort",
+      "source_index": 1,
+      "quote": "sensitivity, 95.1% (85.4%-98.7%); specificity, 70.8% (61.4%-78.8%) … positive likelihood ratio, 3.26; and negative likelihood ratio, 0.07.",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Campbell RL, Hagan JB, Manivannan V, Decker WW, Kanthala AR, Bellolio MF, Smith VD, Li JT. Evaluation of NIAID/FAAN criteria for the diagnosis of anaphylaxis in emergency department patients. J Allergy Clin Immunol. 2012.",
+      "doi": "10.1016/j.jaci.2011.09.030",
+      "pmid": "22051698",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2012
+    },
+    {
+      "citation": "Loprinzi Brauer CE, Motosue MS, Li JT, Hagan JB, Bellolio MF, Lee S, Campbell RL. Prospective validation of the NIAID/FAAN criteria for emergency department diagnosis of anaphylaxis. J Allergy Clin Immunol Pract. 2017.",
+      "doi": "10.1016/j.jaip.2016.06.003",
+      "pmid": "27406968",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2017
+    },
+    {
+      "citation": "Sampson HA, Muñoz-Furlong A, Campbell RL, Adkinson NF, Bock SA, Branum A, Brown SG, Camargo CA, et al. Second symposium on the definition and management of anaphylaxis: summary report. J Allergy Clin Immunol. 2006.",
+      "doi": "10.1016/j.jaci.2005.12.1303",
+      "pmid": "16461139",
+      "url": null,
+      "kind": "consensus",
+      "year": 2006
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not withhold epinephrine because criteria are 'not quite met' in a patient with rapidly progressive airway swelling or hypotension after a plausible exposure.",
+    "escalation_warning": "Stridor, hypoxaemia, hypotension or any sign of upper-airway swelling: give IM epinephrine immediately and prepare for airway management; biphasic reactions can follow hours later.",
+    "interobserver_note": "Allergist interrater agreement for the reference diagnosis: κ = 0.77 (Campbell 2012, Abstract) and κ = 0.7 (Loprinzi Brauer 2017, Abstract). No kappa for individual bedside signs located."
+  },
+  "tier": "verified",
+  "extraction_notes": "Both estimates evaluate the NIAID/FAAN criteria as a whole (the id title names these criteria), so target_condition is prefixed COMPOSITE; no per-sign accuracy (urticaria, angioedema, stridor, wheeze individually) was found in these cohorts' abstracts. Prevalence computed from abstracts: 61/214 = 0.285 (Campbell) and 61/174 = 0.351 (Loprinzi Brauer). Same institution (Mayo Clinic) for both cohorts; the prospective cohort had lower specificity (70.8% vs 82.4%). LR CIs not reported in either abstract. Sampson 2006 cited for the criteria definition (consensus).",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:42:28+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T07:37:53.693Z",
+  "verification_notes": "",
+  "record_version": 3
+}

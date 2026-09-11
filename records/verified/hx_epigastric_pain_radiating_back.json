@@ -1,0 +1,76 @@
+{
+  "identity": {
+    "id": "hx_epigastric_pain_radiating_back",
+    "title": "Constant epigastric pain radiating to the back (with alcohol/gallstone history)",
+    "type": "history",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "chest_pain",
+      "abdominal_pain"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "aaa",
+      "aortic_dissection",
+      "pancreatitis",
+      "peptic_ulcer"
+    ],
+    "indication_tags": [
+      "alcohol_use"
+    ]
+  },
+  "technique": {
+    "how": "Ask onset, location, and character: constant severe epigastric or upper-abdominal pain, often boring through to the back, worse supine and eased by sitting forward, with nausea and vomiting. Ask about alcohol intake, known gallstones or prior biliary colic, recent ERCP, hypertriglyceridemia and new medications.",
+    "prerequisites": "Reliable history; ask family when the patient is intoxicated or encephalopathic.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Constant epigastric pain radiating to the back with an alcohol or gallstone history is the classic presentation of acute pancreatitis and is one of the three diagnostic criteria in the revised Atlanta classification (with lipase/amylase >3x ULN and imaging). The same pain pattern also occurs with posterior penetrating peptic ulcer, ruptured AAA and aortic dissection.",
+    "negative_finding": "Absence of back radiation does not exclude pancreatitis; pain that is intermittent or colicky favours biliary colic or bowel pathology.",
+    "pitfalls": "Tearing pain with pulse or BP asymmetry, hypotension or a pulsatile mass points to aorta, not pancreas; elderly and post-operative patients may have minimal pain. Grey Turner/Cullen ecchymosis is rare (3% in one large series) and marks severity rather than aiding diagnosis.",
+    "changes_what": "Present: check lipase and consider pancreatitis, but exclude aortic catastrophe and perforation first when the patient is unstable or the pain is tearing/sudden."
+  },
+  "estimates": [],
+  "evidence_status": "not_quantified",
+  "sources": [
+    {
+      "citation": "Tenner S, Baillie J, DeWitt J, Vege SS. American College of Gastroenterology guideline: management of acute pancreatitis. Am J Gastroenterol. 2013.",
+      "doi": "10.1038/ajg.2013.218",
+      "pmid": "23896955",
+      "url": null,
+      "kind": "guideline",
+      "year": 2013
+    },
+    {
+      "citation": "Banks PA, Bollen TL, Dervenis C, Gooszen HG, Johnson CD, Sarr MG, Tsiotos GG, Vege SS, et al. Classification of acute pancreatitis--2012: revision of the Atlanta classification and definitions by international consensus. Gut. 2013.",
+      "doi": "10.1136/gutjnl-2012-302779",
+      "pmid": "23100216",
+      "url": null,
+      "kind": "consensus",
+      "year": 2013
+    },
+    {
+      "citation": "Dickson AP, Imrie CW. The incidence and prognosis of body wall ecchymosis in acute pancreatitis. Surg Gynecol Obstet. 1984.",
+      "doi": null,
+      "pmid": "6237447",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1984
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not label pain as pancreatitis when there is hypotension, syncope, a pulsatile mass, limb ischemia or a tearing quality until aorta is imaged.",
+    "escalation_warning": "Epigastric pain to the back with shock, peritonitis, or a normal lipase demands urgent CT for aortic rupture, dissection or perforated viscus.",
+    "interobserver_note": "No reliability data; the pain descriptor is patient-reported and unstandardised across studies."
+  },
+  "tier": "verified",
+  "extraction_notes": "No diagnostic-accuracy study (sensitivity/specificity/LR) for the pain pattern itself was identified in PubMed searches ('acute pancreatitis pain radiating to back sensitivity specificity' and variants returned no relevant primary study). The descriptor appears as a diagnostic criterion in consensus documents (ACG 2013 guideline; revised Atlanta 2012 classification), so status is not_quantified. Dickson & Imrie 1984 (770 patients) is cited only for the frequency of body-wall ecchymosis: 'The over-all incidence of 3 per cent' and 'the mortality of this group of patients is only 37 per cent' (Abstract). Abstracts of the ACG guideline and Atlanta classification do not contain the pain wording verbatim (full texts not open access), so the 'constant epigastric pain radiating to the back' phrasing is attributed to those documents from recall (unverified recall).",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:42:19+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T08:04:01.526Z",
+  "verification_notes": "",
+  "record_version": 3
+}

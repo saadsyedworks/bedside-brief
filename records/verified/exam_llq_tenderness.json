@@ -1,0 +1,152 @@
+{
+  "identity": {
+    "id": "exam_llq_tenderness",
+    "title": "Localized LLQ tenderness (with prior diverticulitis episode history)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "abdominal_pain",
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "diverticulitis",
+      "intraabdominal_abscess",
+      "perforated_viscus"
+    ],
+    "indication_tags": [
+      "elderly"
+    ]
+  },
+  "technique": {
+    "how": "Palpate all four quadrants, leaving the painful area until last; record whether direct tenderness is confined to the left lower quadrant (versus diffuse or elsewhere), and whether there is guarding, rebound or a palpable mass. Ask specifically about previous confirmed episodes of diverticulitis and about vomiting.",
+    "prerequisites": "Patient supine and relaxed; analgesia does not preclude examination.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Tenderness confined to the LLQ, especially with a prior episode, no vomiting and CRP >50 mg/L, makes acute diverticulitis very likely (PPV 97% for the three-feature rule in clinically suspected patients), and can allow treatment without imaging in uncomplicated cases in some pathways.",
+    "negative_finding": "Absence of isolated LLQ tenderness does not exclude diverticulitis (the three-feature rule captured only about one-third of confirmed cases); clinicians' overall clinical diagnosis has a sensitivity of roughly 0.64 with a high false-positive rate, so imaging (CT) is needed when features are incomplete.",
+    "pitfalls": "Redundant sigmoid, right-sided diverticulitis (more common in Asian patients) and elderly or immunosuppressed patients give atypical locations or minimal tenderness. Diffuse tenderness, rigidity or peritonism signals perforation or abscess, not uncomplicated diverticulitis.",
+    "changes_what": "Isolated LLQ tenderness + no vomiting + CRP>50: diverticulitis likely; consider CT to stage. Diffuse tenderness/peritonism or incomplete features: CT to exclude perforation, abscess or alternatives."
+  },
+  "estimates": [
+    {
+      "target_condition": "COMPOSITE: direct tenderness only in the LLQ AND absence of vomiting AND CRP >50 mg/L (Lameris rule, all three present) for final diagnosis of acute diverticulitis",
+      "population": "126 ED patients with acute abdominal pain and clinically suspected diverticulitis before imaging (80 with final diagnosis of diverticulitis), from a prospective cohort of 1,021 ED abdominal-pain patients, Netherlands",
+      "setting": "ED",
+      "prevalence": 0.635,
+      "reference_standard": "Final diagnosis by expert panel after imaging and follow-up",
+      "sensitivity": {
+        "value": 0.363,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.978,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 16.7,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.65,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "2x2 reconstructed from abstract among 126 suspected patients: 30 had all 3 features, 29 of whom had diverticulitis (TP 29, FP 1); 80 had diverticulitis in total (FN 51); 46 did not (TN 45). Sens 29/80 = 0.363; spec 45/46 = 0.978; LR+ 16.7; LR- 0.65; prevalence 80/126 = 0.635",
+      "interpretation_label": "rule_in",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "30 patients had all 3 features (24%), of whom 29 had a final diagnosis of acute diverticulitis (97%; 95% CI: 83%-99%)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Clinician's primary (admission) diagnosis of acute diverticulitis - overall clinical gestalt including LLQ tenderness, NOT the isolated sign",
+      "population": "3,349 patients admitted with abdominal pain of up to 7 days' duration, prospectively registered, Swedish hospital (145 with final diagnosis of diverticulitis)",
+      "setting": "ED",
+      "prevalence": 0.043,
+      "reference_standard": "Final diagnosis with 1-3 year follow-up",
+      "sensitivity": {
+        "value": 0.64,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.97,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 21.3,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.37,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.64/(1-0.97) = 21.3; LR- = (1-0.64)/0.97 = 0.37; prevalence 145/3349 = 0.043; from abstract",
+      "interpretation_label": "rule_in",
+      "evidence_level": "single_study",
+      "source_index": 1,
+      "quote": "Sensitivity of diverticulitis as primary diagnosis was 64% and specificity 97%.",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "partially_quantified",
+  "sources": [
+    {
+      "citation": "Laméris W, van Randen A, van Gulik TM et al. A clinical decision rule to establish the diagnosis of acute diverticulitis at the emergency department. Diseases of the colon and rectum. 2010.",
+      "doi": "10.1007/DCR.0b013e3181d98d86",
+      "pmid": "20485003",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2010
+    },
+    {
+      "citation": "Laurell H, Hansson LE, Gunnarsson U. Acute diverticulitis--clinical presentation and differential diagnostics. Colorectal disease : the official journal of the Association of Coloproctology of Great Britain and Ireland. 2007.",
+      "doi": "10.1111/j.1463-1318.2006.01162.x",
+      "pmid": "17573742",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2007
+    },
+    {
+      "citation": "Toorenvliet BR, Bakker RF, Breslau PJ et al. Colonic diverticulitis: a prospective analysis of diagnostic accuracy and clinical decision-making. Colorectal disease : the official journal of the Association of Coloproctology of Great Britain and Ireland. 2010.",
+      "doi": "10.1111/j.1463-1318.2009.01778.x",
+      "pmid": "19183330",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2010
+    },
+    {
+      "citation": "Andeweg CS, Knobben L, Hendriks JC et al. How to diagnose acute left-sided colonic diverticulitis: proposal for a clinical scoring system. Annals of surgery. 2011.",
+      "doi": "10.1097/SLA.0b013e3182113614",
+      "pmid": "21346548",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2011
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not rely on a benign LLQ exam in immunosuppressed, steroid-treated or very elderly patients, in whom perforation can present with minimal tenderness.",
+    "escalation_warning": "Diffuse peritonism, rigidity, hypotension or a tender mass suggests perforation or abscess: urgent CT and surgical review.",
+    "interobserver_note": "No interobserver data for localised LLQ tenderness located."
+  },
+  "tier": "verified",
+  "extraction_notes": "No study reporting sensitivity/specificity or LR for isolated LLQ tenderness as a single sign was found (searches: 'left lower quadrant tenderness diverticulitis likelihood ratio', 'diverticulitis clinical diagnosis prospective emergency department tenderness accuracy', Andeweg scoring). Hence status partially_quantified and both estimates are labelled as composite or gestalt, not the sign itself. Lameris 2010 (PMID 20485003): per-feature accuracy is in the paper's tables, which are not accessible (no PMC full text); the composite 2x2 was reconstructed from abstract counts. Note the abstract also states 'Of the 96 patients without all 3 features, 45 (47%) did not have diverticulitis' (Abstract, Results), consistent with TN 45. Toorenvliet 2010 (PMID 19183330; 802 consecutive ED abdominal-pain patients, 57 diverticulitis): 'The positive and negative predictive values for the clinical diagnosis of colonic diverticulitis were 0.65 and 0.98' (Abstract, Results); no sens/spec, so not entered. Andeweg 2011 (PMID 21346548; 287 CT-imaged ED patients, 43% ALCD): 'localization of abdominal tenderness in the lower left abdomen' and '1 or more previous episodes' were independent predictors (Abstract, Results) but no accuracy figures; supports adding prior-episode history to the finding. Prior-episode history in the id title has no stand-alone accuracy data.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:41:13+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T07:48:37.012Z",
+  "verification_notes": "",
+  "record_version": 3
+}

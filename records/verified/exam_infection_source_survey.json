@@ -1,0 +1,85 @@
+{
+  "identity": {
+    "id": "exam_infection_source_survey",
+    "title": "Focused infection-source exam (line/exit sites, skin, abdomen, joints, sacrum, urine catheter)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "hypotension",
+      "aki",
+      "ams",
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "cellulitis_ssti",
+      "delirium_infectious",
+      "intraabdominal_abscess",
+      "line_infection",
+      "necrotizing_fasciitis",
+      "septic_arthritis",
+      "septic_shock",
+      "uti_pyelonephritis"
+    ],
+    "indication_tags": [
+      "immunocompromised",
+      "post_operative",
+      "ivdu",
+      "dialysis"
+    ]
+  },
+  "technique": {
+    "how": "Undress and inspect every line, dialysis and drain/exit site (erythema, purulence, tunnel tenderness), all skin including back, sacrum, heels, perineum, injection sites and wounds; palpate abdomen (peritonism, Murphy sign, flank tenderness), joints and spine for warmth/effusion/tenderness; check urinary catheter, mouth, sinuses, ears and chest. Repeat daily while the source is unknown.",
+    "prerequisites": "Full exposure with dressings taken down, adequate lighting and analgesia; review lines, catheters and devices with their insertion dates; log-roll immobile patients to view the sacrum.",
+    "contraindications": "None; do not delay cultures and antibiotics in suspected sepsis while completing the survey."
+  },
+  "interpretation": {
+    "positive_finding": "Purulence, spreading erythema or tunnel tenderness at a line/exit site, cellulitis or crepitus, a hot swollen joint, peritonism or flank tenderness, or a sacral/heel ulcer with surrounding infection identifies a probable source and directs cultures, source control and empiric therapy.",
+    "negative_finding": "A normal survey does not exclude an occult source: insertion-site inflammation is absent in nearly all catheter-related bloodstream infections, and intra-abdominal, urinary, endovascular and spinal infections are frequently silent in elderly, immunosuppressed or sedated patients.",
+    "pitfalls": "Line-site appearance has near-zero sensitivity for CRBSI (coagulase-negative staphylococci cause little inflammation); steroids, neutropenia and neuropathy blunt local signs; dressings, obesity and immobility hide sacral, perineal and injection-site infections. Pain out of proportion with unimpressive skin findings suggests necrotizing infection.",
+    "changes_what": "A positive survey targets cultures, imaging and source control (line removal, drainage, debridement); a negative survey mandates blood/urine cultures and imaging rather than reassurance."
+  },
+  "estimates": [],
+  "evidence_status": "not_quantified",
+  "sources": [
+    {
+      "citation": "Mermel LA, Allon M, Bouza E, Craven DE, et al. Clinical practice guidelines for the diagnosis and management of intravascular catheter-related infection: 2009 Update by the Infectious Diseases Society of America. Clin Infect Dis. 2009.",
+      "doi": "10.1086/599376",
+      "pmid": "19489710",
+      "url": null,
+      "kind": "guideline",
+      "year": 2009
+    },
+    {
+      "citation": "Safdar N, Maki DG. Inflammation at the insertion site is not predictive of catheter-related bloodstream infection with short-term, noncuffed central venous catheters. Crit Care Med. 2002.",
+      "doi": "10.1097/00003246-200212000-00003",
+      "pmid": "12483050",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2002
+    },
+    {
+      "citation": "Seymour CW, Liu VX, Iwashyna TJ, Brunkhorst FM, et al. Assessment of Clinical Criteria for Sepsis: For the Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3). JAMA. 2016.",
+      "doi": "10.1001/jama.2016.0288",
+      "pmid": "26903335",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2016
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Never let a negative source survey withhold cultures, empiric antibiotics or imaging in a hypotensive, febrile or acutely confused patient with suspected infection.",
+    "escalation_warning": "Crepitus, bullae, skin necrosis or pain out of proportion (necrotizing fasciitis), a hot joint, peritonism, or purulence at a central line/dialysis catheter in a septic patient require immediate surgical/source-control and line removal decisions.",
+    "interobserver_note": "No inter-observer data for the composite survey; Safdar & Maki scored site inflammation (pain, erythema, swelling, purulence) daily by research nurses, and most sites 'showed little or no inflammation at the time of removal' (Abstract, Results)."
+  },
+  "tier": "verified",
+  "extraction_notes": "A composite 'source survey' has no diagnostic-accuracy literature; only the line-site component is quantified, and only as a range. Safdar & Maki 2002 (1,263 noncuffed CVCs, mostly ICU, DNA-subtyping-confirmed CRBSI in 35): 'The sensitivity of local inflammation for diagnosis of CVC-related BSI was dismal (0-3%).' (Abstract, Results). Because this is a range rather than a point estimate it is not entered in estimates[] (RANGES rule); no specificity was reported. The IDSA 2009 guideline (Mermel) endorses that site inflammation is insensitive and that clinical findings are unreliable for CRBSI diagnosis (unverified recall of wording; PubMed abstract is a two-sentence summary). Seymour 2016 (qSOFA) is cited as context for sepsis screening, not for source identification. Status not_quantified.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T02:33:30+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T07:48:21.996Z",
+  "verification_notes": "",
+  "record_version": 3
+}

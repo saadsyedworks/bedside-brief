@@ -1,0 +1,158 @@
+{
+  "identity": {
+    "id": "exam_face_arm_speech_cpss",
+    "title": "Facial droop, arm drift, abnormal speech (Cincinnati/FAST screen)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dizziness",
+      "ams",
+      "weakness"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "bell_palsy",
+      "hypoglycemia",
+      "posterior_circulation_stroke",
+      "stroke"
+    ],
+    "indication_tags": [
+      "acute_onset"
+    ]
+  },
+  "technique": {
+    "how": "Ask the patient to smile or show teeth and look for asymmetric facial movement; have them close eyes and hold both arms out palms-up for 10 seconds, watching for one arm drifting down; ask them to repeat a simple sentence and listen for slurring, wrong words, or inability to speak. Any one abnormal item is a positive screen.",
+    "prerequisites": "Patient awake enough to follow simple commands; check a fingerstick glucose alongside the screen. Note time last known well.",
+    "contraindications": "None; if the patient cannot cooperate, observe spontaneous facial symmetry and limb movement instead."
+  },
+  "interpretation": {
+    "positive_finding": "Any new facial paresis, arm drift, or abnormal speech; in patients with neurologically relevant symptoms this raises the probability of stroke (pooled LR about 5.5).",
+    "negative_finding": "Absence of all three findings lowers but does not exclude stroke (LR about 0.4); posterior-circulation strokes, which often present with dizziness or ataxia, are commonly missed by this screen (Kothari: 66% sensitivity overall vs 88% for anterior circulation).",
+    "pitfalls": "Bell palsy, old deficits, intoxication, hypoglycemia and seizure mimics all produce false positives; isolated vertigo, ataxia, visual field loss and neglect are not captured, so a negative screen must not stop a stroke work-up in a dizzy patient.",
+    "changes_what": "Positive: activate stroke pathway/immediate imaging and time-critical reperfusion assessment. Negative: lowers probability but still image if dizziness, ataxia or visual symptoms."
+  },
+  "estimates": [
+    {
+      "target_condition": "Acute stroke (ischemic or hemorrhagic) among patients with neurologically relevant symptoms",
+      "population": "Pooled studies of patients with suspected stroke evaluated with modern neuroimaging (RCE systematic review)",
+      "setting": "mixed",
+      "prevalence": 0.1,
+      "reference_standard": "Final diagnosis after neuroimaging and relevant laboratory tests",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 5.5,
+        "ci_low": 3.3,
+        "ci_high": 9.1
+      },
+      "lr_negative": {
+        "value": 0.39,
+        "ci_low": 0.25,
+        "ci_high": 0.61
+      },
+      "computed": false,
+      "interpretation_label": "both",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "LR of > or =1 finding = 5.5; 95% CI, 3.3-9.1 ... LR of 0 findings = 0.39; 95% CI, 0.25-0.61",
+      "location": "Abstract, Data Synthesis (JAMA 2005;293:2391)"
+    },
+    {
+      "target_condition": "Stroke or TIA (any 1 of 3 CPSS items abnormal, scored by physician)",
+      "population": "Convenience sample of 171 ED and neurology inpatients, 49 with stroke/TIA",
+      "setting": "mixed",
+      "prevalence": 0.29,
+      "reference_standard": "Discharge diagnosis of stroke or TIA",
+      "sensitivity": {
+        "value": 0.66,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.87,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 5.08,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.39,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.66/(1-0.87) = 5.08; LR- = (1-0.66)/0.87 = 0.39; prevalence = 49/171",
+      "interpretation_label": "both",
+      "evidence_level": "single_study",
+      "source_index": 1,
+      "quote": "abnormality in any 1 of the 3 stroke scale items had a sensitivity of 66% and specificity of 87% in identifying a stroke patient.",
+      "location": "Abstract, Results (Ann Emerg Med 1999;33:373)"
+    },
+    {
+      "target_condition": "Anterior circulation stroke (any 1 of 3 CPSS items abnormal)",
+      "population": "Same 171-patient convenience sample; subgroup with anterior circulation stroke",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Discharge diagnosis of stroke, anterior circulation",
+      "sensitivity": {
+        "value": 0.88,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_out",
+      "evidence_level": "single_study",
+      "source_index": 1,
+      "quote": "The sensitivity was 88% for identification of patients with anterior circulation strokes.",
+      "location": "Abstract, Results (Ann Emerg Med 1999;33:373)"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Goldstein LB, Simel DL. Is this patient having a stroke? JAMA. 2005;293(19):2391-2402.",
+      "doi": "10.1001/jama.293.19.2391",
+      "pmid": "15900010",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2005
+    },
+    {
+      "citation": "Kothari RU, Pancioli A, Liu T, Brott T, Broderick J. Cincinnati Prehospital Stroke Scale: reproducibility and validity. Ann Emerg Med. 1999;33(4):373-378.",
+      "doi": "10.1016/s0196-0644(99)70299-4",
+      "pmid": "10092713",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1999
+    },
+    {
+      "citation": "Zhelev Z, Walker G, Henschke N, Fridhandler J, Yip S. Prehospital stroke scales as screening tools for early identification of stroke and transient ischemic attack. Cochrane Database Syst Rev. 2019;4:CD011427.",
+      "doi": "10.1002/14651858.CD011427.pub2",
+      "pmid": "30964558",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2019
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not rely on a negative screen to exclude posterior-circulation stroke in a patient with acute dizziness, ataxia, diplopia or visual field loss; use HINTS/gait assessment and imaging pathways instead.",
+    "escalation_warning": "Any positive item with symptom onset within the reperfusion window is a time-critical emergency; do not delay activation for a glucose result unless hypoglycemia is confirmed and deficits resolve with correction.",
+    "interobserver_note": "Kothari 1999: excellent reproducibility between paramedics/EMTs and physicians for total score (ICC 0.89-0.92); facial droop was the least reliable item (ICC 0.75-0.78). Goldstein 2005: reliability of individual neurological findings ranges from slight to almost perfect, improved by standardized scales."
+  },
+  "tier": "verified",
+  "extraction_notes": "Pooled LRs taken from Goldstein & Simel 2005 RCE abstract (Data Synthesis); the JAMA table itself was not viewable, so location is the abstract. Kothari 1999 sens/spec are physician-scored, from the abstract; LRs computed from the reported sens/spec (no CIs reported). The 2019 Cochrane review (source 2) did not pool CPSS because of heterogeneity and high risk of bias; it is cited for context only (CPSS had the highest sensitivity in the field but lower specificity than MASS/ROSIER) and carries no estimate here. Estimates are kept separate for the anterior-circulation subgroup rather than averaged.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T02:00:17+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T05:57:31.135Z",
+  "verification_notes": "",
+  "record_version": 3
+}

@@ -1,0 +1,82 @@
+{
+  "identity": {
+    "id": "hx_family_hx_sudden_death",
+    "title": "Family history of sudden cardiac death <50 y or inherited cardiomyopathy/channelopathy",
+    "type": "history",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "chest_pain",
+      "syncope",
+      "palpitations"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "hcm",
+      "tachyarrhythmia",
+      "ventricular_tachycardia"
+    ],
+    "indication_tags": []
+  },
+  "technique": {
+    "how": "Ask specifically whether any first- or second-degree relative died suddenly or unexpectedly before age 50 (including drowning, single-vehicle crash, SIDS, unexplained epilepsy death), or has a diagnosed cardiomyopathy, long QT, Brugada, ARVC or an implanted defibrillator. Draw a three-generation pedigree when positive.",
+    "prerequisites": "Patient or family able to recall relatives' health; verify with records when possible.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "A family history of premature sudden death or inherited heart disease is a high-risk feature in syncope guidelines (ESC 2018, ACC/AHA/HRS 2017) that shifts the differential toward arrhythmic or structural causes such as HCM, long QT or Brugada and argues for admission/monitoring.",
+    "negative_finding": "A negative family history does not exclude cardiac syncope; most inherited-arrhythmia deaths have no recognised family history and de novo disease is common.",
+    "pitfalls": "Families under-report and mislabel deaths (drowning, crashes, 'heart attack'), and many index events occur in relatives never evaluated. The finding is a risk marker for underlying disease, not a test for the cause of a given syncopal episode.",
+    "changes_what": "Positive: obtain 12-lead ECG scrutinised for QT, Brugada, pre-excitation and hypertrophy, echocardiography, and cardiology/genetics referral; treat syncope as cardiac until proven otherwise."
+  },
+  "estimates": [],
+  "evidence_status": "not_quantified",
+  "sources": [
+    {
+      "citation": "Albassam OT, Redelmeier RJ, Shadowitz S, Husain AM, Simel D, Etchells EE. Did This Patient Have Cardiac Syncope?: The Rational Clinical Examination Systematic Review. JAMA. 2019.",
+      "doi": "10.1001/jama.2019.8001",
+      "pmid": "31237649",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2019
+    },
+    {
+      "citation": "Brignole M, Moya A, de Lange FJ, Deharo JC, Elliott PM, Fanciulli A, Fedorowski A, Furlan R, et al. 2018 ESC Guidelines for the diagnosis and management of syncope. Eur Heart J. 2018.",
+      "doi": "10.1093/eurheartj/ehy037",
+      "pmid": "29562304",
+      "url": null,
+      "kind": "guideline",
+      "year": 2018
+    },
+    {
+      "citation": "Shen WK, Sheldon RS, Benditt DG, Cohen MI, Forman DE, Goldberger ZD, Grubb BP, Hamdan MH, et al. 2017 ACC/AHA/HRS Guideline for the Evaluation and Management of Patients With Syncope: Executive Summary. Circulation. 2017.",
+      "doi": "10.1161/CIR.0000000000000498",
+      "pmid": "28280232",
+      "url": null,
+      "kind": "guideline",
+      "year": 2017
+    },
+    {
+      "citation": "Mellor G, Raju H, de Noronha SV, Papadakis M, Sharma S, Behr ER, Sheppard MN. Clinical characteristics and circumstances of death in the sudden arrhythmic death syndrome. Circ Arrhythm Electrophysiol. 2014.",
+      "doi": "10.1161/CIRCEP.114.001854",
+      "pmid": "25262685",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2014
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not discharge a patient with syncope plus family history of sudden death on the basis of a normal single ECG alone.",
+    "escalation_warning": "Exertional syncope, syncope with palpitations, or an abnormal ECG in a patient with this family history requires monitored admission and urgent cardiology review.",
+    "interobserver_note": "Family history recall is unreliable; no reliability data found."
+  },
+  "tier": "verified",
+  "extraction_notes": "The JAMA RCE (Albassam 2019) abstract reports LRs for age, atrial fibrillation, structural heart disease, prodromal symptoms and the EGSYS score but no accuracy data for family history of sudden death; the JAMA full text is not open access so its tables could not be checked. ESC 2018 and ACC/AHA/HRS 2017 guidelines list family history of sudden cardiac death at a young age as a high-risk feature (PubMed records carry no abstract; classification from recall, unverified recall). No diagnostic-accuracy study was found in searches ('family history sudden death syncope diagnostic accuracy'), so status is not_quantified. Context only: in 967 UK sudden arrhythmic death syndrome victims, 'family history of sudden death (4.2%) were uncommon' (Mellor 2014, Abstract, Results), illustrating low sensitivity of the finding in decedents (not a diagnostic-accuracy estimate).",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:42:19+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T07:17:26.123Z",
+  "verification_notes": "",
+  "record_version": 3
+}

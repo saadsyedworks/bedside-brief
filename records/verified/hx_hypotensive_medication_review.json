@@ -1,0 +1,72 @@
+{
+  "identity": {
+    "id": "hx_hypotensive_medication_review",
+    "title": "Antihypertensive / sedative / new-medication review (timing of last doses)",
+    "type": "history",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "syncope",
+      "hypotension",
+      "aki",
+      "dizziness",
+      "ams"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "bradyarrhythmia",
+      "medication_effect",
+      "orthostatic_hypotension",
+      "prerenal_hypovolemia"
+    ],
+    "indication_tags": [
+      "new_medication",
+      "elderly"
+    ]
+  },
+  "technique": {
+    "how": "Reconcile every drug (prescribed, OTC, herbal, recreational) against the pharmacy list: antihypertensives, diuretics, nitrates, alpha-blockers, PDE5 inhibitors, rate-slowing agents (beta-blockers, non-DHP CCB, digoxin), QT-prolonging drugs, sedatives/opioids, psychotropics, insulin/sulfonylureas, NSAIDs/ACEi/ARB/SGLT2i. Note start dates, dose changes and timing of the last dose versus the event.",
+    "prerequisites": "Access to an accurate medication list (pharmacy fill data, carer, containers); ask specifically about new drugs and dose escalations within the past 2-4 weeks.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "A new or up-titrated vasoactive, rate-slowing, sedative or diuretic drug (or an intercurrent illness reducing intake/clearance) temporally linked to the event supports drug-induced orthostatic hypotension, bradyarrhythmia, hypovolemia/AKI or delirium.",
+    "negative_finding": "No culprit drug or no temporal relationship lowers the probability of medication effect but does not exclude intrinsic cardiac or neurological causes.",
+    "pitfalls": "Patients omit over-the-counter, recreational and 'as needed' drugs; drug effects are amplified by age, renal impairment, volume depletion and drug-drug interactions, so a long-standing drug can still be the cause after a change elsewhere. Attributing syncope to drugs without ECG review can miss conduction disease unmasked by the drug.",
+    "changes_what": "Positive: hold/adjust the culprit, check orthostatic vitals, ECG, creatinine and electrolytes; negative: pursue arrhythmic, structural, vasovagal or infectious causes."
+  },
+  "estimates": [],
+  "evidence_status": "not_quantified",
+  "sources": [
+    {
+      "citation": "Brignole M, Moya A, de Lange FJ, Deharo JC, Elliott PM, Fanciulli A, Fedorowski A, Furlan R, et al. 2018 ESC Guidelines for the diagnosis and management of syncope. Eur Heart J. 2018.",
+      "doi": "10.1093/eurheartj/ehy037",
+      "pmid": "29562304",
+      "url": null,
+      "kind": "guideline",
+      "year": 2018
+    },
+    {
+      "citation": "Albassam OT, Redelmeier RJ, Shadowitz S, Husain AM, Simel D, Etchells EE. Did This Patient Have Cardiac Syncope?: The Rational Clinical Examination Systematic Review. JAMA. 2019.",
+      "doi": "10.1001/jama.2019.8001",
+      "pmid": "31237649",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2019
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not accept a medication explanation as final in patients with exertional syncope, syncope while supine, palpitations preceding syncope, known structural heart disease or an abnormal ECG.",
+    "escalation_warning": "Bradycardia or high-grade AV block, QT prolongation, symptomatic hypotension with AKI, or opioid/sedative toxicity with reduced consciousness need monitored care and antidote/withdrawal decisions.",
+    "interobserver_note": "No inter-observer data; completeness depends on the reconciliation source (pharmacy records are more complete than patient recall)."
+  },
+  "tier": "verified",
+  "extraction_notes": "No diagnostic-accuracy study of a medication history for drug-induced syncope/hypotension was located (searches 'syncope drug-induced orthostatic hypotension antihypertensive prospective elderly' and 'drug-related syncope elderly prospective antihypertensive withdrawal' returned nothing). The RCE for cardiac syncope (Albassam 2019, N=4317, 11 studies) quantifies age, AF history, structural heart disease and prodromal features but does not report medication history as a discriminator (Abstract), so it is cited for context only. The ESC 2018 syncope guideline lists drug-induced orthostatic hypotension (vasodilators, diuretics, phenothiazines, antidepressants) and drug-induced bradycardia among initial-evaluation items (unverified recall of guideline wording; PubMed abstract empty). Status not_quantified.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T02:33:30+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T08:04:16.023Z",
+  "verification_notes": "",
+  "record_version": 3
+}

@@ -1,0 +1,113 @@
+{
+  "identity": {
+    "id": "exam_nystagmus_direction_changing",
+    "title": "Nystagmus: direction-changing / vertical / pure torsional (central) vs unidirectional horizontal (peripheral)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dizziness"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "bppv",
+      "posterior_circulation_stroke",
+      "vestibular_neuritis"
+    ],
+    "indication_tags": [
+      "acute_onset"
+    ]
+  },
+  "technique": {
+    "how": "With the patient looking straight ahead, observe for spontaneous nystagmus and note the direction of the fast phase; then have them follow your finger about 30 degrees to the right, left, up and down, holding each position several seconds, and record whether the fast phase reverses direction with gaze. Remove fixation if possible (penlight/ophthalmoscope cover, Frenzel lenses).",
+    "prerequisites": "Patient must be able to hold eccentric gaze; avoid extreme lateral gaze (physiologic end-point nystagmus). Meaningful mainly in acute vestibular syndrome with ongoing spontaneous nystagmus.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Horizontal nystagmus whose fast phase changes direction with gaze (gaze-evoked, bidirectional), predominantly vertical (up/down-beat) or pure torsional nystagmus indicates a central lesion; specificity for a central cause is about 98% in pooled ED studies and was 100% (0/25 peripheral) in Kattah's AVS cohort.",
+    "negative_finding": "Unidirectional horizontal(-torsional) nystagmus that obeys Alexander's law and suppresses with fixation is the expected pattern of vestibular neuritis, but a peripheral-appearing nystagmus does not exclude stroke: central nystagmus patterns are seen in only about 37-51% of central AVS.",
+    "pitfalls": "End-gaze physiologic nystagmus at extreme lateral gaze and drug-induced gaze-evoked nystagmus (anticonvulsants, sedatives, alcohol) are false positives; fixation can suppress peripheral nystagmus and hide it. Positional nystagmus of BPPV is triggered, transient and torsional-upbeating, not spontaneous.",
+    "changes_what": "Central-pattern nystagmus: treat as posterior-circulation stroke; obtain MRI/stroke consult. Peripheral-pattern nystagmus alone does not rule out stroke; combine with HIT and skew (HINTS)."
+  },
+  "estimates": [
+    {
+      "target_condition": "Central cause of acute vertigo/dizziness - central nystagmus type (bidirectional, vertical, direction-changing or pure torsional)",
+      "population": "ED patients with acute vertigo or dizziness; 16 studies, 1366 patients",
+      "setting": "ED",
+      "prevalence": null,
+      "reference_standard": "Neuroimaging-confirmed central vs peripheral etiology",
+      "sensitivity": {
+        "value": 0.507,
+        "ci_low": 0.411,
+        "ci_high": 0.602
+      },
+      "specificity": {
+        "value": 0.985,
+        "ci_low": 0.917,
+        "ci_high": 0.997
+      },
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "pure torsional nystagmus are consistent with a central cause of vertigo, sensitivity 50.7% [95% CI 41.1%-60.2%, moderate] and specificity 98.5% [95% CI 91.7%-99.7%",
+      "location": "Abstract, Results (Acad Emerg Med 2023;30:552)"
+    },
+    {
+      "target_condition": "Central acute vestibular syndrome - direction-changing nystagmus on lateral gaze",
+      "population": "Pooled AVS cohorts (10 studies; direction-changing nystagmus assessed in 400 central and 376 peripheral patients)",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Delayed MRI-DWI for peripheral cases; confirmatory neuroimaging for stroke",
+      "sensitivity": {
+        "value": 0.373,
+        "ci_low": 0.272,
+        "ci_high": 0.473
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "considerably lower for the other tests including the test of skew (27.0% [16.1-37.9]), direction-changing nystagmus on lateral-gaze test (37.3% [27.2-47.3])",
+      "location": "Results, 'Diagnostic accuracy of bedside examination findings' (Ann Neurol 2023;94:295; PMC10524166); full values in supplementary Table 2"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Diagnostic accuracy of the physical examination in emergency department patients with acute vertigo or dizziness: a systematic review and meta-analysis for GRACE-3. Acad Emerg Med. 2023;30(5):552-578.",
+      "doi": null,
+      "pmid": "36453134",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2023
+    },
+    {
+      "citation": "Tarnutzer AA, Gold D, Wang Z, et al. Impact of clinician training background and stroke location on bedside diagnostic test accuracy in the acute vestibular syndrome - a meta-analysis. Ann Neurol. 2023;94(2):295-308.",
+      "doi": "10.1002/ana.26661",
+      "pmid": "37038843",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2023
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Not applicable to episodic/triggered vertigo without spontaneous nystagmus (use Dix-Hallpike); a fixation-suppressed or absent nystagmus makes the HINTS battery uninterpretable.",
+    "escalation_warning": "Vertical, pure torsional or gaze-direction-changing nystagmus in acute vertigo should trigger the stroke pathway even if the patient looks well and CT is normal (early MRI-DWI misses ~15% of posterior strokes).",
+    "interobserver_note": "Pooled specificity is consistent across studies (98.5%) but sensitivity is heterogeneous (37-51%) and depends on examiner training and removal of fixation; Ann Neurol 2023 found HINTS specificity higher for subspecialists than non-subspecialists (97.6% vs 89.1%)."
+  },
+  "tier": "verified",
+  "extraction_notes": "The anchor RCE (Froehling 1994) has no PubMed abstract and no accessible full text, so it is cited without a numeric estimate. Pooled numbers come from the GRACE-3 meta-analysis (abstract) and the Ann Neurol 2023 meta-analysis (PMC full text, Results paragraph; the per-test sens/spec table is in supplementary Table 2, which I could not view, so specificity for direction-changing nystagmus is left null). Kattah 2009 single-study values are read from Table 1 in the PMC full text; specificity 100% corresponds to 0/25 peripheral patients and the study is a high-risk AVS cohort examined by a neuro-ophthalmologist. Estimates kept separate by population/sign; not averaged.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T02:00:17+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T06:36:56.768Z",
+  "verification_notes": "",
+  "record_version": 3
+}

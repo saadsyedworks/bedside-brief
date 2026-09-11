@@ -1,0 +1,140 @@
+{
+  "identity": {
+    "id": "exam_pulse_irregularly_irregular",
+    "title": "Radial pulse irregularly irregular on palpation (>=20-30 s)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "syncope",
+      "palpitations",
+      "dizziness",
+      "weakness"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "acute_decompensated_hf",
+      "atrial_fibrillation_flutter",
+      "pvcs_benign_ectopy",
+      "stroke",
+      "svt"
+    ],
+    "indication_tags": [
+      "elderly",
+      "anticoagulated"
+    ]
+  },
+  "technique": {
+    "how": "Palpate the radial pulse with two fingers for at least 20-30 s (longer if any irregularity), noting rhythm and rate. An irregularly irregular rhythm with no repeating pattern and variable beat volume is positive; occasional dropped or early beats with an otherwise regular rhythm are not.",
+    "prerequisites": "Patient at rest; count for 30-60 s if rate is needed, since pulse deficit in AF makes short counts inaccurate.",
+    "contraindications": "None. Weak or thready pulse (shock, arterial disease) reduces reliability; use apical auscultation instead."
+  },
+  "interpretation": {
+    "positive_finding": "An irregularly irregular pulse raises the probability of atrial fibrillation (pooled LR+ 3.4-5.2) but is not diagnostic; frequent ectopy, sinus arrhythmia and flutter with variable block mimic it, so a 12-lead ECG is required.",
+    "negative_finding": "A regular pulse makes AF unlikely (pooled sensitivity 92-94%, LR- 0.10), which is the finding's main value; it does not exclude paroxysmal AF outside the examination.",
+    "pitfalls": "Specificity is only 72-82%, so roughly a quarter of positive pulses in screening are not AF. Atrial flutter with fixed block feels regular, and AF with slow ventricular response can be hard to appreciate.",
+    "changes_what": "Positive: obtain 12-lead ECG now (rate control/anticoagulation decisions follow ECG); negative: AF at this moment unlikely, consider ambulatory monitoring if paroxysmal AF suspected."
+  },
+  "estimates": [
+    {
+      "target_condition": "Atrial fibrillation (irregular pulse on palpation)",
+      "population": "3 studies, 2385 patients, predominantly elderly/primary-care screening populations",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "12-lead ECG diagnosis of atrial fibrillation",
+      "sensitivity": {
+        "value": 0.94,
+        "ci_low": 0.84,
+        "ci_high": 0.97
+      },
+      "specificity": {
+        "value": 0.72,
+        "ci_low": 0.69,
+        "ci_high": 0.75
+      },
+      "lr_positive": {
+        "value": 3.39,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.1,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": false,
+      "interpretation_label": "rule_out",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "Pooled sensitivity was 94% (95% confidence interval [CI], 84%-97%) and pooled specificity was 72% (95% CI, 69%-75%).",
+      "location": "Abstract, Results (LRs: 'The pooled positive likelihood ratio was 3.39, while the pooled negative likelihood ratio was 0.10', same paragraph)"
+    },
+    {
+      "target_condition": "Atrial fibrillation (pulse irregularity detected by manual pulse palpation)",
+      "population": "Adults in AF screening studies; 6 pulse-palpation interventions within 21 studies (15,129 pulse assessments overall)",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "12-lead ECG diagnosed atrial fibrillation",
+      "sensitivity": {
+        "value": 0.92,
+        "ci_low": 0.85,
+        "ci_high": 0.96
+      },
+      "specificity": {
+        "value": 0.82,
+        "ci_low": 0.76,
+        "ci_high": 0.88
+      },
+      "lr_positive": {
+        "value": 5.2,
+        "ci_low": 3.8,
+        "ci_high": 7.2
+      },
+      "lr_negative": {
+        "value": 0.1,
+        "ci_low": 0.05,
+        "ci_high": 0.18
+      },
+      "computed": false,
+      "interpretation_label": "rule_out",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "pulse palpation (six interventions) were 0.92 (95% CI 0.85-0.96) and 0.82 (95% CI 0.76-0.88), respectively (PLR 5.2 (95% CI 3.8-7.2), NLR 0.1 (95% CI 0.05-0.18))",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Cooke G, Doust J, Sanders S. Is pulse palpation helpful in detecting atrial fibrillation? A systematic review. J Fam Pract. 2006;55(2):130-134.",
+      "doi": null,
+      "pmid": "16451780",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2006
+    },
+    {
+      "citation": "Taggar JS, Coleman T, Lewis S, Heneghan C, Jones M. Accuracy of methods for detecting an irregular pulse and suspected atrial fibrillation: A systematic review and meta-analysis. Eur J Prev Cardiol. 2016;23(12):1330-1338.",
+      "doi": "10.1177/2047487315611347",
+      "pmid": "26464292",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2016
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not rely on pulse palpation instead of an ECG when AF would change management (anticoagulation, rate control, syncope/stroke workup); do not use a weak or thready pulse in shock to judge rhythm.",
+    "escalation_warning": "Irregularly irregular pulse with a rapid rate and hypotension, chest pain, or acute focal deficit requires immediate ECG and monitored care.",
+    "interobserver_note": "Palpation accuracy varies with examiner experience and palpation duration; screening studies mostly used nurses/GPs, and shorter palpation lowers sensitivity for paroxysmal or slow AF."
+  },
+  "tier": "verified",
+  "extraction_notes": "Both pooled estimates come from abstracts (no PMC full text). Cooke 2006 pools 3 screening studies (n=2385) and reports LRs without CIs; Taggar 2016 pools 6 pulse-palpation interventions with bivariate CIs and is the larger, more recent analysis. Both are screening/primary-care populations against 12-lead ECG, so performance in symptomatic ED patients (palpitations, syncope) may differ; no ED-specific cohort was found within budget. The 20-30 s palpation duration in the title is convention and not separately quantified.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T01:37:32+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T07:49:40.896Z",
+  "verification_notes": "",
+  "record_version": 3
+}

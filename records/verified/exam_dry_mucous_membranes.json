@@ -1,0 +1,113 @@
+{
+  "identity": {
+    "id": "exam_dry_mucous_membranes",
+    "title": "Dry oral mucous membranes, tongue furrows, sunken eyes, dry axilla",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "hypotension",
+      "aki",
+      "dizziness",
+      "ams"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "hyponatremia",
+      "hypovolemic_hemorrhagic_shock",
+      "orthostatic_hypotension",
+      "prerenal_hypovolemia"
+    ],
+    "indication_tags": [
+      "elderly"
+    ]
+  },
+  "technique": {
+    "how": "Inspect the mouth with a light: look at the buccal mucosa and under the tongue for moisture, and at the dorsum of the tongue for longitudinal furrows. Inspect the eyes for sunken globes. Palpate the axilla for sweat. Record each sign separately rather than a global impression.",
+    "prerequisites": "Patient not mouth-breathing on oxygen for a prolonged period and no recent oral intake or mouth care; good lighting.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Dry mucous membranes, furrowed tongue, sunken eyes or a dry axilla each support hypovolemia in patients with vomiting, diarrhea or poor intake; the pooled RCE gives LR+ 2.8 for dry axilla only.",
+    "negative_finding": "Moist mucous membranes or a tongue without furrows argue against hypovolemia (LR- 0.3 for either), which is the more useful direction of these signs.",
+    "pitfalls": "Mouth breathing, oxygen therapy, anticholinergics and age-related changes dry the mouth without volume depletion; sunken eyes and tongue furrows are chronic in many elderly patients.",
+    "changes_what": "Moist membranes and an unfurrowed tongue lower the probability of hypovolemia; dry findings support a fluid trial and checking electrolytes, BUN/creatinine."
+  },
+  "estimates": [
+    {
+      "target_condition": "Hypovolemia (dehydration) in adults with vomiting, diarrhea or decreased oral intake - finding: dry oral mucous membranes (LR- is for moist membranes)",
+      "population": "Adults (largely elderly) presenting with suspected hypovolemia due to vomiting, diarrhea or decreased oral intake",
+      "setting": "ED",
+      "prevalence": null,
+      "reference_standard": "Laboratory/clinical criteria for hypovolemia used by the included primary studies; details not visible in abstract",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": null,
+      "computed": false,
+      "interpretation_label": "rule_out",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "moist mucous membranes and a tongue without furrows argue against it (negative likelihood ratio, 0.3; 95% CI, 0.1-0.6 for both findings)",
+      "location": "Abstract, Results",
+      "lr_negative": {
+        "value": 0.3,
+        "ci_low": 0.1,
+        "ci_high": 0.6
+      }
+    },
+    {
+      "target_condition": "Hypovolemia (dehydration) in adults with vomiting, diarrhea or decreased oral intake - finding: longitudinal tongue furrows (LR- is for tongue without furrows)",
+      "population": "Adults (largely elderly) presenting with suspected hypovolemia due to vomiting, diarrhea or decreased oral intake",
+      "setting": "ED",
+      "prevalence": null,
+      "reference_standard": "Laboratory/clinical criteria for hypovolemia used by the included primary studies; details not visible in abstract",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": null,
+      "computed": false,
+      "interpretation_label": "rule_out",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "moist mucous membranes and a tongue without furrows argue against it (negative likelihood ratio, 0.3; 95% CI, 0.1-0.6 for both findings)",
+      "location": "Abstract, Results",
+      "lr_negative": {
+        "value": 0.3,
+        "ci_low": 0.1,
+        "ci_high": 0.6
+      }
+    }
+  ],
+  "evidence_status": "partially_quantified",
+  "sources": [
+    {
+      "citation": "McGee S, Abernethy WB, Simel DL. The rational clinical examination. Is this patient hypovolemic? JAMA. 1999;281(11):1022-1029.",
+      "doi": "10.1001/jama.281.11.1022",
+      "pmid": "10086438",
+      "url": null,
+      "kind": "rce_series",
+      "year": 1999
+    },
+    {
+      "citation": "Gross CR, Lindquist RD, Woolley AC, et al. Clinical indicators of dehydration severity in elderly patients. J Emerg Med. 1992;10(3):267-274.",
+      "doi": "10.1016/0736-4679(92)90331-m",
+      "pmid": "1624737",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1992
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Not validated for blood loss; do not use these signs to exclude hemorrhagic hypovolemia or shock.",
+    "escalation_warning": "Hypotension, severe postural dizziness or a postural pulse increment of 30/min or more indicates large volume loss and needs urgent resuscitation regardless of mucosal findings.",
+    "interobserver_note": "Agreement statistics are not in the RCE abstract; mucosal moisture is a subjective judgment and individual signs should be recorded separately."
+  },
+  "tier": "verified",
+  "extraction_notes": "Only the RCE abstract (PMID 10086438) was accessible: it reports LR- 0.3 (0.1-0.6) for moist mucous membranes and for tongue without furrows, and LR+ 2.8 for dry axilla (recorded in exam_dry_axilla). Positive LRs for dry membranes/furrows and any estimate for sunken eyes are in the RCE tables, not accessible, so they are null. Gross 1992 (PMID 1624737) abstract gives only correlations with a dehydration severity rating (tongue dryness, furrows, dry mucous membranes, sunken eyes all P<0.01) and no sensitivity/specificity, so it is cited without an estimate.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T01:59:59+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T05:56:28.783Z",
+  "verification_notes": "",
+  "record_version": 3
+}

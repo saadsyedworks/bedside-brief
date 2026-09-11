@@ -1,0 +1,170 @@
+{
+  "identity": {
+    "id": "pocus_lung_b_lines",
+    "title": "POCUS lung: >=3 B-lines per intercostal space in >=2 bilateral zones (interstitial syndrome)",
+    "type": "pocus",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "chest_pain",
+      "edema",
+      "hypotension",
+      "aki"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "acute_decompensated_hf",
+      "cardiogenic_shock",
+      "cardiorenal",
+      "copd_exacerbation",
+      "ild",
+      "pneumonia"
+    ],
+    "indication_tags": [
+      "dialysis",
+      "hf_known"
+    ]
+  },
+  "technique": {
+    "how": "Curvilinear or phased-array probe, longitudinal, scanning 4 anterior/lateral zones per hemithorax (8-zone protocol) or the BLUE points. In each interspace count vertical, laser-like, pleura-to-bottom artifacts that move with sliding and erase A-lines; a positive zone has >=3 B-lines, and a positive study has >=2 positive zones bilaterally.",
+    "prerequisites": "Patient supine or semi-recumbent; operator trained in lung POCUS; interpret with cardiac POCUS, IVC and clinical context.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Bilateral, diffuse, symmetric B-lines (>=3 per space in >=2 zones each side) with sliding preserved: interstitial syndrome, most often cardiogenic pulmonary edema in a dyspneic patient.",
+    "negative_finding": "A-line predominance bilaterally (no B-line zones) makes cardiogenic pulmonary edema unlikely (pooled sensitivity around 0.88-0.94) and points to COPD/asthma, PE or other causes.",
+    "pitfalls": "B-lines are non-specific: pneumonia, ARDS, interstitial lung disease, fibrosis and volume overload without heart failure (dialysis patients) also produce them; focal or asymmetric B-lines suggest pneumonia rather than edema. Accuracy depends on zone count, threshold and operator.",
+    "changes_what": "Bilateral B-lines in acute dyspnea: treat as cardiogenic edema/volume overload pending BNP/echo; A-profile shifts the workup toward COPD/asthma or PE."
+  },
+  "estimates": [
+    {
+      "target_condition": "Acute decompensated heart failure (cardiogenic pulmonary edema) by LUS B-lines",
+      "population": "Adults presenting with dyspnea; 6 prospective studies, 1,827 patients (4 ED, 2 internal-medicine ward cohorts); Volpicelli criteria (>=3 B-lines in >=2 zones bilaterally) or modification; 1 to >=12 operators per study",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "ADHF diagnosis by expert medical record review (5 studies) or echocardiography + BNP + CXR criteria (1 study)",
+      "sensitivity": {
+        "value": 0.88,
+        "ci_low": 0.75,
+        "ci_high": 0.95
+      },
+      "specificity": {
+        "value": 0.9,
+        "ci_low": 0.88,
+        "ci_high": 0.92
+      },
+      "lr_positive": {
+        "value": 8.8,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.13,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.88/(1-0.90) = 8.8; LR- = (1-0.88)/0.90 = 0.13, from pooled sensitivity 0.88 and specificity 0.90",
+      "interpretation_label": "both",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "Pooled estimates for LUS were 0.88 (95% Cl, 0.75-0.95) for sensitivity and 0.90 (95% Cl, 0.88-0.92) for specificity.",
+      "location": "Results, 'Primary Outcome' paragraph (PMC6484641); also Abstract"
+    },
+    {
+      "target_condition": "Acute cardiogenic pulmonary edema by B-lines",
+      "population": "Patients presenting with acute dyspnea or suspected CHF; 7 prospective studies, n=1,075 (2 ED, 2 ICU, 2 ward, 1 prehospital)",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Final diagnosis from clinical follow-up",
+      "sensitivity": {
+        "value": 0.941,
+        "ci_low": 0.813,
+        "ci_high": 0.983
+      },
+      "specificity": {
+        "value": 0.924,
+        "ci_low": 0.842,
+        "ci_high": 0.964
+      },
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "computed_from": "",
+      "interpretation_label": "both",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "sensitivity of US using B-lines to diagnosis ACPE is 94.1% (95% confidence interval [CI] = 81.3% to 98.3%) and the specificity is 92.4%",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Pulmonary edema (BLUE B-profile: multiple anterior diffuse B-lines with lung sliding)",
+      "population": "260 consecutive ICU admissions with acute respiratory failure and definite diagnosis; 64 pulmonary edema; single expert operator",
+      "setting": "ICU",
+      "prevalence": null,
+      "reference_standard": "Final diagnosis by ICU team",
+      "sensitivity": {
+        "value": 0.97,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.95,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "computed_from": "",
+      "interpretation_label": "both",
+      "evidence_level": "single_study",
+      "source_index": 2,
+      "quote": "Multiple anterior diffuse B lines with lung sliding indicated pulmonary edema (n=64) with 97% sensitivity and 95% specificity.",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Maw AM, Hassanin A, Ho PM, et al. Diagnostic accuracy of point-of-care lung ultrasonography and chest radiography in adults with symptoms suggestive of acute decompensated heart failure: a systematic review and meta-analysis. JAMA Netw Open. 2019;2(3):e190703.",
+      "doi": "10.1001/jamanetworkopen.2019.0703",
+      "pmid": "30874784",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2019
+    },
+    {
+      "citation": "Al Deeb M, Barbic S, Featherstone R, Dankoff J, Barbic D. Point-of-care ultrasonography for the diagnosis of acute cardiogenic pulmonary edema in patients presenting with acute dyspnea: a systematic review and meta-analysis. Acad Emerg Med. 2014;21(8):843-852.",
+      "doi": "10.1111/acem.12435",
+      "pmid": "25176151",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2014
+    },
+    {
+      "citation": "Lichtenstein DA, Meziere GA. Relevance of lung ultrasound in the diagnosis of acute respiratory failure: the BLUE protocol. Chest. 2008;134(1):117-125.",
+      "doi": "10.1378/chest.07-2800",
+      "pmid": "18403664",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2008
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not attribute B-lines to heart failure without corroborating cardiac POCUS/clinical data in patients with known ILD, ARDS, pneumonia or on dialysis; do not use a single-zone scan.",
+    "escalation_warning": "Diffuse B-lines with hypotension or poor LV function on cardiac POCUS suggests cardiogenic shock; escalate and avoid fluid boluses.",
+    "interobserver_note": "Maw 2019: interrater kappa for LUS in 3 studies ranged 0.70-1.00 (Results, Study Characteristics); Al Deeb 2014 subgroup analyses by protocol did not significantly change pooled estimates.",
+    "skill_assumption": "Assumes an operator trained in lung POCUS who can identify the pleural line, distinguish B-lines from Z-lines/comet tails, apply a multi-zone protocol and the >=3 B-lines/>=2 zones bilateral threshold; included studies used a mix of novices with brief training and experts."
+  },
+  "tier": "verified",
+  "extraction_notes": "Primary estimate is the Maw 2019 HSROC pooled sensitivity/specificity, verified in the PMC full text Results paragraph; LRs computed from the pooled point estimates and flagged computed. Threshold/protocol details (Volpicelli criteria, 4-12 zones, kappa 0.70-1.00) taken from Maw Table 2 and Results text. Al Deeb 2014 (not open access) numbers from abstract; quote truncated to 25 words so the specificity CI (84.2-96.4%) appears in the estimate fields only. BLUE B-profile from Lichtenstein 2008 abstract; prevalence not entered because uncertain/rare diagnoses were excluded from the denominator.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T01:47:39+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T08:07:47.742Z",
+  "verification_notes": "",
+  "record_version": 3
+}

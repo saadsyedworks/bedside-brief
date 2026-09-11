@@ -1,0 +1,74 @@
+{
+  "identity": {
+    "id": "fn_bedside_walk_test",
+    "title": "Bedside walk / ambulatory desaturation and dyspnea reproduction test (hallway walk with pulse-ox, ability to complete)",
+    "type": "functional",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "chest_pain",
+      "syncope",
+      "palpitations"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "acs",
+      "acute_decompensated_hf",
+      "anxiety_hyperventilation",
+      "aortic_stenosis",
+      "copd_exacerbation",
+      "ild",
+      "pneumonia",
+      "pulmonary_embolism"
+    ],
+    "indication_tags": [
+      "exertional"
+    ]
+  },
+  "technique": {
+    "how": "Record resting SpO2, heart rate and dyspnea (Borg) with a well-fitting finger probe. Walk the patient along a flat corridor at their own pace for 1-6 minutes (or a set distance, e.g. 40 steps) with continuous oximetry; note nadir SpO2, heart-rate rise, symptom reproduction, and whether they can complete the walk. A fall in SpO2 of >=4% or to <90% is the usual desaturation criterion.",
+    "prerequisites": "Stable resting vitals, no ongoing chest pain, ECG reviewed if chest pain or syncope is the presentation; a chair and staff available; oximeter with good waveform.",
+    "contraindications": "Unstable angina or ACS in evolution, resting hypoxia or hypotension, suspected severe aortic stenosis with exertional syncope, untreated suspected PE with hemodynamic compromise, resting HR >120 or uncontrolled arrhythmia (contraindications adapted from ERS/ATS 6MWT standard)."
+  },
+  "interpretation": {
+    "positive_finding": "Exertional desaturation or reproduced dyspnea with a normal resting SpO2 indicates a gas-exchange or cardiopulmonary limit (ILD, pneumonia, PE, heart failure, COPD) and argues against anxiety/hyperventilation; failure to complete the walk from symptoms is a marker of severity and unsafe discharge.",
+    "negative_finding": "Completing a corridor walk without desaturation or symptom reproduction lowers concern for a significant exertional gas-exchange defect but has no validated accuracy for excluding PE, ACS or aortic stenosis.",
+    "pitfalls": "Motion artefact, poor perfusion and nail polish produce spurious dips; a short walk may be too little stimulus and a test at the bedside is less reproducible than a standardised 6MWT (two tests recommended). Deconditioning and pain limit completion without implying cardiopulmonary disease.",
+    "changes_what": "Desaturation or incomplete walk: keep in hospital, escalate imaging (CTPA/HRCT/echo) and oxygen. Normal walk: supports outpatient pathway if resting evaluation is also reassuring."
+  },
+  "estimates": [],
+  "evidence_status": "not_quantified",
+  "sources": [
+    {
+      "citation": "Holland AE, Spruit MA, Troosters T, Puhan MA, Pepin V, Saey D, McCormack MC, Carlin BW, et al. An official European Respiratory Society/American Thoracic Society technical standard: field walking tests in chronic respiratory disease. Eur Respir J. 2014;44(6):1428-1446.",
+      "doi": "10.1183/09031936.00150314",
+      "pmid": "25359355",
+      "url": null,
+      "kind": "guideline",
+      "year": 2014
+    },
+    {
+      "citation": "Kalin A, Javid B, Knight M, Inada-Kim M, Greenhalgh T. Direct and indirect evidence of efficacy and safety of rapid exercise tests for exertional desaturation in Covid-19: a rapid systematic review. Syst Rev. 2021;10(1):77.",
+      "doi": "10.1186/s13643-021-01620-w",
+      "pmid": "33726854",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2021
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not walk a patient with resting hypoxia, hypotension, ongoing chest pain, suspected severe aortic stenosis or an untreated high-probability PE.",
+    "escalation_warning": "SpO2 falling below 88-90%, chest pain, presyncope or a heart-rate surge with symptoms means stop, sit the patient, give oxygen and escalate.",
+    "interobserver_note": "Reproducibility of ad hoc bedside walks is unstudied; ERS/ATS states 6MWT results 'are sensitive to small changes in methodology' and recommends two tests (Abstract)."
+  },
+  "tier": "verified",
+  "extraction_notes": "Both PMIDs confirmed. No RCE or diagnostic-accuracy study of an inpatient hallway walk against a disease reference standard was found (searches: 'exertional desaturation walk test diagnostic accuracy dyspnea' -> only PMID 33726854). Kalin 2021 (PMC full text read) concludes that exertional desaturation tests had not been validated as diagnostic tests; the single calculable study compares a 1-minute sit-to-stand test against the 6MWT (another exercise test, not a disease), so it is NOT entered as an estimate: quote 'the 1MSTST appears to have a sensitivity of 88% [95% CI impossible to calculate because numbers too small], a specificity of 81% [95% CI 71-91%]' (Kalin 2021, Table 2 and following paragraph; 2x2 from Briand et al 2018, 107 ILD patients, threshold SpO2 fall >=4%). The ERS/ATS technical standard (PMID 25359355) is the procedural and safety anchor; contraindications in technique are adapted from it (exact wording not accessible, abstract only). Status not_quantified.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:41:04+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T07:51:17.901Z",
+  "verification_notes": "",
+  "record_version": 3
+}

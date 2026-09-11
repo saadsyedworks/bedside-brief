@@ -1,0 +1,191 @@
+{
+  "identity": {
+    "id": "exam_focal_neuro_deficit_screen",
+    "title": "Focal deficit screen: facial droop, arm drift, speech (Cincinnati/NIHSS-lite)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dizziness",
+      "ams",
+      "weakness"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "hypoglycemia",
+      "nonconvulsive_seizure",
+      "posterior_circulation_stroke",
+      "stroke"
+    ],
+    "indication_tags": [
+      "acute_onset",
+      "anticoagulated"
+    ]
+  },
+  "technique": {
+    "how": "Brief structured screen: facial symmetry on smile, pronator drift with arms held out and eyes closed for 10 s, and speech (repeat a sentence, name objects). Add gaze (ask to look left/right), visual fields by confrontation, finger-nose and heel-shin, and gait if safe, because dizzy or confused patients often lack the three classic items.",
+    "prerequisites": "Bedside glucose; note baseline deficits, time last known well and anticoagulant use. Patient must be able to follow at least one-step commands or the screen defaults to observation of asymmetry.",
+    "contraindications": "None. Do not stand a patient who is vomiting, severely ataxic or hypotensive to test gait."
+  },
+  "interpretation": {
+    "positive_finding": "Any new focal finding (facial paresis, arm drift, dysarthria/aphasia, gaze palsy, hemisensory loss, limb ataxia) strongly favours a central lesion; in dizzy patients such general neurologic signs are highly specific for a central cause (pooled specificity about 93%; limb weakness 98.5%).",
+    "negative_finding": "A normal focal screen lowers stroke probability modestly overall (LR about 0.4 for absence of face/arm/speech findings) but is insensitive for posterior-circulation stroke: pooled sensitivity of the general neurologic exam in acute vertigo is under 50%, and in Kattah's AVS cohort general signs were absent in 49% of central lesions.",
+    "pitfalls": "Confusion, aphasia and encephalopathy from hypoglycemia, seizure or intoxication mimic focal deficits; a normal screen in a dizzy patient is falsely reassuring, so add HINTS and a gait test. Old deficits must be compared with baseline.",
+    "changes_what": "Positive: treat as stroke until imaged, especially if anticoagulated (urgent CT for hemorrhage). Negative in a dizzy patient: still needs HINTS/gait assessment; does not exclude stroke."
+  },
+  "estimates": [
+    {
+      "target_condition": "Acute stroke (ischemic or hemorrhagic)",
+      "population": "Pooled studies of patients with neurologically relevant symptoms, modern neuroimaging (RCE systematic review)",
+      "setting": "mixed",
+      "prevalence": 0.1,
+      "reference_standard": "Final diagnosis after neuroimaging and laboratory tests",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 5.5,
+        "ci_low": 3.3,
+        "ci_high": 9.1
+      },
+      "lr_negative": {
+        "value": 0.39,
+        "ci_low": 0.25,
+        "ci_high": 0.61
+      },
+      "computed": false,
+      "interpretation_label": "both",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "acute facial paresis, arm drift, or abnormal speech increases the likelihood of stroke (LR of > or =1 finding = 5.5; 95% CI, 3.3-9.1)",
+      "location": "Abstract, Data Synthesis (JAMA 2005;293:2391)"
+    },
+    {
+      "target_condition": "Central cause (stroke, hemorrhage, other) of acute vertigo/dizziness - general neurologic examination abnormal",
+      "population": "ED patients with acute vertigo or dizziness; 5 studies, 869 patients",
+      "setting": "ED",
+      "prevalence": null,
+      "reference_standard": "Neuroimaging-confirmed central vs peripheral etiology",
+      "sensitivity": {
+        "value": 0.468,
+        "ci_low": 0.323,
+        "ci_high": 0.619
+      },
+      "specificity": {
+        "value": 0.928,
+        "ci_low": 0.757,
+        "ci_high": 0.981
+      },
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "general neurologic examination-five studies, 869 patients, pooled sensitivity 46.8% (95% confidence interval [CI] 32.3%-61.9%, moderate certainty) and specificity 92.8% (95% CI 75.7%-98.1%",
+      "location": "Abstract, Results (Acad Emerg Med 2023;30:552)"
+    },
+    {
+      "target_condition": "Central cause of acute vertigo/dizziness - limb weakness/hemiparesis",
+      "population": "ED patients with acute vertigo or dizziness; 4 studies, 893 patients",
+      "setting": "ED",
+      "prevalence": null,
+      "reference_standard": "Neuroimaging-confirmed central vs peripheral etiology",
+      "sensitivity": {
+        "value": 0.114,
+        "ci_low": 0.051,
+        "ci_high": 0.236
+      },
+      "specificity": {
+        "value": 0.985,
+        "ci_low": 0.971,
+        "ci_high": 0.992
+      },
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "limb weakness/hemiparesis-four studies, 893 patients, sensitivity 11.4% (95% CI 5.1%-23.6%, high) and specificity 98.5% (95% CI 97.1%-99.2%, high)",
+      "location": "Abstract, Results (Acad Emerg Med 2023;30:552)"
+    },
+    {
+      "target_condition": "Central acute vestibular syndrome (stroke or other central lesion) - any general neurologic sign including truncal ataxia",
+      "population": "101 consecutive high-risk AVS patients (25 peripheral, 76 central) at a stroke referral center",
+      "setting": "ED",
+      "prevalence": 0.75,
+      "reference_standard": "MRI (or CT) for stroke; normal MRI plus clinical follow-up for peripheral",
+      "sensitivity": {
+        "value": 0.51,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 1.0,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": null,
+      "lr_negative": {
+        "value": 0.49,
+        "ci_low": 0.39,
+        "ci_high": 0.61
+      },
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "single_study",
+      "source_index": 2,
+      "quote": "General neurologic signs (including truncal ataxia) 0% 51% 0.49 (0.39-0.61)",
+      "location": "Table 1 (PAVS n=25 vs CAVS n=76), Stroke 2009;40:3504 (PMC4593511)"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Goldstein LB, Simel DL. Is this patient having a stroke? JAMA. 2005;293(19):2391-2402.",
+      "doi": "10.1001/jama.293.19.2391",
+      "pmid": "15900010",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2005
+    },
+    {
+      "citation": "Diagnostic accuracy of the physical examination in emergency department patients with acute vertigo or dizziness: a systematic review and meta-analysis for GRACE-3. Acad Emerg Med. 2023;30(5):552-578.",
+      "doi": null,
+      "pmid": "36453134",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2023
+    },
+    {
+      "citation": "Kattah JC, Talkad AV, Wang DZ, Hsieh YH, Newman-Toker DE. HINTS to diagnose stroke in the acute vestibular syndrome: three-step bedside oculomotor examination more sensitive than early MRI diffusion-weighted imaging. Stroke. 2009;40(11):3504-3510.",
+      "doi": "10.1161/STROKEAHA.109.551234",
+      "pmid": "19762709",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2009
+    },
+    {
+      "citation": "Kothari RU, Pancioli A, Liu T, Brott T, Broderick J. Cincinnati Prehospital Stroke Scale: reproducibility and validity. Ann Emerg Med. 1999;33(4):373-378.",
+      "doi": "10.1016/s0196-0644(99)70299-4",
+      "pmid": "10092713",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1999
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Never use a normal three-item screen to exclude stroke in acute vertigo, ataxia, diplopia or visual loss; posterior-circulation strokes frequently have none of the three findings.",
+    "escalation_warning": "New focal deficit in an anticoagulated patient is intracranial hemorrhage until proven otherwise: urgent CT and reversal pathway. Any focal deficit within the reperfusion window is time-critical.",
+    "interobserver_note": "Item reliability varies from slight to almost perfect (Goldstein 2005); structured scoring (NIHSS/CPSS) improves agreement; CPSS items ICC 0.75-0.91 across paramedics and physicians (Kothari 1999)."
+  },
+  "tier": "verified",
+  "extraction_notes": "This record overlaps exam_face_arm_speech_cpss; it adds the pooled accuracy of a broader general neurologic examination in dizzy ED patients (GRACE-3 meta-analysis, abstract) and Kattah 2009 Table 1 (PMC full text). Kattah 2009 sensitivity/specificity are read directly from the Table 1 percentages (0% of peripheral vs 51% of central had general signs) with the table's reported NLR; specificity 100% derives from 0/25 peripheral patients. GRACE-3 setting is ED; population includes all acute vertigo/dizziness, not only AVS. Goldstein pooled LRs are from the abstract because the JAMA tables were not accessible.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T02:00:17+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T06:23:45.870Z",
+  "verification_notes": "",
+  "record_version": 3
+}

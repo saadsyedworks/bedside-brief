@@ -1,0 +1,87 @@
+{
+  "identity": {
+    "id": "exam_accessory_muscle_use",
+    "title": "Work of breathing: accessory muscle use, tripoding, pursed-lip breathing, inability to speak full sentences",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "hypotension",
+      "ams"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "acute_decompensated_hf",
+      "asthma_exacerbation",
+      "copd_exacerbation",
+      "hypercapnia",
+      "pneumonia",
+      "upper_airway_obstruction"
+    ],
+    "indication_tags": [
+      "copd_known"
+    ]
+  },
+  "technique": {
+    "how": "Observe from the doorway before touching the patient: sternocleidomastoid/scalene contraction on inspiration, suprasternal or intercostal retraction, tripod posture, pursed-lip exhalation, and diaphoresis. Ask an open question and note whether the patient can finish a sentence in one breath (sentences vs phrases vs single words).",
+    "prerequisites": "Patient undressed enough to see the neck and chest wall; observe at rest before any intervention if safe to do so.",
+    "contraindications": "None; it is observation only. Do not delay oxygen, bronchodilator or airway management to complete the assessment."
+  },
+  "interpretation": {
+    "positive_finding": "Visible accessory muscle use, tripoding or speech limited to words/phrases marks a severe exacerbation of airflow obstruction (asthma/COPD) or another cause of high work of breathing, and in admitted asthmatics is associated with a markedly lower %FEV1. Treat it as a severity marker, not as a discriminator between causes.",
+    "negative_finding": "Absence of accessory muscle use does not exclude significant airflow limitation or hypercapnia; a tiring or obtunded patient may lose the sign as ventilatory failure develops.",
+    "pitfalls": "Loss of accessory muscle use with rising drowsiness signals fatigue, not improvement. Obesity, a thick neck and supine positioning hide sternocleidomastoid contraction.",
+    "changes_what": "Present: escalate now (continuous monitoring, blood gas, bronchodilator/NIV or airway plan). Absent: do not use to downgrade severity; rely on oximetry, gas and peak flow."
+  },
+  "estimates": [],
+  "evidence_status": "not_quantified",
+  "sources": [
+    {
+      "citation": "Holleman DR, Simel DL. Does the clinical examination predict airflow limitation? JAMA. 1995.",
+      "doi": null,
+      "pmid": "7815660",
+      "url": null,
+      "kind": "rce_series",
+      "year": 1995
+    },
+    {
+      "citation": "Arnold DH, Gebretsadik T, Minton PA, Higgins S, Hartert TV. Clinical measures associated with FEV1 in persons with asthma requiring hospital admission. Am J Emerg Med. 2007.",
+      "doi": "10.1016/j.ajem.2006.09.006",
+      "pmid": "17499661",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2007
+    },
+    {
+      "citation": "Atta JA, Nunes MP, Fonseca-Guedes CH, Avena LA, Borgiani MT, Fiorenza RF, Martins MA. Patient and physician evaluation of the severity of acute asthma exacerbations. Braz J Med Biol Res. 2005.",
+      "doi": "10.1590/s0100-879x2004000900006",
+      "pmid": "15334197",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2005
+    },
+    {
+      "citation": "Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024 update: assessment of exacerbation severity (talks in words, accessory muscles, drowsiness).",
+      "doi": null,
+      "pmid": null,
+      "url": "https://ginasthma.org/reports/",
+      "kind": "guideline",
+      "year": 2024
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use absence of the sign to withhold escalation in a drowsy, exhausted or silent-chest patient.",
+    "escalation_warning": "Accessory muscle use plus inability to speak, drowsiness, silent chest, bradycardia or SpO2 <90% = life-threatening exacerbation: immediate senior/ICU involvement.",
+    "interobserver_note": "No sign-level kappa located for adults in the sources reviewed; Holleman 1995 RCE reportedly tabulates sternomastoid contraction reliability but the table was not accessible (unverified recall)."
+  },
+  "tier": "verified",
+  "extraction_notes": "No diagnostic-accuracy estimate (sens/spec/LR) was retrievable. Holleman & Simel 1995 RCE (PMID 7815660) has no PubMed abstract and no PMC text, so its sternomastoid-contraction row could not be quoted. Primary studies found report association with severity only: Arnold 2007 (PMID 17499661) in 129 admitted adult asthmatics: \"%FEV1 was significantly lower in participants with accessory muscle use (Median %FEV1 = 37.5%, IQR: 27.0-49.0) than in those without accessory muscle use (Median %FEV1= 55.0%, IQR: 39.0-69.0), (P = .004)\" (Abstract, Results); Atta 2005 (PMID 15334197): \"Use of neck accessory muscles, expiratory time and wheezing intensity were the explanatory variables in the FEV1 regression model\" (Abstract). Neither reports a 2x2, so no estimate entered. Arnold 2011 (PMID 21457886, PMC3074618) is paediatric and also reports only median %FEV1 by muscle-group count. Searches: 'accessory muscle use airflow obstruction physical examination likelihood ratio' (0 hits), 'accessory muscle use hypercapnia dyspnea emergency predictor' (0 hits), Holleman 1993 (PMID 8441077) and Straus 2000 CARE-COAD1 (PMID 10770147) abstracts do not mention accessory muscle use. GINA is cited for the severity-grading use of the sign (guideline, no PMID).",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:42:28+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T07:37:43.526Z",
+  "verification_notes": "",
+  "record_version": 3
+}

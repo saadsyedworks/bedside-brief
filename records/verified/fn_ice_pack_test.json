@@ -1,0 +1,80 @@
+{
+  "identity": {
+    "id": "fn_ice_pack_test",
+    "title": "Ice-pack test (ptosis improves >=2 mm after 2 min ice)",
+    "type": "functional",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "weakness"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "myasthenia_gravis"
+    ],
+    "indication_tags": []
+  },
+  "technique": {
+    "how": "Measure the palpebral fissure or degree of ptosis, then hold an ice pack (in a glove or towel) over the closed ptotic eyelid for 2 minutes. Immediately remeasure; the test is positive if ptosis improves by 2 mm or more. Compare with the untreated side and allow for the transient effect (about 1 minute).",
+    "prerequisites": "Measurable ptosis at the time of testing; ideally no recent pyridostigmine dose.",
+    "contraindications": "Cold urticaria; otherwise none."
+  },
+  "interpretation": {
+    "positive_finding": "Strongly supports myasthenia gravis as the cause of ptosis (pooled LR+ about 24). Proceed to serology, electrophysiology and screening for bulbar or respiratory involvement.",
+    "negative_finding": "Lowers the probability of myasthenia (pooled LR- about 0.16) but does not exclude it, especially with mild or fluctuating ptosis; consider rest/sleep test and antibody testing.",
+    "pitfalls": "Only applies to ptosis; ocular-motility and generalized weakness need other tests. Small or fluctuating ptosis makes measurement unreliable; validated mainly against edrophonium or established MG in eye clinics.",
+    "changes_what": "Positive: pursue MG confirmation and assess bulbar/respiratory strength; negative: MG less likely, consider other ptosis causes but do not stop if suspicion is high."
+  },
+  "estimates": [
+    {
+      "target_condition": "Myasthenia gravis in patients with ptosis",
+      "population": "Patients with ptosis evaluated for myasthenia, pooled from primary studies in the RCE",
+      "setting": "outpatient",
+      "prevalence": null,
+      "reference_standard": "Clinical/electrophysiological or pharmacological diagnosis of MG (edrophonium, antibodies, EMG)",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 24.0,
+        "ci_low": 8.5,
+        "ci_high": 67.0
+      },
+      "lr_negative": {
+        "value": 0.16,
+        "ci_low": 0.09,
+        "ci_high": 0.27
+      },
+      "computed": false,
+      "interpretation_label": "both",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "The ice test is useful when the response is abnormal (summary positive LR, 24.0; 95% CI, 8.5-67.0)",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Scherer K, Bedlack RS, Simel DL. Does this patient have myasthenia gravis? JAMA 2005;293:1906-1914.",
+      "doi": "10.1001/jama.293.15.1906",
+      "pmid": "15840866",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2005
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "No measurable ptosis; do not use to triage a patient with dysphagia, dyspnea or neck weakness, who needs urgent respiratory assessment regardless.",
+    "escalation_warning": "Any ptosis with bulbar symptoms, weak cough or falling vital capacity is a possible myasthenic crisis: measure FVC/NIF and involve neurology/ICU.",
+    "interobserver_note": "Millimetre measurement of ptosis is examiner-dependent; primary studies mostly used neuro-ophthalmologists. Summary LR CIs are wide (8.5-67)."
+  },
+  "tier": "verified",
+  "extraction_notes": "Summary LR- is in the same abstract sentence: 'diminishes the likelihood of myasthenia gravis when the response is normal (summary negative LR, 0.16; 95% CI, 0.09-0.27)'. JAMA RCE not in PMC OA, so the per-study table (sens/spec per primary study) was not viewed and sens/spec are left null; prevalence not reported in abstract. PMID confirmed by fetch; the Golnik 1999 primary study PMID could not be confirmed within budget (first guess resolved to an unrelated paper) and is not cited.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T02:00:31+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T06:57:25.455Z",
+  "verification_notes": "",
+  "record_version": 3
+}

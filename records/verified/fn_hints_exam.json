@@ -1,0 +1,314 @@
+{
+  "identity": {
+    "id": "fn_hints_exam",
+    "title": "HINTS (head impulse, nystagmus, test of skew) — ACUTE VESTIBULAR SYNDROME ONLY; validated by neuro-ophthalmologists",
+    "type": "functional",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dizziness"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "posterior_circulation_stroke",
+      "vestibular_neuritis"
+    ],
+    "indication_tags": [
+      "acute_onset"
+    ]
+  },
+  "technique": {
+    "how": "Only in acute vestibular syndrome (continuous vertigo with spontaneous nystagmus). Three steps: (1) horizontal head impulse test; (2) nystagmus in primary and eccentric gaze, looking for direction change; (3) alternate cover test for vertical skew. Dangerous HINTS = normal head impulse OR direction-changing nystagmus OR skew; benign = abnormal HIT, unidirectional nystagmus, no skew.",
+    "prerequisites": "Spontaneous nystagmus must be present; examiner trained in eliciting catch-up saccades and skew. Add bedside hearing (HINTS+): new unilateral hearing loss counts as dangerous.",
+    "contraindications": "Cervical instability/dissection for the impulse component; patient unable to fixate or cooperate."
+  },
+  "interpretation": {
+    "positive_finding": "Any dangerous component indicates a central cause: pooled sensitivity 93-97% and specificity 83-98% depending on examiner group; in the original neuro-ophthalmologist study 100% sensitive, 96% specific (LR+ 25, LR- 0.00), outperforming early MRI-DWI.",
+    "negative_finding": "A fully benign HINTS in AVS performed by a trained examiner makes stroke unlikely (pooled LR- about 0.09); however when applied by emergency physicians without specific training, pooled specificity was only 44% with sensitivity 83%, so a benign result is far less reliable.",
+    "pitfalls": "Applied outside AVS (no nystagmus, episodic vertigo, BPPV) it is invalid and produces false 'dangerous' results (normal HIT is normal in a healthy person). AICA strokes with labyrinthine infarction give an abnormal HIT (benign-looking) - add hearing (HINTS+). Skew and subtle saccades are easily missed by non-experts.",
+    "changes_what": "Dangerous HINTS in AVS: stroke pathway/MRI even if CT normal. Benign HINTS by trained examiner: supports neuritis; by untrained examiner do not use to withhold imaging."
+  },
+  "estimates": [
+    {
+      "target_condition": "Central lesion (stroke, hemorrhage, other) in acute vestibular syndrome - dangerous HINTS",
+      "population": "101 consecutive high-risk AVS patients (25 peripheral, 76 central); examined by a single neuro-ophthalmologist/neuro-otologist",
+      "setting": "ED",
+      "prevalence": 0.75,
+      "reference_standard": "MRI (or CT) for stroke; normal MRI plus clinical follow-up for peripheral",
+      "sensitivity": {
+        "value": 1.0,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": {
+        "value": 0.96,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 25.0,
+        "ci_low": 3.66,
+        "ci_high": 170.59
+      },
+      "lr_negative": {
+        "value": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.11
+      },
+      "computed": false,
+      "interpretation_label": "both",
+      "evidence_level": "single_study",
+      "source_index": 0,
+      "quote": "a dangerous H.I.N.T.S. result was 100% sensitive and 96% specific ... giving a positive likelihood ratio of 25 (95%CI 3.66-170.59)",
+      "location": "Results (skew/HINTS paragraph) and Table 4, Stroke 2009;40:3504 (PMC4593511)"
+    },
+    {
+      "target_condition": "Vertebrobasilar stroke in AVS - HINTS performed by neurologists (fellowship-trained neuro-otology/vascular neurology)",
+      "population": "Pooled prospective ED AVS studies (subset of 5 studies, 617 participants) with neurologist examiners",
+      "setting": "ED",
+      "prevalence": 0.391,
+      "reference_standard": "CT and/or MRI",
+      "sensitivity": {
+        "value": 0.967,
+        "ci_low": 0.931,
+        "ci_high": 0.985
+      },
+      "specificity": {
+        "value": 0.948,
+        "ci_low": 0.91,
+        "ci_high": 0.971
+      },
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "both",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "The HINTS examination, when performed by neurologists, had a sensitivity of 96.7% (95% CI = 93.1% to 98.5%, I2 = 0%) and specificity of 94.8%",
+      "location": "Abstract, Results (Acad Emerg Med 2020;27:887)"
+    },
+    {
+      "target_condition": "Vertebrobasilar stroke in AVS - HINTS performed by a mixed cohort of board-certified emergency physicians and neurologists",
+      "population": "Pooled ED AVS studies where examiners included emergency physicians (Ohle meta-analysis)",
+      "setting": "ED",
+      "prevalence": null,
+      "reference_standard": "CT and/or MRI",
+      "sensitivity": {
+        "value": 0.83,
+        "ci_low": 0.63,
+        "ci_high": 0.95
+      },
+      "specificity": {
+        "value": 0.44,
+        "ci_low": 0.36,
+        "ci_high": 0.51
+      },
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "modest",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "the sensitivity was 83% (95% CI = 63% to 95%) and specificity was 44% (95% CI = 36% to 51%)",
+      "location": "Abstract, Results (Acad Emerg Med 2020;27:887)"
+    },
+    {
+      "target_condition": "Central AVS - HINTS by subspecialists (neuro-otology/neuro-ophthalmology)",
+      "population": "Subspecialist-examined subgroup of 10 pooled AVS cohorts (n=800 total)",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Delayed MRI-DWI for peripheral cases; confirmatory neuroimaging for stroke",
+      "sensitivity": {
+        "value": 0.943,
+        "ci_low": 0.882,
+        "ci_high": 1.0
+      },
+      "specificity": {
+        "value": 0.976,
+        "ci_low": 0.949,
+        "ci_high": 1.0
+      },
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "both",
+      "evidence_level": "pooled",
+      "source_index": 2,
+      "quote": "higher specificity for the subspecialist group vs. the non-subspecialist group (97.6% [94.9-100.0] vs. 89.1% [83.0-95.2], p=0.007)",
+      "location": "Results, 'Diagnostic accuracy of bedside examination findings', Figure 4 and supplementary Table 3 (Ann Neurol 2023;94:295; PMC10524166)"
+    },
+    {
+      "target_condition": "Central AVS - HINTS by non-subspecialists (other training backgrounds, instructed in test performance)",
+      "population": "Non-subspecialist-examined subgroup of 10 pooled AVS cohorts",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Delayed MRI-DWI for peripheral cases; confirmatory neuroimaging for stroke",
+      "sensitivity": {
+        "value": 0.95,
+        "ci_low": 0.912,
+        "ci_high": 0.989
+      },
+      "specificity": {
+        "value": 0.891,
+        "ci_low": 0.83,
+        "ci_high": 0.952
+      },
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "both",
+      "evidence_level": "pooled",
+      "source_index": 2,
+      "quote": "sensitivity values were very similar and not statistically different (94.3% [88.2-100.0] vs. 95.0% [91.2-98.9], p=0.55)",
+      "location": "Results, 'Diagnostic accuracy of bedside examination findings', Figure 4 and supplementary Table 3 (Ann Neurol 2023;94:295; PMC10524166)"
+    },
+    {
+      "target_condition": "Central AVS - HINTS overall (all examiners)",
+      "population": "10 pooled AVS cohorts, n=800 (422 central, 378 peripheral)",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Delayed MRI-DWI for peripheral cases; confirmatory neuroimaging for stroke",
+      "sensitivity": {
+        "value": 0.953,
+        "ci_low": 0.925,
+        "ci_high": 0.981
+      },
+      "specificity": {
+        "value": 0.926,
+        "ci_low": 0.886,
+        "ci_high": 0.965
+      },
+      "lr_positive": {
+        "value": 7.95,
+        "ci_low": 4.94,
+        "ci_high": 12.78
+      },
+      "lr_negative": {
+        "value": 0.09,
+        "ci_low": 0.05,
+        "ci_high": 0.17
+      },
+      "computed": false,
+      "interpretation_label": "both",
+      "evidence_level": "pooled",
+      "source_index": 2,
+      "quote": "\"ruling out\" (sensitivity=95.3% [92.5-98.1]; LR-=0.09 [0.05-0.17]) and \"ruling in\" (specificity=92.6% [88.6-96.5]; LR+=7.95 [4.94-12.78])",
+      "location": "Results, 'Diagnostic accuracy of bedside examination findings', Figure 3 (Ann Neurol 2023;94:295; PMC10524166)"
+    },
+    {
+      "target_condition": "Posterior circulation stroke (any stroke) in AVS - positive HINTS",
+      "population": "6 studies, 644 AVS patients, 200 with acute stroke; MRI-confirmed",
+      "setting": "mixed",
+      "prevalence": 0.311,
+      "reference_standard": "MRI",
+      "sensitivity": {
+        "value": 0.955,
+        "ci_low": 0.926,
+        "ci_high": 0.984
+      },
+      "specificity": {
+        "value": 0.712,
+        "ci_low": 0.67,
+        "ci_high": 0.754
+      },
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_out",
+      "evidence_level": "pooled",
+      "source_index": 3,
+      "quote": "For any stroke, the pooled sensitivity was 95.5% (95% CI: 92.6-98.4%) and specificity was 71.2% (95% CI: 67.0-75.4%).",
+      "location": "Abstract, Results (Eur Stroke J 2019;4:233)"
+    },
+    {
+      "target_condition": "Central cause of acute vertigo/dizziness - HINTS (all examiners, ED population)",
+      "population": "ED patients with acute vertigo or dizziness; 14 studies, 1781 patients",
+      "setting": "ED",
+      "prevalence": null,
+      "reference_standard": "Neuroimaging-confirmed central vs peripheral etiology",
+      "sensitivity": {
+        "value": 0.929,
+        "ci_low": 0.791,
+        "ci_high": 0.979
+      },
+      "specificity": {
+        "value": 0.834,
+        "ci_low": 0.696,
+        "ci_high": 0.917
+      },
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "both",
+      "evidence_level": "pooled",
+      "source_index": 4,
+      "quote": "HINTS (head impulse, nystagmus, test of skew)-14 studies, 1781 patients, sensitivity 92.9% (95% CI 79.1%-97.9%, high) and specificity 83.4% (95% CI 69.6%-91.7%",
+      "location": "Abstract, Results (Acad Emerg Med 2023;30:552)"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Kattah JC, Talkad AV, Wang DZ, Hsieh YH, Newman-Toker DE. HINTS to diagnose stroke in the acute vestibular syndrome: three-step bedside oculomotor examination more sensitive than early MRI diffusion-weighted imaging. Stroke. 2009;40(11):3504-3510.",
+      "doi": "10.1161/STROKEAHA.109.551234",
+      "pmid": "19762709",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2009
+    },
+    {
+      "citation": "Ohle R, Montpellier RA, Marchadier V, et al. Can emergency physicians accurately rule out a central cause of vertigo using the HINTS examination? A systematic review and meta-analysis. Acad Emerg Med. 2020;27(9):887-896.",
+      "doi": "10.1111/acem.13960",
+      "pmid": "32167642",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2020
+    },
+    {
+      "citation": "Tarnutzer AA, Gold D, Wang Z, et al. Impact of clinician training background and stroke location on bedside diagnostic test accuracy in the acute vestibular syndrome - a meta-analysis. Ann Neurol. 2023;94(2):295-308.",
+      "doi": "10.1002/ana.26661",
+      "pmid": "37038843",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2023
+    },
+    {
+      "citation": "Krishnan K, Bassilious K, Eriksen E, et al. Posterior circulation stroke diagnosis using HINTS in patients presenting with acute vestibular syndrome: a systematic review. Eur Stroke J. 2019;4(3):233-239.",
+      "doi": "10.1177/2396987319843701",
+      "pmid": "31984230",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2019
+    },
+    {
+      "citation": "Diagnostic accuracy of the physical examination in emergency department patients with acute vertigo or dizziness: a systematic review and meta-analysis for GRACE-3. Acad Emerg Med. 2023;30(5):552-578.",
+      "doi": null,
+      "pmid": "36453134",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2023
+    },
+    {
+      "citation": "Tarnutzer AA, Berkowitz AL, Robinson KA, Hsieh YH, Newman-Toker DE. Does my dizzy patient have a stroke? A systematic review of bedside diagnosis in acute vestibular syndrome. CMAJ. 2011;183(9):E571-E592.",
+      "doi": "10.1503/cmaj.100174",
+      "pmid": "21576300",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2011
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Only for acute vestibular syndrome with spontaneous nystagmus; not for episodic, positional or resolved vertigo, patients without nystagmus, or those who cannot fixate. Do not withhold imaging on a benign HINTS obtained by an untrained examiner.",
+    "escalation_warning": "Any dangerous component, new unilateral hearing loss, or inability to stand mandates stroke work-up; MRI-DWI within 48 h is falsely negative in about 15% of posterior strokes, so a negative early MRI does not override dangerous HINTS.",
+    "interobserver_note": "Performance is examiner-dependent: specificity 97.6% (subspecialists) vs 89.1% (trained non-subspecialists, Ann Neurol 2023) and only 44% in a mixed emergency-physician cohort (Ohle 2020); individual-study HINTS sensitivity ranges 78-99%, specificity 78-99%."
+  },
+  "tier": "verified",
+  "extraction_notes": "SCOPE: all estimates apply only to acute vestibular syndrome (continuous vertigo with spontaneous nystagmus), except the GRACE-3 estimate which pools a broader ED vertigo/dizziness population and is kept separate. Estimates are split by examiner expertise and never averaged: Kattah 2009 (single neuro-ophthalmologist; PMC full text, Results and Table 4), Ohle 2020 (neurologists vs mixed emergency-physician cohort; abstract), Ann Neurol 2023 (subspecialist vs non-subspecialist; PMC full text, Results; SROC values in Figure 4/supplementary Table 3), Krishnan 2019 (all examiners, MRI standard; abstract). Kattah NLR CI (0.00-0.11) taken from Table 1 'subtle oculomotor signs' row, which is the HINTS composite; Table 4 gives 0.00 (0.00-0.12) for ischemic stroke only. Tarnutzer 2011 CMAJ anchor cited without numbers (abstract-only PMC deposit).",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T02:00:17+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T07:57:03.685Z",
+  "verification_notes": "",
+  "record_version": 3
+}

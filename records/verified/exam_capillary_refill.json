@@ -1,0 +1,230 @@
+{
+  "identity": {
+    "id": "exam_capillary_refill",
+    "title": "Capillary refill time prolonged (>2-3 s, fingertip at heart level, warm room)",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "hypotension",
+      "aki",
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "anaphylaxis",
+      "cardiogenic_shock",
+      "hypovolemic_hemorrhagic_shock",
+      "prerenal_hypovolemia",
+      "septic_shock"
+    ],
+    "indication_tags": []
+  },
+  "technique": {
+    "how": "With the hand at heart level in a warm room, press the distal index finger pad (or nail bed) firmly for 10-15 s until blanched, release, and time return of baseline colour with a watch. Prolonged is >3 s (ICU studies use >2.4-3 s at the fingertip; knee CRT is an alternative site).",
+    "prerequisites": "Warm extremity and ambient temperature; a second hand or watch to time; consistent pressure (a glass slide can standardise blanching).",
+    "contraindications": "Not interpretable on a cold, cyanotic or vasoconstricted limb, with peripheral arterial disease, or in the presence of nail polish/false nails."
+  },
+  "interpretation": {
+    "positive_finding": "In resuscitated septic shock, a fingertip CRT >2.4 s at 6 h predicts 14-day death with sensitivity 82% and specificity 73%, and marks persisting hypoperfusion. In undifferentiated adults, a prolonged CRT is a weak sign of hypovolemia (sensitivity 26-46%).",
+    "negative_finding": "A normal CRT does not exclude mild-to-moderate hypovolemia in adults (sensitivity 6% after 450 mL loss). In acute circulatory failure, normal CRT only weakly lowers mortality risk (pooled LR- about 0.6).",
+    "pitfalls": "Cold room, cold hands, age and vasoconstriction prolong CRT without hypoperfusion; measurement quality (site, pressure, timing) strongly affects accuracy. CRT is a prognostic/perfusion marker, not a diagnostic test for the cause of shock.",
+    "changes_what": "Prolonged CRT in shock: treat as ongoing hypoperfusion and reassess after resuscitation; normal CRT does not rule out hypovolemia."
+  },
+  "estimates": [
+    {
+      "target_condition": "Hypovolemia (ED patients with suggestive history and frank hypotension)",
+      "population": "13 adult ED patients with history suggestive of hypovolemia and hypotension; comparison group blood donors",
+      "setting": "ED",
+      "prevalence": null,
+      "reference_standard": "Clinical hypovolemia group assignment (hypotension); age-sex specific CRT upper limit of normal",
+      "sensitivity": {
+        "value": 0.46,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "minimal",
+      "evidence_level": "single_study",
+      "source_index": 1,
+      "quote": "26% for the orthostatic group, and 46% for the hypotensive group",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Hypovolemia (ED patients with suggestive history and abnormal orthostatic vital signs)",
+      "population": "19 adult ED patients with history suggestive of hypovolemia and abnormal orthostatic vital signs",
+      "setting": "ED",
+      "prevalence": null,
+      "reference_standard": "Clinical hypovolemia group assignment (abnormal orthostatics); age-sex specific CRT upper limit of normal",
+      "sensitivity": {
+        "value": 0.26,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "minimal",
+      "evidence_level": "single_study",
+      "source_index": 1,
+      "quote": "26% for the orthostatic group, and 46% for the hypotensive group",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "14-day mortality after initial resuscitation of septic shock (index fingertip CRT >2.4 s at 6 h)",
+      "population": "59 consecutive adults with septic shock, tertiary ICU",
+      "setting": "ICU",
+      "prevalence": 0.36,
+      "reference_standard": "Vital status at 14 days",
+      "sensitivity": {
+        "value": 0.82,
+        "ci_low": 0.6,
+        "ci_high": 0.95
+      },
+      "specificity": {
+        "value": 0.73,
+        "ci_low": 0.56,
+        "ci_high": 0.86
+      },
+      "lr_positive": {
+        "value": 3.0,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.25,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.82/(1-0.73) = 3.0; LR- = (1-0.82)/0.73 = 0.25, from reported sensitivity 82% and specificity 73%",
+      "interpretation_label": "modest",
+      "evidence_level": "single_study",
+      "source_index": 2,
+      "quote": "index CRT at 2.4 s predicted 14-day outcome with a sensitivity of 82% (95% CI [60-95]) and a specificity of 73% (95% CI [56-86])",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "14-day mortality after initial resuscitation of septic shock (knee CRT >4.9 s at 6 h)",
+      "population": "59 consecutive adults with septic shock, tertiary ICU",
+      "setting": "ICU",
+      "prevalence": 0.36,
+      "reference_standard": "Vital status at 14 days",
+      "sensitivity": {
+        "value": 0.82,
+        "ci_low": 0.6,
+        "ci_high": 0.95
+      },
+      "specificity": {
+        "value": 0.84,
+        "ci_low": 0.68,
+        "ci_high": 0.94
+      },
+      "lr_positive": {
+        "value": 5.1,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.21,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.82/(1-0.84) = 5.1; LR- = (1-0.82)/0.84 = 0.21, from reported sensitivity 82% and specificity 84%",
+      "interpretation_label": "modest",
+      "evidence_level": "single_study",
+      "source_index": 2,
+      "quote": "knee CRT at 4.9 s predicted 14-day outcome with a sensitivity of 82% (95% CI [60-95]) and a specificity of 84% (95% CI [68-94])",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Death in adults with acute circulatory failure (abnormal CRT, study-specific thresholds)",
+      "population": "Adults with acute circulatory failure; 13 studies in primary analysis (23 studies, 60,656 patients overall)",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Mortality as reported by each study",
+      "sensitivity": {
+        "value": 0.54,
+        "ci_low": 0.43,
+        "ci_high": 0.64
+      },
+      "specificity": {
+        "value": 0.72,
+        "ci_low": 0.55,
+        "ci_high": 0.84
+      },
+      "lr_positive": {
+        "value": 1.9,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.64,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.54/(1-0.72) = 1.9; LR- = (1-0.54)/0.72 = 0.64, from pooled sensitivity 54% and specificity 72%",
+      "interpretation_label": "minimal",
+      "evidence_level": "pooled",
+      "source_index": 3,
+      "quote": "pooled sensitivity was 54% (95%CI [43; 64]). The pooled specificity was 72% (95%CI [55; 84])",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "McGee S, Abernethy WB 3rd, Simel DL. The rational clinical examination. Is this patient hypovolemic? JAMA. 1999;281(11):1022-1029.",
+      "doi": "10.1001/jama.281.11.1022",
+      "pmid": "10086438",
+      "url": null,
+      "kind": "rce_series",
+      "year": 1999
+    },
+    {
+      "citation": "Schriger DL, Baraff LJ. Capillary refill--is it a useful predictor of hypovolemic states? Ann Emerg Med. 1991;20(6):601-605.",
+      "doi": "10.1016/s0196-0644(05)82375-3",
+      "pmid": "2039096",
+      "url": null,
+      "kind": "primary_study",
+      "year": 1991
+    },
+    {
+      "citation": "Ait-Oufella H, Bige N, Boelle PY, et al. Capillary refill time exploration during septic shock. Intensive Care Med. 2014;40(7):958-964.",
+      "doi": "10.1007/s00134-014-3326-4",
+      "pmid": "24811942",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2014
+    },
+    {
+      "citation": "Jacquet-Lagreze M, Wiart C, Schweizer R, et al. Prognostic value of capillary refill time in adult patients: a systematic review with meta-analysis. Crit Care. 2023;27(1):473.",
+      "doi": "10.1186/s13054-023-04751-9",
+      "pmid": "38042855",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2023
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use CRT to exclude hypovolemia or bleeding in adults; do not interpret on cold, vasoconstricted or peripherally diseased limbs.",
+    "escalation_warning": "Persistently prolonged CRT after initial resuscitation in septic shock marks a high-mortality group and should prompt reassessment of perfusion and escalation, not reassurance.",
+    "interobserver_note": "Inter-rater concordance in ICU was 80% (73-86) for index CRT and 95% (93-98) for knee CRT (Ait-Oufella 2014, abstract); measurement quality strongly affects accuracy."
+  },
+  "tier": "verified",
+  "extraction_notes": "Two distinct roles are captured: (a) diagnosis of hypovolemia in ED adults, where the JAMA RCE (source 0) concludes CRT has no proven diagnostic value and the underlying primary study (Schriger 1991, source 1) reports sensitivities 6%/26%/46% but the abstract gives no specificity (specificity is in the paper's tables, not accessible), so those entries carry sensitivity only; (b) prognosis in shock, where Ait-Oufella 2014 (n=59, single centre) and the 2023 Crit Care meta-analysis give sens/spec for mortality. LRs computed from reported sens/spec. The ED hypovolemia groups are tiny (13 and 19 patients). The 2.4 s / 4.9 s thresholds are ICU-derived at 6 h; the title's generic >2-3 s threshold is convention.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T01:37:32+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T05:50:00.222Z",
+  "verification_notes": "",
+  "record_version": 3
+}

@@ -1,0 +1,171 @@
+{
+  "identity": {
+    "id": "exam_pulse_deficit",
+    "title": "Pulse deficit / asymmetric radial, carotid or femoral pulses",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "chest_pain",
+      "syncope",
+      "abdominal_pain",
+      "weakness"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "aaa",
+      "aortic_dissection"
+    ],
+    "indication_tags": []
+  },
+  "technique": {
+    "how": "Palpate both radial, both carotid and both femoral pulses simultaneously, comparing amplitude and timing side to side; a deficit is an absent or clearly weaker pulse on one side, or a new deficit compared with prior exams. Confirm with bilateral arm BP measurement if a radial asymmetry is suspected.",
+    "prerequisites": "Access to both arms and groins; note prior vascular surgery, dialysis access or known peripheral arterial disease.",
+    "contraindications": "None; avoid vigorous carotid palpation in patients with carotid bruit or known carotid disease."
+  },
+  "interpretation": {
+    "positive_finding": "A pulse deficit substantially increases the likelihood of acute aortic dissection (pooled LR+ 5.7 for pulse or BP differential; LR+ 31 with specificity 99% in a case-control study) and marks branch-vessel involvement.",
+    "negative_finding": "Absent pulse deficit does not exclude dissection: only about 15-31% of confirmed dissections have a pulse or BP deficit, so sensitivity is poor.",
+    "pitfalls": "Chronic peripheral arterial disease, prior vascular surgery, subclavian stenosis and shock cause deficits without dissection. Deficits may be transient and fluctuate as the false lumen changes.",
+    "changes_what": "Positive: treat as high-risk feature and obtain immediate CT angiography; alert vascular/cardiac surgery. Negative: no reassurance; proceed on history, CXR and risk score."
+  },
+  "estimates": [
+    {
+      "target_condition": "Acute thoracic aortic dissection (pulse deficit OR blood pressure differential, composite finding)",
+      "population": "Pooled consecutive patients with confirmed thoracic aortic dissection from 21 studies (1966-2000)",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Confirmed dissection by imaging, surgery or autopsy in included studies",
+      "sensitivity": {
+        "value": 0.31,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "31% have pulse deficits or blood pressure differentials",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Acute thoracic aortic dissection (pulse deficit OR blood pressure differential, composite finding)",
+      "population": "Pooled patients with suspected/confirmed thoracic aortic dissection in the RCE review",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Confirmed dissection by imaging, surgery or autopsy in included studies",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 5.7,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "pulse or blood pressure differentials and neurological deficits increase the likelihood of disease (positive LRs, 5.7 and 6.6-33.0, respectively)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Acute aortic dissection",
+      "population": "194 confirmed nontraumatic AAD cases vs 776 age/sex-matched controls with truncal pain (2 tertiary EDs + 1 cardiac referral center)",
+      "setting": "ED",
+      "prevalence": 0.2,
+      "reference_standard": "AAD confirmed by CT or echocardiography",
+      "sensitivity": null,
+      "specificity": {
+        "value": 0.993,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 31.1,
+        "ci_low": 11.2,
+        "ci_high": 86.6
+      },
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "single_study",
+      "source_index": 1,
+      "quote": "pulse deficit (specificity = 99.3, LR+ = 31.1 [11.2-86.6])",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "Acute aortic dissection (sensitivity only; registry of confirmed cases)",
+      "population": "464 patients with confirmed acute aortic dissection, 12 international referral centers, 1996-1998",
+      "setting": "inpatient",
+      "prevalence": null,
+      "reference_standard": "Confirmed acute aortic dissection (registry entry criteria)",
+      "sensitivity": {
+        "value": 0.151,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "specificity": null,
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "rule_in",
+      "evidence_level": "single_study",
+      "source_index": 2,
+      "quote": "aortic regurgitation and pulse deficit were noted in only 31.6% and 15.1% of patients, respectively",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Klompas M. Does this patient have an acute thoracic aortic dissection? JAMA. 2002;287(17):2262-2272.",
+      "doi": "10.1001/jama.287.17.2262",
+      "pmid": "11980527",
+      "url": null,
+      "kind": "rce_series",
+      "year": 2002
+    },
+    {
+      "citation": "Ohle R, Um J, Anjum O, et al. High Risk Clinical Features for Acute Aortic Dissection: A Case-Control Study. Acad Emerg Med. 2018;25(4):378-387.",
+      "doi": "10.1111/acem.13356",
+      "pmid": "29218798",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2019
+    },
+    {
+      "citation": "Hagan PG, Nienaber CA, Isselbacher EM, et al. The International Registry of Acute Aortic Dissection (IRAD): new insights into an old disease. JAMA. 2000;283(7):897-903.",
+      "doi": "10.1001/jama.283.7.897",
+      "pmid": "10685714",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2000
+    },
+    {
+      "citation": "Ohle R, Kareemi HK, Wells G, Perry JJ. Clinical Examination for Acute Aortic Dissection: A Systematic Review and Meta-analysis. Acad Emerg Med. 2018;25(4):397-412.",
+      "doi": "10.1111/acem.13360",
+      "pmid": "29265487",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2019
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use a normal pulse exam to exclude dissection; do not attribute a deficit to dissection without imaging when chronic PAD or prior vascular surgery explains it.",
+    "escalation_warning": "New pulse deficit with chest/back pain, syncope, hypotension or focal neurology: emergent CTA, surgical consultation, and withhold antithrombotics.",
+    "interobserver_note": "Reliability data for pulse-deficit detection were not visible in the sources reviewed; simultaneous bilateral palpation and bilateral BP measurement reduce variability."
+  },
+  "tier": "verified",
+  "extraction_notes": "Klompas 2002 abstract reports the composite 'pulse deficits or blood pressure differentials' (sensitivity 31%; positive LR 5.7, CI not in abstract); the two numbers appear in separate sentences so they are recorded as two estimate entries with their own quotes. Specificity was NOT derived from the LR per spec. Ohle 2018 meta-analysis abstract does not give a pulse-deficit-specific LR and no PMC full text exists, so it is cited without an estimate. Ohle 2018 case-control LR+ 31.1 is from low-risk controls and likely inflated. IRAD 15.1% is a sensitivity from a case series with no controls. Setting 'inpatient' for IRAD reflects referral-center registry enrolment.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T01:37:36+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T06:54:03.635Z",
+  "verification_notes": "",
+  "record_version": 3
+}

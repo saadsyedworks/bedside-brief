@@ -1,0 +1,90 @@
+{
+  "identity": {
+    "id": "exam_egophony",
+    "title": "Egophony (E-to-A change) or bronchial breath sounds over a focal area",
+    "type": "exam",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "dyspnea",
+      "chest_pain",
+      "fever"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "pleural_effusion",
+      "pneumonia"
+    ],
+    "indication_tags": [
+      "febrile"
+    ]
+  },
+  "technique": {
+    "how": "Auscultate the posterior and lateral chest while the patient repeatedly says a sustained 'ee'; egophony is present where the sound is heard as a nasal 'ay' (A) over a focal area but as 'ee' elsewhere. Compare with breath sounds at the same site for a harsh, tubular bronchial quality with a pause between inspiration and expiration.",
+    "prerequisites": "Cooperative patient able to phonate; compare with the contralateral side at the same level.",
+    "contraindications": "None."
+  },
+  "interpretation": {
+    "positive_finding": "Focal E-to-A change and/or bronchial breath sounds over lung parenchyma, indicating consolidation or the compressed lung above an effusion.",
+    "negative_finding": "Normal vesicular sounds and 'ee' transmitted unchanged; absence has little rule-out value because the sign is insensitive.",
+    "pitfalls": "Sensitivity is low so most pneumonias lack egophony; it also occurs over the compressed lung at the upper border of a pleural effusion and can be mimicked at the trachea and interscapular area in thin patients.",
+    "changes_what": "Focal egophony in a febrile, coughing patient raises pneumonia probability substantially (LR+ about 6); proceed to CXR/LUS and empiric treatment as clinically indicated."
+  },
+  "estimates": [
+    {
+      "target_condition": "Community-acquired pneumonia (egophony)",
+      "population": "Adults with clinically suspected pneumonia or acute cough; 17 prospective cohorts (9 primary care, 7 ED); CAP prevalence 10% primary care, 20% ED",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Chest imaging",
+      "sensitivity": null,
+      "specificity": null,
+      "lr_positive": {
+        "value": 6.17,
+        "ci_low": 1.34,
+        "ci_high": 18.0
+      },
+      "lr_negative": null,
+      "computed": false,
+      "computed_from": "",
+      "interpretation_label": "rule_in",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "egophony (LR+ = 6.17, 95% CI = 1.34 to 18.0)",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "partially_quantified",
+  "sources": [
+    {
+      "citation": "Ebell MH, Chupp H, Cai X, Bentivegna M, Kearney M. Accuracy of signs and symptoms for the diagnosis of community-acquired pneumonia: a meta-analysis. Acad Emerg Med. 2020;27(7):541-553.",
+      "doi": "10.1111/acem.13965",
+      "pmid": "32329557",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2020
+    },
+    {
+      "citation": "Metlay JP, Kapoor WN, Fine MJ. Does this patient have community-acquired pneumonia? Diagnosing pneumonia by history and physical examination. JAMA. 1997;278(17):1440-1445.",
+      "doi": null,
+      "pmid": "9356004",
+      "url": null,
+      "kind": "rce_series",
+      "year": 1997
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not use absence of egophony to withhold imaging in a patient with hypoxia, abnormal vital signs or immunocompromise.",
+    "escalation_warning": "Egophony plus hypotension, RR >30 or confusion suggests severe pneumonia; assess for sepsis and consider admission.",
+    "interobserver_note": "No pooled reliability statistic located in the sources viewed; the JAMA RCE (Metlay 1997) notes modest agreement for individual auscultatory signs but its table could not be viewed."
+  },
+  "tier": "verified",
+  "extraction_notes": "Only the positive LR (6.17, 95% CI 1.34-18.0) was visible in the Ebell 2020 abstract; sensitivity, specificity and LR- for egophony are in the full text (not open access) and are therefore null. The Metlay 1997 JAMA RCE (PMID 9356004) is cited for context; its abstract contains no numbers and full text is not open access. Bronchial breath sounds were not separately quantified in any accessible source. Status set to partially_quantified because only one direction is reported.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T01:47:39+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T05:57:21.065Z",
+  "verification_notes": "",
+  "record_version": 3
+}

@@ -1,0 +1,127 @@
+{
+  "identity": {
+    "id": "pocus_aaa_aorta_diameter",
+    "title": "POCUS abdominal aorta diameter (>3 cm)",
+    "type": "pocus",
+    "bedside": true
+  },
+  "clinical_mapping": {
+    "presentations": [
+      "syncope",
+      "hypotension",
+      "abdominal_pain"
+    ],
+    "syndromes": [],
+    "differentials": [
+      "aaa",
+      "hypovolemic_hemorrhagic_shock"
+    ],
+    "indication_tags": [
+      "elderly"
+    ]
+  },
+  "technique": {
+    "how": "Curvilinear probe, patient supine. Trace the aorta in transverse from the xiphoid (celiac/SMA level) to the bifurcation, measuring maximal outer-wall to outer-wall diameter at proximal, mid, and distal segments, then confirm in a longitudinal view; bowel gas is displaced with steady graded pressure. Diameter >=3.0 cm at any level is positive.",
+    "prerequisites": "Trained operator; the entire aorta from diaphragm to bifurcation must be visualized for a negative study.",
+    "contraindications": "None; do not delay resuscitation or surgical consultation for a complete scan in an unstable patient with a clearly aneurysmal aorta."
+  },
+  "interpretation": {
+    "positive_finding": "Aortic diameter >=3.0 cm on ED ultrasound has pooled specificity 98% and identifies AAA reliably; in a symptomatic patient this is presumed rupture until CT (if stable) or the operating room proves otherwise.",
+    "negative_finding": "A fully visualized aorta <3.0 cm throughout has pooled sensitivity 99% and effectively excludes AAA as the cause of symptoms; an incompletely visualized aorta is indeterminate, not negative.",
+    "pitfalls": "Ultrasound does not detect rupture itself (retroperitoneal blood is rarely seen) and misses only where the aorta is not visualized; mistaking the IVC or a tortuous aorta for aneurysm, measuring inner wall only, or obliquely cutting the vessel gives errors. Bowel gas and obesity limit views.",
+    "changes_what": "Positive with symptoms: immediate vascular surgery consult and resuscitation (CT only if stable); negative with complete visualization: pursue other causes of pain/hypotension."
+  },
+  "estimates": [
+    {
+      "target_condition": "AAA (aortic dilation >=3 cm) by emergency-physician bedside ultrasound",
+      "population": "Adult ED patients with suspected AAA; 7 studies, 655 patients; emergency physician operators",
+      "setting": "ED",
+      "prevalence": 0.23,
+      "reference_standard": "CT, MRI, aortography, radiology-performed ultrasound, radiology over-read of ED US, laparotomy, or autopsy",
+      "sensitivity": {
+        "value": 0.99,
+        "ci_low": 0.96,
+        "ci_high": 1.0
+      },
+      "specificity": {
+        "value": 0.98,
+        "ci_low": 0.97,
+        "ci_high": 0.99
+      },
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "both",
+      "evidence_level": "pooled",
+      "source_index": 0,
+      "quote": "sensitivity 99% (95% confidence interval [CI] = 96% to 100%) and specificity 98% (95% CI = 97% to 99%)",
+      "location": "Abstract, Results"
+    },
+    {
+      "target_condition": "AAA detection by non-radiologist performed ultrasound",
+      "population": "11 studies, 944 patients; non-radiologist operators (emergency physicians, surgeons, primary care, others) in screening and symptomatic settings",
+      "setting": "mixed",
+      "prevalence": null,
+      "reference_standard": "Radiologist-performed aortic imaging, intra-operative, or post-mortem findings",
+      "sensitivity": {
+        "value": 0.975,
+        "ci_low": 0.942,
+        "ci_high": 0.992
+      },
+      "specificity": {
+        "value": 0.989,
+        "ci_low": 0.979,
+        "ci_high": 0.995
+      },
+      "lr_positive": null,
+      "lr_negative": null,
+      "computed": false,
+      "interpretation_label": "both",
+      "evidence_level": "pooled",
+      "source_index": 1,
+      "quote": "NRPUS had a pooled sensitivity of 0.975 [95% confidence interval (CI), 0.942-0.992] for AAA detection and a pooled specificity of 0.989 (95% CI, 0.979-0.995)",
+      "location": "Abstract, Results"
+    }
+  ],
+  "evidence_status": "quantified",
+  "sources": [
+    {
+      "citation": "Rubano E, Mehta N, Caputo W, Paladino L, Sinert R. Systematic review: emergency department bedside ultrasonography for diagnosing suspected abdominal aortic aneurysm. Acad Emerg Med. 2013;20(2):128-138.",
+      "doi": "10.1111/acem.12080",
+      "pmid": "23406071",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2013
+    },
+    {
+      "citation": "Concannon E, McHugh S, Healy DA, et al. Diagnostic accuracy of non-radiologist performed ultrasound for abdominal aortic aneurysm: systematic review and meta-analysis. Int J Clin Pract. 2014;68(9):1122-1129.",
+      "doi": "10.1111/ijcp.12453",
+      "pmid": "24837590",
+      "url": null,
+      "kind": "meta_analysis",
+      "year": 2014
+    },
+    {
+      "citation": "Lederle FA, Simel DL. The rational clinical examination. Does this patient have abdominal aortic aneurysm? JAMA. 1999;281(1):77-82.",
+      "doi": "10.1001/jama.281.1.77",
+      "pmid": "9892455",
+      "url": null,
+      "kind": "rce_series",
+      "year": 1999
+    }
+  ],
+  "safety_scope": {
+    "do_not_use_when": "Do not call a study negative unless the entire aorta was visualized; do not use ultrasound to exclude rupture in a patient with a known AAA and compatible symptoms.",
+    "escalation_warning": "AAA >=3 cm with pain, hypotension, or syncope: treat as rupture; activate vascular surgery and transfuse/resuscitate without waiting for CT if unstable.",
+    "interobserver_note": "Pooled estimates showed no significant heterogeneity across studies (Concannon 2014); non-diagnostic/incomplete studies were excluded or counted variably across primary studies.",
+    "skill_assumption": "Emergency physician or hospitalist with focused aortic ultrasound training (included studies used credentialed ED sonographers or physicians after short courses); performance assumes complete aortic visualization from diaphragm to bifurcation."
+  },
+  "tier": "verified",
+  "extraction_notes": "Both estimates are from meta-analysis abstracts; full-text tables were not accessible (neither is in PMC), so LRs were not computed and per-study prevalence is given only for the Rubano ED cohort (23% weighted average in symptomatic patients >50 years). Rubano 2013 defines AAA as >=3 cm and restricts to ED bedside ultrasound; Concannon 2014 includes non-ED non-radiologist operators and is listed separately. Lederle 1999 cited as index RCE for palpation vs ultrasound.",
+  "agent_id": "extractor-B",
+  "extracted_at": "2026-09-10T01:47:48+00:00",
+  "verified_by": "owner",
+  "verified_at": "2026-09-11T08:06:03.624Z",
+  "verification_notes": "",
+  "record_version": 3
+}
