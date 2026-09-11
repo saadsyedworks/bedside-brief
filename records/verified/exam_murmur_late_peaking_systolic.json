@@ -35,48 +35,29 @@
   },
   "estimates": [
     {
-      "target_condition": "Aortic stenosis (any/hemodynamically significant, per included studies)",
-      "population": "Adults with systolic murmurs examined mostly by cardiologists; pooled range across RCE-included studies",
+      "target_condition": "Aortic stenosis (late-peaking systolic ejection murmur)",
+      "population": "Narrative aggregate of 4 small studies of patients with systolic murmurs (not bivariate meta-analysed)",
       "setting": "mixed",
       "prevalence": null,
-      "reference_standard": "Echocardiography or cardiac catheterization",
+      "reference_standard": "Echocardiography or left heart catheterization; AS of at least moderate severity",
       "sensitivity": null,
       "specificity": null,
       "lr_positive": {
-        "value": 8.0,
+        "value": 3.7,
         "ci_low": null,
         "ci_high": null
       },
-      "lr_negative": null,
-      "computed": false,
-      "computed_from": "Not computed. The RCE reports a between-study RANGE (8.0-101) with no pooled point estimate; value shown is the conservative low end of the range, not a mean.",
-      "interpretation_label": "rule_in",
-      "evidence_level": "pooled",
-      "source_index": 0,
-      "quote": "mid to late peak intensity of the murmur (positive likelihood ratio, 8.0-101)",
-      "location": "Abstract, Results (PubMed abstract; full text not accessible)"
-    },
-    {
-      "target_condition": "Aortic stenosis - component: absence of murmur radiation to right carotid",
-      "population": "Adults with systolic murmurs, mostly cardiologist examiners; RCE pooled range",
-      "setting": "mixed",
-      "prevalence": null,
-      "reference_standard": "Echocardiography or cardiac catheterization",
-      "sensitivity": null,
-      "specificity": null,
-      "lr_positive": null,
       "lr_negative": {
-        "value": 0.05,
+        "value": 0.2,
         "ci_low": null,
         "ci_high": null
       },
       "computed": false,
-      "computed_from": "Not computed. RCE reports a range 0.05-0.10 for absent radiation to the right carotid; value shown is the low end of the range.",
-      "interpretation_label": "rule_out",
+      "interpretation_label": "both",
       "evidence_level": "pooled",
-      "source_index": 0,
-      "quote": "absence of murmur radiation to the right carotid artery (negative likelihood ratio, 0.05-0.10)",
-      "location": "Abstract, Results (PubMed abstract)"
+      "quote": "Data from a small sample from 4 studies revealed modest positive predictive value when this sign is present (LR of 3.7)",
+      "location": "Discussion, paragraph on murmur characteristics (same paragraph: 'negative predictive value of its absence (LR = 0.2)')",
+      "source_index": 1
     },
     {
       "target_condition": "Aortic stenosis of at least moderate severity - component: diminished second heart sound",
@@ -204,6 +185,6 @@
   "extracted_at": "2026-09-10T01:37:35+00:00",
   "verified_by": "owner",
   "verified_at": "2026-09-11T06:29:47.623Z",
-  "verification_notes": "",
-  "record_version": 3
+  "verification_notes": "[owner fix] removed estimate [0] \"Aortic stenosis (any/hemodynamically significant, per included studies\" - LR+ 8.0 is the low end of the between-study range 8.0-101 in the Etchells 1997 abstract\n[owner fix] removed estimate [0] \"Aortic stenosis - component: absence of murmur radiation to right caro\" - LR- 0.05 is the low end of the range 0.05-0.10 in the same sentence of the same abstract\n[owner fix] added extractor-A's estimate for a late-peaking murmur itself (Shellenberger 2023, LR+ 3.7 / LR- 0.2) - without it the record carried only component findings (diminished S2, radiation to the neck) and no estimate of its own sign",
+  "record_version": 4
 }

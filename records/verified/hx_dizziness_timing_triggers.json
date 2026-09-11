@@ -39,24 +39,6 @@
   },
   "estimates": [
     {
-      "target_condition": "Not a diagnostic-accuracy estimate: test-retest reliability of the patient's dizziness-quality descriptor (supports using timing/triggers instead of type)",
-      "population": "872 adult ED patients dizzy, light-headed or off-balance within 7 days or previously bothered by dizziness (2 urban academic EDs)",
-      "setting": "ED",
-      "prevalence": null,
-      "reference_standard": "None (repeat questioning ~6 minutes later; duration and trigger reports were consistent whereas quality descriptors were not)",
-      "sensitivity": null,
-      "specificity": null,
-      "lr_positive": null,
-      "lr_negative": null,
-      "computed": false,
-      "computed_from": "",
-      "interpretation_label": "minimal",
-      "evidence_level": "single_study",
-      "source_index": 0,
-      "quote": "Asked to choose the single best descriptor, 52% picked a different response on retest approximately 6 minutes later.",
-      "location": "Abstract, Results"
-    },
-    {
       "target_condition": "'Serious' cause of dizziness (stroke/TIA, arrhythmia, medication, seizure, other requiring admission) - composite predictor: older age OR lack of vertigo OR neurologic deficit",
       "population": "125 ED patients with dizziness evaluated with a standardized 66-item history/exam/lab protocol",
       "setting": "ED",
@@ -129,6 +111,6 @@
   "extracted_at": "2026-09-10T01:47:54+00:00",
   "verified_by": "owner",
   "verified_at": "2026-09-11T08:01:10.938Z",
-  "verification_notes": "",
-  "record_version": 3
+  "verification_notes": "[owner fix] removed estimate [0] \"Not a diagnostic-accuracy estimate: test-retest reliability of the pat\" - not a diagnostic-accuracy estimate (test-retest reliability of the descriptor), as the row's own target_condition says",
+  "record_version": 4
 }

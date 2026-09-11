@@ -76,28 +76,6 @@
       "source_index": 1,
       "quote": "pain radiating to the shoulder or both arms (LR = 4.07), and chest wall tenderness (LR = 0.3)",
       "location": "Abstract, Results (PubMed abstract)"
-    },
-    {
-      "target_condition": "Acute myocardial infarction",
-      "population": "Patients with acute chest pain in studies pooled by the 1998 RCE",
-      "setting": "ED",
-      "prevalence": null,
-      "reference_standard": "Clinical diagnosis of MI (ECG/enzymes per included studies)",
-      "sensitivity": null,
-      "specificity": null,
-      "lr_positive": {
-        "value": 0.2,
-        "ci_low": null,
-        "ci_high": null
-      },
-      "lr_negative": null,
-      "computed": false,
-      "computed_from": "Not computed. RCE reports a between-study RANGE 0.2-0.4 with no pooled point estimate; value shown is the low end of the range, not a mean.",
-      "interpretation_label": "rule_out",
-      "evidence_level": "pooled",
-      "source_index": 2,
-      "quote": "chest pain reproduced by palpation (LR range, 0.2-0.4)",
-      "location": "Abstract, Results (PubMed abstract; full text not accessible)"
     }
   ],
   "evidence_status": "quantified",
@@ -154,6 +132,6 @@
   "extracted_at": "2026-09-10T01:37:35+00:00",
   "verified_by": "owner",
   "verified_at": "2026-09-11T05:51:06.506Z",
-  "verification_notes": "",
-  "record_version": 3
+  "verification_notes": "[owner fix] removed estimate [2] \"Acute myocardial infarction\" - LR+ 0.2 is the low end of the range 0.2-0.4 quoted from the 1998 Rational Clinical Examination; the record already carries two real point estimates (0.23 and 0.3)",
+  "record_version": 4
 }

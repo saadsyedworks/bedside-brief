@@ -87,25 +87,38 @@
       "location": "Table 3"
     },
     {
-      "target_condition": "Myasthenia gravis exacerbation (SBCT <25)",
-      "population": "MG patients (cohort as tabulated in systematic review; attribution ambiguous between refs 17 and 21)",
-      "setting": "mixed",
+      "target_condition": "Myasthenia gravis exacerbation (telephonic screening, cutoff count 25)",
+      "population": "45 telephone calls from MG patients reporting worsening symptoms (single-center retrospective pilot)",
+      "setting": "outpatient",
       "prevalence": null,
-      "reference_standard": "Clinical MG exacerbation (as defined in primary study; not viewable)",
+      "reference_standard": "Clinically diagnosed MG exacerbation after emergency department evaluation",
       "sensitivity": {
         "value": 0.8,
         "ci_low": null,
         "ci_high": null
       },
-      "specificity": null,
-      "lr_positive": null,
-      "lr_negative": null,
-      "computed": false,
-      "interpretation_label": "modest",
+      "specificity": {
+        "value": 0.6,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_positive": {
+        "value": 2.0,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "lr_negative": {
+        "value": 0.33,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "computed": true,
+      "computed_from": "LR+ = 0.80 / (1 - 0.60) = 2.0; LR- = (1 - 0.80) / 0.60 = 0.33",
+      "interpretation_label": "both",
       "evidence_level": "single_study",
-      "source_index": 0,
-      "quote": "SBCT < 25 had sensitivity of 80% in diagnosing myasthenia exacerbation",
-      "location": "Table 3"
+      "quote": "the nurse-administered telephonic SBCT had a positive predictive value of 71%, sensitivity of 80%, and specificity of 60%",
+      "location": "Abstract, Results",
+      "source_index": 5
     },
     {
       "target_condition": "Vital capacity <20 mL/kg (SBCT <=21)",
@@ -233,6 +246,14 @@
       "url": null,
       "kind": "primary_study",
       "year": 2021
+    },
+    {
+      "citation": "Kukulka K, Gummi RR, Govindarajan R. A telephonic single breath count test for screening of exacerbations of myasthenia gravis: A pilot study. Muscle Nerve. 2020;62(2):258-261.",
+      "doi": "10.1002/mus.26987",
+      "pmid": "32447763",
+      "url": null,
+      "kind": "primary_study",
+      "year": 2020
     }
   ],
   "safety_scope": {
@@ -246,6 +267,6 @@
   "extracted_at": "2026-09-10T01:48:04+00:00",
   "verified_by": "owner",
   "verified_at": "2026-09-11T07:57:49.339Z",
-  "verification_notes": "",
-  "record_version": 3
+  "verification_notes": "[owner fix] replaced estimate [2] (sens 0.80, specificity absent, cited to the systematic review's Table 3 with \"attribution ambiguous between refs 17 and 21\") with the traced primary study, Kukulka 2020 (PMID 32447763): sens 0.80, spec 0.60, LR+ 2.0, LR- 0.33. Rule 2 requires tracing to the primary where it exists.",
+  "record_version": 4
 }

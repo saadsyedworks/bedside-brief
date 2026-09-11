@@ -37,7 +37,7 @@
   },
   "estimates": [
     {
-      "target_condition": "Hemorrhage requiring hemostasis intervention after trauma — SI >0.9 (initial hospital vitals)",
+      "target_condition": "PROGNOSTIC: Hemorrhage requiring hemostasis intervention after trauma — SI >0.9 (initial hospital vitals)",
       "population": "4277 adult (>16 y) trauma patients at a single trauma centre over 11 years; traumatic brain injury and transfers excluded; retrospective",
       "setting": "ED",
       "prevalence": null,
@@ -71,7 +71,7 @@
       "computed_from": "LR+ = 0.545/(1-0.936) = 8.52; LR- = (1-0.545)/0.936 = 0.49; from reported sensitivity 54.5% and specificity 93.6%"
     },
     {
-      "target_condition": "Hemorrhage requiring hemostasis intervention after trauma — SI >=0.8 (lowered threshold)",
+      "target_condition": "PROGNOSTIC: Hemorrhage requiring hemostasis intervention after trauma — SI >=0.8 (lowered threshold)",
       "population": "4277 adult (>16 y) trauma patients at a single trauma centre over 11 years; traumatic brain injury and transfers excluded; retrospective",
       "setting": "ED",
       "prevalence": null,
@@ -252,6 +252,6 @@
   "extracted_at": "2026-09-10T02:42:19+00:00",
   "verified_by": "owner",
   "verified_at": "2026-09-11T07:50:15.546Z",
-  "verification_notes": "",
-  "record_version": 3
+  "verification_notes": "[owner fix] labelled estimate [0] \"PROGNOSTIC:\" - the target is an outcome (bleeding requiring an intervention for hemostasis), not a concurrent state; extractor-A labelled its equivalent rows and the promoted packet did not\n[owner fix] labelled estimate [1] \"PROGNOSTIC:\" - same outcome at a lower shock-index threshold",
+  "record_version": 4
 }

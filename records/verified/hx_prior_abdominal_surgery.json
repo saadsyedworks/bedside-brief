@@ -29,26 +29,8 @@
     "pitfalls": "Patients forget minor or remote procedures; laparoscopy and pelvic surgery also cause adhesions. The item is a risk factor, not a diagnostic sign, and most patients with scars presenting with pain do not have SBO.",
     "changes_what": "With distension/vomiting: lowers threshold for CT and NG decompression. No prior surgery with SBO features: expect non-adhesive cause and earlier surgical involvement."
   },
-  "estimates": [
-    {
-      "target_condition": "Acute small-bowel obstruction",
-      "population": "1,333 patients with acute abdominal pain in the OMGE prospective survey (Finland)",
-      "setting": "mixed",
-      "prevalence": null,
-      "reference_standard": "Final diagnosis by OMGE Research Committee criteria",
-      "sensitivity": null,
-      "specificity": null,
-      "lr_positive": null,
-      "lr_negative": null,
-      "computed": false,
-      "interpretation_label": "rule_in",
-      "evidence_level": "single_study",
-      "source_index": 0,
-      "quote": "The most efficient symptoms in the diagnosis of acute small-bowel obstruction were previous abdominal surgery (relative risk (RR) = 12.1)",
-      "location": "Abstract, Results"
-    }
-  ],
-  "evidence_status": "partially_quantified",
+  "estimates": [],
+  "evidence_status": "not_quantified",
   "sources": [
     {
       "citation": "Eskelinen M, Ikonen J, Lipponen P. Contributions of history-taking, physical examination, and computer assistance to diagnosis of acute small-bowel obstruction. A prospective study of 1333 patients with acute abdominal pain. Scand J Gastroenterol. 1994;29(8):715-721.",
@@ -86,6 +68,6 @@
   "extracted_at": "2026-09-10T02:00:12+00:00",
   "verified_by": "owner",
   "verified_at": "2026-09-11T05:43:18.208Z",
-  "verification_notes": "",
-  "record_version": 3
+  "verification_notes": "[owner fix] removed estimate [0] \"Acute small-bowel obstruction\" - no accuracy number: the quote reports a risk ratio (RR 12.1)\n[owner fix] evidence_status -> not_quantified (no estimate remains; sources kept, the manoeuvre is still supported)",
+  "record_version": 4
 }

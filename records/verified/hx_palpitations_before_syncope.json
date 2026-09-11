@@ -26,7 +26,7 @@
     "contraindications": "None."
   },
   "interpretation": {
-    "positive_finding": "Palpitations immediately before syncope, especially without autonomic prodrome and in a patient with structural heart disease, raise concern for arrhythmic syncope (EGSYS assigns it +4 points).",
+    "positive_finding": "In the largest pooled literature sample (Berecki-Gisolf 2013; 468 cardiac vs 1768 non-cardiac syncope episodes) palpitations before syncope did not discriminate: LR+ 0.74, and the variable was excluded from the final model (p = 0.06). The EGSYS score nonetheless assigns palpitations +4 points, so a score-based workflow and this pooled estimate disagree. Treat palpitations as a prompt to characterise the episode (abrupt onset and offset, absence of autonomic prodrome, structural heart disease) rather than as independent evidence of arrhythmic syncope.",
     "negative_finding": "Absence of palpitations does not exclude cardiac syncope; pooled literature LR for absence is about 1.0, so it changes little.",
     "pitfalls": "In pooled derivation data palpitations were reported as often by non-cardiac (11%) as cardiac (8%) syncope patients, because vasovagal prodromes also include a pounding heart; the item behaves differently in patients with vs without heart disease (Alboni 2001).",
     "changes_what": "Positive: obtain ECG, telemetry and consider admission/monitoring for arrhythmia; negative: no change in cardiac-syncope probability."
@@ -113,6 +113,6 @@
   "extracted_at": "2026-09-10T01:47:54+00:00",
   "verified_by": "owner",
   "verified_at": "2026-09-11T05:02:54.897Z",
-  "verification_notes": "",
-  "record_version": 3
+  "verification_notes": "[owner fix] rewrote interpretation.positive_finding - it asserted that palpitations raise concern for arrhythmic syncope while the record's only estimate is LR+ 0.74, which argues the other way; the new text leads with the pooled result and presents the EGSYS +4 weighting as the convention it disagrees with",
+  "record_version": 4
 }

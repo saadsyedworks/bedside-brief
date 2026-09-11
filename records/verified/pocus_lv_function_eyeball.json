@@ -40,23 +40,6 @@
   },
   "estimates": [
     {
-      "target_condition": "LV systolic function category (normal/depressed/severely depressed) by emergency physician vs blinded cardiologist (agreement, not sensitivity/specificity)",
-      "population": "Convenience sample of 51 adult ED patients with symptomatic hypotension (trauma, CPR, and STEMI excluded); 4 EPs with focused echo training",
-      "setting": "ED",
-      "prevalence": null,
-      "reference_standard": "Blinded cardiologist review of the same 5-view EP echocardiogram",
-      "sensitivity": null,
-      "specificity": null,
-      "lr_positive": null,
-      "lr_negative": null,
-      "computed": false,
-      "interpretation_label": "modest",
-      "evidence_level": "single_study",
-      "source_index": 0,
-      "quote": "the weighted agreement between EPs and the primary cardiologist was 84%, with a weighted kappa of 0.61 (p < 0.001)",
-      "location": "Abstract, Results"
-    },
-    {
       "target_condition": "Severe LV systolic dysfunction (LVEF <=30%) (finding: EPSS >7 mm measured by ED ultrasound fellows)",
       "population": "Sequential convenience sample of ED patients undergoing comprehensive transthoracic echocardiography (n reported in full text)",
       "setting": "ED",
@@ -208,6 +191,6 @@
   "extracted_at": "2026-09-10T01:47:48+00:00",
   "verified_by": "owner",
   "verified_at": "2026-09-11T08:09:13.001Z",
-  "verification_notes": "",
-  "record_version": 3
+  "verification_notes": "[owner fix] removed estimate [0] \"LV systolic function category (normal/depressed/severely depressed) by\" - no accuracy number: weighted agreement 84% and kappa 0.61 are agreement statistics",
+  "record_version": 4
 }

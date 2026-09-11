@@ -24,80 +24,55 @@
     ]
   },
   "technique": {
-    "how": "Curvilinear probe suprapubic, angled caudally. In transverse view measure width and anteroposterior depth at the largest section; rotate 90 degrees for sagittal height. Volume (mL) ~ 0.52-0.7 x W x D x H (cm), or use an automated bladder scanner. A single largest transverse diameter >=9.7 cm predicted >=600 mL in one PACU study.",
-    "prerequisites": "Supine patient; scan before catheterization; for post-void residual scan within 10 minutes of voiding; note prolapse, pregnancy, pelvic masses or ascites that distort measurement.",
-    "contraindications": "None; interpret cautiously with suprapubic wounds, dressings, or obesity."
+    "how": "Curvilinear probe suprapubic, angled caudally. In transverse view measure maximal width and anteroposterior depth; rotate to sagittal and measure maximal height. Volume (mL) ~ width x depth x height x 0.52-0.75 (most devices use ~0.7). Alternatively use an automated bladder scanner. Repeat after voiding for post-void residual.",
+    "prerequisites": "Patient supine; know whether a catheter is present and functioning; operator trained in basic bladder POCUS or scanner use.",
+    "contraindications": "None."
   },
   "interpretation": {
-    "positive_finding": "A large volume (commonly >300-400 mL post-void, or >600 mL in the postoperative retention literature) in a patient who cannot void indicates urinary retention; with AKI it points to outflow obstruction, and with leg weakness or saddle numbness it is a red flag for cauda equina.",
-    "negative_finding": "A small or empty bladder makes retention as the cause of AKI or suprapubic pain unlikely; it does not exclude upper-tract obstruction or cauda equina syndrome (retention has low sensitivity for CES).",
-    "pitfalls": "Ascites, ovarian cysts, pelvic hematoma, prolapse and pregnancy cause over- or under-estimation; bladder scanners are less accurate in advanced prolapse and small volumes. Volume formulae carry roughly +/-20-30% error.",
-    "changes_what": "Large volume, cannot void: catheterize, watch for post-obstructive diuresis. Empty bladder with AKI: look upstream (renal POCUS). Retention plus neuro deficit: urgent MRI spine."
+    "positive_finding": "A large bladder (commonly >300-400 mL post-void, or >500 mL in a patient unable to void) indicates urinary retention; in acute back pain it is a red flag for cauda equina syndrome.",
+    "negative_finding": "A small or empty bladder makes retention or bladder-outlet obstruction unlikely as the cause of AKI or discomfort, and reduces the likelihood of cauda equina syndrome (though red flags are more specific than sensitive).",
+    "pitfalls": "Ascites, ovarian cysts and pelvic collections can be mistaken for bladder; obesity, prior pelvic surgery, pregnancy and very small volumes reduce accuracy. Automated scanners overestimate with adjacent fluid and prolapse.",
+    "changes_what": "Retention volume: catheterise, measure residual, check renal function/POCUS kidneys; large PVR with back pain or neurological signs: emergent MRI for cauda equina."
   },
   "estimates": [
     {
-      "target_condition": "Catheterized post-void residual <100 mL (bladder scanner agreement at the 100 mL threshold)",
-      "population": "87 women with pelvic organ prolapse to the hymen or beyond; BVI 3000 bladder scanner vs catheter PVR",
-      "setting": "outpatient",
+      "target_condition": "Postpartum urinary retention (post-void residual >=400 mL)",
+      "population": "100 women at risk of postpartum urinary retention after vaginal delivery; automated bladder scanner vs catheterised volume",
+      "setting": "inpatient",
       "prevalence": null,
-      "reference_standard": "Urethral catheterization PVR immediately after scan",
+      "reference_standard": "Urine volume obtained by urethral catheterisation",
       "sensitivity": {
-        "value": 0.937,
+        "value": 0.76,
         "ci_low": null,
         "ci_high": null
       },
-      "specificity": null,
-      "lr_positive": null,
-      "lr_negative": null,
-      "computed": false,
-      "interpretation_label": "modest",
-      "evidence_level": "single_study",
-      "source_index": 0,
-      "quote": "The sensitivity of the bladder scanner identifying catheterized PVR volumes less than 100 mL was 93.7%",
-      "location": "Abstract, Results"
-    },
-    {
-      "target_condition": "Catheterized post-void residual >100 mL (bladder scanner at the 100 mL threshold)",
-      "population": "Same 87 women with pelvic organ prolapse; accuracy deteriorated with advanced prolapse",
-      "setting": "outpatient",
-      "prevalence": null,
-      "reference_standard": "Urethral catheterization PVR immediately after scan",
-      "sensitivity": null,
       "specificity": {
-        "value": 0.727,
+        "value": 0.96,
         "ci_low": null,
         "ci_high": null
       },
       "lr_positive": null,
       "lr_negative": null,
       "computed": false,
-      "interpretation_label": "modest",
+      "interpretation_label": "rule_in",
       "evidence_level": "single_study",
       "source_index": 0,
-      "quote": "For catheter PVRs greater than 100 mL, the specificity of the bladder scanner was 72.7%",
+      "quote": "The sensitivity and specificity for the scanner, using the clinically desired value of a 400-ml threshold, are 0.76 and 0.96,respectively.",
       "location": "Abstract, Results"
     }
   ],
   "evidence_status": "quantified",
   "sources": [
     {
-      "citation": "Beacock CJ, et al. (author list per PubMed) Accuracy of Bladder Scanner for the Assessment of Postvoid Residual Volumes in Women With Pelvic Organ Prolapse. Female Pelvic Med Reconstr Surg. 2021;27(1):e39-e42.",
-      "doi": null,
-      "pmid": "30325783",
+      "citation": "Lukasse M, Cederkvist HR, Rosseland LA. Reliability of an automatic ultrasound system for detecting postpartum urinary retention after vaginal birth. Acta Obstet Gynecol Scand. 2007;86(10):1251-1255.",
+      "doi": "10.1080/00016340701621478",
+      "pmid": "17851812",
       "url": null,
       "kind": "primary_study",
-      "year": 2021
+      "year": 2007
     },
     {
-      "citation": "Daurat A, Choquet O, Bringuier S, Charbit J, Egan M, Capdevila X. Diagnosis of Postoperative Urinary Retention Using a Simplified Ultrasound Bladder Measurement. Anesth Analg. 2015;120(5):1033-1038.",
-      "doi": null,
-      "pmid": "25642660",
-      "url": null,
-      "kind": "primary_study",
-      "year": 2015
-    },
-    {
-      "citation": "Theisen JG, Deveneau NE, Agrawal A, et al. The Accuracy of Portable Ultrasound Bladder Scanner Measurements of Postvoid Residual Volume in Women With Pelvic Organ Prolapse. Female Pelvic Med Reconstr Surg. 2020;26(1):e12-e15.",
+      "citation": "Theisen JG, Deveneau NE, Agrawal A, et al. The Accuracy of Portable Ultrasound Bladder Scanner Measurements of Postvoid Residual Volume in Women With Pelvic Organ Prolapse. Female Pelvic Med Reconstr Surg. 2020;26(2):141-145.",
       "doi": "10.1097/SPV.0000000000000565",
       "pmid": "29424755",
       "url": null,
@@ -114,17 +89,18 @@
     }
   ],
   "safety_scope": {
-    "do_not_use_when": "Do not rely on scanner or formula volumes in advanced pelvic organ prolapse, pregnancy, large pelvic masses or ascites; do not use a small bladder volume to dismiss cauda equina when other red flags are present.",
-    "escalation_warning": "Retention with new leg weakness, saddle anaesthesia or reduced anal tone is a cauda equina emergency: catheterize and obtain urgent MRI/neurosurgical review. Retention with AKI: catheterize and watch for post-obstructive diuresis.",
-    "interobserver_note": "Automated scanners remove operator variability but had a median absolute error of ~20 mL vs catheter in prolapse (PMID 30325783) and a mean difference near zero in another prolapse cohort (Theisen 2020); manual three-diameter formulae are more operator dependent.",
-    "skill_assumption": "Any clinician trained in basic suprapubic bladder imaging or an automated bladder scanner; Daurat 2015 used a handheld device (Vscan) with a single transverse diameter measured by anesthesia staff."
+    "do_not_use_when": "Do not rely on a scanner or single POCUS volume in patients with ascites, large pelvic masses, pregnancy or advanced prolapse; catheterise if in doubt.",
+    "escalation_warning": "Retention with back pain, saddle anaesthesia or leg weakness is cauda equina until proven otherwise: emergent MRI and spinal surgical referral; retention with AKI needs immediate decompression.",
+    "interobserver_note": "Automated scanners have low operator dependence; manual three-diameter POCUS varies with probe angle and chosen coefficient (0.52-0.75), so use one method consistently.",
+    "skill_assumption": "Basic bladder POCUS (a few supervised scans) or trained use of an automated bladder scanner; estimates are from scanner devices, not manual formula."
   },
   "tier": "verified",
-  "extraction_notes": "No ED POCUS study reporting sens/spec for a retention threshold was found within the call budget. Entered: (1) bladder scanner vs catheter at 100 mL PVR threshold in women with prolapse (PMID 30325783; the abstract reports sensitivity for <100 mL and specificity for >100 mL separately, so they are recorded as two entries without combining); (2) Daurat 2015 PACU study (source 1) is cited but not entered as an estimate: abstract gives only AUROC 0.94 (0.88-0.98) vs bladder scanner and 0.91 (0.79-0.97) vs catheter for >=600 mL, optimal largest-transverse-diameter cutoff 9.7 cm, gray zone 9.7-10.7 cm; no sens/spec visible. First author of PMID 30325783 not shown by the fetch tool; verifier should complete the author list. Dionne 2019 SR: urinary retention as CES red flag pooled sens 0.19-0.43 / spec 0.62-0.88 range only (finding-specific values not in abstract) - cited as context, no estimate. Theisen 2020 reports mean differences only.",
-  "agent_id": "extractor-B",
-  "extracted_at": "2026-09-10T02:00:12+00:00",
+  "extraction_notes": "No meta-analysis of bladder POCUS volume accuracy for retention was found in budget. Lukasse 2007 (PubMed year field shows 2012 e-pub but journal issue 2007) gives sens/spec at the 400 mL threshold in postpartum women using an automated scanner; generalisability to elderly/AKI/post-operative patients is uncertain. Theisen 2020 entered as an agreement estimate (mean difference) with sens/spec null. Dionne 2019 pooled CES red-flag accuracy is reported in the abstract only as ranges across signs (sens 0.19-0.43, spec 0.62-0.88) without a urinary-retention-specific value, so cited without an estimate. Theisen 2020 agreement entry (mean difference 5.94 mL, 95% CI -3.8 to 15.7, Abstract) removed from estimates[] because it has no sens/spec/LR; it remains cited.",
+  "agent_id": "extractor-A",
+  "extracted_at": "2026-09-10T02:00:08+00:00",
   "verified_by": "owner",
   "verified_at": "2026-09-11T08:06:24.657Z",
-  "verification_notes": "",
-  "record_version": 3
+  "verification_notes": "[owner fix] re-promoted from extractor-A instead of extractor-B. A's single estimate (Lukasse, PMID 17851812) is at a 400 mL retention threshold in the record's own direction - sens 0.76 / spec 0.96 - whereas B's two rows define the positive state as a post-void residual BELOW 100 mL, the inverse of this record's question, and carried the invented 'Beacock' citation",
+  "record_version": 4,
+  "_base_packet": "A"
 }
