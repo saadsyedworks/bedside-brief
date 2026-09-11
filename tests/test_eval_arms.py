@@ -61,6 +61,27 @@ def test_errors_are_captured_not_raised(index_db):
     assert out.error and "ParserVocabError" in out.error and out.items == []
 
 
+def test_resume_retries_a_stored_failure(index_db, tmp_path):
+    """A failed case must not be resumable as a finished empty card.
+
+    run_arm never raises, so a blown-up case is saved with `error` set and no items. If resume
+    treated that file as done, a transient failure — or one the code was since fixed for — would
+    be counted as a real empty card in the reported metrics.
+    """
+    case = expand_case(TEMPLATE, "t")[0]
+    bad = FakeLLM(dict(PARSE, differentials=[{"dx": "not_in_vocab", "weight": 1.0}]))
+    out1, ran1 = run_case_arm("A", case, bad, tmp_path, index_db)
+    assert ran1 and out1.error
+
+    good = _llm()
+    out2, ran2 = run_case_arm("A", case, good, tmp_path, index_db)
+    assert ran2, "a stored failure must be retried, not loaded as done"
+    assert out2.error is None and out2.items
+
+    out3, ran3 = run_case_arm("A", case, good, tmp_path, index_db)
+    assert not ran3 and out3.to_dict() == out2.to_dict()
+
+
 def test_persist_and_resume(index_db, tmp_path):
     case = expand_case(TEMPLATE, "t")[0]
     llm = _llm()

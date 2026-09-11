@@ -5,7 +5,8 @@
   C  Generic LLM            the rubric's prompt verbatim, same model, raw text kept, parsed by eval.item_parser
 
 Persistence: eval/runs/{timestamp}/{arm}/{case_id}.json + manifest.json. `run_case_arm` skips
-any (arm, case) whose file already exists, so a timed-out run can be resumed.
+any (arm, case) that already succeeded, so a timed-out run can be resumed; a stored failure is
+retried rather than counted as a finished empty card.
 """
 from __future__ import annotations
 
@@ -170,10 +171,18 @@ def load_output(path: str | Path) -> ArmOutput:
 
 def run_case_arm(arm: str, case: CaseInput, llm: Any, run_dir: str | Path, db_path: str | Path | None = None,
                  limits: Any = config, mode: str = "default", force: bool = False) -> tuple[ArmOutput, bool]:
-    """(output, ran): resumable — an existing file is loaded, not recomputed, unless force."""
+    """(output, ran): resumable — an existing SUCCESSFUL file is loaded, not recomputed, unless force.
+
+    A stored failure is retried. `run_arm` never raises: a case that blew up is saved with `error`
+    set and no items, so treating any existing file as done would let a transient failure — or one
+    the code has since been fixed for — be counted as a real empty card in the reported metrics.
+    """
     p = output_path(run_dir, arm, case.case_id)
     if p.exists() and not force:
-        return load_output(p), False
+        prior = load_output(p)
+        if not prior.error:
+            return prior, False
+        log.info("arm %s case %s: retrying a stored failure (%s)", arm, case.case_id, prior.error)
     out = run_arm(arm, case, llm, db_path, limits, mode)
     save_output(run_dir, out)
     return out, True
