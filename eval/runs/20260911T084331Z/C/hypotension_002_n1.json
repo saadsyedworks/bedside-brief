@@ -1,0 +1,329 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "hypotension_002",
+ "blocked_items": [],
+ "case_id": "hypotension_002_n1",
+ "created_at": "2026-09-11T09:13:30+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent symptoms: fever, chills, cough, sputum, chest pain, dyspnea, hemoptysis"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Bleeding: melena, hematemesis, hematuria, bruising, epistaxis"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Fluid intake/output, vomiting, diarrhea"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medications (dose, compliance, recent changes)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Cardiac symptoms: palpitations, chest pain, syncope"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Baseline function, comorbidities"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: pallor, diaphoresis, distress"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vitals: repeat BP (lying, sitting, standing), HR, RR, O2 sat, temp"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Skin: capillary refill (>2s suggests hypoperfusion), mottling, cyanosis, petechiae/purpura"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "HEENT: conjunctival pallor, oral mucosa for bleeding"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Chest: crackles, bronchial breath sounds, dullness (consolidation/effusion)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Heart: murmurs, gallops, irregular rhythm"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdomen: tenderness, distension, organomegaly, masses, signs of bleeding (e.g., Cullen/Grey-Turner)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Extremities: edema, DVT signs, peripheral pulses"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neuro: confusion, focal deficits"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "10",
+    "20",
+    "30",
+    "97",
+    "98"
+   ],
+   "performance_claims": [
+    "10",
+    "20",
+    "30",
+    "97",
+    "98"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Orthostatic vitals: drop in SBP \u226520 mmHg or DBP \u226510 mmHg, or HR increase \u226530 bpm suggests hypovolemia (sensitivity ~97%, specificity ~98% for hypovolemia in some studies, but less reliable in elderly)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "2",
+    "50",
+    "60",
+    "80"
+   ],
+   "performance_claims": [
+    "2",
+    "50",
+    "60",
+    "80"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Capillary refill: >2s suggests poor perfusion (sensitivity ~50-60%, specificity ~80% for shock)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose: hypoglycemia can mimic shock"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: arrhythmia, ischemia"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pulse oximetry: hypoxia"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urine dipstick: hematuria (bleeding), infection"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on identifying shock type (septic, hypovolemic, cardiogenic, obstructive)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Look for bleeding (GI, urinary, skin), dehydration, or worsening infection"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Orthostatic vitals and capillary refill are quick, but not perfectly sensitive/specific, especially in elderly"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Early recognition and resuscitation are key"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "McGee S, et al."
+   ],
+   "numeric_claims": [
+    "1022",
+    "1029",
+    "11",
+    "1999",
+    "281"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "McGee S, et al. \"Is this patient hypovolemic?\" JAMA. 1999;281(11):1022-1029"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "Shapiro NI, et al."
+   ],
+   "numeric_claims": [
+    "2003",
+    "42",
+    "5",
+    "538",
+    "549"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Shapiro NI, et al. \"Bedside diagnosis of sepsis in the emergency department.\" Ann Emerg Med. 2003;42(5):538-549"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "This patient is an elderly man with pneumonia, on apixaban for atrial fibrillation, now hypotensive (BP 88/54), tachycardic (HR 118), pale, and lightheaded on standing. This presentation is concerning for shock, possibly septic (from pneumonia), hypovolemic (dehydration, bleeding), or less likely cardiogenic (arrhythmia, MI). Apixaban increases bleeding risk.\n\n**History:**\n- Recent symptoms: fever, chills, cough, sputum, chest pain, dyspnea, hemoptysis\n- Bleeding: melena, hematemesis, hematuria, bruising, epistaxis\n- Fluid intake/output, vomiting, diarrhea\n- Medications (dose, compliance, recent changes)\n- Cardiac symptoms: palpitations, chest pain, syncope\n- Baseline function, comorbidities\n\n**Physical Examination:**\n- General: pallor, diaphoresis, distress\n- Vitals: repeat BP (lying, sitting, standing), HR, RR, O2 sat, temp\n- Skin: capillary refill (>2s suggests hypoperfusion), mottling, cyanosis, petechiae/purpura\n- HEENT: conjunctival pallor, oral mucosa for bleeding\n- Chest: crackles, bronchial breath sounds, dullness (consolidation/effusion)\n- Heart: murmurs, gallops, irregular rhythm\n- Abdomen: tenderness, distension, organomegaly, masses, signs of bleeding (e.g., Cullen/Grey-Turner)\n- Extremities: edema, DVT signs, peripheral pulses\n- Neuro: confusion, focal deficits\n\n**Bedside Tests:**\n- Orthostatic vitals: drop in SBP \u226520 mmHg or DBP \u226510 mmHg, or HR increase \u226530 bpm suggests hypovolemia (sensitivity ~97%, specificity ~98% for hypovolemia in some studies, but less reliable in elderly)\n- Capillary refill: >2s suggests poor perfusion (sensitivity ~50-60%, specificity ~80% for shock)\n- Bedside glucose: hypoglycemia can mimic shock\n- ECG: arrhythmia, ischemia\n- Pulse oximetry: hypoxia\n- Urine dipstick: hematuria (bleeding), infection\n\n**Summary:**\n- Focus on identifying shock type (septic, hypovolemic, cardiogenic, obstructive)\n- Look for bleeding (GI, urinary, skin), dehydration, or worsening infection\n- Orthostatic vitals and capillary refill are quick, but not perfectly sensitive/specific, especially in elderly\n- Early recognition and resuscitation are key\n\n**References:**\n- McGee S, et al. \"Is this patient hypovolemic?\" JAMA. 1999;281(11):1022-1029.\n- Shapiro NI, et al. \"Bedside diagnosis of sepsis in the emergency department.\" Ann Emerg Med. 2003;42(5):538-549."
+ },
+ "variant": "n1"
+}

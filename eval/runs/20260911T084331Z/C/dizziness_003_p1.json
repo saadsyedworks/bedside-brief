@@ -1,0 +1,316 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "dizziness_003",
+ "blocked_items": [],
+ "case_id": "dizziness_003_p1",
+ "created_at": "2026-09-11T09:10:17+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "62"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": null,
+   "text": "For a 62-year-old female with new-onset, brief, positional spinning (vertigo) when turning in bed, the most likely diagnosis is benign paroxysmal positional vertigo (BPPV), but other causes should be considered. Here\u2019s how to approach:"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Characterize the dizziness: true vertigo (spinning), presyncope, disequilibrium, or lightheadedness?"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Duration: seconds (suggests BPPV), minutes to hours (Meniere\u2019s, vestibular migraine), continuous (vestibular neuritis, central causes)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Triggers: positional (BPPV), spontaneous, with standing (orthostatic hypotension)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: hearing loss, tinnitus, headache, diplopia, weakness, numbness, chest pain, palpitations"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past medical history: vascular risk factors, prior similar episodes, recent infections, trauma"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medications: ototoxic drugs, antihypertensives"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: orthostatic blood pressure if appropriate"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: look for distress, nystagmus"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Ear exam: look for infection, cerumen impaction"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neurologic exam: cranial nerves, cerebellar function (finger-nose, heel-shin), gait (if safe), Romberg, pronator drift"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Eye movements: spontaneous nystagmus, direction, fixation suppression"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [
+    "Bhattacharyya et al."
+   ],
+   "numeric_claims": [
+    "2017",
+    "75",
+    "79"
+   ],
+   "performance_claims": [
+    "75",
+    "79"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Dix-Hallpike maneuver: Gold standard for posterior canal BPPV. Positive if vertigo and characteristic nystagmus (upbeating, torsional) are triggered. Sensitivity ~79%, specificity ~75% (Bhattacharyya et al., Otolaryngol Head Neck Surg 2017)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Head impulse test: Abnormal in vestibular neuritis (peripheral), normal in central causes"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Test of skew: Vertical ocular misalignment suggests central cause"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Orthostatic vitals: If presyncope suspected"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Red Flags (suggest central cause):"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Persistent vertigo, not brief/positional"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "New focal neurologic deficits"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Severe headache, neck pain"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Inability to walk"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Direction-changing or vertical nystagmus"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Take a focused history and exam to rule out central causes"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Perform Dix-Hallpike at bedside if safe"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "If classic BPPV, consider Epley maneuver"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "If red flags or atypical features, consider further workup (neuroimaging, labs)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "Bhattacharyya N, et al."
+   ],
+   "numeric_claims": [
+    "2017"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bhattacharyya N, et al. Clinical Practice Guideline: Benign Paroxysmal Positional Vertigo (Update). Otolaryngol Head Neck Surg. 2017"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "Edlow JA, et al."
+   ],
+   "numeric_claims": [
+    "2016"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Edlow JA, et al. Diagnosis of Vertigo and Dizziness in the Emergency Department. Emerg Med Clin North Am. 2016"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "For a 62-year-old female with new-onset, brief, positional spinning (vertigo) when turning in bed, the most likely diagnosis is benign paroxysmal positional vertigo (BPPV), but other causes should be considered. Here\u2019s how to approach:\n\n**History:**\n- Characterize the dizziness: true vertigo (spinning), presyncope, disequilibrium, or lightheadedness?\n- Duration: seconds (suggests BPPV), minutes to hours (Meniere\u2019s, vestibular migraine), continuous (vestibular neuritis, central causes)\n- Triggers: positional (BPPV), spontaneous, with standing (orthostatic hypotension)\n- Associated symptoms: hearing loss, tinnitus, headache, diplopia, weakness, numbness, chest pain, palpitations\n- Past medical history: vascular risk factors, prior similar episodes, recent infections, trauma\n- Medications: ototoxic drugs, antihypertensives\n\n**Physical Examination:**\n- Vital signs: orthostatic blood pressure if appropriate\n- General: look for distress, nystagmus\n- Ear exam: look for infection, cerumen impaction\n- Neurologic exam: cranial nerves, cerebellar function (finger-nose, heel-shin), gait (if safe), Romberg, pronator drift\n- Eye movements: spontaneous nystagmus, direction, fixation suppression\n\n**Bedside Tests:**\n- **Dix-Hallpike maneuver:** Gold standard for posterior canal BPPV. Positive if vertigo and characteristic nystagmus (upbeating, torsional) are triggered. Sensitivity ~79%, specificity ~75% (Bhattacharyya et al., Otolaryngol Head Neck Surg 2017).\n- **Head impulse test:** Abnormal in vestibular neuritis (peripheral), normal in central causes.\n- **Test of skew:** Vertical ocular misalignment suggests central cause.\n- **Orthostatic vitals:** If presyncope suspected.\n\n**Red Flags (suggest central cause):**\n- Persistent vertigo, not brief/positional\n- New focal neurologic deficits\n- Severe headache, neck pain\n- Inability to walk\n- Direction-changing or vertical nystagmus\n\n**Summary:**\n- Take a focused history and exam to rule out central causes.\n- Perform Dix-Hallpike at bedside if safe.\n- If classic BPPV, consider Epley maneuver.\n- If red flags or atypical features, consider further workup (neuroimaging, labs).\n\n**References:**\n- Bhattacharyya N, et al. Clinical Practice Guideline: Benign Paroxysmal Positional Vertigo (Update). Otolaryngol Head Neck Surg. 2017.\n- Edlow JA, et al. Diagnosis of Vertigo and Dizziness in the Emergency Department. Emerg Med Clin North Am. 2016."
+ },
+ "variant": "p1"
+}

@@ -1,0 +1,334 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "dyspnea_002",
+ "blocked_items": [],
+ "case_id": "dyspnea_002_n1",
+ "created_at": "2026-09-11T09:10:57+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and progression of dyspnea and wheezing"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: chest pain, cough (productive? hemoptysis?), fever, chills, orthopnea, paroxysmal nocturnal dyspnea, leg swelling, pleuritic pain"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent exposures (medications, allergens, aspiration risk)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past medical history: COPD, asthma, heart failure, DVT/PE, recent immobilization"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication history (including new antibiotics, diuretics, etc.)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Smoking history (already noted)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Functional baseline"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: distress, ability to speak, use of accessory muscles"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vitals: RR, HR, BP, temp, O2 sat"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Respiratory: inspection (work of breathing, cyanosis), palpation (tracheal deviation, chest expansion), percussion (dullness, hyperresonance), auscultation (wheezing, crackles, decreased breath sounds, egophony)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "3",
+    "4"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiac: JVP, S3/S4, murmurs, peripheral edema"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Extremities: DVT signs (swelling, tenderness, erythema)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Mental status (hypoxia, sepsis)"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pulse oximetry (already low on 2L)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Capillary blood glucose (rule out hypoglycemia as a contributor)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "68",
+    "85"
+   ],
+   "performance_claims": [
+    "68",
+    "85"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Peak expiratory flow rate (PEFR): helpful if COPD/asthma suspected; low values support obstruction (sensitivity ~68%, specificity ~85% for acute exacerbation)"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside ECG: arrhythmia, right heart strain (PE), ischemia"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside chest X-ray (portable): look for infiltrate, edema, effusion, pneumothorax"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside ultrasound (if available): B-lines (pulmonary edema), consolidation (pneumonia), pleural effusion, DVT scan"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Arterial blood gas (ABG): if concern for CO2 retention or severe hypoxemia"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "60",
+    "70",
+    "80"
+   ],
+   "performance_claims": [
+    "60",
+    "70",
+    "80"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Wheezing: Sensitivity for COPD exacerbation ~60-70%, specificity ~80% (not highly specific)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "60",
+    "70",
+    "80"
+   ],
+   "performance_claims": [
+    "60",
+    "70",
+    "80"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Crackles: Sensitivity for heart failure ~60-70%, specificity ~80%"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "68",
+    "85"
+   ],
+   "performance_claims": [
+    "68",
+    "85"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "PEFR: Sensitivity ~68%, specificity ~85% for obstructive exacerbations"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [
+    "85",
+    "90"
+   ],
+   "performance_claims": [
+    "85",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside ultrasound for pulmonary edema: Sensitivity ~85-90%, specificity ~90%"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "95"
+   ],
+   "performance_claims": [
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "D-dimer: High sensitivity (>95%) but low specificity for PE (not a bedside test, but relevant)"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on a targeted cardiorespiratory exam, assess for signs of infection, fluid overload, and obstruction, and use bedside tools (pulse oximetry, PEFR, ECG, CXR, ultrasound) to rapidly narrow the differential. Early escalation and supplemental oxygen are warranted given hypoxemia"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 72-year-old woman with a significant smoking history, recent pyelonephritis, new-onset wheezing, dyspnea, and hypoxemia\u2014the differential includes COPD exacerbation, heart failure, pulmonary embolism, pneumonia, aspiration, and less likely, anaphylaxis or acute asthma.\n\n**History:**\n- Onset, duration, and progression of dyspnea and wheezing\n- Associated symptoms: chest pain, cough (productive? hemoptysis?), fever, chills, orthopnea, paroxysmal nocturnal dyspnea, leg swelling, pleuritic pain\n- Recent exposures (medications, allergens, aspiration risk)\n- Past medical history: COPD, asthma, heart failure, DVT/PE, recent immobilization\n- Medication history (including new antibiotics, diuretics, etc.)\n- Smoking history (already noted)\n- Functional baseline\n\n**Physical Examination:**\n- General: distress, ability to speak, use of accessory muscles\n- Vitals: RR, HR, BP, temp, O2 sat\n- Respiratory: inspection (work of breathing, cyanosis), palpation (tracheal deviation, chest expansion), percussion (dullness, hyperresonance), auscultation (wheezing, crackles, decreased breath sounds, egophony)\n- Cardiac: JVP, S3/S4, murmurs, peripheral edema\n- Extremities: DVT signs (swelling, tenderness, erythema)\n- Mental status (hypoxia, sepsis)\n\n**Bedside Tests:**\n- Pulse oximetry (already low on 2L)\n- Capillary blood glucose (rule out hypoglycemia as a contributor)\n- Peak expiratory flow rate (PEFR): helpful if COPD/asthma suspected; low values support obstruction (sensitivity ~68%, specificity ~85% for acute exacerbation)\n- Bedside ECG: arrhythmia, right heart strain (PE), ischemia\n- Bedside chest X-ray (portable): look for infiltrate, edema, effusion, pneumothorax\n- Bedside ultrasound (if available): B-lines (pulmonary edema), consolidation (pneumonia), pleural effusion, DVT scan\n- Arterial blood gas (ABG): if concern for CO2 retention or severe hypoxemia\n\n**Diagnostic Performance Data:**\n- Wheezing: Sensitivity for COPD exacerbation ~60-70%, specificity ~80% (not highly specific)\n- Crackles: Sensitivity for heart failure ~60-70%, specificity ~80%\n- PEFR: Sensitivity ~68%, specificity ~85% for obstructive exacerbations\n- Bedside ultrasound for pulmonary edema: Sensitivity ~85-90%, specificity ~90%\n- D-dimer: High sensitivity (>95%) but low specificity for PE (not a bedside test, but relevant)\n\n**Summary:**\nFocus on a targeted cardiorespiratory exam, assess for signs of infection, fluid overload, and obstruction, and use bedside tools (pulse oximetry, PEFR, ECG, CXR, ultrasound) to rapidly narrow the differential. Early escalation and supplemental oxygen are warranted given hypoxemia."
+ },
+ "variant": "n1"
+}

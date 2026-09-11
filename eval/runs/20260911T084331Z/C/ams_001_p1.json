@@ -1,0 +1,379 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "ams_001",
+ "blocked_items": [],
+ "case_id": "ams_001_p1",
+ "created_at": "2026-09-11T09:07:36+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Time course of confusion and facial droop (sudden vs. gradual)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: weakness, speech changes, headache, visual changes, chest pain, dyspnea, urinary symptoms"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication review (especially new meds, sedatives, anticholinergics)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent infections or fevers"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Baseline cognitive and functional status"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent falls or trauma"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: repeat and monitor for instability"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: level of consciousness, agitation, signs of pain"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neurological:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cranial nerves: confirm facial droop (upper vs. lower face), assess for dysarthria, gaze deviation"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Motor: limb weakness, pronator drift, coordination"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Sensory: gross deficits"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Speech: aphasia, dysarthria"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "NIH Stroke Scale (if possible)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiopulmonary: auscultate for pneumonia, arrhythmia"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdomen: suprapubic tenderness (UTI)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Skin: signs of infection, pressure sores"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Blood glucose (rule out hypoglycemia)"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "94"
+   ],
+   "performance_claims": [
+    "94"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pulse oximetry (already 94%, monitor for hypoxia)"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG (arrhythmia, especially atrial fibrillation)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urinalysis (UTI)"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Chest X-ray (pneumonia)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Delirium screening: Confusion Assessment Method (CAM)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "100",
+    "90",
+    "94",
+    "95"
+   ],
+   "performance_claims": [
+    "100",
+    "90",
+    "94",
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "CAM: Sensitivity ~94-100%, specificity ~90-95% for delirium"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "NIH Stroke Scale: Not a diagnostic test, but helps quantify stroke severity"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "70",
+    "80",
+    "90"
+   ],
+   "performance_claims": [
+    "70",
+    "80",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Facial droop: In stroke, facial droop has sensitivity ~70-80%, specificity ~90% for central lesions when combined with other findings (e.g., arm drift, speech changes)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Blood glucose: Rapid bedside test, essential to rule out hypoglycemia as a reversible cause"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Assess for acute stroke (history, focused neuro exam, NIHSS)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Screen for delirium (CAM)"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Rule out infection (urinalysis, chest X-ray, vitals)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Check for metabolic derangements (glucose, electrolytes)"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Monitor for hypoxia and arrhythmia"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Immediate neuroimaging (CT head) is warranted if stroke is suspected. Early recognition and management of delirium and underlying causes are crucial in this population"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014an elderly woman with mild dementia, hospitalized for hip fracture, now with acute confusion, agitation, new right facial droop, and mild fever\u2014the differential includes delirium (possibly multifactorial), acute stroke (especially given the facial droop), infection (e.g., pneumonia, UTI), and less likely seizure or metabolic derangement.\n\n**History:**\n- Time course of confusion and facial droop (sudden vs. gradual)\n- Associated symptoms: weakness, speech changes, headache, visual changes, chest pain, dyspnea, urinary symptoms\n- Medication review (especially new meds, sedatives, anticholinergics)\n- Recent infections or fevers\n- Baseline cognitive and functional status\n- Recent falls or trauma\n\n**Physical Examination:**\n- Vital signs: repeat and monitor for instability\n- General: level of consciousness, agitation, signs of pain\n- Neurological:\n  - Cranial nerves: confirm facial droop (upper vs. lower face), assess for dysarthria, gaze deviation\n  - Motor: limb weakness, pronator drift, coordination\n  - Sensory: gross deficits\n  - Speech: aphasia, dysarthria\n  - NIH Stroke Scale (if possible)\n- Cardiopulmonary: auscultate for pneumonia, arrhythmia\n- Abdomen: suprapubic tenderness (UTI)\n- Skin: signs of infection, pressure sores\n\n**Bedside Tests:**\n- Blood glucose (rule out hypoglycemia)\n- Pulse oximetry (already 94%, monitor for hypoxia)\n- ECG (arrhythmia, especially atrial fibrillation)\n- Urinalysis (UTI)\n- Chest X-ray (pneumonia)\n- Delirium screening: Confusion Assessment Method (CAM)\n\n**Diagnostic Performance Data:**\n- CAM: Sensitivity ~94-100%, specificity ~90-95% for delirium\n- NIH Stroke Scale: Not a diagnostic test, but helps quantify stroke severity\n- Facial droop: In stroke, facial droop has sensitivity ~70-80%, specificity ~90% for central lesions when combined with other findings (e.g., arm drift, speech changes)\n- Blood glucose: Rapid bedside test, essential to rule out hypoglycemia as a reversible cause\n\n**Summary:**\n- Assess for acute stroke (history, focused neuro exam, NIHSS)\n- Screen for delirium (CAM)\n- Rule out infection (urinalysis, chest X-ray, vitals)\n- Check for metabolic derangements (glucose, electrolytes)\n- Monitor for hypoxia and arrhythmia\n\nImmediate neuroimaging (CT head) is warranted if stroke is suspected. Early recognition and management of delirium and underlying causes are crucial in this population."
+ },
+ "variant": "p1"
+}

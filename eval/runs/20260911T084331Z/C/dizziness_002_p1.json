@@ -1,0 +1,257 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "dizziness_002",
+ "blocked_items": [],
+ "case_id": "dizziness_002_p1",
+ "created_at": "2026-09-11T09:09:50+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and character of vertigo (spinning vs. lightheadedness)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Triggers (positional changes, standing up, rolling over)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: hearing loss, tinnitus, diplopia, dysarthria, weakness, numbness, ataxia, chest pain, palpitations"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication review (especially antihypertensives, sedatives, antiemetics)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past medical history (vascular risk factors, prior similar episodes)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent fluid intake, blood loss, or dehydration"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: Assess for pallor, diaphoresis, signs of dehydration"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "10",
+    "20",
+    "3"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Orthostatic vital signs: Measure BP and HR supine, sitting, and standing (orthostatic hypotension defined as \u226520 mmHg drop in systolic BP or \u226510 mmHg drop in diastolic BP within 3 minutes of standing)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neurological exam: Cranial nerves, cerebellar function (finger-nose, heel-shin, rapid alternating movements), gait, Romberg test"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Otologic exam: Inspect tympanic membranes, check for nystagmus"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "75",
+    "79"
+   ],
+   "performance_claims": [
+    "75",
+    "79"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Dix-Hallpike maneuver: To diagnose BPPV (sensitivity ~79%, specificity ~75% for posterior canal BPPV)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "35",
+    "40",
+    "95"
+   ],
+   "performance_claims": [
+    "35",
+    "40",
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Head impulse test: Abnormal in vestibular neuritis, normal in central causes (sensitivity ~35-40% for central vertigo, specificity ~95%)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Test of skew: Vertical ocular misalignment suggests central cause"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "85",
+    "95"
+   ],
+   "performance_claims": [
+    "95",
+    "85"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "HINTS exam (Head Impulse, Nystagmus, Test of Skew): Highly sensitive (>95%) and specific (>85%) for distinguishing central from peripheral vertigo in acute vestibular syndrome"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on distinguishing central (stroke) from peripheral (BPPV, vestibular neuritis) causes using HINTS exam if continuous vertigo, or Dix-Hallpike if episodic and positional"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Orthostatic vitals to rule out orthostatic hypotension"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Careful neuro exam to look for focal deficits"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [
+    "Kattah JC et al.",
+    "N Engl J Med 2009"
+   ],
+   "numeric_claims": [
+    "1027",
+    "2009",
+    "35",
+    "361"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Kattah JC et al. N Engl J Med 2009;361:1027-35 (HINTS exam)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "Bhattacharyya N et al."
+   ],
+   "numeric_claims": [
+    "1",
+    "156",
+    "2017",
+    "3",
+    "47"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bhattacharyya N et al. Otolaryngol Head Neck Surg. 2017;156(3_suppl):S1-S47 (BPPV guidelines)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "If any central signs or abnormal HINTS, urgent neuroimaging is indicated"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given the presentation of a 58-year-old female, post-op day 1 after laparoscopic cholecystectomy, who experiences brief spinning (vertigo) upon standing, with associated nausea but no headache and normal vital signs, your assessment should focus on distinguishing between benign causes (e.g., benign paroxysmal positional vertigo [BPPV], orthostatic hypotension, vestibular neuritis) and more serious causes (e.g., posterior circulation stroke).\n\n**History:**\n- Onset, duration, and character of vertigo (spinning vs. lightheadedness)\n- Triggers (positional changes, standing up, rolling over)\n- Associated symptoms: hearing loss, tinnitus, diplopia, dysarthria, weakness, numbness, ataxia, chest pain, palpitations\n- Medication review (especially antihypertensives, sedatives, antiemetics)\n- Past medical history (vascular risk factors, prior similar episodes)\n- Recent fluid intake, blood loss, or dehydration\n\n**Physical Examination:**\n- General: Assess for pallor, diaphoresis, signs of dehydration\n- Orthostatic vital signs: Measure BP and HR supine, sitting, and standing (orthostatic hypotension defined as \u226520 mmHg drop in systolic BP or \u226510 mmHg drop in diastolic BP within 3 minutes of standing)\n- Neurological exam: Cranial nerves, cerebellar function (finger-nose, heel-shin, rapid alternating movements), gait, Romberg test\n- Otologic exam: Inspect tympanic membranes, check for nystagmus\n\n**Bedside Tests:**\n- Dix-Hallpike maneuver: To diagnose BPPV (sensitivity ~79%, specificity ~75% for posterior canal BPPV)\n- Head impulse test: Abnormal in vestibular neuritis, normal in central causes (sensitivity ~35-40% for central vertigo, specificity ~95%)\n- Test of skew: Vertical ocular misalignment suggests central cause\n- HINTS exam (Head Impulse, Nystagmus, Test of Skew): Highly sensitive (>95%) and specific (>85%) for distinguishing central from peripheral vertigo in acute vestibular syndrome\n\n**Summary:**\n- Focus on distinguishing central (stroke) from peripheral (BPPV, vestibular neuritis) causes using HINTS exam if continuous vertigo, or Dix-Hallpike if episodic and positional.\n- Orthostatic vitals to rule out orthostatic hypotension.\n- Careful neuro exam to look for focal deficits.\n\n**References:**\n- Kattah JC et al. N Engl J Med 2009;361:1027-35 (HINTS exam)\n- Bhattacharyya N et al. Otolaryngol Head Neck Surg. 2017;156(3_suppl):S1-S47 (BPPV guidelines)\n\nIf any central signs or abnormal HINTS, urgent neuroimaging is indicated."
+ },
+ "variant": "p1"
+}

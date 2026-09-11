@@ -1,0 +1,350 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "edema_002",
+ "blocked_items": [],
+ "case_id": "edema_002",
+ "created_at": "2026-09-11T09:11:38+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Duration and progression of abdominal distension and leg swelling"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Symptoms of liver dysfunction: jaundice, pruritus, confusion (encephalopathy), GI bleeding (melena/hematemesis), muscle wasting"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Alcohol use: quantity, duration, last drink (risk of withdrawal)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Other risk factors: viral hepatitis, transfusions, IV drug use, family history"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Constitutional symptoms: weight loss, fever, night sweats"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Cardiac/renal symptoms: orthopnea, PND, chest pain, oliguria"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication history (esp. diuretics, NSAIDs)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: cachexia, jaundice, asterixis (hepatic flap), fetor hepaticus"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdomen: distension, shifting dullness, fluid wave (ascites), caput medusae, splenomegaly, hepatomegaly, tenderness, umbilical hernia"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Extremities: pitting edema, muscle wasting, palmar erythema, Dupuytren\u2019s contracture"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Skin: spider angiomata, bruising, petechiae"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neurologic: mental status (encephalopathy), asterixis"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "3"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiopulmonary: S3, crackles (if heart failure), JVP"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "JAMA Rational Clinical Exam, 1993"
+   ],
+   "numeric_claims": [
+    "1993",
+    "56",
+    "83"
+   ],
+   "performance_claims": [
+    "56",
+    "83"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Shifting dullness (for ascites): Sensitivity ~83%, specificity ~56% (JAMA Rational Clinical Exam, 1993)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Fluid wave: Less sensitive than shifting dullness, but more specific if positive"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Asterixis: Suggests hepatic encephalopathy, not highly sensitive but specific in context"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "JVP assessment: Elevated in heart failure, normal/low in cirrhosis"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Vital signs: Monitor for hypotension (risk of hepatorenal syndrome, sepsis)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Summary Table:"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "| Test | Sensitivity | Specificity | Notes |"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "56",
+    "83"
+   ],
+   "performance_claims": [
+    "56",
+    "83"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "| Shifting dullness | ~83% | ~56% | Best bedside test for ascites |"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "50",
+    "60",
+    "80",
+    "90"
+   ],
+   "performance_claims": [
+    "50",
+    "60",
+    "80",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "| Fluid wave | ~50-60% | ~80-90% | More specific, less sensitive |"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "| Asterixis | N/A | N/A | Suggests encephalopathy |"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "| JVP | N/A | N/A | Helps distinguish cardiac vs hepatic |"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Next Steps:"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic paracentesis (to rule out SBP)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Labs: CBC, LFTs, INR, albumin, renal function, electrolytes"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Consider abdominal ultrasound"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Cattau EL et al."
+   ],
+   "numeric_claims": [
+    "1993"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Cattau EL et al. The accuracy of the physical examination in the diagnosis of ascites. JAMA. 1993"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "4"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "McGee S. Evidence-Based Physical Diagnosis, 4th ed"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 54-year-old man with heavy alcohol use, 2 months of abdominal distension and bilateral leg swelling, generalized weakness, and low-normal BP\u2014the most likely concern is decompensated chronic liver disease (cirrhosis) with ascites and peripheral edema. Other considerations include heart failure, nephrotic syndrome, and malignancy, but the history strongly suggests liver disease.\n\n**History:**\n- Duration and progression of abdominal distension and leg swelling\n- Symptoms of liver dysfunction: jaundice, pruritus, confusion (encephalopathy), GI bleeding (melena/hematemesis), muscle wasting\n- Alcohol use: quantity, duration, last drink (risk of withdrawal)\n- Other risk factors: viral hepatitis, transfusions, IV drug use, family history\n- Constitutional symptoms: weight loss, fever, night sweats\n- Cardiac/renal symptoms: orthopnea, PND, chest pain, oliguria\n- Medication history (esp. diuretics, NSAIDs)\n\n**Physical Examination:**\n- General: cachexia, jaundice, asterixis (hepatic flap), fetor hepaticus\n- Abdomen: distension, shifting dullness, fluid wave (ascites), caput medusae, splenomegaly, hepatomegaly, tenderness, umbilical hernia\n- Extremities: pitting edema, muscle wasting, palmar erythema, Dupuytren\u2019s contracture\n- Skin: spider angiomata, bruising, petechiae\n- Neurologic: mental status (encephalopathy), asterixis\n- Cardiopulmonary: S3, crackles (if heart failure), JVP\n\n**Bedside Tests:**\n- **Shifting dullness** (for ascites): Sensitivity ~83%, specificity ~56% (JAMA Rational Clinical Exam, 1993)\n- **Fluid wave**: Less sensitive than shifting dullness, but more specific if positive\n- **Asterixis**: Suggests hepatic encephalopathy, not highly sensitive but specific in context\n- **JVP assessment**: Elevated in heart failure, normal/low in cirrhosis\n- **Vital signs**: Monitor for hypotension (risk of hepatorenal syndrome, sepsis)\n\n**Summary Table:**\n| Test                | Sensitivity | Specificity | Notes                                   |\n|---------------------|-------------|-------------|-----------------------------------------|\n| Shifting dullness   | ~83%        | ~56%        | Best bedside test for ascites           |\n| Fluid wave         | ~50-60%     | ~80-90%     | More specific, less sensitive           |\n| Asterixis          | N/A         | N/A         | Suggests encephalopathy                 |\n| JVP                 | N/A         | N/A         | Helps distinguish cardiac vs hepatic    |\n\n**Next Steps:**\n- Diagnostic paracentesis (to rule out SBP)\n- Labs: CBC, LFTs, INR, albumin, renal function, electrolytes\n- Consider abdominal ultrasound\n\n**References:**\n- Cattau EL et al. The accuracy of the physical examination in the diagnosis of ascites. JAMA. 1993.\n- McGee S. Evidence-Based Physical Diagnosis, 4th ed.\n\nIn summary: Focus on signs of chronic liver disease, ascites, and complications. Shifting dullness is the best bedside test for ascites. Always consider diagnostic paracentesis in new/worsening ascites."
+ },
+ "variant": "base"
+}

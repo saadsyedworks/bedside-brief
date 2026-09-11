@@ -1,0 +1,245 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "chest_pain_003",
+ "blocked_items": [],
+ "case_id": "chest_pain_003_n1",
+ "created_at": "2026-09-11T09:09:22+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Characterize chest pain: onset, duration, severity, radiation, aggravating/relieving factors (worse with inspiration and lying flat, better sitting up suggests pericarditis)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: dyspnea, palpitations, syncope, cough, hemoptysis, leg swelling, fever, recent viral illness"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past medical history: cardiac, renal, autoimmune disease"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication and allergy history"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent travel, immobilization, or risk factors for thromboembolism"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: distress, diaphoresis, pallor"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vitals: BP, RR, O2 sat, temperature"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "35",
+    "99"
+   ],
+   "performance_claims": [
+    "35",
+    "99"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiac: pericardial friction rub (highly specific for pericarditis, specificity ~99%, sensitivity ~35%), muffled heart sounds (suggests tamponade), JVP elevation, pulsus paradoxus"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Lungs: rales, decreased breath sounds (pleural effusion), signs of pulmonary edema"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdomen: tenderness, organomegaly"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Extremities: edema, calf tenderness (DVT), cyanosis"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "60",
+    "80"
+   ],
+   "performance_claims": [
+    "60",
+    "80"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: Look for diffuse ST elevation and PR depression (sensitivity ~60%, specificity ~80% for pericarditis), low voltage, electrical alternans (tamponade)"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [
+    "90"
+   ],
+   "performance_claims": [
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside echocardiogram: Assess for pericardial effusion, tamponade physiology (sensitivity for effusion >90%)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside troponin: Rule out myocardial infarction (high sensitivity and specificity for MI, but can be elevated in myopericarditis)"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside chest X-ray: Assess for cardiomegaly, pulmonary edema, pneumonia"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "History and exam should focus on pericarditis, MI, PE, and pleuritis"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Key findings for pericarditis: pleuritic, positional chest pain, pericardial rub, ECG changes, pericardial effusion"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pericardial rub is highly specific but not sensitive"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG and echo are high-yield bedside tests"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Troponin helps rule out MI"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "If tamponade is suspected (hypotension, JVP, muffled heart sounds), urgent echo and intervention are needed"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given the presentation\u2014a 38-year-old man with acute kidney injury (AKI) after gastroenteritis, now with sharp, central chest pain that varies with breathing and position, pulse 96, and no fever\u2014the main concern is pericarditis, but other causes of chest pain (e.g., myocardial infarction, pulmonary embolism, pleuritis) should be considered.\n\n**History:**\n- Characterize chest pain: onset, duration, severity, radiation, aggravating/relieving factors (worse with inspiration and lying flat, better sitting up suggests pericarditis).\n- Associated symptoms: dyspnea, palpitations, syncope, cough, hemoptysis, leg swelling, fever, recent viral illness.\n- Past medical history: cardiac, renal, autoimmune disease.\n- Medication and allergy history.\n- Recent travel, immobilization, or risk factors for thromboembolism.\n\n**Physical Examination:**\n- General: distress, diaphoresis, pallor.\n- Vitals: BP, RR, O2 sat, temperature.\n- Cardiac: pericardial friction rub (highly specific for pericarditis, specificity ~99%, sensitivity ~35%), muffled heart sounds (suggests tamponade), JVP elevation, pulsus paradoxus.\n- Lungs: rales, decreased breath sounds (pleural effusion), signs of pulmonary edema.\n- Abdomen: tenderness, organomegaly.\n- Extremities: edema, calf tenderness (DVT), cyanosis.\n\n**Bedside Tests:**\n- ECG: Look for diffuse ST elevation and PR depression (sensitivity ~60%, specificity ~80% for pericarditis), low voltage, electrical alternans (tamponade).\n- Bedside echocardiogram: Assess for pericardial effusion, tamponade physiology (sensitivity for effusion >90%).\n- Bedside troponin: Rule out myocardial infarction (high sensitivity and specificity for MI, but can be elevated in myopericarditis).\n- Bedside chest X-ray: Assess for cardiomegaly, pulmonary edema, pneumonia.\n\n**Summary:**\n- History and exam should focus on pericarditis, MI, PE, and pleuritis.\n- Key findings for pericarditis: pleuritic, positional chest pain, pericardial rub, ECG changes, pericardial effusion.\n- Pericardial rub is highly specific but not sensitive.\n- ECG and echo are high-yield bedside tests.\n- Troponin helps rule out MI.\n\nIf tamponade is suspected (hypotension, JVP, muffled heart sounds), urgent echo and intervention are needed."
+ },
+ "variant": "n1"
+}

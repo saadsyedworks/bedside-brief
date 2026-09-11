@@ -1,0 +1,374 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "palpitations_002",
+ "blocked_items": [],
+ "case_id": "palpitations_002_n1",
+ "created_at": "2026-09-11T09:14:20+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and triggers of palpitations"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: chest pain, dyspnea, syncope, diaphoresis"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past arrhythmias, ICD/AICD, or pacemaker"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medications (esp. antiarrhythmics, beta-blockers)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Substance use (caffeine, alcohol, stimulants)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Family history of sudden cardiac death"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: distress, diaphoresis, pallor"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vitals: repeat BP, HR, RR, O2 sat"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neck: look for cannon A waves (suggests AV dissociation)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "3",
+    "4"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Heart: regularity, murmurs, S3/S4, gallops"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Lungs: rales, signs of heart failure"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Extremities: perfusion, edema"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neurologic: mental status, focal deficits"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "12"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "12-lead ECG:"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic for rhythm (wide vs. narrow QRS, AV dissociation, fusion/capture beats)"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "90",
+    "95"
+   ],
+   "performance_claims": [
+    "90",
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Sensitivity/specificity for VT vs. SVT with aberrancy: ECG criteria (Brugada, Vereckei, Wellens) have ~90-95% specificity for VT if criteria met"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Monitor rhythm strip:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Look for AV dissociation, fusion/capture beats (specific for VT)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Vagal maneuvers:"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Carotid sinus massage or Valsalva (if no contraindication): may terminate SVT, rarely affects VT"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic: if rhythm slows or terminates, suggests SVT"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "20",
+    "40"
+   ],
+   "performance_claims": [
+    "20",
+    "40"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Sensitivity for AVNRT/AVRT: ~20-40%; specificity high if response seen"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Adenosine (if stable and uncertain diagnosis):"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "May terminate SVT, not VT (except some idiopathic VTs)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic: if terminates, likely SVT; if not, likely VT"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Caution: avoid if irregular or pre-excited rhythms"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside echo (if available):"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Assess for pericardial effusion, gross LV function, wall motion"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Key Diagnostic Performance Data:"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "95"
+   ],
+   "performance_claims": [
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "AV dissociation, fusion/capture beats: highly specific for VT (>95%)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "90"
+   ],
+   "performance_claims": [
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Brugada criteria for VT: sensitivity ~90%, specificity ~90%"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Vagal maneuvers: low sensitivity, high specificity for AVNRT/AVRT"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on rapid ECG interpretation, look for signs of instability, and use bedside maneuvers/tests judiciously. In this patient with prior MI and reduced EF, VT is most likely and should be presumed until proven otherwise"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this scenario\u2014a middle-aged man with prior anterior MI and reduced EF, now with sudden-onset regular tachycardia, hypotension, and lightheadedness\u2014the most likely diagnosis is a monomorphic ventricular tachycardia (VT), but SVT with aberrancy is also possible. Here\u2019s how to approach it:\n\n**History:**\n- Onset, duration, and triggers of palpitations\n- Associated symptoms: chest pain, dyspnea, syncope, diaphoresis\n- Past arrhythmias, ICD/AICD, or pacemaker\n- Medications (esp. antiarrhythmics, beta-blockers)\n- Substance use (caffeine, alcohol, stimulants)\n- Family history of sudden cardiac death\n\n**Physical Examination:**\n- General: distress, diaphoresis, pallor\n- Vitals: repeat BP, HR, RR, O2 sat\n- Neck: look for cannon A waves (suggests AV dissociation)\n- Heart: regularity, murmurs, S3/S4, gallops\n- Lungs: rales, signs of heart failure\n- Extremities: perfusion, edema\n- Neurologic: mental status, focal deficits\n\n**Bedside Tests:**\n- **12-lead ECG:**\n  - Diagnostic for rhythm (wide vs. narrow QRS, AV dissociation, fusion/capture beats)\n  - Sensitivity/specificity for VT vs. SVT with aberrancy: ECG criteria (Brugada, Vereckei, Wellens) have ~90-95% specificity for VT if criteria met\n- **Monitor rhythm strip:**\n  - Look for AV dissociation, fusion/capture beats (specific for VT)\n- **Vagal maneuvers:**\n  - Carotid sinus massage or Valsalva (if no contraindication): may terminate SVT, rarely affects VT\n  - Diagnostic: if rhythm slows or terminates, suggests SVT\n  - Sensitivity for AVNRT/AVRT: ~20-40%; specificity high if response seen\n- **Adenosine (if stable and uncertain diagnosis):**\n  - May terminate SVT, not VT (except some idiopathic VTs)\n  - Diagnostic: if terminates, likely SVT; if not, likely VT\n  - Caution: avoid if irregular or pre-excited rhythms\n- **Bedside echo (if available):**\n  - Assess for pericardial effusion, gross LV function, wall motion\n\n**Key Diagnostic Performance Data:**\n- AV dissociation, fusion/capture beats: highly specific for VT (>95%)\n- Brugada criteria for VT: sensitivity ~90%, specificity ~90%\n- Vagal maneuvers: low sensitivity, high specificity for AVNRT/AVRT\n\n**Summary:**\n- Focus on rapid ECG interpretation, look for signs of instability, and use bedside maneuvers/tests judiciously. In this patient with prior MI and reduced EF, VT is most likely and should be presumed until proven otherwise."
+ },
+ "variant": "n1"
+}

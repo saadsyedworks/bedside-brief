@@ -1,0 +1,261 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "aki_002",
+ "blocked_items": [],
+ "case_id": "aki_002_p1",
+ "created_at": "2026-09-11T09:07:08+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset and duration of anuria/oliguria"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Lower urinary tract symptoms (LUTS): hesitancy, weak stream, incomplete emptying, urgency, frequency, nocturia"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Flank or suprapubic pain"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent changes in fluid intake, vomiting, diarrhea"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication history (focus on nephrotoxins: NSAIDs, ACEi/ARBs, diuretics)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Previous episodes of urinary retention or AKI"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Symptoms of volume overload (dyspnea, edema)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: hypotension, tachycardia (volume status)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: signs of uremia (asterixis, confusion)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdomen: distended bladder (palpable or percussible), suprapubic tenderness"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Flank tenderness (hydronephrosis)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Peripheral edema, JVP (volume status)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Rectal exam: prostate size, rectal tone, fecal impaction"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [
+    "300",
+    "400",
+    "90",
+    "95"
+   ],
+   "performance_claims": [
+    "300",
+    "400",
+    "90",
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bladder scan: assess for urinary retention (sensitivity ~90-95% for >300-400 mL)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "200"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Foley catheter insertion: diagnostic and therapeutic; >200 mL urine output after insertion suggests retention"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urinalysis: look for casts, hematuria, proteinuria (to assess for intrinsic renal disease)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Basic labs: repeat creatinine, BUN, electrolytes"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [
+    "300",
+    "400",
+    "90",
+    "95"
+   ],
+   "performance_claims": [
+    "300",
+    "400",
+    "90",
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bladder scan: Sensitivity 90-95% for detecting retention >300-400 mL"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "200"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Post-void residual >200 mL is suggestive of retention"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Foley catheterization: Immediate urine output confirms diagnosis"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Most likely diagnosis is post-renal AKI due to BPH and NSAID-induced decreased renal perfusion. Immediate bedside bladder scan and Foley catheterization are key. Also assess for pre-renal and intrinsic causes with history, exam, and urinalysis"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 78-year-old male with BPH, admitted for community-acquired pneumonia (CAP), on scheduled ketorolac for 3 days, now with no urine output for 8 hours and a creatinine rise of 0.5 mg/dL overnight\u2014the concern is for acute kidney injury (AKI), likely with a post-renal (obstructive) or pre-renal (NSAID-induced) component.\n\n**History:**\n- Onset and duration of anuria/oliguria\n- Lower urinary tract symptoms (LUTS): hesitancy, weak stream, incomplete emptying, urgency, frequency, nocturia\n- Flank or suprapubic pain\n- Recent changes in fluid intake, vomiting, diarrhea\n- Medication history (focus on nephrotoxins: NSAIDs, ACEi/ARBs, diuretics)\n- Previous episodes of urinary retention or AKI\n- Symptoms of volume overload (dyspnea, edema)\n\n**Physical Examination:**\n- Vital signs: hypotension, tachycardia (volume status)\n- General: signs of uremia (asterixis, confusion)\n- Abdomen: distended bladder (palpable or percussible), suprapubic tenderness\n- Flank tenderness (hydronephrosis)\n- Peripheral edema, JVP (volume status)\n- Rectal exam: prostate size, rectal tone, fecal impaction\n\n**Bedside Tests:**\n- Bladder scan: assess for urinary retention (sensitivity ~90-95% for >300-400 mL)\n- Foley catheter insertion: diagnostic and therapeutic; >200 mL urine output after insertion suggests retention\n- Urinalysis: look for casts, hematuria, proteinuria (to assess for intrinsic renal disease)\n- Basic labs: repeat creatinine, BUN, electrolytes\n\n**Diagnostic Performance Data:**\n- Bladder scan: Sensitivity 90-95% for detecting retention >300-400 mL\n- Post-void residual >200 mL is suggestive of retention\n- Foley catheterization: Immediate urine output confirms diagnosis\n\n**Summary:**\n- Most likely diagnosis is post-renal AKI due to BPH and NSAID-induced decreased renal perfusion. Immediate bedside bladder scan and Foley catheterization are key. Also assess for pre-renal and intrinsic causes with history, exam, and urinalysis."
+ },
+ "variant": "p1"
+}

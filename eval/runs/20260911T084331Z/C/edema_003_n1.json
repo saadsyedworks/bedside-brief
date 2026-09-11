@@ -1,0 +1,473 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "edema_003",
+ "blocked_items": [],
+ "case_id": "edema_003_n1",
+ "created_at": "2026-09-11T09:12:01+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and progression of calf swelling and pain"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Risk factors: recent immobility, surgery, malignancy, prior DVT/PE, hormone therapy, obesity, smoking"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Symptoms of PE: chest pain, dyspnea, hemoptysis"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Bleeding risk (history of bleeding disorders, anticoagulant use)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Other causes: trauma, infection, heart failure"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Inspect for asymmetry, erythema, edema"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Palpate for tenderness (especially along deep veins), warmth, firmness"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "3"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Measure calf circumference (difference >3 cm is significant)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Check for pitting edema"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Assess for Homan\u2019s sign (pain on dorsiflexion of foot)\u2014note: low sensitivity and specificity, not recommended as sole diagnostic tool"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Look for signs of PE (tachypnea, hypoxia, tachycardia)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Wells score"
+   ],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Wells score for DVT risk stratification (clinical prediction rule):"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "1"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Active cancer (+1)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "1"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Paralysis, paresis, or recent plaster immobilization (+1)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "1",
+    "12",
+    "3"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Recently bedridden >3 days or major surgery within 12 weeks (+1)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "1"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Localized tenderness along deep veins (+1)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "1"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Entire leg swollen (+1)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "1",
+    "3"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Calf swelling >3 cm compared to other leg (+1)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "1"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pitting edema (+1)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "1"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Collateral superficial veins (+1)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Alternative diagnosis as likely or more likely than DVT (\u22122)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Score \u22652: DVT likely"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "<2: DVT unlikely"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "D-dimer (if low pretest probability and not hospitalized; less useful in inpatients due to high false positive rate)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Wells score"
+   ],
+   "numeric_claims": [
+    "100",
+    "60",
+    "70",
+    "79"
+   ],
+   "performance_claims": [
+    "100",
+    "60",
+    "70",
+    "79"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Wells score: Sensitivity ~79-100%, specificity ~60-70% (varies by cutoff and population)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "95",
+    "98"
+   ],
+   "performance_claims": [
+    "95",
+    "98"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "D-dimer: Sensitivity ~95-98% (excellent for ruling out DVT in low-risk patients), specificity low in hospitalized patients"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "10",
+    "39",
+    "54",
+    "89"
+   ],
+   "performance_claims": [
+    "10",
+    "39",
+    "54",
+    "89"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Homan\u2019s sign: Sensitivity ~10-54%, specificity ~39-89% (not reliable)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Next Steps:"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "If DVT likely, arrange for urgent duplex ultrasonography of the leg"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "If DVT unlikely and D-dimer negative (in appropriate setting), DVT can be ruled out"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Take a focused history for DVT risk factors and symptoms"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Examine for asymmetry, tenderness, swelling, and measure calf circumference"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Wells score"
+   ],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Use the Wells score to stratify risk"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Order duplex ultrasound if DVT is likely"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "D-dimer is less useful in inpatients"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Kearon C, et al.",
+    "Chest 2016"
+   ],
+   "numeric_claims": [
+    "149",
+    "2",
+    "2016",
+    "315",
+    "352"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "references",
+   "text": "Kearon C, et al. Diagnosis of DVT: Chest 2016;149(2):315-352"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Wells PS, et al.",
+    "N Engl J Med 2003"
+   ],
+   "numeric_claims": [
+    "1227",
+    "1235",
+    "2003",
+    "349"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "references",
+   "text": "Wells PS, et al. N Engl J Med 2003;349:1227-1235"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a hospitalized patient with new-onset unilateral calf swelling and pain\u2014the primary concern is deep vein thrombosis (DVT). Here\u2019s how to approach the case:\n\n**History:**\n- Onset, duration, and progression of calf swelling and pain\n- Risk factors: recent immobility, surgery, malignancy, prior DVT/PE, hormone therapy, obesity, smoking\n- Symptoms of PE: chest pain, dyspnea, hemoptysis\n- Bleeding risk (history of bleeding disorders, anticoagulant use)\n- Other causes: trauma, infection, heart failure\n\n**Physical Examination:**\n- Inspect for asymmetry, erythema, edema\n- Palpate for tenderness (especially along deep veins), warmth, firmness\n- Measure calf circumference (difference >3 cm is significant)\n- Check for pitting edema\n- Assess for Homan\u2019s sign (pain on dorsiflexion of foot)\u2014note: low sensitivity and specificity, not recommended as sole diagnostic tool\n- Look for signs of PE (tachypnea, hypoxia, tachycardia)\n\n**Bedside Tests:**\n- Wells score for DVT risk stratification (clinical prediction rule):\n  - Active cancer (+1)\n  - Paralysis, paresis, or recent plaster immobilization (+1)\n  - Recently bedridden >3 days or major surgery within 12 weeks (+1)\n  - Localized tenderness along deep veins (+1)\n  - Entire leg swollen (+1)\n  - Calf swelling >3 cm compared to other leg (+1)\n  - Pitting edema (+1)\n  - Collateral superficial veins (+1)\n  - Alternative diagnosis as likely or more likely than DVT (\u22122)\n  - Score \u22652: DVT likely; <2: DVT unlikely\n- D-dimer (if low pretest probability and not hospitalized; less useful in inpatients due to high false positive rate)\n\n**Diagnostic Performance Data:**\n- Wells score: Sensitivity ~79-100%, specificity ~60-70% (varies by cutoff and population)\n- D-dimer: Sensitivity ~95-98% (excellent for ruling out DVT in low-risk patients), specificity low in hospitalized patients\n- Homan\u2019s sign: Sensitivity ~10-54%, specificity ~39-89% (not reliable)\n\n**Next Steps:**\n- If DVT likely, arrange for urgent duplex ultrasonography of the leg\n- If DVT unlikely and D-dimer negative (in appropriate setting), DVT can be ruled out\n\n**Summary:**\n- Take a focused history for DVT risk factors and symptoms\n- Examine for asymmetry, tenderness, swelling, and measure calf circumference\n- Use the Wells score to stratify risk\n- Order duplex ultrasound if DVT is likely\n- D-dimer is less useful in inpatients\n\nReferences:\n- Kearon C, et al. Diagnosis of DVT: Chest 2016;149(2):315-352.\n- Wells PS, et al. N Engl J Med 2003;349:1227-1235."
+ },
+ "variant": "n1"
+}

@@ -1,0 +1,348 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "dyspnea_003",
+ "blocked_items": [],
+ "case_id": "dyspnea_003",
+ "created_at": "2026-09-11T09:11:05+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and character of pain (pleuritic, sharp, location)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: cough, hemoptysis, syncope, chest tightness, leg swelling/pain"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Risk factors: prior VTE, cancer, immobility, hormone use, recent surgery (already present)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Cardiac history: heart failure, arrhythmias"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Infection risk: fever, sputum, sick contacts"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: distress, diaphoresis, cyanosis"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vitals: confirm tachycardia, tachypnea, hypoxemia"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Lungs: decreased breath sounds, crackles, wheezing, signs of consolidation, asymmetry (pneumothorax)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiac: new murmurs, gallops, JVD"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Extremities: unilateral leg swelling, tenderness, erythema (DVT)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Calf circumference comparison"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pulse oximetry (already low)"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "1",
+    "3"
+   ],
+   "performance_claims": [
+    "1",
+    "3"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: sinus tachycardia, S1Q3T3, right heart strain (sensitivity for PE is low, but can help rule out MI or arrhythmia)"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside ultrasound (if available):"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "90",
+    "95"
+   ],
+   "performance_claims": [
+    "90",
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Lower limb compression US for DVT (sensitivity ~90%, specificity ~95% for proximal DVT)"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Cardiac POCUS: RV dilation, McConnell's sign (specific but not sensitive for PE)"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Lung US: rule out pneumothorax (lung sliding), consolidation, pleural effusion"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Chest X-ray: often normal in PE, but can rule out other causes (pneumothorax, pneumonia)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Wells score"
+   ],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Wells score and Geneva score: clinical prediction rules for PE (not validated in post-op patients, but can guide pretest probability)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "95"
+   ],
+   "performance_claims": [
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "D-dimer: high sensitivity (>95%) but low specificity; not useful post-op due to false positives"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "1",
+    "20",
+    "3"
+   ],
+   "performance_claims": [
+    "1",
+    "20",
+    "3"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: S1Q3T3 pattern is specific but not sensitive (seen in <20% of PE)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "90",
+    "95"
+   ],
+   "performance_claims": [
+    "90",
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside US for DVT: sensitivity ~90%, specificity ~95% for proximal DVT"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "POCUS for RV strain: specific but not sensitive for PE"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on rapid assessment for PE, but rule out other life-threatening causes (MI, pneumothorax, pneumonia)"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Key bedside tests: ECG, CXR, POCUS (if available), lower limb US"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Immediate management may be needed if patient is unstable (empiric anticoagulation, call for help)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "Kearon C, et al."
+   ],
+   "numeric_claims": [
+    "2016"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "references",
+   "text": "Kearon C, et al. Diagnosis of Pulmonary Embolism. Chest. 2016"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "Konstantinides SV, et al. 2019"
+   ],
+   "numeric_claims": [
+    "2019",
+    "2020"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "references",
+   "text": "Konstantinides SV, et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism. Eur Heart J. 2020"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014postoperative day 3 after hip fracture repair, elderly woman, sudden onset dyspnea and pleuritic pain, tachycardia, tachypnea, and hypoxemia\u2014the leading concern is acute pulmonary embolism (PE), but other causes (e.g., pneumonia, myocardial infarction, pneumothorax) should also be considered.\n\n**History:**\n- Onset, duration, and character of pain (pleuritic, sharp, location)\n- Associated symptoms: cough, hemoptysis, syncope, chest tightness, leg swelling/pain\n- Risk factors: prior VTE, cancer, immobility, hormone use, recent surgery (already present)\n- Cardiac history: heart failure, arrhythmias\n- Infection risk: fever, sputum, sick contacts\n\n**Physical Examination:**\n- General: distress, diaphoresis, cyanosis\n- Vitals: confirm tachycardia, tachypnea, hypoxemia\n- Lungs: decreased breath sounds, crackles, wheezing, signs of consolidation, asymmetry (pneumothorax)\n- Cardiac: new murmurs, gallops, JVD\n- Extremities: unilateral leg swelling, tenderness, erythema (DVT)\n- Calf circumference comparison\n\n**Bedside Tests:**\n- Pulse oximetry (already low)\n- ECG: sinus tachycardia, S1Q3T3, right heart strain (sensitivity for PE is low, but can help rule out MI or arrhythmia)\n- Bedside ultrasound (if available):\n  - Lower limb compression US for DVT (sensitivity ~90%, specificity ~95% for proximal DVT)\n  - Cardiac POCUS: RV dilation, McConnell's sign (specific but not sensitive for PE)\n  - Lung US: rule out pneumothorax (lung sliding), consolidation, pleural effusion\n- Chest X-ray: often normal in PE, but can rule out other causes (pneumothorax, pneumonia)\n\n**Diagnostic Performance Data:**\n- Wells score and Geneva score: clinical prediction rules for PE (not validated in post-op patients, but can guide pretest probability)\n- D-dimer: high sensitivity (>95%) but low specificity; not useful post-op due to false positives\n- ECG: S1Q3T3 pattern is specific but not sensitive (seen in <20% of PE)\n- Bedside US for DVT: sensitivity ~90%, specificity ~95% for proximal DVT\n- POCUS for RV strain: specific but not sensitive for PE\n\n**Summary:**\n- Focus on rapid assessment for PE, but rule out other life-threatening causes (MI, pneumothorax, pneumonia)\n- Key bedside tests: ECG, CXR, POCUS (if available), lower limb US\n- Immediate management may be needed if patient is unstable (empiric anticoagulation, call for help)\n\nReferences:\n- Kearon C, et al. Diagnosis of Pulmonary Embolism. Chest. 2016.\n- Konstantinides SV, et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism. Eur Heart J. 2020."
+ },
+ "variant": "base"
+}

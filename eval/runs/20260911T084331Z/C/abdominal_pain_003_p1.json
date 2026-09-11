@@ -1,0 +1,380 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "abdominal_pain_003",
+ "blocked_items": [],
+ "case_id": "abdominal_pain_003_p1",
+ "created_at": "2026-09-11T09:06:35+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "5.2",
+    "79"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": null,
+   "text": "For a 79-year-old man with a known 5.2 cm abdominal aortic aneurysm (AAA) presenting with sudden severe diffuse abdominal pain, your primary concern is possible AAA rupture or impending rupture. Here\u2019s how to approach:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, character, and radiation of pain (e.g., back, flank, groin)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: syncope, dizziness, nausea, vomiting, diaphoresis"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent trauma or exertion"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past medical history: hypertension, vascular disease, prior AAA symptoms"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medications (especially anticoagulants)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Family history of aneurysms"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General appearance: distress, pallor, diaphoresis"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: repeat HR, BP, RR, O2 sat (look for hypotension, tachycardia)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdominal exam:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "68",
+    "75"
+   ],
+   "performance_claims": [
+    "68",
+    "75"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "Palpate for tenderness, pulsatile mass (sensitivity ~68%, specificity ~75% for palpable mass in ruptured AAA)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Peritoneal signs (guarding, rebound)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdominal distension"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Peripheral pulses: femoral, popliteal, pedal (diminished pulses may suggest distal embolization)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Lower limb neurovascular exam (look for ischemia)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Rectal exam: gross blood (rule out GI bleed)"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focused bedside ultrasound (FAST or AAA protocol):"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "95"
+   ],
+   "performance_claims": [
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Sensitivity for detecting AAA: >95%"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Sensitivity for rupture (free fluid): lower, but can detect hemoperitoneum"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Can rapidly confirm AAA size and presence of free fluid"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: rule out cardiac ischemia as a cause of pain"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose: rule out hypoglycemia as a cause of altered mental status"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "IV access, bloods: CBC, crossmatch, coagulation, renal function, lactate"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "68",
+    "75"
+   ],
+   "performance_claims": [
+    "68",
+    "75"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Palpable abdominal mass: sensitivity ~68%, specificity ~75% for ruptured AAA (JAMA Rational Clinical Exam)"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [
+    "95"
+   ],
+   "performance_claims": [
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside ultrasound: sensitivity >95% for AAA, but lower for rupture itself (depends on presence of free fluid)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "50"
+   ],
+   "performance_claims": [
+    "50"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Classic triad (pain, hypotension, pulsatile mass): present in only ~50% of ruptured AAA cases"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "High suspicion for rupture despite normal BP (may be pre-shock)"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Immediate bedside ultrasound is key"
+  },
+  {
+   "bedside": false,
+   "category": "consult",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Serial vital signs and rapid surgical consult if rupture suspected"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "2005"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "references",
+   "text": "JAMA Rational Clinical Exam: \"Does This Patient Have Abdominal Aortic Aneurysm?\" (2005)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "9"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "references",
+   "text": "Tintinalli\u2019s Emergency Medicine, 9th Edition"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "references",
+   "text": "UpToDate: \"Clinical manifestations and diagnosis of abdominal aortic aneurysm\""
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "For a 79-year-old man with a known 5.2 cm abdominal aortic aneurysm (AAA) presenting with sudden severe diffuse abdominal pain, your primary concern is possible AAA rupture or impending rupture. Here\u2019s how to approach:\n\n**History:**\n- Onset, character, and radiation of pain (e.g., back, flank, groin)\n- Associated symptoms: syncope, dizziness, nausea, vomiting, diaphoresis\n- Recent trauma or exertion\n- Past medical history: hypertension, vascular disease, prior AAA symptoms\n- Medications (especially anticoagulants)\n- Family history of aneurysms\n\n**Physical Examination:**\n- General appearance: distress, pallor, diaphoresis\n- Vital signs: repeat HR, BP, RR, O2 sat (look for hypotension, tachycardia)\n- Abdominal exam:\n  - Palpate for tenderness, pulsatile mass (sensitivity ~68%, specificity ~75% for palpable mass in ruptured AAA)\n  - Peritoneal signs (guarding, rebound)\n  - Abdominal distension\n- Peripheral pulses: femoral, popliteal, pedal (diminished pulses may suggest distal embolization)\n- Lower limb neurovascular exam (look for ischemia)\n- Rectal exam: gross blood (rule out GI bleed)\n\n**Bedside Tests:**\n- **Focused bedside ultrasound (FAST or AAA protocol):**\n  - Sensitivity for detecting AAA: >95%\n  - Sensitivity for rupture (free fluid): lower, but can detect hemoperitoneum\n  - Can rapidly confirm AAA size and presence of free fluid\n- **ECG:** rule out cardiac ischemia as a cause of pain\n- **Bedside glucose:** rule out hypoglycemia as a cause of altered mental status\n- **IV access, bloods:** CBC, crossmatch, coagulation, renal function, lactate\n\n**Diagnostic Performance Data:**\n- Palpable abdominal mass: sensitivity ~68%, specificity ~75% for ruptured AAA (JAMA Rational Clinical Exam)\n- Bedside ultrasound: sensitivity >95% for AAA, but lower for rupture itself (depends on presence of free fluid)\n- Classic triad (pain, hypotension, pulsatile mass): present in only ~50% of ruptured AAA cases\n\n**Summary:**\n- High suspicion for rupture despite normal BP (may be pre-shock)\n- Immediate bedside ultrasound is key\n- Serial vital signs and rapid surgical consult if rupture suspected\n\nReferences:\n- JAMA Rational Clinical Exam: \"Does This Patient Have Abdominal Aortic Aneurysm?\" (2005)\n- Tintinalli\u2019s Emergency Medicine, 9th Edition\n- UpToDate: \"Clinical manifestations and diagnosis of abdominal aortic aneurysm\""
+ },
+ "variant": "p1"
+}

@@ -1,0 +1,463 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "hypotension_003",
+ "blocked_items": [],
+ "case_id": "hypotension_003_n1",
+ "created_at": "2026-09-11T09:13:46+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and progression of shortness of breath"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Chest pain (pleuritic, pressure, or none)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Cough, hemoptysis"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Fever, chills, rigors"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Orthopnea, paroxysmal nocturnal dyspnea"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Leg swelling or pain (DVT symptoms)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent procedures, lines, or infections"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Cancer history: sites of metastasis, recent treatments"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medications, allergies"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Baseline functional status"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: Level of distress, mental status (shock can cause confusion)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vitals: Confirm hypotension, tachycardia, hypoxia"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Skin: Mottling, diaphoresis, cyanosis, capillary refill"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neck: Jugular venous distension (JVD) (suggests tamponade or right heart failure)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Heart: Muffled heart sounds (tamponade), tachycardia, new murmurs"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Lungs: Crackles (pulmonary edema), decreased breath sounds (effusion, pneumothorax), wheezing"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdomen: Hepatomegaly, ascites"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Extremities: Edema, DVT signs, pulses"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: Look for tachycardia, electrical alternans (tamponade), right heart strain (PE)"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside ultrasound (POCUS):"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Cardiac: Pericardial effusion, right ventricular dilation (PE), poor contractility"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Lungs: B-lines (pulmonary edema), pleural effusion, pneumothorax"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "IVC: Collapsibility (volume status)"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Portable chest X-ray: Effusion, edema, pneumonia, pneumothorax"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Capillary blood glucose: Rule out hypoglycemia as a cause of altered mental status"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Arterial blood gas (ABG): Assess hypoxia, acidosis"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside lactate: Marker of shock"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "50",
+    "80"
+   ],
+   "performance_claims": [
+    "50",
+    "80"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "JVD: Sensitivity ~50%, specificity ~80% for tamponade (variable)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "30"
+   ],
+   "performance_claims": [
+    "30"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Beck\u2019s triad (hypotension, JVD, muffled heart sounds): Present in <30% of tamponade cases"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [
+    "90"
+   ],
+   "performance_claims": [
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside echo for tamponade: Sensitivity >90%, specificity >90% for pericardial effusion with tamponade physiology"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [
+    "60",
+    "90"
+   ],
+   "performance_claims": [
+    "60",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "POCUS for PE (RV strain): Sensitivity ~60%, specificity ~90% for massive PE"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [
+    "85",
+    "90"
+   ],
+   "performance_claims": [
+    "85",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "B-lines on lung ultrasound: Sensitivity ~85%, specificity ~90% for pulmonary edema"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on rapid assessment for shock and respiratory failure"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside echo is the highest-yield test for tamponade and PE"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Early recognition and intervention are critical\u2014call for help, prepare for advanced support (fluids, pressors, pericardiocentesis if tamponade)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "9"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Tintinalli\u2019s Emergency Medicine, 9th Edition"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [
+    "2011"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Moore CL, Copel JA. Point-of-care ultrasonography. N Engl J Med. 2011"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Roy CL et al."
+   ],
+   "numeric_claims": [
+    "2007"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Roy CL et al. Does this patient with a pericardial effusion have cardiac tamponade? JAMA. 2007"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "2018"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ACEP Clinical Policy: Critical Issues in the Evaluation and Management of Adult Patients Presenting to the Emergency Department with Suspected Pulmonary Embolism. Ann Emerg Med. 2018"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "If you need a focused algorithm or further details, let me know!"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 70-year-old woman with metastatic breast cancer, acute shortness of breath, hypotension, tachycardia, and hypoxia\u2014the clinical concern is for a life-threatening cause of shock and respiratory distress. The most urgent possibilities include pulmonary embolism, cardiac tamponade (especially with malignancy), sepsis, or acute heart failure. Here\u2019s how to approach her:\n\n**History:**\n- Onset, duration, and progression of shortness of breath\n- Chest pain (pleuritic, pressure, or none)\n- Cough, hemoptysis\n- Fever, chills, rigors\n- Orthopnea, paroxysmal nocturnal dyspnea\n- Leg swelling or pain (DVT symptoms)\n- Recent procedures, lines, or infections\n- Cancer history: sites of metastasis, recent treatments\n- Medications, allergies\n- Baseline functional status\n\n**Physical Examination:**\n- General: Level of distress, mental status (shock can cause confusion)\n- Vitals: Confirm hypotension, tachycardia, hypoxia\n- Skin: Mottling, diaphoresis, cyanosis, capillary refill\n- Neck: Jugular venous distension (JVD) (suggests tamponade or right heart failure)\n- Heart: Muffled heart sounds (tamponade), tachycardia, new murmurs\n- Lungs: Crackles (pulmonary edema), decreased breath sounds (effusion, pneumothorax), wheezing\n- Abdomen: Hepatomegaly, ascites\n- Extremities: Edema, DVT signs, pulses\n\n**Bedside Tests:**\n- **ECG:** Look for tachycardia, electrical alternans (tamponade), right heart strain (PE)\n- **Bedside ultrasound (POCUS):**\n  - Cardiac: Pericardial effusion, right ventricular dilation (PE), poor contractility\n  - Lungs: B-lines (pulmonary edema), pleural effusion, pneumothorax\n  - IVC: Collapsibility (volume status)\n- **Portable chest X-ray:** Effusion, edema, pneumonia, pneumothorax\n- **Capillary blood glucose:** Rule out hypoglycemia as a cause of altered mental status\n- **Arterial blood gas (ABG):** Assess hypoxia, acidosis\n- **Bedside lactate:** Marker of shock\n\n**Diagnostic Performance Data:**\n- **JVD:** Sensitivity ~50%, specificity ~80% for tamponade (variable)\n- **Beck\u2019s triad (hypotension, JVD, muffled heart sounds):** Present in <30% of tamponade cases\n- **Bedside echo for tamponade:** Sensitivity >90%, specificity >90% for pericardial effusion with tamponade physiology\n- **POCUS for PE (RV strain):** Sensitivity ~60%, specificity ~90% for massive PE\n- **B-lines on lung ultrasound:** Sensitivity ~85%, specificity ~90% for pulmonary edema\n\n**Summary:**\n- Focus on rapid assessment for shock and respiratory failure.\n- Bedside echo is the highest-yield test for tamponade and PE.\n- Early recognition and intervention are critical\u2014call for help, prepare for advanced support (fluids, pressors, pericardiocentesis if tamponade).\n\n**References:**\n- Tintinalli\u2019s Emergency Medicine, 9th Edition\n- Moore CL, Copel JA. Point-of-care ultrasonography. N Engl J Med. 2011\n- Roy CL et al. Does this patient with a pericardial effusion have cardiac tamponade? JAMA. 2007\n- ACEP Clinical Policy: Critical Issues in the Evaluation and Management of Adult Patients Presenting to the Emergency Department with Suspected Pulmonary Embolism. Ann Emerg Med. 2018\n\nIf you need a focused algorithm or further details, let me know!"
+ },
+ "variant": "n1"
+}

@@ -1,0 +1,955 @@
+{
+ "arm": "A",
+ "ask_first": true,
+ "base_case_id": "ams_003",
+ "blocked_items": [],
+ "case_id": "ams_003_p1",
+ "created_at": "2026-09-11T09:30:36+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "72"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_deliriogenic_medication_review",
+   "section": "ask",
+   "text": "Deliriogenic medication review: anticholinergics, benzodiazepines, opioids, new/changed drugs, thiazides"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "24",
+    "72"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_hypoglycemia_symptoms_insulin",
+   "section": "ask",
+   "text": "Hypoglycemia history: insulin/sulfonylurea use, missed meals, adrenergic or neuroglycopenic symptoms"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Coburn B, Morris AM, Tomlinson G, Detsky AS. Does this adult patient with suspected bacteremia require blood cultures? JAMA. 2012;308(5):502-511.",
+    "Tokuda Y, Miyasato H, Stein GH, Kishaba T. The degree of chills for risk of bacteremia in acute febrile illness. Am J Med. 2005;118(12):1417."
+   ],
+   "numeric_claims": [
+    "0.076",
+    "0.11",
+    "0.24",
+    "0.51",
+    "0.744",
+    "0.875",
+    "0.892",
+    "0.9",
+    "0.903",
+    "0.915",
+    "0.945",
+    "10.1001",
+    "10.1016",
+    "118",
+    "12",
+    "1417",
+    "16378800",
+    "2.95",
+    "2005",
+    "2005.06",
+    "2012",
+    "2012.8262",
+    "22851117",
+    "25",
+    "3",
+    "308",
+    "35",
+    "4.65",
+    "4.7",
+    "40",
+    "43",
+    "4566",
+    "5",
+    "502",
+    "511",
+    "526",
+    "6.86",
+    "7.2",
+    "7.6",
+    "74.4",
+    "87.5",
+    "89.2",
+    "90.3",
+    "91.5",
+    "94.5",
+    "946",
+    "95"
+   ],
+   "performance_claims": [
+    "0.11",
+    "0.24",
+    "0.51",
+    "0.744",
+    "0.875",
+    "0.892",
+    "0.903",
+    "0.915",
+    "0.945",
+    "2.95",
+    "3",
+    "4.65",
+    "4.7",
+    "6.86",
+    "7.2"
+   ],
+   "record_id": "hx_rigors_shaking_chills",
+   "section": "ask",
+   "text": "Rigors / shaking chills"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Bent S, Nallamothu BK, Simel DL, Fihn SD, Saint S. Does this woman have an acute uncomplicated urinary tract infection? JAMA. 2002;287(20):2701-2710."
+   ],
+   "numeric_claims": [
+    "0.2",
+    "0.3",
+    "0.5",
+    "0.7",
+    "1.1",
+    "1.2",
+    "1.5",
+    "1.8",
+    "10.1001",
+    "12020306",
+    "2",
+    "20",
+    "2002",
+    "24.6",
+    "2701",
+    "2710",
+    "287",
+    "287.2",
+    "3",
+    "9",
+    "90",
+    "95"
+   ],
+   "performance_claims": [
+    "0.3",
+    "0.5",
+    "0.7",
+    "1.1",
+    "1.2",
+    "1.5",
+    "1.8",
+    "2",
+    "24.6",
+    "3"
+   ],
+   "record_id": "hx_dysuria_frequency",
+   "section": "ask",
+   "text": "Dysuria and urinary frequency/urgency (new)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Shi Q, Warren L, Saposnik G, Macdermid JC. Confusion assessment method: a systematic review and meta-analysis of diagnostic accuracy. Neuropsychiatr Dis Treat 2013;9:1359-1370.",
+    "Wong CL, Holroyd-Leduc J, Simel DL, Straus SE. Does this patient have delirium?: value of bedside instruments. JAMA 2010;304:779-786."
+   ],
+   "numeric_claims": [
+    "0.09",
+    "0.16",
+    "0.29",
+    "0.69",
+    "0.82",
+    "0.87",
+    "0.91",
+    "0.99",
+    "1",
+    "10",
+    "10.1001",
+    "10.2147",
+    "100",
+    "1359",
+    "1370",
+    "16",
+    "2",
+    "2010",
+    "2010.1182",
+    "2013",
+    "20716741",
+    "22",
+    "24092976",
+    "2442",
+    "25",
+    "3",
+    "3027",
+    "304",
+    "4",
+    "49520",
+    "5",
+    "5.8",
+    "69",
+    "779",
+    "786",
+    "82",
+    "87",
+    "9",
+    "9.6",
+    "91",
+    "95",
+    "99"
+   ],
+   "performance_claims": [
+    "0.09",
+    "0.16",
+    "0.29",
+    "0.69",
+    "0.82",
+    "0.87",
+    "0.91",
+    "0.99",
+    "1",
+    "16",
+    "5.8",
+    "9.6"
+   ],
+   "record_id": "exam_cam_delirium_screen",
+   "section": "examine",
+   "text": "Confusion Assessment Method (CAM) delirium screen"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Goldstein LB, Simel DL. Is this patient having a stroke? JAMA. 2005;293(19):2391-2402.",
+    "Kothari RU, Pancioli A, Liu T, Brott T, Broderick J. Cincinnati Prehospital Stroke Scale: reproducibility and validity. Ann Emerg Med. 1999;33(4):373-378."
+   ],
+   "numeric_claims": [
+    "0",
+    "0.1",
+    "0.25",
+    "0.29",
+    "0.39",
+    "0.4",
+    "0.61",
+    "0.66",
+    "0.87",
+    "0.88",
+    "1",
+    "10",
+    "10.1001",
+    "10.1016",
+    "10092713",
+    "15900010",
+    "171",
+    "19",
+    "196",
+    "1999",
+    "2005",
+    "2391",
+    "2402",
+    "293",
+    "293.19",
+    "3",
+    "3.3",
+    "33",
+    "373",
+    "378",
+    "4",
+    "49",
+    "5.08",
+    "5.5",
+    "644",
+    "66",
+    "70299",
+    "87",
+    "88",
+    "9.1",
+    "95",
+    "99"
+   ],
+   "performance_claims": [
+    "0.25",
+    "0.39",
+    "0.39",
+    "0.61",
+    "0.66",
+    "0.87",
+    "0.88",
+    "3.3",
+    "5.08",
+    "5.5",
+    "9.1"
+   ],
+   "record_id": "exam_face_arm_speech_cpss",
+   "section": "examine",
+   "text": "Facial droop, arm drift, abnormal speech (Cincinnati/FAST screen)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "1",
+    "2",
+    "90"
+   ],
+   "performance_claims": [],
+   "record_id": "exam_accessory_muscle_use",
+   "section": "examine",
+   "text": "Work of breathing: accessory muscle use, tripoding, pursed-lip breathing, inability to speak full sentences"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": "exam_infection_source_survey",
+   "section": "examine",
+   "text": "Focused infection-source exam (line/exit sites, skin, abdomen, joints, sacrum, urine catheter)"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "candidates": [
+   "exam_cam_delirium_screen",
+   "fn_attention_months_backward",
+   "exam_pupils_eye_movements_toxidrome",
+   "exam_asterixis",
+   "exam_face_arm_speech_cpss",
+   "exam_focal_neuro_deficit_screen",
+   "hx_hypoglycemia_symptoms_insulin",
+   "exam_accessory_muscle_use",
+   "exam_bladder_percussion_palpable",
+   "fn_gait_stand_unaided",
+   "hx_dysuria_frequency",
+   "exam_infection_source_survey",
+   "exam_orthostatic_vitals",
+   "exam_subtle_motor_signs_ncse",
+   "hx_deliriogenic_medication_review",
+   "hx_hypotensive_medication_review",
+   "hx_rigors_shaking_chills",
+   "exam_tachypnea_rr_gt24",
+   "hx_alcohol_use_withdrawal_timing",
+   "exam_anaphylaxis_signs",
+   "exam_focal_neuro_deficit_with_chest_pain",
+   "exam_forehead_sparing_facial_weakness",
+   "exam_pulse_irregularly_irregular",
+   "hx_dizziness_timing_triggers",
+   "hx_nephrotoxin_contrast_exposure",
+   "exam_peripheral_edema_pitting",
+   "exam_sensory_level_upper_motor_neuron_signs",
+   "hx_edema_causing_medications"
+  ],
+  "card": {
+   "ask_first": [
+    "onset and progression of confusion",
+    "associated symptoms (fever, cough, pain, focal deficits)",
+    "recent medication or substance changes"
+   ],
+   "chief_complaint": "not himself",
+   "presentation": "ams",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_deliriogenic_medication_review",
+      "changes_what": "Positive: stop or taper the culprit and check sodium; the review is additive to, not a replacement for, the infectious/metabolic delirium workup.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not delay sepsis, hypoglycemia or stroke evaluation while the medication list is being reconciled.",
+      "escalation_warning": "Abrupt benzodiazepine or opioid withdrawal can itself cause delirium, seizures or severe pain; taper rather than stop in chronic users.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Reconcile every current drug (including OTC, PRN and recently stopped) against the admission list and the last 72 h MAR. Flag anticholinergics, benzodiazepines/Z-drugs, opioids, dihydropyridines, antihistamines, steroids, any drug added or dose-changed in the past week, and diuretics/thiazides (sodium).",
+      "id": "hx_deliriogenic_medication_review",
+      "negative_finding": "No culprit drug identified does not exclude delirium or medication effect; look for infection, metabolic and structural causes.",
+      "pitfalls": "Risk data are relative risks/odds ratios from cohort studies, not diagnostic sensitivity or specificity, so no LR can be assigned. Untreated severe pain also precipitates delirium, so opioids should be tapered rather than abruptly withdrawn.",
+      "positive_finding": "One or more deliriogenic drugs or a recent addition/dose change temporally preceding the mental-status change. More than three drugs added during admission roughly triples delirium risk in older inpatients.",
+      "prerequisites": "Reliable medication history from chart, pharmacy record or family; time of each new start or dose change.",
+      "rationale": "Medication changes or new deliriogenic drugs are a common and reversible cause of acute confusion in elderly patients.",
+      "skill_assumption": null,
+      "title": "Deliriogenic medication review: anticholinergics, benzodiazepines, opioids, new/changed drugs, thiazides",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_hypoglycemia_symptoms_insulin",
+      "changes_what": "Positive: fingerstick now, treat, and observe for recurrence (sulfonylurea/renal failure -> admit); negative: keep glucose check but move to cardiac/neurologic causes of the spell.",
+      "contraindications": "None; the history must never delay a point-of-care glucose in any patient with altered mental status, syncope or focal deficit.",
+      "do_not_use_when": "Never rely on symptom history alone in an obtunded, post-ictal or focally weak patient - measure glucose immediately.",
+      "escalation_warning": "Hypoglycemia with sulfonylurea, insulin overdose, renal failure or alcohol needs monitored admission and repeated glucose; persistent deficit after glucose correction is a stroke workup.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Ask specifically about insulin or sulfonylurea use (drug, dose, timing of last dose), missed or delayed meals, alcohol, recent renal or hepatic decline, and prodromal autonomic symptoms (sweating, tremor, palpitations, hunger) or neuroglycopenic symptoms (confusion, drowsiness, difficulty speaking, weakness). Confirm with a fingerstick glucose at the time of symptoms.",
+      "id": "hx_hypoglycemia_symptoms_insulin",
+      "negative_finding": "No exposure to insulin or secretagogues and no critical illness, cortisol/hormone deficiency or alcohol makes drug-induced hypoglycemia unlikely, but a measured glucose is still required because neuroglycopenia can present without warning symptoms.",
+      "pitfalls": "Long-standing diabetes and beta-blockers blunt autonomic warning symptoms so neuroglycopenic presentation (confusion, focal deficit) may be the only clue; sulfonylurea hypoglycemia recurs for 24-72 h so a single corrected glucose is not the end of the episode.",
+      "positive_finding": "Insulin/secretagogue exposure plus a missed meal, alcohol or renal impairment and autonomic or neuroglycopenic prodrome makes hypoglycemia likely; Whipple's triad (symptoms, documented low glucose, resolution with glucose) confirms it.",
+      "prerequisites": "A collateral history when the patient is confused; the medication list including recently added sulfonylureas, insulin dose changes, or drugs that potentiate them.",
+      "rationale": "Identifying hypoglycemia risk factors or symptoms prompts immediate glucose testing and treatment, which can rapidly reverse altered mental status.",
+      "skill_assumption": null,
+      "title": "Hypoglycemia history: insulin/sulfonylurea use, missed meals, adrenergic or neuroglycopenic symptoms",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_rigors_shaking_chills",
+      "changes_what": "Shaking chills should prompt blood cultures and a search for a bacteremic source (line, biliary, urinary, endovascular); no chills supports withholding cultures when pretest probability is low.",
+      "contraindications": "None.",
+      "do_not_use_when": "The RCE conclusions do not apply to immunocompromised patients or when endocarditis is suspected; in those groups obtain cultures regardless of chills.",
+      "escalation_warning": "Rigors with hypotension, altered mentation or a central line indicate probable bacteremia/sepsis: cultures, source control and antibiotics within the hour.",
+      "evidence": [
+       {
+        "citation": "Coburn B, Morris AM, Tomlinson G, Detsky AS. Does this adult patient with suspected bacteremia require blood cultures? JAMA. 2012;308(5):502-511.",
+        "computed": false,
+        "doi": "10.1001/jama.2012.8262",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "7.2",
+         "ci_low": "3",
+         "value": "4.7"
+        },
+        "pmid": "22851117",
+        "population": "Adult immunocompetent patients in whom bacteremia was suspected (35 studies; 4566 bacteremia and 25,946 negative episodes)",
+        "prevalence": null,
+        "quote": "The severity of chills graded on an ordinal scale (shaking chills, LR, 4.7; 95% CI, 3.0-7.2) may be more useful.",
+        "reference_standard": "Blood cultures",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Bacteremia (true-positive blood culture)",
+        "url": null,
+        "year": "2012"
+       },
+       {
+        "citation": "Tokuda Y, Miyasato H, Stein GH, Kishaba T. The degree of chills for risk of bacteremia in acute febrile illness. Am J Med. 2005;118(12):1417.",
+        "computed": false,
+        "doi": "10.1016/j.amjmed.2005.06.043",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "6.86",
+         "ci_low": "2.95",
+         "value": "4.65"
+        },
+        "pmid": "16378800",
+        "population": "526 consecutive adults with acute febrile illness (40, 7.6%, bacteremic)",
+        "prevalence": "0.076",
+        "quote": "Shaking chills showed a specificity of 90.3% (95% CI 89.2-91.5) and positive likelihood ratio of 4.65 (95% CI 2.95-6.86).",
+        "reference_standard": "Blood cultures",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": {
+         "ci_high": "0.915",
+         "ci_low": "0.892",
+         "value": "0.903"
+        },
+        "target_condition": "Bacteremia - finding: shaking chills (whole-body shaking under a thick blanket)",
+        "url": null,
+        "year": "2005"
+       },
+       {
+        "citation": "Tokuda Y, Miyasato H, Stein GH, Kishaba T. The degree of chills for risk of bacteremia in acute febrile illness. Am J Med. 2005;118(12):1417.",
+        "computed": false,
+        "doi": "10.1016/j.amjmed.2005.06.043",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_out",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.51",
+         "ci_low": "0.11",
+         "value": "0.24"
+        },
+        "lr_positive": null,
+        "pmid": "16378800",
+        "population": "526 consecutive adults with acute febrile illness (40, 7.6%, bacteremic)",
+        "prevalence": "0.076",
+        "quote": "The absence of chills showed a sensitivity of 87.5% (95% CI 74.4-94.5) and negative likelihood ratio of 0.24 (95% CI 0.11-0.51).",
+        "reference_standard": "Blood cultures",
+        "sensitivity": {
+         "ci_high": "0.945",
+         "ci_low": "0.744",
+         "value": "0.875"
+        },
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Bacteremia - finding: any chills (sensitivity and LR- refer to absence of chills)",
+        "url": null,
+        "year": "2005"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Ask the patient (or witnesses) whether they have had chills and grade the worst episode: mild = feeling cold, needing a jacket; moderate = needing a thick blanket; shaking chills = whole-body shaking even under a thick blanket. Record timing relative to fever and any line, procedure or infusion.",
+      "id": "hx_rigors_shaking_chills",
+      "negative_finding": "Absence of any chills lowers the probability of bacteremia (LR- 0.24) but does not exclude it, particularly in elderly or immunocompromised patients who may not mount rigors.",
+      "pitfalls": "Rigors also occur with malaria, transfusion or drug reactions, and after amphotericin or contaminated infusions; the grading relies on patient recall and the RCE data exclude immunocompromised patients and suspected endocarditis.",
+      "positive_finding": "Shaking (rigor-grade) chills raise the probability of bacteremia about 4.7-fold (LR+ 4.7, 95% CI 3.0-7.2; specificity 0.90) and justify blood cultures before antibiotics.",
+      "prerequisites": "Patient or witness able to describe the episode; ask before antipyretics blunt recall.",
+      "rationale": "Shaking chills suggest bacteremia and help prioritize infectious workup and cultures in acute delirium.",
+      "skill_assumption": null,
+      "title": "Rigors / shaking chills",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_dysuria_frequency",
+      "changes_what": "Dysuria plus frequency without vaginal symptoms can justify empirical treatment in women; absent or nonspecific symptoms should push toward other causes of fever, AKI or delirium.",
+      "contraindications": "None.",
+      "do_not_use_when": "The LRs apply to non-pregnant women with uncomplicated UTI; do not apply them to men, catheterized patients, or elderly patients with delirium and no new urinary symptoms.",
+      "escalation_warning": "Urinary symptoms with fever, rigors, flank pain, hypotension or AKI indicate pyelonephritis/urosepsis, which needs cultures, antibiotics and assessment for obstruction.",
+      "evidence": [
+       {
+        "citation": "Bent S, Nallamothu BK, Simel DL, Fihn SD, Saint S. Does this woman have an acute uncomplicated urinary tract infection? JAMA. 2002;287(20):2701-2710.",
+        "computed": false,
+        "doi": "10.1001/jama.287.20.2701",
+        "evidence_level": "pooled",
+        "interpretation_label": "minimal",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "2",
+         "ci_low": "1.2",
+         "value": "1.5"
+        },
+        "pmid": "12020306",
+        "population": "Women presenting with one or more symptoms of acute uncomplicated urinary tract infection (9 studies)",
+        "prevalence": "0.5",
+        "quote": "dysuria (summary positive likelihood ratio [LR], 1.5; 95% confidence interval [CI], 1.2-2.0)",
+        "reference_standard": "Urine culture as defined in included studies",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "Acute uncomplicated urinary tract infection - finding: dysuria present",
+        "url": null,
+        "year": "2002"
+       },
+       {
+        "citation": "Bent S, Nallamothu BK, Simel DL, Fihn SD, Saint S. Does this woman have an acute uncomplicated urinary tract infection? JAMA. 2002;287(20):2701-2710.",
+        "computed": false,
+        "doi": "10.1001/jama.287.20.2701",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.7",
+         "ci_low": "0.3",
+         "value": "0.5"
+        },
+        "lr_positive": null,
+        "pmid": "12020306",
+        "population": "Women presenting with one or more symptoms of acute uncomplicated urinary tract infection (9 studies)",
+        "prevalence": "0.5",
+        "quote": "absence of dysuria (summary negative LR, 0.5; 95% CI, 0.3-0.7)",
+        "reference_standard": "Urine culture as defined in included studies",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "Acute uncomplicated urinary tract infection - finding: dysuria absent",
+        "url": null,
+        "year": "2002"
+       },
+       {
+        "citation": "Bent S, Nallamothu BK, Simel DL, Fihn SD, Saint S. Does this woman have an acute uncomplicated urinary tract infection? JAMA. 2002;287(20):2701-2710.",
+        "computed": false,
+        "doi": "10.1001/jama.287.20.2701",
+        "evidence_level": "pooled",
+        "interpretation_label": "minimal",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "3",
+         "ci_low": "1.1",
+         "value": "1.8"
+        },
+        "pmid": "12020306",
+        "population": "Women presenting with one or more symptoms of acute uncomplicated urinary tract infection (9 studies)",
+        "prevalence": "0.5",
+        "quote": "frequency (LR, 1.8; 95% CI, 1.1-3.0)",
+        "reference_standard": "Urine culture as defined in included studies",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "Acute uncomplicated urinary tract infection - finding: frequency present",
+        "url": null,
+        "year": "2002"
+       },
+       {
+        "citation": "Bent S, Nallamothu BK, Simel DL, Fihn SD, Saint S. Does this woman have an acute uncomplicated urinary tract infection? JAMA. 2002;287(20):2701-2710.",
+        "computed": false,
+        "doi": "10.1001/jama.287.20.2701",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "24.6"
+        },
+        "pmid": "12020306",
+        "population": "Women with UTI symptoms in the single included study that examined symptom combinations",
+        "prevalence": "0.5",
+        "quote": "24.6 for the combination of dysuria and frequency but no vaginal discharge or irritation",
+        "reference_standard": "Urine culture as defined in included studies",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "Acute uncomplicated urinary tract infection - combination: dysuria and frequency without vaginal discharge or irritation",
+        "url": null,
+        "year": "2002"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Ask specifically about pain or burning on passing urine, new increase in frequency or urgency, and their onset; then ask about vaginal discharge or irritation, hematuria, flank pain and fever. Establish whether the symptoms are new relative to baseline (important in elderly or catheterized patients).",
+      "id": "hx_dysuria_frequency",
+      "negative_finding": "Absence of dysuria lowers the probability only modestly (LR- 0.5); history alone cannot rule out UTI once one symptom is present.",
+      "pitfalls": "Vaginitis, urethritis and STIs mimic dysuria (vaginal discharge/irritation LR 0.2-0.3 for UTI). In elderly patients asymptomatic bacteriuria is common, and confusion without new genitourinary symptoms should not be attributed to UTI.",
+      "positive_finding": "In women, dysuria (LR+ 1.5) or frequency (LR+ 1.8) each raise UTI probability slightly; dysuria and frequency together without vaginal discharge or irritation raise it strongly (LR 24.6, probability above 90%).",
+      "prerequisites": "Patient able to give a reliable history; in delirium, obtain collateral history of new urinary symptoms.",
+      "rationale": "Urinary symptoms can point toward a urinary tract infection as a precipitant of delirium, especially in elderly patients.",
+      "skill_assumption": null,
+      "title": "Dysuria and urinary frequency/urgency (new)",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/exam_cam_delirium_screen",
+      "changes_what": "Positive: label as delirium and work up precipitants; negative: pursue dementia, depression, psychosis or focal neurology but rescreen if course fluctuates.",
+      "contraindications": "None.",
+      "do_not_use_when": "Not a substitute for glucose, vitals, and focal neurological exam in acute mental-status change; use CAM-ICU in ventilated or non-verbal patients.",
+      "escalation_warning": "A positive CAM with fever, meningism, focal deficit or reduced consciousness needs urgent evaluation for meningitis, stroke or sepsis regardless of screen result.",
+      "evidence": [
+       {
+        "citation": "Wong CL, Holroyd-Leduc J, Simel DL, Straus SE. Does this patient have delirium?: value of bedside instruments. JAMA 2010;304:779-786.",
+        "computed": false,
+        "doi": "10.1001/jama.2010.1182",
+        "evidence_level": "pooled",
+        "interpretation_label": "both",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.29",
+         "ci_low": "0.09",
+         "value": "0.16"
+        },
+        "lr_positive": {
+         "ci_high": "16",
+         "ci_low": "5.8",
+         "value": "9.6"
+        },
+        "pmid": "20716741",
+        "population": "Hospitalized adults, mostly older medical/surgical inpatients, across 25 prospective studies (N=3027)",
+        "prevalence": null,
+        "quote": "the CAM has the best available supportive data as a bedside delirium instrument (summary-positive LR, 9.6; 95% CI, 5.8-16.0; summary-negative LR, 0.16; 95% CI, 0.09-0.29)",
+        "reference_standard": "DSM-based diagnosis by geriatrician, psychiatrist or neurologist",
+        "sensitivity": null,
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Delirium (DSM-based diagnosis)",
+        "url": null,
+        "year": "2010"
+       },
+       {
+        "citation": "Shi Q, Warren L, Saposnik G, Macdermid JC. Confusion assessment method: a systematic review and meta-analysis of diagnostic accuracy. Neuropsychiatr Dis Treat 2013;9:1359-1370.",
+        "computed": false,
+        "doi": "10.2147/NDT.S49520",
+        "evidence_level": "pooled",
+        "interpretation_label": "both",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results; Results text and Figure 2 (bivariate estimate)",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "24092976",
+        "population": "Adults in a variety of medical settings; 22 studies of CAM and CAM-ICU (n=2442)",
+        "prevalence": null,
+        "quote": "The pooled sensitivities and specificity for CAM were 82% (95% confidence interval [CI]: 69%-91%) and 99% (95% CI: 87%-100%)",
+        "reference_standard": "DSM-IV criteria",
+        "sensitivity": {
+         "ci_high": "0.91",
+         "ci_low": "0.69",
+         "value": "0.82"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "1",
+         "ci_low": "0.87",
+         "value": "0.99"
+        },
+        "target_condition": "Delirium (DSM-IV)",
+        "url": null,
+        "year": "2013"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "After a brief cognitive test (e.g. months backwards, digit span) and interview, score four features: (1) acute onset and fluctuating course from an informant/chart, (2) inattention, (3) disorganized thinking, (4) altered level of consciousness. CAM positive = features 1 AND 2 plus either 3 or 4. Takes about 5 minutes.",
+      "id": "exam_cam_delirium_screen",
+      "negative_finding": "Negative CAM lowers the probability substantially (pooled LR- 0.16) but pooled sensitivity is only ~0.82; repeat the screen if fluctuation is suspected.",
+      "pitfalls": "Accuracy falls with untrained raters and without a formal attention test; dementia, aphasia and hypoactive delirium lower sensitivity. The CAM identifies delirium, not its cause.",
+      "positive_finding": "Positive CAM makes delirium roughly 10 times more likely (pooled LR+ 9.6) and should trigger a search for the precipitant (infection, drugs, metabolic, withdrawal).",
+      "prerequisites": "Baseline cognition from a collateral source; trained rater; patient able to respond (use CAM-ICU for intubated/non-verbal patients).",
+      "rationale": "A positive CAM screen confirms delirium and directs the workup toward identifying and treating underlying causes.",
+      "skill_assumption": null,
+      "title": "Confusion Assessment Method (CAM) delirium screen",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_face_arm_speech_cpss",
+      "changes_what": "Positive: activate stroke pathway/immediate imaging and time-critical reperfusion assessment. Negative: lowers probability but still image if dizziness, ataxia or visual symptoms.",
+      "contraindications": "None; if the patient cannot cooperate, observe spontaneous facial symmetry and limb movement instead.",
+      "do_not_use_when": "Do not rely on a negative screen to exclude posterior-circulation stroke in a patient with acute dizziness, ataxia, diplopia or visual field loss; use HINTS/gait assessment and imaging pathways instead.",
+      "escalation_warning": "Any positive item with symptom onset within the reperfusion window is a time-critical emergency; do not delay activation for a glucose result unless hypoglycemia is confirmed and deficits resolve with correction.",
+      "evidence": [
+       {
+        "citation": "Goldstein LB, Simel DL. Is this patient having a stroke? JAMA. 2005;293(19):2391-2402.",
+        "computed": false,
+        "doi": "10.1001/jama.293.19.2391",
+        "evidence_level": "pooled",
+        "interpretation_label": "both",
+        "kind": "rce_series",
+        "location": "Abstract, Data Synthesis (JAMA 2005;293:2391)",
+        "lr_negative": {
+         "ci_high": "0.61",
+         "ci_low": "0.25",
+         "value": "0.39"
+        },
+        "lr_positive": {
+         "ci_high": "9.1",
+         "ci_low": "3.3",
+         "value": "5.5"
+        },
+        "pmid": "15900010",
+        "population": "Pooled studies of patients with suspected stroke evaluated with modern neuroimaging (RCE systematic review)",
+        "prevalence": "0.1",
+        "quote": "LR of > or =1 finding = 5.5; 95% CI, 3.3-9.1 ... LR of 0 findings = 0.39; 95% CI, 0.25-0.61",
+        "reference_standard": "Final diagnosis after neuroimaging and relevant laboratory tests",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Acute stroke (ischemic or hemorrhagic) among patients with neurologically relevant symptoms",
+        "url": null,
+        "year": "2005"
+       },
+       {
+        "citation": "Kothari RU, Pancioli A, Liu T, Brott T, Broderick J. Cincinnati Prehospital Stroke Scale: reproducibility and validity. Ann Emerg Med. 1999;33(4):373-378.",
+        "computed": true,
+        "doi": "10.1016/s0196-0644(99)70299-4",
+        "evidence_level": "single_study",
+        "interpretation_label": "both",
+        "kind": "primary_study",
+        "location": "Abstract, Results (Ann Emerg Med 1999;33:373)",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.39"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "5.08"
+        },
+        "pmid": "10092713",
+        "population": "Convenience sample of 171 ED and neurology inpatients, 49 with stroke/TIA",
+        "prevalence": "0.29",
+        "quote": "abnormality in any 1 of the 3 stroke scale items had a sensitivity of 66% and specificity of 87% in identifying a stroke patient.",
+        "reference_standard": "Discharge diagnosis of stroke or TIA",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.66"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.87"
+        },
+        "target_condition": "Stroke or TIA (any 1 of 3 CPSS items abnormal, scored by physician)",
+        "url": null,
+        "year": "1999"
+       },
+       {
+        "citation": "Kothari RU, Pancioli A, Liu T, Brott T, Broderick J. Cincinnati Prehospital Stroke Scale: reproducibility and validity. Ann Emerg Med. 1999;33(4):373-378.",
+        "computed": false,
+        "doi": "10.1016/s0196-0644(99)70299-4",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_out",
+        "kind": "primary_study",
+        "location": "Abstract, Results (Ann Emerg Med 1999;33:373)",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "10092713",
+        "population": "Same 171-patient convenience sample; subgroup with anterior circulation stroke",
+        "prevalence": null,
+        "quote": "The sensitivity was 88% for identification of patients with anterior circulation strokes.",
+        "reference_standard": "Discharge diagnosis of stroke, anterior circulation",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.88"
+        },
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Anterior circulation stroke (any 1 of 3 CPSS items abnormal)",
+        "url": null,
+        "year": "1999"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Ask the patient to smile or show teeth and look for asymmetric facial movement; have them close eyes and hold both arms out palms-up for 10 seconds, watching for one arm drifting down; ask them to repeat a simple sentence and listen for slurring, wrong words, or inability to speak. Any one abnormal item is a positive screen.",
+      "id": "exam_face_arm_speech_cpss",
+      "negative_finding": "Absence of all three findings lowers but does not exclude stroke (LR about 0.4); posterior-circulation strokes, which often present with dizziness or ataxia, are commonly missed by this screen (Kothari: 66% sensitivity overall vs 88% for anterior circulation).",
+      "pitfalls": "Bell palsy, old deficits, intoxication, hypoglycemia and seizure mimics all produce false positives; isolated vertigo, ataxia, visual field loss and neglect are not captured, so a negative screen must not stop a stroke work-up in a dizzy patient.",
+      "positive_finding": "Any new facial paresis, arm drift, or abnormal speech; in patients with neurologically relevant symptoms this raises the probability of stroke (pooled LR about 5.5).",
+      "prerequisites": "Patient awake enough to follow simple commands; check a fingerstick glucose alongside the screen. Note time last known well.",
+      "rationale": "A positive stroke screen mandates urgent imaging and intervention, as stroke is a time-sensitive cause of acute mental status change.",
+      "skill_assumption": null,
+      "title": "Facial droop, arm drift, abnormal speech (Cincinnati/FAST screen)",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_accessory_muscle_use",
+      "changes_what": "Present: escalate now (continuous monitoring, blood gas, bronchodilator/NIV or airway plan). Absent: do not use to downgrade severity; rely on oximetry, gas and peak flow.",
+      "contraindications": "None; it is observation only. Do not delay oxygen, bronchodilator or airway management to complete the assessment.",
+      "do_not_use_when": "Do not use absence of the sign to withhold escalation in a drowsy, exhausted or silent-chest patient.",
+      "escalation_warning": "Accessory muscle use plus inability to speak, drowsiness, silent chest, bradycardia or SpO2 <90% = life-threatening exacerbation: immediate senior/ICU involvement.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Observe from the doorway before touching the patient: sternocleidomastoid/scalene contraction on inspiration, suprasternal or intercostal retraction, tripod posture, pursed-lip exhalation, and diaphoresis. Ask an open question and note whether the patient can finish a sentence in one breath (sentences vs phrases vs single words).",
+      "id": "exam_accessory_muscle_use",
+      "negative_finding": "Absence of accessory muscle use does not exclude significant airflow limitation or hypercapnia; a tiring or obtunded patient may lose the sign as ventilatory failure develops.",
+      "pitfalls": "Loss of accessory muscle use with rising drowsiness signals fatigue, not improvement. Obesity, a thick neck and supine positioning hide sternocleidomastoid contraction.",
+      "positive_finding": "Visible accessory muscle use, tripoding or speech limited to words/phrases marks a severe exacerbation of airflow obstruction (asthma/COPD) or another cause of high work of breathing, and in admitted asthmatics is associated with a markedly lower %FEV1. Treat it as a severity marker, not as a discriminator between causes.",
+      "prerequisites": "Patient undressed enough to see the neck and chest wall; observe at rest before any intervention if safe to do so.",
+      "rationale": "Signs of increased work of breathing in a COPD patient with AMS may indicate hypercapnia or respiratory failure, requiring immediate intervention.",
+      "skill_assumption": null,
+      "title": "Work of breathing: accessory muscle use, tripoding, pursed-lip breathing, inability to speak full sentences",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_infection_source_survey",
+      "changes_what": "A positive survey targets cultures, imaging and source control (line removal, drainage, debridement); a negative survey mandates blood/urine cultures and imaging rather than reassurance.",
+      "contraindications": "None; do not delay cultures and antibiotics in suspected sepsis while completing the survey.",
+      "do_not_use_when": "Never let a negative source survey withhold cultures, empiric antibiotics or imaging in a hypotensive, febrile or acutely confused patient with suspected infection.",
+      "escalation_warning": "Crepitus, bullae, skin necrosis or pain out of proportion (necrotizing fasciitis), a hot joint, peritonism, or purulence at a central line/dialysis catheter in a septic patient require immediate surgical/source-control and line removal decisions.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Undress and inspect every line, dialysis and drain/exit site (erythema, purulence, tunnel tenderness), all skin including back, sacrum, heels, perineum, injection sites and wounds; palpate abdomen (peritonism, Murphy sign, flank tenderness), joints and spine for warmth/effusion/tenderness; check urinary catheter, mouth, sinuses, ears and chest. Repeat daily while the source is unknown.",
+      "id": "exam_infection_source_survey",
+      "negative_finding": "A normal survey does not exclude an occult source: insertion-site inflammation is absent in nearly all catheter-related bloodstream infections, and intra-abdominal, urinary, endovascular and spinal infections are frequently silent in elderly, immunosuppressed or sedated patients.",
+      "pitfalls": "Line-site appearance has near-zero sensitivity for CRBSI (coagulase-negative staphylococci cause little inflammation); steroids, neutropenia and neuropathy blunt local signs; dressings, obesity and immobility hide sacral, perineal and injection-site infections. Pain out of proportion with unimpressive skin findings suggests necrotizing infection.",
+      "positive_finding": "Purulence, spreading erythema or tunnel tenderness at a line/exit site, cellulitis or crepitus, a hot swollen joint, peritonism or flank tenderness, or a sacral/heel ulcer with surrounding infection identifies a probable source and directs cultures, source control and empiric therapy.",
+      "prerequisites": "Full exposure with dressings taken down, adequate lighting and analgesia; review lines, catheters and devices with their insertion dates; log-roll immobile patients to view the sacrum.",
+      "rationale": "A focused infection source exam can quickly identify treatable sources of infection contributing to delirium.",
+      "skill_assumption": null,
+      "title": "Focused infection-source exam (line/exit sites, skin, abdomen, joints, sacrum, urine catheter)",
+      "type": "exam"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_deliriogenic_medication_review",
+     "rationale": "Medication changes or new deliriogenic drugs are a common and reversible cause of acute confusion in elderly patients."
+    },
+    {
+     "id": "hx_hypoglycemia_symptoms_insulin",
+     "rationale": "Identifying hypoglycemia risk factors or symptoms prompts immediate glucose testing and treatment, which can rapidly reverse altered mental status."
+    },
+    {
+     "id": "hx_rigors_shaking_chills",
+     "rationale": "Shaking chills suggest bacteremia and help prioritize infectious workup and cultures in acute delirium."
+    },
+    {
+     "id": "hx_dysuria_frequency",
+     "rationale": "Urinary symptoms can point toward a urinary tract infection as a precipitant of delirium, especially in elderly patients."
+    }
+   ],
+   "examine": [
+    {
+     "id": "exam_cam_delirium_screen",
+     "rationale": "A positive CAM screen confirms delirium and directs the workup toward identifying and treating underlying causes."
+    },
+    {
+     "id": "exam_face_arm_speech_cpss",
+     "rationale": "A positive stroke screen mandates urgent imaging and intervention, as stroke is a time-sensitive cause of acute mental status change."
+    },
+    {
+     "id": "exam_accessory_muscle_use",
+     "rationale": "Signs of increased work of breathing in a COPD patient with AMS may indicate hypercapnia or respiratory failure, requiring immediate intervention."
+    },
+    {
+     "id": "exam_infection_source_survey",
+     "rationale": "A focused infection source exam can quickly identify treatable sources of infection contributing to delirium."
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "not himself",
+   "differentials": [
+    {
+     "dx": "delirium_infectious",
+     "weight": 1.0
+    },
+    {
+     "dx": "hypercapnia",
+     "weight": 1.0
+    },
+    {
+     "dx": "hypoglycemia",
+     "weight": 0.75
+    },
+    {
+     "dx": "medication_effect",
+     "weight": 0.75
+    },
+    {
+     "dx": "stroke",
+     "weight": 0.75
+    },
+    {
+     "dx": "uremia",
+     "weight": 0.75
+    }
+   ],
+   "indication_tags": [
+    "elderly",
+    "copd_known",
+    "acute_onset"
+   ],
+   "missing_features": [
+    "onset and progression of confusion",
+    "associated symptoms (fever, cough, pain, focal deficits)",
+    "recent medication or substance changes"
+   ],
+   "modifiers": [],
+   "presentation": "ams",
+   "time_course": "acute",
+   "underspecified": true
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "p1"
+}

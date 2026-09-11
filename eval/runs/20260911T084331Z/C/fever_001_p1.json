@@ -1,0 +1,381 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "fever_001",
+ "blocked_items": [],
+ "case_id": "fever_001_p1",
+ "created_at": "2026-09-11T09:12:12+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Review surgical details: intraoperative complications, blood loss, duration, and antibiotic prophylaxis"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Ask about:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "New or worsening pain (incisional, abdominal, chest, back)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Nausea, vomiting, abdominal distension, bowel movements/flatus"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Urinary symptoms (dysuria, urgency, hematuria)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Respiratory symptoms (increased cough, sputum, dyspnea, chest pain)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Leg swelling or pain (DVT)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication/allergy history (drug fever)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: fever pattern, tachycardia, hypotension, tachypnea, hypoxia"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: appearance, mental status"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Lungs: auscultate for crackles, decreased breath sounds, egophony (pneumonia)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Heart: murmurs, new arrhythmias"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdomen: inspect incision, palpate for tenderness, distension, peritonitis, bowel sounds"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Surgical site: erythema, induration, drainage"
+  },
+  {
+   "bedside": false,
+   "category": "disposition",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Foley site: erythema, discharge"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Extremities: calf tenderness, swelling, Homan's sign (low sensitivity/specificity for DVT)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urinalysis (UA) and urine culture: for UTI (Foley increases risk"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "sensitivity/specificity of UA for UTI in catheterized patients is lower, but pyuria and bacteriuria are suggestive)"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [
+    "70",
+    "80",
+    "90"
+   ],
+   "performance_claims": [
+    "70",
+    "80",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Chest X-ray: for pneumonia/atelectasis (sensitivity for pneumonia ~70-80%, specificity ~90%)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Blood cultures: if febrile, especially if hemodynamically unstable"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "CBC with differential: leukocytosis may suggest infection"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Wound swab/culture if drainage present"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [
+    "95",
+    "98"
+   ],
+   "performance_claims": [
+    "95",
+    "98"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside ultrasound: if concern for intra-abdominal collection or DVT (compression US for DVT: sensitivity ~95%, specificity ~98% for proximal DVT)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Post-op fever on POD2 is most commonly due to atelectasis, but infection (UTI, pneumonia, wound infection) must be ruled out"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "60",
+    "90"
+   ],
+   "performance_claims": [
+    "60",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "UA in catheterized patients: sensitivity ~90%, specificity ~60% for UTI (but high false positives due to colonization)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "50",
+    "80"
+   ],
+   "performance_claims": [
+    "50",
+    "80"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Chest auscultation: sensitivity for pneumonia ~50%, specificity ~80%"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "50",
+    "70"
+   ],
+   "performance_claims": [
+    "50",
+    "70"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Physical exam for DVT: sensitivity ~50%, specificity ~70%"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on history and exam for infection sources (lungs, urine, wound, abdomen, IV sites)"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "UA, urine culture, chest X-ray, CBC, and blood cultures are key bedside tests"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Consider DVT if risk factors or symptoms"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic performance varies"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "clinical context is crucial for interpretation"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given the presentation of a 71-year-old female, postoperative day 2 (POD2) after sigmoid colectomy, with a Foley catheter in place, overnight fever (T 38.6\u00b0C), mild cough, and no other complaints, your evaluation should focus on common postoperative complications: surgical site infection, urinary tract infection (UTI), pneumonia/atelectasis, and less commonly, deep vein thrombosis (DVT) or drug fever.\n\n**History:**\n- Review surgical details: intraoperative complications, blood loss, duration, and antibiotic prophylaxis.\n- Ask about:\n  - New or worsening pain (incisional, abdominal, chest, back)\n  - Nausea, vomiting, abdominal distension, bowel movements/flatus\n  - Urinary symptoms (dysuria, urgency, hematuria)\n  - Respiratory symptoms (increased cough, sputum, dyspnea, chest pain)\n  - Leg swelling or pain (DVT)\n  - Medication/allergy history (drug fever)\n\n**Physical Examination:**\n- Vital signs: fever pattern, tachycardia, hypotension, tachypnea, hypoxia\n- General: appearance, mental status\n- Lungs: auscultate for crackles, decreased breath sounds, egophony (pneumonia)\n- Heart: murmurs, new arrhythmias\n- Abdomen: inspect incision, palpate for tenderness, distension, peritonitis, bowel sounds\n- Surgical site: erythema, induration, drainage\n- Foley site: erythema, discharge\n- Extremities: calf tenderness, swelling, Homan's sign (low sensitivity/specificity for DVT)\n\n**Bedside Tests:**\n- Urinalysis (UA) and urine culture: for UTI (Foley increases risk; sensitivity/specificity of UA for UTI in catheterized patients is lower, but pyuria and bacteriuria are suggestive)\n- Chest X-ray: for pneumonia/atelectasis (sensitivity for pneumonia ~70-80%, specificity ~90%)\n- Blood cultures: if febrile, especially if hemodynamically unstable\n- CBC with differential: leukocytosis may suggest infection\n- Wound swab/culture if drainage present\n- Bedside ultrasound: if concern for intra-abdominal collection or DVT (compression US for DVT: sensitivity ~95%, specificity ~98% for proximal DVT)\n\n**Diagnostic Performance Data:**\n- Post-op fever on POD2 is most commonly due to atelectasis, but infection (UTI, pneumonia, wound infection) must be ruled out.\n- UA in catheterized patients: sensitivity ~90%, specificity ~60% for UTI (but high false positives due to colonization)\n- Chest auscultation: sensitivity for pneumonia ~50%, specificity ~80%\n- Physical exam for DVT: sensitivity ~50%, specificity ~70%\n\n**Summary:**\n- Focus on history and exam for infection sources (lungs, urine, wound, abdomen, IV sites)\n- UA, urine culture, chest X-ray, CBC, and blood cultures are key bedside tests\n- Consider DVT if risk factors or symptoms\n- Diagnostic performance varies; clinical context is crucial for interpretation."
+ },
+ "variant": "p1"
+}

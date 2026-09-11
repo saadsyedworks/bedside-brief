@@ -1,0 +1,241 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "hypotension_002",
+ "blocked_items": [],
+ "case_id": "hypotension_002",
+ "created_at": "2026-09-11T09:13:19+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Ask about chest pain, abdominal pain, melena, hematemesis, hematuria, hemoptysis, or any overt bleeding"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Ask about urine output, confusion, or new focal neurological symptoms"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Review recent medications, especially anticoagulant dosing and any missed doses"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Ask about recent falls or trauma"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Review fluid intake/output, fevers, rigors, and respiratory symptoms"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: Assess for pallor, diaphoresis, mental status changes"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "10",
+    "2",
+    "20",
+    "30",
+    "97",
+    "98"
+   ],
+   "performance_claims": [
+    "97",
+    "98"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vitals: Repeat BP, HR, RR, O2 sat, temperature. Check for orthostatic changes (drop in systolic BP \u226520 mmHg or diastolic \u226510 mmHg, or HR increase \u226530 bpm is significant; sensitivity ~97%, specificity ~98% for hypovolemia if symptomatic)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Skin: Look for petechiae, ecchymoses, or signs of bleeding"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Chest: Auscultate for new murmurs, crackles, or decreased breath sounds (suggesting effusion or hemothorax)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdomen: Palpate for tenderness, distension, guarding, or masses. Check for flank ecchymosis (Grey-Turner sign) or periumbilical ecchymosis (Cullen sign)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Rectal: Consider for gross blood or melena if GI bleed suspected"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Extremities: Assess for peripheral edema, pulses, and capillary refill (>2 seconds suggests hypoperfusion)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Orthostatic vitals (see above for diagnostic performance)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Point-of-care hemoglobin/hematocrit (drop suggests bleeding; sensitivity for acute bleed is limited early on)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose (rule out hypoglycemia as a cause of symptoms)"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG (look for arrhythmias, ischemia, or rate control in AF)"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside ultrasound (if available): FAST exam for intra-abdominal bleeding, IVC assessment for volume status, lung ultrasound for effusion or consolidation"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "The most urgent concern is shock (septic, hypovolemic, or hemorrhagic). Given anticoagulation, occult bleeding is a key consideration. Orthostatic vitals are highly sensitive and specific for hypovolemia if symptomatic. Bedside ultrasound can rapidly identify bleeding or volume status. Early recognition and resuscitation are critical"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "McGee S, et al."
+   ],
+   "numeric_claims": [
+    "1022",
+    "1029",
+    "11",
+    "1999",
+    "281"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "McGee S, et al. \"Is this patient hypovolemic?\" JAMA. 1999;281(11):1022-1029"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "Tintinalli JE, et al."
+   ],
+   "numeric_claims": [
+    "9"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Tintinalli JE, et al. Tintinalli's Emergency Medicine, 9th Edition"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "This 63-year-old man on apixaban for atrial fibrillation, admitted with community-acquired pneumonia (CAP), is now hypotensive (BP 88/54), tachycardic (HR 118), and has orthostatic symptoms (pale, lightheaded on standing). This presentation raises concern for shock (septic, hypovolemic, or hemorrhagic), possibly complicated by bleeding due to anticoagulation.\n\n**History:**\n- Ask about chest pain, abdominal pain, melena, hematemesis, hematuria, hemoptysis, or any overt bleeding.\n- Ask about urine output, confusion, or new focal neurological symptoms.\n- Review recent medications, especially anticoagulant dosing and any missed doses.\n- Ask about recent falls or trauma.\n- Review fluid intake/output, fevers, rigors, and respiratory symptoms.\n\n**Physical Examination:**\n- General: Assess for pallor, diaphoresis, mental status changes.\n- Vitals: Repeat BP, HR, RR, O2 sat, temperature. Check for orthostatic changes (drop in systolic BP \u226520 mmHg or diastolic \u226510 mmHg, or HR increase \u226530 bpm is significant; sensitivity ~97%, specificity ~98% for hypovolemia if symptomatic).\n- Skin: Look for petechiae, ecchymoses, or signs of bleeding.\n- Chest: Auscultate for new murmurs, crackles, or decreased breath sounds (suggesting effusion or hemothorax).\n- Abdomen: Palpate for tenderness, distension, guarding, or masses. Check for flank ecchymosis (Grey-Turner sign) or periumbilical ecchymosis (Cullen sign).\n- Rectal: Consider for gross blood or melena if GI bleed suspected.\n- Extremities: Assess for peripheral edema, pulses, and capillary refill (>2 seconds suggests hypoperfusion).\n\n**Bedside Tests:**\n- Orthostatic vitals (see above for diagnostic performance).\n- Point-of-care hemoglobin/hematocrit (drop suggests bleeding; sensitivity for acute bleed is limited early on).\n- Bedside glucose (rule out hypoglycemia as a cause of symptoms).\n- ECG (look for arrhythmias, ischemia, or rate control in AF).\n- Bedside ultrasound (if available): FAST exam for intra-abdominal bleeding, IVC assessment for volume status, lung ultrasound for effusion or consolidation.\n\n**Summary:**\n- The most urgent concern is shock (septic, hypovolemic, or hemorrhagic). Given anticoagulation, occult bleeding is a key consideration. Orthostatic vitals are highly sensitive and specific for hypovolemia if symptomatic. Bedside ultrasound can rapidly identify bleeding or volume status. Early recognition and resuscitation are critical.\n\n**References:**\n- McGee S, et al. \"Is this patient hypovolemic?\" JAMA. 1999;281(11):1022-1029.\n- Tintinalli JE, et al. Tintinalli's Emergency Medicine, 9th Edition."
+ },
+ "variant": "base"
+}

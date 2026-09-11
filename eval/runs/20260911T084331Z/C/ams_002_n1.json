@@ -1,0 +1,319 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "ams_002",
+ "blocked_items": [],
+ "case_id": "ams_002_n1",
+ "created_at": "2026-09-11T09:07:58+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Time course of mental status change (acute vs. gradual)"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Precipitating factors: GI bleeding (melena, hematemesis), constipation, recent infections (fever, chills, cough, dysuria), medication changes (sedatives, opioids, diuretics)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Fluid intake/output, vomiting, diarrhea"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "3"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Last alcohol use (family says 3 weeks ago)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Any trauma or falls"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past episodes of encephalopathy"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: Level of consciousness (GCS), orientation, ability to follow commands"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neurologic: Asterixis (flapping tremor), focal deficits, nuchal rigidity (meningitis), signs of trauma"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdomen: Tenderness, rebound, guarding, shifting dullness, fluid wave (ascites), signs of peritonitis"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Stigmata of chronic liver disease: Jaundice, spider angiomata, palmar erythema"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Signs of infection: Fever (not present), tachycardia, hypotension"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Asterixis: Ask patient to extend arms and dorsiflex wrists"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "30",
+    "90"
+   ],
+   "performance_claims": [
+    "30",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "observe for flapping tremor. Sensitivity ~30-90% for HE, specificity ~90% (variable in literature)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "7"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Mental status exam: Orientation, attention (serial 7s, months backward), ability to follow commands. West Haven criteria for grading HE"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Vital signs: Monitor for fever, tachycardia, hypotension (sepsis, GI bleed)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose: Rule out hypoglycemia"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside ammonia: Not always reliable for diagnosis or grading of HE, but may be helpful if markedly elevated"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "250"
+   ],
+   "performance_claims": [
+    "250"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside paracentesis: If ascites present, perform diagnostic tap to rule out SBP. Sensitivity for SBP is high if PMN >250/mm\u00b3 in ascitic fluid"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Asterixis: Specific but not sensitive for HE; absence does not rule out HE, especially in severe cases"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "250",
+    "85",
+    "98"
+   ],
+   "performance_claims": [
+    "250",
+    "85",
+    "98"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Ascitic fluid PMN >250/mm\u00b3: Sensitivity ~98%, specificity ~85% for SBP"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Mental status exam: West Haven criteria are clinical and subjective, but widely used"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on identifying precipitating factors for HE (infection, GI bleed, electrolyte disturbance, constipation, medications)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Rule out SBP with paracentesis"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Assess for asterixis and grade mental status"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Check glucose and vital signs"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Consider other causes of AMS if findings are atypical"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Immediate priorities: airway protection if obtunded, treat suspected HE (lactulose), and empirically treat SBP if suspected while awaiting results"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 58-year-old man with known cirrhosis, recent ascites, and new-onset confusion (sleepy, only knows his name), the most likely concern is hepatic encephalopathy (HE), but other causes of altered mental status (AMS) in cirrhosis must be considered, including infection (especially spontaneous bacterial peritonitis, SBP), electrolyte disturbances, GI bleeding, and medication effects.\n\n**History:**\n- Time course of mental status change (acute vs. gradual)\n- Precipitating factors: GI bleeding (melena, hematemesis), constipation, recent infections (fever, chills, cough, dysuria), medication changes (sedatives, opioids, diuretics)\n- Fluid intake/output, vomiting, diarrhea\n- Last alcohol use (family says 3 weeks ago)\n- Any trauma or falls\n- Past episodes of encephalopathy\n\n**Physical Examination:**\n- General: Level of consciousness (GCS), orientation, ability to follow commands\n- Neurologic: Asterixis (flapping tremor), focal deficits, nuchal rigidity (meningitis), signs of trauma\n- Abdomen: Tenderness, rebound, guarding, shifting dullness, fluid wave (ascites), signs of peritonitis\n- Stigmata of chronic liver disease: Jaundice, spider angiomata, palmar erythema\n- Signs of infection: Fever (not present), tachycardia, hypotension\n\n**Bedside Tests:**\n- **Asterixis:** Ask patient to extend arms and dorsiflex wrists; observe for flapping tremor. Sensitivity ~30-90% for HE, specificity ~90% (variable in literature).\n- **Mental status exam:** Orientation, attention (serial 7s, months backward), ability to follow commands. West Haven criteria for grading HE.\n- **Vital signs:** Monitor for fever, tachycardia, hypotension (sepsis, GI bleed)\n- **Bedside glucose:** Rule out hypoglycemia\n- **Bedside ammonia:** Not always reliable for diagnosis or grading of HE, but may be helpful if markedly elevated.\n- **Bedside paracentesis:** If ascites present, perform diagnostic tap to rule out SBP. Sensitivity for SBP is high if PMN >250/mm\u00b3 in ascitic fluid.\n\n**Diagnostic Performance Data:**\n- **Asterixis:** Specific but not sensitive for HE; absence does not rule out HE, especially in severe cases.\n- **Ascitic fluid PMN >250/mm\u00b3:** Sensitivity ~98%, specificity ~85% for SBP.\n- **Mental status exam:** West Haven criteria are clinical and subjective, but widely used.\n\n**Summary:**\n- Focus on identifying precipitating factors for HE (infection, GI bleed, electrolyte disturbance, constipation, medications)\n- Rule out SBP with paracentesis\n- Assess for asterixis and grade mental status\n- Check glucose and vital signs\n- Consider other causes of AMS if findings are atypical\n\nImmediate priorities: airway protection if obtunded, treat suspected HE (lactulose), and empirically treat SBP if suspected while awaiting results."
+ },
+ "variant": "n1"
+}

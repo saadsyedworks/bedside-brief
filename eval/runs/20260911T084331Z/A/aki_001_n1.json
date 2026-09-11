@@ -1,0 +1,919 @@
+{
+ "arm": "A",
+ "ask_first": false,
+ "base_case_id": "aki_001",
+ "blocked_items": [],
+ "case_id": "aki_001_n1",
+ "created_at": "2026-09-11T09:29:16+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "48",
+    "72"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_nephrotoxin_contrast_exposure",
+   "section": "ask",
+   "text": "Nephrotoxin and contrast exposure history (NSAID, ACEi/ARB, diuretic, aminoglycoside, vancomycin, PPI, iodinated contrast; timing)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Ekundayo OJ, Howard VJ, Safford MM, et al. Value of orthopnea, paroxysmal nocturnal dyspnea, and medications in prospective population studies of incident heart failure. Am J Cardiol. 2009;104(2):259-264.",
+    "Fonseca C, Morais H, Mota T, et al. The diagnosis of heart failure in primary care: value of symptoms and signs. Eur J Heart Fail. 2004;6(6):795-800."
+   ],
+   "numeric_claims": [
+    "0.047",
+    "0.46",
+    "0.52",
+    "0.58",
+    "0.82",
+    "0.83",
+    "0.84",
+    "10.1016",
+    "104",
+    "1058",
+    "15542419",
+    "19576357",
+    "2",
+    "2004",
+    "2004.08",
+    "2009",
+    "2009.03",
+    "25",
+    "25.8",
+    "259",
+    "264",
+    "272",
+    "3.06",
+    "35.5",
+    "36",
+    "39.1",
+    "46",
+    "5",
+    "52",
+    "58",
+    "6",
+    "65",
+    "771",
+    "795",
+    "800",
+    "82",
+    "83",
+    "84",
+    "95"
+   ],
+   "performance_claims": [
+    "0.46",
+    "0.52",
+    "0.58",
+    "0.58",
+    "0.82",
+    "0.83",
+    "0.84",
+    "3.06",
+    "39.1"
+   ],
+   "record_id": "hx_orthopnea",
+   "section": "ask",
+   "text": "Orthopnea: dyspnea lying flat relieved by sitting up / number of pillows"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Butman SM, Ewy GA, Standen JR, Kern KB, Hahn E. Bedside cardiovascular examination in patients with severe chronic heart failure: importance of rest or inducible jugular venous distension. J Am Coll Cardiol 1993;22(4):968-74.",
+    "Mant J, Doust J, Roalfe A, et al. Systematic review and individual patient data meta-analysis of diagnosis of heart failure, with modelling of implications of different diagnostic strategies in primary care. Health Technol Assess 2009;13(32):1-207.",
+    "Signs and symptoms in adult patients with acute dyspnea: a systematic review and meta-analysis. Eur J Emerg Med 2018;25(1):3-11 (author list not retrievable via abstract tool; confirmed by PMID/DOI)."
+   ],
+   "numeric_claims": [
+    "0.2",
+    "0.24",
+    "0.55",
+    "0.7",
+    "0.77",
+    "0.8",
+    "0.81",
+    "0.88",
+    "0.97",
+    "1",
+    "10.1016",
+    "10.1097",
+    "10.331",
+    "1097",
+    "11",
+    "13",
+    "13320",
+    "18",
+    "19586584",
+    "1993",
+    "2",
+    "2009",
+    "2018",
+    "207",
+    "22",
+    "25",
+    "29252938",
+    "3",
+    "30",
+    "32",
+    "4",
+    "4.05",
+    "429",
+    "45",
+    "4737",
+    "52",
+    "59",
+    "7",
+    "70",
+    "72",
+    "735",
+    "74",
+    "8",
+    "80",
+    "81",
+    "8409071",
+    "85",
+    "89",
+    "9",
+    "90405",
+    "93",
+    "968",
+    "99"
+   ],
+   "performance_claims": [
+    "0.24",
+    "0.7",
+    "0.8",
+    "0.81",
+    "0.88",
+    "4.05"
+   ],
+   "record_id": "exam_jvp_elevated",
+   "section": "examine",
+   "text": "Jugular venous pressure elevated (>8 cm H2O / >3 cm above sternal angle); low/flat JVP as the negative"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [
+    "Cherpanath TG, Hirsch A, Geerts BF, et al. Predicting Fluid Responsiveness by Passive Leg Raising: A Systematic Review and Meta-Analysis of 23 Clinical Trials. Crit Care Med. 2016;44(5):981-991.",
+    "Monnet X, Marik P, Teboul JL. Passive leg raising for predicting fluid responsiveness: a systematic review and meta-analysis. Intensive Care Med. 2016;42(12):1935-1947."
+   ],
+   "numeric_claims": [
+    "0.16",
+    "0.44",
+    "0.49",
+    "0.53",
+    "0.56",
+    "0.58",
+    "0.68",
+    "0.7",
+    "0.77",
+    "0.79",
+    "0.81",
+    "0.83",
+    "0.85",
+    "0.86",
+    "0.88",
+    "0.91",
+    "0.92",
+    "0.93",
+    "0.96",
+    "1",
+    "10",
+    "10.1007",
+    "10.1097",
+    "1013",
+    "1034",
+    "12",
+    "134",
+    "15",
+    "1556",
+    "1935",
+    "1947",
+    "2016",
+    "21",
+    "23",
+    "26741579",
+    "26825952",
+    "3.3",
+    "30",
+    "4134",
+    "42",
+    "432",
+    "44",
+    "45",
+    "5",
+    "56",
+    "58",
+    "60",
+    "68",
+    "70",
+    "79",
+    "8",
+    "83",
+    "85",
+    "86",
+    "88",
+    "9.4",
+    "90",
+    "91",
+    "92",
+    "95",
+    "96",
+    "981",
+    "991",
+    "995"
+   ],
+   "performance_claims": [
+    "0.16",
+    "0.44",
+    "0.53",
+    "0.56",
+    "0.58",
+    "0.68",
+    "0.7",
+    "0.77",
+    "0.79",
+    "0.81",
+    "0.83",
+    "0.83",
+    "0.85",
+    "0.86",
+    "0.88",
+    "0.88",
+    "0.88",
+    "0.88",
+    "0.91",
+    "0.92",
+    "0.92",
+    "0.92",
+    "0.93",
+    "0.96",
+    "3.3",
+    "9.4"
+   ],
+   "record_id": "fn_passive_leg_raise",
+   "section": "examine",
+   "text": "Passive leg raise: hemodynamic response (BP/pulse pressure or POCUS VTI rise >=10-12%) within 60-90 s of raising legs 45 deg from semi-recumbent"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Butman SM, Ewy GA, Standen JR, Kern KB, Hahn E. Bedside cardiovascular examination in patients with severe chronic heart failure: importance of rest or inducible jugular venous distension. J Am Coll Cardiol 1993;22(4):968-74.",
+    "Ducas J, Magder S, McGregor M. Validity of the hepatojugular reflux as a clinical test for congestive heart failure. Am J Cardiol 1983;52(10):1299-303."
+   ],
+   "numeric_claims": [
+    "0.24",
+    "0.8",
+    "0.81",
+    "0.84",
+    "1",
+    "10",
+    "10.1016",
+    "10.5",
+    "1097",
+    "1299",
+    "15",
+    "16",
+    "18",
+    "19",
+    "1983",
+    "1993",
+    "2",
+    "22",
+    "3",
+    "30",
+    "303",
+    "4",
+    "4.05",
+    "52",
+    "6650420",
+    "735",
+    "74",
+    "80",
+    "81",
+    "83",
+    "8409071",
+    "90405",
+    "90592",
+    "9149",
+    "93",
+    "968"
+   ],
+   "performance_claims": [
+    "0.24",
+    "0.8",
+    "0.81",
+    "0.84",
+    "4.05"
+   ],
+   "record_id": "exam_abdominojugular_reflux",
+   "section": "examine",
+   "text": "Abdominojugular (hepatojugular) reflux: sustained JVP rise >3 cm with 10-30 s abdominal pressure"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "14977795",
+    "30",
+    "44",
+    "500",
+    "54"
+   ],
+   "performance_claims": [],
+   "record_id": "exam_bladder_percussion_palpable",
+   "section": "examine",
+   "text": "Suprapubic palpation / percussion for distended bladder; LUTS and prostate history"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "candidates": [
+   "exam_jvp_elevated",
+   "fn_passive_leg_raise",
+   "hx_nephrotoxin_contrast_exposure",
+   "exam_capillary_refill",
+   "exam_dry_axilla",
+   "exam_dry_mucous_membranes",
+   "exam_hypotension_sbp_lt90",
+   "exam_orthostatic_vitals",
+   "exam_skin_turgor",
+   "exam_tachycardia_resting",
+   "hx_hypotensive_medication_review",
+   "hx_postural_dizziness",
+   "exam_abdominojugular_reflux",
+   "exam_cool_extremities",
+   "exam_peripheral_edema_pitting",
+   "exam_pulmonary_crackles",
+   "exam_s3_gallop",
+   "exam_saddle_anesthesia_anal_tone",
+   "exam_bladder_percussion_palpable",
+   "exam_cva_tenderness",
+   "exam_sensory_level_upper_motor_neuron_signs",
+   "hx_orthopnea",
+   "hx_pnd"
+  ],
+  "card": {
+   "chief_complaint": "acute kidney injury with rising creatinine and low urine output",
+   "presentation": "aki",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_nephrotoxin_contrast_exposure",
+      "changes_what": "A positive exposure history should lead to stopping or dose-adjusting the agent, avoiding further nephrotoxins and monitoring creatinine; still assess obstruction and volume status.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not attribute AKI solely to a drug or contrast when there is oliguria, sepsis, hypotension or possible obstruction; these still need evaluation.",
+      "escalation_warning": "AKI with hyperkalemia, acidosis, fluid overload or uremic symptoms needs urgent nephrology review regardless of the exposure history.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Reconcile all drugs against the chart and pharmacy record, including over-the-counter NSAIDs and herbal products: NSAIDs, ACEi/ARB, diuretics, aminoglycosides, vancomycin (with piperacillin-tazobactam), PPIs, and any iodinated contrast. For each, record start date, dose change and timing relative to the creatinine rise.",
+      "id": "hx_nephrotoxin_contrast_exposure",
+      "negative_finding": "No exposure lowers the likelihood of drug-related AKI and contrast nephropathy, redirecting attention to hypovolemia, sepsis, obstruction and intrinsic renal disease.",
+      "pitfalls": "Patients under-report OTC NSAIDs; PPI-associated AIN can begin weeks to months after the start; contrast-associated AKI is often confounded by the illness that prompted imaging, so timing alone does not prove causation.",
+      "positive_finding": "A nephrotoxin started or dosed within days of the creatinine rise, or contrast within 48-72 h, makes drug-induced AKI (hemodynamic, ATN or AIN) a leading candidate and identifies an immediately reversible factor.",
+      "prerequisites": "Access to medication administration and imaging records; collateral history for patients who cannot report OTC use.",
+      "rationale": "Recent nephrotoxin or contrast exposure would prompt stopping or adjusting medications that could be worsening AKI.",
+      "skill_assumption": null,
+      "title": "Nephrotoxin and contrast exposure history (NSAID, ACEi/ARB, diuretic, aminoglycoside, vancomycin, PPI, iodinated contrast; timing)",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_orthopnea",
+      "changes_what": "New orthopnoea raises probability of decompensated HF and supports BNP/echo and decongestion; absence should not be used to exclude HF.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not rely on the absence of orthopnoea to exclude heart failure, and do not attribute orthopnoea to heart failure without examining for tamponade, effusion or neuromuscular weakness when the picture does not fit.",
+      "escalation_warning": "Orthopnoea with hypotension, pulsus paradoxus or a raised JVP suggests tamponade or acute pump failure; obtain immediate echo.",
+      "evidence": [
+       {
+        "citation": "Fonseca C, Morais H, Mota T, et al. The diagnosis of heart failure in primary care: value of symptoms and signs. Eur J Heart Fail. 2004;6(6):795-800.",
+        "computed": false,
+        "doi": "10.1016/j.ejheart.2004.08.002",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "39.1"
+        },
+        "pmid": "15542419",
+        "population": "Portuguese primary care attendees screened by Boston questionnaire and referred for echocardiography (n=1058 assessed); orthopnoea sensitivity reported only as <36%",
+        "prevalence": null,
+        "quote": "a history of paroxysmal nocturnal dyspnoea (LR 35.5), orthopnea (LR 39.1) and breathlessness when walking on the flat (LR 25.8)",
+        "reference_standard": "Resting echocardiography with clinical assessment",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "Heart failure (cardiac dysfunction at rest on echocardiography)",
+        "url": null,
+        "year": "2004"
+       },
+       {
+        "citation": "Ekundayo OJ, Howard VJ, Safford MM, et al. Value of orthopnea, paroxysmal nocturnal dyspnea, and medications in prospective population studies of incident heart failure. Am J Cardiol. 2009;104(2):259-264.",
+        "computed": true,
+        "doi": "10.1016/j.amjcard.2009.03.025",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.58"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "3.06"
+        },
+        "pmid": "19576357",
+        "population": "5,771 community-dwelling adults >=65 years in the Cardiovascular Health Study; 272 with adjudicated definite HF",
+        "prevalence": "0.047",
+        "quote": "for either orthopnea or PND were 52% (95% confidence interval [CI] 46% to 58%), 83% (95% CI 82% to 84%)",
+        "reference_standard": "Centrally adjudicated definite heart failure (CHS criteria)",
+        "sensitivity": {
+         "ci_high": "0.58",
+         "ci_low": "0.46",
+         "value": "0.52"
+        },
+        "setting": "outpatient",
+        "specificity": {
+         "ci_high": "0.84",
+         "ci_low": "0.82",
+         "value": "0.83"
+        },
+        "target_condition": "Prevalent definite heart failure (composite symptom: orthopnoea OR paroxysmal nocturnal dyspnoea)",
+        "url": null,
+        "year": "2009"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Ask whether breathing worsens within minutes of lying flat and eases on sitting up, how many pillows (or what head-of-bed angle) are needed to sleep, and whether this is new or increased compared with baseline. Distinguish from positional dyspnoea due to abdominal distension, obesity, or nasal obstruction, and from cough-related waking.",
+      "id": "hx_orthopnea",
+      "negative_finding": "Absence of orthopnoea only modestly lowers the probability of heart failure; many heart failure patients, particularly with chronic disease, sleep flat.",
+      "pitfalls": "Orthopnoea also occurs with COPD, massive ascites, obesity, and bilateral diaphragm paralysis; pillow count is confounded by habit, reflux and sinus disease. In chronic HF orthopnoea correlates poorly with measured wedge pressure.",
+      "positive_finding": "New or worsening need to sleep propped up, with dyspnoea on lying flat that resolves on sitting, points to raised left-sided filling pressure (heart failure) or, less often, tamponade, large effusion or bilateral diaphragm weakness.",
+      "prerequisites": "Patient (or collateral historian) able to describe sleep position and recent change.",
+      "rationale": "Orthopnea suggests decompensated heart failure as a cause of AKI and would support diuresis and further cardiac workup.",
+      "skill_assumption": null,
+      "title": "Orthopnea: dyspnea lying flat relieved by sitting up / number of pillows",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/exam_jvp_elevated",
+      "changes_what": "Elevated JVP moves dyspnea/edema toward acute HF or RV/pericardial disease and away from hypovolemia; a flat JVP in hypotension favors hypovolemia/sepsis over cardiogenic causes.",
+      "contraindications": "None; avoid firm neck pressure in patients with carotid disease.",
+      "do_not_use_when": "Do not use a normal JVP to withhold treatment for suspected heart failure, or declare a shocked patient hypovolemic when the neck cannot be adequately examined (obesity, short neck, column above the jaw).",
+      "escalation_warning": "Elevated JVP with hypotension, clear lungs and tachycardia suggests tamponade, RV infarction or massive PE and needs immediate echo/POCUS rather than diuresis.",
+      "evidence": [
+       {
+        "citation": "Butman SM, Ewy GA, Standen JR, Kern KB, Hahn E. Bedside cardiovascular examination in patients with severe chronic heart failure: importance of rest or inducible jugular venous distension. J Am Coll Cardiol 1993;22(4):968-74.",
+        "computed": true,
+        "doi": "10.1016/0735-1097(93)90405-p",
+        "evidence_level": "single_study",
+        "interpretation_label": "both",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.24"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "4.05"
+        },
+        "pmid": "8409071",
+        "population": "52 patients with severe chronic heart failure undergoing in-hospital transplant evaluation; index finding = jugular venous distension at rest OR inducible by the abdominojugular test",
+        "prevalence": null,
+        "quote": "had the best combination of sensitivity (81%), specificity (80%) and predictive accuracy (81%) for elevation of the pulmonary capillary wedge pressure",
+        "reference_standard": "Right heart catheterization (PCWP >= 18 mmHg)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.81"
+        },
+        "setting": "inpatient",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.8"
+        },
+        "target_condition": "Elevated pulmonary capillary wedge pressure (>=18 mmHg)",
+        "url": null,
+        "year": "1993"
+       },
+       {
+        "citation": "Signs and symptoms in adult patients with acute dyspnea: a systematic review and meta-analysis. Eur J Emerg Med 2018;25(1):3-11 (author list not retrievable via abstract tool; confirmed by PMID/DOI).",
+        "computed": false,
+        "doi": "10.1097/MEJ.0000000000000429",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "meta_analysis",
+        "location": "Abstract, Conclusion",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "29252938",
+        "population": "Adults with a new episode of acute dyspnea; 8 ED studies, 4737 patients; HF prevalence 25-59%",
+        "prevalence": null,
+        "quote": "Elevated jugular venous pressure (0.88, pooled odds ratio: 7), added third heart sound (0.97), and lung crepitations (0.77, pooled odds ratio: 11)",
+        "reference_standard": "Clinical diagnosis of HF per included studies (varied)",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.88"
+        },
+        "target_condition": "Heart failure as cause of acute dyspnea",
+        "url": null,
+        "year": "2018"
+       },
+       {
+        "citation": "Mant J, Doust J, Roalfe A, et al. Systematic review and individual patient data meta-analysis of diagnosis of heart failure, with modelling of implications of different diagnostic strategies in primary care. Health Technol Assess 2009;13(32):1-207.",
+        "computed": false,
+        "doi": "10.3310/hta13320",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "19586584",
+        "population": "Patients with suspected heart failure in primary care; individual patient data meta-analysis of 9 studies",
+        "prevalence": null,
+        "quote": "orthopnoea (89%), oedema (72%), elevated jugular venous pressure (70%), cardiomegaly (85%), added heart sounds (99%), lung crepitations (81%)",
+        "reference_standard": "Echocardiography / expert panel per included studies",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.7"
+        },
+        "target_condition": "Heart failure (new diagnosis) in primary care",
+        "url": null,
+        "year": "2009"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Recline the patient at 30-45 degrees (adjust until the top of the pulsation is visible), turn the head slightly left, and use tangential light to find the top of the internal jugular column. Measure its vertical height above the sternal angle; >3 cm above the angle (about >8 cm H2O total) is elevated.",
+      "id": "exam_jvp_elevated",
+      "negative_finding": "A flat or normal JVP lowers but does not exclude heart failure; sensitivity is modest (roughly 0.2-0.7 across ED studies) and pooled sensitivity in ED series stays below 0.55.",
+      "pitfalls": "Confusing carotid with venous pulsation, misjudging the sternal angle-to-atrium distance (varies with position), and failing to see a very high column (look for earlobe pulsation) or a very low one (lie the patient flatter). Isolated RV failure, tricuspid disease, tamponade or constriction raise JVP without left-sided congestion.",
+      "positive_finding": "A venous column >3 cm above the sternal angle indicates raised right atrial pressure and, in chronic heart failure, usually raised left-sided filling pressure (PCWP >=18 mmHg). It substantially raises the probability of heart failure as the cause of acute dyspnea.",
+      "prerequisites": "Adequate light, exposed neck, patient relaxed and breathing quietly; identify the venous (biphasic, non-palpable, falls with inspiration, occludable) rather than carotid pulsation.",
+      "rationale": "JVP assessment helps distinguish between hypovolemia and volume overload, which is critical in a patient with heart failure and AKI.",
+      "skill_assumption": null,
+      "title": "Jugular venous pressure elevated (>8 cm H2O / >3 cm above sternal angle); low/flat JVP as the negative",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/fn_passive_leg_raise",
+      "changes_what": "Positive PLR with hypotension/AKI supports a fluid trial; negative PLR should stop empiric boluses and shift attention to cardiac dysfunction, vasoplegia, or obstruction.",
+      "contraindications": "Raised intracranial pressure, intra-abdominal hypertension, lower-limb trauma/amputation or venous compression stockings (blunt venous return), and inability to lie flat.",
+      "do_not_use_when": "Raised intracranial pressure, intra-abdominal hypertension, unstable pelvic/leg fractures, or when no flow measurement is available and a BP-only result would drive fluid decisions.",
+      "escalation_warning": "A fluid-responsive patient can still have cardiogenic or obstructive shock; hypotension that does not respond to a fluid trial, or a negative PLR with hypoperfusion, needs vasoactive support and definitive diagnostics now.",
+      "evidence": [
+       {
+        "citation": "Monnet X, Marik P, Teboul JL. Passive leg raising for predicting fluid responsiveness: a systematic review and meta-analysis. Intensive Care Med. 2016;42(12):1935-1947.",
+        "computed": true,
+        "doi": "10.1007/s00134-015-4134-1",
+        "evidence_level": "pooled",
+        "interpretation_label": "both",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.16"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "9.4"
+        },
+        "pmid": "26825952",
+        "population": "21 studies, 991 adults with acute circulatory failure (mostly ICU, ventilated and spontaneously breathing), 995 fluid challenges; CO by echo, pulse contour, bioreactance, Doppler or thermodilution",
+        "prevalence": null,
+        "quote": "For the PLR-induced changes in CO, the pooled sensitivity was 0.85 (0.81-0.88) and the pooled specificity was 0.91 (0.88-0.93)",
+        "reference_standard": "Increase in cardiac output after a fluid challenge (study-defined, typically >=15%)",
+        "sensitivity": {
+         "ci_high": "0.88",
+         "ci_low": "0.81",
+         "value": "0.85"
+        },
+        "setting": "ICU",
+        "specificity": {
+         "ci_high": "0.93",
+         "ci_low": "0.88",
+         "value": "0.91"
+        },
+        "target_condition": "Fluid responsiveness (CO rise after volume expansion); PLR assessed by change in cardiac output, threshold ~>=10%",
+        "url": null,
+        "year": "2016"
+       },
+       {
+        "citation": "Monnet X, Marik P, Teboul JL. Passive leg raising for predicting fluid responsiveness: a systematic review and meta-analysis. Intensive Care Med. 2016;42(12):1935-1947.",
+        "computed": true,
+        "doi": "10.1007/s00134-015-4134-1",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.53"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "3.3"
+        },
+        "pmid": "26825952",
+        "population": "8 studies, 432 fluid challenges in adults with acute circulatory failure (ICU)",
+        "prevalence": null,
+        "quote": "For the PLR-induced changes in PP (8 studies, 432 fluid challenges), the pooled sensitivity was 0.56 (0.49-0.53), the pooled specificity was 0.83 (0.77-0.88)",
+        "reference_standard": "Increase in cardiac output after a fluid challenge (study-defined)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.56"
+        },
+        "setting": "ICU",
+        "specificity": {
+         "ci_high": "0.88",
+         "ci_low": "0.77",
+         "value": "0.83"
+        },
+        "target_condition": "Fluid responsiveness; PLR assessed by change in arterial pulse pressure",
+        "url": null,
+        "year": "2016"
+       },
+       {
+        "citation": "Cherpanath TG, Hirsch A, Geerts BF, et al. Predicting Fluid Responsiveness by Passive Leg Raising: A Systematic Review and Meta-Analysis of 23 Clinical Trials. Crit Care Med. 2016;44(5):981-991.",
+        "computed": false,
+        "doi": "10.1097/CCM.0000000000001556",
+        "evidence_level": "pooled",
+        "interpretation_label": "both",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "26741579",
+        "population": "23 studies, 1013 adults, 1034 fluid challenges; ICU/OR patients, ventilated and spontaneously breathing",
+        "prevalence": null,
+        "quote": "pooled sensitivity of 86% (95% CI, 79-92), pooled specificity of 92% (95% CI, 88-96)",
+        "reference_standard": "Fluid challenge as gold standard for responders vs non-responders",
+        "sensitivity": {
+         "ci_high": "0.92",
+         "ci_low": "0.79",
+         "value": "0.86"
+        },
+        "setting": "ICU",
+        "specificity": {
+         "ci_high": "0.96",
+         "ci_low": "0.88",
+         "value": "0.92"
+        },
+        "target_condition": "Fluid responsiveness; PLR assessed by any technique (overall pooled)",
+        "url": null,
+        "year": "2016"
+       },
+       {
+        "citation": "Cherpanath TG, Hirsch A, Geerts BF, et al. Predicting Fluid Responsiveness by Passive Leg Raising: A Systematic Review and Meta-Analysis of 23 Clinical Trials. Crit Care Med. 2016;44(5):981-991.",
+        "computed": false,
+        "doi": "10.1097/CCM.0000000000001556",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "26741579",
+        "population": "Subgroup of the 23-study meta-analysis using pulse pressure change as the PLR readout",
+        "prevalence": null,
+        "quote": "sensitivity of 58% [95% CI, 44-70] and specificity of 83% [95% CI, 68-92]",
+        "reference_standard": "Fluid challenge as gold standard for responders vs non-responders",
+        "sensitivity": {
+         "ci_high": "0.7",
+         "ci_low": "0.44",
+         "value": "0.58"
+        },
+        "setting": "ICU",
+        "specificity": {
+         "ci_high": "0.92",
+         "ci_low": "0.68",
+         "value": "0.83"
+        },
+        "target_condition": "Fluid responsiveness; PLR assessed by change in pulse pressure (subgroup)",
+        "url": null,
+        "year": "2016"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Start semi-recumbent (trunk 45 deg) and record a baseline flow measure (LVOT VTI by POCUS or monitor CO; pulse pressure is a weaker surrogate). Using the bed controls, lower the trunk flat and raise both legs to 45 deg without touching the patient; re-measure within 30-90 s at peak effect, then return to baseline and confirm values fall back. Positive: CO/VTI rise >=10%.",
+      "id": "fn_passive_leg_raise",
+      "negative_finding": "No CO rise argues against fluid responsiveness and against giving further fluid; consider cardiogenic causes, vasoplegia, or already-adequate preload.",
+      "pitfalls": "Assessing with pulse pressure/BP alone has sensitivity of only ~56-58%, so a negative BP-based PLR does not exclude fluid responsiveness; peak effect is brief (about 1 min), so continuous or immediate measurement is required; intra-abdominal hypertension, wrong starting position, and pain (sympathetic stimulation) give false results.",
+      "positive_finding": "A PLR-induced rise in CO/VTI >=10% predicts that a fluid bolus will raise cardiac output (pooled sensitivity ~85%, specificity ~91%) and supports a preload-dependent state such as hypovolemia or early sepsis. It says nothing about whether fluids are needed or safe, only that they would raise output.",
+      "prerequisites": "A real-time flow measurement (VTI, CO monitor) is needed for accuracy; adjustable bed; patient tolerates supine positioning; no pain or agitation during the maneuver.",
+      "rationale": "A passive leg raise can help determine if the patient is fluid responsive, guiding whether to give fluids or avoid them.",
+      "skill_assumption": null,
+      "title": "Passive leg raise: hemodynamic response (BP/pulse pressure or POCUS VTI rise >=10-12%) within 60-90 s of raising legs 45 deg from semi-recumbent",
+      "type": "functional"
+     },
+     {
+      "audit_link": "/record/exam_abdominojugular_reflux",
+      "changes_what": "Positive AJR supports a cardiac (elevated filling pressure) cause of dyspnea/edema and favors diuresis; negative AJR with flat JVP argues against congestion.",
+      "contraindications": "Painful or surgical abdomen, recent abdominal surgery, known AAA; do not perform during a Valsalva.",
+      "do_not_use_when": "Do not perform on a tender or surgical abdomen or when the baseline JVP top cannot be seen (the test requires a visible column to judge the change).",
+      "escalation_warning": "Positive AJR with hypotension and clear lungs should prompt urgent evaluation for RV infarction, tamponade or PE rather than empiric diuresis.",
+      "evidence": [
+       {
+        "citation": "Butman SM, Ewy GA, Standen JR, Kern KB, Hahn E. Bedside cardiovascular examination in patients with severe chronic heart failure: importance of rest or inducible jugular venous distension. J Am Coll Cardiol 1993;22(4):968-74.",
+        "computed": true,
+        "doi": "10.1016/0735-1097(93)90405-p",
+        "evidence_level": "single_study",
+        "interpretation_label": "both",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.24"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "4.05"
+        },
+        "pmid": "8409071",
+        "population": "52 patients with severe chronic heart failure undergoing in-hospital transplant evaluation; index finding = jugular venous distension at rest OR inducible by the abdominojugular test",
+        "prevalence": null,
+        "quote": "had the best combination of sensitivity (81%), specificity (80%) and predictive accuracy (81%) for elevation of the pulmonary capillary wedge pressure",
+        "reference_standard": "Right heart catheterization (PCWP >= 18 mmHg)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.81"
+        },
+        "setting": "inpatient",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.8"
+        },
+        "target_condition": "Elevated pulmonary capillary wedge pressure (>=18 mmHg)",
+        "url": null,
+        "year": "1993"
+       },
+       {
+        "citation": "Ducas J, Magder S, McGregor M. Validity of the hepatojugular reflux as a clinical test for congestive heart failure. Am J Cardiol 1983;52(10):1299-303.",
+        "computed": true,
+        "doi": "10.1016/0002-9149(83)90592-1",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "6650420",
+        "population": "Catheterized patients with impaired (n=19) vs normal resting cardiac function; CVP measured directly during standardized abdominal compression",
+        "prevalence": null,
+        "quote": "In 16 of 19 patients with impaired function, CVP increased by greater than or equal to 3 mm Hg.",
+        "reference_standard": "Direct central venous pressure measurement during abdominal compression, with cardiac function classified clinically/hemodynamically",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.84"
+        },
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Impaired resting cardiac function / congestive heart failure (CVP rise >=3 mmHg with abdominal compression)",
+        "url": null,
+        "year": "1983"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "With the top of the JVP column visible and the patient breathing quietly through an open mouth (no Valsalva), apply firm steady mid-abdominal pressure with the flat hand for 10 s (Ewy) up to 30 s while watching the neck veins. Positive = a sustained rise >3 cm (or >=4 cm / 3 mmHg) lasting through compression, dropping abruptly on release.",
+      "id": "exam_abdominojugular_reflux",
+      "negative_finding": "A transient rise that falls within a few seconds is normal (column rises <3 cm). A negative test lowers but does not exclude elevated filling pressures, particularly in acute dyspnea where sensitivity is limited.",
+      "pitfalls": "Straining or breath-holding produces a false-positive rise; too little pressure or too short a compression produces a false negative. Isolated RV failure (RV infarction), tricuspid regurgitation and constriction give a positive test without left-sided congestion.",
+      "positive_finding": "A sustained rise indicates the right heart cannot accommodate the increased venous return, which in the absence of isolated RV failure reflects elevated left-sided filling pressure (PCWP >=15 mmHg). In chronic HF patients a positive test corresponds to a mean wedge pressure near 19 mmHg vs 10.5 mmHg when negative.",
+      "prerequisites": "Visible JVP baseline; patient able to breathe quietly through an open mouth; no acute abdominal pain.",
+      "rationale": "A positive abdominojugular reflux supports elevated cardiac filling pressures and a cardiorenal cause, influencing diuretic or fluid decisions.",
+      "skill_assumption": null,
+      "title": "Abdominojugular (hepatojugular) reflux: sustained JVP rise >3 cm with 10-30 s abdominal pressure",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_bladder_percussion_palpable",
+      "changes_what": "Positive \u2192 catheterize/measure PVR now and seek the cause (drugs, prostate, cauda equina); negative with risk factors \u2192 bladder scan.",
+      "contraindications": "Avoid deep palpation over fresh lower abdominal incisions.",
+      "do_not_use_when": "Do not use an absent suprapubic mass to exclude retention in AKI, delirium or suspected cauda equina \u2014 measure post-void residual.",
+      "escalation_warning": "Retention with new saddle anesthesia, leg weakness or back pain \u2192 emergent cauda equina evaluation (MRI).",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Patient supine: percuss from the umbilicus toward the pubis for a dome of suprapubic dullness and palpate for a smooth, tense, tender midline mass rising from the pelvis that provokes urge. Ask about LUTS, straining, dribbling, hematuria, prostate disease, anticholinergic/opioid use and time since last void; confirm with bladder scan or catheter volume.",
+      "id": "exam_bladder_percussion_palpable",
+      "negative_finding": "A non-palpable bladder does not exclude retention: obesity, smaller volumes and silent postoperative or opioid-related distension are missed. Obtain a bladder scan or post-void residual when retention is plausible.",
+      "pitfalls": "Postoperative bladder volume >500 mL was present in 44% at recovery-room discharge, and 54% of those without symptoms of distension could not void within 30 min (PMID 14977795, Abstract). Pelvic masses, pregnancy and ascites mimic; palpation cannot estimate volume.",
+      "positive_finding": "A palpable or percussible bladder above the pubis with inability to void indicates retention \u2014 catheterize and measure volume. This is a treatable cause of AKI, delirium and abdominal pain.",
+      "prerequisites": "Attempt to void first when able; know time of last void.",
+      "rationale": "Checking for a distended bladder can quickly identify or rule out obstructive causes of AKI that require urgent intervention.",
+      "skill_assumption": null,
+      "title": "Suprapubic palpation / percussion for distended bladder; LUTS and prostate history",
+      "type": "exam"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_nephrotoxin_contrast_exposure",
+     "rationale": "Recent nephrotoxin or contrast exposure would prompt stopping or adjusting medications that could be worsening AKI."
+    },
+    {
+     "id": "hx_orthopnea",
+     "rationale": "Orthopnea suggests decompensated heart failure as a cause of AKI and would support diuresis and further cardiac workup."
+    }
+   ],
+   "examine": [
+    {
+     "id": "exam_jvp_elevated",
+     "rationale": "JVP assessment helps distinguish between hypovolemia and volume overload, which is critical in a patient with heart failure and AKI."
+    },
+    {
+     "id": "fn_passive_leg_raise",
+     "rationale": "A passive leg raise can help determine if the patient is fluid responsive, guiding whether to give fluids or avoid them."
+    },
+    {
+     "id": "exam_abdominojugular_reflux",
+     "rationale": "A positive abdominojugular reflux supports elevated cardiac filling pressures and a cardiorenal cause, influencing diuretic or fluid decisions."
+    },
+    {
+     "id": "exam_bladder_percussion_palpable",
+     "rationale": "Checking for a distended bladder can quickly identify or rule out obstructive causes of AKI that require urgent intervention."
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "acute kidney injury with rising creatinine and low urine output",
+   "differentials": [
+    {
+     "dx": "prerenal_hypovolemia",
+     "weight": 1.0
+    },
+    {
+     "dx": "cardiorenal",
+     "weight": 0.6
+    },
+    {
+     "dx": "atn",
+     "weight": 0.3
+    },
+    {
+     "dx": "obstruction_retention",
+     "weight": 0.1
+    }
+   ],
+   "indication_tags": [
+    "hf_known",
+    "acute_onset"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "heart failure",
+    "on IV diuretics",
+    "blood pressure low"
+   ],
+   "presentation": "aki",
+   "time_course": "acute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "n1"
+}

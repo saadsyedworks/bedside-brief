@@ -1,0 +1,371 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "weakness_001",
+ "blocked_items": [],
+ "case_id": "weakness_001",
+ "created_at": "2026-09-11T09:15:34+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "40"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Exact time last seen normal (already provided: 40 min ago)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Detailed symptom onset and progression"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: weakness, numbness, vision changes, headache, confusion, seizure activity"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Anticoagulation details: last apixaban dose, adherence"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past medical history: prior stroke/TIA, bleeding disorders, recent trauma/surgery"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medications/allergies"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Functional baseline"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: BP, HR, O2 sat, temperature"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: level of consciousness, distress"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neurological exam:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cranial nerves: facial droop, gaze deviation, visual fields"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Motor: arm/leg drift, strength (NIHSS components)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Sensory: light touch, neglect"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Speech: dysarthria, aphasia"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Coordination: ataxia"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiovascular: irregularly irregular rhythm (AF), murmurs"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Blood glucose (to rule out hypoglycemia): Sensitivity/specificity for stroke is low, but hypoglycemia can mimic stroke"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "NIH Stroke Scale (NIHSS): Quantifies stroke severity; higher scores predict worse outcomes and large vessel occlusion (LVO)"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: Confirm AF, look for acute ischemia"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pulse oximetry"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "50",
+    "70",
+    "80",
+    "90"
+   ],
+   "performance_claims": [
+    "50",
+    "70",
+    "80",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Facial droop, arm drift, and speech abnormality (Cincinnati Prehospital Stroke Scale): Sensitivity ~80-90%, specificity ~50-70% for stroke"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "6",
+    "8",
+    "80",
+    "88"
+   ],
+   "performance_claims": [
+    "6",
+    "8",
+    "80",
+    "88"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "NIHSS >6-8: Suggests higher likelihood of LVO (sensitivity ~88%, specificity ~80% for LVO at NIHSS \u22656)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Blood glucose: Essential to rule out stroke mimics"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Rapid focused history and exam to confirm stroke symptoms and exclude mimics"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose, NIHSS, ECG"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Prepare for urgent imaging (non-contrast CT head) and stroke team activation"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "Powers WJ, et al. 2019"
+   ],
+   "numeric_claims": [
+    "2019"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Powers WJ, et al. 2019 AHA/ASA Guidelines for the Early Management of Acute Ischemic Stroke"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "Kothari RU, et al."
+   ],
+   "numeric_claims": [
+    "1999",
+    "33",
+    "373",
+    "378",
+    "4"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Kothari RU, et al. Ann Emerg Med. 1999;33(4):373-378 (Cincinnati scale)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "Smith EE, et al."
+   ],
+   "numeric_claims": [
+    "2",
+    "2017",
+    "48",
+    "513",
+    "519"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Smith EE, et al. Stroke. 2017;48(2):513-519 (NIHSS and LVO)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Let me know if you need more detail on any step"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014an elderly woman with hypertension and atrial fibrillation on apixaban, with acute onset left facial droop and slurred speech, last seen normal 40 minutes ago\u2014the primary concern is acute ischemic stroke. Here\u2019s how to approach history, physical exam, and bedside tests, with relevant diagnostic performance data:\n\n**History:**\n- Exact time last seen normal (already provided: 40 min ago)\n- Detailed symptom onset and progression\n- Associated symptoms: weakness, numbness, vision changes, headache, confusion, seizure activity\n- Anticoagulation details: last apixaban dose, adherence\n- Past medical history: prior stroke/TIA, bleeding disorders, recent trauma/surgery\n- Medications/allergies\n- Functional baseline\n\n**Physical Examination:**\n- Vital signs: BP, HR, O2 sat, temperature\n- General: level of consciousness, distress\n- Neurological exam:\n  - Cranial nerves: facial droop, gaze deviation, visual fields\n  - Motor: arm/leg drift, strength (NIHSS components)\n  - Sensory: light touch, neglect\n  - Speech: dysarthria, aphasia\n  - Coordination: ataxia\n- Cardiovascular: irregularly irregular rhythm (AF), murmurs\n\n**Bedside Tests:**\n- Blood glucose (to rule out hypoglycemia): Sensitivity/specificity for stroke is low, but hypoglycemia can mimic stroke\n- NIH Stroke Scale (NIHSS): Quantifies stroke severity; higher scores predict worse outcomes and large vessel occlusion (LVO)\n- ECG: Confirm AF, look for acute ischemia\n- Pulse oximetry\n\n**Diagnostic Performance Data:**\n- Facial droop, arm drift, and speech abnormality (Cincinnati Prehospital Stroke Scale): Sensitivity ~80-90%, specificity ~50-70% for stroke\n- NIHSS >6-8: Suggests higher likelihood of LVO (sensitivity ~88%, specificity ~80% for LVO at NIHSS \u22656)\n- Blood glucose: Essential to rule out stroke mimics\n\n**Summary:**\n- Rapid focused history and exam to confirm stroke symptoms and exclude mimics\n- Bedside glucose, NIHSS, ECG\n- Prepare for urgent imaging (non-contrast CT head) and stroke team activation\n\n**References:**\n- Powers WJ, et al. 2019 AHA/ASA Guidelines for the Early Management of Acute Ischemic Stroke.\n- Kothari RU, et al. Ann Emerg Med. 1999;33(4):373-378 (Cincinnati scale)\n- Smith EE, et al. Stroke. 2017;48(2):513-519 (NIHSS and LVO)\n\nLet me know if you need more detail on any step."
+ },
+ "variant": "base"
+}

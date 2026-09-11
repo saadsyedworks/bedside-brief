@@ -1,0 +1,284 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "edema_002",
+ "blocked_items": [],
+ "case_id": "edema_002_p1",
+ "created_at": "2026-09-11T09:11:44+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Duration and progression of swelling (ascites, legs)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Symptoms of liver disease: jaundice, pruritus, confusion, GI bleeding"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Cardiac symptoms: orthopnea, PND, chest pain, palpitations"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Renal symptoms: frothy urine, oliguria, hematuria"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Constitutional: weight loss, fever, night sweats"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication history (NSAIDs, antihypertensives)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Family history of liver, cardiac, or renal disease"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Risk factors for viral hepatitis"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: Jaundice, muscle wasting, asterixis"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdomen: Ascites (shifting dullness, fluid wave), hepatomegaly, splenomegaly, caput medusae, spider angiomata"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Extremities: Pitting edema, diabetic foot changes"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "3",
+    "4"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiac: Elevated JVP, displaced apex, murmurs, S3/S4"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Lungs: Crackles (pulmonary edema)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Skin: Bruising, palmar erythema"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "90"
+   ],
+   "performance_claims": [
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urinalysis (proteinuria, hematuria): Sensitivity for nephrotic syndrome ~90%"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside ultrasound (if available): Ascites, liver size, cardiac function, IVC diameter"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: Arrhythmias, ischemia"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "56",
+    "83"
+   ],
+   "performance_claims": [
+    "56",
+    "83"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Shifting dullness for ascites: Sensitivity ~83%, specificity ~56%"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "62",
+    "88"
+   ],
+   "performance_claims": [
+    "62",
+    "88"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Fluid wave for ascites: Sensitivity ~62%, specificity ~88%"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "3",
+    "39",
+    "92"
+   ],
+   "performance_claims": [
+    "3",
+    "39",
+    "92"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "JVP >3cm above sternal angle: Sensitivity ~39%, specificity ~92% for heart failure"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Asterixis: Not sensitive, but specific for hepatic encephalopathy"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on signs of chronic liver disease, nephrotic syndrome, and heart failure. Bedside tests like urinalysis and shifting dullness are helpful, but imaging and labs will be needed for confirmation"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 54-year-old man with long-standing insulin-dependent diabetes (with retinopathy), no alcohol use, 2 months of abdominal distension and bilateral leg swelling, and hypotension\u2014the differential includes chronic liver disease (non-alcoholic steatohepatitis/cirrhosis), nephrotic syndrome, heart failure, and less likely malignancy or constrictive pericarditis.\n\n**History:**\n- Duration and progression of swelling (ascites, legs)\n- Symptoms of liver disease: jaundice, pruritus, confusion, GI bleeding\n- Cardiac symptoms: orthopnea, PND, chest pain, palpitations\n- Renal symptoms: frothy urine, oliguria, hematuria\n- Constitutional: weight loss, fever, night sweats\n- Medication history (NSAIDs, antihypertensives)\n- Family history of liver, cardiac, or renal disease\n- Risk factors for viral hepatitis\n\n**Physical Examination:**\n- General: Jaundice, muscle wasting, asterixis\n- Abdomen: Ascites (shifting dullness, fluid wave), hepatomegaly, splenomegaly, caput medusae, spider angiomata\n- Extremities: Pitting edema, diabetic foot changes\n- Cardiac: Elevated JVP, displaced apex, murmurs, S3/S4\n- Lungs: Crackles (pulmonary edema)\n- Skin: Bruising, palmar erythema\n\n**Bedside Tests:**\n- Urinalysis (proteinuria, hematuria): Sensitivity for nephrotic syndrome ~90%\n- Bedside glucose\n- Bedside ultrasound (if available): Ascites, liver size, cardiac function, IVC diameter\n- ECG: Arrhythmias, ischemia\n\n**Diagnostic Performance Data:**\n- Shifting dullness for ascites: Sensitivity ~83%, specificity ~56%\n- Fluid wave for ascites: Sensitivity ~62%, specificity ~88%\n- JVP >3cm above sternal angle: Sensitivity ~39%, specificity ~92% for heart failure\n- Asterixis: Not sensitive, but specific for hepatic encephalopathy\n\n**Summary:**\nFocus on signs of chronic liver disease, nephrotic syndrome, and heart failure. Bedside tests like urinalysis and shifting dullness are helpful, but imaging and labs will be needed for confirmation."
+ },
+ "variant": "p1"
+}

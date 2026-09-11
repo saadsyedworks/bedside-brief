@@ -1,0 +1,309 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "aki_003",
+ "blocked_items": [],
+ "case_id": "aki_003",
+ "created_at": "2026-09-11T09:07:19+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Time last seen well, duration of immobility"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Alcohol use history (amount, last drink, withdrawal symptoms)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent trauma, falls, seizures, or prolonged immobilization"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication and toxin exposures"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Muscle pain, weakness, swelling"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Urine output and color changes"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past medical history (renal, liver, muscle disorders)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs (fever, tachycardia, hypotension)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General appearance (confusion, agitation, jaundice)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Skin: pressure sores, bruising, signs of trauma"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Musculoskeletal: muscle tenderness, swelling, compartment syndrome signs"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neurological: focal deficits, level of consciousness"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Volume status: dry mucous membranes, edema"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urine dipstick: positive for blood but no RBCs on microscopy suggests myoglobinuria (rhabdomyolysis). Sensitivity for myoglobin is high, but specificity is low (also detects hemoglobin)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urine microscopy: look for RBCs (hematuria), muddy brown casts (ATN), or pigmented granular casts (rhabdomyolysis)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "100",
+    "5",
+    "50",
+    "80"
+   ],
+   "performance_claims": [
+    "100",
+    "5",
+    "50",
+    "80"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside creatine kinase (CK) if available: CK >5x upper limit of normal is diagnostic for rhabdomyolysis (sensitivity ~100%, specificity ~50-80% depending on cutoff)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose, electrolytes (especially potassium, calcium, phosphate)"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside ECG: look for hyperkalemia changes"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "100",
+    "80"
+   ],
+   "performance_claims": [
+    "100",
+    "80"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urine dipstick for blood: Sensitivity for myoglobinuria ~80-100%, but not specific (also positive in hematuria)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "100",
+    "5"
+   ],
+   "performance_claims": [
+    "100",
+    "5"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "CK: Sensitivity for rhabdomyolysis approaches 100% if >5x ULN, but can be elevated in other muscle injuries"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urine microscopy: Absence of RBCs with positive dipstick supports myoglobinuria"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on history of immobility, trauma, and alcohol use"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Examine for muscle injury and complications of rhabdomyolysis"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Use urine dipstick and microscopy to distinguish myoglobinuria from hematuria"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Check CK, electrolytes, and ECG for complications"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Early recognition and management of rhabdomyolysis is key to prevent further renal injury"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given the presentation of a 45-year-old male found down for ~12 hours, admitted for alcohol withdrawal, with acute kidney injury (Cr 3.4) and dark brown urine, the differential includes rhabdomyolysis, acute tubular necrosis, myoglobinuria, and possibly hematuria or bilirubinuria. Here\u2019s how to approach the case:\n\n**History:**\n- Time last seen well, duration of immobility\n- Alcohol use history (amount, last drink, withdrawal symptoms)\n- Recent trauma, falls, seizures, or prolonged immobilization\n- Medication and toxin exposures\n- Muscle pain, weakness, swelling\n- Urine output and color changes\n- Past medical history (renal, liver, muscle disorders)\n\n**Physical Examination:**\n- Vital signs (fever, tachycardia, hypotension)\n- General appearance (confusion, agitation, jaundice)\n- Skin: pressure sores, bruising, signs of trauma\n- Musculoskeletal: muscle tenderness, swelling, compartment syndrome signs\n- Neurological: focal deficits, level of consciousness\n- Volume status: dry mucous membranes, edema\n\n**Bedside Tests:**\n- Urine dipstick: positive for blood but no RBCs on microscopy suggests myoglobinuria (rhabdomyolysis). Sensitivity for myoglobin is high, but specificity is low (also detects hemoglobin).\n- Urine microscopy: look for RBCs (hematuria), muddy brown casts (ATN), or pigmented granular casts (rhabdomyolysis)\n- Bedside creatine kinase (CK) if available: CK >5x upper limit of normal is diagnostic for rhabdomyolysis (sensitivity ~100%, specificity ~50-80% depending on cutoff)\n- Bedside glucose, electrolytes (especially potassium, calcium, phosphate)\n- Bedside ECG: look for hyperkalemia changes\n\n**Diagnostic Performance Data:**\n- Urine dipstick for blood: Sensitivity for myoglobinuria ~80-100%, but not specific (also positive in hematuria)\n- CK: Sensitivity for rhabdomyolysis approaches 100% if >5x ULN, but can be elevated in other muscle injuries\n- Urine microscopy: Absence of RBCs with positive dipstick supports myoglobinuria\n\n**Summary:**\n- Focus on history of immobility, trauma, and alcohol use\n- Examine for muscle injury and complications of rhabdomyolysis\n- Use urine dipstick and microscopy to distinguish myoglobinuria from hematuria\n- Check CK, electrolytes, and ECG for complications\n- Early recognition and management of rhabdomyolysis is key to prevent further renal injury."
+ },
+ "variant": "base"
+}

@@ -1,0 +1,353 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "palpitations_003",
+ "blocked_items": [],
+ "case_id": "palpitations_003_p1",
+ "created_at": "2026-09-11T09:14:30+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Duration and progression of palpitations, weight loss, and fever"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: tremor, heat intolerance, sweating, diarrhea, anxiety, insomnia"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Cardiac symptoms: chest pain, dyspnea, syncope"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Infective endocarditis risk: IV drug use, recent dental work, prosthetic valves"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Thyroid history: goiter, family history, prior thyroid disease"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication and drug history"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: cachexia, agitation, diaphoresis"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vitals: persistent tachycardia, fever"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neck: thyroid enlargement, tenderness, bruit"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Eyes: lid lag, exophthalmos, conjunctival injection (Graves\u2019 disease)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Hands: tremor (fine, high-frequency), moist palms, onycholysis"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiac: murmurs (endocarditis, high-output state), irregular rhythm (AF)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Skin: cellulitis features, pretibial myxedema (Graves\u2019)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Lymphadenopathy, splenomegaly (endocarditis)"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: look for sinus tachycardia, atrial fibrillation, or other arrhythmias. Sensitivity for detecting arrhythmia is high, but specificity for etiology is low"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose: hyperthyroidism can cause hyperglycemia"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "60",
+    "70"
+   ],
+   "performance_claims": [
+    "60",
+    "70"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside thyroid exam: sensitivity for detecting goiter is moderate (60\u201370%), but specificity is higher if bruit or thrill is present (suggests Graves\u2019)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "90"
+   ],
+   "performance_claims": [
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Blood cultures: for endocarditis (sensitivity ~90% if multiple sets drawn before antibiotics)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "64",
+    "76"
+   ],
+   "performance_claims": [
+    "64",
+    "76"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Fine tremor: sensitivity ~76%, specificity ~64% for hyperthyroidism (JAMA Rational Clinical Exam)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "50",
+    "90"
+   ],
+   "performance_claims": [
+    "50",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Lid lag: sensitivity ~50%, specificity ~90% for hyperthyroidism"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "60",
+    "70",
+    "80"
+   ],
+   "performance_claims": [
+    "60",
+    "70",
+    "80"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Goiter: sensitivity ~60\u201370%, specificity ~80% for hyperthyroidism"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: sensitivity for detecting arrhythmia is high, but not specific for cause"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Take a focused history for hyperthyroidism, endocarditis, and sepsis"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Examine for thyroid disease, cardiac complications, and endocarditis stigmata"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Perform ECG, bedside glucose, and blood cultures"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "The combination of fever, tachycardia, and weight loss raises concern for thyrotoxicosis (possibly thyroid storm), sepsis, or endocarditis"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "1993"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "references",
+   "text": "Burch HB, Wartofsky L. Life-threatening thyrotoxicosis. Endocrinol Metab Clin North Am. 1993"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "4"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "references",
+   "text": "McGee S. Evidence-Based Physical Diagnosis, 4th ed"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "2003"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "references",
+   "text": "JAMA Rational Clinical Exam series: \"Does This Patient Have Hyperthyroidism?\" (2003)"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 31-year-old woman with leg cellulitis, fever, tachycardia, weight loss, and palpitations\u2014the key concern is a systemic illness with possible endocrine or cardiac involvement, in addition to the infection. Here\u2019s how to approach the history, physical, and bedside tests:\n\n**History:**\n- Duration and progression of palpitations, weight loss, and fever\n- Associated symptoms: tremor, heat intolerance, sweating, diarrhea, anxiety, insomnia\n- Cardiac symptoms: chest pain, dyspnea, syncope\n- Infective endocarditis risk: IV drug use, recent dental work, prosthetic valves\n- Thyroid history: goiter, family history, prior thyroid disease\n- Medication and drug history\n\n**Physical Examination:**\n- General: cachexia, agitation, diaphoresis\n- Vitals: persistent tachycardia, fever\n- Neck: thyroid enlargement, tenderness, bruit\n- Eyes: lid lag, exophthalmos, conjunctival injection (Graves\u2019 disease)\n- Hands: tremor (fine, high-frequency), moist palms, onycholysis\n- Cardiac: murmurs (endocarditis, high-output state), irregular rhythm (AF)\n- Skin: cellulitis features, pretibial myxedema (Graves\u2019)\n- Lymphadenopathy, splenomegaly (endocarditis)\n\n**Bedside Tests:**\n- ECG: look for sinus tachycardia, atrial fibrillation, or other arrhythmias. Sensitivity for detecting arrhythmia is high, but specificity for etiology is low.\n- Bedside glucose: hyperthyroidism can cause hyperglycemia.\n- Bedside thyroid exam: sensitivity for detecting goiter is moderate (60\u201370%), but specificity is higher if bruit or thrill is present (suggests Graves\u2019).\n- Blood cultures: for endocarditis (sensitivity ~90% if multiple sets drawn before antibiotics).\n\n**Diagnostic Performance Data:**\n- Fine tremor: sensitivity ~76%, specificity ~64% for hyperthyroidism (JAMA Rational Clinical Exam)\n- Lid lag: sensitivity ~50%, specificity ~90% for hyperthyroidism\n- Goiter: sensitivity ~60\u201370%, specificity ~80% for hyperthyroidism\n- ECG: sensitivity for detecting arrhythmia is high, but not specific for cause\n\n**Summary:**\n- Take a focused history for hyperthyroidism, endocarditis, and sepsis.\n- Examine for thyroid disease, cardiac complications, and endocarditis stigmata.\n- Perform ECG, bedside glucose, and blood cultures.\n- The combination of fever, tachycardia, and weight loss raises concern for thyrotoxicosis (possibly thyroid storm), sepsis, or endocarditis.\n\nReferences:\n- Burch HB, Wartofsky L. Life-threatening thyrotoxicosis. Endocrinol Metab Clin North Am. 1993.\n- McGee S. Evidence-Based Physical Diagnosis, 4th ed.\n- JAMA Rational Clinical Exam series: \"Does This Patient Have Hyperthyroidism?\" (2003)"
+ },
+ "variant": "p1"
+}

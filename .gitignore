@@ -5,5 +5,18 @@ __pycache__/
 *.pyc
 .venv/
 scratchpad/
-eval/runs/
+# Per-case raw outputs and the driver log are ignored; a run's summary artifacts are kept, because
+# they are what the abstract's numbers are audited against (tools/number_audit.py --run-dir) and the
+# container that computed them is ephemeral. Note the pattern ignores the run directory's *contents*,
+# not the directory: git will not descend into an excluded directory, so a trailing-slash rule here
+# would make every negation below dead. Raw outputs for a reportable run are force-added.
+eval/runs/*/*
+!eval/runs/*/*.md
+!eval/runs/*/metrics.json
+!eval/runs/*/manifest.json
+!eval/runs/*/error_analysis.json
+!eval/runs/*/judging_key.json
+!eval/runs/*/judging_queue.csv
+!eval/runs/*/judged_metrics.json
+!eval/runs/*/*.svg
 *.sqlite

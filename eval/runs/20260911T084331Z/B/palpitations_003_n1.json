@@ -1,0 +1,985 @@
+{
+ "arm": "B",
+ "ask_first": false,
+ "base_case_id": "palpitations_003",
+ "blocked_items": [],
+ "case_id": "palpitations_003_n1",
+ "created_at": "2026-09-11T09:04:39+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "0.38",
+    "2009",
+    "5"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_palpitations_abrupt_onset_offset",
+   "section": "ask",
+   "text": "Abrupt onset and abrupt termination of palpitations (vs gradual)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Thavendiranathan P, Bagai A, Khoo C, Dorian P, Choudhry NK. Does this patient with palpitations have a cardiac arrhythmia? JAMA. 2009."
+   ],
+   "numeric_claims": [
+    "0.07",
+    "0.26",
+    "1",
+    "1.01",
+    "1.19",
+    "1.33",
+    "10.1001",
+    "19920238",
+    "2.17",
+    "2.29",
+    "2009",
+    "2009.1673",
+    "3.94",
+    "3.96",
+    "7",
+    "95"
+   ],
+   "performance_claims": [
+    "0.07",
+    "0.26",
+    "1.01",
+    "1.19",
+    "1.33",
+    "2.17",
+    "2.29",
+    "3.94",
+    "3.96"
+   ],
+   "record_id": "hx_anxiety_panic_features",
+   "section": "ask",
+   "text": "Panic/anxiety features: episodes at rest or with stress, dread, paresthesias, known panic disorder; not affected by sleep"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "190",
+    "1996",
+    "24",
+    "43",
+    "48"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_stimulant_caffeine_alcohol_use",
+   "section": "ask",
+   "text": "Stimulant/substance exposure: caffeine, energy drinks, decongestants, beta-agonists, cocaine/amphetamines, alcohol binge (holiday heart), recent withdrawal"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Thavendiranathan P, Bagai A, Khoo C, Dorian P, Choudhry NK. Does this patient with palpitations have a cardiac arrhythmia? JAMA. 2009;302(19):2135-2143."
+   ],
+   "numeric_claims": [
+    "0.03",
+    "0.07",
+    "0.19",
+    "1.25",
+    "10.1001",
+    "1251",
+    "177",
+    "19",
+    "19920238",
+    "2.68",
+    "2009",
+    "2009.1673",
+    "2135",
+    "2143",
+    "25",
+    "302",
+    "5.78",
+    "95"
+   ],
+   "performance_claims": [
+    "0.03",
+    "0.07",
+    "0.19",
+    "1.25",
+    "1251",
+    "177",
+    "2.68",
+    "25",
+    "5.78"
+   ],
+   "record_id": "hx_neck_pounding_frog_sign",
+   "section": "ask",
+   "text": "Regular rapid pounding in the neck / visible neck pulsations during episodes (frog sign)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "3",
+    "4"
+   ],
+   "performance_claims": [],
+   "record_id": "exam_thyrotoxicosis_signs",
+   "section": "examine",
+   "text": "Signs of thyrotoxicosis: fine tremor, lid lag/retraction, warm moist skin, goiter, hyperreflexia"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "McGee S, Abernethy WB, Simel DL. The rational clinical examination. Is this patient hypovolemic? JAMA. 1999;281(11):1022-9.",
+    "Roy CL, Minor MA, Brookhart MA, Choudhry NK. Does this patient with a pericardial effusion have cardiac tamponade? JAMA. 2007;297(16):1810-8."
+   ],
+   "numeric_claims": [
+    "0.03",
+    "0.06",
+    "0.22",
+    "0.48",
+    "0.69",
+    "0.77",
+    "0.85",
+    "0.91",
+    "0.97",
+    "0.98",
+    "0.99",
+    "1",
+    "10",
+    "10.1001",
+    "100",
+    "10086438",
+    "1022",
+    "11",
+    "16",
+    "17456823",
+    "1810",
+    "1999",
+    "2",
+    "2007",
+    "22",
+    "281",
+    "281.11",
+    "297",
+    "297.16",
+    "30",
+    "48",
+    "48.5",
+    "6",
+    "60",
+    "69",
+    "77",
+    "8",
+    "85",
+    "9",
+    "91",
+    "95",
+    "97",
+    "98",
+    "99"
+   ],
+   "performance_claims": [
+    "0.03",
+    "0.06",
+    "0.22",
+    "0.48",
+    "0.69",
+    "0.77",
+    "0.85",
+    "0.91",
+    "0.97",
+    "0.97",
+    "0.98",
+    "0.99",
+    "1",
+    "48.5"
+   ],
+   "record_id": "exam_tachycardia_resting",
+   "section": "examine",
+   "text": "Resting heart rate >100/min (and postural pulse increment)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Peterson S, Sanga A, Ekl\u00f6f H, Bunga B, Taube A, Gebre-Medhin M, Rosling H. Classification of thyroid size by palpation and ultrasonography in field surveys. Lancet 2000;355:106-110.",
+    "Wiest PW, Hartshorne MF, Inskip PD, Crooks LA, Vela BS, Telepak RJ, Williamson MR, Blumhardt R. Thyroid palpation versus high-resolution thyroid ultrasonography in the detection of nodules. J Ultrasound Med 1998;17:487-496."
+   ],
+   "numeric_claims": [
+    "0.04",
+    "0.102",
+    "0.21",
+    "0.29",
+    "0.54",
+    "0.56",
+    "0.58",
+    "0.69",
+    "0.76",
+    "0.8",
+    "1",
+    "1.13",
+    "10.1016",
+    "10.7863",
+    "106",
+    "10675168",
+    "110",
+    "14",
+    "140",
+    "17",
+    "1960",
+    "1994",
+    "1998",
+    "1998.17",
+    "2.33",
+    "2000",
+    "21",
+    "225",
+    "2441",
+    "249",
+    "29",
+    "355",
+    "4",
+    "487",
+    "496",
+    "53",
+    "56",
+    "6736",
+    "7",
+    "7221",
+    "76",
+    "8.487",
+    "80",
+    "9",
+    "9697951",
+    "99"
+   ],
+   "performance_claims": [
+    "0.21",
+    "0.29",
+    "0.56",
+    "0.58",
+    "0.69",
+    "0.76",
+    "0.8",
+    "1.13",
+    "2.33"
+   ],
+   "record_id": "exam_thyroid_gland_palpation",
+   "section": "examine",
+   "text": "Thyroid palpation and auscultation: goiter, nodularity, bruit (distinct from thyrotoxicosis signs)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [
+    "Cooke G, Doust J, Sanders S. Is pulse palpation helpful in detecting atrial fibrillation? A systematic review. J Fam Pract 2006;55:130-134."
+   ],
+   "numeric_claims": [
+    "0.1",
+    "0.69",
+    "0.72",
+    "0.75",
+    "0.84",
+    "0.94",
+    "0.97",
+    "12",
+    "130",
+    "134",
+    "150",
+    "16451780",
+    "2006",
+    "2385",
+    "250",
+    "3",
+    "3.39",
+    "3.4",
+    "55",
+    "60",
+    "69",
+    "72",
+    "75",
+    "84",
+    "94",
+    "95",
+    "97"
+   ],
+   "performance_claims": [
+    "0.1",
+    "0.69",
+    "0.72",
+    "0.75",
+    "0.84",
+    "0.94",
+    "0.97",
+    "3.39"
+   ],
+   "record_id": "fn_pulse_palpation_during_symptoms",
+   "section": "examine",
+   "text": "Palpate/auscultate the pulse (or have the patient count/record it) DURING an episode: rate, regularity, abrupt termination"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "card": {
+   "chief_complaint": "heart racing and skipping for weeks with weight loss",
+   "presentation": "palpitations",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_palpitations_abrupt_onset_offset",
+      "changes_what": "Positive: prioritise symptom-rhythm correlation (event/loop recorder) and teach vagal manoeuvres. Negative: does not exclude arrhythmia; monitor if symptoms are recurrent or concerning.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use a 'gradual' description to dismiss palpitations accompanied by syncope, chest pain, or known structural heart disease.",
+      "escalation_warning": "Abrupt palpitations with syncope, exertional onset, or a family history of sudden death need ECG and cardiology assessment for VT/pre-excitation, not reassurance.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Ask whether episodes start 'like a switch' within one beat and stop just as suddenly, versus building up and fading over minutes. Ask what the patient was doing at onset, whether vagal manoeuvres (breath-hold, straining, cold water) stop it, and how long episodes last.",
+      "id": "hx_palpitations_abrupt_onset_offset",
+      "negative_finding": "Gradual onset and offset suggests sinus tachycardia (anxiety, exertion, secondary causes); the 2009 RCE found no historical feature other than neck pounding that reliably excludes a significant arrhythmia.",
+      "pitfalls": "Patients often cannot judge onset speed; AF may also start abruptly. The RCE found episodes lasting under 5 minutes made arrhythmia slightly less likely (LR 0.38), so duration and onset pattern should be weighed together.",
+      "positive_finding": "Sudden-onset, sudden-offset rapid regular palpitations, especially if terminated by vagal manoeuvres, are the classic description of re-entrant SVT and are widely used to prioritise rhythm monitoring.",
+      "prerequisites": "Patient has had at least one episode they can describe; a recorded rhythm during symptoms remains the reference.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Abrupt onset and abrupt termination of palpitations (vs gradual)",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_anxiety_panic_features",
+      "changes_what": "Panic features lower but do not remove arrhythmia probability; still obtain ECG and, for recurrent symptoms, ambulatory monitoring with symptom-rhythm correlation.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not attribute palpitations to anxiety when there is syncope, exertional onset, structural heart disease, or an abnormal ECG.",
+      "escalation_warning": "Palpitations with syncope, chest pain, or hemodynamic compromise need immediate ECG and monitoring regardless of psychiatric history.",
+      "evidence": [
+       {
+        "citation": "Thavendiranathan P, Bagai A, Khoo C, Dorian P, Choudhry NK. Does this patient with palpitations have a cardiac arrhythmia? JAMA. 2009.",
+        "computed": false,
+        "doi": "10.1001/jama.2009.1673",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "1.01",
+         "ci_low": "0.07",
+         "value": "0.26"
+        },
+        "pmid": "19920238",
+        "population": "Adults presenting with palpitations; pooled from the studies included in the JAMA RCE (7 accuracy studies, mostly single small studies)",
+        "prevalence": null,
+        "quote": "A known history of panic disorder (LR, 0.26; 95% CI, 0.07-1.01)",
+        "reference_standard": "Cardiac arrhythmia documented by ambulatory/event ECG monitoring or electrophysiologic evaluation per included studies",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Clinically significant cardiac arrhythmia (finding PRESENT = known history of panic disorder)",
+        "url": null,
+        "year": "2009"
+       },
+       {
+        "citation": "Thavendiranathan P, Bagai A, Khoo C, Dorian P, Choudhry NK. Does this patient with palpitations have a cardiac arrhythmia? JAMA. 2009.",
+        "computed": false,
+        "doi": "10.1001/jama.2009.1673",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "3.94",
+         "ci_low": "1.33",
+         "value": "2.29"
+        },
+        "pmid": "19920238",
+        "population": "Adults presenting with palpitations; pooled from the studies included in the JAMA RCE (7 accuracy studies, mostly single small studies)",
+        "prevalence": null,
+        "quote": "having palpitations affected by sleeping (LR, 2.29; 95% CI, 1.33-3.94)",
+        "reference_standard": "Cardiac arrhythmia documented by ambulatory/event ECG monitoring or electrophysiologic evaluation per included studies",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Clinically significant cardiac arrhythmia (finding PRESENT = palpitations affected by sleeping; i.e. NOT the anxiety pattern)",
+        "url": null,
+        "year": "2009"
+       },
+       {
+        "citation": "Thavendiranathan P, Bagai A, Khoo C, Dorian P, Choudhry NK. Does this patient with palpitations have a cardiac arrhythmia? JAMA. 2009.",
+        "computed": false,
+        "doi": "10.1001/jama.2009.1673",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "3.96",
+         "ci_low": "1.19",
+         "value": "2.17"
+        },
+        "pmid": "19920238",
+        "population": "Adults presenting with palpitations; pooled from the studies included in the JAMA RCE (7 accuracy studies, mostly single small studies)",
+        "prevalence": null,
+        "quote": "or while the patient is at work (LR, 2.17; 95% CI, 1.19-3.96) slightly increase the likelihood of a cardiac arrhythmia",
+        "reference_standard": "Cardiac arrhythmia documented by ambulatory/event ECG monitoring or electrophysiologic evaluation per included studies",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Clinically significant cardiac arrhythmia (finding PRESENT = palpitations occurring while at work; i.e. NOT the at-rest anxiety pattern)",
+        "url": null,
+        "year": "2009"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Ask about a prior diagnosis of panic disorder, whether episodes occur at rest or with emotional stress, accompanying dread, paresthesias or hyperventilation, and specifically whether palpitations wake the patient or occur during sleep or at work. Record duration of episodes and any prior documented arrhythmia.",
+      "id": "hx_anxiety_panic_features",
+      "negative_finding": "Absence of panic features does not rule in arrhythmia; the RCE concludes the clinical examination cannot exclude significant arrhythmia in most patients.",
+      "pitfalls": "Panic disorder and SVT coexist, and SVT is frequently mislabelled as panic; a regular rapid pounding in the neck strongly suggests AVNRT regardless of anxiety history. Data come from single small studies with wide confidence intervals.",
+      "positive_finding": "A known history of panic disorder makes clinically significant arrhythmia somewhat less likely (LR 0.26, CI crosses 1). Palpitations that are affected by sleeping or that occur at work point toward a true arrhythmia rather than anxiety.",
+      "prerequisites": "Patient able to give a history; screen with the same questions before dismissing symptoms as anxiety.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Panic/anxiety features: episodes at rest or with stress, dread, paresthesias, known panic disorder; not affected by sleep",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_stimulant_caffeine_alcohol_use",
+      "changes_what": "Positive: ECG, electrolytes and rhythm capture, then trigger withdrawal with follow-up; negative: proceed to ambulatory monitoring based on symptom pattern, not to reassurance.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use a stimulant history to explain palpitations with syncope, chest pain, known structural heart disease or an abnormal ECG.",
+      "escalation_warning": "Cocaine/amphetamine-associated palpitations with chest pain, hypertension or wide-complex rhythm require ACS and toxicology pathways; alcohol withdrawal with tachycardia needs withdrawal management.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Ask non-judgementally about the 24-48 h before the palpitations: caffeine/energy drinks (amount), decongestants, inhaled or oral beta-agonists, thyroid hormone, cocaine/amphetamines/MDMA, cannabis, nicotine, and alcohol quantity (binge in the preceding day or two) or abrupt cessation of alcohol/benzodiazepines; ask about weight-loss or 'pre-workout' supplements.",
+      "id": "hx_stimulant_caffeine_alcohol_use",
+      "negative_finding": "Absence of exposures removes a reversible trigger but does not lower the probability of a primary arrhythmia; documented symptom-rhythm correlation is still required in recurrent palpitations.",
+      "pitfalls": "Attributing palpitations to caffeine or anxiety without a rhythm strip misses AF and SVT (cardiac cause in 43% of 190 consecutive palpitations patients, Weber 1996 Abstract); patients under-report alcohol and illicit drugs.",
+      "positive_finding": "A temporal link to a stimulant, sympathomimetic or alcohol binge supports sinus tachycardia, ectopy or 'holiday heart' AF as the mechanism, and in cocaine/amphetamine use raises ischaemia and ventricular arrhythmia risk.",
+      "prerequisites": "Privacy and, when relevant, a urine drug screen or ethanol level to corroborate; check the pulse or rhythm strip during symptoms if ongoing.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Stimulant/substance exposure: caffeine, energy drinks, decongestants, beta-agonists, cocaine/amphetamines, alcohol binge (holiday heart), recent withdrawal",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_neck_pounding_frog_sign",
+      "changes_what": "Positive: diagnose probable AVNRT - teach vagal manoeuvres, refer for EP study/ablation. Negative: look for other arrhythmia or non-arrhythmic causes; prolonged monitoring still needed.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use to reassure a patient with wide-complex tachycardia, syncope, or structural heart disease - the sign does not distinguish VT with cannon waves.",
+      "escalation_warning": "Neck pounding with haemodynamic compromise, syncope, or a wide-complex rhythm needs immediate ECG and acute arrhythmia management.",
+      "evidence": [
+       {
+        "citation": "Thavendiranathan P, Bagai A, Khoo C, Dorian P, Choudhry NK. Does this patient with palpitations have a cardiac arrhythmia? JAMA. 2009;302(19):2135-2143.",
+        "computed": false,
+        "doi": "10.1001/jama.2009.1673",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "1251",
+         "ci_low": "25",
+         "value": "177"
+        },
+        "pmid": "19920238",
+        "population": "Patients with documented paroxysmal SVT undergoing electrophysiologic study (single study within RCE)",
+        "prevalence": null,
+        "quote": "The presence of a regular rapid-pounding sensation in the neck (LR, 177; 95% CI, 25-1251)",
+        "reference_standard": "Electrophysiologic study defining AVNRT vs other tachycardia mechanisms",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "AV nodal reentrant tachycardia (vs other causes of palpitations/other SVT) - regular rapid-pounding sensation in the neck present",
+        "url": null,
+        "year": "2009"
+       },
+       {
+        "citation": "Thavendiranathan P, Bagai A, Khoo C, Dorian P, Choudhry NK. Does this patient with palpitations have a cardiac arrhythmia? JAMA. 2009;302(19):2135-2143.",
+        "computed": false,
+        "doi": "10.1001/jama.2009.1673",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_out",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.19",
+         "ci_low": "0.03",
+         "value": "0.07"
+        },
+        "lr_positive": null,
+        "pmid": "19920238",
+        "population": "Patients with documented paroxysmal SVT undergoing electrophysiologic study (single study within RCE)",
+        "prevalence": null,
+        "quote": "The absence of a regular rapid-pounding sensation in the neck makes detecting the same arrhythmia less likely (LR, 0.07; 95% CI, 0.03-0.19)",
+        "reference_standard": "Electrophysiologic study defining AVNRT vs other tachycardia mechanisms",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "AV nodal reentrant tachycardia - regular rapid-pounding sensation in the neck absent",
+        "url": null,
+        "year": "2009"
+       },
+       {
+        "citation": "Thavendiranathan P, Bagai A, Khoo C, Dorian P, Choudhry NK. Does this patient with palpitations have a cardiac arrhythmia? JAMA. 2009;302(19):2135-2143.",
+        "computed": false,
+        "doi": "10.1001/jama.2009.1673",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "5.78",
+         "ci_low": "1.25",
+         "value": "2.68"
+        },
+        "pmid": "19920238",
+        "population": "Patients with documented paroxysmal SVT undergoing electrophysiologic study (single study within RCE)",
+        "prevalence": null,
+        "quote": "visible neck pulsations (LR, 2.68; 95% CI, 1.25-5.78) in association with palpitations increases the likelihood of a specific type of arrhythmia",
+        "reference_standard": "Electrophysiologic study defining AVNRT vs other tachycardia mechanisms",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "AV nodal reentrant tachycardia - visible neck pulsations during palpitations",
+        "url": null,
+        "year": "2009"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Ask whether, during attacks, the patient feels a rapid regular pounding or 'shirt-collar flutter' in the neck, and whether others have seen the neck pulsating. If the patient is in tachycardia now, inspect the neck for rapid regular jugular pulsations (frog sign) caused by atrial contraction against closed AV valves.",
+      "id": "hx_neck_pounding_frog_sign",
+      "negative_finding": "Absence of the neck-pounding sensation makes AVNRT unlikely (LR 0.07, 95% CI 0.03-0.19) but says nothing about other arrhythmias such as AF or VT.",
+      "pitfalls": "The estimate derives from a single electrophysiology-lab study with very wide confidence intervals; cannon A waves also occur in VT with AV dissociation and complete heart block.",
+      "positive_finding": "A regular rapid-pounding sensation in the neck strongly favours AV nodal re-entrant tachycardia (LR 177, 95% CI 25-1251); visible neck pulsations are a weaker pointer (LR 2.68).",
+      "prerequisites": "History of recurrent palpitations; direct observation requires an ongoing episode.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Regular rapid pounding in the neck / visible neck pulsations during episodes (frog sign)",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/exam_thyrotoxicosis_signs",
+      "changes_what": "Positive: order TSH/free T4 and consider beta-blockade; negative: still check TSH in new AF or unexplained tachycardia/weight loss.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not rely on exam to diagnose or exclude thyrotoxicosis when TSH is readily available.",
+      "escalation_warning": "Thyrotoxic signs with fever, delirium, heart failure, or hemodynamic instability suggest thyroid storm - urgent endocrine and critical-care involvement.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Rest a sheet of paper on the outstretched fingers to reveal fine tremor; feel palms for warmth and moisture; observe the upper lid as the patient follows your finger downward (lid lag) and at rest for sclera visible above the iris (retraction); palpate the thyroid from behind during swallowing for goiter, bruit, or nodules; test ankle/biceps reflexes for brisk relaxation.",
+      "id": "exam_thyrotoxicosis_signs",
+      "negative_finding": "Absence of these signs does not exclude hyperthyroidism, particularly in older adults (apathetic thyrotoxicosis) and in beta-blocked patients.",
+      "pitfalls": "Anxiety, caffeine, alcohol withdrawal, and beta-agonists cause tremor and tachycardia; lid retraction is specific to Graves orbitopathy rather than thyrotoxicosis per se; goiter is common in euthyroid people.",
+      "positive_finding": "A cluster of tremor, warm moist skin, lid lag/retraction, goiter, and brisk reflexes in a patient with tachycardia, atrial fibrillation, weight loss, or unexplained dyspnea suggests thyrotoxicosis; ATA guidance recommends confirming with TSH and free T4/T3.",
+      "prerequisites": "Patient seated, arms unsupported for tremor; neck extended slightly for thyroid palpation.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Signs of thyrotoxicosis: fine tremor, lid lag/retraction, warm moist skin, goiter, hyperreflexia",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_tachycardia_resting",
+      "changes_what": "Positive postural increment: treat as significant hypovolemia/hemorrhage; resting tachycardia: prompts search for cause (PE, tamponade, sepsis, bleeding) rather than a specific diagnosis.",
+      "contraindications": "Do not stand a patient who is hypotensive, has suspected hip/spine fracture, or is at high fall risk.",
+      "do_not_use_when": "Do not perform postural measurements in hypotensive, syncopal, or fall-prone patients; do not use resting heart rate alone to exclude hemorrhage in beta-blocked or elderly patients.",
+      "escalation_warning": "Tachycardia with hypotension, elevated JVP, or pulsus paradoxus suggests tamponade or massive PE; with fever suggests sepsis - escalate immediately.",
+      "evidence": [
+       {
+        "citation": "Roy CL, Minor MA, Brookhart MA, Choudhry NK. Does this patient with a pericardial effusion have cardiac tamponade? JAMA. 2007;297(16):1810-8.",
+        "computed": false,
+        "doi": "10.1001/jama.297.16.1810",
+        "evidence_level": "pooled",
+        "interpretation_label": "minimal",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "17456823",
+        "population": "Pooled studies of patients with known tamponade or referred for pericardiocentesis with known effusion (8 studies)",
+        "prevalence": null,
+        "quote": "tachycardia (pooled sensitivity, 77%; 95% confidence interval [CI], 69%-85%)",
+        "reference_standard": "Echocardiographic/hemodynamic diagnosis of tamponade (varied by study)",
+        "sensitivity": {
+         "ci_high": "0.85",
+         "ci_low": "0.69",
+         "value": "0.77"
+        },
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Cardiac tamponade among patients with known pericardial effusion (tachycardia present)",
+        "url": null,
+        "year": "2007"
+       },
+       {
+        "citation": "McGee S, Abernethy WB, Simel DL. The rational clinical examination. Is this patient hypovolemic? JAMA. 1999;281(11):1022-9.",
+        "computed": true,
+        "doi": "10.1001/jama.281.11.1022",
+        "evidence_level": "pooled",
+        "interpretation_label": "both",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.03"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "48.5"
+        },
+        "pmid": "10086438",
+        "population": "Healthy adult volunteers undergoing phlebotomy (pooled from 10 studies of postural vital signs; large blood loss category)",
+        "prevalence": null,
+        "quote": "a much greater sensitivity for large blood loss of 97% (95% CI, 91%-100%); the corresponding specificity is 98% (95% CI, 97%-99%)",
+        "reference_standard": "Known volume of phlebotomy (large blood loss as defined by the review)",
+        "sensitivity": {
+         "ci_high": "1",
+         "ci_low": "0.91",
+         "value": "0.97"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "0.99",
+         "ci_low": "0.97",
+         "value": "0.98"
+        },
+        "target_condition": "COMPOSITE: severe postural dizziness OR postural pulse increment >=30/min, for large blood loss (phlebotomy)",
+        "url": null,
+        "year": "1999"
+       },
+       {
+        "citation": "McGee S, Abernethy WB, Simel DL. The rational clinical examination. Is this patient hypovolemic? JAMA. 1999;281(11):1022-9.",
+        "computed": false,
+        "doi": "10.1001/jama.281.11.1022",
+        "evidence_level": "pooled",
+        "interpretation_label": "minimal",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "10086438",
+        "population": "Healthy adult volunteers undergoing phlebotomy (moderate blood loss category)",
+        "prevalence": null,
+        "quote": "The presence of either finding has a sensitivity for moderate blood loss of only 22% (95% confidence interval [CI], 6%-48%)",
+        "reference_standard": "Known volume of phlebotomy (moderate blood loss as defined by the review)",
+        "sensitivity": {
+         "ci_high": "0.48",
+         "ci_low": "0.06",
+         "value": "0.22"
+        },
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "COMPOSITE: severe postural dizziness OR postural pulse increment >=30/min, for moderate blood loss (phlebotomy)",
+        "url": null,
+        "year": "1999"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Count the radial or apical pulse for 30-60 s after at least 2 minutes at rest (supine); tachycardia is >100/min. For the postural component, keep the patient supine 2 minutes, then standing 1 minute, and record the pulse rise; a rise of 30/min or more, or inability to stand because of dizziness, is positive.",
+      "id": "exam_tachycardia_resting",
+      "negative_finding": "Supine tachycardia is frequently absent after moderate blood loss, so a normal resting rate does not exclude hypovolemia; a normal postural pulse response has modest value after moderate blood loss (composite sensitivity 22%).",
+      "pitfalls": "Beta-blockers, pacing, athletic training, and autonomic neuropathy blunt tachycardia; fever, pain, anxiety, and drugs cause tachycardia without hypovolemia; the postural test is unsafe in unstable patients.",
+      "positive_finding": "A large postural pulse increment (>=30/min) or severe postural dizziness is highly specific for large-volume blood loss; resting tachycardia is present in about three-quarters of patients with cardiac tamponade but is nonspecific across shock, PE, sepsis, anemia, and thyrotoxicosis.",
+      "prerequisites": "Patient rested; note beta-blockers, pacemaker, and pain/anxiety.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Resting heart rate >100/min (and postural pulse increment)",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_thyroid_gland_palpation",
+      "changes_what": "Positive: order TSH/free T4 and ultrasound for nodularity; negative: does not change the decision to check TSH in unexplained palpitations, AF or weight loss.",
+      "contraindications": "None; palpate gently if the gland is acutely tender (thyroiditis).",
+      "do_not_use_when": "Do not use a normal palpation to withhold thyroid function testing in palpitations, new AF, unexplained weight loss or edema.",
+      "escalation_warning": "A rapidly enlarging, hard or fixed gland, stridor or a fixed nodule with hoarseness needs urgent imaging/ENT referral irrespective of function tests.",
+      "evidence": [
+       {
+        "citation": "Peterson S, Sanga A, Ekl\u00f6f H, Bunga B, Taube A, Gebre-Medhin M, Rosling H. Classification of thyroid size by palpation and ultrasonography in field surveys. Lancet 2000;355:106-110.",
+        "computed": true,
+        "doi": "10.1016/S0140-6736(99)07221-9",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Findings",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.58"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "2.33"
+        },
+        "pmid": "10675168",
+        "population": "225 Tanzanian schoolchildren aged 7-14 y in an iodine-deficient highland village (field survey); three examiners",
+        "prevalence": null,
+        "quote": "The new goitre criterion decreased specificity from 76% to 29%, whereas sensitivity rose from 56% to 80%.",
+        "reference_standard": "Thyroid ultrasonography volume (duplicate examinations)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.56"
+        },
+        "setting": "outpatient",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.76"
+        },
+        "target_condition": "Goiter by ultrasound volume, palpation using WHO 1960 criterion ('lobes larger than the terminal phalanxes of thumbs')",
+        "url": null,
+        "year": "2000"
+       },
+       {
+        "citation": "Peterson S, Sanga A, Ekl\u00f6f H, Bunga B, Taube A, Gebre-Medhin M, Rosling H. Classification of thyroid size by palpation and ultrasonography in field surveys. Lancet 2000;355:106-110.",
+        "computed": true,
+        "doi": "10.1016/S0140-6736(99)07221-9",
+        "evidence_level": "single_study",
+        "interpretation_label": "minimal",
+        "kind": "primary_study",
+        "location": "Abstract, Findings",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.69"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "1.13"
+        },
+        "pmid": "10675168",
+        "population": "225 Tanzanian schoolchildren aged 7-14 y in an iodine-deficient highland village (field survey); three examiners",
+        "prevalence": null,
+        "quote": "The new goitre criterion decreased specificity from 76% to 29%, whereas sensitivity rose from 56% to 80%.",
+        "reference_standard": "Thyroid ultrasonography volume (duplicate examinations)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.8"
+        },
+        "setting": "outpatient",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.29"
+        },
+        "target_condition": "Goiter by ultrasound volume, palpation using WHO 1994 criterion (palpable and/or visible thyroid)",
+        "url": null,
+        "year": "2000"
+       },
+       {
+        "citation": "Wiest PW, Hartshorne MF, Inskip PD, Crooks LA, Vela BS, Telepak RJ, Williamson MR, Blumhardt R. Thyroid palpation versus high-resolution thyroid ultrasonography in the detection of nodules. J Ultrasound Med 1998;17:487-496.",
+        "computed": false,
+        "doi": "10.7863/jum.1998.17.8.487",
+        "evidence_level": "single_study",
+        "interpretation_label": "minimal",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "9697951",
+        "population": "2441 adults, mostly Chernobyl clean-up workers, Estonia; blinded experienced physician examiners",
+        "prevalence": "0.102",
+        "quote": "Physical examination found only 53 (21%) of the 249 nodules found by high-resolution ultrasonography.",
+        "reference_standard": "High-resolution thyroid ultrasonography",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.21"
+        },
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "Thyroid nodule (any size) detected by high-resolution ultrasonography - palpation sensitivity per subject",
+        "url": null,
+        "year": "1998"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Inspect the neck from the front with the patient swallowing water, then stand behind and palpate each lobe with the fingertips while the patient swallows; note size (each lobe larger than the terminal phalanx of the patient's thumb = goiter), consistency, nodules and tenderness. Auscultate over each lobe for a bruit with the patient holding their breath.",
+      "id": "exam_thyroid_gland_palpation",
+      "negative_finding": "A normal-sized gland on palpation lowers the likelihood of a large goiter but does not exclude hyperthyroidism or nodular disease (palpation found only 21% of ultrasound nodules).",
+      "pitfalls": "Interobserver agreement on gland type is poor (kappa -0.04 to 0.54), palpation misses nodules <1 cm and upper-pole nodules, and the WHO 1994 'visible/palpable' criterion trades specificity (29%) for sensitivity (80%) against ultrasound volume.",
+      "positive_finding": "Diffuse smooth enlargement with a bruit suggests Graves' disease; a nodular gland raises toxic nodular goiter; either supports thyroid disease as a cause of palpitations, AF or edema but does not establish thyrotoxicosis without TSH.",
+      "prerequisites": "Neck extended slightly, a cup of water for swallowing, good lighting for inspection; know the patient's habitus (short thick necks and obesity hide the gland).",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Thyroid palpation and auscultation: goiter, nodularity, bruit (distinct from thyrotoxicosis signs)",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/fn_pulse_palpation_during_symptoms",
+      "changes_what": "Irregular pulse during symptoms: obtain ECG for AF and anticoagulation decision; regular fast pulse with abrupt stop: pursue SVT with monitoring/EP referral.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not substitute pulse palpation for an ECG when the patient is symptomatic and monitoring is available; do not rely on a patient's self-count in syncope.",
+      "escalation_warning": "Pulse >150/min with hypotension, chest pain, dyspnea or altered mentation is an unstable tachyarrhythmia needing immediate ECG/monitoring and possible cardioversion.",
+      "evidence": [
+       {
+        "citation": "Cooke G, Doust J, Sanders S. Is pulse palpation helpful in detecting atrial fibrillation? A systematic review. J Fam Pract 2006;55:130-134.",
+        "computed": false,
+        "doi": null,
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_out",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "16451780",
+        "population": "3 studies, 2385 patients, predominantly elderly primary care/screening populations",
+        "prevalence": null,
+        "quote": "Pooled sensitivity was 94% (95% confidence interval [CI], 84%-97%) and pooled specificity was 72% (95% CI, 69%-75%)",
+        "reference_standard": "12-lead ECG",
+        "sensitivity": {
+         "ci_high": "0.97",
+         "ci_low": "0.84",
+         "value": "0.94"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "0.75",
+         "ci_low": "0.69",
+         "value": "0.72"
+        },
+        "target_condition": "Atrial fibrillation (irregular pulse on palpation)",
+        "url": null,
+        "year": "2006"
+       },
+       {
+        "citation": "Cooke G, Doust J, Sanders S. Is pulse palpation helpful in detecting atrial fibrillation? A systematic review. J Fam Pract 2006;55:130-134.",
+        "computed": false,
+        "doi": null,
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_out",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.1"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "3.39"
+        },
+        "pmid": "16451780",
+        "population": "3 studies, 2385 patients, predominantly elderly primary care/screening populations",
+        "prevalence": null,
+        "quote": "The pooled positive likelihood ratio was 3.39, while the pooled negative likelihood ratio was 0.10.",
+        "reference_standard": "12-lead ECG",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Atrial fibrillation (irregular pulse on palpation)",
+        "url": null,
+        "year": "2006"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "During an episode, palpate the radial pulse (or auscultate the apex) for a full 60 seconds: note the rate, whether the rhythm is regular, regularly irregular (dropped beats) or irregularly irregular, and whether it stops abruptly or slows gradually. Teach the patient to do the same or to record with a smartwatch/single-lead device between visits.",
+      "id": "fn_pulse_palpation_during_symptoms",
+      "negative_finding": "A regular pulse during symptoms makes AF unlikely (LR- 0.10). A normal rate and rhythm while symptomatic argues against an arrhythmic cause of that episode.",
+      "pitfalls": "The pooled data are for pulse irregularity versus ECG (largely elderly screening), not for rate or termination pattern, which are unquantified. Frequent ectopy and sinus arrhythmia mimic AF; fast rates make irregularity hard to feel.",
+      "positive_finding": "An irregularly irregular pulse has pooled sensitivity 0.94 and specificity 0.72 for AF (LR+ 3.4). A regular pulse at 150-250/min that stops abruptly suggests SVT; occasional dropped/early beats suggest ectopy.",
+      "prerequisites": "Symptoms present at the time of examination, or the patient trained to self-check; a 12-lead ECG or rhythm strip should be obtained simultaneously whenever possible.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Palpate/auscultate the pulse (or have the patient count/record it) DURING an episode: rate, regularity, abrupt termination",
+      "type": "functional"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_palpitations_abrupt_onset_offset",
+     "rationale": ""
+    },
+    {
+     "id": "hx_anxiety_panic_features",
+     "rationale": ""
+    },
+    {
+     "id": "hx_stimulant_caffeine_alcohol_use",
+     "rationale": ""
+    },
+    {
+     "id": "hx_neck_pounding_frog_sign",
+     "rationale": ""
+    }
+   ],
+   "examine": [
+    {
+     "id": "exam_thyrotoxicosis_signs",
+     "rationale": ""
+    },
+    {
+     "id": "exam_tachycardia_resting",
+     "rationale": ""
+    },
+    {
+     "id": "exam_thyroid_gland_palpation",
+     "rationale": ""
+    },
+    {
+     "id": "fn_pulse_palpation_during_symptoms",
+     "rationale": ""
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "heart racing and skipping for weeks with weight loss",
+   "differentials": [
+    {
+     "dx": "hyperthyroidism",
+     "weight": 1.0
+    },
+    {
+     "dx": "sinus_tachycardia_secondary",
+     "weight": 0.4
+    },
+    {
+     "dx": "anxiety_hyperventilation",
+     "weight": 0.3
+    },
+    {
+     "dx": "atrial_fibrillation_flutter",
+     "weight": 0.2
+    },
+    {
+     "dx": "pvcs_benign_ectopy",
+     "weight": 0.1
+    }
+   ],
+   "indication_tags": [
+    "subacute"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "weight loss",
+    "regular pulse",
+    "no fever"
+   ],
+   "presentation": "palpitations",
+   "time_course": "subacute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "n1"
+}

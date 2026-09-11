@@ -1,0 +1,263 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "edema_002",
+ "blocked_items": [],
+ "case_id": "edema_002_n1",
+ "created_at": "2026-09-11T09:11:47+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Duration and progression of abdominal distension and leg swelling"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Symptoms of liver dysfunction: jaundice, pruritus, confusion (encephalopathy), GI bleeding (melena, hematemesis)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Alcohol use: quantity, duration, last drink (risk of withdrawal)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Other risk factors: viral hepatitis, drug use, transfusions, family history"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Appetite, weight loss, muscle wasting"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Urine output (renal function)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medications, over-the-counter drugs, herbal supplements"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: cachexia, muscle wasting, asterixis (flapping tremor)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vitals: orthostatic hypotension"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Skin: jaundice, spider angiomata, palmar erythema, bruising, caput medusae"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdomen: distension, shifting dullness, fluid wave (ascites), tenderness (peritonitis), hepatomegaly, splenomegaly"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Extremities: pitting edema"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neurologic: mental status (encephalopathy), asterixis"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Cattau et al",
+    "JAMA 1982"
+   ],
+   "numeric_claims": [
+    "1.5",
+    "1982",
+    "56",
+    "83"
+   ],
+   "performance_claims": [
+    "1.5",
+    "56",
+    "83"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Shifting dullness (for ascites): Sensitivity ~83%, specificity ~56% for detecting >1.5L of ascites (Cattau et al, JAMA 1982)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Fluid wave test: Less sensitive than shifting dullness, but more specific if positive"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Asterixis: Suggests hepatic encephalopathy"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose, urine dipstick (for renal function, infection)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "56",
+    "83"
+   ],
+   "performance_claims": [
+    "56",
+    "83"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Shifting dullness: Sensitivity 83%, specificity 56%"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Cattau et al"
+   ],
+   "numeric_claims": [
+    "62",
+    "88"
+   ],
+   "performance_claims": [
+    "62",
+    "88"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Fluid wave: Sensitivity 62%, specificity 88% (Cattau et al)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Asterixis: Not highly sensitive, but specific for metabolic encephalopathy"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on signs of chronic liver disease, complications (ascites, encephalopathy, infection), and volume status. Bedside tests for ascites (shifting dullness, fluid wave) are useful, with shifting dullness being more sensitive. Asterixis is a key sign of encephalopathy. Always assess for infection (spontaneous bacterial peritonitis) and renal dysfunction (hepatorenal syndrome) in decompensated cirrhosis"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014middle-aged man with heavy alcohol use, progressive abdominal distension (ascites), bilateral leg swelling (edema), weakness, and low-normal blood pressure\u2014the most likely diagnosis is decompensated chronic liver disease (cirrhosis) with portal hypertension and possible complications (e.g., spontaneous bacterial peritonitis, hepatorenal syndrome).\n\n**History:**\n- Duration and progression of abdominal distension and leg swelling\n- Symptoms of liver dysfunction: jaundice, pruritus, confusion (encephalopathy), GI bleeding (melena, hematemesis)\n- Alcohol use: quantity, duration, last drink (risk of withdrawal)\n- Other risk factors: viral hepatitis, drug use, transfusions, family history\n- Appetite, weight loss, muscle wasting\n- Urine output (renal function)\n- Medications, over-the-counter drugs, herbal supplements\n\n**Physical Examination:**\n- General: cachexia, muscle wasting, asterixis (flapping tremor)\n- Vitals: orthostatic hypotension\n- Skin: jaundice, spider angiomata, palmar erythema, bruising, caput medusae\n- Abdomen: distension, shifting dullness, fluid wave (ascites), tenderness (peritonitis), hepatomegaly, splenomegaly\n- Extremities: pitting edema\n- Neurologic: mental status (encephalopathy), asterixis\n\n**Bedside Tests:**\n- Shifting dullness (for ascites): Sensitivity ~83%, specificity ~56% for detecting >1.5L of ascites (Cattau et al, JAMA 1982)\n- Fluid wave test: Less sensitive than shifting dullness, but more specific if positive\n- Asterixis: Suggests hepatic encephalopathy\n- Bedside glucose, urine dipstick (for renal function, infection)\n\n**Diagnostic Performance Data:**\n- Shifting dullness: Sensitivity 83%, specificity 56%\n- Fluid wave: Sensitivity 62%, specificity 88% (Cattau et al)\n- Asterixis: Not highly sensitive, but specific for metabolic encephalopathy\n\n**Summary:**\nFocus on signs of chronic liver disease, complications (ascites, encephalopathy, infection), and volume status. Bedside tests for ascites (shifting dullness, fluid wave) are useful, with shifting dullness being more sensitive. Asterixis is a key sign of encephalopathy. Always assess for infection (spontaneous bacterial peritonitis) and renal dysfunction (hepatorenal syndrome) in decompensated cirrhosis."
+ },
+ "variant": "n1"
+}

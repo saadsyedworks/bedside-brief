@@ -1,0 +1,1490 @@
+{
+ "arms": {
+  "A": {
+   "ask_first": {
+    "accuracy": 1.0,
+    "cases": 9,
+    "correct": 9,
+    "false_negatives": [],
+    "false_positives": []
+   },
+   "bedside_share": {
+    "default": {
+     "bedside": 21,
+     "items": 21,
+     "per_case_mean": 1.0,
+     "share": 1.0
+    },
+    "ecg_bedside": {
+     "bedside": 21,
+     "items": 21,
+     "per_case_mean": 1.0,
+     "share": 1.0
+    },
+    "mar_offbedside": {
+     "bedside": 21,
+     "items": 21,
+     "per_case_mean": 1.0,
+     "share": 1.0
+    }
+   },
+   "brevity": {
+    "cards": 9,
+    "items_per_card_max": 3,
+    "items_per_card_mean": 2.3333333333333335,
+    "pass": 9,
+    "pass_rate": 1.0
+   },
+   "category_counts": {
+    "exam": 6,
+    "functional": 9,
+    "history": 6
+   },
+   "errors": {},
+   "evidence_fidelity": {
+    "displayed": 258,
+    "fidelity": 1.0,
+    "matched": 258
+   },
+   "items_per_case_mean": 2.3333333333333335,
+   "items_total": 21,
+   "n_errors": 0,
+   "n_outputs": 9,
+   "noise_stability": {
+    "jaccard_mean": 1.0,
+    "jaccard_min": 1.0,
+    "pairs": 3,
+    "per_pair": {
+     "syncope_001": 1.0,
+     "syncope_002": 1.0,
+     "syncope_003": 1.0
+    }
+   },
+   "perturbation_responsiveness": {
+    "explicit_pairs": 3,
+    "fallback_pairs": 0,
+    "pairs": 3,
+    "per_pair": {
+     "syncope_001": {
+      "how": "explicit",
+      "score": 0.0
+     },
+     "syncope_002": {
+      "how": "explicit",
+      "score": 1.0
+     },
+     "syncope_003": {
+      "how": "explicit",
+      "score": 0.0
+     }
+    },
+    "rate": 0.3333333333333333
+   },
+   "should_not_recommend": {
+    "case_hit_rate": 0.0,
+    "cases": 9,
+    "cases_hit": 0,
+    "examples": [],
+    "item_hit_rate": 0.0,
+    "items": 21,
+    "items_hit": 0
+   },
+   "target_recall_all": {
+    "present": 13,
+    "recall": 0.20634920634920634,
+    "total": 63
+   },
+   "target_recall_must_have": {
+    "found_by": {
+     "id": 5
+    },
+    "present": 5,
+    "recall": 0.18518518518518517,
+    "strata": {
+     "not_quantified": {
+      "present": 3,
+      "recall": 1.0,
+      "total": 3
+     },
+     "quantified": {
+      "present": 2,
+      "recall": 0.6666666666666666,
+      "total": 3
+     },
+     "unmapped": {
+      "present": 0,
+      "recall": 0.0,
+      "total": 21
+     }
+    },
+    "total": 27
+   },
+   "unclassified_items": 0,
+   "unsupported_claim_rate": {
+    "any_verified_record": {
+     "claims": 258,
+     "rate": 0.0,
+     "unsupported": 0
+    },
+    "claims": 258,
+    "examples": [],
+    "performance_only": {
+     "claims": 162,
+     "rate": 0.0,
+     "unsupported": 0
+    },
+    "rate": 0.0,
+    "unsupported": 0
+   }
+  },
+  "B": {
+   "ask_first": {
+    "accuracy": 1.0,
+    "cases": 9,
+    "correct": 9,
+    "false_negatives": [],
+    "false_positives": []
+   },
+   "bedside_share": {
+    "default": {
+     "bedside": 21,
+     "items": 21,
+     "per_case_mean": 1.0,
+     "share": 1.0
+    },
+    "ecg_bedside": {
+     "bedside": 21,
+     "items": 21,
+     "per_case_mean": 1.0,
+     "share": 1.0
+    },
+    "mar_offbedside": {
+     "bedside": 21,
+     "items": 21,
+     "per_case_mean": 1.0,
+     "share": 1.0
+    }
+   },
+   "brevity": {
+    "cards": 9,
+    "items_per_card_max": 3,
+    "items_per_card_mean": 2.3333333333333335,
+    "pass": 9,
+    "pass_rate": 1.0
+   },
+   "category_counts": {
+    "exam": 6,
+    "functional": 9,
+    "history": 6
+   },
+   "errors": {},
+   "evidence_fidelity": {
+    "displayed": 258,
+    "fidelity": 1.0,
+    "matched": 258
+   },
+   "items_per_case_mean": 2.3333333333333335,
+   "items_total": 21,
+   "n_errors": 0,
+   "n_outputs": 9,
+   "noise_stability": {
+    "jaccard_mean": 1.0,
+    "jaccard_min": 1.0,
+    "pairs": 3,
+    "per_pair": {
+     "syncope_001": 1.0,
+     "syncope_002": 1.0,
+     "syncope_003": 1.0
+    }
+   },
+   "perturbation_responsiveness": {
+    "explicit_pairs": 3,
+    "fallback_pairs": 0,
+    "pairs": 3,
+    "per_pair": {
+     "syncope_001": {
+      "how": "explicit",
+      "score": 0.0
+     },
+     "syncope_002": {
+      "how": "explicit",
+      "score": 1.0
+     },
+     "syncope_003": {
+      "how": "explicit",
+      "score": 0.0
+     }
+    },
+    "rate": 0.3333333333333333
+   },
+   "should_not_recommend": {
+    "case_hit_rate": 0.0,
+    "cases": 9,
+    "cases_hit": 0,
+    "examples": [],
+    "item_hit_rate": 0.0,
+    "items": 21,
+    "items_hit": 0
+   },
+   "target_recall_all": {
+    "present": 13,
+    "recall": 0.20634920634920634,
+    "total": 63
+   },
+   "target_recall_must_have": {
+    "found_by": {
+     "id": 5
+    },
+    "present": 5,
+    "recall": 0.18518518518518517,
+    "strata": {
+     "not_quantified": {
+      "present": 3,
+      "recall": 1.0,
+      "total": 3
+     },
+     "quantified": {
+      "present": 2,
+      "recall": 0.6666666666666666,
+      "total": 3
+     },
+     "unmapped": {
+      "present": 0,
+      "recall": 0.0,
+      "total": 21
+     }
+    },
+    "total": 27
+   },
+   "unclassified_items": 0,
+   "unsupported_claim_rate": {
+    "any_verified_record": {
+     "claims": 258,
+     "rate": 0.0,
+     "unsupported": 0
+    },
+    "claims": 258,
+    "examples": [],
+    "performance_only": {
+     "claims": 162,
+     "rate": 0.0,
+     "unsupported": 0
+    },
+    "rate": 0.0,
+    "unsupported": 0
+   }
+  },
+  "C": {
+   "ask_first": {
+    "accuracy": 1.0,
+    "cases": 9,
+    "correct": 9,
+    "false_negatives": [],
+    "false_positives": []
+   },
+   "bedside_share": {
+    "default": {
+     "bedside": 45,
+     "items": 72,
+     "per_case_mean": 0.625,
+     "share": 0.625
+    },
+    "ecg_bedside": {
+     "bedside": 54,
+     "items": 72,
+     "per_case_mean": 0.75,
+     "share": 0.75
+    },
+    "mar_offbedside": {
+     "bedside": 45,
+     "items": 72,
+     "per_case_mean": 0.625,
+     "share": 0.625
+    }
+   },
+   "brevity": {
+    "cards": 9,
+    "items_per_card_max": 8,
+    "items_per_card_mean": 8.0,
+    "pass": 9,
+    "pass_rate": 1.0
+   },
+   "category_counts": {
+    "ecg": 9,
+    "exam": 9,
+    "functional": 18,
+    "history": 18,
+    "imaging": 9,
+    "lab": 9
+   },
+   "errors": {},
+   "evidence_fidelity": null,
+   "items_per_case_mean": 8.0,
+   "items_total": 72,
+   "n_errors": 0,
+   "n_outputs": 9,
+   "noise_stability": {
+    "jaccard_mean": 1.0,
+    "jaccard_min": 1.0,
+    "pairs": 3,
+    "per_pair": {
+     "syncope_001": 1.0,
+     "syncope_002": 1.0,
+     "syncope_003": 1.0
+    }
+   },
+   "perturbation_responsiveness": {
+    "explicit_pairs": 3,
+    "fallback_pairs": 0,
+    "pairs": 3,
+    "per_pair": {
+     "syncope_001": {
+      "how": "explicit",
+      "score": 0.5
+     },
+     "syncope_002": {
+      "how": "explicit",
+      "score": 1.0
+     },
+     "syncope_003": {
+      "how": "explicit",
+      "score": 0.0
+     }
+    },
+    "rate": 0.5
+   },
+   "should_not_recommend": {
+    "case_hit_rate": 1.0,
+    "cases": 9,
+    "cases_hit": 9,
+    "examples": [
+     {
+      "case_id": "syncope_001",
+      "item": "Carotid sinus massage",
+      "should_not_recommend": "Carotid sinus massage before aortic stenosis severity is assessed"
+     },
+     {
+      "case_id": "syncope_001_n1",
+      "item": "Carotid sinus massage",
+      "should_not_recommend": "Carotid sinus massage before aortic stenosis severity is assessed"
+     },
+     {
+      "case_id": "syncope_001_p1",
+      "item": "Carotid sinus massage",
+      "should_not_recommend": "Carotid sinus massage before aortic stenosis severity is assessed"
+     },
+     {
+      "case_id": "syncope_002",
+      "item": "Carotid sinus massage",
+      "should_not_recommend": "Carotid sinus massage in a patient on sotalol with suspected conduction disease"
+     },
+     {
+      "case_id": "syncope_002_n1",
+      "item": "Carotid sinus massage",
+      "should_not_recommend": "Carotid sinus massage in a patient on sotalol with suspected conduction disease"
+     },
+     {
+      "case_id": "syncope_002_p1",
+      "item": "Carotid sinus massage",
+      "should_not_recommend": "Carotid sinus massage in a patient on sotalol with suspected conduction disease"
+     },
+     {
+      "case_id": "syncope_003",
+      "item": "Carotid sinus massage",
+      "should_not_recommend": "Carotid sinus massage in a 44-year-old with a clear situational trigger"
+     },
+     {
+      "case_id": "syncope_003_n1",
+      "item": "Carotid sinus massage",
+      "should_not_recommend": "Carotid sinus massage in a 44-year-old with a clear situational trigger"
+     },
+     {
+      "case_id": "syncope_003_p1",
+      "item": "Carotid sinus massage",
+      "should_not_recommend": "Carotid sinus massage in a 44-year-old with a clear situational trigger"
+     }
+    ],
+    "item_hit_rate": 0.125,
+    "items": 72,
+    "items_hit": 9
+   },
+   "target_recall_all": {
+    "present": 27,
+    "recall": 0.42857142857142855,
+    "total": 63
+   },
+   "target_recall_must_have": {
+    "found_by": {
+     "text": 15
+    },
+    "present": 15,
+    "recall": 0.5555555555555556,
+    "strata": {
+     "not_quantified": {
+      "present": 3,
+      "recall": 1.0,
+      "total": 3
+     },
+     "quantified": {
+      "present": 3,
+      "recall": 1.0,
+      "total": 3
+     },
+     "unmapped": {
+      "present": 9,
+      "recall": 0.42857142857142855,
+      "total": 21
+     }
+    },
+    "total": 27
+   },
+   "unclassified_items": 0,
+   "unsupported_claim_rate": {
+    "any_verified_record": {
+     "claims": 63,
+     "rate": 0.42857142857142855,
+     "unsupported": 27
+    },
+    "claims": 63,
+    "examples": [
+     {
+      "case_id": "syncope_001",
+      "text": "Auscultate for a late-peaking systolic murmur with a soft S2 (LR+ 12.7 in one series)",
+      "unsupported": [
+       "12.7",
+       "2"
+      ]
+     },
+     {
+      "case_id": "syncope_001",
+      "text": "Orthostatic vital signs at 1 and 3 minutes",
+      "unsupported": [
+       "1",
+       "3"
+      ]
+     },
+     {
+      "case_id": "syncope_001",
+      "text": "12-lead ECG",
+      "unsupported": [
+       "12"
+      ]
+     },
+     {
+      "case_id": "syncope_001_n1",
+      "text": "Auscultate for a late-peaking systolic murmur with a soft S2 (LR+ 12.7 in one series)",
+      "unsupported": [
+       "12.7",
+       "2"
+      ]
+     },
+     {
+      "case_id": "syncope_001_n1",
+      "text": "Orthostatic vital signs at 1 and 3 minutes",
+      "unsupported": [
+       "1",
+       "3"
+      ]
+     },
+     {
+      "case_id": "syncope_001_n1",
+      "text": "12-lead ECG",
+      "unsupported": [
+       "12"
+      ]
+     },
+     {
+      "case_id": "syncope_001_p1",
+      "text": "Auscultate for a late-peaking systolic murmur with a soft S2 (LR+ 12.7 in one series)",
+      "unsupported": [
+       "12.7",
+       "2"
+      ]
+     },
+     {
+      "case_id": "syncope_001_p1",
+      "text": "Orthostatic vital signs at 1 and 3 minutes",
+      "unsupported": [
+       "1",
+       "3"
+      ]
+     },
+     {
+      "case_id": "syncope_001_p1",
+      "text": "12-lead ECG",
+      "unsupported": [
+       "12"
+      ]
+     },
+     {
+      "case_id": "syncope_002",
+      "text": "Auscultate for a late-peaking systolic murmur with a soft S2 (LR+ 12.7 in one series)",
+      "unsupported": [
+       "12.7",
+       "2"
+      ]
+     },
+     {
+      "case_id": "syncope_002",
+      "text": "Orthostatic vital signs at 1 and 3 minutes",
+      "unsupported": [
+       "1",
+       "3"
+      ]
+     },
+     {
+      "case_id": "syncope_002",
+      "text": "12-lead ECG",
+      "unsupported": [
+       "12"
+      ]
+     },
+     {
+      "case_id": "syncope_002_n1",
+      "text": "Auscultate for a late-peaking systolic murmur with a soft S2 (LR+ 12.7 in one series)",
+      "unsupported": [
+       "12.7",
+       "2"
+      ]
+     },
+     {
+      "case_id": "syncope_002_n1",
+      "text": "Orthostatic vital signs at 1 and 3 minutes",
+      "unsupported": [
+       "1",
+       "3"
+      ]
+     },
+     {
+      "case_id": "syncope_002_n1",
+      "text": "12-lead ECG",
+      "unsupported": [
+       "12"
+      ]
+     },
+     {
+      "case_id": "syncope_002_p1",
+      "text": "Auscultate for a late-peaking systolic murmur with a soft S2 (LR+ 12.7 in one series)",
+      "unsupported": [
+       "12.7",
+       "2"
+      ]
+     },
+     {
+      "case_id": "syncope_002_p1",
+      "text": "Orthostatic vital signs at 1 and 3 minutes",
+      "unsupported": [
+       "1",
+       "3"
+      ]
+     },
+     {
+      "case_id": "syncope_002_p1",
+      "text": "12-lead ECG",
+      "unsupported": [
+       "12"
+      ]
+     },
+     {
+      "case_id": "syncope_003",
+      "text": "Auscultate for a late-peaking systolic murmur with a soft S2 (LR+ 12.7 in one series)",
+      "unsupported": [
+       "12.7",
+       "2"
+      ]
+     },
+     {
+      "case_id": "syncope_003",
+      "text": "Orthostatic vital signs at 1 and 3 minutes",
+      "unsupported": [
+       "1",
+       "3"
+      ]
+     },
+     {
+      "case_id": "syncope_003",
+      "text": "12-lead ECG",
+      "unsupported": [
+       "12"
+      ]
+     },
+     {
+      "case_id": "syncope_003_n1",
+      "text": "Auscultate for a late-peaking systolic murmur with a soft S2 (LR+ 12.7 in one series)",
+      "unsupported": [
+       "12.7",
+       "2"
+      ]
+     },
+     {
+      "case_id": "syncope_003_n1",
+      "text": "Orthostatic vital signs at 1 and 3 minutes",
+      "unsupported": [
+       "1",
+       "3"
+      ]
+     },
+     {
+      "case_id": "syncope_003_n1",
+      "text": "12-lead ECG",
+      "unsupported": [
+       "12"
+      ]
+     },
+     {
+      "case_id": "syncope_003_p1",
+      "text": "Auscultate for a late-peaking systolic murmur with a soft S2 (LR+ 12.7 in one series)",
+      "unsupported": [
+       "12.7",
+       "2"
+      ]
+     }
+    ],
+    "performance_only": {
+     "claims": 27,
+     "rate": 0.6666666666666666,
+     "unsupported": 18
+    },
+    "rate": 0.7142857142857143,
+    "unsupported": 45
+   }
+  }
+ },
+ "cases": {
+  "base": 3,
+  "inputs": 9,
+  "noise_variants": 3,
+  "perturbation_pairs": 3,
+  "underspecified": []
+ },
+ "notes": [],
+ "per_case": [
+  {
+   "arm": "A",
+   "ask_first": false,
+   "ask_first_expected": false,
+   "base_case_id": "syncope_001",
+   "bedside_items": 3,
+   "blocked_items": [],
+   "brevity_pass": true,
+   "case_id": "syncope_001",
+   "error": null,
+   "items": 3,
+   "missing_must_have": [
+    "Dynamic auscultation: murmur intensity with Valsalva and squat-to-stand (louder with Valsalva or standing suggests HCM, softer suggests AS)",
+    "Ask about prodrome and palpitations before the event"
+   ],
+   "must_have_present": 1,
+   "must_have_total": 3,
+   "presentation": "syncope",
+   "section_counts": {
+    "ask": 1,
+    "examine": 2
+   },
+   "snr_hit": false,
+   "unsupported_claims": 0,
+   "variant": "base"
+  },
+  {
+   "arm": "A",
+   "ask_first": false,
+   "ask_first_expected": false,
+   "base_case_id": "syncope_001",
+   "bedside_items": 3,
+   "blocked_items": [],
+   "brevity_pass": true,
+   "case_id": "syncope_001_n1",
+   "error": null,
+   "items": 3,
+   "missing_must_have": [
+    "Dynamic auscultation: murmur intensity with Valsalva and squat-to-stand (louder with Valsalva or standing suggests HCM, softer suggests AS)",
+    "Ask about prodrome and palpitations before the event"
+   ],
+   "must_have_present": 1,
+   "must_have_total": 3,
+   "presentation": "syncope",
+   "section_counts": {
+    "ask": 1,
+    "examine": 2
+   },
+   "snr_hit": false,
+   "unsupported_claims": 0,
+   "variant": "n1"
+  },
+  {
+   "arm": "A",
+   "ask_first": false,
+   "ask_first_expected": false,
+   "base_case_id": "syncope_001",
+   "bedside_items": 1,
+   "blocked_items": [],
+   "brevity_pass": true,
+   "case_id": "syncope_001_p1",
+   "error": null,
+   "items": 1,
+   "missing_must_have": [
+    "Characterize the murmur: late-peaking, radiation to carotids, soft or absent S2, slow or delayed carotid upstroke",
+    "Dynamic auscultation: murmur intensity with Valsalva and squat-to-stand (louder with Valsalva or standing suggests HCM, softer suggests AS)",
+    "Ask about prodrome and palpitations before the event"
+   ],
+   "must_have_present": 0,
+   "must_have_total": 3,
+   "presentation": "syncope",
+   "section_counts": {
+    "examine": 1
+   },
+   "snr_hit": false,
+   "unsupported_claims": 0,
+   "variant": "p1"
+  },
+  {
+   "arm": "A",
+   "ask_first": false,
+   "ask_first_expected": false,
+   "base_case_id": "syncope_002",
+   "bedside_items": 3,
+   "blocked_items": [],
+   "brevity_pass": true,
+   "case_id": "syncope_002",
+   "error": null,
+   "items": 3,
+   "missing_must_have": [
+    "Ask about prodrome (none vs palpitations vs lightheadedness), what she was doing (lying vs standing), and duration of unconsciousness",
+    "Witness account: duration, color, jerking, tongue biting, incontinence, post-event confusion (from nurse)",
+    "Medication review (MAR): sotalol dose and timing, other QT-prolonging or AV-nodal agents, recent additions"
+   ],
+   "must_have_present": 0,
+   "must_have_total": 3,
+   "presentation": "syncope",
+   "section_counts": {
+    "ask": 1,
+    "examine": 2
+   },
+   "snr_hit": false,
+   "unsupported_claims": 0,
+   "variant": "base"
+  },
+  {
+   "arm": "A",
+   "ask_first": false,
+   "ask_first_expected": false,
+   "base_case_id": "syncope_002",
+   "bedside_items": 3,
+   "blocked_items": [],
+   "brevity_pass": true,
+   "case_id": "syncope_002_n1",
+   "error": null,
+   "items": 3,
+   "missing_must_have": [
+    "Ask about prodrome (none vs palpitations vs lightheadedness), what she was doing (lying vs standing), and duration of unconsciousness",
+    "Witness account: duration, color, jerking, tongue biting, incontinence, post-event confusion (from nurse)",
+    "Medication review (MAR): sotalol dose and timing, other QT-prolonging or AV-nodal agents, recent additions"
+   ],
+   "must_have_present": 0,
+   "must_have_total": 3,
+   "presentation": "syncope",
+   "section_counts": {
+    "ask": 1,
+    "examine": 2
+   },
+   "snr_hit": false,
+   "unsupported_claims": 0,
+   "variant": "n1"
+  },
+  {
+   "arm": "A",
+   "ask_first": false,
+   "ask_first_expected": false,
+   "base_case_id": "syncope_002",
+   "bedside_items": 1,
+   "blocked_items": [],
+   "brevity_pass": true,
+   "case_id": "syncope_002_p1",
+   "error": null,
+   "items": 1,
+   "missing_must_have": [
+    "Ask about prodrome (none vs palpitations vs lightheadedness), what she was doing (lying vs standing), and duration of unconsciousness",
+    "Witness account: duration, color, jerking, tongue biting, incontinence, post-event confusion (from nurse)",
+    "Medication review (MAR): sotalol dose and timing, other QT-prolonging or AV-nodal agents, recent additions"
+   ],
+   "must_have_present": 0,
+   "must_have_total": 3,
+   "presentation": "syncope",
+   "section_counts": {
+    "examine": 1
+   },
+   "snr_hit": false,
+   "unsupported_claims": 0,
+   "variant": "p1"
+  },
+  {
+   "arm": "A",
+   "ask_first": false,
+   "ask_first_expected": false,
+   "base_case_id": "syncope_003",
+   "bedside_items": 3,
+   "blocked_items": [],
+   "brevity_pass": true,
+   "case_id": "syncope_003",
+   "error": null,
+   "items": 3,
+   "missing_must_have": [
+    "Ask about prodrome (nausea, warmth, sweating, tunnel vision) and the sequence relative to micturition and standing",
+    "Dry axilla / mucous membranes"
+   ],
+   "must_have_present": 1,
+   "must_have_total": 3,
+   "presentation": "syncope",
+   "section_counts": {
+    "ask": 1,
+    "examine": 2
+   },
+   "snr_hit": false,
+   "unsupported_claims": 0,
+   "variant": "base"
+  },
+  {
+   "arm": "A",
+   "ask_first": false,
+   "ask_first_expected": false,
+   "base_case_id": "syncope_003",
+   "bedside_items": 3,
+   "blocked_items": [],
+   "brevity_pass": true,
+   "case_id": "syncope_003_n1",
+   "error": null,
+   "items": 3,
+   "missing_must_have": [
+    "Ask about prodrome (nausea, warmth, sweating, tunnel vision) and the sequence relative to micturition and standing",
+    "Dry axilla / mucous membranes"
+   ],
+   "must_have_present": 1,
+   "must_have_total": 3,
+   "presentation": "syncope",
+   "section_counts": {
+    "ask": 1,
+    "examine": 2
+   },
+   "snr_hit": false,
+   "unsupported_claims": 0,
+   "variant": "n1"
+  },
+  {
+   "arm": "A",
+   "ask_first": false,
+   "ask_first_expected": false,
+   "base_case_id": "syncope_003",
+   "bedside_items": 1,
+   "blocked_items": [],
+   "brevity_pass": true,
+   "case_id": "syncope_003_p1",
+   "error": null,
+   "items": 1,
+   "missing_must_have": [
+    "Ask about prodrome (nausea, warmth, sweating, tunnel vision) and the sequence relative to micturition and standing",
+    "Dry axilla / mucous membranes"
+   ],
+   "must_have_present": 1,
+   "must_have_total": 3,
+   "presentation": "syncope",
+   "section_counts": {
+    "examine": 1
+   },
+   "snr_hit": false,
+   "unsupported_claims": 0,
+   "variant": "p1"
+  },
+  {
+   "arm": "B",
+   "ask_first": false,
+   "ask_first_expected": false,
+   "base_case_id": "syncope_001",
+   "bedside_items": 3,
+   "blocked_items": [],
+   "brevity_pass": true,
+   "case_id": "syncope_001",
+   "error": null,
+   "items": 3,
+   "missing_must_have": [
+    "Dynamic auscultation: murmur intensity with Valsalva and squat-to-stand (louder with Valsalva or standing suggests HCM, softer suggests AS)",
+    "Ask about prodrome and palpitations before the event"
+   ],
+   "must_have_present": 1,
+   "must_have_total": 3,
+   "presentation": "syncope",
+   "section_counts": {
+    "ask": 1,
+    "examine": 2
+   },
+   "snr_hit": false,
+   "unsupported_claims": 0,
+   "variant": "base"
+  },
+  {
+   "arm": "B",
+   "ask_first": false,
+   "ask_first_expected": false,
+   "base_case_id": "syncope_001",
+   "bedside_items": 3,
+   "blocked_items": [],
+   "brevity_pass": true,
+   "case_id": "syncope_001_n1",
+   "error": null,
+   "items": 3,
+   "missing_must_have": [
+    "Dynamic auscultation: murmur intensity with Valsalva and squat-to-stand (louder with Valsalva or standing suggests HCM, softer suggests AS)",
+    "Ask about prodrome and palpitations before the event"
+   ],
+   "must_have_present": 1,
+   "must_have_total": 3,
+   "presentation": "syncope",
+   "section_counts": {
+    "ask": 1,
+    "examine": 2
+   },
+   "snr_hit": false,
+   "unsupported_claims": 0,
+   "variant": "n1"
+  },
+  {
+   "arm": "B",
+   "ask_first": false,
+   "ask_first_expected": false,
+   "base_case_id": "syncope_001",
+   "bedside_items": 1,
+   "blocked_items": [],
+   "brevity_pass": true,
+   "case_id": "syncope_001_p1",
+   "error": null,
+   "items": 1,
+   "missing_must_have": [
+    "Characterize the murmur: late-peaking, radiation to carotids, soft or absent S2, slow or delayed carotid upstroke",
+    "Dynamic auscultation: murmur intensity with Valsalva and squat-to-stand (louder with Valsalva or standing suggests HCM, softer suggests AS)",
+    "Ask about prodrome and palpitations before the event"
+   ],
+   "must_have_present": 0,
+   "must_have_total": 3,
+   "presentation": "syncope",
+   "section_counts": {
+    "examine": 1
+   },
+   "snr_hit": false,
+   "unsupported_claims": 0,
+   "variant": "p1"
+  },
+  {
+   "arm": "B",
+   "ask_first": false,
+   "ask_first_expected": false,
+   "base_case_id": "syncope_002",
+   "bedside_items": 3,
+   "blocked_items": [],
+   "brevity_pass": true,
+   "case_id": "syncope_002",
+   "error": null,
+   "items": 3,
+   "missing_must_have": [
+    "Ask about prodrome (none vs palpitations vs lightheadedness), what she was doing (lying vs standing), and duration of unconsciousness",
+    "Witness account: duration, color, jerking, tongue biting, incontinence, post-event confusion (from nurse)",
+    "Medication review (MAR): sotalol dose and timing, other QT-prolonging or AV-nodal agents, recent additions"
+   ],
+   "must_have_present": 0,
+   "must_have_total": 3,
+   "presentation": "syncope",
+   "section_counts": {
+    "ask": 1,
+    "examine": 2
+   },
+   "snr_hit": false,
+   "unsupported_claims": 0,
+   "variant": "base"
+  },
+  {
+   "arm": "B",
+   "ask_first": false,
+   "ask_first_expected": false,
+   "base_case_id": "syncope_002",
+   "bedside_items": 3,
+   "blocked_items": [],
+   "brevity_pass": true,
+   "case_id": "syncope_002_n1",
+   "error": null,
+   "items": 3,
+   "missing_must_have": [
+    "Ask about prodrome (none vs palpitations vs lightheadedness), what she was doing (lying vs standing), and duration of unconsciousness",
+    "Witness account: duration, color, jerking, tongue biting, incontinence, post-event confusion (from nurse)",
+    "Medication review (MAR): sotalol dose and timing, other QT-prolonging or AV-nodal agents, recent additions"
+   ],
+   "must_have_present": 0,
+   "must_have_total": 3,
+   "presentation": "syncope",
+   "section_counts": {
+    "ask": 1,
+    "examine": 2
+   },
+   "snr_hit": false,
+   "unsupported_claims": 0,
+   "variant": "n1"
+  },
+  {
+   "arm": "B",
+   "ask_first": false,
+   "ask_first_expected": false,
+   "base_case_id": "syncope_002",
+   "bedside_items": 1,
+   "blocked_items": [],
+   "brevity_pass": true,
+   "case_id": "syncope_002_p1",
+   "error": null,
+   "items": 1,
+   "missing_must_have": [
+    "Ask about prodrome (none vs palpitations vs lightheadedness), what she was doing (lying vs standing), and duration of unconsciousness",
+    "Witness account: duration, color, jerking, tongue biting, incontinence, post-event confusion (from nurse)",
+    "Medication review (MAR): sotalol dose and timing, other QT-prolonging or AV-nodal agents, recent additions"
+   ],
+   "must_have_present": 0,
+   "must_have_total": 3,
+   "presentation": "syncope",
+   "section_counts": {
+    "examine": 1
+   },
+   "snr_hit": false,
+   "unsupported_claims": 0,
+   "variant": "p1"
+  },
+  {
+   "arm": "B",
+   "ask_first": false,
+   "ask_first_expected": false,
+   "base_case_id": "syncope_003",
+   "bedside_items": 3,
+   "blocked_items": [],
+   "brevity_pass": true,
+   "case_id": "syncope_003",
+   "error": null,
+   "items": 3,
+   "missing_must_have": [
+    "Ask about prodrome (nausea, warmth, sweating, tunnel vision) and the sequence relative to micturition and standing",
+    "Dry axilla / mucous membranes"
+   ],
+   "must_have_present": 1,
+   "must_have_total": 3,
+   "presentation": "syncope",
+   "section_counts": {
+    "ask": 1,
+    "examine": 2
+   },
+   "snr_hit": false,
+   "unsupported_claims": 0,
+   "variant": "base"
+  },
+  {
+   "arm": "B",
+   "ask_first": false,
+   "ask_first_expected": false,
+   "base_case_id": "syncope_003",
+   "bedside_items": 3,
+   "blocked_items": [],
+   "brevity_pass": true,
+   "case_id": "syncope_003_n1",
+   "error": null,
+   "items": 3,
+   "missing_must_have": [
+    "Ask about prodrome (nausea, warmth, sweating, tunnel vision) and the sequence relative to micturition and standing",
+    "Dry axilla / mucous membranes"
+   ],
+   "must_have_present": 1,
+   "must_have_total": 3,
+   "presentation": "syncope",
+   "section_counts": {
+    "ask": 1,
+    "examine": 2
+   },
+   "snr_hit": false,
+   "unsupported_claims": 0,
+   "variant": "n1"
+  },
+  {
+   "arm": "B",
+   "ask_first": false,
+   "ask_first_expected": false,
+   "base_case_id": "syncope_003",
+   "bedside_items": 1,
+   "blocked_items": [],
+   "brevity_pass": true,
+   "case_id": "syncope_003_p1",
+   "error": null,
+   "items": 1,
+   "missing_must_have": [
+    "Ask about prodrome (nausea, warmth, sweating, tunnel vision) and the sequence relative to micturition and standing",
+    "Dry axilla / mucous membranes"
+   ],
+   "must_have_present": 1,
+   "must_have_total": 3,
+   "presentation": "syncope",
+   "section_counts": {
+    "examine": 1
+   },
+   "snr_hit": false,
+   "unsupported_claims": 0,
+   "variant": "p1"
+  },
+  {
+   "arm": "C",
+   "ask_first": false,
+   "ask_first_expected": false,
+   "base_case_id": "syncope_001",
+   "bedside_items": 5,
+   "blocked_items": [],
+   "brevity_pass": true,
+   "case_id": "syncope_001",
+   "error": null,
+   "items": 8,
+   "missing_must_have": [
+    "Dynamic auscultation: murmur intensity with Valsalva and squat-to-stand (louder with Valsalva or standing suggests HCM, softer suggests AS)"
+   ],
+   "must_have_present": 2,
+   "must_have_total": 3,
+   "presentation": "syncope",
+   "section_counts": {
+    "ask": 2,
+    "examine": 3,
+    "other": 3
+   },
+   "snr_hit": true,
+   "unsupported_claims": 5,
+   "variant": "base"
+  },
+  {
+   "arm": "C",
+   "ask_first": false,
+   "ask_first_expected": false,
+   "base_case_id": "syncope_001",
+   "bedside_items": 5,
+   "blocked_items": [],
+   "brevity_pass": true,
+   "case_id": "syncope_001_n1",
+   "error": null,
+   "items": 8,
+   "missing_must_have": [
+    "Dynamic auscultation: murmur intensity with Valsalva and squat-to-stand (louder with Valsalva or standing suggests HCM, softer suggests AS)"
+   ],
+   "must_have_present": 2,
+   "must_have_total": 3,
+   "presentation": "syncope",
+   "section_counts": {
+    "ask": 2,
+    "examine": 3,
+    "other": 3
+   },
+   "snr_hit": true,
+   "unsupported_claims": 5,
+   "variant": "n1"
+  },
+  {
+   "arm": "C",
+   "ask_first": false,
+   "ask_first_expected": false,
+   "base_case_id": "syncope_001",
+   "bedside_items": 5,
+   "blocked_items": [],
+   "brevity_pass": true,
+   "case_id": "syncope_001_p1",
+   "error": null,
+   "items": 8,
+   "missing_must_have": [
+    "Dynamic auscultation: murmur intensity with Valsalva and squat-to-stand (louder with Valsalva or standing suggests HCM, softer suggests AS)"
+   ],
+   "must_have_present": 2,
+   "must_have_total": 3,
+   "presentation": "syncope",
+   "section_counts": {
+    "ask": 2,
+    "examine": 3,
+    "other": 3
+   },
+   "snr_hit": true,
+   "unsupported_claims": 5,
+   "variant": "p1"
+  },
+  {
+   "arm": "C",
+   "ask_first": false,
+   "ask_first_expected": false,
+   "base_case_id": "syncope_002",
+   "bedside_items": 5,
+   "blocked_items": [],
+   "brevity_pass": true,
+   "case_id": "syncope_002",
+   "error": null,
+   "items": 8,
+   "missing_must_have": [
+    "Witness account: duration, color, jerking, tongue biting, incontinence, post-event confusion (from nurse)",
+    "Medication review (MAR): sotalol dose and timing, other QT-prolonging or AV-nodal agents, recent additions"
+   ],
+   "must_have_present": 1,
+   "must_have_total": 3,
+   "presentation": "syncope",
+   "section_counts": {
+    "ask": 2,
+    "examine": 3,
+    "other": 3
+   },
+   "snr_hit": true,
+   "unsupported_claims": 5,
+   "variant": "base"
+  },
+  {
+   "arm": "C",
+   "ask_first": false,
+   "ask_first_expected": false,
+   "base_case_id": "syncope_002",
+   "bedside_items": 5,
+   "blocked_items": [],
+   "brevity_pass": true,
+   "case_id": "syncope_002_n1",
+   "error": null,
+   "items": 8,
+   "missing_must_have": [
+    "Witness account: duration, color, jerking, tongue biting, incontinence, post-event confusion (from nurse)",
+    "Medication review (MAR): sotalol dose and timing, other QT-prolonging or AV-nodal agents, recent additions"
+   ],
+   "must_have_present": 1,
+   "must_have_total": 3,
+   "presentation": "syncope",
+   "section_counts": {
+    "ask": 2,
+    "examine": 3,
+    "other": 3
+   },
+   "snr_hit": true,
+   "unsupported_claims": 5,
+   "variant": "n1"
+  },
+  {
+   "arm": "C",
+   "ask_first": false,
+   "ask_first_expected": false,
+   "base_case_id": "syncope_002",
+   "bedside_items": 5,
+   "blocked_items": [],
+   "brevity_pass": true,
+   "case_id": "syncope_002_p1",
+   "error": null,
+   "items": 8,
+   "missing_must_have": [
+    "Witness account: duration, color, jerking, tongue biting, incontinence, post-event confusion (from nurse)",
+    "Medication review (MAR): sotalol dose and timing, other QT-prolonging or AV-nodal agents, recent additions"
+   ],
+   "must_have_present": 1,
+   "must_have_total": 3,
+   "presentation": "syncope",
+   "section_counts": {
+    "ask": 2,
+    "examine": 3,
+    "other": 3
+   },
+   "snr_hit": true,
+   "unsupported_claims": 5,
+   "variant": "p1"
+  },
+  {
+   "arm": "C",
+   "ask_first": false,
+   "ask_first_expected": false,
+   "base_case_id": "syncope_003",
+   "bedside_items": 5,
+   "blocked_items": [],
+   "brevity_pass": true,
+   "case_id": "syncope_003",
+   "error": null,
+   "items": 8,
+   "missing_must_have": [
+    "Dry axilla / mucous membranes"
+   ],
+   "must_have_present": 2,
+   "must_have_total": 3,
+   "presentation": "syncope",
+   "section_counts": {
+    "ask": 2,
+    "examine": 3,
+    "other": 3
+   },
+   "snr_hit": true,
+   "unsupported_claims": 5,
+   "variant": "base"
+  },
+  {
+   "arm": "C",
+   "ask_first": false,
+   "ask_first_expected": false,
+   "base_case_id": "syncope_003",
+   "bedside_items": 5,
+   "blocked_items": [],
+   "brevity_pass": true,
+   "case_id": "syncope_003_n1",
+   "error": null,
+   "items": 8,
+   "missing_must_have": [
+    "Dry axilla / mucous membranes"
+   ],
+   "must_have_present": 2,
+   "must_have_total": 3,
+   "presentation": "syncope",
+   "section_counts": {
+    "ask": 2,
+    "examine": 3,
+    "other": 3
+   },
+   "snr_hit": true,
+   "unsupported_claims": 5,
+   "variant": "n1"
+  },
+  {
+   "arm": "C",
+   "ask_first": false,
+   "ask_first_expected": false,
+   "base_case_id": "syncope_003",
+   "bedside_items": 5,
+   "blocked_items": [],
+   "brevity_pass": true,
+   "case_id": "syncope_003_p1",
+   "error": null,
+   "items": 8,
+   "missing_must_have": [
+    "Dry axilla / mucous membranes"
+   ],
+   "must_have_present": 2,
+   "must_have_total": 3,
+   "presentation": "syncope",
+   "section_counts": {
+    "ask": 2,
+    "examine": 3,
+    "other": 3
+   },
+   "snr_hit": true,
+   "unsupported_claims": 5,
+   "variant": "p1"
+  }
+ ],
+ "store": {
+  "evidence_status_counts": {
+   "not_quantified": 1,
+   "quantified": 3
+  },
+  "extracted": 153,
+  "library_coverage": {
+   "coverage": 0.19047619047619047,
+   "mapped_to_any_id": 4,
+   "mapped_to_verified": 4,
+   "targets": 21,
+   "uncovered": [
+    {
+     "case_id": "syncope_001",
+     "item": "Dynamic auscultation: murmur intensity with Valsalva and squat-to-stand (louder with Valsalva or standing suggests HCM, softer suggests AS)",
+     "mapped_ids": [],
+     "target_index": 1
+    },
+    {
+     "case_id": "syncope_001",
+     "item": "Ask about prodrome and palpitations before the event",
+     "mapped_ids": [],
+     "target_index": 2
+    },
+    {
+     "case_id": "syncope_001",
+     "item": "Ask about exertional chest pain or dyspnea in recent weeks",
+     "mapped_ids": [],
+     "target_index": 3
+    },
+    {
+     "case_id": "syncope_001",
+     "item": "Ask about family history of sudden cardiac death",
+     "mapped_ids": [],
+     "target_index": 4
+    },
+    {
+     "case_id": "syncope_001",
+     "item": "Witness account: duration, color, jerking, tongue biting, incontinence, post-event confusion (from PT)",
+     "mapped_ids": [],
+     "target_index": 6
+    },
+    {
+     "case_id": "syncope_002",
+     "item": "Ask about prodrome (none vs palpitations vs lightheadedness), what she was doing (lying vs standing), and duration of unconsciousness",
+     "mapped_ids": [],
+     "target_index": 0
+    },
+    {
+     "case_id": "syncope_002",
+     "item": "Witness account: duration, color, jerking, tongue biting, incontinence, post-event confusion (from nurse)",
+     "mapped_ids": [],
+     "target_index": 1
+    },
+    {
+     "case_id": "syncope_002",
+     "item": "Medication review (MAR): sotalol dose and timing, other QT-prolonging or AV-nodal agents, recent additions",
+     "mapped_ids": [],
+     "target_index": 2
+    },
+    {
+     "case_id": "syncope_002",
+     "item": "Examine for injury (scalp, face, hip) from an unheralded fall",
+     "mapped_ids": [],
+     "target_index": 4
+    },
+    {
+     "case_id": "syncope_002",
+     "item": "Cardiac exam: heart rate, rhythm regularity, and murmur",
+     "mapped_ids": [],
+     "target_index": 5
+    },
+    {
+     "case_id": "syncope_003",
+     "item": "Ask about prodrome (nausea, warmth, sweating, tunnel vision) and the sequence relative to micturition and standing",
+     "mapped_ids": [],
+     "target_index": 1
+    },
+    {
+     "case_id": "syncope_003",
+     "item": "Dry axilla / mucous membranes",
+     "mapped_ids": [],
+     "target_index": 2
+    },
+    {
+     "case_id": "syncope_003",
+     "item": "Capillary refill time",
+     "mapped_ids": [],
+     "target_index": 3
+    },
+    {
+     "case_id": "syncope_003",
+     "item": "Ask about oral intake, vomiting, and whether he has been passing urine over the last 24 hours",
+     "mapped_ids": [],
+     "target_index": 4
+    },
+    {
+     "case_id": "syncope_003",
+     "item": "Witness account: duration, color, jerking, tongue biting, incontinence, post-event confusion; ask about injury",
+     "mapped_ids": [],
+     "target_index": 5
+    },
+    {
+     "case_id": "syncope_003",
+     "item": "Calf circumference asymmetry >3 cm (10 cm below tibial tuberosity)",
+     "mapped_ids": [],
+     "target_index": 6
+    },
+    {
+     "case_id": "syncope_003",
+     "item": "Cardiac auscultation for murmur",
+     "mapped_ids": [],
+     "target_index": 7
+    }
+   ]
+  },
+  "not_quantified": 1,
+  "not_quantified_share": 0.25,
+  "verified": 4
+ }
+}

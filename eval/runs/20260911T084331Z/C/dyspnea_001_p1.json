@@ -1,0 +1,353 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "dyspnea_001",
+ "blocked_items": [],
+ "case_id": "dyspnea_001_p1",
+ "created_at": "2026-09-11T09:10:33+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Timeline and progression of dyspnea (acute vs. gradual)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: cough, sputum (color, amount), chest pain, orthopnea, PND, leg swelling, pleuritic pain"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent weight gain"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Urine output"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Chills, rigors, confusion"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication adherence (diuretics, heart failure meds)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Allergies (to rule out anaphylaxis)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: distress, work of breathing, mental status"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vitals: RR, HR, BP, temp, O2 sat"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "39",
+    "92"
+   ],
+   "performance_claims": [
+    "39",
+    "92"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neck: JVD (sensitivity ~39%, specificity ~92% for volume overload)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "60",
+    "78"
+   ],
+   "performance_claims": [
+    "60",
+    "78"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "Lungs: crackles/rales (sensitivity ~60%, specificity ~78% for pulmonary edema), wheezing, decreased breath sounds, egophony (for consolidation)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "3"
+   ],
+   "performance_claims": [
+    "3"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "Heart: S3 (specific for volume overload), murmurs"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Extremities: edema, warmth/redness (cellulitis progression), capillary refill"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdomen: hepatomegaly, ascites"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pulse oximetry (already low)"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside ultrasound:"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [
+    "92",
+    "94"
+   ],
+   "performance_claims": [
+    "92",
+    "94"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Lung US: B-lines (sensitivity ~94%, specificity ~92% for pulmonary edema), consolidation, pleural effusion"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Cardiac US: LV function, IVC size/collapsibility (for volume status)"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: arrhythmia, ischemia"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside CXR (portable): pulmonary edema, infiltrate, effusion"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Blood glucose (if altered mental status)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "60",
+    "78"
+   ],
+   "performance_claims": [
+    "60",
+    "78"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Crackles: Sensitivity ~60%, specificity ~78% for pulmonary edema"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "39",
+    "92"
+   ],
+   "performance_claims": [
+    "39",
+    "92"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "JVD: Sensitivity ~39%, specificity ~92% for volume overload"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "13",
+    "3",
+    "99"
+   ],
+   "performance_claims": [
+    "13",
+    "3",
+    "99"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "S3: Sensitivity ~13%, specificity ~99% for heart failure"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [
+    "92",
+    "94"
+   ],
+   "performance_claims": [
+    "92",
+    "94"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Lung US B-lines: Sensitivity ~94%, specificity ~92% for pulmonary edema"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [
+    "70",
+    "80"
+   ],
+   "performance_claims": [
+    "70",
+    "80"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "CXR for pulmonary edema: Sensitivity ~70%, specificity ~80%"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on identifying pulmonary edema (from fluid overload), pneumonia, or other acute causes of hypoxia. Bedside lung ultrasound is highly sensitive and specific for pulmonary edema and can rapidly distinguish between causes. Physical exam findings are helpful but less sensitive. CXR and ECG are also important for further evaluation"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 68-year-old male with HFrEF (EF 30%) admitted for cellulitis, who received 3L IV fluids, is now febrile (38.9\u00b0C), acutely short of breath, and hypoxic (SpO2 89% RA)\u2014the differential includes pulmonary edema (volume overload), pneumonia (possibly sepsis-related ARDS), PE, and less likely, progression of cellulitis to necrotizing infection with systemic effects.\n\n**History:**\n- Timeline and progression of dyspnea (acute vs. gradual)\n- Associated symptoms: cough, sputum (color, amount), chest pain, orthopnea, PND, leg swelling, pleuritic pain\n- Recent weight gain\n- Urine output\n- Chills, rigors, confusion\n- Medication adherence (diuretics, heart failure meds)\n- Allergies (to rule out anaphylaxis)\n\n**Physical Examination:**\n- General: distress, work of breathing, mental status\n- Vitals: RR, HR, BP, temp, O2 sat\n- Neck: JVD (sensitivity ~39%, specificity ~92% for volume overload)\n- Lungs: crackles/rales (sensitivity ~60%, specificity ~78% for pulmonary edema), wheezing, decreased breath sounds, egophony (for consolidation)\n- Heart: S3 (specific for volume overload), murmurs\n- Extremities: edema, warmth/redness (cellulitis progression), capillary refill\n- Abdomen: hepatomegaly, ascites\n\n**Bedside Tests:**\n- Pulse oximetry (already low)\n- Bedside ultrasound:\n  - Lung US: B-lines (sensitivity ~94%, specificity ~92% for pulmonary edema), consolidation, pleural effusion\n  - Cardiac US: LV function, IVC size/collapsibility (for volume status)\n- ECG: arrhythmia, ischemia\n- Bedside CXR (portable): pulmonary edema, infiltrate, effusion\n- Blood glucose (if altered mental status)\n\n**Diagnostic Performance Data:**\n- Crackles: Sensitivity ~60%, specificity ~78% for pulmonary edema\n- JVD: Sensitivity ~39%, specificity ~92% for volume overload\n- S3: Sensitivity ~13%, specificity ~99% for heart failure\n- Lung US B-lines: Sensitivity ~94%, specificity ~92% for pulmonary edema\n- CXR for pulmonary edema: Sensitivity ~70%, specificity ~80%\n\n**Summary:**\nFocus on identifying pulmonary edema (from fluid overload), pneumonia, or other acute causes of hypoxia. Bedside lung ultrasound is highly sensitive and specific for pulmonary edema and can rapidly distinguish between causes. Physical exam findings are helpful but less sensitive. CXR and ECG are also important for further evaluation."
+ },
+ "variant": "p1"
+}

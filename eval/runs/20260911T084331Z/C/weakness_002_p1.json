@@ -1,0 +1,290 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "weakness_002",
+ "blocked_items": [],
+ "case_id": "weakness_002_p1",
+ "created_at": "2026-09-11T09:15:54+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, progression, and distribution of weakness (ascending pattern typical for GBS)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Sensory symptoms (numbness, tingling)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Autonomic symptoms (palpitations, urinary retention, constipation, orthostatic symptoms)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Cranial nerve symptoms (facial weakness, dysarthria, dysphagia)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Respiratory symptoms (shortness of breath, difficulty swallowing)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent infections, vaccinations, or other triggers"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past neurological history"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs (look for autonomic instability)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Mental status (should be normal in GBS)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cranial nerve exam (look for facial weakness, bulbar palsy)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Motor strength (focus on lower limbs, but assess all limbs)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Reflexes (areflexia or hyporeflexia is classic for GBS)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Sensory exam (light touch, pinprick, proprioception)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Coordination (usually preserved)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Gait (if safe)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Respiratory assessment (vital capacity, single breath count)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "90"
+   ],
+   "performance_claims": [
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Deep tendon reflexes (loss is a key finding; sensitivity ~90% for GBS)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "15",
+    "20"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside spirometry (vital capacity <20 mL/kg or single breath count <15 is concerning for impending respiratory failure)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Orthostatic blood pressure and heart rate (autonomic dysfunction)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "90"
+   ],
+   "performance_claims": [
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Areflexia/hyporeflexia: Sensitivity ~90% for GBS"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "100",
+    "90"
+   ],
+   "performance_claims": [
+    "100",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Progressive, symmetric weakness of more than one limb: Sensitivity ~90-100%"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "70"
+   ],
+   "performance_claims": [
+    "70"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Recent infection (especially Campylobacter): Present in up to 70% of GBS cases"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [
+    "20"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside spirometry: Vital capacity <20 mL/kg is a strong predictor of need for intubation"
+  },
+  {
+   "bedside": false,
+   "category": "disposition",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on identifying symmetric, ascending weakness, areflexia, and signs of autonomic or respiratory compromise. Early recognition and monitoring are critical, as GBS can progress rapidly and require ICU-level care"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 54-year-old man with recent Campylobacter gastroenteritis, now with acute onset of leg weakness, trouble standing, and mid-back pain\u2014the primary concern is for Guillain-Barr\u00e9 syndrome (GBS), an acute inflammatory demyelinating polyneuropathy often triggered by infections like Campylobacter.\n\n**History:**\n- Onset, progression, and distribution of weakness (ascending pattern typical for GBS)\n- Sensory symptoms (numbness, tingling)\n- Autonomic symptoms (palpitations, urinary retention, constipation, orthostatic symptoms)\n- Cranial nerve symptoms (facial weakness, dysarthria, dysphagia)\n- Respiratory symptoms (shortness of breath, difficulty swallowing)\n- Recent infections, vaccinations, or other triggers\n- Past neurological history\n\n**Physical Examination:**\n- Vital signs (look for autonomic instability)\n- Mental status (should be normal in GBS)\n- Cranial nerve exam (look for facial weakness, bulbar palsy)\n- Motor strength (focus on lower limbs, but assess all limbs)\n- Reflexes (areflexia or hyporeflexia is classic for GBS)\n- Sensory exam (light touch, pinprick, proprioception)\n- Coordination (usually preserved)\n- Gait (if safe)\n- Respiratory assessment (vital capacity, single breath count)\n\n**Bedside Tests:**\n- Deep tendon reflexes (loss is a key finding; sensitivity ~90% for GBS)\n- Bedside spirometry (vital capacity <20 mL/kg or single breath count <15 is concerning for impending respiratory failure)\n- Orthostatic blood pressure and heart rate (autonomic dysfunction)\n\n**Diagnostic Performance Data:**\n- Areflexia/hyporeflexia: Sensitivity ~90% for GBS\n- Progressive, symmetric weakness of more than one limb: Sensitivity ~90-100%\n- Recent infection (especially Campylobacter): Present in up to 70% of GBS cases\n- Bedside spirometry: Vital capacity <20 mL/kg is a strong predictor of need for intubation\n\n**Summary:**\nFocus on identifying symmetric, ascending weakness, areflexia, and signs of autonomic or respiratory compromise. Early recognition and monitoring are critical, as GBS can progress rapidly and require ICU-level care."
+ },
+ "variant": "p1"
+}

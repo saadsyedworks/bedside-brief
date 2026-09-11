@@ -1,0 +1,382 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "dizziness_002",
+ "blocked_items": [],
+ "case_id": "dizziness_002_n1",
+ "created_at": "2026-09-11T09:09:56+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and frequency of vertigo episodes"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Specific triggers (e.g., rolling over, sitting up)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: nausea, vomiting, hearing loss, tinnitus, diplopia, dysarthria, weakness, numbness, ataxia"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent head trauma or infection"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication history (especially ototoxic drugs)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Cardiovascular risk factors (stroke risk)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Surgical details and anesthesia (risk of perioperative stroke)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: Assess for distress, pallor, diaphoresis"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: Already normal, but recheck if concerned"
+  },
+  {
+   "bedside": false,
+   "category": "disposition",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Ear exam: Inspect for infection, effusion, or discharge"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neurological exam:"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cranial nerves (especially III, IV, VI, VII, VIII)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cerebellar function (finger-nose, heel-shin, rapid alternating movements)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Gait (if safe)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Motor and sensory exam"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Eye movements: Look for nystagmus (direction, duration, fatigability)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Dix-Hallpike Maneuver (for BPPV):"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "20",
+    "45"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Patient sits upright, head turned 45\u00b0 to one side, then quickly laid back with head hanging 20\u00b0 below horizontal"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Positive test: Reproduction of vertigo and characteristic nystagmus (upbeating, torsional, latency of a few seconds, fatigues with repetition)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "Fife et al., 2008"
+   ],
+   "numeric_claims": [
+    "2008",
+    "75",
+    "79"
+   ],
+   "performance_claims": [
+    "75",
+    "79"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Sensitivity: ~79%, Specificity: ~75% (Fife et al., 2008)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Head Impulse Test (for vestibular neuritis vs. central causes):"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Rapidly turn the patient\u2019s head to each side while they fixate on your nose"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Corrective saccade suggests peripheral cause; normal test with vertigo suggests central cause"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "35",
+    "40",
+    "95"
+   ],
+   "performance_claims": [
+    "35",
+    "40",
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Sensitivity: ~35-40% for peripheral lesions, Specificity: ~95% (HINTS exam)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "HINTS Exam (Head Impulse, Nystagmus, Test of Skew):"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Useful if continuous vertigo, but can help distinguish central from peripheral causes"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Central signs: Normal head impulse, direction-changing nystagmus, skew deviation"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "Kattah et al., 2009"
+   ],
+   "numeric_claims": [
+    "2009",
+    "95"
+   ],
+   "performance_claims": [
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Sensitivity: >95% for stroke in acute vestibular syndrome (Kattah et al., 2009)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Most likely BPPV (brief, positional vertigo, no other neuro symptoms)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Perform focused neuro exam, Dix-Hallpike maneuver, and consider HINTS if any concern for central cause"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "If any red flags (persistent vertigo, focal neuro deficits, severe headache, new hearing loss, abnormal vital signs), escalate for imaging (CT/MRI) and specialist review"
+  },
+  {
+   "bedside": false,
+   "category": "consult",
+   "citations": [
+    "Fife TD, et al."
+   ],
+   "numeric_claims": [
+    "2008"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Fife TD, et al. \"Practice Parameter: Therapies for benign paroxysmal positional vertigo (an evidence-based review).\" Neurology. 2008"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [
+    "Kattah JC, et al."
+   ],
+   "numeric_claims": [
+    "2009"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Kattah JC, et al. \"HINTS to diagnose stroke in the acute vestibular syndrome.\" Stroke. 2009"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 58-year-old woman, one day post-laparoscopic cholecystectomy, with brief (20 seconds) episodes of vertigo triggered by turning over in bed, no headache, and normal vital signs\u2014the most likely diagnosis is benign paroxysmal positional vertigo (BPPV). However, it is important to rule out other causes, especially central causes of vertigo, given her age and recent surgery.\n\n**History:**\n- Onset, duration, and frequency of vertigo episodes\n- Specific triggers (e.g., rolling over, sitting up)\n- Associated symptoms: nausea, vomiting, hearing loss, tinnitus, diplopia, dysarthria, weakness, numbness, ataxia\n- Recent head trauma or infection\n- Medication history (especially ototoxic drugs)\n- Cardiovascular risk factors (stroke risk)\n- Surgical details and anesthesia (risk of perioperative stroke)\n\n**Physical Examination:**\n- General: Assess for distress, pallor, diaphoresis\n- Vital signs: Already normal, but recheck if concerned\n- Ear exam: Inspect for infection, effusion, or discharge\n- Neurological exam:\n  - Cranial nerves (especially III, IV, VI, VII, VIII)\n  - Cerebellar function (finger-nose, heel-shin, rapid alternating movements)\n  - Gait (if safe)\n  - Motor and sensory exam\n- Eye movements: Look for nystagmus (direction, duration, fatigability)\n\n**Bedside Tests:**\n1. **Dix-Hallpike Maneuver** (for BPPV):\n   - Patient sits upright, head turned 45\u00b0 to one side, then quickly laid back with head hanging 20\u00b0 below horizontal.\n   - Positive test: Reproduction of vertigo and characteristic nystagmus (upbeating, torsional, latency of a few seconds, fatigues with repetition).\n   - Sensitivity: ~79%, Specificity: ~75% (Fife et al., 2008)\n\n2. **Head Impulse Test** (for vestibular neuritis vs. central causes):\n   - Rapidly turn the patient\u2019s head to each side while they fixate on your nose.\n   - Corrective saccade suggests peripheral cause; normal test with vertigo suggests central cause.\n   - Sensitivity: ~35-40% for peripheral lesions, Specificity: ~95% (HINTS exam)\n\n3. **HINTS Exam** (Head Impulse, Nystagmus, Test of Skew):\n   - Useful if continuous vertigo, but can help distinguish central from peripheral causes.\n   - Central signs: Normal head impulse, direction-changing nystagmus, skew deviation.\n   - Sensitivity: >95% for stroke in acute vestibular syndrome (Kattah et al., 2009)\n\n**Summary:**\n- Most likely BPPV (brief, positional vertigo, no other neuro symptoms)\n- Perform focused neuro exam, Dix-Hallpike maneuver, and consider HINTS if any concern for central cause\n- If any red flags (persistent vertigo, focal neuro deficits, severe headache, new hearing loss, abnormal vital signs), escalate for imaging (CT/MRI) and specialist review\n\n**References:**\n- Fife TD, et al. \"Practice Parameter: Therapies for benign paroxysmal positional vertigo (an evidence-based review).\" Neurology. 2008.\n- Kattah JC, et al. \"HINTS to diagnose stroke in the acute vestibular syndrome.\" Stroke. 2009."
+ },
+ "variant": "n1"
+}

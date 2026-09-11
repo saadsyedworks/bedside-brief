@@ -1,0 +1,343 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "abdominal_pain_002",
+ "blocked_items": [],
+ "case_id": "abdominal_pain_002_p1",
+ "created_at": "2026-09-11T09:06:19+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, character, and radiation of RUQ pain (colicky vs. constant, radiates to back/shoulder)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: chills/rigors, pruritus, dark urine, pale stools"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent fatty meal (suggests biliary colic)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Previous episodes, known gallstones, prior biliary surgery"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication history (esp. hepatotoxic drugs)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Risk factors for hepatitis (travel, transfusions, alcohol)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Heart failure symptoms (dyspnea, edema)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: fever, tachycardia, hypotension (suggests sepsis)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: ill-appearing, mental status (Reynolds pentad: confusion, hypotension)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdominal exam:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "65",
+    "87"
+   ],
+   "performance_claims": [
+    "65",
+    "87"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "RUQ tenderness, Murphy\u2019s sign (sensitivity ~65%, specificity ~87% for acute cholecystitis)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Guarding, rebound (peritonitis)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Palpable gallbladder (Courvoisier\u2019s sign)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Jaundice: scleral icterus, skin"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Signs of chronic liver disease (spider angiomata, asterixis)"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Point-of-care ultrasound (POCUS):"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "3",
+    "79",
+    "86"
+   ],
+   "performance_claims": [
+    "3",
+    "79",
+    "86"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Gallstones, gallbladder wall thickening (>3mm), pericholecystic fluid, sonographic Murphy\u2019s sign (sensitivity ~86%, specificity ~79% for cholecystitis)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "6"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Biliary ductal dilation (>6mm)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose (important in diabetics)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urinalysis (bilirubinuria)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "26",
+    "72",
+    "95"
+   ],
+   "performance_claims": [
+    "26",
+    "72",
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Charcot\u2019s triad (fever, RUQ pain, jaundice): sensitivity ~26-72%, specificity ~95% for acute cholangitis"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "65",
+    "87"
+   ],
+   "performance_claims": [
+    "65",
+    "87"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Murphy\u2019s sign: sensitivity ~65%, specificity ~87% for cholecystitis"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [
+    "79",
+    "86"
+   ],
+   "performance_claims": [
+    "79",
+    "86"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "POCUS for cholecystitis: sensitivity ~86%, specificity ~79%"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on history for biliary symptoms and risk factors"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Examine for fever, jaundice, RUQ tenderness, Murphy\u2019s sign"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Use bedside ultrasound to assess for gallstones, ductal dilation, and cholecystitis"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Monitor for sepsis (hypotension, confusion)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Early labs: CBC, LFTs, blood cultures, lactate"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u201462-year-old female with type 2 diabetes, admitted for heart failure exacerbation, now with acute right upper quadrant (RUQ) pain, vomiting, fever (38.4\u00b0C), tachycardia (HR 104), and new scleral icterus\u2014the concern is for acute biliary pathology, such as acute cholangitis (Charcot's triad: fever, RUQ pain, jaundice), which is a medical emergency.\n\n**History:**\n- Onset, character, and radiation of RUQ pain (colicky vs. constant, radiates to back/shoulder)\n- Associated symptoms: chills/rigors, pruritus, dark urine, pale stools\n- Recent fatty meal (suggests biliary colic)\n- Previous episodes, known gallstones, prior biliary surgery\n- Medication history (esp. hepatotoxic drugs)\n- Risk factors for hepatitis (travel, transfusions, alcohol)\n- Heart failure symptoms (dyspnea, edema)\n\n**Physical Examination:**\n- Vital signs: fever, tachycardia, hypotension (suggests sepsis)\n- General: ill-appearing, mental status (Reynolds pentad: confusion, hypotension)\n- Abdominal exam:\n  - RUQ tenderness, Murphy\u2019s sign (sensitivity ~65%, specificity ~87% for acute cholecystitis)\n  - Guarding, rebound (peritonitis)\n  - Palpable gallbladder (Courvoisier\u2019s sign)\n- Jaundice: scleral icterus, skin\n- Signs of chronic liver disease (spider angiomata, asterixis)\n\n**Bedside Tests:**\n- Point-of-care ultrasound (POCUS):\n  - Gallstones, gallbladder wall thickening (>3mm), pericholecystic fluid, sonographic Murphy\u2019s sign (sensitivity ~86%, specificity ~79% for cholecystitis)\n  - Biliary ductal dilation (>6mm)\n- Bedside glucose (important in diabetics)\n- Urinalysis (bilirubinuria)\n\n**Diagnostic Performance Data:**\n- Charcot\u2019s triad (fever, RUQ pain, jaundice): sensitivity ~26-72%, specificity ~95% for acute cholangitis\n- Murphy\u2019s sign: sensitivity ~65%, specificity ~87% for cholecystitis\n- POCUS for cholecystitis: sensitivity ~86%, specificity ~79%\n\n**Summary:**\n- Focus on history for biliary symptoms and risk factors\n- Examine for fever, jaundice, RUQ tenderness, Murphy\u2019s sign\n- Use bedside ultrasound to assess for gallstones, ductal dilation, and cholecystitis\n- Monitor for sepsis (hypotension, confusion)\n- Early labs: CBC, LFTs, blood cultures, lactate\n\nThis patient needs urgent evaluation for acute cholangitis and possible sepsis."
+ },
+ "variant": "p1"
+}

@@ -1,0 +1,328 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "abdominal_pain_001",
+ "blocked_items": [],
+ "case_id": "abdominal_pain_001",
+ "created_at": "2026-09-11T09:05:55+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, character, and migration of pain (classic for appendicitis: periumbilical to RLQ)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: nausea, vomiting, anorexia (anorexia is present)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Bowel habits: diarrhea or constipation"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Urinary symptoms (to rule out UTI)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Previous abdominal surgeries or similar episodes"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Risk factors: immunosuppression, recent antibiotics, comorbidities"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: fever, tachycardia"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdominal exam:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Inspection: distension, scars"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Auscultation: bowel sounds"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Palpation: RLQ tenderness, rebound tenderness, guarding"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Percussion: peritoneal signs"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Special signs:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "22",
+    "87"
+   ],
+   "performance_claims": [
+    "22",
+    "87"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "Rovsing\u2019s sign (pain in RLQ with LLQ palpation): Sensitivity ~22%, Specificity ~87%"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "16",
+    "95"
+   ],
+   "performance_claims": [
+    "16",
+    "95"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "Psoas sign (pain with hip extension): Sensitivity ~16%, Specificity ~95%"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "8",
+    "94"
+   ],
+   "performance_claims": [
+    "8",
+    "94"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "Obturator sign (pain with internal rotation of flexed hip): Sensitivity ~8%, Specificity ~94%"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "50",
+    "75",
+    "86",
+    "94"
+   ],
+   "performance_claims": [
+    "50",
+    "75",
+    "86",
+    "94"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "McBurney\u2019s point tenderness: Sensitivity ~50-94%, Specificity ~75-86%"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Assess for peritonitis (rebound, involuntary guarding)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urinalysis (to rule out UTI or renal colic)"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [
+    "85",
+    "92"
+   ],
+   "performance_claims": [
+    "85",
+    "92"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Point-of-care ultrasound (POCUS) if available: can detect non-compressible, enlarged appendix; sensitivity ~85%, specificity ~92% (operator dependent)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside pregnancy test (in women of childbearing age)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "80"
+   ],
+   "performance_claims": [
+    "80"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Classic triad (RLQ pain, anorexia, fever): Sensitivity ~80%, but not specific"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "60",
+    "85"
+   ],
+   "performance_claims": [
+    "60",
+    "85"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Migration of pain: Sensitivity ~60%, Specificity ~85%"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "7",
+    "81",
+    "82"
+   ],
+   "performance_claims": [
+    "81",
+    "82"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Alvarado score: clinical prediction tool (score \u22657 suggests appendicitis; sensitivity ~82%, specificity ~81%)"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on a detailed abdominal history and exam, looking for migration of pain, RLQ tenderness, and peritoneal signs. Use bedside urinalysis and, if available, POCUS. Special signs have high specificity but low sensitivity. Consider appendicitis highly likely given the classic presentation, but keep a broad differential (e.g., intra-abdominal abscess, ileitis, etc.). Imaging (CT or ultrasound) is often warranted for confirmation"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 34-year-old man admitted for leg cellulitis, now with new periumbilical pain migrating to the right lower quadrant (RLQ), anorexia, and a low-grade fever (38.1\u00b0C)\u2014the concern is for acute appendicitis. Here\u2019s how to approach the history, physical exam, and bedside tests, including diagnostic performance data where available:\n\n**History:**\n- Onset, character, and migration of pain (classic for appendicitis: periumbilical to RLQ)\n- Associated symptoms: nausea, vomiting, anorexia (anorexia is present)\n- Bowel habits: diarrhea or constipation\n- Urinary symptoms (to rule out UTI)\n- Previous abdominal surgeries or similar episodes\n- Risk factors: immunosuppression, recent antibiotics, comorbidities\n\n**Physical Examination:**\n- Vital signs: fever, tachycardia\n- Abdominal exam:\n  - Inspection: distension, scars\n  - Auscultation: bowel sounds\n  - Palpation: RLQ tenderness, rebound tenderness, guarding\n  - Percussion: peritoneal signs\n- Special signs:\n  - Rovsing\u2019s sign (pain in RLQ with LLQ palpation): Sensitivity ~22%, Specificity ~87%\n  - Psoas sign (pain with hip extension): Sensitivity ~16%, Specificity ~95%\n  - Obturator sign (pain with internal rotation of flexed hip): Sensitivity ~8%, Specificity ~94%\n  - McBurney\u2019s point tenderness: Sensitivity ~50-94%, Specificity ~75-86%\n- Assess for peritonitis (rebound, involuntary guarding)\n\n**Bedside Tests:**\n- Urinalysis (to rule out UTI or renal colic)\n- Point-of-care ultrasound (POCUS) if available: can detect non-compressible, enlarged appendix; sensitivity ~85%, specificity ~92% (operator dependent)\n- Bedside pregnancy test (in women of childbearing age)\n\n**Diagnostic Performance Data:**\n- Classic triad (RLQ pain, anorexia, fever): Sensitivity ~80%, but not specific\n- Migration of pain: Sensitivity ~60%, Specificity ~85%\n- Alvarado score: clinical prediction tool (score \u22657 suggests appendicitis; sensitivity ~82%, specificity ~81%)\n\n**Summary:**\nFocus on a detailed abdominal history and exam, looking for migration of pain, RLQ tenderness, and peritoneal signs. Use bedside urinalysis and, if available, POCUS. Special signs have high specificity but low sensitivity. Consider appendicitis highly likely given the classic presentation, but keep a broad differential (e.g., intra-abdominal abscess, ileitis, etc.). Imaging (CT or ultrasound) is often warranted for confirmation."
+ },
+ "variant": "base"
+}

@@ -1,0 +1,341 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "abdominal_pain_003",
+ "blocked_items": [],
+ "case_id": "abdominal_pain_003_n1",
+ "created_at": "2026-09-11T09:06:40+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and character of pain (sudden, severe, diffuse pain is classic for AMI)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: nausea, vomiting, diarrhea, hematochezia, melena"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past medical history: vascular disease, heart failure, prior embolic events"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication history: especially anticoagulants, antiplatelets"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Risk factors: smoking, hypercoagulable states"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General appearance: distress, diaphoresis"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: look for hypotension, tachycardia, fever"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdominal exam:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Tenderness (often out of proportion to exam in early AMI)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Guarding, rebound (may be absent early)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Bowel sounds (may be normal, decreased, or absent)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Peritoneal signs (suggest late or advanced ischemia)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Rectal exam: look for blood"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Peripheral pulses: assess for vascular disease"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: confirm atrial fibrillation, look for other arrhythmias"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "44",
+    "86"
+   ],
+   "performance_claims": [
+    "44",
+    "86"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside lactate: elevated in AMI (sensitivity ~86%, specificity ~44% for any cause of abdominal pain; higher specificity if markedly elevated)"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside ultrasound: limited utility for AMI, but can rule out AAA, gallbladder disease, or free fluid"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Point-of-care hemoglobin/hematocrit: assess for bleeding"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "50",
+    "75"
+   ],
+   "performance_claims": [
+    "50",
+    "75"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pain out of proportion to exam is a classic finding but not sensitive (present in ~50-75% of AMI cases)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Elevated lactate is sensitive but not specific"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "normal lactate does not rule out early AMI"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Abdominal exam may be deceptively benign early in AMI"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "High suspicion for AMI in this patient"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Key findings: sudden severe pain, risk factors (afib, no anticoagulation), soft abdomen"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Early diagnosis is critical\u2014consider urgent CT angiography if suspicion remains high"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "UpToDate: Clinical features and diagnosis of acute mesenteric ischemia"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "BMJ 2017"
+   ],
+   "numeric_claims": [
+    "1744",
+    "2017",
+    "357"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "BMJ 2017;357:j1744"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "2013",
+    "5",
+    "573",
+    "581",
+    "61"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Ann Emerg Med. 2013;61(5):573-581"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "If you need a more detailed workup or management plan, let me know!"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 79-year-old male with atrial fibrillation (not anticoagulated), abrupt severe diffuse abdominal pain, tachycardia, and a soft abdomen\u2014the primary concern is acute mesenteric ischemia (AMI), a life-threatening condition often due to embolic occlusion of mesenteric vessels in patients with atrial fibrillation.\n\n**History:**\n- Onset, duration, and character of pain (sudden, severe, diffuse pain is classic for AMI)\n- Associated symptoms: nausea, vomiting, diarrhea, hematochezia, melena\n- Past medical history: vascular disease, heart failure, prior embolic events\n- Medication history: especially anticoagulants, antiplatelets\n- Risk factors: smoking, hypercoagulable states\n\n**Physical Examination:**\n- General appearance: distress, diaphoresis\n- Vital signs: look for hypotension, tachycardia, fever\n- Abdominal exam: \n  - Tenderness (often out of proportion to exam in early AMI)\n  - Guarding, rebound (may be absent early)\n  - Bowel sounds (may be normal, decreased, or absent)\n  - Peritoneal signs (suggest late or advanced ischemia)\n- Rectal exam: look for blood\n- Peripheral pulses: assess for vascular disease\n\n**Bedside Tests:**\n- ECG: confirm atrial fibrillation, look for other arrhythmias\n- Bedside lactate: elevated in AMI (sensitivity ~86%, specificity ~44% for any cause of abdominal pain; higher specificity if markedly elevated)\n- Bedside ultrasound: limited utility for AMI, but can rule out AAA, gallbladder disease, or free fluid\n- Point-of-care hemoglobin/hematocrit: assess for bleeding\n\n**Diagnostic Performance Data:**\n- Pain out of proportion to exam is a classic finding but not sensitive (present in ~50-75% of AMI cases)\n- Elevated lactate is sensitive but not specific; normal lactate does not rule out early AMI\n- Abdominal exam may be deceptively benign early in AMI\n\n**Summary:**\n- High suspicion for AMI in this patient\n- Key findings: sudden severe pain, risk factors (afib, no anticoagulation), soft abdomen\n- Early diagnosis is critical\u2014consider urgent CT angiography if suspicion remains high\n\n**References:**\n- UpToDate: Clinical features and diagnosis of acute mesenteric ischemia\n- BMJ 2017;357:j1744\n- Ann Emerg Med. 2013;61(5):573-581\n\nIf you need a more detailed workup or management plan, let me know!"
+ },
+ "variant": "n1"
+}

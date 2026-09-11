@@ -1,0 +1,126 @@
+{
+ "arm": "A",
+ "cases": 9,
+ "top5": [
+  "missing_must_have_targets",
+  "ask_first_false_negatives",
+  "ask_first_false_positives",
+  "brevity_failures",
+  "empty_cards"
+ ],
+ "modes": {
+  "missing_must_have_targets": {
+   "count": 22,
+   "unit": "targets",
+   "by_presentation": {
+    "syncope": {
+     "missing": 22,
+     "top": [
+      [
+       "Dynamic auscultation: murmur intensity with Valsalva and squat-to-stand (louder with Valsalva or standing suggests HCM, softer suggests AS)",
+       3
+      ],
+      [
+       "Ask about prodrome and palpitations before the event",
+       3
+      ],
+      [
+       "Ask about prodrome (none vs palpitations vs lightheadedness), what she was doing (lying vs standing), and duration of unconsciousness",
+       3
+      ]
+     ]
+    }
+   },
+   "examples": [
+    {
+     "case_id": "syncope_001",
+     "target": "Dynamic auscultation: murmur intensity with Valsalva and squat-to-stand (louder with Valsalva or standing suggests HCM, softer suggests AS)"
+    },
+    {
+     "case_id": "syncope_001",
+     "target": "Ask about prodrome and palpitations before the event"
+    },
+    {
+     "case_id": "syncope_001_n1",
+     "target": "Dynamic auscultation: murmur intensity with Valsalva and squat-to-stand (louder with Valsalva or standing suggests HCM, softer suggests AS)"
+    },
+    {
+     "case_id": "syncope_001_n1",
+     "target": "Ask about prodrome and palpitations before the event"
+    },
+    {
+     "case_id": "syncope_001_p1",
+     "target": "Characterize the murmur: late-peaking, radiation to carotids, soft or absent S2, slow or delayed carotid upstroke"
+    },
+    {
+     "case_id": "syncope_001_p1",
+     "target": "Dynamic auscultation: murmur intensity with Valsalva and squat-to-stand (louder with Valsalva or standing suggests HCM, softer suggests AS)"
+    },
+    {
+     "case_id": "syncope_001_p1",
+     "target": "Ask about prodrome and palpitations before the event"
+    },
+    {
+     "case_id": "syncope_002",
+     "target": "Ask about prodrome (none vs palpitations vs lightheadedness), what she was doing (lying vs standing), and duration of unconsciousness"
+    },
+    {
+     "case_id": "syncope_002",
+     "target": "Witness account: duration, color, jerking, tongue biting, incontinence, post-event confusion (from nurse)"
+    },
+    {
+     "case_id": "syncope_002",
+     "target": "Medication review (MAR): sotalol dose and timing, other QT-prolonging or AV-nodal agents, recent additions"
+    },
+    {
+     "case_id": "syncope_002_n1",
+     "target": "Ask about prodrome (none vs palpitations vs lightheadedness), what she was doing (lying vs standing), and duration of unconsciousness"
+    },
+    {
+     "case_id": "syncope_002_n1",
+     "target": "Witness account: duration, color, jerking, tongue biting, incontinence, post-event confusion (from nurse)"
+    }
+   ]
+  },
+  "ask_first_false_negatives": {
+   "count": 0,
+   "unit": "cases",
+   "examples": []
+  },
+  "ask_first_false_positives": {
+   "count": 0,
+   "unit": "cases",
+   "examples": []
+  },
+  "brevity_failures": {
+   "count": 0,
+   "unit": "cases",
+   "examples": []
+  },
+  "empty_cards": {
+   "count": 0,
+   "unit": "cases",
+   "examples": []
+  },
+  "pipeline_errors": {
+   "count": 0,
+   "unit": "cases",
+   "examples": []
+  },
+  "should_not_recommend_hits": {
+   "count": 0,
+   "unit": "cases",
+   "examples": []
+  },
+  "unsupported_quantitative_claims": {
+   "count": 0,
+   "unit": "numbers",
+   "examples": []
+  },
+  "validator_blocked_items": {
+   "count": 0,
+   "unit": "items",
+   "examples": []
+  }
+ }
+}

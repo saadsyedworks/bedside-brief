@@ -1,0 +1,467 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "edema_001",
+ "blocked_items": [],
+ "case_id": "edema_001",
+ "created_at": "2026-09-11T09:11:22+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and progression of symptoms (dyspnea, orthopnea, PND, fatigue, chest pain, palpitations)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent medication changes, adherence, dietary indiscretion (salt/fluid intake)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Symptoms of infection (cough, fever)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Symptoms of other causes of edema (liver disease, nephrotic syndrome)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Review of systems: cough, sputum, hemoptysis, abdominal pain, nocturia"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: BP, HR, RR, SpO2, temperature"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: Distress, ability to speak, use of accessory muscles"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "50",
+    "90"
+   ],
+   "performance_claims": [
+    "50",
+    "90"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neck: Jugular venous pressure (JVP) \u2013 elevated JVP is highly specific for volume overload (specificity ~90%, sensitivity ~50%)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "60",
+    "70"
+   ],
+   "performance_claims": [
+    "60",
+    "70"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "Lungs: Crackles/rales (sensitivity ~60%, specificity ~70%), decreased breath sounds, wheezing"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "13",
+    "3",
+    "99"
+   ],
+   "performance_claims": [
+    "13",
+    "3",
+    "99"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "Heart: S3 gallop (specificity ~99%, sensitivity ~13%), murmurs, displaced apex"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdomen: Hepatomegaly, ascites"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Extremities: Pitting edema, sacral edema, cool extremities (suggests low output)"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "2",
+    "93"
+   ],
+   "performance_claims": [
+    "2",
+    "93"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pulse oximetry: Already done (SpO2 93% RA)"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: Look for arrhythmias, ischemia, prior infarct"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside ultrasound:"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [
+    "92",
+    "94"
+   ],
+   "performance_claims": [
+    "92",
+    "94"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Lung US: B-lines (sensitivity ~94%, specificity ~92% for pulmonary edema)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "IVC diameter/collapsibility: Suggests volume status"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Cardiac US (if available): LV function, RV size, pericardial effusion"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urinalysis: Rule out nephrotic syndrome"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose: Rule out hyperglycemia as a precipitant"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Other Initial Tests (not strictly bedside):"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "75",
+    "90"
+   ],
+   "performance_claims": [
+    "75",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "BNP/NT-proBNP: High sensitivity (~90%), moderate specificity (~75%) for heart failure"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "CXR: Pulmonary edema, cardiomegaly, pleural effusions"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Summary Table:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "| Finding/Test | Sensitivity | Specificity |"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "50",
+    "90"
+   ],
+   "performance_claims": [
+    "50",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "| Elevated JVP | ~50% | ~90% |"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "13",
+    "3",
+    "99"
+   ],
+   "performance_claims": [
+    "13",
+    "3",
+    "99"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "| S3 Gallop | ~13% | ~99% |"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "60",
+    "70"
+   ],
+   "performance_claims": [
+    "60",
+    "70"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "| Crackles | ~60% | ~70% |"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "50",
+    "80"
+   ],
+   "performance_claims": [
+    "50",
+    "80"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "| Leg edema | ~50% | ~80% |"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "500",
+    "75",
+    "90"
+   ],
+   "performance_claims": [
+    "500",
+    "75",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "| BNP >500 pg/mL | ~90% | ~75% |"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [
+    "92",
+    "94"
+   ],
+   "performance_claims": [
+    "92",
+    "94"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "| Lung US B-lines | ~94% | ~92% |"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "4"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "McGee S. \"Evidence-Based Physical Diagnosis\" (4th ed)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "Collins SP, et al."
+   ],
+   "numeric_claims": [
+    "2020",
+    "324",
+    "486",
+    "499",
+    "5"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Collins SP, et al. JAMA. 2020;324(5):486-499"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "Martindale JL, et al."
+   ],
+   "numeric_claims": [
+    "2016",
+    "278",
+    "289",
+    "3",
+    "68"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Martindale JL, et al. Ann Emerg Med. 2016;68(3):278-289"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [
+    "3"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bottom line: Focus on signs of volume overload (JVP, edema, crackles, S3), bedside ultrasound, and BNP to confirm heart failure. Always consider other causes of edema if the diagnosis is unclear"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014an elderly male with prior MI and hypertension, subacute worsening bilateral leg swelling, orthopnea (sleeping in recliner), weight gain, and mild hypoxemia\u2014the most likely diagnosis is acute decompensated heart failure (ADHF). Here\u2019s how to approach the history, physical, and bedside tests, with diagnostic performance data where available:\n\n**History:**\n- Onset, duration, and progression of symptoms (dyspnea, orthopnea, PND, fatigue, chest pain, palpitations)\n- Recent medication changes, adherence, dietary indiscretion (salt/fluid intake)\n- Symptoms of infection (cough, fever)\n- Symptoms of other causes of edema (liver disease, nephrotic syndrome)\n- Review of systems: cough, sputum, hemoptysis, abdominal pain, nocturia\n\n**Physical Examination:**\n- **Vital signs:** BP, HR, RR, SpO2, temperature\n- **General:** Distress, ability to speak, use of accessory muscles\n- **Neck:** Jugular venous pressure (JVP) \u2013 elevated JVP is highly specific for volume overload (specificity ~90%, sensitivity ~50%)\n- **Lungs:** Crackles/rales (sensitivity ~60%, specificity ~70%), decreased breath sounds, wheezing\n- **Heart:** S3 gallop (specificity ~99%, sensitivity ~13%), murmurs, displaced apex\n- **Abdomen:** Hepatomegaly, ascites\n- **Extremities:** Pitting edema, sacral edema, cool extremities (suggests low output)\n\n**Bedside Tests:**\n- **Pulse oximetry:** Already done (SpO2 93% RA)\n- **ECG:** Look for arrhythmias, ischemia, prior infarct\n- **Bedside ultrasound:**\n  - **Lung US:** B-lines (sensitivity ~94%, specificity ~92% for pulmonary edema)\n  - **IVC diameter/collapsibility:** Suggests volume status\n  - **Cardiac US (if available):** LV function, RV size, pericardial effusion\n- **Urinalysis:** Rule out nephrotic syndrome\n- **Bedside glucose:** Rule out hyperglycemia as a precipitant\n\n**Other Initial Tests (not strictly bedside):**\n- **BNP/NT-proBNP:** High sensitivity (~90%), moderate specificity (~75%) for heart failure\n- **CXR:** Pulmonary edema, cardiomegaly, pleural effusions\n\n**Summary Table:**\n| Finding/Test         | Sensitivity | Specificity |\n|---------------------|-------------|-------------|\n| Elevated JVP        | ~50%        | ~90%        |\n| S3 Gallop           | ~13%        | ~99%        |\n| Crackles            | ~60%        | ~70%        |\n| Leg edema           | ~50%        | ~80%        |\n| BNP >500 pg/mL      | ~90%        | ~75%        |\n| Lung US B-lines     | ~94%        | ~92%        |\n\n**References:**\n- McGee S. \"Evidence-Based Physical Diagnosis\" (4th ed)\n- Collins SP, et al. JAMA. 2020;324(5):486-499.\n- Martindale JL, et al. Ann Emerg Med. 2016;68(3):278-289.\n\n**Bottom line:** Focus on signs of volume overload (JVP, edema, crackles, S3), bedside ultrasound, and BNP to confirm heart failure. Always consider other causes of edema if the diagnosis is unclear."
+ },
+ "variant": "base"
+}

@@ -1,0 +1,411 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "abdominal_pain_001",
+ "blocked_items": [],
+ "case_id": "abdominal_pain_001_n1",
+ "created_at": "2026-09-11T09:06:07+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, character, and migration of pain (classic for appendicitis: periumbilical to RLQ)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: nausea, vomiting, anorexia (loss of appetite is a classic feature)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Bowel and urinary symptoms (diarrhea, constipation, dysuria)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Previous abdominal surgeries or similar episodes"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent trauma or strenuous activity"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication history (NSAIDs, anticoagulants)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs (fever, tachycardia)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdominal exam:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Inspection: distension, scars, hernias"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Auscultation: bowel sounds"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Palpation: tenderness (especially RLQ), rebound tenderness, guarding"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Percussion: peritoneal signs"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Special signs:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Rovsing\u2019s sign (RLQ pain with LLQ palpation)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Psoas sign (pain with right hip extension)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Obturator sign (pain with internal rotation of flexed right hip)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "McBurney\u2019s point tenderness"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urinalysis (to rule out UTI or renal colic)"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Point-of-care ultrasound (POCUS) if available: can sometimes visualize an inflamed appendix or free fluid"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside blood tests: CBC (look for leukocytosis), CRP"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Migration of pain, RLQ tenderness, and anorexia are the most predictive symptoms/signs for appendicitis (Alvarado score components)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "50",
+    "85"
+   ],
+   "performance_claims": [
+    "50",
+    "85"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Rebound tenderness: sensitivity ~50%, specificity ~85%"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "20",
+    "30",
+    "85",
+    "95"
+   ],
+   "performance_claims": [
+    "20",
+    "30",
+    "85",
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Rovsing\u2019s, psoas, obturator signs: low sensitivity (~20-30%), higher specificity (~85-95%)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "50",
+    "75",
+    "86",
+    "94"
+   ],
+   "performance_claims": [
+    "50",
+    "75",
+    "86",
+    "94"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "McBurney\u2019s point tenderness: sensitivity ~50-94%, specificity ~75-86%"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "60",
+    "80"
+   ],
+   "performance_claims": [
+    "60",
+    "80"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Leukocytosis: sensitivity ~80%, specificity ~60%"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "60",
+    "65",
+    "80",
+    "85"
+   ],
+   "performance_claims": [
+    "60",
+    "65",
+    "80",
+    "85"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "CRP: sensitivity ~65-85%, specificity ~60-80%"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Take a focused history for appendicitis and alternative diagnoses"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Perform a thorough abdominal exam with special attention to peritoneal signs and special maneuvers"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Order bedside labs (CBC, CRP, urinalysis)"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Consider POCUS if available"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Use clinical prediction rules (e.g., Alvarado score) to guide further imaging and management"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "2006",
+    "333",
+    "530",
+    "534",
+    "7567"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "references",
+   "text": "Humes DJ, Simpson J. Acute appendicitis. BMJ. 2006;333(7567):530-534"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "1",
+    "2004",
+    "28",
+    "37",
+    "91"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "references",
+   "text": "Andersson RE. Meta-analysis of the clinical and laboratory diagnosis of appendicitis. Br J Surg. 2004;91(1):28-37"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 34-year-old male hospitalized for cellulitis, now with new-onset periumbilical pain migrating to the right lower quadrant (RLQ), anorexia, and fever (38.1\u00b0C)\u2014the concern is for acute appendicitis. Here\u2019s how to approach the case:\n\n**History:**\n- Onset, character, and migration of pain (classic for appendicitis: periumbilical to RLQ)\n- Associated symptoms: nausea, vomiting, anorexia (loss of appetite is a classic feature)\n- Bowel and urinary symptoms (diarrhea, constipation, dysuria)\n- Previous abdominal surgeries or similar episodes\n- Recent trauma or strenuous activity\n- Medication history (NSAIDs, anticoagulants)\n\n**Physical Examination:**\n- Vital signs (fever, tachycardia)\n- Abdominal exam:\n  - Inspection: distension, scars, hernias\n  - Auscultation: bowel sounds\n  - Palpation: tenderness (especially RLQ), rebound tenderness, guarding\n  - Percussion: peritoneal signs\n- Special signs:\n  - Rovsing\u2019s sign (RLQ pain with LLQ palpation)\n  - Psoas sign (pain with right hip extension)\n  - Obturator sign (pain with internal rotation of flexed right hip)\n  - McBurney\u2019s point tenderness\n\n**Bedside Tests:**\n- Urinalysis (to rule out UTI or renal colic)\n- Point-of-care ultrasound (POCUS) if available: can sometimes visualize an inflamed appendix or free fluid\n- Bedside blood tests: CBC (look for leukocytosis), CRP\n\n**Diagnostic Performance Data:**\n- Migration of pain, RLQ tenderness, and anorexia are the most predictive symptoms/signs for appendicitis (Alvarado score components)\n- Rebound tenderness: sensitivity ~50%, specificity ~85%\n- Rovsing\u2019s, psoas, obturator signs: low sensitivity (~20-30%), higher specificity (~85-95%)\n- McBurney\u2019s point tenderness: sensitivity ~50-94%, specificity ~75-86%\n- Leukocytosis: sensitivity ~80%, specificity ~60%\n- CRP: sensitivity ~65-85%, specificity ~60-80%\n\n**Summary:**\n- Take a focused history for appendicitis and alternative diagnoses\n- Perform a thorough abdominal exam with special attention to peritoneal signs and special maneuvers\n- Order bedside labs (CBC, CRP, urinalysis)\n- Consider POCUS if available\n- Use clinical prediction rules (e.g., Alvarado score) to guide further imaging and management\n\nReferences:\n- Humes DJ, Simpson J. Acute appendicitis. BMJ. 2006;333(7567):530-534.\n- Andersson RE. Meta-analysis of the clinical and laboratory diagnosis of appendicitis. Br J Surg. 2004;91(1):28-37."
+ },
+ "variant": "n1"
+}

@@ -1,0 +1,355 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "abdominal_pain_001",
+ "blocked_items": [],
+ "case_id": "abdominal_pain_001_p1",
+ "created_at": "2026-09-11T09:06:00+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, character, and progression of abdominal pain (migration, severity, radiation)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: nausea, vomiting, diarrhea, constipation, urinary symptoms, dysuria, hematuria"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent antibiotic use (for cellulitis)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past medical/surgical history (especially abdominal surgeries, diverticular disease)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Sexual history (risk for STIs, epididymitis)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent travel, sick contacts"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication history"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General appearance (toxic, ill, septic)"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs (repeat temperature, HR, BP, RR, O2 sat)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdominal exam:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Inspection: distension, scars, hernias"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Auscultation: bowel sounds"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Palpation: tenderness (location, rebound, guarding, rigidity), masses, organomegaly"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Percussion: tympany, shifting dullness"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Special signs: Rovsing\u2019s, psoas, obturator, Murphy\u2019s, McBurney\u2019s point tenderness"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Groin/genital exam (hernia, testicular torsion, epididymitis)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Rectal exam (tenderness, masses, blood)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urinalysis (rule out UTI, hematuria)"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Point-of-care ultrasound (POCUS) if available: free fluid, abscess, appendicitis, diverticulitis"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside blood glucose (if diabetic or altered mental status)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Migration of pain, anorexia, and fever are classic for appendicitis, but LLQ pain is atypical (unless rare anatomical variant or retrocecal/long appendix). Diverticulitis is more likely with LLQ pain in adults"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "7",
+    "74",
+    "81"
+   ],
+   "performance_claims": [
+    "7",
+    "74",
+    "81"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Alvarado score (for appendicitis): migration of pain, anorexia, fever, RLQ tenderness, leukocytosis, etc. Sensitivity ~81%, specificity ~74% at cutoff \u22657"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "54",
+    "74"
+   ],
+   "performance_claims": [
+    "54",
+    "74"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Rebound tenderness: sensitivity ~54%, specificity ~74% for peritonitis"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "22",
+    "58",
+    "68",
+    "96"
+   ],
+   "performance_claims": [
+    "22",
+    "58",
+    "68",
+    "96"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Rovsing\u2019s sign: sensitivity ~22-68%, specificity ~58-96% for appendicitis"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [
+    "85",
+    "92"
+   ],
+   "performance_claims": [
+    "85",
+    "92"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "POCUS for appendicitis: sensitivity ~85%, specificity ~92% (operator dependent)"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [
+    "90",
+    "92"
+   ],
+   "performance_claims": [
+    "90",
+    "92"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "POCUS for diverticulitis: sensitivity ~92%, specificity ~90% (operator dependent)"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on a thorough abdominal exam, urinalysis, and consider POCUS if available"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Consider diverticulitis, intra-abdominal abscess, or other causes of acute abdomen in a patient with recent cellulitis and new abdominal pain"
+  },
+  {
+   "bedside": false,
+   "category": "consult",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Early surgical or medical consultation may be warranted depending on findings"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given the presentation of a 34-year-old male admitted for leg cellulitis, now on day 2 with new periumbilical pain that has migrated to the left lower quadrant (LLQ), anorexia, and a low-grade fever (T 38.1\u00b0C), your assessment should focus on:\n\n**History:**\n- Onset, character, and progression of abdominal pain (migration, severity, radiation)\n- Associated symptoms: nausea, vomiting, diarrhea, constipation, urinary symptoms, dysuria, hematuria\n- Recent antibiotic use (for cellulitis)\n- Past medical/surgical history (especially abdominal surgeries, diverticular disease)\n- Sexual history (risk for STIs, epididymitis)\n- Recent travel, sick contacts\n- Medication history\n\n**Physical Examination:**\n- General appearance (toxic, ill, septic)\n- Vital signs (repeat temperature, HR, BP, RR, O2 sat)\n- Abdominal exam:\n  - Inspection: distension, scars, hernias\n  - Auscultation: bowel sounds\n  - Palpation: tenderness (location, rebound, guarding, rigidity), masses, organomegaly\n  - Percussion: tympany, shifting dullness\n  - Special signs: Rovsing\u2019s, psoas, obturator, Murphy\u2019s, McBurney\u2019s point tenderness\n- Groin/genital exam (hernia, testicular torsion, epididymitis)\n- Rectal exam (tenderness, masses, blood)\n\n**Bedside Tests:**\n- Urinalysis (rule out UTI, hematuria)\n- Point-of-care ultrasound (POCUS) if available: free fluid, abscess, appendicitis, diverticulitis\n- Bedside blood glucose (if diabetic or altered mental status)\n\n**Diagnostic Performance Data:**\n- Migration of pain, anorexia, and fever are classic for appendicitis, but LLQ pain is atypical (unless rare anatomical variant or retrocecal/long appendix). Diverticulitis is more likely with LLQ pain in adults.\n- Alvarado score (for appendicitis): migration of pain, anorexia, fever, RLQ tenderness, leukocytosis, etc. Sensitivity ~81%, specificity ~74% at cutoff \u22657.\n- Rebound tenderness: sensitivity ~54%, specificity ~74% for peritonitis.\n- Rovsing\u2019s sign: sensitivity ~22-68%, specificity ~58-96% for appendicitis.\n- POCUS for appendicitis: sensitivity ~85%, specificity ~92% (operator dependent).\n- POCUS for diverticulitis: sensitivity ~92%, specificity ~90% (operator dependent).\n\n**Summary:**\n- Focus on a thorough abdominal exam, urinalysis, and consider POCUS if available.\n- Consider diverticulitis, intra-abdominal abscess, or other causes of acute abdomen in a patient with recent cellulitis and new abdominal pain.\n- Early surgical or medical consultation may be warranted depending on findings."
+ },
+ "variant": "p1"
+}

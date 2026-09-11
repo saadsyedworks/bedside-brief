@@ -1,0 +1,263 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "syncope_002",
+ "blocked_items": [],
+ "case_id": "syncope_002_p1",
+ "created_at": "2026-09-11T09:15:06+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Detailed account of the event (from witnesses if possible): duration, movements, incontinence, tongue biting, recovery time"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication review: sotalol dose, other QT-prolonging drugs, diuretics, antihypertensives"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past medical history: cardiac disease, prior syncope, falls, seizures, diabetes, hypertension"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Symptoms before/after event: chest pain, palpitations, dyspnea, confusion, weakness"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Fluid intake, recent illness, appetite, weight loss"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: supine and standing BP/HR (orthostatic measurements)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: hydration status, signs of trauma from fall"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiovascular: murmurs, irregular rhythm, signs of heart failure"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neurological: focal deficits, cognitive status, gait assessment"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "500"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: Look for QT prolongation (QTc > 500 ms increases risk of torsades; sotalol is a class III antiarrhythmic that prolongs QT), bradycardia, pauses, AV block, ischemia"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "500"
+   ],
+   "performance_claims": [
+    "500"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Sensitivity for arrhythmia as cause of syncope is low unless captured during event, but QTc > 500 ms is a strong risk factor for torsades"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "10",
+    "20",
+    "30",
+    "90"
+   ],
+   "performance_claims": [
+    "10",
+    "20",
+    "30",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Orthostatic BP/HR: Drop in systolic BP \u2265 20 mmHg or diastolic \u2265 10 mmHg, or HR increase \u2265 30 bpm suggests orthostatic hypotension (sensitivity ~30%, specificity ~90% for syncope due to orthostasis)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Glucose: Rule out hypoglycemia"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Telemetry: Continuous monitoring for arrhythmias"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "90"
+   ],
+   "performance_claims": [
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: Abnormal ECG is present in ~90% of patients with arrhythmic syncope, but sensitivity for capturing the event is low unless arrhythmia is ongoing"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Orthostatic vitals: Specificity high for orthostatic syncope, but sensitivity is limited"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "40",
+    "90"
+   ],
+   "performance_claims": [
+    "40",
+    "90"
+   ],
+   "record_id": null,
+   "section": "history",
+   "text": "Absence of prodrome and amnesia are more suggestive of arrhythmic syncope (specificity ~90%, sensitivity ~40%)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Focus on arrhythmia (especially torsades), orthostatic hypotension, and structural heart disease"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Key tests: ECG (QTc), orthostatic vitals, glucose, telemetry"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Correct hypokalemia urgently"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Consider further workup (echo, ambulatory monitoring) if initial evaluation is inconclusive"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014an 81-year-old female on sotalol for atrial fibrillation, who collapsed on standing with no prodrome or memory of the event, and with hypokalemia (K 3.1)\u2014the main concerns are arrhythmia (especially torsades de pointes due to sotalol and low potassium), orthostatic hypotension, and other causes of syncope (e.g., neurocardiogenic, structural heart disease).\n\n**History:**\n- Detailed account of the event (from witnesses if possible): duration, movements, incontinence, tongue biting, recovery time.\n- Medication review: sotalol dose, other QT-prolonging drugs, diuretics, antihypertensives.\n- Past medical history: cardiac disease, prior syncope, falls, seizures, diabetes, hypertension.\n- Symptoms before/after event: chest pain, palpitations, dyspnea, confusion, weakness.\n- Fluid intake, recent illness, appetite, weight loss.\n\n**Physical Examination:**\n- Vital signs: supine and standing BP/HR (orthostatic measurements).\n- General: hydration status, signs of trauma from fall.\n- Cardiovascular: murmurs, irregular rhythm, signs of heart failure.\n- Neurological: focal deficits, cognitive status, gait assessment.\n\n**Bedside Tests:**\n- **ECG:** Look for QT prolongation (QTc > 500 ms increases risk of torsades; sotalol is a class III antiarrhythmic that prolongs QT), bradycardia, pauses, AV block, ischemia.\n  - Sensitivity for arrhythmia as cause of syncope is low unless captured during event, but QTc > 500 ms is a strong risk factor for torsades.\n- **Orthostatic BP/HR:** Drop in systolic BP \u2265 20 mmHg or diastolic \u2265 10 mmHg, or HR increase \u2265 30 bpm suggests orthostatic hypotension (sensitivity ~30%, specificity ~90% for syncope due to orthostasis).\n- **Glucose:** Rule out hypoglycemia.\n- **Telemetry:** Continuous monitoring for arrhythmias.\n\n**Diagnostic Performance Data:**\n- **ECG:** Abnormal ECG is present in ~90% of patients with arrhythmic syncope, but sensitivity for capturing the event is low unless arrhythmia is ongoing.\n- **Orthostatic vitals:** Specificity high for orthostatic syncope, but sensitivity is limited.\n- **History:** Absence of prodrome and amnesia are more suggestive of arrhythmic syncope (specificity ~90%, sensitivity ~40%).\n\n**Summary:**\n- Focus on arrhythmia (especially torsades), orthostatic hypotension, and structural heart disease.\n- Key tests: ECG (QTc), orthostatic vitals, glucose, telemetry.\n- Correct hypokalemia urgently.\n- Consider further workup (echo, ambulatory monitoring) if initial evaluation is inconclusive."
+ },
+ "variant": "p1"
+}

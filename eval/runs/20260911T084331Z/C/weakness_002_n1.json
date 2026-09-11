@@ -1,0 +1,300 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "weakness_002",
+ "blocked_items": [],
+ "case_id": "weakness_002_n1",
+ "created_at": "2026-09-11T09:15:57+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and progression of leg weakness/heaviness"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Character, location, and radiation of back pain"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: numbness, tingling, saddle anesthesia, urinary retention/incontinence, fecal incontinence"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent falls or trauma"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Previous episodes of similar symptoms"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Current medications (especially opioids, steroids)"
+  },
+  {
+   "bedside": false,
+   "category": "disposition",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: Assess for distress, ability to transfer/stand"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neurological Exam:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Motor strength (hip flexion, knee extension, ankle dorsiflexion/plantarflexion)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Sensory exam (light touch, pinprick, temperature, proprioception) in legs and perineum"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Reflexes (patellar, Achilles, Babinski)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Gait (if safe)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Rectal tone and perianal sensation"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Spine: Palpate for tenderness, deformity"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [
+    "100"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bladder scan for retention (post-void residual >100 mL suggests neurogenic bladder)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Assess for saddle anesthesia (light touch/pinprick in perianal area)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Red flag symptoms (progressive weakness, sensory level, sphincter dysfunction) have high specificity but low sensitivity for spinal cord compression"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Rectal tone: Decreased tone is specific but not sensitive for cord compression"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "80",
+    "90"
+   ],
+   "performance_claims": [
+    "80",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Sensory level: Sensitivity ~80%, specificity ~90% for cord compression"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "60",
+    "90"
+   ],
+   "performance_claims": [
+    "60",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bladder dysfunction: Sensitivity ~60%, specificity ~90%"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urgently assess for spinal cord compression with focused neuro exam and bladder scan"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [
+    "90"
+   ],
+   "performance_claims": [
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "MRI spine is the gold standard for diagnosis (sensitivity >90%)"
+  },
+  {
+   "bedside": false,
+   "category": "consult",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Early recognition and intervention (steroids, neurosurgical/oncology consult) are critical to prevent permanent deficits"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "2005"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Loblaw DA, Perry J, Chambers A, Laperriere NJ. Systematic review of the diagnosis and management of malignant extradural spinal cord compression. JCO 2005"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "2016",
+    "41"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "NICE guideline NG41: Spinal metastases: diagnosis and management, 2016"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 54-year-old male with metastatic prostate cancer, new onset of bilateral leg weakness/heaviness, difficulty standing, and escalating mid-back pain\u2014the primary concern is spinal cord compression, a neurological emergency.\n\n**History:**\n- Onset, duration, and progression of leg weakness/heaviness\n- Character, location, and radiation of back pain\n- Associated symptoms: numbness, tingling, saddle anesthesia, urinary retention/incontinence, fecal incontinence\n- Recent falls or trauma\n- Previous episodes of similar symptoms\n- Current medications (especially opioids, steroids)\n\n**Physical Examination:**\n- **General:** Assess for distress, ability to transfer/stand\n- **Neurological Exam:**\n  - Motor strength (hip flexion, knee extension, ankle dorsiflexion/plantarflexion)\n  - Sensory exam (light touch, pinprick, temperature, proprioception) in legs and perineum\n  - Reflexes (patellar, Achilles, Babinski)\n  - Gait (if safe)\n  - Rectal tone and perianal sensation\n- **Spine:** Palpate for tenderness, deformity\n\n**Bedside Tests:**\n- Bladder scan for retention (post-void residual >100 mL suggests neurogenic bladder)\n- Assess for saddle anesthesia (light touch/pinprick in perianal area)\n\n**Diagnostic Performance Data:**\n- **Red flag symptoms** (progressive weakness, sensory level, sphincter dysfunction) have high specificity but low sensitivity for spinal cord compression.\n- **Rectal tone**: Decreased tone is specific but not sensitive for cord compression.\n- **Sensory level**: Sensitivity ~80%, specificity ~90% for cord compression.\n- **Bladder dysfunction**: Sensitivity ~60%, specificity ~90%.\n\n**Summary:**\n- Urgently assess for spinal cord compression with focused neuro exam and bladder scan.\n- MRI spine is the gold standard for diagnosis (sensitivity >90%).\n- Early recognition and intervention (steroids, neurosurgical/oncology consult) are critical to prevent permanent deficits.\n\n**References:**\n- Loblaw DA, Perry J, Chambers A, Laperriere NJ. Systematic review of the diagnosis and management of malignant extradural spinal cord compression. JCO 2005.\n- NICE guideline NG41: Spinal metastases: diagnosis and management, 2016."
+ },
+ "variant": "n1"
+}

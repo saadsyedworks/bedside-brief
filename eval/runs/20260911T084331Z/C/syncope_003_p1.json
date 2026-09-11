@@ -1,0 +1,296 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "syncope_003",
+ "blocked_items": [],
+ "case_id": "syncope_003_p1",
+ "created_at": "2026-09-11T09:15:21+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Detailed event history: prodrome (nausea, lightheadedness, visual changes), duration of loss of consciousness, movements (tonic-clonic?), incontinence, recovery time, witness reports"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past medical history: prior seizures, cardiac disease, diabetes, medications (especially hypoglycemics, antihypertensives), alcohol/drug use"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent symptoms: chest pain, palpitations, fever, headache, focal neurologic deficits"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Fluid intake/output, urine output, recent labs (electrolytes, glucose)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: orthostatic BP/HR, temperature"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: pallor, diaphoresis"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neurologic: full exam for focal deficits, post-ictal state, tongue lacerations, incontinence"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiovascular: murmurs, arrhythmias, JVP"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdominal: ongoing pancreatitis signs, tenderness"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Skin: signs of trauma from fall"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Capillary blood glucose (hypoglycemia can cause seizures/syncope)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "90"
+   ],
+   "performance_claims": [
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Orthostatic vitals (sensitivity ~90% for orthostatic hypotension, but specificity lower)"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "50",
+    "80"
+   ],
+   "performance_claims": [
+    "50",
+    "80"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG (to rule out arrhythmia, sensitivity for arrhythmia-related syncope ~50-80%)"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pulse oximetry"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Brigo et al, 2012"
+   ],
+   "numeric_claims": [
+    "2012",
+    "33",
+    "96"
+   ],
+   "performance_claims": [
+    "33",
+    "96"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Tongue biting is highly specific (~96%) but not sensitive (~33%) for seizure vs. syncope (Brigo et al, 2012)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "5",
+    "95"
+   ],
+   "performance_claims": [
+    "5",
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Post-ictal confusion >5 min is more suggestive of seizure (specificity ~95%)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "60",
+    "90"
+   ],
+   "performance_claims": [
+    "60",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Orthostatic hypotension: sensitivity ~90%, specificity ~60% for vasovagal/orthostatic syncope"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: sensitivity for arrhythmogenic syncope is moderate, but essential to rule out life-threatening causes"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on distinguishing seizure from syncope (history, tongue biting, post-ictal state)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Rule out hypoglycemia, arrhythmia, and orthostatic hypotension"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Consider further workup (labs, EEG, neuroimaging) if seizure is likely"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Brigo F, et al."
+   ],
+   "numeric_claims": [
+    "2012"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Brigo F, et al. Tongue biting in differential diagnosis of seizures and syncope. Epilepsy Behav. 2012"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "Sheldon R, et al."
+   ],
+   "numeric_claims": [
+    "2018"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Sheldon R, et al. Diagnostic criteria for syncope. Eur Heart J. 2018"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "This patient is a 44-year-old male, day 3 of pancreatitis admission, NPO, who had a syncopal episode after urinating, with post-ictal confusion and tongue biting. This raises concern for seizure vs. syncope (possibly vasovagal or orthostatic), with seizure more likely given the prolonged confusion and tongue biting.\n\n**History:**\n- Detailed event history: prodrome (nausea, lightheadedness, visual changes), duration of loss of consciousness, movements (tonic-clonic?), incontinence, recovery time, witness reports.\n- Past medical history: prior seizures, cardiac disease, diabetes, medications (especially hypoglycemics, antihypertensives), alcohol/drug use.\n- Recent symptoms: chest pain, palpitations, fever, headache, focal neurologic deficits.\n- Fluid intake/output, urine output, recent labs (electrolytes, glucose).\n\n**Physical Examination:**\n- Vital signs: orthostatic BP/HR, temperature.\n- General: pallor, diaphoresis.\n- Neurologic: full exam for focal deficits, post-ictal state, tongue lacerations, incontinence.\n- Cardiovascular: murmurs, arrhythmias, JVP.\n- Abdominal: ongoing pancreatitis signs, tenderness.\n- Skin: signs of trauma from fall.\n\n**Bedside Tests:**\n- Capillary blood glucose (hypoglycemia can cause seizures/syncope).\n- Orthostatic vitals (sensitivity ~90% for orthostatic hypotension, but specificity lower).\n- ECG (to rule out arrhythmia, sensitivity for arrhythmia-related syncope ~50-80%).\n- Pulse oximetry.\n\n**Diagnostic Performance Data:**\n- Tongue biting is highly specific (~96%) but not sensitive (~33%) for seizure vs. syncope (Brigo et al, 2012).\n- Post-ictal confusion >5 min is more suggestive of seizure (specificity ~95%).\n- Orthostatic hypotension: sensitivity ~90%, specificity ~60% for vasovagal/orthostatic syncope.\n- ECG: sensitivity for arrhythmogenic syncope is moderate, but essential to rule out life-threatening causes.\n\n**Summary:**\n- Focus on distinguishing seizure from syncope (history, tongue biting, post-ictal state).\n- Rule out hypoglycemia, arrhythmia, and orthostatic hypotension.\n- Consider further workup (labs, EEG, neuroimaging) if seizure is likely.\n\n**References:**\n- Brigo F, et al. Tongue biting in differential diagnosis of seizures and syncope. Epilepsy Behav. 2012.\n- Sheldon R, et al. Diagnostic criteria for syncope. Eur Heart J. 2018."
+ },
+ "variant": "p1"
+}

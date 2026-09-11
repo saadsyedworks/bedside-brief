@@ -1,0 +1,389 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "chest_pain_002",
+ "blocked_items": [],
+ "case_id": "chest_pain_002",
+ "created_at": "2026-09-11T09:08:40+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and character of chest pain (pleuritic, sharp, radiating?)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: cough, hemoptysis, fever, leg swelling/pain, syncope, palpitations"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Risk factors for PE: recent immobilization, surgery, trauma, personal/family history of VTE, active cancer, OCP use"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Smoking history (already noted)"
+  },
+  {
+   "bedside": false,
+   "category": "disposition",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent IV lines or DVT symptoms (since admitted for cellulitis)"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: confirm HR, RR, BP, O2 sat, temperature"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: distress, diaphoresis, cyanosis"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Chest: inspection (asymmetry, use of accessory muscles), palpation (tenderness, crepitus), percussion (hyperresonance for pneumothorax), auscultation (decreased breath sounds, crackles, wheeze, pleural rub)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiac: murmurs, gallops, JVP"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Extremities: signs of DVT (swelling, erythema, tenderness, Homan's sign), calf circumference"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Skin: progression of cellulitis, signs of infection"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "1",
+    "3"
+   ],
+   "performance_claims": [
+    "1",
+    "3"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: to look for sinus tachycardia (most common in PE), S1Q3T3 pattern (specific but not sensitive), right heart strain"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Portable chest X-ray: to rule out pneumothorax, pneumonia, or other acute lung pathology (normal in most PE)"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside ultrasound (if available):"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Lung US: absence of lung sliding (pneumothorax), B-lines (edema), consolidation"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Cardiac US: RV dilation/strain (suggestive of PE)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Leg vein US: DVT"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "94"
+   ],
+   "performance_claims": [
+    "94"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pulse oximetry: already noted (94% RA)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Wells score"
+   ],
+   "numeric_claims": [
+    "85",
+    "90"
+   ],
+   "performance_claims": [
+    "85",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Wells score for PE: clinical prediction rule (sensitivity ~85-90% for low risk, specificity lower)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "95"
+   ],
+   "performance_claims": [
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "D-dimer: high sensitivity (>95%), low specificity"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "useful to rule out PE in low-risk patients"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "1",
+    "10",
+    "20",
+    "3",
+    "90"
+   ],
+   "performance_claims": [
+    "1",
+    "10",
+    "20",
+    "3",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: S1Q3T3 pattern sensitivity ~10-20%, specificity ~90%"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "sinus tachycardia is common but nonspecific"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Chest X-ray: usually normal in PE, but can show Hampton's hump or Westermark sign (rare, specific but not sensitive)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "95",
+    "96"
+   ],
+   "performance_claims": [
+    "95",
+    "96"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside US for DVT: sensitivity ~95%, specificity ~96% for proximal DVT"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "90",
+    "95",
+    "98"
+   ],
+   "performance_claims": [
+    "90",
+    "95",
+    "98"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside US for pneumothorax: sensitivity ~90-95%, specificity ~98%"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on history for PE risk factors and symptoms"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Examine for DVT, chest findings, and signs of infection"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Perform ECG, chest X-ray, and bedside US if available"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [
+    "Wells score"
+   ],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Use Wells score to risk-stratify and guide further testing (e.g., D-dimer, CT-PA)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Immediate priorities are to rule out life-threatening causes (PE, pneumothorax) and stabilize the patient as needed"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a young male smoker admitted for cellulitis, now with sudden pleuritic chest pain, dyspnea, tachycardia, tachypnea, and mild hypoxemia\u2014the main concern is for pulmonary embolism (PE), but pneumothorax, pneumonia, and acute coronary syndrome should also be considered.\n\n**History:**\n- Onset, duration, and character of chest pain (pleuritic, sharp, radiating?)\n- Associated symptoms: cough, hemoptysis, fever, leg swelling/pain, syncope, palpitations\n- Risk factors for PE: recent immobilization, surgery, trauma, personal/family history of VTE, active cancer, OCP use\n- Smoking history (already noted)\n- Recent IV lines or DVT symptoms (since admitted for cellulitis)\n\n**Physical Examination:**\n- Vital signs: confirm HR, RR, BP, O2 sat, temperature\n- General: distress, diaphoresis, cyanosis\n- Chest: inspection (asymmetry, use of accessory muscles), palpation (tenderness, crepitus), percussion (hyperresonance for pneumothorax), auscultation (decreased breath sounds, crackles, wheeze, pleural rub)\n- Cardiac: murmurs, gallops, JVP\n- Extremities: signs of DVT (swelling, erythema, tenderness, Homan's sign), calf circumference\n- Skin: progression of cellulitis, signs of infection\n\n**Bedside Tests:**\n- ECG: to look for sinus tachycardia (most common in PE), S1Q3T3 pattern (specific but not sensitive), right heart strain\n- Portable chest X-ray: to rule out pneumothorax, pneumonia, or other acute lung pathology (normal in most PE)\n- Bedside ultrasound (if available):\n  - Lung US: absence of lung sliding (pneumothorax), B-lines (edema), consolidation\n  - Cardiac US: RV dilation/strain (suggestive of PE)\n  - Leg vein US: DVT\n- Pulse oximetry: already noted (94% RA)\n\n**Diagnostic Performance Data:**\n- Wells score for PE: clinical prediction rule (sensitivity ~85-90% for low risk, specificity lower)\n- D-dimer: high sensitivity (>95%), low specificity; useful to rule out PE in low-risk patients\n- ECG: S1Q3T3 pattern sensitivity ~10-20%, specificity ~90%; sinus tachycardia is common but nonspecific\n- Chest X-ray: usually normal in PE, but can show Hampton's hump or Westermark sign (rare, specific but not sensitive)\n- Bedside US for DVT: sensitivity ~95%, specificity ~96% for proximal DVT\n- Bedside US for pneumothorax: sensitivity ~90-95%, specificity ~98%\n\n**Summary:**\n- Focus on history for PE risk factors and symptoms\n- Examine for DVT, chest findings, and signs of infection\n- Perform ECG, chest X-ray, and bedside US if available\n- Use Wells score to risk-stratify and guide further testing (e.g., D-dimer, CT-PA)\n\nImmediate priorities are to rule out life-threatening causes (PE, pneumothorax) and stabilize the patient as needed."
+ },
+ "variant": "base"
+}

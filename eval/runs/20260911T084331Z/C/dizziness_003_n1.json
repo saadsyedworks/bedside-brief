@@ -1,0 +1,273 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "dizziness_003",
+ "blocked_items": [],
+ "case_id": "dizziness_003_n1",
+ "created_at": "2026-09-11T09:10:22+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "62"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": null,
+   "text": "For a 62-year-old woman with new-onset dizziness on the telemetry floor, your approach should be systematic to identify potentially serious causes (e.g., arrhythmia, orthostatic hypotension, stroke, medication side effects, dehydration, etc.)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and progression of dizziness (sudden vs. gradual, constant vs. episodic)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Description of dizziness (vertigo, presyncope, disequilibrium, lightheadedness)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: chest pain, palpitations, shortness of breath, nausea, vomiting, headache, visual changes, weakness, numbness, speech changes"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent medication changes (especially antihypertensives, diuretics, sedatives)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Fluid intake, recent vomiting/diarrhea, fever"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past medical history: cardiac disease, diabetes, hypertension, prior strokes/TIAs, arrhythmias"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent falls or trauma"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs (including orthostatic blood pressures and heart rate)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General appearance (ill-appearing, diaphoretic, pale)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiac exam (rate, rhythm, murmurs, extra sounds)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Pulmonary exam (rales, wheezing)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neurologic exam (cranial nerves, motor, sensory, cerebellar, gait, Romberg)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Ear exam (nystagmus, hearing loss, signs of infection)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "10",
+    "20",
+    "97"
+   ],
+   "performance_claims": [
+    "10",
+    "20",
+    "97"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Orthostatic vital signs: Sensitivity ~97% for hypovolemia if positive (drop in SBP \u226520 mmHg or DBP \u226510 mmHg, or increase in HR \u226520 bpm)"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Cardiac monitor/telemetry review: Look for arrhythmias (telemetry is highly sensitive for detecting arrhythmias if present during symptoms)"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: Sensitivity for arrhythmias or ischemia varies, but is standard in dizziness workup"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Blood glucose (fingerstick): Rapid, sensitive for hypoglycemia"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside neurological assessment: NIH Stroke Scale if focal deficits"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "97",
+    "98"
+   ],
+   "performance_claims": [
+    "97",
+    "98"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Orthostatic hypotension: Sensitivity ~97%, specificity ~98% for hypovolemia (if classic criteria met)"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Telemetry: High sensitivity for arrhythmias if symptoms occur during monitoring"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Neurologic exam: Sensitivity for stroke varies, but focal findings are highly specific"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Start with a focused history and exam, check orthostatic vitals, review telemetry, obtain an ECG, and check blood glucose. Escalate to further workup (labs, imaging) based on findings. If the patient is unstable or has concerning features (chest pain, syncope, focal deficits), escalate care immediately"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "For a 62-year-old woman with new-onset dizziness on the telemetry floor, your approach should be systematic to identify potentially serious causes (e.g., arrhythmia, orthostatic hypotension, stroke, medication side effects, dehydration, etc.).\n\n**History:**\n- Onset, duration, and progression of dizziness (sudden vs. gradual, constant vs. episodic)\n- Description of dizziness (vertigo, presyncope, disequilibrium, lightheadedness)\n- Associated symptoms: chest pain, palpitations, shortness of breath, nausea, vomiting, headache, visual changes, weakness, numbness, speech changes\n- Recent medication changes (especially antihypertensives, diuretics, sedatives)\n- Fluid intake, recent vomiting/diarrhea, fever\n- Past medical history: cardiac disease, diabetes, hypertension, prior strokes/TIAs, arrhythmias\n- Recent falls or trauma\n\n**Physical Examination:**\n- Vital signs (including orthostatic blood pressures and heart rate)\n- General appearance (ill-appearing, diaphoretic, pale)\n- Cardiac exam (rate, rhythm, murmurs, extra sounds)\n- Pulmonary exam (rales, wheezing)\n- Neurologic exam (cranial nerves, motor, sensory, cerebellar, gait, Romberg)\n- Ear exam (nystagmus, hearing loss, signs of infection)\n\n**Bedside Tests:**\n- Orthostatic vital signs: Sensitivity ~97% for hypovolemia if positive (drop in SBP \u226520 mmHg or DBP \u226510 mmHg, or increase in HR \u226520 bpm)\n- Cardiac monitor/telemetry review: Look for arrhythmias (telemetry is highly sensitive for detecting arrhythmias if present during symptoms)\n- ECG: Sensitivity for arrhythmias or ischemia varies, but is standard in dizziness workup\n- Blood glucose (fingerstick): Rapid, sensitive for hypoglycemia\n- Bedside neurological assessment: NIH Stroke Scale if focal deficits\n\n**Diagnostic Performance Data:**\n- Orthostatic hypotension: Sensitivity ~97%, specificity ~98% for hypovolemia (if classic criteria met)\n- Telemetry: High sensitivity for arrhythmias if symptoms occur during monitoring\n- Neurologic exam: Sensitivity for stroke varies, but focal findings are highly specific\n\n**Summary:**\nStart with a focused history and exam, check orthostatic vitals, review telemetry, obtain an ECG, and check blood glucose. Escalate to further workup (labs, imaging) based on findings. If the patient is unstable or has concerning features (chest pain, syncope, focal deficits), escalate care immediately."
+ },
+ "variant": "n1"
+}

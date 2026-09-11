@@ -1,0 +1,343 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "palpitations_001",
+ "blocked_items": [],
+ "case_id": "palpitations_001_n1",
+ "created_at": "2026-09-11T09:14:03+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "130",
+    "132",
+    "68",
+    "84"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": null,
+   "text": "For a 68-year-old woman with hypertension, sleep apnea, and COPD, who woke up with a fast, irregular heartbeat (telemetry HR 130s, BP 132/84, denies chest pain), you should focus on evaluating for atrial fibrillation (AF) with rapid ventricular response (RVR), as well as other causes of tachyarrhythmia"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and frequency of palpitations"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: dizziness, syncope, dyspnea, chest pain, diaphoresis"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Precipitating factors: caffeine, alcohol, recent illness, medication changes"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past history: prior arrhythmias, heart failure, thyroid disease, recent infections"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication review: especially beta-agonists, theophylline, steroids (common in COPD)"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Anticoagulation history (risk of stroke if AF)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: distress, diaphoresis, mental status"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: HR, BP, RR, O2 sat, temperature"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiac: irregularly irregular rhythm, murmurs, extra heart sounds, JVP"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Pulmonary: wheezing, rales, signs of respiratory distress"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Peripheral: edema, pulses, signs of heart failure"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neurologic: focal deficits (stroke risk in AF)"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "12",
+    "95"
+   ],
+   "performance_claims": [
+    "12",
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "12-lead ECG: gold standard for diagnosing AF (sensitivity/specificity >95% for AF)"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Telemetry strip: can confirm rhythm if ECG not immediately available"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pulse oximetry: assess for hypoxia (can precipitate arrhythmias)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose: rule out hypoglycemia as a cause of symptoms"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside troponin (if chest pain or concern for ischemia)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [
+    "JAMA Rational Clinical Exam, 2011"
+   ],
+   "numeric_claims": [
+    "2011",
+    "95"
+   ],
+   "performance_claims": [
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: Sensitivity and specificity for AF both >95% (JAMA Rational Clinical Exam, 2011)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "JAMA, 2011",
+    "(JAMA, 2011)"
+   ],
+   "numeric_claims": [
+    "2011",
+    "72",
+    "94"
+   ],
+   "performance_claims": [
+    "72",
+    "94"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Irregularly irregular pulse: Sensitivity ~94%, specificity ~72% for AF (JAMA, 2011)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pulse deficit (difference between apical and radial pulse): less reliable, but can support diagnosis"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on history for triggers and complications"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Examine for signs of heart failure, stroke, or underlying infection"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Obtain ECG to confirm diagnosis"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Monitor vitals and oxygenation"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Consider bedside glucose and troponin as indicated"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "2011",
+    "305",
+    "8",
+    "806",
+    "813"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "references",
+   "text": "JAMA. 2011;305(8):806-813. \"Does This Patient Have Atrial Fibrillation?\" (RCE)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "references",
+   "text": "UpToDate: \"Evaluation and management of supraventricular tachycardia\" and \"Diagnosis of atrial fibrillation\""
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "For a 68-year-old woman with hypertension, sleep apnea, and COPD, who woke up with a fast, irregular heartbeat (telemetry HR 130s, BP 132/84, denies chest pain), you should focus on evaluating for atrial fibrillation (AF) with rapid ventricular response (RVR), as well as other causes of tachyarrhythmia.\n\n**History:**\n- Onset, duration, and frequency of palpitations\n- Associated symptoms: dizziness, syncope, dyspnea, chest pain, diaphoresis\n- Precipitating factors: caffeine, alcohol, recent illness, medication changes\n- Past history: prior arrhythmias, heart failure, thyroid disease, recent infections\n- Medication review: especially beta-agonists, theophylline, steroids (common in COPD)\n- Anticoagulation history (risk of stroke if AF)\n\n**Physical Examination:**\n- General: distress, diaphoresis, mental status\n- Vital signs: HR, BP, RR, O2 sat, temperature\n- Cardiac: irregularly irregular rhythm, murmurs, extra heart sounds, JVP\n- Pulmonary: wheezing, rales, signs of respiratory distress\n- Peripheral: edema, pulses, signs of heart failure\n- Neurologic: focal deficits (stroke risk in AF)\n\n**Bedside Tests:**\n- 12-lead ECG: gold standard for diagnosing AF (sensitivity/specificity >95% for AF)\n- Telemetry strip: can confirm rhythm if ECG not immediately available\n- Pulse oximetry: assess for hypoxia (can precipitate arrhythmias)\n- Bedside glucose: rule out hypoglycemia as a cause of symptoms\n- Bedside troponin (if chest pain or concern for ischemia)\n\n**Diagnostic Performance Data:**\n- ECG: Sensitivity and specificity for AF both >95% (JAMA Rational Clinical Exam, 2011)\n- Irregularly irregular pulse: Sensitivity ~94%, specificity ~72% for AF (JAMA, 2011)\n- Pulse deficit (difference between apical and radial pulse): less reliable, but can support diagnosis\n\n**Summary:**\n- Focus on history for triggers and complications\n- Examine for signs of heart failure, stroke, or underlying infection\n- Obtain ECG to confirm diagnosis\n- Monitor vitals and oxygenation\n- Consider bedside glucose and troponin as indicated\n\nReferences:\n- JAMA. 2011;305(8):806-813. \"Does This Patient Have Atrial Fibrillation?\" (RCE)\n- UpToDate: \"Evaluation and management of supraventricular tachycardia\" and \"Diagnosis of atrial fibrillation\"."
+ },
+ "variant": "n1"
+}

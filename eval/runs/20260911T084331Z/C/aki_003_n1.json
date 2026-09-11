@@ -1,0 +1,297 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "aki_003",
+ "blocked_items": [],
+ "case_id": "aki_003_n1",
+ "created_at": "2026-09-11T09:07:28+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Time and circumstances of being found down (immobility \u2192 muscle breakdown)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Alcohol use history (risk for rhabdo, dehydration, liver disease)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent trauma, seizures, or strenuous activity"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication or drug use (statins, cocaine, etc.)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Symptoms: muscle pain, weakness, swelling, decreased urine output, confusion"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past medical history: kidney disease, diabetes, hypertension"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: fever, tachycardia, hypotension (shock, sepsis)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: mental status (delirium, withdrawal)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Skin: pressure sores, bruising, signs of trauma"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Extremities: muscle tenderness, swelling, firmness (compartment syndrome), decreased pulses, decreased sensation"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Urine: inspect color (dark brown suggests myoglobinuria)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "100",
+    "80"
+   ],
+   "performance_claims": [
+    "100",
+    "80"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urine dipstick: positive for blood but few/no RBCs on microscopy suggests myoglobinuria (sensitivity ~80-100%, specificity lower as hemoglobin also causes positive dip)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "5"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside creatine kinase (CK) if available (CK >5x upper limit is diagnostic for rhabdo)"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside ultrasound: assess for hydronephrosis, muscle swelling"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bladder scan: assess for retention"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urine dipstick for blood: highly sensitive for myoglobin but not specific (cannot distinguish hemoglobin from myoglobin)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "1000",
+    "5"
+   ],
+   "performance_claims": [
+    "1000",
+    "5"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "CK: Sensitivity and specificity for rhabdomyolysis are high when >5x upper limit of normal (usually >1000 U/L)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Physical exam for compartment syndrome: sensitivity is low, but pain out of proportion and tense compartments are concerning"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "30"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "definitive diagnosis is by compartment pressure measurement (>30 mmHg)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "History and exam focus on risk factors for rhabdo, trauma, and compartment syndrome"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside urine dipstick and CK are key initial tests"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Early recognition and aggressive IV fluids are critical"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Consider other causes of AKI (hepatorenal, pre-renal, ATN)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "2005"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Huerta-Alard\u00edn AL, Varon J, Marik PE. Bench-to-bedside review: Rhabdomyolysis -- an overview for clinicians. Crit Care. 2005"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "2009"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bosch X, Poch E, Grau JM. Rhabdomyolysis and acute kidney injury. N Engl J Med. 2009"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 45-year-old man with a history of alcohol use, found down for ~12 hours, dark brown urine, and acute kidney injury (creatinine 3.4)\u2014the main concerns are rhabdomyolysis, acute tubular necrosis (ATN), and possible compartment syndrome. Here\u2019s how to approach:\n\n**History:**\n- Time and circumstances of being found down (immobility \u2192 muscle breakdown)\n- Alcohol use history (risk for rhabdo, dehydration, liver disease)\n- Recent trauma, seizures, or strenuous activity\n- Medication or drug use (statins, cocaine, etc.)\n- Symptoms: muscle pain, weakness, swelling, decreased urine output, confusion\n- Past medical history: kidney disease, diabetes, hypertension\n\n**Physical Examination:**\n- Vital signs: fever, tachycardia, hypotension (shock, sepsis)\n- General: mental status (delirium, withdrawal)\n- Skin: pressure sores, bruising, signs of trauma\n- Extremities: muscle tenderness, swelling, firmness (compartment syndrome), decreased pulses, decreased sensation\n- Urine: inspect color (dark brown suggests myoglobinuria)\n\n**Bedside Tests:**\n- Urine dipstick: positive for blood but few/no RBCs on microscopy suggests myoglobinuria (sensitivity ~80-100%, specificity lower as hemoglobin also causes positive dip)\n- Bedside creatine kinase (CK) if available (CK >5x upper limit is diagnostic for rhabdo)\n- Bedside ultrasound: assess for hydronephrosis, muscle swelling\n- Bladder scan: assess for retention\n\n**Diagnostic Performance Data:**\n- Urine dipstick for blood: highly sensitive for myoglobin but not specific (cannot distinguish hemoglobin from myoglobin)\n- CK: Sensitivity and specificity for rhabdomyolysis are high when >5x upper limit of normal (usually >1000 U/L)\n- Physical exam for compartment syndrome: sensitivity is low, but pain out of proportion and tense compartments are concerning; definitive diagnosis is by compartment pressure measurement (>30 mmHg)\n\n**Summary:**\n- History and exam focus on risk factors for rhabdo, trauma, and compartment syndrome\n- Bedside urine dipstick and CK are key initial tests\n- Early recognition and aggressive IV fluids are critical\n- Consider other causes of AKI (hepatorenal, pre-renal, ATN)\n\n**References:**\n- Huerta-Alard\u00edn AL, Varon J, Marik PE. Bench-to-bedside review: Rhabdomyolysis -- an overview for clinicians. Crit Care. 2005.\n- Bosch X, Poch E, Grau JM. Rhabdomyolysis and acute kidney injury. N Engl J Med. 2009."
+ },
+ "variant": "n1"
+}

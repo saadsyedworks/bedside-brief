@@ -1,0 +1,385 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "hypotension_001",
+ "blocked_items": [],
+ "case_id": "hypotension_001",
+ "created_at": "2026-09-11T09:12:57+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset and duration of fever, confusion, hypotension"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Urinary symptoms (pain, color, output)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Surgical wound symptoms (pain, drainage, redness)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Respiratory symptoms (cough, SOB)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "GI symptoms (nausea, vomiting, diarrhea)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication changes"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Baseline mental status"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Comorbidities (esp. diabetes, immunosuppression)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: Level of consciousness, distress"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vitals: Confirm fever, hypotension, tachycardia, O2 sat"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Skin: Mottling, rash, surgical site inspection"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Lungs: Crackles, decreased breath sounds (pneumonia/aspiration)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Heart: Murmurs, new arrhythmias"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdomen: Tenderness, distension, guarding"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "GU: Inspect Foley site, suprapubic tenderness, urine color/odor"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Extremities: Edema, DVT signs"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urinalysis and urine culture (Foley sample): Sensitivity for UTI in catheterized patients is limited"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "pyuria and bacteriuria are common, but in the context of sepsis, positive culture is significant"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "2",
+    "80"
+   ],
+   "performance_claims": [
+    "2",
+    "80"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Blood cultures x2: Sensitivity ~80% for bacteremia"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Lactate: Elevated (>2 mmol/L) supports tissue hypoperfusion (sepsis)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "CBC: Leukocytosis/leukopenia, bandemia"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Renal function, LFTs: Organ dysfunction"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: Rule out arrhythmia"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Portable CXR: Rule out pneumonia"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside ultrasound (if available): Bladder volume, IVC for volume status"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "SIRS criteria: Sensitive but not specific for sepsis"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "100",
+    "2",
+    "22",
+    "60",
+    "73"
+   ],
+   "performance_claims": [
+    "100",
+    "2",
+    "22",
+    "60",
+    "73"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "qSOFA (RR \u226522, altered mentation, SBP \u2264100): 2+ points = higher risk of poor outcome (sensitivity ~60%, specificity ~73% for sepsis-related mortality)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "80"
+   ],
+   "performance_claims": [
+    "80"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Blood cultures: Sensitivity ~80%, specificity high if positive"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urine culture: In chronic Foley, positive culture alone is not diagnostic"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "clinical context is key"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Lactate: Elevated lactate (>2) is associated with increased mortality in sepsis"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on rapid identification of sepsis source (urinary tract, surgical site, lungs), assessment of organ dysfunction, and prompt initiation of sepsis bundle (cultures, antibiotics, fluids). Immediate bedside tests should include vitals, urine and blood cultures, lactate, and basic labs. Physical exam should focus on identifying infection source and signs of shock"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "This 72-year-old man, postoperative day 3 after hip fracture repair, with a chronic Foley, is febrile, hypotensive, tachycardic, and acutely confused. This is a classic presentation for sepsis, likely urosepsis given the Foley catheter.\n\n**History:**\n- Onset and duration of fever, confusion, hypotension\n- Urinary symptoms (pain, color, output)\n- Surgical wound symptoms (pain, drainage, redness)\n- Respiratory symptoms (cough, SOB)\n- GI symptoms (nausea, vomiting, diarrhea)\n- Medication changes\n- Baseline mental status\n- Comorbidities (esp. diabetes, immunosuppression)\n\n**Physical Examination:**\n- General: Level of consciousness, distress\n- Vitals: Confirm fever, hypotension, tachycardia, O2 sat\n- Skin: Mottling, rash, surgical site inspection\n- Lungs: Crackles, decreased breath sounds (pneumonia/aspiration)\n- Heart: Murmurs, new arrhythmias\n- Abdomen: Tenderness, distension, guarding\n- GU: Inspect Foley site, suprapubic tenderness, urine color/odor\n- Extremities: Edema, DVT signs\n\n**Bedside Tests:**\n- Urinalysis and urine culture (Foley sample): Sensitivity for UTI in catheterized patients is limited; pyuria and bacteriuria are common, but in the context of sepsis, positive culture is significant.\n- Blood cultures x2: Sensitivity ~80% for bacteremia\n- Lactate: Elevated (>2 mmol/L) supports tissue hypoperfusion (sepsis)\n- CBC: Leukocytosis/leukopenia, bandemia\n- Renal function, LFTs: Organ dysfunction\n- Bedside glucose\n- ECG: Rule out arrhythmia\n- Portable CXR: Rule out pneumonia\n- Bedside ultrasound (if available): Bladder volume, IVC for volume status\n\n**Diagnostic Performance Data:**\n- SIRS criteria: Sensitive but not specific for sepsis\n- qSOFA (RR \u226522, altered mentation, SBP \u2264100): 2+ points = higher risk of poor outcome (sensitivity ~60%, specificity ~73% for sepsis-related mortality)\n- Blood cultures: Sensitivity ~80%, specificity high if positive\n- Urine culture: In chronic Foley, positive culture alone is not diagnostic; clinical context is key\n- Lactate: Elevated lactate (>2) is associated with increased mortality in sepsis\n\n**Summary:**\nFocus on rapid identification of sepsis source (urinary tract, surgical site, lungs), assessment of organ dysfunction, and prompt initiation of sepsis bundle (cultures, antibiotics, fluids). Immediate bedside tests should include vitals, urine and blood cultures, lactate, and basic labs. Physical exam should focus on identifying infection source and signs of shock."
+ },
+ "variant": "base"
+}

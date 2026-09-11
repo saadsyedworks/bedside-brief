@@ -1,0 +1,231 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "syncope_003",
+ "blocked_items": [],
+ "case_id": "syncope_003_n1",
+ "created_at": "2026-09-11T09:15:29+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Detailed account of the event: prodrome (dizziness, nausea, visual changes), duration of loss of consciousness, movements (tonic-clonic?), tongue biting, incontinence, confusion post-event"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Precipitating factors: standing up, urination (micturition syncope), pain, dehydration"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past medical history: cardiac disease, diabetes, epilepsy"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medications: antihypertensives, diuretics, insulin, etc"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Family history: sudden cardiac death, arrhythmias"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent intake/output: risk of hypovolemia"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: especially orthostatic blood pressure and heart rate (lying, sitting, standing)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiovascular exam: murmurs, irregular rhythm, signs of heart failure"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neurological exam: focal deficits, post-ictal confusion"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Signs of dehydration: dry mucous membranes, poor skin turgor"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdominal exam: ongoing pain, peritonitis"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "30",
+    "90"
+   ],
+   "performance_claims": [
+    "30",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Orthostatic vital signs: Sensitivity ~30%, specificity ~90% for hypovolemia/orthostatic hypotension"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: Sensitivity for arrhythmias is low unless captured during event, but can reveal underlying conduction disease, QT prolongation, Brugada, etc"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Capillary blood glucose: Rule out hypoglycemia (especially if on insulin or TPN)"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Cardiac monitoring: To detect arrhythmias if recurrent events"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "10",
+    "20",
+    "3"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Orthostatic hypotension: Defined as a drop in systolic BP \u226520 mmHg or diastolic BP \u226510 mmHg within 3 minutes of standing. Sensitivity is limited but specificity is high for hypovolemia"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "50"
+   ],
+   "performance_claims": [
+    "50"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: Abnormal in ~50% of cardiac syncope cases, but normal ECG does not rule out arrhythmia"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "History and witness account: High sensitivity and specificity for distinguishing syncope from seizure (e.g., rapid recovery, no post-ictal confusion, no tongue biting or incontinence favor syncope)"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on history (prodrome, triggers, recovery), orthostatic vitals, ECG, and glucose. Consider cardiac monitoring if suspicion for arrhythmia. The most likely cause here is vasovagal or orthostatic syncope due to hypovolemia (NPO, pancreatitis), possibly triggered by micturition and standing up"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this scenario\u2014a 44-year-old man with pancreatitis, NPO, who had a witnessed transient loss of consciousness (TLOC) with pallor and clamminess, and rapid recovery\u2014your approach should focus on distinguishing syncope from other causes of collapse (e.g., seizure, hypoglycemia), and identifying the underlying etiology (vasovagal, orthostatic, cardiac, etc.).\n\n**History:**\n- Detailed account of the event: prodrome (dizziness, nausea, visual changes), duration of loss of consciousness, movements (tonic-clonic?), tongue biting, incontinence, confusion post-event.\n- Precipitating factors: standing up, urination (micturition syncope), pain, dehydration.\n- Past medical history: cardiac disease, diabetes, epilepsy.\n- Medications: antihypertensives, diuretics, insulin, etc.\n- Family history: sudden cardiac death, arrhythmias.\n- Recent intake/output: risk of hypovolemia.\n\n**Physical Examination:**\n- Vital signs: especially orthostatic blood pressure and heart rate (lying, sitting, standing).\n- Cardiovascular exam: murmurs, irregular rhythm, signs of heart failure.\n- Neurological exam: focal deficits, post-ictal confusion.\n- Signs of dehydration: dry mucous membranes, poor skin turgor.\n- Abdominal exam: ongoing pain, peritonitis.\n\n**Bedside Tests:**\n- Orthostatic vital signs: Sensitivity ~30%, specificity ~90% for hypovolemia/orthostatic hypotension.\n- ECG: Sensitivity for arrhythmias is low unless captured during event, but can reveal underlying conduction disease, QT prolongation, Brugada, etc.\n- Capillary blood glucose: Rule out hypoglycemia (especially if on insulin or TPN).\n- Cardiac monitoring: To detect arrhythmias if recurrent events.\n\n**Diagnostic Performance Data:**\n- Orthostatic hypotension: Defined as a drop in systolic BP \u226520 mmHg or diastolic BP \u226510 mmHg within 3 minutes of standing. Sensitivity is limited but specificity is high for hypovolemia.\n- ECG: Abnormal in ~50% of cardiac syncope cases, but normal ECG does not rule out arrhythmia.\n- History and witness account: High sensitivity and specificity for distinguishing syncope from seizure (e.g., rapid recovery, no post-ictal confusion, no tongue biting or incontinence favor syncope).\n\n**Summary:**\n- Focus on history (prodrome, triggers, recovery), orthostatic vitals, ECG, and glucose. Consider cardiac monitoring if suspicion for arrhythmia. The most likely cause here is vasovagal or orthostatic syncope due to hypovolemia (NPO, pancreatitis), possibly triggered by micturition and standing up."
+ },
+ "variant": "n1"
+}

@@ -1,0 +1,882 @@
+{
+ "arm": "B",
+ "ask_first": false,
+ "base_case_id": "fever_002",
+ "blocked_items": [],
+ "case_id": "fever_002_n1",
+ "created_at": "2026-09-11T09:03:31+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Alayed KA, Tan C, Daneman N. Red Flags for Necrotizing Fasciitis: A Case Control Study. International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases. 2016."
+   ],
+   "numeric_claims": [
+    "0.5",
+    "10.1016",
+    "2004",
+    "2013",
+    "2015.04",
+    "2016",
+    "21",
+    "25975653",
+    "4.5",
+    "6",
+    "7"
+   ],
+   "performance_claims": [
+    "4.5"
+   ],
+   "record_id": "hx_pain_out_of_proportion_exam",
+   "section": "ask",
+   "text": "Pain out of proportion to examination findings"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Goodacre S, Sutton AJ, Sampson FC. Meta-analysis: The value of clinical assessment in the diagnosis of deep venous thrombosis. Ann Intern Med. 2005;143(2):129-139.",
+    "Wells PS, Owen C, Doucette S, Fergusson D, Tran H. Does this patient have deep vein thrombosis? JAMA. 2006;295(2):199-207."
+   ],
+   "numeric_claims": [
+    "0.19",
+    "0.25",
+    "1.76",
+    "1.8",
+    "1.98",
+    "10.1001",
+    "10.7326",
+    "12",
+    "129",
+    "13",
+    "139",
+    "14",
+    "143",
+    "16027455",
+    "16403932",
+    "17",
+    "199",
+    "2",
+    "2.25",
+    "2.7",
+    "2.71",
+    "2005",
+    "200507190",
+    "2006",
+    "207",
+    "23",
+    "295",
+    "295.2",
+    "3",
+    "4",
+    "4819",
+    "5",
+    "5.2",
+    "53",
+    "6",
+    "8",
+    "8000",
+    "95"
+   ],
+   "performance_claims": [
+    "0.25",
+    "1.76",
+    "1.98",
+    "2.25",
+    "2.71",
+    "5.2"
+   ],
+   "record_id": "hx_vte_risk_factors",
+   "section": "ask",
+   "text": "VTE risk history (Wells items): immobilization >=3 days or surgery within 4-12 weeks, prior objectively confirmed VTE, active malignancy"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Fernando SM, Tran A, Cheng W, et al. Necrotizing soft tissue infection: diagnostic accuracy of physical examination, imaging, and LRINEC score: a systematic review and meta-analysis. Ann Surg. 2019;269(1):58-65."
+   ],
+   "numeric_claims": [
+    "0.21",
+    "0.25",
+    "0.252",
+    "0.46",
+    "0.7",
+    "0.77",
+    "0.78",
+    "0.81",
+    "0.958",
+    "0.977",
+    "1",
+    "10.1097",
+    "2",
+    "2019",
+    "21",
+    "23",
+    "25.2",
+    "269",
+    "2774",
+    "29672405",
+    "46",
+    "58",
+    "5982",
+    "6",
+    "65",
+    "77",
+    "9.1",
+    "95.8",
+    "97.7"
+   ],
+   "performance_claims": [
+    "0.21",
+    "0.252",
+    "0.46",
+    "0.7",
+    "0.77",
+    "0.78",
+    "0.81",
+    "0.958",
+    "0.977",
+    "2",
+    "6",
+    "9.1"
+   ],
+   "record_id": "exam_nec_fasc_hard_signs",
+   "section": "examine",
+   "text": "Necrotizing infection hard signs: hemorrhagic bullae, crepitus, skin anesthesia, spread beyond marked border"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Pulia MS, Schwei RJ, Alexandridis R, et al. Validation of Thermal Imaging and the ALT-70 Prediction Model to Differentiate Cellulitis From Pseudocellulitis. JAMA Dermatol. 2024;160(5):511-517.",
+    "Raff AB, Weng QY, Cohen JM, et al. A predictive model for diagnosis of lower extremity cellulitis: A cross-sectional study. J Am Acad Dermatol. 2017;76(4):618-625.e2."
+   ],
+   "numeric_claims": [
+    "0",
+    "0.158",
+    "0.22",
+    "0.281",
+    "0.451",
+    "0.695",
+    "10.1001",
+    "10.1016",
+    "15.8",
+    "160",
+    "2",
+    "2010",
+    "2012",
+    "2016.12",
+    "2017",
+    "2024",
+    "2024.0091",
+    "204",
+    "22",
+    "259",
+    "28.1",
+    "28215446",
+    "3",
+    "30.5",
+    "38536160",
+    "4",
+    "44",
+    "5",
+    "511",
+    "517",
+    "6",
+    "618",
+    "625",
+    "70",
+    "76",
+    "79",
+    "82",
+    "83",
+    "92",
+    "95"
+   ],
+   "performance_claims": [
+    "0.158",
+    "0.22",
+    "0.281"
+   ],
+   "record_id": "exam_cellulitis_unilateral_warmth_border",
+   "section": "examine",
+   "text": "Unilateral warm erythema with defined border (vs bilateral / stasis change)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": "exam_infection_source_survey",
+   "section": "examine",
+   "text": "Focused infection-source exam (line/exit sites, skin, abdomen, joints, sacrum, urine catheter)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Goodacre S, Sutton AJ, Sampson FC. Meta-analysis: the value of clinical assessment in the diagnosis of deep venous thrombosis. Ann Intern Med. 2005;143(2):129-139."
+   ],
+   "numeric_claims": [
+    "0.57",
+    "0.67",
+    "1",
+    "1.8",
+    "1.98",
+    "10",
+    "10.7326",
+    "12",
+    "129",
+    "139",
+    "143",
+    "16027455",
+    "2",
+    "2.25",
+    "2.71",
+    "2005",
+    "200507190",
+    "3",
+    "4819",
+    "5.2"
+   ],
+   "performance_claims": [
+    "0.57",
+    "0.67",
+    "1.8"
+   ],
+   "record_id": "exam_calf_asymmetry_gt3cm",
+   "section": "examine",
+   "text": "Unilateral leg swelling: calf circumference difference >3 cm (10 cm below tibial tuberosity), with calf tenderness"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "card": {
+   "chief_complaint": "fever and red swollen left shin with severe pain",
+   "presentation": "fever",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_pain_out_of_proportion_exam",
+      "changes_what": "Present: escalate now - CT angiography for suspected mesenteric ischemia; urgent surgical consult for suspected necrotizing infection. Absent: does not lower probability enough to stop work-up.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not apply to patients who cannot report pain reliably (sedation, dementia, spinal cord injury); absence of the sign never excludes either diagnosis.",
+      "escalation_warning": "Suspected necrotizing infection or mesenteric ischemia is time-critical: surgical consultation / CT angiography without waiting for laboratory results.",
+      "evidence": [
+       {
+        "citation": "Alayed KA, Tan C, Daneman N. Red Flags for Necrotizing Fasciitis: A Case Control Study. International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases. 2016.",
+        "computed": false,
+        "doi": "10.1016/j.ijid.2015.04.021",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "4.5"
+        },
+        "pmid": "25975653",
+        "population": "All NF cases admitted to a large Canadian tertiary hospital 2004-2013, each matched to two cellulitis controls (retrospective case-control)",
+        "prevalence": null,
+        "quote": "The clinical features that most significantly increased the odds of NF were recent surgery (LR+ 7.0) pain-out-of-proportion (LR+ 4.5), diarrhea (LR+ 6.0)",
+        "reference_standard": "Admitted with diagnosis of necrotizing fasciitis (chart-confirmed) versus cellulitis controls",
+        "sensitivity": null,
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Necrotizing fasciitis versus cellulitis (case-control): pain-out-of-proportion documented on history/physical examination",
+        "url": null,
+        "year": "2016"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Compare reported pain severity and analgesic requirement with objective findings: for the abdomen, severe continuous pain with a soft, non-tender or minimally tender abdomen; for skin/soft tissue, severe pain or exquisite tenderness extending beyond the visible erythema, or pain disproportionate to a modest cellulitis. Record the discordance explicitly.",
+      "id": "hx_pain_out_of_proportion_exam",
+      "negative_finding": "Absence is not reassuring: no single red flag had sufficient sensitivity to rule out necrotizing fasciitis (LR- >=0.5 for all findings), and mesenteric ischemia frequently presents with vague or non-specific pain, especially in the elderly.",
+      "pitfalls": "Late presentations of ischemia develop peritonism, so the sign is transient; analgesia, diabetes, and altered mental status blunt reporting. Distinguishing 'out of proportion' is subjective and undefined in most studies.",
+      "positive_finding": "In a soft-tissue infection, pain out of proportion raised the odds of necrotizing fasciitis about 4.5-fold versus cellulitis in a case-control study; in abdominal pain with vascular risk (AF, atherosclerosis, low flow), it is the classic cue for early mesenteric ischemia and should prompt CT angiography rather than observation.",
+      "prerequisites": "Patient able to report pain; opioid or sedative effect accounted for.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Pain out of proportion to examination findings",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_vte_risk_factors",
+      "changes_what": "Positive items push the Wells score toward moderate/high: order compression ultrasound (or CTPA) rather than relying on D-dimer alone; negative items lower the score and enable D-dimer exclusion.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use individual risk factors alone to exclude VTE; do not apply Wells-based D-dimer exclusion to inpatients, pregnant patients, or those already anticoagulated, where the derivation cohorts do not apply.",
+      "escalation_warning": "Hypotension, syncope or hypoxia with any VTE risk factor mandates immediate imaging or empiric anticoagulation, not D-dimer triage.",
+      "evidence": [
+       {
+        "citation": "Goodacre S, Sutton AJ, Sampson FC. Meta-analysis: The value of clinical assessment in the diagnosis of deep venous thrombosis. Ann Intern Med. 2005;143(2):129-139.",
+        "computed": false,
+        "doi": "10.7326/0003-4819-143-2-200507190-00012",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Abstract, Data Synthesis (finding: malignancy)",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "2.71"
+        },
+        "pmid": "16027455",
+        "population": "Adults with clinically suspected DVT in cohort studies (mostly outpatient/ED referrals)",
+        "prevalence": null,
+        "quote": "Only malignancy (likelihood ratio [LR], 2.71), previous DVT (LR, 2.25), recent immobilization (LR, 1.98)",
+        "reference_standard": "Compression ultrasound or contrast venography",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Deep vein thrombosis (imaging-confirmed)",
+        "url": null,
+        "year": "2005"
+       },
+       {
+        "citation": "Goodacre S, Sutton AJ, Sampson FC. Meta-analysis: The value of clinical assessment in the diagnosis of deep venous thrombosis. Ann Intern Med. 2005;143(2):129-139.",
+        "computed": false,
+        "doi": "10.7326/0003-4819-143-2-200507190-00012",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Abstract, Data Synthesis (finding: previous DVT)",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "2.25"
+        },
+        "pmid": "16027455",
+        "population": "Adults with clinically suspected DVT in cohort studies",
+        "prevalence": null,
+        "quote": "malignancy (likelihood ratio [LR], 2.71), previous DVT (LR, 2.25), recent immobilization (LR, 1.98)",
+        "reference_standard": "Compression ultrasound or contrast venography",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Deep vein thrombosis (imaging-confirmed)",
+        "url": null,
+        "year": "2005"
+       },
+       {
+        "citation": "Goodacre S, Sutton AJ, Sampson FC. Meta-analysis: The value of clinical assessment in the diagnosis of deep venous thrombosis. Ann Intern Med. 2005;143(2):129-139.",
+        "computed": false,
+        "doi": "10.7326/0003-4819-143-2-200507190-00012",
+        "evidence_level": "pooled",
+        "interpretation_label": "minimal",
+        "kind": "meta_analysis",
+        "location": "Abstract, Data Synthesis (finding: recent immobilization)",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "1.98"
+        },
+        "pmid": "16027455",
+        "population": "Adults with clinically suspected DVT in cohort studies",
+        "prevalence": null,
+        "quote": "previous DVT (LR, 2.25), recent immobilization (LR, 1.98), difference in calf diameter (LR, 1.80)",
+        "reference_standard": "Compression ultrasound or contrast venography",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Deep vein thrombosis (imaging-confirmed)",
+        "url": null,
+        "year": "2005"
+       },
+       {
+        "citation": "Goodacre S, Sutton AJ, Sampson FC. Meta-analysis: The value of clinical assessment in the diagnosis of deep venous thrombosis. Ann Intern Med. 2005;143(2):129-139.",
+        "computed": false,
+        "doi": "10.7326/0003-4819-143-2-200507190-00012",
+        "evidence_level": "pooled",
+        "interpretation_label": "minimal",
+        "kind": "meta_analysis",
+        "location": "Abstract, Data Synthesis (finding: recent surgery)",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "1.76"
+        },
+        "pmid": "16027455",
+        "population": "Adults with clinically suspected DVT in cohort studies",
+        "prevalence": null,
+        "quote": "difference in calf diameter (LR, 1.80), and recent surgery (LR, 1.76) were useful for ruling in DVT",
+        "reference_standard": "Compression ultrasound or contrast venography",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Deep vein thrombosis (imaging-confirmed)",
+        "url": null,
+        "year": "2005"
+       },
+       {
+        "citation": "Goodacre S, Sutton AJ, Sampson FC. Meta-analysis: The value of clinical assessment in the diagnosis of deep venous thrombosis. Ann Intern Med. 2005;143(2):129-139.",
+        "computed": false,
+        "doi": "10.7326/0003-4819-143-2-200507190-00012",
+        "evidence_level": "pooled",
+        "interpretation_label": "both",
+        "kind": "meta_analysis",
+        "location": "Abstract, Data Synthesis (Wells clinical score)",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.25"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "5.2"
+        },
+        "pmid": "16027455",
+        "population": "Adults with clinically suspected DVT in cohort studies",
+        "prevalence": null,
+        "quote": "it stratified patients into groups with high (LR, 5.2), intermediate, and low (LR, 0.25) probability of DVT",
+        "reference_standard": "Compression ultrasound or contrast venography",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Deep vein thrombosis (imaging-confirmed), Wells score high vs low category",
+        "url": null,
+        "year": "2005"
+       },
+       {
+        "citation": "Wells PS, Owen C, Doucette S, Fergusson D, Tran H. Does this patient have deep vein thrombosis? JAMA. 2006;295(2):199-207.",
+        "computed": false,
+        "doi": "10.1001/jama.295.2.199",
+        "evidence_level": "pooled",
+        "interpretation_label": "both",
+        "kind": "rce_series",
+        "location": "Abstract, Results (post-test prevalence by Wells category; no sens/spec/LR)",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "16403932",
+        "population": "Consecutive unselected outpatients with suspected DVT, 14 studies (>8000 patients)",
+        "prevalence": "0.19",
+        "quote": "prevalence of DVT in the low, moderate, and high clinical probability groups was 5.0% (95% CI, 4.0%-8.0%), 17% (95% CI, 13%-23%), and 53%",
+        "reference_standard": "Imaging plus 3-month clinical follow-up",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "Deep vein thrombosis, prevalence by Wells clinical probability category",
+        "url": null,
+        "year": "2006"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Ask directly: bed rest >=3 days or major surgery within the past 4-12 weeks; any previous DVT or PE confirmed by imaging; cancer treated within 6 months or palliative. Record each item separately for the Wells DVT or PE score rather than as a global impression.",
+      "id": "hx_vte_risk_factors",
+      "negative_finding": "Absence of individual risk factors does not exclude VTE; a low Wells score (LR ~0.25) plus a negative D-dimer is what allows exclusion without imaging.",
+      "pitfalls": "Risk-factor LRs were pooled from heterogeneous cohorts and are weaker in patients with prior VTE. Malignancy and prior VTE also raise D-dimer, so they do not license D-dimer-only exclusion in high-probability patients.",
+      "positive_finding": "Any single risk factor raises the probability of DVT only modestly (pooled LR+ about 1.8-2.7); the value comes from combining items in a Wells score, where a high score carries LR ~5.",
+      "prerequisites": "Patient or collateral historian able to give a reliable history; check the chart for prior imaging-confirmed VTE and oncology history.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "VTE risk history (Wells items): immobilization >=3 days or surgery within 4-12 weeks, prior objectively confirmed VTE, active malignancy",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/exam_nec_fasc_hard_signs",
+      "changes_what": "Any hard sign should move necrotizing infection to the top of the differential and prompt urgent surgical exploration; their absence must not be used to de-escalate.",
+      "contraindications": "None; do not delay surgical consultation to complete serial examinations when hard signs are already present.",
+      "do_not_use_when": "Never use absence of hard signs (or a low LRINEC) to rule out necrotizing infection in a patient with severe pain, toxicity or rapid progression.",
+      "escalation_warning": "Hemorrhagic bullae, crepitus, skin anesthesia, hypotension or spread beyond the marked border require immediate surgical consultation and broad-spectrum antibiotics; delay to debridement increases mortality.",
+      "evidence": [
+       {
+        "citation": "Fernando SM, Tran A, Cheng W, et al. Necrotizing soft tissue infection: diagnostic accuracy of physical examination, imaging, and LRINEC score: a systematic review and meta-analysis. Ann Surg. 2019;269(1):58-65.",
+        "computed": true,
+        "doi": "10.1097/SLA.0000000000002774",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.78"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "6"
+        },
+        "pmid": "29672405",
+        "population": "Adults with a soft tissue infection clinically concerning for NSTI (23 studies, n=5982)",
+        "prevalence": null,
+        "quote": "for hemorrhagic bullae 25.2% and 95.8%, and for hypotension 21.0% and 97.7%",
+        "reference_standard": "NSTI confirmed by surgery or histopathology",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.252"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.958"
+        },
+        "target_condition": "Necrotizing soft tissue infection - finding: hemorrhagic bullae",
+        "url": null,
+        "year": "2019"
+       },
+       {
+        "citation": "Fernando SM, Tran A, Cheng W, et al. Necrotizing soft tissue infection: diagnostic accuracy of physical examination, imaging, and LRINEC score: a systematic review and meta-analysis. Ann Surg. 2019;269(1):58-65.",
+        "computed": true,
+        "doi": "10.1097/SLA.0000000000002774",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.81"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "9.1"
+        },
+        "pmid": "29672405",
+        "population": "Adults with a soft tissue infection clinically concerning for NSTI (23 studies, n=5982)",
+        "prevalence": null,
+        "quote": "for hemorrhagic bullae 25.2% and 95.8%, and for hypotension 21.0% and 97.7%",
+        "reference_standard": "NSTI confirmed by surgery or histopathology",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.21"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.977"
+        },
+        "target_condition": "Necrotizing soft tissue infection - finding: hypotension",
+        "url": null,
+        "year": "2019"
+       },
+       {
+        "citation": "Fernando SM, Tran A, Cheng W, et al. Necrotizing soft tissue infection: diagnostic accuracy of physical examination, imaging, and LRINEC score: a systematic review and meta-analysis. Ann Surg. 2019;269(1):58-65.",
+        "computed": true,
+        "doi": "10.1097/SLA.0000000000002774",
+        "evidence_level": "pooled",
+        "interpretation_label": "minimal",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.7"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "2"
+        },
+        "pmid": "29672405",
+        "population": "Adults with a soft tissue infection clinically concerning for NSTI (23 studies, n=5982)",
+        "prevalence": null,
+        "quote": "pooled sensitivity and specificity for fever was 46.0% and 77.0% respectively",
+        "reference_standard": "NSTI confirmed by surgery or histopathology",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.46"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.77"
+        },
+        "target_condition": "Necrotizing soft tissue infection - finding: fever",
+        "url": null,
+        "year": "2019"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Fully expose the limb/trunk and inspect for bullae (especially hemorrhagic or violaceous), dusky or necrotic skin; palpate for crepitus and for tenderness or induration extending beyond visible erythema; test light-touch sensation over the affected skin. Mark the erythema border with pen and time, and re-examine within 1-2 h for spread.",
+      "id": "exam_nec_fasc_hard_signs",
+      "negative_finding": "Absence of any single hard sign does not exclude necrotizing infection: pooled sensitivity is 0.25 for bullae, 0.21 for hypotension and 0.46 for fever.",
+      "pitfalls": "Hard signs are late; pain out of proportion, tachycardia and systemic toxicity precede them. Crepitus is present only with gas-forming organisms, and anesthesia can be masked by analgesia or neuropathy (diabetes).",
+      "positive_finding": "Hemorrhagic bullae (pooled specificity 0.958) or hypotension (0.977) in a soft tissue infection strongly favors necrotizing infection and should trigger immediate surgical consultation; crepitus, anesthesia and rapid spread are treated the same way by consensus.",
+      "prerequisites": "Adequate exposure and analgesia; a documented baseline border and time for serial comparison.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Necrotizing infection hard signs: hemorrhagic bullae, crepitus, skin anesthesia, spread beyond marked border",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_cellulitis_unilateral_warmth_border",
+      "changes_what": "Unilateral warm erythema: treat as cellulitis but rule out DVT/necrotizing infection; bilateral: seek pseudocellulitis (stasis, dermatitis) before antibiotics.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use asymmetry/border to reassure when there is severe pain, rapid progression, bullae, crepitus, hypotension or immunocompromise; necrotizing infection needs surgical evaluation regardless of score.",
+      "escalation_warning": "Unilateral swollen warm leg also fits DVT: obtain compression ultrasound if no clear portal of entry or if edema dominates over erythema.",
+      "evidence": [
+       {
+        "citation": "Pulia MS, Schwei RJ, Alexandridis R, et al. Validation of Thermal Imaging and the ALT-70 Prediction Model to Differentiate Cellulitis From Pseudocellulitis. JAMA Dermatol. 2024;160(5):511-517.",
+        "computed": false,
+        "doi": "10.1001/jamadermatol.2024.0091",
+        "evidence_level": "validation_cohort",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "38536160",
+        "population": "Adults presenting to ED with acute lower-extremity dermatologic symptoms, n=204, 92 with cellulitis",
+        "prevalence": "0.451",
+        "quote": "specificity varied considerably (ALT-70, 22.0% [95% CI, 15.8%-28.1%]",
+        "reference_standard": "Independent 6-physician consensus review of the case",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": {
+         "ci_high": "0.281",
+         "ci_low": "0.158",
+         "value": "0.22"
+        },
+        "target_condition": "Lower-extremity cellulitis vs pseudocellulitis (ALT-70 model; asymmetry item weighted 3 points)",
+        "url": null,
+        "year": "2024"
+       },
+       {
+        "citation": "Raff AB, Weng QY, Cohen JM, et al. A predictive model for diagnosis of lower extremity cellulitis: A cross-sectional study. J Am Acad Dermatol. 2017;76(4):618-625.e2.",
+        "computed": false,
+        "doi": "10.1016/j.jaad.2016.12.044",
+        "evidence_level": "single_study",
+        "interpretation_label": "both",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "28215446",
+        "population": "Patients admitted via ED with a diagnosis of lower-extremity cellulitis, n=259, 2010-2012",
+        "prevalence": "0.695",
+        "quote": "In total, 79 (30.5%) of 259 patients were misdiagnosed with lower extremity cellulitis",
+        "reference_standard": "Discharge diagnosis (cellulitis vs alternative diagnosis) after inpatient evaluation",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Lower-extremity cellulitis vs pseudocellulitis (ALT-70 derivation)",
+        "url": null,
+        "year": "2017"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Expose and compare both legs. Note whether erythema is unilateral (asymmetric) or bilateral, feel for warmth with the back of the hand against the contralateral limb, and trace the border (marking it with pen for follow-up). Check for a portal of entry (tinea, ulcer), tenderness, and disproportionate pain, crepitus or bullae.",
+      "id": "exam_cellulitis_unilateral_warmth_border",
+      "negative_finding": "Bilateral symmetric erythema without fever, leukocytosis or tachycardia favors stasis dermatitis or other pseudocellulitis (ALT-70 0-2 points: >=83% pseudocellulitis); bilateral cellulitis is rare.",
+      "pitfalls": "ALT-70 is sensitive but only 22% specific in a prospective ED validation, so a 'positive' asymmetric leg still includes many DVT, gout, contact dermatitis and stasis cases; warmth is subjective; do not miss necrotizing infection (pain out of proportion, rapid spread, crepitus).",
+      "positive_finding": "Unilateral warm, tender erythema, especially with leukocytosis, tachycardia or age >=70 (ALT-70 >=5 points), gives >=82% likelihood of true cellulitis in the derivation cohort. Asymmetry is the heaviest-weighted item (3 points).",
+      "prerequisites": "Both legs exposed; heart rate, temperature and WBC available if scoring ALT-70.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Unilateral warm erythema with defined border (vs bilateral / stasis change)",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_infection_source_survey",
+      "changes_what": "A positive survey targets cultures, imaging and source control (line removal, drainage, debridement); a negative survey mandates blood/urine cultures and imaging rather than reassurance.",
+      "contraindications": "None; do not delay cultures and antibiotics in suspected sepsis while completing the survey.",
+      "do_not_use_when": "Never let a negative source survey withhold cultures, empiric antibiotics or imaging in a hypotensive, febrile or acutely confused patient with suspected infection.",
+      "escalation_warning": "Crepitus, bullae, skin necrosis or pain out of proportion (necrotizing fasciitis), a hot joint, peritonism, or purulence at a central line/dialysis catheter in a septic patient require immediate surgical/source-control and line removal decisions.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Undress and inspect every line, dialysis and drain/exit site (erythema, purulence, tunnel tenderness), all skin including back, sacrum, heels, perineum, injection sites and wounds; palpate abdomen (peritonism, Murphy sign, flank tenderness), joints and spine for warmth/effusion/tenderness; check urinary catheter, mouth, sinuses, ears and chest. Repeat daily while the source is unknown.",
+      "id": "exam_infection_source_survey",
+      "negative_finding": "A normal survey does not exclude an occult source: insertion-site inflammation is absent in nearly all catheter-related bloodstream infections, and intra-abdominal, urinary, endovascular and spinal infections are frequently silent in elderly, immunosuppressed or sedated patients.",
+      "pitfalls": "Line-site appearance has near-zero sensitivity for CRBSI (coagulase-negative staphylococci cause little inflammation); steroids, neutropenia and neuropathy blunt local signs; dressings, obesity and immobility hide sacral, perineal and injection-site infections. Pain out of proportion with unimpressive skin findings suggests necrotizing infection.",
+      "positive_finding": "Purulence, spreading erythema or tunnel tenderness at a line/exit site, cellulitis or crepitus, a hot swollen joint, peritonism or flank tenderness, or a sacral/heel ulcer with surrounding infection identifies a probable source and directs cultures, source control and empiric therapy.",
+      "prerequisites": "Full exposure with dressings taken down, adequate lighting and analgesia; review lines, catheters and devices with their insertion dates; log-roll immobile patients to view the sacrum.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Focused infection-source exam (line/exit sites, skin, abdomen, joints, sacrum, urine catheter)",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_calf_asymmetry_gt3cm",
+      "changes_what": "Positive: adds 1 Wells point and pushes toward compression ultrasound; negative does not stop work-up if other Wells items or D-dimer are positive.",
+      "contraindications": "None; avoid firm calf compression if DVT is strongly suspected and pain is severe.",
+      "do_not_use_when": "Do not rely on a negative calf measurement to withhold imaging in a patient with moderate/high Wells probability or with symptoms suggesting PE.",
+      "escalation_warning": "Massive swelling with cyanosis or pallor and pain (phlegmasia) or a cold pulseless limb requires immediate vascular imaging and consultation.",
+      "evidence": [
+       {
+        "citation": "Goodacre S, Sutton AJ, Sampson FC. Meta-analysis: the value of clinical assessment in the diagnosis of deep venous thrombosis. Ann Intern Med. 2005;143(2):129-139.",
+        "computed": false,
+        "doi": "10.7326/0003-4819-143-2-200507190-00012",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "1.8"
+        },
+        "pmid": "16027455",
+        "population": "Patients with clinically suspected DVT (cohort studies comparing clinical assessment with a reference standard; pooled random-effects)",
+        "prevalence": null,
+        "quote": "malignancy (likelihood ratio [LR], 2.71), previous DVT (LR, 2.25), recent immobilization (LR, 1.98), difference in calf diameter (LR, 1.80)",
+        "reference_standard": "Venography or compression/duplex ultrasound (study-specific reference standard)",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "DVT (finding: difference in calf diameter, present)",
+        "url": null,
+        "year": "2005"
+       },
+       {
+        "citation": "Goodacre S, Sutton AJ, Sampson FC. Meta-analysis: the value of clinical assessment in the diagnosis of deep venous thrombosis. Ann Intern Med. 2005;143(2):129-139.",
+        "computed": false,
+        "doi": "10.7326/0003-4819-143-2-200507190-00012",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.57"
+        },
+        "lr_positive": null,
+        "pmid": "16027455",
+        "population": "Patients with clinically suspected DVT (cohort studies comparing clinical assessment with a reference standard; pooled random-effects)",
+        "prevalence": null,
+        "quote": "absence of calf swelling (LR, 0.67) or difference in calf diameter (LR, 0.57) was useful for ruling out DVT",
+        "reference_standard": "Venography or compression/duplex ultrasound (study-specific reference standard)",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "DVT (finding: difference in calf diameter, absent)",
+        "url": null,
+        "year": "2005"
+       },
+       {
+        "citation": "Goodacre S, Sutton AJ, Sampson FC. Meta-analysis: the value of clinical assessment in the diagnosis of deep venous thrombosis. Ann Intern Med. 2005;143(2):129-139.",
+        "computed": false,
+        "doi": "10.7326/0003-4819-143-2-200507190-00012",
+        "evidence_level": "pooled",
+        "interpretation_label": "minimal",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.67"
+        },
+        "lr_positive": null,
+        "pmid": "16027455",
+        "population": "Patients with clinically suspected DVT (cohort studies comparing clinical assessment with a reference standard; pooled random-effects)",
+        "prevalence": null,
+        "quote": "absence of calf swelling (LR, 0.67) or difference in calf diameter (LR, 0.57) was useful for ruling out DVT",
+        "reference_standard": "Venography or compression/duplex ultrasound (study-specific reference standard)",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "DVT (finding: calf swelling, absent)",
+        "url": null,
+        "year": "2005"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "With the patient supine and legs relaxed, mark a point 10 cm below the tibial tuberosity on each leg and measure calf circumference with a tape at the same level bilaterally. A difference >3 cm (symptomatic side larger) is positive; also note localized tenderness along the deep venous system and pitting edema confined to the symptomatic leg.",
+      "id": "exam_calf_asymmetry_gt3cm",
+      "negative_finding": "No calf-diameter difference (LR- 0.57) or no calf swelling (LR- 0.67) lowers the probability of DVT only modestly; it cannot exclude DVT on its own.",
+      "pitfalls": "Chronic venous insufficiency, lymphedema, cellulitis, Baker cyst, and prior DVT produce asymmetry without acute thrombosis; measuring at different levels or in a dependent leg creates spurious differences. Calf tenderness alone has LR near 1.",
+      "positive_finding": "Calf-diameter difference roughly doubles the odds of DVT (pooled LR+ 1.8); it is the only physical sign with useful rule-in value but is far weaker than the overall Wells score (high probability LR 5.2).",
+      "prerequisites": "Both legs accessible and comparable (no prior amputation, cast, or chronic unilateral disease that already explains asymmetry).",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Unilateral leg swelling: calf circumference difference >3 cm (10 cm below tibial tuberosity), with calf tenderness",
+      "type": "exam"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_pain_out_of_proportion_exam",
+     "rationale": ""
+    },
+    {
+     "id": "hx_vte_risk_factors",
+     "rationale": ""
+    }
+   ],
+   "examine": [
+    {
+     "id": "exam_nec_fasc_hard_signs",
+     "rationale": ""
+    },
+    {
+     "id": "exam_cellulitis_unilateral_warmth_border",
+     "rationale": ""
+    },
+    {
+     "id": "exam_infection_source_survey",
+     "rationale": ""
+    },
+    {
+     "id": "exam_calf_asymmetry_gt3cm",
+     "rationale": ""
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "fever and red swollen left shin with severe pain",
+   "differentials": [
+    {
+     "dx": "necrotizing_fasciitis",
+     "weight": 1.0
+    },
+    {
+     "dx": "cellulitis_ssti",
+     "weight": 0.6
+    },
+    {
+     "dx": "septic_arthritis",
+     "weight": 0.2
+    },
+    {
+     "dx": "dvt",
+     "weight": 0.2
+    }
+   ],
+   "indication_tags": [
+    "febrile",
+    "diabetes_insulin",
+    "acute_onset",
+    "unilateral"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "red swollen left shin",
+    "severe pain out of proportion",
+    "diabetic"
+   ],
+   "presentation": "fever",
+   "time_course": "acute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "n1"
+}

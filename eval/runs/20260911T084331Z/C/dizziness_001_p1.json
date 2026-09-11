@@ -1,0 +1,388 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "dizziness_001",
+ "blocked_items": [],
+ "case_id": "dizziness_001_p1",
+ "created_at": "2026-09-11T09:09:31+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and triggers of vertigo (sudden vs. gradual, constant vs. episodic, positional triggers)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: diplopia, dysarthria, dysphagia, weakness, numbness, ataxia, hearing loss, tinnitus"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent head trauma"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication history (especially anticoagulation status)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Cardiovascular risk factors (HTN, AF)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs (BP, HR, rhythm)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: signs of distress, dehydration"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neurological exam:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cranial nerves (look for diplopia, facial droop, dysarthria)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cerebellar function (finger-nose, heel-shin, rapid alternating movements, gait if safe)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Motor and sensory exam"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Romberg test"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Ear exam (otoscopy, hearing assessment)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "HINTS exam (Head-Impulse, Nystagmus, Test of Skew):"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Head-Impulse Test: Abnormal (catch-up saccade) suggests peripheral cause; normal in central causes"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Nystagmus: Unidirectional, horizontal nystagmus suggests peripheral"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "direction-changing or vertical nystagmus suggests central"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Test of Skew: Vertical ocular misalignment suggests central cause"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [
+    "Kattah et al., 2009"
+   ],
+   "numeric_claims": [
+    "100",
+    "2009",
+    "96"
+   ],
+   "performance_claims": [
+    "100",
+    "96"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic performance: HINTS is more sensitive than early MRI for stroke in acute vestibular syndrome (sensitivity ~100%, specificity ~96% for central causes in expert hands; Kattah et al., 2009)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Dix-Hallpike maneuver: For BPPV (posterior canal)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "positive if vertigo and nystagmus are triggered"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Orthostatic vitals: To rule out orthostatic hypotension"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Key Points:"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "In this patient, central causes (especially cerebellar stroke) are high risk due to age, AF, and recent anticoagulation interruption"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "HINTS exam is critical if the patient has continuous vertigo and nystagmus"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Any focal neurological deficit, direction-changing nystagmus, or abnormal HINTS should prompt urgent neuroimaging (MRI preferred)"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [
+    "Kattah JC, et al."
+   ],
+   "numeric_claims": [
+    "11",
+    "2009",
+    "3504",
+    "3510",
+    "40"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Kattah JC, et al. \"HINTS to diagnose stroke in the acute vestibular syndrome: three-step bedside oculomotor examination more sensitive than early MRI diffusion-weighted imaging.\" Stroke. 2009;40(11):3504-3510"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "2016",
+    "4",
+    "453",
+    "461",
+    "68"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Edlow JA, Newman-Toker DE. \"Using the HINTS exam in the emergency department.\" Ann Emerg Med. 2016;68(4):453-461"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Summary Table:"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "| Test | Sensitivity (central) | Specificity (central) |"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "100",
+    "96"
+   ],
+   "performance_claims": [
+    "100",
+    "96"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "| HINTS (expert) | ~100% | ~96% |"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [
+    "100",
+    "88"
+   ],
+   "performance_claims": [
+    "100",
+    "88"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "| Early MRI DWI | ~88% | ~100% |"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "75",
+    "79"
+   ],
+   "performance_claims": [
+    "75",
+    "79"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "| Dix-Hallpike (BPPV) | ~79% | ~75% |"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 77-year-old man with hypertension, atrial fibrillation (AF), recent interruption of anticoagulation for GI bleed, and new-onset vertigo (spinning with position changes), vomiting, and elevated BP\u2014the main concern is distinguishing central (e.g., cerebellar stroke) from peripheral causes of vertigo (e.g., benign paroxysmal positional vertigo, BPPV).\n\n**History:**\n- Onset, duration, and triggers of vertigo (sudden vs. gradual, constant vs. episodic, positional triggers)\n- Associated symptoms: diplopia, dysarthria, dysphagia, weakness, numbness, ataxia, hearing loss, tinnitus\n- Recent head trauma\n- Medication history (especially anticoagulation status)\n- Cardiovascular risk factors (HTN, AF)\n\n**Physical Examination:**\n- Vital signs (BP, HR, rhythm)\n- General: signs of distress, dehydration\n- Neurological exam:\n  - Cranial nerves (look for diplopia, facial droop, dysarthria)\n  - Cerebellar function (finger-nose, heel-shin, rapid alternating movements, gait if safe)\n  - Motor and sensory exam\n  - Romberg test\n- Ear exam (otoscopy, hearing assessment)\n\n**Bedside Tests:**\n- **HINTS exam** (Head-Impulse, Nystagmus, Test of Skew):\n  - **Head-Impulse Test:** Abnormal (catch-up saccade) suggests peripheral cause; normal in central causes.\n  - **Nystagmus:** Unidirectional, horizontal nystagmus suggests peripheral; direction-changing or vertical nystagmus suggests central.\n  - **Test of Skew:** Vertical ocular misalignment suggests central cause.\n  - **Diagnostic performance:** HINTS is more sensitive than early MRI for stroke in acute vestibular syndrome (sensitivity ~100%, specificity ~96% for central causes in expert hands; Kattah et al., 2009).\n- **Dix-Hallpike maneuver:** For BPPV (posterior canal); positive if vertigo and nystagmus are triggered.\n- **Orthostatic vitals:** To rule out orthostatic hypotension.\n\n**Key Points:**\n- In this patient, central causes (especially cerebellar stroke) are high risk due to age, AF, and recent anticoagulation interruption.\n- HINTS exam is critical if the patient has continuous vertigo and nystagmus.\n- Any focal neurological deficit, direction-changing nystagmus, or abnormal HINTS should prompt urgent neuroimaging (MRI preferred).\n\n**References:**\n- Kattah JC, et al. \"HINTS to diagnose stroke in the acute vestibular syndrome: three-step bedside oculomotor examination more sensitive than early MRI diffusion-weighted imaging.\" Stroke. 2009;40(11):3504-3510.\n- Edlow JA, Newman-Toker DE. \"Using the HINTS exam in the emergency department.\" Ann Emerg Med. 2016;68(4):453-461.\n\n**Summary Table:**\n| Test                | Sensitivity (central) | Specificity (central) |\n|---------------------|----------------------|----------------------|\n| HINTS (expert)      | ~100%                | ~96%                 |\n| Early MRI DWI       | ~88%                 | ~100%                |\n| Dix-Hallpike (BPPV) | ~79%                 | ~75%                 |"
+ },
+ "variant": "p1"
+}

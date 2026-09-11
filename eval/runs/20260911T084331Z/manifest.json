@@ -1,0 +1,42 @@
+{
+ "args": {
+  "allow_unfrozen": false,
+  "arms": "A,B,C",
+  "cases": null,
+  "judge_all": false,
+  "mode": "default",
+  "run_dir": "eval/runs/20260911T084331Z",
+  "smoke": false,
+  "target_map": null,
+  "verbose": false
+ },
+ "cases": {
+  "base": 36,
+  "inputs": 108,
+  "noise_variants": 36,
+  "perturbation_pairs": 36
+ },
+ "counts": {
+  "A": {
+   "errors": 0,
+   "outputs": 108
+  },
+  "B": {
+   "errors": 0,
+   "outputs": 108
+  },
+  "C": {
+   "errors": 0,
+   "outputs": 108
+  }
+ },
+ "finished_at": "2026-09-11T09:32:35+00:00",
+ "frozen_commits": [
+  "39a698e5e79a5b6eddebf090caa3f6c8a1b16f7b"
+ ],
+ "git_head": "dd5941e88f97686e1942e0e1b6cbc968457cced9",
+ "model": "gpt-4.1",
+ "started_at": "2026-09-11T08:43:37+00:00",
+ "unfrozen_cases": [],
+ "updated_at": "2026-09-11T09:32:35+00:00"
+}

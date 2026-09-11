@@ -1,0 +1,405 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "aki_001",
+ "blocked_items": [],
+ "case_id": "aki_001_n1",
+ "created_at": "2026-09-11T09:06:58+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Assess for symptoms of volume depletion (thirst, dizziness, orthostatic symptoms, decreased oral intake, vomiting, diarrhea)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Ask about urine output (frequency, color, volume), recent weight changes"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Review medication changes (ACEi/ARB, NSAIDs, nephrotoxins)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Ask about chest pain, dyspnea, cough, leg swelling (to assess congestion)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Review baseline kidney function and prior episodes of AKI"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: BP (orthostatic measurements), HR, RR, O2 sat, temperature"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Volume status:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "JVP (elevated suggests congestion; low suggests hypovolemia)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Peripheral edema (pitting, sacral, scrotal)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Lung auscultation (rales for pulmonary edema)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Mucous membranes (dryness suggests hypovolemia)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Capillary refill, skin turgor"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "3",
+    "4"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Heart sounds (S3/S4, murmurs)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Peripheral pulses (weak in low output states)"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urine output monitoring (strict I/O, foley if needed)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urinalysis (look for casts, proteinuria, hematuria)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urine sodium and FENa (fractional excretion of sodium):"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [
+    "1",
+    "35"
+   ],
+   "performance_claims": [
+    "1",
+    "35"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "FENa <1% suggests prerenal (hypovolemia/low perfusion), but can be unreliable on diuretics; FEUrea <35% may be more helpful in this setting"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside echocardiography (if available): assess for pericardial effusion, LV function, IVC size/collapsibility (volume status)"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bladder scan (rule out retention/obstruction)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [
+    "1",
+    "80",
+    "90"
+   ],
+   "performance_claims": [
+    "1",
+    "80",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "FENa <1%: Sensitivity ~90%, specificity ~80% for prerenal AKI in non-diuretic patients"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "less reliable on diuretics"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [
+    "35",
+    "78",
+    "88"
+   ],
+   "performance_claims": [
+    "35",
+    "78",
+    "88"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "FEUrea <35%: Sensitivity ~78%, specificity ~88% for prerenal AKI, more reliable on diuretics"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "2",
+    "39",
+    "8",
+    "92"
+   ],
+   "performance_claims": [
+    "2",
+    "39",
+    "8",
+    "92"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "JVP >8 cm H2O: Sensitivity ~39%, specificity ~92% for volume overload in heart failure"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside echo IVC assessment: Collapsibility index can help distinguish hypovolemia (high collapsibility) from congestion (plethoric, non-collapsible IVC)"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on careful volume assessment (history, exam, urine studies, bedside echo if available)"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Consider both hypovolemia (over-diuresis) and low cardiac output as causes of AKI"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Use FEUrea over FENa if on diuretics"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Monitor for signs of shock or need for urgent intervention"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "KDIGO AKI guidelines"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "1",
+    "13",
+    "2002",
+    "8"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "J Am Soc Nephrol. 2002;13 Suppl 1:S13-8 (FENa/FEUrea)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "2015",
+    "267",
+    "277",
+    "3",
+    "314"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "JAMA. 2015;314(3):267-277 (Physical exam in heart failure)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "If you need a more detailed workup or management plan, let me know!"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 66-year-old man with HFrEF (EF 25%), on IV diuretics, now with rising creatinine (1.1 \u2192 2.0), decreasing urine output, and hypotension (BP 96/60)\u2014the concern is for acute kidney injury (AKI) in the setting of heart failure, possibly due to hypovolemia, low cardiac output, or cardiorenal syndrome. Here\u2019s how to approach:\n\n**History:**\n- Assess for symptoms of volume depletion (thirst, dizziness, orthostatic symptoms, decreased oral intake, vomiting, diarrhea).\n- Ask about urine output (frequency, color, volume), recent weight changes.\n- Review medication changes (ACEi/ARB, NSAIDs, nephrotoxins).\n- Ask about chest pain, dyspnea, cough, leg swelling (to assess congestion).\n- Review baseline kidney function and prior episodes of AKI.\n\n**Physical Examination:**\n- Vital signs: BP (orthostatic measurements), HR, RR, O2 sat, temperature.\n- Volume status:\n  - JVP (elevated suggests congestion; low suggests hypovolemia).\n  - Peripheral edema (pitting, sacral, scrotal).\n  - Lung auscultation (rales for pulmonary edema).\n  - Mucous membranes (dryness suggests hypovolemia).\n  - Capillary refill, skin turgor.\n  - Heart sounds (S3/S4, murmurs).\n  - Peripheral pulses (weak in low output states).\n\n**Bedside Tests:**\n- Urine output monitoring (strict I/O, foley if needed).\n- Urinalysis (look for casts, proteinuria, hematuria).\n- Urine sodium and FENa (fractional excretion of sodium):\n  - FENa <1% suggests prerenal (hypovolemia/low perfusion), but can be unreliable on diuretics; FEUrea <35% may be more helpful in this setting.\n- Bedside echocardiography (if available): assess for pericardial effusion, LV function, IVC size/collapsibility (volume status).\n- Bladder scan (rule out retention/obstruction).\n\n**Diagnostic Performance Data:**\n- FENa <1%: Sensitivity ~90%, specificity ~80% for prerenal AKI in non-diuretic patients; less reliable on diuretics.\n- FEUrea <35%: Sensitivity ~78%, specificity ~88% for prerenal AKI, more reliable on diuretics.\n- JVP >8 cm H2O: Sensitivity ~39%, specificity ~92% for volume overload in heart failure.\n- Bedside echo IVC assessment: Collapsibility index can help distinguish hypovolemia (high collapsibility) from congestion (plethoric, non-collapsible IVC).\n\n**Summary:**\n- Focus on careful volume assessment (history, exam, urine studies, bedside echo if available).\n- Consider both hypovolemia (over-diuresis) and low cardiac output as causes of AKI.\n- Use FEUrea over FENa if on diuretics.\n- Monitor for signs of shock or need for urgent intervention.\n\n**References:**\n- KDIGO AKI guidelines\n- J Am Soc Nephrol. 2002;13 Suppl 1:S13-8 (FENa/FEUrea)\n- JAMA. 2015;314(3):267-277 (Physical exam in heart failure)\n\nIf you need a more detailed workup or management plan, let me know!"
+ },
+ "variant": "n1"
+}

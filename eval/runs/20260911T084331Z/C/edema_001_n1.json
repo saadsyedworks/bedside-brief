@@ -1,0 +1,387 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "edema_001",
+ "blocked_items": [],
+ "case_id": "edema_001_n1",
+ "created_at": "2026-09-11T09:11:32+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and progression of swelling"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: dyspnea, orthopnea, paroxysmal nocturnal dyspnea, chest pain, palpitations, cough, wheeze, fever"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent changes in medications (NSAIDs, calcium channel blockers, etc.)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Dietary salt/fluid intake"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Urine output changes"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Symptoms of infection (cough, fever, dysuria)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Symptoms of DVT (pain, redness, asymmetry)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past cardiac, renal, hepatic history"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Alcohol use, recent travel, immobility"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: BP, HR, RR, O2 sat, temperature"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: distress, cyanosis, cachexia"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "50",
+    "90"
+   ],
+   "performance_claims": [
+    "50",
+    "90"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "JVP: elevated JVP is highly specific for heart failure (specificity ~90%, sensitivity ~50%)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "60",
+    "70"
+   ],
+   "performance_claims": [
+    "60",
+    "70"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "Lungs: crackles/rales (sensitivity ~60%, specificity ~70%), wheeze, decreased breath sounds (pleural effusion)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "13",
+    "3",
+    "99"
+   ],
+   "performance_claims": [
+    "13",
+    "3",
+    "99"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "Heart: S3 (specificity ~99% for heart failure, sensitivity ~13%), murmurs, displaced apex"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdomen: hepatomegaly, ascites"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Extremities: pitting edema (bilateral suggests systemic cause), calf tenderness (DVT), skin changes"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "93"
+   ],
+   "performance_claims": [
+    "93"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pulse oximetry (already done: 93% on room air)"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG (arrhythmia, ischemia)"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside ultrasound (if available):"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [
+    "92",
+    "94"
+   ],
+   "performance_claims": [
+    "92",
+    "94"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Lung US: B-lines (sensitivity ~94%, specificity ~92% for pulmonary edema)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "IVC diameter/collapsibility (volume status)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Cardiac US: LV function, pericardial effusion"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urinalysis (proteinuria, hematuria)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "50",
+    "90"
+   ],
+   "performance_claims": [
+    "50",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Elevated JVP: Sensitivity ~50%, specificity ~90% for heart failure"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "13",
+    "3",
+    "99"
+   ],
+   "performance_claims": [
+    "13",
+    "3",
+    "99"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "S3: Sensitivity ~13%, specificity ~99% for heart failure"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "60",
+    "70"
+   ],
+   "performance_claims": [
+    "60",
+    "70"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Crackles: Sensitivity ~60%, specificity ~70%"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bilateral pitting edema: Not specific, but in context of cardiac history, supports heart failure"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [
+    "92",
+    "94"
+   ],
+   "performance_claims": [
+    "92",
+    "94"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside lung ultrasound: Sensitivity ~94%, specificity ~92% for pulmonary edema"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [
+    "3"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on signs of volume overload (JVP, S3, crackles, edema), look for evidence of alternative causes, and use bedside ultrasound if available for rapid confirmation. Laboratory and imaging (BNP, CXR, echo) will further clarify diagnosis, but initial bedside assessment is crucial for early management"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014an elderly man with a history of myocardial infarction and hypertension, now with acute-on-chronic bilateral leg swelling, rapid weight gain, orthopnea (sleeping in recliner), and borderline hypoxia\u2014the most likely diagnosis is acute decompensated heart failure (ADHF). However, other causes (renal, hepatic, venous, medication-related) should be considered.\n\n**History:**\n- Onset, duration, and progression of swelling\n- Associated symptoms: dyspnea, orthopnea, paroxysmal nocturnal dyspnea, chest pain, palpitations, cough, wheeze, fever\n- Recent changes in medications (NSAIDs, calcium channel blockers, etc.)\n- Dietary salt/fluid intake\n- Urine output changes\n- Symptoms of infection (cough, fever, dysuria)\n- Symptoms of DVT (pain, redness, asymmetry)\n- Past cardiac, renal, hepatic history\n- Alcohol use, recent travel, immobility\n\n**Physical Examination:**\n- Vital signs: BP, HR, RR, O2 sat, temperature\n- General: distress, cyanosis, cachexia\n- JVP: elevated JVP is highly specific for heart failure (specificity ~90%, sensitivity ~50%)\n- Lungs: crackles/rales (sensitivity ~60%, specificity ~70%), wheeze, decreased breath sounds (pleural effusion)\n- Heart: S3 (specificity ~99% for heart failure, sensitivity ~13%), murmurs, displaced apex\n- Abdomen: hepatomegaly, ascites\n- Extremities: pitting edema (bilateral suggests systemic cause), calf tenderness (DVT), skin changes\n\n**Bedside Tests:**\n- Pulse oximetry (already done: 93% on room air)\n- ECG (arrhythmia, ischemia)\n- Bedside ultrasound (if available):\n  - Lung US: B-lines (sensitivity ~94%, specificity ~92% for pulmonary edema)\n  - IVC diameter/collapsibility (volume status)\n  - Cardiac US: LV function, pericardial effusion\n- Urinalysis (proteinuria, hematuria)\n- Bedside glucose\n\n**Diagnostic Performance Data:**\n- Elevated JVP: Sensitivity ~50%, specificity ~90% for heart failure\n- S3: Sensitivity ~13%, specificity ~99% for heart failure\n- Crackles: Sensitivity ~60%, specificity ~70%\n- Bilateral pitting edema: Not specific, but in context of cardiac history, supports heart failure\n- Bedside lung ultrasound: Sensitivity ~94%, specificity ~92% for pulmonary edema\n\n**Summary:**\nFocus on signs of volume overload (JVP, S3, crackles, edema), look for evidence of alternative causes, and use bedside ultrasound if available for rapid confirmation. Laboratory and imaging (BNP, CXR, echo) will further clarify diagnosis, but initial bedside assessment is crucial for early management."
+ },
+ "variant": "n1"
+}

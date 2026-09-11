@@ -1,0 +1,338 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "palpitations_003",
+ "blocked_items": [],
+ "case_id": "palpitations_003",
+ "created_at": "2026-09-11T09:14:26+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Duration, frequency, and triggers of palpitations"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: tremor, heat intolerance, sweating, diarrhea, anxiety, insomnia, menstrual changes"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Family history of thyroid disease or autoimmune conditions"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication and supplement use (including weight loss agents, stimulants)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent infections or stressors"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Symptoms of heart failure (dyspnea, orthopnea, edema)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: agitation, tremor, sweating, cachexia"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Eyes: lid lag, exophthalmos, conjunctival injection (Graves\u2019 disease)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neck: thyroid enlargement, nodules, tenderness, bruit"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Hands: fine tremor, warm/moist skin, onycholysis"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiac: tachycardia, irregular rhythm (AFib), murmurs, signs of heart failure"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Reflexes: hyperreflexia"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Lower limbs: edema, muscle weakness"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: to assess for arrhythmia (e.g., sinus tachycardia, atrial fibrillation, PACs, PVCs)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Sensitivity for detecting arrhythmia: high for persistent arrhythmias, lower for paroxysmal"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose: hyperthyroidism can rarely cause hyperglycemia"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside temperature: to confirm afebrile status"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "64",
+    "76"
+   ],
+   "performance_claims": [
+    "64",
+    "76"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Fine tremor: sensitivity ~76%, specificity ~64% for hyperthyroidism (JAMA Rational Clinical Exam)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "50",
+    "99"
+   ],
+   "performance_claims": [
+    "50",
+    "99"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Lid lag: specificity ~99%, sensitivity ~50% for hyperthyroidism"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Thyroid bruit: highly specific for Graves\u2019 disease"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: sensitivity for sinus tachycardia in hyperthyroidism is moderate"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "specificity is low as many conditions cause tachycardia"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Take a focused history for hyperthyroid and cardiac symptoms"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Examine for signs of hyperthyroidism and arrhythmia"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Perform ECG and basic bedside tests"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "3",
+    "4"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Consider early TSH and free T4/total T3 labs if suspicion is high"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "1993"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "references",
+   "text": "Burch HB, Wartofsky L. Life-threatening thyrotoxicosis. Endocrinol Metab Clin North Am. 1993"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "2016"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "references",
+   "text": "Ross DS. Approach to the patient with thyrotoxicosis. JAMA. 2016"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "4"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "references",
+   "text": "McGee S. Evidence-Based Physical Diagnosis, 4th ed"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 31-year-old woman admitted for leg cellulitis, but also reporting weeks of palpitations (heart racing and skipped beats) and 5 kg weight loss, with a regular tachycardia (HR 108) and afebrile\u2014there is concern for underlying hyperthyroidism or another systemic cause of tachycardia and weight loss.\n\n**History:**\n- Duration, frequency, and triggers of palpitations\n- Associated symptoms: tremor, heat intolerance, sweating, diarrhea, anxiety, insomnia, menstrual changes\n- Family history of thyroid disease or autoimmune conditions\n- Medication and supplement use (including weight loss agents, stimulants)\n- Recent infections or stressors\n- Symptoms of heart failure (dyspnea, orthopnea, edema)\n\n**Physical Examination:**\n- General: agitation, tremor, sweating, cachexia\n- Eyes: lid lag, exophthalmos, conjunctival injection (Graves\u2019 disease)\n- Neck: thyroid enlargement, nodules, tenderness, bruit\n- Hands: fine tremor, warm/moist skin, onycholysis\n- Cardiac: tachycardia, irregular rhythm (AFib), murmurs, signs of heart failure\n- Reflexes: hyperreflexia\n- Lower limbs: edema, muscle weakness\n\n**Bedside Tests:**\n- ECG: to assess for arrhythmia (e.g., sinus tachycardia, atrial fibrillation, PACs, PVCs)\n  - Sensitivity for detecting arrhythmia: high for persistent arrhythmias, lower for paroxysmal\n- Bedside glucose: hyperthyroidism can rarely cause hyperglycemia\n- Bedside temperature: to confirm afebrile status\n\n**Diagnostic Performance Data:**\n- Fine tremor: sensitivity ~76%, specificity ~64% for hyperthyroidism (JAMA Rational Clinical Exam)\n- Lid lag: specificity ~99%, sensitivity ~50% for hyperthyroidism\n- Thyroid bruit: highly specific for Graves\u2019 disease\n- ECG: sensitivity for sinus tachycardia in hyperthyroidism is moderate; specificity is low as many conditions cause tachycardia\n\n**Summary:**\n- Take a focused history for hyperthyroid and cardiac symptoms\n- Examine for signs of hyperthyroidism and arrhythmia\n- Perform ECG and basic bedside tests\n- Consider early TSH and free T4/total T3 labs if suspicion is high\n\nReferences:\n- Burch HB, Wartofsky L. Life-threatening thyrotoxicosis. Endocrinol Metab Clin North Am. 1993.\n- Ross DS. Approach to the patient with thyrotoxicosis. JAMA. 2016.\n- McGee S. Evidence-Based Physical Diagnosis, 4th ed."
+ },
+ "variant": "base"
+}

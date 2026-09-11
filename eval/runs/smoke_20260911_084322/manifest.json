@@ -1,0 +1,42 @@
+{
+ "args": {
+  "allow_unfrozen": false,
+  "arms": "A,B,C",
+  "cases": null,
+  "judge_all": false,
+  "mode": "default",
+  "run_dir": null,
+  "smoke": true,
+  "target_map": null,
+  "verbose": false
+ },
+ "cases": {
+  "base": 3,
+  "inputs": 9,
+  "noise_variants": 3,
+  "perturbation_pairs": 3
+ },
+ "counts": {
+  "A": {
+   "errors": 0,
+   "outputs": 9
+  },
+  "B": {
+   "errors": 0,
+   "outputs": 9
+  },
+  "C": {
+   "errors": 0,
+   "outputs": 9
+  }
+ },
+ "finished_at": "2026-09-11T08:43:23+00:00",
+ "frozen_commits": [
+  "39a698e5e79a5b6eddebf090caa3f6c8a1b16f7b"
+ ],
+ "git_head": "206658adcdb540df394a209e5145d607403c2b41",
+ "model": "fake-model-smoke",
+ "started_at": "2026-09-11T08:43:22+00:00",
+ "unfrozen_cases": [],
+ "updated_at": "2026-09-11T08:43:23+00:00"
+}

@@ -1,0 +1,299 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "syncope_001",
+ "blocked_items": [],
+ "case_id": "syncope_001_n1",
+ "created_at": "2026-09-11T09:14:54+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Detailed syncope history: prodrome (none), duration, recovery, context (during exertion), frequency, prior episodes"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Cardiac history: chest pain, palpitations, dyspnea, orthopnea, paroxysmal nocturnal dyspnea, edema"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Risk factors: hypertension, diabetes, hyperlipidemia, family history of sudden cardiac death"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication review: especially antihypertensives, diuretics, QT-prolonging drugs"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Neurologic symptoms: confusion, focal deficits, seizure activity"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: orthostatic measurements (lying, sitting, standing BP/HR)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiac exam: characterize murmur (timing, location, radiation, intensity, maneuvers), signs of heart failure (JVP, edema, crackles)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Pulmonary exam: wheezing, crackles, signs of COPD exacerbation"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neurologic exam: focal deficits, post-ictal confusion"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "12"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "12-lead ECG: look for arrhythmias, conduction blocks, ischemia, QT prolongation, signs of structural heart disease (e.g., LVH, prior MI)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "50",
+    "60"
+   ],
+   "performance_claims": [
+    "50",
+    "60"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Sensitivity for arrhythmic syncope: ~50-60%"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "specificity higher if abnormal findings"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Cardiac monitoring (telemetry): to detect intermittent arrhythmias"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Point-of-care echocardiography (if available): assess for structural heart disease (aortic stenosis, hypertrophic cardiomyopathy, reduced EF, RV strain)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "90"
+   ],
+   "performance_claims": [
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Sensitivity for significant valvular disease: >90% for moderate/severe lesions"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pulse oximetry: assess for hypoxemia"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose: rule out hypoglycemia"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Key Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "A new murmur + syncope, especially with exertion, raises suspicion for aortic stenosis (AS). Syncope in AS is a classic red flag for severe disease"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "90"
+   ],
+   "performance_claims": [
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Sensitivity of murmur for severe AS: ~90%; specificity lower, but syncope increases pre-test probability"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "0.5",
+    "2",
+    "3"
+   ],
+   "performance_claims": [
+    "0.5",
+    "2",
+    "3"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: abnormal findings increase likelihood of cardiac syncope (LR+ ~2-3), but a normal ECG does not rule it out (LR- ~0.5)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "30",
+    "50",
+    "80"
+   ],
+   "performance_claims": [
+    "30",
+    "50",
+    "80"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Orthostatic vitals: sensitivity for orthostatic hypotension ~30-50%, specificity ~80%"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on cardiac causes (valvular, arrhythmic) given the murmur and exertional syncope"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Perform a detailed cardiac and neurologic exam, orthostatic vitals, ECG, and consider bedside echo if available"
+  },
+  {
+   "bedside": false,
+   "category": "consult",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Early cardiology involvement is warranted if suspicion for severe valvular disease or arrhythmia is high"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 58-year-old man with COPD exacerbation, a newly documented murmur, and a witnessed syncope episode without warning\u2014your assessment should focus on identifying cardiac causes of syncope, especially structural heart disease, arrhythmias, and other life-threatening etiologies.\n\n**History:**\n- Detailed syncope history: prodrome (none), duration, recovery, context (during exertion), frequency, prior episodes.\n- Cardiac history: chest pain, palpitations, dyspnea, orthopnea, paroxysmal nocturnal dyspnea, edema.\n- Risk factors: hypertension, diabetes, hyperlipidemia, family history of sudden cardiac death.\n- Medication review: especially antihypertensives, diuretics, QT-prolonging drugs.\n- Neurologic symptoms: confusion, focal deficits, seizure activity.\n\n**Physical Examination:**\n- Vital signs: orthostatic measurements (lying, sitting, standing BP/HR).\n- Cardiac exam: characterize murmur (timing, location, radiation, intensity, maneuvers), signs of heart failure (JVP, edema, crackles).\n- Pulmonary exam: wheezing, crackles, signs of COPD exacerbation.\n- Neurologic exam: focal deficits, post-ictal confusion.\n\n**Bedside Tests:**\n- 12-lead ECG: look for arrhythmias, conduction blocks, ischemia, QT prolongation, signs of structural heart disease (e.g., LVH, prior MI).\n  - Sensitivity for arrhythmic syncope: ~50-60%; specificity higher if abnormal findings.\n- Cardiac monitoring (telemetry): to detect intermittent arrhythmias.\n- Point-of-care echocardiography (if available): assess for structural heart disease (aortic stenosis, hypertrophic cardiomyopathy, reduced EF, RV strain).\n  - Sensitivity for significant valvular disease: >90% for moderate/severe lesions.\n- Pulse oximetry: assess for hypoxemia.\n- Bedside glucose: rule out hypoglycemia.\n\n**Key Diagnostic Performance Data:**\n- A new murmur + syncope, especially with exertion, raises suspicion for aortic stenosis (AS). Syncope in AS is a classic red flag for severe disease.\n  - Sensitivity of murmur for severe AS: ~90%; specificity lower, but syncope increases pre-test probability.\n- ECG: abnormal findings increase likelihood of cardiac syncope (LR+ ~2-3), but a normal ECG does not rule it out (LR- ~0.5).\n- Orthostatic vitals: sensitivity for orthostatic hypotension ~30-50%, specificity ~80%.\n\n**Summary:**\n- Focus on cardiac causes (valvular, arrhythmic) given the murmur and exertional syncope.\n- Perform a detailed cardiac and neurologic exam, orthostatic vitals, ECG, and consider bedside echo if available.\n- Early cardiology involvement is warranted if suspicion for severe valvular disease or arrhythmia is high."
+ },
+ "variant": "n1"
+}

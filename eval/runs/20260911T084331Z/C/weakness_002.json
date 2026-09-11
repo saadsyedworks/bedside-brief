@@ -1,0 +1,332 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "weakness_002",
+ "blocked_items": [],
+ "case_id": "weakness_002",
+ "created_at": "2026-09-11T09:15:47+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and progression of leg weakness and heaviness"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Character and location of back pain (mid-back pain is concerning for thoracic cord involvement)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: numbness, tingling, saddle anesthesia, urinary retention or incontinence, fecal incontinence"
+  },
+  {
+   "bedside": false,
+   "category": "disposition",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Functional status: ability to walk, stand, or transfer"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent falls or trauma"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Previous similar symptoms"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: Assess for distress, ability to move"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neurological exam:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "0",
+    "5"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Motor strength in lower extremities (graded 0-5)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Sensory exam: light touch, pinprick, proprioception in lower extremities and perineum"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Reflexes: patellar, Achilles (may be brisk below the level of compression)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Babinski sign (upgoing plantar reflex suggests upper motor neuron lesion)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Tone (spasticity may be present)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Gait (if safe)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Rectal exam: anal tone, perianal sensation"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [
+    "100"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bladder scan for urinary retention (post-void residual >100 mL is suggestive)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Assess ability to ambulate safely"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Sensitivity of clinical findings for spinal cord compression is variable:"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "90"
+   ],
+   "performance_claims": [
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Back pain: present in >90% of cases"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "60",
+    "85"
+   ],
+   "performance_claims": [
+    "60",
+    "85"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Motor weakness: present in ~60-85%"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "50",
+    "80"
+   ],
+   "performance_claims": [
+    "50",
+    "80"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Sensory changes: ~50-80%"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "20",
+    "50"
+   ],
+   "performance_claims": [
+    "20",
+    "50"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bladder/bowel dysfunction: ~20-50% at presentation"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Loss of rectal tone and perianal sensation are specific but not sensitive for cauda equina syndrome"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [
+    "90"
+   ],
+   "performance_claims": [
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "MRI is the gold standard for diagnosis (sensitivity >90%)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Key findings: new weakness, sensory changes, sphincter dysfunction, midline back pain in a patient with metastatic cancer"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "2005"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Loblaw DA, Perry J, Chambers A, Laperriere NJ. Systematic review of the diagnosis and management of malignant extradural spinal cord compression. JCO 2005"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "9"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Greenberg MS. Handbook of Neurosurgery, 9th Edition"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "This presentation is concerning for possible spinal cord compression, a medical emergency in patients with metastatic cancer.\n\n**History:**\n- Onset, duration, and progression of leg weakness and heaviness\n- Character and location of back pain (mid-back pain is concerning for thoracic cord involvement)\n- Associated symptoms: numbness, tingling, saddle anesthesia, urinary retention or incontinence, fecal incontinence\n- Functional status: ability to walk, stand, or transfer\n- Recent falls or trauma\n- Previous similar symptoms\n\n**Physical Examination:**\n- General: Assess for distress, ability to move\n- Neurological exam:\n  - Motor strength in lower extremities (graded 0-5)\n  - Sensory exam: light touch, pinprick, proprioception in lower extremities and perineum\n  - Reflexes: patellar, Achilles (may be brisk below the level of compression)\n  - Babinski sign (upgoing plantar reflex suggests upper motor neuron lesion)\n  - Tone (spasticity may be present)\n  - Gait (if safe)\n  - Rectal exam: anal tone, perianal sensation\n\n**Bedside Tests:**\n- Bladder scan for urinary retention (post-void residual >100 mL is suggestive)\n- Assess ability to ambulate safely\n\n**Diagnostic Performance Data:**\n- Sensitivity of clinical findings for spinal cord compression is variable:\n  - Back pain: present in >90% of cases\n  - Motor weakness: present in ~60-85%\n  - Sensory changes: ~50-80%\n  - Bladder/bowel dysfunction: ~20-50% at presentation\n- Loss of rectal tone and perianal sensation are specific but not sensitive for cauda equina syndrome.\n- MRI is the gold standard for diagnosis (sensitivity >90%).\n\n**Summary:**\n- This is a clinical emergency. Prompt recognition and MRI are critical. Early corticosteroids may be indicated after diagnosis is suspected.\n- Key findings: new weakness, sensory changes, sphincter dysfunction, midline back pain in a patient with metastatic cancer.\n\n**References:**\n- Loblaw DA, Perry J, Chambers A, Laperriere NJ. Systematic review of the diagnosis and management of malignant extradural spinal cord compression. JCO 2005.\n- Greenberg MS. Handbook of Neurosurgery, 9th Edition."
+ },
+ "variant": "base"
+}

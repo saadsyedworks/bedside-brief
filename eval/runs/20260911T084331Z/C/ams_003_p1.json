@@ -1,0 +1,307 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "ams_003",
+ "blocked_items": [],
+ "case_id": "ams_003_p1",
+ "created_at": "2026-09-11T09:08:10+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Time course and nature of mental status change (acute vs. chronic, fluctuating vs. persistent)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Baseline cognitive function (dementia, prior episodes)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent events: falls, trauma, medication changes, procedures"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: fever, cough, chest pain, dyspnea, urinary symptoms, pain, headache, focal deficits"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication review: sedatives, opioids, anticholinergics, recent changes"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Alcohol or substance use"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Sleep, nutrition, hydration"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: Level of consciousness (alert, drowsy, stuporous, comatose)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Airway, breathing, circulation (ABC)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: Confirm yourself (tachypnea, hypoxia, fever, hypotension)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neurologic: Orientation, attention, speech, cranial nerves, motor/sensory, reflexes, cerebellar, meningeal signs"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Respiratory: Work of breathing, accessory muscle use, breath sounds (wheezing, crackles), signs of CO2 retention (flapping tremor/asterixis)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiovascular: Heart sounds, murmurs, peripheral perfusion"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdomen: Distension, tenderness"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Skin: Rashes, signs of infection, pressure sores"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pulse oximetry: Confirm SpO2 (hypoxia is a common cause of delirium)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Capnography (if available): Assess for hypercapnia"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose: Rule out hypoglycemia (high sensitivity for altered mental status)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Glasgow Coma Scale (GCS): Quantify level of consciousness"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "89",
+    "94"
+   ],
+   "performance_claims": [
+    "89",
+    "94"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Confusion Assessment Method (CAM): For delirium (sensitivity ~94%, specificity ~89% for delirium diagnosis)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Asterixis: Suggests hypercapnia or hepatic encephalopathy"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "90"
+   ],
+   "performance_claims": [
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pulse oximetry: Sensitivity ~90% for hypoxemia, but may miss hypercapnia"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose: High sensitivity for hypoglycemia"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "89",
+    "94"
+   ],
+   "performance_claims": [
+    "89",
+    "94"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "CAM: Sensitivity ~94%, specificity ~89% for delirium"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Asterixis: Not highly sensitive or specific, but suggestive in context"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "In this patient, prioritize assessment for hypoxia, hypercapnia, infection/sepsis, medication effects, and metabolic derangements. Confirm vital signs yourself, perform a focused neurologic and respiratory exam, and use bedside tests (pulse oximetry, glucose, CAM, asterixis) to rapidly identify treatable causes. Early recognition and intervention are key in elderly patients with acute mental status changes"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given the presentation of an 80-year-old male admitted for COPD exacerbation, now on 5L nasal cannula, with new-onset altered mental status (\"not himself\"), and reportedly unremarkable vitals, your approach should focus on identifying causes of acute mental status change, especially those that are life-threatening or reversible.\n\n**History:**\n- Time course and nature of mental status change (acute vs. chronic, fluctuating vs. persistent)\n- Baseline cognitive function (dementia, prior episodes)\n- Recent events: falls, trauma, medication changes, procedures\n- Associated symptoms: fever, cough, chest pain, dyspnea, urinary symptoms, pain, headache, focal deficits\n- Medication review: sedatives, opioids, anticholinergics, recent changes\n- Alcohol or substance use\n- Sleep, nutrition, hydration\n\n**Physical Examination:**\n- General: Level of consciousness (alert, drowsy, stuporous, comatose)\n- Airway, breathing, circulation (ABC)\n- Vital signs: Confirm yourself (tachypnea, hypoxia, fever, hypotension)\n- Neurologic: Orientation, attention, speech, cranial nerves, motor/sensory, reflexes, cerebellar, meningeal signs\n- Respiratory: Work of breathing, accessory muscle use, breath sounds (wheezing, crackles), signs of CO2 retention (flapping tremor/asterixis)\n- Cardiovascular: Heart sounds, murmurs, peripheral perfusion\n- Abdomen: Distension, tenderness\n- Skin: Rashes, signs of infection, pressure sores\n\n**Bedside Tests:**\n- Pulse oximetry: Confirm SpO2 (hypoxia is a common cause of delirium)\n- Capnography (if available): Assess for hypercapnia\n- Bedside glucose: Rule out hypoglycemia (high sensitivity for altered mental status)\n- Glasgow Coma Scale (GCS): Quantify level of consciousness\n- Confusion Assessment Method (CAM): For delirium (sensitivity ~94%, specificity ~89% for delirium diagnosis)\n- Asterixis: Suggests hypercapnia or hepatic encephalopathy\n\n**Diagnostic Performance Data:**\n- Pulse oximetry: Sensitivity ~90% for hypoxemia, but may miss hypercapnia\n- Bedside glucose: High sensitivity for hypoglycemia\n- CAM: Sensitivity ~94%, specificity ~89% for delirium\n- Asterixis: Not highly sensitive or specific, but suggestive in context\n\n**Summary:**\nIn this patient, prioritize assessment for hypoxia, hypercapnia, infection/sepsis, medication effects, and metabolic derangements. Confirm vital signs yourself, perform a focused neurologic and respiratory exam, and use bedside tests (pulse oximetry, glucose, CAM, asterixis) to rapidly identify treatable causes. Early recognition and intervention are key in elderly patients with acute mental status changes."
+ },
+ "variant": "p1"
+}

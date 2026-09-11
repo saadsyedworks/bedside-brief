@@ -1,0 +1,404 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "hypotension_001",
+ "blocked_items": [],
+ "case_id": "hypotension_001_p1",
+ "created_at": "2026-09-11T09:13:04+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent symptoms: rigors, chills, pain (esp. suprapubic/flank), cough, chest pain, dyspnea, abdominal pain, stool/urine output, wound drainage"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication review (esp. sedatives, anticholinergics, opioids)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Baseline mental status, prior episodes of delirium"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Fluid intake/output, recent labs"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Allergies, comorbidities (esp. cardiac, renal, diabetes)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: Level of consciousness, orientation, distress"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vitals: Confirm hypotension, tachycardia, temperature"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Skin: Mottling, capillary refill, rash, pressure ulcers"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "HEENT: Mucous membranes (hydration), scleral icterus"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Chest: Crackles, decreased breath sounds (pneumonia, aspiration)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Heart: Murmurs, new arrhythmias"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdomen: Tenderness, distension, guarding, surgical site"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "GU: Inspect Foley site, suprapubic tenderness, urine color/odor"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Extremities: Edema, DVT signs, surgical wound (erythema, drainage)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neuro: Delirium screen (e.g., CAM), focal deficits"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Orthostatic vitals (if safe)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urine dipstick (leukocytes, nitrites, blood)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bladder scan (urinary retention)"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG (arrhythmia, ischemia)"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pulse oximetry"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "89",
+    "94"
+   ],
+   "performance_claims": [
+    "89",
+    "94"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Delirium: Confusion Assessment Method (CAM) sensitivity ~94%, specificity ~89%"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "100",
+    "22",
+    "60",
+    "70",
+    "80"
+   ],
+   "performance_claims": [
+    "100",
+    "22",
+    "60",
+    "70",
+    "80"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Sepsis: SIRS criteria are sensitive but not specific; qSOFA (RR \u226522, altered mentation, SBP \u2264100) has specificity ~70-80% but lower sensitivity (~60%) for sepsis outcomes"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "75",
+    "82",
+    "85",
+    "98"
+   ],
+   "performance_claims": [
+    "75",
+    "82",
+    "85",
+    "98"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urine dipstick: Sensitivity ~75-85%, specificity ~82-98% for UTI in elderly (but false positives/negatives common with chronic Foley)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [
+    "2"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Capillary refill: Poor sensitivity, but delayed refill (>2s) may indicate hypoperfusion"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on identifying sepsis/shock source (esp. urinary, pulmonary, wound)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Assess for delirium and hypoperfusion"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Use bedside tests to rapidly assess for infection, hypoglycemia, and cardiac causes"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Early recognition and intervention are critical in this high-risk patient"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Inouye SK et al."
+   ],
+   "numeric_claims": [
+    "113",
+    "12",
+    "1990",
+    "8",
+    "941"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Inouye SK et al. Ann Intern Med. 1990;113(12):941-8. (CAM)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "Singer M et al."
+   ],
+   "numeric_claims": [
+    "10",
+    "2016",
+    "3",
+    "315",
+    "8",
+    "801"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Singer M et al. JAMA. 2016;315(8):801-10. (Sepsis-3)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "Juthani-Mehta M et al."
+   ],
+   "numeric_claims": [
+    "2009",
+    "22",
+    "301",
+    "8",
+    "812"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Juthani-Mehta M et al. JAMA. 2009;301(8):812-22. (UTI diagnosis in elderly)"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "This is a 72-year-old man, postoperative day 3 after hip fracture repair, with a chronic Foley catheter, who is hypothermic (T 36.2\u00b0C), hypotensive (BP 86/50), tachycardic (HR 112), and acutely confused. This is a classic presentation for sepsis, likely urosepsis given the Foley, but other causes of shock and delirium must be considered.\n\n**History:**\n- Recent symptoms: rigors, chills, pain (esp. suprapubic/flank), cough, chest pain, dyspnea, abdominal pain, stool/urine output, wound drainage\n- Medication review (esp. sedatives, anticholinergics, opioids)\n- Baseline mental status, prior episodes of delirium\n- Fluid intake/output, recent labs\n- Allergies, comorbidities (esp. cardiac, renal, diabetes)\n\n**Physical Examination:**\n- General: Level of consciousness, orientation, distress\n- Vitals: Confirm hypotension, tachycardia, temperature\n- Skin: Mottling, capillary refill, rash, pressure ulcers\n- HEENT: Mucous membranes (hydration), scleral icterus\n- Chest: Crackles, decreased breath sounds (pneumonia, aspiration)\n- Heart: Murmurs, new arrhythmias\n- Abdomen: Tenderness, distension, guarding, surgical site\n- GU: Inspect Foley site, suprapubic tenderness, urine color/odor\n- Extremities: Edema, DVT signs, surgical wound (erythema, drainage)\n- Neuro: Delirium screen (e.g., CAM), focal deficits\n\n**Bedside Tests:**\n- Orthostatic vitals (if safe)\n- Urine dipstick (leukocytes, nitrites, blood)\n- Bedside glucose\n- Bladder scan (urinary retention)\n- ECG (arrhythmia, ischemia)\n- Pulse oximetry\n\n**Diagnostic Performance Data:**\n- Delirium: Confusion Assessment Method (CAM) sensitivity ~94%, specificity ~89%\n- Sepsis: SIRS criteria are sensitive but not specific; qSOFA (RR \u226522, altered mentation, SBP \u2264100) has specificity ~70-80% but lower sensitivity (~60%) for sepsis outcomes\n- Urine dipstick: Sensitivity ~75-85%, specificity ~82-98% for UTI in elderly (but false positives/negatives common with chronic Foley)\n- Capillary refill: Poor sensitivity, but delayed refill (>2s) may indicate hypoperfusion\n\n**Summary:**\n- Focus on identifying sepsis/shock source (esp. urinary, pulmonary, wound)\n- Assess for delirium and hypoperfusion\n- Use bedside tests to rapidly assess for infection, hypoglycemia, and cardiac causes\n- Early recognition and intervention are critical in this high-risk patient\n\n**References:**\n- Inouye SK et al. Ann Intern Med. 1990;113(12):941-8. (CAM)\n- Singer M et al. JAMA. 2016;315(8):801-10. (Sepsis-3)\n- Juthani-Mehta M et al. JAMA. 2009;301(8):812-22. (UTI diagnosis in elderly)"
+ },
+ "variant": "p1"
+}

@@ -1,0 +1,375 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "ams_001",
+ "blocked_items": [],
+ "case_id": "ams_001",
+ "created_at": "2026-09-11T09:07:32+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset and course of confusion (acute vs. chronic)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Baseline cognitive function and behavior"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent medications (especially new ones, opioids, anticholinergics, sedatives)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Pain assessment"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Urinary symptoms (retention, infection)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Bowel function (constipation)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent infections (respiratory, urinary)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Sleep pattern"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Alcohol or substance use"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: Vital signs (repeat, monitor for instability)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neurological: Level of consciousness, attention, orientation, focal deficits"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Respiratory: Signs of infection, hypoxia (auscultation, RR)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiovascular: Rhythm, perfusion"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdomen: Bladder distension, bowel sounds, tenderness"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Musculoskeletal: Pain at fracture site, signs of DVT"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Skin: Pressure areas, signs of infection"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Confusion Assessment Method (CAM):"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "89",
+    "94"
+   ],
+   "performance_claims": [
+    "89",
+    "94"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Sensitivity ~94%, specificity ~89% for delirium diagnosis"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Features: acute onset/fluctuating course, inattention, disorganized thinking, altered consciousness"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "4"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "4AT (rapid delirium screen):"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "84.1",
+    "89.7"
+   ],
+   "performance_claims": [
+    "84.1",
+    "89.7"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Sensitivity ~89.7%, specificity ~84.1%"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Glasgow Coma Scale (GCS) or AVPU (Alert, Voice, Pain, Unresponsive)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pulse oximetry (already low SpO2\u2014consider ABG if hypoxia persists)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urinalysis (bedside dipstick for infection)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Blood glucose (rule out hypo/hyperglycemia)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Delirium is highly likely given acute change in mental status, especially in a hospitalized elderly patient with dementia"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "4"
+   ],
+   "performance_claims": [
+    "4"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Use CAM or 4AT for bedside diagnosis (high sensitivity/specificity)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Assess for common precipitants: infection, hypoxia, pain, medications, urinary retention, constipation"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Repeat vital signs and perform focused physical exam to identify underlying cause"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Inouye SK et al."
+   ],
+   "numeric_claims": [
+    "113",
+    "12",
+    "1990",
+    "8",
+    "941"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Inouye SK et al. Ann Intern Med. 1990;113(12):941-8. (CAM)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "Bellelli G et al."
+   ],
+   "numeric_claims": [
+    "2014",
+    "4",
+    "43",
+    "496",
+    "502"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bellelli G et al. Age Ageing. 2014;43(4):496-502. (4AT)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "103"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "NICE Delirium Guidelines (CG103)"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014an 84-year-old woman with mild dementia, hospitalized for hip fracture, now acutely disoriented and pulling at lines overnight, with mild fever (T 37.9\u00b0C), HR 98, and SpO2 94%\u2014the most likely concern is delirium (acute confusional state), possibly precipitated by infection, hypoxia, pain, or medication effects.\n\n**History:**\n- Onset and course of confusion (acute vs. chronic)\n- Baseline cognitive function and behavior\n- Recent medications (especially new ones, opioids, anticholinergics, sedatives)\n- Pain assessment\n- Urinary symptoms (retention, infection)\n- Bowel function (constipation)\n- Recent infections (respiratory, urinary)\n- Sleep pattern\n- Alcohol or substance use\n\n**Physical Examination:**\n- General: Vital signs (repeat, monitor for instability)\n- Neurological: Level of consciousness, attention, orientation, focal deficits\n- Respiratory: Signs of infection, hypoxia (auscultation, RR)\n- Cardiovascular: Rhythm, perfusion\n- Abdomen: Bladder distension, bowel sounds, tenderness\n- Musculoskeletal: Pain at fracture site, signs of DVT\n- Skin: Pressure areas, signs of infection\n\n**Bedside Tests:**\n- Confusion Assessment Method (CAM):\n  - Sensitivity ~94%, specificity ~89% for delirium diagnosis\n  - Features: acute onset/fluctuating course, inattention, disorganized thinking, altered consciousness\n- 4AT (rapid delirium screen):\n  - Sensitivity ~89.7%, specificity ~84.1%\n- Glasgow Coma Scale (GCS) or AVPU (Alert, Voice, Pain, Unresponsive)\n- Pulse oximetry (already low SpO2\u2014consider ABG if hypoxia persists)\n- Urinalysis (bedside dipstick for infection)\n- Blood glucose (rule out hypo/hyperglycemia)\n\n**Summary:**\n- Delirium is highly likely given acute change in mental status, especially in a hospitalized elderly patient with dementia.\n- Use CAM or 4AT for bedside diagnosis (high sensitivity/specificity).\n- Assess for common precipitants: infection, hypoxia, pain, medications, urinary retention, constipation.\n- Repeat vital signs and perform focused physical exam to identify underlying cause.\n\n**References:**\n- Inouye SK et al. Ann Intern Med. 1990;113(12):941-8. (CAM)\n- Bellelli G et al. Age Ageing. 2014;43(4):496-502. (4AT)\n- NICE Delirium Guidelines (CG103)"
+ },
+ "variant": "base"
+}

@@ -1,0 +1,276 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "syncope_002",
+ "blocked_items": [],
+ "case_id": "syncope_002_n1",
+ "created_at": "2026-09-11T09:15:10+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Detailed event history: Ask about prodromal symptoms (palpitations, chest pain, dizziness, nausea, diaphoresis), duration of unconsciousness, confusion after event, tongue biting, incontinence, limb jerking (suggests seizure), and prior similar events"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication review: Sotalol (QT prolongation risk), other QT-prolonging drugs, diuretics (cause hypokalemia)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past medical history: Cardiac disease, prior falls, cognitive impairment, neuropathy"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Social history: Alcohol use, support at home, mobility aids"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "10",
+    "20"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: Orthostatic blood pressure (lying, sitting, standing; a drop of \u226520 mmHg systolic or \u226510 mmHg diastolic is significant"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "30",
+    "90"
+   ],
+   "performance_claims": [
+    "30",
+    "90"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "sensitivity ~30%, specificity ~90% for orthostatic hypotension)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiac exam: Irregularly irregular rhythm (AF), murmurs, signs of heart failure"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neurological exam: Focal deficits, cognitive assessment (delirium, dementia), gait assessment"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Injury assessment: Head trauma, lacerations, fractures"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "500",
+    "80"
+   ],
+   "performance_claims": [
+    "500",
+    "80"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: Look for QT prolongation (sotalol + hypokalemia), arrhythmias, ischemia. QTc >500 ms increases risk of torsades de pointes (sensitivity ~80% for predicting torsades in high-risk patients)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose: Hypoglycemia as a cause"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Telemetry: Continuous monitoring for arrhythmias"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Orthostatic vitals as above"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "80",
+    "90"
+   ],
+   "performance_claims": [
+    "80",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Witnessed syncope with no prodrome, especially in patients with structural heart disease or on QT-prolonging drugs, is highly suggestive of arrhythmic syncope (sensitivity ~80%, specificity ~90% for cardiac syncope if no prodrome and heart disease present)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "90"
+   ],
+   "performance_claims": [
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Post-ictal confusion, tongue biting, and incontinence are more specific for seizure (specificity >90% for tongue biting)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "30",
+    "90"
+   ],
+   "performance_claims": [
+    "30",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Orthostatic hypotension: Sensitivity ~30%, specificity ~90% for syncope due to orthostasis"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on arrhythmic causes (sotalol, hypokalemia, AF), but rule out seizure and mechanical fall"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Key tests: ECG, orthostatic vitals, glucose, full neuro and cardiac exam, injury survey"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Consider urgent correction of potassium and cardiac monitoring"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "Brignole M, et al. 2018"
+   ],
+   "numeric_claims": [
+    "2018"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "references",
+   "text": "Brignole M, et al. 2018 ESC Guidelines for the diagnosis and management of syncope. Eur Heart J. 2018"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "Sheldon R, et al."
+   ],
+   "numeric_claims": [
+    "2002"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "references",
+   "text": "Sheldon R, et al. Diagnostic criteria for syncope. J Am Coll Cardiol. 2002"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014an elderly woman with atrial fibrillation on sotalol, found on the floor with amnesia for the event, no warning, and hypokalemia\u2014the differential includes syncope (arrhythmic, orthostatic, vasovagal), seizure, and mechanical fall. Here\u2019s how to approach history, exam, and bedside tests:\n\n**History:**\n- Detailed event history: Ask about prodromal symptoms (palpitations, chest pain, dizziness, nausea, diaphoresis), duration of unconsciousness, confusion after event, tongue biting, incontinence, limb jerking (suggests seizure), and prior similar events.\n- Medication review: Sotalol (QT prolongation risk), other QT-prolonging drugs, diuretics (cause hypokalemia).\n- Past medical history: Cardiac disease, prior falls, cognitive impairment, neuropathy.\n- Social history: Alcohol use, support at home, mobility aids.\n\n**Physical Examination:**\n- Vital signs: Orthostatic blood pressure (lying, sitting, standing; a drop of \u226520 mmHg systolic or \u226510 mmHg diastolic is significant; sensitivity ~30%, specificity ~90% for orthostatic hypotension).\n- Cardiac exam: Irregularly irregular rhythm (AF), murmurs, signs of heart failure.\n- Neurological exam: Focal deficits, cognitive assessment (delirium, dementia), gait assessment.\n- Injury assessment: Head trauma, lacerations, fractures.\n\n**Bedside Tests:**\n- ECG: Look for QT prolongation (sotalol + hypokalemia), arrhythmias, ischemia. QTc >500 ms increases risk of torsades de pointes (sensitivity ~80% for predicting torsades in high-risk patients).\n- Bedside glucose: Hypoglycemia as a cause.\n- Telemetry: Continuous monitoring for arrhythmias.\n- Orthostatic vitals as above.\n\n**Diagnostic Performance Data:**\n- Witnessed syncope with no prodrome, especially in patients with structural heart disease or on QT-prolonging drugs, is highly suggestive of arrhythmic syncope (sensitivity ~80%, specificity ~90% for cardiac syncope if no prodrome and heart disease present).\n- Post-ictal confusion, tongue biting, and incontinence are more specific for seizure (specificity >90% for tongue biting).\n- Orthostatic hypotension: Sensitivity ~30%, specificity ~90% for syncope due to orthostasis.\n\n**Summary:**\n- Focus on arrhythmic causes (sotalol, hypokalemia, AF), but rule out seizure and mechanical fall.\n- Key tests: ECG, orthostatic vitals, glucose, full neuro and cardiac exam, injury survey.\n- Consider urgent correction of potassium and cardiac monitoring.\n\nReferences:\n- Brignole M, et al. 2018 ESC Guidelines for the diagnosis and management of syncope. Eur Heart J. 2018.\n- Sheldon R, et al. Diagnostic criteria for syncope. J Am Coll Cardiol. 2002."
+ },
+ "variant": "n1"
+}

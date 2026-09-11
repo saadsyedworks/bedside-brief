@@ -1,0 +1,267 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "syncope_001",
+ "blocked_items": [],
+ "case_id": "syncope_001",
+ "created_at": "2026-09-11T09:14:40+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Characterize the collapse: Was there loss of consciousness? How long? Any prodrome (dizziness, palpitations, chest pain, dyspnea, visual changes)?"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Witness account: Was there seizure-like activity, incontinence, tongue biting?"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past cardiac history: Known murmurs, heart failure, coronary disease, arrhythmias?"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Family history: Sudden cardiac death?"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication review: Especially antihypertensives, diuretics, antiarrhythmics"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent symptoms: Chest pain, palpitations, dyspnea, orthopnea, PND, leg swelling, cough, hemoptysis"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: Orthostatic measurements"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "3",
+    "4"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiac: Characterize murmur (timing, location, radiation, intensity, maneuvers), presence of S3/S4, JVP, peripheral edema, pulses (carotid upstroke, pulse deficit)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Pulmonary: Rales, wheezing, signs of right heart strain"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neurologic: Focal deficits, confusion, post-ictal state"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Extremities: Signs of DVT (swelling, tenderness, erythema)"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "1",
+    "3"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: Look for arrhythmias, ischemia, conduction blocks, signs of RV strain (S1Q3T3, RBBB)"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Telemetry: Continuous monitoring for arrhythmias"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Point-of-care ultrasound (POCUS): Assess LV and RV function, valve morphology, estimate aortic valve area, look for pericardial effusion, RV dilation (suggestive of PE)"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pulse oximetry: Hypoxemia may suggest PE or cardiac dysfunction"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "2",
+    "80",
+    "85"
+   ],
+   "performance_claims": [
+    "2",
+    "80",
+    "85"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Aortic stenosis murmur: Systolic murmur radiating to carotids, delayed carotid upstroke (pulsus parvus et tardus), soft/absent S2. Sensitivity and specificity for severe AS: murmur radiating to carotids (sensitivity ~85%, specificity ~80%)"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: Sensitivity for arrhythmia as cause of syncope is low unless captured during event, but can show underlying conduction disease or ischemia"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "POCUS: For severe AS, visual estimation of valve area and LV function is helpful"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "60",
+    "70",
+    "80",
+    "90"
+   ],
+   "performance_claims": [
+    "60",
+    "70",
+    "80",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "for PE, RV dilation has sensitivity ~60-70%, specificity ~80-90% for massive PE"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "30",
+    "50"
+   ],
+   "performance_claims": [
+    "30",
+    "50"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Orthostatic vitals: Sensitivity for orthostatic hypotension as cause of syncope is ~30-50%"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on cardiac causes (especially aortic stenosis, arrhythmia), but also consider PE. Prioritize ECG, careful cardiac exam, and POCUS. If suspicion for severe AS or PE is high, escalate to formal echocardiography and/or CT pulmonary angiography as indicated"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 58-year-old man admitted for COPD exacerbation, with a newly noted systolic murmur, who collapsed suddenly without warning during ambulation, and is now hemodynamically stable (HR 88, BP 128/70)\u2014the differential includes cardiac arrhythmia, structural heart disease (e.g., aortic stenosis), pulmonary embolism, and less likely vasovagal or orthostatic causes.\n\n**History:**\n- Characterize the collapse: Was there loss of consciousness? How long? Any prodrome (dizziness, palpitations, chest pain, dyspnea, visual changes)?\n- Witness account: Was there seizure-like activity, incontinence, tongue biting?\n- Past cardiac history: Known murmurs, heart failure, coronary disease, arrhythmias?\n- Family history: Sudden cardiac death?\n- Medication review: Especially antihypertensives, diuretics, antiarrhythmics.\n- Recent symptoms: Chest pain, palpitations, dyspnea, orthopnea, PND, leg swelling, cough, hemoptysis.\n\n**Physical Examination:**\n- Vital signs: Orthostatic measurements.\n- Cardiac: Characterize murmur (timing, location, radiation, intensity, maneuvers), presence of S3/S4, JVP, peripheral edema, pulses (carotid upstroke, pulse deficit).\n- Pulmonary: Rales, wheezing, signs of right heart strain.\n- Neurologic: Focal deficits, confusion, post-ictal state.\n- Extremities: Signs of DVT (swelling, tenderness, erythema).\n\n**Bedside Tests:**\n- ECG: Look for arrhythmias, ischemia, conduction blocks, signs of RV strain (S1Q3T3, RBBB).\n- Telemetry: Continuous monitoring for arrhythmias.\n- Point-of-care ultrasound (POCUS): Assess LV and RV function, valve morphology, estimate aortic valve area, look for pericardial effusion, RV dilation (suggestive of PE).\n- Pulse oximetry: Hypoxemia may suggest PE or cardiac dysfunction.\n\n**Diagnostic Performance Data:**\n- **Aortic stenosis murmur:** Systolic murmur radiating to carotids, delayed carotid upstroke (pulsus parvus et tardus), soft/absent S2. Sensitivity and specificity for severe AS: murmur radiating to carotids (sensitivity ~85%, specificity ~80%).\n- **ECG:** Sensitivity for arrhythmia as cause of syncope is low unless captured during event, but can show underlying conduction disease or ischemia.\n- **POCUS:** For severe AS, visual estimation of valve area and LV function is helpful; for PE, RV dilation has sensitivity ~60-70%, specificity ~80-90% for massive PE.\n- **Orthostatic vitals:** Sensitivity for orthostatic hypotension as cause of syncope is ~30-50%.\n\n**Summary:**\nFocus on cardiac causes (especially aortic stenosis, arrhythmia), but also consider PE. Prioritize ECG, careful cardiac exam, and POCUS. If suspicion for severe AS or PE is high, escalate to formal echocardiography and/or CT pulmonary angiography as indicated."
+ },
+ "variant": "base"
+}

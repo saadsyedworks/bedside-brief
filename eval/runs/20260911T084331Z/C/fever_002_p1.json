@@ -1,0 +1,305 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "fever_002",
+ "blocked_items": [],
+ "case_id": "fever_002_p1",
+ "created_at": "2026-09-11T09:12:29+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and progression of leg and knee symptoms"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent trauma, wounds, or insect bites"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Prior joint disease (e.g., gout, osteoarthritis, rheumatoid arthritis)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent infections elsewhere"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Immunosuppression (beyond DM)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Systemic symptoms: chills, rigors, malaise"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication history (esp. immunosuppressants, anticoagulants)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: fever, tachycardia, hypotension (sepsis)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Inspection: erythema, swelling, bullae, necrosis, crepitus, fluctuance, wounds, ulcers"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Palpation: warmth, tenderness, induration, crepitus (gas), fluctuance (abscess)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Range of motion: active and passive (septic arthritis often has severe pain with passive movement)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neurovascular status: pulses, capillary refill, sensation, motor function"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Lymphadenopathy"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Examine other joints for polyarticular involvement"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Mark the margins of erythema to monitor progression"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside ultrasound (if available): can detect joint effusion, abscess, or subcutaneous gas"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "80",
+    "90"
+   ],
+   "performance_claims": [
+    "80",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside finger test (for necrotizing fasciitis): gentle probing of tissue after small incision\u2014lack of bleeding, \"dishwater\" fluid, and easy dissection suggest necrotizing fasciitis (sensitivity ~90%, specificity ~80% in experienced hands)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Laboratory tests: CBC, CRP, ESR, blood cultures, lactate, renal and liver function, creatine kinase"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "0",
+    "50",
+    "80",
+    "90"
+   ],
+   "performance_claims": [
+    "80",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Joint aspiration (arthrocentesis): send synovial fluid for Gram stain, culture, cell count, crystals (WBC >50,000/\u03bcL, especially neutrophilic, suggests septic arthritis; sensitivity ~90%, specificity ~80-90%)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "85",
+    "90"
+   ],
+   "performance_claims": [
+    "85",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pain with passive movement is highly sensitive for septic arthritis (sensitivity ~85-90%)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "0",
+    "50"
+   ],
+   "performance_claims": [
+    "0",
+    "50"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Synovial fluid WBC >50,000/\u03bcL is sensitive but not specific for septic arthritis"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [
+    "85",
+    "90"
+   ],
+   "performance_claims": [
+    "85",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside ultrasound for joint effusion: sensitivity ~85%, specificity ~90%"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "80",
+    "90"
+   ],
+   "performance_claims": [
+    "80",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside finger test for necrotizing fasciitis: sensitivity ~90%, specificity ~80%"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Key bedside findings: severe pain with passive movement (septic arthritis), rapidly spreading erythema, crepitus, systemic toxicity (necrotizing fasciitis)"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 58-year-old man with diabetes mellitus (DM), recently resolved diabetic ketoacidosis (DKA), now febrile (T 39.2\u00b0C), with a red, swollen left lower leg and a hot, swollen left knee that is very painful and resists passive movement\u2014the concern is for a serious infection, possibly septic arthritis and/or cellulitis, and potentially necrotizing fasciitis.\n\n**History:**\n- Onset, duration, and progression of leg and knee symptoms\n- Recent trauma, wounds, or insect bites\n- Prior joint disease (e.g., gout, osteoarthritis, rheumatoid arthritis)\n- Recent infections elsewhere\n- Immunosuppression (beyond DM)\n- Systemic symptoms: chills, rigors, malaise\n- Medication history (esp. immunosuppressants, anticoagulants)\n\n**Physical Examination:**\n- Vital signs: fever, tachycardia, hypotension (sepsis)\n- Inspection: erythema, swelling, bullae, necrosis, crepitus, fluctuance, wounds, ulcers\n- Palpation: warmth, tenderness, induration, crepitus (gas), fluctuance (abscess)\n- Range of motion: active and passive (septic arthritis often has severe pain with passive movement)\n- Neurovascular status: pulses, capillary refill, sensation, motor function\n- Lymphadenopathy\n- Examine other joints for polyarticular involvement\n\n**Bedside Tests:**\n- Mark the margins of erythema to monitor progression\n- Bedside ultrasound (if available): can detect joint effusion, abscess, or subcutaneous gas\n- Bedside finger test (for necrotizing fasciitis): gentle probing of tissue after small incision\u2014lack of bleeding, \"dishwater\" fluid, and easy dissection suggest necrotizing fasciitis (sensitivity ~90%, specificity ~80% in experienced hands)\n- Laboratory tests: CBC, CRP, ESR, blood cultures, lactate, renal and liver function, creatine kinase\n- Joint aspiration (arthrocentesis): send synovial fluid for Gram stain, culture, cell count, crystals (WBC >50,000/\u03bcL, especially neutrophilic, suggests septic arthritis; sensitivity ~90%, specificity ~80-90%)\n\n**Diagnostic Performance Data:**\n- Pain with passive movement is highly sensitive for septic arthritis (sensitivity ~85-90%)\n- Synovial fluid WBC >50,000/\u03bcL is sensitive but not specific for septic arthritis\n- Bedside ultrasound for joint effusion: sensitivity ~85%, specificity ~90%\n- Bedside finger test for necrotizing fasciitis: sensitivity ~90%, specificity ~80%\n\n**Summary:**\n- This is a limb- and life-threatening presentation. Immediate joint aspiration and surgical consultation are warranted. Early antibiotics and possible surgical intervention are critical.\n- Key bedside findings: severe pain with passive movement (septic arthritis), rapidly spreading erythema, crepitus, systemic toxicity (necrotizing fasciitis)."
+ },
+ "variant": "p1"
+}

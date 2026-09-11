@@ -1,0 +1,327 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "fever_001",
+ "blocked_items": [],
+ "case_id": "fever_001",
+ "created_at": "2026-09-11T09:12:07+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and pattern of fever"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: chills, rigors, dysuria, urgency, frequency, hematuria, shortness of breath, chest pain, sputum production, wound pain, redness, or drainage"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication review (antibiotics, anticoagulants, new drugs)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Allergies"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past medical history (especially diabetes, immunosuppression)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent anesthesia or transfusions"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: temperature, heart rate, blood pressure, respiratory rate, oxygen saturation"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General appearance: ill-appearing, toxic"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Lungs: auscultate for crackles, decreased breath sounds (pneumonia)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Heart: murmurs (endocarditis is rare but possible)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdomen: tenderness, distension (ileus, abscess)"
+  },
+  {
+   "bedside": false,
+   "category": "disposition",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Surgical site: erythema, swelling, warmth, discharge, tenderness"
+  },
+  {
+   "bedside": false,
+   "category": "disposition",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Foley site: erythema, discharge"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Lower extremities: swelling, tenderness, redness (DVT)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urinalysis and urine culture (especially with Foley in place; sensitivity for UTI with pyuria and bacteriuria is high, but specificity is lower in catheterized patients)"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [
+    "70",
+    "80",
+    "90"
+   ],
+   "performance_claims": [
+    "70",
+    "80",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Chest X-ray (for pneumonia; sensitivity ~70-90%, specificity ~80-90% for infiltrate)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "38.5"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Blood cultures (if febrile >38.5\u00b0C or hemodynamically unstable)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "CBC with differential (leukocytosis may suggest infection)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Wound swab/culture if drainage present"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [
+    "95"
+   ],
+   "performance_claims": [
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Lower extremity Doppler ultrasound if DVT suspected (sensitivity ~95%, specificity ~95% for proximal DVT)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "80",
+    "90"
+   ],
+   "performance_claims": [
+    "80",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urinalysis: Sensitivity ~80-90% for UTI, but lower specificity in catheterized patients due to colonization"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [
+    "70",
+    "80",
+    "90"
+   ],
+   "performance_claims": [
+    "70",
+    "80",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Chest X-ray: Sensitivity ~70-90% for pneumonia, specificity ~80-90%"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "20",
+    "30"
+   ],
+   "performance_claims": [
+    "20",
+    "30"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Blood cultures: Sensitivity varies, but positive in ~20-30% of severe sepsis cases"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "60",
+    "80"
+   ],
+   "performance_claims": [
+    "60",
+    "80"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Physical exam for pneumonia: Crackles have sensitivity ~80%, specificity ~60%"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Wound inspection: Erythema, warmth, and purulent drainage are specific but not sensitive for surgical site infection"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on history and exam for UTI, pneumonia, and surgical site infection. Use urinalysis, chest X-ray, and wound assessment as initial bedside tests. Consider blood cultures if the patient is unstable or has persistent fever. DVT assessment is lower yield unless there are suggestive symptoms or signs"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given the presentation of a 71-year-old female, postoperative day 2 (POD2) after knee arthroplasty, with a Foley catheter in place, a fever (T 38.6\u00b0C overnight), and a mild cough but no other complaints, your evaluation should focus on common postoperative fever etiologies: surgical site infection, urinary tract infection (UTI), pneumonia, and less commonly, deep vein thrombosis (DVT) or drug fever.\n\n**History:**\n- Onset, duration, and pattern of fever\n- Associated symptoms: chills, rigors, dysuria, urgency, frequency, hematuria, shortness of breath, chest pain, sputum production, wound pain, redness, or drainage\n- Medication review (antibiotics, anticoagulants, new drugs)\n- Allergies\n- Past medical history (especially diabetes, immunosuppression)\n- Recent anesthesia or transfusions\n\n**Physical Examination:**\n- Vital signs: temperature, heart rate, blood pressure, respiratory rate, oxygen saturation\n- General appearance: ill-appearing, toxic\n- Lungs: auscultate for crackles, decreased breath sounds (pneumonia)\n- Heart: murmurs (endocarditis is rare but possible)\n- Abdomen: tenderness, distension (ileus, abscess)\n- Surgical site: erythema, swelling, warmth, discharge, tenderness\n- Foley site: erythema, discharge\n- Lower extremities: swelling, tenderness, redness (DVT)\n\n**Bedside Tests:**\n- Urinalysis and urine culture (especially with Foley in place; sensitivity for UTI with pyuria and bacteriuria is high, but specificity is lower in catheterized patients)\n- Chest X-ray (for pneumonia; sensitivity ~70-90%, specificity ~80-90% for infiltrate)\n- Blood cultures (if febrile >38.5\u00b0C or hemodynamically unstable)\n- CBC with differential (leukocytosis may suggest infection)\n- Wound swab/culture if drainage present\n- Lower extremity Doppler ultrasound if DVT suspected (sensitivity ~95%, specificity ~95% for proximal DVT)\n\n**Diagnostic Performance Data:**\n- Urinalysis: Sensitivity ~80-90% for UTI, but lower specificity in catheterized patients due to colonization.\n- Chest X-ray: Sensitivity ~70-90% for pneumonia, specificity ~80-90%.\n- Blood cultures: Sensitivity varies, but positive in ~20-30% of severe sepsis cases.\n- Physical exam for pneumonia: Crackles have sensitivity ~80%, specificity ~60%.\n- Wound inspection: Erythema, warmth, and purulent drainage are specific but not sensitive for surgical site infection.\n\n**Summary:**\nFocus on history and exam for UTI, pneumonia, and surgical site infection. Use urinalysis, chest X-ray, and wound assessment as initial bedside tests. Consider blood cultures if the patient is unstable or has persistent fever. DVT assessment is lower yield unless there are suggestive symptoms or signs."
+ },
+ "variant": "base"
+}

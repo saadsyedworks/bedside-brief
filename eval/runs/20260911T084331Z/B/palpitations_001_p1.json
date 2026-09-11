@@ -1,0 +1,898 @@
+{
+ "arm": "B",
+ "ask_first": false,
+ "base_case_id": "palpitations_001",
+ "blocked_items": [],
+ "case_id": "palpitations_001_p1",
+ "created_at": "2026-09-11T09:04:14+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "0.38",
+    "2009",
+    "5"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_palpitations_abrupt_onset_offset",
+   "section": "ask",
+   "text": "Abrupt onset and abrupt termination of palpitations (vs gradual)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Thavendiranathan P, Bagai A, Khoo C, Dorian P, Choudhry NK. Does this patient with palpitations have a cardiac arrhythmia? JAMA. 2009;302(19):2135-2143."
+   ],
+   "numeric_claims": [
+    "0.03",
+    "0.07",
+    "0.19",
+    "1.25",
+    "10.1001",
+    "1251",
+    "177",
+    "19",
+    "19920238",
+    "2.68",
+    "2009",
+    "2009.1673",
+    "2135",
+    "2143",
+    "25",
+    "302",
+    "5.78",
+    "95"
+   ],
+   "performance_claims": [
+    "0.03",
+    "0.07",
+    "0.19",
+    "1.25",
+    "1251",
+    "177",
+    "2.68",
+    "25",
+    "5.78"
+   ],
+   "record_id": "hx_neck_pounding_frog_sign",
+   "section": "ask",
+   "text": "Regular rapid pounding in the neck / visible neck pulsations during episodes (frog sign)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Berecki-Gisolf J, Sheldon A, Wieling W, et al. Identifying cardiac syncope based on clinical history: a literature-based model tested in four independent datasets. PLoS One. 2013;8(11):e75255."
+   ],
+   "numeric_claims": [
+    "0.06",
+    "0.08",
+    "0.74",
+    "0.89",
+    "1",
+    "1.03",
+    "10.1371",
+    "11",
+    "119",
+    "13",
+    "1768",
+    "2",
+    "200",
+    "2001",
+    "2013",
+    "24223233",
+    "26",
+    "3.4",
+    "38",
+    "3815402",
+    "39",
+    "4",
+    "468",
+    "7",
+    "75255",
+    "8",
+    "9"
+   ],
+   "performance_claims": [
+    "0.08",
+    "0.74",
+    "0.89",
+    "1.03"
+   ],
+   "record_id": "hx_palpitations_before_syncope",
+   "section": "ask",
+   "text": "Palpitations immediately preceding syncope"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Thavendiranathan P, Bagai A, Khoo C, Dorian P, Choudhry NK. Does this patient with palpitations have a cardiac arrhythmia? JAMA. 2009."
+   ],
+   "numeric_claims": [
+    "0.07",
+    "0.26",
+    "1",
+    "1.01",
+    "1.19",
+    "1.33",
+    "10.1001",
+    "19920238",
+    "2.17",
+    "2.29",
+    "2009",
+    "2009.1673",
+    "3.94",
+    "3.96",
+    "7",
+    "95"
+   ],
+   "performance_claims": [
+    "0.07",
+    "0.26",
+    "1.01",
+    "1.19",
+    "1.33",
+    "2.17",
+    "2.29",
+    "3.94",
+    "3.96"
+   ],
+   "record_id": "hx_anxiety_panic_features",
+   "section": "ask",
+   "text": "Panic/anxiety features: episodes at rest or with stress, dread, paresthesias, known panic disorder; not affected by sleep"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "2009"
+   ],
+   "performance_claims": [],
+   "record_id": "fn_tap_out_rhythm_regular",
+   "section": "examine",
+   "text": "Patient taps out the palpitation rhythm: regular vs irregular; rapid regular vs 'skipped beats'"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "10",
+    "15",
+    "3",
+    "40",
+    "5"
+   ],
+   "performance_claims": [],
+   "record_id": "fn_vagal_maneuver_response",
+   "section": "examine",
+   "text": "Response of ongoing palpitations to Valsalva/modified Valsalva or carotid massage: abrupt termination vs transient slowing vs none"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [
+    "Cooke G, Doust J, Sanders S. Is pulse palpation helpful in detecting atrial fibrillation? A systematic review. J Fam Pract 2006;55:130-134."
+   ],
+   "numeric_claims": [
+    "0.1",
+    "0.69",
+    "0.72",
+    "0.75",
+    "0.84",
+    "0.94",
+    "0.97",
+    "12",
+    "130",
+    "134",
+    "150",
+    "16451780",
+    "2006",
+    "2385",
+    "250",
+    "3",
+    "3.39",
+    "3.4",
+    "55",
+    "60",
+    "69",
+    "72",
+    "75",
+    "84",
+    "94",
+    "95",
+    "97"
+   ],
+   "performance_claims": [
+    "0.1",
+    "0.69",
+    "0.72",
+    "0.75",
+    "0.84",
+    "0.94",
+    "0.97",
+    "3.39"
+   ],
+   "record_id": "fn_pulse_palpation_during_symptoms",
+   "section": "examine",
+   "text": "Palpate/auscultate the pulse (or have the patient count/record it) DURING an episode: rate, regularity, abrupt termination"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Cooke G, Doust J, Sanders S. Is pulse palpation helpful in detecting atrial fibrillation? A systematic review. J Fam Pract. 2006;55(2):130-134.",
+    "Taggar JS, Coleman T, Lewis S, Heneghan C, Jones M. Accuracy of methods for detecting an irregular pulse and suspected atrial fibrillation: A systematic review and meta-analysis. Eur J Prev Cardiol. 2016;23(12):1330-1338."
+   ],
+   "numeric_claims": [
+    "0.05",
+    "0.1",
+    "0.18",
+    "0.69",
+    "0.72",
+    "0.75",
+    "0.76",
+    "0.82",
+    "0.84",
+    "0.85",
+    "0.88",
+    "0.92",
+    "0.94",
+    "0.96",
+    "0.97",
+    "10.1177",
+    "12",
+    "129",
+    "130",
+    "1330",
+    "1338",
+    "134",
+    "15",
+    "16451780",
+    "2",
+    "20",
+    "2006",
+    "2016",
+    "2047487315611347",
+    "21",
+    "23",
+    "2385",
+    "26464292",
+    "3",
+    "3.39",
+    "3.4",
+    "3.8",
+    "30",
+    "5.2",
+    "55",
+    "6",
+    "60",
+    "69",
+    "7.2",
+    "72",
+    "75",
+    "82",
+    "84",
+    "92",
+    "94",
+    "95",
+    "97"
+   ],
+   "performance_claims": [
+    "0.05",
+    "0.1",
+    "0.1",
+    "0.18",
+    "0.69",
+    "0.72",
+    "0.75",
+    "0.76",
+    "0.82",
+    "0.84",
+    "0.85",
+    "0.88",
+    "0.92",
+    "0.94",
+    "0.96",
+    "0.97",
+    "3.39",
+    "3.8",
+    "5.2",
+    "7.2"
+   ],
+   "record_id": "exam_pulse_irregularly_irregular",
+   "section": "examine",
+   "text": "Radial pulse irregularly irregular on palpation (>=20-30 s)"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "card": {
+   "chief_complaint": "woke with racing heartbeat",
+   "presentation": "palpitations",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_palpitations_abrupt_onset_offset",
+      "changes_what": "Positive: prioritise symptom-rhythm correlation (event/loop recorder) and teach vagal manoeuvres. Negative: does not exclude arrhythmia; monitor if symptoms are recurrent or concerning.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use a 'gradual' description to dismiss palpitations accompanied by syncope, chest pain, or known structural heart disease.",
+      "escalation_warning": "Abrupt palpitations with syncope, exertional onset, or a family history of sudden death need ECG and cardiology assessment for VT/pre-excitation, not reassurance.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Ask whether episodes start 'like a switch' within one beat and stop just as suddenly, versus building up and fading over minutes. Ask what the patient was doing at onset, whether vagal manoeuvres (breath-hold, straining, cold water) stop it, and how long episodes last.",
+      "id": "hx_palpitations_abrupt_onset_offset",
+      "negative_finding": "Gradual onset and offset suggests sinus tachycardia (anxiety, exertion, secondary causes); the 2009 RCE found no historical feature other than neck pounding that reliably excludes a significant arrhythmia.",
+      "pitfalls": "Patients often cannot judge onset speed; AF may also start abruptly. The RCE found episodes lasting under 5 minutes made arrhythmia slightly less likely (LR 0.38), so duration and onset pattern should be weighed together.",
+      "positive_finding": "Sudden-onset, sudden-offset rapid regular palpitations, especially if terminated by vagal manoeuvres, are the classic description of re-entrant SVT and are widely used to prioritise rhythm monitoring.",
+      "prerequisites": "Patient has had at least one episode they can describe; a recorded rhythm during symptoms remains the reference.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Abrupt onset and abrupt termination of palpitations (vs gradual)",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_neck_pounding_frog_sign",
+      "changes_what": "Positive: diagnose probable AVNRT - teach vagal manoeuvres, refer for EP study/ablation. Negative: look for other arrhythmia or non-arrhythmic causes; prolonged monitoring still needed.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use to reassure a patient with wide-complex tachycardia, syncope, or structural heart disease - the sign does not distinguish VT with cannon waves.",
+      "escalation_warning": "Neck pounding with haemodynamic compromise, syncope, or a wide-complex rhythm needs immediate ECG and acute arrhythmia management.",
+      "evidence": [
+       {
+        "citation": "Thavendiranathan P, Bagai A, Khoo C, Dorian P, Choudhry NK. Does this patient with palpitations have a cardiac arrhythmia? JAMA. 2009;302(19):2135-2143.",
+        "computed": false,
+        "doi": "10.1001/jama.2009.1673",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "1251",
+         "ci_low": "25",
+         "value": "177"
+        },
+        "pmid": "19920238",
+        "population": "Patients with documented paroxysmal SVT undergoing electrophysiologic study (single study within RCE)",
+        "prevalence": null,
+        "quote": "The presence of a regular rapid-pounding sensation in the neck (LR, 177; 95% CI, 25-1251)",
+        "reference_standard": "Electrophysiologic study defining AVNRT vs other tachycardia mechanisms",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "AV nodal reentrant tachycardia (vs other causes of palpitations/other SVT) - regular rapid-pounding sensation in the neck present",
+        "url": null,
+        "year": "2009"
+       },
+       {
+        "citation": "Thavendiranathan P, Bagai A, Khoo C, Dorian P, Choudhry NK. Does this patient with palpitations have a cardiac arrhythmia? JAMA. 2009;302(19):2135-2143.",
+        "computed": false,
+        "doi": "10.1001/jama.2009.1673",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_out",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.19",
+         "ci_low": "0.03",
+         "value": "0.07"
+        },
+        "lr_positive": null,
+        "pmid": "19920238",
+        "population": "Patients with documented paroxysmal SVT undergoing electrophysiologic study (single study within RCE)",
+        "prevalence": null,
+        "quote": "The absence of a regular rapid-pounding sensation in the neck makes detecting the same arrhythmia less likely (LR, 0.07; 95% CI, 0.03-0.19)",
+        "reference_standard": "Electrophysiologic study defining AVNRT vs other tachycardia mechanisms",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "AV nodal reentrant tachycardia - regular rapid-pounding sensation in the neck absent",
+        "url": null,
+        "year": "2009"
+       },
+       {
+        "citation": "Thavendiranathan P, Bagai A, Khoo C, Dorian P, Choudhry NK. Does this patient with palpitations have a cardiac arrhythmia? JAMA. 2009;302(19):2135-2143.",
+        "computed": false,
+        "doi": "10.1001/jama.2009.1673",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "5.78",
+         "ci_low": "1.25",
+         "value": "2.68"
+        },
+        "pmid": "19920238",
+        "population": "Patients with documented paroxysmal SVT undergoing electrophysiologic study (single study within RCE)",
+        "prevalence": null,
+        "quote": "visible neck pulsations (LR, 2.68; 95% CI, 1.25-5.78) in association with palpitations increases the likelihood of a specific type of arrhythmia",
+        "reference_standard": "Electrophysiologic study defining AVNRT vs other tachycardia mechanisms",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "AV nodal reentrant tachycardia - visible neck pulsations during palpitations",
+        "url": null,
+        "year": "2009"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Ask whether, during attacks, the patient feels a rapid regular pounding or 'shirt-collar flutter' in the neck, and whether others have seen the neck pulsating. If the patient is in tachycardia now, inspect the neck for rapid regular jugular pulsations (frog sign) caused by atrial contraction against closed AV valves.",
+      "id": "hx_neck_pounding_frog_sign",
+      "negative_finding": "Absence of the neck-pounding sensation makes AVNRT unlikely (LR 0.07, 95% CI 0.03-0.19) but says nothing about other arrhythmias such as AF or VT.",
+      "pitfalls": "The estimate derives from a single electrophysiology-lab study with very wide confidence intervals; cannon A waves also occur in VT with AV dissociation and complete heart block.",
+      "positive_finding": "A regular rapid-pounding sensation in the neck strongly favours AV nodal re-entrant tachycardia (LR 177, 95% CI 25-1251); visible neck pulsations are a weaker pointer (LR 2.68).",
+      "prerequisites": "History of recurrent palpitations; direct observation requires an ongoing episode.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Regular rapid pounding in the neck / visible neck pulsations during episodes (frog sign)",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_palpitations_before_syncope",
+      "changes_what": "Positive: obtain ECG, telemetry and consider admission/monitoring for arrhythmia; negative: no change in cardiac-syncope probability.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use absence of palpitations to de-escalate a syncope work-up in patients with structural heart disease, abnormal ECG, exertional or supine syncope.",
+      "escalation_warning": "Palpitations followed by syncope in a patient with known heart disease, family history of sudden death or an abnormal ECG warrants monitored observation and cardiology input.",
+      "evidence": [
+       {
+        "citation": "Berecki-Gisolf J, Sheldon A, Wieling W, et al. Identifying cardiac syncope based on clinical history: a literature-based model tested in four independent datasets. PLoS One. 2013;8(11):e75255.",
+        "computed": true,
+        "doi": "10.1371/journal.pone.0075255",
+        "evidence_level": "pooled",
+        "interpretation_label": "minimal",
+        "kind": "meta_analysis",
+        "location": "Table 2 (Palpitations row), PMC3815402 open-access full text",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "1.03"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.74"
+        },
+        "pmid": "24223233",
+        "population": "Pooled derivation sample from 7 published syncope cohorts (Italy, Switzerland, Canada, USA); 468 cardiac and 1768 non-cardiac syncope patients with palpitation data",
+        "prevalence": null,
+        "quote": "Palpitations Yes 11 1 13 4 1 9 - 39 (8%) 26 8 38 2 7 119 - 200 (11%) 3.4 1 0.06 1.03",
+        "reference_standard": "Final cause of syncope by each study's standardized diagnostic criteria (ESC-based work-up, EP study/tilt where used)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.08"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.89"
+        },
+        "target_condition": "Cardiac (arrhythmic or structural) syncope vs non-cardiac syncope",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3815402/",
+        "year": "2013"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Ask the patient (and any witness) whether they felt a racing, pounding or fluttering heartbeat in the seconds to minutes before losing consciousness, and whether it was rapid and regular or irregular. Distinguish it from the generic 'heart pounding' of a vasovagal prodrome that comes with warmth, nausea and sweating.",
+      "id": "hx_palpitations_before_syncope",
+      "negative_finding": "Absence of palpitations does not exclude cardiac syncope; pooled literature LR for absence is about 1.0, so it changes little.",
+      "pitfalls": "In pooled derivation data palpitations were reported as often by non-cardiac (11%) as cardiac (8%) syncope patients, because vasovagal prodromes also include a pounding heart; the item behaves differently in patients with vs without heart disease (Alboni 2001).",
+      "positive_finding": "In the largest pooled literature sample (Berecki-Gisolf 2013; 468 cardiac vs 1768 non-cardiac syncope episodes) palpitations before syncope did not discriminate: LR+ 0.74, and the variable was excluded from the final model (p = 0.06). The EGSYS score nonetheless assigns palpitations +4 points, so a score-based workflow and this pooled estimate disagree. Treat palpitations as a prompt to characterise the episode (abrupt onset and offset, absence of autonomic prodrome, structural heart disease) rather than as independent evidence of arrhythmic syncope.",
+      "prerequisites": "Patient able to recall the prodrome; corroborate with a witness where possible.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Palpitations immediately preceding syncope",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_anxiety_panic_features",
+      "changes_what": "Panic features lower but do not remove arrhythmia probability; still obtain ECG and, for recurrent symptoms, ambulatory monitoring with symptom-rhythm correlation.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not attribute palpitations to anxiety when there is syncope, exertional onset, structural heart disease, or an abnormal ECG.",
+      "escalation_warning": "Palpitations with syncope, chest pain, or hemodynamic compromise need immediate ECG and monitoring regardless of psychiatric history.",
+      "evidence": [
+       {
+        "citation": "Thavendiranathan P, Bagai A, Khoo C, Dorian P, Choudhry NK. Does this patient with palpitations have a cardiac arrhythmia? JAMA. 2009.",
+        "computed": false,
+        "doi": "10.1001/jama.2009.1673",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "1.01",
+         "ci_low": "0.07",
+         "value": "0.26"
+        },
+        "pmid": "19920238",
+        "population": "Adults presenting with palpitations; pooled from the studies included in the JAMA RCE (7 accuracy studies, mostly single small studies)",
+        "prevalence": null,
+        "quote": "A known history of panic disorder (LR, 0.26; 95% CI, 0.07-1.01)",
+        "reference_standard": "Cardiac arrhythmia documented by ambulatory/event ECG monitoring or electrophysiologic evaluation per included studies",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Clinically significant cardiac arrhythmia (finding PRESENT = known history of panic disorder)",
+        "url": null,
+        "year": "2009"
+       },
+       {
+        "citation": "Thavendiranathan P, Bagai A, Khoo C, Dorian P, Choudhry NK. Does this patient with palpitations have a cardiac arrhythmia? JAMA. 2009.",
+        "computed": false,
+        "doi": "10.1001/jama.2009.1673",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "3.94",
+         "ci_low": "1.33",
+         "value": "2.29"
+        },
+        "pmid": "19920238",
+        "population": "Adults presenting with palpitations; pooled from the studies included in the JAMA RCE (7 accuracy studies, mostly single small studies)",
+        "prevalence": null,
+        "quote": "having palpitations affected by sleeping (LR, 2.29; 95% CI, 1.33-3.94)",
+        "reference_standard": "Cardiac arrhythmia documented by ambulatory/event ECG monitoring or electrophysiologic evaluation per included studies",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Clinically significant cardiac arrhythmia (finding PRESENT = palpitations affected by sleeping; i.e. NOT the anxiety pattern)",
+        "url": null,
+        "year": "2009"
+       },
+       {
+        "citation": "Thavendiranathan P, Bagai A, Khoo C, Dorian P, Choudhry NK. Does this patient with palpitations have a cardiac arrhythmia? JAMA. 2009.",
+        "computed": false,
+        "doi": "10.1001/jama.2009.1673",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "3.96",
+         "ci_low": "1.19",
+         "value": "2.17"
+        },
+        "pmid": "19920238",
+        "population": "Adults presenting with palpitations; pooled from the studies included in the JAMA RCE (7 accuracy studies, mostly single small studies)",
+        "prevalence": null,
+        "quote": "or while the patient is at work (LR, 2.17; 95% CI, 1.19-3.96) slightly increase the likelihood of a cardiac arrhythmia",
+        "reference_standard": "Cardiac arrhythmia documented by ambulatory/event ECG monitoring or electrophysiologic evaluation per included studies",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Clinically significant cardiac arrhythmia (finding PRESENT = palpitations occurring while at work; i.e. NOT the at-rest anxiety pattern)",
+        "url": null,
+        "year": "2009"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Ask about a prior diagnosis of panic disorder, whether episodes occur at rest or with emotional stress, accompanying dread, paresthesias or hyperventilation, and specifically whether palpitations wake the patient or occur during sleep or at work. Record duration of episodes and any prior documented arrhythmia.",
+      "id": "hx_anxiety_panic_features",
+      "negative_finding": "Absence of panic features does not rule in arrhythmia; the RCE concludes the clinical examination cannot exclude significant arrhythmia in most patients.",
+      "pitfalls": "Panic disorder and SVT coexist, and SVT is frequently mislabelled as panic; a regular rapid pounding in the neck strongly suggests AVNRT regardless of anxiety history. Data come from single small studies with wide confidence intervals.",
+      "positive_finding": "A known history of panic disorder makes clinically significant arrhythmia somewhat less likely (LR 0.26, CI crosses 1). Palpitations that are affected by sleeping or that occur at work point toward a true arrhythmia rather than anxiety.",
+      "prerequisites": "Patient able to give a history; screen with the same questions before dismissing symptoms as anxiety.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Panic/anxiety features: episodes at rest or with stress, dread, paresthesias, known panic disorder; not affected by sleep",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/fn_tap_out_rhythm_regular",
+      "changes_what": "Chaotic irregular pattern: obtain ECG/monitoring for AF and assess stroke risk. Regular rapid pattern: pursue SVT/VT work-up. Skipped beats with normal ECG: likely benign ectopy.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use the tapped rhythm to withhold ECG or monitoring in patients with syncope, chest pain, dyspnoea, or known heart disease.",
+      "escalation_warning": "A rapid irregular pattern in a patient with stroke risk factors, or any pattern with syncope, warrants same-day ECG and rhythm documentation.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Ask the patient to tap the rhythm of an episode on the table or their chest with a finger. Note whether it is fast and perfectly regular, fast and chaotic/irregular, or normal-rate with an occasional pause followed by a heavy beat ('skipped beat'). Compare with the rhythm you palpate or see on ECG if symptoms are present.",
+      "id": "fn_tap_out_rhythm_regular",
+      "negative_finding": "An unremarkable or unreproducible tap pattern does not exclude arrhythmia; the 2009 RCE concluded the clinical examination cannot exclude significant arrhythmia in most patients.",
+      "pitfalls": "Patients' perception of regularity is unreliable, and rapid AF can feel regular; symptom-rhythm correlation on a monitor remains the reference standard.",
+      "positive_finding": "A rapid, metronome-regular tap pattern is the classic description of SVT or sinus tachycardia; a chaotic irregular pattern suggests atrial fibrillation; isolated pauses with a forceful beat suggest premature beats.",
+      "prerequisites": "Patient able to recall and reproduce the rhythm; works best soon after an episode.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Patient taps out the palpitation rhythm: regular vs irregular; rapid regular vs 'skipped beats'",
+      "type": "functional"
+     },
+     {
+      "audit_link": "/record/fn_vagal_maneuver_response",
+      "changes_what": "Termination: re-entrant SVT, arrange EP/ablation discussion; transient block unmasking atrial activity: flutter/AT/AF pathway; no response in wide QRS: manage as VT.",
+      "contraindications": "Unstable tachycardia (synchronised cardioversion instead); carotid massage contraindicated with bruit, carotid disease, or TIA/stroke or MI within 3 months; Valsalva avoided in acute MI, severe aortic stenosis, recent eye/neurosurgery or retinal detachment.",
+      "do_not_use_when": "Hemodynamic instability (hypotension, ischaemic chest pain, pulmonary edema, altered consciousness) - cardiovert instead; carotid massage contraindications as above.",
+      "escalation_warning": "Wide-complex tachycardia, pre-excited AF, or any deterioration during the maneuver requires immediate ACLS management; post-termination pauses/bradycardia need monitoring.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "With a rhythm strip running, have the patient strain against a closed glottis (or blow into a 10 mL syringe/manometer to 40 mmHg) for 15 s semi-recumbent, then lie flat with passive leg raise for 15 s (modified Valsalva); or apply carotid sinus massage 5-10 s one side. Watch for abrupt termination, transient AV slowing unmasking flutter/P waves, gradual slowing, or no change.",
+      "id": "fn_vagal_maneuver_response",
+      "negative_finding": "No response does not exclude SVT (Valsalva terminates only a minority); gradual slowing that resumes suggests sinus tachycardia; a wide-complex tachycardia unaffected by vagal maneuvers should be treated as VT.",
+      "pitfalls": "Termination requires an adequately performed strain (40 mmHg for 15 s), which patients often fail; without a running ECG the transient slowing that reveals flutter is missed. Vagal maneuvers can rarely provoke bradyarrhythmia or, with carotid massage, embolic stroke.",
+      "positive_finding": "Abrupt termination to sinus rhythm indicates an AV-node-dependent re-entrant SVT (AVNRT/AVRT); transient AV block with persisting atrial activity (flutter waves, P waves at unchanged rate) indicates atrial flutter, atrial tachycardia or AF.",
+      "prerequisites": "Continuous ECG recording during the maneuver; hemodynamically stable patient; IV access and adenosine/defibrillator available; auscultate carotids before massage.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Response of ongoing palpitations to Valsalva/modified Valsalva or carotid massage: abrupt termination vs transient slowing vs none",
+      "type": "functional"
+     },
+     {
+      "audit_link": "/record/fn_pulse_palpation_during_symptoms",
+      "changes_what": "Irregular pulse during symptoms: obtain ECG for AF and anticoagulation decision; regular fast pulse with abrupt stop: pursue SVT with monitoring/EP referral.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not substitute pulse palpation for an ECG when the patient is symptomatic and monitoring is available; do not rely on a patient's self-count in syncope.",
+      "escalation_warning": "Pulse >150/min with hypotension, chest pain, dyspnea or altered mentation is an unstable tachyarrhythmia needing immediate ECG/monitoring and possible cardioversion.",
+      "evidence": [
+       {
+        "citation": "Cooke G, Doust J, Sanders S. Is pulse palpation helpful in detecting atrial fibrillation? A systematic review. J Fam Pract 2006;55:130-134.",
+        "computed": false,
+        "doi": null,
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_out",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "16451780",
+        "population": "3 studies, 2385 patients, predominantly elderly primary care/screening populations",
+        "prevalence": null,
+        "quote": "Pooled sensitivity was 94% (95% confidence interval [CI], 84%-97%) and pooled specificity was 72% (95% CI, 69%-75%)",
+        "reference_standard": "12-lead ECG",
+        "sensitivity": {
+         "ci_high": "0.97",
+         "ci_low": "0.84",
+         "value": "0.94"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "0.75",
+         "ci_low": "0.69",
+         "value": "0.72"
+        },
+        "target_condition": "Atrial fibrillation (irregular pulse on palpation)",
+        "url": null,
+        "year": "2006"
+       },
+       {
+        "citation": "Cooke G, Doust J, Sanders S. Is pulse palpation helpful in detecting atrial fibrillation? A systematic review. J Fam Pract 2006;55:130-134.",
+        "computed": false,
+        "doi": null,
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_out",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.1"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "3.39"
+        },
+        "pmid": "16451780",
+        "population": "3 studies, 2385 patients, predominantly elderly primary care/screening populations",
+        "prevalence": null,
+        "quote": "The pooled positive likelihood ratio was 3.39, while the pooled negative likelihood ratio was 0.10.",
+        "reference_standard": "12-lead ECG",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Atrial fibrillation (irregular pulse on palpation)",
+        "url": null,
+        "year": "2006"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "During an episode, palpate the radial pulse (or auscultate the apex) for a full 60 seconds: note the rate, whether the rhythm is regular, regularly irregular (dropped beats) or irregularly irregular, and whether it stops abruptly or slows gradually. Teach the patient to do the same or to record with a smartwatch/single-lead device between visits.",
+      "id": "fn_pulse_palpation_during_symptoms",
+      "negative_finding": "A regular pulse during symptoms makes AF unlikely (LR- 0.10). A normal rate and rhythm while symptomatic argues against an arrhythmic cause of that episode.",
+      "pitfalls": "The pooled data are for pulse irregularity versus ECG (largely elderly screening), not for rate or termination pattern, which are unquantified. Frequent ectopy and sinus arrhythmia mimic AF; fast rates make irregularity hard to feel.",
+      "positive_finding": "An irregularly irregular pulse has pooled sensitivity 0.94 and specificity 0.72 for AF (LR+ 3.4). A regular pulse at 150-250/min that stops abruptly suggests SVT; occasional dropped/early beats suggest ectopy.",
+      "prerequisites": "Symptoms present at the time of examination, or the patient trained to self-check; a 12-lead ECG or rhythm strip should be obtained simultaneously whenever possible.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Palpate/auscultate the pulse (or have the patient count/record it) DURING an episode: rate, regularity, abrupt termination",
+      "type": "functional"
+     },
+     {
+      "audit_link": "/record/exam_pulse_irregularly_irregular",
+      "changes_what": "Positive: obtain 12-lead ECG now (rate control/anticoagulation decisions follow ECG); negative: AF at this moment unlikely, consider ambulatory monitoring if paroxysmal AF suspected.",
+      "contraindications": "None. Weak or thready pulse (shock, arterial disease) reduces reliability; use apical auscultation instead.",
+      "do_not_use_when": "Do not rely on pulse palpation instead of an ECG when AF would change management (anticoagulation, rate control, syncope/stroke workup); do not use a weak or thready pulse in shock to judge rhythm.",
+      "escalation_warning": "Irregularly irregular pulse with a rapid rate and hypotension, chest pain, or acute focal deficit requires immediate ECG and monitored care.",
+      "evidence": [
+       {
+        "citation": "Cooke G, Doust J, Sanders S. Is pulse palpation helpful in detecting atrial fibrillation? A systematic review. J Fam Pract. 2006;55(2):130-134.",
+        "computed": false,
+        "doi": null,
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_out",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results (LRs: 'The pooled positive likelihood ratio was 3.39, while the pooled negative likelihood ratio was 0.10', same paragraph)",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.1"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "3.39"
+        },
+        "pmid": "16451780",
+        "population": "3 studies, 2385 patients, predominantly elderly/primary-care screening populations",
+        "prevalence": null,
+        "quote": "Pooled sensitivity was 94% (95% confidence interval [CI], 84%-97%) and pooled specificity was 72% (95% CI, 69%-75%).",
+        "reference_standard": "12-lead ECG diagnosis of atrial fibrillation",
+        "sensitivity": {
+         "ci_high": "0.97",
+         "ci_low": "0.84",
+         "value": "0.94"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "0.75",
+         "ci_low": "0.69",
+         "value": "0.72"
+        },
+        "target_condition": "Atrial fibrillation (irregular pulse on palpation)",
+        "url": null,
+        "year": "2006"
+       },
+       {
+        "citation": "Taggar JS, Coleman T, Lewis S, Heneghan C, Jones M. Accuracy of methods for detecting an irregular pulse and suspected atrial fibrillation: A systematic review and meta-analysis. Eur J Prev Cardiol. 2016;23(12):1330-1338.",
+        "computed": false,
+        "doi": "10.1177/2047487315611347",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_out",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.18",
+         "ci_low": "0.05",
+         "value": "0.1"
+        },
+        "lr_positive": {
+         "ci_high": "7.2",
+         "ci_low": "3.8",
+         "value": "5.2"
+        },
+        "pmid": "26464292",
+        "population": "Adults in AF screening studies; 6 pulse-palpation interventions within 21 studies (15,129 pulse assessments overall)",
+        "prevalence": null,
+        "quote": "pulse palpation (six interventions) were 0.92 (95% CI 0.85-0.96) and 0.82 (95% CI 0.76-0.88), respectively (PLR 5.2 (95% CI 3.8-7.2), NLR 0.1 (95% CI 0.05-0.18))",
+        "reference_standard": "12-lead ECG diagnosed atrial fibrillation",
+        "sensitivity": {
+         "ci_high": "0.96",
+         "ci_low": "0.85",
+         "value": "0.92"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "0.88",
+         "ci_low": "0.76",
+         "value": "0.82"
+        },
+        "target_condition": "Atrial fibrillation (pulse irregularity detected by manual pulse palpation)",
+        "url": null,
+        "year": "2016"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Palpate the radial pulse with two fingers for at least 20-30 s (longer if any irregularity), noting rhythm and rate. An irregularly irregular rhythm with no repeating pattern and variable beat volume is positive; occasional dropped or early beats with an otherwise regular rhythm are not.",
+      "id": "exam_pulse_irregularly_irregular",
+      "negative_finding": "A regular pulse makes AF unlikely (pooled sensitivity 92-94%, LR- 0.10), which is the finding's main value; it does not exclude paroxysmal AF outside the examination.",
+      "pitfalls": "Specificity is only 72-82%, so roughly a quarter of positive pulses in screening are not AF. Atrial flutter with fixed block feels regular, and AF with slow ventricular response can be hard to appreciate.",
+      "positive_finding": "An irregularly irregular pulse raises the probability of atrial fibrillation (pooled LR+ 3.4-5.2) but is not diagnostic; frequent ectopy, sinus arrhythmia and flutter with variable block mimic it, so a 12-lead ECG is required.",
+      "prerequisites": "Patient at rest; count for 30-60 s if rate is needed, since pulse deficit in AF makes short counts inaccurate.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Radial pulse irregularly irregular on palpation (>=20-30 s)",
+      "type": "exam"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_palpitations_abrupt_onset_offset",
+     "rationale": ""
+    },
+    {
+     "id": "hx_neck_pounding_frog_sign",
+     "rationale": ""
+    },
+    {
+     "id": "hx_palpitations_before_syncope",
+     "rationale": ""
+    },
+    {
+     "id": "hx_anxiety_panic_features",
+     "rationale": ""
+    }
+   ],
+   "examine": [
+    {
+     "id": "fn_tap_out_rhythm_regular",
+     "rationale": ""
+    },
+    {
+     "id": "fn_vagal_maneuver_response",
+     "rationale": ""
+    },
+    {
+     "id": "fn_pulse_palpation_during_symptoms",
+     "rationale": ""
+    },
+    {
+     "id": "exam_pulse_irregularly_irregular",
+     "rationale": ""
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "woke with racing heartbeat",
+   "differentials": [
+    {
+     "dx": "svt",
+     "weight": 1.0
+    },
+    {
+     "dx": "atrial_fibrillation_flutter",
+     "weight": 0.333
+    },
+    {
+     "dx": "sinus_tachycardia_secondary",
+     "weight": 0.167
+    },
+    {
+     "dx": "anxiety_hyperventilation",
+     "weight": 0.083
+    },
+    {
+     "dx": "ventricular_tachycardia",
+     "weight": 0.083
+    }
+   ],
+   "indication_tags": [
+    "copd_known",
+    "acute_onset",
+    "nocturnal"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "woke from sleep",
+    "racing heartbeat",
+    "heart rate [n] regular",
+    "no chest pain"
+   ],
+   "presentation": "palpitations",
+   "time_course": "acute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "p1"
+}

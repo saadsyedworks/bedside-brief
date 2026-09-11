@@ -1,0 +1,34 @@
+{
+ "args": {
+  "allow_unfrozen": false,
+  "arms": "C",
+  "cases": null,
+  "judge_all": false,
+  "mode": "default",
+  "run_dir": "eval/runs/armC_frozen",
+  "smoke": false,
+  "target_map": null,
+  "verbose": false
+ },
+ "cases": {
+  "base": 36,
+  "inputs": 108,
+  "noise_variants": 36,
+  "perturbation_pairs": 36
+ },
+ "counts": {
+  "C": {
+   "errors": 0,
+   "outputs": 108
+  }
+ },
+ "finished_at": "2026-09-10T02:49:38+00:00",
+ "frozen_commits": [
+  "39a698e5e79a5b6eddebf090caa3f6c8a1b16f7b"
+ ],
+ "git_head": "98f4c2e84844934cb33d102eb3b242f7d8ed0ba1",
+ "model": "gpt-4.1",
+ "started_at": "2026-09-10T02:38:56+00:00",
+ "unfrozen_cases": [],
+ "updated_at": "2026-09-10T02:49:38+00:00"
+}

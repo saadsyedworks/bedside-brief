@@ -1,0 +1,335 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "syncope_001",
+ "blocked_items": [],
+ "case_id": "syncope_001_p1",
+ "created_at": "2026-09-11T09:14:46+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Characterize the syncope: Was there any prodrome (dizziness, palpitations, chest pain, dyspnea, visual changes)?"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Duration of loss of consciousness? Rapid recovery?"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Witnessed? Any seizure-like activity, tongue biting, incontinence?"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past cardiac history: known murmurs, heart failure, coronary disease, arrhythmias?"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Family history of sudden cardiac death?"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication review (especially antihypertensives, diuretics, beta-blockers)?"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent symptoms: chest pain, palpitations, dyspnea, orthopnea, PND, leg swelling?"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Syncope triggers: exertion, position change, urination/defecation (micturition/defecation syncope)?"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs (including orthostatic measurements)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiac exam: characterize murmur (timing, location, radiation, intensity, maneuvers), signs of heart failure (JVP, edema, crackles)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Carotid auscultation (bruits)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neurologic exam (focal deficits, post-ictal state)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Pulmonary exam (wheezing, rales)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Peripheral pulses (unequal pulses may suggest aortic dissection)"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "20",
+    "50"
+   ],
+   "performance_claims": [
+    "20",
+    "50"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: Look for arrhythmias, conduction blocks, ischemia, LVH, prior MI. Sensitivity for arrhythmic syncope is low (~20-50%), but specificity is high if abnormal"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Telemetry/continuous cardiac monitoring: To catch transient arrhythmias"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "30",
+    "90"
+   ],
+   "performance_claims": [
+    "30",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Orthostatic vital signs: Sensitivity ~30%, specificity ~90% for orthostatic hypotension"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [
+    "90"
+   ],
+   "performance_claims": [
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside echocardiogram (if available): Assess for structural heart disease, valve lesions (especially aortic stenosis), LV function. Sensitivity and specificity for severe aortic stenosis are both >90% with echo"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pulse oximetry: To assess for hypoxemia, especially in COPD"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Key Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "2",
+    "50",
+    "70",
+    "90"
+   ],
+   "performance_claims": [
+    "2",
+    "50",
+    "70",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Systolic murmur + syncope: Raises suspicion for aortic stenosis. Classic triad: angina, syncope, heart failure. Physical exam for aortic stenosis (delayed carotid upstroke, soft/absent S2, murmur radiating to carotids) has moderate sensitivity (~50-70%) and high specificity (>90%) for severe disease"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "50",
+    "90"
+   ],
+   "performance_claims": [
+    "50",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: Abnormal ECG increases risk of cardiac syncope (sensitivity ~50%, specificity ~90%)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "30",
+    "90"
+   ],
+   "performance_claims": [
+    "30",
+    "90"
+   ],
+   "record_id": null,
+   "section": "history",
+   "text": "Syncope during exertion or with no warning is more likely cardiac (sensitivity ~30%, specificity ~90%)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Focus on cardiac causes given murmur and syncope without warning"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Prioritize cardiac exam, ECG, and bedside echo if available"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Monitor for arrhythmias"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Rule out other causes with history and exam"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "If aortic stenosis is suspected, urgent echocardiography is indicated. If arrhythmia is suspected, continuous monitoring is essential"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given the presentation\u2014a 58-year-old man with COPD flare, new systolic murmur, and a sudden collapse while straining (presumably Valsalva maneuver), with stable vital signs (HR 88, BP 128/70)\u2014the differential includes cardiac causes (arrhythmia, structural heart disease, aortic stenosis), vasovagal syncope, and less likely, orthostatic hypotension or seizure.\n\n**History:**\n- Characterize the syncope: Was there any prodrome (dizziness, palpitations, chest pain, dyspnea, visual changes)?\n- Duration of loss of consciousness? Rapid recovery?\n- Witnessed? Any seizure-like activity, tongue biting, incontinence?\n- Past cardiac history: known murmurs, heart failure, coronary disease, arrhythmias?\n- Family history of sudden cardiac death?\n- Medication review (especially antihypertensives, diuretics, beta-blockers)?\n- Recent symptoms: chest pain, palpitations, dyspnea, orthopnea, PND, leg swelling?\n- Syncope triggers: exertion, position change, urination/defecation (micturition/defecation syncope)?\n\n**Physical Examination:**\n- Vital signs (including orthostatic measurements)\n- Cardiac exam: characterize murmur (timing, location, radiation, intensity, maneuvers), signs of heart failure (JVP, edema, crackles)\n- Carotid auscultation (bruits)\n- Neurologic exam (focal deficits, post-ictal state)\n- Pulmonary exam (wheezing, rales)\n- Peripheral pulses (unequal pulses may suggest aortic dissection)\n\n**Bedside Tests:**\n- **ECG:** Look for arrhythmias, conduction blocks, ischemia, LVH, prior MI. Sensitivity for arrhythmic syncope is low (~20-50%), but specificity is high if abnormal.\n- **Telemetry/continuous cardiac monitoring:** To catch transient arrhythmias.\n- **Orthostatic vital signs:** Sensitivity ~30%, specificity ~90% for orthostatic hypotension.\n- **Bedside echocardiogram (if available):** Assess for structural heart disease, valve lesions (especially aortic stenosis), LV function. Sensitivity and specificity for severe aortic stenosis are both >90% with echo.\n- **Pulse oximetry:** To assess for hypoxemia, especially in COPD.\n\n**Key Diagnostic Performance Data:**\n- **Systolic murmur + syncope:** Raises suspicion for aortic stenosis. Classic triad: angina, syncope, heart failure. Physical exam for aortic stenosis (delayed carotid upstroke, soft/absent S2, murmur radiating to carotids) has moderate sensitivity (~50-70%) and high specificity (>90%) for severe disease.\n- **ECG:** Abnormal ECG increases risk of cardiac syncope (sensitivity ~50%, specificity ~90%).\n- **History:** Syncope during exertion or with no warning is more likely cardiac (sensitivity ~30%, specificity ~90%).\n\n**Summary:**\n- Focus on cardiac causes given murmur and syncope without warning.\n- Prioritize cardiac exam, ECG, and bedside echo if available.\n- Monitor for arrhythmias.\n- Rule out other causes with history and exam.\n\nIf aortic stenosis is suspected, urgent echocardiography is indicated. If arrhythmia is suspected, continuous monitoring is essential."
+ },
+ "variant": "p1"
+}

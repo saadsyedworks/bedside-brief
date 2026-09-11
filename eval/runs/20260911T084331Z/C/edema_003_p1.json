@@ -1,0 +1,311 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "edema_003",
+ "blocked_items": [],
+ "case_id": "edema_003_p1",
+ "created_at": "2026-09-11T09:11:56+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and progression of swelling"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: dyspnea, orthopnea, chest pain, cough, fever, redness, warmth"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past medical history: heart failure, renal or liver disease, venous thromboembolism"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication review: recent changes, diuretics, steroids, IV fluids"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent immobility or trauma"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Urine output changes"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: BP, HR, RR, SpO2, temperature"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Inspection: extent and symmetry of swelling, skin changes (erythema, ulceration, varicosities)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Palpation: pitting vs. non-pitting edema, tenderness, warmth"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Check for calf tenderness (Homan\u2019s sign\u2014not sensitive or specific)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Jugular venous pressure (JVP)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "3"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Auscultation: crackles (pulmonary edema), S3 (heart failure)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdominal exam: hepatomegaly, ascites"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urinalysis (proteinuria, hematuria)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose (if on steroids)"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside ultrasound (if available): assess for DVT (compression US), IVC diameter (volume status), cardiac function"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG (if concern for heart failure or arrhythmia)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bilateral leg swelling is less likely to be DVT (usually unilateral), but bilateral DVT can occur, especially in high-risk patients"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Wells score"
+   ],
+   "numeric_claims": [
+    "70",
+    "85"
+   ],
+   "performance_claims": [
+    "70",
+    "85"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Physical exam for DVT: Calf tenderness, swelling, and Homan\u2019s sign have poor sensitivity and specificity (Wells score for DVT: clinical assessment tool, sensitivity ~85%, specificity ~70%)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pitting edema is more suggestive of systemic causes (heart failure, renal, hepatic) than DVT"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "70",
+    "80"
+   ],
+   "performance_claims": [
+    "80",
+    "70"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "JVP elevation is ~80% sensitive and 70% specific for heart failure"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [
+    "95",
+    "96"
+   ],
+   "performance_claims": [
+    "95",
+    "96"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside compression ultrasound for DVT: sensitivity ~95%, specificity ~96% for proximal DVT"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on history for risk factors and associated symptoms"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Examine for signs of systemic vs. local causes"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Use bedside ultrasound if available for DVT and volume status"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Consider labs (BNP, creatinine, albumin, LFTs) and further imaging as indicated"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 48-year-old woman, day 4 of pneumonia admission, with new bilateral symmetric leg swelling and aching, HR 96, afebrile, SpO2 96%\u2014the differential includes volume overload (e.g., heart failure, renal dysfunction), medication side effects, deep vein thrombosis (DVT), cellulitis (less likely if bilateral and afebrile), and hypoalbuminemia.\n\n**History:**\n- Onset, duration, and progression of swelling\n- Associated symptoms: dyspnea, orthopnea, chest pain, cough, fever, redness, warmth\n- Past medical history: heart failure, renal or liver disease, venous thromboembolism\n- Medication review: recent changes, diuretics, steroids, IV fluids\n- Recent immobility or trauma\n- Urine output changes\n\n**Physical Examination:**\n- Vital signs: BP, HR, RR, SpO2, temperature\n- Inspection: extent and symmetry of swelling, skin changes (erythema, ulceration, varicosities)\n- Palpation: pitting vs. non-pitting edema, tenderness, warmth\n- Check for calf tenderness (Homan\u2019s sign\u2014not sensitive or specific)\n- Jugular venous pressure (JVP)\n- Auscultation: crackles (pulmonary edema), S3 (heart failure)\n- Abdominal exam: hepatomegaly, ascites\n\n**Bedside Tests:**\n- Urinalysis (proteinuria, hematuria)\n- Bedside glucose (if on steroids)\n- Bedside ultrasound (if available): assess for DVT (compression US), IVC diameter (volume status), cardiac function\n- ECG (if concern for heart failure or arrhythmia)\n\n**Diagnostic Performance Data:**\n- Bilateral leg swelling is less likely to be DVT (usually unilateral), but bilateral DVT can occur, especially in high-risk patients.\n- Physical exam for DVT: Calf tenderness, swelling, and Homan\u2019s sign have poor sensitivity and specificity (Wells score for DVT: clinical assessment tool, sensitivity ~85%, specificity ~70%).\n- Pitting edema is more suggestive of systemic causes (heart failure, renal, hepatic) than DVT.\n- JVP elevation is ~80% sensitive and 70% specific for heart failure.\n- Bedside compression ultrasound for DVT: sensitivity ~95%, specificity ~96% for proximal DVT.\n\n**Summary:**\n- Focus on history for risk factors and associated symptoms.\n- Examine for signs of systemic vs. local causes.\n- Use bedside ultrasound if available for DVT and volume status.\n- Consider labs (BNP, creatinine, albumin, LFTs) and further imaging as indicated."
+ },
+ "variant": "p1"
+}

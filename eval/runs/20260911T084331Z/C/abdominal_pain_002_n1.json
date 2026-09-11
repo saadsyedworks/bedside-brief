@@ -1,0 +1,371 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "abdominal_pain_002",
+ "blocked_items": [],
+ "case_id": "abdominal_pain_002_n1",
+ "created_at": "2026-09-11T09:06:24+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and character of pain (sharp, dull, colicky, constant)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Radiation (to back or right shoulder)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: nausea, vomiting (bilious?), jaundice, chills/rigors, change in urine/stool color"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent fatty meal (trigger)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Previous similar episodes"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Cardiac symptoms (chest pain, dyspnea)"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication history (esp. diuretics, anticoagulants)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Diabetes control, recent glucose readings"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Heart failure symptoms (orthopnea, edema, weight gain)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: fever, tachycardia, hypotension (sepsis? shock?)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General appearance: distress, diaphoresis"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdominal exam:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Inspection: distension, scars"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Palpation: RUQ tenderness, guarding, rebound"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "48",
+    "65",
+    "96",
+    "97"
+   ],
+   "performance_claims": [
+    "48",
+    "65",
+    "96",
+    "97"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "Murphy\u2019s sign: inspiratory arrest with deep palpation of RUQ (sensitivity ~65-97%, specificity ~48-96% for cholecystitis"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "best when positive in the right clinical context)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Palpable gallbladder (Courvoisier\u2019s sign\u2014suggests malignancy if painless)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Peritoneal signs (rebound, rigidity)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Assess for hepatomegaly, splenomegaly"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "3"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiac and pulmonary exam: rales, S3, JVD, peripheral edema (heart failure status)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Skin: jaundice, spider angiomata, palmar erythema"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Point-of-care ultrasound (POCUS):"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "3"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Gallbladder wall thickening (>3mm), pericholecystic fluid, sonographic Murphy\u2019s sign, gallstones, biliary duct dilation"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "80",
+    "88"
+   ],
+   "performance_claims": [
+    "80",
+    "88"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Sensitivity ~88%, specificity ~80% for acute cholecystitis (meta-analysis)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose (diabetic status)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urinalysis (exclude UTI, hematuria)"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG (exclude cardiac ischemia, especially in diabetics with atypical symptoms)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on history and exam for cholecystitis, but keep broad differential (cardiac, hepatic, GI, infectious)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Murphy\u2019s sign and RUQ tenderness are key"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "POCUS is highly useful if available"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [
+    "48",
+    "65",
+    "80",
+    "88",
+    "96",
+    "97"
+   ],
+   "performance_claims": [
+    "48",
+    "65",
+    "80",
+    "88",
+    "96",
+    "97"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic performance: Murphy\u2019s sign (sens 65-97%, spec 48-96%), POCUS (sens 88%, spec 80%)"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Early labs (CBC, LFTs, lipase, blood cultures) and imaging (formal RUQ US) are next steps after bedside assessment"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 62-year-old diabetic woman with heart failure, acute right upper quadrant (RUQ) pain, vomiting, fever, and tachycardia\u2014the most likely concern is acute cholecystitis, but other biliary, hepatic, or even cardiac causes should be considered.\n\n**History:**\n- Onset, duration, and character of pain (sharp, dull, colicky, constant)\n- Radiation (to back or right shoulder)\n- Associated symptoms: nausea, vomiting (bilious?), jaundice, chills/rigors, change in urine/stool color\n- Recent fatty meal (trigger)\n- Previous similar episodes\n- Cardiac symptoms (chest pain, dyspnea)\n- Medication history (esp. diuretics, anticoagulants)\n- Diabetes control, recent glucose readings\n- Heart failure symptoms (orthopnea, edema, weight gain)\n\n**Physical Examination:**\n- Vital signs: fever, tachycardia, hypotension (sepsis? shock?)\n- General appearance: distress, diaphoresis\n- Abdominal exam:\n  - Inspection: distension, scars\n  - Palpation: RUQ tenderness, guarding, rebound\n  - Murphy\u2019s sign: inspiratory arrest with deep palpation of RUQ (sensitivity ~65-97%, specificity ~48-96% for cholecystitis; best when positive in the right clinical context)\n  - Palpable gallbladder (Courvoisier\u2019s sign\u2014suggests malignancy if painless)\n  - Peritoneal signs (rebound, rigidity)\n  - Assess for hepatomegaly, splenomegaly\n- Cardiac and pulmonary exam: rales, S3, JVD, peripheral edema (heart failure status)\n- Skin: jaundice, spider angiomata, palmar erythema\n\n**Bedside Tests:**\n- Point-of-care ultrasound (POCUS):\n  - Gallbladder wall thickening (>3mm), pericholecystic fluid, sonographic Murphy\u2019s sign, gallstones, biliary duct dilation\n  - Sensitivity ~88%, specificity ~80% for acute cholecystitis (meta-analysis)\n- Bedside glucose (diabetic status)\n- Urinalysis (exclude UTI, hematuria)\n- ECG (exclude cardiac ischemia, especially in diabetics with atypical symptoms)\n\n**Summary:**\n- Focus on history and exam for cholecystitis, but keep broad differential (cardiac, hepatic, GI, infectious)\n- Murphy\u2019s sign and RUQ tenderness are key; POCUS is highly useful if available\n- Diagnostic performance: Murphy\u2019s sign (sens 65-97%, spec 48-96%), POCUS (sens 88%, spec 80%)\n- Early labs (CBC, LFTs, lipase, blood cultures) and imaging (formal RUQ US) are next steps after bedside assessment."
+ },
+ "variant": "n1"
+}

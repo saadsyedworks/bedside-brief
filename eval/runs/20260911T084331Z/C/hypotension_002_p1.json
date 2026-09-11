@@ -1,0 +1,311 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "hypotension_002",
+ "blocked_items": [],
+ "case_id": "hypotension_002_p1",
+ "created_at": "2026-09-11T09:13:24+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Ask about chest pain, palpitations, dyspnea, cough, fever, hemoptysis, or pleuritic pain (to assess for pneumonia progression, PE, ACS)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Ask about urine output, thirst, vomiting, diarrhea (volume status)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Ask about bleeding (melena, hematemesis, hematuria, bruising) given AF and risk of stroke/bleed"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication history (recent changes, missed doses, diuretics, antihypertensives)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent fluid intake/output, weight changes"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: Assess for distress, pallor, diaphoresis"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vitals: Repeat BP (lying, sitting, standing if safe), HR, RR, O2 sat, temperature"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiac: Irregularly irregular rhythm (AF), murmurs, JVP (volume status), peripheral edema"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Lungs: Crackles, decreased breath sounds (pneumonia, effusion)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdomen: Tenderness, organomegaly, signs of bleeding"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Extremities: Capillary refill, peripheral pulses, signs of DVT"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neuro: Mental status, focal deficits (stroke/TIA)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "10",
+    "20",
+    "30",
+    "90"
+   ],
+   "performance_claims": [
+    "10",
+    "20",
+    "30",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Orthostatic vitals: Drop in SBP \u226520 mmHg or DBP \u226510 mmHg, or symptoms, is diagnostic for orthostatic hypotension (sensitivity ~30%, specificity ~90%)"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: Assess for rate/rhythm, ischemia, new arrhythmias"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose: Rule out hypoglycemia"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urine output: Foley or bladder scan if concerned for retention/AKI"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside cardiac/IVC ultrasound (if available): Assess for hypovolemia, tamponade, LV function"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "30",
+    "90"
+   ],
+   "performance_claims": [
+    "30",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Orthostatic hypotension: Sensitivity ~30%, specificity ~90% for hypovolemia"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "2",
+    "35",
+    "94"
+   ],
+   "performance_claims": [
+    "2",
+    "35",
+    "94"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Capillary refill >2 sec: Sensitivity ~35%, specificity ~94% for hypoperfusion in adults"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "50",
+    "90"
+   ],
+   "performance_claims": [
+    "50",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "JVP: Low JVP suggests hypovolemia (specificity ~90%, sensitivity ~50%)"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on identifying shock type (hypovolemic from diuresis/sepsis, cardiogenic from AF/ischemia, distributive from sepsis)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Prioritize rapid assessment for reversible causes (volume depletion, arrhythmia, sepsis, bleeding, ACS, PE)"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Initiate resuscitation as indicated while evaluating"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "4"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "McGee S. Evidence-Based Physical Diagnosis, 4th ed"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "UpToDate: \"Evaluation of and initial approach to the adult patient with undifferentiated hypotension and shock\""
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation, the patient is a 63-year-old male with atrial fibrillation (AF) not on anticoagulation, admitted for community-acquired pneumonia (CAP), on IV furosemide, now hypotensive (BP 88/54), tachycardic (HR 118), and symptomatic with orthostatic symptoms (pale, lightheaded on standing).\n\n**History:**\n- Ask about chest pain, palpitations, dyspnea, cough, fever, hemoptysis, or pleuritic pain (to assess for pneumonia progression, PE, ACS).\n- Ask about urine output, thirst, vomiting, diarrhea (volume status).\n- Ask about bleeding (melena, hematemesis, hematuria, bruising) given AF and risk of stroke/bleed.\n- Medication history (recent changes, missed doses, diuretics, antihypertensives).\n- Recent fluid intake/output, weight changes.\n\n**Physical Examination:**\n- General: Assess for distress, pallor, diaphoresis.\n- Vitals: Repeat BP (lying, sitting, standing if safe), HR, RR, O2 sat, temperature.\n- Cardiac: Irregularly irregular rhythm (AF), murmurs, JVP (volume status), peripheral edema.\n- Lungs: Crackles, decreased breath sounds (pneumonia, effusion).\n- Abdomen: Tenderness, organomegaly, signs of bleeding.\n- Extremities: Capillary refill, peripheral pulses, signs of DVT.\n- Neuro: Mental status, focal deficits (stroke/TIA).\n\n**Bedside Tests:**\n- Orthostatic vitals: Drop in SBP \u226520 mmHg or DBP \u226510 mmHg, or symptoms, is diagnostic for orthostatic hypotension (sensitivity ~30%, specificity ~90%).\n- ECG: Assess for rate/rhythm, ischemia, new arrhythmias.\n- Bedside glucose: Rule out hypoglycemia.\n- Urine output: Foley or bladder scan if concerned for retention/AKI.\n- Bedside cardiac/IVC ultrasound (if available): Assess for hypovolemia, tamponade, LV function.\n\n**Diagnostic Performance Data:**\n- Orthostatic hypotension: Sensitivity ~30%, specificity ~90% for hypovolemia.\n- Capillary refill >2 sec: Sensitivity ~35%, specificity ~94% for hypoperfusion in adults.\n- JVP: Low JVP suggests hypovolemia (specificity ~90%, sensitivity ~50%).\n\n**Summary:**\n- Focus on identifying shock type (hypovolemic from diuresis/sepsis, cardiogenic from AF/ischemia, distributive from sepsis).\n- Prioritize rapid assessment for reversible causes (volume depletion, arrhythmia, sepsis, bleeding, ACS, PE).\n- Initiate resuscitation as indicated while evaluating.\n\n**References:**\n- McGee S. Evidence-Based Physical Diagnosis, 4th ed.\n- UpToDate: \"Evaluation of and initial approach to the adult patient with undifferentiated hypotension and shock\"."
+ },
+ "variant": "p1"
+}

@@ -1,0 +1,383 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "dizziness_002",
+ "blocked_items": [],
+ "case_id": "dizziness_002",
+ "created_at": "2026-09-11T09:09:43+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and triggers of vertigo (already described: brief, positional, triggered by rolling)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: hearing loss, tinnitus, ear fullness, diplopia, dysarthria, weakness, numbness, ataxia, chest pain, palpitations"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent head trauma, infections, or new medications"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past history of vertigo, migraine, stroke, or cardiovascular disease"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: Assess for distress, dehydration, or signs of systemic illness"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neurological exam:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cranial nerves (especially for nystagmus, facial weakness, dysarthria)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cerebellar function (finger-nose, heel-shin, rapid alternating movements)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Gait and balance (if safe)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Motor and sensory exam"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Otologic exam: Inspect tympanic membranes, look for signs of infection or trauma"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Dix-Hallpike Maneuver (for posterior canal BPPV):"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "20",
+    "45"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Patient sits upright, head turned 45\u00b0 to one side, then quickly laid back with head extended 20\u00b0 below horizontal"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "1"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Positive test: Reproduction of vertigo and characteristic nystagmus (upbeating, torsional) after a brief latency, lasting <1 minute"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "Bhattacharyya et al."
+   ],
+   "numeric_claims": [
+    "2017",
+    "75",
+    "79"
+   ],
+   "performance_claims": [
+    "75",
+    "79"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic performance: Sensitivity ~79%, specificity ~75% (Bhattacharyya et al., Otolaryngol Head Neck Surg 2017)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Supine Roll Test (for horizontal canal BPPV):"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "90"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Patient lies supine, head quickly turned 90\u00b0 to each side"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Positive test: Horizontal nystagmus, direction-changing with head turn"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Head Impulse Test (HIT):"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Assesses vestibulo-ocular reflex. Abnormal (catch-up saccade) in peripheral causes, normal in central causes"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "Kattah et al.",
+    "Stroke 2009"
+   ],
+   "numeric_claims": [
+    "2009",
+    "35",
+    "40",
+    "95"
+   ],
+   "performance_claims": [
+    "35",
+    "40",
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic performance: Sensitivity ~35-40%, specificity ~95% for peripheral vestibulopathy (Kattah et al., Stroke 2009)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Observation of Nystagmus:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Peripheral nystagmus: Unidirectional, suppressed by fixation, fatigues"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Central nystagmus: Direction-changing, vertical, or does not fatigue"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Test of Skew:"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Alternate cover test for vertical misalignment (suggests central cause)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Most likely BPPV (positional, brief, no other neuro findings)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Perform Dix-Hallpike and/or supine roll test"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Complete neuro exam to rule out central causes"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Consider head impulse and test of skew if diagnosis unclear"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "If any central signs (persistent vertigo, severe imbalance, focal neuro deficits), consider urgent imaging"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "Bhattacharyya N, et al."
+   ],
+   "numeric_claims": [
+    "2017"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bhattacharyya N, et al. Clinical Practice Guideline: Benign Paroxysmal Positional Vertigo (Update). Otolaryngol Head Neck Surg. 2017"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [
+    "Kattah JC, et al."
+   ],
+   "numeric_claims": [
+    "2009"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Kattah JC, et al. HINTS to Diagnose Stroke in the Acute Vestibular Syndrome. Stroke. 2009"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given the presentation\u2014a 58-year-old woman, postoperative day 1 after laparoscopic cholecystectomy, with brief (~20 seconds) spinning vertigo triggered by rolling over in bed, associated nausea, no headache, and normal vital signs\u2014the most likely diagnosis is benign paroxysmal positional vertigo (BPPV). However, other causes of acute vertigo (central and peripheral) should be considered.\n\n**History:**\n- Onset, duration, and triggers of vertigo (already described: brief, positional, triggered by rolling)\n- Associated symptoms: hearing loss, tinnitus, ear fullness, diplopia, dysarthria, weakness, numbness, ataxia, chest pain, palpitations\n- Recent head trauma, infections, or new medications\n- Past history of vertigo, migraine, stroke, or cardiovascular disease\n\n**Physical Examination:**\n- General: Assess for distress, dehydration, or signs of systemic illness\n- Neurological exam:\n  - Cranial nerves (especially for nystagmus, facial weakness, dysarthria)\n  - Cerebellar function (finger-nose, heel-shin, rapid alternating movements)\n  - Gait and balance (if safe)\n  - Motor and sensory exam\n- Otologic exam: Inspect tympanic membranes, look for signs of infection or trauma\n\n**Bedside Tests:**\n1. **Dix-Hallpike Maneuver** (for posterior canal BPPV):\n   - Patient sits upright, head turned 45\u00b0 to one side, then quickly laid back with head extended 20\u00b0 below horizontal.\n   - Positive test: Reproduction of vertigo and characteristic nystagmus (upbeating, torsional) after a brief latency, lasting <1 minute.\n   - **Diagnostic performance:** Sensitivity ~79%, specificity ~75% (Bhattacharyya et al., Otolaryngol Head Neck Surg 2017).\n\n2. **Supine Roll Test** (for horizontal canal BPPV):\n   - Patient lies supine, head quickly turned 90\u00b0 to each side.\n   - Positive test: Horizontal nystagmus, direction-changing with head turn.\n\n3. **Head Impulse Test** (HIT):\n   - Assesses vestibulo-ocular reflex. Abnormal (catch-up saccade) in peripheral causes, normal in central causes.\n   - **Diagnostic performance:** Sensitivity ~35-40%, specificity ~95% for peripheral vestibulopathy (Kattah et al., Stroke 2009).\n\n4. **Observation of Nystagmus:**\n   - Peripheral nystagmus: Unidirectional, suppressed by fixation, fatigues.\n   - Central nystagmus: Direction-changing, vertical, or does not fatigue.\n\n5. **Test of Skew:**\n   - Alternate cover test for vertical misalignment (suggests central cause).\n\n**Summary:**\n- Most likely BPPV (positional, brief, no other neuro findings).\n- Perform Dix-Hallpike and/or supine roll test.\n- Complete neuro exam to rule out central causes.\n- Consider head impulse and test of skew if diagnosis unclear.\n- If any central signs (persistent vertigo, severe imbalance, focal neuro deficits), consider urgent imaging.\n\n**References:**\n- Bhattacharyya N, et al. Clinical Practice Guideline: Benign Paroxysmal Positional Vertigo (Update). Otolaryngol Head Neck Surg. 2017.\n- Kattah JC, et al. HINTS to Diagnose Stroke in the Acute Vestibular Syndrome. Stroke. 2009."
+ },
+ "variant": "base"
+}

@@ -1,0 +1,330 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "aki_001",
+ "blocked_items": [],
+ "case_id": "aki_001_p1",
+ "created_at": "2026-09-11T09:06:54+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent changes in diuretic dose or fluid intake"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Symptoms of volume loss (vomiting, diarrhea, GI bleeding)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent infections (especially spontaneous bacterial peritonitis)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Use of nephrotoxic drugs (NSAIDs, aminoglycosides, contrast)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Symptoms of hepatic encephalopathy"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Baseline renal function and urine output"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Volume status: mucous membranes, skin turgor, jugular venous pressure (JVP), peripheral edema"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Signs of liver disease: jaundice, asterixis, spider angiomata"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Ascites: shifting dullness, fluid wave"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiovascular: heart rate, orthostatic BP changes"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Pulmonary: rales (pulmonary edema)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urine dipstick and microscopy: look for protein, blood, granular casts (suggest ATN)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urine sodium and fractional excretion of sodium (FeNa):"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "1"
+   ],
+   "performance_claims": [
+    "1"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "FeNa <1% suggests prerenal or HRS (but can be low in cirrhosis even in ATN)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [
+    "2"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "FeNa >2% suggests ATN"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "10",
+    "20"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urine sodium <10-20 mmol/L suggests HRS or prerenal"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bladder scan: rule out obstruction"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside ultrasound: assess IVC diameter/collapsibility (volume status), kidney size/echogenicity"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "1",
+    "80",
+    "90"
+   ],
+   "performance_claims": [
+    "1",
+    "80",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "FeNa <1%: Sensitivity ~90%, specificity ~80% for prerenal AKI in general, but less reliable in cirrhosis (urine sodium often low regardless of cause)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urine microscopy: muddy brown casts are specific for ATN"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside ultrasound: IVC assessment is operator-dependent, but can help distinguish hypovolemia"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on volume status (history, exam, IVC ultrasound)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Rule out infection (SBP, UTI, pneumonia)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Check urine studies (Na, FeNa, microscopy)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Consider HRS if no improvement after volume challenge and no other cause found"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "1279",
+    "1290",
+    "13",
+    "2009",
+    "361"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Gin\u00e8s P, Schrier RW. Renal failure in cirrhosis. N Engl J Med. 2009;361(13):1279-1290"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [
+    "Salerno F, et al."
+   ],
+   "numeric_claims": [
+    "1310",
+    "1318",
+    "2007",
+    "56",
+    "9"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Salerno F, et al. Diagnosis, prevention and treatment of hepatorenal syndrome in cirrhosis. Gut. 2007;56(9):1310-1318"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 66-year-old male with cirrhosis and ascites, on IV diuresis, with acute kidney injury (AKI) (Cr rising from 1.1 to 2.0), decreased urine output, and hypotension (BP 96/60)\u2014the main concerns are hypovolemia, hepatorenal syndrome (HRS), and possibly acute tubular necrosis (ATN). Here\u2019s how to approach the evaluation:\n\n**History:**\n- Recent changes in diuretic dose or fluid intake\n- Symptoms of volume loss (vomiting, diarrhea, GI bleeding)\n- Recent infections (especially spontaneous bacterial peritonitis)\n- Use of nephrotoxic drugs (NSAIDs, aminoglycosides, contrast)\n- Symptoms of hepatic encephalopathy\n- Baseline renal function and urine output\n\n**Physical Examination:**\n- Volume status: mucous membranes, skin turgor, jugular venous pressure (JVP), peripheral edema\n- Signs of liver disease: jaundice, asterixis, spider angiomata\n- Ascites: shifting dullness, fluid wave\n- Cardiovascular: heart rate, orthostatic BP changes\n- Pulmonary: rales (pulmonary edema)\n\n**Bedside Tests:**\n- Urine dipstick and microscopy: look for protein, blood, granular casts (suggest ATN)\n- Urine sodium and fractional excretion of sodium (FeNa):\n  - FeNa <1% suggests prerenal or HRS (but can be low in cirrhosis even in ATN)\n  - FeNa >2% suggests ATN\n  - Urine sodium <10-20 mmol/L suggests HRS or prerenal\n- Bladder scan: rule out obstruction\n- Bedside ultrasound: assess IVC diameter/collapsibility (volume status), kidney size/echogenicity\n\n**Diagnostic Performance Data:**\n- FeNa <1%: Sensitivity ~90%, specificity ~80% for prerenal AKI in general, but less reliable in cirrhosis (urine sodium often low regardless of cause)\n- Urine microscopy: muddy brown casts are specific for ATN\n- Bedside ultrasound: IVC assessment is operator-dependent, but can help distinguish hypovolemia\n\n**Summary:**\n- Focus on volume status (history, exam, IVC ultrasound)\n- Rule out infection (SBP, UTI, pneumonia)\n- Check urine studies (Na, FeNa, microscopy)\n- Consider HRS if no improvement after volume challenge and no other cause found\n\n**References:**\n- Gin\u00e8s P, Schrier RW. Renal failure in cirrhosis. N Engl J Med. 2009;361(13):1279-1290.\n- Salerno F, et al. Diagnosis, prevention and treatment of hepatorenal syndrome in cirrhosis. Gut. 2007;56(9):1310-1318."
+ },
+ "variant": "p1"
+}

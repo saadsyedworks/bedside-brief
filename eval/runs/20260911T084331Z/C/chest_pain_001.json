@@ -1,0 +1,427 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "chest_pain_001",
+ "blocked_items": [],
+ "case_id": "chest_pain_001",
+ "created_at": "2026-09-11T09:08:22+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Characterize chest pain: onset, location, duration, quality, radiation, aggravating/relieving factors, associated symptoms (nausea, vomiting, dyspnea, palpitations, syncope)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Cardiac risk factors: prior CAD, hypertension, hyperlipidemia, smoking, family history"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent exertion, emotional stress, or similar prior episodes"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication history (esp. antiplatelets, anticoagulants, statins, beta-blockers)"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Allergies (esp. to contrast, aspirin)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Review for symptoms of heart failure (orthopnea, PND, edema)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: distress, diaphoresis, pallor"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vitals: repeat BP, HR, RR, O2 sat"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "3",
+    "4"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiac: heart sounds (S3, S4, murmurs, rubs), jugular venous pressure, peripheral pulses"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Lungs: rales, crackles (signs of pulmonary edema)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Extremities: edema, signs of poor perfusion"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdomen: aortic aneurysm (rare, but consider in older males)"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "10",
+    "12"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "12-lead ECG (within 10 minutes):"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "80",
+    "90"
+   ],
+   "performance_claims": [
+    "80",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Sensitivity for STEMI: ~80-90%"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "30",
+    "50"
+   ],
+   "performance_claims": [
+    "30",
+    "50"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "for NSTEMI/UA: lower (~30-50%)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Serial ECGs increase sensitivity"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Cardiac troponin (high-sensitivity preferred):"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "3",
+    "6",
+    "80",
+    "90"
+   ],
+   "performance_claims": [
+    "80",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Sensitivity for MI at presentation: ~80-90%; increases with serial testing at 3-6 hours"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "90"
+   ],
+   "performance_claims": [
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Specificity: >90% for MI, but can be elevated in CKD"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Continuous cardiac monitoring (telemetry):"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Detects arrhythmias"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside echocardiogram (if available):"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "80"
+   ],
+   "performance_claims": [
+    "80"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Can detect wall motion abnormalities (sensitivity ~80% for acute MI)"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pulse oximetry:"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "96"
+   ],
+   "performance_claims": [
+    "96"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Already noted at 96%"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose:"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Important in DM2"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Other Considerations:"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "CXR if heart failure or aortic dissection suspected"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside urine for proteinuria/hematuria if considering other causes"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Immediate ECG and troponin are highest yield"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focused cardiac and pulmonary exam for complications"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Serial ECGs and troponins improve diagnostic accuracy"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside echo if diagnosis remains unclear or patient unstable"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "Amsterdam EA, et al. 2014"
+   ],
+   "numeric_claims": [
+    "2014"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Amsterdam EA, et al. 2014 AHA/ACC Guideline for the Management of Patients With Non\u2013ST-Elevation Acute Coronary Syndromes. Circulation. 2014"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [
+    "Goodacre S, et al."
+   ],
+   "numeric_claims": [
+    "2012"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Goodacre S, et al. The diagnostic performance of ECG and troponin in suspected ACS. BMJ. 2012"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 66-year-old man with diabetes mellitus type 2 (DM2), chronic kidney disease stage 3 (CKD3), admitted for cellulitis, now with 30 minutes of substernal pressure at rest, diaphoresis, BP 150/90, HR 92, and O2 sat 96%\u2014the concern is for acute coronary syndrome (ACS), particularly non-ST elevation myocardial infarction (NSTEMI) or unstable angina.\n\n**History:**\n- Characterize chest pain: onset, location, duration, quality, radiation, aggravating/relieving factors, associated symptoms (nausea, vomiting, dyspnea, palpitations, syncope).\n- Cardiac risk factors: prior CAD, hypertension, hyperlipidemia, smoking, family history.\n- Recent exertion, emotional stress, or similar prior episodes.\n- Medication history (esp. antiplatelets, anticoagulants, statins, beta-blockers).\n- Allergies (esp. to contrast, aspirin).\n- Review for symptoms of heart failure (orthopnea, PND, edema).\n\n**Physical Examination:**\n- General: distress, diaphoresis, pallor.\n- Vitals: repeat BP, HR, RR, O2 sat.\n- Cardiac: heart sounds (S3, S4, murmurs, rubs), jugular venous pressure, peripheral pulses.\n- Lungs: rales, crackles (signs of pulmonary edema).\n- Extremities: edema, signs of poor perfusion.\n- Abdomen: aortic aneurysm (rare, but consider in older males).\n\n**Bedside Tests:**\n1. **12-lead ECG** (within 10 minutes):\n   - Sensitivity for STEMI: ~80-90%; for NSTEMI/UA: lower (~30-50%).\n   - Serial ECGs increase sensitivity.\n2. **Cardiac troponin (high-sensitivity preferred):**\n   - Sensitivity for MI at presentation: ~80-90%; increases with serial testing at 3-6 hours.\n   - Specificity: >90% for MI, but can be elevated in CKD.\n3. **Continuous cardiac monitoring** (telemetry):\n   - Detects arrhythmias.\n4. **Bedside echocardiogram** (if available):\n   - Can detect wall motion abnormalities (sensitivity ~80% for acute MI).\n5. **Pulse oximetry:**\n   - Already noted at 96%.\n6. **Bedside glucose:**\n   - Important in DM2.\n\n**Other Considerations:**\n- CXR if heart failure or aortic dissection suspected.\n- Bedside urine for proteinuria/hematuria if considering other causes.\n\n**Summary:**\n- Immediate ECG and troponin are highest yield.\n- Focused cardiac and pulmonary exam for complications.\n- Serial ECGs and troponins improve diagnostic accuracy.\n- Bedside echo if diagnosis remains unclear or patient unstable.\n\n**References:**\n- Amsterdam EA, et al. 2014 AHA/ACC Guideline for the Management of Patients With Non\u2013ST-Elevation Acute Coronary Syndromes. Circulation. 2014.\n- Goodacre S, et al. The diagnostic performance of ECG and troponin in suspected ACS. BMJ. 2012."
+ },
+ "variant": "base"
+}

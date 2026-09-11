@@ -1,0 +1,903 @@
+{
+ "arm": "B",
+ "ask_first": false,
+ "base_case_id": "fever_003",
+ "blocked_items": [],
+ "case_id": "fever_003_n1",
+ "created_at": "2026-09-11T09:03:39+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Coburn B, Morris AM, Tomlinson G, Detsky AS. Does this adult patient with suspected bacteremia require blood cultures? JAMA. 2012;308(5):502-511.",
+    "Tokuda Y, Miyasato H, Stein GH, Kishaba T. The degree of chills for risk of bacteremia in acute febrile illness. Am J Med. 2005;118(12):1417."
+   ],
+   "numeric_claims": [
+    "0.076",
+    "0.11",
+    "0.24",
+    "0.51",
+    "0.744",
+    "0.875",
+    "0.892",
+    "0.9",
+    "0.903",
+    "0.915",
+    "0.945",
+    "10.1001",
+    "10.1016",
+    "118",
+    "12",
+    "1417",
+    "16378800",
+    "2.95",
+    "2005",
+    "2005.06",
+    "2012",
+    "2012.8262",
+    "22851117",
+    "25",
+    "3",
+    "308",
+    "35",
+    "4.65",
+    "4.7",
+    "40",
+    "43",
+    "4566",
+    "5",
+    "502",
+    "511",
+    "526",
+    "6.86",
+    "7.2",
+    "7.6",
+    "74.4",
+    "87.5",
+    "89.2",
+    "90.3",
+    "91.5",
+    "94.5",
+    "946",
+    "95"
+   ],
+   "performance_claims": [
+    "0.11",
+    "0.24",
+    "0.51",
+    "0.744",
+    "0.875",
+    "0.892",
+    "0.903",
+    "0.915",
+    "0.945",
+    "2.95",
+    "3",
+    "4.65",
+    "4.7",
+    "6.86",
+    "7.2"
+   ],
+   "record_id": "hx_rigors_shaking_chills",
+   "section": "ask",
+   "text": "Rigors / shaking chills"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Katz DA, Lynch ME, Littenberg B. Clinical prediction rules to optimize cytotoxin testing for Clostridium difficile in hospitalized patients with diarrhea. The American journal of medicine. 1996."
+   ],
+   "numeric_claims": [
+    "0.14",
+    "0.31",
+    "0.44",
+    "0.45",
+    "0.8",
+    "0.86",
+    "1.45",
+    "1.5",
+    "1.56",
+    "10.1016",
+    "12",
+    "15",
+    "16",
+    "18",
+    "1996",
+    "2",
+    "2.8",
+    "24",
+    "265",
+    "3",
+    "30",
+    "45",
+    "480",
+    "68",
+    "8",
+    "80",
+    "86",
+    "8644759",
+    "9343",
+    "94",
+    "95",
+    "97"
+   ],
+   "performance_claims": [
+    "0.31",
+    "0.44",
+    "0.45",
+    "0.45",
+    "0.8",
+    "0.86",
+    "1.45",
+    "1.56"
+   ],
+   "record_id": "hx_recent_antibiotics_new_diarrhea",
+   "section": "ask",
+   "text": "Antibiotic exposure within 8-12 weeks plus new watery diarrhea (>=3/day) or ileus/distension"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Courtney DM, Kline JA, Kabrhel C, et al. Clinical features from the history and physical examination that predict the presence or absence of pulmonary embolism in symptomatic emergency department patients: results of a prospective, multicenter study. Ann Emerg Med. 2010;55(4):307-315.",
+    "Panju AA, Hemmelgarn BR, Guyatt GH, Simel DL. The rational clinical examination. Is this patient having a myocardial infarction? JAMA. 1998;280(14):1256-1263."
+   ],
+   "numeric_claims": [
+    "0.072",
+    "0.2",
+    "1.5",
+    "1.53",
+    "1.99",
+    "10",
+    "10.1001",
+    "10.1016",
+    "12",
+    "1256",
+    "1263",
+    "14",
+    "1998",
+    "20045580",
+    "2009.11",
+    "2010",
+    "280",
+    "280.14",
+    "307",
+    "315",
+    "4",
+    "45",
+    "49",
+    "55",
+    "67",
+    "7",
+    "940",
+    "9786377"
+   ],
+   "performance_claims": [
+    "0.2"
+   ],
+   "record_id": "hx_pleuritic_chest_pain",
+   "section": "ask",
+   "text": "Pleuritic chest pain (sharp, worse with inspiration/cough), +/- hemoptysis"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Straus SE, McAlister FA, Sackett DL, Deeks JJ. The accuracy of patient history, wheezing, and laryngeal measurements in diagnosing obstructive airway disease. CARE-COAD1 Group. JAMA. 2000;283(14):1853-1857."
+   ],
+   "numeric_claims": [
+    "0.52",
+    "1",
+    "10.1001",
+    "100",
+    "10770147",
+    "14",
+    "1853",
+    "1857",
+    "20",
+    "2000",
+    "25",
+    "283",
+    "283.14",
+    "309",
+    "37",
+    "39",
+    "40",
+    "5",
+    "7.3",
+    "70",
+    "8.3"
+   ],
+   "performance_claims": [
+    "8.3"
+   ],
+   "record_id": "hx_smoking_pack_years",
+   "section": "ask",
+   "text": "Smoking history: >40 (or >=70) pack-years, current smoker"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": "exam_infection_source_survey",
+   "section": "examine",
+   "text": "Focused infection-source exam (line/exit sites, skin, abdomen, joints, sacrum, urine catheter)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Cobo-Sanchez JL, Blanco-Mavillard I, Pelayo-Alonso R, Mancebo-Salas N, Fernandez-Fernandez I, Larraneta-Inda I, et al. Validation of a Clinical Scale for Early Detection of Infections at the Exit Site of Central Venous Catheters for Hemodialysis. Kidney Int Rep. 2024."
+   ],
+   "numeric_claims": [
+    "0.21",
+    "0.7136",
+    "0.8034",
+    "0.8771",
+    "0.9273",
+    "0.9523",
+    "0.97",
+    "1",
+    "10.1016",
+    "16.8",
+    "2",
+    "2024",
+    "2024.06",
+    "3",
+    "310",
+    "337",
+    "34",
+    "39291192",
+    "515",
+    "71.36",
+    "80.34",
+    "87.71",
+    "92.73",
+    "95",
+    "95.23",
+    "97"
+   ],
+   "performance_claims": [
+    "0.21",
+    "0.7136",
+    "0.8034",
+    "0.8771",
+    "0.9273",
+    "0.9523",
+    "0.97",
+    "16.8"
+   ],
+   "record_id": "exam_line_exit_site_erythema_purulence",
+   "section": "examine",
+   "text": "Central line exit-site erythema, tenderness, or purulence (with line-day count)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "1.4",
+    "28",
+    "3",
+    "4"
+   ],
+   "performance_claims": [],
+   "record_id": "exam_diastolic_murmur_new",
+   "section": "examine",
+   "text": "New diastolic (aortic regurgitation) murmur"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Papadimitriou-Olivgeris M, Monney P, Frank M, Tzimas G, Fourr\u00e9 N, Zimmermann V, Tozzi P, Kirsch M, et al. Role of the New Physical Examination Minor Criterion (New Heart Murmur) for the Diagnosis of Infective Endocarditis. Open Forum Infect Dis. 2025."
+   ],
+   "numeric_claims": [
+    "0.37",
+    "0.376",
+    "0.73",
+    "0.87",
+    "1",
+    "10.1093",
+    "1177",
+    "13",
+    "2.74",
+    "2014",
+    "2023",
+    "2025",
+    "22",
+    "260",
+    "3127",
+    "37",
+    "39790639",
+    "430",
+    "690",
+    "736"
+   ],
+   "performance_claims": [
+    "0.37",
+    "0.73",
+    "0.87",
+    "2.74"
+   ],
+   "record_id": "exam_new_regurgitant_murmur",
+   "section": "examine",
+   "text": "New or changed regurgitant murmur"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "card": {
+   "chief_complaint": "fever with shaking chills",
+   "presentation": "fever",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_rigors_shaking_chills",
+      "changes_what": "Shaking chills should prompt blood cultures and a search for a bacteremic source (line, biliary, urinary, endovascular); no chills supports withholding cultures when pretest probability is low.",
+      "contraindications": "None.",
+      "do_not_use_when": "The RCE conclusions do not apply to immunocompromised patients or when endocarditis is suspected; in those groups obtain cultures regardless of chills.",
+      "escalation_warning": "Rigors with hypotension, altered mentation or a central line indicate probable bacteremia/sepsis: cultures, source control and antibiotics within the hour.",
+      "evidence": [
+       {
+        "citation": "Coburn B, Morris AM, Tomlinson G, Detsky AS. Does this adult patient with suspected bacteremia require blood cultures? JAMA. 2012;308(5):502-511.",
+        "computed": false,
+        "doi": "10.1001/jama.2012.8262",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "7.2",
+         "ci_low": "3",
+         "value": "4.7"
+        },
+        "pmid": "22851117",
+        "population": "Adult immunocompetent patients in whom bacteremia was suspected (35 studies; 4566 bacteremia and 25,946 negative episodes)",
+        "prevalence": null,
+        "quote": "The severity of chills graded on an ordinal scale (shaking chills, LR, 4.7; 95% CI, 3.0-7.2) may be more useful.",
+        "reference_standard": "Blood cultures",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Bacteremia (true-positive blood culture)",
+        "url": null,
+        "year": "2012"
+       },
+       {
+        "citation": "Tokuda Y, Miyasato H, Stein GH, Kishaba T. The degree of chills for risk of bacteremia in acute febrile illness. Am J Med. 2005;118(12):1417.",
+        "computed": false,
+        "doi": "10.1016/j.amjmed.2005.06.043",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "6.86",
+         "ci_low": "2.95",
+         "value": "4.65"
+        },
+        "pmid": "16378800",
+        "population": "526 consecutive adults with acute febrile illness (40, 7.6%, bacteremic)",
+        "prevalence": "0.076",
+        "quote": "Shaking chills showed a specificity of 90.3% (95% CI 89.2-91.5) and positive likelihood ratio of 4.65 (95% CI 2.95-6.86).",
+        "reference_standard": "Blood cultures",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": {
+         "ci_high": "0.915",
+         "ci_low": "0.892",
+         "value": "0.903"
+        },
+        "target_condition": "Bacteremia - finding: shaking chills (whole-body shaking under a thick blanket)",
+        "url": null,
+        "year": "2005"
+       },
+       {
+        "citation": "Tokuda Y, Miyasato H, Stein GH, Kishaba T. The degree of chills for risk of bacteremia in acute febrile illness. Am J Med. 2005;118(12):1417.",
+        "computed": false,
+        "doi": "10.1016/j.amjmed.2005.06.043",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_out",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.51",
+         "ci_low": "0.11",
+         "value": "0.24"
+        },
+        "lr_positive": null,
+        "pmid": "16378800",
+        "population": "526 consecutive adults with acute febrile illness (40, 7.6%, bacteremic)",
+        "prevalence": "0.076",
+        "quote": "The absence of chills showed a sensitivity of 87.5% (95% CI 74.4-94.5) and negative likelihood ratio of 0.24 (95% CI 0.11-0.51).",
+        "reference_standard": "Blood cultures",
+        "sensitivity": {
+         "ci_high": "0.945",
+         "ci_low": "0.744",
+         "value": "0.875"
+        },
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Bacteremia - finding: any chills (sensitivity and LR- refer to absence of chills)",
+        "url": null,
+        "year": "2005"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Ask the patient (or witnesses) whether they have had chills and grade the worst episode: mild = feeling cold, needing a jacket; moderate = needing a thick blanket; shaking chills = whole-body shaking even under a thick blanket. Record timing relative to fever and any line, procedure or infusion.",
+      "id": "hx_rigors_shaking_chills",
+      "negative_finding": "Absence of any chills lowers the probability of bacteremia (LR- 0.24) but does not exclude it, particularly in elderly or immunocompromised patients who may not mount rigors.",
+      "pitfalls": "Rigors also occur with malaria, transfusion or drug reactions, and after amphotericin or contaminated infusions; the grading relies on patient recall and the RCE data exclude immunocompromised patients and suspected endocarditis.",
+      "positive_finding": "Shaking (rigor-grade) chills raise the probability of bacteremia about 4.7-fold (LR+ 4.7, 95% CI 3.0-7.2; specificity 0.90) and justify blood cultures before antibiotics.",
+      "prerequisites": "Patient or witness able to describe the episode; ask before antipyretics blunt recall.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Rigors / shaking chills",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_recent_antibiotics_new_diarrhea",
+      "changes_what": "Positive: send stool for C. difficile testing and consider empirical therapy if severe; stop unnecessary antibiotics/PPIs. Negative: defer testing, look for other diarrhoea causes.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use absence of diarrhoea to dismiss CDI in a patient with antibiotic exposure who develops ileus, distension, leukocytosis or shock; do not use the history to withhold testing in immunocompromised or IBD patients.",
+      "escalation_warning": "Hypotension, ileus, megacolon, WBC >=15 or creatinine >1.5 mg/dL indicate severe/fulminant CDI: urgent treatment and surgical review per IDSA/SHEA.",
+      "evidence": [
+       {
+        "citation": "Katz DA, Lynch ME, Littenberg B. Clinical prediction rules to optimize cytotoxin testing for Clostridium difficile in hospitalized patients with diarrhea. The American journal of medicine. 1996.",
+        "computed": true,
+        "doi": "10.1016/s0002-9343(95)00016-x",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.44"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "1.45"
+        },
+        "pmid": "8644759",
+        "population": "480 consecutive hospitalised adults undergoing diagnostic C. difficile cytotoxin testing at a university hospital and affiliated VA medical centre, USA (derivation cohort)",
+        "prevalence": "0.14",
+        "quote": "both prior antibiotic use and history of significant diarrhea are present, demonstrated sensitivity, specificity, positive and negative predictive value of 80, 45, 18 and 94%",
+        "reference_standard": "C. difficile stool cytotoxin assay",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.8"
+        },
+        "setting": "inpatient",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.45"
+        },
+        "target_condition": "Positive C. difficile stool cytotoxin assay - rule positive if BOTH antibiotic use within 30 days AND significant diarrhoea (new onset of >3 partially formed or watery stools per 24 h); threshold differs from id (30 days, not 8-12 weeks)",
+        "url": null,
+        "year": "1996"
+       },
+       {
+        "citation": "Katz DA, Lynch ME, Littenberg B. Clinical prediction rules to optimize cytotoxin testing for Clostridium difficile in hospitalized patients with diarrhea. The American journal of medicine. 1996.",
+        "computed": true,
+        "doi": "10.1016/s0002-9343(95)00016-x",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.31"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "1.56"
+        },
+        "pmid": "8644759",
+        "population": "Nested modelling subset: 68 cytotoxin-positive cases and 265 randomly selected test-negative controls within 480 consecutive tested inpatients, USA",
+        "prevalence": null,
+        "quote": "defined as positive if prior antibiotic use and either significant diarrhea or abdominal pain are present) demonstrated sensitivity and specificity of 86 and 45%",
+        "reference_standard": "C. difficile stool cytotoxin assay",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.86"
+        },
+        "setting": "inpatient",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.45"
+        },
+        "target_condition": "COMPOSITE: antibiotic use within 30 days AND (significant diarrhoea OR abdominal pain) for positive C. difficile cytotoxin assay",
+        "url": null,
+        "year": "1996"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Ask about any systemic antibiotic in the preceding 8-12 weeks (name, dates), hospital or long-term-care exposure, and characterise the diarrhoea: new onset, number of unformed/watery stools per 24 h (>=3), duration, blood. In the ill patient without diarrhoea, look for abdominal distension, absent bowel sounds or radiographic ileus, which can represent fulminant CDI.",
+      "id": "hx_recent_antibiotics_new_diarrhea",
+      "negative_finding": "No antibiotic exposure and no significant diarrhoea/abdominal pain makes a positive C. difficile assay unlikely (NPV about 94-97% in tested inpatients; misclassification 2.8% in validation); testing can usually be deferred and other causes (laxatives, feeds, medications) pursued.",
+      "pitfalls": "Community-acquired CDI occurs without recent antibiotics; ileus/megacolon presents without diarrhoea. Fever, abdominal pain and leukocytosis were not discriminating for toxin positivity in one prospective cohort, and laxative or tube-feed diarrhoea produces false positives on the history alone.",
+      "positive_finding": "Prior antibiotic use plus >=3 watery stools/24 h defines the population in whom C. difficile testing is indicated; in tested inpatients the combination had sensitivity about 0.80 but specificity only 0.45, so it selects for testing rather than diagnosing. Toxin/NAAT testing is required for diagnosis.",
+      "prerequisites": "Medication reconciliation including outpatient prescriptions; stool chart if inpatient.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Antibiotic exposure within 8-12 weeks plus new watery diarrhea (>=3/day) or ileus/distension",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_pleuritic_chest_pain",
+      "changes_what": "Positive: de-emphasize ACS and work up PE/pneumonia/pneumothorax/pericarditis (exam, CXR, PE risk score). Negative: does not remove PE from the differential.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use pleuritic quality to discharge a patient with possible ACS without an ECG and troponin.",
+      "escalation_warning": "Pleuritic pain with hypoxemia, tachycardia, unilateral leg swelling or hemoptysis warrants immediate PE work-up; with sudden dyspnea consider pneumothorax.",
+      "evidence": [
+       {
+        "citation": "Panju AA, Hemmelgarn BR, Guyatt GH, Simel DL. The rational clinical examination. Is this patient having a myocardial infarction? JAMA. 1998;280(14):1256-1263.",
+        "computed": false,
+        "doi": "10.1001/jama.280.14.1256",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_out",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.2"
+        },
+        "pmid": "9786377",
+        "population": "Adults with acute chest pain in studies pooled by the RCE review",
+        "prevalence": null,
+        "quote": "pleuritic chest pain (LR, 0.2)",
+        "reference_standard": "Confirmed MI by study criteria (enzymes/ECG) in included studies",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Acute myocardial infarction",
+        "url": null,
+        "year": "1998"
+       },
+       {
+        "citation": "Courtney DM, Kline JA, Kabrhel C, et al. Clinical features from the history and physical examination that predict the presence or absence of pulmonary embolism in symptomatic emergency department patients: results of a prospective, multicenter study. Ann Emerg Med. 2010;55(4):307-315.",
+        "computed": false,
+        "doi": "10.1016/j.annemergmed.2009.11.010",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "20045580",
+        "population": "7,940 symptomatic US ED patients tested for PE (12 centers); mean age 49, 67% female",
+        "prevalence": "0.072",
+        "quote": "those with an adjusted odds ratio (OR) greater than 1.5 included non-cancer-related thrombophilia (OR 1.99), pleuritic chest pain (OR 1.53)",
+        "reference_standard": "Imaging-confirmed PE or DVT within 45 days",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Venous thromboembolism (PE or DVT) in ED patients evaluated for PE",
+        "url": null,
+        "year": "2010"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Ask whether the pain is sharp and clearly worse with a deep breath, cough or sneeze (not with exertion or palpation), and whether there has been any hemoptysis. Ask separately about onset, exertional relation and positional relief so the pleuritic quality is not conflated with other descriptors.",
+      "id": "hx_pleuritic_chest_pain",
+      "negative_finding": "Absence of pleuritic quality does not exclude PE, pericarditis or pneumonia; PE frequently presents with isolated dyspnea or collapse without pleuritic pain.",
+      "pitfalls": "Pleuritic pain lowers but does not exclude ACS; no history element alone permits discharge without testing. Patients may label any sharp pain as breath-related unless asked specifically about inspiration.",
+      "positive_finding": "Pleuritic pain lowers the probability of myocardial infarction (LR about 0.2) and shifts the differential toward pulmonary embolism, pneumonia, pneumothorax, pericarditis and pleural disease. In ED patients evaluated for PE it modestly raises VTE probability (adjusted OR 1.5).",
+      "prerequisites": "Patient able to give a history; ask before analgesia if feasible.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Pleuritic chest pain (sharp, worse with inspiration/cough), +/- hemoptysis",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_smoking_pack_years",
+      "changes_what": "Heavy pack-year history should raise COPD/ILD on the dyspnea differential and prompt spirometry once stable; it does not discriminate the acute cause.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use pack-years to attribute acute dyspnea to COPD when PE, ACS, pneumothorax, or heart failure are plausible.",
+      "escalation_warning": "Heavy smokers with acute chest pain or dyspnea need ACS and PE considered independently of COPD history.",
+      "evidence": [
+       {
+        "citation": "Straus SE, McAlister FA, Sackett DL, Deeks JJ. The accuracy of patient history, wheezing, and laryngeal measurements in diagnosing obstructive airway disease. CARE-COAD1 Group. JAMA. 2000;283(14):1853-1857.",
+        "computed": false,
+        "doi": "10.1001/jama.283.14.1853",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "8.3"
+        },
+        "pmid": "10770147",
+        "population": "309 consecutive adults at 25 primary care and referral sites in 14 countries; 25% known OAD, 37% suspected, 39% neither",
+        "prevalence": "0.52",
+        "quote": "smoking for more than 40 pack-years (LR, 8.3), self-reported history of chronic OAD (LR, 7.3)",
+        "reference_standard": "Spirometry: FEV1 and FEV1/FVC ratio < 5th percentile adjusted for height, age, sex",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "Obstructive airway disease (FEV1 and FEV1/FVC below 5th percentile) - finding: smoking >40 pack-years",
+        "url": null,
+        "year": "2000"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Ask packs per day and years smoked; pack-years = packs/day x years (20 cigarettes = 1 pack). Record current vs former status and quit date. Thresholds studied: >40 pack-years (CARE-COAD1) and >=70 pack-years (Badgett).",
+      "id": "hx_smoking_pack_years",
+      "negative_finding": "Absence of heavy smoking does not exclude airflow limitation; the LR for absence was not reported in the abstract.",
+      "pitfalls": "Pack-year recall is imprecise; the finding predicts chronic OAD, not whether today's dyspnea is a COPD exacerbation versus pneumonia, ACS, or PE. Heavy smoking also raises probability of ACS, lung cancer and ILD.",
+      "positive_finding": ">40 pack-years strongly favours obstructive airway disease (LR 8.3) in patients with known, suspected, or no OAD; with prior COPD diagnosis, >=70 pack-years plus prior diagnosis had specificity 100%.",
+      "prerequisites": "Reliable history from patient or informant.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Smoking history: >40 (or >=70) pack-years, current smoker",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/exam_infection_source_survey",
+      "changes_what": "A positive survey targets cultures, imaging and source control (line removal, drainage, debridement); a negative survey mandates blood/urine cultures and imaging rather than reassurance.",
+      "contraindications": "None; do not delay cultures and antibiotics in suspected sepsis while completing the survey.",
+      "do_not_use_when": "Never let a negative source survey withhold cultures, empiric antibiotics or imaging in a hypotensive, febrile or acutely confused patient with suspected infection.",
+      "escalation_warning": "Crepitus, bullae, skin necrosis or pain out of proportion (necrotizing fasciitis), a hot joint, peritonism, or purulence at a central line/dialysis catheter in a septic patient require immediate surgical/source-control and line removal decisions.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Undress and inspect every line, dialysis and drain/exit site (erythema, purulence, tunnel tenderness), all skin including back, sacrum, heels, perineum, injection sites and wounds; palpate abdomen (peritonism, Murphy sign, flank tenderness), joints and spine for warmth/effusion/tenderness; check urinary catheter, mouth, sinuses, ears and chest. Repeat daily while the source is unknown.",
+      "id": "exam_infection_source_survey",
+      "negative_finding": "A normal survey does not exclude an occult source: insertion-site inflammation is absent in nearly all catheter-related bloodstream infections, and intra-abdominal, urinary, endovascular and spinal infections are frequently silent in elderly, immunosuppressed or sedated patients.",
+      "pitfalls": "Line-site appearance has near-zero sensitivity for CRBSI (coagulase-negative staphylococci cause little inflammation); steroids, neutropenia and neuropathy blunt local signs; dressings, obesity and immobility hide sacral, perineal and injection-site infections. Pain out of proportion with unimpressive skin findings suggests necrotizing infection.",
+      "positive_finding": "Purulence, spreading erythema or tunnel tenderness at a line/exit site, cellulitis or crepitus, a hot swollen joint, peritonism or flank tenderness, or a sacral/heel ulcer with surrounding infection identifies a probable source and directs cultures, source control and empiric therapy.",
+      "prerequisites": "Full exposure with dressings taken down, adequate lighting and analgesia; review lines, catheters and devices with their insertion dates; log-roll immobile patients to view the sacrum.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Focused infection-source exam (line/exit sites, skin, abdomen, joints, sacrum, urine catheter)",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_line_exit_site_erythema_purulence",
+      "changes_what": "Positive site: culture exudate, draw paired blood cultures, consider line removal; negative site does not lower suspicion of CRBSI in an unexplained fever or shock.",
+      "contraindications": "None; do not delay blood cultures or catheter management while inspecting.",
+      "do_not_use_when": "Do not use a clean site to rule out CRBSI in short-term non-cuffed CVCs; do not rely on site appearance in neutropenic patients who may not mount local inflammation.",
+      "escalation_warning": "Fever with hypotension plus any line in situ: cultures and sepsis pathway regardless of site appearance; purulent exit site with sepsis mandates line removal.",
+      "evidence": [
+       {
+        "citation": "Cobo-Sanchez JL, Blanco-Mavillard I, Pelayo-Alonso R, Mancebo-Salas N, Fernandez-Fernandez I, Larraneta-Inda I, et al. Validation of a Clinical Scale for Early Detection of Infections at the Exit Site of Central Venous Catheters for Hemodialysis. Kidney Int Rep. 2024.",
+        "computed": true,
+        "doi": "10.1016/j.ekir.2024.06.034",
+        "evidence_level": "single_study",
+        "interpretation_label": "both",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.21"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "16.8"
+        },
+        "pmid": "39291192",
+        "population": "Adults with tunneled hemodialysis CVC in place >=1 month; 337 catheters, 310 patients, 515 pericatheter cultures; multicenter prospective cohort",
+        "prevalence": null,
+        "quote": "sensitivity 80.34% (95% CI: 71.36%-87.71%) and specificity 95.23% (95% CI: 92.73%-97%)",
+        "reference_standard": "Positive pericatheter skin swab culture (taken only when any scale item present)",
+        "sensitivity": {
+         "ci_high": "0.8771",
+         "ci_low": "0.7136",
+         "value": "0.8034"
+        },
+        "setting": "outpatient",
+        "specificity": {
+         "ci_high": "0.97",
+         "ci_low": "0.9273",
+         "value": "0.9523"
+        },
+        "target_condition": "COMPOSITE: exit-site infection of tunneled hemodialysis CVC (3-item scale: interdialytic exit-site pain OR erythema >=2 cm OR abscess/purulent exudate)",
+        "url": null,
+        "year": "2024"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Remove the dressing and inspect the insertion/exit site and tunnel in good light: erythema (note extent in cm), induration or swelling, tenderness on palpation, and purulent exudate (express gently along the tunnel). Record catheter type (non-tunneled vs tunneled/cuffed), site, and line-day count.",
+      "id": "exam_line_exit_site_erythema_purulence",
+      "negative_finding": "A clean, non-inflamed site does not exclude catheter-related bloodstream infection; most short-term CVC infections (largely coagulase-negative staphylococci) show little or no local inflammation.",
+      "pitfalls": "Local inflammation is insensitive (near zero) for CRBSI with short-term non-cuffed CVCs; dressing adhesive irritation and tunnel-line manipulation can mimic erythema. Hemodialysis exit-site scale evidence uses a skin-swab culture reference, not bacteremia.",
+      "positive_finding": "Purulence, tenderness, or erythema >=2 cm at the exit site indicates local catheter infection and, in a febrile or hypotensive patient, should raise concern for catheter-related bloodstream infection with S. aureus or Gram-negative organisms.",
+      "prerequisites": "Dressing change with clean technique; knowledge of insertion date and catheter type.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Central line exit-site erythema, tenderness, or purulence (with line-day count)",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_diastolic_murmur_new",
+      "changes_what": "New AR murmur + acute pain: immediate CT angiography/TEE for dissection. New murmur + fever: blood cultures x3 and echocardiography for endocarditis. Absent: no reassurance.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use the absence of a murmur to exclude dissection or endocarditis; do not attribute a murmur to 'chronic' disease without a prior record.",
+      "escalation_warning": "New AR murmur with tearing chest/back pain, pulse deficit, hypotension or neurological deficit: activate the dissection pathway (CTA/TEE, cardiothoracic surgery) immediately.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "With the patient sitting, leaning forward, in held end-expiration, listen with the diaphragm at the left sternal border (3rd-4th interspace) and right upper sternal border for a high-pitched, blowing, decrescendo early-diastolic murmur; check for a wide pulse pressure and collapsing pulse. Compare with prior documented examinations to establish that it is new.",
+      "id": "exam_diastolic_murmur_new",
+      "negative_finding": "Absence of a diastolic murmur does not lower the probability of dissection or endocarditis meaningfully; most dissections and many endocarditis cases have no regurgitant murmur at presentation.",
+      "pitfalls": "Early diastolic AR murmurs are soft and easily missed in a noisy ED or tachycardic patient; a chronic AR murmur is common in the elderly and is not 'new'. Pulmonary regurgitation and mitral stenosis murmurs can be confused.",
+      "positive_finding": "A diastolic murmur is heard in only about 28% of acute aortic dissections and barely changes the odds (LR+ 1.4), but a NEW aortic regurgitation murmur in acute chest/back pain (with pulse deficit or neurological deficit) or in fever/bacteraemia (endocarditis, especially prosthetic valve or IVDU) is a high-consequence finding that demands imaging.",
+      "prerequisites": "Quiet room; prior notes or echo to judge 'new'; note any prosthetic valve.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "New diastolic (aortic regurgitation) murmur",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_new_regurgitant_murmur",
+      "changes_what": "Positive: obtain blood cultures and echocardiography urgently; negative: do not lower suspicion of IE in bacteremic patients.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use absence of a murmur to withhold cultures or echocardiography in Staphylococcus aureus bacteremia, prosthetic valves, or IVDU.",
+      "escalation_warning": "New regurgitant murmur with heart failure, heart block, or embolic phenomena warrants urgent echocardiography and cardiac surgery discussion.",
+      "evidence": [
+       {
+        "citation": "Papadimitriou-Olivgeris M, Monney P, Frank M, Tzimas G, Fourr\u00e9 N, Zimmermann V, Tozzi P, Kirsch M, et al. Role of the New Physical Examination Minor Criterion (New Heart Murmur) for the Diagnosis of Infective Endocarditis. Open Forum Infect Dis. 2025.",
+        "computed": true,
+        "doi": "10.1093/ofid/ofae736",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Results, first paragraph; Table 1 row 'Minor physical examination criterion' (260 (13) vs 430 (37))",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.73"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "2.74"
+        },
+        "pmid": "39790639",
+        "population": "3127 adult episodes of suspected IE (blood cultures plus echocardiography obtained for IE) at two Swiss tertiary centres, 2014-2023; 1177 IE",
+        "prevalence": "0.376",
+        "quote": "revealed a new heart murmur in 690 (22%) episodes, which was more common in patients with IE than those without (37% vs 13%",
+        "reference_standard": "Endocarditis team or expert-clinician final diagnosis using 2023 Duke-ISCVID criteria",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.37"
+        },
+        "setting": "inpatient",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.87"
+        },
+        "target_condition": "Infective endocarditis (endocarditis-team/expert adjudicated) among episodes of suspected IE",
+        "url": null,
+        "year": "2025"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Auscultate all four valve areas with diaphragm and bell, patient supine then sitting forward in end-expiration; compare against any documented prior exam. Note any holosystolic (mitral/tricuspid) or early diastolic decrescendo (aortic) murmur not previously recorded.",
+      "id": "exam_new_regurgitant_murmur",
+      "negative_finding": "Absence of a new murmur only modestly lowers the probability of endocarditis (most IE episodes have no new murmur) and never excludes it.",
+      "pitfalls": "Requires a reliable baseline exam; tachycardia, obesity, and noisy wards reduce detection; flow murmurs from fever or anemia mimic new pathology; auscultation skill varies between examiners.",
+      "positive_finding": "A new regurgitant murmur in a febrile or bacteremic patient raises the probability of infective endocarditis and is a minor Duke-ISCVID physical-examination criterion; in a dyspneic patient it suggests acute valvular regurgitation causing heart failure.",
+      "prerequisites": "Quiet room; knowledge of prior murmur status (chart or patient report).",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "New or changed regurgitant murmur",
+      "type": "exam"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_rigors_shaking_chills",
+     "rationale": ""
+    },
+    {
+     "id": "hx_recent_antibiotics_new_diarrhea",
+     "rationale": ""
+    },
+    {
+     "id": "hx_pleuritic_chest_pain",
+     "rationale": ""
+    },
+    {
+     "id": "hx_smoking_pack_years",
+     "rationale": ""
+    }
+   ],
+   "examine": [
+    {
+     "id": "exam_infection_source_survey",
+     "rationale": ""
+    },
+    {
+     "id": "exam_line_exit_site_erythema_purulence",
+     "rationale": ""
+    },
+    {
+     "id": "exam_diastolic_murmur_new",
+     "rationale": ""
+    },
+    {
+     "id": "exam_new_regurgitant_murmur",
+     "rationale": ""
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "fever with shaking chills",
+   "differentials": [
+    {
+     "dx": "line_infection",
+     "weight": 1.0
+    },
+    {
+     "dx": "endocarditis",
+     "weight": 0.4
+    },
+    {
+     "dx": "pneumonia",
+     "weight": 0.2
+    },
+    {
+     "dx": "meningitis_encephalitis",
+     "weight": 0.2
+    },
+    {
+     "dx": "drug_fever",
+     "weight": 0.1
+    },
+    {
+     "dx": "cdiff_colitis",
+     "weight": 0.1
+    }
+   ],
+   "indication_tags": [
+    "ivdu",
+    "prosthetic_valve",
+    "immunocompromised",
+    "acute_onset"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "shaking chills",
+    "no localizing symptoms"
+   ],
+   "presentation": "fever",
+   "time_course": "acute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "n1"
+}

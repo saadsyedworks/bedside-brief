@@ -1,0 +1,309 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "weakness_003",
+ "blocked_items": [],
+ "case_id": "weakness_003_p1",
+ "created_at": "2026-09-11T09:16:07+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Time of symptom onset (last known well)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Progression of weakness (sudden vs gradual)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: facial droop, speech changes, vision changes, headache, confusion, incontinence, falls"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent trauma or falls"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication review (anticoagulants, sedatives)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past history: prior stroke/TIA, seizures, baseline mobility, dementia"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Review for delirium (fluctuating mental status, inattention)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs (fever, hypotension, hypoxia)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Full neurologic exam:"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Level of consciousness"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cranial nerves (facial symmetry, gaze, pupils, speech)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Motor strength in all limbs (compare sides)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Sensation (light touch, pinprick)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Coordination (finger-nose, heel-shin)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Reflexes (asymmetry, Babinski)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Gait (if safe)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiovascular exam (irregular rhythm, murmurs)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General exam for infection, dehydration, or other acute illness"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Blood glucose (rule out hypoglycemia)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "81",
+    "89"
+   ],
+   "performance_claims": [
+    "81",
+    "89"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "NIH Stroke Scale (quantifies stroke severity; sensitivity ~81%, specificity ~89% for large vessel stroke)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "37",
+    "79"
+   ],
+   "performance_claims": [
+    "37",
+    "79"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "FAST (Face, Arm, Speech, Time): sensitivity ~79%, specificity ~37% for stroke"
+  },
+  {
+   "bedside": false,
+   "category": "disposition",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Delirium screen (e.g., CAM-ICU)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Arm drift (pronator drift) is a sensitive sign for upper motor neuron weakness; sensitivity for stroke is high when combined with other focal deficits"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "NIHSS: higher scores correlate with more severe strokes and worse outcomes"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Hypoglycemia can mimic stroke"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "bedside glucose is essential"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Acute focal deficit in a hospitalized elderly patient is stroke until proven otherwise. Rapid assessment and neuroimaging are warranted. Rule out mimics (hypoglycemia, delirium, infection, medication effect) with bedside tests and focused history/exam"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014an 82-year-old woman hospitalized for UTI, now acutely too weak to walk, with right arm drift noted by PT\u2014your primary concern should be for an acute neurologic event, such as stroke, especially given the focal deficit (right arm drift).\n\n**History:**\n- Time of symptom onset (last known well)\n- Progression of weakness (sudden vs gradual)\n- Associated symptoms: facial droop, speech changes, vision changes, headache, confusion, incontinence, falls\n- Recent trauma or falls\n- Medication review (anticoagulants, sedatives)\n- Past history: prior stroke/TIA, seizures, baseline mobility, dementia\n- Review for delirium (fluctuating mental status, inattention)\n\n**Physical Examination:**\n- Vital signs (fever, hypotension, hypoxia)\n- Full neurologic exam:\n  - Level of consciousness\n  - Cranial nerves (facial symmetry, gaze, pupils, speech)\n  - Motor strength in all limbs (compare sides)\n  - Sensation (light touch, pinprick)\n  - Coordination (finger-nose, heel-shin)\n  - Reflexes (asymmetry, Babinski)\n  - Gait (if safe)\n- Cardiovascular exam (irregular rhythm, murmurs)\n- General exam for infection, dehydration, or other acute illness\n\n**Bedside Tests:**\n- Blood glucose (rule out hypoglycemia)\n- NIH Stroke Scale (quantifies stroke severity; sensitivity ~81%, specificity ~89% for large vessel stroke)\n- FAST (Face, Arm, Speech, Time): sensitivity ~79%, specificity ~37% for stroke\n- Delirium screen (e.g., CAM-ICU)\n\n**Diagnostic Performance Data:**\n- Arm drift (pronator drift) is a sensitive sign for upper motor neuron weakness; sensitivity for stroke is high when combined with other focal deficits.\n- NIHSS: higher scores correlate with more severe strokes and worse outcomes.\n- Hypoglycemia can mimic stroke; bedside glucose is essential.\n\n**Summary:**\n- Acute focal deficit in a hospitalized elderly patient is stroke until proven otherwise. Rapid assessment and neuroimaging are warranted. Rule out mimics (hypoglycemia, delirium, infection, medication effect) with bedside tests and focused history/exam."
+ },
+ "variant": "p1"
+}

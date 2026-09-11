@@ -1,0 +1,1237 @@
+{
+ "arm": "B",
+ "ask_first": false,
+ "base_case_id": "edema_003",
+ "blocked_items": [],
+ "case_id": "edema_003_p1",
+ "created_at": "2026-09-11T09:03:04+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "2",
+    "4"
+   ],
+   "performance_claims": [],
+   "record_id": "hx_edema_causing_medications",
+   "section": "ask",
+   "text": "Medication review for edema: dihydropyridine CCB, NSAIDs, thiazolidinediones, pregabalin/gabapentin, steroids, minoxidil/hydralazine"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Ekundayo OJ, Howard VJ, Safford MM, et al. Value of orthopnea, paroxysmal nocturnal dyspnea, and medications in prospective population studies of incident heart failure. Am J Cardiol. 2009;104(2):259-264.",
+    "Fonseca C, Morais H, Mota T, et al. The diagnosis of heart failure in primary care: value of symptoms and signs. Eur J Heart Fail. 2004;6(6):795-800."
+   ],
+   "numeric_claims": [
+    "0.047",
+    "0.46",
+    "0.52",
+    "0.58",
+    "0.82",
+    "0.83",
+    "0.84",
+    "10.1016",
+    "104",
+    "1058",
+    "15542419",
+    "19576357",
+    "2",
+    "2004",
+    "2004.08",
+    "2009",
+    "2009.03",
+    "25",
+    "25.8",
+    "259",
+    "264",
+    "272",
+    "3.06",
+    "35.5",
+    "36",
+    "39.1",
+    "46",
+    "5",
+    "52",
+    "58",
+    "6",
+    "65",
+    "771",
+    "795",
+    "800",
+    "82",
+    "83",
+    "84",
+    "95"
+   ],
+   "performance_claims": [
+    "0.46",
+    "0.52",
+    "0.58",
+    "0.58",
+    "0.82",
+    "0.83",
+    "0.84",
+    "3.06",
+    "39.1"
+   ],
+   "record_id": "hx_orthopnea",
+   "section": "ask",
+   "text": "Orthopnea: dyspnea lying flat relieved by sitting up / number of pillows"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Ekundayo OJ, Howard VJ, Safford MM, et al. Value of orthopnea, paroxysmal nocturnal dyspnea, and medications in prospective population studies of incident heart failure. Am J Cardiol. 2009;104(2):259-264.",
+    "Fonseca C, Morais H, Mota T, et al. The diagnosis of heart failure in primary care: value of symptoms and signs. Eur J Heart Fail. 2004;6(6):795-800.",
+    "Wang CS, FitzGerald JM, Schulzer M, Mak E, Ayas NT. Does this dyspneic patient in the emergency department have congestive heart failure? JAMA. 2005;294(15):1944-1956."
+   ],
+   "numeric_claims": [
+    "0.047",
+    "0.46",
+    "0.52",
+    "0.58",
+    "0.82",
+    "0.83",
+    "0.84",
+    "1",
+    "1.5",
+    "10",
+    "10.1001",
+    "10.1016",
+    "104",
+    "1058",
+    "15",
+    "15542419",
+    "16234501",
+    "1944",
+    "1956",
+    "19576357",
+    "2",
+    "2.6",
+    "2004",
+    "2004.08",
+    "2005",
+    "2009",
+    "2009.03",
+    "22",
+    "25",
+    "25.8",
+    "259",
+    "264",
+    "272",
+    "294",
+    "294.15",
+    "3",
+    "3.06",
+    "30",
+    "35.5",
+    "36",
+    "39.1",
+    "4.5",
+    "46",
+    "5",
+    "52",
+    "58",
+    "6",
+    "65",
+    "771",
+    "795",
+    "800",
+    "82",
+    "83",
+    "84",
+    "95"
+   ],
+   "performance_claims": [
+    "0.46",
+    "0.52",
+    "0.58",
+    "0.58",
+    "0.82",
+    "0.83",
+    "0.84",
+    "1.5",
+    "2.6",
+    "3.06",
+    "35.5",
+    "4.5"
+   ],
+   "record_id": "hx_pnd",
+   "section": "ask",
+   "text": "Paroxysmal nocturnal dyspnea: waking 1-3 h after sleep with dyspnea relieved by sitting/standing"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Herr RD, Zun L, Mathews JJ. A directed approach to the dizzy patient. Ann Emerg Med. 1989;18(6):664-672."
+   ],
+   "numeric_claims": [
+    "0.42",
+    "0.86",
+    "1",
+    "10.1016",
+    "125",
+    "18",
+    "196",
+    "1989",
+    "20",
+    "2729692",
+    "4",
+    "42",
+    "52",
+    "6",
+    "644",
+    "66",
+    "664",
+    "672",
+    "80524",
+    "86",
+    "89"
+   ],
+   "performance_claims": [
+    "0.42",
+    "0.86"
+   ],
+   "record_id": "hx_dizziness_timing_triggers",
+   "section": "ask",
+   "text": "Timing and triggers (TiTrATE: episodic vs continuous, triggered vs spontaneous) rather than symptom quality; associated diplopia/dysarthria/dysphagia/hearing loss"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Mant J, Doust J, Roalfe A, et al. Systematic review and individual patient data meta-analysis of diagnosis of heart failure, with modelling of implications of different diagnostic strategies in primary care. Health Technol Assess. 2009;13(32):1-207."
+   ],
+   "numeric_claims": [
+    "0.53",
+    "0.65",
+    "0.72",
+    "1",
+    "1.9",
+    "10.331",
+    "11",
+    "13",
+    "13320",
+    "19586584",
+    "2009",
+    "207",
+    "32",
+    "4",
+    "5",
+    "50",
+    "53",
+    "72",
+    "9"
+   ],
+   "performance_claims": [
+    "0.53",
+    "0.65",
+    "0.72",
+    "1.9"
+   ],
+   "record_id": "exam_peripheral_edema_pitting",
+   "section": "examine",
+   "text": "Lower-extremity edema: bilateral vs unilateral, pitting vs non-pitting (brawny), grade and level"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Simel DL, Halvorsen RA Jr, Feussner JR. Quantitating bedside diagnosis: clinical evaluation of ascites. J Gen Intern Med. 1988;3(5):423-428."
+   ],
+   "numeric_claims": [
+    "0.12",
+    "0.17",
+    "1",
+    "10.1007",
+    "1988",
+    "1992",
+    "2",
+    "2595917",
+    "3",
+    "30",
+    "3049966",
+    "423",
+    "428",
+    "5",
+    "5.76",
+    "5.8",
+    "9.6"
+   ],
+   "performance_claims": [
+    "0.12",
+    "0.17",
+    "5.76",
+    "9.6"
+   ],
+   "record_id": "exam_shifting_dullness",
+   "section": "examine",
+   "text": "Ascites signs: shifting dullness, flank dullness, fluid wave, bulging flanks"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Ebell MH, Chupp H, Cai X, Bentivegna M, Kearney M. Accuracy of Signs and Symptoms for the Diagnosis of Community-acquired Pneumonia: A Meta-analysis. Acad Emerg Med. 2020;27(7):541-553.",
+    "Wong CL, Holroyd-Leduc J, Straus SE. Does this patient have a pleural effusion? JAMA. 2009;301(3):309-317."
+   ],
+   "numeric_claims": [
+    "0.12",
+    "0.21",
+    "0.37",
+    "1.14",
+    "10.1001",
+    "10.1111",
+    "13965",
+    "17",
+    "19155458",
+    "2.2",
+    "2.6",
+    "2.62",
+    "2008.937",
+    "2009",
+    "2020",
+    "27",
+    "3",
+    "300",
+    "301",
+    "309",
+    "317",
+    "32329557",
+    "33.8",
+    "5",
+    "5.3",
+    "500",
+    "541",
+    "553",
+    "7",
+    "8.7",
+    "9",
+    "934",
+    "95"
+   ],
+   "performance_claims": [
+    "0.12",
+    "0.21",
+    "0.37",
+    "1.14",
+    "2.2",
+    "2.62",
+    "33.8",
+    "5.3",
+    "8.7"
+   ],
+   "record_id": "exam_percussion_dullness",
+   "section": "examine",
+   "text": "Dullness to percussion with decreased tactile fremitus (focal; conventional vs auscultatory percussion)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Htun TP, Sun Y, Chua HL, Pang J. Clinical features for diagnosis of pneumonia among adults in primary care setting: a systematic and meta-review. Sci Rep 2019;9:7600.",
+    "Mant J, Doust J, Roalfe A, et al. Systematic review and individual patient data meta-analysis of diagnosis of heart failure, with modelling of implications of different diagnostic strategies in primary care. Health Technol Assess 2009;13(32):1-207.",
+    "Marchello CS, Ebell MH, Dale AP, Harvill ET, Shen Y, Whalen CC. Signs and symptoms that rule out community-acquired pneumonia in outpatient adults: a systematic review and meta-analysis. J Am Board Fam Med 2019;32(2):234-47.",
+    "Signs and symptoms in adult patients with acute dyspnea: a systematic review and meta-analysis. Eur J Emerg Med 2018;25(1):3-11 (author list not retrievable via abstract tool; confirmed by PMID/DOI).",
+    "Wang CS, FitzGerald JM, Schulzer M, Mak E, Ayas NT. Does this dyspneic patient in the emergency department have congestive heart failure? JAMA 2005;294(15):1944-56."
+   ],
+   "numeric_claims": [
+    "0.04",
+    "0.07",
+    "0.1",
+    "0.13",
+    "0.35",
+    "0.37",
+    "0.51",
+    "0.59",
+    "0.7",
+    "0.77",
+    "0.81",
+    "0.92",
+    "1",
+    "1.19",
+    "1.29",
+    "1.71",
+    "10.1001",
+    "10.1038",
+    "10.1097",
+    "10.3122",
+    "10.331",
+    "100",
+    "11",
+    "13",
+    "13320",
+    "144",
+    "15",
+    "16234501",
+    "18",
+    "180219",
+    "19",
+    "1944",
+    "19586584",
+    "2",
+    "2.4",
+    "2.42",
+    "2.79",
+    "2005",
+    "2009",
+    "2018",
+    "2019",
+    "2019.02",
+    "207",
+    "234",
+    "25",
+    "29252938",
+    "294",
+    "294.15",
+    "3",
+    "30850460",
+    "31110214",
+    "32",
+    "4",
+    "4.33",
+    "4.69",
+    "41598",
+    "429",
+    "44145",
+    "47",
+    "4737",
+    "5",
+    "50",
+    "56",
+    "59",
+    "70",
+    "72",
+    "7600",
+    "8",
+    "81",
+    "85",
+    "89",
+    "9",
+    "95",
+    "99"
+   ],
+   "performance_claims": [
+    "0.07",
+    "0.1",
+    "0.13",
+    "0.35",
+    "0.37",
+    "0.51",
+    "0.7",
+    "0.77",
+    "0.81",
+    "1.19",
+    "2.42",
+    "4.69"
+   ],
+   "record_id": "exam_pulmonary_crackles",
+   "section": "examine",
+   "text": "Pulmonary crackles: bibasilar (heart failure) vs focal/unilateral (pneumonia)"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "card": {
+   "chief_complaint": "new bilateral leg swelling and aching",
+   "presentation": "edema",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_edema_causing_medications",
+      "changes_what": "Positive: trial withdrawal/dose reduction and reassess, check creatinine; negative or non-resolving: pursue HF, venous, renal, hepatic and DVT causes.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not label edema as drug-induced when there is dyspnea, orthopnea, elevated JVP, unilateral swelling, hypoalbuminemia/proteinuria or rising creatinine until those causes are evaluated.",
+      "escalation_warning": "Thiazolidinedione- or NSAID-associated edema with weight gain and dyspnea may be new/worsened heart failure; NSAID edema with oliguria or rising creatinine indicates AKI - stop the drug and assess urgently.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Review the full list for dihydropyridine CCBs (amlodipine, nifedipine), NSAIDs/COX-2 inhibitors, thiazolidinediones, pregabalin/gabapentin, corticosteroids, direct vasodilators (minoxidil, hydralazine), estrogens/progestins, testosterone, docetaxel, and DPP-4 or insulin. Record start date and dose escalation relative to edema onset and whether edema is bilateral, dependent and non-tender.",
+      "id": "hx_edema_causing_medications",
+      "negative_finding": "No culprit drug makes medication effect unlikely and directs evaluation toward heart failure, venous insufficiency, renal/hepatic disease or DVT (if unilateral).",
+      "pitfalls": "Up to one-third of edema on amlodipine is not caused by it, and thiazolidinediones/NSAIDs can precipitate true heart failure rather than benign edema; drug edema is a diagnosis of exclusion when JVP, BNP or echo suggest cardiac disease. Unilateral or painful edema is never attributed to medication.",
+      "positive_finding": "Bilateral dependent edema beginning weeks after starting or increasing a dihydropyridine CCB, NSAID, thiazolidinedione, gabapentinoid, steroid or vasodilator, without orthopnea, elevated JVP or weight gain out of proportion, supports drug-induced edema (and NSAIDs also cause AKI/sodium retention).",
+      "prerequisites": "Reconciled medication list including over-the-counter NSAIDs; weight trend, orthopnea/PND and JVP assessment to distinguish drug edema from heart failure.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Medication review for edema: dihydropyridine CCB, NSAIDs, thiazolidinediones, pregabalin/gabapentin, steroids, minoxidil/hydralazine",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_orthopnea",
+      "changes_what": "New orthopnoea raises probability of decompensated HF and supports BNP/echo and decongestion; absence should not be used to exclude HF.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not rely on the absence of orthopnoea to exclude heart failure, and do not attribute orthopnoea to heart failure without examining for tamponade, effusion or neuromuscular weakness when the picture does not fit.",
+      "escalation_warning": "Orthopnoea with hypotension, pulsus paradoxus or a raised JVP suggests tamponade or acute pump failure; obtain immediate echo.",
+      "evidence": [
+       {
+        "citation": "Fonseca C, Morais H, Mota T, et al. The diagnosis of heart failure in primary care: value of symptoms and signs. Eur J Heart Fail. 2004;6(6):795-800.",
+        "computed": false,
+        "doi": "10.1016/j.ejheart.2004.08.002",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "39.1"
+        },
+        "pmid": "15542419",
+        "population": "Portuguese primary care attendees screened by Boston questionnaire and referred for echocardiography (n=1058 assessed); orthopnoea sensitivity reported only as <36%",
+        "prevalence": null,
+        "quote": "a history of paroxysmal nocturnal dyspnoea (LR 35.5), orthopnea (LR 39.1) and breathlessness when walking on the flat (LR 25.8)",
+        "reference_standard": "Resting echocardiography with clinical assessment",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "Heart failure (cardiac dysfunction at rest on echocardiography)",
+        "url": null,
+        "year": "2004"
+       },
+       {
+        "citation": "Ekundayo OJ, Howard VJ, Safford MM, et al. Value of orthopnea, paroxysmal nocturnal dyspnea, and medications in prospective population studies of incident heart failure. Am J Cardiol. 2009;104(2):259-264.",
+        "computed": true,
+        "doi": "10.1016/j.amjcard.2009.03.025",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.58"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "3.06"
+        },
+        "pmid": "19576357",
+        "population": "5,771 community-dwelling adults >=65 years in the Cardiovascular Health Study; 272 with adjudicated definite HF",
+        "prevalence": "0.047",
+        "quote": "for either orthopnea or PND were 52% (95% confidence interval [CI] 46% to 58%), 83% (95% CI 82% to 84%)",
+        "reference_standard": "Centrally adjudicated definite heart failure (CHS criteria)",
+        "sensitivity": {
+         "ci_high": "0.58",
+         "ci_low": "0.46",
+         "value": "0.52"
+        },
+        "setting": "outpatient",
+        "specificity": {
+         "ci_high": "0.84",
+         "ci_low": "0.82",
+         "value": "0.83"
+        },
+        "target_condition": "Prevalent definite heart failure (composite symptom: orthopnoea OR paroxysmal nocturnal dyspnoea)",
+        "url": null,
+        "year": "2009"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Ask whether breathing worsens within minutes of lying flat and eases on sitting up, how many pillows (or what head-of-bed angle) are needed to sleep, and whether this is new or increased compared with baseline. Distinguish from positional dyspnoea due to abdominal distension, obesity, or nasal obstruction, and from cough-related waking.",
+      "id": "hx_orthopnea",
+      "negative_finding": "Absence of orthopnoea only modestly lowers the probability of heart failure; many heart failure patients, particularly with chronic disease, sleep flat.",
+      "pitfalls": "Orthopnoea also occurs with COPD, massive ascites, obesity, and bilateral diaphragm paralysis; pillow count is confounded by habit, reflux and sinus disease. In chronic HF orthopnoea correlates poorly with measured wedge pressure.",
+      "positive_finding": "New or worsening need to sleep propped up, with dyspnoea on lying flat that resolves on sitting, points to raised left-sided filling pressure (heart failure) or, less often, tamponade, large effusion or bilateral diaphragm weakness.",
+      "prerequisites": "Patient (or collateral historian) able to describe sleep position and recent change.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Orthopnea: dyspnea lying flat relieved by sitting up / number of pillows",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_pnd",
+      "changes_what": "PND raises probability of decompensated HF (pooled LR+ ~2.6 in ED) and supports BNP/echo; absence changes little.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use absence of PND to exclude heart failure; do not label nocturnal wheeze as asthma in an older patient with risk factors for heart failure without checking for congestion.",
+      "escalation_warning": "PND with chest pain, new oedema or hypoxaemia at rest indicates decompensation that needs same-day assessment rather than outpatient follow-up.",
+      "evidence": [
+       {
+        "citation": "Wang CS, FitzGerald JM, Schulzer M, Mak E, Ayas NT. Does this dyspneic patient in the emergency department have congestive heart failure? JAMA. 2005;294(15):1944-1956.",
+        "computed": false,
+        "doi": "10.1001/jama.294.15.1944",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "4.5",
+         "ci_low": "1.5",
+         "value": "2.6"
+        },
+        "pmid": "16234501",
+        "population": "Adults presenting to the emergency department with dyspnoea (22 studies pooled)",
+        "prevalence": null,
+        "quote": "the symptom of paroxysmal nocturnal dyspnea (positive LR = 2.6; 95% CI, 1.5-4.5)",
+        "reference_standard": "Clinical diagnosis of heart failure adjudicated in the primary studies (varied criteria)",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Heart failure as cause of acute dyspnoea",
+        "url": null,
+        "year": "2005"
+       },
+       {
+        "citation": "Fonseca C, Morais H, Mota T, et al. The diagnosis of heart failure in primary care: value of symptoms and signs. Eur J Heart Fail. 2004;6(6):795-800.",
+        "computed": false,
+        "doi": "10.1016/j.ejheart.2004.08.002",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "35.5"
+        },
+        "pmid": "15542419",
+        "population": "Portuguese primary care attendees screened by Boston questionnaire and referred for echocardiography (n=1058 assessed); PND sensitivity reported only as <36%",
+        "prevalence": null,
+        "quote": "a history of paroxysmal nocturnal dyspnoea (LR 35.5), orthopnea (LR 39.1) and breathlessness when walking on the flat (LR 25.8)",
+        "reference_standard": "Resting echocardiography with clinical assessment",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "Heart failure (cardiac dysfunction at rest on echocardiography)",
+        "url": null,
+        "year": "2004"
+       },
+       {
+        "citation": "Ekundayo OJ, Howard VJ, Safford MM, et al. Value of orthopnea, paroxysmal nocturnal dyspnea, and medications in prospective population studies of incident heart failure. Am J Cardiol. 2009;104(2):259-264.",
+        "computed": true,
+        "doi": "10.1016/j.amjcard.2009.03.025",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.58"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "3.06"
+        },
+        "pmid": "19576357",
+        "population": "5,771 community-dwelling adults >=65 years in the Cardiovascular Health Study; 272 with adjudicated definite HF",
+        "prevalence": "0.047",
+        "quote": "for either orthopnea or PND were 52% (95% confidence interval [CI] 46% to 58%), 83% (95% CI 82% to 84%)",
+        "reference_standard": "Centrally adjudicated definite heart failure (CHS criteria)",
+        "sensitivity": {
+         "ci_high": "0.58",
+         "ci_low": "0.46",
+         "value": "0.52"
+        },
+        "setting": "outpatient",
+        "specificity": {
+         "ci_high": "0.84",
+         "ci_low": "0.82",
+         "value": "0.83"
+        },
+        "target_condition": "Prevalent definite heart failure (composite symptom: orthopnoea OR paroxysmal nocturnal dyspnoea)",
+        "url": null,
+        "year": "2009"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Ask whether the patient wakes from sleep, typically 1-3 hours after lying down, gasping or short of breath and has to sit up, stand or go to a window for relief that takes 10-30 minutes. Ask about wheeze or cough with the episodes and about daytime exertional dyspnoea, orthopnoea and oedema to separate cardiac from asthmatic nocturnal symptoms.",
+      "id": "hx_pnd",
+      "negative_finding": "Absence of PND is common in heart failure and provides little reassurance; it should not lower the probability enough to stop the work-up.",
+      "pitfalls": "Nocturnal asthma, COPD with secretions, sleep apnoea, reflux/aspiration and nocturnal angina produce similar waking; 'cardiac asthma' with wheeze is easily mislabelled as asthma. Recall is unreliable and prevalence is low so specificity drives its value.",
+      "positive_finding": "Episodes of waking from sleep with dyspnoea that resolve slowly on sitting or standing indicate redistribution of fluid into the lungs from raised left-sided filling pressure, i.e. decompensated heart failure.",
+      "prerequisites": "Patient or bed partner able to describe nocturnal episodes.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Paroxysmal nocturnal dyspnea: waking 1-3 h after sleep with dyspnea relieved by sitting/standing",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_dizziness_timing_triggers",
+      "changes_what": "Determines which bedside exam follows: HINTS for continuous spontaneous, Dix-Hallpike for triggered episodic, orthostatic vitals for standing-triggered, ECG/monitoring for spontaneous episodic.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use a reassuring timing/trigger pattern alone to exclude stroke in patients with vascular risk factors, new headache/neck pain, or any brainstem symptom; obtain the targeted examination.",
+      "escalation_warning": "Acute continuous dizziness with any of diplopia, dysarthria, dysphagia, limb ataxia, new deafness or inability to walk unaided is a stroke pathway until proven otherwise; up to 20% of early DWI-MRI are false negative.",
+      "evidence": [
+       {
+        "citation": "Herr RD, Zun L, Mathews JJ. A directed approach to the dizzy patient. Ann Emerg Med. 1989;18(6):664-672.",
+        "computed": false,
+        "doi": "10.1016/s0196-0644(89)80524-4",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "2729692",
+        "population": "125 ED patients with dizziness evaluated with a standardized 66-item history/exam/lab protocol",
+        "prevalence": null,
+        "quote": "The best predictors, either older age, lack of vertigo, or neurologic deficit, could identify 86% of \"serious\" dizziness with 42% specificity.",
+        "reference_standard": "Emergency physician diagnosis modified by 1-month follow-up using predefined diagnostic criteria",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.86"
+        },
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.42"
+        },
+        "target_condition": "'Serious' cause of dizziness (stroke/TIA, arrhythmia, medication, seizure, other requiring admission) - composite predictor: older age OR lack of vertigo OR neurologic deficit",
+        "url": null,
+        "year": "1989"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Instead of asking 'what kind of dizziness', ask: Is it there now continuously or does it come in discrete episodes? How long do episodes last (seconds, minutes, hours)? Is it brought on only by a trigger (head/position change, standing) or does it arise spontaneously? Then ask about diplopia, dysarthria, dysphagia, new hearing loss, headache or neck pain.",
+      "id": "hx_dizziness_timing_triggers",
+      "negative_finding": "A clear positional trigger with seconds-long episodes and no neurologic symptoms makes central causes unlikely, but isolated dizziness can still be a vertebrobasilar stroke.",
+      "pitfalls": "Symptom-quality descriptors (vertigo vs lightheadedness) are unreliable: 52% of ED patients changed their descriptor on retest after ~6 minutes, so do not triage on 'type'. Do not confuse 'worse with movement' (most vestibular causes) with 'only occurs with movement' (true trigger).",
+      "positive_finding": "Continuous acute vestibular syndrome demands HINTS-type eye examination for stroke; triggered brief episodes point to BPPV or orthostatic hypotension (test with Dix-Hallpike or orthostatic vitals); spontaneous episodes lasting minutes-hours suggest TIA, Meniere or arrhythmia. Any associated brainstem symptom raises stroke probability.",
+      "prerequisites": "Patient able to give a history; screen for red-flag neurologic symptoms before deciding on examination pathway.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Timing and triggers (TiTrATE: episodic vs continuous, triggered vs spontaneous) rather than symptom quality; associated diplopia/dysarthria/dysphagia/hearing loss",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/exam_peripheral_edema_pitting",
+      "changes_what": "Bilateral pitting edema plus elevated JVP should shift dyspnea toward HF and prompt BNP/echo; unilateral edema should trigger DVT evaluation instead.",
+      "contraindications": "None; avoid pressing over cellulitis, ulcers or a suspected DVT.",
+      "do_not_use_when": "Do not rely on edema alone to diagnose or exclude HF, or to judge acute volume status in a hypotensive or oliguric patient.",
+      "escalation_warning": "Unilateral painful edema needs DVT evaluation; rapidly progressive bilateral edema with hypotension or rising creatinine suggests cardiorenal or cirrhotic decompensation and needs urgent assessment.",
+      "evidence": [
+       {
+        "citation": "Mant J, Doust J, Roalfe A, et al. Systematic review and individual patient data meta-analysis of diagnosis of heart failure, with modelling of implications of different diagnostic strategies in primary care. Health Technol Assess. 2009;13(32):1-207.",
+        "computed": true,
+        "doi": "10.3310/hta13320",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.65"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "1.9"
+        },
+        "pmid": "19586584",
+        "population": "Individual patient data from 9 studies of adults with suspected heart failure (predominantly primary care / open-access referral cohorts)",
+        "prevalence": null,
+        "quote": "oedema (72%) ... sensitivity of these features was low, ranging from 11% (added heart sounds) to 53% (oedema)",
+        "reference_standard": "Heart failure diagnosis by echocardiography-based criteria of each included study",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.53"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.72"
+        },
+        "target_condition": "Heart failure (any) in patients with suspected heart failure",
+        "url": null,
+        "year": "2009"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Press firmly with the thumb for at least 5 s over the dorsum of the foot, behind the medial malleolus and over the tibial shaft, then release. Note whether a pit persists (pitting), its depth and duration (grade 1-4), how high up the leg it extends, and whether it is symmetric. Non-pitting, firm (brawny) edema suggests lymphedema or chronic venous disease.",
+      "id": "exam_peripheral_edema_pitting",
+      "negative_finding": "Absence of edema does not exclude heart failure (pooled sensitivity ~50%); acute HF and HFpEF often present without edema.",
+      "pitfalls": "Dependent edema in chronically seated or elderly patients is common without HF; edema lags behind volume changes by days, so it tracks chronic rather than acute volume status.",
+      "positive_finding": "Bilateral pitting edema modestly raises the probability of heart failure in dyspneic patients but is nonspecific: venous insufficiency, drugs, hypoalbuminemia, nephrotic syndrome and cirrhosis produce the same sign. Unilateral edema points to a local cause (DVT, venous obstruction, cellulitis); brawny non-pitting edema suggests lymphedema.",
+      "prerequisites": "Compare both legs at the same level; ask about duration, leg dependency, and new drugs (calcium-channel blockers, thiazolidinediones, NSAIDs).",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Lower-extremity edema: bilateral vs unilateral, pitting vs non-pitting (brawny), grade and level",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_shifting_dullness",
+      "changes_what": "Positive: confirm with POCUS and consider diagnostic paracentesis (SBP, SAAG); negative flank dullness: ascites unlikely, look elsewhere for edema/AKI cause.",
+      "contraindications": "Avoid rolling patients with unstable spine or fresh abdominal wounds; otherwise none.",
+      "do_not_use_when": "Do not rely on percussion to exclude small-volume ascites when SBP or hepatorenal syndrome is suspected; use ultrasound.",
+      "escalation_warning": "Ascites with fever, abdominal pain, encephalopathy or rising creatinine needs urgent diagnostic paracentesis for SBP.",
+      "evidence": [
+       {
+        "citation": "Simel DL, Halvorsen RA Jr, Feussner JR. Quantitating bedside diagnosis: clinical evaluation of ascites. J Gen Intern Med. 1988;3(5):423-428.",
+        "computed": false,
+        "doi": "10.1007/BF02595917",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "9.6"
+        },
+        "pmid": "3049966",
+        "population": "Hospitalized adults with suspected ascites, broad spectrum (Durham VA); n not stated in abstract",
+        "prevalence": null,
+        "quote": "The positive likelihood ratios for a fluid wave = 9.6 and shifting dullness = 5.76 favored ascites",
+        "reference_standard": "Not stated in abstract (the 1992 RCE summarises this study as ultrasound-referenced; full text not viewable here)",
+        "sensitivity": null,
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Ascites",
+        "url": null,
+        "year": "1988"
+       },
+       {
+        "citation": "Simel DL, Halvorsen RA Jr, Feussner JR. Quantitating bedside diagnosis: clinical evaluation of ascites. J Gen Intern Med. 1988;3(5):423-428.",
+        "computed": false,
+        "doi": "10.1007/BF02595917",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "5.76"
+        },
+        "pmid": "3049966",
+        "population": "Hospitalized adults with suspected ascites, broad spectrum (Durham VA); n not stated in abstract",
+        "prevalence": null,
+        "quote": "The positive likelihood ratios for a fluid wave = 9.6 and shifting dullness = 5.76 favored ascites",
+        "reference_standard": "Not stated in abstract (the 1992 RCE summarises this study as ultrasound-referenced; full text not viewable here)",
+        "sensitivity": null,
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Ascites",
+        "url": null,
+        "year": "1988"
+       },
+       {
+        "citation": "Simel DL, Halvorsen RA Jr, Feussner JR. Quantitating bedside diagnosis: clinical evaluation of ascites. J Gen Intern Med. 1988;3(5):423-428.",
+        "computed": false,
+        "doi": "10.1007/BF02595917",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_out",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.12"
+        },
+        "lr_positive": null,
+        "pmid": "3049966",
+        "population": "Hospitalized adults with suspected ascites, broad spectrum (Durham VA); n not stated in abstract",
+        "prevalence": null,
+        "quote": "the absence of bulging flanks (negative likelihood ratio = 0.12) or peripheral edema (negative likelihood ratio = 0.17) favored ascites the least",
+        "reference_standard": "Not stated in abstract (the 1992 RCE summarises this study as ultrasound-referenced; full text not viewable here)",
+        "sensitivity": null,
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Ascites",
+        "url": null,
+        "year": "1988"
+       },
+       {
+        "citation": "Simel DL, Halvorsen RA Jr, Feussner JR. Quantitating bedside diagnosis: clinical evaluation of ascites. J Gen Intern Med. 1988;3(5):423-428.",
+        "computed": false,
+        "doi": "10.1007/BF02595917",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_out",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.17"
+        },
+        "lr_positive": null,
+        "pmid": "3049966",
+        "population": "Hospitalized adults with suspected ascites, broad spectrum (Durham VA); n not stated in abstract",
+        "prevalence": null,
+        "quote": "the absence of bulging flanks (negative likelihood ratio = 0.12) or peripheral edema (negative likelihood ratio = 0.17) favored ascites the least",
+        "reference_standard": "Not stated in abstract (the 1992 RCE summarises this study as ultrasound-referenced; full text not viewable here)",
+        "sensitivity": null,
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Ascites",
+        "url": null,
+        "year": "1988"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Supine: inspect for bulging flanks, then percuss from umbilicus laterally to map the flank dullness border. Roll the patient onto one side, wait ~30 s and re-percuss: the dull border shifting toward the dependent side (>2-3 cm) is positive. Fluid wave: assistant's hand edge on midline; tap one flank sharply and feel for an impulse at the other flank.",
+      "id": "exam_shifting_dullness",
+      "negative_finding": "Absence of bulging flanks (LR- 0.12) or of flank dullness argues strongly against clinically significant ascites; absent shifting dullness with a normal PT makes ascites rare.",
+      "pitfalls": "Examination misses small volumes (<1 L) and is unreliable in obesity; fluid wave is often falsely positive in obesity and falsely negative with small volumes; interobserver agreement is only moderate.",
+      "positive_finding": "A fluid wave (LR+ about 9.6) or shifting dullness (LR+ about 5.8) makes ascites substantially more likely in hospitalized patients with suspected ascites. Positive signs in a patient with liver disease and prolonged PT are very likely true.",
+      "prerequisites": "Supine patient able to roll laterally; empty bladder; quiet room for percussion.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Ascites signs: shifting dullness, flank dullness, fluid wave, bulging flanks",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_percussion_dullness",
+      "changes_what": "Dullness + reduced fremitus: order CXR/POCUS for effusion. Dullness + increased fremitus/egophony: treat as consolidation. Normal fremitus at low pretest probability: may skip imaging.",
+      "contraindications": "None.",
+      "do_not_use_when": "Not a substitute for imaging when effusion or empyema would change management (e.g., febrile patient with suspected parapneumonic effusion).",
+      "escalation_warning": "Dullness with fever and hypoxia or with unilateral absent breath sounds and hemodynamic compromise warrants urgent imaging and drainage assessment.",
+      "evidence": [
+       {
+        "citation": "Wong CL, Holroyd-Leduc J, Straus SE. Does this patient have a pleural effusion? JAMA. 2009;301(3):309-317.",
+        "computed": false,
+        "doi": "10.1001/jama.2008.937",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "33.8",
+         "ci_low": "2.2",
+         "value": "8.7"
+        },
+        "pmid": "19155458",
+        "population": "Adults with respiratory symptoms; 5 prospective studies, N=934",
+        "prevalence": null,
+        "quote": "dullness to conventional percussion was most accurate for diagnosing pleural effusion (summary positive likelihood ratio, 8.7; 95% confidence interval, 2.2-33.8)",
+        "reference_standard": "Chest radiograph (radiographic confirmation)",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Pleural effusion (dullness to conventional percussion)",
+        "url": null,
+        "year": "2009"
+       },
+       {
+        "citation": "Wong CL, Holroyd-Leduc J, Straus SE. Does this patient have a pleural effusion? JAMA. 2009;301(3):309-317.",
+        "computed": false,
+        "doi": "10.1001/jama.2008.937",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_out",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.37",
+         "ci_low": "0.12",
+         "value": "0.21"
+        },
+        "lr_positive": null,
+        "pmid": "19155458",
+        "population": "Adults with respiratory symptoms; 5 prospective studies, N=934",
+        "prevalence": null,
+        "quote": "the absence of reduced tactile vocal fremitus made pleural effusion less likely (negative likelihood ratio, 0.21; 95% confidence interval, 0.12-0.37)",
+        "reference_standard": "Chest radiograph (radiographic confirmation)",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Pleural effusion (absence of reduced tactile vocal fremitus)",
+        "url": null,
+        "year": "2009"
+       },
+       {
+        "citation": "Ebell MH, Chupp H, Cai X, Bentivegna M, Kearney M. Accuracy of Signs and Symptoms for the Diagnosis of Community-acquired Pneumonia: A Meta-analysis. Acad Emerg Med. 2020;27(7):541-553.",
+        "computed": false,
+        "doi": "10.1111/acem.13965",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "5.3",
+         "ci_low": "1.14",
+         "value": "2.62"
+        },
+        "pmid": "32329557",
+        "population": "Adults with suspected pneumonia or acute cough; 17 prospective cohorts (9 primary care, 7 ED)",
+        "prevalence": null,
+        "quote": "dullness to percussion (LR+ = 2.62, 95% CI = 1.14 to 5.30)",
+        "reference_standard": "Chest imaging",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Community-acquired pneumonia (dullness to percussion)",
+        "url": null,
+        "year": "2020"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Patient sitting; percuss the posterior and lateral chest from apex to base, comparing sides at each level, and mark where resonance changes to dull. Then ask the patient to say 'ninety-nine' while palpating the same sites with the ulnar hand edge to grade tactile fremitus. Auscultatory percussion: tap the manubrium while listening over the posterior chest.",
+      "id": "exam_percussion_dullness",
+      "negative_finding": "Normal (non-reduced) tactile fremitus lowers the probability of effusion (LR- 0.21) and may make radiography unnecessary when pretest probability is low.",
+      "pitfalls": "Small effusions (<300-500 mL) are missed; obesity, raised hemidiaphragm, and dense consolidation all produce dullness. Conventional percussion outperforms auscultatory percussion in pooled data.",
+      "positive_finding": "Stony dullness with reduced fremitus over a base strongly favors pleural effusion (pooled LR+ 8.7); dullness with increased fremitus and bronchial breathing favors consolidation (LR+ 2.6 for CAP).",
+      "prerequisites": "Bare skin, patient able to sit or lie lateral, quiet room.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Dullness to percussion with decreased tactile fremitus (focal; conventional vs auscultatory percussion)",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_pulmonary_crackles",
+      "changes_what": "Bibasilar crackles favor HF (add JVP, S3, BNP/POCUS); focal crackles with fever favor pneumonia (CXR); clear lungs do not rule out either but lower HF probability modestly.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use clear lungs to exclude heart failure in chronic HF patients (crackles are often absent with high filling pressures) or to exclude pneumonia in the elderly/immunocompromised, where auscultation is insensitive.",
+      "escalation_warning": "Diffuse crackles with hypoxemia and hypotension suggest pulmonary edema from cardiogenic shock or ARDS and require immediate escalation regardless of etiology.",
+      "evidence": [
+       {
+        "citation": "Wang CS, FitzGerald JM, Schulzer M, Mak E, Ayas NT. Does this dyspneic patient in the emergency department have congestive heart failure? JAMA 2005;294(15):1944-56.",
+        "computed": false,
+        "doi": "10.1001/jama.294.15.1944",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "rce_series",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.7",
+         "ci_low": "0.37",
+         "value": "0.51"
+        },
+        "lr_positive": null,
+        "pmid": "16234501",
+        "population": "Adult ED patients presenting with dyspnea; RCE pooled analysis",
+        "prevalence": null,
+        "quote": "rales (negative LR = 0.51; 95% CI, 0.37-0.70)",
+        "reference_standard": "Clinical/echo-based HF diagnosis per included studies",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Congestive heart failure as cause of dyspnea (absence of rales)",
+        "url": null,
+        "year": "2005"
+       },
+       {
+        "citation": "Signs and symptoms in adult patients with acute dyspnea: a systematic review and meta-analysis. Eur J Emerg Med 2018;25(1):3-11 (author list not retrievable via abstract tool; confirmed by PMID/DOI).",
+        "computed": false,
+        "doi": "10.1097/MEJ.0000000000000429",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results (specificity 0.77 in Abstract, Conclusion: 'lung crepitations (0.77, pooled odds ratio: 11)')",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.35"
+        },
+        "lr_positive": null,
+        "pmid": "29252938",
+        "population": "Adults with a new episode of acute dyspnea; 8 ED studies, 4737 patients; HF prevalence 25-59%",
+        "prevalence": null,
+        "quote": "NLR was between 0.59 and 1.29 with one outlier: rales (pooled NLR=0.35)",
+        "reference_standard": "Clinical diagnosis of HF per included studies",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.77"
+        },
+        "target_condition": "Heart failure as cause of acute dyspnea (lung crepitations/rales)",
+        "url": null,
+        "year": "2018"
+       },
+       {
+        "citation": "Mant J, Doust J, Roalfe A, et al. Systematic review and individual patient data meta-analysis of diagnosis of heart failure, with modelling of implications of different diagnostic strategies in primary care. Health Technol Assess 2009;13(32):1-207.",
+        "computed": false,
+        "doi": "10.3310/hta13320",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "19586584",
+        "population": "Patients with suspected heart failure in primary care; IPD meta-analysis of 9 studies",
+        "prevalence": null,
+        "quote": "orthopnoea (89%), oedema (72%), elevated jugular venous pressure (70%), cardiomegaly (85%), added heart sounds (99%), lung crepitations (81%)",
+        "reference_standard": "Echocardiography / expert panel per included studies",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.81"
+        },
+        "target_condition": "Heart failure (new diagnosis) in primary care (lung crepitations)",
+        "url": null,
+        "year": "2009"
+       },
+       {
+        "citation": "Htun TP, Sun Y, Chua HL, Pang J. Clinical features for diagnosis of pneumonia among adults in primary care setting: a systematic and meta-review. Sci Rep 2019;9:7600.",
+        "computed": false,
+        "doi": "10.1038/s41598-019-44145-y",
+        "evidence_level": "pooled",
+        "interpretation_label": "modest",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "4.69",
+         "ci_low": "1.19",
+         "value": "2.42"
+        },
+        "pmid": "31110214",
+        "population": "Adults >=18 without serious illness or immunosuppression presenting to primary care/outpatient/emergency clinics with respiratory symptoms; 13 studies, 11,144 participants; pneumonia prevalence 5-50%",
+        "prevalence": null,
+        "quote": "pulse rate >100 min-1 (2.79; 1.71-4.33), and crackles (2.42; 1.19-4.69)",
+        "reference_standard": "Chest radiograph",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "Radiographic community-acquired pneumonia (crackles present)",
+        "url": null,
+        "year": "2019"
+       },
+       {
+        "citation": "Marchello CS, Ebell MH, Dale AP, Harvill ET, Shen Y, Whalen CC. Signs and symptoms that rule out community-acquired pneumonia in outpatient adults: a systematic review and meta-analysis. J Am Board Fam Med 2019;32(2):234-47.",
+        "computed": false,
+        "doi": "10.3122/jabfm.2019.02.180219",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_out",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": {
+         "ci_high": "0.13",
+         "ci_low": "0.07",
+         "value": "0.1"
+        },
+        "lr_positive": null,
+        "pmid": "30850460",
+        "population": "Outpatient adults/adolescents with acute respiratory infection; 3 studies; baseline CAP risk ~4%",
+        "prevalence": "0.04",
+        "quote": "had a summary estimate of LR- of 0.10 (95% CI, 0.07 to 0.13) with an area under the receiver operating characteristic curve of 0.92",
+        "reference_standard": "Chest radiograph",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "Community-acquired pneumonia; COMPOSITE rule-out = normal vital signs AND normal pulmonary examination (no crackles or other auscultatory abnormality)",
+        "url": null,
+        "year": "2019"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "With the patient sitting, auscultate posterior bases and all fields during slow deep breaths through an open mouth, comparing sides. Have the patient cough before calling crackles persistent; note timing (late-inspiratory fine = edema/fibrosis; coarse = secretions), distribution (bibasilar symmetric vs focal), and whether they clear with position change.",
+      "id": "exam_pulmonary_crackles",
+      "negative_finding": "Absence of crackles lowers the probability of heart failure only moderately (LR- 0.35-0.51) and does not exclude pneumonia; normal vital signs plus a normal lung examination together make CAP unlikely (LR- 0.10).",
+      "pitfalls": "Dependent-atelectasis crackles clear with deep breaths or cough; chronic 'velcro' crackles of fibrosis mimic edema; in chronic HF crackles are often absent despite high wedge pressure, and obese or shallow-breathing patients give false negatives.",
+      "positive_finding": "Bibasilar symmetric late-inspiratory crackles in an acutely dyspneic adult raise the probability of heart failure (pooled specificity ~0.77-0.81); focal/unilateral crackles with fever or cough raise the probability of pneumonia (pooled LR+ ~2.4). Crackles are non-specific and also occur in ILD, atelectasis, COPD and bronchiectasis.",
+      "prerequisites": "Quiet room, diaphragm on skin, patient able to take deep breaths; re-listen after several deep breaths because dependent atelectasis crackles clear.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Pulmonary crackles: bibasilar (heart failure) vs focal/unilateral (pneumonia)",
+      "type": "exam"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_edema_causing_medications",
+     "rationale": ""
+    },
+    {
+     "id": "hx_orthopnea",
+     "rationale": ""
+    },
+    {
+     "id": "hx_pnd",
+     "rationale": ""
+    },
+    {
+     "id": "hx_dizziness_timing_triggers",
+     "rationale": ""
+    }
+   ],
+   "examine": [
+    {
+     "id": "exam_peripheral_edema_pitting",
+     "rationale": ""
+    },
+    {
+     "id": "exam_shifting_dullness",
+     "rationale": ""
+    },
+    {
+     "id": "exam_percussion_dullness",
+     "rationale": ""
+    },
+    {
+     "id": "exam_pulmonary_crackles",
+     "rationale": ""
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "new bilateral leg swelling and aching",
+   "differentials": [
+    {
+     "dx": "acute_decompensated_hf",
+     "weight": 1.0
+    },
+    {
+     "dx": "medication_effect",
+     "weight": 0.5
+    },
+    {
+     "dx": "hypoalbuminemia",
+     "weight": 0.375
+    },
+    {
+     "dx": "venous_insufficiency",
+     "weight": 0.25
+    },
+    {
+     "dx": "cirrhosis",
+     "weight": 0.2
+    },
+    {
+     "dx": "nephrotic_syndrome",
+     "weight": 0.175
+    }
+   ],
+   "indication_tags": [
+    "bilateral",
+    "acute_onset",
+    "febrile"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "bilateral",
+    "symmetric",
+    "aching"
+   ],
+   "presentation": "edema",
+   "time_course": "acute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "p1"
+}

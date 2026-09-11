@@ -1,0 +1,1153 @@
+{
+ "arm": "B",
+ "ask_first": false,
+ "base_case_id": "syncope_001",
+ "blocked_items": [],
+ "case_id": "syncope_001",
+ "created_at": "2026-09-11T09:04:43+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Chun AA, McGee SR. Bedside diagnosis of coronary artery disease: a systematic review. Am J Med. 2004;117(5):334-343.",
+    "Goodacre S, Locker T, Morris F, Campbell S. How useful are clinical features in the diagnosis of acute, undifferentiated chest pain? Acad Emerg Med. 2002;9(3):203-208."
+   ],
+   "numeric_claims": [
+    "0.038",
+    "0.091",
+    "0.1",
+    "10.1016",
+    "10.1111",
+    "117",
+    "11874776",
+    "15336583",
+    "1553",
+    "1966",
+    "2.06",
+    "2.1",
+    "2.35",
+    "2.4",
+    "2002",
+    "2003",
+    "2004",
+    "2004.03",
+    "203",
+    "208",
+    "21",
+    "245",
+    "2712.2002",
+    "3",
+    "3.8",
+    "334",
+    "343",
+    "4.2",
+    "5",
+    "5.8",
+    "6",
+    "7.8",
+    "893",
+    "9",
+    "9.1",
+    "95"
+   ],
+   "performance_claims": [
+    "2.06",
+    "2.35",
+    "4.2",
+    "5.8",
+    "7.8"
+   ],
+   "record_id": "hx_exertional_chest_pain",
+   "section": "ask",
+   "text": "Chest pain provoked by exertion, relieved by rest (typical angina pattern)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Berecki-Gisolf J, Sheldon A, Wieling W, et al. Identifying cardiac syncope based on clinical history: a literature-based model tested in four independent datasets. PLoS One. 2013;8(10):e75255.",
+    "Del Rosso A, Alboni P, Brignole M, Menozzi C, Raviele A. Relation of clinical presentation of syncope to the age of patients. Am J Cardiol. 2005;96(10):1431-1435."
+   ],
+   "numeric_claims": [
+    "0.0001",
+    "0.13",
+    "0.34",
+    "0.89",
+    "0.9",
+    "0.98",
+    "0.99",
+    "1",
+    "10",
+    "10.1016",
+    "10.1371",
+    "13",
+    "1431",
+    "1435",
+    "16",
+    "16275193",
+    "2",
+    "2001",
+    "2005",
+    "2005.07",
+    "2008",
+    "2013",
+    "24223233",
+    "261",
+    "30.5",
+    "34",
+    "3815402",
+    "47",
+    "6",
+    "6.92",
+    "65",
+    "7",
+    "75255",
+    "8",
+    "9",
+    "96",
+    "97",
+    "98",
+    "99"
+   ],
+   "performance_claims": [
+    "0.13",
+    "0.89",
+    "0.98",
+    "0.99",
+    "6.92"
+   ],
+   "record_id": "hx_exertional_syncope",
+   "section": "ask",
+   "text": "Syncope during (not after) exertion"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Herr RD, Zun L, Mathews JJ. A directed approach to the dizzy patient. Ann Emerg Med. 1989;18(6):664-672."
+   ],
+   "numeric_claims": [
+    "0.42",
+    "0.86",
+    "1",
+    "10.1016",
+    "125",
+    "18",
+    "196",
+    "1989",
+    "20",
+    "2729692",
+    "4",
+    "42",
+    "52",
+    "6",
+    "644",
+    "66",
+    "664",
+    "672",
+    "80524",
+    "86",
+    "89"
+   ],
+   "performance_claims": [
+    "0.42",
+    "0.86"
+   ],
+   "record_id": "hx_dizziness_timing_triggers",
+   "section": "ask",
+   "text": "Timing and triggers (TiTrATE: episodic vs continuous, triggered vs spontaneous) rather than symptom quality; associated diplopia/dysarthria/dysphagia/hearing loss"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": "hx_palpitations_exertional_onset",
+   "section": "ask",
+   "text": "Palpitations beginning during exertion (vs at rest or after exertion)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Bedside Physical Examination for the Diagnosis of Aortic Stenosis: A Systematic Review and Meta-analysis. CJC Open. 2024 (PMC10290951)."
+   ],
+   "numeric_claims": [
+    "0.3",
+    "0.37",
+    "0.46",
+    "0.57",
+    "0.71",
+    "0.75",
+    "0.81",
+    "0.94",
+    "0.98",
+    "1",
+    "10.1016",
+    "10290951",
+    "130",
+    "2",
+    "2.8",
+    "2023.02",
+    "2024",
+    "25.44",
+    "3.12",
+    "37377515",
+    "57",
+    "6",
+    "7",
+    "815",
+    "9",
+    "9.04"
+   ],
+   "performance_claims": [
+    "0.3",
+    "0.37",
+    "0.46",
+    "0.57",
+    "0.71",
+    "0.75",
+    "0.81",
+    "0.94",
+    "0.98",
+    "25.44",
+    "3.12",
+    "9.04"
+   ],
+   "record_id": "exam_carotid_upstroke_delayed",
+   "section": "examine",
+   "text": "Delayed and diminished carotid upstroke (pulsus parvus et tardus)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Bedside Physical Examination for the Diagnosis of Aortic Stenosis: A Systematic Review and Meta-analysis. CJC Open. 2024 (PMC10290951).",
+    "Etchells E, Glenns V, Shadowitz S, Bell C, Siu S. A bedside clinical prediction rule for detecting moderate or severe aortic stenosis. J Gen Intern Med. 1998;13(10):699-704."
+   ],
+   "numeric_claims": [
+    "0.01",
+    "0.05",
+    "0.06",
+    "0.1",
+    "0.11",
+    "0.2",
+    "0.23",
+    "0.31",
+    "0.41",
+    "0.44",
+    "0.59",
+    "0.61",
+    "0.66",
+    "0.72",
+    "0.81",
+    "0.84",
+    "0.85",
+    "0.93",
+    "0.95",
+    "0.97",
+    "0.98",
+    "1",
+    "1.2",
+    "1.48",
+    "10",
+    "10.1016",
+    "10.1046",
+    "10.87",
+    "100",
+    "10290951",
+    "11",
+    "124",
+    "13",
+    "1497.1998",
+    "1525",
+    "1998",
+    "2",
+    "2.69",
+    "2023.02",
+    "2024",
+    "207",
+    "25",
+    "3.7",
+    "3.94",
+    "30.12",
+    "37377515",
+    "4",
+    "4.89",
+    "6",
+    "662",
+    "699",
+    "7",
+    "704",
+    "8",
+    "801",
+    "868",
+    "95",
+    "9798818"
+   ],
+   "performance_claims": [
+    "0.01",
+    "0.06",
+    "0.1",
+    "0.11",
+    "0.2",
+    "0.23",
+    "0.31",
+    "0.41",
+    "0.44",
+    "0.44",
+    "0.44",
+    "0.59",
+    "0.61",
+    "0.66",
+    "0.72",
+    "0.81",
+    "0.84",
+    "0.85",
+    "0.93",
+    "0.95",
+    "0.97",
+    "0.98",
+    "1.48",
+    "10.87",
+    "2.69",
+    "3.7",
+    "3.94",
+    "30.12",
+    "4.89"
+   ],
+   "record_id": "exam_murmur_late_peaking_systolic",
+   "section": "examine",
+   "text": "Harsh crescendo-decrescendo systolic murmur, late-peaking, radiating to carotids, with soft/absent A2"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [
+    "Lembo NJ, Dell'Italia LJ, Crawford MH, O'Rourke RA. Bedside diagnosis of systolic murmurs. N Engl J Med. 1988;318(24):1572-1578."
+   ],
+   "numeric_claims": [
+    "0.06",
+    "0.2",
+    "0.36",
+    "0.65",
+    "0.75",
+    "0.84",
+    "0.85",
+    "0.95",
+    "0.96",
+    "10",
+    "10.1056",
+    "1572",
+    "1578",
+    "16",
+    "16.25",
+    "1988",
+    "198806163182404",
+    "20",
+    "24",
+    "2897627",
+    "3.4",
+    "30",
+    "318",
+    "5.94",
+    "50",
+    "6.33",
+    "65",
+    "75",
+    "84",
+    "85",
+    "95",
+    "96"
+   ],
+   "performance_claims": [
+    "0.06",
+    "0.06",
+    "0.2",
+    "0.36",
+    "0.65",
+    "0.75",
+    "0.84",
+    "0.85",
+    "0.85",
+    "0.95",
+    "0.95",
+    "0.96",
+    "16.25",
+    "3.4",
+    "5.94",
+    "6.33"
+   ],
+   "record_id": "fn_murmur_valsalva_standing_louder",
+   "section": "examine",
+   "text": "Dynamic auscultation: systolic murmur louder with Valsalva/standing, softer with squatting or handgrip"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "1",
+    "120",
+    "2",
+    "4",
+    "40",
+    "6",
+    "88",
+    "90"
+   ],
+   "performance_claims": [],
+   "record_id": "fn_bedside_walk_test",
+   "section": "examine",
+   "text": "Bedside walk / ambulatory desaturation and dyspnea reproduction test (hallway walk with pulse-ox, ability to complete)"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "card": {
+   "chief_complaint": "collapse while walking without warning",
+   "presentation": "syncope",
+   "sections": {
+    "ask": [
+     {
+      "audit_link": "/record/hx_exertional_chest_pain",
+      "changes_what": "Positive: ECG/troponin pathway and consider AS/HCM if a murmur is present. Negative: does not remove ACS from the differential; risk score plus troponin still required.",
+      "contraindications": "None.",
+      "do_not_use_when": "Never use a non-exertional history to discharge a patient with possible ACS; do not apply the stable-CAD typical-angina LR to acute ED presentations.",
+      "escalation_warning": "Exertional chest pain with syncope, a systolic murmur, or ongoing pain at rest requires immediate ECG, troponin and monitoring.",
+      "evidence": [
+       {
+        "citation": "Goodacre S, Locker T, Morris F, Campbell S. How useful are clinical features in the diagnosis of acute, undifferentiated chest pain? Acad Emerg Med. 2002;9(3):203-208.",
+        "computed": false,
+        "doi": "10.1111/j.1553-2712.2002.tb00245.x",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "2.35"
+        },
+        "pmid": "11874776",
+        "population": "893 ED chest pain unit patients with acute undifferentiated chest pain; 3.8% AMI",
+        "prevalence": "0.038",
+        "quote": "Features useful in the diagnosis of AMI were exertional pain [likelihood ratio (LR) = 2.35]",
+        "reference_standard": "WHO criteria for AMI",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Acute myocardial infarction (WHO criteria)",
+        "url": null,
+        "year": "2002"
+       },
+       {
+        "citation": "Goodacre S, Locker T, Morris F, Campbell S. How useful are clinical features in the diagnosis of acute, undifferentiated chest pain? Acad Emerg Med. 2002;9(3):203-208.",
+        "computed": false,
+        "doi": "10.1111/j.1553-2712.2002.tb00245.x",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "2.06"
+        },
+        "pmid": "11874776",
+        "population": "893 ED chest pain unit patients with acute undifferentiated chest pain; 9.1% ACS",
+        "prevalence": "0.091",
+        "quote": "Features useful in the diagnosis of ACS were exertional pain (LR = 2.06)",
+        "reference_standard": "Cardiac testing, AMI, arrhythmia, death, or revascularization within six months",
+        "sensitivity": null,
+        "setting": "ED",
+        "specificity": null,
+        "target_condition": "Acute coronary syndrome (AMI, positive cardiac testing, arrhythmia, death or revascularization within 6 months)",
+        "url": null,
+        "year": "2002"
+       },
+       {
+        "citation": "Chun AA, McGee SR. Bedside diagnosis of coronary artery disease: a systematic review. Am J Med. 2004;117(5):334-343.",
+        "computed": false,
+        "doi": "10.1016/j.amjmed.2004.03.021",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "meta_analysis",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": {
+         "ci_high": "7.8",
+         "ci_low": "4.2",
+         "value": "5.8"
+        },
+        "pmid": "15336583",
+        "population": "Patients with stable intermittent chest pain evaluated for CAD (systematic review 1966-2003)",
+        "prevalence": null,
+        "quote": "the presence of typical angina (likelihood ratio [LR]=5.8; 95% confidence interval [CI]: 4.2 to 7.8)",
+        "reference_standard": "Coronary angiography (as per pooled studies)",
+        "sensitivity": null,
+        "setting": "outpatient",
+        "specificity": null,
+        "target_condition": "Coronary artery disease (stable, intermittent chest pain; typical angina)",
+        "url": null,
+        "year": "2004"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Ask specifically what the patient was doing when the pain started, whether it reliably comes on with physical effort or emotional stress, and whether it settles within minutes of stopping or with nitroglycerin. Distinguish exertion-provoked pain from pain that merely occurred during activity.",
+      "id": "hx_exertional_chest_pain",
+      "negative_finding": "Absence of an exertional pattern only modestly lowers ACS probability in the ED; nonanginal chest pain in the stable setting has LR 0.1 for CAD.",
+      "pitfalls": "History alone never excludes ACS; exertional chest pain is also the presenting symptom of severe AS and HCM. Rest pain is common in ACS and does not argue against it.",
+      "positive_finding": "Exertion-precipitated pain roughly doubles the odds of AMI/ACS in ED chest pain (LR ~2.1-2.4); a full typical-angina triad in stable outpatients gives LR 5.8 for coronary disease.",
+      "prerequisites": "Patient able to give a history; clarify the index episode rather than a general pattern.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Chest pain provoked by exertion, relieved by rest (typical angina pattern)",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_exertional_syncope",
+      "changes_what": "Positive: admit/monitor, ECG plus echocardiogram and cardiology review before discharge; negative: no change in workup.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not classify as non-exertional (reassuring) when timing is uncertain; treat ambiguous timing as exertional until echo/ECG are reviewed.",
+      "escalation_warning": "Exertional syncope with a murmur, family history of sudden death, chest pain, or abnormal ECG is a red flag for AS/HCM/VT: no discharge without cardiology evaluation.",
+      "evidence": [
+       {
+        "citation": "Berecki-Gisolf J, Sheldon A, Wieling W, et al. Identifying cardiac syncope based on clinical history: a literature-based model tested in four independent datasets. PLoS One. 2013;8(10):e75255.",
+        "computed": true,
+        "doi": "10.1371/journal.pone.0075255",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "meta_analysis",
+        "location": "Table 2, 'Syncope during effort' row (PMC3815402 full text)",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.89"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "6.92"
+        },
+        "pmid": "24223233",
+        "population": "Pooled derivation sample from 2 studies (Alboni 2001, Del Rosso 2008) reporting syncope during effort in adults with syncope",
+        "prevalence": null,
+        "quote": "during effort Yes 10 - - 6 - - - 16 (13%) 7 - - 2 - - - 9 (2%) 30.5 1 <0.0001 6.92",
+        "reference_standard": "Final adjudicated cause of syncope in each primary study (cardiac vs non-cardiac)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.13"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.98"
+        },
+        "target_condition": "Cardiac syncope (vs non-cardiac)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3815402/",
+        "year": "2013"
+       },
+       {
+        "citation": "Del Rosso A, Alboni P, Brignole M, Menozzi C, Raviele A. Relation of clinical presentation of syncope to the age of patients. Am J Cardiol. 2005;96(10):1431-1435.",
+        "computed": false,
+        "doi": "10.1016/j.amjcard.2005.07.047",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "16275193",
+        "population": "261 consecutive patients aged >=65 y with unexplained syncope referred to secondary/tertiary hospitals (34% cardiac)",
+        "prevalence": "0.34",
+        "quote": "Myoclonic movements, effort syncope, and supine position during loss of consciousness were the most specific (97%, 99%, and 99%, respectively) diagnostic criteria",
+        "reference_standard": "Pre-specified ESC-based diagnostic criteria for cause of syncope",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.99"
+        },
+        "target_condition": "Cardiac syncope",
+        "url": null,
+        "year": "2005"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Establish exactly when consciousness was lost relative to activity: during ongoing exertion (walking uphill, running, lifting) versus in the minutes after stopping. Ask what the patient was doing, whether there were palpitations or chest pain first, and whether a witness saw the collapse mid-activity.",
+      "id": "hx_exertional_syncope",
+      "negative_finding": "Absence of exertional syncope barely changes the probability of cardiac syncope (LR- ~0.9) because only ~13% of cardiac syncope is exertional.",
+      "pitfalls": "Collapse immediately after stopping exercise is typically reflex (post-exertional vasovagal) and must be distinguished from mid-exertion syncope; patients may not recall the exact timing. Exertional syncope is rare, so its absence is not reassuring.",
+      "positive_finding": "Syncope during exertion is uncommon but highly specific for a cardiac cause (pooled LR+ ~7; specificity 98-99%) and should prompt evaluation for aortic stenosis, HCM, ischemia, or ventricular arrhythmia before any return to activity.",
+      "prerequisites": "Patient or witness account; clarify timing precisely because post-exertional collapse is usually reflex.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Syncope during (not after) exertion",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_dizziness_timing_triggers",
+      "changes_what": "Determines which bedside exam follows: HINTS for continuous spontaneous, Dix-Hallpike for triggered episodic, orthostatic vitals for standing-triggered, ECG/monitoring for spontaneous episodic.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use a reassuring timing/trigger pattern alone to exclude stroke in patients with vascular risk factors, new headache/neck pain, or any brainstem symptom; obtain the targeted examination.",
+      "escalation_warning": "Acute continuous dizziness with any of diplopia, dysarthria, dysphagia, limb ataxia, new deafness or inability to walk unaided is a stroke pathway until proven otherwise; up to 20% of early DWI-MRI are false negative.",
+      "evidence": [
+       {
+        "citation": "Herr RD, Zun L, Mathews JJ. A directed approach to the dizzy patient. Ann Emerg Med. 1989;18(6):664-672.",
+        "computed": false,
+        "doi": "10.1016/s0196-0644(89)80524-4",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results",
+        "lr_negative": null,
+        "lr_positive": null,
+        "pmid": "2729692",
+        "population": "125 ED patients with dizziness evaluated with a standardized 66-item history/exam/lab protocol",
+        "prevalence": null,
+        "quote": "The best predictors, either older age, lack of vertigo, or neurologic deficit, could identify 86% of \"serious\" dizziness with 42% specificity.",
+        "reference_standard": "Emergency physician diagnosis modified by 1-month follow-up using predefined diagnostic criteria",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.86"
+        },
+        "setting": "ED",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.42"
+        },
+        "target_condition": "'Serious' cause of dizziness (stroke/TIA, arrhythmia, medication, seizure, other requiring admission) - composite predictor: older age OR lack of vertigo OR neurologic deficit",
+        "url": null,
+        "year": "1989"
+       }
+      ],
+      "evidence_badge": "partially_quantified",
+      "how": "Instead of asking 'what kind of dizziness', ask: Is it there now continuously or does it come in discrete episodes? How long do episodes last (seconds, minutes, hours)? Is it brought on only by a trigger (head/position change, standing) or does it arise spontaneously? Then ask about diplopia, dysarthria, dysphagia, new hearing loss, headache or neck pain.",
+      "id": "hx_dizziness_timing_triggers",
+      "negative_finding": "A clear positional trigger with seconds-long episodes and no neurologic symptoms makes central causes unlikely, but isolated dizziness can still be a vertebrobasilar stroke.",
+      "pitfalls": "Symptom-quality descriptors (vertigo vs lightheadedness) are unreliable: 52% of ED patients changed their descriptor on retest after ~6 minutes, so do not triage on 'type'. Do not confuse 'worse with movement' (most vestibular causes) with 'only occurs with movement' (true trigger).",
+      "positive_finding": "Continuous acute vestibular syndrome demands HINTS-type eye examination for stroke; triggered brief episodes point to BPPV or orthostatic hypotension (test with Dix-Hallpike or orthostatic vitals); spontaneous episodes lasting minutes-hours suggest TIA, Meniere or arrhythmia. Any associated brainstem symptom raises stroke probability.",
+      "prerequisites": "Patient able to give a history; screen for red-flag neurologic symptoms before deciding on examination pathway.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Timing and triggers (TiTrATE: episodic vs continuous, triggered vs spontaneous) rather than symptom quality; associated diplopia/dysarthria/dysphagia/hearing loss",
+      "type": "history"
+     },
+     {
+      "audit_link": "/record/hx_palpitations_exertional_onset",
+      "changes_what": "Positive: expedite ECG, echocardiogram and exercise/ambulatory monitoring, restrict strenuous exertion pending results; negative: routine ambulatory evaluation.",
+      "contraindications": "None.",
+      "do_not_use_when": "Do not use a reassuring history to skip an ECG; structural heart disease and channelopathies can present with exertional palpitations and a normal exam.",
+      "escalation_warning": "Exertional palpitations with syncope, chest pain, known cardiomyopathy or family history of sudden death need urgent cardiology review before further exercise.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Ask exactly when episodes start relative to activity: during peak exertion, in the recovery minutes after stopping, or at rest/at night. Clarify whether onset and offset are abrupt or gradual, whether rate outpaces the effort, and whether syncope, presyncope or chest pain accompany it. Ask about family history of sudden death or cardiomyopathy.",
+      "id": "hx_palpitations_exertional_onset",
+      "negative_finding": "Onset at rest or post-exertion is more typical of ectopy, vagally mediated SVT or sinus tachycardia from anxiety; it does not exclude arrhythmia.",
+      "pitfalls": "Sinus tachycardia proportional to effort is normal; patients often conflate 'after' with 'during' exercise. The RCE found no historical feature except neck pounding that strongly changes arrhythmia probability.",
+      "positive_finding": "Palpitations that begin abruptly during exertion, especially with syncope, chest pain or a family history of sudden death, raise concern for VT, HCM, ARVC, CPVT or exercise-triggered SVT and warrant ECG, echo and exercise testing.",
+      "prerequisites": "Patient can recall episode context; a diary or wearable log helps.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Palpitations beginning during exertion (vs at rest or after exertion)",
+      "type": "history"
+     }
+    ],
+    "examine": [
+     {
+      "audit_link": "/record/exam_carotid_upstroke_delayed",
+      "changes_what": "Positive: request echocardiography and manage as probable significant AS pending results. Negative: does not exclude AS; rely on murmur radiation and A2 to decide on echo.",
+      "contraindications": "Known carotid bruit or carotid disease, recent TIA/stroke, or carotid sinus hypersensitivity - palpate gently or omit.",
+      "do_not_use_when": "Do not use to exclude AS in elderly or hypertensive patients with stiff arteries, or to grade severity; do not palpate firmly in patients with carotid bruits or recent cerebrovascular events.",
+      "escalation_warning": "Delayed upstroke with exertional syncope, angina or heart failure suggests severe AS - urgent echocardiography, avoid vasodilators/nitrates and hypovolemia.",
+      "evidence": [
+       {
+        "citation": "Bedside Physical Examination for the Diagnosis of Aortic Stenosis: A Systematic Review and Meta-analysis. CJC Open. 2024 (PMC10290951).",
+        "computed": false,
+        "doi": "10.1016/j.cjco.2023.02.007",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "meta_analysis",
+        "location": "Table 2 (PMC full text)",
+        "lr_negative": {
+         "ci_high": "0.71",
+         "ci_low": "0.3",
+         "value": "0.46"
+        },
+        "lr_positive": {
+         "ci_high": "25.44",
+         "ci_low": "3.12",
+         "value": "9.04"
+        },
+        "pmid": "37377515",
+        "population": "815 patients in 6 observational studies (mostly murmur/referral populations) examined before echo or left heart catheterization",
+        "prevalence": null,
+        "quote": "Delayed carotid upstroke 0.57 (0.37- 0.75) ... 0.94 (0.81- 0.98) ... 9.04 (3.12-25.44) ... 0.46 (0.30-0.71)",
+        "reference_standard": "Echocardiography and/or left heart catheterization",
+        "sensitivity": {
+         "ci_high": "0.75",
+         "ci_low": "0.37",
+         "value": "0.57"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "0.98",
+         "ci_low": "0.81",
+         "value": "0.94"
+        },
+        "target_condition": "Aortic stenosis of at least moderate severity",
+        "url": null,
+        "year": "2024"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Palpate one carotid artery at a time with the fingertips below the angle of the jaw while auscultating the apex or watching S1; judge whether the pulse rises slowly and peaks late in systole (tardus) and whether its volume is small (parvus). Compare with your expectation for a brisk, sharp upstroke; check both sides sequentially.",
+      "id": "exam_carotid_upstroke_delayed",
+      "negative_finding": "A normal brisk carotid upstroke only modestly lowers the probability (pooled LR- ~0.46, sensitivity ~57%); it does not exclude significant AS, especially in the elderly with stiff arteries.",
+      "pitfalls": "Arterial stiffness in the elderly and hypertension can normalize the upstroke despite severe AS, whereas a low-output state can produce a small pulse without AS; HCM typically gives a brisk, sometimes bisferiens, carotid pulse, which helps separate it from valvular AS.",
+      "positive_finding": "A slow-rising, low-volume carotid pulse substantially raises the probability of moderate-or-greater aortic stenosis (pooled LR+ ~9; RCE range 2.8-130).",
+      "prerequisites": "Patient supine or semi-recumbent and relaxed; never compress both carotids simultaneously.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Delayed and diminished carotid upstroke (pulsus parvus et tardus)",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/exam_murmur_late_peaking_systolic",
+      "changes_what": "Positive: obtain echocardiography and treat exertional symptoms as possible severe AS (avoid aggressive vasodilators/nitrates). Negative radiation: AS becomes an unlikely explanation.",
+      "contraindications": "None; avoid firm carotid pressure in patients with known carotid disease.",
+      "do_not_use_when": "Do not use murmur intensity or absence of a late peak to exclude severe low-flow/low-gradient AS in patients with reduced LV function; do not rely on auscultation alone when exertional syncope or heart failure is present.",
+      "escalation_warning": "Exertional syncope, angina or heart failure with a murmur suggestive of AS warrants urgent echocardiography and cardiology review; avoid nitrates, aggressive diuresis and vasodilators until AS severity is known.",
+      "evidence": [
+       {
+        "citation": "Bedside Physical Examination for the Diagnosis of Aortic Stenosis: A Systematic Review and Meta-analysis. CJC Open. 2024 (PMC10290951).",
+        "computed": false,
+        "doi": "10.1016/j.cjco.2023.02.007",
+        "evidence_level": "pooled",
+        "interpretation_label": "both",
+        "kind": "meta_analysis",
+        "location": "Discussion, paragraph on murmur characteristics (same paragraph: 'negative predictive value of its absence (LR = 0.2)')",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.2"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "3.7"
+        },
+        "pmid": "37377515",
+        "population": "Narrative aggregate of 4 small studies of patients with systolic murmurs (not bivariate meta-analysed)",
+        "prevalence": null,
+        "quote": "Data from a small sample from 4 studies revealed modest positive predictive value when this sign is present (LR of 3.7)",
+        "reference_standard": "Echocardiography or left heart catheterization; AS of at least moderate severity",
+        "sensitivity": null,
+        "setting": "mixed",
+        "specificity": null,
+        "target_condition": "Aortic stenosis (late-peaking systolic ejection murmur)",
+        "url": null,
+        "year": "2024"
+       },
+       {
+        "citation": "Bedside Physical Examination for the Diagnosis of Aortic Stenosis: A Systematic Review and Meta-analysis. CJC Open. 2024 (PMC10290951).",
+        "computed": false,
+        "doi": "10.1016/j.cjco.2023.02.007",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_in",
+        "kind": "meta_analysis",
+        "location": "Table 2 (PMC full text)",
+        "lr_negative": {
+         "ci_high": "0.61",
+         "ci_low": "0.31",
+         "value": "0.44"
+        },
+        "lr_positive": {
+         "ci_high": "30.12",
+         "ci_low": "3.94",
+         "value": "10.87"
+        },
+        "pmid": "37377515",
+        "population": "868 patients in 7 observational studies examined before echo or left heart catheterization (6 studies, 801 patients for S2)",
+        "prevalence": null,
+        "quote": "Diminished S2 0.59 (0.44- 0.72) ... 0.95 (0.85- 0.98) ... 10.87 (3.94-30.12) ... 0.44 (0.31-0.61)",
+        "reference_standard": "Echocardiography and/or left heart catheterization",
+        "sensitivity": {
+         "ci_high": "0.72",
+         "ci_low": "0.44",
+         "value": "0.59"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "0.98",
+         "ci_low": "0.85",
+         "value": "0.95"
+        },
+        "target_condition": "Aortic stenosis of at least moderate severity - component: diminished second heart sound",
+        "url": null,
+        "year": "2024"
+       },
+       {
+        "citation": "Bedside Physical Examination for the Diagnosis of Aortic Stenosis: A Systematic Review and Meta-analysis. CJC Open. 2024 (PMC10290951).",
+        "computed": false,
+        "doi": "10.1016/j.cjco.2023.02.007",
+        "evidence_level": "pooled",
+        "interpretation_label": "rule_out",
+        "kind": "meta_analysis",
+        "location": "Table 2 (PMC full text)",
+        "lr_negative": {
+         "ci_high": "0.23",
+         "ci_low": "0.06",
+         "value": "0.11"
+        },
+        "lr_positive": {
+         "ci_high": "4.89",
+         "ci_low": "1.48",
+         "value": "2.69"
+        },
+        "pmid": "37377515",
+        "population": "662 patients in 4 observational studies examined before echo or catheterization",
+        "prevalence": null,
+        "quote": "Systolic murmur radiating to the neck 0.93 (0.81-0.97) ... 0.66 (0.41-0.84) ... 2.69 (1.48-4.89) ... 0.11 (0.06-0.23)",
+        "reference_standard": "Echocardiography and/or left heart catheterization",
+        "sensitivity": {
+         "ci_high": "0.97",
+         "ci_low": "0.81",
+         "value": "0.93"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": "0.84",
+         "ci_low": "0.41",
+         "value": "0.66"
+        },
+        "target_condition": "Aortic stenosis of at least moderate severity - component: systolic murmur radiating to the neck",
+        "url": null,
+        "year": "2024"
+       },
+       {
+        "citation": "Etchells E, Glenns V, Shadowitz S, Bell C, Siu S. A bedside clinical prediction rule for detecting moderate or severe aortic stenosis. J Gen Intern Med. 1998;13(10):699-704.",
+        "computed": false,
+        "doi": "10.1046/j.1525-1497.1998.00207.x",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_out",
+        "kind": "primary_study",
+        "location": "Abstract, Results (PubMed abstract)",
+        "lr_negative": {
+         "ci_high": "0.44",
+         "ci_low": "0.01",
+         "value": "0.1"
+        },
+        "lr_positive": null,
+        "pmid": "9798818",
+        "population": "124 consecutive hospital inpatients referred for echocardiography, examined by a general internist and internal medicine resident",
+        "prevalence": null,
+        "quote": "Absence of a murmur over the right clavicle ruled out aortic stenosis (likelihood ratio [LR] 0.10; 95% confidence interval [CI] 0.01, 0.44)",
+        "reference_standard": "Doppler echocardiography",
+        "sensitivity": null,
+        "setting": "inpatient",
+        "specificity": null,
+        "target_condition": "Moderate or severe aortic stenosis (valve area <=1.2 cm2 or peak gradient >=25 mmHg) - component: absence of murmur over right clavicle",
+        "url": null,
+        "year": "1998"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "With the diaphragm at the right 2nd intercostal space and along the left sternal border, time the murmur's peak against S1/S2 (or the carotid pulse); note whether the crescendo peaks in the second half of systole. Listen over both carotids and the right clavicle for radiation, and judge whether A2 is soft or inaudible at the base.",
+      "id": "exam_murmur_late_peaking_systolic",
+      "negative_finding": "Absence of any systolic murmur radiating to the neck or right clavicle makes moderate-or-severe AS unlikely (LR- about 0.05-0.11); an early-peaking soft murmur with a normal A2 favours sclerosis or flow murmur.",
+      "pitfalls": "Murmur loudness does not track severity (low-flow AS is soft), and HCM produces a similar harsh ejection murmur that peaks late but radiates poorly to the neck and has a preserved A2; most accuracy data come from cardiologist examiners in referral populations.",
+      "positive_finding": "A mid-to-late-peaking, harsh ejection murmur that radiates to the right carotid/clavicle with a diminished or absent A2 strongly raises the probability of moderate-or-greater aortic stenosis (LR+ roughly 8-100 for late peak; ~11 for soft S2).",
+      "prerequisites": "Quiet room, patient supine then sitting forward in held expiration; palpate the carotid simultaneously to time systole.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Harsh crescendo-decrescendo systolic murmur, late-peaking, radiating to carotids, with soft/absent A2",
+      "type": "exam"
+     },
+     {
+      "audit_link": "/record/fn_murmur_valsalva_standing_louder",
+      "changes_what": "Positive: suspect HCM - order echocardiography, avoid dehydration, nitrates and inotropes; negative squat/stand response argues for fixed obstruction (AS) or regurgitant lesions.",
+      "contraindications": "Avoid Valsalva and squat-stand in patients with recent syncope, unstable angina, severe orthostasis, or fall risk without assistance.",
+      "do_not_use_when": "Do not perform Valsalva/squat-stand manoeuvres in patients with recent syncope, hemodynamic instability, active ischaemia, or inability to stand safely; do not use to exclude non-obstructive HCM (no murmur to augment).",
+      "escalation_warning": "A Valsalva-augmented murmur in a patient with exertional syncope, chest pain or a family history of sudden death needs prompt echocardiography and cardiology referral; avoid dehydration, vasodilators and beta-agonists meanwhile.",
+      "evidence": [
+       {
+        "citation": "Lembo NJ, Dell'Italia LJ, Crawford MH, O'Rourke RA. Bedside diagnosis of systolic murmurs. N Engl J Med. 1988;318(24):1572-1578.",
+        "computed": true,
+        "doi": "10.1056/NEJM198806163182404",
+        "evidence_level": "single_study",
+        "interpretation_label": "rule_in",
+        "kind": "primary_study",
+        "location": "Abstract, Results (PubMed abstract; NEJM full text not accessible)",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.36"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "16.25"
+        },
+        "pmid": "2897627",
+        "population": "50 patients with documented systolic murmurs of defined cause (HCM, AS, MR, VSD, right-sided lesions, MVP), examined by cardiologists",
+        "prevalence": null,
+        "quote": "an increase in intensity with the Valsalva maneuver (65 percent sensitivity, 96 percent specificity)",
+        "reference_standard": "Echocardiography/Doppler and catheterization-confirmed etiology of the murmur (as described in study)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.65"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.96"
+        },
+        "target_condition": "Hypertrophic (obstructive) cardiomyopathy murmur vs all other systolic murmurs",
+        "url": null,
+        "year": "1988"
+       },
+       {
+        "citation": "Lembo NJ, Dell'Italia LJ, Crawford MH, O'Rourke RA. Bedside diagnosis of systolic murmurs. N Engl J Med. 1988;318(24):1572-1578.",
+        "computed": true,
+        "doi": "10.1056/NEJM198806163182404",
+        "evidence_level": "single_study",
+        "interpretation_label": "both",
+        "kind": "primary_study",
+        "location": "Abstract, Results (PubMed abstract)",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.06"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "5.94"
+        },
+        "pmid": "2897627",
+        "population": "50 patients with documented systolic murmurs of defined cause (HCM, AS, MR, VSD, right-sided lesions, MVP), examined by cardiologists",
+        "prevalence": null,
+        "quote": "during squatting-to-standing action (95 percent sensitivity, 84 percent specificity)",
+        "reference_standard": "Echocardiography/Doppler and catheterization-confirmed etiology of the murmur (as described in study)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.95"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.84"
+        },
+        "target_condition": "Hypertrophic (obstructive) cardiomyopathy murmur vs all other systolic murmurs",
+        "url": null,
+        "year": "1988"
+       },
+       {
+        "citation": "Lembo NJ, Dell'Italia LJ, Crawford MH, O'Rourke RA. Bedside diagnosis of systolic murmurs. N Engl J Med. 1988;318(24):1572-1578.",
+        "computed": true,
+        "doi": "10.1056/NEJM198806163182404",
+        "evidence_level": "single_study",
+        "interpretation_label": "both",
+        "kind": "primary_study",
+        "location": "Abstract, Results (PubMed abstract)",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.06"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "6.33"
+        },
+        "pmid": "2897627",
+        "population": "50 patients with documented systolic murmurs of defined cause (HCM, AS, MR, VSD, right-sided lesions, MVP), examined by cardiologists",
+        "prevalence": null,
+        "quote": "a decrease in intensity during standing-to-squatting action (95 percent sensitivity, 85 percent specificity)",
+        "reference_standard": "Echocardiography/Doppler and catheterization-confirmed etiology of the murmur (as described in study)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.95"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.85"
+        },
+        "target_condition": "Hypertrophic (obstructive) cardiomyopathy murmur vs all other systolic murmurs",
+        "url": null,
+        "year": "1988"
+       },
+       {
+        "citation": "Lembo NJ, Dell'Italia LJ, Crawford MH, O'Rourke RA. Bedside diagnosis of systolic murmurs. N Engl J Med. 1988;318(24):1572-1578.",
+        "computed": true,
+        "doi": "10.1056/NEJM198806163182404",
+        "evidence_level": "single_study",
+        "interpretation_label": "modest",
+        "kind": "primary_study",
+        "location": "Abstract, Results (PubMed abstract)",
+        "lr_negative": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.2"
+        },
+        "lr_positive": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "3.4"
+        },
+        "pmid": "2897627",
+        "population": "50 patients with documented systolic murmurs of defined cause (HCM, AS, MR, VSD, right-sided lesions, MVP), examined by cardiologists",
+        "prevalence": null,
+        "quote": "and handgrip (85 percent sensitivity, 75 percent specificity)",
+        "reference_standard": "Echocardiography/Doppler and catheterization-confirmed etiology of the murmur (as described in study)",
+        "sensitivity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.85"
+        },
+        "setting": "mixed",
+        "specificity": {
+         "ci_high": null,
+         "ci_low": null,
+         "value": "0.75"
+        },
+        "target_condition": "Hypertrophic (obstructive) cardiomyopathy murmur vs all other systolic murmurs",
+        "url": null,
+        "year": "1988"
+       }
+      ],
+      "evidence_badge": "quantified",
+      "how": "Listen at the left sternal border/apex, then have the patient strain (Valsalva) for 10-20 s and note whether the murmur gets louder; repeat while the patient rises from squatting to standing (louder = positive) and from standing to squatting (softer = positive). Sustained handgrip for 20-30 s should soften an HCM murmur.",
+      "id": "fn_murmur_valsalva_standing_louder",
+      "negative_finding": "A murmur that does not increase with squat-to-stand or does not decrease with stand-to-squat makes HCM unlikely (sensitivity 95%, computed LR- ~0.06); murmurs of valvular AS soften or stay unchanged with Valsalva and are not identified by any single manoeuvre.",
+      "pitfalls": "Valsalva has low sensitivity for HCM (65%); poor technique (short strain, incomplete squat) blunts responses; mitral valve prolapse murmurs also become longer/louder on standing; data come from one 50-patient referral cohort with cardiologist examiners.",
+      "positive_finding": "A murmur that increases with Valsalva or on standing and decreases with squatting or handgrip identifies dynamic LVOT obstruction (HCM) with high specificity (Valsalva 96%, standing 84-85%); Valsalva-louder gives a computed LR+ of about 16.",
+      "prerequisites": "Patient able to stand and squat safely with assistance; baseline murmur already characterised.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Dynamic auscultation: systolic murmur louder with Valsalva/standing, softer with squatting or handgrip",
+      "type": "functional"
+     },
+     {
+      "audit_link": "/record/fn_bedside_walk_test",
+      "changes_what": "Desaturation or incomplete walk: keep in hospital, escalate imaging (CTPA/HRCT/echo) and oxygen. Normal walk: supports outpatient pathway if resting evaluation is also reassuring.",
+      "contraindications": "Unstable angina or ACS in evolution, resting hypoxia or hypotension, suspected severe aortic stenosis with exertional syncope, untreated suspected PE with hemodynamic compromise, resting HR >120 or uncontrolled arrhythmia (contraindications adapted from ERS/ATS 6MWT standard).",
+      "do_not_use_when": "Do not walk a patient with resting hypoxia, hypotension, ongoing chest pain, suspected severe aortic stenosis or an untreated high-probability PE.",
+      "escalation_warning": "SpO2 falling below 88-90%, chest pain, presyncope or a heart-rate surge with symptoms means stop, sit the patient, give oxygen and escalate.",
+      "evidence": [],
+      "evidence_badge": "not_quantified",
+      "how": "Record resting SpO2, heart rate and dyspnea (Borg) with a well-fitting finger probe. Walk the patient along a flat corridor at their own pace for 1-6 minutes (or a set distance, e.g. 40 steps) with continuous oximetry; note nadir SpO2, heart-rate rise, symptom reproduction, and whether they can complete the walk. A fall in SpO2 of >=4% or to <90% is the usual desaturation criterion.",
+      "id": "fn_bedside_walk_test",
+      "negative_finding": "Completing a corridor walk without desaturation or symptom reproduction lowers concern for a significant exertional gas-exchange defect but has no validated accuracy for excluding PE, ACS or aortic stenosis.",
+      "pitfalls": "Motion artefact, poor perfusion and nail polish produce spurious dips; a short walk may be too little stimulus and a test at the bedside is less reproducible than a standardised 6MWT (two tests recommended). Deconditioning and pain limit completion without implying cardiopulmonary disease.",
+      "positive_finding": "Exertional desaturation or reproduced dyspnea with a normal resting SpO2 indicates a gas-exchange or cardiopulmonary limit (ILD, pneumonia, PE, heart failure, COPD) and argues against anxiety/hyperventilation; failure to complete the walk from symptoms is a marker of severity and unsafe discharge.",
+      "prerequisites": "Stable resting vitals, no ongoing chest pain, ECG reviewed if chest pain or syncope is the presentation; a chair and staff available; oximeter with good waveform.",
+      "rationale": "",
+      "skill_assumption": null,
+      "title": "Bedside walk / ambulatory desaturation and dyspnea reproduction test (hallway walk with pulse-ox, ability to complete)",
+      "type": "functional"
+     }
+    ]
+   }
+  },
+  "chosen": {
+   "ask": [
+    {
+     "id": "hx_exertional_chest_pain",
+     "rationale": ""
+    },
+    {
+     "id": "hx_exertional_syncope",
+     "rationale": ""
+    },
+    {
+     "id": "hx_dizziness_timing_triggers",
+     "rationale": ""
+    },
+    {
+     "id": "hx_palpitations_exertional_onset",
+     "rationale": ""
+    }
+   ],
+   "examine": [
+    {
+     "id": "exam_carotid_upstroke_delayed",
+     "rationale": ""
+    },
+    {
+     "id": "exam_murmur_late_peaking_systolic",
+     "rationale": ""
+    },
+    {
+     "id": "fn_murmur_valsalva_standing_louder",
+     "rationale": ""
+    },
+    {
+     "id": "fn_bedside_walk_test",
+     "rationale": ""
+    }
+   ]
+  },
+  "parsed": {
+   "chief_complaint": "collapse while walking without warning",
+   "differentials": [
+    {
+     "dx": "aortic_stenosis",
+     "weight": 1.0
+    },
+    {
+     "dx": "arrhythmia",
+     "weight": 0.625
+    },
+    {
+     "dx": "hcm",
+     "weight": 0.375
+    },
+    {
+     "dx": "orthostatic_hypotension",
+     "weight": 0.25
+    },
+    {
+     "dx": "reflex_vasovagal",
+     "weight": 0.25
+    }
+   ],
+   "indication_tags": [
+    "exertional"
+   ],
+   "missing_features": [],
+   "modifiers": [
+    "no warning",
+    "during exertion"
+   ],
+   "presentation": "syncope",
+   "time_course": "acute",
+   "underspecified": false
+  },
+  "validation": {
+   "bad_item_ids": [],
+   "ok": true,
+   "violations": []
+  }
+ },
+ "variant": "base"
+}

@@ -1,0 +1,261 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "syncope_003",
+ "blocked_items": [],
+ "case_id": "syncope_003",
+ "created_at": "2026-09-11T09:15:15+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Detailed description of the event (prodrome, duration, recovery, witnesses)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms (chest pain, palpitations, dyspnea, headache, tongue biting, incontinence)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent fluid intake/output, vomiting, diarrhea, bleeding"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medications (especially antihypertensives, diuretics, opioids)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past medical history (cardiac, neurologic, diabetes)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Family history of sudden cardiac death"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs (including orthostatic measurements: supine, sitting, standing)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General appearance (pallor, diaphoresis)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiovascular exam (murmurs, irregular rhythm, JVP)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Pulmonary exam"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdominal exam (tenderness, distension, signs of ongoing pancreatitis)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neurologic exam (focal deficits, post-ictal state)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "10",
+    "20",
+    "30",
+    "60",
+    "90"
+   ],
+   "performance_claims": [
+    "10",
+    "20",
+    "30",
+    "60",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Orthostatic vital signs: A drop in systolic BP \u226520 mmHg or diastolic BP \u226510 mmHg, or increase in HR \u226530 bpm, is diagnostic for orthostatic hypotension (sensitivity ~60%, specificity ~90% for hypovolemia in the right context)"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "10",
+    "5"
+   ],
+   "performance_claims": [
+    "10",
+    "5"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: To rule out arrhythmia, ischemia, or conduction abnormalities (diagnostic yield in syncope ~5-10%, but higher if abnormal findings)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Capillary blood glucose: To rule out hypoglycemia"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Cardiac monitoring: For ongoing arrhythmia detection"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "60",
+    "90"
+   ],
+   "performance_claims": [
+    "60",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Orthostatic vitals: Sensitivity ~60%, specificity ~90% for hypovolemia"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "10",
+    "5"
+   ],
+   "performance_claims": [
+    "10",
+    "5"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: Abnormal in ~5-10% of syncope cases, but critical for identifying life-threatening causes"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "50"
+   ],
+   "performance_claims": [
+    "50"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "History and physical alone identify the cause in up to 50% of syncope cases (per ESC/ACC guidelines)"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on orthostatic vitals, ECG, and a careful history/physical. Consider hypovolemia (from NPO, pancreatitis, possible third-spacing), vasovagal syncope (micturition), and cardiac causes. Further workup (labs, imaging) as indicated by findings"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this scenario\u2014a 44-year-old male, day 3 of pancreatitis admission, NPO, who had a syncopal episode after urinating, with pallor, diaphoresis, and transient tachycardia\u2014your evaluation should focus on distinguishing between vasovagal (micturition) syncope, orthostatic hypotension (possibly due to hypovolemia), cardiac causes, and less likely, seizure or other neurologic events.\n\n**History:**\n- Detailed description of the event (prodrome, duration, recovery, witnesses)\n- Associated symptoms (chest pain, palpitations, dyspnea, headache, tongue biting, incontinence)\n- Recent fluid intake/output, vomiting, diarrhea, bleeding\n- Medications (especially antihypertensives, diuretics, opioids)\n- Past medical history (cardiac, neurologic, diabetes)\n- Family history of sudden cardiac death\n\n**Physical Examination:**\n- Vital signs (including orthostatic measurements: supine, sitting, standing)\n- General appearance (pallor, diaphoresis)\n- Cardiovascular exam (murmurs, irregular rhythm, JVP)\n- Pulmonary exam\n- Abdominal exam (tenderness, distension, signs of ongoing pancreatitis)\n- Neurologic exam (focal deficits, post-ictal state)\n\n**Bedside Tests:**\n- Orthostatic vital signs: A drop in systolic BP \u226520 mmHg or diastolic BP \u226510 mmHg, or increase in HR \u226530 bpm, is diagnostic for orthostatic hypotension (sensitivity ~60%, specificity ~90% for hypovolemia in the right context).\n- ECG: To rule out arrhythmia, ischemia, or conduction abnormalities (diagnostic yield in syncope ~5-10%, but higher if abnormal findings).\n- Capillary blood glucose: To rule out hypoglycemia.\n- Cardiac monitoring: For ongoing arrhythmia detection.\n\n**Diagnostic Performance Data:**\n- Orthostatic vitals: Sensitivity ~60%, specificity ~90% for hypovolemia.\n- ECG: Abnormal in ~5-10% of syncope cases, but critical for identifying life-threatening causes.\n- History and physical alone identify the cause in up to 50% of syncope cases (per ESC/ACC guidelines).\n\n**Summary:**\n- Focus on orthostatic vitals, ECG, and a careful history/physical. Consider hypovolemia (from NPO, pancreatitis, possible third-spacing), vasovagal syncope (micturition), and cardiac causes. Further workup (labs, imaging) as indicated by findings."
+ },
+ "variant": "base"
+}

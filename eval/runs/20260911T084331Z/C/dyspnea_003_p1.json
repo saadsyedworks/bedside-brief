@@ -1,0 +1,369 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "dyspnea_003",
+ "blocked_items": [],
+ "case_id": "dyspnea_003_p1",
+ "created_at": "2026-09-11T09:11:12+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and progression of symptoms (sudden vs gradual)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Chest pain characteristics (pleuritic, substernal, radiation)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: cough, hemoptysis, leg swelling/pain, palpitations, syncope, confusion"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Risk factors: prior VTE, cancer, immobility, hormone use, recent surgery (already present)"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication history, allergies"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: distress, diaphoresis, cyanosis"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vitals: confirm fever, tachycardia, tachypnea, hypoxemia"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Lungs: auscultate for crackles, decreased breath sounds, wheezing, egophony"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Heart: murmurs, gallops, rhythm"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Extremities: inspect for unilateral leg swelling, erythema, tenderness (DVT signs)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Calf circumference comparison"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Jugular venous distension (right heart strain)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Skin: petechiae (fat embolism), signs of infection"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pulse oximetry (already low)"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "1",
+    "3"
+   ],
+   "performance_claims": [
+    "1",
+    "3"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: look for sinus tachycardia, S1Q3T3, right heart strain (sensitivity for PE is low, but can help rule out MI or arrhythmia)"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside ultrasound (if available): lower limb DVT, right ventricular dilation (signs of PE)"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Portable chest X-ray: look for infiltrates (pneumonia), atelectasis, Westermark sign, Hampton's hump (rare, low sensitivity for PE)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ABG: may show hypoxemia, respiratory alkalosis (not specific)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Wells score"
+   ],
+   "numeric_claims": [
+    "60",
+    "85"
+   ],
+   "performance_claims": [
+    "60",
+    "85"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Wells score for PE: clinical prediction rule (sensitivity ~85%, specificity ~60% at moderate/high risk cutoff)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "95"
+   ],
+   "performance_claims": [
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "D-dimer: high sensitivity (>95%) but low specificity in elderly/post-op (not useful here)"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "1",
+    "10",
+    "20",
+    "3"
+   ],
+   "performance_claims": [
+    "1",
+    "10",
+    "20",
+    "3"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: S1Q3T3 pattern sensitivity ~10-20% for PE, sinus tachycardia most common finding"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [
+    "90"
+   ],
+   "performance_claims": [
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside compression ultrasound: sensitivity ~90% for proximal DVT"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Chest X-ray: often normal in PE, but can help rule in pneumonia"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on history for risk factors and symptoms of PE, pneumonia, MI, fat embolism"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Examine for DVT, right heart strain, pneumonia signs"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG, pulse oximetry, chest X-ray, bedside ultrasound if available"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Wells score"
+   ],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Use Wells score to estimate PE probability"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "If high suspicion for PE, proceed to definitive imaging (CTPA or V/Q scan) as soon as possible"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "Kearon C, et al."
+   ],
+   "numeric_claims": [
+    "2016"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "references",
+   "text": "Kearon C, et al. Diagnosis of Pulmonary Embolism. Chest. 2016"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Wells PS, et al."
+   ],
+   "numeric_claims": [
+    "2000"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "references",
+   "text": "Wells PS, et al. A clinical model for predicting the pretest probability of pulmonary embolism. Thromb Haemost. 2000"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014postoperative day 3 after hip fracture repair, elderly woman, acute onset dyspnea and pleuritic pain, fever, tachycardia, tachypnea, and hypoxemia\u2014the leading diagnoses are pulmonary embolism (PE), pneumonia, and less likely myocardial infarction or fat embolism syndrome.\n\n**History:**\n- Onset, duration, and progression of symptoms (sudden vs gradual)\n- Chest pain characteristics (pleuritic, substernal, radiation)\n- Associated symptoms: cough, hemoptysis, leg swelling/pain, palpitations, syncope, confusion\n- Risk factors: prior VTE, cancer, immobility, hormone use, recent surgery (already present)\n- Medication history, allergies\n\n**Physical Examination:**\n- General: distress, diaphoresis, cyanosis\n- Vitals: confirm fever, tachycardia, tachypnea, hypoxemia\n- Lungs: auscultate for crackles, decreased breath sounds, wheezing, egophony\n- Heart: murmurs, gallops, rhythm\n- Extremities: inspect for unilateral leg swelling, erythema, tenderness (DVT signs)\n- Calf circumference comparison\n- Jugular venous distension (right heart strain)\n- Skin: petechiae (fat embolism), signs of infection\n\n**Bedside Tests:**\n- Pulse oximetry (already low)\n- ECG: look for sinus tachycardia, S1Q3T3, right heart strain (sensitivity for PE is low, but can help rule out MI or arrhythmia)\n- Bedside ultrasound (if available): lower limb DVT, right ventricular dilation (signs of PE)\n- Portable chest X-ray: look for infiltrates (pneumonia), atelectasis, Westermark sign, Hampton's hump (rare, low sensitivity for PE)\n- ABG: may show hypoxemia, respiratory alkalosis (not specific)\n\n**Diagnostic Performance Data:**\n- Wells score for PE: clinical prediction rule (sensitivity ~85%, specificity ~60% at moderate/high risk cutoff)\n- D-dimer: high sensitivity (>95%) but low specificity in elderly/post-op (not useful here)\n- ECG: S1Q3T3 pattern sensitivity ~10-20% for PE, sinus tachycardia most common finding\n- Bedside compression ultrasound: sensitivity ~90% for proximal DVT\n- Chest X-ray: often normal in PE, but can help rule in pneumonia\n\n**Summary:**\n- Focus on history for risk factors and symptoms of PE, pneumonia, MI, fat embolism\n- Examine for DVT, right heart strain, pneumonia signs\n- Bedside tests: ECG, pulse oximetry, chest X-ray, bedside ultrasound if available\n- Use Wells score to estimate PE probability\n- If high suspicion for PE, proceed to definitive imaging (CTPA or V/Q scan) as soon as possible\n\nReferences:\n- Kearon C, et al. Diagnosis of Pulmonary Embolism. Chest. 2016.\n- Wells PS, et al. A clinical model for predicting the pretest probability of pulmonary embolism. Thromb Haemost. 2000."
+ },
+ "variant": "p1"
+}

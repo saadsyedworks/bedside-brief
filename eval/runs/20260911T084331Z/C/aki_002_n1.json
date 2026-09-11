@@ -1,0 +1,300 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "aki_002",
+ "blocked_items": [],
+ "case_id": "aki_002_n1",
+ "created_at": "2026-09-11T09:07:12+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Ask about lower urinary tract symptoms (LUTS): urgency, frequency, nocturia, weak stream, hesitancy, incomplete emptying"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Ask about suprapubic discomfort or pain"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Ask about recent fluid intake and output"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Ask about prior episodes of urinary retention or catheterization"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Review all medications (especially anticholinergics, opioids, sympathomimetics)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Ask about fever, chills, or flank pain (to rule out infection or obstruction higher up)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs (look for fever, tachycardia, hypotension)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdominal exam: palpate for a distended, tender bladder (usually felt as a firm, rounded mass above the pubic symphysis)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Percuss the suprapubic area for dullness (suggests bladder distention)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Genital exam: check for phimosis, meatal stenosis, or evidence of infection"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Rectal exam: assess prostate size, consistency, and tenderness"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "check for fecal impaction"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [
+    "300",
+    "500",
+    "90"
+   ],
+   "performance_claims": [
+    "300",
+    "500",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bladder scan/ultrasound: Non-invasive, rapid, and highly sensitive (>90%) for detecting urinary retention (post-void residual >300-500 mL is diagnostic in this context)"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "400",
+    "500"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Foley catheterization: Both diagnostic and therapeutic. Immediate return of >400-500 mL urine confirms retention. Monitor for post-obstructive diuresis"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urinalysis: To rule out infection or hematuria"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [
+    "90",
+    "98"
+   ],
+   "performance_claims": [
+    "90",
+    "98"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bladder scan sensitivity/specificity for urinary retention: >90%/98% (varies by device and operator)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "50",
+    "60"
+   ],
+   "performance_claims": [
+    "50",
+    "60"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Palpation/percussion for bladder distention: Sensitivity ~50-60% (less reliable in obese patients or small volumes)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Foley catheterization: Gold standard for confirming retention"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on history of LUTS, medication review, and symptoms of retention"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Examine for bladder distention and perform a rectal exam"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Use bladder scan and/or attempt catheterization for diagnosis"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Rising creatinine suggests post-renal (obstructive) acute kidney injury, which is reversible if promptly relieved"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "(UpToDate, 2024)"
+   ],
+   "numeric_claims": [
+    "2024"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "\"Evaluation and management of acute urinary retention in men\" (UpToDate, 2024)"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [
+    "2001",
+    "229",
+    "236",
+    "3",
+    "38"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "\"Bedside bladder ultrasonography\" (Ann Emerg Med. 2001;38(3):229-236)"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 78-year-old man with BPH, hospitalized for pneumonia, recently given diphenhydramine, now with 8 hours of anuria and rising creatinine\u2014the most likely diagnosis is acute urinary retention (AUR), likely precipitated by anticholinergic effects of diphenhydramine in a patient with underlying BPH.\n\n**History:**\n- Ask about lower urinary tract symptoms (LUTS): urgency, frequency, nocturia, weak stream, hesitancy, incomplete emptying.\n- Ask about suprapubic discomfort or pain.\n- Ask about recent fluid intake and output.\n- Ask about prior episodes of urinary retention or catheterization.\n- Review all medications (especially anticholinergics, opioids, sympathomimetics).\n- Ask about fever, chills, or flank pain (to rule out infection or obstruction higher up).\n\n**Physical Examination:**\n- Vital signs (look for fever, tachycardia, hypotension).\n- Abdominal exam: palpate for a distended, tender bladder (usually felt as a firm, rounded mass above the pubic symphysis).\n- Percuss the suprapubic area for dullness (suggests bladder distention).\n- Genital exam: check for phimosis, meatal stenosis, or evidence of infection.\n- Rectal exam: assess prostate size, consistency, and tenderness; check for fecal impaction.\n\n**Bedside Tests:**\n- **Bladder scan/ultrasound:** Non-invasive, rapid, and highly sensitive (>90%) for detecting urinary retention (post-void residual >300-500 mL is diagnostic in this context).\n- **Foley catheterization:** Both diagnostic and therapeutic. Immediate return of >400-500 mL urine confirms retention. Monitor for post-obstructive diuresis.\n- **Urinalysis:** To rule out infection or hematuria.\n\n**Diagnostic Performance Data:**\n- Bladder scan sensitivity/specificity for urinary retention: >90%/98% (varies by device and operator).\n- Palpation/percussion for bladder distention: Sensitivity ~50-60% (less reliable in obese patients or small volumes).\n- Foley catheterization: Gold standard for confirming retention.\n\n**Summary:**\n- Focus on history of LUTS, medication review, and symptoms of retention.\n- Examine for bladder distention and perform a rectal exam.\n- Use bladder scan and/or attempt catheterization for diagnosis.\n- Rising creatinine suggests post-renal (obstructive) acute kidney injury, which is reversible if promptly relieved.\n\n**References:**\n- \"Evaluation and management of acute urinary retention in men\" (UpToDate, 2024)\n- \"Bedside bladder ultrasonography\" (Ann Emerg Med. 2001;38(3):229-236)"
+ },
+ "variant": "n1"
+}

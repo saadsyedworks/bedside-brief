@@ -1,0 +1,285 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "palpitations_003",
+ "blocked_items": [],
+ "case_id": "palpitations_003_n1",
+ "created_at": "2026-09-11T09:14:35+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and frequency of palpitations (racing/skipping)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: heat intolerance, sweating, tremor, anxiety, insomnia, diarrhea, menstrual changes, neck swelling, eye symptoms (grittiness, double vision)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past medical history: thyroid disease, autoimmune disease"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Family history: thyroid or autoimmune disease"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medications, supplements"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent infections, travel, or stressors"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Appetite changes (weight loss with increased or decreased appetite)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: agitation, tremor, sweating, cachexia"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vitals: repeat pulse, BP, temperature"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Thyroid: inspect and palpate for goiter, nodules, tenderness, bruit"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Eyes: exophthalmos, lid lag, periorbital edema"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Hands: fine tremor (ask to extend hands), moist palms, onycholysis"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiac: tachycardia, arrhythmia, murmurs"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Reflexes: hyperreflexia"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Skin: pretibial myxedema, vitiligo"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: to assess for arrhythmia (sinus tachycardia vs. atrial fibrillation)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose (if available): hyperthyroidism can rarely cause hyperglycemia"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside thyroid exam (see above)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "64",
+    "76"
+   ],
+   "performance_claims": [
+    "64",
+    "76"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Fine tremor: Sensitivity ~76%, specificity ~64% for hyperthyroidism (JAMA Rational Clinical Exam)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "50",
+    "90"
+   ],
+   "performance_claims": [
+    "50",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Lid lag: Sensitivity ~50%, specificity ~90%"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "60",
+    "90"
+   ],
+   "performance_claims": [
+    "60",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Goiter: Sensitivity ~60%, specificity ~90%"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Sinus tachycardia: common but nonspecific"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Weight loss: nonspecific, but in context of increased appetite, suggests hyperthyroidism"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "History and exam should focus on hyperthyroidism, but also rule out infection, anemia, and anxiety. Bedside tests include ECG and focused thyroid/eye/hand exam. The combination of weight loss, palpitations, and tremor is highly suggestive of hyperthyroidism, especially in a young woman"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 31-year-old woman with recent weight loss, palpitations (heart racing and skipping), and a regular tachycardia (pulse 108), without fever\u2014your assessment should focus on possible causes of tachycardia and weight loss, especially hyperthyroidism, but also consider anxiety, anemia, infection, and other systemic illnesses.\n\n**History:**\n- Onset, duration, and frequency of palpitations (racing/skipping)\n- Associated symptoms: heat intolerance, sweating, tremor, anxiety, insomnia, diarrhea, menstrual changes, neck swelling, eye symptoms (grittiness, double vision)\n- Past medical history: thyroid disease, autoimmune disease\n- Family history: thyroid or autoimmune disease\n- Medications, supplements\n- Recent infections, travel, or stressors\n- Appetite changes (weight loss with increased or decreased appetite)\n\n**Physical Examination:**\n- General: agitation, tremor, sweating, cachexia\n- Vitals: repeat pulse, BP, temperature\n- Thyroid: inspect and palpate for goiter, nodules, tenderness, bruit\n- Eyes: exophthalmos, lid lag, periorbital edema\n- Hands: fine tremor (ask to extend hands), moist palms, onycholysis\n- Cardiac: tachycardia, arrhythmia, murmurs\n- Reflexes: hyperreflexia\n- Skin: pretibial myxedema, vitiligo\n\n**Bedside Tests:**\n- ECG: to assess for arrhythmia (sinus tachycardia vs. atrial fibrillation)\n- Bedside glucose (if available): hyperthyroidism can rarely cause hyperglycemia\n- Bedside thyroid exam (see above)\n\n**Diagnostic Performance Data:**\n- Fine tremor: Sensitivity ~76%, specificity ~64% for hyperthyroidism (JAMA Rational Clinical Exam)\n- Lid lag: Sensitivity ~50%, specificity ~90%\n- Goiter: Sensitivity ~60%, specificity ~90%\n- Sinus tachycardia: common but nonspecific\n- Weight loss: nonspecific, but in context of increased appetite, suggests hyperthyroidism\n\n**Summary:**\nHistory and exam should focus on hyperthyroidism, but also rule out infection, anemia, and anxiety. Bedside tests include ECG and focused thyroid/eye/hand exam. The combination of weight loss, palpitations, and tremor is highly suggestive of hyperthyroidism, especially in a young woman."
+ },
+ "variant": "n1"
+}

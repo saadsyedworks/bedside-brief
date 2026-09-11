@@ -1,0 +1,337 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "weakness_001",
+ "blocked_items": [],
+ "case_id": "weakness_001_n1",
+ "created_at": "2026-09-11T09:15:42+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Exact time of symptom onset (last known well): Crucial for thrombolysis eligibility"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Detailed symptom chronology: Progression, associated symptoms (weakness, numbness, vision changes, headache, confusion, balance)"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Anticoagulation details: Last dose of apixaban, adherence, bleeding history"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past medical history: Prior strokes/TIAs, vascular risk factors, recent trauma or surgery"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medications: Especially antiplatelets, anticoagulants, antihypertensives"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Allergies"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Social history: Smoking, alcohol, drug use"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Family history: Stroke, bleeding disorders"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: BP, HR, O2 sat, temperature"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: Level of consciousness, distress"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neurological exam:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cranial nerves: Facial droop (CN VII), gaze deviation, visual fields"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Motor: Arm/leg drift or weakness (pronator drift, grip strength)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Sensory: Light touch, pinprick"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Speech: Dysarthria, aphasia"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Coordination: Finger-nose, heel-shin"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Gait (if safe)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiovascular: Irregularly irregular rhythm (AFib), murmurs"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Other: Signs of trauma, tongue bite, incontinence (seizure mimics)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Blood glucose: Rule out hypoglycemia (stroke mimic). Sensitivity/specificity for stroke mimic is high (hypoglycemia can present identically to stroke)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "0.7"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "NIH Stroke Scale (NIHSS): Quantifies stroke severity. Inter-rater reliability is high (kappa >0.7), and higher scores predict worse outcomes"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: Confirm atrial fibrillation, look for acute ischemia"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pulse oximetry: Rule out hypoxia"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "73",
+    "88"
+   ],
+   "performance_claims": [
+    "73",
+    "88"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Facial droop, arm drift, and speech disturbance (FAST): Sensitivity ~88%, specificity ~73% for stroke"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "NIHSS: Higher scores correlate with large vessel occlusion and worse prognosis"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Blood glucose: Essential to rule out hypoglycemia, which is a common stroke mimic"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Immediate Actions:"
+  },
+  {
+   "bedside": false,
+   "category": "consult",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Activate stroke team/code stroke"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Prepare for urgent non-contrast head CT to rule out hemorrhage"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on rapid assessment of stroke symptoms, time of onset, anticoagulation status, and exclusion of mimics (especially hypoglycemia). Use the NIHSS and FAST exam for standardized assessment. Early imaging and specialist involvement are critical"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation, the patient is a 68-year-old woman with hypertension and atrial fibrillation (on apixaban), who developed acute left facial droop and slurred speech, last known well 40 minutes ago. This is highly suggestive of an acute stroke (likely ischemic, given the sudden onset and focal neurological deficit).\n\n**History:**\n- Exact time of symptom onset (last known well): Crucial for thrombolysis eligibility.\n- Detailed symptom chronology: Progression, associated symptoms (weakness, numbness, vision changes, headache, confusion, balance).\n- Anticoagulation details: Last dose of apixaban, adherence, bleeding history.\n- Past medical history: Prior strokes/TIAs, vascular risk factors, recent trauma or surgery.\n- Medications: Especially antiplatelets, anticoagulants, antihypertensives.\n- Allergies.\n- Social history: Smoking, alcohol, drug use.\n- Family history: Stroke, bleeding disorders.\n\n**Physical Examination:**\n- Vital signs: BP, HR, O2 sat, temperature.\n- General: Level of consciousness, distress.\n- Neurological exam:\n  - Cranial nerves: Facial droop (CN VII), gaze deviation, visual fields.\n  - Motor: Arm/leg drift or weakness (pronator drift, grip strength).\n  - Sensory: Light touch, pinprick.\n  - Speech: Dysarthria, aphasia.\n  - Coordination: Finger-nose, heel-shin.\n  - Gait (if safe).\n- Cardiovascular: Irregularly irregular rhythm (AFib), murmurs.\n- Other: Signs of trauma, tongue bite, incontinence (seizure mimics).\n\n**Bedside Tests:**\n- Blood glucose: Rule out hypoglycemia (stroke mimic). Sensitivity/specificity for stroke mimic is high (hypoglycemia can present identically to stroke).\n- NIH Stroke Scale (NIHSS): Quantifies stroke severity. Inter-rater reliability is high (kappa >0.7), and higher scores predict worse outcomes.\n- ECG: Confirm atrial fibrillation, look for acute ischemia.\n- Pulse oximetry: Rule out hypoxia.\n\n**Diagnostic Performance Data:**\n- Facial droop, arm drift, and speech disturbance (FAST): Sensitivity ~88%, specificity ~73% for stroke.\n- NIHSS: Higher scores correlate with large vessel occlusion and worse prognosis.\n- Blood glucose: Essential to rule out hypoglycemia, which is a common stroke mimic.\n\n**Immediate Actions:**\n- Activate stroke team/code stroke.\n- Prepare for urgent non-contrast head CT to rule out hemorrhage.\n\n**Summary:**\nFocus on rapid assessment of stroke symptoms, time of onset, anticoagulation status, and exclusion of mimics (especially hypoglycemia). Use the NIHSS and FAST exam for standardized assessment. Early imaging and specialist involvement are critical."
+ },
+ "variant": "n1"
+}

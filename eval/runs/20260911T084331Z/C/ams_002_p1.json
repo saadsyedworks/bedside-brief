@@ -1,0 +1,327 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "ams_002",
+ "blocked_items": [],
+ "case_id": "ams_002_p1",
+ "created_at": "2026-09-11T09:07:53+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Time course and progression of mental status changes"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent alcohol intake (last drink was morning of admission)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication use (sedatives, opioids, benzodiazepines)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent GI bleeding, vomiting, or diarrhea"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Symptoms of infection (fever, chills, abdominal pain)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Previous episodes of encephalopathy"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Compliance with lactulose/rifaximin"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Nutritional status"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: Level of consciousness (Glasgow Coma Scale), agitation, tremor"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neurologic: Asterixis (flapping tremor), focal deficits, nuchal rigidity"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdomen: Tenderness, distension, shifting dullness, fluid wave, peritonitis signs"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Stigmata of chronic liver disease: Jaundice, spider angiomata, palmar erythema"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Signs of withdrawal: Tremor, diaphoresis, tachycardia, hypertension, hallucinations"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Asterixis: Ask patient to extend arms and dorsiflex wrists"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "30",
+    "40",
+    "90"
+   ],
+   "performance_claims": [
+    "30",
+    "40",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "observe for flapping (sensitivity ~30-40%, specificity ~90% for HE)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "7"
+   ],
+   "performance_claims": [
+    "7"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Mental status: Number connection test or serial 7s (sensitive for mild HE)"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Vital signs: Monitor for fever, tachycardia, hypotension"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Blood glucose: Rule out hypoglycemia"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Asterixis: Specific but not sensitive for HE (see above)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Mental status tests: Number connection test is sensitive for minimal HE but less specific"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "50",
+    "60"
+   ],
+   "performance_claims": [
+    "50",
+    "60"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Clinical signs of SBP (fever, abdominal pain, tenderness): Sensitivity ~60%, specificity ~50%; many cases are asymptomatic"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Immediate Next Steps:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Check for asterixis and mental status changes (support HE diagnosis)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "250"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Paracentesis to rule out SBP (diagnostic tap indicated in all cirrhotics with altered mental status; PMN >250/mm\u00b3 is diagnostic)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Blood glucose bedside check"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Consider ammonia level (controversial, not always helpful)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Assess for withdrawal (CIWA-Ar scale)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on identifying hepatic encephalopathy, SBP, and alcohol withdrawal. Bedside tests like asterixis and mental status assessment are helpful but not definitive. Paracentesis is essential to rule out SBP, as clinical signs are insensitive. Always check glucose to rule out hypoglycemia as a reversible cause"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given the presentation of a 58-year-old man with alcohol-related cirrhosis, admitted for ascites, who is now somnolent and only oriented to person, with a normal heart rate and afebrile, the main concerns are hepatic encephalopathy (HE), alcohol withdrawal, infection (especially spontaneous bacterial peritonitis, SBP), and other metabolic or structural causes of altered mental status.\n\n**History:**\n- Time course and progression of mental status changes\n- Recent alcohol intake (last drink was morning of admission)\n- Medication use (sedatives, opioids, benzodiazepines)\n- Recent GI bleeding, vomiting, or diarrhea\n- Symptoms of infection (fever, chills, abdominal pain)\n- Previous episodes of encephalopathy\n- Compliance with lactulose/rifaximin\n- Nutritional status\n\n**Physical Examination:**\n- General: Level of consciousness (Glasgow Coma Scale), agitation, tremor\n- Neurologic: Asterixis (flapping tremor), focal deficits, nuchal rigidity\n- Abdomen: Tenderness, distension, shifting dullness, fluid wave, peritonitis signs\n- Stigmata of chronic liver disease: Jaundice, spider angiomata, palmar erythema\n- Signs of withdrawal: Tremor, diaphoresis, tachycardia, hypertension, hallucinations\n\n**Bedside Tests:**\n- Asterixis: Ask patient to extend arms and dorsiflex wrists; observe for flapping (sensitivity ~30-40%, specificity ~90% for HE)\n- Mental status: Number connection test or serial 7s (sensitive for mild HE)\n- Vital signs: Monitor for fever, tachycardia, hypotension\n- Blood glucose: Rule out hypoglycemia\n\n**Diagnostic Performance Data:**\n- Asterixis: Specific but not sensitive for HE (see above)\n- Mental status tests: Number connection test is sensitive for minimal HE but less specific\n- Clinical signs of SBP (fever, abdominal pain, tenderness): Sensitivity ~60%, specificity ~50%; many cases are asymptomatic\n\n**Immediate Next Steps:**\n- Check for asterixis and mental status changes (support HE diagnosis)\n- Paracentesis to rule out SBP (diagnostic tap indicated in all cirrhotics with altered mental status; PMN >250/mm\u00b3 is diagnostic)\n- Blood glucose bedside check\n- Consider ammonia level (controversial, not always helpful)\n- Assess for withdrawal (CIWA-Ar scale)\n\n**Summary:**\nFocus on identifying hepatic encephalopathy, SBP, and alcohol withdrawal. Bedside tests like asterixis and mental status assessment are helpful but not definitive. Paracentesis is essential to rule out SBP, as clinical signs are insensitive. Always check glucose to rule out hypoglycemia as a reversible cause."
+ },
+ "variant": "p1"
+}

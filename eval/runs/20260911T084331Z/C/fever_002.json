@@ -1,0 +1,308 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "fever_002",
+ "blocked_items": [],
+ "case_id": "fever_002",
+ "created_at": "2026-09-11T09:12:22+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and progression of leg symptoms (pain, redness, swelling)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent trauma, wounds, insect bites, or injections in the area"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Systemic symptoms: chills, rigors, malaise, confusion"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past history: previous similar episodes, vascular disease, immunosuppression"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication history"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: fever, tachycardia, hypotension (signs of sepsis)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Inspection: extent of erythema, swelling, bullae, skin discoloration, necrosis, crepitus"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Palpation: tenderness (especially beyond area of erythema), induration, crepitus (gas in tissues)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Sensation: anesthesia over affected area (late finding in necrotizing fasciitis)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Range of motion: pain with passive movement"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Pulses: assess for vascular compromise"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Lymphadenopathy"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Mark the borders of erythema to monitor progression"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside finger test/fasciotomy: small incision under local anesthesia to inspect fascia for \"dishwater\" fluid, lack of bleeding, and lack of resistance (performed by surgery if suspicion is high)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "6",
+    "68",
+    "80",
+    "90"
+   ],
+   "performance_claims": [
+    "68",
+    "80",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Laboratory Risk Indicator for Necrotizing Fasciitis (LRINEC) score: uses CRP, WBC, hemoglobin, sodium, creatinine, glucose (score \u22656 suggests higher risk; sensitivity ~68-80%, specificity ~80-90%)"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside ultrasound: may show subcutaneous thickening, fascial fluid, or gas (sensitivity and specificity variable, but can be helpful if positive)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pain out of proportion: highly suggestive but not specific for necrotizing fasciitis"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "30",
+    "50"
+   ],
+   "performance_claims": [
+    "30",
+    "50"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Crepitus: specific but not sensitive (present in ~30-50% of cases)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "68",
+    "80",
+    "90"
+   ],
+   "performance_claims": [
+    "68",
+    "80",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "LRINEC score: sensitivity 68-80%, specificity 80-90% (not reliable enough to rule out disease)"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Imaging (CT/MRI): high sensitivity for gas, fascial edema, but should not delay surgical consult if suspicion is high"
+  },
+  {
+   "bedside": false,
+   "category": "consult",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Immediate surgical consult is warranted if necrotizing fasciitis is suspected"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Early recognition and intervention are critical for survival"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Do not delay treatment for imaging or labs if clinical suspicion is high"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Stevens DL, et al."
+   ],
+   "numeric_claims": [
+    "2014"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Stevens DL, et al. Practice guidelines for the diagnosis and management of skin and soft tissue infections. Clin Infect Dis. 2014"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [
+    "Wong CH, et al."
+   ],
+   "numeric_claims": [
+    "2004"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Wong CH, et al. The LRINEC (Laboratory Risk Indicator for Necrotizing Fasciitis) score: a tool for distinguishing necrotizing fasciitis from other soft tissue infections. Crit Care Med. 2004"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 58-year-old male with diabetes mellitus (DM), recently resolved diabetic ketoacidosis (DKA), now febrile (T 39.2\u00b0C), with a red, swollen left lower leg and pain out of proportion to exam\u2014your primary concern should be for necrotizing fasciitis, a surgical emergency. Other considerations include cellulitis, deep vein thrombosis (DVT), and compartment syndrome, but the pain out of proportion is classic for necrotizing fasciitis.\n\n**History:**\n- Onset, duration, and progression of leg symptoms (pain, redness, swelling)\n- Recent trauma, wounds, insect bites, or injections in the area\n- Systemic symptoms: chills, rigors, malaise, confusion\n- Past history: previous similar episodes, vascular disease, immunosuppression\n- Medication history\n\n**Physical Examination:**\n- Vital signs: fever, tachycardia, hypotension (signs of sepsis)\n- Inspection: extent of erythema, swelling, bullae, skin discoloration, necrosis, crepitus\n- Palpation: tenderness (especially beyond area of erythema), induration, crepitus (gas in tissues)\n- Sensation: anesthesia over affected area (late finding in necrotizing fasciitis)\n- Range of motion: pain with passive movement\n- Pulses: assess for vascular compromise\n- Lymphadenopathy\n\n**Bedside Tests:**\n- Mark the borders of erythema to monitor progression\n- Bedside finger test/fasciotomy: small incision under local anesthesia to inspect fascia for \"dishwater\" fluid, lack of bleeding, and lack of resistance (performed by surgery if suspicion is high)\n- Laboratory Risk Indicator for Necrotizing Fasciitis (LRINEC) score: uses CRP, WBC, hemoglobin, sodium, creatinine, glucose (score \u22656 suggests higher risk; sensitivity ~68-80%, specificity ~80-90%)\n- Bedside ultrasound: may show subcutaneous thickening, fascial fluid, or gas (sensitivity and specificity variable, but can be helpful if positive)\n\n**Diagnostic Performance Data:**\n- Pain out of proportion: highly suggestive but not specific for necrotizing fasciitis\n- Crepitus: specific but not sensitive (present in ~30-50% of cases)\n- LRINEC score: sensitivity 68-80%, specificity 80-90% (not reliable enough to rule out disease)\n- Imaging (CT/MRI): high sensitivity for gas, fascial edema, but should not delay surgical consult if suspicion is high\n\n**Summary:**\n- Immediate surgical consult is warranted if necrotizing fasciitis is suspected.\n- Early recognition and intervention are critical for survival.\n- Do not delay treatment for imaging or labs if clinical suspicion is high.\n\n**References:**\n- Stevens DL, et al. Practice guidelines for the diagnosis and management of skin and soft tissue infections. Clin Infect Dis. 2014.\n- Wong CH, et al. The LRINEC (Laboratory Risk Indicator for Necrotizing Fasciitis) score: a tool for distinguishing necrotizing fasciitis from other soft tissue infections. Crit Care Med. 2004."
+ },
+ "variant": "base"
+}

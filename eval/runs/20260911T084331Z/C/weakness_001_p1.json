@@ -1,0 +1,339 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "weakness_001",
+ "blocked_items": [],
+ "case_id": "weakness_001_p1",
+ "created_at": "2026-09-11T09:15:38+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "40"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Exact time last seen normal (already provided: 40 min ago)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Detailed symptom onset and progression"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: weakness, numbness, vision changes, headache, confusion, balance/gait issues"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Anticoagulation details: last apixaban dose, adherence"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past medical history: prior strokes/TIAs, bleeding disorders, recent surgeries/trauma"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medications/allergies"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent falls or trauma"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Functional baseline"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: BP, HR, O2 sat, temp"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: level of consciousness, distress"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cranial nerves: facial symmetry (including forehead), eye closure, gaze deviation, visual fields, pupils, speech (dysarthria/aphasia)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Motor: strength in all limbs, pronator drift"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Sensory: light touch, pinprick"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cerebellar: finger-nose, heel-shin, rapid alternating movements"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Gait (if safe)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "81",
+    "89"
+   ],
+   "performance_claims": [
+    "81",
+    "89"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "NIH Stroke Scale (NIHSS): standardized assessment for stroke severity (sensitivity ~81%, specificity ~89% for large vessel occlusion)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "10",
+    "5"
+   ],
+   "performance_claims": [
+    "10",
+    "5"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Blood glucose (to rule out hypoglycemia; sensitivity for stroke mimic ~5-10%)"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG (for arrhythmias, especially if new)"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pulse oximetry"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [
+    "90",
+    "95"
+   ],
+   "performance_claims": [
+    "90",
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Immediate non-contrast head CT (to rule out hemorrhage; sensitivity for acute hemorrhage ~90-95%, but low for early ischemia)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "NIHSS: higher scores correlate with large vessel occlusion and worse outcomes; sensitivity/specificity for stroke varies by cutoff and setting"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Facial droop involving the forehead suggests a central (upper motor neuron) lesion, supporting stroke over Bell's palsy (which typically spares the forehead)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose: essential to rule out hypoglycemia, a common stroke mimic"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Rapid, focused history and exam to confirm stroke symptoms and exclude mimics"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "NIHSS for severity"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Immediate CT head"
+  },
+  {
+   "bedside": false,
+   "category": "consult",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Early neurology/stroke team activation"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Time is critical\u2014initiate stroke protocol and prepare for possible thrombolysis or thrombectomy evaluation"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 68-year-old female with hypertension and atrial fibrillation (on apixaban), with acute onset left facial droop (including forehead), inability to close left eye, and slurred speech, last seen normal 40 minutes ago\u2014the concern is for acute stroke (likely ischemic, given the time window and risk factors).\n\n**History:**\n- Exact time last seen normal (already provided: 40 min ago)\n- Detailed symptom onset and progression\n- Associated symptoms: weakness, numbness, vision changes, headache, confusion, balance/gait issues\n- Anticoagulation details: last apixaban dose, adherence\n- Past medical history: prior strokes/TIAs, bleeding disorders, recent surgeries/trauma\n- Medications/allergies\n- Recent falls or trauma\n- Functional baseline\n\n**Physical Examination:**\n- Vital signs: BP, HR, O2 sat, temp\n- General: level of consciousness, distress\n- Cranial nerves: facial symmetry (including forehead), eye closure, gaze deviation, visual fields, pupils, speech (dysarthria/aphasia)\n- Motor: strength in all limbs, pronator drift\n- Sensory: light touch, pinprick\n- Cerebellar: finger-nose, heel-shin, rapid alternating movements\n- Gait (if safe)\n- NIH Stroke Scale (NIHSS): standardized assessment for stroke severity (sensitivity ~81%, specificity ~89% for large vessel occlusion)\n\n**Bedside Tests:**\n- Blood glucose (to rule out hypoglycemia; sensitivity for stroke mimic ~5-10%)\n- ECG (for arrhythmias, especially if new)\n- Pulse oximetry\n- Immediate non-contrast head CT (to rule out hemorrhage; sensitivity for acute hemorrhage ~90-95%, but low for early ischemia)\n\n**Diagnostic Performance Data:**\n- NIHSS: higher scores correlate with large vessel occlusion and worse outcomes; sensitivity/specificity for stroke varies by cutoff and setting\n- Facial droop involving the forehead suggests a central (upper motor neuron) lesion, supporting stroke over Bell's palsy (which typically spares the forehead)\n- Bedside glucose: essential to rule out hypoglycemia, a common stroke mimic\n\n**Summary:**\n- Rapid, focused history and exam to confirm stroke symptoms and exclude mimics\n- NIHSS for severity\n- Bedside glucose\n- Immediate CT head\n- Early neurology/stroke team activation\n\nTime is critical\u2014initiate stroke protocol and prepare for possible thrombolysis or thrombectomy evaluation."
+ },
+ "variant": "p1"
+}

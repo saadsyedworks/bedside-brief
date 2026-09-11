@@ -1,0 +1,232 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "aki_002",
+ "blocked_items": [],
+ "case_id": "aki_002",
+ "created_at": "2026-09-11T09:07:05+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Ask about lower urinary tract symptoms (LUTS): urgency, frequency, hesitancy, weak stream, incomplete emptying, nocturia"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Ask about suprapubic discomfort or pain"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Ask about recent changes in medications (anticholinergics like diphenhydramine can precipitate retention)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Ask about prior episodes of retention or catheterization"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Ask about fluid intake and output"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs (to assess for sepsis or hemodynamic instability)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdominal exam: palpate for a distended, tender bladder (suprapubic fullness)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Genitourinary exam: check for phimosis, meatal stenosis, or other obstructive lesions"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Rectal exam: assess prostate size, consistency, and tenderness"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "check for fecal impaction"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [
+    "300",
+    "500",
+    "90"
+   ],
+   "performance_claims": [
+    "300",
+    "500",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bladder scan/ultrasound: Non-invasive, rapid, and highly sensitive (>90%) for detecting urinary retention (post-void residual >300-500 mL is suggestive of retention)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "400",
+    "500"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Foley catheterization: Both diagnostic and therapeutic. Immediate return of large urine volume (>400-500 mL) confirms retention"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urinalysis: To rule out infection or hematuria"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [
+    "90"
+   ],
+   "performance_claims": [
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bladder scan sensitivity and specificity for urinary retention are both >90% when compared to catheterization (the gold standard)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Palpation/percussion of a distended bladder is less sensitive, especially in obese patients or those with small volumes of retention"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "LUTS, pain, medication review"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "suprapubic fullness, rectal/prostate exam"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Bedside: bladder scan (high sensitivity/specificity), Foley catheterization (gold standard for diagnosis and treatment)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Immediate bladder decompression is indicated if retention is confirmed"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "This 78-year-old male with benign prostatic hyperplasia (BPH), admitted for community-acquired pneumonia (CAP), is on diphenhydramine (an anticholinergic), and now has no urine output for 8 hours and an acute rise in creatinine. This is highly suggestive of acute urinary retention (AUR) causing post-renal acute kidney injury (AKI).\n\n**History:**\n- Ask about lower urinary tract symptoms (LUTS): urgency, frequency, hesitancy, weak stream, incomplete emptying, nocturia.\n- Ask about suprapubic discomfort or pain.\n- Ask about recent changes in medications (anticholinergics like diphenhydramine can precipitate retention).\n- Ask about prior episodes of retention or catheterization.\n- Ask about fluid intake and output.\n\n**Physical Examination:**\n- Vital signs (to assess for sepsis or hemodynamic instability).\n- Abdominal exam: palpate for a distended, tender bladder (suprapubic fullness).\n- Genitourinary exam: check for phimosis, meatal stenosis, or other obstructive lesions.\n- Rectal exam: assess prostate size, consistency, and tenderness; check for fecal impaction.\n\n**Bedside Tests:**\n- **Bladder scan/ultrasound:** Non-invasive, rapid, and highly sensitive (>90%) for detecting urinary retention (post-void residual >300-500 mL is suggestive of retention).\n- **Foley catheterization:** Both diagnostic and therapeutic. Immediate return of large urine volume (>400-500 mL) confirms retention.\n- **Urinalysis:** To rule out infection or hematuria.\n\n**Diagnostic Performance Data:**\n- Bladder scan sensitivity and specificity for urinary retention are both >90% when compared to catheterization (the gold standard).\n- Palpation/percussion of a distended bladder is less sensitive, especially in obese patients or those with small volumes of retention.\n\n**Summary:**\n- History: LUTS, pain, medication review.\n- Exam: suprapubic fullness, rectal/prostate exam.\n- Bedside: bladder scan (high sensitivity/specificity), Foley catheterization (gold standard for diagnosis and treatment).\n\nImmediate bladder decompression is indicated if retention is confirmed."
+ },
+ "variant": "base"
+}

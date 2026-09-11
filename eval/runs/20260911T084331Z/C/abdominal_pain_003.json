@@ -1,0 +1,313 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "abdominal_pain_003",
+ "blocked_items": [],
+ "case_id": "abdominal_pain_003",
+ "created_at": "2026-09-11T09:06:29+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and character of pain (sudden, severe, out of proportion to exam is classic for AMI)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: nausea, vomiting, diarrhea, hematochezia, melena"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past medical history: vascular disease, heart failure, prior embolic events"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication history: anticoagulation, antiplatelets"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Risk factors: smoking, hypercoagulable states"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: distress, diaphoresis, pallor"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdomen: tenderness (often mild early), peritoneal signs (guarding, rebound\u2014late findings), bowel sounds (may be normal, decreased, or high-pitched)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vascular: peripheral pulses, signs of embolic phenomena (e.g., livedo reticularis)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Rectal exam: blood"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Vital signs: monitor for shock"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: confirm AF, look for other arrhythmias"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "44",
+    "86"
+   ],
+   "performance_claims": [
+    "44",
+    "86"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside lactate: elevated in late/advanced AMI (sensitivity ~86%, specificity ~44% for mesenteric ischemia"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "normal lactate does not rule out early disease)"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside ultrasound: limited utility for AMI, but can assess for AAA, free fluid, or other causes"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Point-of-care hemoglobin: may show anemia if bleeding"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "50",
+    "90"
+   ],
+   "performance_claims": [
+    "50",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Classic finding: pain out of proportion to exam (sensitivity ~50%, specificity ~90%)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Early exam may be normal or show only mild tenderness"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "44",
+    "86"
+   ],
+   "performance_claims": [
+    "44",
+    "86"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Lactate: sensitivity ~86%, specificity ~44% (not reliable early)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "No single bedside test is definitive; high clinical suspicion is key"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Maintain high suspicion for AMI in elderly AF patients with sudden severe abdominal pain and minimal findings on exam"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Early diagnosis is clinical"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "imaging (CT angiography) is definitive but not a bedside test"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Serial exams and monitoring for deterioration are crucial"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "Oldenburg WA, et al."
+   ],
+   "numeric_claims": [
+    "2004"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Oldenburg WA, et al. Acute mesenteric ischemia: a clinical review. Arch Intern Med. 2004"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "2016"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Clair DG, Beach JM. Mesenteric Ischemia. N Engl J Med. 2016"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "2022"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "American College of Emergency Physicians Clinical Policy: Evaluation and Management of Adult Patients With Suspected Acute Nontraumatic Mesenteric Ischemia. Ann Emerg Med. 2022"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 79-year-old male with atrial fibrillation (AF) not anticoagulated, sudden severe diffuse abdominal pain for 1 hour, soft abdomen, HR 118, BP 128/76\u2014the primary concern is acute mesenteric ischemia (AMI), a life-threatening condition more common in elderly patients with AF.\n\n**History:**\n- Onset, duration, and character of pain (sudden, severe, out of proportion to exam is classic for AMI)\n- Associated symptoms: nausea, vomiting, diarrhea, hematochezia, melena\n- Past medical history: vascular disease, heart failure, prior embolic events\n- Medication history: anticoagulation, antiplatelets\n- Risk factors: smoking, hypercoagulable states\n\n**Physical Examination:**\n- General: distress, diaphoresis, pallor\n- Abdomen: tenderness (often mild early), peritoneal signs (guarding, rebound\u2014late findings), bowel sounds (may be normal, decreased, or high-pitched)\n- Vascular: peripheral pulses, signs of embolic phenomena (e.g., livedo reticularis)\n- Rectal exam: blood\n\n**Bedside Tests:**\n- Vital signs: monitor for shock\n- ECG: confirm AF, look for other arrhythmias\n- Bedside lactate: elevated in late/advanced AMI (sensitivity ~86%, specificity ~44% for mesenteric ischemia; normal lactate does not rule out early disease)\n- Bedside ultrasound: limited utility for AMI, but can assess for AAA, free fluid, or other causes\n- Point-of-care hemoglobin: may show anemia if bleeding\n\n**Diagnostic Performance Data:**\n- Classic finding: pain out of proportion to exam (sensitivity ~50%, specificity ~90%)\n- Early exam may be normal or show only mild tenderness\n- Lactate: sensitivity ~86%, specificity ~44% (not reliable early)\n- No single bedside test is definitive; high clinical suspicion is key\n\n**Summary:**\n- Maintain high suspicion for AMI in elderly AF patients with sudden severe abdominal pain and minimal findings on exam.\n- Early diagnosis is clinical; imaging (CT angiography) is definitive but not a bedside test.\n- Serial exams and monitoring for deterioration are crucial.\n\n**References:**\n- Oldenburg WA, et al. Acute mesenteric ischemia: a clinical review. Arch Intern Med. 2004.\n- Clair DG, Beach JM. Mesenteric Ischemia. N Engl J Med. 2016.\n- American College of Emergency Physicians Clinical Policy: Evaluation and Management of Adult Patients With Suspected Acute Nontraumatic Mesenteric Ischemia. Ann Emerg Med. 2022."
+ },
+ "variant": "base"
+}

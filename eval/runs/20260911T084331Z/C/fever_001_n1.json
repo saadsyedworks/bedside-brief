@@ -1,0 +1,329 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "fever_001",
+ "blocked_items": [],
+ "case_id": "fever_001_n1",
+ "created_at": "2026-09-11T09:12:19+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and pattern of fever"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Respiratory symptoms: cough (productive?), dyspnea, chest pain"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Urinary symptoms: dysuria, urgency, hematuria, suprapubic pain"
+  },
+  {
+   "bedside": false,
+   "category": "disposition",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Surgical site: pain, redness, discharge"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Leg symptoms: swelling, pain (DVT)"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent antibiotic use, allergies"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Comorbidities (diabetes, immunosuppression)"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: temp, HR, BP, RR, O2 sat"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: appearance, mental status"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Lungs: auscultation for crackles, decreased breath sounds (pneumonia)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Heart: murmurs (endocarditis rare but possible)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdomen: suprapubic tenderness (UTI)"
+  },
+  {
+   "bedside": false,
+   "category": "disposition",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Surgical site: erythema, swelling, discharge, warmth"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Lower limbs: calf tenderness, swelling, Homan\u2019s sign (DVT)"
+  },
+  {
+   "bedside": false,
+   "category": "disposition",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Catheter site: erythema, discharge"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "80",
+    "90"
+   ],
+   "performance_claims": [
+    "80",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urinalysis and urine culture (for UTI): Sensitivity ~80-90% for UTI with pyuria and bacteriuria"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [
+    "70",
+    "80",
+    "90"
+   ],
+   "performance_claims": [
+    "70",
+    "80",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Chest X-ray (for pneumonia): Sensitivity ~70-90%, specificity ~80-90%"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Blood cultures (for bacteremia): Sensitivity varies, but important if sepsis suspected"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "CBC, CRP, procalcitonin (inflammatory markers)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Wound swab/culture if surgical site abnormal"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [
+    "95"
+   ],
+   "performance_claims": [
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Lower limb Doppler US if DVT suspected (sensitivity ~95%, specificity ~95%)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "80",
+    "90"
+   ],
+   "performance_claims": [
+    "80",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urinalysis: Sensitivity ~80-90% for UTI if both pyuria and bacteriuria present"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [
+    "70",
+    "90"
+   ],
+   "performance_claims": [
+    "70",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Chest X-ray: Sensitivity ~70-90% for pneumonia, but can be lower early post-op"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "20",
+    "30"
+   ],
+   "performance_claims": [
+    "20",
+    "30"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Blood cultures: Sensitivity for bacteremia varies, but positive in ~20-30% of severe sepsis cases"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [
+    "95"
+   ],
+   "performance_claims": [
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Lower limb Doppler US: Sensitivity and specificity both ~95% for proximal DVT"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on history and exam for respiratory, urinary, surgical site, and DVT symptoms. Bedside tests should include urinalysis/culture, chest X-ray, blood cultures, and possibly Doppler US. Diagnostic performance is moderate to high for these tests, but clinical context is key"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 71-year-old woman, post-op day 2 after knee replacement, with a urinary catheter, new fever (38.6\u00b0C), and mild cough\u2014the main concerns are postoperative infection: surgical site infection, urinary tract infection (UTI), pneumonia, or less likely, catheter-related bloodstream infection or deep vein thrombosis (DVT).\n\n**History:**\n- Onset, duration, and pattern of fever\n- Respiratory symptoms: cough (productive?), dyspnea, chest pain\n- Urinary symptoms: dysuria, urgency, hematuria, suprapubic pain\n- Surgical site: pain, redness, discharge\n- Leg symptoms: swelling, pain (DVT)\n- Recent antibiotic use, allergies\n- Comorbidities (diabetes, immunosuppression)\n\n**Physical Examination:**\n- Vital signs: temp, HR, BP, RR, O2 sat\n- General: appearance, mental status\n- Lungs: auscultation for crackles, decreased breath sounds (pneumonia)\n- Heart: murmurs (endocarditis rare but possible)\n- Abdomen: suprapubic tenderness (UTI)\n- Surgical site: erythema, swelling, discharge, warmth\n- Lower limbs: calf tenderness, swelling, Homan\u2019s sign (DVT)\n- Catheter site: erythema, discharge\n\n**Bedside Tests:**\n- Urinalysis and urine culture (for UTI): Sensitivity ~80-90% for UTI with pyuria and bacteriuria\n- Chest X-ray (for pneumonia): Sensitivity ~70-90%, specificity ~80-90%\n- Blood cultures (for bacteremia): Sensitivity varies, but important if sepsis suspected\n- CBC, CRP, procalcitonin (inflammatory markers)\n- Wound swab/culture if surgical site abnormal\n- Lower limb Doppler US if DVT suspected (sensitivity ~95%, specificity ~95%)\n\n**Diagnostic Performance Data:**\n- Urinalysis: Sensitivity ~80-90% for UTI if both pyuria and bacteriuria present\n- Chest X-ray: Sensitivity ~70-90% for pneumonia, but can be lower early post-op\n- Blood cultures: Sensitivity for bacteremia varies, but positive in ~20-30% of severe sepsis cases\n- Lower limb Doppler US: Sensitivity and specificity both ~95% for proximal DVT\n\n**Summary:**\nFocus on history and exam for respiratory, urinary, surgical site, and DVT symptoms. Bedside tests should include urinalysis/culture, chest X-ray, blood cultures, and possibly Doppler US. Diagnostic performance is moderate to high for these tests, but clinical context is key."
+ },
+ "variant": "n1"
+}

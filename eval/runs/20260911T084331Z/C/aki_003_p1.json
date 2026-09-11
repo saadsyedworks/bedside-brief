@@ -1,0 +1,273 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "aki_003",
+ "blocked_items": [],
+ "case_id": "aki_003_p1",
+ "created_at": "2026-09-11T09:07:24+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Detailed medication history (NSAIDs, other nephrotoxins)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Alcohol use history (amount, duration, last drink)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Muscle symptoms (myalgias, weakness, recent exertion, seizures)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Urinary symptoms (volume, dysuria, hematuria)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent infections, fevers, rashes, joint pain (suggest AIN)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "GI symptoms (nausea, vomiting, diarrhea)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past kidney disease, liver disease"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Volume status (orthostatic vitals, mucous membranes, JVP, edema)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Skin (rashes, petechiae, jaundice)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Muscle tenderness (especially calves, thighs)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdominal exam (liver size, ascites)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neurologic exam (for alcohol withdrawal severity, muscle weakness)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urine dipstick: Blood (positive in hematuria, myoglobinuria, hemoglobinuria), protein, leukocyte esterase, nitrites"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urine microscopy: RBCs, WBCs, casts (muddy brown casts = ATN, eosinophils = AIN, granular casts = rhabdo/ATN)"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urine output monitoring"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "1",
+    "2"
+   ],
+   "performance_claims": [
+    "1",
+    "2"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Fractional excretion of sodium (FENa): <1% suggests prerenal, >2% suggests ATN (but can be misleading in NSAID use)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside creatine kinase (CK) if available (for rhabdomyolysis)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urine dipstick for blood is sensitive for myoglobinuria but not specific (cannot distinguish myoglobin from hemoglobin)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "30",
+    "50",
+    "95"
+   ],
+   "performance_claims": [
+    "30",
+    "50",
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Muddy brown granular casts on microscopy are highly suggestive of ATN (specificity ~95%, sensitivity ~30-50%)"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [
+    "2"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "FENa >2% is sensitive for ATN but less specific in the setting of diuretics or NSAIDs"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "100",
+    "5",
+    "80"
+   ],
+   "performance_claims": [
+    "100",
+    "5",
+    "80"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "CK >5x upper limit of normal is diagnostic for rhabdomyolysis (sensitivity ~100%, specificity ~80%)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on history for muscle injury, NSAID and alcohol use, and symptoms of AIN. Examine for volume status, muscle tenderness, and rashes. Bedside, perform urine dip, microscopy, monitor urine output, and check CK. These will help distinguish between ATN, AIN, rhabdomyolysis, and other causes of AKI"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 45-year-old man with no trauma, recent high-dose NSAID use, alcohol withdrawal, acute kidney injury (Cr 3.4), and dark brown urine\u2014the differential includes acute tubular necrosis (ATN), acute interstitial nephritis (AIN), rhabdomyolysis, and possibly hepatorenal syndrome or pigment nephropathy.\n\n**History:**\n- Detailed medication history (NSAIDs, other nephrotoxins)\n- Alcohol use history (amount, duration, last drink)\n- Muscle symptoms (myalgias, weakness, recent exertion, seizures)\n- Urinary symptoms (volume, dysuria, hematuria)\n- Recent infections, fevers, rashes, joint pain (suggest AIN)\n- GI symptoms (nausea, vomiting, diarrhea)\n- Past kidney disease, liver disease\n\n**Physical Examination:**\n- Volume status (orthostatic vitals, mucous membranes, JVP, edema)\n- Skin (rashes, petechiae, jaundice)\n- Muscle tenderness (especially calves, thighs)\n- Abdominal exam (liver size, ascites)\n- Neurologic exam (for alcohol withdrawal severity, muscle weakness)\n\n**Bedside Tests:**\n- Urine dipstick: Blood (positive in hematuria, myoglobinuria, hemoglobinuria), protein, leukocyte esterase, nitrites\n- Urine microscopy: RBCs, WBCs, casts (muddy brown casts = ATN, eosinophils = AIN, granular casts = rhabdo/ATN)\n- Urine output monitoring\n- Fractional excretion of sodium (FENa): <1% suggests prerenal, >2% suggests ATN (but can be misleading in NSAID use)\n- Bedside creatine kinase (CK) if available (for rhabdomyolysis)\n\n**Diagnostic Performance Data:**\n- Urine dipstick for blood is sensitive for myoglobinuria but not specific (cannot distinguish myoglobin from hemoglobin).\n- Muddy brown granular casts on microscopy are highly suggestive of ATN (specificity ~95%, sensitivity ~30-50%).\n- FENa >2% is sensitive for ATN but less specific in the setting of diuretics or NSAIDs.\n- CK >5x upper limit of normal is diagnostic for rhabdomyolysis (sensitivity ~100%, specificity ~80%).\n\n**Summary:**\nFocus on history for muscle injury, NSAID and alcohol use, and symptoms of AIN. Examine for volume status, muscle tenderness, and rashes. Bedside, perform urine dip, microscopy, monitor urine output, and check CK. These will help distinguish between ATN, AIN, rhabdomyolysis, and other causes of AKI."
+ },
+ "variant": "p1"
+}

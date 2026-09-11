@@ -1,0 +1,366 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "hypotension_003",
+ "blocked_items": [],
+ "case_id": "hypotension_003",
+ "created_at": "2026-09-11T09:13:36+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and progression of dyspnea and hypotension"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Chest pain, pleuritic pain, palpitations, syncope, fever, chills, cough, hemoptysis"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent procedures (e.g., central lines, thoracentesis)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Cancer history: sites of metastasis (pericardial, pleural, pulmonary), recent treatments"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medications, allergies"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Baseline functional status"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: Level of consciousness, distress, diaphoresis"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vitals: Confirm hypotension, tachycardia, hypoxemia"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Skin: Mottling, cyanosis, capillary refill"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neck: Jugular venous distension (JVD)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Heart: Muffled heart sounds, tachycardia, new murmurs, rubs"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Lungs: Decreased breath sounds, crackles, wheezing, dullness to percussion, tracheal deviation"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Extremities: Edema, signs of DVT"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: Look for arrhythmias, ischemia, electrical alternans (tamponade)"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside cardiac and lung ultrasound (POCUS):"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "96",
+    "98"
+   ],
+   "performance_claims": [
+    "96",
+    "98"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pericardial effusion/tamponade: Sensitivity ~96%, specificity ~98% for moderate/large effusions"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "60",
+    "85"
+   ],
+   "performance_claims": [
+    "60",
+    "85"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "RV dilation/strain (PE): Sensitivity ~60%, specificity ~85% for massive PE"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "B-lines, pleural effusion, pneumothorax (lung sliding absent)"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Portable chest X-ray: Pneumothorax, effusions, pulmonary edema, metastases"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside capillary blood gas: Rapid assessment of hypoxemia, acidosis"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside lactate: Marker of shock"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "20",
+    "40"
+   ],
+   "performance_claims": [
+    "20",
+    "40"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Beck\u2019s triad (hypotension, JVD, muffled heart sounds): Sensitivity ~20-40% for tamponade, but highly specific if present"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [
+    "2014",
+    "96",
+    "98"
+   ],
+   "performance_claims": [
+    "96",
+    "98"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "POCUS for tamponade: Sensitivity 96%, specificity 98% (J Am Soc Echocardiogr. 2014)"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [
+    "2011",
+    "88",
+    "99"
+   ],
+   "performance_claims": [
+    "88",
+    "99"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "POCUS for pneumothorax: Absence of lung sliding: Sensitivity 88%, specificity 99% (Chest. 2011)"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [
+    "2010",
+    "60",
+    "85"
+   ],
+   "performance_claims": [
+    "60",
+    "85"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "POCUS for PE (RV strain): Sensitivity 60%, specificity 85% (Chest. 2010)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Rapidly assess for shock and hypoxemia causes: tamponade, PE, pneumothorax, sepsis"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focused history, exam for JVD, heart/lung findings"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside POCUS is high-yield and rapid"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG, CXR, lactate, and ABG support diagnosis and management"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Immediate action is warranted given the high risk of decompensation in this patient"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 70-year-old female with metastatic breast cancer, new hypotension (BP 84/56), tachycardia (HR 122), hypoxemia (SpO2 91% on 2L), and acute clinical deterioration\u2014the differential is broad but must prioritize life-threatening causes of shock and hypoxemia, such as sepsis, pulmonary embolism, cardiac tamponade, acute coronary syndrome, and pneumothorax.\n\n**History:**\n- Onset, duration, and progression of dyspnea and hypotension\n- Chest pain, pleuritic pain, palpitations, syncope, fever, chills, cough, hemoptysis\n- Recent procedures (e.g., central lines, thoracentesis)\n- Cancer history: sites of metastasis (pericardial, pleural, pulmonary), recent treatments\n- Medications, allergies\n- Baseline functional status\n\n**Physical Examination:**\n- General: Level of consciousness, distress, diaphoresis\n- Vitals: Confirm hypotension, tachycardia, hypoxemia\n- Skin: Mottling, cyanosis, capillary refill\n- Neck: Jugular venous distension (JVD)\n- Heart: Muffled heart sounds, tachycardia, new murmurs, rubs\n- Lungs: Decreased breath sounds, crackles, wheezing, dullness to percussion, tracheal deviation\n- Extremities: Edema, signs of DVT\n\n**Bedside Tests:**\n- **ECG:** Look for arrhythmias, ischemia, electrical alternans (tamponade)\n- **Bedside cardiac and lung ultrasound (POCUS):**\n  - Pericardial effusion/tamponade: Sensitivity ~96%, specificity ~98% for moderate/large effusions\n  - RV dilation/strain (PE): Sensitivity ~60%, specificity ~85% for massive PE\n  - B-lines, pleural effusion, pneumothorax (lung sliding absent)\n- **Portable chest X-ray:** Pneumothorax, effusions, pulmonary edema, metastases\n- **Bedside capillary blood gas:** Rapid assessment of hypoxemia, acidosis\n- **Bedside lactate:** Marker of shock\n\n**Diagnostic Performance Data:**\n- **Beck\u2019s triad (hypotension, JVD, muffled heart sounds):** Sensitivity ~20-40% for tamponade, but highly specific if present\n- **POCUS for tamponade:** Sensitivity 96%, specificity 98% (J Am Soc Echocardiogr. 2014)\n- **POCUS for pneumothorax:** Absence of lung sliding: Sensitivity 88%, specificity 99% (Chest. 2011)\n- **POCUS for PE (RV strain):** Sensitivity 60%, specificity 85% (Chest. 2010)\n\n**Summary:**\n- Rapidly assess for shock and hypoxemia causes: tamponade, PE, pneumothorax, sepsis\n- Focused history, exam for JVD, heart/lung findings\n- Bedside POCUS is high-yield and rapid\n- ECG, CXR, lactate, and ABG support diagnosis and management\n\nImmediate action is warranted given the high risk of decompensation in this patient."
+ },
+ "variant": "base"
+}

@@ -1,0 +1,90 @@
+{
+ "_note": "SEALED: do not open while scoring judging_queue.csv",
+ "seed": 7,
+ "items": {
+  "ea61c917ce": {
+   "arm": "A",
+   "case_id": "syncope_001",
+   "item_index": 0,
+   "record_id": "hx_exertional_syncope"
+  },
+  "63a18ce303": {
+   "arm": "A",
+   "case_id": "syncope_001",
+   "item_index": 1,
+   "record_id": "exam_late_peaking_murmur"
+  },
+  "cd785091cd": {
+   "arm": "A",
+   "case_id": "syncope_001",
+   "item_index": 2,
+   "record_id": "fn_orthostatic_vitals"
+  },
+  "040356b2ac": {
+   "arm": "B",
+   "case_id": "syncope_001",
+   "item_index": 0,
+   "record_id": "hx_exertional_syncope"
+  },
+  "f82e6dfa09": {
+   "arm": "B",
+   "case_id": "syncope_001",
+   "item_index": 1,
+   "record_id": "exam_late_peaking_murmur"
+  },
+  "8260c6dc2c": {
+   "arm": "B",
+   "case_id": "syncope_001",
+   "item_index": 2,
+   "record_id": "fn_orthostatic_vitals"
+  },
+  "5152aed61d": {
+   "arm": "C",
+   "case_id": "syncope_001",
+   "item_index": 0,
+   "record_id": null
+  },
+  "05642db1a6": {
+   "arm": "C",
+   "case_id": "syncope_001",
+   "item_index": 1,
+   "record_id": null
+  },
+  "126dffd2a9": {
+   "arm": "C",
+   "case_id": "syncope_001",
+   "item_index": 2,
+   "record_id": null
+  },
+  "96478c0930": {
+   "arm": "C",
+   "case_id": "syncope_001",
+   "item_index": 3,
+   "record_id": null
+  },
+  "e994ebda92": {
+   "arm": "C",
+   "case_id": "syncope_001",
+   "item_index": 4,
+   "record_id": null
+  },
+  "4a45c1d8d1": {
+   "arm": "C",
+   "case_id": "syncope_001",
+   "item_index": 5,
+   "record_id": null
+  },
+  "2f3434e1fd": {
+   "arm": "C",
+   "case_id": "syncope_001",
+   "item_index": 6,
+   "record_id": null
+  },
+  "35f2263a2d": {
+   "arm": "C",
+   "case_id": "syncope_001",
+   "item_index": 7,
+   "record_id": null
+  }
+ }
+}

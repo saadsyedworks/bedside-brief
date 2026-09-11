@@ -1,0 +1,364 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "fever_003",
+ "blocked_items": [],
+ "case_id": "fever_003_n1",
+ "created_at": "2026-09-11T09:12:52+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and pattern of fever and chills"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Any new or worsening pain (back, chest, joints, abdomen)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Symptoms of heart failure (dyspnea, orthopnea, edema)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Neurologic symptoms (headache, confusion, focal deficits)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "GI symptoms (nausea, vomiting, diarrhea)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Genitourinary symptoms (dysuria, frequency)"
+  },
+  {
+   "bedside": false,
+   "category": "disposition",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "PICC line symptoms (pain, redness, swelling, discharge)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication adherence and recent vancomycin levels"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent manipulation of the PICC line"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Any recent dental work or procedures"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs (including orthostatic measurements)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General appearance (toxic, ill, diaphoretic)"
+  },
+  {
+   "bedside": false,
+   "category": "disposition",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "PICC line site: erythema, tenderness, swelling, discharge, tracking"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "80",
+    "85"
+   ],
+   "performance_claims": [
+    "80",
+    "85"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiac exam: new murmurs (sensitivity for endocarditis murmur ~85%, specificity ~80%), signs of heart failure"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Skin: Janeway lesions, Osler nodes, splinter hemorrhages, petechiae (low sensitivity, high specificity for endocarditis)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Lungs: rales, signs of septic emboli"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdomen: tenderness, organomegaly"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neuro: focal deficits, confusion"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Musculoskeletal: back tenderness (spine infection), joint swelling"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "2",
+    "90",
+    "98"
+   ],
+   "performance_claims": [
+    "90",
+    "98"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Blood cultures x2 sets from different sites (including one from the PICC line and one peripherally)\u2014sensitivity for bacteremia ~90%, specificity ~98%"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "CBC, renal and liver function, lactate"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urinalysis (for secondary source)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Rapid assessment of vancomycin trough if available"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [
+    "60",
+    "95"
+   ],
+   "performance_claims": [
+    "60",
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside echocardiography if suspicion for endocarditis is high (sensitivity for TTE ~60%, specificity ~95%"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "TEE is more sensitive)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on identifying source: line, endocarditis, recurrence of spine infection, or new site"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Blood cultures are the most important initial diagnostic test"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Careful exam for endocarditis stigmata and PICC line infection"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Early involvement of infectious diseases and consideration of line removal if line infection is suspected"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "Mermel LA et al."
+   ],
+   "numeric_claims": [
+    "2009"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Mermel LA et al. Clinical practice guidelines for the diagnosis and management of intravascular catheter-related infection. Clin Infect Dis. 2009"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "Li JS et al."
+   ],
+   "numeric_claims": [
+    "2000"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Li JS et al. Proposed modifications to the Duke criteria for the diagnosis of infective endocarditis. Clin Infect Dis. 2000"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 46-year-old male with a history of injection drug use, a PICC line for a spine infection, currently on vancomycin, and now with fever and chills without localizing symptoms\u2014the concern is high for a serious infection, particularly line-associated bloodstream infection, endocarditis, or recurrence/progression of his original infection.\n\n**History:**\n- Onset, duration, and pattern of fever and chills\n- Any new or worsening pain (back, chest, joints, abdomen)\n- Symptoms of heart failure (dyspnea, orthopnea, edema)\n- Neurologic symptoms (headache, confusion, focal deficits)\n- GI symptoms (nausea, vomiting, diarrhea)\n- Genitourinary symptoms (dysuria, frequency)\n- PICC line symptoms (pain, redness, swelling, discharge)\n- Medication adherence and recent vancomycin levels\n- Recent manipulation of the PICC line\n- Any recent dental work or procedures\n\n**Physical Examination:**\n- Vital signs (including orthostatic measurements)\n- General appearance (toxic, ill, diaphoretic)\n- PICC line site: erythema, tenderness, swelling, discharge, tracking\n- Cardiac exam: new murmurs (sensitivity for endocarditis murmur ~85%, specificity ~80%), signs of heart failure\n- Skin: Janeway lesions, Osler nodes, splinter hemorrhages, petechiae (low sensitivity, high specificity for endocarditis)\n- Lungs: rales, signs of septic emboli\n- Abdomen: tenderness, organomegaly\n- Neuro: focal deficits, confusion\n- Musculoskeletal: back tenderness (spine infection), joint swelling\n\n**Bedside Tests:**\n- Blood cultures x2 sets from different sites (including one from the PICC line and one peripherally)\u2014sensitivity for bacteremia ~90%, specificity ~98%\n- CBC, renal and liver function, lactate\n- Urinalysis (for secondary source)\n- Bedside glucose\n- Rapid assessment of vancomycin trough if available\n- Bedside echocardiography if suspicion for endocarditis is high (sensitivity for TTE ~60%, specificity ~95%; TEE is more sensitive)\n\n**Summary:**\n- Focus on identifying source: line, endocarditis, recurrence of spine infection, or new site.\n- Blood cultures are the most important initial diagnostic test.\n- Careful exam for endocarditis stigmata and PICC line infection.\n- Early involvement of infectious diseases and consideration of line removal if line infection is suspected.\n\n**References:**\n- Mermel LA et al. Clinical practice guidelines for the diagnosis and management of intravascular catheter-related infection. Clin Infect Dis. 2009.\n- Li JS et al. Proposed modifications to the Duke criteria for the diagnosis of infective endocarditis. Clin Infect Dis. 2000."
+ },
+ "variant": "n1"
+}

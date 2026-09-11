@@ -1,0 +1,411 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "ams_002",
+ "blocked_items": [],
+ "case_id": "ams_002",
+ "created_at": "2026-09-11T09:07:46+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Time course and progression of mental status changes"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Precipitating factors: GI bleeding, infection (esp. SBP), constipation, dehydration, electrolyte disturbances, recent medications (esp. sedatives, opioids, benzodiazepines)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Alcohol use history (last drink, withdrawal symptoms)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent procedures (paracentesis, TIPS)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Symptoms of infection (fever, chills, cough, dysuria, abdominal pain)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Bowel habits (constipation, diarrhea)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication adherence (lactulose, rifaximin)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: Level of consciousness, ability to follow commands"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neurologic: Assess for asterixis (flapping tremor), focal deficits (to rule out stroke), speech, gait (if possible)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "HE grading (West Haven criteria):"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "1"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Grade 1: Trivial lack of awareness, euphoria/anxiety, shortened attention span"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Grade 2: Lethargy, disorientation to time, obvious personality change, inappropriate behavior, asterixis"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "3"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Grade 3: Somnolence, confusion, gross disorientation"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "4"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Grade 4: Coma"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdominal: Tenderness, signs of peritonitis (rebound, guarding), shifting dullness (ascites)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Signs of infection: Lung exam, skin (cellulitis), urine (catheter, suprapubic tenderness)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "30",
+    "90"
+   ],
+   "performance_claims": [
+    "30",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Asterixis: Sensitivity ~30-90%, specificity ~90% for HE (variable, but highly suggestive if present)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "7"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Mental status exam: Orientation, attention (serial 7s, months backward), constructional apraxia (draw a star or pentagon)"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Vitals: Monitor for fever, tachycardia (may indicate infection)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose: Rule out hypoglycemia"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urine dipstick: Screen for infection"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "250"
+   ],
+   "performance_claims": [
+    "250"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Paracentesis: If ascites present, to rule out spontaneous bacterial peritonitis (SBP). Diagnostic performance: PMN >250/mm\u00b3 is highly sensitive and specific for SBP"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Summary Table:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "| Test/Exam | Sensitivity | Specificity | Notes |"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "30",
+    "90"
+   ],
+   "performance_claims": [
+    "30",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "| Asterixis | 30-90% | ~90% | Not present in all HE cases |"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "7"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "| Mental status | Variable | Variable | Serial 7s, orientation, apraxia |"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "250",
+    "90",
+    "98"
+   ],
+   "performance_claims": [
+    "250",
+    "90",
+    "98"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "| Paracentesis (SBP)| ~98% (PMN) | ~90% | PMN >250/mm\u00b3 diagnostic for SBP |"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Key Points:"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Always rule out infection (esp. SBP) in cirrhotics with AMS"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Asterixis is suggestive but not required for HE diagnosis"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose is essential to rule out hypoglycemia"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Consider other causes of AMS if focal deficits or rapid deterioration"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "Vilstrup H, et al."
+   ],
+   "numeric_claims": [
+    "2014"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Vilstrup H, et al. Hepatic Encephalopathy in Chronic Liver Disease: 2014 Practice Guideline. Hepatology. 2014"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "2012"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Runyon BA. Management of adult patients with ascites due to cirrhosis: Update 2012. AASLD Practice Guideline"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "2024"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "UpToDate: \"Hepatic encephalopathy in adults: Clinical manifestations and diagnosis\" (2024)"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 58-year-old man with alcohol-related cirrhosis, admitted for ascites, now somnolent and only oriented to person, with stable vital signs (HR 78, afebrile)\u2014the main concern is hepatic encephalopathy (HE), but other causes of altered mental status (AMS) should also be considered (e.g., infection, metabolic derangements, intracranial events).\n\n**History:**\n- Time course and progression of mental status changes\n- Precipitating factors: GI bleeding, infection (esp. SBP), constipation, dehydration, electrolyte disturbances, recent medications (esp. sedatives, opioids, benzodiazepines)\n- Alcohol use history (last drink, withdrawal symptoms)\n- Recent procedures (paracentesis, TIPS)\n- Symptoms of infection (fever, chills, cough, dysuria, abdominal pain)\n- Bowel habits (constipation, diarrhea)\n- Medication adherence (lactulose, rifaximin)\n\n**Physical Examination:**\n- General: Level of consciousness, ability to follow commands\n- Neurologic: Assess for asterixis (flapping tremor), focal deficits (to rule out stroke), speech, gait (if possible)\n- HE grading (West Haven criteria):\n  - Grade 1: Trivial lack of awareness, euphoria/anxiety, shortened attention span\n  - Grade 2: Lethargy, disorientation to time, obvious personality change, inappropriate behavior, asterixis\n  - Grade 3: Somnolence, confusion, gross disorientation\n  - Grade 4: Coma\n- Abdominal: Tenderness, signs of peritonitis (rebound, guarding), shifting dullness (ascites)\n- Signs of infection: Lung exam, skin (cellulitis), urine (catheter, suprapubic tenderness)\n\n**Bedside Tests:**\n- **Asterixis:** Sensitivity ~30-90%, specificity ~90% for HE (variable, but highly suggestive if present)\n- **Mental status exam:** Orientation, attention (serial 7s, months backward), constructional apraxia (draw a star or pentagon)\n- **Vitals:** Monitor for fever, tachycardia (may indicate infection)\n- **Bedside glucose:** Rule out hypoglycemia\n- **Urine dipstick:** Screen for infection\n- **Paracentesis:** If ascites present, to rule out spontaneous bacterial peritonitis (SBP). Diagnostic performance: PMN >250/mm\u00b3 is highly sensitive and specific for SBP.\n\n**Summary Table:**\n| Test/Exam         | Sensitivity | Specificity | Notes                                  |\n|-------------------|-------------|-------------|----------------------------------------|\n| Asterixis         | 30-90%      | ~90%        | Not present in all HE cases            |\n| Mental status     | Variable    | Variable    | Serial 7s, orientation, apraxia         |\n| Paracentesis (SBP)| ~98% (PMN)  | ~90%        | PMN >250/mm\u00b3 diagnostic for SBP         |\n\n**Key Points:**\n- Always rule out infection (esp. SBP) in cirrhotics with AMS.\n- Asterixis is suggestive but not required for HE diagnosis.\n- Bedside glucose is essential to rule out hypoglycemia.\n- Consider other causes of AMS if focal deficits or rapid deterioration.\n\n**References:**\n- Vilstrup H, et al. Hepatic Encephalopathy in Chronic Liver Disease: 2014 Practice Guideline. Hepatology. 2014.\n- Runyon BA. Management of adult patients with ascites due to cirrhosis: Update 2012. AASLD Practice Guideline.\n- UpToDate: \"Hepatic encephalopathy in adults: Clinical manifestations and diagnosis\" (2024)."
+ },
+ "variant": "base"
+}

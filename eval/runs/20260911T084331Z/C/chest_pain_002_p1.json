@@ -1,0 +1,399 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "chest_pain_002",
+ "blocked_items": [],
+ "case_id": "chest_pain_002_p1",
+ "created_at": "2026-09-11T09:08:48+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, character, and radiation of chest pain (sudden, sharp, pleuritic?)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: cough, hemoptysis, leg swelling/pain, syncope, palpitations"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Risk factors for PE: immobilization, recent surgery, prior VTE, family history"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent trauma or procedures (risk for pneumothorax)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "IV drug use (risk for septic emboli)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Symptoms of heart failure or pericarditis"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: distress, diaphoresis, cyanosis"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vitals: confirm tachycardia, tachypnea, hypoxia, fever"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Lungs: decreased breath sounds, crackles, wheeze, egophony, dullness to percussion (pneumonia, effusion, pneumothorax)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiac: murmurs, rubs, gallops"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Extremities: unilateral swelling, erythema, tenderness (DVT)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Skin: signs of embolic phenomena, track marks (IVDU)"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "94"
+   ],
+   "performance_claims": [
+    "94"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pulse oximetry (already 94% RA)"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "1",
+    "3"
+   ],
+   "performance_claims": [
+    "1",
+    "3"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: sinus tachycardia (common in PE), S1Q3T3 (specific but not sensitive for PE), right heart strain"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside ultrasound (if available):"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Lung US: absence of lung sliding (pneumothorax), B-lines (edema), consolidation (pneumonia)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Cardiac US: RV dilation (PE)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Leg vein US: DVT"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "CXR: pneumothorax, pneumonia, effusion, wedge infarct (PE)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Wells score"
+   ],
+   "numeric_claims": [
+    "60",
+    "85"
+   ],
+   "performance_claims": [
+    "60",
+    "85"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Wells score for PE: clinical prediction rule (sensitivity ~85%, specificity ~60% at moderate/high risk cutoff)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "95"
+   ],
+   "performance_claims": [
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "D-dimer: high sensitivity (>95%) but low specificity for PE in low/intermediate risk"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "1",
+    "10",
+    "20",
+    "3",
+    "97"
+   ],
+   "performance_claims": [
+    "1",
+    "10",
+    "20",
+    "3",
+    "97"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: S1Q3T3 pattern is specific (~97%) but insensitive (~10-20%) for PE"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "90",
+    "98"
+   ],
+   "performance_claims": [
+    "90",
+    "98"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside lung US for pneumothorax: sensitivity ~90%, specificity ~98%"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [
+    "50",
+    "70",
+    "75",
+    "80"
+   ],
+   "performance_claims": [
+    "50",
+    "70",
+    "75",
+    "80"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "CXR: sensitivity for pneumothorax ~50-75%, for pneumonia ~70-80%"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [
+    "50",
+    "60",
+    "80",
+    "90"
+   ],
+   "performance_claims": [
+    "50",
+    "60",
+    "80",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside echo for RV strain: sensitivity ~50-60%, specificity ~80-90% for PE"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on history for PE risk factors, symptoms of DVT, and features of pneumonia/pneumothorax"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Examine for DVT, lung findings, and cardiac signs"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Perform ECG, CXR, and bedside US if available"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [
+    "Wells score"
+   ],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Use Wells score to risk-stratify for PE"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Consider D-dimer if low/intermediate risk and no contraindications"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Immediate priorities: rule out life-threatening causes (PE, pneumothorax, sepsis)"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a young male smoker admitted for cellulitis, now with sudden pleuritic chest pain, dyspnea, fever, tachycardia, tachypnea, and mild hypoxia\u2014the differential includes pulmonary embolism (PE), pneumonia, pneumothorax, and less likely acute coronary syndrome or pericarditis.\n\n**History:**\n- Onset, character, and radiation of chest pain (sudden, sharp, pleuritic?)\n- Associated symptoms: cough, hemoptysis, leg swelling/pain, syncope, palpitations\n- Risk factors for PE: immobilization, recent surgery, prior VTE, family history\n- Recent trauma or procedures (risk for pneumothorax)\n- IV drug use (risk for septic emboli)\n- Symptoms of heart failure or pericarditis\n\n**Physical Examination:**\n- General: distress, diaphoresis, cyanosis\n- Vitals: confirm tachycardia, tachypnea, hypoxia, fever\n- Lungs: decreased breath sounds, crackles, wheeze, egophony, dullness to percussion (pneumonia, effusion, pneumothorax)\n- Cardiac: murmurs, rubs, gallops\n- Extremities: unilateral swelling, erythema, tenderness (DVT)\n- Skin: signs of embolic phenomena, track marks (IVDU)\n\n**Bedside Tests:**\n- Pulse oximetry (already 94% RA)\n- ECG: sinus tachycardia (common in PE), S1Q3T3 (specific but not sensitive for PE), right heart strain\n- Bedside ultrasound (if available):\n  - Lung US: absence of lung sliding (pneumothorax), B-lines (edema), consolidation (pneumonia)\n  - Cardiac US: RV dilation (PE)\n  - Leg vein US: DVT\n- CXR: pneumothorax, pneumonia, effusion, wedge infarct (PE)\n\n**Diagnostic Performance Data:**\n- Wells score for PE: clinical prediction rule (sensitivity ~85%, specificity ~60% at moderate/high risk cutoff)\n- D-dimer: high sensitivity (>95%) but low specificity for PE in low/intermediate risk\n- ECG: S1Q3T3 pattern is specific (~97%) but insensitive (~10-20%) for PE\n- Bedside lung US for pneumothorax: sensitivity ~90%, specificity ~98%\n- CXR: sensitivity for pneumothorax ~50-75%, for pneumonia ~70-80%\n- Bedside echo for RV strain: sensitivity ~50-60%, specificity ~80-90% for PE\n\n**Summary:**\n- Focus on history for PE risk factors, symptoms of DVT, and features of pneumonia/pneumothorax.\n- Examine for DVT, lung findings, and cardiac signs.\n- Perform ECG, CXR, and bedside US if available.\n- Use Wells score to risk-stratify for PE.\n- Consider D-dimer if low/intermediate risk and no contraindications.\n\nImmediate priorities: rule out life-threatening causes (PE, pneumothorax, sepsis)."
+ },
+ "variant": "p1"
+}

@@ -1,0 +1,289 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "chest_pain_001",
+ "blocked_items": [],
+ "case_id": "chest_pain_001_p1",
+ "created_at": "2026-09-11T09:08:27+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Characterize pain: onset (sudden/gradual), quality (tearing, sharp, pressure), location, radiation, duration, severity, associated symptoms (nausea, vomiting, syncope, neurologic deficits, limb ischemia, hoarseness, hematuria)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Risk factors: hypertension, connective tissue disease, family history, prior aortic disease, atherosclerosis, recent procedures"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Cardiac risk: diabetes, CKD, prior MI, smoking, hyperlipidemia"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Infectious symptoms (fever, chills), trauma, drug use (esp. cocaine)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: distress, diaphoresis, pallor"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "20",
+    "90"
+   ],
+   "performance_claims": [
+    "20",
+    "90"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vitals: repeat BP in both arms (difference >20 mmHg suggests dissection; sensitivity ~20%, specificity ~90%)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiovascular: new murmurs (esp. aortic regurgitation), pulse deficits (radial/femoral), carotid/femoral bruits, JVP"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "30",
+    "90"
+   ],
+   "performance_claims": [
+    "30",
+    "90"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "Peripheral pulses: asymmetry or absence (sensitivity ~30%, specificity ~90% for dissection)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdomen: tenderness, pulsatile mass"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neuro: focal deficits (stroke, paraplegia)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Skin: signs of emboli, livedo reticularis"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "90"
+   ],
+   "performance_claims": [
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: to rule out ACS (STEMI/NSTEMI); sensitivity for MI ~90%, but not specific for dissection"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Cardiac monitoring"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [
+    "67",
+    "80",
+    "99"
+   ],
+   "performance_claims": [
+    "67",
+    "80",
+    "99"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Point-of-care ultrasound (POCUS): look for pericardial effusion/tamponade, aortic root dilation, intimal flap (sensitivity ~67-80%, specificity ~99% for dissection if flap seen)"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [
+    "60",
+    "65",
+    "70",
+    "80"
+   ],
+   "performance_claims": [
+    "60",
+    "65",
+    "70",
+    "80"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "CXR: widened mediastinum (sensitivity ~60-70%, specificity ~65-80% for dissection), but not definitive"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose (given DM2)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on ruling out aortic dissection and ACS"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Key findings for dissection: abrupt onset, tearing pain, pulse/BP differential, new AR murmur, mediastinal widening, POCUS findings"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "None of these findings alone are sensitive enough to rule out dissection"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "high suspicion warrants urgent imaging (CT angiography, TEE, or MRI if available)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "Hiratzka LF et al. 2010"
+   ],
+   "numeric_claims": [
+    "2010"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Hiratzka LF et al. 2010 ACCF/AHA/AATS/ACR/ASA/SCA/SCAI/SIR/STS/SVM Guidelines for the Diagnosis and Management of Patients With Thoracic Aortic Disease"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "2015"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Nienaber CA, Clough RE. Management of acute aortic dissection. Lancet. 2015"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "UpToDate: Clinical features and diagnosis of acute aortic dissection"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "This is a high-risk presentation for acute aortic syndromes (e.g., aortic dissection), acute coronary syndrome (ACS), and possibly other life-threatening causes of chest/back pain. Here\u2019s how to approach:\n\n**History:**\n- Characterize pain: onset (sudden/gradual), quality (tearing, sharp, pressure), location, radiation, duration, severity, associated symptoms (nausea, vomiting, syncope, neurologic deficits, limb ischemia, hoarseness, hematuria).\n- Risk factors: hypertension, connective tissue disease, family history, prior aortic disease, atherosclerosis, recent procedures.\n- Cardiac risk: diabetes, CKD, prior MI, smoking, hyperlipidemia.\n- Infectious symptoms (fever, chills), trauma, drug use (esp. cocaine).\n\n**Physical Examination:**\n- General: distress, diaphoresis, pallor.\n- Vitals: repeat BP in both arms (difference >20 mmHg suggests dissection; sensitivity ~20%, specificity ~90%).\n- Cardiovascular: new murmurs (esp. aortic regurgitation), pulse deficits (radial/femoral), carotid/femoral bruits, JVP.\n- Peripheral pulses: asymmetry or absence (sensitivity ~30%, specificity ~90% for dissection).\n- Abdomen: tenderness, pulsatile mass.\n- Neuro: focal deficits (stroke, paraplegia).\n- Skin: signs of emboli, livedo reticularis.\n\n**Bedside Tests:**\n- ECG: to rule out ACS (STEMI/NSTEMI); sensitivity for MI ~90%, but not specific for dissection.\n- Cardiac monitoring.\n- Point-of-care ultrasound (POCUS): look for pericardial effusion/tamponade, aortic root dilation, intimal flap (sensitivity ~67-80%, specificity ~99% for dissection if flap seen).\n- CXR: widened mediastinum (sensitivity ~60-70%, specificity ~65-80% for dissection), but not definitive.\n- Bedside glucose (given DM2).\n\n**Summary:**\n- Focus on ruling out aortic dissection and ACS.\n- Key findings for dissection: abrupt onset, tearing pain, pulse/BP differential, new AR murmur, mediastinal widening, POCUS findings.\n- None of these findings alone are sensitive enough to rule out dissection; high suspicion warrants urgent imaging (CT angiography, TEE, or MRI if available).\n\n**References:**\n- Hiratzka LF et al. 2010 ACCF/AHA/AATS/ACR/ASA/SCA/SCAI/SIR/STS/SVM Guidelines for the Diagnosis and Management of Patients With Thoracic Aortic Disease.\n- Nienaber CA, Clough RE. Management of acute aortic dissection. Lancet. 2015.\n- UpToDate: Clinical features and diagnosis of acute aortic dissection."
+ },
+ "variant": "p1"
+}

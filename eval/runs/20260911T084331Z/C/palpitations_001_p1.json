@@ -1,0 +1,458 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "palpitations_001",
+ "blocked_items": [],
+ "case_id": "palpitations_001_p1",
+ "created_at": "2026-09-11T09:13:56+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and triggers of palpitations (sudden vs gradual onset)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: dizziness, syncope, dyspnea, chest pain, diaphoresis"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent medication changes (especially beta-agonists, theophylline, steroids)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Caffeine, alcohol, stimulant use"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Prior episodes of palpitations or arrhythmias"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Family history of arrhythmias or sudden cardiac death"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Symptoms of hyperthyroidism (weight loss, tremor, heat intolerance)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: distress, diaphoresis, pallor"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: repeat HR, BP, RR, O2 sat"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neck: jugular venous pulse (look for \"frog sign\" of AVNRT, or flutter waves)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "1",
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiac: regularity of rhythm, S1/S2, murmurs, gallops"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Lungs: wheezing, rales (COPD findings)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Extremities: perfusion, edema"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neurologic: mental status, focal deficits"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "12"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "12-lead ECG (essential):"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic for arrhythmia type (SVT, flutter, sinus tach, etc.)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "100"
+   ],
+   "performance_claims": [
+    "100"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Sensitivity/specificity: nearly 100% for rhythm diagnosis if clear tracing"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Vagal maneuvers (carotid sinus massage, Valsalva):"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic and potentially therapeutic for AVNRT/AVRT"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "20",
+    "54"
+   ],
+   "performance_claims": [
+    "20",
+    "54"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Sensitivity: ~20-54% for terminating SVT (higher for AVNRT/AVRT, lower for atrial flutter)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "May transiently slow AV conduction, unmask flutter waves"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Contraindicated if carotid bruit or history of TIA/stroke"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Monitor for hemodynamic instability (BP, mental status)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose (if altered mental status)"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pulse oximetry (for hypoxia)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Other Considerations:"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Labs: electrolytes, TSH, troponin (if chest pain develops), digoxin level (if on digoxin)"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "If unstable (hypotension, altered mental status, ischemia): immediate synchronized cardioversion"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Summary Table:"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "| Test | Diagnostic Utility | Sensitivity/Specificity |"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "100",
+    "12"
+   ],
+   "performance_claims": [
+    "100",
+    "12"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "| 12-lead ECG | Rhythm diagnosis | ~100% |"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "20",
+    "54"
+   ],
+   "performance_claims": [
+    "20",
+    "54"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "| Vagal maneuvers | Diagnose/terminate AVNRT/AVRT | 20-54% |"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "| Physical exam | Supportive, not diagnostic alone | Low |"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "Brugada J, et al. 2019"
+   ],
+   "numeric_claims": [
+    "2019",
+    "2020"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Brugada J, et al. 2019 ESC Guidelines for the management of SVT. Eur Heart J. 2020"
+  },
+  {
+   "bedside": false,
+   "category": "consult",
+   "citations": [
+    "Page RL, et al. 2015"
+   ],
+   "numeric_claims": [
+    "2015",
+    "2016"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Page RL, et al. 2015 ACC/AHA/HRS Guideline for SVT. Circulation. 2016"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bottom line:"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "12"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Obtain a 12-lead ECG immediately"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Perform focused history and exam for instability or secondary causes"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Attempt vagal maneuvers if SVT suspected and patient is stable"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Monitor closely for decompensation"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 68-year-old woman with hypertension, OSA, and COPD, who awoke with a regular, fixed heart rate of 150 bpm, and is hemodynamically stable (BP 132/84), without chest pain\u2014the most likely arrhythmias are supraventricular tachycardias (SVT), including atrial flutter with 2:1 block, AVNRT, or AVRT. Less likely but possible is sinus tachycardia (though 150 is high for sinus in this age), or atrial tachycardia.\n\n**History:**\n- Onset, duration, and triggers of palpitations (sudden vs gradual onset)\n- Associated symptoms: dizziness, syncope, dyspnea, chest pain, diaphoresis\n- Recent medication changes (especially beta-agonists, theophylline, steroids)\n- Caffeine, alcohol, stimulant use\n- Prior episodes of palpitations or arrhythmias\n- Family history of arrhythmias or sudden cardiac death\n- Symptoms of hyperthyroidism (weight loss, tremor, heat intolerance)\n\n**Physical Examination:**\n- General: distress, diaphoresis, pallor\n- Vital signs: repeat HR, BP, RR, O2 sat\n- Neck: jugular venous pulse (look for \"frog sign\" of AVNRT, or flutter waves)\n- Cardiac: regularity of rhythm, S1/S2, murmurs, gallops\n- Lungs: wheezing, rales (COPD findings)\n- Extremities: perfusion, edema\n- Neurologic: mental status, focal deficits\n\n**Bedside Tests:**\n1. **12-lead ECG** (essential):\n   - Diagnostic for arrhythmia type (SVT, flutter, sinus tach, etc.)\n   - Sensitivity/specificity: nearly 100% for rhythm diagnosis if clear tracing\n2. **Vagal maneuvers** (carotid sinus massage, Valsalva):\n   - Diagnostic and potentially therapeutic for AVNRT/AVRT\n   - Sensitivity: ~20-54% for terminating SVT (higher for AVNRT/AVRT, lower for atrial flutter)\n   - May transiently slow AV conduction, unmask flutter waves\n   - Contraindicated if carotid bruit or history of TIA/stroke\n3. **Monitor for hemodynamic instability** (BP, mental status)\n4. **Bedside glucose** (if altered mental status)\n5. **Pulse oximetry** (for hypoxia)\n\n**Other Considerations:**\n- Labs: electrolytes, TSH, troponin (if chest pain develops), digoxin level (if on digoxin)\n- If unstable (hypotension, altered mental status, ischemia): immediate synchronized cardioversion\n\n**Summary Table:**\n| Test                | Diagnostic Utility                  | Sensitivity/Specificity |\n|---------------------|-------------------------------------|------------------------|\n| 12-lead ECG         | Rhythm diagnosis                    | ~100%                  |\n| Vagal maneuvers     | Diagnose/terminate AVNRT/AVRT       | 20-54%                 |\n| Physical exam       | Supportive, not diagnostic alone     | Low                    |\n\n**References:**\n- Brugada J, et al. 2019 ESC Guidelines for the management of SVT. Eur Heart J. 2020.\n- Page RL, et al. 2015 ACC/AHA/HRS Guideline for SVT. Circulation. 2016.\n\n**Bottom line:**\n- Obtain a 12-lead ECG immediately.\n- Perform focused history and exam for instability or secondary causes.\n- Attempt vagal maneuvers if SVT suspected and patient is stable.\n- Monitor closely for decompensation."
+ },
+ "variant": "p1"
+}

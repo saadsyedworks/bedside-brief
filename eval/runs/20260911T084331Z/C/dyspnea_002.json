@@ -1,0 +1,378 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "dyspnea_002",
+ "blocked_items": [],
+ "case_id": "dyspnea_002",
+ "created_at": "2026-09-11T09:10:43+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and progression of SOB and wheezing"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: chest pain, cough (productive? hemoptysis?), fever, chills, orthopnea, paroxysmal nocturnal dyspnea, leg swelling, pleuritic pain"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past medical history: COPD, asthma, heart failure, prior DVT/PE, recent immobilization"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication history: new drugs (risk of anaphylaxis), diuretics, beta-blockers"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Allergies"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Smoking history (already noted)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent exposures (sick contacts, travel)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: distress, use of accessory muscles, cyanosis"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vitals: RR, HR, BP, temp, O2 sat"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Chest: inspection (barrel chest, retractions), palpation (tactile fremitus), percussion (dullness, hyperresonance), auscultation (wheezing, crackles, decreased breath sounds, egophony)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "3",
+    "4"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiac: JVP, S3/S4, murmurs, peripheral edema"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Extremities: DVT signs (swelling, tenderness, erythema)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Mental status: hypoxia-induced confusion"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pulse oximetry (already low)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "68",
+    "75"
+   ],
+   "performance_claims": [
+    "68",
+    "75"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Peak expiratory flow rate (PEFR): helpful for asthma/COPD; sensitivity ~68%, specificity ~75% for acute exacerbation (varies)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside spirometry if available"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: to rule out arrhythmia, ischemia, right heart strain (PE)"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside ultrasound (lung and cardiac): B-lines (CHF), consolidation (pneumonia), pleural effusion, RV strain (PE)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Capnography if available (for CO2 retention)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "60",
+    "70"
+   ],
+   "performance_claims": [
+    "60",
+    "70"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Wheezing: Sensitivity for COPD exacerbation ~60-70%, specificity lower (wheezing can occur in CHF, asthma, pneumonia)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "20"
+   ],
+   "performance_claims": [
+    "20"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "PEFR: Drop >20% from baseline suggests exacerbation; not specific"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [
+    "85",
+    "90"
+   ],
+   "performance_claims": [
+    "85",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside lung ultrasound: Sensitivity for pneumonia ~85-90%, specificity ~90%"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [
+    "85",
+    "90"
+   ],
+   "performance_claims": [
+    "85",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "for CHF (B-lines) sensitivity ~85%, specificity ~90%"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "D-dimer: Not useful in high pretest probability or inpatient setting"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on history for risk factors and associated symptoms"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Examine for signs of respiratory distress, heart failure, DVT"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Use bedside tests (PEFR, pulse ox, ECG, ultrasound) to narrow differential"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Labs and imaging (CXR, ABG, CBC, BMP, troponin, BNP, blood cultures) will be needed for further workup"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "4"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "McGee S. Evidence-Based Physical Diagnosis, 4th ed"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [
+    "2014"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Lichtenstein DA. Lung ultrasound in the critically ill. Ann Intensive Care. 2014"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "2024"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Global Initiative for Chronic Obstructive Lung Disease (GOLD) 2024"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 72-year-old female, heavy smoker, hospitalized for pyelonephritis, now with new-onset wheezing, shortness of breath, and hypoxemia (SpO2 90% on 2L O2)\u2014the differential is broad but includes COPD exacerbation, heart failure, pneumonia, pulmonary embolism, and less likely, asthma or anaphylaxis.\n\n**History:**\n- Onset, duration, and progression of SOB and wheezing\n- Associated symptoms: chest pain, cough (productive? hemoptysis?), fever, chills, orthopnea, paroxysmal nocturnal dyspnea, leg swelling, pleuritic pain\n- Past medical history: COPD, asthma, heart failure, prior DVT/PE, recent immobilization\n- Medication history: new drugs (risk of anaphylaxis), diuretics, beta-blockers\n- Allergies\n- Smoking history (already noted)\n- Recent exposures (sick contacts, travel)\n\n**Physical Examination:**\n- General: distress, use of accessory muscles, cyanosis\n- Vitals: RR, HR, BP, temp, O2 sat\n- Chest: inspection (barrel chest, retractions), palpation (tactile fremitus), percussion (dullness, hyperresonance), auscultation (wheezing, crackles, decreased breath sounds, egophony)\n- Cardiac: JVP, S3/S4, murmurs, peripheral edema\n- Extremities: DVT signs (swelling, tenderness, erythema)\n- Mental status: hypoxia-induced confusion\n\n**Bedside Tests:**\n- Pulse oximetry (already low)\n- Peak expiratory flow rate (PEFR): helpful for asthma/COPD; sensitivity ~68%, specificity ~75% for acute exacerbation (varies)\n- Bedside spirometry if available\n- ECG: to rule out arrhythmia, ischemia, right heart strain (PE)\n- Bedside ultrasound (lung and cardiac): B-lines (CHF), consolidation (pneumonia), pleural effusion, RV strain (PE)\n- Capnography if available (for CO2 retention)\n\n**Diagnostic Performance Data:**\n- Wheezing: Sensitivity for COPD exacerbation ~60-70%, specificity lower (wheezing can occur in CHF, asthma, pneumonia)\n- PEFR: Drop >20% from baseline suggests exacerbation; not specific\n- Bedside lung ultrasound: Sensitivity for pneumonia ~85-90%, specificity ~90%; for CHF (B-lines) sensitivity ~85%, specificity ~90%\n- D-dimer: Not useful in high pretest probability or inpatient setting\n\n**Summary:**\n- Focus on history for risk factors and associated symptoms\n- Examine for signs of respiratory distress, heart failure, DVT\n- Use bedside tests (PEFR, pulse ox, ECG, ultrasound) to narrow differential\n- Labs and imaging (CXR, ABG, CBC, BMP, troponin, BNP, blood cultures) will be needed for further workup\n\n**References:**\n- McGee S. Evidence-Based Physical Diagnosis, 4th ed.\n- Lichtenstein DA. Lung ultrasound in the critically ill. Ann Intensive Care. 2014.\n- Global Initiative for Chronic Obstructive Lung Disease (GOLD) 2024."
+ },
+ "variant": "base"
+}

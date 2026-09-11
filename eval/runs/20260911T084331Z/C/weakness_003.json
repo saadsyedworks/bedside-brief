@@ -1,0 +1,330 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "weakness_003",
+ "blocked_items": [],
+ "case_id": "weakness_003",
+ "created_at": "2026-09-11T09:16:01+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "6",
+    "82"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": null,
+   "text": "For an 82-year-old female on hospital day 6 for UTI, now reporting new inability to walk (acute functional decline), a systematic approach is needed to identify underlying causes, which may include infection progression, delirium, medication side effects, metabolic derangements, or new neurological/cardiac events"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and progression of weakness"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: fever, chest pain, palpitations, dyspnea, cough, dysuria, confusion, falls, pain, numbness, incontinence"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication changes (especially sedatives, antihypertensives, diuretics, antibiotics)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent procedures or interventions"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Baseline mobility and cognitive status"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Fluid intake, nutrition, bowel/bladder function"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "History of similar episodes"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: fever, hypotension, tachycardia, hypoxia"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: level of consciousness, signs of distress"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neurological:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "89",
+    "94"
+   ],
+   "performance_claims": [
+    "89",
+    "94"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "Mental status (delirium: use CAM [Confusion Assessment Method], sensitivity ~94%, specificity ~89%)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cranial nerves, limb strength (focal deficits suggest stroke or neuropathy)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Sensation, reflexes, coordination, gait (if safe)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiovascular: arrhythmias, murmurs, signs of heart failure"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Respiratory: rales, decreased breath sounds (pneumonia, PE)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Musculoskeletal: joint swelling, tenderness, deformity"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Skin: pressure ulcers, rashes, signs of infection"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Blood glucose: hypoglycemia can cause weakness/confusion (POC glucometer, high sensitivity/specificity)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "97"
+   ],
+   "performance_claims": [
+    "97"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Orthostatic vitals: assess for dehydration/volume depletion (sensitivity ~97% for hypovolemia if symptomatic)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urinalysis: check for ongoing infection or new findings"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: arrhythmias, ischemia"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "CAM (Confusion Assessment Method): for delirium (see above)"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pulse oximetry: hypoxia"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "89",
+    "94"
+   ],
+   "performance_claims": [
+    "89",
+    "94"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "CAM for delirium: sensitivity ~94%, specificity ~89%"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "97"
+   ],
+   "performance_claims": [
+    "97"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Orthostatic vitals: sensitivity ~97% for hypovolemia if symptomatic"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose: high sensitivity/specificity for hypo/hyperglycemia"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "A focused history and exam, with bedside tests for delirium, hypoglycemia, hypoxia, and orthostatic hypotension, are essential. Consider further labs and imaging based on findings (CBC, electrolytes, renal function, CXR, head CT if focal neuro signs)"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "For an 82-year-old female on hospital day 6 for UTI, now reporting new inability to walk (acute functional decline), a systematic approach is needed to identify underlying causes, which may include infection progression, delirium, medication side effects, metabolic derangements, or new neurological/cardiac events.\n\n**History:**\n- Onset, duration, and progression of weakness\n- Associated symptoms: fever, chest pain, palpitations, dyspnea, cough, dysuria, confusion, falls, pain, numbness, incontinence\n- Medication changes (especially sedatives, antihypertensives, diuretics, antibiotics)\n- Recent procedures or interventions\n- Baseline mobility and cognitive status\n- Fluid intake, nutrition, bowel/bladder function\n- History of similar episodes\n\n**Physical Examination:**\n- **Vital signs:** fever, hypotension, tachycardia, hypoxia\n- **General:** level of consciousness, signs of distress\n- **Neurological:**\n  - Mental status (delirium: use CAM [Confusion Assessment Method], sensitivity ~94%, specificity ~89%)\n  - Cranial nerves, limb strength (focal deficits suggest stroke or neuropathy)\n  - Sensation, reflexes, coordination, gait (if safe)\n- **Cardiovascular:** arrhythmias, murmurs, signs of heart failure\n- **Respiratory:** rales, decreased breath sounds (pneumonia, PE)\n- **Musculoskeletal:** joint swelling, tenderness, deformity\n- **Skin:** pressure ulcers, rashes, signs of infection\n\n**Bedside Tests:**\n- **Blood glucose:** hypoglycemia can cause weakness/confusion (POC glucometer, high sensitivity/specificity)\n- **Orthostatic vitals:** assess for dehydration/volume depletion (sensitivity ~97% for hypovolemia if symptomatic)\n- **Urinalysis:** check for ongoing infection or new findings\n- **ECG:** arrhythmias, ischemia\n- **CAM (Confusion Assessment Method):** for delirium (see above)\n- **Pulse oximetry:** hypoxia\n\n**Diagnostic Performance Data:**\n- CAM for delirium: sensitivity ~94%, specificity ~89%\n- Orthostatic vitals: sensitivity ~97% for hypovolemia if symptomatic\n- Bedside glucose: high sensitivity/specificity for hypo/hyperglycemia\n\n**Summary:**\nA focused history and exam, with bedside tests for delirium, hypoglycemia, hypoxia, and orthostatic hypotension, are essential. Consider further labs and imaging based on findings (CBC, electrolytes, renal function, CXR, head CT if focal neuro signs)."
+ },
+ "variant": "base"
+}

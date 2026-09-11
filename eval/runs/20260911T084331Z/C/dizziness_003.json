@@ -1,0 +1,343 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "dizziness_003",
+ "blocked_items": [],
+ "case_id": "dizziness_003",
+ "created_at": "2026-09-11T09:10:02+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "62"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": null,
+   "text": "For a 62-year-old female on the telemetry floor with new-onset dizziness, your approach should be systematic to rule out urgent causes and guide further workup. Here\u2019s what you should do:"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Characterize dizziness: Is it vertigo (spinning), presyncope (about to faint), disequilibrium (off-balance), or nonspecific?"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset and duration: Sudden or gradual? Constant or episodic?"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: Chest pain, palpitations, shortness of breath, headache, focal weakness, numbness, vision changes, hearing loss, nausea/vomiting"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Triggers: Position changes, exertion, standing up?"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past medical history: Cardiac disease, arrhythmias, diabetes, hypertension, prior strokes/TIAs, vestibular disorders"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medications: Recent changes, antihypertensives, diuretics, sedatives, etc"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent events: Falls, infections, dehydration, blood loss"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "10",
+    "20",
+    "30"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: Orthostatic blood pressures and pulse (lying, sitting, standing). Orthostatic hypotension: drop in SBP \u226520 mmHg or DBP \u226510 mmHg, or increase in HR \u226530 bpm"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: Look for pallor, diaphoresis, distress"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiac: Irregular rhythm, murmurs, extra heart sounds"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Pulmonary: Rales, wheezing, hypoxia"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neuro: Cranial nerves, strength, sensation, cerebellar signs (finger-nose, heel-shin), Romberg test, gait if safe"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "50",
+    "75",
+    "88",
+    "90"
+   ],
+   "performance_claims": [
+    "50",
+    "75",
+    "88",
+    "90"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "ENT: Nystagmus (direction, type), hearing loss, Dix-Hallpike maneuver (for BPPV; sensitivity ~50-88%, specificity ~75-90%)"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: Look for arrhythmias, ischemia, QT prolongation"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Telemetry review: Any recent arrhythmias?"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Blood glucose: Hypoglycemia can cause dizziness"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pulse oximetry: Hypoxia?"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Orthostatic vitals: As above"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "30",
+    "50",
+    "80",
+    "90"
+   ],
+   "performance_claims": [
+    "30",
+    "50",
+    "80",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Orthostatic vitals: Sensitivity ~30-50%, specificity ~80-90% for orthostatic hypotension"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "50",
+    "75",
+    "88",
+    "90"
+   ],
+   "performance_claims": [
+    "50",
+    "75",
+    "88",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Dix-Hallpike: Sensitivity 50-88%, specificity 75-90% for BPPV"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: High specificity for arrhythmias if present during symptoms"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Take a focused history and exam to distinguish between cardiac, neurologic, and vestibular causes"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Perform orthostatic vitals, ECG, glucose, and a focused neuro exam at the bedside"
+  },
+  {
+   "bedside": false,
+   "category": "disposition",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "If any red flags (chest pain, focal neuro deficits, severe hypotension, arrhythmia), escalate care immediately"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "If stable, order ECG, orthostatic vitals, and glucose. Consider labs (CBC, BMP, troponin) if indicated by history/exam"
+  },
+  {
+   "bedside": false,
+   "category": "disposition",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "If unstable or concerning findings, call for rapid response or higher level of care"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Always reassess after initial evaluation and tailor further workup to findings"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "For a 62-year-old female on the telemetry floor with new-onset dizziness, your approach should be systematic to rule out urgent causes and guide further workup. Here\u2019s what you should do:\n\n**History:**\n- **Characterize dizziness:** Is it vertigo (spinning), presyncope (about to faint), disequilibrium (off-balance), or nonspecific?\n- **Onset and duration:** Sudden or gradual? Constant or episodic?\n- **Associated symptoms:** Chest pain, palpitations, shortness of breath, headache, focal weakness, numbness, vision changes, hearing loss, nausea/vomiting.\n- **Triggers:** Position changes, exertion, standing up?\n- **Past medical history:** Cardiac disease, arrhythmias, diabetes, hypertension, prior strokes/TIAs, vestibular disorders.\n- **Medications:** Recent changes, antihypertensives, diuretics, sedatives, etc.\n- **Recent events:** Falls, infections, dehydration, blood loss.\n\n**Physical Examination:**\n- **Vital signs:** Orthostatic blood pressures and pulse (lying, sitting, standing). Orthostatic hypotension: drop in SBP \u226520 mmHg or DBP \u226510 mmHg, or increase in HR \u226530 bpm.\n- **General:** Look for pallor, diaphoresis, distress.\n- **Cardiac:** Irregular rhythm, murmurs, extra heart sounds.\n- **Pulmonary:** Rales, wheezing, hypoxia.\n- **Neuro:** Cranial nerves, strength, sensation, cerebellar signs (finger-nose, heel-shin), Romberg test, gait if safe.\n- **ENT:** Nystagmus (direction, type), hearing loss, Dix-Hallpike maneuver (for BPPV; sensitivity ~50-88%, specificity ~75-90%).\n\n**Bedside Tests:**\n- **ECG:** Look for arrhythmias, ischemia, QT prolongation.\n- **Telemetry review:** Any recent arrhythmias?\n- **Blood glucose:** Hypoglycemia can cause dizziness.\n- **Pulse oximetry:** Hypoxia?\n- **Orthostatic vitals:** As above.\n\n**Diagnostic Performance Data:**\n- **Orthostatic vitals:** Sensitivity ~30-50%, specificity ~80-90% for orthostatic hypotension.\n- **Dix-Hallpike:** Sensitivity 50-88%, specificity 75-90% for BPPV.\n- **ECG:** High specificity for arrhythmias if present during symptoms.\n\n**Summary:**\n- Take a focused history and exam to distinguish between cardiac, neurologic, and vestibular causes.\n- Perform orthostatic vitals, ECG, glucose, and a focused neuro exam at the bedside.\n- If any red flags (chest pain, focal neuro deficits, severe hypotension, arrhythmia), escalate care immediately.\n\n**Orders:**\n- If stable, order ECG, orthostatic vitals, and glucose. Consider labs (CBC, BMP, troponin) if indicated by history/exam.\n- If unstable or concerning findings, call for rapid response or higher level of care.\n\nAlways reassess after initial evaluation and tailor further workup to findings."
+ },
+ "variant": "base"
+}

@@ -1,0 +1,339 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "palpitations_001",
+ "blocked_items": [],
+ "case_id": "palpitations_001",
+ "created_at": "2026-09-11T09:13:51+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and frequency of palpitations"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: dyspnea, dizziness, syncope, chest pain, diaphoresis"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "History of similar episodes"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication and compliance (especially beta-agonists, steroids, diuretics)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent illness, infection, or triggers (e.g., caffeine, alcohol, stress)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Thyroid disease, heart failure, valvular disease"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Anticoagulation history"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: distress, diaphoresis, cyanosis"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: HR, BP, RR, O2 sat, temperature"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiac: irregularly irregular rhythm, murmurs, gallops, rubs"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Pulmonary: wheezing, crackles, signs of respiratory distress"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neck: JVD"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Extremities: edema, perfusion, signs of embolism (e.g., pulse deficits)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neurologic: focal deficits (stroke/TIA)"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "12",
+    "95"
+   ],
+   "performance_claims": [
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "12-lead ECG: Gold standard for arrhythmia diagnosis. Sensitivity and specificity for AF >95%"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Telemetry/monitoring: To document rhythm and rate"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pulse oximetry: Assess hypoxemia"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose: Rule out hypoglycemia as a trigger"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Point-of-care troponin: If chest pain or concern for ACS"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside echo (if available): Assess for structural heart disease, LV function, pericardial effusion"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [
+    "JAMA 2017"
+   ],
+   "numeric_claims": [
+    "2017",
+    "317",
+    "415",
+    "416",
+    "95"
+   ],
+   "performance_claims": [
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: Sensitivity and specificity for AF >95% (JAMA 2017;317:415-416)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "BMJ 2017"
+   ],
+   "numeric_claims": [
+    "104",
+    "2017",
+    "356",
+    "74",
+    "91"
+   ],
+   "performance_claims": [
+    "74",
+    "91"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pulse palpation: Sensitivity ~91%, specificity ~74% for AF (BMJ 2017;356:j104)"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "12"
+   ],
+   "performance_claims": [
+    "12"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Telemetry: High sensitivity for arrhythmia detection, but not as definitive as 12-lead ECG"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Obtain a focused history and exam for arrhythmia triggers and complications"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Perform ECG and continuous monitoring"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Assess for hypoxemia and other acute triggers"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Consider bedside echo if available"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Use ECG as the gold standard for diagnosis"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 68-year-old woman with hypertension, obstructive sleep apnea, and COPD, who awoke with a racing, irregular heartbeat (HR 130s, BP 132/84, no chest pain)\u2014the main concern is a new-onset tachyarrhythmia, most likely atrial fibrillation (AF), given the irregularly irregular rhythm and risk factors.\n\n**History:**\n- Onset, duration, and frequency of palpitations\n- Associated symptoms: dyspnea, dizziness, syncope, chest pain, diaphoresis\n- History of similar episodes\n- Medication and compliance (especially beta-agonists, steroids, diuretics)\n- Recent illness, infection, or triggers (e.g., caffeine, alcohol, stress)\n- Thyroid disease, heart failure, valvular disease\n- Anticoagulation history\n\n**Physical Examination:**\n- General: distress, diaphoresis, cyanosis\n- Vital signs: HR, BP, RR, O2 sat, temperature\n- Cardiac: irregularly irregular rhythm, murmurs, gallops, rubs\n- Pulmonary: wheezing, crackles, signs of respiratory distress\n- Neck: JVD\n- Extremities: edema, perfusion, signs of embolism (e.g., pulse deficits)\n- Neurologic: focal deficits (stroke/TIA)\n\n**Bedside Tests:**\n- **12-lead ECG:** Gold standard for arrhythmia diagnosis. Sensitivity and specificity for AF >95%.\n- **Telemetry/monitoring:** To document rhythm and rate.\n- **Pulse oximetry:** Assess hypoxemia.\n- **Bedside glucose:** Rule out hypoglycemia as a trigger.\n- **Point-of-care troponin:** If chest pain or concern for ACS.\n- **Bedside echo (if available):** Assess for structural heart disease, LV function, pericardial effusion.\n\n**Diagnostic Performance Data:**\n- **ECG:** Sensitivity and specificity for AF >95% (JAMA 2017;317:415-416).\n- **Pulse palpation:** Sensitivity ~91%, specificity ~74% for AF (BMJ 2017;356:j104).\n- **Telemetry:** High sensitivity for arrhythmia detection, but not as definitive as 12-lead ECG.\n\n**Summary:**\n- Obtain a focused history and exam for arrhythmia triggers and complications.\n- Perform ECG and continuous monitoring.\n- Assess for hypoxemia and other acute triggers.\n- Consider bedside echo if available.\n- Use ECG as the gold standard for diagnosis."
+ },
+ "variant": "base"
+}

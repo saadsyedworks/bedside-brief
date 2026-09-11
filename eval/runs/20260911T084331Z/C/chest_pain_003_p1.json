@@ -1,0 +1,412 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "chest_pain_003",
+ "blocked_items": [],
+ "case_id": "chest_pain_003_p1",
+ "created_at": "2026-09-11T09:09:04+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Characterize chest pain: onset, duration, severity, radiation, aggravating/relieving factors (worse with inspiration and lying flat, better sitting up suggests pericarditis)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: dyspnea, palpitations, syncope, cough, hemoptysis, fever, recent viral illness, leg swelling, calf pain (DVT/PE risk), trauma, recent travel, drug use"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past medical history: cardiac, renal, autoimmune disease, recent infections"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication history: anticoagulants, immunosuppressants"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: distress, diaphoresis, pallor, cyanosis"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "10",
+    "83",
+    "98"
+   ],
+   "performance_claims": [
+    "83",
+    "98"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vitals: confirm hypotension, tachycardia, check for pulsus paradoxus (>10 mmHg drop in systolic BP with inspiration; sensitivity ~98%, specificity ~83% for tamponade)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "76",
+    "86"
+   ],
+   "performance_claims": [
+    "76",
+    "86"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "JVP: elevated in tamponade (sensitivity ~76%, specificity ~86%)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Heart: muffled heart sounds (Beck's triad: hypotension, JVD, muffled heart sounds"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "35",
+    "85"
+   ],
+   "performance_claims": [
+    "35",
+    "85"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "low sensitivity but high specificity for tamponade), pericardial rub (scratchy, triphasic sound; sensitivity ~35%, specificity ~85% for pericarditis)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Lungs: clear or rales (rule out pulmonary edema, pneumonia)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Extremities: peripheral edema, signs of DVT"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "60",
+    "80",
+    "95"
+   ],
+   "performance_claims": [
+    "60",
+    "80",
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: look for diffuse ST elevation and PR depression (pericarditis; sensitivity ~60%, specificity ~80%), low voltage QRS or electrical alternans (tamponade; specificity ~95%)"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [
+    "100",
+    "90"
+   ],
+   "performance_claims": [
+    "100",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside echocardiogram: pericardial effusion, right atrial/ventricular diastolic collapse (tamponade; sensitivity ~90-100%, specificity ~90-100%)"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "CXR: enlarged cardiac silhouette (if effusion large), pulmonary findings"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside ultrasound (IVC assessment): plethoric IVC suggests elevated right atrial pressure"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Labs: troponin (myopericarditis), CBC, renal function, electrolytes, inflammatory markers"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Summary Table of Diagnostic Performance:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "| Finding/Test | Sensitivity | Specificity |"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "10",
+    "83",
+    "98"
+   ],
+   "performance_claims": [
+    "10",
+    "83",
+    "98"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "| Pulsus paradoxus (>10 mmHg)| ~98% | ~83% |"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "76",
+    "86"
+   ],
+   "performance_claims": [
+    "76",
+    "86"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "| JVP elevation | ~76% | ~86% |"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "35",
+    "85"
+   ],
+   "performance_claims": [
+    "35",
+    "85"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "| Pericardial rub | ~35% | ~85% |"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "60",
+    "80"
+   ],
+   "performance_claims": [
+    "60",
+    "80"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "| ECG (diffuse ST elevation) | ~60% | ~80% |"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "20",
+    "95"
+   ],
+   "performance_claims": [
+    "20",
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "| ECG (electrical alternans) | ~20% | ~95% |"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [
+    "100",
+    "90"
+   ],
+   "performance_claims": [
+    "100",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "| Echo (tamponade) | ~90-100% | ~90-100% |"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Key priorities:"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Rapid bedside echo to assess for tamponade"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Monitor for hemodynamic instability"
+  },
+  {
+   "bedside": false,
+   "category": "consult",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Early cardiology consult if tamponade suspected"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "UpToDate: Clinical presentation and diagnosis of cardiac tamponade"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "9"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Tintinalli's Emergency Medicine, 9th Edition"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "2015"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ESC Guidelines on Pericardial Diseases (2015)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "If tamponade is confirmed, urgent pericardiocentesis is indicated"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 38-year-old male with acute kidney injury (AKI) from gastroenteritis, sharp central chest pain that is pleuritic and positional, tachycardia (HR 124), hypotension (BP 86/58), and afebrile\u2014the main concern is for pericarditis with possible cardiac tamponade, but other causes of chest pain and shock should also be considered (e.g., pulmonary embolism, myocardial infarction, sepsis).\n\n**History:**\n- Characterize chest pain: onset, duration, severity, radiation, aggravating/relieving factors (worse with inspiration and lying flat, better sitting up suggests pericarditis).\n- Associated symptoms: dyspnea, palpitations, syncope, cough, hemoptysis, fever, recent viral illness, leg swelling, calf pain (DVT/PE risk), trauma, recent travel, drug use.\n- Past medical history: cardiac, renal, autoimmune disease, recent infections.\n- Medication history: anticoagulants, immunosuppressants.\n\n**Physical Examination:**\n- General: distress, diaphoresis, pallor, cyanosis.\n- Vitals: confirm hypotension, tachycardia, check for pulsus paradoxus (>10 mmHg drop in systolic BP with inspiration; sensitivity ~98%, specificity ~83% for tamponade).\n- JVP: elevated in tamponade (sensitivity ~76%, specificity ~86%).\n- Heart: muffled heart sounds (Beck's triad: hypotension, JVD, muffled heart sounds; low sensitivity but high specificity for tamponade), pericardial rub (scratchy, triphasic sound; sensitivity ~35%, specificity ~85% for pericarditis).\n- Lungs: clear or rales (rule out pulmonary edema, pneumonia).\n- Extremities: peripheral edema, signs of DVT.\n\n**Bedside Tests:**\n- ECG: look for diffuse ST elevation and PR depression (pericarditis; sensitivity ~60%, specificity ~80%), low voltage QRS or electrical alternans (tamponade; specificity ~95%).\n- Bedside echocardiogram: pericardial effusion, right atrial/ventricular diastolic collapse (tamponade; sensitivity ~90-100%, specificity ~90-100%).\n- CXR: enlarged cardiac silhouette (if effusion large), pulmonary findings.\n- Bedside ultrasound (IVC assessment): plethoric IVC suggests elevated right atrial pressure.\n- Labs: troponin (myopericarditis), CBC, renal function, electrolytes, inflammatory markers.\n\n**Summary Table of Diagnostic Performance:**\n| Finding/Test                | Sensitivity | Specificity |\n|----------------------------|-------------|-------------|\n| Pulsus paradoxus (>10 mmHg)| ~98%        | ~83%        |\n| JVP elevation              | ~76%        | ~86%        |\n| Pericardial rub            | ~35%        | ~85%        |\n| ECG (diffuse ST elevation) | ~60%        | ~80%        |\n| ECG (electrical alternans) | ~20%        | ~95%        |\n| Echo (tamponade)           | ~90-100%    | ~90-100%    |\n\n**Key priorities:**\n- Rapid bedside echo to assess for tamponade.\n- Monitor for hemodynamic instability.\n- Early cardiology consult if tamponade suspected.\n\n**References:**\n- UpToDate: Clinical presentation and diagnosis of cardiac tamponade\n- Tintinalli's Emergency Medicine, 9th Edition\n- ESC Guidelines on Pericardial Diseases (2015)\n\nIf tamponade is confirmed, urgent pericardiocentesis is indicated."
+ },
+ "variant": "p1"
+}

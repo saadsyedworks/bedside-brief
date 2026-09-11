@@ -1,0 +1,312 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "syncope_002",
+ "blocked_items": [],
+ "case_id": "syncope_002",
+ "created_at": "2026-09-11T09:15:00+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Detailed event history: Any witnesses? Was there incontinence, tongue biting, or post-ictal confusion (suggests seizure)?"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Prodromal symptoms: Chest pain, palpitations, dizziness, visual changes, weakness, or nausea?"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past medical history: Cardiac disease, prior syncope, stroke, diabetes, hypertension, dementia"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication review: Sotalol (QT prolongation risk), other QT-prolonging drugs, diuretics (cause hypokalemia)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent illnesses: Infection, dehydration, new medications"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Functional status: Baseline mobility, falls risk"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "30",
+    "90"
+   ],
+   "performance_claims": [
+    "30",
+    "90"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: Orthostatic blood pressure and pulse (orthostatic hypotension sensitivity ~30%, specificity ~90% for syncope cause)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: Signs of trauma (head, face, extremities), tongue lacerations (seizure), incontinence"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiac: Irregular rhythm, murmurs, signs of heart failure"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neurological: Focal deficits (stroke/TIA), cognitive status, gait assessment"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "20",
+    "30",
+    "500"
+   ],
+   "performance_claims": [
+    "20",
+    "30"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: Look for QTc prolongation (>500 ms increases torsades risk), bradycardia, pauses, AV block, ischemia. Sensitivity for arrhythmic syncope is low (~20-30%), but specificity is high if abnormal"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose: Rule out hypoglycemia"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Telemetry: Continuous monitoring for arrhythmias"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Orthostatic vitals: As above"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside cardiac and neuro exam"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "20",
+    "30",
+    "90"
+   ],
+   "performance_claims": [
+    "20",
+    "30",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: Abnormal ECG is present in ~90% of arrhythmic syncope, but only ~20-30% of all syncope cases"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [
+    "30",
+    "90"
+   ],
+   "performance_claims": [
+    "30",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Orthostatic vitals: Sensitivity ~30%, specificity ~90% for orthostatic syncope"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "45",
+    "95"
+   ],
+   "performance_claims": [
+    "45",
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "History of heart disease: Sensitivity ~95%, specificity ~45% for cardiac syncope"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [
+    "90"
+   ],
+   "performance_claims": [
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Witnessed syncope with no prodrome: Suggests arrhythmic cause (specificity ~90%)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on arrhythmic causes (sotalol, hypokalemia), but also assess for orthostatic, neurogenic, and other causes"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Key tests: ECG, orthostatic vitals, glucose, careful history and exam"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Consider urgent correction of potassium and cardiac monitoring"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "Shen WK, et al. 2017"
+   ],
+   "numeric_claims": [
+    "2017"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "references",
+   "text": "Shen WK, et al. 2017 ACC/AHA/HRS Guideline for the Evaluation and Management of Patients With Syncope. Circulation. 2017"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "Brignole M, et al."
+   ],
+   "numeric_claims": [
+    "2018"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "references",
+   "text": "Brignole M, et al. ESC Guidelines for the diagnosis and management of syncope. Eur Heart J. 2018"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given the presentation of an 81-year-old female on sotalol for atrial fibrillation, found on the floor with no memory of the event and no prodrome, and with hypokalemia (K 3.1), the main concern is syncope, possibly arrhythmic in origin (especially torsades de pointes due to sotalol and low potassium), or a fall due to another cause (e.g., orthostatic hypotension, stroke, seizure).\n\n**History:**\n- Detailed event history: Any witnesses? Was there incontinence, tongue biting, or post-ictal confusion (suggests seizure)?\n- Prodromal symptoms: Chest pain, palpitations, dizziness, visual changes, weakness, or nausea?\n- Past medical history: Cardiac disease, prior syncope, stroke, diabetes, hypertension, dementia.\n- Medication review: Sotalol (QT prolongation risk), other QT-prolonging drugs, diuretics (cause hypokalemia).\n- Recent illnesses: Infection, dehydration, new medications.\n- Functional status: Baseline mobility, falls risk.\n\n**Physical Examination:**\n- Vital signs: Orthostatic blood pressure and pulse (orthostatic hypotension sensitivity ~30%, specificity ~90% for syncope cause).\n- General: Signs of trauma (head, face, extremities), tongue lacerations (seizure), incontinence.\n- Cardiac: Irregular rhythm, murmurs, signs of heart failure.\n- Neurological: Focal deficits (stroke/TIA), cognitive status, gait assessment.\n\n**Bedside Tests:**\n- ECG: Look for QTc prolongation (>500 ms increases torsades risk), bradycardia, pauses, AV block, ischemia. Sensitivity for arrhythmic syncope is low (~20-30%), but specificity is high if abnormal.\n- Bedside glucose: Rule out hypoglycemia.\n- Telemetry: Continuous monitoring for arrhythmias.\n- Orthostatic vitals: As above.\n- Bedside cardiac and neuro exam.\n\n**Diagnostic Performance Data:**\n- ECG: Abnormal ECG is present in ~90% of arrhythmic syncope, but only ~20-30% of all syncope cases.\n- Orthostatic vitals: Sensitivity ~30%, specificity ~90% for orthostatic syncope.\n- History of heart disease: Sensitivity ~95%, specificity ~45% for cardiac syncope.\n- Witnessed syncope with no prodrome: Suggests arrhythmic cause (specificity ~90%).\n\n**Summary:**\n- Focus on arrhythmic causes (sotalol, hypokalemia), but also assess for orthostatic, neurogenic, and other causes.\n- Key tests: ECG, orthostatic vitals, glucose, careful history and exam.\n- Consider urgent correction of potassium and cardiac monitoring.\n\nReferences:\n- Shen WK, et al. 2017 ACC/AHA/HRS Guideline for the Evaluation and Management of Patients With Syncope. Circulation. 2017.\n- Brignole M, et al. ESC Guidelines for the diagnosis and management of syncope. Eur Heart J. 2018."
+ },
+ "variant": "base"
+}

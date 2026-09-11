@@ -1,0 +1,357 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "fever_003",
+ "blocked_items": [],
+ "case_id": "fever_003",
+ "created_at": "2026-09-11T09:12:39+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [
+    "10",
+    "38.9",
+    "46"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": null,
+   "text": "For a 46-year-old male with a history of intravenous drug use (IVDU), currently on day 10 of vancomycin for vertebral osteomyelitis via a PICC line, presenting with fever (T 38.9\u00b0C) and rigors but no localizing symptoms, your approach should focus on identifying the source of fever, with particular concern for line-associated infection, persistent or new bacteremia, and complications of osteomyelitis or vancomycin therapy"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Review for new symptoms: chest pain, shortness of breath, cough, abdominal pain, dysuria, back pain, headache, confusion, rash, joint pain"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Ask about PICC line issues: pain, redness, swelling, discharge at site, malfunction"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication adherence and timing of vancomycin doses"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Allergies, recent exposures, sick contacts"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Review prior blood culture results and sensitivities"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Any recent procedures or hospitalizations"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: fever, tachycardia, hypotension, hypoxia"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General appearance: toxic, diaphoretic, altered mental status"
+  },
+  {
+   "bedside": false,
+   "category": "disposition",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "PICC site: erythema, tenderness, swelling, discharge, tracking erythema"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiac: new murmurs (concern for endocarditis, especially in IVDU)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Lungs: crackles, decreased breath sounds (pneumonia, septic emboli)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdomen: tenderness, organomegaly"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Spine: focal tenderness, step-off, swelling (vertebral osteo complications)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Skin: Janeway lesions, Osler nodes, petechiae, track marks, abscesses"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Joints: swelling, erythema, tenderness (septic arthritis)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Blood cultures x2 sets from different sites (including one from PICC, one peripherally). Sensitivity for bacteremia is high if drawn during fever/rigors"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "CBC, renal and liver function, lactate, CRP/ESR"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urinalysis and urine culture"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Rapid bedside glucose"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG if concern for endocarditis or sepsis"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside ultrasound of PICC site if concern for thrombophlebitis"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "90"
+   ],
+   "performance_claims": [
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Blood cultures: Sensitivity for bacteremia is ~90% with two sets; specificity is high if proper technique is used"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Exam for PICC infection: Sensitivity is low-moderate"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "absence of local signs does not rule out infection"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "30",
+    "40"
+   ],
+   "performance_claims": [
+    "30",
+    "40"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "New murmur: Sensitivity for endocarditis is ~30-40%, specificity higher in IVDU"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [
+    "90"
+   ],
+   "performance_claims": [
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside ultrasound: Sensitivity for superficial thrombophlebitis is high (>90%)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on identifying sepsis, line infection, persistent or new bacteremia, and complications of osteomyelitis or vancomycin toxicity"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Blood cultures and careful exam of the PICC site are critical"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Consider endocarditis given IVDU history"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Early involvement of infectious diseases and consideration for imaging if new focal findings develop"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "For a 46-year-old male with a history of intravenous drug use (IVDU), currently on day 10 of vancomycin for vertebral osteomyelitis via a PICC line, presenting with fever (T 38.9\u00b0C) and rigors but no localizing symptoms, your approach should focus on identifying the source of fever, with particular concern for line-associated infection, persistent or new bacteremia, and complications of osteomyelitis or vancomycin therapy.\n\n**History:**\n- Review for new symptoms: chest pain, shortness of breath, cough, abdominal pain, dysuria, back pain, headache, confusion, rash, joint pain.\n- Ask about PICC line issues: pain, redness, swelling, discharge at site, malfunction.\n- Medication adherence and timing of vancomycin doses.\n- Allergies, recent exposures, sick contacts.\n- Review prior blood culture results and sensitivities.\n- Any recent procedures or hospitalizations.\n\n**Physical Examination:**\n- Vital signs: fever, tachycardia, hypotension, hypoxia.\n- General appearance: toxic, diaphoretic, altered mental status.\n- PICC site: erythema, tenderness, swelling, discharge, tracking erythema.\n- Cardiac: new murmurs (concern for endocarditis, especially in IVDU).\n- Lungs: crackles, decreased breath sounds (pneumonia, septic emboli).\n- Abdomen: tenderness, organomegaly.\n- Spine: focal tenderness, step-off, swelling (vertebral osteo complications).\n- Skin: Janeway lesions, Osler nodes, petechiae, track marks, abscesses.\n- Joints: swelling, erythema, tenderness (septic arthritis).\n\n**Bedside Tests:**\n- Blood cultures x2 sets from different sites (including one from PICC, one peripherally). Sensitivity for bacteremia is high if drawn during fever/rigors.\n- CBC, renal and liver function, lactate, CRP/ESR.\n- Urinalysis and urine culture.\n- Rapid bedside glucose.\n- ECG if concern for endocarditis or sepsis.\n- Bedside ultrasound of PICC site if concern for thrombophlebitis.\n\n**Diagnostic Performance Data:**\n- Blood cultures: Sensitivity for bacteremia is ~90% with two sets; specificity is high if proper technique is used.\n- Exam for PICC infection: Sensitivity is low-moderate; absence of local signs does not rule out infection.\n- New murmur: Sensitivity for endocarditis is ~30-40%, specificity higher in IVDU.\n- Bedside ultrasound: Sensitivity for superficial thrombophlebitis is high (>90%).\n\n**Summary:**\n- Focus on identifying sepsis, line infection, persistent or new bacteremia, and complications of osteomyelitis or vancomycin toxicity.\n- Blood cultures and careful exam of the PICC site are critical.\n- Consider endocarditis given IVDU history.\n- Early involvement of infectious diseases and consideration for imaging if new focal findings develop."
+ },
+ "variant": "base"
+}

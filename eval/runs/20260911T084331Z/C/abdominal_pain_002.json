@@ -1,0 +1,377 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "abdominal_pain_002",
+ "blocked_items": [],
+ "case_id": "abdominal_pain_002",
+ "created_at": "2026-09-11T09:06:11+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Characterize RUQ pain: onset, duration, quality, radiation (to back or right shoulder), severity, aggravating/relieving factors (esp. relation to food, fatty meals)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: nausea, vomiting (bilious?), jaundice, chills/rigors, pruritus, dark urine, pale stools"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past history: gallstones, biliary disease, surgeries, similar episodes"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Risk factors: diabetes (increased risk for emphysematous cholecystitis), immunosuppression"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Heart failure symptoms: volume status, recent changes"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: ill-appearing, jaundice, mental status (for sepsis)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vitals: fever, tachycardia, hypotension (shock)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdominal exam:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Inspection: distension, scars"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Palpation: RUQ tenderness, guarding, rebound"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "65",
+    "87"
+   ],
+   "performance_claims": [
+    "65",
+    "87"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "Murphy\u2019s sign: inspiratory arrest with deep palpation of RUQ (sensitivity ~65%, specificity ~87% for acute cholecystitis)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Palpable gallbladder (Courvoisier\u2019s sign)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Peritoneal signs (suggesting perforation)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Other: scleral icterus, signs of chronic liver disease"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Point-of-care ultrasound (POCUS):"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "3"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Gallbladder wall thickening (>3mm), pericholecystic fluid, sonographic Murphy\u2019s sign, gallstones, biliary ductal dilation"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "80",
+    "88"
+   ],
+   "performance_claims": [
+    "80",
+    "88"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Sensitivity ~88%, specificity ~80% for acute cholecystitis (meta-analysis)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose (important in diabetics)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urinalysis (rule out UTI)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Laboratory/Other Immediate Tests:"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "CBC (leukocytosis)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "LFTs (AST, ALT, ALP, bilirubin\u2014elevated in cholangitis)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Blood cultures (if sepsis suspected)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Electrolytes, renal function (volume status, end-organ perfusion)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on history for biliary colic, infection, and risk factors"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Physical exam for Murphy\u2019s sign (modest sensitivity, good specificity), peritonitis, jaundice"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside RUQ ultrasound is highly useful and can be performed at the bedside"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Labs to assess for infection, biliary obstruction, and end-organ dysfunction"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "Singer AJ, et al."
+   ],
+   "numeric_claims": [
+    "1996",
+    "27",
+    "3",
+    "343",
+    "346"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Singer AJ, et al. Ann Emerg Med. 1996;27(3):343-346. (Murphy\u2019s sign)"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [
+    "Shea JA, et al."
+   ],
+   "numeric_claims": [
+    "11",
+    "120",
+    "1994",
+    "921",
+    "928"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Shea JA, et al. Ann Intern Med. 1994;120(11):921-928. (Ultrasound diagnostic performance)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "UpToDate: Clinical manifestations and diagnosis of acute cholecystitis"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bottom line:"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Prioritize focused history, Murphy\u2019s sign, and bedside RUQ ultrasound, as these have the best diagnostic yield for acute cholecystitis in this context"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 62-year-old woman with type 2 diabetes mellitus (T2DM), admitted for heart failure exacerbation, now with right upper quadrant (RUQ) pain and vomiting for 6 hours after dinner, fever (T 38.4\u00b0C), and tachycardia (HR 104)\u2014the concern is for an acute abdominal process, most notably acute cholecystitis, but also consider cholangitis, hepatic abscess, or other intra-abdominal infection.\n\n**History:**\n- Characterize RUQ pain: onset, duration, quality, radiation (to back or right shoulder), severity, aggravating/relieving factors (esp. relation to food, fatty meals)\n- Associated symptoms: nausea, vomiting (bilious?), jaundice, chills/rigors, pruritus, dark urine, pale stools\n- Past history: gallstones, biliary disease, surgeries, similar episodes\n- Risk factors: diabetes (increased risk for emphysematous cholecystitis), immunosuppression\n- Heart failure symptoms: volume status, recent changes\n\n**Physical Examination:**\n- General: ill-appearing, jaundice, mental status (for sepsis)\n- Vitals: fever, tachycardia, hypotension (shock)\n- Abdominal exam:\n  - Inspection: distension, scars\n  - Palpation: RUQ tenderness, guarding, rebound\n  - Murphy\u2019s sign: inspiratory arrest with deep palpation of RUQ (sensitivity ~65%, specificity ~87% for acute cholecystitis)\n  - Palpable gallbladder (Courvoisier\u2019s sign)\n  - Peritoneal signs (suggesting perforation)\n- Other: scleral icterus, signs of chronic liver disease\n\n**Bedside Tests:**\n- Point-of-care ultrasound (POCUS):\n  - Gallbladder wall thickening (>3mm), pericholecystic fluid, sonographic Murphy\u2019s sign, gallstones, biliary ductal dilation\n  - Sensitivity ~88%, specificity ~80% for acute cholecystitis (meta-analysis)\n- Bedside glucose (important in diabetics)\n- Urinalysis (rule out UTI)\n\n**Laboratory/Other Immediate Tests:**\n- CBC (leukocytosis)\n- LFTs (AST, ALT, ALP, bilirubin\u2014elevated in cholangitis)\n- Blood cultures (if sepsis suspected)\n- Electrolytes, renal function (volume status, end-organ perfusion)\n\n**Summary:**\n- Focus on history for biliary colic, infection, and risk factors\n- Physical exam for Murphy\u2019s sign (modest sensitivity, good specificity), peritonitis, jaundice\n- Bedside RUQ ultrasound is highly useful and can be performed at the bedside\n- Labs to assess for infection, biliary obstruction, and end-organ dysfunction\n\n**References:**\n- Singer AJ, et al. Ann Emerg Med. 1996;27(3):343-346. (Murphy\u2019s sign)\n- Shea JA, et al. Ann Intern Med. 1994;120(11):921-928. (Ultrasound diagnostic performance)\n- UpToDate: Clinical manifestations and diagnosis of acute cholecystitis\n\n**Bottom line:**\nPrioritize focused history, Murphy\u2019s sign, and bedside RUQ ultrasound, as these have the best diagnostic yield for acute cholecystitis in this context."
+ },
+ "variant": "base"
+}

@@ -1,0 +1,284 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "dizziness_001",
+ "blocked_items": [],
+ "case_id": "dizziness_001",
+ "created_at": "2026-09-11T09:09:26+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and progression of vertigo (continuous vs. episodic)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: diplopia, dysarthria, dysphagia, weakness, numbness, headache, hearing loss, tinnitus"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent trauma or infection"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication history (especially anticoagulation status)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Vascular risk factors (HTN, AF, prior stroke/TIA)"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs (BP, HR, O2 sat)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: level of consciousness, distress"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cranial nerves: especially gaze palsies, nystagmus, facial asymmetry, dysarthria, palate elevation"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cerebellar: finger-nose-finger, heel-shin, rapid alternating movements"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Gait: if safe, attempt to stand/walk (ataxia)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Motor and sensory exam: focal deficits"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Ear exam: hearing loss, nystagmus"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "HINTS exam (Head-Impulse, Nystagmus, Test of Skew):"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Head-Impulse Test: Normal (no corrective saccade) suggests central cause; abnormal (corrective saccade) suggests peripheral"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Nystagmus: Direction-changing or vertical nystagmus suggests central; unidirectional horizontal suggests peripheral"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Test of Skew: Vertical ocular misalignment (cover-uncover test) suggests central"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [
+    "Kattah et al., 2009"
+   ],
+   "numeric_claims": [
+    "100",
+    "2009",
+    "96"
+   ],
+   "performance_claims": [
+    "100",
+    "96"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic performance: In expert hands, HINTS is more sensitive than early MRI for stroke in acute vestibular syndrome (sensitivity ~100%, specificity ~96% for central cause; Kattah et al., 2009)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Hearing test: Sudden hearing loss can suggest AICA stroke"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Key Points:"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "HINTS exam is critical if the patient has continuous vertigo, nystagmus, and cannot walk (acute vestibular syndrome)"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [
+    "24",
+    "48",
+    "80"
+   ],
+   "performance_claims": [
+    "24",
+    "48",
+    "80"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Early MRI can miss posterior fossa strokes in the first 24-48 hours (sensitivity ~80%)"
+  },
+  {
+   "bedside": false,
+   "category": "consult",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "If any central signs or abnormal HINTS, treat as stroke and consult neurology emergently"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [
+    "Kattah JC et al."
+   ],
+   "numeric_claims": [
+    "2009"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Kattah JC et al. \"HINTS to Diagnose Stroke in the Acute Vestibular Syndrome.\" Stroke. 2009"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "Edlow JA et al."
+   ],
+   "numeric_claims": [
+    "2018"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Edlow JA et al. \"Diagnosis of acute dizziness and vertigo: a systematic review.\" JAMA. 2018"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "This 77-year-old man with hypertension and atrial fibrillation (anticoagulation held for GI bleed) presents with acute, continuous vertigo (room-spinning), vomiting, inability to walk, and elevated BP. This is a high-risk presentation for central causes of vertigo, especially posterior circulation stroke.\n\n**History:**\n- Onset, duration, and progression of vertigo (continuous vs. episodic)\n- Associated symptoms: diplopia, dysarthria, dysphagia, weakness, numbness, headache, hearing loss, tinnitus\n- Recent trauma or infection\n- Medication history (especially anticoagulation status)\n- Vascular risk factors (HTN, AF, prior stroke/TIA)\n\n**Physical Examination:**\n- Vital signs (BP, HR, O2 sat)\n- General: level of consciousness, distress\n- Cranial nerves: especially gaze palsies, nystagmus, facial asymmetry, dysarthria, palate elevation\n- Cerebellar: finger-nose-finger, heel-shin, rapid alternating movements\n- Gait: if safe, attempt to stand/walk (ataxia)\n- Motor and sensory exam: focal deficits\n- Ear exam: hearing loss, nystagmus\n\n**Bedside Tests:**\n- **HINTS exam** (Head-Impulse, Nystagmus, Test of Skew):\n  - **Head-Impulse Test:** Normal (no corrective saccade) suggests central cause; abnormal (corrective saccade) suggests peripheral.\n  - **Nystagmus:** Direction-changing or vertical nystagmus suggests central; unidirectional horizontal suggests peripheral.\n  - **Test of Skew:** Vertical ocular misalignment (cover-uncover test) suggests central.\n  - **Diagnostic performance:** In expert hands, HINTS is more sensitive than early MRI for stroke in acute vestibular syndrome (sensitivity ~100%, specificity ~96% for central cause; Kattah et al., 2009).\n- **Hearing test:** Sudden hearing loss can suggest AICA stroke.\n\n**Key Points:**\n- This patient is high risk for posterior circulation stroke (age, AF, HTN, anticoagulation held).\n- HINTS exam is critical if the patient has continuous vertigo, nystagmus, and cannot walk (acute vestibular syndrome).\n- Early MRI can miss posterior fossa strokes in the first 24-48 hours (sensitivity ~80%).\n- If any central signs or abnormal HINTS, treat as stroke and consult neurology emergently.\n\n**References:**\n- Kattah JC et al. \"HINTS to Diagnose Stroke in the Acute Vestibular Syndrome.\" Stroke. 2009.\n- Edlow JA et al. \"Diagnosis of acute dizziness and vertigo: a systematic review.\" JAMA. 2018."
+ },
+ "variant": "base"
+}

@@ -1,0 +1,319 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "dizziness_001",
+ "blocked_items": [],
+ "case_id": "dizziness_001_n1",
+ "created_at": "2026-09-11T09:09:38+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and progression of vertigo (sudden vs. gradual)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Character of vertigo (spinning vs. lightheadedness)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: diplopia, dysarthria, dysphagia, weakness, numbness, headache, hearing loss, visual changes"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent trauma or infection"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication history (especially anticoagulation status)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Previous similar episodes"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs (already hypertensive)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General appearance (distress, pallor, diaphoresis)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Full neurologic exam:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cranial nerves (look for diplopia, facial droop, dysarthria, tongue deviation)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Motor and sensory exam (focal deficits)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cerebellar testing (finger-nose, heel-shin, rapid alternating movements)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Gait (if safe)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Oculomotor exam:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Nystagmus (direction, type, fatigability)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Skew deviation (cover-uncover test)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Head impulse test (see below)"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "HINTS exam (Head Impulse, Nystagmus, Test of Skew):"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [
+    "Kattah et al., 2009"
+   ],
+   "numeric_claims": [
+    "100",
+    "2009",
+    "85"
+   ],
+   "performance_claims": [
+    "100",
+    "85"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Head Impulse Test: Normal (no corrective saccade) suggests central cause; abnormal (corrective saccade) suggests peripheral cause. Sensitivity for central cause: ~100%, specificity ~85% (Kattah et al., 2009)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Nystagmus: Direction-changing or vertical nystagmus suggests central cause"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "unidirectional horizontal nystagmus suggests peripheral"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Test of Skew: Vertical misalignment suggests central cause"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [
+    "Kattah et al., 2009"
+   ],
+   "numeric_claims": [
+    "2009"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "HINTS \"central\" findings are more sensitive than early MRI for stroke in acute vestibular syndrome (Kattah et al., 2009)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Hearing test: Sudden hearing loss can suggest AICA stroke"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance:"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [
+    "Kattah et al., 2009"
+   ],
+   "numeric_claims": [
+    "100",
+    "2009",
+    "96"
+   ],
+   "performance_claims": [
+    "100",
+    "96"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "HINTS exam: Sensitivity ~100%, specificity ~96% for stroke in acute vestibular syndrome (Kattah et al., 2009)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "NIHSS: May miss posterior circulation strokes; low sensitivity for these"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "In this high-risk patient, perform a focused history for central features, a full neurologic exam, and the HINTS exam. Central findings (normal head impulse, direction-changing nystagmus, skew deviation) are highly suggestive of stroke and warrant urgent neuroimaging (MRI brain with DWI preferred, as CT may miss posterior strokes)"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014an elderly patient with vascular risk factors, acute onset of severe vertigo, vomiting, inability to walk, and atrial fibrillation (with anticoagulation held)\u2014the primary concern is a central cause of vertigo, especially posterior circulation stroke.\n\n**History:**\n- Onset, duration, and progression of vertigo (sudden vs. gradual)\n- Character of vertigo (spinning vs. lightheadedness)\n- Associated symptoms: diplopia, dysarthria, dysphagia, weakness, numbness, headache, hearing loss, visual changes\n- Recent trauma or infection\n- Medication history (especially anticoagulation status)\n- Previous similar episodes\n\n**Physical Examination:**\n- Vital signs (already hypertensive)\n- General appearance (distress, pallor, diaphoresis)\n- Full neurologic exam:\n  - Cranial nerves (look for diplopia, facial droop, dysarthria, tongue deviation)\n  - Motor and sensory exam (focal deficits)\n  - Cerebellar testing (finger-nose, heel-shin, rapid alternating movements)\n  - Gait (if safe)\n- Oculomotor exam:\n  - Nystagmus (direction, type, fatigability)\n  - Skew deviation (cover-uncover test)\n  - Head impulse test (see below)\n\n**Bedside Tests:**\n- **HINTS exam** (Head Impulse, Nystagmus, Test of Skew):\n  - **Head Impulse Test:** Normal (no corrective saccade) suggests central cause; abnormal (corrective saccade) suggests peripheral cause. Sensitivity for central cause: ~100%, specificity ~85% (Kattah et al., 2009).\n  - **Nystagmus:** Direction-changing or vertical nystagmus suggests central cause; unidirectional horizontal nystagmus suggests peripheral.\n  - **Test of Skew:** Vertical misalignment suggests central cause.\n  - HINTS \"central\" findings are more sensitive than early MRI for stroke in acute vestibular syndrome (Kattah et al., 2009).\n- **Hearing test:** Sudden hearing loss can suggest AICA stroke.\n\n**Diagnostic Performance:**\n- HINTS exam: Sensitivity ~100%, specificity ~96% for stroke in acute vestibular syndrome (Kattah et al., 2009).\n- NIHSS: May miss posterior circulation strokes; low sensitivity for these.\n\n**Summary:**\n- In this high-risk patient, perform a focused history for central features, a full neurologic exam, and the HINTS exam. Central findings (normal head impulse, direction-changing nystagmus, skew deviation) are highly suggestive of stroke and warrant urgent neuroimaging (MRI brain with DWI preferred, as CT may miss posterior strokes)."
+ },
+ "variant": "n1"
+}

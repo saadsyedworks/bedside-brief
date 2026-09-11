@@ -1,0 +1,385 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "palpitations_002",
+ "blocked_items": [],
+ "case_id": "palpitations_002_p1",
+ "created_at": "2026-09-11T09:14:14+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and triggers of palpitations"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: chest pain, dyspnea, syncope, diaphoresis"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past episodes of palpitations or arrhythmias"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medications, drug use (especially stimulants)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Family history of sudden cardiac death or arrhythmias"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: Level of consciousness, distress"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: HR, BP, RR, O2 sat, temp"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiac: Regularity of rhythm, heart sounds, murmurs, JVP"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Pulmonary: Rales, wheezing (signs of heart failure)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Peripheral: Pulses, perfusion, edema"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "12"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "12-lead ECG (immediate):"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic for arrhythmia type (SVT vs VT vs atrial flutter, etc.)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Sensitivity/specificity: High for rhythm diagnosis"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Telemetry/monitoring"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Vagal maneuvers (if stable):"
+  },
+  {
+   "bedside": true,
+   "category": "functional",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Carotid sinus massage, Valsalva maneuver"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic and therapeutic for SVT"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "20",
+    "25"
+   ],
+   "performance_claims": [
+    "20",
+    "25"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Success rate: ~20-25% for SVT termination"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Contraindications: carotid bruit, history of TIA/stroke"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "IV access (for possible adenosine or cardioversion)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Point-of-care glucose (rule out hypoglycemia)"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pulse oximetry"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [
+    "95"
+   ],
+   "performance_claims": [
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG is gold standard for arrhythmia diagnosis (sensitivity/specificity >95% for rhythm identification)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "20",
+    "25"
+   ],
+   "performance_claims": [
+    "20",
+    "25"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Vagal maneuvers: ~20-25% effective for SVT termination, diagnostic if arrhythmia transiently slows or terminates"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [
+    "90"
+   ],
+   "performance_claims": [
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Adenosine: ~90% effective for AVNRT/AVRT"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Immediate ECG is essential"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Assess for instability (hypotension, altered mental status, chest pain, heart failure)"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "If unstable, prepare for synchronized cardioversion"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "If stable, attempt vagal maneuvers and consider adenosine"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Monitor closely and reassess frequently"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "9"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Tintinalli's Emergency Medicine, 9th ed"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "2015"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ACC/AHA/HRS Guidelines for SVT (2015)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "UpToDate: \"Narrow QRS complex tachycardias: Clinical manifestations, diagnosis, and evaluation\""
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 45-year-old man with no cardiac history, admitted for chest pain rule-out, now with sudden-onset regular pounding heartbeat, HR 170, BP 104/68, lightheaded but mentating\u2014your approach should focus on rapid assessment for unstable tachyarrhythmia, likely supraventricular tachycardia (SVT) or possibly ventricular tachycardia (VT).\n\n**History:**\n- Onset, duration, and triggers of palpitations\n- Associated symptoms: chest pain, dyspnea, syncope, diaphoresis\n- Past episodes of palpitations or arrhythmias\n- Medications, drug use (especially stimulants)\n- Family history of sudden cardiac death or arrhythmias\n\n**Physical Examination:**\n- General: Level of consciousness, distress\n- Vital signs: HR, BP, RR, O2 sat, temp\n- Cardiac: Regularity of rhythm, heart sounds, murmurs, JVP\n- Pulmonary: Rales, wheezing (signs of heart failure)\n- Peripheral: Pulses, perfusion, edema\n\n**Bedside Tests:**\n1. **12-lead ECG** (immediate):\n   - Diagnostic for arrhythmia type (SVT vs VT vs atrial flutter, etc.)\n   - Sensitivity/specificity: High for rhythm diagnosis\n2. **Telemetry/monitoring**\n3. **Vagal maneuvers** (if stable):\n   - Carotid sinus massage, Valsalva maneuver\n   - Diagnostic and therapeutic for SVT\n   - Success rate: ~20-25% for SVT termination\n   - Contraindications: carotid bruit, history of TIA/stroke\n4. **IV access** (for possible adenosine or cardioversion)\n5. **Point-of-care glucose** (rule out hypoglycemia)\n6. **Pulse oximetry**\n\n**Diagnostic Performance Data:**\n- ECG is gold standard for arrhythmia diagnosis (sensitivity/specificity >95% for rhythm identification)\n- Vagal maneuvers: ~20-25% effective for SVT termination, diagnostic if arrhythmia transiently slows or terminates\n- Adenosine: ~90% effective for AVNRT/AVRT\n\n**Summary:**\n- Immediate ECG is essential\n- Assess for instability (hypotension, altered mental status, chest pain, heart failure)\n- If unstable, prepare for synchronized cardioversion\n- If stable, attempt vagal maneuvers and consider adenosine\n- Monitor closely and reassess frequently\n\n**References:**\n- Tintinalli's Emergency Medicine, 9th ed.\n- ACC/AHA/HRS Guidelines for SVT (2015)\n- UpToDate: \"Narrow QRS complex tachycardias: Clinical manifestations, diagnosis, and evaluation\""
+ },
+ "variant": "p1"
+}

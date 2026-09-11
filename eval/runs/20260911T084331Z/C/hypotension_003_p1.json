@@ -1,0 +1,304 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "hypotension_003",
+ "blocked_items": [],
+ "case_id": "hypotension_003_p1",
+ "created_at": "2026-09-11T09:13:41+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset and progression of symptoms (chest pain, dyspnea, palpitations, syncope, confusion)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: diaphoresis, cough, hemoptysis, fever"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Review medications, allergies, and recent events (bleeding, procedures)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Past medical history: heart failure, arrhythmias, renal dysfunction"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: Level of consciousness, distress, diaphoresis, cyanosis"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vitals: Confirm BP, HR, RR, SpO2, temperature"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "3",
+    "4"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiac: New murmurs (holosystolic at LLSB for VSD, at apex for MR), muffled heart sounds (tamponade), S3/S4, JVP"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Lungs: Crackles (pulmonary edema), decreased breath sounds (effusion)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdomen: Hepatomegaly, tenderness (congestion)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Extremities: Cool, mottled, pulses, edema"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: Look for arrhythmias, reinfarction, ischemia"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Point-of-care ultrasound (POCUS):"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "LV function (reduced EF, wall motion abnormality)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pericardial effusion (tamponade)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "RV size/function (PE, RV infarct)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Wall defect (VSD, free wall rupture)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Mitral valve (flail leaflet, papillary muscle rupture)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "IVC size/collapse (volume status)"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "CXR: Pulmonary edema, effusion, mediastinal widening"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Labs: Troponin, BNP, CBC, BMP, lactate, ABG, coags, type & screen"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [
+    "90"
+   ],
+   "performance_claims": [
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "POCUS for tamponade: Sensitivity ~90%, specificity ~90% for pericardial effusion with tamponade physiology"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [
+    "80",
+    "90"
+   ],
+   "performance_claims": [
+    "80",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "POCUS for VSD: Sensitivity ~80-90% for detecting septal defects with color Doppler"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "70",
+    "90"
+   ],
+   "performance_claims": [
+    "70",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "New murmur for mechanical complication: Sensitivity ~70%, specificity ~90% (varies by examiner)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "76",
+    "81"
+   ],
+   "performance_claims": [
+    "76",
+    "81"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "JVP elevation for tamponade/cardiogenic shock: Sensitivity ~76%, specificity ~81%"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Immediate bedside assessment should focus on identifying mechanical complications (VSD, papillary muscle rupture, tamponade), arrhythmia, or shock. POCUS is the highest-yield bedside test. Early cardiology and cardiac surgery consultation is warranted if a mechanical complication is suspected"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "This is a high-risk scenario: a 70-year-old woman, 2 days post-anterior STEMI and PCI, now with hypotension, tachycardia, hypoxia, and clinical deterioration. This raises concern for mechanical complications (e.g., free wall rupture, VSD, papillary muscle rupture), cardiogenic shock, arrhythmia, or other acute complications (e.g., tamponade, PE, sepsis).\n\n**History:**\n- Onset and progression of symptoms (chest pain, dyspnea, palpitations, syncope, confusion)\n- Associated symptoms: diaphoresis, cough, hemoptysis, fever\n- Review medications, allergies, and recent events (bleeding, procedures)\n- Past medical history: heart failure, arrhythmias, renal dysfunction\n\n**Physical Examination:**\n- General: Level of consciousness, distress, diaphoresis, cyanosis\n- Vitals: Confirm BP, HR, RR, SpO2, temperature\n- Cardiac: New murmurs (holosystolic at LLSB for VSD, at apex for MR), muffled heart sounds (tamponade), S3/S4, JVP\n- Lungs: Crackles (pulmonary edema), decreased breath sounds (effusion)\n- Abdomen: Hepatomegaly, tenderness (congestion)\n- Extremities: Cool, mottled, pulses, edema\n\n**Bedside Tests:**\n- **ECG:** Look for arrhythmias, reinfarction, ischemia\n- **Point-of-care ultrasound (POCUS):**\n  - LV function (reduced EF, wall motion abnormality)\n  - Pericardial effusion (tamponade)\n  - RV size/function (PE, RV infarct)\n  - Wall defect (VSD, free wall rupture)\n  - Mitral valve (flail leaflet, papillary muscle rupture)\n  - IVC size/collapse (volume status)\n- **CXR:** Pulmonary edema, effusion, mediastinal widening\n- **Labs:** Troponin, BNP, CBC, BMP, lactate, ABG, coags, type & screen\n\n**Diagnostic Performance Data:**\n- **POCUS for tamponade:** Sensitivity ~90%, specificity ~90% for pericardial effusion with tamponade physiology\n- **POCUS for VSD:** Sensitivity ~80-90% for detecting septal defects with color Doppler\n- **New murmur for mechanical complication:** Sensitivity ~70%, specificity ~90% (varies by examiner)\n- **JVP elevation for tamponade/cardiogenic shock:** Sensitivity ~76%, specificity ~81%\n\n**Summary:**\nImmediate bedside assessment should focus on identifying mechanical complications (VSD, papillary muscle rupture, tamponade), arrhythmia, or shock. POCUS is the highest-yield bedside test. Early cardiology and cardiac surgery consultation is warranted if a mechanical complication is suspected."
+ },
+ "variant": "p1"
+}

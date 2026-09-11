@@ -1,0 +1,339 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "dyspnea_001",
+ "blocked_items": [],
+ "case_id": "dyspnea_001_n1",
+ "created_at": "2026-09-11T09:10:39+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and progression of breathlessness"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: orthopnea, paroxysmal nocturnal dyspnea, cough (productive? frothy?), chest pain, palpitations, fever, chills"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent weight gain"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Urine output"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication adherence (especially diuretics)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Any new medications"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "History of similar episodes"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Risk factors for PE (immobility, DVT, malignancy)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: distress, ability to speak, cyanosis"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vitals: HR, BP, RR, temperature, SpO2"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "39",
+    "92"
+   ],
+   "performance_claims": [
+    "39",
+    "92"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "JVP: elevated in fluid overload (sensitivity ~39%, specificity ~92% for heart failure)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "60",
+    "78"
+   ],
+   "performance_claims": [
+    "60",
+    "78"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "Lungs: crackles/rales (sensitivity ~60%, specificity ~78% for heart failure), wheeze, decreased breath sounds (effusion)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "3"
+   ],
+   "performance_claims": [
+    "3"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "Heart: S3 gallop (specific but not sensitive for heart failure), murmurs"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdomen: hepatomegaly, ascites"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Extremities: pitting edema, calf tenderness (DVT)"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pulse oximetry (already low)"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG (arrhythmia, ischemia)"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [
+    "92",
+    "94"
+   ],
+   "performance_claims": [
+    "92",
+    "94"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside ultrasound (lung B-lines: sensitivity ~94%, specificity ~92% for pulmonary edema"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "IVC diameter/collapse for volume status)"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Chest X-ray (if available at bedside): pulmonary edema, effusions, consolidation"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Capillary blood glucose (rule out hypoglycemia as a confounder)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "60",
+    "78"
+   ],
+   "performance_claims": [
+    "60",
+    "78"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Crackles: Sensitivity ~60%, specificity ~78% for heart failure"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "13",
+    "3",
+    "99"
+   ],
+   "performance_claims": [
+    "13",
+    "3",
+    "99"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "S3: Sensitivity ~13%, specificity ~99% for heart failure"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "3",
+    "39",
+    "92"
+   ],
+   "performance_claims": [
+    "3",
+    "39",
+    "92"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "JVP >3cm: Sensitivity ~39%, specificity ~92% for heart failure"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [
+    "92",
+    "94"
+   ],
+   "performance_claims": [
+    "92",
+    "94"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside lung ultrasound (B-lines): Sensitivity ~94%, specificity ~92% for pulmonary edema"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on signs of fluid overload and heart failure decompensation, but also consider infection, PE, or other causes of hypoxia. Bedside lung ultrasound is highly sensitive and specific for pulmonary edema and should be used if available"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this scenario\u2014a 68-year-old man with known heart failure (EF ~30%), recent IV fluid administration, new breathlessness, and hypoxia (SpO2 89%)\u2014the concern is for acute decompensated heart failure (possibly pulmonary edema), fluid overload, or other causes of hypoxia (e.g., pneumonia, PE).\n\n**History:**\n- Onset, duration, and progression of breathlessness\n- Associated symptoms: orthopnea, paroxysmal nocturnal dyspnea, cough (productive? frothy?), chest pain, palpitations, fever, chills\n- Recent weight gain\n- Urine output\n- Medication adherence (especially diuretics)\n- Any new medications\n- History of similar episodes\n- Risk factors for PE (immobility, DVT, malignancy)\n\n**Physical Examination:**\n- General: distress, ability to speak, cyanosis\n- Vitals: HR, BP, RR, temperature, SpO2\n- JVP: elevated in fluid overload (sensitivity ~39%, specificity ~92% for heart failure)\n- Lungs: crackles/rales (sensitivity ~60%, specificity ~78% for heart failure), wheeze, decreased breath sounds (effusion)\n- Heart: S3 gallop (specific but not sensitive for heart failure), murmurs\n- Abdomen: hepatomegaly, ascites\n- Extremities: pitting edema, calf tenderness (DVT)\n\n**Bedside Tests:**\n- Pulse oximetry (already low)\n- ECG (arrhythmia, ischemia)\n- Bedside ultrasound (lung B-lines: sensitivity ~94%, specificity ~92% for pulmonary edema; IVC diameter/collapse for volume status)\n- Chest X-ray (if available at bedside): pulmonary edema, effusions, consolidation\n- Capillary blood glucose (rule out hypoglycemia as a confounder)\n\n**Diagnostic Performance Data:**\n- Crackles: Sensitivity ~60%, specificity ~78% for heart failure\n- S3: Sensitivity ~13%, specificity ~99% for heart failure\n- JVP >3cm: Sensitivity ~39%, specificity ~92% for heart failure\n- Bedside lung ultrasound (B-lines): Sensitivity ~94%, specificity ~92% for pulmonary edema\n\n**Summary:**\nFocus on signs of fluid overload and heart failure decompensation, but also consider infection, PE, or other causes of hypoxia. Bedside lung ultrasound is highly sensitive and specific for pulmonary edema and should be used if available."
+ },
+ "variant": "n1"
+}

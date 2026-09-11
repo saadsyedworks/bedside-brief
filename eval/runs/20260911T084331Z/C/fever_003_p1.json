@@ -1,0 +1,331 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "fever_003",
+ "blocked_items": [],
+ "case_id": "fever_003_p1",
+ "created_at": "2026-09-11T09:12:46+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, frequency, and characteristics of diarrhea (watery, bloody, mucous, nocturnal)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: abdominal pain, cramping, nausea, vomiting, tenesmus"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent dietary changes, sick contacts, travel, or outbreaks on the ward"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication review: other antibiotics, laxatives, PPIs"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Review for other infection sources: cough, dysuria, wound changes"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Immunosuppression, prior CDI, or GI disease"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: fever, tachycardia, hypotension (sepsis)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General appearance: ill, dehydrated"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdominal exam: distension, tenderness, guarding, rebound, bowel sounds"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Signs of volume depletion: dry mucous membranes, poor skin turgor"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Inspection of PICC site for infection"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "90",
+    "95"
+   ],
+   "performance_claims": [
+    "90",
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Stool sample for C. difficile testing (NAAT or GDH/toxin EIA): Sensitivity ~90-95%, specificity varies by test"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "NAAT is highly sensitive but may detect colonization"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [
+    "0",
+    "15"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "CBC: leukocytosis (>15,000 may suggest severe CDI)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Creatinine: assess for acute kidney injury (marker of severity)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Electrolytes: assess for dehydration"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Lactate if concern for sepsis"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside glucose (if diabetic or altered mental status)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Blood cultures if febrile"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "95"
+   ],
+   "performance_claims": [
+    "95"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "difficile NAAT: Sensitivity ~95%, specificity ~95% (but may overdiagnose colonization)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "75",
+    "85",
+    "95",
+    "99"
+   ],
+   "performance_claims": [
+    "75",
+    "85",
+    "95",
+    "99"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "GDH/toxin EIA: Sensitivity ~75-85%, specificity ~95-99% (two-step algorithms improve accuracy)"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [
+    "24",
+    "3"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Clinical criteria: \u22653 unformed stools in 24h + risk factors (antibiotics, hospitalization)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on CDI as most likely, but consider other causes (other infectious, medication-induced, or non-infectious diarrhea)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Assess for severity and complications (toxic megacolon, sepsis)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Early isolation and infection control measures"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "McDonald LC, et al."
+   ],
+   "numeric_claims": [
+    "2018"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "McDonald LC, et al. Clinical Practice Guidelines for Clostridium difficile Infection in Adults and Children. Clin Infect Dis. 2018"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [
+    "Surawicz CM, et al."
+   ],
+   "numeric_claims": [
+    "2013"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Surawicz CM, et al. Guidelines for Diagnosis, Treatment, and Prevention of Clostridium difficile Infections. Am J Gastroenterol. 2013"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 46-year-old male with a history of intravenous drug use (IVDU), currently on day 10 of vancomycin via PICC for vertebral osteomyelitis, now with fever (T 38.9\u00b0C) and six watery stools in the past 24 hours, without other localizing symptoms\u2014the concern is for hospital-acquired infectious diarrhea, most notably Clostridioides difficile infection (CDI), given recent antibiotic exposure.\n\n**History:**\n- Onset, frequency, and characteristics of diarrhea (watery, bloody, mucous, nocturnal)\n- Associated symptoms: abdominal pain, cramping, nausea, vomiting, tenesmus\n- Recent dietary changes, sick contacts, travel, or outbreaks on the ward\n- Medication review: other antibiotics, laxatives, PPIs\n- Review for other infection sources: cough, dysuria, wound changes\n- Immunosuppression, prior CDI, or GI disease\n\n**Physical Examination:**\n- Vital signs: fever, tachycardia, hypotension (sepsis)\n- General appearance: ill, dehydrated\n- Abdominal exam: distension, tenderness, guarding, rebound, bowel sounds\n- Signs of volume depletion: dry mucous membranes, poor skin turgor\n- Inspection of PICC site for infection\n\n**Bedside Tests:**\n- Stool sample for C. difficile testing (NAAT or GDH/toxin EIA): Sensitivity ~90-95%, specificity varies by test; NAAT is highly sensitive but may detect colonization\n- CBC: leukocytosis (>15,000 may suggest severe CDI)\n- Creatinine: assess for acute kidney injury (marker of severity)\n- Electrolytes: assess for dehydration\n- Lactate if concern for sepsis\n- Bedside glucose (if diabetic or altered mental status)\n- Blood cultures if febrile\n\n**Diagnostic Performance Data:**\n- C. difficile NAAT: Sensitivity ~95%, specificity ~95% (but may overdiagnose colonization)\n- GDH/toxin EIA: Sensitivity ~75-85%, specificity ~95-99% (two-step algorithms improve accuracy)\n- Clinical criteria: \u22653 unformed stools in 24h + risk factors (antibiotics, hospitalization)\n\n**Summary:**\n- Focus on CDI as most likely, but consider other causes (other infectious, medication-induced, or non-infectious diarrhea)\n- Assess for severity and complications (toxic megacolon, sepsis)\n- Early isolation and infection control measures\n\n**References:**\n- McDonald LC, et al. Clinical Practice Guidelines for Clostridium difficile Infection in Adults and Children. Clin Infect Dis. 2018.\n- Surawicz CM, et al. Guidelines for Diagnosis, Treatment, and Prevention of Clostridium difficile Infections. Am J Gastroenterol. 2013."
+ },
+ "variant": "p1"
+}

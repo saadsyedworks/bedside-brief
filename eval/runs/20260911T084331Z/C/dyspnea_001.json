@@ -1,0 +1,351 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "dyspnea_001",
+ "blocked_items": [],
+ "case_id": "dyspnea_001",
+ "created_at": "2026-09-11T09:10:29+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Onset, duration, and progression of dyspnea"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Associated symptoms: orthopnea, paroxysmal nocturnal dyspnea, cough (productive? frothy?), chest pain, fever, chills, pleuritic pain, leg swelling"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent weight gain"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Fluid intake/output since admission"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication adherence (especially diuretics)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "History of similar episodes"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Risk factors for PE (immobility, malignancy, prior DVT/PE)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "General: distress, ability to speak, use of accessory muscles"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vitals: RR, HR, BP, temp, SpO2"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "39",
+    "92"
+   ],
+   "performance_claims": [
+    "39",
+    "92"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "Neck: JVP (elevated in volume overload; sensitivity ~39%, specificity ~92% for elevated PCWP)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "60",
+    "78"
+   ],
+   "performance_claims": [
+    "60",
+    "78"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "Lungs: crackles/rales (sensitivity ~60%, specificity ~78% for pulmonary edema), wheezing, decreased breath sounds"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "3"
+   ],
+   "performance_claims": [
+    "3"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "Heart: S3 (specific but not sensitive for volume overload), murmurs, gallops"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Extremities: pitting edema, coolness, cyanosis"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdomen: hepatomegaly, ascites"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pulse oximetry (already low)"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside ultrasound:"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [
+    "92",
+    "94"
+   ],
+   "performance_claims": [
+    "92",
+    "94"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Lung US: B-lines (sensitivity ~94%, specificity ~92% for pulmonary edema)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "IVC diameter/collapsibility (for volume status)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Cardiac US: LV function, RV strain"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG: arrhythmia, ischemia"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside CXR (portable): pulmonary edema, effusions, infiltrates"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Capillary blood glucose (if altered mental status)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Diagnostic Performance Data:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "60",
+    "78"
+   ],
+   "performance_claims": [
+    "60",
+    "78"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Crackles: Sensitivity ~60%, specificity ~78% for pulmonary edema"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "13",
+    "3",
+    "99"
+   ],
+   "performance_claims": [
+    "13",
+    "3",
+    "99"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "S3: Sensitivity ~13%, specificity ~99% for elevated LV filling pressure"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "39",
+    "8",
+    "92"
+   ],
+   "performance_claims": [
+    "39",
+    "8",
+    "92"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "JVP >8cm: Sensitivity ~39%, specificity ~92% for elevated PCWP"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [
+    "92",
+    "94"
+   ],
+   "performance_claims": [
+    "92",
+    "94"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "B-lines on lung US: Sensitivity ~94%, specificity ~92% for pulmonary edema"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [
+    "3"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on signs of volume overload (JVP, crackles, edema, S3), use bedside lung/cardiac ultrasound if available, and get a portable CXR. These steps will help distinguish ADHF from other causes of hypoxemia in this high-risk patient"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 68-year-old male with known HFrEF (EF 30%), admitted for cellulitis, who received 3L IV fluids and is now acutely short of breath with hypoxemia (SpO2 89% on room air)\u2014the concern is for acute decompensated heart failure (ADHF) with possible pulmonary edema, though other causes (e.g., pneumonia, PE) should be considered.\n\n**History:**\n- Onset, duration, and progression of dyspnea\n- Associated symptoms: orthopnea, paroxysmal nocturnal dyspnea, cough (productive? frothy?), chest pain, fever, chills, pleuritic pain, leg swelling\n- Recent weight gain\n- Fluid intake/output since admission\n- Medication adherence (especially diuretics)\n- History of similar episodes\n- Risk factors for PE (immobility, malignancy, prior DVT/PE)\n\n**Physical Examination:**\n- General: distress, ability to speak, use of accessory muscles\n- Vitals: RR, HR, BP, temp, SpO2\n- Neck: JVP (elevated in volume overload; sensitivity ~39%, specificity ~92% for elevated PCWP)\n- Lungs: crackles/rales (sensitivity ~60%, specificity ~78% for pulmonary edema), wheezing, decreased breath sounds\n- Heart: S3 (specific but not sensitive for volume overload), murmurs, gallops\n- Extremities: pitting edema, coolness, cyanosis\n- Abdomen: hepatomegaly, ascites\n\n**Bedside Tests:**\n- Pulse oximetry (already low)\n- Bedside ultrasound:\n  - Lung US: B-lines (sensitivity ~94%, specificity ~92% for pulmonary edema)\n  - IVC diameter/collapsibility (for volume status)\n  - Cardiac US: LV function, RV strain\n- ECG: arrhythmia, ischemia\n- Bedside CXR (portable): pulmonary edema, effusions, infiltrates\n- Capillary blood glucose (if altered mental status)\n\n**Diagnostic Performance Data:**\n- Crackles: Sensitivity ~60%, specificity ~78% for pulmonary edema\n- S3: Sensitivity ~13%, specificity ~99% for elevated LV filling pressure\n- JVP >8cm: Sensitivity ~39%, specificity ~92% for elevated PCWP\n- B-lines on lung US: Sensitivity ~94%, specificity ~92% for pulmonary edema\n\n**Summary:**\nFocus on signs of volume overload (JVP, crackles, edema, S3), use bedside lung/cardiac ultrasound if available, and get a portable CXR. These steps will help distinguish ADHF from other causes of hypoxemia in this high-risk patient."
+ },
+ "variant": "base"
+}

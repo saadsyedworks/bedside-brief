@@ -1,0 +1,395 @@
+{
+ "arm": "C",
+ "ask_first": false,
+ "base_case_id": "aki_001",
+ "blocked_items": [],
+ "case_id": "aki_001",
+ "created_at": "2026-09-11T09:06:44+00:00",
+ "error": null,
+ "items": [
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Symptoms of volume overload (dyspnea, orthopnea, edema) vs. volume depletion (dizziness, thirst, decreased oral intake)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Recent changes in weight (fluid loss/gain)"
+  },
+  {
+   "bedside": true,
+   "category": "mar",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Medication review (ACEi/ARB, NSAIDs, nephrotoxins)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Symptoms of infection (fever, chills, cough, dysuria)"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Chest pain, palpitations"
+  },
+  {
+   "bedside": true,
+   "category": "history",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "history",
+   "text": "Baseline renal function and urine output"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Vital signs: BP, HR, RR, O2 sat, temperature"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Volume status:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Jugular venous pressure (JVP): Elevated suggests congestion"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "3",
+    "39",
+    "92"
+   ],
+   "performance_claims": [
+    "3",
+    "39",
+    "92"
+   ],
+   "record_id": null,
+   "section": "exam",
+   "text": "low suggests hypovolemia. Sensitivity ~39%, specificity ~92% for elevated right atrial pressure (JVP >3cm above sternal angle)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Peripheral edema"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Pulmonary exam: Crackles, rales"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Mucous membranes, skin turgor (dehydration)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Capillary refill, extremity temperature (perfusion)"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [
+    "3"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Cardiac exam: S3, murmurs"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "exam",
+   "text": "Abdominal exam: Hepatojugular reflux, ascites"
+  },
+  {
+   "bedside": false,
+   "category": "monitoring",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urine output monitoring (strict I&O)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urinalysis (look for casts, proteinuria, hematuria)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Urine sodium and FENa:"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "1"
+   ],
+   "performance_claims": [
+    "1"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "FENa <1% suggests prerenal AKI (but can be low in cardiorenal syndrome)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [
+    "2"
+   ],
+   "performance_claims": [
+    "2"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "FENa >2% suggests intrinsic renal injury"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [
+    "1",
+    "82",
+    "90"
+   ],
+   "performance_claims": [
+    "1",
+    "82",
+    "90"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Sensitivity/specificity for prerenal AKI: FENa <1%\u2014sensitivity ~90%, specificity ~82% (but less reliable on diuretics)"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside ultrasound:"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "IVC diameter/collapsibility (assess volume status)"
+  },
+  {
+   "bedside": false,
+   "category": "imaging",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bladder scan (rule out retention)"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Lung ultrasound (B-lines for congestion)"
+  },
+  {
+   "bedside": false,
+   "category": "ecg",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "ECG (arrhythmias, ischemia)"
+  },
+  {
+   "bedside": false,
+   "category": "lab",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Focus on volume status (JVP, edema, IVC US), perfusion (BP, cap refill, extremity temp), and urine studies (FENa, urinalysis)"
+  },
+  {
+   "bedside": false,
+   "category": "treatment",
+   "citations": [],
+   "numeric_claims": [
+    "35"
+   ],
+   "performance_claims": [
+    "35"
+   ],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "FENa is less reliable on diuretics; urine urea may be more helpful (FEUrea <35% suggests prerenal AKI)"
+  },
+  {
+   "bedside": true,
+   "category": "pocus",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Bedside echo may help assess cardiac function if available"
+  },
+  {
+   "bedside": true,
+   "category": "exam",
+   "citations": [
+    "McGee S, et al."
+   ],
+   "numeric_claims": [
+    "1999",
+    "2286",
+    "2294",
+    "24",
+    "281"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "McGee S, et al. JAMA. 1999;281(24):2286-2294. (JVP)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [
+    "Waikar SS, et al."
+   ],
+   "numeric_claims": [
+    "18",
+    "2007",
+    "3",
+    "866",
+    "872"
+   ],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Waikar SS, et al. J Am Soc Nephrol. 2007;18(3):866-872. (FENa)"
+  },
+  {
+   "bedside": false,
+   "category": "unclassified",
+   "citations": [],
+   "numeric_claims": [],
+   "performance_claims": [],
+   "record_id": null,
+   "section": "bedside_tests",
+   "text": "Pivotal heart failure and nephrology guidelines (AHA/ACC, KDIGO)"
+  }
+ ],
+ "model": "gpt-4.1",
+ "raw": {
+  "prompt": "Given this presentation, what history, physical examination, and bedside tests should I perform? Include any diagnostic performance data you know.",
+  "text": "Given this presentation\u2014a 66-year-old male with HFrEF (EF 25%) on day 3 of IV diuresis, now with rising creatinine (1.1 to 2.0), decreased urine output, and hypotension (BP 96/60)\u2014the main concerns are acute kidney injury (AKI) in the context of heart failure, possibly due to hypovolemia, low cardiac output, or other causes (e.g., cardiorenal syndrome, nephrotoxic drugs, or intrinsic renal disease).\n\n**History:**\n- Symptoms of volume overload (dyspnea, orthopnea, edema) vs. volume depletion (dizziness, thirst, decreased oral intake)\n- Recent changes in weight (fluid loss/gain)\n- Medication review (ACEi/ARB, NSAIDs, nephrotoxins)\n- Symptoms of infection (fever, chills, cough, dysuria)\n- Chest pain, palpitations\n- Baseline renal function and urine output\n\n**Physical Examination:**\n- Vital signs: BP, HR, RR, O2 sat, temperature\n- Volume status:\n  - Jugular venous pressure (JVP): Elevated suggests congestion; low suggests hypovolemia. Sensitivity ~39%, specificity ~92% for elevated right atrial pressure (JVP >3cm above sternal angle)\n  - Peripheral edema\n  - Pulmonary exam: Crackles, rales\n  - Mucous membranes, skin turgor (dehydration)\n  - Capillary refill, extremity temperature (perfusion)\n- Cardiac exam: S3, murmurs\n- Abdominal exam: Hepatojugular reflux, ascites\n\n**Bedside Tests:**\n- Urine output monitoring (strict I&O)\n- Urinalysis (look for casts, proteinuria, hematuria)\n- Urine sodium and FENa:\n  - FENa <1% suggests prerenal AKI (but can be low in cardiorenal syndrome)\n  - FENa >2% suggests intrinsic renal injury\n  - Sensitivity/specificity for prerenal AKI: FENa <1%\u2014sensitivity ~90%, specificity ~82% (but less reliable on diuretics)\n- Bedside ultrasound:\n  - IVC diameter/collapsibility (assess volume status)\n  - Bladder scan (rule out retention)\n  - Lung ultrasound (B-lines for congestion)\n- ECG (arrhythmias, ischemia)\n\n**Summary:**\n- Focus on volume status (JVP, edema, IVC US), perfusion (BP, cap refill, extremity temp), and urine studies (FENa, urinalysis).\n- FENa is less reliable on diuretics; urine urea may be more helpful (FEUrea <35% suggests prerenal AKI).\n- Bedside echo may help assess cardiac function if available.\n\n**References:**\n- McGee S, et al. JAMA. 1999;281(24):2286-2294. (JVP)\n- Waikar SS, et al. J Am Soc Nephrol. 2007;18(3):866-872. (FENa)\n- Pivotal heart failure and nephrology guidelines (AHA/ACC, KDIGO)"
+ },
+ "variant": "base"
+}
