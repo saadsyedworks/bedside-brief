@@ -1,0 +1,322 @@
+<title>Bedside Brief Verification Queue</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,500;0,600;1,500&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    --paper:      #FBFAF7;
+    --surface:    #F3F1EB;
+    --ink:        #16211F;
+    --ink-soft:   #4C5854;
+    --ink-faint:  #78837E;
+    --teal:       #0F5257;
+    --teal-soft:  #E3EDEC;
+    --amber:      #8F5310;
+    --amber-soft: #F6ECDC;
+    --sage:       #3F6B4E;
+    --sage-soft:  #E4EDE5;
+    --rule:       #DEDACF;
+    --rule-firm:  #C6C1B4;
+
+    --serif: "Spectral", Georgia, "Times New Roman", serif;
+    --sans:  "Public Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    --mono:  "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper:      #101614;
+      --surface:    #182120;
+      --ink:        #EDEFEA;
+      --ink-soft:   #A9B3AE;
+      --ink-faint:  #7E8884;
+      --teal:       #6FBDB3;
+      --teal-soft:  #17302F;
+      --amber:      #DBA05A;
+      --amber-soft: #2C2318;
+      --sage:       #85BA92;
+      --sage-soft:  #1A2A1E;
+      --rule:       #29332F;
+      --rule-firm:  #3B4642;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper:      #101614;
+    --surface:    #182120;
+    --ink:        #EDEFEA;
+    --ink-soft:   #A9B3AE;
+    --ink-faint:  #7E8884;
+    --teal:       #6FBDB3;
+    --teal-soft:  #17302F;
+    --amber:      #DBA05A;
+    --amber-soft: #2C2318;
+    --sage:       #85BA92;
+    --sage-soft:  #1A2A1E;
+    --rule:       #29332F;
+    --rule-firm:  #3B4642;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding-inline: 20px;
+    padding-block: 40px 72px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap { max-width: 46rem; margin: 0 auto; display: flex; flex-direction: column; gap: 44px; }
+
+  /* ---- masthead ---- */
+  .masthead { display: flex; flex-direction: column; gap: 10px; }
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--teal);
+  }
+  h1 {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: clamp(30px, 6vw, 42px);
+    line-height: 1.12;
+    letter-spacing: -0.01em;
+    margin: 0;
+    text-wrap: balance;
+  }
+  .standfirst {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--ink-soft);
+    margin: 0;
+    max-width: 34rem;
+  }
+
+  /* ---- progress toward the threshold: the page's central fact ---- */
+  .gauge {
+    border-top: 2px solid var(--ink);
+    border-bottom: 1px solid var(--rule);
+    padding-block: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .gauge-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .gauge-count { font-family: var(--serif); font-size: 34px; font-weight: 600; line-height: 1; font-variant-numeric: tabular-nums; }
+  .gauge-count span { color: var(--ink-faint); font-size: 20px; }
+  .gauge-label { font-size: 14px; color: var(--ink-soft); }
+  .track { height: 8px; background: var(--surface); border: 1px solid var(--rule); border-radius: 999px; overflow: hidden; }
+  .fill { height: 100%; width: 1.5%; background: var(--sage); }
+  .gauge-note { font-size: 13.5px; color: var(--ink-faint); margin: 0; }
+
+  /* ---- ledger of what exists ---- */
+  .ledger { display: grid; grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr)); gap: 1px; background: var(--rule); border: 1px solid var(--rule); }
+  .ledger div { background: var(--paper); padding: 14px 16px; display: flex; flex-direction: column; gap: 3px; }
+  .ledger dt { font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-faint); margin: 0; }
+  .ledger dd { margin: 0; font-family: var(--serif); font-size: 22px; font-weight: 600; font-variant-numeric: tabular-nums; }
+
+  section { display: flex; flex-direction: column; gap: 14px; }
+  h2 {
+    font-family: var(--serif);
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 1.25;
+    margin: 0;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--rule-firm);
+    text-wrap: balance;
+  }
+  h3 { font-family: var(--sans); font-size: 15px; font-weight: 600; margin: 0; }
+  p { margin: 0; max-width: 40rem; }
+  a { color: var(--teal); text-underline-offset: 2px; }
+  a:focus-visible, summary:focus-visible { outline: 2px solid var(--teal); outline-offset: 3px; }
+  code { font-family: var(--mono); font-size: 0.88em; background: var(--surface); padding: 1px 5px; border-radius: 3px; }
+
+  pre {
+    font-family: var(--mono);
+    font-size: 13px;
+    line-height: 1.7;
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--teal);
+    padding: 14px 16px;
+    margin: 0;
+    overflow-x: auto;
+  }
+  pre code { background: none; padding: 0; font-size: inherit; }
+
+  .tablewrap { overflow-x: auto; border: 1px solid var(--rule); }
+  table { border-collapse: collapse; width: 100%; min-width: 33rem; font-size: 14.5px; }
+  th, td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  thead th {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    font-weight: 500;
+    background: var(--surface);
+    border-bottom: 1px solid var(--rule-firm);
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  td.id { font-family: var(--mono); font-size: 12.5px; white-space: nowrap; }
+  td.pkt { font-family: var(--mono); font-weight: 500; color: var(--teal); }
+
+  /* ---- distribution of agreement across the 153 ids ---- */
+  .dist { display: flex; flex-direction: column; gap: 8px; }
+  .bars { display: flex; height: 34px; border: 1px solid var(--rule-firm); overflow: hidden; }
+  .bars span { display: block; }
+  .b-agree  { background: var(--sage);  flex: 26; }
+  .b-part   { background: var(--teal);  flex: 93; opacity: 0.55; }
+  .b-dis    { background: var(--amber); flex: 34; }
+  .key { display: flex; flex-wrap: wrap; gap: 6px 20px; font-size: 13.5px; color: var(--ink-soft); }
+  .key b { font-variant-numeric: tabular-nums; color: var(--ink); font-weight: 600; }
+  .swatch { display: inline-block; width: 10px; height: 10px; margin-right: 7px; vertical-align: baseline; }
+  .s-agree { background: var(--sage); }
+  .s-part  { background: var(--teal); opacity: 0.55; }
+  .s-dis   { background: var(--amber); }
+
+  /* ---- the four judgement rules ---- */
+  .rules { display: flex; flex-direction: column; gap: 0; border-top: 1px solid var(--rule); }
+  .rule { display: grid; grid-template-columns: 8.5rem 1fr; gap: 4px 20px; padding: 13px 0; border-bottom: 1px solid var(--rule); }
+  .rule dt { font-family: var(--mono); font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--teal); padding-top: 3px; }
+  .rule dd { margin: 0; font-size: 15px; }
+  @media (max-width: 30rem) { .rule { grid-template-columns: 1fr; } }
+
+  .callout {
+    background: var(--amber-soft);
+    border-left: 3px solid var(--amber);
+    padding: 16px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .callout h2 { border: none; padding: 0; font-size: 19px; }
+
+  footer {
+    border-top: 1px solid var(--rule);
+    padding-top: 18px;
+    font-size: 13px;
+    color: var(--ink-faint);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  footer span { font-family: var(--mono); font-size: 12px; }
+</style>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="eyebrow">Owner gate 2 · Phase 1 complete</div>
+    <h1>Bedside Brief Verification Queue</h1>
+    <p class="standfirst">Nothing renders on a card, and no number reaches the abstract, until you promote it here.</p>
+  </header>
+
+  <div class="gauge">
+    <div class="gauge-head">
+      <div class="gauge-count">0 <span>/ 60 verified</span></div>
+      <div class="gauge-label">Threshold for the comparison abstract</div>
+    </div>
+    <div class="track"><div class="fill"></div></div>
+    <p class="gauge-note">Below 60 by Sunday night, the plan switches to the development abstract, which needs no comparison numbers.</p>
+  </div>
+
+  <dl class="ledger">
+    <div><dt>Discriminators</dt><dd>153</dd></div>
+    <div><dt>Packets</dt><dd>306</dd></div>
+    <div><dt>Red-team waves</dt><dd>4</dd></div>
+    <div><dt>Fabricated numbers</dt><dd>0</dd></div>
+  </dl>
+
+  <section>
+    <h2>Start the app</h2>
+    <pre><code>git clone https://github.com/saadsyedworks/bedside-brief
+cd bedside-brief
+git checkout claude/git-repo-setup-rvdx9z
+./start_verify.sh                 # opens http://127.0.0.1:8765</code></pre>
+    <p><code>start_verify.sh</code> builds a local virtualenv on first run, installs the dependencies, starts the app and opens your browser. Pass a port if 8765 is taken: <code>./start_verify.sh 8899</code>. If pip ever says <em>externally-managed-environment</em>, that is a bare <code>pip install</code> outside the virtualenv — use the script. On Debian or Ubuntu, <code>No module named venv</code> means <code>sudo apt install python3-venv</code>. On Windows, use Git Bash or WSL. If nothing opens and there is no error, the server is already running: go to <a href="http://127.0.0.1:8765">127.0.0.1:8765</a> yourself.</p>
+    <p>Packets A and B sit side by side with differences highlighted and every estimate linked to PubMed or its DOI, with that record's red-team flags at the top. Press <code>p</code> to promote, <code>r</code> to reject with a reason, <code>n</code> to skip. Promotion re-checks schema, vocabulary, units and quote-plus-location before writing, and only ever writes to <code>records/verified/</code>. Commit and push that folder whenever you stop.</p>
+  </section>
+
+  <section>
+    <h2>Start here: six cheapest upgrades</h2>
+    <p>For each of these one packet says <code>not_quantified</code> while the other carries a real, located, verified number. Promote from the packet that found it.</p>
+    <div class="tablewrap">
+      <table>
+        <thead>
+          <tr><th scope="col">Discriminator</th><th scope="col">Promote</th><th scope="col">What the other packet missed</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="id">exam_chest_hyperresonance</td><td class="pkt">A</td><td>Oshaug 2013, Tables 3–4 — COPD LR+ 9.5</td></tr>
+          <tr><td class="id">exam_kussmaul_sign</td><td class="pkt">A</td><td>Dubé 2021 meta-analysis, RV infarction</td></tr>
+          <tr><td class="id">exam_line_exit_site_erythema_purulence</td><td class="pkt">A</td><td>Cobo-Sánchez 2024 exit-site scale</td></tr>
+          <tr><td class="id">exam_tense_distended_abdomen_iah</td><td class="pkt">A</td><td>Sugrue 2002 — B mis-recalled the journal and gave up</td></tr>
+          <tr><td class="id">hx_steroid_exposure_withdrawal</td><td class="pkt">B</td><td>Ross &amp; Levitt 2013, hyperpigmentation</td></tr>
+          <tr><td class="id">hx_recent_antibiotics_new_diarrhea</td><td class="pkt">B</td><td>Katz 1996 — note the 30-day vs 8–12-week window</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>Then work the queue in its own order</h2>
+    <p><code>records/diff_report.md</code> ranks it: fabrication suspects and numeric mismatches first, then records backed by the Rational Clinical Examination series, then the rest.</p>
+    <div class="dist">
+      <div class="bars" role="img" aria-label="Across 153 discriminators: 26 agree, 93 partial, 34 disagree.">
+        <span class="b-agree"></span><span class="b-part"></span><span class="b-dis"></span>
+      </div>
+      <div class="key">
+        <div><span class="swatch s-agree"></span><b>26</b> agree</div>
+        <div><span class="swatch s-part"></span><b>93</b> partial</div>
+        <div><span class="swatch s-dis"></span><b>34</b> disagree</div>
+      </div>
+    </div>
+    <p>Partial usually means the two extractors chose different populations or different sources, not that they report conflicting numbers for the same one.</p>
+  </section>
+
+  <section>
+    <h2>Four things only you can settle</h2>
+    <dl class="rules">
+      <div class="rule">
+        <dt>Units</dt>
+        <dd>Sensitivity and specificity are stored as proportions — <code>0.82</code>, never <code>82</code>. The tooling enforces it, but check what you promote.</dd>
+      </div>
+      <div class="rule">
+        <dt>Direction</dt>
+        <dd><code>lr_positive</code> means the finding is present, <code>lr_negative</code> means it is absent. A few packets inverted this where the source reported the negative sign. Fix it in the draft column.</dd>
+      </div>
+      <div class="rule">
+        <dt>Composites</dt>
+        <dd>An estimate for “JVD at rest or inducible” is not an estimate for jugular venous pressure alone. Either drop it or keep the <code>COMPOSITE:</code> prefix so the card says so.</dd>
+      </div>
+      <div class="rule">
+        <dt>Empty rows</dt>
+        <dd>Five estimates carry no numeric field at all — a kappa or a prevalence only. Delete the row and keep the text in the notes.</dd>
+      </div>
+    </dl>
+  </section>
+
+  <section class="callout">
+    <h2>One question batched for you</h2>
+    <p><code>exam_ascites_flank_dullness_fluid_wave</code> and <code>exam_shifting_dullness</code> rest on a single evidence base, and both extractors flagged it independently. I propose folding them into <code>exam_shifting_dullness</code>, with fluid wave and flank dullness as separate estimate rows. The id list is gate-approved, so I have not touched it.</p>
+  </section>
+
+  <section>
+    <h2>What verification unblocks</h2>
+    <p>The comparison numbers run on the verified subset alone, reported as “N verified of M extracted”. Everything downstream is already built and green: the pipeline, the evaluation harness for all three arms, both benchmark freezes, the abstract skeleton and the audit that traces every number in it back to a run file. Verification is the only item on the critical path.</p>
+  </section>
+
+  <footer>
+    <div>Branch <span>claude/git-repo-setup-rvdx9z</span> · benchmark frozen at <span>39a698e</span> and <span>28a5f26</span> · 204 tests green</div>
+    <div>Single author and single clinical verifier, disclosed as a limitation. POCUS records are extracted but disabled in retrieval.</div>
+  </footer>
+
+</div>
