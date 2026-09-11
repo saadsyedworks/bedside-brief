@@ -44,12 +44,12 @@ schema, vocabulary and unit checks the desktop app enforces.
 
 ## Testing the page before publishing
 
-`tools/web/test_ipad_page.py` drives the page in headless Chromium with a stubbed store: it asserts
+`tools/web/check_ipad_page.py` drives the page in headless Chromium with a stubbed store: it asserts
 the queue renders, a record opens with both packets, and a promote writes the expected decision.
 Run it after any edit to `ipad_verify.html` — a JavaScript syntax error otherwise leaves the page
 stuck on its loading line with nothing in the UI to say why.
 
 ```bash
 pip install playwright
-python3 tools/web/test_ipad_page.py
+python3 tools/web/check_ipad_page.py <seed_dir>
 ```
