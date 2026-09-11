@@ -45,21 +45,21 @@ POCUS_ENABLED = False  # owner flips in DAY1_FREEZE.md; retrieval excludes pocus
 RENDER_TIERS = ("verified",)  # only verified records ever render
 
 # Which candidates arrive at the ranker carrying their safety_scope.do_not_use_when:
-#   "off"      none. Best measured performance (recall 71.0%, perturbation 69.4%) and the shipped
-#              default per the owner's decision, but it still recommends standing a patient at
-#              supine 88/54 -- 3 violations of 108 inputs, all hypotension_002.
+#   "off"      none. Best measured performance (recall 71.0%, perturbation 69.4%) but it recommends
+#              standing a patient at supine 88/54 -- 3 violations of 108 inputs, all hypotension_002.
 #   "all"      every candidate. The only configuration measured at zero violations, at the cost of
 #              ten points of perturbation responsiveness: all 153 records carry a do_not_use_when,
 #              so the model weighs a caveat against all ~23 candidates per case and turns cautious.
 #   "relevant" only those whose contraindication names a state the patient's own stated
-#              measurements put them in (bedside_brief.patient). Aims at zero violations without
-#              the hedge on the other ~22.
+#              measurements put them in (bedside_brief.patient). SHIPPED (owner decision,
+#              DECISIONS #51): zero violations at recall 70.0% / perturbation 65.3%, so the safety
+#              behaviour costs about a tenth of what attaching the caveat to every candidate did.
 # Env override so a run flips it without editing code: BB_RANKER_CONTRAINDICATIONS=off|relevant|all
 # ("1" and "0" are accepted as all/off so the first four frozen runs stay reproducible.)
 _CONTRA = {"1": "all", "0": "off"}
 RANKER_CONTRAINDICATIONS = _CONTRA.get(
-    os.environ.get("BB_RANKER_CONTRAINDICATIONS", "off").strip().lower(),
-    os.environ.get("BB_RANKER_CONTRAINDICATIONS", "off").strip().lower(),
+    os.environ.get("BB_RANKER_CONTRAINDICATIONS", "relevant").strip().lower(),
+    os.environ.get("BB_RANKER_CONTRAINDICATIONS", "relevant").strip().lower(),
 )
 if RANKER_CONTRAINDICATIONS not in ("off", "relevant", "all"):
     raise ValueError(f"BB_RANKER_CONTRAINDICATIONS must be off|relevant|all, got {RANKER_CONTRAINDICATIONS!r}")

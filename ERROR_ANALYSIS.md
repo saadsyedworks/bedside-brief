@@ -1,7 +1,11 @@
 # Error analysis — arm A, shipped configuration
 
 Run: `eval/runs/20260911T113543Z-vitals-no-avoidwhen` (108 frozen inputs, `observed_values` on,
-`RANKER_CONTRAINDICATIONS="off"`). Numbers from `metrics.json` and recomputed from the stored
+`RANKER_CONTRAINDICATIONS="off"`). **The shipped configuration is now `"relevant"`**
+(`eval/runs/20260911T231224Z-vitals-relevant-contra`, DECISIONS #51): same recall to within a point
+and zero `should_not_recommend` violations. The mechanism breakdown below is unchanged by that
+switch — it is about which targets are reachable, retrieved and ranked, none of which the
+contraindication gate touches — so §5 is the only section the newer run supersedes. Numbers from `metrics.json` and recomputed from the stored
 per-case outputs; the classification below is not in the harness and was derived by walking each
 missed target back through that case's own candidate list.
 
@@ -96,9 +100,15 @@ disclosed as the residual disagreement in DECISIONS #30. No false positives in 1
 ## 5. should_not_recommend violations — 3 cases
 
 All three `hypotension_002` variants recommend orthostatic vitals for a patient at supine 88/54.
-Eliminated by `RANKER_CONTRAINDICATIONS="all"` at a cost of ten points of perturbation
-responsiveness, and the owner's decision (DECISIONS #48) is to ship without it. This must appear in
-the abstract's limitations, not only in a table.
+**Fixed in the shipped configuration**: `RANKER_CONTRAINDICATIONS="relevant"` records zero
+violations on the frozen set (run 5). The blanket version reached zero too but cost ten points of
+perturbation responsiveness; the gate costs 4.1, because the caveat reaches only the candidates
+whose stated contraindication the patient measurably meets rather than all ~23.
+
+The honest limitation is now the gate's reach rather than the violation count: it fires on states
+readable from a stated measurement (hypotensive, bradycardic, tachycardic, hypoxic, febrile) and
+stays silent otherwise, so a contraindication like "too dizzy or weak to stand safely" is not
+enforced by it. Zero violations on 108 inputs is not zero risk.
 
 ## What I would fix, in order
 
