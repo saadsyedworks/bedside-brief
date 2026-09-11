@@ -66,6 +66,18 @@ Queue order comes from `records/diff_report.md` (disagreements and fabrication s
 record shows packets A and B side by side with links to the cited source; **p** promotes (schema- and
 vocab-checked, `tier: verified`, `verified_by`, `verified_at`), **r** rejects with a reason, **n** skips.
 
+Verification can also be done from a tablet: `tools/seed_ipad.py` builds the queue documents, the published
+page records one decision per record, and `tools/pull_decisions.py <dir>` rebuilds `records/verified/` from
+them — the chosen packet minus the excluded estimates, with any owner correction stamped into
+`verification_notes`.
+
+Defects found *after* promotion are fixed by `tools/apply_fixes.py`, which is a dry run unless given
+`--apply`. It matches each estimate on a fragment of that estimate's own quote rather than on a position,
+so it is idempotent and stays correct if rows move, and it writes every change into the record's
+`verification_notes` as an `[owner fix]` line while bumping `record_version`. `PROPOSED_FIXES.md` is the
+worked example: the nine red-team defects that reached the verified store, what each change was, and which
+of them the tablet verifier could not express.
+
 ## Reproduce the extraction
 
 ```bash
