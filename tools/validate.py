@@ -169,7 +169,15 @@ def validate_records(d: Path) -> tuple[list[str], list[str]]:
         if rid and not f.name.startswith(rid):
             errs.append(f"{f.name}: filename does not start with identity.id {rid}")
         for i, est in enumerate(r.get("estimates", [])):
-            has_num = any(est.get(k) for k in ("sensitivity", "specificity", "lr_positive", "lr_negative"))
+            # A stat field is stored as {"value": ..., "ci_low": ..., "ci_high": ...}, so the dict is
+            # truthy even when the value is null -- test the value. `prevalence` counts: a row that
+            # reports only an outcome prevalence is a legitimate row, not an empty one.
+            has_num = False
+            for k in ("sensitivity", "specificity", "lr_positive", "lr_negative", "prevalence"):
+                stat = est.get(k)
+                if (stat.get("value") if isinstance(stat, dict) else stat) is not None:
+                    has_num = True
+                    break
             if not has_num:
                 warns.append(f"{f.name}: estimates[{i}] has no numeric field (delete it or fill it)")
             for k in ("lr_positive", "lr_negative"):
