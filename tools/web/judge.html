@@ -6,20 +6,23 @@
   :root {
     --ground:#f5f7f5; --surface:#ffffff; --sunk:#eceff0; --ink:#16211e;
     --muted:#5a6b66; --faint:#8a9994; --rule:#d7dedb; --accent:#0d5c63;
-    --rel:#3f6212; --marg:#8a6d1f; --irr:#8c2f22; --flag:#8c2f22;
+    --rel:#3f6212; --marg:#8a6d1f; --irr:#8c2f22; --nai:#4a5a55; --flag:#8c2f22;
+    --pressed-fg:#ffffff;
     --shadow:0 1px 2px rgba(22,33,30,.06);
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
       --ground:#101715; --surface:#17211e; --sunk:#1d2724; --ink:#e6ece9;
       --muted:#9bada7; --faint:#6d807a; --rule:#2b3733; --accent:#6fc3c6;
-      --rel:#9dc06a; --marg:#d7b05c; --irr:#e0857a; --flag:#e0857a; --shadow:none;
+      --rel:#9dc06a; --marg:#d7b05c; --irr:#e0857a; --nai:#9bada7; --flag:#e0857a;
+      --pressed-fg:#101715; --shadow:none;
     }
   }
   :root[data-theme="dark"] {
     --ground:#101715; --surface:#17211e; --sunk:#1d2724; --ink:#e6ece9;
     --muted:#9bada7; --faint:#6d807a; --rule:#2b3733; --accent:#6fc3c6;
-    --rel:#9dc06a; --marg:#d7b05c; --irr:#e0857a; --flag:#e0857a; --shadow:none;
+    --rel:#9dc06a; --marg:#d7b05c; --irr:#e0857a; --nai:#9bada7; --flag:#e0857a;
+    --pressed-fg:#101715; --shadow:none;
   }
   *{box-sizing:border-box}
   body{background:var(--ground);color:var(--ink);margin:0;padding-inline:14px;padding-block:0 130px;
@@ -61,13 +64,16 @@
   .btn{appearance:none;border:1px solid var(--rule);background:var(--surface);color:var(--muted);
        border-radius:5px;min-height:44px;padding:0 15px;font:500 .86rem/1 "IBM Plex Sans",sans-serif;cursor:pointer}
   .btn:active{transform:translateY(1px)}
-  .btn[aria-pressed="true"][data-v="relevant"]{background:var(--rel);border-color:var(--rel);color:#fff}
-  .btn[aria-pressed="true"][data-v="marginal"]{background:var(--marg);border-color:var(--marg);color:#fff}
-  .btn[aria-pressed="true"][data-v="irrelevant"]{background:var(--irr);border-color:var(--irr);color:#fff}
+  /* Every grade needs its own pressed colour. "not an item" had none, so tapping it set
+     aria-pressed and changed nothing a reader could see -- the button looked dead. */
+  .btn[aria-pressed="true"]{color:var(--pressed-fg)}
+  .btn[aria-pressed="true"][data-v="relevant"]{background:var(--rel);border-color:var(--rel)}
+  .btn[aria-pressed="true"][data-v="marginal"]{background:var(--marg);border-color:var(--marg)}
+  .btn[aria-pressed="true"][data-v="irrelevant"]{background:var(--irr);border-color:var(--irr)}
+  .btn[aria-pressed="true"][data-v="not an item"]{background:var(--nai);border-color:var(--nai)}
   .btn.flag{margin-left:auto}
-  .btn.flag[aria-pressed="true"]{background:var(--flag);border-color:var(--flag);color:#fff}
-  :root:not([data-theme="light"]) .btn[aria-pressed="true"]{color:#101715}
-  @media (prefers-color-scheme: light){.btn[aria-pressed="true"]{color:#fff}}
+  .btn.flag[aria-pressed="true"]{background:var(--flag);border-color:var(--flag)}
+  .btn.bulk[aria-pressed="true"]{background:var(--irr);border-color:var(--irr);border-style:solid}
 
   .bar{position:fixed;left:0;right:0;bottom:0;flex-wrap:wrap;background:var(--surface);border-top:1px solid var(--rule);
        padding:11px 14px calc(11px + env(safe-area-inset-bottom));display:flex;gap:12px;align-items:center;
