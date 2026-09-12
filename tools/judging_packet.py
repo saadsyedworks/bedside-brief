@@ -80,7 +80,7 @@ RUBRIC = """
   <p>For each numbered recommendation, tick one grade. Judge it against that case's one-liner and
   nothing else &mdash; not against the other items, and not against what you would have written.</p>
   <div class="scale">
-    <div><b>Relevant</b> &mdash; you would spend bedside seconds on this, for this patient, today.</div>
+    <div><b>Relevant</b> &mdash; you would want this done for this patient today.</div>
     <div><b>Marginal</b> &mdash; right medicine, wrong moment. You would do it, just not in the first
       twenty seconds.</div>
     <div><b>Irrelevant</b> &mdash; no.</div>
@@ -91,11 +91,13 @@ RUBRIC = """
   </div>
 </section>
 <section>
-  <h2>One question to settle before you start</h2>
-  <p>A recommendation that is correct medicine but not a bedside act &mdash; send a troponin, get a CT,
-  start telemetry &mdash; is it <i>Irrelevant</i> or <i>Marginal</i>? It comes up often enough that
-  changing your mind halfway is the largest avoidable risk to the result. This is a bedside card, so
-  <i>Irrelevant</i> is the defensible answer; either way, decide now and hold it.</p>
+  <h2>Grade the medicine, not the format</h2>
+  <p>Ignore whether a recommendation can be carried out at the bedside. A lab, an ECG, a CT &mdash;
+  grade it as you would a colleague's plan: would you want this done for this patient today? Whether
+  an item is a bedside act is measured separately and mechanically, across far more items than these,
+  so grading it again here would duplicate that measurement and make this one depend on it.</p>
+  <p><i>ECG for new irregular palpitations: relevant. Troponin in chest pain: relevant. A CBC that
+  changes nothing here: marginal. Head CT with no focal signs and no trauma: irrelevant.</i></p>
   <p>Finish a case before you stop. Being systematically strict or lenient cancels out, because this
   is a comparison; drifting mid-case does not.</p>
 </section>
