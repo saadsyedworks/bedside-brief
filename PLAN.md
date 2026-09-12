@@ -1,5 +1,30 @@
 # PLAN — work top to bottom, check off, keep current
 
+> ## STATUS: PAUSED 2026-09-12 — not submitting to the Nov 2026 Conference in Bedside Medicine.
+>
+> Owner's call, and the reasoning is on the record: the abstract is a technical/methods
+> validation, and the Northwestern conference is a bedside clinical-skills meeting. The
+> mismatch is in the work, not the wording — there is no patient, no user other than the
+> author, and no clinical or educational outcome to report, so re-framing the prose would
+> have dressed a methods paper as an innovation. Registration is ~$900 at the regular tier,
+> which is not worth paying for a poster on an unfinished tool.
+>
+> **Everything is committed, pushed and reproducible.** Nothing here decays while it sits.
+> The abstract stays in `abstract.md` as the honest record of what the validation showed;
+> it was never signed off (gate 4 open) and `abstract-v1` is deliberately NOT tagged.
+>
+> **If this is picked up again, the order that matters is:**
+> 1. Deploy it and use it yourself on real admissions for a few weeks. An access gate and a
+>    "not for clinical use / no PHI" disclaimer come before any public URL — neither exists yet.
+> 2. Get one clinician who is not the author to use it. The project's central weakness is that
+>    one person built it, wrote its 36 test cases and graded all 427 of its outputs.
+> 3. Then the resident study already sketched below (exam plan with vs without the brief).
+>    That is the version that belongs at a bedside-medicine meeting.
+>
+> For the current methods work as it stands, the right venues are diagnostic-error or
+> informatics meetings (SIDM's Diagnostic Error in Medicine, AMIA, an SGIM innovations
+> track) — not a clinical-skills conference. Deadlines unverified.
+
 ## Phase 0 — Taxonomy + benchmark (Day 1). GATE: owner sign-off.
 - [x] Review `vocab.json`; extend differentials/tags only if a case clearly needs it; note additions in DECISIONS.md. (No extension needed: 36/36 cases and 148/148 ids validate; wish-list → owner gate, DECISIONS #9.)
 - [x] Author `discriminator_ids.json` (148 ids: 80 exam / 39 history / 15 functional / 14 pocus; 77 rce_backed; anchors PubMed-confirmed; commit b419c32): ~150 ids across history/exam/functional/pocus, each with title, type, presentations[], differentials[], expected_evidence (rce_backed | likely_quantified | likely_not_quantified). Prioritize discriminators with known diagnostic-accuracy literature (JAMA Rational Clinical Examination series is the index). Cardiology and volume assessment deep.
@@ -43,5 +68,5 @@
 ## Fallback (trigger Sunday night if verified < 60 or end-to-end fails)
 Development abstract: architecture, store statistics (N extracted, N verified, not-quantified share, presentations covered), frozen benchmark described, comparison "in progress." No comparison numbers.
 
-## Post-abstract (Oct)
-Verify remaining records; 5 cases/presentation; UI polish; optional small human study design (residents plan exam with vs without brief); poster.
+## Post-abstract (Oct) — SUPERSEDED by the pause above
+Written when a Nov poster was the plan. Kept because it names the right next steps in the wrong order: the human study is the point, and deployment plus a non-author user come before it. Verify remaining records; 5 cases/presentation; UI polish; small human study design (residents plan exam with vs without brief); poster.
