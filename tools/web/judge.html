@@ -56,7 +56,7 @@
   .row .idx{font-family:"IBM Plex Mono",monospace;font-size:.7rem;color:var(--faint);margin-right:.5em}
   .variants{font-size:.8rem;color:var(--faint);line-height:1.4;padding-left:2.2em;overflow-wrap:anywhere}
   .btns{display:flex;gap:8px;flex-wrap:wrap}
-  .btn.bulk{margin:18px 0 6px;border-style:dashed;color:var(--muted)}
+  .btn.bulk{border-style:dashed;color:var(--muted)}
   .btn:disabled{opacity:.4;cursor:default}
   .btn{appearance:none;border:1px solid var(--rule);background:var(--surface);color:var(--muted);
        border-radius:5px;min-height:44px;padding:0 15px;font:500 .86rem/1 "IBM Plex Sans",sans-serif;cursor:pointer}
@@ -69,13 +69,25 @@
   :root:not([data-theme="light"]) .btn[aria-pressed="true"]{color:#101715}
   @media (prefers-color-scheme: light){.btn[aria-pressed="true"]{color:#fff}}
 
-  .bar{position:fixed;left:0;right:0;bottom:0;background:var(--surface);border-top:1px solid var(--rule);
+  .bar{position:fixed;left:0;right:0;bottom:0;flex-wrap:wrap;background:var(--surface);border-top:1px solid var(--rule);
        padding:11px 14px calc(11px + env(safe-area-inset-bottom));display:flex;gap:12px;align-items:center;
        justify-content:space-between;box-shadow:0 -2px 8px rgba(22,33,30,.07)}
   .bar .prog{font-family:"IBM Plex Mono",monospace;font-size:.8rem;color:var(--muted);font-variant-numeric:tabular-nums}
   .bar .prog b{color:var(--ink)}
   .bar .save{font-family:"IBM Plex Mono",monospace;font-size:.72rem;color:var(--faint)}
   .bar .nav{display:flex;gap:8px}
+  .rubric{background:var(--surface);border:1px solid var(--rule);border-radius:5px;margin:18px 0 0;
+          box-shadow:var(--shadow);overflow:hidden}
+  .rubric summary{cursor:pointer;padding:13px 16px;font:600 .9rem/1.3 "IBM Plex Sans",sans-serif;
+                  list-style:none}
+  .rubric summary::-webkit-details-marker{display:none}
+  .rubric summary::before{content:"▸ ";color:var(--accent)}
+  .rubric[open] summary::before{content:"▾ "}
+  .rubric ol{margin:0;padding:0 18px 4px 34px;font-size:.9rem;line-height:1.5;color:var(--muted)}
+  .rubric li{margin-bottom:9px}
+  .rubric b{color:var(--ink)}
+  .rubric-scale{margin:0;padding:11px 16px 14px;border-top:1px solid var(--rule);
+                font-size:.84rem;line-height:1.55;color:var(--muted);background:var(--sunk)}
   .notice{background:var(--sunk);border-radius:5px;padding:15px 16px;margin:20px 0;color:var(--muted);font-size:.92rem}
   .notice b{color:var(--ink)}
   @media(max-width:430px){.btn{padding:0 12px;font-size:.82rem}}
@@ -89,6 +101,29 @@
     <div class="totals" id="totals">loading…</div>
   </header>
 
+  <details class="rubric">
+    <summary>How to do this fast · and the one rule that matters</summary>
+    <ol>
+      <li><b>Tap only the keepers, then bulk the rest.</b> Go down the case tapping anything that is
+        <i>not</i> irrelevant — Relevant, Marginal, or Not&nbsp;an&nbsp;item — then use
+        <b>Mark the remaining irrelevant</b> in the bar below. Ten or so decisions per case instead of forty.
+        Catch the headings and citation lines with <b>Not an item</b> on the way down: the bulk action would
+        otherwise count them as irrelevant <i>recommendations</i>, which counts against the arm unfairly.</li>
+      <li><b>Finish a case before you stop.</b> This is a comparison between arms, so being systematically
+        strict cancels out — drifting strictness does not. Every case holds items from all three arms, so
+        finishing one in a sitting means any drift hits all arms equally. A case is five to ten minutes.</li>
+      <li><b>Decide this one thing first.</b> A recommendation that is correct medicine but not a bedside act
+        — send a troponin, get a CT, start telemetry — is it Irrelevant or Marginal? It comes up often enough
+        that changing your mind halfway is the biggest risk to the result. This is a bedside card, so
+        Irrelevant is the defensible answer; either way, pick now.</li>
+      <li><b>Calibrate on the first case, then stop deliberating.</b> Take it slowly to fix your thresholds
+        (those scores still count), then do not revisit earlier cases. Inconsistency costs more than strictness.</li>
+    </ol>
+    <p class="rubric-scale"><b>Relevant</b> you would spend bedside seconds on this, for this patient, today
+      · <b>Marginal</b> right medicine, wrong moment · <b>Irrelevant</b> no · <b>Not an item</b> no clinical
+      instruction in it at all · <b>Flag</b> you would stop a colleague from doing it</p>
+  </details>
+
   <div id="body">
     <div class="notice" id="boot">Connecting to the queue…</div>
   </div>
@@ -98,8 +133,9 @@
   <span class="prog" id="prog"></span>
   <span class="save" id="save"></span>
   <span class="nav">
-    <button class="btn" id="prev" type="button">Prev case</button>
-    <button class="btn" id="next" type="button">Next case</button>
+    <button class="btn bulk" id="bulk" type="button" hidden>Mark remaining irrelevant</button>
+    <button class="btn" id="prev" type="button">Prev</button>
+    <button class="btn" id="next" type="button">Next</button>
   </span>
 </div>
 
@@ -162,11 +198,8 @@ function renderCase() {
   body.appendChild(ol);
 
   body.insertAdjacentHTML("beforeend",
-    '<p class="hint"><b>Relevant</b> — you would want this at the bedside for this patient. ' +
-    '<b>Marginal</b> — defensible but not worth the seconds. <b>Irrelevant</b> — no. ' +
-    '<b>Not an item</b> — a heading, citation or aside, not a recommendation at all; these leave ' +
-    'the relevance denominator instead of counting against the arm. Add <b>Flag</b> for anything ' +
-    'unsafe or actively misleading.</p>');
+    '<p class="hint">Tap only what is <b>not</b> irrelevant, then clear the tail from the bar below. ' +
+    'The full rubric is at the top of the page.</p>');
 
   const scores = state.scores[doc.case_id] || (state.scores[doc.case_id] = {});
   const groups = doc.groups || [];
@@ -216,20 +249,16 @@ function renderCase() {
   });
 
   const left = groups.filter((g) => !(scores[g.gid] || {}).r).length;
-  if (left > 1) {
-    const bulk = document.createElement("button");
-    bulk.className = "btn bulk";
-    bulk.type = "button";
-    bulk.textContent = "Mark the remaining " + left + " irrelevant";
-    bulk.addEventListener("click", () => {
-      if (!window.confirm("Mark all " + left + " unscored items in this case irrelevant?")) return;
-      for (const g of groups) if (!(scores[g.gid] || {}).r) scores[g.gid] = { r: "irrelevant" };
-      state.dirty.add(doc.case_id);
-      queueSave();
-      renderCase();
-    });
-    body.appendChild(bulk);
-  }
+  const bulk = $("bulk");
+  bulk.hidden = left < 2;
+  bulk.textContent = "Mark remaining " + left + " irrelevant";
+  bulk.onclick = () => {
+    if (!window.confirm("Mark all " + left + " unscored items in this case irrelevant?")) return;
+    for (const g of groups) if (!(scores[g.gid] || {}).r) scores[g.gid] = { r: "irrelevant" };
+    state.dirty.add(doc.case_id);
+    queueSave();
+    renderCase();
+  };
 
   $("prog").innerHTML = "<b>" + scoredCount(doc.case_id) + "</b> / " + caseTotal(doc.case_id) + " in this case";
   $("bar").hidden = false;
