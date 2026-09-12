@@ -70,14 +70,24 @@ def group_queue(run_dir: Path) -> "OrderedDict[str, dict]":
                 if not taken[j] and _same(toks[i], toks[j]):
                     taken[j] = True
                     members.append(rows[j])
-            # show the fullest phrasing as the item, the others as variants, so the judge can see
-            # exactly what they are rating in one go
+            # Show the fullest phrasing as the item and the genuinely different wordings beneath it,
+            # so the judge can see exactly what they are rating. Wordings identical to the one shown
+            # -- two systems emitting the same string -- are dropped: printing "also worded as" above
+            # a copy of the line reads as a mistake, and the group marker already says it was merged.
             members.sort(key=lambda r: -len(r["item_text"]))
+            shown = members[0]["item_text"]
+            variants, seen = [], {" ".join(shown.lower().split())}
+            for m in members[1:]:
+                fingerprint = " ".join(m["item_text"].lower().split())
+                if fingerprint not in seen:
+                    seen.add(fingerprint)
+                    variants.append(m["item_text"])
             groups.append({
                 "gid": row["item_uid"],
                 "uids": [m["item_uid"] for m in members],
-                "text": members[0]["item_text"],
-                "variants": [m["item_text"] for m in members[1:]],
+                "text": shown,
+                "variants": variants,
+                "merged": len(members),
             })
         c["groups"] = groups
         c["n_groups"] = len(groups)
