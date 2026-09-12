@@ -88,6 +88,8 @@
   .rubric b{color:var(--ink)}
   .rubric-scale{margin:0;padding:11px 16px 14px;border-top:1px solid var(--rule);
                 font-size:.84rem;line-height:1.55;color:var(--muted);background:var(--sunk)}
+  .diag{font-family:"IBM Plex Mono",monospace;font-size:.7rem;color:var(--faint);margin:26px 0 0;
+        padding-top:10px;border-top:1px solid var(--rule);overflow-wrap:anywhere}
   .notice{background:var(--sunk);border-radius:5px;padding:15px 16px;margin:20px 0;color:var(--muted);font-size:.92rem}
   .notice b{color:var(--ink)}
   @media(max-width:430px){.btn{padding:0 12px;font-size:.82rem}}
@@ -130,6 +132,7 @@
   <div id="body">
     <div class="notice" id="boot">Connecting to the queue…</div>
   </div>
+  <div class="diag" id="diag"></div>
 </div>
 
 <div class="bar" hidden id="bar">
@@ -146,9 +149,10 @@
 const REL = ["relevant", "marginal", "irrelevant", "not an item"];
 const LABEL = {"relevant": "Relevant", "marginal": "Marginal", "irrelevant": "Irrelevant", "not an item": "Not an item"};
 const $ = (id) => document.getElementById(id);
-const state = { db: null, index: null, cases: {}, scores: {}, current: null, dirty: new Set(), timer: null };
+const state = { db: null, index: null, cases: {}, failed: {}, scores: {}, current: null,
+                dirty: new Set(), timer: null, armed: null };
 
-function say(html) { $("body").innerHTML = '<div class="notice">' + html + "</div>"; }
+function say(html) { $("body").innerHTML = '<div class="notice">' + html + "</div>"; renderDiag(); }
 
 function remember(k, v) { try { localStorage.setItem(k, v); } catch (e) { /* private window, blocked site data */ } }
 function recall(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
@@ -192,7 +196,29 @@ function renderCase() {
   const body = $("body");
   body.innerHTML = "";
   body.appendChild(renderCases());
-  if (!doc) { body.insertAdjacentHTML("beforeend", '<div class="notice">Loading this case…</div>'); return; }
+  if (!doc) {
+    const why = state.failed[state.current];
+    const box = document.createElement("div");
+    box.className = "notice";
+    if (why) {
+      box.innerHTML = "<b>This case did not load.</b> ";
+      box.appendChild(document.createTextNode(why));
+      const again = document.createElement("button");
+      again.className = "btn";
+      again.type = "button";
+      again.textContent = "Try again";
+      again.style.marginTop = "10px";
+      again.addEventListener("click", () => { delete state.failed[state.current]; renderCase(); loadCase(state.current); });
+      box.appendChild(document.createElement("br"));
+      box.appendChild(again);
+    } else {
+      box.textContent = "Loading this case…";
+    }
+    body.appendChild(box);
+    $("bulk").hidden = true;
+    renderDiag();
+    return;
+  }
 
   const ol = document.createElement("div");
   ol.className = "oneliner";
@@ -255,8 +281,13 @@ function renderCase() {
   const bulk = $("bulk");
   bulk.hidden = left < 2;
   bulk.textContent = "Mark remaining " + left + " irrelevant";
+  // Two taps rather than confirm(): the page runs in a sandboxed frame, where a modal is blocked
+  // and confirm() simply returns false, so the button appeared to do nothing at all.
+  bulk.setAttribute("aria-pressed", String(state.armed === doc.case_id));
+  if (state.armed === doc.case_id) bulk.textContent = "Tap again to confirm " + left;
   bulk.onclick = () => {
-    if (!window.confirm("Mark all " + left + " unscored items in this case irrelevant?")) return;
+    if (state.armed !== doc.case_id) { state.armed = doc.case_id; renderCase(); return; }
+    state.armed = null;
     for (const g of groups) if (!(scores[g.gid] || {}).r) scores[g.gid] = { r: "irrelevant" };
     state.dirty.add(doc.case_id);
     queueSave();
@@ -265,7 +296,19 @@ function renderCase() {
 
   $("prog").innerHTML = "<b>" + scoredCount(doc.case_id) + "</b> / " + caseTotal(doc.case_id) + " in this case";
   $("bar").hidden = false;
+  renderDiag();
   renderTotals();
+}
+
+function renderDiag() {
+  const d = $("diag");
+  if (!d) return;
+  const total = state.index ? state.index.cases.length : "?";
+  const bad = Object.keys(state.failed);
+  d.textContent = "store " + (state.db ? "connected" : "unavailable") + " · " +
+    Object.keys(state.cases).length + "/" + total + " cases loaded" +
+    (bad.length ? " · failed: " + bad.join(", ") : "") +
+    (state.lastError ? " · last error: " + state.lastError : "");
 }
 
 function score(caseId, uid, patch) {
@@ -295,6 +338,7 @@ async function flush() {
     $("save").textContent = "saved";
   } catch (e) {
     pending.forEach((c) => state.dirty.add(c));
+    state.lastError = (e && e.code ? e.code + ": " : "") + (e && e.message ? e.message : String(e));
     $("save").textContent = "save failed — retrying";
     setTimeout(flush, 4000);
   }
@@ -309,11 +353,21 @@ function openCase(caseId) {
 }
 
 async function loadCase(caseId) {
-  if (state.cases[caseId] || !state.db) return;
+  if (state.cases[caseId] || !state.db) return false;
   try {
     const snap = await state.db.doc("judging_queue/" + caseId).get();
-    if (snap.exists) { state.cases[caseId] = snap.data(); if (state.current === caseId) renderCase(); }
-  } catch (e) { /* leave the placeholder; the retry is re-tapping the chip */ }
+    if (!snap.exists) throw new Error("this case is not in the store");
+    state.cases[caseId] = snap.data();
+    delete state.failed[caseId];
+    if (state.current === caseId) renderCase(); else renderDiag();
+    return true;
+  } catch (e) {
+    // Never swallow this. A silent failure here renders as a permanent "Loading this case..."
+    // with tappable chips that do nothing, which is indistinguishable from the page being broken.
+    state.failed[caseId] = (e && e.code) ? e.code + ": " + (e.message || "") : String(e && e.message || e);
+    if (state.current === caseId) renderCase(); else renderDiag();
+    return false;
+  }
 }
 
 function step(delta) {
@@ -346,21 +400,39 @@ async function start() {
       const body = d.data();
       if (body && body.scores) state.scores[body.case_id || d.id] = body.scores;
     }
-  } catch (e) { /* first visit, or scores unreadable: start from empty rather than blocking */ }
+  } catch (e) {
+    // Do NOT carry on with an empty score set. Saving writes the whole case document, so scoring
+    // on top of scores we failed to read would overwrite work already done. A reload is cheap.
+    say("<b>Could not read the scores already saved.</b> " + (e && e.message ? e.message : "Unknown error") +
+        "<br>Scoring is disabled until this loads, because saving would overwrite what is already " +
+        "there. Reopen the link to try again.");
+    return;
+  }
 
   const wanted = recall("bb_judge_case");
   const ids = state.index.cases.map((c) => c.case_id);
   state.current = ids.includes(wanted) ? wanted : ids[0];
   renderCase();
-  for (const id of ids) loadCase(id);
+  // One at a time, current case first. Twelve concurrent reads on open is what a rate limit or a
+  // per-call consent gate rejects, and the rejection used to be invisible.
+  await loadCase(state.current);
+  (async () => { for (const id of ids) if (id !== state.current) await loadCase(id); })();
   $("save").textContent = "saved";
 }
 
 $("prev").addEventListener("click", () => step(-1));
 $("next").addEventListener("click", () => step(1));
 window.addEventListener("error", (e) => {
+  state.lastError = e.message || "unknown";
   const b = $("boot");
-  if (b) b.innerHTML = "<b>This page hit an error while starting.</b> " + (e.message || "") ;
+  if (b) b.innerHTML = "<b>This page hit an error while starting.</b> " + (e.message || "");
+  const d = $("diag");
+  if (d) d.textContent = "error: " + (e.message || "unknown");
+});
+window.addEventListener("unhandledrejection", (e) => {
+  state.lastError = (e.reason && e.reason.message) ? e.reason.message : String(e.reason);
+  const d = $("diag");
+  if (d) d.textContent = "unhandled rejection: " + state.lastError;
 });
 start();
 </script>
