@@ -192,6 +192,20 @@ function renderCases() {
 }
 
 function renderCase() {
+  try { renderCaseInner(); } catch (e) {
+    // A throw here used to leave a half-built page: chips drawn, rows missing, taps doing nothing.
+    state.lastError = "render: " + ((e && e.message) ? e.message : String(e));
+    record("render_threw", {caseId: state.current, error: state.lastError,
+                            stack: (e && e.stack) ? String(e.stack).slice(0, 700) : null});
+    const b = $("body");
+    b.innerHTML = '<div class="notice"><b>This case could not be drawn.</b> ' +
+      (state.lastError.replace(/[<>&]/g, "")) + '<br>The fault is in the page, not your taps. ' +
+      'It has been recorded.</div>';
+    renderDiag();
+  }
+}
+
+function renderCaseInner() {
   const doc = state.cases[state.current];
   const body = $("body");
   body.innerHTML = "";
@@ -353,10 +367,30 @@ async function flush() {
 
 function openCase(caseId) {
   state.current = caseId;
+  record("case_opened", {caseId: caseId, already_loaded: !!state.cases[caseId],
+                         groups: state.cases[caseId] ? (state.cases[caseId].groups || []).length : null});
   remember("bb_judge_case", caseId);
   renderCase();
   window.scrollTo({ top: 0 });
   loadCase(caseId);
+}
+
+async function record(event, detail) {
+  try {
+    if (!state.db) return;
+    const id = String(Date.now()) + "-" + Math.random().toString(36).slice(2, 7);
+    await state.db.doc("judging_diag/" + id).set({
+      at: new Date().toISOString(),
+      event: event,
+      detail: detail || null,
+      case: state.current || null,
+      ua: navigator.userAgent,
+      screen: window.innerWidth + "x" + window.innerHeight,
+      cases_loaded: Object.keys(state.cases),
+      cases_failed: state.failed,
+      score_cases: Object.keys(state.scores),
+    });
+  } catch (e) { /* the recorder must never be the reason a page fails */ }
 }
 
 const BACKOFF = [400, 1200, 3600];  // a rate limit is transient; do not make the reader notice it
@@ -387,6 +421,7 @@ async function loadCase(caseId) {
   // tappable chips that do nothing, which is indistinguishable from the page being broken.
   delete state.loading[caseId];
   state.failed[caseId] = last + " (after " + (BACKOFF.length + 1) + " attempts)";
+  record("case_read_failed", {caseId: caseId, error: last});
   if (state.current === caseId) renderCase(); else renderDiag();
   return false;
 }
@@ -430,6 +465,8 @@ async function start() {
     return;
   }
 
+  record("page_opened", {index_cases: state.index.cases.length,
+                         score_docs: Object.keys(state.scores).length});
   const wanted = recall("bb_judge_case");
   const ids = state.index.cases.map((c) => c.case_id);
   state.current = ids.includes(wanted) ? wanted : ids[0];
