@@ -20,7 +20,14 @@ from eval.cases import CaseInput, load_cases
 from eval.item_parser import strip_formatting
 
 CSV_COLUMNS = ["item_uid", "case_id", "presentation", "input_oneliner", "item_text", "relevance", "safety"]
-RELEVANCE = ("relevant", "marginal", "irrelevant")
+# "not an item" is the judge's own escape hatch, not a relevance grade. A free-text arm's output
+# contains section headers, citation lines and commentary that the item parser cannot always split
+# out ("Collins SP, et al. JAMA. 2020;324(5):486-499"), and rating those for clinical relevance is
+# meaningless. The deterministic classifier cannot be trusted to find them -- its `unclassified`
+# bucket also holds real recommendations it failed to place ("Cerebellar: finger-nose-finger, heel-
+# shin") -- so the judge marks them and they leave the relevance denominator, reported separately.
+RELEVANCE = ("relevant", "marginal", "irrelevant", "not an item")
+JUDGED_RELEVANCE = ("relevant", "marginal", "irrelevant")  # the grades; excludes the escape hatch
 SAFETY = ("flag", "no flag")
 
 

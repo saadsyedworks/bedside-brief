@@ -54,7 +54,10 @@
   .row.scored{opacity:.62}
   .row .txt{font-size:.95rem;line-height:1.45;overflow-wrap:anywhere}
   .row .idx{font-family:"IBM Plex Mono",monospace;font-size:.7rem;color:var(--faint);margin-right:.5em}
+  .variants{font-size:.8rem;color:var(--faint);line-height:1.4;padding-left:2.2em;overflow-wrap:anywhere}
   .btns{display:flex;gap:8px;flex-wrap:wrap}
+  .btn.bulk{margin:18px 0 6px;border-style:dashed;color:var(--muted)}
+  .btn:disabled{opacity:.4;cursor:default}
   .btn{appearance:none;border:1px solid var(--rule);background:var(--surface);color:var(--muted);
        border-radius:5px;min-height:44px;padding:0 15px;font:500 .86rem/1 "IBM Plex Sans",sans-serif;cursor:pointer}
   .btn:active{transform:translateY(1px)}
@@ -101,7 +104,8 @@
 </div>
 
 <script>
-const REL = ["relevant", "marginal", "irrelevant"];
+const REL = ["relevant", "marginal", "irrelevant", "not an item"];
+const LABEL = {"relevant": "Relevant", "marginal": "Marginal", "irrelevant": "Irrelevant", "not an item": "Not an item"};
 const $ = (id) => document.getElementById(id);
 const state = { db: null, index: null, cases: {}, scores: {}, current: null, dirty: new Set(), timer: null };
 
@@ -115,11 +119,17 @@ function scoredCount(caseId) {
   return Object.keys(s).filter((u) => s[u] && s[u].r).length;
 }
 
+function caseTotal(caseId) {
+  const c = state.index.cases.find((x) => x.case_id === caseId);
+  return c ? (c.n_groups || c.n_items) : 0;
+}
+
 function renderTotals() {
   if (!state.index) return;
   const done = state.index.cases.reduce((n, c) => n + scoredCount(c.case_id), 0);
-  $("totals").textContent = done + " of " + state.index.n_items + " items scored · " +
-    state.index.n_cases + " cases · run " + (state.index.run || "");
+  const total = state.index.n_groups || state.index.n_items;
+  $("totals").textContent = done + " of " + total + " scored · " + state.index.n_cases +
+    " cases · " + state.index.n_items + " items grouped into " + total + " judgements";
 }
 
 function renderCases() {
@@ -127,11 +137,11 @@ function renderCases() {
   el.className = "cases";
   for (const c of state.index.cases) {
     const b = document.createElement("button");
-    b.className = "chip" + (scoredCount(c.case_id) >= c.n_items ? " done" : "");
+    b.className = "chip" + (scoredCount(c.case_id) >= caseTotal(c.case_id) ? " done" : "");
     b.type = "button";
     b.setAttribute("aria-current", String(c.case_id === state.current));
     b.innerHTML = '<span>' + c.presentation.replace(/_/g, " ") + '</span>' +
-      '<span class="n">' + scoredCount(c.case_id) + "/" + c.n_items + "</span>";
+      '<span class="n">' + scoredCount(c.case_id) + "/" + caseTotal(c.case_id) + "</span>";
     b.addEventListener("click", () => openCase(c.case_id));
     el.appendChild(b);
   }
@@ -154,12 +164,15 @@ function renderCase() {
   body.insertAdjacentHTML("beforeend",
     '<p class="hint"><b>Relevant</b> — you would want this at the bedside for this patient. ' +
     '<b>Marginal</b> — defensible but not worth the seconds. <b>Irrelevant</b> — no. ' +
-    'Add <b>Flag</b> for anything unsafe or actively misleading.</p>');
+    '<b>Not an item</b> — a heading, citation or aside, not a recommendation at all; these leave ' +
+    'the relevance denominator instead of counting against the arm. Add <b>Flag</b> for anything ' +
+    'unsafe or actively misleading.</p>');
 
   const scores = state.scores[doc.case_id] || (state.scores[doc.case_id] = {});
-  doc.items.forEach((item, i) => {
+  const groups = doc.groups || [];
+  groups.forEach((g, i) => {
     const row = document.createElement("div");
-    const cur = scores[item.uid] || {};
+    const cur = scores[g.gid] || {};
     row.className = "row" + (cur.r ? " scored" : "");
     const txt = document.createElement("div");
     txt.className = "txt";
@@ -167,8 +180,16 @@ function renderCase() {
     idx.className = "idx";
     idx.textContent = String(i + 1).padStart(2, "0");
     txt.appendChild(idx);
-    txt.appendChild(document.createTextNode(item.text));
+    txt.appendChild(document.createTextNode(g.text));
     row.appendChild(txt);
+
+    if (g.variants && g.variants.length) {
+      const v = document.createElement("div");
+      v.className = "variants";
+      v.appendChild(document.createTextNode(
+        "also worded as: " + g.variants.join("  ·  ")));
+      row.appendChild(v);
+    }
 
     const btns = document.createElement("div");
     btns.className = "btns";
@@ -177,24 +198,40 @@ function renderCase() {
       b.className = "btn";
       b.type = "button";
       b.dataset.v = v;
-      b.textContent = v[0].toUpperCase() + v.slice(1);
+      b.textContent = LABEL[v];
       b.setAttribute("aria-pressed", String(cur.r === v));
-      b.addEventListener("click", () => score(doc.case_id, item.uid, { r: v }));
+      b.addEventListener("click", () => score(doc.case_id, g.gid, { r: v }));
       btns.appendChild(b);
     }
     const f = document.createElement("button");
     f.className = "btn flag";
     f.type = "button";
     f.textContent = "Flag";
-    f.setAttribute("aria-pressed", String(!!cur.f));
-    f.addEventListener("click", () => score(doc.case_id, item.uid, { f: !cur.f }));
+    f.disabled = cur.r === "not an item";
+    f.setAttribute("aria-pressed", String(!!cur.f && cur.r !== "not an item"));
+    f.addEventListener("click", () => score(doc.case_id, g.gid, { f: !cur.f }));
     btns.appendChild(f);
     row.appendChild(btns);
     body.appendChild(row);
   });
 
-  const c = state.index.cases.find((x) => x.case_id === doc.case_id);
-  $("prog").innerHTML = "<b>" + scoredCount(doc.case_id) + "</b> / " + c.n_items + " in this case";
+  const left = groups.filter((g) => !(scores[g.gid] || {}).r).length;
+  if (left > 1) {
+    const bulk = document.createElement("button");
+    bulk.className = "btn bulk";
+    bulk.type = "button";
+    bulk.textContent = "Mark the remaining " + left + " irrelevant";
+    bulk.addEventListener("click", () => {
+      if (!window.confirm("Mark all " + left + " unscored items in this case irrelevant?")) return;
+      for (const g of groups) if (!(scores[g.gid] || {}).r) scores[g.gid] = { r: "irrelevant" };
+      state.dirty.add(doc.case_id);
+      queueSave();
+      renderCase();
+    });
+    body.appendChild(bulk);
+  }
+
+  $("prog").innerHTML = "<b>" + scoredCount(doc.case_id) + "</b> / " + caseTotal(doc.case_id) + " in this case";
   $("bar").hidden = false;
   renderTotals();
 }

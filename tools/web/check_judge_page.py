@@ -36,12 +36,14 @@ with sync_playwright() as p:
     print("totals:", pg.text_content("#totals"))
     print("case chips:", pg.locator(".chip").count())
     print("rows rendered:", pg.locator(".row").count())
+    print("groups with variants:", pg.locator(".variants").count())
+    print("bulk button:", pg.locator("button.bulk").count())
     print("one-liner:", (pg.text_content(".oneliner p") or "")[:78])
     print("bar visible:", pg.locator("#bar").is_visible())
 
     # score the first three items, flag one
-    for i, v in enumerate(["Relevant", "Marginal", "Irrelevant"]):
-        pg.locator(".row").nth(i).locator(f'button[data-v="{v.lower()}"]').click()
+    for i, v in enumerate(["relevant", "marginal", "irrelevant", "not an item"]):
+        pg.locator(".row").nth(i).locator(f'button[data-v="{v}"]').click()
         pg.wait_for_timeout(60)
     pg.locator(".row").nth(0).locator("button.flag").click()
     pg.wait_for_timeout(1200)

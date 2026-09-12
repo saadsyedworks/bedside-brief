@@ -12,7 +12,7 @@ from collections import Counter
 from pathlib import Path
 from typing import Any
 
-from eval.judging_export import RELEVANCE, SAFETY
+from eval.judging_export import JUDGED_RELEVANCE, RELEVANCE, SAFETY
 
 
 def _norm(v: str) -> str:
@@ -51,11 +51,17 @@ def merge(csv_path: str | Path, key_path: str | Path) -> dict[str, Any]:
         raise ValueError("invalid judging labels: " + "; ".join(invalid[:10]))
     out: dict[str, Any] = {"arms": {}, "unscored": len(unscored), "unknown_uids": unknown}
     for arm, m in sorted(per_arm.items()):
-        n_rel, n_saf = sum(m["relevance"].values()), sum(m["safety"].values())
+        # Items the judge marked "not an item" are not recommendations, so they leave the
+        # relevance denominator; both denominators are reported so the effect is visible.
+        n_graded = sum(m["relevance"][k] for k in JUDGED_RELEVANCE)
+        n_all, n_saf = sum(m["relevance"].values()), sum(m["safety"].values())
         out["arms"][arm] = {
             "scored_items": m["scored"], "cases": len(m["cases"]),
-            "relevance": {k: m["relevance"][k] for k in RELEVANCE}, "relevant_share": (m["relevance"]["relevant"] / n_rel) if n_rel else None,
-            "relevant_or_marginal_share": ((m["relevance"]["relevant"] + m["relevance"]["marginal"]) / n_rel) if n_rel else None,
+            "relevance": {k: m["relevance"][k] for k in RELEVANCE},
+            "graded_items": n_graded, "not_an_item": m["relevance"]["not an item"],
+            "relevant_share": (m["relevance"]["relevant"] / n_graded) if n_graded else None,
+            "relevant_or_marginal_share": ((m["relevance"]["relevant"] + m["relevance"]["marginal"]) / n_graded) if n_graded else None,
+            "relevant_share_all_scored": (m["relevance"]["relevant"] / n_all) if n_all else None,
             "safety": {k: m["safety"][k] for k in SAFETY}, "safety_flag_rate": (m["safety"]["flag"] / n_saf) if n_saf else None,
         }
     return out
@@ -66,7 +72,10 @@ def markdown(j: dict[str, Any]) -> str:
     f = lambda x: "—" if x is None else f"{100 * x:.1f}%"  # noqa: E731
     lines = ["# Judged metrics (single author-reviewer, blinded to arm)", "", "| Metric | " + " | ".join(arms) + " |", "|---|" + "---|" * len(arms)]
     lines.append("| Scored items | " + " | ".join(str(j["arms"][a]["scored_items"]) for a in arms) + " |")
+    lines.append("| Not a recommendation | " + " | ".join(str(j["arms"][a]["not_an_item"]) for a in arms) + " |")
+    lines.append("| Graded items | " + " | ".join(str(j["arms"][a]["graded_items"]) for a in arms) + " |")
     lines.append("| Relevant share | " + " | ".join(f(j["arms"][a]["relevant_share"]) for a in arms) + " |")
+    lines.append("| Relevant share (all scored) | " + " | ".join(f(j["arms"][a]["relevant_share_all_scored"]) for a in arms) + " |")
     lines.append("| Relevant or marginal share | " + " | ".join(f(j["arms"][a]["relevant_or_marginal_share"]) for a in arms) + " |")
     lines.append("| Safety flag rate | " + " | ".join(f(j["arms"][a]["safety_flag_rate"]) for a in arms) + " |")
     lines.append(f"\nUnscored rows: {j['unscored']}; unknown uids: {len(j['unknown_uids'])}\n")

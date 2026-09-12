@@ -3,7 +3,10 @@
   python3 tools/pull_judging.py <scores_dir> <run_dir> [--dry-run]
 
 `scores_dir` is what `Artifact action=read_db collection=judging_scores out_dir=...` writes: one
-JSON per case, {case_id, scores: {item_uid: {r, f}}, at}. Relevance comes from `r`; `safety` is
+JSON per case, {case_id, scores: {group_id: {r, f}}, at}. The page rates one group per distinct
+recommendation, so each score is expanded to every queue row in that group -- the grouping is
+recomputed from the queue by tools.seed_judging.group_queue, which is deterministic, rather than
+trusted from a seed directory. Relevance comes from `r`; `safety` is
 written as "flag" where `f` is true and "no flag" for every other scored item, because the page
 asks for a flag only when there is something to flag -- an unflagged item that was scored for
 relevance was seen and judged safe, which is not the same as unscored.
@@ -18,8 +21,12 @@ import json
 import sys
 from pathlib import Path
 
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from eval.judging_export import RELEVANCE  # noqa: E402
+from tools.seed_judging import group_queue  # noqa: E402
+
 FIELDS = ("item_uid", "case_id", "presentation", "input_oneliner", "item_text", "relevance", "safety")
-RELEVANCE = ("relevant", "marginal", "irrelevant")
 
 
 def load_scores(scores_dir: Path) -> dict[str, dict]:
@@ -46,10 +53,17 @@ def main(scores_dir: Path, run_dir: Path, dry: bool) -> int:
         print(f"no scores found in {scores_dir}")
         return 1
 
+    # gid -> every queue row the judge's one tap covers
+    expand: dict[str, str] = {}
+    for case in group_queue(run_dir).values():
+        for g in case["groups"]:
+            for uid in g["uids"]:
+                expand[uid] = g["gid"]
+
     rows = list(csv.DictReader(queue.open(newline="")))
     filled = flagged = bad = 0
     for row in rows:
-        s = scores.get(row["item_uid"])
+        s = scores.get(expand.get(row["item_uid"], row["item_uid"]))
         if not s:
             continue
         rel = str(s.get("r") or "").strip().lower()
@@ -60,12 +74,14 @@ def main(scores_dir: Path, run_dir: Path, dry: bool) -> int:
             bad += 1
             continue
         row["relevance"] = rel
-        row["safety"] = "flag" if s.get("f") else "no flag"
+        # a "not an item" row is not a recommendation, so a safety verdict on it means nothing
+        row["safety"] = "" if rel == "not an item" else ("flag" if s.get("f") else "no flag")
         filled += 1
         flagged += bool(s.get("f"))
 
-    print(f"{filled} of {len(rows)} rows scored ({flagged} flagged, {bad} invalid, "
-          f"{len(rows) - filled - bad} still blank)")
+    groups = len({expand.get(r["item_uid"], r["item_uid"]) for r in rows if r.get("relevance")})
+    print(f"{filled} of {len(rows)} rows scored from {groups} judgements "
+          f"({flagged} flagged, {bad} invalid, {len(rows) - filled - bad} still blank)")
     if dry:
         print("(dry run: nothing written)")
         return 0
