@@ -65,6 +65,15 @@ h2 { font-family: "DejaVu Sans", sans-serif; font-size: 11.5pt; margin: 0; font-
 """
 
 
+def case_order(run_dir: Path) -> list[str]:
+    """Cases in the order they first appear in the queue, which is the packet's page order."""
+    order: list[str] = []
+    for r in csv.DictReader((run_dir / "judging_queue.csv").open()):
+        if r["case_id"] not in order:
+            order.append(r["case_id"])
+    return order
+
+
 def affected(rows: list[dict], run_dir: Path, order: list[str]) -> dict[str, list[dict]]:
     cases = group_queue(run_dir)
     uid_where = {r["item_uid"]: (r["case_id"], r["item_text"])
@@ -137,11 +146,7 @@ def main(rows_path: Path, run_dir: Path, out_pdf: Path) -> int:
     rows = json.loads(rows_path.read_text())
     # The packet's case order is the order the cases first appear in the queue, which is what
     # group_queue and the seeded index both preserve.
-    order: list[str] = []
-    for r in csv.DictReader((run_dir / "judging_queue.csv").open()):
-        if r["case_id"] not in order:
-            order.append(r["case_id"])
-    picked = affected(rows, run_dir, order)
+    picked = affected(rows, run_dir, case_order(run_dir))
     page = out_pdf.with_suffix(".html")
     page.write_text(build_html(picked, run_dir))
     subprocess.run([CHROMIUM, "--headless", "--disable-gpu", "--no-sandbox", "--no-pdf-header-footer",

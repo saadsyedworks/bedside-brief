@@ -1,0 +1,66 @@
+{
+ "arms": {
+  "A": {
+   "cases": 12,
+   "graded_items": 72,
+   "not_an_item": 1,
+   "relevance": {
+    "irrelevant": 1,
+    "marginal": 19,
+    "not an item": 1,
+    "relevant": 52
+   },
+   "relevant_or_marginal_share": 0.9861111111111112,
+   "relevant_share": 0.7222222222222222,
+   "relevant_share_all_scored": 0.7123287671232876,
+   "safety": {
+    "flag": 1,
+    "no flag": 71
+   },
+   "safety_flag_rate": 0.013888888888888888,
+   "scored_items": 73
+  },
+  "B": {
+   "cases": 12,
+   "graded_items": 95,
+   "not_an_item": 0,
+   "relevance": {
+    "irrelevant": 14,
+    "marginal": 24,
+    "not an item": 0,
+    "relevant": 57
+   },
+   "relevant_or_marginal_share": 0.8526315789473684,
+   "relevant_share": 0.6,
+   "relevant_share_all_scored": 0.6,
+   "safety": {
+    "flag": 5,
+    "no flag": 90
+   },
+   "safety_flag_rate": 0.05263157894736842,
+   "scored_items": 95
+  },
+  "C": {
+   "cases": 12,
+   "graded_items": 283,
+   "not_an_item": 74,
+   "relevance": {
+    "irrelevant": 13,
+    "marginal": 59,
+    "not an item": 74,
+    "relevant": 211
+   },
+   "relevant_or_marginal_share": 0.9540636042402827,
+   "relevant_share": 0.7455830388692579,
+   "relevant_share_all_scored": 0.5910364145658263,
+   "safety": {
+    "flag": 0,
+    "no flag": 283
+   },
+   "safety_flag_rate": 0.0,
+   "scored_items": 357
+  }
+ },
+ "unknown_uids": [],
+ "unscored": 0
+}
