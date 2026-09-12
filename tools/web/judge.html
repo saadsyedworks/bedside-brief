@@ -149,7 +149,7 @@
 const REL = ["relevant", "marginal", "irrelevant", "not an item"];
 const LABEL = {"relevant": "Relevant", "marginal": "Marginal", "irrelevant": "Irrelevant", "not an item": "Not an item"};
 const $ = (id) => document.getElementById(id);
-const state = { db: null, index: null, cases: {}, failed: {}, scores: {}, current: null,
+const state = { db: null, index: null, cases: {}, failed: {}, loading: {}, scores: {}, current: null,
                 dirty: new Set(), timer: null, armed: null };
 
 function say(html) { $("body").innerHTML = '<div class="notice">' + html + "</div>"; renderDiag(); }
@@ -200,7 +200,9 @@ function renderCase() {
     const why = state.failed[state.current];
     const box = document.createElement("div");
     box.className = "notice";
-    if (why) {
+    if (why && why.indexOf("retrying") === 0) {
+      box.textContent = "Loading this case… " + why;
+    } else if (why) {
       box.innerHTML = "<b>This case did not load.</b> ";
       box.appendChild(document.createTextNode(why));
       const again = document.createElement("button");
@@ -208,7 +210,12 @@ function renderCase() {
       again.type = "button";
       again.textContent = "Try again";
       again.style.marginTop = "10px";
-      again.addEventListener("click", () => { delete state.failed[state.current]; renderCase(); loadCase(state.current); });
+      again.addEventListener("click", () => {
+        delete state.failed[state.current];
+        delete state.loading[state.current];
+        renderCase();
+        loadCase(state.current);
+      });
       box.appendChild(document.createElement("br"));
       box.appendChild(again);
     } else {
@@ -352,22 +359,36 @@ function openCase(caseId) {
   loadCase(caseId);
 }
 
+const BACKOFF = [400, 1200, 3600];  // a rate limit is transient; do not make the reader notice it
+
 async function loadCase(caseId) {
-  if (state.cases[caseId] || !state.db) return false;
-  try {
-    const snap = await state.db.doc("judging_queue/" + caseId).get();
-    if (!snap.exists) throw new Error("this case is not in the store");
-    state.cases[caseId] = snap.data();
-    delete state.failed[caseId];
-    if (state.current === caseId) renderCase(); else renderDiag();
-    return true;
-  } catch (e) {
-    // Never swallow this. A silent failure here renders as a permanent "Loading this case..."
-    // with tappable chips that do nothing, which is indistinguishable from the page being broken.
-    state.failed[caseId] = (e && e.code) ? e.code + ": " + (e.message || "") : String(e && e.message || e);
-    if (state.current === caseId) renderCase(); else renderDiag();
-    return false;
+  if (state.cases[caseId] || !state.db || state.loading[caseId]) return false;
+  state.loading[caseId] = true;
+  let last = null;
+  for (let attempt = 0; attempt <= BACKOFF.length; attempt++) {
+    if (attempt) {
+      state.failed[caseId] = "retrying (" + attempt + " of " + BACKOFF.length + ")…";
+      if (state.current === caseId) renderCase(); else renderDiag();
+      await new Promise((r) => setTimeout(r, BACKOFF[attempt - 1]));
+    }
+    try {
+      const snap = await state.db.doc("judging_queue/" + caseId).get();
+      if (!snap.exists) throw new Error("this case is not in the store");
+      state.cases[caseId] = snap.data();
+      delete state.failed[caseId];
+      delete state.loading[caseId];
+      if (state.current === caseId) renderCase(); else renderDiag();
+      return true;
+    } catch (e) {
+      last = (e && e.code) ? e.code + ": " + (e.message || "") : String((e && e.message) || e);
+    }
   }
+  // Never swallow this. A silent failure here renders as a permanent "Loading this case..." with
+  // tappable chips that do nothing, which is indistinguishable from the page being broken.
+  delete state.loading[caseId];
+  state.failed[caseId] = last + " (after " + (BACKOFF.length + 1) + " attempts)";
+  if (state.current === caseId) renderCase(); else renderDiag();
+  return false;
 }
 
 function step(delta) {
@@ -415,8 +436,10 @@ async function start() {
   renderCase();
   // One at a time, current case first. Twelve concurrent reads on open is what a rate limit or a
   // per-call consent gate rejects, and the rejection used to be invisible.
+  // Cases load when opened. Prefetching all twelve only bought instant chip-switching, at the cost
+  // of a burst of reads on open -- which is what a rate limit rejects, and the first background read
+  // (order 1) is the one that failed on the owner's iPad.
   await loadCase(state.current);
-  (async () => { for (const id of ids) if (id !== state.current) await loadCase(id); })();
   $("save").textContent = "saved";
 }
 
